@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-30T21:38:13.662Z",
+  "checkedAt": "2026-10-30T22:30:59.848Z",
   "repository": "EnsobyShuffle/Somm100",
   "branch": "main",
-  "baseCommit": "51e83c08adce61e6db2355f3b7dfb51c0af9e1c7",
+  "baseCommit": "48536f83c128c9fd200642f9053b93abce1b9a63",
   "netlifyProject": "somm100",
   "siteUrl": "https://somm100.netlify.app/",
   "netlifyDashboard": "https://app.netlify.com/projects/somm100/deploys",
@@ -11,21 +11,21 @@
   "publishing": {
     "autoPublishMain": true,
     "status": "blocked_by_netlify_credits",
-    "evidence": "2026-10-31 05:35 CST Netlify Deploys: production main@51e83c0 skipped due to account credit usage exceeded; published remains fdae698. Trigger deploy disabled. Prior PR #1 preview completed, not production.",
+    "evidence": "2026-10-31 06:29 CST Netlify Deploys: production main@48536f8 and main@51e83c0 both skipped due to account credit usage exceeded; published remains fdae698. Production deploys paused; main auto publishing on.",
     "newContentLiveVerified": false,
     "instruction": "Check the original project's current state. Do not buy/upgrade, create a replacement site, or claim live from a Git commit alone. Once publishing is available, publish through this existing main-to-Netlify workflow and verify creator pages.",
     "previewUrl": "https://6ae50124544fba545f1793a6--somm100.netlify.app/#videos?creator=nora",
-    "previewVerifiedScope": "Previous 33-video preview only: account directory opens, Nora list shows 7 videos and screenshot confirms original covers render. This run's 6 additional videos are not in that preview."
+    "previewVerifiedScope": "Previous 33-video PR #1 preview only: account directory, Nora 7-video list and original cover rendering verified in prior run. Current 48-video catalog not production-verified."
   },
   "catalog": {
     "legacyFile": "data/video-library.json",
     "legacyVideoCount": 25,
     "additionsFile": "data/wine-channel.json",
-    "addedVideoCount": 14,
-    "combinedCuratedCount": 39,
-    "newOriginalCovers": 16,
-    "noraNew": 11,
-    "noraTotal": 13,
+    "addedVideoCount": 23,
+    "combinedCuratedCount": 48,
+    "newOriginalCovers": 25,
+    "noraNew": 20,
+    "noraTotal": 22,
     "bingkeNew": 3,
     "bingkeTotal": 3,
     "playbackVerified": false,
@@ -47,18 +47,28 @@
     "BV1Gd6KBrESG",
     "BV1HdjE6vEAj",
     "BV1phZfBJEsn",
-    "BV1uMyPBzEUf"
+    "BV1uMyPBzEUf",
+    "BV1DgUkBxEJn",
+    "BV1YNVK63EcN",
+    "BV1TzKD63EY1",
+    "BV1KcmxBvEwT",
+    "BV1tQdbBiE5k",
+    "BV18zroB7ES9",
+    "BV1GfiLBREsj",
+    "BV1RNkzB6Eht",
+    "BV1ySqEBHEwS"
   ],
   "next": [
     {
       "creatorId": "nora",
       "uid": "506969146",
       "bvids": [
-        "BV1DgUkBxEJn",
-        "BV1YNVK63EcN",
-        "BV1TzKD63EY1"
+        "BV1pdL26LEfP",
+        "BV1QH5n6UEeH",
+        "BV1RVFnzPEJR",
+        "BV1Ppp3z2EaC"
       ],
-      "task": "Candidates observed on Nora original video related links; verify original author, title, cover and player before addition."
+      "task": "Candidates observed in verified Nora original-page related links; verify author UID before accepting (related links can include other creators). Nora catalog not exhaustive."
     },
     {
       "creatorId": "bingke",
@@ -71,33 +81,54 @@
     },
     {
       "creatorId": "miki",
-      "task": "Identity pending. Consult current Sourcebook and user-approved history. Do not guess account."
+      "task": "Current Sourcebook and Inventory both list this account. Verify live author identity and documentary-specific original sources before adding; user speech Miki is not independent live account verification.",
+      "candidateName": "Mickey米老师",
+      "candidateUrl": "https://space.bilibili.com/26124055/"
     },
     {
       "creatorId": "somehouse",
-      "task": "Own publisher identity pending. Preserve personal own-content links; do not substitute another creator."
+      "task": "Current Inventory still lists precise SOMMHOUSE account ownership pending, with 11 historical Youdao links. Locate and verify those links before adding; do not guess UID."
     }
   ],
   "sourceEvidence": "research/wine-channel-source-verification-20261031.json",
   "validationNotes": "See docs/wine-channel-20261031.md. Original Bilibili metadata was read; actual playback and post-deploy mobile visual QA remain unverified.",
   "lastRun": {
     "added": [
-      "BV1k8Hx6PETU",
-      "BV1pqbn6zEpM",
-      "BV12ruq6GESw",
-      "BV1NnEt6MExJ",
-      "BV1Gd6KBrESG",
-      "BV1HdjE6vEAj"
+      "BV1DgUkBxEJn",
+      "BV1YNVK63EcN",
+      "BV1TzKD63EY1",
+      "BV1KcmxBvEwT",
+      "BV1tQdbBiE5k",
+      "BV18zroB7ES9",
+      "BV1GfiLBREsj",
+      "BV1RNkzB6Eht",
+      "BV1ySqEBHEwS"
     ],
-    "enrichedExisting": [
-      "bili-nora-cotes",
-      "bili-nora-lamy"
-    ],
+    "enrichedExisting": [],
     "newAuthors": 0,
-    "total": 39,
-    "tests": "3 existing data/source tests pass; also checked all original IDs preserved, untouched records identical, old-video cover evidence matches, 39 unique BV IDs. Data-only update; no new full application build.",
+    "total": 48,
+    "lastCreatorId": "nora",
+    "lastBvid": "BV1ySqEBHEwS",
+    "tests": "3 existing data/source tests pass. Previous 14 additions preserved byte-equivalent as JSON objects; 25 legacy links untouched. 48 distinct BV IDs, all 9 new original pages identify Nora UID 506969146. Data-only update; no new full application build.",
     "productionLive": false,
     "fullPlaybackTested": false,
-    "mobileVisualTested": false
-  }
+    "mobileVisualTested": false,
+    "submissionStatus": "Prepared on a branch for a single PR merge; use GitHub PR/commit history for final merged SHA."
+  },
+  "sourcebooksRead": [
+    {
+      "libraryFileId": "libfile_4195d9da01cc8191b2299c44a209cc68",
+      "name": "Wine_Channel_Sourcebook_2026-10-25.xlsx",
+      "versionId": "1",
+      "readAt": "2026-10-30T22:30:59.848Z",
+      "scope": "Full current text read; Inventory continued through line 309. Source pool does not imply approved authors or rights."
+    },
+    {
+      "libraryFileId": "libfile_739586147c14819189cbf49c52f31faa",
+      "name": "Dante_Video_Team_Inventory_2026-10-28.xlsx",
+      "versionId": null,
+      "readAt": "2026-10-30T22:30:59.848Z",
+      "scope": "Full current text read; Inventory continued through line 309. Source pool does not imply approved authors or rights."
+    }
+  ]
 }
