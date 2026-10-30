@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-25",
+  "checkedAt": "2026-10-31",
   "collectionTitle": "SOMM100 Wine Channel 学习视频候选",
-  "verificationSummary": "共25条（原8条 + 新17条）真实B站视频地址，元数据由原平台搜索索引核对；未播放和逐段审看。部分原页直读返回412；学习用途是编辑建议，不是质量终审。",
+  "verificationSummary": "共25条（原8条 + 新17条）真实B站视频地址，元数据由原平台搜索索引核对；未播放和逐段审看。部分原页直读返回412；学习用途是编辑建议，不是质量终审。 2026-10-31：两条已有 Nora 视频已由原视频页补齐封面、时长、日期与播放器元数据；保留原ID，未新增重复条目。",
   "deliveryMode": "external-link",
   "rightsNote": "仅原平台外链，不下载、复制、转传视频。",
   "videos": [
@@ -766,8 +766,7 @@
       "topic": "regions",
       "topicLabel": "国家与产区",
       "tags": [
-        "国家与产区",
-        "nora的葡萄酒世界"
+        "Burgundy"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -780,17 +779,19 @@
       "sourceType": "third_party_video",
       "officialCms": false,
       "verification": {
-        "metadata": "search_index_verified",
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
         "playbackTested": false,
-        "fullContentReviewed": false,
-        "checkedAt": "2026-10-25",
-        "sourceRefs": [
-          "turn31search4"
-        ],
-        "evidenceUrl": "https://www.bilibili.com/video/BV1phZfBJEsn/",
-        "directRead": "not_attempted"
+        "fullContentReviewed": false
       },
-      "publisherUrl": "https://space.bilibili.com/506969146/"
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "bvid": "BV1phZfBJEsn",
+      "creatorId": "nora",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/a95cbb5f12ac08e185901c7b43d5b6a102cde199.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1phZfBJEsn",
+      "durationSeconds": 331,
+      "publishedAt": "2026-02-24T12:24:00.000Z",
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
     },
     {
       "id": "bili-nora-lamy",
@@ -802,8 +803,7 @@
       "topic": "viticulture",
       "topicLabel": "葡萄种植",
       "tags": [
-        "葡萄种植",
-        "nora的葡萄酒世界"
+        "Burgundy"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -816,17 +816,19 @@
       "sourceType": "third_party_video",
       "officialCms": false,
       "verification": {
-        "metadata": "search_index_verified",
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
         "playbackTested": false,
-        "fullContentReviewed": false,
-        "checkedAt": "2026-10-25",
-        "sourceRefs": [
-          "turn31search7"
-        ],
-        "evidenceUrl": "https://www.bilibili.com/video/BV1uMyPBzEUf/",
-        "directRead": "not_attempted"
+        "fullContentReviewed": false
       },
-      "publisherUrl": "https://space.bilibili.com/506969146/"
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "bvid": "BV1uMyPBzEUf",
+      "creatorId": "nora",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/3c75a9fb9ee6eab1a9008bec15a848c12199c8e1.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uMyPBzEUf",
+      "durationSeconds": 177,
+      "publishedAt": "2025-11-20T13:25:51.000Z",
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
     },
     {
       "id": "bili-adelaide-course",

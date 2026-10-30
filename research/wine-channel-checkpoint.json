@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31",
+  "checkedAt": "2026-10-30T21:38:13.662Z",
   "repository": "EnsobyShuffle/Somm100",
   "branch": "main",
-  "baseCommit": "fdae6980ec60ddda99309572d384ec872669432d",
+  "baseCommit": "51e83c08adce61e6db2355f3b7dfb51c0af9e1c7",
   "netlifyProject": "somm100",
   "siteUrl": "https://somm100.netlify.app/",
   "netlifyDashboard": "https://app.netlify.com/projects/somm100/deploys",
@@ -11,33 +11,93 @@
   "publishing": {
     "autoPublishMain": true,
     "status": "blocked_by_netlify_credits",
-    "evidence": "Project Deploys screen: Production deploys are paused because the team used all available credits this billing cycle. Trigger deploy is disabled. Existing published site stays online.",
+    "evidence": "2026-10-31 05:35 CST Netlify Deploys: production main@51e83c0 skipped due to account credit usage exceeded; published remains fdae698. Trigger deploy disabled. Prior PR #1 preview completed, not production.",
     "newContentLiveVerified": false,
-    "instruction": "Check the original project's current state. Do not buy/upgrade, create a replacement site, or claim live from a Git commit alone. Once publishing is available, publish through this existing main-to-Netlify workflow and verify creator pages."
+    "instruction": "Check the original project's current state. Do not buy/upgrade, create a replacement site, or claim live from a Git commit alone. Once publishing is available, publish through this existing main-to-Netlify workflow and verify creator pages.",
+    "previewUrl": "https://6ae50124544fba545f1793a6--somm100.netlify.app/#videos?creator=nora",
+    "previewVerifiedScope": "Previous 33-video preview only: account directory opens, Nora list shows 7 videos and screenshot confirms original covers render. This run's 6 additional videos are not in that preview."
   },
   "catalog": {
     "legacyFile": "data/video-library.json",
     "legacyVideoCount": 25,
     "additionsFile": "data/wine-channel.json",
-    "addedVideoCount": 8,
-    "combinedCuratedCount": 33,
-    "newOriginalCovers": 8,
-    "noraNew": 5,
-    "noraTotal": 7,
+    "addedVideoCount": 14,
+    "combinedCuratedCount": 39,
+    "newOriginalCovers": 16,
+    "noraNew": 11,
+    "noraTotal": 13,
     "bingkeNew": 3,
     "bingkeTotal": 3,
     "playbackVerified": false,
     "fullContentReviewed": false
   },
-  "completedBvids": ["BV1R2ng6VEfs", "BV1TCYY6ZEhd", "BV17Xbo6NERN", "BV1XHMS6SEaj", "BV1r1Kq6ZEdt", "BV1NN4y1P7G4", "BV1wg4y1L7WA", "BV1X5411R7pE"],
+  "completedBvids": [
+    "BV1R2ng6VEfs",
+    "BV1TCYY6ZEhd",
+    "BV17Xbo6NERN",
+    "BV1XHMS6SEaj",
+    "BV1r1Kq6ZEdt",
+    "BV1NN4y1P7G4",
+    "BV1wg4y1L7WA",
+    "BV1X5411R7pE",
+    "BV1k8Hx6PETU",
+    "BV1pqbn6zEpM",
+    "BV12ruq6GESw",
+    "BV1NnEt6MExJ",
+    "BV1Gd6KBrESG",
+    "BV1HdjE6vEAj",
+    "BV1phZfBJEsn",
+    "BV1uMyPBzEUf"
+  ],
   "next": [
-    {"creatorId":"nora", "uid":"506969146", "bvid":"BV1k8Hx6PETU", "task":"Individual original page timed out. Verify original cover/title/author before adding."},
-    {"creatorId":"nora", "uid":"506969146", "bvids":["BV1phZfBJEsn","BV1uMyPBzEUf"], "task":"Existing videos: fill original covers if page metadata can be verified; keep IDs, do not add duplicates."},
-    {"creatorId":"nora", "uid":"506969146", "bvids":["BV1pqbn6zEpM","BV12ruq6GESw"], "task":"Search profile candidates only; verify individual page before addition."},
-    {"creatorId":"bingke", "uid":"348903504", "bvids":["BV1qG4y1F7ht","BV1ye4y1z7tD"], "task":"Candidates from verified creator's related links; verify exact author and cover before addition."},
-    {"creatorId":"miki", "task":"Identity pending. Consult current Sourcebook and user-approved history. Do not guess account."},
-    {"creatorId":"somehouse", "task":"Own publisher identity pending. Preserve personal own-content links; do not substitute another creator."}
+    {
+      "creatorId": "nora",
+      "uid": "506969146",
+      "bvids": [
+        "BV1DgUkBxEJn",
+        "BV1YNVK63EcN",
+        "BV1TzKD63EY1"
+      ],
+      "task": "Candidates observed on Nora original video related links; verify original author, title, cover and player before addition."
+    },
+    {
+      "creatorId": "bingke",
+      "uid": "348903504",
+      "bvids": [
+        "BV1qG4y1F7ht",
+        "BV1ye4y1z7tD"
+      ],
+      "task": "Candidates from verified creator's related links; verify exact author and cover before addition."
+    },
+    {
+      "creatorId": "miki",
+      "task": "Identity pending. Consult current Sourcebook and user-approved history. Do not guess account."
+    },
+    {
+      "creatorId": "somehouse",
+      "task": "Own publisher identity pending. Preserve personal own-content links; do not substitute another creator."
+    }
   ],
   "sourceEvidence": "research/wine-channel-source-verification-20261031.json",
-  "validationNotes": "See docs/wine-channel-20261031.md. Original Bilibili metadata was read; actual playback and post-deploy mobile visual QA remain unverified."
+  "validationNotes": "See docs/wine-channel-20261031.md. Original Bilibili metadata was read; actual playback and post-deploy mobile visual QA remain unverified.",
+  "lastRun": {
+    "added": [
+      "BV1k8Hx6PETU",
+      "BV1pqbn6zEpM",
+      "BV12ruq6GESw",
+      "BV1NnEt6MExJ",
+      "BV1Gd6KBrESG",
+      "BV1HdjE6vEAj"
+    ],
+    "enrichedExisting": [
+      "bili-nora-cotes",
+      "bili-nora-lamy"
+    ],
+    "newAuthors": 0,
+    "total": 39,
+    "tests": "3 existing data/source tests pass; also checked all original IDs preserved, untouched records identical, old-video cover evidence matches, 39 unique BV IDs. Data-only update; no new full application build.",
+    "productionLive": false,
+    "fullPlaybackTested": false,
+    "mobileVisualTested": false
+  }
 }
