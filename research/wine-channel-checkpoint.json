@@ -1,31 +1,32 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-30T22:30:59.848Z",
+  "checkedAt": "2026-10-30T23:31:57.393Z",
   "repository": "EnsobyShuffle/Somm100",
   "branch": "main",
-  "baseCommit": "48536f83c128c9fd200642f9053b93abce1b9a63",
+  "baseCommit": "e127f178f378b34049ae695bda37fe3d3cb1d13d",
   "netlifyProject": "somm100",
   "siteUrl": "https://somm100.netlify.app/",
   "netlifyDashboard": "https://app.netlify.com/projects/somm100/deploys",
   "publishedCommitAtInspection": "fdae6980ec60ddda99309572d384ec872669432d",
   "publishing": {
     "autoPublishMain": true,
-    "status": "blocked_by_netlify_credits",
-    "evidence": "2026-10-31 06:29 CST Netlify Deploys: production main@48536f8 and main@51e83c0 both skipped due to account credit usage exceeded; published remains fdae698. Production deploys paused; main auto publishing on.",
+    "status": "current_inspection_timed_out",
+    "evidence": "2026-10-31 07:30 CST: existing Netlify dashboard loads its shell, then DOM snapshot times out, including one reload attempt. Current production status unconfirmed. Last successful inspection 06:29 CST showed production paused for credit usage, published fdae698. Do not infer resumed publishing.",
     "newContentLiveVerified": false,
     "instruction": "Check the original project's current state. Do not buy/upgrade, create a replacement site, or claim live from a Git commit alone. Once publishing is available, publish through this existing main-to-Netlify workflow and verify creator pages.",
     "previewUrl": "https://6ae50124544fba545f1793a6--somm100.netlify.app/#videos?creator=nora",
-    "previewVerifiedScope": "Previous 33-video PR #1 preview only: account directory, Nora 7-video list and original cover rendering verified in prior run. Current 48-video catalog not production-verified."
+    "previewVerifiedScope": "Only prior PR #1 33-video preview was inspected. Current 51-video catalog has not been production verified.",
+    "lastConfirmedStatus": "blocked_by_netlify_credits"
   },
   "catalog": {
     "legacyFile": "data/video-library.json",
     "legacyVideoCount": 25,
     "additionsFile": "data/wine-channel.json",
-    "addedVideoCount": 23,
-    "combinedCuratedCount": 48,
-    "newOriginalCovers": 25,
-    "noraNew": 20,
-    "noraTotal": 22,
+    "addedVideoCount": 26,
+    "combinedCuratedCount": 51,
+    "newOriginalCovers": 28,
+    "noraNew": 23,
+    "noraTotal": 25,
     "bingkeNew": 3,
     "bingkeTotal": 3,
     "playbackVerified": false,
@@ -56,19 +57,20 @@
     "BV18zroB7ES9",
     "BV1GfiLBREsj",
     "BV1RNkzB6Eht",
-    "BV1ySqEBHEwS"
+    "BV1ySqEBHEwS",
+    "BV1pdL26LEfP",
+    "BV1QH5n6UEeH",
+    "BV1RVFnzPEJR"
   ],
   "next": [
     {
       "creatorId": "nora",
       "uid": "506969146",
       "bvids": [
-        "BV1pdL26LEfP",
-        "BV1QH5n6UEeH",
-        "BV1RVFnzPEJR",
-        "BV1Ppp3z2EaC"
+        "BV1Mw2gBREaJ",
+        "BV1AG57zuEav"
       ],
-      "task": "Candidates observed in verified Nora original-page related links; verify author UID before accepting (related links can include other creators). Nora catalog not exhaustive."
+      "task": "Original Nora page BV1RVFnzPEJR related links. Author unknown until verified; exclude other publishers, do not assume Nora. Continue account discovery; Nora catalog not exhaustive."
     },
     {
       "creatorId": "bingke",
@@ -94,41 +96,47 @@
   "validationNotes": "See docs/wine-channel-20261031.md. Original Bilibili metadata was read; actual playback and post-deploy mobile visual QA remain unverified.",
   "lastRun": {
     "added": [
-      "BV1DgUkBxEJn",
-      "BV1YNVK63EcN",
-      "BV1TzKD63EY1",
-      "BV1KcmxBvEwT",
-      "BV1tQdbBiE5k",
-      "BV18zroB7ES9",
-      "BV1GfiLBREsj",
-      "BV1RNkzB6Eht",
-      "BV1ySqEBHEwS"
+      "BV1pdL26LEfP",
+      "BV1QH5n6UEeH",
+      "BV1RVFnzPEJR"
     ],
     "enrichedExisting": [],
     "newAuthors": 0,
-    "total": 48,
+    "total": 51,
     "lastCreatorId": "nora",
-    "lastBvid": "BV1ySqEBHEwS",
-    "tests": "3 existing data/source tests pass. Previous 14 additions preserved byte-equivalent as JSON objects; 25 legacy links untouched. 48 distinct BV IDs, all 9 new original pages identify Nora UID 506969146. Data-only update; no new full application build.",
+    "lastBvid": "BV1RVFnzPEJR",
+    "excluded": [
+      "BV1Ppp3z2EaC"
+    ],
+    "tests": "node --test tests/wine-channel.test.mjs: 3 tests pass. 51 unique BV IDs. Existing 23 additions preserved unchanged; legacy 25 records untouched. Data-only update; no full app build, playback or mobile visual QA claimed.",
     "productionLive": false,
     "fullPlaybackTested": false,
     "mobileVisualTested": false,
-    "submissionStatus": "Prepared on a branch for a single PR merge; use GitHub PR/commit history for final merged SHA."
+    "submissionStatus": "Changes prepared for PR; final commit status is in repository history."
   },
   "sourcebooksRead": [
     {
       "libraryFileId": "libfile_4195d9da01cc8191b2299c44a209cc68",
       "name": "Wine_Channel_Sourcebook_2026-10-25.xlsx",
       "versionId": "1",
-      "readAt": "2026-10-30T22:30:59.848Z",
-      "scope": "Full current text read; Inventory continued through line 309. Source pool does not imply approved authors or rights."
+      "readAt": "2026-10-30T23:31:57.393Z",
+      "scope": "Current full text; candidate lists are not author approval."
     },
     {
       "libraryFileId": "libfile_739586147c14819189cbf49c52f31faa",
       "name": "Dante_Video_Team_Inventory_2026-10-28.xlsx",
       "versionId": null,
-      "readAt": "2026-10-30T22:30:59.848Z",
-      "scope": "Full current text read; Inventory continued through line 309. Source pool does not imply approved authors or rights."
+      "readAt": "2026-10-30T23:31:57.393Z",
+      "scope": "Current full text; candidate lists are not author approval."
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "bvid": "BV1Ppp3z2EaC",
+      "actualAuthor": "小皮葡萄酒讲堂",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1Ppp3z2EaC/",
+      "reason": "Related recommendation is not Nora. Author is excluded in current Sourcebook and Inventory; not added.",
+      "checkedAt": "2026-10-31"
     }
   ]
 }
