@@ -377,6 +377,233 @@
         "fullContentReviewed": false
       },
       "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1DgUkBxEJn",
+      "bvid": "BV1DgUkBxEJn",
+      "creatorId": "nora",
+      "title": "勃艮第全球市场现在怎么样了",
+      "url": "https://www.bilibili.com/video/BV1DgUkBxEJn/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/cc0903cb0c48a1bde24930e492ce7f324be09bc2.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1DgUkBxEJn",
+      "durationSeconds": 263,
+      "publishedAt": "2025-11-25T13:00:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1YNVK63EcN",
+      "bvid": "BV1YNVK63EcN",
+      "creatorId": "nora",
+      "title": "桶边试饮，大金杯酒庄",
+      "url": "https://www.bilibili.com/video/BV1YNVK63EcN/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "tasting",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/b64e9dee97640c918628b4bbd73bd4e560325c93.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1YNVK63EcN",
+      "durationSeconds": 230,
+      "publishedAt": "2026-05-27T13:15:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1TzKD63EY1",
+      "bvid": "BV1TzKD63EY1",
+      "creatorId": "nora",
+      "title": "天地人，只是风土的一个截面！",
+      "url": "https://www.bilibili.com/video/BV1TzKD63EY1/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/2da1b1a7de953fe18df65760ee0a0bd362e9383b.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1TzKD63EY1",
+      "durationSeconds": 756,
+      "publishedAt": "2026-06-30T13:10:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1KcmxBvEwT",
+      "bvid": "BV1KcmxBvEwT",
+      "creatorId": "nora",
+      "title": "勃艮第白也需要的抗“衰”",
+      "url": "https://www.bilibili.com/video/BV1KcmxBvEwT/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "vinification",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/694ab30cb9f2571015cae98a664381638834b3c6.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KcmxBvEwT",
+      "durationSeconds": 288,
+      "publishedAt": "2025-12-10T12:30:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1tQdbBiE5k",
+      "bvid": "BV1tQdbBiE5k",
+      "creatorId": "nora",
+      "title": "超硬干货，补齐夏布利风土信息差",
+      "url": "https://www.bilibili.com/video/BV1tQdbBiE5k/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy",
+        "Chablis"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/152750f414ee42f93e8dc6bf37b74dc86f26e1c7.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tQdbBiE5k",
+      "durationSeconds": 456,
+      "publishedAt": "2026-04-16T12:05:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV18zroB7ES9",
+      "bvid": "BV18zroB7ES9",
+      "creatorId": "nora",
+      "title": "为什么伏旧园的口碑两极分化？",
+      "url": "https://www.bilibili.com/video/BV18zroB7ES9/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy",
+        "Clos de Vougeot"
+      ],
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/0a5a31bccc3f0a20145caf3f626df83a98de45e7.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18zroB7ES9",
+      "durationSeconds": 284,
+      "publishedAt": "2026-01-15T12:30:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1GfiLBREsj",
+      "bvid": "BV1GfiLBREsj",
+      "creatorId": "nora",
+      "title": "秒懂勃艮第风土起源",
+      "url": "https://www.bilibili.com/video/BV1GfiLBREsj/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/6dab23a37bbf0cac1befdb2d06b61e98e02deb0a.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1GfiLBREsj",
+      "durationSeconds": 375,
+      "publishedAt": "2026-01-04T12:30:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1RNkzB6Eht",
+      "bvid": "BV1RNkzB6Eht",
+      "creatorId": "nora",
+      "title": "冰山美人Roumier，怎么突然变亲切了呢？",
+      "url": "https://www.bilibili.com/video/BV1RNkzB6Eht/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/a196d1dbb6281bd0e3956e3e6d545ba0b17317cc.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RNkzB6Eht",
+      "durationSeconds": 164,
+      "publishedAt": "2025-11-12T13:00:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1ySqEBHEwS",
+      "bvid": "BV1ySqEBHEwS",
+      "creatorId": "nora",
+      "title": "为什么葡萄酒里的SO2，至今无法取代？",
+      "url": "https://www.bilibili.com/video/BV1ySqEBHEwS/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "vinification",
+      "tags": [
+        "SO2"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/3a3f03c9927773b1de20434fe505576e19bc5cb6.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ySqEBHEwS",
+      "durationSeconds": 315,
+      "publishedAt": "2025-12-18T12:30:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
     }
   ]
 }
