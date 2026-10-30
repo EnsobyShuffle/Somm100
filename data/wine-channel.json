@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-31",
+  "creators": [
+    {
+      "id": "nora",
+      "name": "nora的葡萄酒世界",
+      "url": "https://space.bilibili.com/506969146/",
+      "description": "勃艮第风土、产区与葡萄酒酿造。",
+      "initial": "N",
+      "topics": [
+        "Burgundy",
+        "Terroir",
+        "Vinification"
+      ]
+    },
+    {
+      "id": "bingke",
+      "name": "槟客文化",
+      "url": "https://space.bilibili.com/348903504/",
+      "description": "香槟酒庄对话、人物访谈与文化记录。",
+      "initial": "槟",
+      "topics": [
+        "Champagne",
+        "Producers",
+        "Interviews"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "bili-BV1R2ng6VEfs",
+      "bvid": "BV1R2ng6VEfs",
+      "creatorId": "nora",
+      "title": "拆解Selosse氧化技法",
+      "url": "https://www.bilibili.com/video/BV1R2ng6VEfs/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "vinification",
+      "tags": [
+        "酿造"
+      ],
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/ec9e521754458d3132a80e19df66839d8768b652.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1R2ng6VEfs",
+      "durationSeconds": 395,
+      "publishedAt": "2026-10-19T13:10:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1TCYY6ZEhd",
+      "bvid": "BV1TCYY6ZEhd",
+      "creatorId": "nora",
+      "title": "风土视角，重读波尔多",
+      "url": "https://www.bilibili.com/video/BV1TCYY6ZEhd/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Bordeaux"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/60f384a521b342f7273ac50968349cc7282cbf49.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1TCYY6ZEhd",
+      "durationSeconds": 398,
+      "publishedAt": "2026-09-14T13:10:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV17Xbo6NERN",
+      "bvid": "BV17Xbo6NERN",
+      "creatorId": "nora",
+      "title": "里奇堡风土全解析",
+      "url": "https://www.bilibili.com/video/BV17Xbo6NERN/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/c3bd46b43b98e4545a2c83f0658bd42c95f4a8d9.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17Xbo6NERN",
+      "durationSeconds": 361,
+      "publishedAt": "2026-08-20T13:10:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1XHMS6SEaj",
+      "bvid": "BV1XHMS6SEaj",
+      "creatorId": "nora",
+      "title": "硬核拆解｜葡萄酒单宁分子变化！",
+      "url": "https://www.bilibili.com/video/BV1XHMS6SEaj/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "vinification",
+      "tags": [
+        "单宁"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/d8c379c5ceeb53f2c6eb5ec71723f53a5e27a93c.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1XHMS6SEaj",
+      "durationSeconds": 392,
+      "publishedAt": "2026-08-07T13:10:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1r1Kq6ZEdt",
+      "bvid": "BV1r1Kq6ZEdt",
+      "creatorId": "nora",
+      "title": "Chambolle-Musigny风土深度解析",
+      "url": "https://www.bilibili.com/video/BV1r1Kq6ZEdt/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/23f8cd4850627c48af0ef0b242b5290ba4ebf415.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1r1Kq6ZEdt",
+      "durationSeconds": 554,
+      "publishedAt": "2026-07-21T13:10:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1NN4y1P7G4",
+      "bvid": "BV1NN4y1P7G4",
+      "creatorId": "bingke",
+      "title": "槟客对话 Vol.2 ⎜ Champagne Vilmart & Cie 庄主 Laurent Champs",
+      "url": "https://www.bilibili.com/video/BV1NN4y1P7G4/",
+      "platform": "Bilibili",
+      "publisher": "槟客文化",
+      "publisherUrl": "https://space.bilibili.com/348903504/",
+      "topic": "regions",
+      "tags": [
+        "Champagne"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/7eeb71eee5b67e8e3a1f04b623cdc51ad6f28ec2.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NN4y1P7G4",
+      "durationSeconds": 2498,
+      "publishedAt": "2022-10-10T14:30:37.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1wg4y1L7WA",
+      "bvid": "BV1wg4y1L7WA",
+      "creatorId": "bingke",
+      "title": "L’art du temps 时光的艺术｜Salon & Delamotte 庄主晚宴",
+      "url": "https://www.bilibili.com/video/BV1wg4y1L7WA/",
+      "platform": "Bilibili",
+      "publisher": "槟客文化",
+      "publisherUrl": "https://space.bilibili.com/348903504/",
+      "topic": "regions",
+      "tags": [
+        "Champagne"
+      ],
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/13a651191f62b0a734964b4f506bd668771f8a0d.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wg4y1L7WA",
+      "durationSeconds": 93,
+      "publishedAt": "2023-05-10T12:36:34.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1X5411R7pE",
+      "bvid": "BV1X5411R7pE",
+      "creatorId": "bingke",
+      "title": "槟客对话 Vol.1 ⎜ Champagne Pierre Péters 庄主 Rodolphe Péters",
+      "url": "https://www.bilibili.com/video/BV1X5411R7pE/",
+      "platform": "Bilibili",
+      "publisher": "槟客文化",
+      "publisherUrl": "https://space.bilibili.com/348903504/",
+      "topic": "regions",
+      "tags": [
+        "Champagne"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/6cd5b9b000731de0f7d892d7ecdaa20abad4e034.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1X5411R7pE",
+      "durationSeconds": 4594,
+      "publishedAt": "2022-05-05T10:05:48.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    }
+  ]
+}
