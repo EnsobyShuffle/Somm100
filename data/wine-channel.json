@@ -604,6 +604,82 @@
         "fullContentReviewed": false
       },
       "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1pdL26LEfP",
+      "bvid": "BV1pdL26LEfP",
+      "creatorId": "nora",
+      "title": "桶边试饮，Jean Chartron酒庄",
+      "url": "https://www.bilibili.com/video/BV1pdL26LEfP/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "tasting",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/6ae8b49a70e88ef25303309c33877658fcf7651b.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pdL26LEfP",
+      "durationSeconds": 298,
+      "publishedAt": "2026-05-21T13:02:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1QH5n6UEeH",
+      "bvid": "BV1QH5n6UEeH",
+      "creatorId": "nora",
+      "title": "信息量巨大，默尔索风土超全解析来了！",
+      "url": "https://www.bilibili.com/video/BV1QH5n6UEeH/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "regions",
+      "tags": [
+        "Burgundy",
+        "Meursault"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/634e81e0478776230ff33ff0b0c422a803910972.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1QH5n6UEeH",
+      "durationSeconds": 413,
+      "publishedAt": "2026-05-11T13:10:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1RVFnzPEJR",
+      "bvid": "BV1RVFnzPEJR",
+      "creatorId": "nora",
+      "title": "在勃艮第做得越少，越高级？",
+      "url": "https://www.bilibili.com/video/BV1RVFnzPEJR/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "publisherUrl": "https://space.bilibili.com/506969146/",
+      "topic": "vinification",
+      "tags": [
+        "Burgundy"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/60986c13e450cdecc77c3b4da71467af37f55313.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RVFnzPEJR",
+      "durationSeconds": 313,
+      "publishedAt": "2026-02-07T12:05:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
     }
   ]
 }
