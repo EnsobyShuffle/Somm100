@@ -1,0 +1,1721 @@
+{
+  "areni": {
+    "originalUrl": "https://images.squarespace-cdn.com/content/v1/698678c59cf53c1dbf8e7bf6/7a5504d2-bd3f-434a-bf3e-953867bc0235/areni%2Bcluster%2Bin%2Bhand.jpg",
+    "localUrl": "/media/grapes/areni.jpg",
+    "credit": "Yacoubian-Hobbs",
+    "sourceUrl": "https://www.yacoubianhobbs.com/grapes",
+    "width": 1200,
+    "height": 801,
+    "bytes": 160438
+  },
+  "amigne": {
+    "originalUrl": "https://strapi.swisswine.ch/uploads/medium_09_2021_viticulture_cepage_Amigne_Carole_Parodi_4929_01963a32e9.JPG",
+    "localUrl": "/media/grapes/amigne.jpg",
+    "credit": "Swiss Wine Promotion / Carole Parodi",
+    "sourceUrl": "https://www.swisswine.com/en/swiss-vineyards/wine-grapes/amigne-en",
+    "width": 500,
+    "height": 750,
+    "bytes": 75705
+  },
+  "arneis": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/ARNEIS-B.-VCR-1-2-200x300.jpg",
+    "localUrl": "/media/grapes/arneis.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/arneis/",
+    "width": 200,
+    "height": 300,
+    "bytes": 15534
+  },
+  "aidani": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/aidani.jpg",
+    "localUrl": "/media/grapes/aidani.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/aidani/",
+    "width": 1200,
+    "height": 1800,
+    "bytes": 377262
+  },
+  "assyrtiko": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/assyrtiko.jpg",
+    "localUrl": "/media/grapes/assyrtiko.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/assyrtiko/",
+    "width": 1100,
+    "height": 1567,
+    "bytes": 255390
+  },
+  "agiorgitiko": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/agiorgitiko.jpg",
+    "localUrl": "/media/grapes/agiorgitiko.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/agiorgitiko/",
+    "width": 1100,
+    "height": 1650,
+    "bytes": 385390
+  },
+  "arbane": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Arbane_grappe.jpg",
+    "localUrl": "/media/grapes/arbane.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/17",
+    "width": 888,
+    "height": 1029,
+    "bytes": 178786
+  },
+  "athiri": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/athiri.jpg",
+    "localUrl": "/media/grapes/athiri.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/athiri/",
+    "width": 450,
+    "height": 675,
+    "bytes": 153634
+  },
+  "catarratto": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/cataratto-BIANCO-COMUNE-VCR8-2-200x300.jpg",
+    "localUrl": "/media/grapes/catarratto.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/catarratto-bianco-comune/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13980
+  },
+  "chasselas": {
+    "originalUrl": "https://strapi.swisswine.ch/uploads/medium_20220912_Chasselas_Carole_Parodi_MD_5011_40d1fb5fc5.JPG",
+    "localUrl": "/media/grapes/chasselas.jpg",
+    "credit": "Swiss Wine Promotion / Carole Parodi",
+    "sourceUrl": "https://www.swisswine.com/en/swiss-vineyards/wine-grapes/chasselas-en",
+    "width": 500,
+    "height": 750,
+    "bytes": 75294
+  },
+  "bourboulenc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Bourboulenc_B__grappe_.jpg",
+    "localUrl": "/media/grapes/bourboulenc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/38",
+    "width": 775,
+    "height": 1090,
+    "bytes": 223961
+  },
+  "aligote": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/aligote-b-grappe-jpg-1737380666669.jpg",
+    "localUrl": "/media/grapes/aligote.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/7",
+    "width": 852,
+    "height": 1146,
+    "bytes": 285647
+  },
+  "ciliegiolo": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/CILIEGIOLO-N.-I-VCR-1-202x300.png",
+    "localUrl": "/media/grapes/ciliegiolo.png",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/ciliegiolo/",
+    "width": 202,
+    "height": 300,
+    "bytes": 92562
+  },
+  "cabernet-sauvignon": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Cabernet-Sauvignon_N__grappe_.jpg",
+    "localUrl": "/media/grapes/cabernet-sauvignon.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/43",
+    "width": 1181,
+    "height": 1772,
+    "bytes": 222062
+  },
+  "cabernet-franc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Cabernet_franc_grappe.jpg",
+    "localUrl": "/media/grapes/cabernet-franc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/42",
+    "width": 651,
+    "height": 874,
+    "bytes": 164855
+  },
+  "cornalin-du-valais": {
+    "originalUrl": "https://strapi.swisswine.ch/uploads/medium_09_2021_viticulture_cepage_cornalin_Carole_Parodi_4978_6f38a48da6.JPG",
+    "localUrl": "/media/grapes/cornalin-du-valais.jpg",
+    "credit": "Swiss Wine Promotion / Carole Parodi",
+    "sourceUrl": "https://www.swisswine.com/en/swiss-vineyards/wine-grapes/cornalin-en",
+    "width": 500,
+    "height": 750,
+    "bytes": 75612
+  },
+  "cortese": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/CORTESE-B.-R-3-2-200x300.jpg",
+    "localUrl": "/media/grapes/cortese.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/cortese/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13442
+  },
+  "chardonnay": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Chardonnay_grappe.jpg",
+    "localUrl": "/media/grapes/chardonnay.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/60",
+    "width": 1368,
+    "height": 1712,
+    "bytes": 316481
+  },
+  "carmenere": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/carmenere-n-grappe-jpg-1737380902425.jpg",
+    "localUrl": "/media/grapes/carmenere.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/55",
+    "width": 720,
+    "height": 1028,
+    "bytes": 323769
+  },
+  "cinsault": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Cinsaut_F2.jpg",
+    "localUrl": "/media/grapes/cinsault.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/69",
+    "width": 897,
+    "height": 1296,
+    "bytes": 162896
+  },
+  "colombard": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Colombard_grappe.jpg",
+    "localUrl": "/media/grapes/colombard.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/76",
+    "width": 788,
+    "height": 1134,
+    "bytes": 150233
+  },
+  "fiano": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/fiano-VCR107-200x300.jpg",
+    "localUrl": "/media/grapes/fiano.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/fiano/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13830
+  },
+  "friulano": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/Tocai-VCR-9-Fogra27-e1610013361599-233x300.jpg",
+    "localUrl": "/media/grapes/friulano.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/tocai-friulano/",
+    "width": 233,
+    "height": 300,
+    "bytes": 13082
+  },
+  "garganega": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/Garganega-VCR-13-200x300.jpg",
+    "localUrl": "/media/grapes/garganega.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/garganega/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13580
+  },
+  "durif": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Durif_G3.jpg",
+    "localUrl": "/media/grapes/durif.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/141",
+    "width": 1111,
+    "height": 1584,
+    "bytes": 232288
+  },
+  "glera": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/prosecco-balbi-124-e1610023202804-226x300.jpg",
+    "localUrl": "/media/grapes/glera.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/glera/",
+    "width": 226,
+    "height": 300,
+    "bytes": 18078
+  },
+  "courbu-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Courbu_B__grappe_.jpg",
+    "localUrl": "/media/grapes/courbu-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/81",
+    "width": 757,
+    "height": 1020,
+    "bytes": 297774
+  },
+  "clairette-blanche": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Clairette_B__grappe_.jpg",
+    "localUrl": "/media/grapes/clairette-blanche.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/70",
+    "width": 795,
+    "height": 1108,
+    "bytes": 260750
+  },
+  "greco": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/GRECO-B.-TUFO-VCR-5-200x300.jpg",
+    "localUrl": "/media/grapes/greco.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/greco-bianco-di-tufo/",
+    "width": 200,
+    "height": 300,
+    "bytes": 11028
+  },
+  "grignolino": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/GRIGNOLINO-N.-R-1-200x300.jpg",
+    "localUrl": "/media/grapes/grignolino.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/grignolino/",
+    "width": 200,
+    "height": 300,
+    "bytes": 17703
+  },
+  "grillo": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/grillo-200x300.jpg",
+    "localUrl": "/media/grapes/grillo.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/grillo/",
+    "width": 200,
+    "height": 300,
+    "bytes": 17099
+  },
+  "gamay": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Gamay_G1bis.jpg",
+    "localUrl": "/media/grapes/gamay.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/104",
+    "width": 975,
+    "height": 1253,
+    "bytes": 190311
+  },
+  "gewurztraminer": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Gewurzt_G2bis.jpg",
+    "localUrl": "/media/grapes/gewurztraminer.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/112",
+    "width": 1008,
+    "height": 1399,
+    "bytes": 248408
+  },
+  "folle-blanche": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Folle_Blanche_B__grappe_.jpg",
+    "localUrl": "/media/grapes/folle-blanche.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/101",
+    "width": 642,
+    "height": 779,
+    "bytes": 112576
+  },
+  "humagne-blanche": {
+    "originalUrl": "https://strapi.swisswine.ch/uploads/medium_09_2021_viticulture_cepage_humagne_blanc_Carole_Parodi_4920_58b08170f8.JPG",
+    "localUrl": "/media/grapes/humagne-blanche.jpg",
+    "credit": "Swiss Wine Promotion / Carole Parodi",
+    "sourceUrl": "https://www.swisswine.com/en/swiss-vineyards/wine-grapes/humagne-blanche-en",
+    "width": 500,
+    "height": 750,
+    "bytes": 65622
+  },
+  "lambrusco-grasparossa": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/LAMBRUSCO-GRASPAROSSA-N.-R-1-1-200x300.jpg",
+    "localUrl": "/media/grapes/lambrusco-grasparossa.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/lambrusco-grasparossa/",
+    "width": 200,
+    "height": 300,
+    "bytes": 12065
+  },
+  "lacrima": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/05/Lacrima-grappolo-300x300.jpg",
+    "localUrl": "/media/grapes/lacrima.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/lacrima/",
+    "width": 300,
+    "height": 300,
+    "bytes": 30704
+  },
+  "inzolia": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/ansonica-VCR3-2-200x300.jpg",
+    "localUrl": "/media/grapes/inzolia.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/ansonica/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13834
+  },
+  "chenin-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Chenin_G2_CS_cr.jpg",
+    "localUrl": "/media/grapes/chenin-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/68",
+    "width": 1232,
+    "height": 1702,
+    "bytes": 646807
+  },
+  "lambrusco-salamino": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/lambrusco-salamino-VCR23-1-200x300.jpg",
+    "localUrl": "/media/grapes/lambrusco-salamino.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/lambrusco-salamino/",
+    "width": 200,
+    "height": 300,
+    "bytes": 12700
+  },
+  "liatiko": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/liatiko.jpg",
+    "localUrl": "/media/grapes/liatiko.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/liatiko/",
+    "width": 1100,
+    "height": 1467,
+    "bytes": 308917
+  },
+  "limniona": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/limniona.jpg",
+    "localUrl": "/media/grapes/limniona.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/limniona/",
+    "width": 1200,
+    "height": 1801,
+    "bytes": 344801
+  },
+  "grolleau-noir": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Grolleau_N__grappe_.jpg",
+    "localUrl": "/media/grapes/grolleau-noir.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/123",
+    "width": 791,
+    "height": 985,
+    "bytes": 157136
+  },
+  "malagousia": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/malagousia.jpg",
+    "localUrl": "/media/grapes/malagousia.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/malagousia/",
+    "width": 1200,
+    "height": 1800,
+    "bytes": 354658
+  },
+  "dureza": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Dureza_GR_SP_cr.jpg",
+    "localUrl": "/media/grapes/dureza.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/321",
+    "width": 1449,
+    "height": 2318,
+    "bytes": 442379
+  },
+  "gros-manseng": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Gros_Manseng_B__grappe_.jpg",
+    "localUrl": "/media/grapes/gros-manseng.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/124",
+    "width": 849,
+    "height": 1136,
+    "bytes": 179169
+  },
+  "len-de-lel": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Len_de_lEl_grappe.jpg",
+    "localUrl": "/media/grapes/len-de-lel.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/135",
+    "width": 760,
+    "height": 983,
+    "bytes": 138561
+  },
+  "mavrodaphne": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/mavrodaphne.jpg",
+    "localUrl": "/media/grapes/mavrodaphne.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/mavrodaphne/",
+    "width": 1100,
+    "height": 824,
+    "bytes": 229455
+  },
+  "marsanne": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Marsanne_G1bis.jpg",
+    "localUrl": "/media/grapes/marsanne.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/156",
+    "width": 1188,
+    "height": 1391,
+    "bytes": 237267
+  },
+  "merlot": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Merlot_N__Grappe_.jpg",
+    "localUrl": "/media/grapes/merlot.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/164",
+    "width": 342,
+    "height": 458,
+    "bytes": 62736
+  },
+  "moschofilero": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/moschofilero.jpg",
+    "localUrl": "/media/grapes/moschofilero.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/moschofilero/",
+    "width": 1100,
+    "height": 1958,
+    "bytes": 419770
+  },
+  "mondeuse-blanche": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Mondeuse_blanche_B__grappe_.jpg",
+    "localUrl": "/media/grapes/mondeuse-blanche.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/171",
+    "width": 792,
+    "height": 1155,
+    "bytes": 175821
+  },
+  "nero-d-avola": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/calabrese-grappolo-1-200x300.jpg",
+    "localUrl": "/media/grapes/nero-d-avola.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/calabrese/",
+    "width": 200,
+    "height": 300,
+    "bytes": 20324
+  },
+  "negroamaro": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/negroamaro-VCR123-2-200x300.jpg",
+    "localUrl": "/media/grapes/negroamaro.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/negro-amaro/",
+    "width": 200,
+    "height": 300,
+    "bytes": 16948
+  },
+  "melon-de-bourgogne": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Melon_B__grappe_.jpg",
+    "localUrl": "/media/grapes/melon-de-bourgogne.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/161",
+    "width": 791,
+    "height": 890,
+    "bytes": 185309
+  },
+  "parellada": {
+    "originalUrl": "https://www.cava.wine/media/images/UVA-Parellada-DO-Cava.width-1400.png",
+    "localUrl": "/media/grapes/parellada.png",
+    "credit": "D.O. Cava",
+    "sourceUrl": "https://www.cava.wine/en/origin-cava/authorised-grape-varieties/",
+    "width": 800,
+    "height": 800,
+    "bytes": 1073727
+  },
+  "muscadelle": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Muscadelle_B__grappe_.jpg",
+    "localUrl": "/media/grapes/muscadelle.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/181",
+    "width": 763,
+    "height": 861,
+    "bytes": 123990
+  },
+  "mondeuse-noire": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Mondeuse_N__grappe_.jpg",
+    "localUrl": "/media/grapes/mondeuse-noire.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/172",
+    "width": 825,
+    "height": 1094,
+    "bytes": 183832
+  },
+  "petite-arvine": {
+    "originalUrl": "https://strapi.swisswine.ch/uploads/medium_09_2021_viticulture_cepage_arvine_Carole_Parodi_4923_9ab2d4ab7e.JPG",
+    "localUrl": "/media/grapes/petite-arvine.jpg",
+    "credit": "Swiss Wine Promotion / Carole Parodi",
+    "sourceUrl": "https://www.swisswine.com/en/swiss-vineyards/wine-grapes/petite-arvine-en",
+    "width": 500,
+    "height": 750,
+    "bytes": 63345
+  },
+  "pignoletto": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/PIGNOLETTO-VCR-433-199x300.jpg",
+    "localUrl": "/media/grapes/pignoletto.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/pignoletto/",
+    "width": 199,
+    "height": 300,
+    "bytes": 52877
+  },
+  "pignolo": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/PIGNOLO-VCR-4-grappolo-DSC_8386-3-e1610024695638-249x300.jpg",
+    "localUrl": "/media/grapes/pignolo.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/pignolo/",
+    "width": 249,
+    "height": 300,
+    "bytes": 18336
+  },
+  "mauzac-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Mauzac_G2_CS_cr.jpg",
+    "localUrl": "/media/grapes/mauzac-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/158",
+    "width": 1242,
+    "height": 1761,
+    "bytes": 802769
+  },
+  "negrette": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Negrette_G2.jpg",
+    "localUrl": "/media/grapes/negrette.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/191",
+    "width": 1086,
+    "height": 1430,
+    "bytes": 230506
+  },
+  "petit-manseng": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Petit_Manseng_B__grappe_.jpg",
+    "localUrl": "/media/grapes/petit-manseng.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/211",
+    "width": 592,
+    "height": 885,
+    "bytes": 122132
+  },
+  "petit-verdot": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Petit_Verdot_N__grappe_.jpg",
+    "localUrl": "/media/grapes/petit-verdot.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/213",
+    "width": 637,
+    "height": 965,
+    "bytes": 142435
+  },
+  "pinot-gris": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Pinot_gris_G__grappe_.jpg",
+    "localUrl": "/media/grapes/pinot-gris.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/217",
+    "width": 728,
+    "height": 948,
+    "bytes": 112390
+  },
+  "pinot-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Pinot_blanc_B__grappe_.jpg",
+    "localUrl": "/media/grapes/pinot-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/216",
+    "width": 634,
+    "height": 909,
+    "bytes": 101467
+  },
+  "refosco-dal-peduncolo-rosso": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/REFOSCO-DAL-PEDUNCOLO-ROSSO-N.-I-VCR-14-179x300.png",
+    "localUrl": "/media/grapes/refosco-dal-peduncolo-rosso.png",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/refosco-dal-peduncolo-rosso/",
+    "width": 179,
+    "height": 300,
+    "bytes": 96925
+  },
+  "prieto-picudo": {
+    "originalUrl": "https://doleon.es/wp-content/uploads/2018/02/prieto.jpg",
+    "localUrl": "/media/grapes/prieto-picudo.jpg",
+    "credit": "D.O. León",
+    "sourceUrl": "https://doleon.es/historia/variedades-uva-vino/",
+    "width": 300,
+    "height": 127,
+    "bytes": 38446
+  },
+  "pinot-noir": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Pinot_noir_N__grappe_.jpg",
+    "localUrl": "/media/grapes/pinot-noir.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/218",
+    "width": 673,
+    "height": 1006,
+    "bytes": 126714
+  },
+  "pinot-meunier": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Meunier_N__grappe_.jpg",
+    "localUrl": "/media/grapes/pinot-meunier.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/166",
+    "width": 650,
+    "height": 861,
+    "bytes": 129509
+  },
+  "ribolla-gialla": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/RIBOLLA-VCR100-GRAPPOLO-e1610017033338-254x300.jpg",
+    "localUrl": "/media/grapes/ribolla-gialla.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/ribuele/",
+    "width": 254,
+    "height": 300,
+    "bytes": 20888
+  },
+  "piquepoul-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Piquepoul_blanc_B__grappe_.jpg",
+    "localUrl": "/media/grapes/piquepoul-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/219",
+    "width": 859,
+    "height": 949,
+    "bytes": 154245
+  },
+  "robola": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/robola.jpg",
+    "localUrl": "/media/grapes/robola.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/robola/",
+    "width": 1200,
+    "height": 1597,
+    "bytes": 316911
+  },
+  "roditis": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/roditis.jpg",
+    "localUrl": "/media/grapes/roditis.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/roditis/",
+    "width": 1200,
+    "height": 1771,
+    "bytes": 361408
+  },
+  "poulsard": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Poulsard_N__grappe_.jpg",
+    "localUrl": "/media/grapes/poulsard.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/226",
+    "width": 999,
+    "height": 1290,
+    "bytes": 254636
+  },
+  "savatiano": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/savvatiano.jpg",
+    "localUrl": "/media/grapes/savatiano.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/savatiano/",
+    "width": 1200,
+    "height": 1800,
+    "bytes": 386055
+  },
+  "roussanne": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Roussanne_B__grappe_.jpg",
+    "localUrl": "/media/grapes/roussanne.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/244",
+    "width": 863,
+    "height": 1088,
+    "bytes": 155757
+  },
+  "romorantin": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Romorantin_B__grappe_.jpg",
+    "localUrl": "/media/grapes/romorantin.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/241",
+    "width": 831,
+    "height": 1067,
+    "bytes": 170150
+  },
+  "savagnin-rose": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Savagnin_rose_Rs__grappe_.jpg",
+    "localUrl": "/media/grapes/savagnin-rose.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/254",
+    "width": 915,
+    "height": 1002,
+    "bytes": 193240
+  },
+  "teroldego": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/TEROLDEGO_VCR139_G-e1610013765328-249x300.jpg",
+    "localUrl": "/media/grapes/teroldego.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/teroldego/",
+    "width": 249,
+    "height": 300,
+    "bytes": 17857
+  },
+  "semillon": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Semillon_B__grappe_.jpg",
+    "localUrl": "/media/grapes/semillon.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/260",
+    "width": 999,
+    "height": 1167,
+    "bytes": 264996
+  },
+  "trebbiano-toscano": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/TREBBIANO-TOSCANO-B.-I-VCR-8-192x300.png",
+    "localUrl": "/media/grapes/trebbiano-toscano.png",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/trebbiano-toscano/",
+    "width": 192,
+    "height": 300,
+    "bytes": 93063
+  },
+  "tannat": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Tannat_N__grappe_.jpg",
+    "localUrl": "/media/grapes/tannat.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/268",
+    "width": 755,
+    "height": 995,
+    "bytes": 142157
+  },
+  "syrah": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Syrah_N__grappe_.jpg",
+    "localUrl": "/media/grapes/syrah.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/267",
+    "width": 739,
+    "height": 1185,
+    "bytes": 152956
+  },
+  "vermentino": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/Vermentino-VCR-1-Fogra27-e1610010046982-235x300.jpg",
+    "localUrl": "/media/grapes/vermentino.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/vermentino/",
+    "width": 235,
+    "height": 300,
+    "bytes": 13901
+  },
+  "verdicchio": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/VERDICCHIO-BIANCO-B.-VCR-107-Fogra27-e1610011410825-223x300.jpg",
+    "localUrl": "/media/grapes/verdicchio.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/verdicchio/",
+    "width": 223,
+    "height": 300,
+    "bytes": 17745
+  },
+  "terret-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Terret_blanc_B__grappe_.jpg",
+    "localUrl": "/media/grapes/terret-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/271",
+    "width": 891,
+    "height": 1067,
+    "bytes": 183234
+  },
+  "petit-meslier": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/399_Petit_Meslier_GP_CS_cr.jpg",
+    "localUrl": "/media/grapes/petit-meslier.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/212",
+    "width": 2043,
+    "height": 1920,
+    "bytes": 1249025
+  },
+  "xarello": {
+    "originalUrl": "https://www.cava.wine/media/images/UVA-Xarello-DO-Cava.width-700.png",
+    "localUrl": "/media/grapes/xarello.png",
+    "credit": "D.O. Cava",
+    "sourceUrl": "https://www.cava.wine/en/origin-cava/authorised-grape-varieties/",
+    "width": 700,
+    "height": 700,
+    "bytes": 815417
+  },
+  "xinomavro": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/xinomavro.jpg",
+    "localUrl": "/media/grapes/xinomavro.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/xinomavro/",
+    "width": 1200,
+    "height": 1800,
+    "bytes": 333270
+  },
+  "trousseau": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Trousseau_N__grappe_.jpg",
+    "localUrl": "/media/grapes/trousseau.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/277",
+    "width": 709,
+    "height": 1082,
+    "bytes": 154120
+  },
+  "viognier": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Viognier_B__grappe_.jpg",
+    "localUrl": "/media/grapes/viognier.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/288",
+    "width": 880,
+    "height": 1089,
+    "bytes": 121954
+  },
+  "sauvignon-gris": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Sauvignon_gris_grappe.jpg",
+    "localUrl": "/media/grapes/sauvignon-gris.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/252",
+    "width": 1452,
+    "height": 2242,
+    "bytes": 300465
+  },
+  "sauvignon-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Sauvignon_GR.jpg",
+    "localUrl": "/media/grapes/sauvignon-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/251",
+    "width": 1372,
+    "height": 2190,
+    "bytes": 727889
+  },
+  "savagnin-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/257_Savagnin-blanc_GR_SP_2.JPG",
+    "localUrl": "/media/grapes/savagnin-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/253",
+    "width": 1626,
+    "height": 1963,
+    "bytes": 1450272
+  },
+  "malbec": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Cot_N__grappe_.jpg",
+    "localUrl": "/media/grapes/malbec.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/78",
+    "width": 646,
+    "height": 904,
+    "bytes": 184039
+  },
+  "magdeleine-noire-des-charentes": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/3516-magdeleine-noire-des-charentes-gr-tdjpg-1779454016481.JPG",
+    "localUrl": "/media/grapes/magdeleine-noire-des-charentes.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/469",
+    "width": 1162,
+    "height": 1639,
+    "bytes": 1669766
+  },
+  "gouais-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Gouais_Yobregat_2022.JPG",
+    "localUrl": "/media/grapes/gouais-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/403",
+    "width": 1920,
+    "height": 2560,
+    "bytes": 2096406
+  },
+  "chardonnay-rose": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/201_Chardonnay-rose_GP.JPG",
+    "localUrl": "/media/grapes/chardonnay-rose.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/374",
+    "width": 2592,
+    "height": 3872,
+    "bytes": 3444495
+  },
+  "aleatico": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/ALEATICO-VCR438-GR-1-200x300.jpg",
+    "localUrl": "/media/grapes/aleatico.jpg",
+    "credit": "Vivai Cooperativi Rauscedo · Aleatico VCR 438",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/aleatico/",
+    "width": 200,
+    "height": 300,
+    "bytes": 19998
+  },
+  "croatina": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/CROATINA-N.-R-2-200x300.jpg",
+    "localUrl": "/media/grapes/croatina.jpg",
+    "credit": "Vivai Cooperativi Rauscedo · Croatina R 2",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/croatina/",
+    "width": 200,
+    "height": 300,
+    "bytes": 15453
+  },
+  "albana": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/albana-VCR21bis-1-200x300.jpg",
+    "localUrl": "/media/grapes/albana.jpg",
+    "credit": "Vivai Cooperativi Rauscedo · Albana VCR 21",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/albana/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13957
+  },
+  "blatina": {
+    "originalUrl": "https://vinogradinuic.com/en/wp-content/uploads/sites/2/2021/01/blatina-300x300.jpg",
+    "localUrl": "/media/grapes/blatina.jpg",
+    "credit": "Vinogradi Nuić",
+    "sourceUrl": "https://vinogradinuic.com/en/wines/our-varieties/",
+    "width": 300,
+    "height": 300,
+    "bytes": 24861
+  },
+  "caino-blanco": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/08/Caino-Blanco-GRAPPOLO-23-8-11-789.jpg",
+    "localUrl": "/media/grapes/caino-blanco.jpg",
+    "credit": "Vivai Cooperativi Rauscedo",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/caino-blanco/",
+    "width": 700,
+    "height": 1050,
+    "bytes": 770821
+  },
+  "callet": {
+    "originalUrl": "https://doplaillevant.com/wp-content/uploads/2020/12/callet.jpg",
+    "localUrl": "/media/grapes/callet.jpg",
+    "credit": "DOP Pla i Llevant",
+    "sourceUrl": "https://doplaillevant.com/tipos-de-uva/",
+    "width": 400,
+    "height": 591,
+    "bytes": 102687
+  },
+  "goldmuskateller": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/MOSCATO-GIALLO-B.-VCR-100-Fogra27-2-200x300.jpg",
+    "localUrl": "/media/grapes/goldmuskateller.jpg",
+    "credit": "Vivai Cooperativi Rauscedo — Moscato Giallo VCR 100",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/moscato-giallo/",
+    "width": 200,
+    "height": 300,
+    "bytes": 12105
+  },
+  "freisa": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/FREISA-N.-VCR-3-200x300.jpg",
+    "localUrl": "/media/grapes/freisa.jpg",
+    "credit": "Vivai Cooperativi Rauscedo · Freisa VCR 3",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/freisa/",
+    "width": 200,
+    "height": 300,
+    "bytes": 16304
+  },
+  "dafni": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/Dafni.grape-%CE%B1%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF.jpeg",
+    "localUrl": "/media/grapes/dafni.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/dafni/",
+    "width": 567,
+    "height": 806,
+    "bytes": 126267
+  },
+  "mandilaria": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/mandilaria.jpg",
+    "localUrl": "/media/grapes/mandilaria.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/mandelaria/",
+    "width": 1100,
+    "height": 1650,
+    "bytes": 316664
+  },
+  "debina": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/debina.jpg",
+    "localUrl": "/media/grapes/debina.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/debina/",
+    "width": 1200,
+    "height": 1601,
+    "bytes": 313759
+  },
+  "fogoneu": {
+    "originalUrl": "https://doplaillevant.com/wp-content/uploads/2020/12/fogoneu.jpg",
+    "localUrl": "/media/grapes/fogoneu.jpg",
+    "credit": "DOP Pla i Llevant",
+    "sourceUrl": "https://doplaillevant.com/tipos-de-uva/",
+    "width": 400,
+    "height": 533,
+    "bytes": 107727
+  },
+  "krakhuna": {
+    "originalUrl": "https://gwa.ge/wp-content/uploads/2019/02/krakhuna.png",
+    "localUrl": "/media/grapes/krakhuna.png",
+    "credit": "Georgian Wine Association",
+    "sourceUrl": "https://gwa.ge/en/regions/imereti-en/",
+    "width": 500,
+    "height": 500,
+    "bytes": 360998
+  },
+  "moravia-agria": {
+    "originalUrl": "https://www.bodegasgratias.com/wp-content/uploads/2024/12/racimo-de-uva-variedad-moravia-agria.jpg",
+    "localUrl": "/media/grapes/moravia-agria.jpg",
+    "credit": "Bodegas Gratias",
+    "sourceUrl": "https://www.bodegasgratias.com/variedad-de-uva-moravia-agria/",
+    "width": 1000,
+    "height": 569,
+    "bytes": 65082
+  },
+  "manto-negro": {
+    "originalUrl": "https://doplaillevant.com/wp-content/uploads/2020/12/mantonegro.jpg",
+    "localUrl": "/media/grapes/manto-negro.jpg",
+    "credit": "DOP Pla i Llevant",
+    "sourceUrl": "https://doplaillevant.com/tipos-de-uva/",
+    "width": 400,
+    "height": 482,
+    "bytes": 103482
+  },
+  "negoska": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/08/Negoska.jpg",
+    "localUrl": "/media/grapes/negoska.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/negoska/",
+    "width": 1200,
+    "height": 1708,
+    "bytes": 317291
+  },
+  "otskhanuri-sapere": {
+    "originalUrl": "https://gwa.ge/wp-content/uploads/2019/02/otskhanuri-saphere.png",
+    "localUrl": "/media/grapes/otskhanuri-sapere.png",
+    "credit": "Georgian Wine Association",
+    "sourceUrl": "https://gwa.ge/en/regions/imereti-en/",
+    "width": 500,
+    "height": 500,
+    "bytes": 292999
+  },
+  "piquepoul-noir": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Piquepoul_noir_N__grappe_.jpg",
+    "localUrl": "/media/grapes/piquepoul-noir.jpg",
+    "credit": "Pl@ntGrape · Piquepoul Noir",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/221",
+    "width": 742,
+    "height": 769,
+    "bytes": 127493
+  },
+  "plyto": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/plyto.jpg",
+    "localUrl": "/media/grapes/plyto.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/plyto/",
+    "width": 1200,
+    "height": 1800,
+    "bytes": 386564
+  },
+  "vidiano": {
+    "originalUrl": "https://winesofgreece.org/wp-content/uploads/2018/07/vidiano.jpg",
+    "localUrl": "/media/grapes/vidiano.jpg",
+    "credit": "Wines of Greece",
+    "sourceUrl": "https://winesofgreece.org/varieties/vidiano/",
+    "width": 1200,
+    "height": 1803,
+    "bytes": 398295
+  },
+  "tsolikouri": {
+    "originalUrl": "https://gwa.ge/wp-content/uploads/2019/02/tsolikouri.png",
+    "localUrl": "/media/grapes/tsolikouri.png",
+    "credit": "Georgian Wine Association",
+    "sourceUrl": "https://gwa.ge/en/regions/imereti-en/",
+    "width": 500,
+    "height": 500,
+    "bytes": 386991
+  },
+  "sumoll": {
+    "originalUrl": "https://vitisnavarra.com/wp-content/uploads/bb-plugin/cache/variedad-Sumoll-Tinta-vitis_navarra-portrait-02ace43c5fa8a9ef6f7e3aaf366d84f0-60f531adddcba.jpg",
+    "localUrl": "/media/grapes/sumoll.jpg",
+    "credit": "Vitis Navarra",
+    "sourceUrl": "https://vitisnavarra.com/variedades/uvas-tintas/sumoll-tinta/",
+    "width": 1024,
+    "height": 1464,
+    "bytes": 345390
+  },
+  "zilavka": {
+    "originalUrl": "https://vinogradinuic.com/en/wp-content/uploads/sites/2/2021/01/zilavka-300x300.jpg",
+    "localUrl": "/media/grapes/zilavka.jpg",
+    "credit": "Vinogradi Nuić",
+    "sourceUrl": "https://vinogradinuic.com/en/wines/our-varieties/",
+    "width": 300,
+    "height": 300,
+    "bytes": 26756
+  },
+  "chambourcin": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Chambourcin_grappe.jpg",
+    "localUrl": "/media/grapes/chambourcin.jpg",
+    "credit": "Pl@ntGrape · Chambourcin",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/59",
+    "width": 2494,
+    "height": 3221,
+    "bytes": 717842
+  },
+  "torrontes-riojano": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/2425_Torrontes_riojano_GR.jpg",
+    "localUrl": "/media/grapes/torrontes-riojano.jpg",
+    "credit": "Plantgrape / IFV–INRAE–Institut Agro",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/407",
+    "width": 1024,
+    "height": 1280,
+    "bytes": 315065
+  },
+  "voltis": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/6749_Voltis_GR_TL_1.JPG",
+    "localUrl": "/media/grapes/voltis.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/380",
+    "width": 1576,
+    "height": 2287,
+    "bytes": 2839704
+  },
+  "peloursin": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Peloursin_GR_2.JPG",
+    "localUrl": "/media/grapes/peloursin.jpg",
+    "credit": "Pl@ntGrape · Peloursin",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/360",
+    "width": 2592,
+    "height": 3872,
+    "bytes": 4572860
+  },
+  "bia": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/183_BiaBlanc_B_GP.jpg",
+    "localUrl": "/media/grapes/bia.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/309",
+    "width": 873,
+    "height": 1391,
+    "bytes": 183167
+  },
+  "bouillet": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Bouillet_N__grappe_.jpg",
+    "localUrl": "/media/grapes/bouillet.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/36",
+    "width": 1165,
+    "height": 1800,
+    "bytes": 362689
+  },
+  "colobel": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Colobel_grappe.jpg",
+    "localUrl": "/media/grapes/colobel.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/75",
+    "width": 2083,
+    "height": 3021,
+    "bytes": 552365
+  },
+  "artys": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/artys-gr-cs-modifjpg-1742555053975.JPG",
+    "localUrl": "/media/grapes/artys.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/451",
+    "width": 1891,
+    "height": 2458,
+    "bytes": 2846857
+  },
+  "bouquet-3179": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/7044-bouquet-3179-gr-cm-2jpg-1773405742900.JPG",
+    "localUrl": "/media/grapes/bouquet-3179.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/484",
+    "width": 1188,
+    "height": 1324,
+    "bytes": 1428960
+  },
+  "etraire-de-la-dui": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Etraire_de_la_Duin_N__grappe_.jpg",
+    "localUrl": "/media/grapes/etraire-de-la-dui.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/95",
+    "width": 760,
+    "height": 1008,
+    "bytes": 204962
+  },
+  "gibert": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/GibertN_GR_crNV.jpg",
+    "localUrl": "/media/grapes/gibert.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/376",
+    "width": 748,
+    "height": 1019,
+    "bytes": 134897
+  },
+  "bouquet-3160": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/7043-bouquet-3160-gr-cm-4jpg-1773405828612.JPG",
+    "localUrl": "/media/grapes/bouquet-3160.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/478",
+    "width": 1375,
+    "height": 1895,
+    "bytes": 1819762
+  },
+  "bouquet-3159": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/6850-bouquet-3159-gr-cm-1jpg-1773405568464.JPG",
+    "localUrl": "/media/grapes/bouquet-3159.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/475",
+    "width": 1983,
+    "height": 2492,
+    "bytes": 2015873
+  },
+  "bouquet-3176": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/6853-bouquet-3176-gr-4nvjpg-1773405663537.JPG",
+    "localUrl": "/media/grapes/bouquet-3176.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/481",
+    "width": 2592,
+    "height": 3872,
+    "bytes": 1783873
+  },
+  "gringet": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Gringet_B__grappe_.jpg",
+    "localUrl": "/media/grapes/gringet.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/121",
+    "width": 719,
+    "height": 919,
+    "bytes": 120886
+  },
+  "joubertin": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Joubertin_N__grappe_.jpg",
+    "localUrl": "/media/grapes/joubertin.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/129",
+    "width": 583,
+    "height": 874,
+    "bytes": 122713
+  },
+  "garonnet": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Garonnet_Grappe.jpg",
+    "localUrl": "/media/grapes/garonnet.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/109",
+    "width": 901,
+    "height": 1267,
+    "bytes": 402391
+  },
+  "molette": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Molette_B__grappe_.jpg",
+    "localUrl": "/media/grapes/molette.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/169",
+    "width": 711,
+    "height": 1046,
+    "bytes": 137693
+  },
+  "mecle": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/mecle-gr-tl3-modif-plantgrapjpg-1737381579559.JPG",
+    "localUrl": "/media/grapes/mecle.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/302",
+    "width": 1446,
+    "height": 1916,
+    "bytes": 778556
+  },
+  "mollard": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Mollard_N__grappe_.jpg",
+    "localUrl": "/media/grapes/mollard.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/170",
+    "width": 852,
+    "height": 968,
+    "bytes": 197930
+  },
+  "luminan": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/6865_Luminan_GR_TL.JPG",
+    "localUrl": "/media/grapes/luminan.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/414",
+    "width": 1406,
+    "height": 1729,
+    "bytes": 980402
+  },
+  "mondeuse-grise": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Mondeuse_grise_IMG_0462_crNv.jpg",
+    "localUrl": "/media/grapes/mondeuse-grise.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/355",
+    "width": 1140,
+    "height": 1324,
+    "bytes": 591902
+  },
+  "elaris": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/7001-elaris-inra-colmar-irac-1049-p-gr-0199jpg-1781879395768.JPG",
+    "localUrl": "/media/grapes/elaris.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/517",
+    "width": 1941,
+    "height": 2730,
+    "bytes": 1367873
+  },
+  "artaban": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/GP-CM-160816_020_Artaban.JPG",
+    "localUrl": "/media/grapes/artaban.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/373",
+    "width": 2592,
+    "height": 3872,
+    "bytes": 4455873
+  },
+  "seinoir": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Seinoir_grappe.jpg",
+    "localUrl": "/media/grapes/seinoir.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/257",
+    "width": 728,
+    "height": 900,
+    "bytes": 69747
+  },
+  "servanin": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Servanin_N__grappe_.jpg",
+    "localUrl": "/media/grapes/servanin.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/261",
+    "width": 769,
+    "height": 1201,
+    "bytes": 209294
+  },
+  "ravat-blanc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Ravat_blanc_Grappe.jpg",
+    "localUrl": "/media/grapes/ravat-blanc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/232",
+    "width": 798,
+    "height": 1054,
+    "bytes": 252463
+  },
+  "plantet": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Plantet_Grappe.jpg",
+    "localUrl": "/media/grapes/plantet.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/223",
+    "width": 865,
+    "height": 1349,
+    "bytes": 402412
+  },
+  "rubilande": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Rubilande_grappe.jpg",
+    "localUrl": "/media/grapes/rubilande.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/246",
+    "width": 1895,
+    "height": 3479,
+    "bytes": 711747
+  },
+  "plant-de-brunel": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Plant-Brunel_2008_053_modif_PlantGrap.jpg",
+    "localUrl": "/media/grapes/plant-de-brunel.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/297",
+    "width": 1303,
+    "height": 1959,
+    "bytes": 720476
+  },
+  "sereneze": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/sereneze-gr-sp-1-crjpg-1737382118627.jpg",
+    "localUrl": "/media/grapes/sereneze.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/313",
+    "width": 1720,
+    "height": 2286,
+    "bytes": 864720
+  },
+  "vidoc": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Vidoc_GR.JPG",
+    "localUrl": "/media/grapes/vidoc.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/379",
+    "width": 939,
+    "height": 1223,
+    "bytes": 721382
+  },
+  "hibou-noir": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/Hibou-noir_GR_CM.JPG",
+    "localUrl": "/media/grapes/hibou-noir.jpg",
+    "credit": "Plantgrape · IFV / INRAE / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/359",
+    "width": 2229,
+    "height": 2758,
+    "bytes": 3376704
+  },
+  "taranis": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/6993-taranis-p8193027-gr-tljpg-1781879232327.JPG",
+    "localUrl": "/media/grapes/taranis.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/511",
+    "width": 1303,
+    "height": 1915,
+    "bytes": 1262861
+  },
+  "valpesia": {
+    "originalUrl": "https://www.plantgrape.fr/storage/img/6992-valpesia-p8193078-gr-tljpg-1781880300634.JPG",
+    "localUrl": "/media/grapes/valpesia.jpg",
+    "credit": "Plantgrape · INRAE / IFV / Institut Agro Montpellier",
+    "sourceUrl": "https://www.plantgrape.fr/en/varieties/fruit-varieties/514",
+    "width": 1507,
+    "height": 2384,
+    "bytes": 888131
+  },
+  "albarola": {
+    "originalUrl": "https://vitisdb.it/accessionimages/thumbnail/15643?name=bunch",
+    "localUrl": "/media/grapes/albarola.jpg",
+    "credit": "VitisDB · Albarola accession 15643",
+    "sourceUrl": "https://vitisdb.it/varieties/show/8159",
+    "width": 200,
+    "height": 200,
+    "bytes": 9343
+  },
+  "cordenossa": {
+    "originalUrl": "https://www.ersa.fvg.it/export/sites/ersa/aziende/sperimentazione/Colture-arboree/vite/biodiversita/img/CORDENOSSA-4-7.JPG",
+    "localUrl": "/media/grapes/cordenossa.jpg",
+    "credit": "ERSA Friuli-Venezia Giulia",
+    "sourceUrl": "https://www.ersa.fvg.it/cms/aziende/sperimentazione/Colture-arboree/vite/biodiversita/cordenossa/",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 903425
+  },
+  "cividin": {
+    "originalUrl": "https://www.ersa.fvg.it/export/sites/ersa/aziende/sperimentazione/Colture-arboree/vite/biodiversita/img/cividin7.jpg",
+    "localUrl": "/media/grapes/cividin.jpg",
+    "credit": "ERSA Friuli-Venezia Giulia",
+    "sourceUrl": "https://www.ersa.fvg.it/cms/aziende/sperimentazione/Colture-arboree/vite/biodiversita/cividin/",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 875982
+  },
+  "ancellotta": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/ANCELLOTTA-N.-RAUSCEDO-2-203x300.png",
+    "localUrl": "/media/grapes/ancellotta.png",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/ancellotta/",
+    "width": 203,
+    "height": 300,
+    "bytes": 124178
+  },
+  "fortana": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/02/fortana-2010-237.jpg",
+    "localUrl": "/media/grapes/fortana.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/fortana/",
+    "width": 700,
+    "height": 1050,
+    "bytes": 125024
+  },
+  "durella": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/02/durella-2010-233.jpg",
+    "localUrl": "/media/grapes/durella.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/durella/",
+    "width": 700,
+    "height": 1050,
+    "bytes": 131906
+  },
+  "cjanorie": {
+    "originalUrl": "https://www.ersa.fvg.it/export/sites/ersa/aziende/sperimentazione/Colture-arboree/vite/biodiversita/img/Cianorie3.jpg",
+    "localUrl": "/media/grapes/cjanorie.jpg",
+    "credit": "ERSA Friuli-Venezia Giulia",
+    "sourceUrl": "https://www.ersa.fvg.it/cms/aziende/sperimentazione/Colture-arboree/vite/biodiversita/cianorie/",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 894546
+  },
+  "coda-di-volpe": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/02/CODA-DI-VOLPE-2.jpg",
+    "localUrl": "/media/grapes/coda-di-volpe.jpg",
+    "credit": "Vivai Cooperativi Rauscedo · Coda di Volpe",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/coda-di-volpe/",
+    "width": 700,
+    "height": 1050,
+    "bytes": 123440
+  },
+  "bellone": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/08/bellone-b.-VCR2.jpg",
+    "localUrl": "/media/grapes/bellone.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/bellone/",
+    "width": 763,
+    "height": 992,
+    "bytes": 240528
+  },
+  "glera-lunga": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/PROSECCO-LUNGO-B.-VCR-40-e1610022991621-263x300.jpg",
+    "localUrl": "/media/grapes/glera-lunga.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/glera-lunga/",
+    "width": 263,
+    "height": 300,
+    "bytes": 17658
+  },
+  "lambrusco-marani": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/LAMBRUSCO-MARANI-N.-R-2-1-200x300.jpg",
+    "localUrl": "/media/grapes/lambrusco-marani.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/lambrusco-marani/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13377
+  },
+  "fumin": {
+    "originalUrl": "https://grosjeanvins.it/files/2023/01/Fumin.jpg",
+    "localUrl": "/media/grapes/fumin.jpg",
+    "credit": "Grosjean Vins · Fumin",
+    "sourceUrl": "https://grosjeanvins.it/vitigni-valle-aosta/fumin/",
+    "width": 1425,
+    "height": 1900,
+    "bytes": 380833
+  },
+  "greco-bianco": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/02/Greco-Bianco.jpg",
+    "localUrl": "/media/grapes/greco-bianco.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/greco-bianco/",
+    "width": 700,
+    "height": 1049,
+    "bytes": 144328
+  },
+  "gaglioppo": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/02/Gaglioppo.jpg",
+    "localUrl": "/media/grapes/gaglioppo.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/gaglioppo/",
+    "width": 700,
+    "height": 1050,
+    "bytes": 146067
+  },
+  "lambrusco-viadanese": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/lambrusco-viadanese-VCR12-200x300.jpg",
+    "localUrl": "/media/grapes/lambrusco-viadanese.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/lambrusco-viadanese/",
+    "width": 200,
+    "height": 300,
+    "bytes": 12282
+  },
+  "grechetto": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/Grechetto-VCR-2-203x300.jpg",
+    "localUrl": "/media/grapes/grechetto.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/grechetto/",
+    "width": 203,
+    "height": 300,
+    "bytes": 15964
+  },
+  "lambrusco-maestri": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/LAMBRUSCO-MAESTRI-N.-I-VCR-1--204x300.png",
+    "localUrl": "/media/grapes/lambrusco-maestri.png",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/lambrusco-maestri/",
+    "width": 204,
+    "height": 300,
+    "bytes": 113991
+  },
+  "malvasia-bianca-di-candia": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/MALVASIA-BIANCA-DI-CANDIA-B.-R-2-200x300.jpg",
+    "localUrl": "/media/grapes/malvasia-bianca-di-candia.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/malvasia-bianca-di-candia/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13756
+  },
+  "ortrugo": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/ORTRUGO-VCR245-GR-2-200x300.jpg",
+    "localUrl": "/media/grapes/ortrugo.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/ortrugo/",
+    "width": 200,
+    "height": 300,
+    "bytes": 19538
+  },
+  "passerina": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/PASSERINA-VCR450-Fogra27-2-200x300.jpg",
+    "localUrl": "/media/grapes/passerina.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/passerina/",
+    "width": 200,
+    "height": 300,
+    "bytes": 19135
+  },
+  "pecorino": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/07/PECORINO-VCR-417-17-225x300.jpg",
+    "localUrl": "/media/grapes/pecorino.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/pecorino/",
+    "width": 225,
+    "height": 300,
+    "bytes": 34649
+  },
+  "maceratino": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/05/Maceratino-grappolo-300x300.jpg",
+    "localUrl": "/media/grapes/maceratino.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/maceratino/",
+    "width": 300,
+    "height": 300,
+    "bytes": 26682
+  },
+  "malvasia-del-lazio": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/malvasia-lazio-grappolo-5-200x300.jpg",
+    "localUrl": "/media/grapes/malvasia-del-lazio.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/malvasia-del-lazio/",
+    "width": 200,
+    "height": 300,
+    "bytes": 14530
+  },
+  "marzemino": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/MARZEMINO-N.-VCR-3-3-200x300.jpg",
+    "localUrl": "/media/grapes/marzemino.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/marzemino/",
+    "width": 200,
+    "height": 300,
+    "bytes": 16964
+  },
+  "prie-rouge": {
+    "originalUrl": "https://grosjeanvins.it/files/2023/01/Premetta.jpg",
+    "localUrl": "/media/grapes/prie-rouge.jpg",
+    "credit": "Grosjean Vins · Prëmetta",
+    "sourceUrl": "https://grosjeanvins.it/vitigni-valle-aosta/premetta/",
+    "width": 1066,
+    "height": 1600,
+    "bytes": 204576
+  },
+  "petit-rouge": {
+    "originalUrl": "https://grosjeanvins.it/files/2023/01/Petit-Rouge.jpg",
+    "localUrl": "/media/grapes/petit-rouge.jpg",
+    "credit": "Grosjean Vins · Petit Rouge",
+    "sourceUrl": "https://grosjeanvins.it/vitigni-valle-aosta/petit-rouge/",
+    "width": 1500,
+    "height": 2000,
+    "bytes": 454774
+  },
+  "verduzzo-friulano": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/VERDUZZO-FRIULANO-B.-R-5-200x300.jpg",
+    "localUrl": "/media/grapes/verduzzo-friulano.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/verduzzo-friulano/",
+    "width": 200,
+    "height": 300,
+    "bytes": 13298
+  },
+  "raboso-piave": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/RABOSO-PIAVE-N.-R-11-200x300.jpg",
+    "localUrl": "/media/grapes/raboso-piave.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/raboso-piave/",
+    "width": 200,
+    "height": 300,
+    "bytes": 15899
+  },
+  "quagliano": {
+    "originalUrl": "https://vitisdb.it/accessionimages/thumbnail/15943?name=bunch",
+    "localUrl": "/media/grapes/quagliano.jpg",
+    "credit": "VitisDB · Quagliano accession 15943",
+    "sourceUrl": "https://vitisdb.it/varieties/show/1201",
+    "width": 200,
+    "height": 200,
+    "bytes": 12750
+  },
+  "verduzzo-trevigiano": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/02/Verduzzo-trev.-grappolo-Susegana-6.09.05.jpg",
+    "localUrl": "/media/grapes/verduzzo-trevigiano.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/verduzzo-trevigiano/",
+    "width": 700,
+    "height": 1050,
+    "bytes": 123806
+  },
+  "piedirosso": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2020/12/PIEDIROSSO-VCR-147.jpg",
+    "localUrl": "/media/grapes/piedirosso.jpg",
+    "credit": "Vivai Cooperativi Rauscedo · Piedirosso VCR147",
+    "sourceUrl": "https://www.vivairauscedo.com/en/product-sheet/piedirosso/",
+    "width": 700,
+    "height": 1050,
+    "bytes": 118457
+  },
+  "verdiso": {
+    "originalUrl": "https://www.vivairauscedo.com/wp-content/uploads/2021/02/VERDISO-B.-VCR-2.jpg",
+    "localUrl": "/media/grapes/verdiso.jpg",
+    "credit": "Vivai Cooperativi Rauscedo (VCR)",
+    "sourceUrl": "https://www.vivairauscedo.com/scheda-prodotto/verdiso/",
+    "width": 700,
+    "height": 1050,
+    "bytes": 115330
+  },
+  "sagrestana": {
+    "originalUrl": "https://www.ersa.fvg.it/export/sites/ersa/aziende/sperimentazione/Colture-arboree/vite/biodiversita/img/sagrestana7.jpg",
+    "localUrl": "/media/grapes/sagrestana.jpg",
+    "credit": "ERSA Friuli-Venezia Giulia",
+    "sourceUrl": "https://www.ersa.fvg.it/cms/aziende/sperimentazione/Colture-arboree/vite/biodiversita/sagrestana/",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 495170
+  }
+}

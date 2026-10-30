@@ -1,0 +1,498 @@
+[
+  {
+    "en": "wine",
+    "zh": "葡萄酒",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ01",
+    "title": "Module 01 · 1 · Why Viticulture & Vinification Matter｜为什么侍酒师要学种植与酿造"
+  },
+  {
+    "en": "grape",
+    "zh": "葡萄",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ01",
+    "title": "Module 01 · 1 · Why Viticulture & Vinification Matter｜为什么侍酒师要学种植与酿造"
+  },
+  {
+    "en": "vine",
+    "zh": "葡萄藤",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "vineyard",
+    "zh": "葡萄园",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ01",
+    "title": "Module 01 · 1 · Why Viticulture & Vinification Matter｜为什么侍酒师要学种植与酿造"
+  },
+  {
+    "en": "winery",
+    "zh": "酒庄",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ06",
+    "title": "Module 01 · 6 · Grapes Arrive at the Winery｜葡萄进入酒庄"
+  },
+  {
+    "en": "juice",
+    "zh": "汁",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "leaf",
+    "zh": "叶片",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ05",
+    "title": "Module 01 · 5 · Vine Cycle, Vineyard Hazards & Harvest｜生长周期、风险与采收"
+  },
+  {
+    "en": "root",
+    "zh": "根",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "shoot",
+    "zh": "新梢",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "bud",
+    "zh": "芽",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ04",
+    "title": "Module 01 · 4 · The Vine: Material, Grafting & Training｜葡萄藤、嫁接与整形"
+  },
+  {
+    "en": "skin",
+    "zh": "果皮",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "stem",
+    "zh": "梗",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ06",
+    "title": "Module 01 · 6 · Grapes Arrive at the Winery｜葡萄进入酒庄"
+  },
+  {
+    "en": "soil",
+    "zh": "土壤",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "climate",
+    "zh": "气候",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "weather",
+    "zh": "天气",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ05",
+    "title": "Module 01 · 5 · Vine Cycle, Vineyard Hazards & Harvest｜生长周期、风险与采收"
+  },
+  {
+    "en": "sugar",
+    "zh": "糖",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "yeast",
+    "zh": "酵母",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "acid",
+    "zh": "酸",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "alcohol",
+    "zh": "酒精",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "bottle",
+    "zh": "瓶",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "glass",
+    "zh": "杯",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "barrel",
+    "zh": "桶",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ06",
+    "title": "Module 01 · 6 · Grapes Arrive at the Winery｜葡萄进入酒庄"
+  },
+  {
+    "en": "oak",
+    "zh": "橡木",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ06",
+    "title": "Module 01 · 6 · Grapes Arrive at the Winery｜葡萄进入酒庄"
+  },
+  {
+    "en": "red",
+    "zh": "红",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "white",
+    "zh": "白",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "dry",
+    "zh": "干型",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "sweet",
+    "zh": "甜型",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "still",
+    "zh": "静止",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "sparkling",
+    "zh": "起泡",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "fortified",
+    "zh": "加强",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "harvest",
+    "zh": "采收",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ05",
+    "title": "Module 01 · 5 · Vine Cycle, Vineyard Hazards & Harvest｜生长周期、风险与采收"
+  },
+  {
+    "en": "ripening",
+    "zh": "成熟",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "pruning",
+    "zh": "修剪",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ04",
+    "title": "Module 01 · 4 · The Vine: Material, Grafting & Training｜葡萄藤、嫁接与整形"
+  },
+  {
+    "en": "grafting",
+    "zh": "嫁接",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ04",
+    "title": "Module 01 · 4 · The Vine: Material, Grafting & Training｜葡萄藤、嫁接与整形"
+  },
+  {
+    "en": "ferment",
+    "zh": "发酵",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ04",
+    "title": "Module 01 · 4 · The Vine: Material, Grafting & Training｜葡萄藤、嫁接与整形"
+  },
+  {
+    "en": "pressing",
+    "zh": "压榨",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ04",
+    "title": "Module 01 · 4 · The Vine: Material, Grafting & Training｜葡萄藤、嫁接与整形"
+  },
+  {
+    "en": "crushing",
+    "zh": "破碎",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ04",
+    "title": "Module 01 · 4 · The Vine: Material, Grafting & Training｜葡萄藤、嫁接与整形"
+  },
+  {
+    "en": "aroma",
+    "zh": "香气",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ09",
+    "title": "Module 01 · 9 · Extraction & Cap Management｜萃取与酒帽管理"
+  },
+  {
+    "en": "flavour",
+    "zh": "风味",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "body",
+    "zh": "酒体",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "structure",
+    "zh": "结构",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "yield",
+    "zh": "产量",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "temperature",
+    "zh": "温度",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "altitude",
+    "zh": "海拔",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "slope",
+    "zh": "坡",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "aspect",
+    "zh": "朝向",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "drainage",
+    "zh": "排水",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "humidity",
+    "zh": "湿度",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "rainfall",
+    "zh": "降雨",
+    "moduleId": "module02",
+    "resource": "expansion",
+    "sectionId": "M2-EXP01",
+    "title": "Module 02 · KB01｜Vosges, rain shadow & climate｜孚日山脉、雨影和气候 [C1]"
+  },
+  {
+    "en": "frost",
+    "zh": "霜冻",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "sunlight",
+    "zh": "日照",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "water",
+    "zh": "水",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "fruit",
+    "zh": "果实",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "flowering",
+    "zh": "开花",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ05",
+    "title": "Module 01 · 5 · Vine Cycle, Vineyard Hazards & Harvest｜生长周期、风险与采收"
+  },
+  {
+    "en": "acidity",
+    "zh": "酸度",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ09",
+    "title": "Module 01 · 9 · Extraction & Cap Management｜萃取与酒帽管理"
+  },
+  {
+    "en": "colour",
+    "zh": "颜色",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "tannin",
+    "zh": "单宁",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ04",
+    "title": "Module 01 · 4 · The Vine: Material, Grafting & Training｜葡萄藤、嫁接与整形"
+  },
+  {
+    "en": "variety",
+    "zh": "品种",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ04",
+    "title": "Module 01 · 4 · The Vine: Material, Grafting & Training｜葡萄藤、嫁接与整形"
+  },
+  {
+    "en": "terroir",
+    "zh": "风土",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ02",
+    "title": "Module 01 · 2 · What Is Wine?｜葡萄酒的基本分类"
+  },
+  {
+    "en": "sediment",
+    "zh": "沉淀",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ09",
+    "title": "Module 01 · 9 · Extraction & Cap Management｜萃取与酒帽管理"
+  },
+  {
+    "en": "disease",
+    "zh": "病害",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ03",
+    "title": "Module 01 · 3 · Terroir, Climate & Site｜风土、气候与园址"
+  },
+  {
+    "en": "pest",
+    "zh": "害虫",
+    "moduleId": "module01",
+    "resource": "core",
+    "sectionId": "M1-READ05",
+    "title": "Module 01 · 5 · Vine Cycle, Vineyard Hazards & Harvest｜生长周期、风险与采收"
+  }
+]

@@ -1,0 +1,6485 @@
+[
+  {
+    "name": "Airén",
+    "names": [
+      "Airén"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Airén, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Albillo Mayor",
+    "names": [
+      "Albillo Mayor"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Albillo Mayor, B."
+  },
+  {
+    "name": "Albillo Real",
+    "names": [
+      "Albillo Real"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Albillo Real, B."
+  },
+  {
+    "name": "Arinto",
+    "names": [
+      "Arinto"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Arinto, B."
+  },
+  {
+    "name": "Beba",
+    "names": [
+      "Beba"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Beba, B."
+  },
+  {
+    "name": "Blanca Gordal",
+    "names": [
+      "Blanca Gordal"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Blanca Gordal, B."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Blauer Limberger, Blaufränkisch, Lemberger",
+    "names": [
+      "Blauer Limberger",
+      "Blaufränkisch",
+      "Lemberger"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Blauer Limberger, Blaufränkisch, Lemberger T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Colombard",
+    "names": [
+      "Colombard"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Colombard, B."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Doradilla",
+    "names": [
+      "Doradilla"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Doradilla, B."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Garnacha Tintorera T."
+  },
+  {
+    "name": "Garrido Fino",
+    "names": [
+      "Garrido Fino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Garrido Fino, B."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Jaén Tinto",
+    "names": [
+      "Jaén Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Jaén Tinto, T."
+  },
+  {
+    "name": "Lairen",
+    "names": [
+      "Lairen"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Lairen, B."
+  },
+  {
+    "name": "Listán del Condado",
+    "names": [
+      "Listán del Condado"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Listán del Condado, B."
+  },
+  {
+    "name": "Listán Prieto",
+    "names": [
+      "Listán Prieto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Listán Prieto, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malbec",
+    "names": [
+      "Malbec"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Malbec, T."
+  },
+  {
+    "name": "Malvasía Aromática",
+    "names": [
+      "Malvasía Aromática"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Malvasía Aromática, B."
+  },
+  {
+    "name": "Marselán",
+    "names": [
+      "Marselán"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Marselán, T."
+  },
+  {
+    "name": "Melonera",
+    "names": [
+      "Melonera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Melonera, T."
+  },
+  {
+    "name": "Mencía",
+    "names": [
+      "Mencía"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Mencía, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Molinera",
+    "names": [
+      "Molinera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Molinera, T."
+  },
+  {
+    "name": "Mollar Cano",
+    "names": [
+      "Mollar Cano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Mollar Cano, T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Montúa, Chelva",
+    "names": [
+      "Montúa",
+      "Chelva"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Montúa, Chelva, B."
+  },
+  {
+    "name": "Moscatel de Alejandría, Moscatel de Málaga",
+    "names": [
+      "Moscatel de Alejandría",
+      "Moscatel de Málaga"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Moscatel de Alejandría, Moscatel de Málaga, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo, Moscatel Morisco",
+    "names": [
+      "Moscatel de Grano Menudo",
+      "Moscatel Morisco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Moscatel de Grano Menudo, Moscatel Morisco, B."
+  },
+  {
+    "name": "Moscatel Negro",
+    "names": [
+      "Moscatel Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Moscatel Negro, T."
+  },
+  {
+    "name": "Palomino Fino, Listán Blanco",
+    "names": [
+      "Palomino Fino",
+      "Listán Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Palomino Fino, Listán Blanco, B."
+  },
+  {
+    "name": "Palomino",
+    "names": [
+      "Palomino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Palomino, B."
+  },
+  {
+    "name": "Pardina, Baladí, Baladí Verdejo, Calagraño, Jaén Blanco",
+    "names": [
+      "Pardina",
+      "Baladí",
+      "Baladí Verdejo",
+      "Calagraño",
+      "Jaén Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Pardina, Baladí, Baladí Verdejo, Calagraño, Jaén Blanco, B."
+  },
+  {
+    "name": "Pedro Ximénez",
+    "names": [
+      "Pedro Ximénez"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Pedro Ximénez, B."
+  },
+  {
+    "name": "Perruno",
+    "names": [
+      "Perruno"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Perruno, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Prieto Picudo",
+    "names": [
+      "Prieto Picudo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Prieto Picudo, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Rome",
+    "names": [
+      "Rome"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Rome, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo",
+    "names": [
+      "Tempranillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Tempranillo, T."
+  },
+  {
+    "name": "Tintilla de Rota",
+    "names": [
+      "Tintilla de Rota"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Tintilla de Rota, T."
+  },
+  {
+    "name": "Tinto Velasco, Frasco, Blasco",
+    "names": [
+      "Tinto Velasco",
+      "Frasco",
+      "Blasco"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Tinto Velasco, Frasco, Blasco, T."
+  },
+  {
+    "name": "Torrontés",
+    "names": [
+      "Torrontés"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Torrontés, B."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Vermentino",
+    "names": [
+      "Vermentino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Vermentino, B."
+  },
+  {
+    "name": "Vijariego Blanco, Bigiriego, Vigiriego, Vigiriega",
+    "names": [
+      "Vijariego Blanco",
+      "Bigiriego",
+      "Vigiriego",
+      "Vigiriega"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Vijariego Blanco, Bigiriego, Vigiriego, Vigiriega, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Zalema",
+    "names": [
+      "Zalema"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Andalucía",
+    "raw": "Zalema, B."
+  },
+  {
+    "name": "Agudelo, Chenin Blanc",
+    "names": [
+      "Agudelo",
+      "Chenin Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Agudelo, Chenin Blanc, B."
+  },
+  {
+    "name": "Alarije, Malvasía Riojana, Rojal",
+    "names": [
+      "Alarije",
+      "Malvasía Riojana",
+      "Rojal"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Alarije, Malvasía Riojana, Rojal, B."
+  },
+  {
+    "name": "Alcañón",
+    "names": [
+      "Alcañón"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Alcañón, B."
+  },
+  {
+    "name": "Aubún, Murescola",
+    "names": [
+      "Aubún",
+      "Murescola"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Aubún, Murescola, T."
+  },
+  {
+    "name": "Benedicto",
+    "names": [
+      "Benedicto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Benedicto, T."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Caladoc",
+    "names": [
+      "Caladoc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Caladoc, T."
+  },
+  {
+    "name": "Cariñena Blanca, Carignan blanc",
+    "names": [
+      "Cariñena Blanca",
+      "Carignan blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Cariñena Blanca, Carignan blanc, B."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Derechero",
+    "names": [
+      "Derechero"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Derechero, T."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Peluda",
+    "names": [
+      "Garnacha Peluda"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Garnacha Peluda, T."
+  },
+  {
+    "name": "Garnacha Roja, Garnacha Gris",
+    "names": [
+      "Garnacha Roja",
+      "Garnacha Gris"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Garnacha Roja, Garnacha Gris, T."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Gonfaus",
+    "names": [
+      "Gonfaus"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Gonfaus, T."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Marselan",
+    "names": [
+      "Marselan"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Marselan, T."
+  },
+  {
+    "name": "Mazuela, Cariñena",
+    "names": [
+      "Mazuela",
+      "Cariñena"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Mazuela, Cariñena, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Merseguera",
+    "names": [
+      "Merseguera"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Merseguera, B."
+  },
+  {
+    "name": "Miguel del Arco",
+    "names": [
+      "Miguel del Arco"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Miguel del Arco, T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Morenillo",
+    "names": [
+      "Morenillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Morenillo, T."
+  },
+  {
+    "name": "Moristel, Juan Ibáñez, Concejón",
+    "names": [
+      "Moristel",
+      "Juan Ibáñez",
+      "Concejón"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Moristel, Juan Ibáñez, Concejón, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Pardina, Robal",
+    "names": [
+      "Pardina",
+      "Robal"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Pardina, Robal, B."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Parraleta",
+    "names": [
+      "Parraleta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Parraleta, T."
+  },
+  {
+    "name": "Parrel",
+    "names": [
+      "Parrel"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Parrel, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo, Cencibel",
+    "names": [
+      "Tempranillo",
+      "Cencibel"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Tempranillo, Cencibel, T."
+  },
+  {
+    "name": "Tempranillo blanco",
+    "names": [
+      "Tempranillo blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Tempranillo blanco, B."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Vidadillo",
+    "names": [
+      "Vidadillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Vidadillo, T."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Xarello",
+    "names": [
+      "Xarello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Aragón",
+    "raw": "Xarello, B."
+  },
+  {
+    "name": "Albarín Blanco",
+    "names": [
+      "Albarín Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Albarín Blanco, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Albillo Mayor",
+    "names": [
+      "Albillo Mayor"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Albillo Mayor, B."
+  },
+  {
+    "name": "Bruñal, Albarín Tinto",
+    "names": [
+      "Bruñal",
+      "Albarín Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Bruñal, Albarín Tinto, T."
+  },
+  {
+    "name": "Carrasquín",
+    "names": [
+      "Carrasquín"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Carrasquín, T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Godello",
+    "names": [
+      "Godello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Godello, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Mencía",
+    "names": [
+      "Mencía"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Mencía, T."
+  },
+  {
+    "name": "Merenzao, Verdejo Negro",
+    "names": [
+      "Merenzao",
+      "Verdejo Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Merenzao, Verdejo Negro, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Palomino",
+    "names": [
+      "Palomino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Palomino, B."
+  },
+  {
+    "name": "Picapoll Blanco, Extra",
+    "names": [
+      "Picapoll Blanco",
+      "Extra"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Picapoll Blanco, Extra, B."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Treixadura",
+    "names": [
+      "Treixadura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del Principado de Asturias",
+    "raw": "Treixadura, B."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Callet",
+    "names": [
+      "Callet"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Callet, T."
+  },
+  {
+    "name": "Callet Negrella.",
+    "names": [
+      "Callet Negrella."
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Callet Negrella. T."
+  },
+  {
+    "name": "Calop Blanco",
+    "names": [
+      "Calop Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Calop Blanco,B."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Escursac",
+    "names": [
+      "Escursac"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Escursac, T."
+  },
+  {
+    "name": "Esperó de Gall",
+    "names": [
+      "Esperó de Gall"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Esperó de Gall, T."
+  },
+  {
+    "name": "Fogoneu",
+    "names": [
+      "Fogoneu"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Fogoneu, T."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Giró Ros",
+    "names": [
+      "Giró Ros"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Giró Ros, B."
+  },
+  {
+    "name": "Giró Negre",
+    "names": [
+      "Giró Negre"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Giró Negre, T."
+  },
+  {
+    "name": "Gorgollassa",
+    "names": [
+      "Gorgollassa"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Gorgollassa, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malvasía Aromática, Malvasía de Banyalbufar",
+    "names": [
+      "Malvasía Aromática",
+      "Malvasía de Banyalbufar"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Malvasía Aromática, Malvasía de Banyalbufar, B."
+  },
+  {
+    "name": "Mancès de Tibús",
+    "names": [
+      "Mancès de Tibús"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Mancès de Tibús, T."
+  },
+  {
+    "name": "Manto Negro",
+    "names": [
+      "Manto Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Manto Negro, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Moll, Pensal Blanca, Prensal",
+    "names": [
+      "Moll",
+      "Pensal Blanca",
+      "Prensal"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Moll, Pensal Blanca, Prensal, B."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo",
+    "names": [
+      "Tempranillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Tempranillo, T."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de las Illes Balears",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Albillo Criollo",
+    "names": [
+      "Albillo Criollo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Albillo Criollo, B."
+  },
+  {
+    "name": "Bastardo Blanco, Baboso Blanco",
+    "names": [
+      "Bastardo Blanco",
+      "Baboso Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Bastardo Blanco, Baboso Blanco, B."
+  },
+  {
+    "name": "Bastardo Negro",
+    "names": [
+      "Bastardo Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Bastardo Negro, T."
+  },
+  {
+    "name": "Bermejuela, Marmajuelo",
+    "names": [
+      "Bermejuela",
+      "Marmajuelo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Bermejuela, Marmajuelo, B."
+  },
+  {
+    "name": "Breval",
+    "names": [
+      "Breval"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Breval, B."
+  },
+  {
+    "name": "Bruñal, Baboso Negro",
+    "names": [
+      "Bruñal",
+      "Baboso Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Bruñal, Baboso Negro, T."
+  },
+  {
+    "name": "Burrablanca",
+    "names": [
+      "Burrablanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Burrablanca, B."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Castellana Negra",
+    "names": [
+      "Castellana Negra"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Castellana Negra, T."
+  },
+  {
+    "name": "Doradilla",
+    "names": [
+      "Doradilla"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Doradilla, B."
+  },
+  {
+    "name": "Forastera Blanca",
+    "names": [
+      "Forastera Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Forastera Blanca, B."
+  },
+  {
+    "name": "Gual",
+    "names": [
+      "Gual"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Gual, B."
+  },
+  {
+    "name": "Listán Blanco de Canarias",
+    "names": [
+      "Listán Blanco de Canarias"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Listán Blanco de Canarias, B."
+  },
+  {
+    "name": "Listán Negro, Almuñeco",
+    "names": [
+      "Listán Negro",
+      "Almuñeco"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Listán Negro, Almuñeco, T."
+  },
+  {
+    "name": "Listán Prieto",
+    "names": [
+      "Listán Prieto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Listán Prieto, T."
+  },
+  {
+    "name": "Malvasía Aromática",
+    "names": [
+      "Malvasía Aromática"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Malvasía Aromática, B."
+  },
+  {
+    "name": "Malvasía Rosada",
+    "names": [
+      "Malvasía Rosada"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Malvasía Rosada, T."
+  },
+  {
+    "name": "Malvasía Volcánica",
+    "names": [
+      "Malvasía Volcánica"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Malvasía Volcánica, B."
+  },
+  {
+    "name": "Merenzao, Tintilla",
+    "names": [
+      "Merenzao",
+      "Tintilla"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Merenzao, Tintilla, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel Negro",
+    "names": [
+      "Moscatel Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Moscatel Negro, T."
+  },
+  {
+    "name": "Negramoll",
+    "names": [
+      "Negramoll"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Negramoll, T."
+  },
+  {
+    "name": "Pedro Ximénez",
+    "names": [
+      "Pedro Ximénez"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Pedro Ximénez, B."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Ruby Cabernet",
+    "names": [
+      "Ruby Cabernet"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Ruby Cabernet, T."
+  },
+  {
+    "name": "Sabro",
+    "names": [
+      "Sabro"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Sabro, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo",
+    "names": [
+      "Tempranillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Tempranillo, T."
+  },
+  {
+    "name": "Torrontés",
+    "names": [
+      "Torrontés"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Torrontés, B."
+  },
+  {
+    "name": "Verdello",
+    "names": [
+      "Verdello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Verdello, B."
+  },
+  {
+    "name": "Vijariego Blanco, Diego",
+    "names": [
+      "Vijariego Blanco",
+      "Diego"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Vijariego Blanco, Diego, B."
+  },
+  {
+    "name": "Vijariego Negro",
+    "names": [
+      "Vijariego Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Canarias",
+    "raw": "Vijariego Negro, T."
+  },
+  {
+    "name": "Albarín Blanco",
+    "names": [
+      "Albarín Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Albarín Blanco, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Carrasquín",
+    "names": [
+      "Carrasquín"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Carrasquín, T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Godello",
+    "names": [
+      "Godello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Godello, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Hondarrabi Beltza, Ondarrabi Beltza",
+    "names": [
+      "Hondarrabi Beltza",
+      "Ondarrabi Beltza"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Hondarrabi Beltza, Ondarrabi Beltza, T."
+  },
+  {
+    "name": "Hondarrabi Zuri, Ondarrabi Zuri",
+    "names": [
+      "Hondarrabi Zuri",
+      "Ondarrabi Zuri"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Hondarrabi Zuri, Ondarrabi Zuri, B."
+  },
+  {
+    "name": "Mencía",
+    "names": [
+      "Mencía"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Mencía, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Palomino",
+    "names": [
+      "Palomino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Palomino, B."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo, Tinta de Toro",
+    "names": [
+      "Tempranillo",
+      "Tinta de Toro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Tempranillo, Tinta de Toro, T."
+  },
+  {
+    "name": "Treixadura",
+    "names": [
+      "Treixadura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cantabria",
+    "raw": "Treixadura, B."
+  },
+  {
+    "name": "Airén",
+    "names": [
+      "Airén"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Airén, B."
+  },
+  {
+    "name": "Alarije",
+    "names": [
+      "Alarije"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Alarije, B."
+  },
+  {
+    "name": "Albarín Blanco",
+    "names": [
+      "Albarín Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Albarín Blanco, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Albillo Dorado",
+    "names": [
+      "Albillo Dorado"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Albillo Dorado, B."
+  },
+  {
+    "name": "Albillo Real",
+    "names": [
+      "Albillo Real"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Albillo Real, B."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Colombard",
+    "names": [
+      "Colombard"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Colombard, B."
+  },
+  {
+    "name": "Coloraillo",
+    "names": [
+      "Coloraillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Coloraillo, T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Forcallat Tinta",
+    "names": [
+      "Forcallat Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Forcallat Tinta, T."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Peluda",
+    "names": [
+      "Garnacha Peluda"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Garnacha Peluda, T."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malbec",
+    "names": [
+      "Malbec"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Malbec, T."
+  },
+  {
+    "name": "Malvar",
+    "names": [
+      "Malvar"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Malvar, B."
+  },
+  {
+    "name": "Malvasía Aromática",
+    "names": [
+      "Malvasía Aromática"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Malvasía Aromática, B."
+  },
+  {
+    "name": "Marselan",
+    "names": [
+      "Marselan"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Marselan T."
+  },
+  {
+    "name": "Mazuela, Cariñena",
+    "names": [
+      "Mazuela",
+      "Cariñena"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Mazuela, Cariñena, T."
+  },
+  {
+    "name": "Mencía",
+    "names": [
+      "Mencía"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Mencía, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Merseguera",
+    "names": [
+      "Merseguera"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Merseguera, B."
+  },
+  {
+    "name": "Mizancho",
+    "names": [
+      "Mizancho"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Mizancho, B."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Montúa, Chelva",
+    "names": [
+      "Montúa",
+      "Chelva"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Montúa, Chelva, B."
+  },
+  {
+    "name": "Moravia Agria",
+    "names": [
+      "Moravia Agria"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Moravia Agria, T."
+  },
+  {
+    "name": "Moravia Dulce, Crudijera",
+    "names": [
+      "Moravia Dulce",
+      "Crudijera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Moravia Dulce, Crudijera, T."
+  },
+  {
+    "name": "Moribel",
+    "names": [
+      "Moribel"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Moribel, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Palomino",
+    "names": [
+      "Palomino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Palomino, B."
+  },
+  {
+    "name": "Pardillo, Marisancho",
+    "names": [
+      "Pardillo",
+      "Marisancho"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Pardillo, Marisancho, B."
+  },
+  {
+    "name": "Pardina, Jaén Blanco",
+    "names": [
+      "Pardina",
+      "Jaén Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Pardina, Jaén Blanco, B."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Pedro Ximénez",
+    "names": [
+      "Pedro Ximénez"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Pedro Ximénez, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Planta Nova, Tardana",
+    "names": [
+      "Planta Nova",
+      "Tardana"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Planta Nova, Tardana, B."
+  },
+  {
+    "name": "Prieto Picudo",
+    "names": [
+      "Prieto Picudo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Prieto Picudo, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Rojal Tinta",
+    "names": [
+      "Rojal Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Rojal Tinta, T."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo, Cencibel",
+    "names": [
+      "Tempranillo",
+      "Cencibel"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Tempranillo, Cencibel, T."
+  },
+  {
+    "name": "Tinto de la Pámpana Blanca",
+    "names": [
+      "Tinto de la Pámpana Blanca"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Tinto de la Pámpana Blanca, T."
+  },
+  {
+    "name": "Tinto Fragoso",
+    "names": [
+      "Tinto Fragoso"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Tinto Fragoso, T."
+  },
+  {
+    "name": "Tinto Velasco, Frasco",
+    "names": [
+      "Tinto Velasco",
+      "Frasco"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Tinto Velasco, Frasco, T."
+  },
+  {
+    "name": "Torrontés",
+    "names": [
+      "Torrontés"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Torrontés, B."
+  },
+  {
+    "name": "Touriga Nacional",
+    "names": [
+      "Touriga Nacional"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Touriga Nacional, T."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Verdoncho",
+    "names": [
+      "Verdoncho"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Verdoncho, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Castilla-La Mancha",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Alarije, Rojal",
+    "names": [
+      "Alarije",
+      "Rojal"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Alarije, Rojal, B."
+  },
+  {
+    "name": "Albarín Blanco",
+    "names": [
+      "Albarín Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Albarín Blanco, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Albillo Mayor",
+    "names": [
+      "Albillo Mayor"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Albillo Mayor, B."
+  },
+  {
+    "name": "Albillo Real",
+    "names": [
+      "Albillo Real"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Albillo Real, B."
+  },
+  {
+    "name": "Aurígera",
+    "names": [
+      "Aurígera"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Aurígera, B."
+  },
+  {
+    "name": "Bastardo Negro, Puesto Mayor",
+    "names": [
+      "Bastardo Negro",
+      "Puesto Mayor"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Bastardo Negro, Puesto Mayor, T."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Bruñal, Albarín Tinto",
+    "names": [
+      "Bruñal",
+      "Albarín Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Bruñal, Albarín Tinto, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Cabernet Eidos",
+    "names": [
+      "Cabernet Eidos"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Cabernet Eidos, T."
+  },
+  {
+    "name": "Cenicienta",
+    "names": [
+      "Cenicienta"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Cenicienta, T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Doña Blanca, Malvasía Castellana",
+    "names": [
+      "Doña Blanca",
+      "Malvasía Castellana"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Doña Blanca, Malvasía Castellana, B."
+  },
+  {
+    "name": "Estaladiña",
+    "names": [
+      "Estaladiña"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Estaladiña, T."
+  },
+  {
+    "name": "Gajo Arroba",
+    "names": [
+      "Gajo Arroba"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Gajo Arroba, T."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Roja, Garnacha Gris",
+    "names": [
+      "Garnacha Roja",
+      "Garnacha Gris"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Garnacha Roja, Garnacha Gris, T."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Garro, Mandón",
+    "names": [
+      "Garro",
+      "Mandón"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Garro, Mandón, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Godello",
+    "names": [
+      "Godello"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Godello, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Hondarrabi Beltza",
+    "names": [
+      "Hondarrabi Beltza"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Hondarrabi Beltza, T."
+  },
+  {
+    "name": "Hondarrabi Zuri",
+    "names": [
+      "Hondarrabi Zuri"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Hondarrabi Zuri, B."
+  },
+  {
+    "name": "Juan García, Mouratón",
+    "names": [
+      "Juan García",
+      "Mouratón"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Juan García, Mouratón, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malbec",
+    "names": [
+      "Malbec"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Malbec, T."
+  },
+  {
+    "name": "Maturana Blanca",
+    "names": [
+      "Maturana Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Maturana Blanca, B."
+  },
+  {
+    "name": "Maturana Tinta",
+    "names": [
+      "Maturana Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Maturana Tinta, T."
+  },
+  {
+    "name": "Mencía",
+    "names": [
+      "Mencía"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Mencía, T."
+  },
+  {
+    "name": "Merenzao, Bastardillo Chico, Negro Saurí",
+    "names": [
+      "Merenzao",
+      "Bastardillo Chico",
+      "Negro Saurí"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Merenzao, Bastardillo Chico, Negro Saurí T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Merlot Khorus",
+    "names": [
+      "Merlot Khorus"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Merlot Khorus,T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Montúa, Chelva",
+    "names": [
+      "Montúa",
+      "Chelva"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Montúa, Chelva, B."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Mouraz",
+    "names": [
+      "Mouraz"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Mouraz, T."
+  },
+  {
+    "name": "Palomino",
+    "names": [
+      "Palomino"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Palomino, B."
+  },
+  {
+    "name": "Palomino Fino, Listán Blanco",
+    "names": [
+      "Palomino Fino",
+      "Listán Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Palomino Fino, Listán Blanco, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Prieto Picudo",
+    "names": [
+      "Prieto Picudo"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Prieto Picudo, T."
+  },
+  {
+    "name": "Rabigato, Puesta en Cruz",
+    "names": [
+      "Rabigato",
+      "Puesta en Cruz"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Rabigato, Puesta en Cruz, B."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Rufete",
+    "names": [
+      "Rufete"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Rufete, T."
+  },
+  {
+    "name": "Rufete Serrano Blanco",
+    "names": [
+      "Rufete Serrano Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Rufete Serrano Blanco, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Sauvignon Rytos",
+    "names": [
+      "Sauvignon Rytos"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Sauvignon Rytos, B."
+  },
+  {
+    "name": "Soreli",
+    "names": [
+      "Soreli"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Soreli, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo Blanco",
+    "names": [
+      "Tempranillo Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Tempranillo Blanco, B."
+  },
+  {
+    "name": "Tempranillo, Tinto Fino, Tinta del País, Tinta de Toro",
+    "names": [
+      "Tempranillo",
+      "Tinto Fino",
+      "Tinta del País",
+      "Tinta de Toro"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Tempranillo, Tinto Fino, Tinta del País, Tinta de Toro, T."
+  },
+  {
+    "name": "Tijonera",
+    "names": [
+      "Tijonera"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Tijonera, T."
+  },
+  {
+    "name": "Tinto Jeromo",
+    "names": [
+      "Tinto Jeromo"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Tinto Jeromo, T."
+  },
+  {
+    "name": "Touriga Nacional",
+    "names": [
+      "Touriga Nacional"
+    ],
+    "code": "T",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Touriga Nacional, T."
+  },
+  {
+    "name": "Treixadura",
+    "names": [
+      "Treixadura"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Treixadura, B."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad de Castilla y León",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Agudelo, Chenin Blanc",
+    "names": [
+      "Agudelo",
+      "Chenin Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Agudelo, Chenin Blanc, B."
+  },
+  {
+    "name": "Airén",
+    "names": [
+      "Airén"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Airén, B."
+  },
+  {
+    "name": "Alarije, Subirat Parent",
+    "names": [
+      "Alarije",
+      "Subirat Parent"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Alarije, Subirat Parent, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Alcañon",
+    "names": [
+      "Alcañon"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Alcañon, B."
+  },
+  {
+    "name": "Belat",
+    "names": [
+      "Belat"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Belat, T."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Bornac",
+    "names": [
+      "Bornac"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Bornac,T."
+  },
+  {
+    "name": "Botana",
+    "names": [
+      "Botana"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Botana, T."
+  },
+  {
+    "name": "Bronsa",
+    "names": [
+      "Bronsa"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Bronsa,T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Caladoc",
+    "names": [
+      "Caladoc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Caladoc, T."
+  },
+  {
+    "name": "Cariñena Blanca, Carignan blanc",
+    "names": [
+      "Cariñena Blanca",
+      "Carignan blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Cariñena Blanca, Carignan blanc, B."
+  },
+  {
+    "name": "Cariñena Gris",
+    "names": [
+      "Cariñena Gris"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Cariñena Gris, T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Coromina",
+    "names": [
+      "Coromina"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Coromina, B."
+  },
+  {
+    "name": "Forcada",
+    "names": [
+      "Forcada"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Forcada, B."
+  },
+  {
+    "name": "Garnacha Blanca, Lladoner Blanco, Lledoner Blanc",
+    "names": [
+      "Garnacha Blanca",
+      "Lladoner Blanco",
+      "Lledoner Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Garnacha Blanca, Lladoner Blanco, Lledoner Blanc, B."
+  },
+  {
+    "name": "Garnacha Peluda, Lledoner Pelut",
+    "names": [
+      "Garnacha Peluda",
+      "Lledoner Pelut"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Garnacha Peluda, Lledoner Pelut, T."
+  },
+  {
+    "name": "Garnacha Roja, Garnacha Gris",
+    "names": [
+      "Garnacha Roja",
+      "Garnacha Gris"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Garnacha Roja, Garnacha Gris, T."
+  },
+  {
+    "name": "Garnacha Tinta, Lladoner, Lledoner",
+    "names": [
+      "Garnacha Tinta",
+      "Lladoner",
+      "Lledoner"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Garnacha Tinta, Lladoner, Lledoner, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Garro, Mando",
+    "names": [
+      "Garro",
+      "Mando"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Garro, Mando, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Giró Ros",
+    "names": [
+      "Giró Ros"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Giró Ros, B."
+  },
+  {
+    "name": "Godello",
+    "names": [
+      "Godello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Godello, B."
+  },
+  {
+    "name": "Gonfaus",
+    "names": [
+      "Gonfaus"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Gonfaus, T."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Incrocio Manzoni",
+    "names": [
+      "Incrocio Manzoni"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Incrocio Manzoni, B."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malbec",
+    "names": [
+      "Malbec"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Malbec, T."
+  },
+  {
+    "name": "Malvasía Aromática, Malvasía de Sitges",
+    "names": [
+      "Malvasía Aromática",
+      "Malvasía de Sitges"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Malvasía Aromática, Malvasía de Sitges, B."
+  },
+  {
+    "name": "Malvasía Blanca Roja",
+    "names": [
+      "Malvasía Blanca Roja"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Malvasía Blanca Roja, B."
+  },
+  {
+    "name": "Marina Rion",
+    "names": [
+      "Marina Rion"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Marina Rion, B."
+  },
+  {
+    "name": "Marselán",
+    "names": [
+      "Marselán"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Marselán, T."
+  },
+  {
+    "name": "Mazuela, Cariñena, Samsó",
+    "names": [
+      "Mazuela",
+      "Cariñena",
+      "Samsó"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Mazuela, Cariñena, Samsó, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Merlot Khorus",
+    "names": [
+      "Merlot Khorus"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Merlot Khorus,T."
+  },
+  {
+    "name": "Merseguera, Sumoll Blanco",
+    "names": [
+      "Merseguera",
+      "Sumoll Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Merseguera, Sumoll Blanco, B."
+  },
+  {
+    "name": "Monastrell, Mataró, Mourvedre",
+    "names": [
+      "Monastrell",
+      "Mataró",
+      "Mourvedre"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Monastrell, Mataró, Mourvedre T."
+  },
+  {
+    "name": "Moneu",
+    "names": [
+      "Moneu"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Moneu, T."
+  },
+  {
+    "name": "Montori, Cua de Moltó",
+    "names": [
+      "Montori",
+      "Cua de Moltó"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Montori, Cua de Moltó, B."
+  },
+  {
+    "name": "Morenillo",
+    "names": [
+      "Morenillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Morenillo, T."
+  },
+  {
+    "name": "Moscatel de Alejandría, Moscatel de Málaga",
+    "names": [
+      "Moscatel de Alejandría",
+      "Moscatel de Málaga"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Moscatel de Alejandría, Moscatel de Málaga B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Parellada, Montonec, Montonega",
+    "names": [
+      "Parellada",
+      "Montonec",
+      "Montonega"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Parellada, Montonec, Montonega, B."
+  },
+  {
+    "name": "Pedro Ximénez",
+    "names": [
+      "Pedro Ximénez"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Pedro Ximénez, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Picapoll Blanco",
+    "names": [
+      "Picapoll Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Picapoll Blanco, B."
+  },
+  {
+    "name": "Picapoll Negro",
+    "names": [
+      "Picapoll Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Picapoll Negro, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Pirene",
+    "names": [
+      "Pirene"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Pirene, T."
+  },
+  {
+    "name": "Querol",
+    "names": [
+      "Querol"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Querol, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Selma Blanca",
+    "names": [
+      "Selma Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Selma Blanca, B."
+  },
+  {
+    "name": "Solana",
+    "names": [
+      "Solana"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Solana, T."
+  },
+  {
+    "name": "Soreli",
+    "names": [
+      "Soreli"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Soreli, B."
+  },
+  {
+    "name": "Sumoll Tinto",
+    "names": [
+      "Sumoll Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Sumoll Tinto, T."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo, Ull de Llebre",
+    "names": [
+      "Tempranillo",
+      "Ull de Llebre"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Tempranillo, Ull de Llebre, T."
+  },
+  {
+    "name": "Trepat",
+    "names": [
+      "Trepat"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Trepat, T."
+  },
+  {
+    "name": "Trobat",
+    "names": [
+      "Trobat"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Trobat, T."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Vermentino",
+    "names": [
+      "Vermentino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Vermentino, B."
+  },
+  {
+    "name": "Verdil",
+    "names": [
+      "Verdil"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Verdil, B."
+  },
+  {
+    "name": "Vidadillo",
+    "names": [
+      "Vidadillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Vidadillo, T."
+  },
+  {
+    "name": "Vinyater",
+    "names": [
+      "Vinyater"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Vinyater, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Xarello, Cartoixa, Pansal, Pansa Blanca",
+    "names": [
+      "Xarello",
+      "Cartoixa",
+      "Pansal",
+      "Pansa Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Xarello, Cartoixa, Pansal, Pansa Blanca, B."
+  },
+  {
+    "name": "Xarello rosado",
+    "names": [
+      "Xarello rosado"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Cataluña",
+    "raw": "Xarello rosado, T."
+  },
+  {
+    "name": "Alarije, Subirat Parent",
+    "names": [
+      "Alarije",
+      "Subirat Parent"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Alarije, Subirat Parent, B."
+  },
+  {
+    "name": "Albillo Mayor",
+    "names": [
+      "Albillo Mayor"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Albillo Mayor, B."
+  },
+  {
+    "name": "Albillo Real",
+    "names": [
+      "Albillo Real"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Albillo Real, B."
+  },
+  {
+    "name": "Antáo Vaz",
+    "names": [
+      "Antáo Vaz"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Antáo Vaz, B."
+  },
+  {
+    "name": "Arinto",
+    "names": [
+      "Arinto"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Arinto, B."
+  },
+  {
+    "name": "Bastardo Blanco",
+    "names": [
+      "Bastardo Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Bastardo Blanco, B."
+  },
+  {
+    "name": "Beba",
+    "names": [
+      "Beba"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Beba, B."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Borba",
+    "names": [
+      "Borba"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Borba, B."
+  },
+  {
+    "name": "Bruñal, Albarín Tinto, Baboso Tinto",
+    "names": [
+      "Bruñal",
+      "Albarín Tinto",
+      "Baboso Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Bruñal, Albarín Tinto, Baboso Tinto, T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Casteláo",
+    "names": [
+      "Casteláo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Casteláo, T."
+  },
+  {
+    "name": "Cayetana Blanca",
+    "names": [
+      "Cayetana Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Cayetana Blanca, B."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Colombard",
+    "names": [
+      "Colombard"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Colombard, B."
+  },
+  {
+    "name": "Doña Blanca, Cigüente",
+    "names": [
+      "Doña Blanca",
+      "Cigüente"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Doña Blanca, Cigüente, B."
+  },
+  {
+    "name": "Fernáo Pires",
+    "names": [
+      "Fernáo Pires"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Fernáo Pires, B."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Graciano,Tinta Miúda",
+    "names": [
+      "Graciano",
+      "Tinta Miúda"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Graciano,Tinta Miúda,T."
+  },
+  {
+    "name": "Gran Negro",
+    "names": [
+      "Gran Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Gran Negro, T."
+  },
+  {
+    "name": "Jaén Tinto",
+    "names": [
+      "Jaén Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Jaén Tinto, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malbec",
+    "names": [
+      "Malbec"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Malbec, T."
+  },
+  {
+    "name": "Malvar",
+    "names": [
+      "Malvar"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Malvar, B."
+  },
+  {
+    "name": "Mazuela",
+    "names": [
+      "Mazuela"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Mazuela, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Montúa, Chelva, Eva de los Santos",
+    "names": [
+      "Montúa",
+      "Chelva",
+      "Eva de los Santos"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Montúa, Chelva, Eva de los Santos, B."
+  },
+  {
+    "name": "Morisca",
+    "names": [
+      "Morisca"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Morisca, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Pardina, Jaén Blanco",
+    "names": [
+      "Pardina",
+      "Jaén Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Pardina, Jaén Blanco, B."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Pedro Ximénez",
+    "names": [
+      "Pedro Ximénez"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Pedro Ximénez, B."
+  },
+  {
+    "name": "Perruno",
+    "names": [
+      "Perruno"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Perruno, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Rufete",
+    "names": [
+      "Rufete"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Rufete, T."
+  },
+  {
+    "name": "Rufete Serrano Blanco",
+    "names": [
+      "Rufete Serrano Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Rufete Serrano Blanco, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo, Cencibel, Tinto Fino",
+    "names": [
+      "Tempranillo",
+      "Cencibel",
+      "Tinto Fino"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Tempranillo, Cencibel, Tinto Fino, T."
+  },
+  {
+    "name": "Tinto de la Pámpana Blanca",
+    "names": [
+      "Tinto de la Pámpana Blanca"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Tinto de la Pámpana Blanca, T."
+  },
+  {
+    "name": "Torrontés",
+    "names": [
+      "Torrontés"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Torrontés, B."
+  },
+  {
+    "name": "Touriga Nacional",
+    "names": [
+      "Touriga Nacional"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Touriga Nacional, T."
+  },
+  {
+    "name": "Trincadeira",
+    "names": [
+      "Trincadeira"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Trincadeira, T."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Xarello",
+    "names": [
+      "Xarello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Extremadura",
+    "raw": "Xarello, B."
+  },
+  {
+    "name": "Agudelo, Chenin Blanc",
+    "names": [
+      "Agudelo",
+      "Chenin Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Agudelo, Chenin Blanc, B."
+  },
+  {
+    "name": "Albarín Blanco, Branco Lexítimo",
+    "names": [
+      "Albarín Blanco",
+      "Branco Lexítimo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Albarín Blanco, Branco Lexítimo, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Albilla do Avia",
+    "names": [
+      "Albilla do Avia"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Albilla do Avia, B."
+  },
+  {
+    "name": "Blanca de Monterrei",
+    "names": [
+      "Blanca de Monterrei"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Blanca de Monterrei, B."
+  },
+  {
+    "name": "Brancellao",
+    "names": [
+      "Brancellao"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Brancellao, T."
+  },
+  {
+    "name": "Bruñal, Albarín Tinto",
+    "names": [
+      "Bruñal",
+      "Albarín Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Bruñal, Albarín Tinto, T."
+  },
+  {
+    "name": "Caíño Blanco",
+    "names": [
+      "Caíño Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Caíño Blanco, B."
+  },
+  {
+    "name": "Caíño Bravo",
+    "names": [
+      "Caíño Bravo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Caíño Bravo, T."
+  },
+  {
+    "name": "Caíño Longo",
+    "names": [
+      "Caíño Longo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Caíño Longo, T."
+  },
+  {
+    "name": "Caíño Tinto",
+    "names": [
+      "Caíño Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Caíño Tinto, T."
+  },
+  {
+    "name": "Castañal",
+    "names": [
+      "Castañal"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Castañal, T."
+  },
+  {
+    "name": "Doña Blanca, Dona Branca",
+    "names": [
+      "Doña Blanca",
+      "Dona Branca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Doña Blanca, Dona Branca, B."
+  },
+  {
+    "name": "Espadeiro, Torneiro",
+    "names": [
+      "Espadeiro",
+      "Torneiro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Espadeiro, Torneiro, T."
+  },
+  {
+    "name": "Ferrón",
+    "names": [
+      "Ferrón"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Ferrón, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Godello",
+    "names": [
+      "Godello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Godello, B."
+  },
+  {
+    "name": "Gran Negro",
+    "names": [
+      "Gran Negro"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Gran Negro, T."
+  },
+  {
+    "name": "Juan García, Mouratón",
+    "names": [
+      "Juan García",
+      "Mouratón"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Juan García, Mouratón, T."
+  },
+  {
+    "name": "Lado",
+    "names": [
+      "Lado"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Lado, B."
+  },
+  {
+    "name": "Loureira, Loureiro Blanco, Marqués",
+    "names": [
+      "Loureira",
+      "Loureiro Blanco",
+      "Marqués"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Loureira, Loureiro Blanco, Marqués, B."
+  },
+  {
+    "name": "Loureiro Tinto",
+    "names": [
+      "Loureiro Tinto"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Loureiro Tinto, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Mencía",
+    "names": [
+      "Mencía"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Mencía, T."
+  },
+  {
+    "name": "Merenzao, María Ordoña",
+    "names": [
+      "Merenzao",
+      "María Ordoña"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Merenzao, María Ordoña, T."
+  },
+  {
+    "name": "Palomino",
+    "names": [
+      "Palomino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Palomino, B."
+  },
+  {
+    "name": "Pedral, Dozal",
+    "names": [
+      "Pedral",
+      "Dozal"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Pedral, Dozal, T."
+  },
+  {
+    "name": "Ratiño Gallega",
+    "names": [
+      "Ratiño Gallega"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Ratiño Gallega, B."
+  },
+  {
+    "name": "Sousón",
+    "names": [
+      "Sousón"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Sousón, T."
+  },
+  {
+    "name": "Tempranillo",
+    "names": [
+      "Tempranillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Tempranillo, T."
+  },
+  {
+    "name": "Torrontés",
+    "names": [
+      "Torrontés"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Torrontés, B."
+  },
+  {
+    "name": "Treixadura",
+    "names": [
+      "Treixadura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de Galicia",
+    "raw": "Treixadura, B."
+  },
+  {
+    "name": "Airén",
+    "names": [
+      "Airén"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Airén, B."
+  },
+  {
+    "name": "Albillo Real",
+    "names": [
+      "Albillo Real"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Albillo Real, B."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Garnacha Tintorera, Negral",
+    "names": [
+      "Garnacha Tintorera",
+      "Negral"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Garnacha Tintorera, Negral, T."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Listán Prieto",
+    "names": [
+      "Listán Prieto"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Listán Prieto, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malvar",
+    "names": [
+      "Malvar"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Malvar, B."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Pardina, Jaén Blanco",
+    "names": [
+      "Pardina",
+      "Jaén Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Pardina, Jaén Blanco, B."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo, Cencibel, Tinto Fino",
+    "names": [
+      "Tempranillo",
+      "Cencibel",
+      "Tinto Fino"
+    ],
+    "code": "T",
+    "community": "Comunidad de Madrid",
+    "raw": "Tempranillo, Cencibel, Tinto Fino, T."
+  },
+  {
+    "name": "Torrontés",
+    "names": [
+      "Torrontés"
+    ],
+    "code": "B",
+    "community": "Comunidad de Madrid",
+    "raw": "Torrontés, B."
+  },
+  {
+    "name": "Airén",
+    "names": [
+      "Airén"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Airén, B."
+  },
+  {
+    "name": "Bonicaire",
+    "names": [
+      "Bonicaire"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Bonicaire, T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Calblanque",
+    "names": [
+      "Calblanque"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Calblanque, B."
+  },
+  {
+    "name": "Calnegre",
+    "names": [
+      "Calnegre"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Calnegre,T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Carmolí",
+    "names": [
+      "Carmolí"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Carmolí, T."
+  },
+  {
+    "name": "Forcallat Blanca",
+    "names": [
+      "Forcallat Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Forcallat Blanca, B."
+  },
+  {
+    "name": "Forcallat Tinta",
+    "names": [
+      "Forcallat Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Forcallat Tinta, T."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Gebas",
+    "names": [
+      "Gebas"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Gebas,T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malvasía Aromática, Malvasía de Sitges",
+    "names": [
+      "Malvasía Aromática",
+      "Malvasía de Sitges"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Malvasía Aromática, Malvasía de Sitges, B."
+  },
+  {
+    "name": "Mencía",
+    "names": [
+      "Mencía"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Mencía, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Merseguera",
+    "names": [
+      "Merseguera"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Merseguera, B."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Moravia Dulce, Crudijera",
+    "names": [
+      "Moravia Dulce",
+      "Crudijera"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Moravia Dulce, Crudijera, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Myrtia",
+    "names": [
+      "Myrtia"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Myrtia,T."
+  },
+  {
+    "name": "Quipar",
+    "names": [
+      "Quipar"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Quipar, T."
+  },
+  {
+    "name": "Pedro Ximénez",
+    "names": [
+      "Pedro Ximénez"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Pedro Ximénez, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Rojal Tinta",
+    "names": [
+      "Rojal Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Rojal Tinta, T."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo, Cencibel",
+    "names": [
+      "Tempranillo",
+      "Cencibel"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Tempranillo, Cencibel, T."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Verdil",
+    "names": [
+      "Verdil"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Verdil, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de la Región de Murcia",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Alarije, Malvasía Riojana",
+    "names": [
+      "Alarije",
+      "Malvasía Riojana"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Alarije, Malvasía Riojana, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Albillo Mayor, Turruntés",
+    "names": [
+      "Albillo Mayor",
+      "Turruntés"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Albillo Mayor, Turruntés, B."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Roja, Garnacha Gris",
+    "names": [
+      "Garnacha Roja",
+      "Garnacha Gris"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Garnacha Roja, Garnacha Gris, T."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Gros Manseng",
+    "names": [
+      "Gros Manseng"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Gros Manseng, B."
+  },
+  {
+    "name": "Hondarrabi Zuri",
+    "names": [
+      "Hondarrabi Zuri"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Hondarrabi Zuri, B."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malbec",
+    "names": [
+      "Malbec"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Malbec, T."
+  },
+  {
+    "name": "Maturana Blanca",
+    "names": [
+      "Maturana Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Maturana Blanca, B."
+  },
+  {
+    "name": "Mazuela, Mazuelo",
+    "names": [
+      "Mazuela",
+      "Mazuelo"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Mazuela, Mazuelo, T."
+  },
+  {
+    "name": "Merenzao, Maturana Tinta",
+    "names": [
+      "Merenzao",
+      "Maturana Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Merenzao, Maturana Tinta, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo Rojo",
+    "names": [
+      "Moscatel de Grano Menudo Rojo"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Moscatel de Grano Menudo Rojo, T."
+  },
+  {
+    "name": "Musa",
+    "names": [
+      "Musa"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Musa, B."
+  },
+  {
+    "name": "Oneca",
+    "names": [
+      "Oneca"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Oneca, B."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Petit Courbu",
+    "names": [
+      "Petit Courbu"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Petit Courbu, B."
+  },
+  {
+    "name": "Petit Manseng",
+    "names": [
+      "Petit Manseng"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Petit Manseng, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo Blanco",
+    "names": [
+      "Tempranillo Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Tempranillo Blanco, B."
+  },
+  {
+    "name": "Tempranillo",
+    "names": [
+      "Tempranillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Tempranillo, T."
+  },
+  {
+    "name": "Tortozona Tinta",
+    "names": [
+      "Tortozona Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Tortozona Tinta, T."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Xarello",
+    "names": [
+      "Xarello"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Xarello, B."
+  },
+  {
+    "name": "Xurra",
+    "names": [
+      "Xurra"
+    ],
+    "code": "B",
+    "community": "Comunidad Foral de Navarra",
+    "raw": "Xurra, B."
+  },
+  {
+    "name": "Alarije, Malvasía Riojana",
+    "names": [
+      "Alarije",
+      "Malvasía Riojana"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Alarije, Malvasía Riojana, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Albillo Mayor, Turruntés",
+    "names": [
+      "Albillo Mayor",
+      "Turruntés"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Albillo Mayor, Turruntés, B."
+  },
+  {
+    "name": "Albillo Real",
+    "names": [
+      "Albillo Real"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Albillo Real, B."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Doña Blanca, Malvasia Castellana",
+    "names": [
+      "Doña Blanca",
+      "Malvasia Castellana"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Doña Blanca, Malvasia Castellana, B."
+  },
+  {
+    "name": "Folle Blanche",
+    "names": [
+      "Folle Blanche"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Folle Blanche, B."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Godello",
+    "names": [
+      "Godello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Godello, B."
+  },
+  {
+    "name": "Gros Manseng",
+    "names": [
+      "Gros Manseng"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Gros Manseng, B."
+  },
+  {
+    "name": "Hondarrabi Beltza, Ondarrabi Beltza",
+    "names": [
+      "Hondarrabi Beltza",
+      "Ondarrabi Beltza"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Hondarrabi Beltza, Ondarrabi Beltza, T."
+  },
+  {
+    "name": "Hondarrabi Zuri, Ondarrabi Zuri",
+    "names": [
+      "Hondarrabi Zuri",
+      "Ondarrabi Zuri"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Hondarrabi Zuri, Ondarrabi Zuri, B."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malbec",
+    "names": [
+      "Malbec"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Malbec, T."
+  },
+  {
+    "name": "Maturana Blanca",
+    "names": [
+      "Maturana Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Maturana Blanca, B."
+  },
+  {
+    "name": "Mazuela, Mazuelo",
+    "names": [
+      "Mazuela",
+      "Mazuelo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Mazuela, Mazuelo, T."
+  },
+  {
+    "name": "Merenzao, Maturana Tinta",
+    "names": [
+      "Merenzao",
+      "Maturana Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Merenzao, Maturana Tinta, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Palomino",
+    "names": [
+      "Palomino"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Palomino, B."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Petit Courbu",
+    "names": [
+      "Petit Courbu"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Petit Courbu, B."
+  },
+  {
+    "name": "Petit Manseng",
+    "names": [
+      "Petit Manseng"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Petit Manseng, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo Blanco",
+    "names": [
+      "Tempranillo Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Tempranillo Blanco, B."
+  },
+  {
+    "name": "Tempranillo",
+    "names": [
+      "Tempranillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Tempranillo, T."
+  },
+  {
+    "name": "Treixadura",
+    "names": [
+      "Treixadura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Treixadura, B."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Xarello",
+    "names": [
+      "Xarello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma del País Vasco",
+    "raw": "Xarello, B."
+  },
+  {
+    "name": "Alarije, Malvasía Riojana",
+    "names": [
+      "Alarije",
+      "Malvasía Riojana"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Alarije, Malvasía Riojana, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Albillo Mayor, Turruntés",
+    "names": [
+      "Albillo Mayor",
+      "Turruntés"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Albillo Mayor, Turruntés, B."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Tinta",
+    "names": [
+      "Garnacha Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Garnacha Tinta, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Hondarrabi Zuri",
+    "names": [
+      "Hondarrabi Zuri"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Hondarrabi Zuri, B."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Maturana Blanca",
+    "names": [
+      "Maturana Blanca"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Maturana Blanca, B."
+  },
+  {
+    "name": "Merenzao, Maturana Tinta",
+    "names": [
+      "Merenzao",
+      "Maturana Tinta"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Merenzao, Maturana Tinta, T."
+  },
+  {
+    "name": "Mazuela, Mazuelo",
+    "names": [
+      "Mazuela",
+      "Mazuelo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Mazuela, Mazuelo, T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Tempranillo Blanco",
+    "names": [
+      "Tempranillo Blanco"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Tempranillo Blanco, B."
+  },
+  {
+    "name": "Tempranillo",
+    "names": [
+      "Tempranillo"
+    ],
+    "code": "T",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Tempranillo, T."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Xarello",
+    "names": [
+      "Xarello"
+    ],
+    "code": "B",
+    "community": "Comunidad Autónoma de La Rioja",
+    "raw": "Xarello, B."
+  },
+  {
+    "name": "Airén",
+    "names": [
+      "Airén"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Airén, B."
+  },
+  {
+    "name": "Alarije, Malvasía Riojana, Subirat Parent",
+    "names": [
+      "Alarije",
+      "Malvasía Riojana",
+      "Subirat Parent"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Alarije, Malvasía Riojana, Subirat Parent, B."
+  },
+  {
+    "name": "Albariño",
+    "names": [
+      "Albariño"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Albariño, B."
+  },
+  {
+    "name": "Bobal",
+    "names": [
+      "Bobal"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Bobal, T."
+  },
+  {
+    "name": "Bonicaire, Embolicaire",
+    "names": [
+      "Bonicaire",
+      "Embolicaire"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Bonicaire, Embolicaire, T."
+  },
+  {
+    "name": "Cabernet Franc",
+    "names": [
+      "Cabernet Franc"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Cabernet Franc, T."
+  },
+  {
+    "name": "Cabernet Sauvignon",
+    "names": [
+      "Cabernet Sauvignon"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Cabernet Sauvignon, T."
+  },
+  {
+    "name": "Chardonnay",
+    "names": [
+      "Chardonnay"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Chardonnay, B."
+  },
+  {
+    "name": "Forcallat Blanca",
+    "names": [
+      "Forcallat Blanca"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Forcallat Blanca, B."
+  },
+  {
+    "name": "Forcallat Tinta",
+    "names": [
+      "Forcallat Tinta"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Forcallat Tinta, T."
+  },
+  {
+    "name": "Garnacha Blanca",
+    "names": [
+      "Garnacha Blanca"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Garnacha Blanca, B."
+  },
+  {
+    "name": "Garnacha Tinta, Gironet",
+    "names": [
+      "Garnacha Tinta",
+      "Gironet"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Garnacha Tinta, Gironet, T."
+  },
+  {
+    "name": "Garnacha Tintorera",
+    "names": [
+      "Garnacha Tintorera"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Garnacha Tintorera, T."
+  },
+  {
+    "name": "Garro, Mando",
+    "names": [
+      "Garro",
+      "Mando"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Garro, Mando, T."
+  },
+  {
+    "name": "Gewürztraminer",
+    "names": [
+      "Gewürztraminer"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Gewürztraminer, B."
+  },
+  {
+    "name": "Godello",
+    "names": [
+      "Godello"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Godello, B."
+  },
+  {
+    "name": "Graciano",
+    "names": [
+      "Graciano"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Graciano, T."
+  },
+  {
+    "name": "Macabeo, Viura",
+    "names": [
+      "Macabeo",
+      "Viura"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Macabeo, Viura, B."
+  },
+  {
+    "name": "Malbec",
+    "names": [
+      "Malbec"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Malbec, T."
+  },
+  {
+    "name": "Marselan",
+    "names": [
+      "Marselan"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Marselan, T."
+  },
+  {
+    "name": "Mazuela",
+    "names": [
+      "Mazuela"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Mazuela, T."
+  },
+  {
+    "name": "Mencía",
+    "names": [
+      "Mencía"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Mencía, T."
+  },
+  {
+    "name": "Merlot",
+    "names": [
+      "Merlot"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Merlot, T."
+  },
+  {
+    "name": "Merseguera, Exquitsagos, Verdosilla",
+    "names": [
+      "Merseguera",
+      "Exquitsagos",
+      "Verdosilla"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Merseguera, Exquitsagos, Verdosilla, B."
+  },
+  {
+    "name": "Miguel del Arco",
+    "names": [
+      "Miguel del Arco"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Miguel del Arco, T."
+  },
+  {
+    "name": "Monastrell",
+    "names": [
+      "Monastrell"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Monastrell, T."
+  },
+  {
+    "name": "Mondragón",
+    "names": [
+      "Mondragón"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Mondragón, T."
+  },
+  {
+    "name": "Moravia Dulce, Crudijera",
+    "names": [
+      "Moravia Dulce",
+      "Crudijera"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Moravia Dulce, Crudijera, T."
+  },
+  {
+    "name": "Moravia Agria",
+    "names": [
+      "Moravia Agria"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Moravia Agria T."
+  },
+  {
+    "name": "Morenillo",
+    "names": [
+      "Morenillo"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Morenillo, T."
+  },
+  {
+    "name": "Moscatel de Alejandría",
+    "names": [
+      "Moscatel de Alejandría"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Moscatel de Alejandría, B."
+  },
+  {
+    "name": "Moscatel de Grano Menudo",
+    "names": [
+      "Moscatel de Grano Menudo"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Moscatel de Grano Menudo, B."
+  },
+  {
+    "name": "Pampolat",
+    "names": [
+      "Pampolat"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Pampolat, T."
+  },
+  {
+    "name": "Parellada",
+    "names": [
+      "Parellada"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Parellada, B."
+  },
+  {
+    "name": "Pedro Ximénez",
+    "names": [
+      "Pedro Ximénez"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Pedro Ximénez, B."
+  },
+  {
+    "name": "Petit Verdot",
+    "names": [
+      "Petit Verdot"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Petit Verdot, T."
+  },
+  {
+    "name": "Pinot Noir",
+    "names": [
+      "Pinot Noir"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Pinot Noir, T."
+  },
+  {
+    "name": "Planta Fina de Pedralba",
+    "names": [
+      "Planta Fina de Pedralba"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Planta Fina de Pedralba, B."
+  },
+  {
+    "name": "Planta Nova, Tardana",
+    "names": [
+      "Planta Nova",
+      "Tardana"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Planta Nova, Tardana, B."
+  },
+  {
+    "name": "Prieto Picudo",
+    "names": [
+      "Prieto Picudo"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Prieto Picudo, T."
+  },
+  {
+    "name": "Riesling",
+    "names": [
+      "Riesling"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Riesling, B."
+  },
+  {
+    "name": "Sauvignon Blanc",
+    "names": [
+      "Sauvignon Blanc"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Sauvignon Blanc, B."
+  },
+  {
+    "name": "Semillon",
+    "names": [
+      "Semillon"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Semillon, B."
+  },
+  {
+    "name": "Syrah",
+    "names": [
+      "Syrah"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Syrah, T."
+  },
+  {
+    "name": "Tempranillo, Cencibel, Tinto Fino",
+    "names": [
+      "Tempranillo",
+      "Cencibel",
+      "Tinto Fino"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Tempranillo, Cencibel, Tinto Fino, T."
+  },
+  {
+    "name": "Tinto de la Pámpana Blanca",
+    "names": [
+      "Tinto de la Pámpana Blanca"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Tinto de la Pámpana Blanca, T."
+  },
+  {
+    "name": "Tortosí",
+    "names": [
+      "Tortosí"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Tortosí, B."
+  },
+  {
+    "name": "Trepat",
+    "names": [
+      "Trepat"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Trepat, T."
+  },
+  {
+    "name": "Valencí Blanco",
+    "names": [
+      "Valencí Blanco"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Valencí Blanco, B."
+  },
+  {
+    "name": "Valencí Tinto",
+    "names": [
+      "Valencí Tinto"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Valencí Tinto, T."
+  },
+  {
+    "name": "Verdejo",
+    "names": [
+      "Verdejo"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Verdejo, B."
+  },
+  {
+    "name": "Verdil",
+    "names": [
+      "Verdil"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Verdil, B."
+  },
+  {
+    "name": "Vermentino",
+    "names": [
+      "Vermentino"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Vermentino, B."
+  },
+  {
+    "name": "Vidadillo",
+    "names": [
+      "Vidadillo"
+    ],
+    "code": "T",
+    "community": "Comunitat Valenciana",
+    "raw": "Vidadillo, T."
+  },
+  {
+    "name": "Viognier",
+    "names": [
+      "Viognier"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Viognier, B."
+  },
+  {
+    "name": "Xarello",
+    "names": [
+      "Xarello"
+    ],
+    "code": "B",
+    "community": "Comunitat Valenciana",
+    "raw": "Xarello, B.»"
+  }
+]

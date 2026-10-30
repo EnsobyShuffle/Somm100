@@ -1,0 +1,3719 @@
+{
+  "region": {
+    "id": "fr-rully",
+    "name": "Rully",
+    "country": "France",
+    "kind": "appellation",
+    "parentId": "fr-bourgogne",
+    "aliases": [
+      "Rully AOP",
+      "Rully AOC",
+      "吕利"
+    ],
+    "intro": {
+      "en": "Rully is the northern Côte Chalonnaise village appellation spanning Rully and Chagny. It produces still Chardonnay-led whites and Pinot Noir-led reds at Village and Premier Cru levels; its 23 Premier Cru climats form the core of this connected reference.",
+      "zh": "Rully 位于 Côte Chalonnaise 北部，跨 Rully 与 Chagny 两市镇。静态白葡萄酒以 Chardonnay 为主，红葡萄酒以 Pinot Noir 为主；分 Village 与 Premier Cru。本专题逐一关联其 23 个 Premier Cru climat、生产者与酒款。"
+    },
+    "facts": [
+      {
+        "label": {
+          "en": "Country / subregion",
+          "zh": "国家／子产区"
+        },
+        "body": {
+          "en": "France · Bourgogne · Côte Chalonnaise",
+          "zh": "法国 · Bourgogne · Côte Chalonnaise"
+        }
+      },
+      {
+        "label": {
+          "en": "Communes",
+          "zh": "市镇"
+        },
+        "body": {
+          "en": "Rully; Chagny",
+          "zh": "Rully；Chagny"
+        }
+      },
+      {
+        "label": {
+          "en": "Classification",
+          "zh": "分级"
+        },
+        "body": {
+          "en": "Village; 23 Premier Cru climats; no Grand Cru",
+          "zh": "Village；23 个 Premier Cru climat；无 Grand Cru"
+        }
+      },
+      {
+        "label": {
+          "en": "Recognition",
+          "zh": "获批日期"
+        },
+        "body": {
+          "en": "13 June 1939",
+          "zh": "1939 年 6 月 13 日"
+        }
+      },
+      {
+        "label": {
+          "en": "Principal grapes",
+          "zh": "主要品种"
+        },
+        "body": {
+          "en": "Chardonnay; Pinot Noir",
+          "zh": "Chardonnay；Pinot Noir"
+        }
+      },
+      {
+        "label": {
+          "en": "Wine types",
+          "zh": "类型"
+        },
+        "body": {
+          "en": "Still white and red; Crémant de Bourgogne is separate",
+          "zh": "静态白与红；Crémant de Bourgogne 为独立产区"
+        }
+      }
+    ],
+    "grapes": [
+      {
+        "grapeId": "chardonnay",
+        "role": {
+          "en": "Principal white grape",
+          "zh": "主要白葡萄"
+        },
+        "sourceIds": [
+          "fr-rully29-bivb_rully"
+        ],
+        "associationStatus": "principal"
+      },
+      {
+        "grapeId": "pinot-noir",
+        "role": {
+          "en": "Principal red grape",
+          "zh": "主要红葡萄"
+        },
+        "sourceIds": [
+          "fr-rully29-bivb_rully"
+        ],
+        "associationStatus": "principal"
+      },
+      {
+        "grapeId": "pinot-gris",
+        "role": {
+          "en": "Accessory variety; interplanted, combined accessory share ≤15% per parcel.",
+          "zh": "辅助品种；限混栽，每地块辅助品种合计不超过 15%。"
+        },
+        "sourceIds": [
+          "rully-close-law"
+        ],
+        "associationStatus": "accessory"
+      }
+    ],
+    "wines": [
+      {
+        "name": "Rully Blanc",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Maizières",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc-maizieres",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Chêne",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc-chene",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Le Meix Cadot",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Le Meix Cadot Vieilles Vignes",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Margotés",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc-1er-margotes",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Vauvry",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc-1er-vauvry",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Chapitre",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc-1er-chapitre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Grésigny Vieilles Vignes",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-blanc-1er-gresigny-vieilles-vignes",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-rouge",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge En Guesnes",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-rouge-en-guesnes",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Maizières",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-rouge-maizieres",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Chapitre",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-rouge-1er-chapitre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge La Fosse",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-rouge-1er-la-fosse",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Cloux",
+        "producer": "Domaine Dureuil-Janthial",
+        "url": "#library?type=wine&id=wine-fr-dureuil-janthial-rully-rouge-1er-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Les Saint-Jacques",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-blanc-les-saint-jacques",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Margotés",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-blanc-margotes",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Grésigny",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-blanc-gresigny",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Montpalais",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-blanc-montpalais",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Cloux",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-blanc-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Raclot",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-blanc-raclot",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Rabourcé",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-blanc-rabource",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Cloux",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-rouge-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Les Champs Cloux",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-rouge-les-champs-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Cuvée Ronde",
+        "producer": "Domaine de Villaine",
+        "url": "#library?type=wine&id=wine-fr-de-villaine-rully-1er-cuvee-ronde",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-blanc-village",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-rouge-village",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge La Barre",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-rouge-la-barre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Chaponnières",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-rouge-chaponnieres",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Grésigny",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-1er-blanc-gresigny",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Margotés",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-1er-blanc-margotes",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc La Pucelle",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-1er-blanc-la-pucelle",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Vauvry",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-1er-blanc-vauvry",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Raclot",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-1er-blanc-raclot",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Préaux",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-1er-rouge-preaux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Les Cloux",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-1er-rouge-les-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Clos de la Renarde",
+        "producer": "Domaine P. et M. Jacqueson",
+        "url": "#library?type=wine&id=wine-fr-p-m-jacqueson-rully-1er-rouge-clos-de-la-renarde",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc La Barre",
+        "producer": "Domaine Ninot",
+        "url": "#library?type=wine&id=wine-fr-ninot-rully-blanc-la-barre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Chaponnière",
+        "producer": "Domaine Ninot",
+        "url": "#library?type=wine&id=wine-fr-ninot-rully-blanc-chaponniere",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Grésigny",
+        "producer": "Domaine Ninot",
+        "url": "#library?type=wine&id=wine-fr-ninot-rully-1er-blanc-gresigny",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge La Barre",
+        "producer": "Domaine Ninot",
+        "url": "#library?type=wine&id=wine-fr-ninot-rully-rouge-la-barre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Le Meix Guillaume",
+        "producer": "Domaine Ninot",
+        "url": "#library?type=wine&id=wine-fr-ninot-rully-rouge-meix-guillaume",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Chaponnière",
+        "producer": "Domaine Ninot",
+        "url": "#library?type=wine&id=wine-fr-ninot-rully-rouge-chaponniere",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Marissou",
+        "producer": "Domaine Ninot",
+        "url": "#library?type=wine&id=wine-fr-ninot-rully-1er-rouge-marissou",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc",
+        "producer": "Domaine Jaeger-Defaix",
+        "url": "#library?type=wine&id=wine-fr-jaeger-defaix-rully-blanc-village",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Montpalais",
+        "producer": "Domaine Jaeger-Defaix",
+        "url": "#library?type=wine&id=wine-fr-jaeger-defaix-rully-1er-blanc-montpalais",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Les Cloux",
+        "producer": "Domaine Jaeger-Defaix",
+        "url": "#library?type=wine&id=wine-fr-jaeger-defaix-rully-1er-blanc-les-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Rabourcé",
+        "producer": "Domaine Jaeger-Defaix",
+        "url": "#library?type=wine&id=wine-fr-jaeger-defaix-rully-1er-blanc-rabource",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Sans Soufre",
+        "producer": "Domaine Jaeger-Defaix",
+        "url": "#library?type=wine&id=wine-fr-jaeger-defaix-rully-blanc-sans-soufre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge",
+        "producer": "Domaine Jaeger-Defaix",
+        "url": "#library?type=wine&id=wine-fr-jaeger-defaix-rully-rouge-village",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Préaux",
+        "producer": "Domaine Jaeger-Defaix",
+        "url": "#library?type=wine&id=wine-fr-jaeger-defaix-rully-1er-rouge-preaux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Clos du Chapitre",
+        "producer": "Domaine Jaeger-Defaix",
+        "url": "#library?type=wine&id=wine-fr-jaeger-defaix-rully-1er-rouge-clos-du-chapitre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc",
+        "producer": "Domaine Michel Briday",
+        "url": "#library?type=wine&id=wine-fr-michel-briday-rully-blanc-village",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge",
+        "producer": "Domaine Michel Briday",
+        "url": "#library?type=wine&id=wine-fr-michel-briday-rully-rouge-village",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Grésigny",
+        "producer": "Domaine Michel Briday",
+        "url": "#library?type=wine&id=wine-fr-michel-briday-rully-1er-blanc-grésigny",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc La Pucelle",
+        "producer": "Domaine Michel Briday",
+        "url": "#library?type=wine&id=wine-fr-michel-briday-rully-1er-blanc-la-pucelle",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Les Cloux",
+        "producer": "Domaine Michel Briday",
+        "url": "#library?type=wine&id=wine-fr-michel-briday-rully-1er-blanc-les-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Clos de Remenot Monopole",
+        "producer": "Domaine Michel Briday",
+        "url": "#library?type=wine&id=wine-fr-michel-briday-rully-blanc-clos-de-remenot",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Champs Cloux",
+        "producer": "Domaine Michel Briday",
+        "url": "#library?type=wine&id=wine-fr-michel-briday-rully-1er-rouge-champs-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Les Pierres",
+        "producer": "Domaine Michel Briday",
+        "url": "#library?type=wine&id=wine-fr-michel-briday-rully-1er-rouge-les-pierres",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Chapitre",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-1er-blanc-chapitre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc La Fosse",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-1er-blanc-la-fosse",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Les Cloux",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-1er-blanc-les-cloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc La Pucelle",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-1er-blanc-la-pucelle",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Rabourcé",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-1er-blanc-rabource",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Chapitre",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-1er-rouge-chapitre",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Les Saint-Jacques",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-blanc-les-saint-jacques",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc La Crée",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-blanc-la-cree",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc La Perche",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-blanc-la-perche",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Chaponnière",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-rouge-chaponniere",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Les Villeranges",
+        "producer": "Domaine Belleville",
+        "url": "#library?type=wine&id=wine-fr-belleville-rully-rouge-les-villeranges",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Clos la Folie",
+        "producer": "Domaine de la Folie",
+        "url": "#library?type=wine&id=wine-fr-de-la-folie-rully-blanc-clos-la-folie",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Clos du Chaigne",
+        "producer": "Domaine de la Folie",
+        "url": "#library?type=wine&id=wine-fr-de-la-folie-rully-1er-blanc-clos-du-chaigne",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Clos Saint-Jacques",
+        "producer": "Domaine de la Folie",
+        "url": "#library?type=wine&id=wine-fr-de-la-folie-rully-1er-blanc-clos-saint-jacques",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Clos de Bellecroix",
+        "producer": "Domaine de la Folie",
+        "url": "#library?type=wine&id=wine-fr-de-la-folie-rully-rouge-clos-de-bellecroix",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Cuvée Marey du Clos de Bellecroix",
+        "producer": "Domaine de la Folie",
+        "url": "#library?type=wine&id=wine-fr-de-la-folie-rully-rouge-cuvee-marey",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Plante Moraine",
+        "producer": "Domaine Rois Mages",
+        "url": "#library?type=wine&id=wine-fr-rois-mages-rully-blanc-plante-moraine",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Clos du Moulin à Vent",
+        "producer": "Domaine Rois Mages",
+        "url": "#library?type=wine&id=wine-fr-rois-mages-rully-blanc-clos-du-moulin-a-vent",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Les Cailloux",
+        "producer": "Domaine Rois Mages",
+        "url": "#library?type=wine&id=wine-fr-rois-mages-rully-blanc-les-cailloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc Chaponières",
+        "producer": "Domaine Rois Mages",
+        "url": "#library?type=wine&id=wine-fr-rois-mages-rully-blanc-chaponieres",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Les Pierres",
+        "producer": "Domaine Rois Mages",
+        "url": "#library?type=wine&id=wine-fr-rois-mages-rully-1er-blanc-les-pierres",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge Les Cailloux",
+        "producer": "Domaine Rois Mages",
+        "url": "#library?type=wine&id=wine-fr-rois-mages-rully-rouge-les-cailloux",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Les Pierres",
+        "producer": "Domaine Rois Mages",
+        "url": "#library?type=wine&id=wine-fr-rois-mages-rully-1er-rouge-les-pierres",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Molesme",
+        "producer": "Domaine Jean-Baptiste Ponsot",
+        "url": "#library?type=wine&id=wine-fr-jean-baptiste-ponsot-rully-1er-blanc-molesme",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Molesme",
+        "producer": "Domaine Jean-Baptiste Ponsot",
+        "url": "#library?type=wine&id=wine-fr-jean-baptiste-ponsot-rully-1er-rouge-molesme",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Montpalais",
+        "producer": "Domaine Jean-Baptiste Ponsot",
+        "url": "#library?type=wine&id=wine-fr-jean-baptiste-ponsot-rully-1er-blanc-montpalais",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc En Bas de Vauvry",
+        "producer": "Domaine Jean-Baptiste Ponsot",
+        "url": "#library?type=wine&id=wine-fr-jean-baptiste-ponsot-rully-blanc-en-bas-de-vauvry",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Rouge",
+        "producer": "Domaine Jean-Baptiste Ponsot",
+        "url": "#library?type=wine&id=wine-fr-jean-baptiste-ponsot-rully-rouge-village",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge La Fosse",
+        "producer": "Domaine Jean-Baptiste Ponsot",
+        "url": "#library?type=wine&id=wine-fr-jean-baptiste-ponsot-rully-1er-rouge-la-fosse",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Blanc",
+        "producer": "Domaine Saint-Jacques",
+        "url": "#library?type=wine&id=wine-fr-saint-jacques-rully-blanc-village",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Blanc Marissou",
+        "producer": "Domaine Saint-Jacques",
+        "url": "#library?type=wine&id=wine-fr-saint-jacques-rully-1er-blanc-marissou",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge Marissou",
+        "producer": "Domaine Saint-Jacques",
+        "url": "#library?type=wine&id=wine-fr-saint-jacques-rully-1er-rouge-marissou",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      },
+      {
+        "name": "Rully Premier Cru Rouge La Fosse",
+        "producer": "Domaine Saint-Jacques",
+        "url": "#library?type=wine&id=wine-fr-saint-jacques-rully-1er-rouge-la-fosse",
+        "note": {
+          "en": "Historical technical baseline / source-listed wine; see the individual profile for vintage scope.",
+          "zh": "历史技术基线／来源收录酒款；年份适用范围见独立档案。"
+        }
+      }
+    ],
+    "reviewed": "2026-10-29",
+    "questions": [],
+    "sections": [
+      {
+        "id": "history",
+        "title": {
+          "en": "History",
+          "zh": "历史"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Origins",
+              "zh": "早期发展"
+            },
+            "body": {
+              "en": "The vineyard has Roman and monastic roots. Saint-Bénigne, the Maison de Vergy and the Dukes of Bourgogne are part of its documented history.",
+              "zh": "葡萄种植历史与罗马时期及修道院发展相关；Saint-Bénigne 修道院、Maison de Vergy 与勃艮第公爵均见于产区历史。"
+            }
+          },
+          {
+            "label": {
+              "en": "Recognition and recovery",
+              "zh": "获批与重建"
+            },
+            "body": {
+              "en": "AOC recognition came in 1939; the specification dates the first Premier Cru list to 1943. It records approximately 600 ha in 1895, contraction to about 90 ha after the Second World War, and subsequent recovery. These are historical figures.",
+              "zh": "1939 年获 AOC；规范记载首批 Premier Cru 名单形成于 1943 年。其历史叙述记载 1895 年约 600 ha、二战后约 90 ha，之后逐步恢复；这些均为历史面积。"
+            }
+          },
+          {
+            "label": {
+              "en": "Sparkling-wine history",
+              "zh": "起泡酒历史"
+            },
+            "body": {
+              "en": "Rully has also been an important sparkling-wine centre since the early nineteenth century. This history does not turn Rully AOP into a sparkling-wine appellation.",
+              "zh": "自 19 世纪初起，Rully 亦是重要的起泡酒生产中心；该历史不改变 Rully AOP 仅涵盖静态酒的规定。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law",
+          "rully-close-map"
+        ]
+      },
+      {
+        "id": "geography",
+        "title": {
+          "en": "Geography",
+          "zh": "地理"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Position",
+              "zh": "位置"
+            },
+            "body": {
+              "en": "At the northern end of the Côte Chalonnaise, south of the Côte de Beaune, the appellation spans Rully and Chagny in Saône-et-Loire. The Saône plain lies to the east.",
+              "zh": "位于 Côte Chalonnaise 北端、Côte de Beaune 以南，覆盖 Saône-et-Loire 省的 Rully 与 Chagny；Saône 平原位于其东侧。"
+            }
+          },
+          {
+            "label": {
+              "en": "Elevation and aspect",
+              "zh": "海拔与坡向"
+            },
+            "body": {
+              "en": "The specification distinguishes vineyards at 220–300 m from surrounding hills at 250–400 m; the BIVB overview uses 230–300 m. East- and south-facing vineyards dominate, with local west-facing exceptions.",
+              "zh": "规范区分葡萄园海拔 220–300 m 与周边丘陵 250–400 m；BIVB 概览采用 230–300 m。葡萄园以东向、南向为主，局部亦有西向地块。"
+            }
+          },
+          {
+            "label": {
+              "en": "Site scale",
+              "zh": "地块尺度"
+            },
+            "body": {
+              "en": "A climat is a delimited vineyard identity. An estate parcel is only part of that climat unless sole ownership is established; an estate area or vine age must not be applied to the whole climat.",
+              "zh": "climat 是具明确界定的葡萄园身份；除有独占证据外，酒庄地块仅为其中一部分。酒庄持有面积或藤龄不能直接代表整个 climat。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law",
+          "rully-close-map"
+        ]
+      },
+      {
+        "id": "climate",
+        "title": {
+          "en": "Climate",
+          "zh": "气候"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Regional influences",
+              "zh": "气候影响"
+            },
+            "body": {
+              "en": "Bourgogne combines oceanic, continental and southern influences. Rully’s specification describes a modified oceanic regime with continental and southern influences, rather than a purely continental climate.",
+              "zh": "勃艮第同时受海洋性、大陆性与南方气候影响；Rully 规范采用“变性海洋性气候，并受大陆性和南方影响”的描述，并非纯大陆性气候。"
+            }
+          },
+          {
+            "label": {
+              "en": "Growing season",
+              "zh": "生长季"
+            },
+            "body": {
+              "en": "Sunny summers and favourable autumn conditions can assist ripening. Aspect, slope drainage and air movement modify humidity and ripening locally; regional climate averages are not measurements for each climat.",
+              "zh": "充足夏季日照与适宜秋季条件有利成熟。坡向、坡地排水与空气流动会改变局部湿度和成熟节奏；区域平均气候数据不能作为每个 climat 的实测值。"
+            }
+          },
+          {
+            "label": {
+              "en": "Vintage sensitivity",
+              "zh": "年份敏感性"
+            },
+            "body": {
+              "en": "Spring frost, rain near harvest and fungal pressure require vintage-specific assessment. The frost-affected 2021 de Villaine Cuvée Ronde is a documented example of a multi-climat release, not a new Premier Cru site.",
+              "zh": "春霜、采收期降雨与真菌病害须逐年份判断。de Villaine 的 2021 Cuvée Ronde 是霜害年份多 climat 合酿实例，并非新增一级园。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-climate",
+          "rully-close-law",
+          "fr-rully29-villaine_2122"
+        ]
+      },
+      {
+        "id": "geology_soils",
+        "title": {
+          "en": "Geology & soils",
+          "zh": "地质与土壤"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Bedrock and relief",
+              "zh": "母岩与地形"
+            },
+            "body": {
+              "en": "Limestone and marl alternate, with predominantly Upper Jurassic calcareous formations and some Middle Jurassic marl in eastern relief. Eastward-dipping strata produce asymmetric ridges.",
+              "zh": "石灰岩与泥灰岩交替；以晚侏罗世钙质地层为主，东部部分低丘见中侏罗世泥灰岩。岩层向东倾斜，形成不对称山脊。"
+            }
+          },
+          {
+            "label": {
+              "en": "Soil depth and water",
+              "zh": "土层与水分"
+            },
+            "body": {
+              "en": "Shallower limestone-derived soils tend to be freer draining; marl-rich positions can have deeper soils and greater water reserves. These are regional tendencies, not identical conditions across an entire named climat.",
+              "zh": "石灰岩上的浅薄土层通常排水较快；泥灰岩较多的位置可形成较深土层与较强保水能力。这些是区域倾向，不代表每个同名 climat 内部条件完全一致。"
+            }
+          },
+          {
+            "label": {
+              "en": "Reading producer evidence",
+              "zh": "阅读酒庄证据"
+            },
+            "body": {
+              "en": "The climat entries identify which observations concern a named producer’s parcel. Slope, soil depth, planted area and vine age retain that source’s scope and date.",
+              "zh": "各 climat 条目明确标注哪些描述仅适用于某生产者的地块；坡度、土层深度、栽植面积与藤龄保留原资料的适用范围及日期。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law",
+          "rully-close-geology"
+        ]
+      },
+      {
+        "id": "grape_rules",
+        "title": {
+          "en": "Grape varieties",
+          "zh": "葡萄品种"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "White",
+              "zh": "白葡萄酒"
+            },
+            "body": {
+              "en": "Chardonnay principal; Pinot Gris accessory.",
+              "zh": "主要品种 Chardonnay；辅助品种 Pinot Gris。"
+            }
+          },
+          {
+            "label": {
+              "en": "Red",
+              "zh": "红葡萄酒"
+            },
+            "body": {
+              "en": "Pinot Noir principal; Chardonnay and Pinot Gris accessory.",
+              "zh": "主要品种 Pinot Noir；辅助品种 Chardonnay 与 Pinot Gris。"
+            }
+          },
+          {
+            "label": {
+              "en": "Accessory restriction",
+              "zh": "辅助品种限制"
+            },
+            "body": {
+              "en": "Accessories: ≤15% per parcel, interplanted only; mixed-planting grapes are vinified together.",
+              "zh": "辅助品种仅限混栽，每地块合计不超过 15%；混栽地块的葡萄须共同酿造。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law"
+        ]
+      },
+      {
+        "id": "classification",
+        "title": {
+          "en": "Classification & labels",
+          "zh": "分级与酒标"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Hierarchy",
+              "zh": "等级"
+            },
+            "body": {
+              "en": "Rully / Rully Premier Cru; 23 recognised Premier Cru climat names. A named climat and a commercial cuvée are different kinds of identity.",
+              "zh": "Rully／Rully Premier Cru；23 个获承认的 Premier Cru climat。climat 名与商业 cuvée 名属于不同层次。"
+            }
+          },
+          {
+            "label": {
+              "en": "Two communes",
+              "zh": "两个市镇"
+            },
+            "body": {
+              "en": "21 climats are in Rully. Clos du Chaigne (à Jean de France) and Clos St Jacques are in Chagny.",
+              "zh": "21 个 climat 位于 Rully；Clos du Chaigne (à Jean de France) 与 Clos St Jacques 位于 Chagny。"
+            }
+          },
+          {
+            "label": {
+              "en": "Names that differ",
+              "zh": "易混名称"
+            },
+            "body": {
+              "en": "Cloux and Champs Cloux are separate climats. Le Meix Cadot and Le Meix Caillet are separate. Village Les Saint-Jacques is not Premier Cru Clos St Jacques.",
+              "zh": "Cloux 与 Champs Cloux 为不同 climat；Le Meix Cadot 与 Le Meix Caillet 亦不同。Village 级 Les Saint-Jacques 不是 Premier Cru Clos St Jacques。"
+            }
+          },
+          {
+            "label": {
+              "en": "Scope of law check",
+              "zh": "法规核对范围"
+            },
+            "body": {
+              "en": "Checked 29 October 2026: INAO cites decree 2011-1704; Légifrance marks it in force. The BIVB-linked specification supplies the baseline rules below; annual harvest authorisations remain vintage-specific.",
+              "zh": "2026 年 10 月 29 日核对：INAO 引用 2011-1704 号法令，Légifrance 标示其有效；以下为 BIVB 当前链接规范的基础规定，年度采收授权须按年份另核。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law",
+          "rully-close-decree",
+          "rully-close-inao",
+          "rully-close-map"
+        ]
+      },
+      {
+        "id": "viticulture",
+        "title": {
+          "en": "Viticulture",
+          "zh": "栽培"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Density / spacing",
+              "zh": "密度／株行距"
+            },
+            "body": {
+              "en": "≥8,000 vines/ha; rows ≤1.40 m; vines within rows ≥0.80 m.",
+              "zh": "至少 8,000 株/ha；行距不超过 1.40 m；同行株距至少 0.80 m。"
+            }
+          },
+          {
+            "label": {
+              "en": "Pruning",
+              "zh": "修剪"
+            },
+            "body": {
+              "en": "Maximum fruitful buds: white 10/vine; red 8/vine. Authorised short-pruning and Guyot systems are specified.",
+              "zh": "白葡萄酒每株最多 10 个有效芽，红葡萄酒 8 个；规范列明许可短梢及 Guyot 修剪形式。"
+            }
+          },
+          {
+            "label": {
+              "en": "Water / yields",
+              "zh": "水分／产量"
+            },
+            "body": {
+              "en": "Irrigation prohibited. Base yield / ceiling (hl/ha): Village white 60/64, red 54/58; Premier Cru white 58/62, red 52/56.",
+              "zh": "禁止灌溉。基础产量／极限产量（hl/ha）：Village 白 60/64、红 54/58；Premier Cru 白 58/62、红 52/56。"
+            }
+          },
+          {
+            "label": {
+              "en": "Production method",
+              "zh": "生产方式"
+            },
+            "body": {
+              "en": "Organic or biodynamic farming is producer-specific, not an automatic condition of the appellation. Certifications and current estate practice belong in producer records.",
+              "zh": "有机或生物动力栽培属于生产者实践，并非产区名称自动保证的条件；认证与现行操作应在酒庄档案中逐一说明。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law"
+        ],
+        "editorial": false
+      },
+      {
+        "id": "maturity",
+        "title": {
+          "en": "Maturity requirements",
+          "zh": "成熟度要求"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Village white / red",
+              "zh": "Village 白／红"
+            },
+            "body": {
+              "en": "Minimum grape sugar: 178/180 g/L; natural alcohol: 11/10.5% vol.",
+              "zh": "葡萄最低糖度 178／180 g/L；天然潜在酒精度最低 11／10.5% vol。"
+            }
+          },
+          {
+            "label": {
+              "en": "Premier Cru white / red",
+              "zh": "Premier Cru 白／红"
+            },
+            "body": {
+              "en": "Minimum grape sugar: 187/189 g/L; natural alcohol: 11.5/11% vol.",
+              "zh": "葡萄最低糖度 187／189 g/L；天然潜在酒精度最低 11.5／11% vol。"
+            }
+          },
+          {
+            "label": {
+              "en": "Interpretation",
+              "zh": "数值含义"
+            },
+            "body": {
+              "en": "These minima concern harvest maturity and natural alcohol, not the finished alcohol printed on every bottle.",
+              "zh": "这些最低值涉及采收成熟度与天然潜在酒精度，不等于每瓶成酒酒标必须显示的酒精度。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law"
+        ]
+      },
+      {
+        "id": "vinification",
+        "title": {
+          "en": "Vinification & élevage",
+          "zh": "酿造与熟成"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Producer choices",
+              "zh": "酒庄选择"
+            },
+            "body": {
+              "en": "Direct pressing, barrel fermentation and lees ageing recur in white-wine dossiers. Red-wine examples use differing destemming, whole-cluster, extraction and oak regimes. Exact percentages and durations are wine- and vintage-specific.",
+              "zh": "白葡萄酒档案常见直接压榨、桶发酵与酒泥熟成；红葡萄酒的去梗、整串、萃取与木桶方案各异。比例和时长必须对应具体酒款及年份。"
+            }
+          },
+          {
+            "label": {
+              "en": "Legal controls",
+              "zh": "法定控制"
+            },
+            "body": {
+              "en": "Wood pieces and continuous presses prohibited. Red malic acid ≤0.4 g/L at bottling. Fermentable sugars: red ≤2 g/L; white ≤3 g/L, or ≤4 with qualifying acidity.",
+              "zh": "禁用木片与连续式压榨机。红酒装瓶时苹果酸不超过 0.4 g/L；可发酵糖红酒不超过 2 g/L，白酒不超过 3 g/L，符合酸度条件时可至 4 g/L。"
+            }
+          },
+          {
+            "label": {
+              "en": "Ageing / release",
+              "zh": "熟成／上市"
+            },
+            "body": {
+              "en": "Minimum élevage to 1 April after harvest; consumer release from 15 April. No compulsory percentage of new oak.",
+              "zh": "至少熟成至采收翌年 4 月 1 日，面向消费者上市自 4 月 15 日起；无统一强制新桶比例。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law",
+          "fr-rully29-dureuil_web",
+          "fr-rully29-villaine_2324"
+        ]
+      },
+      {
+        "id": "wine_styles",
+        "title": {
+          "en": "Tasting profile",
+          "zh": "品鉴特征"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "White",
+              "zh": "白葡萄酒"
+            },
+            "body": {
+              "en": "Chardonnay-led dry whites range from citrus and white-fruit freshness to broader lees- and oak-shaped textures. With development, nut, quince or honey notes can appear; producer and vintage determine intensity.",
+              "zh": "以 Chardonnay 为主的干白可呈柑橘、白色水果与清新结构，也可因酒泥及木桶处理更为宽厚；陈年可发展坚果、榅桲或蜂蜜气息，强度因酒庄与年份而异。"
+            }
+          },
+          {
+            "label": {
+              "en": "Red",
+              "zh": "红葡萄酒"
+            },
+            "body": {
+              "en": "Pinot Noir-led reds combine cherry and berry fruit with floral or spice tones. Tannin and weight vary materially; youth can show more firmness, while bottle age may soften texture.",
+              "zh": "以 Pinot Noir 为主的红酒常见樱桃、浆果、花香或香料；单宁及酒体有明显差异，年轻时可较紧实，瓶陈后质地可能更柔和。"
+            }
+          },
+          {
+            "label": {
+              "en": "Comparative tasting",
+              "zh": "对照品鉴"
+            },
+            "body": {
+              "en": "Compare a Village and Premier Cru from the same producer and vintage, then the same climat across producers. This controls more variables than comparing classification alone.",
+              "zh": "先比较同酒庄、同年份的 Village 与 Premier Cru，再比较不同酒庄的同一 climat；这样比仅按等级比较更能控制变量。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-bivb"
+        ],
+        "editorial": true
+      },
+      {
+        "id": "service",
+        "title": {
+          "en": "Service & food",
+          "zh": "服务与配餐"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Temperature",
+              "zh": "温度"
+            },
+            "body": {
+              "en": "BIVB guidance: whites 12–14°C; reds 14–16°C. Adjust for concentration, maturity and serving conditions.",
+              "zh": "BIVB 建议白酒 12–14°C、红酒 14–16°C；按浓度、酒龄和实际服务条件调整。"
+            }
+          },
+          {
+            "label": {
+              "en": "Food",
+              "zh": "配餐"
+            },
+            "body": {
+              "en": "Whites suit fish, shellfish, poultry with cream and Comté. Reds work with roast poultry, meat sauces or savoury offal preparations; match texture and tannin to the dish.",
+              "zh": "白酒可配鱼类、贝类、奶油禽肉与 Comté；红酒可配烤禽、肉酱或风味较浓的内脏料理，重点匹配质地与单宁。"
+            }
+          },
+          {
+            "label": {
+              "en": "Bottle handling",
+              "zh": "瓶况处理"
+            },
+            "body": {
+              "en": "Choose aeration and decanting after tasting the bottle. Avoid a universal ageing window or automatic decanting rule for the entire appellation.",
+              "zh": "先试饮，再决定醒酒或换瓶；不为整个产区套用统一适饮期或固定醒酒规则。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-map"
+        ],
+        "editorial": true
+      },
+      {
+        "id": "statistics",
+        "title": {
+          "en": "Dated production figures",
+          "zh": "有日期的产量资料"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Vineyard area · 2022",
+              "zh": "生产面积 · 2022"
+            },
+            "body": {
+              "en": "BIVB: white 248.34 ha (69.67 ha Premier Cru); red 118.10 ha (27.87 ha Premier Cru).",
+              "zh": "BIVB：白葡萄酒 248.34 ha（其中 Premier Cru 69.67 ha）；红葡萄酒 118.10 ha（其中 Premier Cru 27.87 ha）。"
+            }
+          },
+          {
+            "label": {
+              "en": "Average output · 2017–2021",
+              "zh": "平均产量 · 2017–2021"
+            },
+            "body": {
+              "en": "White 9,772 hl (Premier Cru 2,796); red 4,783 hl (Premier Cru 1,097). These dated averages are not legal yield limits.",
+              "zh": "白葡萄酒 9,772 hl（Premier Cru 2,796）；红葡萄酒 4,783 hl（Premier Cru 1,097）。这些为有日期的平均产量，不是法定每公顷产量上限。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-bivb"
+        ]
+      },
+      {
+        "id": "climats",
+        "title": {
+          "en": "Premier Cru climats",
+          "zh": "Premier Cru climats"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Complete recognised list",
+              "zh": "完整认可名单"
+            },
+            "body": {
+              "en": "Agneux; Champs Cloux; Chapitre; Clos du Chaigne (à Jean de France); Clos St Jacques; Cloux; Grésigny; La Bressande; La Fosse; La Pucelle; La Renarde; Le Meix Cadot; Le Meix Caillet; Les Pierres; Margotés; Marissou; Molesme; Montpalais; Pillot; Préaux; Rabourcé; Raclot; Vauvry.",
+              "zh": "Agneux；Champs Cloux；Chapitre；Clos du Chaigne (à Jean de France)；Clos St Jacques；Cloux；Grésigny；La Bressande；La Fosse；La Pucelle；La Renarde；Le Meix Cadot；Le Meix Caillet；Les Pierres；Margotés；Marissou；Molesme；Montpalais；Pillot；Préaux；Rabourcé；Raclot；Vauvry。"
+            }
+          }
+        ],
+        "refs": [
+          "rully-close-law",
+          "rully-close-map"
+        ]
+      }
+    ],
+    "coverage": {
+      "en": "Appellation core, regulatory baseline and all 23 recognised Premier Cru identities reviewed on 29 October 2026. Parcel observations retain producer scope; figures carry their source dates. Annual authorisations and future vintages are separate updates.",
+      "zh": "产区主体、法规基础及全部 23 个获承认 Premier Cru 身份于 2026 年 10 月 29 日核对。地块观察保留生产者范围，数值保留资料日期；年度授权与未来年份属于后续独立更新。"
+    },
+    "sources": [
+      {
+        "id": "fr-rully29-bivb_rully",
+        "title": "BIVB Rully AOP",
+        "url": "https://www.bourgogne-wines.com/wine-and-terroir/bourgogne-and-its-appellations/rully,2458,9253.html?args=Y29tcF9pZD0yMjc4JmFjdGlvbj12aWV3RmljaGUmaWQ9Mzg4Jnw%3D",
+        "type": "official_region",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-gresigny-vieilles-vignes",
+        "title": "Dureuil-Janthial: rully-blanc-1er-gresigny-vieilles-vignes",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_gresigny_vieilles_vignes.pdf",
+        "type": "official_producer_historical_technical_sheet",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot",
+        "title": "Dureuil-Janthial: rully-blanc-1er-le-meix-cadot",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_le_meix_cadot.pdf",
+        "type": "official_producer_historical_technical_sheet",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+        "title": "Dureuil-Janthial: rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_le_meix_cadot_vieilles_vignes.pdf",
+        "type": "official_producer_historical_technical_sheet",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-margotes",
+        "title": "Dureuil-Janthial: rully-blanc-1er-margotes",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/11/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_margotes.pdf",
+        "type": "official_producer_historical_technical_sheet",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-vauvry",
+        "title": "Dureuil-Janthial: rully-blanc-1er-vauvry",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_vauvry.pdf",
+        "type": "official_producer_historical_technical_sheet",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-dureuil_web",
+        "title": "Domaine Dureuil-Janthial official complete wine catalogue",
+        "url": "https://www.dureuil-janthial.fr/les-vins/",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-jacqueson_dvp",
+        "title": "Jacqueson distributor producer profile and wine list",
+        "url": "https://www.dvp-vins-domaines.com/en/domain/108/domaine-paul-marie-jacqueson",
+        "type": "producer_distributor",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-jacqueson_thormanhunt",
+        "title": "Jacqueson importer terroir profile",
+        "url": "https://thormanhunt.co.uk/our-growers/burgundy/domaine-paul-et-marie-jacqueson/",
+        "type": "importer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-jacqueson_veraison",
+        "title": "Jacqueson retail wine listing",
+        "url": "https://www.veraison.vin/vins/domaines/28/",
+        "type": "retailer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-jbponsot_estate",
+        "title": "Domaine Jean-Baptiste Ponsot official detailed parcel history",
+        "url": "https://domaine-jean-baptiste-ponsot.fr/en/home/",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-ninot_wines",
+        "title": "Domaine Ninot official Rully wines",
+        "url": "https://domaineninot.com/en/the-wines/",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-roismages_wines",
+        "title": "Domaine Rois Mages official wine list and cellar",
+        "url": "https://rois-mages.com/our-wines/",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-rvf_2026",
+        "title": "RVF Rully tasting (Jean-Emmanuel Simond, published 2026-09-29)",
+        "url": "https://www.larvf.com/rully-ces-bourgognes-rouges-abordables-que-nous-avons-adores,4940628.asp",
+        "type": "professional_critic",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-saintjacques_gjb",
+        "title": "Domaine Saint-Jacques exhibitor wine list March 2026",
+        "url": "https://www.grands-jours-bourgogne.fr/exposants/8d269dd886da323a90ea1dd56a289a4a/",
+        "type": "trade_event",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-villaine_2122",
+        "title": "Domaine de Villaine 2021–2022 vintage tasting notes",
+        "url": "https://www.de-villaine.com/f/news/wine-description-vintage-2021-2022-34.pdf",
+        "type": "official_producer_vintage",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-villaine_2324",
+        "title": "Domaine de Villaine 2023–2024 vintage tasting notes",
+        "url": "https://www.de-villaine.com/f/news/tasting-comments-vintages-2023-2024-35.pdf",
+        "type": "official_producer_vintage",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_belleville-rully-1er-blanc-la-fosse",
+        "title": "Domaine Belleville Rully Premier Cru Blanc La Fosse source sheet",
+        "url": "https://domainebelleville.com/en/wines/4/rully-1er-cru-quot-la-fosse-quot",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_belleville-rully-1er-blanc-la-pucelle",
+        "title": "Domaine Belleville Rully Premier Cru Blanc La Pucelle source sheet",
+        "url": "https://domainebelleville.com/en/wines/6/rully-1er-cru-quot-la-pucelle-quot",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_belleville-rully-1er-blanc-rabource",
+        "title": "Domaine Belleville Rully Premier Cru Blanc Rabourcé source sheet",
+        "url": "https://domainebelleville.com/en/wines/8/rully-1er-cru-quot-rabource-quot",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_de-la-folie-rully-1er-blanc-clos-du-chaigne",
+        "title": "Domaine de la Folie Rully Premier Cru Blanc Clos du Chaigne source sheet",
+        "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-du-chaigne-1er-cru-1/",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_de-la-folie-rully-1er-blanc-clos-saint-jacques",
+        "title": "Domaine de la Folie Rully Premier Cru Blanc Clos Saint-Jacques source sheet",
+        "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-st-jacques-1er-cru/",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-les-cloux",
+        "title": "Domaine Jaeger-Defaix Rully Premier Cru Blanc Les Cloux source sheet",
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-les-cloux-blanc-21",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-montpalais",
+        "title": "Domaine Jaeger-Defaix Rully Premier Cru Blanc Montpalais source sheet",
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-mont-palais-blanc-20",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-rabource",
+        "title": "Domaine Jaeger-Defaix Rully Premier Cru Blanc Rabourcé source sheet",
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-rabource-blanc-22",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-rouge-clos-du-chapitre",
+        "title": "Domaine Jaeger-Defaix Rully Premier Cru Rouge Clos du Chapitre source sheet",
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-clos-du-chapitre-rouge-26",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-rouge-preaux",
+        "title": "Domaine Jaeger-Defaix Rully Premier Cru Rouge Préaux source sheet",
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-preaux-rouge-25",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_michel-briday-rully-1er-blanc-grésigny",
+        "title": "Domaine Michel Briday Rully Premier Cru Blanc Grésigny source sheet",
+        "url": "https://www.domaine-briday.com/en/wines/16/rully-1er-cru-gresigny",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_michel-briday-rully-1er-blanc-la-pucelle",
+        "title": "Domaine Michel Briday Rully Premier Cru Blanc La Pucelle source sheet",
+        "url": "https://www.domaine-briday.com/en/wines/15/rully-1er-cru-la-pucelle",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_michel-briday-rully-1er-blanc-les-cloux",
+        "title": "Domaine Michel Briday Rully Premier Cru Blanc Les Cloux source sheet",
+        "url": "https://www.domaine-briday.com/en/wines/19/rully-1er-cru-les-cloux",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_michel-briday-rully-1er-rouge-champs-cloux",
+        "title": "Domaine Michel Briday Rully Premier Cru Rouge Champs Cloux source sheet",
+        "url": "https://www.domaine-briday.com/en/wines/14/rully-1er-cru-champs-cloux",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "fr-rully29-wine_src_michel-briday-rully-1er-rouge-les-pierres",
+        "title": "Domaine Michel Briday Rully Premier Cru Rouge Les Pierres source sheet",
+        "url": "https://www.domaine-briday.com/en/wines/24/rully-1er-cru-les-pierres/",
+        "type": "official_producer",
+        "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+      },
+      {
+        "id": "rully-close-bivb",
+        "title": "BIVB · Rully appellation and climat list",
+        "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/la-bourgogne-et-ses-appellations/rully,2377,9170.html?&args=Y29tcF9pZD0yMjA1JmFjdGlvbj12aWV3RmljaGUmaWQ9Mzg3Jnw%3D",
+        "type": "official_region",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      },
+      {
+        "id": "rully-close-bressande",
+        "title": "Domaine de la Bressande · Clos de la Bressande Monopole",
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-bressande.v-24462.html",
+        "type": "producer",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      },
+      {
+        "id": "rully-close-climate",
+        "title": "BIVB · Bourgogne climate",
+        "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-atouts-naturels/climatologie/une-climatologie-propice-a-la-production-de-vins-d-exception,2395,9188.html",
+        "type": "official_region",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      },
+      {
+        "id": "rully-close-decree",
+        "title": "Légifrance · Rully decree 2011-1704, in force",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000024895684",
+        "type": "government",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      },
+      {
+        "id": "rully-close-geology",
+        "title": "BIVB · Geological diversity",
+        "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-atouts-naturels/geologie/le-vignoble-de-bourgogne-les-sources-geologiques-du-terroir,2394,9377.html",
+        "type": "official_region",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      },
+      {
+        "id": "rully-close-inao",
+        "title": "INAO · Rully rouge · regulatory references",
+        "url": "https://www.inao.gouv.fr/produit/rully-rouge-9190",
+        "type": "government",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      },
+      {
+        "id": "rully-close-law",
+        "title": "Rully specification · decree 2011-1704 · current BIVB-linked text",
+        "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/la-bourgogne-et-ses-appellations/gallery_files/site/321/19990/20260.pdf",
+        "type": "government",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      },
+      {
+        "id": "rully-close-map",
+        "title": "BIVB · Rully appellation sheet and climat communes",
+        "url": "https://www.bourgogne-wines.com/wine-and-terroir/bourgogne-and-its-appellations/gallery_files/site/321/402/79294/79818.pdf",
+        "type": "official_region",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      },
+      {
+        "id": "rully-close-suremain",
+        "title": "Domaine Eric de Suremain · estate wine list",
+        "url": "https://domainedesuremain.com/wp-content/uploads/2023/02/CARTE-DES-VINS-BLEGNY-MINE-DOMAINE-ERIC-DE-SUREMAIN.pdf",
+        "type": "producer",
+        "verifiedAt": "2026-10-29",
+        "verification": "Read from primary source; scoped facts and dates retained."
+      }
+    ]
+  },
+  "climats": [
+    {
+      "id": "fr-rully-climat-agneux",
+      "name": "Agneux",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "The 2023 Eric de Suremain estate list identifies a white Agneux monopole. This is a dated producer description; Agneux is one of the 23 legally listed Rully Premier Cru climats.",
+        "zh": "Eric de Suremain 的 2023 年酒庄酒单列有 Agneux 白葡萄酒，并标为 monopole。这是带日期的酒庄声明；Agneux 属于 Rully 法定列出的 23 个 Premier Cru climat。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Agneux",
+            "zh": "Rully Premier Cru · Agneux"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "rully-close-suremain"
+      ],
+      "wineMatches": [],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-champs-cloux",
+      "name": "Champs Cloux",
+      "aliases": [
+        "Les Champs Cloux"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Michel Briday describes its east-facing parcel below the château as deep, well-drained clay. This is separate from Cloux; de Villaine also bottles a red Les Champs Cloux.",
+        "zh": "Michel Briday 将其地块描述为城堡下方东向、深层且排水良好的黏土；与 Cloux 为不同 climat。de Villaine 亦单独装瓶红葡萄酒 Les Champs Cloux。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Champs Cloux",
+            "zh": "Rully Premier Cru · Champs Cloux"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Les Champs Cloux",
+            "zh": "Les Champs Cloux"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_michel-briday-rully-1er-rouge-champs-cloux",
+        "fr-rully29-villaine_2324"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-de-villaine-rully-1er-rouge-les-champs-cloux",
+          "name": "Rully Premier Cru Rouge Les Champs Cloux",
+          "producerId": "producer-fr-domaine-de-villaine",
+          "producer": "Domaine de Villaine"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-rouge-champs-cloux",
+          "name": "Rully Premier Cru Rouge Champs Cloux",
+          "producerId": "producer-fr-michel-briday",
+          "producer": "Domaine Michel Briday"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-chapitre",
+      "name": "Chapitre",
+      "aliases": [
+        "Clos du Chapitre"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Both colours occur in the wine library. Jaeger-Defaix’s Clos du Chapitre is a walled estate parcel within Chapitre, rather than an additional Premier Cru climat.",
+        "zh": "资料库同时收录红、白酒款。Jaeger-Defaix 的 Clos du Chapitre 为 Chapitre 内有围墙的酒庄地块，并非额外的一级园 climat。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Chapitre",
+            "zh": "Rully Premier Cru · Chapitre"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Clos du Chapitre",
+            "zh": "Clos du Chapitre"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_jaeger-defaix-rully-1er-rouge-clos-du-chapitre"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-chapitre",
+          "name": "Rully Premier Cru Blanc Chapitre",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge-1er-chapitre",
+          "name": "Rully Premier Cru Rouge Chapitre",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-rouge-clos-du-chapitre",
+          "name": "Rully Premier Cru Rouge Clos du Chapitre",
+          "producerId": "producer-fr-jaeger-defaix",
+          "producer": "Domaine Jaeger-Defaix"
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-chapitre",
+          "name": "Rully Premier Cru Blanc Chapitre",
+          "producerId": "producer-fr-belleville",
+          "producer": "Domaine Belleville"
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-rouge-chapitre",
+          "name": "Rully Premier Cru Rouge Chapitre",
+          "producerId": "producer-fr-belleville",
+          "producer": "Domaine Belleville"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-clos-du-chaigne",
+      "name": "Clos du Chaigne (à Jean de France)",
+      "aliases": [
+        "Clos du Chaigne"
+      ],
+      "commune": "Chagny",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "One of the two Chagny Premier Cru climats. Domaine de la Folie describes its monopole as east-facing clay-limestone; its estate-area figure is a holding description.",
+        "zh": "两处位于 Chagny 的 Premier Cru 之一。Domaine de la Folie 描述其 monopole 为东向、黏土石灰岩地块；酒庄面积数字属于其持有范围。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Chagny",
+            "zh": "Chagny"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Clos du Chaigne (à Jean de France)",
+            "zh": "Rully Premier Cru · Clos du Chaigne (à Jean de France)"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Clos du Chaigne",
+            "zh": "Clos du Chaigne"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_de-la-folie-rully-1er-blanc-clos-du-chaigne"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-de-la-folie-rully-1er-blanc-clos-du-chaigne",
+          "name": "Rully Premier Cru Blanc Clos du Chaigne",
+          "producerId": "producer-fr-de-la-folie",
+          "producer": "Domaine de la Folie"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-clos-st-jacques",
+      "name": "Clos St Jacques",
+      "aliases": [
+        "Clos Saint-Jacques",
+        "Clos Saint Jacques"
+      ],
+      "commune": "Chagny",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Chagny Premier Cru, represented by Domaine de la Folie’s white monopole. It is distinct from village Rully Les Saint-Jacques and from a producer named Domaine Saint-Jacques.",
+        "zh": "位于 Chagny，Domaine de la Folie 的白葡萄酒 monopole 为参照；须与 Village 级 Rully Les Saint-Jacques 及酒庄名称 Domaine Saint-Jacques 区分。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Chagny",
+            "zh": "Chagny"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Clos St Jacques",
+            "zh": "Rully Premier Cru · Clos St Jacques"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Clos Saint-Jacques; Clos Saint Jacques",
+            "zh": "Clos Saint-Jacques；Clos Saint Jacques"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_de-la-folie-rully-1er-blanc-clos-saint-jacques"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-de-la-folie-rully-1er-blanc-clos-saint-jacques",
+          "name": "Rully Premier Cru Blanc Clos Saint-Jacques",
+          "producerId": "producer-fr-de-la-folie",
+          "producer": "Domaine de la Folie"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-cloux",
+      "name": "Cloux",
+      "aliases": [
+        "Les Cloux"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Often labelled Les Cloux. Estate descriptions distinguish lower-slope deeper soils from higher, chalkier positions. Red and white examples exist; Champs Cloux is a different climat.",
+        "zh": "酒标常写 Les Cloux；酒庄资料区分较低坡深土与较高坡更钙质的位置。红、白酒款均有实例；Champs Cloux 为不同 climat。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Cloux",
+            "zh": "Rully Premier Cru · Cloux"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Les Cloux",
+            "zh": "Les Cloux"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-les-cloux",
+        "fr-rully29-wine_src_michel-briday-rully-1er-blanc-les-cloux"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge-1er-cloux",
+          "name": "Rully Premier Cru Rouge Cloux",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-cloux",
+          "name": "Rully Premier Cru Blanc Cloux",
+          "producerId": "producer-fr-domaine-de-villaine",
+          "producer": "Domaine de Villaine"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-rouge-cloux",
+          "name": "Rully Premier Cru Rouge Cloux",
+          "producerId": "producer-fr-domaine-de-villaine",
+          "producer": "Domaine de Villaine"
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-rouge-les-cloux",
+          "name": "Rully Premier Cru Rouge Les Cloux",
+          "producerId": "producer-fr-p-m-jacqueson",
+          "producer": "Domaine P. et M. Jacqueson"
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-blanc-les-cloux",
+          "name": "Rully Premier Cru Blanc Les Cloux",
+          "producerId": "producer-fr-jaeger-defaix",
+          "producer": "Domaine Jaeger-Defaix"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-blanc-les-cloux",
+          "name": "Rully Premier Cru Blanc Les Cloux",
+          "producerId": "producer-fr-michel-briday",
+          "producer": "Domaine Michel Briday"
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-les-cloux",
+          "name": "Rully Premier Cru Blanc Les Cloux",
+          "producerId": "producer-fr-belleville",
+          "producer": "Domaine Belleville"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-gresigny",
+      "name": "Grésigny",
+      "aliases": [
+        "Les Grésigny"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Michel Briday describes its southern Rully parcel as cool, windy and shallow over limestone. Dureuil-Janthial’s Vieilles Vignes is a separately named cuvée, not a separate climat.",
+        "zh": "Michel Briday 将其位于 Rully 南侧的地块描述为凉爽、多风、石灰岩上的浅土。Dureuil-Janthial 的 Vieilles Vignes 是独立酒款名，并非另一个 climat。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Grésigny",
+            "zh": "Rully Premier Cru · Grésigny"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Les Grésigny",
+            "zh": "Les Grésigny"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_michel-briday-rully-1er-blanc-grésigny",
+        "fr-rully29-dj_rully-blanc-1er-gresigny-vieilles-vignes"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-gresigny-vieilles-vignes",
+          "name": "Rully Premier Cru Blanc Grésigny Vieilles Vignes",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-gresigny",
+          "name": "Rully Premier Cru Blanc Grésigny",
+          "producerId": "producer-fr-domaine-de-villaine",
+          "producer": "Domaine de Villaine"
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-gresigny",
+          "name": "Rully Premier Cru Blanc Grésigny",
+          "producerId": "producer-fr-p-m-jacqueson",
+          "producer": "Domaine P. et M. Jacqueson"
+        },
+        {
+          "id": "wine-fr-ninot-rully-1er-blanc-gresigny",
+          "name": "Rully Premier Cru Blanc Grésigny",
+          "producerId": "producer-fr-ninot",
+          "producer": "Domaine Ninot"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-blanc-grésigny",
+          "name": "Rully Premier Cru Blanc Grésigny",
+          "producerId": "producer-fr-michel-briday",
+          "producer": "Domaine Michel Briday"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-la-bressande",
+      "name": "La Bressande",
+      "aliases": [
+        "Clos de la Bressande"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Domaine de la Bressande identifies Clos de la Bressande as a 2.60 ha walled Chardonnay monopole below the château, with southeast exposure and clay-limestone soils.",
+        "zh": "Domaine de la Bressande 将 Clos de la Bressande 描述为城堡下方 2.60 ha 的围墙 Chardonnay monopole，东南向、黏土石灰岩土壤。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · La Bressande",
+            "zh": "Rully Premier Cru · La Bressande"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Clos de la Bressande",
+            "zh": "Clos de la Bressande"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "rully-close-bressande"
+      ],
+      "wineMatches": [],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-la-fosse",
+      "name": "La Fosse",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Belleville describes a hollow near the Thalie source with mid-slope clay-limestone. Ponsot’s separate Pinot Noir parcel is described as southeast-facing Oxfordian limestone.",
+        "zh": "Belleville 描述其地块为靠近 Thalie 水源的凹地、坡中黏土石灰岩；Ponsot 的另一 Pinot Noir 地块则描述为东南向、Oxfordian 石灰岩。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · La Fosse",
+            "zh": "Rully Premier Cru · La Fosse"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_belleville-rully-1er-blanc-la-fosse",
+        "fr-rully29-jbponsot_estate"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge-1er-la-fosse",
+          "name": "Rully Premier Cru Rouge La Fosse",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-la-fosse",
+          "name": "Rully Premier Cru Blanc La Fosse",
+          "producerId": "producer-fr-belleville",
+          "producer": "Domaine Belleville"
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-la-fosse",
+          "name": "Rully Premier Cru Rouge La Fosse",
+          "producerId": "producer-fr-jean-baptiste-ponsot",
+          "producer": "Domaine Jean-Baptiste Ponsot"
+        },
+        {
+          "id": "wine-fr-saint-jacques-rully-1er-rouge-la-fosse",
+          "name": "Rully Premier Cru Rouge La Fosse",
+          "producerId": "producer-fr-saint-jacques",
+          "producer": "Domaine Saint-Jacques"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-la-pucelle",
+      "name": "La Pucelle",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Briday and Belleville both describe east-facing holdings. Shallow clay and stony slope observations refer to their respective parcels; the climat is not defined by one estate’s vine age.",
+        "zh": "Briday 与 Belleville 均描述其持有地块为东向；浅黏土及多石坡地的观察各有对应酒庄范围，不能以单一酒庄藤龄定义整个 climat。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · La Pucelle",
+            "zh": "Rully Premier Cru · La Pucelle"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_michel-briday-rully-1er-blanc-la-pucelle",
+        "fr-rully29-wine_src_belleville-rully-1er-blanc-la-pucelle"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-la-pucelle",
+          "name": "Rully Premier Cru Blanc La Pucelle",
+          "producerId": "producer-fr-p-m-jacqueson",
+          "producer": "Domaine P. et M. Jacqueson"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-blanc-la-pucelle",
+          "name": "Rully Premier Cru Blanc La Pucelle",
+          "producerId": "producer-fr-michel-briday",
+          "producer": "Domaine Michel Briday"
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-la-pucelle",
+          "name": "Rully Premier Cru Blanc La Pucelle",
+          "producerId": "producer-fr-belleville",
+          "producer": "Domaine Belleville"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-la-renarde",
+      "name": "La Renarde",
+      "aliases": [
+        "Clos de la Renarde"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Recognised Premier Cru identity in Rully. The library retains Jacqueson’s Clos de la Renarde as a wine-level reference; similarly named estates elsewhere are not proof of ownership here.",
+        "zh": "Rully 获承认的 Premier Cru climat。资料库保留 Jacqueson 的 Clos de la Renarde 作为酒款参照；其他地方的同名酒庄不能证明拥有此地块。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · La Renarde",
+            "zh": "Rully Premier Cru · La Renarde"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Clos de la Renarde",
+            "zh": "Clos de la Renarde"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-rvf_2026"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-rouge-clos-de-la-renarde",
+          "name": "Rully Premier Cru Rouge Clos de la Renarde",
+          "producerId": "producer-fr-p-m-jacqueson",
+          "producer": "Domaine P. et M. Jacqueson"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-le-meix-cadot",
+      "name": "Le Meix Cadot",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Dureuil-Janthial describes an east-facing, relatively early-ripening clay-limestone holding. Its standard and Vieilles Vignes bottlings must remain separate wine entries.",
+        "zh": "Dureuil-Janthial 描述其持有地块为东向、成熟相对较早的黏土石灰岩；普通版本与 Vieilles Vignes 须保留为不同酒款。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Le Meix Cadot",
+            "zh": "Rully Premier Cru · Le Meix Cadot"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-dj_rully-blanc-1er-le-meix-cadot",
+        "fr-rully29-dj_rully-blanc-1er-le-meix-cadot-vieilles-vignes"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot",
+          "name": "Rully Premier Cru Blanc Le Meix Cadot",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+          "name": "Rully Premier Cru Blanc Le Meix Cadot Vieilles Vignes",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-le-meix-caillet",
+      "name": "Le Meix Caillet",
+      "aliases": [
+        "Meix Caillet"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "The 2023 Eric de Suremain estate list identifies a white Meix Caillet monopole. Le Meix Caillet and Le Meix Cadot are separate Premier Cru climats.",
+        "zh": "Eric de Suremain 的 2023 年酒庄酒单列有 Meix Caillet 白葡萄酒，并标为 monopole。Le Meix Caillet 与 Le Meix Cadot 是两个不同的 Premier Cru climat。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Le Meix Caillet",
+            "zh": "Rully Premier Cru · Le Meix Caillet"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Meix Caillet",
+            "zh": "Meix Caillet"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "rully-close-suremain"
+      ],
+      "wineMatches": [],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-les-pierres",
+      "name": "Les Pierres",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Briday describes its small east-facing holding near La Pucelle as calcareous gravel. Rois Mages has separately named red and white references in the library.",
+        "zh": "Briday 描述其靠近 La Pucelle 的小型东向地块含钙质砾石；资料库亦分别收录 Rois Mages 的红、白版本。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Les Pierres",
+            "zh": "Rully Premier Cru · Les Pierres"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_michel-briday-rully-1er-rouge-les-pierres",
+        "fr-rully29-roismages_wines"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-michel-briday-rully-1er-rouge-les-pierres",
+          "name": "Rully Premier Cru Rouge Les Pierres",
+          "producerId": "producer-fr-michel-briday",
+          "producer": "Domaine Michel Briday"
+        },
+        {
+          "id": "wine-fr-rois-mages-rully-1er-blanc-les-pierres",
+          "name": "Rully Premier Cru Blanc Les Pierres",
+          "producerId": "producer-fr-rois-mages",
+          "producer": "Domaine Rois Mages"
+        },
+        {
+          "id": "wine-fr-rois-mages-rully-1er-rouge-les-pierres",
+          "name": "Rully Premier Cru Rouge Les Pierres",
+          "producerId": "producer-fr-rois-mages",
+          "producer": "Domaine Rois Mages"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-margotes",
+      "name": "Margotés",
+      "aliases": [
+        "Les Margotés"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "White-wine examples include Dureuil-Janthial, de Villaine and Jacqueson. Limestone and white-stone observations belong to the cited holdings; spelling variations do not create additional climats.",
+        "zh": "白葡萄酒参照包括 Dureuil-Janthial、de Villaine 与 Jacqueson。石灰岩及白色石块的描述仅适用于对应资料中的持有地块；拼写差异不构成新 climat。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Margotés",
+            "zh": "Rully Premier Cru · Margotés"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Les Margotés",
+            "zh": "Les Margotés"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-dj_rully-blanc-1er-margotes",
+        "fr-rully29-villaine_2324",
+        "fr-rully29-jacqueson_dvp"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-margotes",
+          "name": "Rully Premier Cru Blanc Margotés",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-margotes",
+          "name": "Rully Premier Cru Blanc Margotés",
+          "producerId": "producer-fr-domaine-de-villaine",
+          "producer": "Domaine de Villaine"
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-margotes",
+          "name": "Rully Premier Cru Blanc Margotés",
+          "producerId": "producer-fr-p-m-jacqueson",
+          "producer": "Domaine P. et M. Jacqueson"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-marissou",
+      "name": "Marissou",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Both red and white wine references are retained. Ninot identifies its red parcel with Flavien’s vineyard work; this identifies an estate holding, not a uniform colour rule for the climat.",
+        "zh": "资料库保留红、白两类酒款参照。Ninot 将其红葡萄酒地块与 Flavien 的栽培工作联系起来；这说明酒庄地块，而非该 climat 只准酿某种颜色。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Marissou",
+            "zh": "Rully Premier Cru · Marissou"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-ninot_wines",
+        "fr-rully29-saintjacques_gjb"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-ninot-rully-1er-rouge-marissou",
+          "name": "Rully Premier Cru Rouge Marissou",
+          "producerId": "producer-fr-ninot",
+          "producer": "Domaine Ninot"
+        },
+        {
+          "id": "wine-fr-saint-jacques-rully-1er-blanc-marissou",
+          "name": "Rully Premier Cru Blanc Marissou",
+          "producerId": "producer-fr-saint-jacques",
+          "producer": "Domaine Saint-Jacques"
+        },
+        {
+          "id": "wine-fr-saint-jacques-rully-1er-rouge-marissou",
+          "name": "Rully Premier Cru Rouge Marissou",
+          "producerId": "producer-fr-saint-jacques",
+          "producer": "Domaine Saint-Jacques"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-molesme",
+      "name": "Molesme",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Jean-Baptiste Ponsot’s site description specifies east/southeast exposure and Oxfordian oolitic and lithographic limestone. Its Chardonnay and Pinot Noir holdings support separate white and red bottlings.",
+        "zh": "Jean-Baptiste Ponsot 的地块资料列明东／东南向及 Oxfordian 鲕粒、致密石灰岩；Chardonnay 与 Pinot Noir 地块对应独立白、红酒款。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Molesme",
+            "zh": "Rully Premier Cru · Molesme"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-jbponsot_estate"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-molesme",
+          "name": "Rully Premier Cru Blanc Molesme",
+          "producerId": "producer-fr-jean-baptiste-ponsot",
+          "producer": "Domaine Jean-Baptiste Ponsot"
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-molesme",
+          "name": "Rully Premier Cru Rouge Molesme",
+          "producerId": "producer-fr-jean-baptiste-ponsot",
+          "producer": "Domaine Jean-Baptiste Ponsot"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-montpalais",
+      "name": "Montpalais",
+      "aliases": [
+        "Mont Palais",
+        "Les Montpalais"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Also printed Mont Palais or Les Montpalais. Ponsot describes a steep east/southeast-facing holding with white marl and oolitic limestone; erosion sensitivity is parcel-specific.",
+        "zh": "酒标亦可写 Mont Palais 或 Les Montpalais。Ponsot 描述其地块为较陡东／东南向，含白色泥灰岩和鲕粒石灰岩；侵蚀风险描述限于该地块。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Montpalais",
+            "zh": "Rully Premier Cru · Montpalais"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Mont Palais; Les Montpalais",
+            "zh": "Mont Palais；Les Montpalais"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-jbponsot_estate",
+        "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-montpalais"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-montpalais",
+          "name": "Rully Premier Cru Blanc Montpalais",
+          "producerId": "producer-fr-domaine-de-villaine",
+          "producer": "Domaine de Villaine"
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-blanc-montpalais",
+          "name": "Rully Premier Cru Blanc Montpalais",
+          "producerId": "producer-fr-jaeger-defaix",
+          "producer": "Domaine Jaeger-Defaix"
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-montpalais",
+          "name": "Rully Premier Cru Blanc Montpalais",
+          "producerId": "producer-fr-jean-baptiste-ponsot",
+          "producer": "Domaine Jean-Baptiste Ponsot"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-pillot",
+      "name": "Pillot",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "The 2023 Eric de Suremain estate list identifies a white Pillot monopole under the cuvée name L’Intemporelle. L’Intemporelle is a cuvée name, not an additional Premier Cru climat.",
+        "zh": "Eric de Suremain 的 2023 年酒庄酒单列有 Pillot 白葡萄酒，标为 monopole，cuvée 名为 L’Intemporelle。后者是酒款名称，不是另一个 Premier Cru climat。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Pillot",
+            "zh": "Rully Premier Cru · Pillot"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "rully-close-suremain"
+      ],
+      "wineMatches": [],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-preaux",
+      "name": "Préaux",
+      "aliases": [
+        "Les Préaux"
+      ],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Jaeger-Defaix describes its parcel below Les Cloux, adjoining Chapitre, on red-clay soils. The producer bottles a red wine; compare with Jacqueson’s independently sourced Préaux.",
+        "zh": "Jaeger-Defaix 描述其地块位于 Les Cloux 下方、邻接 Chapitre，含红黏土；其酿造红葡萄酒，可与 Jacqueson 的独立 Préaux 酒款对照。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Préaux",
+            "zh": "Rully Premier Cru · Préaux"
+          }
+        },
+        {
+          "label": {
+            "en": "Label variants",
+            "zh": "酒标写法"
+          },
+          "body": {
+            "en": "Les Préaux",
+            "zh": "Les Préaux"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_jaeger-defaix-rully-1er-rouge-preaux",
+        "fr-rully29-jacqueson_thormanhunt"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-rouge-preaux",
+          "name": "Rully Premier Cru Rouge Préaux",
+          "producerId": "producer-fr-p-m-jacqueson",
+          "producer": "Domaine P. et M. Jacqueson"
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-rouge-preaux",
+          "name": "Rully Premier Cru Rouge Préaux",
+          "producerId": "producer-fr-jaeger-defaix",
+          "producer": "Domaine Jaeger-Defaix"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-rabource",
+      "name": "Rabourcé",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Jaeger-Defaix describes steep, white-clay slopes above Cloux and early ripening; Belleville describes a south-facing upper-slope holding. These observations preserve differences within the named site.",
+        "zh": "Jaeger-Defaix 描述 Cloux 上方较陡白黏土坡、成熟较早；Belleville 描述其南向上坡地块。各观察保留同一命名地块内部的差异。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Rabourcé",
+            "zh": "Rully Premier Cru · Rabourcé"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-rabource",
+        "fr-rully29-wine_src_belleville-rully-1er-blanc-rabource"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-rabource",
+          "name": "Rully Premier Cru Blanc Rabourcé",
+          "producerId": "producer-fr-domaine-de-villaine",
+          "producer": "Domaine de Villaine"
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-blanc-rabource",
+          "name": "Rully Premier Cru Blanc Rabourcé",
+          "producerId": "producer-fr-jaeger-defaix",
+          "producer": "Domaine Jaeger-Defaix"
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-rabource",
+          "name": "Rully Premier Cru Blanc Rabourcé",
+          "producerId": "producer-fr-belleville",
+          "producer": "Domaine Belleville"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-raclot",
+      "name": "Raclot",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "de Villaine’s 2023 description emphasises limestone and relatively young vines. That dated estate observation should not be generalized to all Raclot holdings or vintages.",
+        "zh": "de Villaine 的 2023 描述强调石灰岩与相对年轻的葡萄藤；该有年份的酒庄观察不应推广至全部 Raclot 持有地块及所有年份。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Raclot",
+            "zh": "Rully Premier Cru · Raclot"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-villaine_2324"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-raclot",
+          "name": "Rully Premier Cru Blanc Raclot",
+          "producerId": "producer-fr-domaine-de-villaine",
+          "producer": "Domaine de Villaine"
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-raclot",
+          "name": "Rully Premier Cru Blanc Raclot",
+          "producerId": "producer-fr-p-m-jacqueson",
+          "producer": "Domaine P. et M. Jacqueson"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    },
+    {
+      "id": "fr-rully-climat-vauvry",
+      "name": "Vauvry",
+      "aliases": [],
+      "commune": "Rully",
+      "classification": "Premier Cru",
+      "regionId": "fr-rully",
+      "intro": {
+        "en": "Dureuil-Janthial and Jacqueson provide white-wine references. Vauvry Premier Cru is distinct from the village-level lieu-dit Bas de Vauvery listed by BIVB.",
+        "zh": "白葡萄酒参照包括 Dureuil-Janthial 与 Jacqueson。Vauvry Premier Cru 须与 BIVB 列出的 Village 级 lieu-dit Bas de Vauvery 区分。"
+      },
+      "facts": [
+        {
+          "label": {
+            "en": "Commune",
+            "zh": "市镇"
+          },
+          "body": {
+            "en": "Rully",
+            "zh": "Rully"
+          }
+        },
+        {
+          "label": {
+            "en": "Legal identity",
+            "zh": "法定身份"
+          },
+          "body": {
+            "en": "Rully Premier Cru · Vauvry",
+            "zh": "Rully Premier Cru · Vauvry"
+          }
+        }
+      ],
+      "sourceIds": [
+        "rully-close-law",
+        "rully-close-map",
+        "fr-rully29-dj_rully-blanc-1er-vauvry",
+        "fr-rully29-jacqueson_veraison",
+        "rully-close-bivb"
+      ],
+      "wineMatches": [
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-vauvry",
+          "name": "Rully Premier Cru Blanc Vauvry",
+          "producerId": "producer-fr-dureuil-janthial",
+          "producer": "Domaine Dureuil-Janthial"
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-vauvry",
+          "name": "Rully Premier Cru Blanc Vauvry",
+          "producerId": "producer-fr-p-m-jacqueson",
+          "producer": "Domaine P. et M. Jacqueson"
+        }
+      ],
+      "evidenceScope": {
+        "en": "Classification and commune: official references. Parcel observations: identified producer sources; no inferred complete ownership or universal soil profile.",
+        "zh": "分级和市镇依据官方资料；地块观察依据已标明生产者的来源，不推断完整所有权或统一土壤剖面。"
+      },
+      "reviewed": "2026-10-29"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fr-rully29-bivb_rully",
+      "title": "BIVB Rully AOP",
+      "url": "https://www.bourgogne-wines.com/wine-and-terroir/bourgogne-and-its-appellations/rully,2458,9253.html?args=Y29tcF9pZD0yMjc4JmFjdGlvbj12aWV3RmljaGUmaWQ9Mzg4Jnw%3D",
+      "type": "official_region",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-gresigny-vieilles-vignes",
+      "title": "Dureuil-Janthial: rully-blanc-1er-gresigny-vieilles-vignes",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_gresigny_vieilles_vignes.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot",
+      "title": "Dureuil-Janthial: rully-blanc-1er-le-meix-cadot",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_le_meix_cadot.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+      "title": "Dureuil-Janthial: rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_le_meix_cadot_vieilles_vignes.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-margotes",
+      "title": "Dureuil-Janthial: rully-blanc-1er-margotes",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/11/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_margotes.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-vauvry",
+      "title": "Dureuil-Janthial: rully-blanc-1er-vauvry",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_vauvry.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-dureuil_web",
+      "title": "Domaine Dureuil-Janthial official complete wine catalogue",
+      "url": "https://www.dureuil-janthial.fr/les-vins/",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-jacqueson_dvp",
+      "title": "Jacqueson distributor producer profile and wine list",
+      "url": "https://www.dvp-vins-domaines.com/en/domain/108/domaine-paul-marie-jacqueson",
+      "type": "producer_distributor",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-jacqueson_thormanhunt",
+      "title": "Jacqueson importer terroir profile",
+      "url": "https://thormanhunt.co.uk/our-growers/burgundy/domaine-paul-et-marie-jacqueson/",
+      "type": "importer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-jacqueson_veraison",
+      "title": "Jacqueson retail wine listing",
+      "url": "https://www.veraison.vin/vins/domaines/28/",
+      "type": "retailer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-jbponsot_estate",
+      "title": "Domaine Jean-Baptiste Ponsot official detailed parcel history",
+      "url": "https://domaine-jean-baptiste-ponsot.fr/en/home/",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-ninot_wines",
+      "title": "Domaine Ninot official Rully wines",
+      "url": "https://domaineninot.com/en/the-wines/",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-roismages_wines",
+      "title": "Domaine Rois Mages official wine list and cellar",
+      "url": "https://rois-mages.com/our-wines/",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-rvf_2026",
+      "title": "RVF Rully tasting (Jean-Emmanuel Simond, published 2026-09-29)",
+      "url": "https://www.larvf.com/rully-ces-bourgognes-rouges-abordables-que-nous-avons-adores,4940628.asp",
+      "type": "professional_critic",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-saintjacques_gjb",
+      "title": "Domaine Saint-Jacques exhibitor wine list March 2026",
+      "url": "https://www.grands-jours-bourgogne.fr/exposants/8d269dd886da323a90ea1dd56a289a4a/",
+      "type": "trade_event",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-villaine_2122",
+      "title": "Domaine de Villaine 2021–2022 vintage tasting notes",
+      "url": "https://www.de-villaine.com/f/news/wine-description-vintage-2021-2022-34.pdf",
+      "type": "official_producer_vintage",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-villaine_2324",
+      "title": "Domaine de Villaine 2023–2024 vintage tasting notes",
+      "url": "https://www.de-villaine.com/f/news/tasting-comments-vintages-2023-2024-35.pdf",
+      "type": "official_producer_vintage",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_belleville-rully-1er-blanc-la-fosse",
+      "title": "Domaine Belleville Rully Premier Cru Blanc La Fosse source sheet",
+      "url": "https://domainebelleville.com/en/wines/4/rully-1er-cru-quot-la-fosse-quot",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_belleville-rully-1er-blanc-la-pucelle",
+      "title": "Domaine Belleville Rully Premier Cru Blanc La Pucelle source sheet",
+      "url": "https://domainebelleville.com/en/wines/6/rully-1er-cru-quot-la-pucelle-quot",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_belleville-rully-1er-blanc-rabource",
+      "title": "Domaine Belleville Rully Premier Cru Blanc Rabourcé source sheet",
+      "url": "https://domainebelleville.com/en/wines/8/rully-1er-cru-quot-rabource-quot",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_de-la-folie-rully-1er-blanc-clos-du-chaigne",
+      "title": "Domaine de la Folie Rully Premier Cru Blanc Clos du Chaigne source sheet",
+      "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-du-chaigne-1er-cru-1/",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_de-la-folie-rully-1er-blanc-clos-saint-jacques",
+      "title": "Domaine de la Folie Rully Premier Cru Blanc Clos Saint-Jacques source sheet",
+      "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-st-jacques-1er-cru/",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-les-cloux",
+      "title": "Domaine Jaeger-Defaix Rully Premier Cru Blanc Les Cloux source sheet",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-les-cloux-blanc-21",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-montpalais",
+      "title": "Domaine Jaeger-Defaix Rully Premier Cru Blanc Montpalais source sheet",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-mont-palais-blanc-20",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-blanc-rabource",
+      "title": "Domaine Jaeger-Defaix Rully Premier Cru Blanc Rabourcé source sheet",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-rabource-blanc-22",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-rouge-clos-du-chapitre",
+      "title": "Domaine Jaeger-Defaix Rully Premier Cru Rouge Clos du Chapitre source sheet",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-clos-du-chapitre-rouge-26",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_jaeger-defaix-rully-1er-rouge-preaux",
+      "title": "Domaine Jaeger-Defaix Rully Premier Cru Rouge Préaux source sheet",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-preaux-rouge-25",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_michel-briday-rully-1er-blanc-grésigny",
+      "title": "Domaine Michel Briday Rully Premier Cru Blanc Grésigny source sheet",
+      "url": "https://www.domaine-briday.com/en/wines/16/rully-1er-cru-gresigny",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_michel-briday-rully-1er-blanc-la-pucelle",
+      "title": "Domaine Michel Briday Rully Premier Cru Blanc La Pucelle source sheet",
+      "url": "https://www.domaine-briday.com/en/wines/15/rully-1er-cru-la-pucelle",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_michel-briday-rully-1er-blanc-les-cloux",
+      "title": "Domaine Michel Briday Rully Premier Cru Blanc Les Cloux source sheet",
+      "url": "https://www.domaine-briday.com/en/wines/19/rully-1er-cru-les-cloux",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_michel-briday-rully-1er-rouge-champs-cloux",
+      "title": "Domaine Michel Briday Rully Premier Cru Rouge Champs Cloux source sheet",
+      "url": "https://www.domaine-briday.com/en/wines/14/rully-1er-cru-champs-cloux",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-wine_src_michel-briday-rully-1er-rouge-les-pierres",
+      "title": "Domaine Michel Briday Rully Premier Cru Rouge Les Pierres source sheet",
+      "url": "https://www.domaine-briday.com/en/wines/24/rully-1er-cru-les-pierres/",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "rully-close-bivb",
+      "title": "BIVB · Rully appellation and climat list",
+      "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/la-bourgogne-et-ses-appellations/rully,2377,9170.html?&args=Y29tcF9pZD0yMjA1JmFjdGlvbj12aWV3RmljaGUmaWQ9Mzg3Jnw%3D",
+      "type": "official_region",
+      "verifiedAt": "2026-10-29",
+      "verification": "Read from primary source; scoped facts and dates retained."
+    },
+    {
+      "id": "rully-close-bressande",
+      "title": "Domaine de la Bressande · Clos de la Bressande Monopole",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-bressande.v-24462.html",
+      "type": "producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Read from primary source; scoped facts and dates retained."
+    },
+    {
+      "id": "rully-close-climate",
+      "title": "BIVB · Bourgogne climate",
+      "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-atouts-naturels/climatologie/une-climatologie-propice-a-la-production-de-vins-d-exception,2395,9188.html",
+      "type": "official_region",
+      "verifiedAt": "2026-10-29",
+      "verification": "Read from primary source; scoped facts and dates retained."
+    },
+    {
+      "id": "rully-close-decree",
+      "title": "Légifrance · Rully decree 2011-1704, in force",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000024895684",
+      "type": "government",
+      "verifiedAt": "2026-10-29",
+      "verification": "Read from primary source; scoped facts and dates retained."
+    },
+    {
+      "id": "rully-close-geology",
+      "title": "BIVB · Geological diversity",
+      "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-atouts-naturels/geologie/le-vignoble-de-bourgogne-les-sources-geologiques-du-terroir,2394,9377.html",
+      "type": "official_region",
+      "verifiedAt": "2026-10-29",
+      "verification": "Read from primary source; scoped facts and dates retained."
+    },
+    {
+      "id": "rully-close-inao",
+      "title": "INAO · Rully rouge · regulatory references",
+      "url": "https://www.inao.gouv.fr/produit/rully-rouge-9190",
+      "type": "government",
+      "verifiedAt": "2026-10-29",
+      "verification": "Read from primary source; scoped facts and dates retained."
+    },
+    {
+      "id": "rully-close-law",
+      "title": "Rully specification · decree 2011-1704 · current BIVB-linked text",
+      "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/la-bourgogne-et-ses-appellations/gallery_files/site/321/19990/20260.pdf",
+      "type": "government",
+      "verifiedAt": "2026-10-29",
+      "verification": "Read from primary source; scoped facts and dates retained."
+    },
+    {
+      "id": "rully-close-map",
+      "title": "BIVB · Rully appellation sheet and climat communes",
+      "url": "https://www.bourgogne-wines.com/wine-and-terroir/bourgogne-and-its-appellations/gallery_files/site/321/402/79294/79818.pdf",
+      "type": "official_region",
+      "verifiedAt": "2026-10-29",
+      "verification": "Read from primary source; scoped facts and dates retained."
+    },
+    {
+      "id": "rully-close-suremain",
+      "title": "Domaine Eric de Suremain · 2023 estate list (2020 releases)",
+      "url": "https://domainedesuremain.com/wp-content/uploads/2023/02/CARTE-DES-VINS-BLEGNY-MINE-DOMAINE-ERIC-DE-SUREMAIN.pdf",
+      "type": "producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Primary PDF dated for Blegny Mine 2023, chiefly 2020 releases. Monopole wording is a dated producer declaration, not an independently verified current cadastral ownership claim."
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-10-29",
+    "lawsChecked": {
+      "decree": "2011-1704, 30 November 2011",
+      "status": "INAO still cites this decree; Légifrance in-force version; current BIVB-linked specification inspected. Annual authorisations are not universal baseline law.",
+      "densityVinesPerHa": 8000,
+      "accessoryGrapes": "Pinot Gris for whites; Chardonnay and Pinot Gris for reds; combined 15% maximum, interplanted",
+      "climatCount": 23,
+      "communes": {
+        "Rully": 21,
+        "Chagny": 2
+      }
+    },
+    "knownLimits": [
+      "Vineyard/soil observations attributed to individual estates are not complete cadastral surveys.",
+      "Some producer parcel descriptions are retained from the supplied research rather than re-fetched in this region-only task; producer agents verify their current pages separately.",
+      "Regional statistics carry 2022 and 2017–2021 dates; no invented 2026 totals.",
+      "Annual derogations, new vintages and future ownership changes require later dated updates.",
+      "Eric de Suremain monopole statements are explicitly dated to its 2023 estate list; current ownership is not independently established by that document."
+    ],
+    "sourceEvidence": [
+      {
+        "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/la-bourgogne-et-ses-appellations/gallery_files/site/321/19990/20260.pdf",
+        "ref": "turn1004view0",
+        "claim": "Rully specification · decree 2011-1704 · current BIVB-linked text"
+      },
+      {
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000024895684",
+        "ref": "turn1007view0",
+        "claim": "Légifrance · Rully decree 2011-1704, in force"
+      },
+      {
+        "url": "https://www.inao.gouv.fr/produit/rully-rouge-9190",
+        "ref": "turn1007view1",
+        "claim": "INAO · Rully rouge · regulatory references"
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/la-bourgogne-et-ses-appellations/rully,2377,9170.html?&args=Y29tcF9pZD0yMjA1JmFjdGlvbj12aWV3RmljaGUmaWQ9Mzg3Jnw%3D",
+        "ref": "turn1001view1",
+        "claim": "BIVB · Rully appellation and climat list"
+      },
+      {
+        "url": "https://www.bourgogne-wines.com/wine-and-terroir/bourgogne-and-its-appellations/gallery_files/site/321/402/79294/79818.pdf",
+        "ref": "turn1001view2",
+        "claim": "BIVB · Rully appellation sheet and climat communes"
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-atouts-naturels/climatologie/une-climatologie-propice-a-la-production-de-vins-d-exception,2395,9188.html",
+        "ref": "turn1014view1",
+        "claim": "BIVB · Bourgogne climate"
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-atouts-naturels/geologie/le-vignoble-de-bourgogne-les-sources-geologiques-du-terroir,2394,9377.html",
+        "ref": "turn1014view2",
+        "claim": "BIVB · Geological diversity"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-bressande.v-24462.html",
+        "ref": "turn1014view3",
+        "claim": "Domaine de la Bressande · Clos de la Bressande Monopole"
+      },
+      {
+        "url": "https://domainedesuremain.com/wp-content/uploads/2023/02/CARTE-DES-VINS-BLEGNY-MINE-DOMAINE-ERIC-DE-SUREMAIN.pdf",
+        "ref": "turn1042view0",
+        "claim": "Eric de Suremain 2023 Blegny Mine estate list, chiefly 2020 releases: Agneux, Meix Caillet and Pillot white monopole declarations; these dated producer statements do not independently establish current cadastral ownership."
+      }
+    ],
+    "matchedWineCount": 54,
+    "newQuizQuestions": 0
+  }
+}

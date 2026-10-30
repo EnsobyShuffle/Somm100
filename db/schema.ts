@@ -1,0 +1,14 @@
+import { sqliteTable, text, integer, primaryKey } from 'drizzle-orm/sqlite-core';
+export const users = sqliteTable('users',{id:text('id').primaryKey(),name:text('name').notNull(),role:text('role').notNull().default('student'),createdAt:text('created_at').notNull()});
+export const progress = sqliteTable('progress',{userId:text('user_id').notNull(),lessonId:text('lesson_id').notNull(),completedAt:text('completed_at').notNull()},t=>[primaryKey({columns:[t.userId,t.lessonId]})]);
+export const attempts = sqliteTable('attempts',{id:text('id').primaryKey(),userId:text('user_id').notNull(),questionId:text('question_id').notNull(),answer:text('answer').notNull(),score:integer('score').notNull(),maxScore:integer('max_score').notNull(),method:text('method').notNull(),createdAt:text('created_at').notNull()});
+export const reviews = sqliteTable('reviews',{userId:text('user_id').notNull(),questionId:text('question_id').notNull(),streak:integer('streak').notNull().default(0),dueAt:text('due_at').notNull(),lastScore:integer('last_score').notNull()},t=>[primaryKey({columns:[t.userId,t.questionId]})]);
+export const bookmarks = sqliteTable('bookmarks',{userId:text('user_id').notNull(),questionId:text('question_id').notNull()},t=>[primaryKey({columns:[t.userId,t.questionId]})]);
+export const training = sqliteTable('training',{id:text('id').primaryKey(),userId:text('user_id').notNull(),kind:text('kind').notNull(),payload:text('payload').notNull(),createdAt:text('created_at').notNull()});
+export const drafts = sqliteTable('drafts',{id:text('id').primaryKey(),userId:text('user_id').notNull(),title:text('title').notNull(),body:text('body').notNull(),updatedAt:text('updated_at').notNull()});
+export const learningSettings=sqliteTable('learning_settings',{userId:text('user_id').primaryKey(),payload:text('payload').notNull(),updatedAt:text('updated_at').notNull()});
+export const studySessions=sqliteTable('study_sessions',{id:text('id').primaryKey(),userId:text('user_id').notNull(),studyDate:text('study_date').notNull(),seconds:integer('seconds').notNull(),updatedAt:text('updated_at').notNull()});
+export const checkins=sqliteTable('checkins',{userId:text('user_id').notNull(),checkDate:text('check_date').notNull(),createdAt:text('created_at').notNull()},t=>[primaryKey({columns:[t.userId,t.checkDate]})]);
+export const learningVideos=sqliteTable('learning_videos',{id:text('id').primaryKey(),userId:text('user_id').notNull(),title:text('title').notNull(),url:text('url').notNull(),topic:text('topic').notNull(),platform:text('platform').notNull(),creator:text('creator').notNull(),createdAt:text('created_at').notNull()});
+
+export const learningItems=sqliteTable('learning_items',{userId:text('user_id').notNull(),kind:text('kind').notNull(),itemId:text('item_id').notNull(),payload:text('payload').notNull(),updatedAt:text('updated_at').notNull()},t=>[primaryKey({columns:[t.userId,t.kind,t.itemId]})]);

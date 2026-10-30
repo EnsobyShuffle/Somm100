@@ -1,0 +1,2579 @@
+{
+  "status": "english_first_edition_publication_copy",
+  "producerCount": 13,
+  "wineCount": 21,
+  "sources": [
+    {
+      "id": "fr-oct28-4522dac9f7",
+      "url": "https://www.domainetempier.com/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-5c627a39c0",
+      "url": "https://www.domainetempier.com/les-terroirs/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-5ffe23fc80",
+      "url": "https://www.domainetempier.com/les-vins/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-901e788b39",
+      "url": "https://www.domainetempier.com/lhistoire-tempier/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-877ad95ed2",
+      "url": "https://www.domaines-ott.com/en/our-wines",
+      "title": "www.domaines-ott.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-1d8970325b",
+      "url": "https://www.domaines-ott.com/en/our-three-estates",
+      "title": "www.domaines-ott.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-58b535c2b6",
+      "url": "https://www.domaines-ott.com/en/our-wines",
+      "title": "www.domaines-ott.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-3a9200855f",
+      "url": "https://www.domaines-ott.com/etoile",
+      "title": "www.domaines-ott.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-a0e1001d63",
+      "url": "https://www.domaines-ott.com/en/our-three-estates",
+      "title": "www.domaines-ott.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-e500dd4951",
+      "url": "https://www.masamiel.fr/pages/domaine",
+      "title": "www.masamiel.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-efd8871312",
+      "url": "https://www.masamiel.fr/pages/histoire",
+      "title": "www.masamiel.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-797f1dff3a",
+      "url": "https://www.masamiel.fr/pages/domaine",
+      "title": "www.masamiel.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-b1883f7da5",
+      "url": "https://www.masamiel.fr/collections/vins-doux-rouge/Vin-doux-naturel-rouge",
+      "title": "www.masamiel.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-4c9049904b",
+      "url": "https://www.clos-cibonne.com/fr/historique-clos-cibonne-complet.html",
+      "title": "www.clos-cibonne.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-0234ec6a0b",
+      "url": "https://www.clos-cibonne.com/fr/historique-clos-cibonne-complet.html",
+      "title": "www.clos-cibonne.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-7c1f61684a",
+      "url": "https://www.clos-cibonne.com/fr/gamme-crus-classes-provence.html",
+      "title": "www.clos-cibonne.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-128902dcba",
+      "url": "https://www.clos-cibonne.com/fr/bon-de-commande.php",
+      "title": "www.clos-cibonne.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-7a8a16f127",
+      "url": "https://www.clos-cibonne.com/fr/equipe-clos-cibonne.html",
+      "title": "www.clos-cibonne.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-8fae0c56cf",
+      "url": "https://www.julesdesjourneys.fr/categorie-produit/les-blancs/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-63a045464e",
+      "url": "https://www.julesdesjourneys.fr/categorie-produit/les-blancs/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-7b03fd9025",
+      "url": "https://www.julesdesjourneys.fr/desjourney-dans-le-temps/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-381160122d",
+      "url": "https://www.julesdesjourneys.fr/carte-des-crus/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-42b693b2a8",
+      "url": "https://www.julesdesjourneys.fr/en/legal-notices/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-9efc1089dd",
+      "url": "https://www.domaine-abbatucci.com/",
+      "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-b5ce38aae1",
+      "url": "https://www.domaine-abbatucci.com/",
+      "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-5a23309fc2",
+      "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/faustine",
+      "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-1879201f2a",
+      "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/parcellaires",
+      "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-2d7f3cae6e",
+      "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/collections",
+      "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-2e565e036d",
+      "url": "https://www.domaine-abbatucci.com/mentions-legales",
+      "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-8a9c0d1b5f",
+      "url": "https://www.legardevins.com/nos-domaines/domaine-gauby/",
+      "title": "www.legardevins.com — cited in Oct28 source dossier",
+      "type": "distributor",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-9212aa23c3",
+      "url": "https://www.legardevins.com/nos-domaines/domaine-gauby/",
+      "title": "www.legardevins.com — cited in Oct28 source dossier",
+      "type": "distributor",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-6ff8c0b465",
+      "url": "https://domainesduroussillon.fr/nos-domaines/domaine-gauby/",
+      "title": "domainesduroussillon.fr — cited in Oct28 source dossier",
+      "type": "regional_producer_directory",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-283acdca6d",
+      "url": "https://www.vigneronsdexception.com/fr/domaine-gauby/8912-domaine-gauby-muntada-rouge-2023.html",
+      "title": "www.vigneronsdexception.com — cited in Oct28 source dossier",
+      "type": "retailer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-8bdc61026d",
+      "url": "https://kermitlynch.com/grower/jean-foillard/",
+      "title": "kermitlynch.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-604fc21c5c",
+      "url": "https://kermitlynch.com/grower/jean-foillard/",
+      "title": "kermitlynch.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-02afbb1192",
+      "url": "https://kermitlynch.com/files/jean-foillard.pdf",
+      "title": "kermitlynch.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-40b396fa67",
+      "url": "https://bancroftwines.com/producer-page-domaine-jean-foillard/",
+      "title": "bancroftwines.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-6be5f62c29",
+      "url": "https://chateau-simone.fr/",
+      "title": "chateau-simone.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-500f48aa00",
+      "url": "https://chateau-simone.fr/histoire",
+      "title": "chateau-simone.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-129fb9f1ca",
+      "url": "https://chateau-simone.fr/famille",
+      "title": "chateau-simone.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-0d7cd67ab2",
+      "url": "https://chateau-simone.fr/en/aoc-palette",
+      "title": "chateau-simone.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-22fff01db2",
+      "url": "https://chateau-simone.fr/en/chateau-simone-white",
+      "title": "chateau-simone.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-3359921c87",
+      "url": "https://chateau-simone.fr/en/chateau-simone-rose",
+      "title": "chateau-simone.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-9b4276a150",
+      "url": "https://chateau-simone.fr/en/chateau-simone-red",
+      "title": "chateau-simone.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-aeff2df72d",
+      "url": "https://www.lapetiteepicerieduclosdesfees.com/",
+      "title": "www.lapetiteepicerieduclosdesfees.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-acaa87c819",
+      "url": "https://www.lapetiteepicerieduclosdesfees.com/",
+      "title": "www.lapetiteepicerieduclosdesfees.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-c84941a15c",
+      "url": "https://www.lapetiteepicerieduclosdesfees.com/2-les-offres-primeurs",
+      "title": "www.lapetiteepicerieduclosdesfees.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-bb6f057424",
+      "url": "https://www.lapetiteepicerieduclosdesfees.com/3-anciens-millesimes",
+      "title": "www.lapetiteepicerieduclosdesfees.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-bb371673ef",
+      "url": "https://www.lespassionnesduvin.com/domaine/le-clos-des-fees.html",
+      "title": "www.lespassionnesduvin.com — cited in Oct28 source dossier",
+      "type": "retailer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-72a7e2e417",
+      "url": "https://www.marcel-lapierre.com/en/the-domaine",
+      "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-3dd72647e8",
+      "url": "https://www.marcel-lapierre.com/en/the-domaine",
+      "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-2f0066cbe1",
+      "url": "https://www.marcel-lapierre.com/en/product/cuvee-camille",
+      "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-f5df6b9ac9",
+      "url": "https://www.marcel-lapierre.com/en",
+      "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-a6c1b021be",
+      "url": "https://jean-marc-burgaud.com/le-domaine",
+      "title": "jean-marc-burgaud.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-dbb0dc1f8a",
+      "url": "https://jean-marc-burgaud.com/le-domaine",
+      "title": "jean-marc-burgaud.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-bf5eb49b86",
+      "url": "https://jean-marc-burgaud.com/nos-vins",
+      "title": "jean-marc-burgaud.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-4d3cc111bd",
+      "url": "https://www.regalwine.com/wine/morgon-cote-du-py/",
+      "title": "www.regalwine.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-1483b1c3d2",
+      "url": "https://www.domainetempier.com/vins-tempier/cuvee-cabassaou/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-e429e556b7",
+      "url": "https://www.domainetempier.com/vins-tempier/cuvee-la-migoua/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-80f120434d",
+      "url": "https://www.domainetempier.com/vins-tempier/bandol-blanc/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-93738ed229",
+      "url": "https://www.domainetempier.com/vins-tempier/cuvee-la-tourtine/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-c452e15db4",
+      "url": "https://www.domainetempier.com/vins-tempier/cuvee-classique-tempier/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-351fd9a882",
+      "url": "https://www.domainetempier.com/vins-tempier/bandol-rose/",
+      "title": "www.domainetempier.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-7cbbc04020",
+      "url": "https://www.domaines-ott.com/wp-content/uploads/2025/09/domaines-ott-fiche-technique-vin-de-france-etoile-2024-fr.pdf",
+      "title": "www.domaines-ott.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-f4cbffb368",
+      "url": "https://www.masamiel.fr/collections/vintages",
+      "title": "www.masamiel.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-2bfb9e8893",
+      "url": "https://www.masamiel.fr/pages/vinification-vins-doux",
+      "title": "www.masamiel.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-da62d1aefa",
+      "url": "https://www.masamiel.fr/products/tresors-du-temps",
+      "title": "www.masamiel.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-d0c8690927",
+      "url": "https://www.masamiel.fr/products/vintage-blanc-2025",
+      "title": "www.masamiel.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-0029095165",
+      "url": "https://www.julesdesjourneys.fr/produit/moulin-a-vent-aux-michelons/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-72b29814ae",
+      "url": "https://www.julesdesjourneys.fr/produit/pouilly-fuisse-les-vignes-blanches/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-379f4acc88",
+      "url": "https://www.julesdesjourneys.fr/produit/fleurie-les-moriers/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-177f07439f",
+      "url": "https://www.julesdesjourneys.fr/produit/moulin-a-vent-chassignol/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-236c72455a",
+      "url": "https://www.julesdesjourneys.fr/produit/pouilly-fuisse-puits-de-lumiere/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-34ec58a301",
+      "url": "https://www.julesdesjourneys.fr/produit/chenas-le-jugement-dernier/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-6d84e70dd9",
+      "url": "https://www.julesdesjourneys.fr/produit/fleurie-chapelle-des-bois/",
+      "title": "www.julesdesjourneys.fr — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-f87f84d175",
+      "url": "https://www.domaine-abbatucci.com/uploads/d41dd729a570ba6e27b592ddd33ab2fd.pdf",
+      "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-4f61a7c585",
+      "url": "https://www.cavepurjus.com/fr/roussillon/vieilles-vignes-rouge-lionel-gauby-3.html",
+      "title": "www.cavepurjus.com — cited in Oct28 source dossier",
+      "type": "retailer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-5a2d2ee5ba",
+      "url": "https://kermitlynch.com/wine/jean-foillard/1179/JF06",
+      "title": "kermitlynch.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-0b70b740bb",
+      "url": "https://shop.kermitlynch.com/product/detail/21FJF06/",
+      "title": "shop.kermitlynch.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-12975c00ba",
+      "url": "https://shop.kermitlynch.com/product/detail/24FJF01/",
+      "title": "shop.kermitlynch.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-53da90659e",
+      "url": "https://kermitlynch.com/wine/jean-foillard/260/JF04",
+      "title": "kermitlynch.com — cited in Oct28 source dossier",
+      "type": "importer",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-74c60b97ff",
+      "url": "https://www.marcel-lapierre.com/en/product/morgon",
+      "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    },
+    {
+      "id": "fr-oct28-f0c6ca7174",
+      "url": "https://www.marcel-lapierre.com/en/viticulture-and-vinification/",
+      "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+      "type": "producer_or_estate_source",
+      "verification": "retrieved_from_existing_research_not_independently_refetched"
+    }
+  ],
+  "producers": [
+    {
+      "id": "producer-fr-domaines-ott",
+      "name": "Domaines Ott",
+      "country": "France",
+      "region": "Provence",
+      "regionId": "fr-provence",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Cross-estate portfolio; Étoile Vin de France",
+      "village": null,
+      "website": "https://www.domaines-ott.com/en/our-wines",
+      "sourceWebsite": "https://www.domaines-ott.com/en/our-wines",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Domaines Ott traces its history to Marcel Ott in the early twentieth century. He acquired Château de Selle in 1912. The name represents a family-founded group of estates and a wider wine portfolio.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Domaines Ott traces its history to Marcel Ott in the early twentieth century. He acquired Château de Selle in 1912. The name represents a family-founded group of estates and a wider wine portfolio.",
+          "sourceIds": [
+            "fr-oct28-877ad95ed2",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6",
+            "fr-oct28-3a9200855f"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "The official website identifies Domaines Ott as part of the Roederer Collection. The group comprises three distinct estates; detailed shareholdings and their chronology are not documented in the sources used here.",
+          "sourceIds": [
+            "fr-oct28-877ad95ed2",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6",
+            "fr-oct28-3a9200855f"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "Château de Selle is at Taradeau in Côtes de Provence; Clos Mireille is at coastal La Londe-les-Maures, also in Côtes de Provence; Château Romassan is near Le Castellet in Bandol. Étoile combines fruit from the three estates and is classified Vin de France.",
+          "sourceIds": [
+            "fr-oct28-877ad95ed2",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6",
+            "fr-oct28-3a9200855f"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "The portfolio includes Château de Selle, Clos Mireille and Château Romassan estate wines, the cross-estate Étoile cuvée and the BY.OTT range. Individual wine profiles in this first edition cover a selection of the portfolio.",
+          "sourceIds": [
+            "fr-oct28-877ad95ed2",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6",
+            "fr-oct28-3a9200855f"
+          ]
+        }
+      ],
+      "wineIds": [
+        "wine-fr-domaines-ott-cotes-de-provence-etoile"
+      ],
+      "sourceIds": [
+        "fr-oct28-877ad95ed2",
+        "fr-oct28-1d8970325b",
+        "fr-oct28-58b535c2b6",
+        "fr-oct28-3a9200855f"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c81d38d39d1ff826e0b25",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaines-ott-chateau-de-selle",
+      "name": "Domaines Ott — Château de Selle",
+      "country": "France",
+      "region": "Provence",
+      "regionId": "fr-provence",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Côtes de Provence AOC",
+      "village": null,
+      "website": "https://www.domaines-ott.com/en/our-three-estates",
+      "sourceWebsite": "https://www.domaines-ott.com/en/our-three-estates",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Château de Selle, at Taradeau near Draguignan, was the first estate purchased by Marcel Ott, in 1912. It is one of the three Domaines Ott estates and produces Côtes de Provence wines.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Château de Selle, at Taradeau near Draguignan, was the first estate purchased by Marcel Ott, in 1912. It is one of the three Domaines Ott estates and produces Côtes de Provence wines.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "An estate within Domaines Ott, whose official website identifies an affiliation with the Roederer Collection. The detailed legal ownership chronology of the estate is not documented in this profile.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "The estate describes approximately 93 hectares of planted vines around Taradeau, with gypsum, red clay, sandstone, gravel and stones. These figures and soils concern Château de Selle.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "Château de Selle Rosé is a Côtes de Provence AOC wine. The estate catalogue also includes a red wine; a complete vintage-by-vintage portfolio is outside this first edition.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        }
+      ],
+      "wineIds": [],
+      "sourceIds": [
+        "fr-oct28-a0e1001d63",
+        "fr-oct28-1d8970325b",
+        "fr-oct28-58b535c2b6"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c813b86d2ddfd6b3095a5",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaines-ott-clos-mireille",
+      "name": "Domaines Ott — Clos Mireille",
+      "country": "France",
+      "region": "Provence",
+      "regionId": "fr-provence",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Côtes de Provence AOC",
+      "village": null,
+      "website": "https://www.domaines-ott.com/en/our-three-estates",
+      "sourceWebsite": "https://www.domaines-ott.com/en/our-three-estates",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Clos Mireille is a coastal estate at La Londe-les-Maures and a distinct member of the Domaines Ott collection. Its rosé and white wines are associated with Côtes de Provence AOC.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Clos Mireille is a coastal estate at La Londe-les-Maures and a distinct member of the Domaines Ott collection. Its rosé and white wines are associated with Côtes de Provence AOC.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "Clos Mireille operates within Domaines Ott. Group affiliation is described in the Domaines Ott profile; detailed estate shareholdings are not documented here.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "The English estate page describes approximately 56 hectares of vines within a 174-hectare protected landscape, on schist and quartz. An older French page gives 53 hectares of vines; these are source-specific figures, not a single permanent measurement.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "Clos Mireille Blanc and Clos Mireille Rosé are Côtes de Provence AOC wines.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        }
+      ],
+      "wineIds": [],
+      "sourceIds": [
+        "fr-oct28-a0e1001d63",
+        "fr-oct28-1d8970325b",
+        "fr-oct28-58b535c2b6"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c818bb09ae5334c84c7d3",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaines-ott-chateau-romassan",
+      "name": "Domaines Ott — Château Romassan",
+      "country": "France",
+      "region": "Bandol",
+      "regionId": "fr-bandol",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Bandol AOC",
+      "village": null,
+      "website": "https://www.domaines-ott.com/en/our-three-estates",
+      "sourceWebsite": "https://www.domaines-ott.com/en/our-three-estates",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Château Romassan lies near Le Castellet within Bandol AOC. The historic château dates to the eighteenth century. Its origin is distinct from the group’s Côtes de Provence estates.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Château Romassan lies near Le Castellet within Bandol AOC. The historic château dates to the eighteenth century. Its origin is distinct from the group’s Côtes de Provence estates.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "Château Romassan is a Domaines Ott estate. The group website identifies its Roederer Collection affiliation; a detailed dated ownership history is not available in the sources used here.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "The estate describes approximately 83 hectares of vineyards across eight Bandol communes, with gravelly limestone and marl soils, maritime sunshine and cooling air.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "Château Romassan Rosé and Château Romassan Rouge are Bandol AOC wines. The group’s Étoile cuvée also draws on the other two Domaines Ott estates.",
+          "sourceIds": [
+            "fr-oct28-a0e1001d63",
+            "fr-oct28-1d8970325b",
+            "fr-oct28-58b535c2b6"
+          ]
+        }
+      ],
+      "wineIds": [],
+      "sourceIds": [
+        "fr-oct28-a0e1001d63",
+        "fr-oct28-1d8970325b",
+        "fr-oct28-58b535c2b6"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c81f6af0cd0d575317d74",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-mas-amiel",
+      "name": "Mas Amiel",
+      "country": "France",
+      "region": "Roussillon",
+      "regionId": "fr-roussillon",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Maury; wine-specific category applies",
+      "village": null,
+      "website": "https://www.masamiel.fr/pages/domaine",
+      "sourceWebsite": "https://www.masamiel.fr/pages/domaine",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Raymond-Étienne Amiel acquired the property in 1816. Charles Dupuy acquired it in 1907, and successive Dupuy generations developed its reputation for vins doux naturels. Olivier Decelle began a period of renewal in 1999, developing dry wines alongside fortified Maury.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Raymond-Étienne Amiel acquired the property in 1816. Charles Dupuy acquired it in 1907, and successive Dupuy generations developed its reputation for vins doux naturels. Olivier Decelle began a period of renewal in 1999, developing dry wines alongside fortified Maury.",
+          "sourceIds": [
+            "fr-oct28-e500dd4951",
+            "fr-oct28-efd8871312",
+            "fr-oct28-797f1dff3a",
+            "fr-oct28-b1883f7da5"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "The estate chronology records Raymond-Étienne Amiel from 1816, the Charles and Jean Dupuy family era from 1907 to 1997, and Olivier Decelle’s transformation from 1999. These historical roles do not establish current shareholding percentages.",
+          "sourceIds": [
+            "fr-oct28-e500dd4951",
+            "fr-oct28-efd8871312",
+            "fr-oct28-797f1dff3a",
+            "fr-oct28-b1883f7da5"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "Mas Amiel lies in the Agly valley at Maury, Roussillon. The estate page describes about 95 parcels and 100 hectares of vineyards, including old Grenache and Carignan on schist and calcareous schist. A historical 1999 account gives 155 planted hectares within a 226-hectare property; the figures refer to different dates and definitions. The estate reports organic certification in 2017 and biodynamic certification by 2020.",
+          "sourceIds": [
+            "fr-oct28-e500dd4951",
+            "fr-oct28-efd8871312",
+            "fr-oct28-797f1dff3a",
+            "fr-oct28-b1883f7da5"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "The fortified portfolio includes Vintage Rouge, Vintage Réserve, Vintage Charles Dupuy, Vintage Blanc, aged oxidative blends and vintage-dated Maury. The Trésors du Temps selection includes 20, 30, 40 and 50 Ans d’Âge. Dry wines include Maury Sec and Côtes du Roussillon. Availability and individual cuvée specifications depend on the release.",
+          "sourceIds": [
+            "fr-oct28-e500dd4951",
+            "fr-oct28-efd8871312",
+            "fr-oct28-797f1dff3a",
+            "fr-oct28-b1883f7da5"
+          ]
+        }
+      ],
+      "wineIds": [
+        "wine-fr-mas-amiel-maury-50-ans-d-age",
+        "wine-fr-mas-amiel-maury-vintage-blanc"
+      ],
+      "sourceIds": [
+        "fr-oct28-e500dd4951",
+        "fr-oct28-efd8871312",
+        "fr-oct28-797f1dff3a",
+        "fr-oct28-b1883f7da5"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c816c9dc4e75c72858fdd",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-clos-cibonne",
+      "name": "Clos Cibonne",
+      "country": "France",
+      "region": "Provence",
+      "regionId": "fr-provence",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Côtes de Provence AOC",
+      "village": null,
+      "website": "https://www.clos-cibonne.com/fr/historique-clos-cibonne-complet.html",
+      "sourceWebsite": "https://www.clos-cibonne.com/fr/historique-clos-cibonne-complet.html",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Clos Cibonne is a Roux family estate at Le Pradet in Provence. André Roux (1905–1989) championed Tibouren and helped establish the estate’s Côtes de Provence Cru Classé standing. His daughter Jacqueline and son-in-law Émile ran the estate from 1989 to 2003; later family accounts document Brigitte, Claude, Olivier and Caroline.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Clos Cibonne is a Roux family estate at Le Pradet in Provence. André Roux (1905–1989) championed Tibouren and helped establish the estate’s Côtes de Provence Cru Classé standing. His daughter Jacqueline and son-in-law Émile ran the estate from 1989 to 2003; later family accounts document Brigitte, Claude, Olivier and Caroline.",
+          "sourceIds": [
+            "fr-oct28-4c9049904b",
+            "fr-oct28-0234ec6a0b",
+            "fr-oct28-7c1f61684a",
+            "fr-oct28-128902dcba",
+            "fr-oct28-7a8a16f127"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "The estate describes Olivier joining in 2012 to lead viticulture and winemaking, Brigitte in sales and administration, Claude in commercial development, and Caroline contributing to communications. These are source-era responsibilities; current beneficial shareholdings are not documented here.",
+          "sourceIds": [
+            "fr-oct28-4c9049904b",
+            "fr-oct28-0234ec6a0b",
+            "fr-oct28-7c1f61684a",
+            "fr-oct28-128902dcba",
+            "fr-oct28-7a8a16f127"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "The coastal Le Pradet estate is a Tibouren specialist and one of Provence’s historical Cru Classé estates. Tradition combines Tibouren and Grenache. Cuvée des Vignettes draws on vines dating from the mid-1950s. The Prestige cuvées Caroline and Olivier use 300-litre barrels.",
+          "sourceIds": [
+            "fr-oct28-4c9049904b",
+            "fr-oct28-0234ec6a0b",
+            "fr-oct28-7c1f61684a",
+            "fr-oct28-128902dcba",
+            "fr-oct28-7a8a16f127"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "The estate catalogue includes Tradition, Tentations, Cuvée des Vignettes and the Prestige wines Caroline Rosé and Olivier Rouge. Historical Cuvée Spéciale Tibouren naming and vintage-specific releases require their corresponding labels and technical sheets.",
+          "sourceIds": [
+            "fr-oct28-4c9049904b",
+            "fr-oct28-0234ec6a0b",
+            "fr-oct28-7c1f61684a",
+            "fr-oct28-128902dcba",
+            "fr-oct28-7a8a16f127"
+          ]
+        }
+      ],
+      "wineIds": [],
+      "sourceIds": [
+        "fr-oct28-4c9049904b",
+        "fr-oct28-0234ec6a0b",
+        "fr-oct28-7c1f61684a",
+        "fr-oct28-128902dcba",
+        "fr-oct28-7a8a16f127"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c816ca62ac15553a88454",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaine-jules-desjourneys",
+      "name": "Domaine Jules Desjourneys",
+      "country": "France",
+      "region": "Beaujolais / Mâconnais",
+      "regionId": "fr-beaujolais",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Wine-specific appellations",
+      "village": null,
+      "website": "https://www.julesdesjourneys.fr/categorie-produit/les-blancs/",
+      "sourceWebsite": "https://www.julesdesjourneys.fr/categorie-produit/les-blancs/",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Jules Desjourneys began wine production in 2007 with Fleurie and Moulin-à-Vent. The source chronology dates Chénas Le Jugement Dernier and later Chassignol-related releases from 2012. The portfolio subsequently extended into Mâconnais whites. The literary account of “Jules” on the website is brand storytelling, not evidence of a historical founder of that name.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Jules Desjourneys began wine production in 2007 with Fleurie and Moulin-à-Vent. The source chronology dates Chénas Le Jugement Dernier and later Chassignol-related releases from 2012. The portfolio subsequently extended into Mâconnais whites. The literary account of “Jules” on the website is brand storytelling, not evidence of a historical founder of that name.",
+          "sourceIds": [
+            "fr-oct28-8fae0c56cf",
+            "fr-oct28-63a045464e",
+            "fr-oct28-7b03fd9025",
+            "fr-oct28-381160122d",
+            "fr-oct28-42b693b2a8"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "The official legal notice names SARL Jules Desjourneys, gives an address at La Chapelle-de-Guinchay, and identifies Fabien Duperray as publication manager. It does not establish complete corporate shareholdings or vineyard land titles.",
+          "sourceIds": [
+            "fr-oct28-8fae0c56cf",
+            "fr-oct28-63a045464e",
+            "fr-oct28-7b03fd9025",
+            "fr-oct28-381160122d",
+            "fr-oct28-42b693b2a8"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "Origins include Fleurie sites Les Moriers and Chapelle des Bois, Moulin-à-Vent sites Chassignol and Aux Michelons, Chénas Le Jugement Dernier, and Pouilly-Fuissé in the Mâconnais. Chassignol is described as old vines on quartz-rich granite. Each wine retains its own geographical origin.",
+          "sourceIds": [
+            "fr-oct28-8fae0c56cf",
+            "fr-oct28-63a045464e",
+            "fr-oct28-7b03fd9025",
+            "fr-oct28-381160122d",
+            "fr-oct28-42b693b2a8"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "Documented cuvées include Moulin-à-Vent Chassignol and Aux Michelons, Fleurie Les Moriers and La Chapelle des Bois, Chénas Le Jugement Dernier, and Pouilly-Fuissé Les Vignes Blanches. Historical “Les Michelons” naming and references to Les Ménétrières require vintage-specific labels for precise comparison. The current red-wine portfolio is broader than this selection.",
+          "sourceIds": [
+            "fr-oct28-8fae0c56cf",
+            "fr-oct28-63a045464e",
+            "fr-oct28-7b03fd9025",
+            "fr-oct28-381160122d",
+            "fr-oct28-42b693b2a8"
+          ]
+        }
+      ],
+      "wineIds": [],
+      "sourceIds": [
+        "fr-oct28-8fae0c56cf",
+        "fr-oct28-63a045464e",
+        "fr-oct28-7b03fd9025",
+        "fr-oct28-381160122d",
+        "fr-oct28-42b693b2a8"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c814c937bcd07160b08bf",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaine-comte-abbatucci",
+      "name": "Domaine Comte Abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": "fr-corsica",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Wine-specific Ajaccio / Vin de France; legacy labels unresolved",
+      "village": null,
+      "website": "https://www.domaine-abbatucci.com/",
+      "sourceWebsite": "https://www.domaine-abbatucci.com/",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "The family estate lies at Casalabriva in the Taravo valley of southern Corsica. Antoine Abbatucci established a collection of traditional Corsican grape varieties; Jean-Charles developed biodynamic farming and heritage-variety research. The Collection range, celebrating historical family figures, began in 2006.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "The family estate lies at Casalabriva in the Taravo valley of southern Corsica. Antoine Abbatucci established a collection of traditional Corsican grape varieties; Jean-Charles developed biodynamic farming and heritage-variety research. The Collection range, celebrating historical family figures, began in 2006.",
+          "sourceIds": [
+            "fr-oct28-9efc1089dd",
+            "fr-oct28-b5ce38aae1",
+            "fr-oct28-5a23309fc2",
+            "fr-oct28-1879201f2a",
+            "fr-oct28-2d7f3cae6e",
+            "fr-oct28-2e565e036d"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "The estate website names Jean-Charles and his daughter Faustine Abbatucci as proprietor-vignerons. Its 2026 legal notice identifies EARL Domaine Comte Abbatucci. Detailed beneficial shareholdings are not given.",
+          "sourceIds": [
+            "fr-oct28-9efc1089dd",
+            "fr-oct28-b5ce38aae1",
+            "fr-oct28-5a23309fc2",
+            "fr-oct28-1879201f2a",
+            "fr-oct28-2d7f3cae6e",
+            "fr-oct28-2e565e036d"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "The estate describes 21 hectares of vines on decomposed granitic sands near 150 metres altitude in the Taravo valley. Its ampelographic collection conserves a range of native grapes; the estate area is not an individual cuvée’s vineyard area.",
+          "sourceIds": [
+            "fr-oct28-9efc1089dd",
+            "fr-oct28-b5ce38aae1",
+            "fr-oct28-5a23309fc2",
+            "fr-oct28-1879201f2a",
+            "fr-oct28-2d7f3cae6e",
+            "fr-oct28-2e565e036d"
+          ]
+        },
+        {
+          "title": "Viticulture",
+          "text": "Biodynamic cultivation and conservation of Corsican grapes are central to the estate’s stated approach. The website’s reference to 18 old or native varieties concerns the conservatory, not the blend of every wine.",
+          "sourceIds": [
+            "fr-oct28-9efc1089dd",
+            "fr-oct28-b5ce38aae1",
+            "fr-oct28-5a23309fc2",
+            "fr-oct28-1879201f2a",
+            "fr-oct28-2d7f3cae6e",
+            "fr-oct28-2e565e036d"
+          ]
+        },
+        {
+          "title": "Vinification",
+          "text": "Methods vary by range. Faustine whites and rosés largely use stainless steel; the red uses a longer maceration. Collection whites combine demi-muids and stainless steel. Parcellaires wines may use foudres, demi-muids or tanks. Wine-specific technical sheets define the relevant process.",
+          "sourceIds": [
+            "fr-oct28-9efc1089dd",
+            "fr-oct28-b5ce38aae1",
+            "fr-oct28-5a23309fc2",
+            "fr-oct28-1879201f2a",
+            "fr-oct28-2d7f3cae6e",
+            "fr-oct28-2e565e036d"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "The portfolio includes Faustine Blanc, Rouge and Rosé; the Parcellaires wines Alte Rosso Blanc, Monte Bianco Rouge and Valle di Nero Rosé; and Collection wines Ministre Impérial Rouge, Diplomate d’Empire Blanc and Général de la Révolution Blanc. The current Ministre Impérial technical sheet specifies Vin de France. Historical Faustine Vieilles Vignes Rosé naming requires a corresponding release label. Other estate ranges include Empire Sparkling, Dolce Rosso and the Insolites Valle di Mare and Monte Mare.",
+          "sourceIds": [
+            "fr-oct28-9efc1089dd",
+            "fr-oct28-b5ce38aae1",
+            "fr-oct28-5a23309fc2",
+            "fr-oct28-1879201f2a",
+            "fr-oct28-2d7f3cae6e",
+            "fr-oct28-2e565e036d"
+          ]
+        }
+      ],
+      "wineIds": [
+        "wine-fr-domaine-comte-abbatucci-vin-de-france-alte-rosso",
+        "wine-fr-domaine-comte-abbatucci-vin-de-france-diplomate-d-empire",
+        "wine-fr-domaine-comte-abbatucci-ajaccio-faustine-rouge",
+        "wine-fr-domaine-comte-abbatucci-vin-de-france-ministre-imperial",
+        "wine-fr-domaine-comte-abbatucci-vin-de-france-valle-di-nero",
+        "wine-fr-domaine-comte-abbatucci-vin-de-france-monte-bianco",
+        "wine-fr-domaine-comte-abbatucci-ajaccio-faustine-blanc",
+        "wine-fr-domaine-comte-abbatucci-ajaccio-faustine-rose"
+      ],
+      "sourceIds": [
+        "fr-oct28-9efc1089dd",
+        "fr-oct28-b5ce38aae1",
+        "fr-oct28-5a23309fc2",
+        "fr-oct28-1879201f2a",
+        "fr-oct28-2d7f3cae6e",
+        "fr-oct28-2e565e036d"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c814bbfa5de7129b47c37",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaine-gauby",
+      "name": "Domaine Gauby",
+      "country": "France",
+      "region": "Roussillon",
+      "regionId": "fr-roussillon",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "IGP Côtes Catalanes where dated source supports",
+      "village": null,
+      "website": "",
+      "sourceWebsite": "https://www.legardevins.com/nos-domaines/domaine-gauby/",
+      "sourceWebsiteType": "distributor",
+      "intro": "Domaine Gauby is a family property centred on Calce in Roussillon, associated with terroir-focused wines and organic, biodynamic and regenerative farming. Distributor and regional accounts describe Gérard Gauby’s development of the estate and Lionel Gauby’s subsequent role in vinification.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Domaine Gauby is a family property centred on Calce in Roussillon, associated with terroir-focused wines and organic, biodynamic and regenerative farming. Distributor and regional accounts describe Gérard Gauby’s development of the estate and Lionel Gauby’s subsequent role in vinification.",
+          "sourceIds": [
+            "fr-oct28-8a9c0d1b5f",
+            "fr-oct28-9212aa23c3",
+            "fr-oct28-6ff8c0b465",
+            "fr-oct28-283acdca6d"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "Gérard Gauby established and expanded the domaine; distributor accounts identify Lionel with later winemaking and estate stewardship. Family roles, company representatives and land ownership are distinct matters; detailed current shareholdings are not established here.",
+          "sourceIds": [
+            "fr-oct28-8a9c0d1b5f",
+            "fr-oct28-9212aa23c3",
+            "fr-oct28-6ff8c0b465",
+            "fr-oct28-283acdca6d"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "Distributor and regional sources describe an approximately 85-hectare ecosystem: around 45 hectares of vines and 40 hectares of grassland, woodland and garrigue. Sites lie near 150–200 metres altitude, with limestone, marl and schist under Mediterranean influence. Some vines exceed a century in age. Areas and vine ages are source-specific.",
+          "sourceIds": [
+            "fr-oct28-8a9c0d1b5f",
+            "fr-oct28-9212aa23c3",
+            "fr-oct28-6ff8c0b465",
+            "fr-oct28-283acdca6d"
+          ]
+        },
+        {
+          "title": "Viticulture",
+          "text": "Distributors describe organic and biodynamic cultivation with preparations made at the estate. These farming descriptions do not, by themselves, document a current certification.",
+          "sourceIds": [
+            "fr-oct28-8a9c0d1b5f",
+            "fr-oct28-9212aa23c3",
+            "fr-oct28-6ff8c0b465",
+            "fr-oct28-283acdca6d"
+          ]
+        },
+        {
+          "title": "Vinification",
+          "text": "Whole-bunch handling, carbonic maceration and maturation vary by wine and period. The 2023 La Muntada description specifies 70% Grenache and 30% Carignan, with 14 months in foudre and concrete. That release is IGP Côtes Catalanes; older Côtes du Roussillon Villages descriptions belong to their respective vintages.",
+          "sourceIds": [
+            "fr-oct28-8a9c0d1b5f",
+            "fr-oct28-9212aa23c3",
+            "fr-oct28-6ff8c0b465",
+            "fr-oct28-283acdca6d"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "The distributor’s 2026 list includes Les Calcinaires Blanc and Rouge, Vieilles Vignes Blanc and Rouge, La Muntada Rouge, Coume Gineste Blanc and La Jasse, under IGP Côtes Catalanes. Historical references also include La Roque. Colour and vintage distinguish wines that share a cuvée name.",
+          "sourceIds": [
+            "fr-oct28-8a9c0d1b5f",
+            "fr-oct28-9212aa23c3",
+            "fr-oct28-6ff8c0b465",
+            "fr-oct28-283acdca6d"
+          ]
+        }
+      ],
+      "wineIds": [
+        "wine-fr-domaine-gauby-unverified-la-muntada"
+      ],
+      "sourceIds": [
+        "fr-oct28-8a9c0d1b5f",
+        "fr-oct28-9212aa23c3",
+        "fr-oct28-6ff8c0b465",
+        "fr-oct28-283acdca6d"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c81b0ae84d2a19de52c0b",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaine-jean-foillard",
+      "name": "Domaine Jean Foillard",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": "fr-beaujolais",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Morgon AOC",
+      "village": null,
+      "website": "",
+      "sourceWebsite": "https://kermitlynch.com/grower/jean-foillard/",
+      "sourceWebsiteType": "importer",
+      "intro": "Jean and Agnès Foillard took over Jean’s father’s property in 1980. Jean became associated with the Beaujolais low-intervention movement influenced by Jules Chauvet and the group often called the “Gang of Four”: Lapierre, Thévenet, Breton and Foillard. This history is documented by importer Kermit Lynch.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Jean and Agnès Foillard took over Jean’s father’s property in 1980. Jean became associated with the Beaujolais low-intervention movement influenced by Jules Chauvet and the group often called the “Gang of Four”: Lapierre, Thévenet, Breton and Foillard. This history is documented by importer Kermit Lynch.",
+          "sourceIds": [
+            "fr-oct28-8bdc61026d",
+            "fr-oct28-604fc21c5c",
+            "fr-oct28-02afbb1192",
+            "fr-oct28-40b396fa67"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "Importer sources identify Jean and Agnès with the 1980 takeover. Alex Foillard also appears as an associated grower, with a distinct portfolio; current legal shareholding percentages are not documented in this profile.",
+          "sourceIds": [
+            "fr-oct28-8bdc61026d",
+            "fr-oct28-604fc21c5c",
+            "fr-oct28-02afbb1192",
+            "fr-oct28-40b396fa67"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "The importer describes close to 14 hectares at the time of publication, including Morgon Côte du Py, Corcelette, Les Charmes and Fleurie. Côte du Py descriptions refer to schist, granite and manganese; Corcelette is lighter and sandy. Cuvée 3.14 draws on very old Gamay, described as around a century old. Portfolio-wide vineyard totals are not individual cuvée areas.",
+          "sourceIds": [
+            "fr-oct28-8bdc61026d",
+            "fr-oct28-604fc21c5c",
+            "fr-oct28-02afbb1192",
+            "fr-oct28-40b396fa67"
+          ]
+        },
+        {
+          "title": "Viticulture",
+          "text": "The importer reports certified organic farming, hand sorting, restrained sulphur use and unfiltered bottling. These descriptions are tied to the importer’s publication, rather than a separately examined current certificate.",
+          "sourceIds": [
+            "fr-oct28-8bdc61026d",
+            "fr-oct28-604fc21c5c",
+            "fr-oct28-02afbb1192",
+            "fr-oct28-40b396fa67"
+          ]
+        },
+        {
+          "title": "Vinification",
+          "text": "For several Morgon cuvées, the importer describes traditional whole-bunch, semi-carbonic fermentation over three to four weeks and six to nine months in used Burgundy barrels. Corcelette may also use a 30-hectolitre foudre. Timing and vessels may vary by vintage.",
+          "sourceIds": [
+            "fr-oct28-8bdc61026d",
+            "fr-oct28-604fc21c5c",
+            "fr-oct28-02afbb1192",
+            "fr-oct28-40b396fa67"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "The Morgon selection includes Côte du Py, Corcelette, Cuvée 3.14 and Les Charmes, also encountered as Eponym’. The importer additionally lists Beaujolais-Villages and Fleurie. Cuvée 3.14 is a selected very-old-vine expression whose release is vintage-dependent.",
+          "sourceIds": [
+            "fr-oct28-8bdc61026d",
+            "fr-oct28-604fc21c5c",
+            "fr-oct28-02afbb1192",
+            "fr-oct28-40b396fa67"
+          ]
+        }
+      ],
+      "wineIds": [
+        "wine-fr-domaine-jean-foillard-morgon-les-charmes",
+        "wine-fr-domaine-jean-foillard-morgon-corcelette",
+        "wine-fr-domaine-jean-foillard-morgon-cote-du-py",
+        "wine-fr-domaine-jean-foillard-morgon-cuvee-3-14"
+      ],
+      "sourceIds": [
+        "fr-oct28-8bdc61026d",
+        "fr-oct28-604fc21c5c",
+        "fr-oct28-02afbb1192",
+        "fr-oct28-40b396fa67"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c81c5b567e1479f987b3b",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaine-du-clos-des-fees",
+      "name": "Domaine du Clos des Fées",
+      "country": "France",
+      "region": "Roussillon",
+      "regionId": "fr-roussillon",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Wine-specific label verification",
+      "village": null,
+      "website": "https://www.lapetiteepicerieduclosdesfees.com/",
+      "sourceWebsite": "https://www.lapetiteepicerieduclosdesfees.com/",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Hervé and Claudine Bizeul established Domaine du Clos des Fées at Vingrau in Roussillon in the late 1990s. Estate and importer accounts describe a portfolio assembled from small parcels across several Roussillon terroirs.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Hervé and Claudine Bizeul established Domaine du Clos des Fées at Vingrau in Roussillon in the late 1990s. Estate and importer accounts describe a portfolio assembled from small parcels across several Roussillon terroirs.",
+          "sourceIds": [
+            "fr-oct28-aeff2df72d",
+            "fr-oct28-acaa87c819",
+            "fr-oct28-c84941a15c",
+            "fr-oct28-bb6f057424",
+            "fr-oct28-bb371673ef"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "Hervé Bizeul is identified as founder and vigneron, with Claudine Bizeul in the estate’s historical account. A current corporate shareholding breakdown is not documented in the sources used here.",
+          "sourceIds": [
+            "fr-oct28-aeff2df72d",
+            "fr-oct28-acaa87c819",
+            "fr-oct28-c84941a15c",
+            "fr-oct28-bb6f057424",
+            "fr-oct28-bb371673ef"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "The estate works a mosaic of limestone-clay, marl and schist sites around Vingrau, exposed to the Tramontane. A 2025 importer catalogue describes approximately 30 hectares across several terroirs and more than 100 plots. La Petite Sibérie is a particular old-vine, Grenache-dominant, wind-exposed parcel; these estate-wide figures are not its area.",
+          "sourceIds": [
+            "fr-oct28-aeff2df72d",
+            "fr-oct28-acaa87c819",
+            "fr-oct28-c84941a15c",
+            "fr-oct28-bb6f057424",
+            "fr-oct28-bb371673ef"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "Principal names include Le Clos des Fées, Vieilles Vignes, Les Sorcières, La Petite Sibérie and De battre mon cœur s’est arrêté. Vieilles Vignes and Les Sorcières occur in both red and white forms. The 2023 Post Scriptum release has a distinct identity from standard La Petite Sibérie. Appellation, colour and technical details require the corresponding wine and vintage.",
+          "sourceIds": [
+            "fr-oct28-aeff2df72d",
+            "fr-oct28-acaa87c819",
+            "fr-oct28-c84941a15c",
+            "fr-oct28-bb6f057424",
+            "fr-oct28-bb371673ef"
+          ]
+        }
+      ],
+      "wineIds": [
+        "wine-fr-domaine-du-clos-des-fees-cotes-du-roussillon-villages-le-clos-des-fees",
+        "wine-fr-domaine-du-clos-des-fees-cotes-du-roussillon-villages-la-petite-siberie"
+      ],
+      "sourceIds": [
+        "fr-oct28-aeff2df72d",
+        "fr-oct28-acaa87c819",
+        "fr-oct28-c84941a15c",
+        "fr-oct28-bb6f057424",
+        "fr-oct28-bb371673ef"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c81d699b8d13952f2e0e2",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaine-marcel-lapierre",
+      "name": "Domaine Marcel Lapierre",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": "fr-beaujolais",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Morgon AOC",
+      "village": null,
+      "website": "https://www.marcel-lapierre.com/en/the-domaine",
+      "sourceWebsite": "https://www.marcel-lapierre.com/en/the-domaine",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "The family history in Villié-Morgon begins with Michel Lapierre in 1909. His son Camille developed bottling; Marcel took over in 1973 and, influenced by Jules Chauvet, began pursuing vinification without added sulphur in 1981. Marcel died in October 2010. Mathieu joined in 2004 and assumed management in 2010; his sister Camille joined in 2013. The name “M & C Lapierre” refers to the same family estate.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "The family history in Villié-Morgon begins with Michel Lapierre in 1909. His son Camille developed bottling; Marcel took over in 1973 and, influenced by Jules Chauvet, began pursuing vinification without added sulphur in 1981. Marcel died in October 2010. Mathieu joined in 2004 and assumed management in 2010; his sister Camille joined in 2013. The name “M & C Lapierre” refers to the same family estate.",
+          "sourceIds": [
+            "fr-oct28-72a7e2e417",
+            "fr-oct28-3dd72647e8",
+            "fr-oct28-2f0066cbe1",
+            "fr-oct28-f5df6b9ac9"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "The family account includes Marcel, Mathieu, Camille, Anne and Marie. Mathieu’s management and winemaking role dates from 2010; Camille joined in 2013. Marie is associated with historical viticulture and sales responsibilities. Detailed current beneficial shareholdings are not stated.",
+          "sourceIds": [
+            "fr-oct28-72a7e2e417",
+            "fr-oct28-3dd72647e8",
+            "fr-oct28-2f0066cbe1",
+            "fr-oct28-f5df6b9ac9"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "The estate’s 2026 website reports approximately 20 hectares of Gamay noir à jus blanc, predominantly in Morgon with some Beaujolais sites. Cuvée Camille comes from a southwest-facing Côte du Py site on shallow granitic bedrock; an older technical sheet gives one hectare. These figures have different geographical and chronological scopes.",
+          "sourceIds": [
+            "fr-oct28-72a7e2e417",
+            "fr-oct28-3dd72647e8",
+            "fr-oct28-2f0066cbe1",
+            "fr-oct28-f5df6b9ac9"
+          ]
+        },
+        {
+          "title": "Viticulture",
+          "text": "The estate reports organic certification since 2004 and a farming approach developed from around 1981.",
+          "sourceIds": [
+            "fr-oct28-72a7e2e417",
+            "fr-oct28-3dd72647e8",
+            "fr-oct28-2f0066cbe1",
+            "fr-oct28-f5df6b9ac9"
+          ]
+        },
+        {
+          "title": "Vinification",
+          "text": "Hand harvesting and sorting precede semi-carbonic Beaujolais maceration with indigenous yeast. Sulphur additions during vinification are limited or absent, while bottling practice varies by wine and batch. Cuvée Camille receives a longer maceration in a wooden truncated-conical vat; exact timing is vintage-dependent.",
+          "sourceIds": [
+            "fr-oct28-72a7e2e417",
+            "fr-oct28-3dd72647e8",
+            "fr-oct28-2f0066cbe1",
+            "fr-oct28-f5df6b9ac9"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "Morgon and Cuvée Camille are part of a wider portfolio that includes Cuvée Marcel Lapierre, Raisins Gaulois, Beaujolais and Bourgogne Pinot Noir. Cuvée Camille has historical Roche du Py and Côte du Py references; it is distinct from Cuvée Marcel Lapierre.",
+          "sourceIds": [
+            "fr-oct28-72a7e2e417",
+            "fr-oct28-3dd72647e8",
+            "fr-oct28-2f0066cbe1",
+            "fr-oct28-f5df6b9ac9"
+          ]
+        }
+      ],
+      "wineIds": [
+        "wine-fr-domaine-m-c-lapierre-morgon-morgon",
+        "wine-fr-domaine-m-c-lapierre-morgon-cuvee-camille-roche-du-py"
+      ],
+      "sourceIds": [
+        "fr-oct28-72a7e2e417",
+        "fr-oct28-3dd72647e8",
+        "fr-oct28-2f0066cbe1",
+        "fr-oct28-f5df6b9ac9"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c81458c72ecaa1e6ef486",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "producer-fr-domaine-jean-marc-burgaud",
+      "name": "Domaine Jean-Marc Burgaud",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": "fr-beaujolais",
+      "regionLinkScope": "geographic_context; exact wine origin is separate",
+      "appellation": "Morgon AOC",
+      "village": null,
+      "website": "https://jean-marc-burgaud.com/le-domaine",
+      "sourceWebsite": "https://jean-marc-burgaud.com/le-domaine",
+      "sourceWebsiteType": "producer_or_group_official_as_described_in_source",
+      "intro": "Jean-Marc Burgaud founded the Villié-Morgon estate in 1989. Its 2026 website reports 17.5 hectares in Beaujolais: 12.5 in Morgon and five in Lantignié. Morgon expressions include Côte du Py, Javernières, La Roche, James, Ruyère and Chollet.",
+      "scope": "First edition in English. Chinese translation pending. Areas, personnel and methods are attributed to the cited sources; individual vintages may differ.",
+      "sections": [
+        {
+          "title": "History",
+          "text": "Jean-Marc Burgaud founded the Villié-Morgon estate in 1989. Its 2026 website reports 17.5 hectares in Beaujolais: 12.5 in Morgon and five in Lantignié. Morgon expressions include Côte du Py, Javernières, La Roche, James, Ruyère and Chollet.",
+          "sourceIds": [
+            "fr-oct28-a6c1b021be",
+            "fr-oct28-dbb0dc1f8a",
+            "fr-oct28-bf5eb49b86",
+            "fr-oct28-4d3cc111bd"
+          ]
+        },
+        {
+          "title": "People and ownership",
+          "text": "Jean-Marc Burgaud is the founder and winemaker. The sources used here do not establish a detailed current shareholding or succession structure.",
+          "sourceIds": [
+            "fr-oct28-a6c1b021be",
+            "fr-oct28-dbb0dc1f8a",
+            "fr-oct28-bf5eb49b86",
+            "fr-oct28-4d3cc111bd"
+          ]
+        },
+        {
+          "title": "Vineyards and sites",
+          "text": "Côte du Py is described as a south-facing hill of blue schist rich in iron oxides, alongside the estate’s separate granite and clay sites. A dated commercial account refers to six hectares at Côte du Py; the estate’s 12.5 hectares in Morgon represent a broader area.",
+          "sourceIds": [
+            "fr-oct28-a6c1b021be",
+            "fr-oct28-dbb0dc1f8a",
+            "fr-oct28-bf5eb49b86",
+            "fr-oct28-4d3cc111bd"
+          ]
+        },
+        {
+          "title": "Viticulture",
+          "text": "An organic certification is not established by the sources used in this first edition.",
+          "sourceIds": [
+            "fr-oct28-a6c1b021be",
+            "fr-oct28-dbb0dc1f8a",
+            "fr-oct28-bf5eb49b86",
+            "fr-oct28-4d3cc111bd"
+          ]
+        },
+        {
+          "title": "Vinification",
+          "text": "Estate and importer sources describe whole-cluster Gamay maceration. A Côte du Py importer profile gives seven to twelve days; an older technical sheet gives twelve to fourteen. These are source-specific descriptions, rather than a fixed protocol for every vintage.",
+          "sourceIds": [
+            "fr-oct28-a6c1b021be",
+            "fr-oct28-dbb0dc1f8a",
+            "fr-oct28-bf5eb49b86",
+            "fr-oct28-4d3cc111bd"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "text": "The estate lists Lantignié whites and reds alongside Morgon Chollet, Ruyère, La Roche, Côte du Py, Javernières and James. This first edition includes an individual Côte du Py profile.",
+          "sourceIds": [
+            "fr-oct28-a6c1b021be",
+            "fr-oct28-dbb0dc1f8a",
+            "fr-oct28-bf5eb49b86",
+            "fr-oct28-4d3cc111bd"
+          ]
+        }
+      ],
+      "wineIds": [
+        "wine-fr-domaine-jean-marc-burgaud-morgon-cote-du-py"
+      ],
+      "sourceIds": [
+        "fr-oct28-a6c1b021be",
+        "fr-oct28-dbb0dc1f8a",
+        "fr-oct28-bf5eb49b86",
+        "fr-oct28-4d3cc111bd"
+      ],
+      "status": "research_draft_english",
+      "notionSource": "https://app.notion.com/p/40617d16de4c818e9a8ae3db19852543",
+      "contentLanguage": "en"
+    }
+  ],
+  "wines": [
+    {
+      "id": "wine-fr-domaines-ott-cotes-de-provence-etoile",
+      "name": "Domaines Ott — Étoile",
+      "producer": "Domaines Ott",
+      "producerId": "producer-fr-domaines-ott",
+      "country": "France",
+      "region": "Provence",
+      "regionId": null,
+      "geographicContextRegionId": "fr-provence",
+      "description": "2024 estate description: peach-colored rosé, citrus peel/stone fruit and strawberry, gently spicy elongated finish and ageing potential (producer source, not independent critic).",
+      "composition": "2024: 80% Grenache, 20% Mourvèdre.",
+      "style": "Rosé · Vin de France · cross-estate cuvée",
+      "serving": "2024 estate recommendation: 10–12°C.",
+      "vintage": 2024,
+      "vintageScope": "2024 release. The estate technical sheet specifies Vin de France, 14% ABV and a serving temperature of 10–12°C.",
+      "vineyard": "Fruit from Clos Mireille (schist and clay), Château de Selle (limestone) and Château Romassan (limestone, sandstone and marl). Estate proportions and exact parcels are not specified.",
+      "method": "2024 producer sheet states 20% raised in ceramic spheres; other vessels and durations not confirmed by the accessible 2024 sheet.",
+      "grapeNames": [
+        "Grenache",
+        "Mourvèdre"
+      ],
+      "grapeIds": [
+        "garnacha-tinta",
+        "monastrell"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaines-ott.com/wp-content/uploads/2025/09/domaines-ott-fiche-technique-vin-de-france-etoile-2024-fr.pdf",
+      "sources": [
+        {
+          "id": "fr-oct28-7cbbc04020",
+          "url": "https://www.domaines-ott.com/wp-content/uploads/2025/09/domaines-ott-fiche-technique-vin-de-france-etoile-2024-fr.pdf",
+          "title": "www.domaines-ott.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c814296dade96c08f02d0",
+      "denomination": "Vin de France",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-mas-amiel-maury-50-ans-d-age",
+      "name": "Mas Amiel — 50 Ans d'Âge",
+      "producer": "Mas Amiel",
+      "producerId": "producer-fr-mas-amiel",
+      "country": "France",
+      "region": "Roussillon",
+      "regionId": null,
+      "geographicContextRegionId": "fr-roussillon",
+      "description": "Very mature oxidative Maury with rancio, layered dried fruit, nutty and deeply savoury complexity (style characterization drawn from official aged blend description, not blind tasting).",
+      "composition": "100% Grenache Noir, according to the estate’s Trésors du Temps description of 50 Ans d’Âge.",
+      "style": "Vin doux naturel oxidatif, AOC Maury Rouge · multi-vintage aged blend",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "A multi-vintage aged blend included in the estate’s Trésors du Temps selection alongside 20, 30 and 40 Ans d’Âge. Base vintages and a complete cuvée-specific ageing chronology are not supplied.",
+      "vineyard": "Maury old-vine Roussillon schist terroir; individual contributing plots and base-vintage components not stated in available official 50 Ans source.",
+      "method": "The estate’s oxidative house process includes fortification on skins, about one year outdoors in 60-litre glass demijohns, then extended maturation in old oak foudres. This describes the house method; the exact chronology for 50 Ans d’Âge is not established in the cited product page.",
+      "grapeNames": [
+        "Grenache Noir"
+      ],
+      "grapeIds": [
+        "garnacha-tinta"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.masamiel.fr/products/tresors-du-temps",
+      "sources": [
+        {
+          "id": "fr-oct28-da62d1aefa",
+          "url": "https://www.masamiel.fr/products/tresors-du-temps",
+          "title": "www.masamiel.fr — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c8143b7f2d5a0d9b336dd",
+      "denomination": "Maury AOC",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-mas-amiel-maury-vintage-blanc",
+      "name": "Mas Amiel — Vintage Blanc",
+      "producer": "Mas Amiel",
+      "producerId": "producer-fr-mas-amiel",
+      "country": "France",
+      "region": "Roussillon",
+      "regionId": null,
+      "geographicContextRegionId": "fr-roussillon",
+      "description": "2025 producer note (paraphrase): mineral/fresh white VDN, grapefruit, mandarin and citrus peel, fresh finish; not an independent critic tasting.",
+      "composition": "2025: 100% Grenache Gris.",
+      "style": "Vin doux naturel, AOC Maury Blanc · reductive white VDN (not dry wine)",
+      "serving": "",
+      "vintage": 2025,
+      "vintageScope": "The composition and technical details concern the estate’s 2025 release. This is a sweet fortified Maury Blanc, distinct from the estate’s dry white wines.",
+      "vineyard": "Vintage 2025 estate page: schist slopes Mas Fredes sector, SW exposure, clay at depth; goblet vines 60–75y, average 18 hL/ha, biodynamic cultivation as described for this release.",
+      "method": "Vintage 2025 official: manual harvest and double sort, direct press without destemming, fermentation in thermoregulated stainless at approximately 18°C, fortification mid fermentation on juice; approximately 10 months on lees in reductive tank to conserve fresh fruit.",
+      "grapeNames": [
+        "Grenache Gris"
+      ],
+      "grapeIds": [
+        "grenache-gris"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.masamiel.fr/products/vintage-blanc-2025",
+      "sources": [
+        {
+          "id": "fr-oct28-d0c8690927",
+          "url": "https://www.masamiel.fr/products/vintage-blanc-2025",
+          "title": "www.masamiel.fr — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c8161aedbdaf554c03642",
+      "denomination": "Maury AOC",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-comte-abbatucci-vin-de-france-alte-rosso",
+      "name": "Domaine Comte Abbatucci — Alte Rosso",
+      "producer": "Domaine Comte Abbatucci",
+      "producerId": "producer-fr-domaine-comte-abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": null,
+      "geographicContextRegionId": "fr-corsica",
+      "description": "Producer notes smoky, toasted/peaty and white-stone-fruit aromas with citric bite and saline finish.",
+      "composition": "100% Barbarossa.",
+      "style": "White · Vin de France · Parcellaires",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "The estate identifies Alte Rosso as a white wine. Its wine-specific profile gives Vin de France and an undated house method; exact vintage specifications may differ.",
+      "vineyard": "Parcellaires single-terroir selection on decomposed granitic sands in the Taravo valley. Exact parcel boundaries and area are not given.",
+      "method": "Whole-berry press; cold settling 24–48h, fermentation in 12 hL Stockinger foudre; lees/oak ageing 12 months + stainless 3 months; malolactic blocked by cold/SO2 per winery profile.",
+      "grapeNames": [
+        "Barbarossa"
+      ],
+      "grapeIds": [
+        "barbaroux"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/parcellaires",
+      "sources": [
+        {
+          "id": "fr-oct28-1879201f2a",
+          "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/parcellaires",
+          "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81be8491e2ebbc907277",
+      "denomination": "Vin de France",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-comte-abbatucci-vin-de-france-diplomate-d-empire",
+      "name": "Domaine Comte Abbatucci — Diplomate d'Empire",
+      "producer": "Domaine Comte Abbatucci",
+      "producerId": "producer-fr-domaine-comte-abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": null,
+      "geographicContextRegionId": "fr-corsica",
+      "description": "Estate describes floral/chamomile and yellow-fruit aromas, expansive silky white palate, retained mineral/saline freshness.",
+      "composition": "Vermentino, Brustiano, Bianco Gentile, Genovese and Rossola Bianca.",
+      "style": "White · Collection range",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "The estate portfolio supplies an undated house profile. An exact legal designation for a specific vintage is not established by the source used here.",
+      "vineyard": "Estate ampelographic/heritage grape collection from granitic sands in Taravo valley; distinct parcels pressed together or separately depending on maturity.",
+      "method": "Gentle direct pressing, static settling 24–48h; alcoholic and malolactic fermentation in demi-muids; nine months on lees in wood then 6–7 months in stainless after assembly (estate house process).",
+      "grapeNames": [
+        "Vermentino",
+        "Brustiano",
+        "Bianco Gentile",
+        "Genovese",
+        "Rossola Bianca"
+      ],
+      "grapeIds": [
+        "vermentino",
+        "genovese"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/collections",
+      "sources": [
+        {
+          "id": "fr-oct28-2d7f3cae6e",
+          "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/collections",
+          "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "exact vintage designation not established",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81f7a790e86862e314b5",
+      "denomination": "",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-comte-abbatucci-ajaccio-faustine-rouge",
+      "name": "Domaine Comte Abbatucci — Faustine Rouge",
+      "producer": "Domaine Comte Abbatucci",
+      "producerId": "producer-fr-domaine-comte-abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": null,
+      "geographicContextRegionId": "fr-corsica",
+      "description": "Estate description: cherry and wild red fruit, myrtle, pepper and spice, fine supple tannins and a fresh, persistent fruit-led finish.",
+      "composition": "Estate house profile: 70% Sciaccarello (Sciaccarellu), 30% Nielluccio (Niellucciu, a name for Sangiovese). The proportions are not assigned to every vintage.",
+      "style": "Red · Faustine range",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "The estate’s undated wine profile describes a house method. The legal appellation for a particular vintage requires its bottle label or technical sheet.",
+      "vineyard": "Domaine Comte Abbatucci Taravo valley near Casalabriva, granitic sandy soils; estate has 21ha total, not the cuvée's vineyard surface.",
+      "method": "Official house profile: destemmed, gravity reception, uncrushed fruit; approximately 1 month maceration/fermentation in concrete with daily pumping over; 6 months stainless ageing.",
+      "grapeNames": [
+        "Sciaccarello",
+        "Sangiovese"
+      ],
+      "grapeIds": [
+        "sciaccarello",
+        "sangiovese"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/faustine",
+      "sources": [
+        {
+          "id": "fr-oct28-5a23309fc2",
+          "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/faustine",
+          "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "exact vintage designation not established",
+      "notionSource": "https://app.notion.com/p/40517d16de4c818bae2ee1a87e94677a",
+      "denomination": "",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-comte-abbatucci-vin-de-france-ministre-imperial",
+      "name": "Domaine Comte Abbatucci — Ministre Impérial",
+      "producer": "Domaine Comte Abbatucci",
+      "producerId": "producer-fr-domaine-comte-abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": null,
+      "geographicContextRegionId": "fr-corsica",
+      "description": "Producer notes ripe currants/blackberries, Corsican myrtle, subtle spice, fine tannins and persistent savory mineral finish.",
+      "composition": "Morescola, Morescono, Aleatico, Carcajolo Nero, Montanaccia, Sciaccarellu and Niellucciu (Sangiovese), according to the estate technical sheet.",
+      "style": "Red · Vin de France · Collection wine",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "The cited wine-specific estate technical sheet explicitly identifies Ministre Impérial as Vin de France Rouge. Its production details are not tied to a named vintage.",
+      "vineyard": "Native Corsican grape conservatory on granitic sands in the Taravo valley, near Casalabriva. The cuvée’s exact parcel area is not stated.",
+      "method": "Winery technical process: destemmed/gravity intake, spontaneous fermentation and about one month extraction in truncated wooden vats, 12 months demi-muid maturation and six further months in steel.",
+      "grapeNames": [
+        "Morescola",
+        "Morescono",
+        "Aleatico",
+        "Carcajolo Nero",
+        "Montanaccia",
+        "Sciaccarellu",
+        "Niellucciu"
+      ],
+      "grapeIds": [
+        "aleatico",
+        "muresconu",
+        "sciaccarello",
+        "sangiovese"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaine-abbatucci.com/uploads/d41dd729a570ba6e27b592ddd33ab2fd.pdf",
+      "sources": [
+        {
+          "id": "fr-oct28-f87f84d175",
+          "url": "https://www.domaine-abbatucci.com/uploads/d41dd729a570ba6e27b592ddd33ab2fd.pdf",
+          "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81969411f79d9d8a33d7",
+      "denomination": "Vin de France",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-comte-abbatucci-vin-de-france-valle-di-nero",
+      "name": "Domaine Comte Abbatucci — Valle di Nero",
+      "producer": "Domaine Comte Abbatucci",
+      "producerId": "producer-fr-domaine-comte-abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": null,
+      "geographicContextRegionId": "fr-corsica",
+      "description": "Estate notes orange blossom, fresh citrus/clementine, peach, apricot and delicate saline/savory texture.",
+      "composition": "100% Carcajolo Nero, according to the estate technical sheet.",
+      "style": "Rosé · Vin de France · Parcellaires",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "The estate’s wine-specific profile identifies Valle di Nero as a Vin de France rosé. The cited production method is undated.",
+      "vineyard": "A Taravo site on granitic sands, selected for the Parcellaires range. Exact boundaries and vineyard area are not supplied.",
+      "method": "Direct press, fermentation in demi-muid on indigenous yeasts, c.9 months in wood then 3 months tank, as official wine fiche describes.",
+      "grapeNames": [
+        "Carcajolo Nero"
+      ],
+      "grapeIds": [],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/parcellaires",
+      "sources": [
+        {
+          "id": "fr-oct28-1879201f2a",
+          "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/parcellaires",
+          "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81bea0f5e8b32f7366e9",
+      "denomination": "Vin de France",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-comte-abbatucci-vin-de-france-monte-bianco",
+      "name": "Domaine Comte Abbatucci — Monte Bianco",
+      "producer": "Domaine Comte Abbatucci",
+      "producerId": "producer-fr-domaine-comte-abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": null,
+      "geographicContextRegionId": "fr-corsica",
+      "description": "Estate describes cherry/strawberry and wild maquis/myrtle nose, fine soft tannins and savory/mineral finish.",
+      "composition": "100% Sciaccarello per official winery's undated technical description.",
+      "style": "Red · Vin de France · Parcellaires",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "Despite its name, Monte Bianco is a red wine. The estate’s wine-specific profile identifies Vin de France and supplies an undated house method.",
+      "vineyard": "Slopes of granitic sand in the Taravo valley, selected for the Parcellaires range. Exact plot boundaries are not supplied.",
+      "method": "Destemmed and uncrushed, gravity fed; approximately 1 month skin contact with indigenous spontaneous fermentation in truncated-cone vats, 12 months demi-muid + six months tank.",
+      "grapeNames": [
+        "Sciaccarello"
+      ],
+      "grapeIds": [
+        "sciaccarello"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/parcellaires",
+      "sources": [
+        {
+          "id": "fr-oct28-1879201f2a",
+          "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/parcellaires",
+          "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c8100a946f9beb799cf00",
+      "denomination": "Vin de France",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-comte-abbatucci-ajaccio-faustine-blanc",
+      "name": "Domaine Comte Abbatucci — Faustine Blanc",
+      "producer": "Domaine Comte Abbatucci",
+      "producerId": "producer-fr-domaine-comte-abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": null,
+      "geographicContextRegionId": "fr-corsica",
+      "description": "Estate description: white flower, anise, freshness and evolving mineral/petrol nuances with bottle age.",
+      "composition": "100% Vermentino (Vermentinu / Rolle), according to the estate’s undated house profile.",
+      "style": "Dry white · Faustine range",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "The estate’s technical recipe is not tied to a particular vintage. A bottle-specific legal designation is not established in this profile.",
+      "vineyard": "Taravo valley estate granitic-sands parcels, southern Corsica; exact named plots and harvest area for cuvée not in source.",
+      "method": "Whole-bunch or destemmed press depending on grape condition; 24–48h settling; controlled stainless fermentation; six months lees contact; optional fining and cold tartaric stabilization.",
+      "grapeNames": [
+        "Vermentino"
+      ],
+      "grapeIds": [
+        "vermentino"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/faustine",
+      "sources": [
+        {
+          "id": "fr-oct28-5a23309fc2",
+          "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/faustine",
+          "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "exact vintage designation not established",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81a0b933dfd3f2e7b913",
+      "denomination": "",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-comte-abbatucci-ajaccio-faustine-rose",
+      "name": "Domaine Comte Abbatucci — Faustine Rosé",
+      "producer": "Domaine Comte Abbatucci",
+      "producerId": "producer-fr-domaine-comte-abbatucci",
+      "country": "France",
+      "region": "Corsica",
+      "regionId": null,
+      "geographicContextRegionId": "fr-corsica",
+      "description": "Estate notes pink grapefruit, floral tones and red berries, silky texture and delicate peach/apricot finish.",
+      "composition": "100% Sciaccarello (Sciaccarellu), according to the estate’s undated descriptive profile.",
+      "style": "Dry rosé · Faustine range",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "The estate’s wine profile does not specify a vintage. The legal appellation requires the corresponding release label.",
+      "vineyard": "Granitic sands in the Taravo valley, Corsica. Individual cuvée parcels and area are not specified.",
+      "method": "Whole-cluster/destemmed direct press, 24–48h static settling, controlled fermentation in stainless; bottle filtration if necessary.",
+      "grapeNames": [
+        "Sciaccarello"
+      ],
+      "grapeIds": [
+        "sciaccarello"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/faustine",
+      "sources": [
+        {
+          "id": "fr-oct28-5a23309fc2",
+          "url": "https://www.domaine-abbatucci.com/fr/vins-de-terroir/faustine",
+          "title": "www.domaine-abbatucci.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "exact vintage designation not established",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81529a8def0ec583a314",
+      "denomination": "",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-gauby-unverified-la-muntada",
+      "name": "Domaine Gauby — La Muntada",
+      "producer": "Domaine Gauby",
+      "producerId": "producer-fr-domaine-gauby",
+      "country": "France",
+      "region": "Roussillon",
+      "regionId": null,
+      "geographicContextRegionId": "fr-roussillon",
+      "description": "2023 retailer's quoted estate description: red cherry, floral aromas, silken finely powdered tannins, concentrated yet precise fruit.",
+      "composition": "2023: 70% Grenache, 30% Carignan, in the wine-specific technical information reproduced by the retailer. Older descriptions include different grapes and appellations.",
+      "style": "Red · IGP Côtes Catalanes · 2023",
+      "serving": "",
+      "vintage": 2023,
+      "vintageScope": "The 2023 release is described as IGP Côtes Catalanes. A 2019 listing uses Côtes du Roussillon Villages; the older designation does not establish the classification of 2023.",
+      "vineyard": "Gauby family old-vine selected parcels in Calce Roussillon, limestone marls; producer sheet 2023 states 30–95-year-old vines, not a claim that every component is 95 years.",
+      "method": "The 2023 estate-supplied description reports hand harvesting and sorting, whole-bunch maceration for up to about 15 days in concrete with native yeasts, then 14 months in foudre and concrete and ten months in bottle. Older importer descriptions of 21 months in foudre refer to other releases.",
+      "grapeNames": [
+        "Grenache",
+        "Carignan"
+      ],
+      "grapeIds": [
+        "garnacha-tinta",
+        "carignan"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "",
+      "sources": [
+        {
+          "id": "fr-oct28-283acdca6d",
+          "url": "https://www.vigneronsdexception.com/fr/domaine-gauby/8912-domaine-gauby-muntada-rouge-2023.html",
+          "title": "www.vigneronsdexception.com — cited in Oct28 source dossier",
+          "type": "retailer",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        },
+        {
+          "id": "fr-oct28-9212aa23c3",
+          "url": "https://www.legardevins.com/nos-domaines/domaine-gauby/",
+          "title": "www.legardevins.com — cited in Oct28 source dossier",
+          "type": "distributor",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c8119b0c6ca3583ed70e9",
+      "denomination": "IGP Côtes Catalanes",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-jean-foillard-morgon-les-charmes",
+      "name": "Domaine Jean Foillard — Les Charmes",
+      "producer": "Domaine Jean Foillard",
+      "producerId": "producer-fr-domaine-jean-foillard",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": null,
+      "geographicContextRegionId": "fr-beaujolais",
+      "description": "Importer description of Eponym' Les Charmes: lively floral perfume, fine bright red-fruit and acid lift, transparent tannin and mineral tension.",
+      "composition": "Gamay. The importer describes vines around 45–50 years old for the Les Charmes / Eponym’ cuvée; the vine-age statement is source-specific.",
+      "style": "Red · Morgon AOC · Les Charmes / Eponym’",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "Importer naming includes Les Charmes Eponym’; older releases may be labelled Eponym’ alone. The cited 2021 listing and general technical profile have different scopes.",
+      "vineyard": "Les Charmes, one of the higher-altitude Morgon sites, 1.5 ha source property noted by importer, schist/granite/manganese. Distinguish from Côte du Py site and Corcelette sand.",
+      "method": "Importer: selected hand harvest, whole-cluster fermentation approximately 3–4 weeks, approximately 6–9 months neutral used oak barrels, no filtration.",
+      "grapeNames": [
+        "Gamay"
+      ],
+      "grapeIds": [
+        "gamay"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "",
+      "sources": [
+        {
+          "id": "fr-oct28-5a2d2ee5ba",
+          "url": "https://kermitlynch.com/wine/jean-foillard/1179/JF06",
+          "title": "kermitlynch.com — cited in Oct28 source dossier",
+          "type": "importer",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        },
+        {
+          "id": "fr-oct28-0b70b740bb",
+          "url": "https://shop.kermitlynch.com/product/detail/21FJF06/",
+          "title": "shop.kermitlynch.com — cited in Oct28 source dossier",
+          "type": "importer",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81ea8752f332667ecd2a",
+      "denomination": "Morgon AOC",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-jean-foillard-morgon-corcelette",
+      "name": "Domaine Jean Foillard — Corcelette",
+      "producer": "Domaine Jean Foillard",
+      "producerId": "producer-fr-domaine-jean-foillard",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": null,
+      "geographicContextRegionId": "fr-beaujolais",
+      "description": "Importer site comparison: very aromatic red fruit with floral lift, silky textural Gamay from lighter sandy soil.",
+      "composition": "Gamay, old-vine single-sector Morgon. Imported technical record indicates about 80-year-old vines, source year not specified.",
+      "style": "Red · Morgon AOC · Corcelette lieu-dit",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "Vine age and cellar details are an importer baseline, not a technical sheet for a named vintage.",
+      "vineyard": "Corcelette in Morgon, on sandy decomposed granite and sandstone. The importer’s 8.6-hectare figure covers several named Morgon wines, rather than this cuvée alone.",
+      "method": "Importer: traditional whole-bunch fermentation approximately 3–4 weeks; approximately 6–9 months in used oak barriques and a 30 hL foudre.",
+      "grapeNames": [
+        "Gamay"
+      ],
+      "grapeIds": [
+        "gamay"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "",
+      "sources": [
+        {
+          "id": "fr-oct28-604fc21c5c",
+          "url": "https://kermitlynch.com/grower/jean-foillard/",
+          "title": "kermitlynch.com — cited in Oct28 source dossier",
+          "type": "importer",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81b3b932c2f143074d21",
+      "denomination": "Morgon AOC",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-jean-foillard-morgon-cote-du-py",
+      "name": "Domaine Jean Foillard — Côte du Py",
+      "producer": "Domaine Jean Foillard",
+      "producerId": "producer-fr-domaine-jean-foillard",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": null,
+      "geographicContextRegionId": "fr-beaujolais",
+      "description": "Importer: depth of pomegranate and dark tea, stony volcanic texture, firm yet velvety structural underpinning and ageworthiness.",
+      "composition": "Gamay. The importer describes vines approximately 10–90 years old across the site; this is not a fixed vintage blend specification.",
+      "style": "Red · Morgon AOC · Côte du Py cru lieu-dit",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "A separate importer page documents the 2024 release. General cellar details below describe the importer’s house baseline and may vary by vintage.",
+      "vineyard": "Côte du Py hill in Morgon (Villié-Morgon), schist/decomposed volcanic bedrock, granite and manganese; site-specific rather than general Gamay.",
+      "method": "Importer standard Côte du Py: selective hand harvest; whole-cluster fermentation approximately 3–4 weeks; approx 6–9 months in used Burgundy barrels; bottled unfiltered, minimal/late sulphur by producer practice.",
+      "grapeNames": [
+        "Gamay"
+      ],
+      "grapeIds": [
+        "gamay"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "",
+      "sources": [
+        {
+          "id": "fr-oct28-12975c00ba",
+          "url": "https://shop.kermitlynch.com/product/detail/24FJF01/",
+          "title": "shop.kermitlynch.com — cited in Oct28 source dossier",
+          "type": "importer",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        },
+        {
+          "id": "fr-oct28-604fc21c5c",
+          "url": "https://kermitlynch.com/grower/jean-foillard/",
+          "title": "kermitlynch.com — cited in Oct28 source dossier",
+          "type": "importer",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81cbadbef35af44850d4",
+      "denomination": "Morgon AOC",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-jean-foillard-morgon-cuvee-3-14",
+      "name": "Domaine Jean Foillard — Cuvée 3.14",
+      "producer": "Domaine Jean Foillard",
+      "producerId": "producer-fr-domaine-jean-foillard",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": null,
+      "geographicContextRegionId": "fr-beaujolais",
+      "description": "The importer describes a concentrated, finely textured old-vine Gamay with deep fruit and a pronounced mineral character.",
+      "composition": "Gamay; importer links 3.14 to very old vines around 100 years (source vintage not specified).",
+      "style": "Red · Morgon AOC · limited Côte du Py very-old-vine selection",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "Importer technical information describes the cuvée without establishing an annual release schedule. Availability and specifications depend on the vintage.",
+      "vineyard": "Selected very old Gamay from Côte du Py sectors described with schist, granite and manganese. The importer’s 8.6-hectare figure covers its wider Morgon roster, not Cuvée 3.14 alone.",
+      "method": "Whole cluster fermentation 3–4 weeks; about 6–9 months in used Burgundy oak barrels, minimum two years old; bottled unfiltered with limited SO2 exposure as per importer general scheme.",
+      "grapeNames": [
+        "Gamay"
+      ],
+      "grapeIds": [
+        "gamay"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "",
+      "sources": [
+        {
+          "id": "fr-oct28-53da90659e",
+          "url": "https://kermitlynch.com/wine/jean-foillard/260/JF04",
+          "title": "kermitlynch.com — cited in Oct28 source dossier",
+          "type": "importer",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81e6b7b8f7f28a100c41",
+      "denomination": "Morgon AOC",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-du-clos-des-fees-cotes-du-roussillon-villages-le-clos-des-fees",
+      "name": "Domaine du Clos des Fées — Le Clos des Fées",
+      "producer": "Domaine du Clos des Fées",
+      "producerId": "producer-fr-domaine-du-clos-des-fees",
+      "country": "France",
+      "region": "Roussillon",
+      "regionId": null,
+      "geographicContextRegionId": "fr-roussillon",
+      "description": "Producer description of 2020: exceptionally concentrated dark fruit, complex spice and creamy substantial tannin, long fresh persistent finish; not an independent critic note.",
+      "composition": "2020: 25% Grenache Noir, 10% Mourvèdre, 50% Syrah and 15% Carignan, according to the estate shop’s technical sheet.",
+      "style": "Red · Le Clos des Fées · 2020",
+      "serving": "",
+      "vintage": 2020,
+      "vintageScope": "Composition and oak treatment refer to the archived 2020 estate sheet. An exact legal appellation for this release is not independently established in this profile.",
+      "vineyard": "2020 estate material: mosaic of small old-vine hillside parcels on clay-limestone in Roussillon. This is a multi-parcel blend, not a single owned vineyard site.",
+      "method": "The 2020 estate sheet describes manual selection at and after destemming, chilled transport and some fermentation in 500-litre demi-muids. Élevage used 100% new oak for approximately 18 months on lees. These details concern the dated release.",
+      "grapeNames": [
+        "Grenache Noir",
+        "Mourvèdre",
+        "Syrah",
+        "Carignan"
+      ],
+      "grapeIds": [
+        "garnacha-tinta",
+        "monastrell",
+        "syrah",
+        "carignan"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.lapetiteepicerieduclosdesfees.com/3-anciens-millesimes",
+      "sources": [
+        {
+          "id": "fr-oct28-bb6f057424",
+          "url": "https://www.lapetiteepicerieduclosdesfees.com/3-anciens-millesimes",
+          "title": "www.lapetiteepicerieduclosdesfees.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "exact vintage designation not established",
+      "notionSource": "https://app.notion.com/p/40517d16de4c8126bbfec55959f3f16a",
+      "denomination": "",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-du-clos-des-fees-cotes-du-roussillon-villages-la-petite-siberie",
+      "name": "Domaine du Clos des Fées — La Petite Sibérie",
+      "producer": "Domaine du Clos des Fées",
+      "producerId": "producer-fr-domaine-du-clos-des-fees",
+      "country": "France",
+      "region": "Roussillon",
+      "regionId": null,
+      "geographicContextRegionId": "fr-roussillon",
+      "description": "House notes black fruit, cassis and blueberry, layered vanilla/wood aromatics, intense yet silky tannin and powerful finish with notable freshness.",
+      "composition": "2024: 96% Grenache Noir, 2% Mourvèdre and 2% Syrah. The estate also gives similar proportions for some older releases.",
+      "style": "Red · La Petite Sibérie · single old-vine cuvée",
+      "serving": "",
+      "vintage": 2024,
+      "vintageScope": "This profile concerns the 2024 estate technical sheet. The winery describes 2023 Post Scriptum as a separate release, rather than a standard 2023 La Petite Sibérie. Exact bottle classification requires the corresponding vintage label.",
+      "vineyard": "The 2024 estate sheet describes a south-facing old-vine parcel on an east–west knoll, with clay-limestone bedrock cut by iron-rich schist. Cold northwesterly wind is reported for more than 200 days per year. Exact cadastral boundaries are not supplied.",
+      "method": "2024 source: hand picked, refrigerated transport, approximately 20 days maceration with gentle punch-down, run to new Saury barrels; lees ageing without added SO2 according to estate, occasional top-up with Mourvèdre/Syrah blend.",
+      "grapeNames": [
+        "Grenache Noir",
+        "Mourvèdre",
+        "Syrah"
+      ],
+      "grapeIds": [
+        "garnacha-tinta",
+        "monastrell",
+        "syrah"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.lapetiteepicerieduclosdesfees.com/",
+      "sources": [
+        {
+          "id": "fr-oct28-acaa87c819",
+          "url": "https://www.lapetiteepicerieduclosdesfees.com/",
+          "title": "www.lapetiteepicerieduclosdesfees.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "exact vintage designation not established",
+      "notionSource": "https://app.notion.com/p/40517d16de4c817186a5c83062e88366",
+      "denomination": "",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-m-c-lapierre-morgon-morgon",
+      "name": "Domaine M & C Lapierre — Morgon",
+      "producer": "Domaine Marcel Lapierre",
+      "producerId": "producer-fr-domaine-marcel-lapierre",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": null,
+      "geographicContextRegionId": "fr-beaujolais",
+      "description": "Estate notes cherry, violet, raspberry and faint liquorice; light yet rich fruit, terroir expression and potential to age around a decade.",
+      "composition": "Gamay noir à jus blanc.",
+      "style": "Red · Morgon AOC · Domaine Marcel Lapierre",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "An undated estate house profile, with source material reviewed in October 2026. “M & C Lapierre” is a naming variant of Domaine Marcel Lapierre.",
+      "vineyard": "The estate website describes approximately 18 hectares in Morgon across different terroirs within three kilometres of the Villié-Morgon winery. This is the estate’s Morgon area, rather than a vineyard dedicated solely to this cuvée. The estate reports organic certification since 2004.",
+      "method": "The estate describes hand harvesting, chilling and sorting, followed by semi-carbonic whole-cluster fermentation with native yeasts for approximately 9–35 days according to parcel and vintage. Maturation takes place in used barrels; bottling is unfiltered. Some batches receive a light sulphur addition before bottling, while nature or N bottlings are separately identified.",
+      "grapeNames": [
+        "Gamay"
+      ],
+      "grapeIds": [
+        "gamay"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.marcel-lapierre.com/en/product/morgon",
+      "sources": [
+        {
+          "id": "fr-oct28-74c60b97ff",
+          "url": "https://www.marcel-lapierre.com/en/product/morgon",
+          "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        },
+        {
+          "id": "fr-oct28-f0c6ca7174",
+          "url": "https://www.marcel-lapierre.com/en/viticulture-and-vinification/",
+          "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c81c0b8fbebc31c895fa6",
+      "denomination": "Morgon AOC",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-m-c-lapierre-morgon-cuvee-camille-roche-du-py",
+      "name": "Domaine M & C Lapierre — Cuvée Camille Roche du Py",
+      "producer": "Domaine Marcel Lapierre",
+      "producerId": "producer-fr-domaine-marcel-lapierre",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": null,
+      "geographicContextRegionId": "fr-beaujolais",
+      "description": "Estate describes a structured, fine Gamay with concentrated red fruit and broad floral resonance; stylistic descriptions are producer-only not critic tasting.",
+      "composition": "Gamay noir à jus blanc. The name honours both Marcel’s daughter Camille and his father Camille. Cuvée Camille is distinct from Cuvée Marcel Lapierre.",
+      "style": "Red · Morgon AOC · Camille (historical Roche/Côte du Py naming)",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "The estate identifies Cuvée Camille; historical references also use Roche du Py. Supplier listings cover 2022–2025, but the house method below is not a vintage-specific technical specification.",
+      "vineyard": "A southwest-facing Côte du Py parcel on shallow granitic bedrock, according to the estate. An older technical sheet uses Roche du Py and gives one hectare; the dated area does not establish a current measurement.",
+      "method": "Current estate: longer semi-carbonic whole-bunch maceration all in wooden truncated-conical vat compared with general Morgon; old barrique élevage. Details by vintage not generalized.",
+      "grapeNames": [
+        "Gamay"
+      ],
+      "grapeIds": [
+        "gamay"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://www.marcel-lapierre.com/en/product/cuvee-camille",
+      "sources": [
+        {
+          "id": "fr-oct28-2f0066cbe1",
+          "url": "https://www.marcel-lapierre.com/en/product/cuvee-camille",
+          "title": "www.marcel-lapierre.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c811aa431fbe7b8ddf654",
+      "denomination": "Morgon AOC",
+      "contentLanguage": "en"
+    },
+    {
+      "id": "wine-fr-domaine-jean-marc-burgaud-morgon-cote-du-py",
+      "name": "Domaine Jean-Marc Burgaud — Côte du Py",
+      "producer": "Domaine Jean-Marc Burgaud",
+      "producerId": "producer-fr-domaine-jean-marc-burgaud",
+      "country": "France",
+      "region": "Beaujolais",
+      "regionId": null,
+      "geographicContextRegionId": "fr-beaujolais",
+      "description": "Official house style: powerful ageworthy Gamay with noble tannins and kirsch-like notes rooted in blue-stone schist, producer not independent critic note.",
+      "composition": "Gamay noir, as identified by the estate and importer.",
+      "style": "Red · Morgon AOC · Côte du Py",
+      "serving": "",
+      "vintage": null,
+      "vintageScope": "Estate and importer descriptions provide the basis for this profile. No additional claim about changes to legal site-name eligibility is made from commercial commentary alone.",
+      "vineyard": "Côte du Py near Villié-Morgon, on high hills of iron-rich blue schist. The estate’s 17.5 hectares comprise 12.5 in Morgon and five in Lantignié; this is not the area devoted to Côte du Py. Javernières, James and Chollet are separate estate labels.",
+      "method": "Regal Wine current profile lists whole-grape maceration 7–12 days, but older PDF says 12–14 days. This is source/vintage drift; keep as a range attributable to respective sources, not invariant winemaking claim.",
+      "grapeNames": [
+        "Gamay"
+      ],
+      "grapeIds": [
+        "gamay"
+      ],
+      "unmatchedVarietiesPolicy": "Keep full literal blend above; do not create or equate unknown grape identities. Links can be a subset.",
+      "officialUrl": "https://jean-marc-burgaud.com/nos-vins",
+      "sources": [
+        {
+          "id": "fr-oct28-bf5eb49b86",
+          "url": "https://jean-marc-burgaud.com/nos-vins",
+          "title": "jean-marc-burgaud.com — cited in Oct28 source dossier",
+          "type": "producer_or_estate_source",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        },
+        {
+          "id": "fr-oct28-4d3cc111bd",
+          "url": "https://www.regalwine.com/wine/morgon-cote-du-py/",
+          "title": "www.regalwine.com — cited in Oct28 source dossier",
+          "type": "importer",
+          "verification": "retrieved_from_existing_research_not_independently_refetched"
+        }
+      ],
+      "imageUrl": null,
+      "status": "research_draft_english",
+      "translationStatus": "Chinese pending",
+      "sourceReviewStatus": "source-indexed Notion draft; not independently verified in this audit",
+      "legalOriginStatus": "stated in cited source",
+      "notionSource": "https://app.notion.com/p/40517d16de4c810bb89ec38f8db8ad73",
+      "denomination": "Morgon AOC",
+      "contentLanguage": "en"
+    }
+  ],
+  "integrationNotes": [
+    "Derived from the existing Oct 28 source-indexed research. No fresh independent source verification was performed for this copy edit.",
+    "Preserve live Tempier and Château Simone profiles and their eight wines unchanged.",
+    "Hold the ambiguous legacy Tempier Bandol Rouge record; it is absent from this file.",
+    "English first edition. Chinese pending. Do not present broad geographic context as a confirmed appellation.",
+    "All source references and exact vintage boundaries are retained. Editorial and migration instructions have been removed from public prose."
+  ]
+}

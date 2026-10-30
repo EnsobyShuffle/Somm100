@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-29T16:49:41.960005+08:00",
+  "projectId": "appgprj_6adbaff9281081919f00f6a89b1fa1c7",
+  "originalUrl": "https://somm100-learning.henritage.chatgpt.site/",
+  "baseVersion": 74,
+  "baseCommit": "28928060a98d929d26c261177097447bec15764b",
+  "sourceControlsRead": 6,
+  "sourceRecordCount": 162,
+  "preview": "http://terminal.local:4173/",
+  "browserChecks": {
+    "chinaEntry": true,
+    "yunnanFilter": true,
+    "ningxiaRegions": 8,
+    "producerDetail": true,
+    "chain": [
+      "敖云",
+      "西当村",
+      "敖云长期酒款",
+      "敖云2017"
+    ],
+    "reverseLinks": true,
+    "globalSearchAoYun": [
+      "producer",
+      "wine",
+      "vintage"
+    ],
+    "localSearch": [
+      "Sulu",
+      "小圃高海拔赤霞珠",
+      "红坡",
+      "霞多丽",
+      "2024",
+      "木兰朵"
+    ],
+    "constructionStatus": "签约／建设中",
+    "grapeProductionSeparation": "姜瑜：云南德钦葡萄来源 + 山东烟台生产，单年份证据边界保留",
+    "mobileWidths": [
+      320,
+      390
+    ],
+    "mobileDocumentMeasurements": [
+      {
+        "frameWidth": 320,
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      {
+        "frameWidth": 390,
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    ],
+    "galleryImagesLoaded": 18,
+    "allGalleryImagesObjectFit": "contain",
+    "longStoryAndContentsAnchor": true,
+    "regressionPages": [
+      "France Producer directory:35",
+      "Domaine Tempier profile",
+      "Spain country index",
+      "USA Core M19-READ-01",
+      "Canada M19-READ-09"
+    ],
+    "applicationConsoleErrors": 0,
+    "browserExtensionErrorsExcluded": true
+  },
+  "fixes": [
+    "Short-name aliases for 2600 Chardonnay, Lapu icewine and Petit Chateau high-altitude Cabernet",
+    "Country-level search indexes wine and vintage independently",
+    "Village relationships retain type and vintage scope; reverse hierarchy label corrected",
+    "320px existing header overflow fixed",
+    "Local image files with correct depicted-year associations",
+    "Status overrides distinguish construction, family/experience and unverified production",
+    "Region-specific breadcrumb and gallery filters"
+  ],
+  "limitations": [
+    "Only Ao Yun 2017 has a current Notion vintage record; 2019/2020 bottles are images, not invented technical dossiers.",
+    "Other China regions have region entries; full nationwide Producer/wine import is outside this Yunnan release.",
+    "Missing licences, current release confirmations, plot ownership and vintage tech remain pending."
+  ],
+  "databaseReset": false,
+  "otherCountryDataOverwritten": false,
+  "initialBaseVersion": 73,
+  "initialBaseCommit": "8430139c9c638cdbeb619fe3958b33b1cbe36cb2",
+  "remoteUpdatesPreserved": [
+    "app/Platform.tsx",
+    "app/WineMapLibrary.tsx",
+    "app/wine-map-library.css",
+    "data/wine-map-library.json"
+  ],
+  "previewBuild": "passed before merge; final build required by publish workflow"
+}

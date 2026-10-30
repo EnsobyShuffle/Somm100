@@ -1,0 +1,1488 @@
+{
+  "producers": [
+    {
+      "id": "producer-fr-dureuil-janthial",
+      "name": "Domaine Dureuil-Janthial",
+      "aliases": [],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "10 rue de la Buisserolle, 71150 Rully, France",
+      "website": "https://www.dureuil-janthial.fr/les-vins/",
+      "intro": "Céline 与 Vincent Dureuil 自 1994 年接掌的 Rully 家族酒庄，葡萄园超过 20 ha，分布于 Côte Chalonnaise、Côte de Beaune 与 Côte de Nuits。Rully 系列涵盖村庄级和多个一级园，白、红葡萄酒均有逐款技术资料。",
+      "scope": "官网系列与逐款技术表已核对。技术表保留原始日期；其面积、种植年与酿造参数不自动代表每个新年份。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史",
+          "text": "Janthial 家族的 Rully 渊源可追溯至十三世纪。Céline 与 Vincent Dureuil 于 1994 年承接家族酒庄；Vincent 获得 La Revue du Vin de France 2019 年度 Vigneron。旧文将其定位为 Rully 风土复兴代表；这属于报道评价，不是官方法定等级。",
+          "sourceIds": [
+            "fr-rully29-dureuil_about",
+            "fr-rully29-dureuil_web"
+          ]
+        },
+        {
+          "title": "所有权",
+          "text": "Céline 与 Vincent Dureuil 于 1994 年承接家族酒庄。官网将 Janthial 家族在 Rully 的历史追溯至十三世纪。",
+          "sourceIds": [
+            "fr-rully29-dureuil_about",
+            "fr-rully29-dureuil_web"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "官网记载超过 20 ha，涵盖 Rully、Mercurey、Puligny-Montrachet 与 Nuits-Saint-Georges；其中某些微小地块仅 0.0871 ha。不同地块的老藤栽植年份均按酒款技术单保留。",
+          "sourceIds": [
+            "fr-rully29-dureuil_about",
+            "fr-rully29-dureuil_web"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "强调土壤生命力、有机导向、人工采收、产量管理和地块区分。公开技术单提到不同地块及手工分选；有机证书状态需另外确认，不能单凭报道宣称最新认证。",
+          "sourceIds": [
+            "fr-rully29-dureuil_about",
+            "fr-rully29-dureuil_web"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "2019 版白葡萄酒技术单：直接压榨、约 48 小时静置澄清、木桶酒精发酵、约 12 个月桶熟和约 6 个月不锈钢熟成；红葡萄酒双重分选、视年份去梗与否、木质截锥形发酵罐、浸渍和桶熟。文件中的新桶比例是历史技术基准而非所有年份恒定数字。",
+          "sourceIds": [
+            "fr-rully29-dureuil_about",
+            "fr-rully29-dureuil_web"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc",
+          "name": "Rully Blanc",
+          "place": "Rully 的 La Martelle、Chaponnière、La Bergerie 与 Le Meix Cadot 多地块；土壤因地块而异; 历史技术单所列栽植年：1949–2007; 历史地块面积：3.3187 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "村庄级多地块 Chardonnay：表现成熟果肉感与保留的线性结构；多地块直到装瓶才调配，非一级园酒。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Rully; La Martelle, Chaponnière, La Bergerie and Le Meix Cadot; Multiple parcels; soil variable; Planting years in historical sheet: 1949–2007; Historical parcel area: 3.3187 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "Multi-parcel Village Chardonnay; ripe fruit and linear mineral structure, blended only at bottling according to historic sheet.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-maizieres",
+          "name": "Rully Blanc Maizières",
+          "place": "Rully 东侧村庄级地块，邻近 D981，朝东；黏土; 历史技术单所列栽植年：1997–2001; 历史地块面积：1.9993 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "东向偏暖黏土地块，熟成果味与相对丰满质地并存，酒庄以较长熟成保留张力。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc-maizieres",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Village east of Rully, near D981; east aspect; Clay; Planting years in historical sheet: 1997–2001; Historical parcel area: 1.9993 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "Sunny east-facing clay parcel; mature-fruit texture and ageing emphasis.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-chene",
+          "name": "Rully Blanc Chêne",
+          "place": "Rully 的 Chênes lieu-dit；白色石灰质泥灰岩; 历史技术单所列栽植年：1975; 历史地块面积：1.0147 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "白色石灰质泥灰岩，酒庄技术单称酒体更挺直、紧凑且有耐久力。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc-chene",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Rully; Chênes lieu-dit; White limestone marl; Planting years in historical sheet: 1975; Historical parcel area: 1.0147 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "White calcareous marl; the producer describes a straight, tense, ageworthy style.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot",
+          "name": "Rully Premier Cru Blanc Le Meix Cadot",
+          "place": "Rully 中部，朝东，较早成熟；黏土石灰质土; 历史技术单所列栽植年：1975; 历史地块面积：1.0147 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "Le Meix Cadot 的朝东坡位与黏土石灰岩基础塑造精确线性酸度与成熟果实之间的张力；勿与 Vieilles Vignes 独立酒混并。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc-1er-le-meix-cadot",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Central Rully, east-facing and early-ripening; Clay-limestone; Planting years in historical sheet: 1975; Historical parcel area: 1.0147 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "East-facing, precocious clay-limestone site; balance ripe fruit against structural precision. Separate label from Vieilles Vignes.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+          "name": "Rully Premier Cru Blanc Le Meix Cadot Vieilles Vignes",
+          "place": "Rully 中部，朝东；黏土石灰质土; 历史技术单所列栽植年：Pierre Janthial 于 1920 年代栽植; 历史地块面积：0.4411 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "独立 Vieilles Vignes 选桶／选园酒；二十世纪二十年代栽植的老藤与较深果肉感、矿物张力相关。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Central Rully; east-facing; Clay-limestone; Planting years in historical sheet: Planted in 1920s by Pierre Janthial; Historical parcel area: 0.4411 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "Separate old-vine label, from 1920s plantings attributed to Pierre Janthial; depth and tension distinguish it from standard Le Meix Cadot.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-margotes",
+          "name": "Rully Premier Cru Blanc Margotés",
+          "place": "Rully 南部，朝东南；白色石灰质泥灰岩; 历史技术单所列栽植年：1946 与 2015; 历史地块面积：0.9024 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "南段东南朝向白色石灰质泥灰岩；可呈现清晰香气、紧实矿物口感与良好余味，不可视为 Villaine 同名酒。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc-1er-margotes",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Southern Rully, south-east aspect; White limestone marl; Planting years in historical sheet: 1946 and 2015; Historical parcel area: 0.9024 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "South-eastern white limestone marl, focused floral/fruit notes and taut finish; not the same wine as Domaine de Villaine Margotés.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-vauvry",
+          "name": "Rully Premier Cru Blanc Vauvry",
+          "place": "Rully 朝东坡地；石灰质泥灰岩; 历史技术单所列栽植年：2008; 历史地块面积：0.32 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "较年轻的 Chardonnay 葡萄藤，受石灰质泥灰岩及坡向影响；不可因一级园便宣称老藤。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc-1er-vauvry",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Rully, eastern-facing slope; Calcareous marl; Planting years in historical sheet: 2008; Historical parcel area: 0.32 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "Younger Chardonnay site on calcareous marl; do not claim old vines without evidence.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-chapitre",
+          "name": "Rully Premier Cru Blanc Chapitre",
+          "place": "Rully 中部的朝东下坡，邻近围墙园；黏土; 历史技术单所列栽植年：2000; 历史地块面积：0.2115 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "靠村庄的围墙地块，朝东较温暖、土壤黏土比例高，结构可能较圆润仍须考虑收成年份。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc-1er-chapitre",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Central Rully, eastern low slope near walled enclosure; Clay; Planting years in historical sheet: 2000; Historical parcel area: 0.2115 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "Walled/near-village clay sector on a sunny east exposure; greater textural breadth depends on vintage.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-blanc-1er-gresigny-vieilles-vignes",
+          "name": "Rully Premier Cru Blanc Grésigny Vieilles Vignes",
+          "place": "Rully 南部朝东地块；黏土石灰质土; 历史技术单所列栽植年：1945; 历史地块面积：0.7 ha",
+          "grape": "Chardonnay",
+          "method": "人工采收、轻柔直接压榨、48 小时静置澄清；桶中发酵，历史技术单约 20% 新桶；桶熟 12 个月后转不锈钢罐约 6 个月。",
+          "detail": "1945 年栽植的 Grésigny 老藤，官方技术单支持独立 Vieilles Vignes 酒款；注意 Villaine 也有同 climat 白酒，但不同生产者。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-blanc-1er-gresigny-vieilles-vignes",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Rully, southern-east exposure; Clay-limestone; Planting years in historical sheet: 1945; Historical parcel area: 0.7 ha",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and direct-pressed; approx. 48 h settling, barrel fermentation (historic sheet c.20% new oak), approx. 12 months in barrel plus 6 months stainless-steel.",
+              "detail": "1945 old-vine Grésigny selection; distinct producer identity from de Villaine Grésigny.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 12°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 12°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge",
+          "name": "Rully Rouge",
+          "place": "Le Meix Cadot、En Rosey、Montagne de Remenot；黏土／黏土石灰质土／石灰岩; 历史技术单所列栽植年：1974–1980; 历史地块面积：2.7524 ha",
+          "grape": "Pinot Noir",
+          "method": "人工采收双重分选；视年份全去梗或部分保留整串，木质截锥形发酵罐、约一周冷浸渍；历史技术单约 33% 新桶熟成 12 个月，再转不锈钢罐约 6 个月，进行苹果酸乳酸发酵。",
+          "detail": "多园区 Pinot Noir，成熟红果、细致果皮单宁；历史工艺依采收年决定是否去梗。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-rouge",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Le Meix Cadot, En Rosey, Montagne de Remenot; Clay / clay-limestone / limestone; Planting years in historical sheet: 1974–1980; Historical parcel area: 2.7524 ha",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested and double-sorted; destemming depends on vintage. Wooden truncated-cone vats, c.1-week cold maceration, c.12 months barrel (historical sheet c.33% new oak) plus 6 months tank; malolactic fermentation.",
+              "detail": "Multi-parcel Pinot Noir with ripe fruit and measured tannin; stem usage differs by vintage.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 16°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 16°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge-en-guesnes",
+          "name": "Rully Rouge En Guesnes",
+          "place": "Rully 南部，位于 Meix Cadot 一级园下方；黏土; 历史技术单所列栽植年：1950 与 1978; 历史地块面积：1.3472 ha",
+          "grape": "Pinot Noir",
+          "method": "人工采收双重分选；视年份全去梗或部分保留整串，木质截锥形发酵罐、约一周冷浸渍；历史技术单约 33% 新桶熟成 12 个月，再转不锈钢罐约 6 个月，进行苹果酸乳酸发酵。",
+          "detail": "两处 En Guesnes 地块在 Le Meix Cadot 下方；黏土较多，柔软果肉与细致单宁。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-rouge-en-guesnes",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Below Meix Cadot Premier Cru; southern Rully; Clay; Planting years in historical sheet: 1950 and 1978; Historical parcel area: 1.3472 ha",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested and double-sorted; destemming depends on vintage. Wooden truncated-cone vats, c.1-week cold maceration, c.12 months barrel (historical sheet c.33% new oak) plus 6 months tank; malolactic fermentation.",
+              "detail": "Two En Guesnes parcels below Meix Cadot Premier Cru; clay-driven breadth and fine tannins.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 16°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 16°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge-maizieres",
+          "name": "Rully Rouge Maizières",
+          "place": "Rully 中部，日照充足的朝东地块；黏土; 历史技术单所列栽植年：1998; 历史地块面积：0.5 ha",
+          "grape": "Pinot Noir",
+          "method": "人工采收双重分选；视年份全去梗或部分保留整串，木质截锥形发酵罐、约一周冷浸渍；历史技术单约 33% 新桶熟成 12 个月，再转不锈钢罐约 6 个月，进行苹果酸乳酸发酵。",
+          "detail": "同名 Maizières 红酒与白酒为独立酒款，同地点不同葡萄品种，需按色与 producer 区分。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-rouge-maizieres",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Central Rully, sunny east aspect; Clay; Planting years in historical sheet: 1998; Historical parcel area: 0.5 ha",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested and double-sorted; destemming depends on vintage. Wooden truncated-cone vats, c.1-week cold maceration, c.12 months barrel (historical sheet c.33% new oak) plus 6 months tank; malolactic fermentation.",
+              "detail": "Distinct Pinot Noir bottling from the Maizières white; east-facing clay, mature fruit with supple structure.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 16°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 16°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge-1er-chapitre",
+          "name": "Rully Premier Cru Rouge Chapitre",
+          "place": "Rully 中部，坡下有围墙地块，朝东；黏土; 历史技术单所列栽植年：1958; 历史地块面积：0.661 ha",
+          "grape": "Pinot Noir",
+          "method": "人工采收双重分选；视年份全去梗或部分保留整串，木质截锥形发酵罐、约一周冷浸渍；历史技术单约 33% 新桶熟成 12 个月，再转不锈钢罐约 6 个月，进行苹果酸乳酸发酵。",
+          "detail": "靠近村庄的围墙 Chapitre Pinot Noir 一级园；黏土与日照塑造果味、细致单宁及较宽口感。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-rouge-1er-chapitre",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Central Rully, walled parcel below slope, east exposure; Clay; Planting years in historical sheet: 1958; Historical parcel area: 0.661 ha",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested and double-sorted; destemming depends on vintage. Wooden truncated-cone vats, c.1-week cold maceration, c.12 months barrel (historical sheet c.33% new oak) plus 6 months tank; malolactic fermentation.",
+              "detail": "Walled, east-facing clay Chapitre Pinot Noir from 1958 plantings, balanced ripe fruit and structured tannin.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 16°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 16°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge-1er-la-fosse",
+          "name": "Rully Premier Cru Rouge La Fosse",
+          "place": "邻近村庄的中坡，位于 Rabourcé 下方，朝南；砾石覆于黏土石灰质土，排水良好; 历史技术单所列栽植年：1973; 历史地块面积：0.227 ha",
+          "grape": "Pinot Noir",
+          "method": "人工采收双重分选；视年份全去梗或部分保留整串，木质截锥形发酵罐、约一周冷浸渍；历史技术单约 33% 新桶熟成 12 个月，再转不锈钢罐约 6 个月，进行苹果酸乳酸发酵。",
+          "detail": "南向、表层砾石的 La Fosse，排水较快，果实成熟度与结构在炎热年份特别值得研究。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-rouge-1er-la-fosse",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Mid-slope near village; southern exposure below Rabourcé; Gravel over clay-limestone; well drained; Planting years in historical sheet: 1973; Historical parcel area: 0.227 ha",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested and double-sorted; destemming depends on vintage. Wooden truncated-cone vats, c.1-week cold maceration, c.12 months barrel (historical sheet c.33% new oak) plus 6 months tank; malolactic fermentation.",
+              "detail": "South-facing, freely draining gravel over clay-limestone below Rabourcé; precise ripeness management is central.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 16°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 16°C。"
+        },
+        {
+          "id": "wine-fr-dureuil-janthial-rully-rouge-1er-cloux",
+          "name": "Rully Premier Cru Rouge Cloux",
+          "place": "Raclot 与 Rabourcé 下方的中坡，酒庄地块朝东（所在坡地总体朝东至东南）；黏土石灰质土; 历史技术单所列栽植年：1936; 历史地块面积：0.0871 ha",
+          "grape": "Pinot Noir",
+          "method": "人工采收双重分选；视年份全去梗或部分保留整串，木质截锥形发酵罐、约一周冷浸渍；历史技术单约 33% 新桶熟成 12 个月，再转不锈钢罐约 6 个月，进行苹果酸乳酸发酵。",
+          "detail": "极小面积老藤红葡萄一级园，仅 0.0871 ha；官网 2022 技术单仅标 150 cl 格式，不能推断所有年份或所有市场只有镁瓶。 技术表所列规格为 150 cl。",
+          "vintageScope": "官网现仍链接的历史技术表（2019 年版式；Cloux 文件于 2022 年上传）。种植年、面积和桶陈参数按该表记录，并非某个当前年份的保证。",
+          "sourceIds": [
+            "fr-rully29-dj_rully-rouge-1er-cloux",
+            "fr-rully29-dureuil_web"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Estate parcel faces east; the wider slope beneath Raclot and Rabourcé faces east to southeast. Clay-limestone soil; planted 1936; historical area 0.0871 ha.",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested and double-sorted; destemming depends on vintage. Wooden truncated-cone vats, c.1-week cold maceration, c.12 months barrel (historical sheet c.33% new oak) plus 6 months tank; malolactic fermentation.",
+              "detail": "Tiny 0.0871-ha old-vine parcel planted in 1936; 2022-format sheet lists 150cl only, not proof that all vintages/markets lack 75cl. The technical sheet lists a 150 cl format.",
+              "vintageScope": "Historical estate sheet still linked in its portfolio (2019 document template; Cloux uploaded in 2022). Plantings, area and élevage are sheet-specific, not a guarantee for a current vintage.",
+              "serving": "Estate sheet: approximately 16°C."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "serving": "酒庄技术表建议约 16°C。"
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "逐年份技术资料",
+        "已授权的酒庄与酒瓶图片"
+      ],
+      "translations": {
+        "en": {
+          "intro": "A Rully family estate run by Céline and Vincent Dureuil since 1994, with more than 20 ha across the Côte Chalonnaise, Côte de Beaune and Côte de Nuits. Its Rully portfolio spans village wines and several Premier Cru sites in both colours.",
+          "scope": "Estate portfolio and individual technical sheets checked. Historical sheet dates remain explicit; specifications do not automatically apply to every subsequent vintage.",
+          "sections": [
+            {
+              "title": "History",
+              "text": "The Janthial family has roots in Rully dating to the 13th century. Céline and Vincent Dureuil took over in 1994. Vincent was named 2019 Vigneron of the Year by La Revue du Vin de France.",
+              "sourceIds": [
+                "fr-rully29-dureuil_about",
+                "fr-rully29-dureuil_web"
+              ]
+            },
+            {
+              "title": "Ownership",
+              "text": "Céline and Vincent Dureuil took over in 1994. The estate traces the Janthial family’s roots in Rully to the thirteenth century.",
+              "sourceIds": [
+                "fr-rully29-dureuil_about",
+                "fr-rully29-dureuil_web"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "Official estate description cites more than 20 ha across Rully, Mercurey, Puligny-Montrachet and Nuits-Saint-Georges. Parcels and planting years are preserved at the wine level.",
+              "sourceIds": [
+                "fr-rully29-dureuil_about",
+                "fr-rully29-dureuil_web"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "Focus on living soils, organic-oriented farming, hand picking, crop load and parcel precision. Current certification status requires independent verification.",
+              "sourceIds": [
+                "fr-rully29-dureuil_about",
+                "fr-rully29-dureuil_web"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "2019 baseline sheets: direct pressing and 48 h settling for whites, fermentation in barrel, roughly 12 months in wood plus 6 in stainless steel. Reds: double sorting, vintage-dependent destemming, wooden vats/cold soak, about 12 months in oak plus 6 months in tank. Oak percentages are sheet-specific, not universal vintage facts.",
+              "sourceIds": [
+                "fr-rully29-dureuil_about",
+                "fr-rully29-dureuil_web"
+              ]
+            }
+          ],
+          "gaps": [
+            "Additional vintage-specific technical sheets",
+            "Licensed estate and bottle photographs"
+          ]
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    },
+    {
+      "id": "producer-fr-domaine-de-villaine",
+      "name": "Domaine de Villaine",
+      "aliases": [],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "bouzeron",
+        "fr-rully"
+      ],
+      "appellation": "Bouzeron / Rully",
+      "village": "2 rue de la Fontaine, 71150 Bouzeron, France",
+      "website": "https://www.de-villaine.com/en/",
+      "intro": "位于 Bouzeron 的家族酒庄，以 Aligoté、Chardonnay 与 Pinot Noir 展现 Côte Chalonnaise 的村庄与地块差异。Rully 白葡萄酒包括 Les Saint-Jacques 和六个一级园；红葡萄酒包括 Cloux 与 Les Champs Cloux。",
+      "scope": "按酒庄官网及 2021–2024 年份报告整理；Cuvée Ronde 单独保留为 2021 年霜冻背景下的混合一级园酒。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史与人物",
+          "text": "Aubert 与 Pamela de Villaine 于 1971 年开始在 Bouzeron 经营。官网人物资料列有 Aubert、Pamela、Pierre de Benoist 与 Thierry Devaux；Pierre 的风土文章强调土壤、葡萄材料和人的长期实践。",
+          "sourceIds": [
+            "fr-rully29-n_villaine",
+            "rully-complete-villaine-people"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "基地位于 Bouzeron 的山谷坡地，土壤较贫瘠、富含石灰质。Rully 系列将村庄级、六个白葡萄酒一级园和红葡萄酒地块分别呈现，不能将某一园的土壤或树龄推广至全庄。",
+          "sourceIds": [
+            "rully-complete-villaine-estate",
+            "fr-rully29-villaine_2324"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "酒庄官网称自 1986 年获 Qualicé-France 有机认证，施肥限于植物性有机堆肥，并以修剪、选种及必要时疏果控制产量。2022 年份报告同时记述有机与生物动力实践；认证沿革与具体年份实践分别理解。",
+          "sourceIds": [
+            "rully-complete-villaine-organic",
+            "fr-rully29-villaine_2122"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "人工采收并严格分选；按酒款采用大木桶、橡木小桶、罐或其组合，控制新桶以避免遮盖果味。白葡萄酒容器与红葡萄酒整串比例均按酒款、年份记录。",
+          "sourceIds": [
+            "rully-complete-villaine-cellar"
+          ]
+        },
+        {
+          "title": "Rully 系列",
+          "text": "Les Saint-Jacques 是村庄级酒，不能与 Clos Saint-Jacques 一级园混同。2021 Cuvée Ronde 将六个白葡萄酒一级园混合，属于严重春霜后的特殊发行，并非第七个单一一级园。",
+          "sourceIds": [
+            "fr-rully29-villaine_2122",
+            "fr-rully29-villaine_stjacques"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-de-villaine-rully-blanc-les-saint-jacques",
+          "name": "Rully Blanc Les Saint-Jacques",
+          "place": "朝东坡脚、Clos Saint-Jacques 一级园下方的村庄级地块；1990 年栽植，深层粉砂质土。",
+          "grape": "Chardonnay",
+          "method": "2024：主要于大木桶及三年旧桶中酿造、带酒泥熟成；酒庄以约每株四串控制果实与叶幕平衡。",
+          "detail": "酒庄对 2024 的描述强调清新、晶莹和脆爽果味，建议年轻时饮用。官网通用服务建议约 12–14°C，可配鱼、白肉或温和山羊奶酪。",
+          "vintageScope": "主要年份：2024。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-blanc-les-saint-jacques"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Village parcel below Clos Saint-Jacques on an east-facing slope; planted 1990, with deep silty soil.",
+              "grape": "Chardonnay",
+              "method": "2024: mainly foudre and three-year-old barrels, with lees ageing; the estate targets roughly four bunches per vine.",
+              "detail": "The estate describes a fresh, crisp 2024 for youthful drinking. General estate service guidance is 12–14°C with fish, white meat or mild goat cheese.",
+              "vintageScope": "Primary vintage: 2024. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2024,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-margotes",
+          "name": "Rully Premier Cru Blanc Margotés",
+          "place": "Rully 最南端、邻近 Grésigny；石灰岩与略含泥灰质的底土，较凉爽多风。",
+          "grape": "Chardonnay",
+          "method": "2023：在橡木大桶中酿造与熟成。",
+          "detail": "酒庄描述白花、桃、榅桲与鲜杏仁，口感兼具丰富度和白垩感。",
+          "vintageScope": "主要年份：2023。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-blanc-margotes"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Southern end of Rully beside Grésigny; limestone and slightly marly subsoil, with a cool, windy setting.",
+              "grape": "Chardonnay",
+              "method": "2023: vinification and ageing in oak foudre.",
+              "detail": "Estate notes describe floral, peach, quince and fresh-almond aromas with richness and chalky tension.",
+              "vintageScope": "Primary vintage: 2023. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2023,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-gresigny",
+          "name": "Rully Premier Cru Blanc Grésigny",
+          "place": "Margotés 北侧同一石灰岩带；2023 资料将 Chardonnay 葡萄藤描述为约 80 年树龄。",
+          "grape": "Chardonnay",
+          "method": "官网年份页未提供该款的精确容器、新桶比例或熟成月数；不套用邻近地块的参数。",
+          "detail": "酒庄描述桃、杏与核果感，口感饱满而细致，并指出超过十年的陈年潜力。",
+          "vintageScope": "主要年份：2023。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-blanc-gresigny"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "North of Margotés on the same limestone vein; the 2023 account describes Chardonnay vines around 80 years old.",
+              "grape": "Chardonnay",
+              "method": "The vintage page does not specify vessels, new-oak percentage or ageing months for this cuvée.",
+              "detail": "The estate describes peach and apricot, a full yet fine palate and potential beyond ten years.",
+              "vintageScope": "Primary vintage: 2023. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2023,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-montpalais",
+          "name": "Rully Premier Cru Blanc Montpalais",
+          "place": "石灰质地块；2023 酒庄资料称园内约 12% 为 Chardonnay Muscaté。",
+          "grape": "Chardonnay；酒庄称其中约 12% 为 Chardonnay Muscaté（2023）。",
+          "method": "年份页未刊载该款桶型、熟成时长或新桶比例。Chardonnay Muscaté 属于 Chardonnay 的芳香型材料，不能改记为 Muscat 混酿。",
+          "detail": "酒庄描述荔枝、奇异果、梨与辛香，成熟果实和酸度并存；建议年轻饮用并略作提前开瓶。",
+          "vintageScope": "主要年份：2023。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-blanc-montpalais"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Limestone site; the 2023 estate account identifies approximately 12% Chardonnay Muscaté among the vines.",
+              "grape": "Chardonnay, including approximately 12% Chardonnay Muscaté according to the 2023 estate account.",
+              "method": "The page gives no vessel, ageing duration or new-oak percentage. Chardonnay Muscaté is aromatic Chardonnay material, not a declared Muscat blend.",
+              "detail": "Estate notes combine lychee, kiwi, pear and spice with fresh acidity; youthful drinking and brief aeration are suggested.",
+              "vintageScope": "Primary vintage: 2023. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2023,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-cloux",
+          "name": "Rully Premier Cru Blanc Cloux",
+          "place": "朝东葡萄园，黏土石灰质土。",
+          "grape": "Chardonnay",
+          "method": "2023：在橡木桶与 demi-muid 中熟成。",
+          "detail": "酒庄描述较丰富但不过分丰腴，带鲜杏仁、咸鲜张力与清爽苦味收尾。",
+          "vintageScope": "主要年份：2023。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-blanc-cloux"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "East-facing vineyard on clay-limestone soils.",
+              "grape": "Chardonnay",
+              "method": "2023: matured in barrels and demi-muids.",
+              "detail": "The estate describes richness without opulence, almond notes, saline tension and a refreshing bitter finish.",
+              "vintageScope": "Primary vintage: 2023. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2023,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-raclot",
+          "name": "Rully Premier Cru Blanc Raclot",
+          "place": "石灰质地块；2023 资料将其描述为较年轻葡萄藤。",
+          "grape": "Chardonnay",
+          "method": "2023：使用橡木桶与 demi-muid；酒庄指出发表品评时木质感仍在整合。",
+          "detail": "花果香明显，酒庄强调酸度、成熟果实与咸鲜感的平衡。",
+          "vintageScope": "主要年份：2023。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-blanc-raclot"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Limestone site described as young vines in the 2023 account.",
+              "grape": "Chardonnay",
+              "method": "2023: barrels and demi-muids; oak was still integrating when the estate note was written.",
+              "detail": "Estate notes emphasize floral fruit, mineral tension and balance between acidity, ripe fruit and salinity.",
+              "vintageScope": "Primary vintage: 2023. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2023,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-blanc-rabource",
+          "name": "Rully Premier Cru Blanc Rabourcé",
+          "place": "含白色黏土，日照充足，是酒庄描述中 Rully 较为向阳的地块。",
+          "grape": "Chardonnay",
+          "method": "2023：以大型木质容器酿造，新桶占比低于 8%。",
+          "detail": "酒庄描述芳香丰厚、白垩感与轻微烘烤气息，余味有密度并具陈年潜力。",
+          "vintageScope": "主要年份：2023。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-blanc-rabource"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "White-clay soils and a particularly sunny Rully setting in the estate’s account.",
+              "grape": "Chardonnay",
+              "method": "2023: large wooden vessels, with less than 8% new barrels.",
+              "detail": "Estate notes describe aromatic richness, chalk, light toast and a dense finish with ageing potential.",
+              "vintageScope": "Primary vintage: 2023. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2023,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-rouge-cloux",
+          "name": "Rully Premier Cru Rouge Cloux",
+          "place": "Cloux 一级园的 Pinot Noir 红葡萄酒，与同名 Chardonnay 白葡萄酒分别建档。",
+          "grape": "Pinot Noir",
+          "method": "2021：酒庄记述 80% 整串；2023 页面未给出整串比例，因此不将 2021 的比例用于 2023。",
+          "detail": "2023 酒庄描述果味纯净、汁感圆润、兼具清新与力量；陈年可发展辛香。",
+          "vintageScope": "主要年份：2023。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-rouge-cloux",
+            "fr-rully29-villaine_2122"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Pinot Noir from Cloux Premier Cru, separate from the Chardonnay bottling of the same climat.",
+              "grape": "Pinot Noir",
+              "method": "2021: 80% whole bunch according to the estate report. The 2023 page gives no proportion, so the 2021 figure is not transferred.",
+              "detail": "The 2023 estate note emphasizes pure fruit, roundness, freshness and restrained power, developing spice with age.",
+              "vintageScope": "Primary vintage: 2023. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2023,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-rouge-les-champs-cloux",
+          "name": "Rully Premier Cru Rouge Les Champs Cloux",
+          "place": "Les Champs Cloux 一级园，Pinot Noir；与 Cloux 分别列名。",
+          "grape": "Pinot Noir",
+          "method": "2023：20% 整串酿造。该比例来自 2023 年份报告。",
+          "detail": "酒庄描述果味主导、带近似碘的气息、清新且单宁抛光；建议在发表报告时至其后三年内饮用。",
+          "vintageScope": "主要年份：2023。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-rouge-les-champs-cloux"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Pinot Noir from Les Champs Cloux Premier Cru; distinct from Cloux.",
+              "grape": "Pinot Noir",
+              "method": "2023: vinified with 20% whole bunches, as stated in that vintage report.",
+              "detail": "Estate notes describe fruit-led freshness, an iodine-like nuance and polished tannins, with a suggested window of publication to three years later.",
+              "vintageScope": "Primary vintage: 2023. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2023,
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-de-villaine-rully-1er-cuvee-ronde",
+          "name": "Rully Premier Cru Cuvée Ronde",
+          "place": "2021 春霜后将 Margotés、Grésigny、Montpalais、Cloux、Raclot 与 Rabourcé 六个白葡萄酒一级园混合。",
+          "grape": "Chardonnay",
+          "method": "酒庄报告记述相关一级园预估产量损失 65–70%；决定混酿。报告未提供统一新桶或熟成时长。",
+          "detail": "酒庄描述鲜明酸度与持续感，开瓶可能略有还原。此款与将 Les Saint-Jacques、Les Clous Aimé 混合的另一款 Cuvée Ronde 不同。",
+          "vintageScope": "主要年份：2021。其他年份的技术数据已另行注明；品评与饮用窗口为酒庄当时的描述。",
+          "sourceIds": [
+            "rully-complete-villaine-1er-cuvee-ronde"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Following the 2021 frost, six white Premier Cru sites were blended: Margotés, Grésigny, Montpalais, Cloux, Raclot and Rabourcé.",
+              "grape": "Chardonnay",
+              "method": "The estate reports an estimated 65–70% volume loss in these sites and the decision to blend; no common oak percentage or duration is supplied.",
+              "detail": "The estate describes energy, persistence and slight opening reduction. This differs from the separate Cuvée Ronde combining Les Saint-Jacques and Les Clous Aimé.",
+              "vintageScope": "Primary vintage: 2021. Other vintage specifications are explicitly dated. Tasting and drinking-window notes are the estate’s contemporary assessment."
+            }
+          },
+          "vintage": 2021,
+          "sourceVerifiedAt": "2026-10-29"
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "逐年份技术资料",
+        "已授权的酒庄与酒瓶图片"
+      ],
+      "translations": {
+        "en": {
+          "intro": "A family estate based in Bouzeron, working with Aligoté, Chardonnay and Pinot Noir across the Côte Chalonnaise. Its Rully whites include Les Saint-Jacques and six Premier Cru sites; the red portfolio includes Cloux and Les Champs Cloux.",
+          "scope": "Based on the estate website and 2021–2024 vintage reports. Cuvée Ronde is retained separately as the frost-driven 2021 Premier Cru blend.",
+          "sections": [
+            {
+              "title": "History & people",
+              "text": "Aubert and Pamela de Villaine began their Bouzeron project in 1971. The estate’s people page features Aubert, Pamela, Pierre de Benoist and Thierry Devaux; Pierre’s essay stresses soil, vine material and the grower’s accumulated practice.",
+              "sourceIds": [
+                "fr-rully29-n_villaine",
+                "rully-complete-villaine-people"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "The Bouzeron base lies on slopes with nutrient-poor, limestone-rich soils. Rully village, six white Premier Cru sites and individual red parcels are treated separately; soil or vine-age details belong to the named parcel.",
+              "sourceIds": [
+                "rully-complete-villaine-estate",
+                "fr-rully29-villaine_2324"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "The estate reports organic certification by Qualicé-France from 1986, vegetal compost and yield control through vine selection, pruning and occasional thinning. Its 2022 report also describes biodynamic practices; certification history and vintage practices are distinct statements.",
+              "sourceIds": [
+                "rully-complete-villaine-organic",
+                "fr-rully29-villaine_2122"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "Hand harvest and strict sorting precede vinification. Tuns, barrels and tanks are used selectively, with restrained new oak. White-wine vessels and red whole-bunch proportions are recorded by cuvée and vintage.",
+              "sourceIds": [
+                "rully-complete-villaine-cellar"
+              ]
+            },
+            {
+              "title": "Rully portfolio",
+              "text": "Les Saint-Jacques is village-level and distinct from the Premier Cru Clos Saint-Jacques. Cuvée Ronde 2021 combines six white Premier Cru sites following severe spring frost; it is not a seventh single-climat bottling.",
+              "sourceIds": [
+                "fr-rully29-villaine_2122",
+                "fr-rully29-villaine_stjacques"
+              ]
+            }
+          ],
+          "gaps": [
+            "Additional vintage-specific technical sheets",
+            "Licensed estate and bottle photographs"
+          ]
+        }
+      },
+      "existingWineLinks": [
+        {
+          "id": "dv-bouzeron",
+          "name": "Bouzeron",
+          "href": "#library?type=wine&id=dv-bouzeron"
+        }
+      ],
+      "sourceVerifiedAt": "2026-10-29"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fr-rully29-dj_rully-blanc-chene",
+      "title": "Dureuil-Janthial · Rully Blanc Chêne · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge_chene.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-maizieres",
+      "title": "Dureuil-Janthial · Rully Blanc Maizières · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_maizieres.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-rouge-les-champs-cloux",
+      "title": "Domaine de Villaine · Rully Premier Cru Rouge Les Champs Cloux · 2023",
+      "url": "https://www.de-villaine.com/f/news/tasting-comments-vintages-2023-2024-35.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-blanc-raclot",
+      "title": "Domaine de Villaine · Rully Premier Cru Blanc Raclot · 2023",
+      "url": "https://www.de-villaine.com/en/wines/18/rully-1er-cru-raclot",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-estate",
+      "title": "Domaine de Villaine · Estate",
+      "url": "https://www.de-villaine.com/en/domaine",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-gresigny-vieilles-vignes",
+      "title": "Dureuil-Janthial · Rully Premier Cru Blanc Grésigny Vieilles Vignes · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_gresigny_vieilles_vignes.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-blanc-margotes",
+      "title": "Domaine de Villaine · Rully Premier Cru Blanc Margotés · 2023",
+      "url": "https://www.de-villaine.com/en/wines/12/rully-1er-cru-margotes",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-rouge-1er-cloux",
+      "title": "Dureuil-Janthial · Rully Premier Cru Rouge Cloux · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2022/10/fiche_technique_dureuil_janthial_cloux_fr.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-cellar",
+      "title": "Domaine de Villaine · Winemaking",
+      "url": "https://www.de-villaine.com/en/philosophy-wine-making-process",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-chapitre",
+      "title": "Dureuil-Janthial · Rully Premier Cru Blanc Chapitre · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-n_villaine",
+      "title": "DOMAINE DE VILLAINE historical technical dossier",
+      "url": "https://app.notion.com/p/3fb17d16de4c818ab2b4e897906458d1?pvs=204",
+      "type": "notion_imported_youdao",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-dureuil_about",
+      "title": "Dureuil-Janthial · Estate",
+      "url": "https://www.dureuil-janthial.fr/en/",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-margotes",
+      "title": "Dureuil-Janthial · Rully Premier Cru Blanc Margotés · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/11/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_margotes.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+      "title": "Dureuil-Janthial · Rully Premier Cru Blanc Le Meix Cadot Vieilles Vignes · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_le_meix_cadot_vieilles_vignes.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-rouge-maizieres",
+      "title": "Dureuil-Janthial · Rully Rouge Maizières · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rullly_rouge_maizieres.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-rouge-en-guesnes",
+      "title": "Dureuil-Janthial · Rully Rouge En Guesnes · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge_en_guesnes.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-rouge",
+      "title": "Dureuil-Janthial · Rully Rouge · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-blanc-les-saint-jacques",
+      "title": "Domaine de Villaine · Rully Blanc Les Saint-Jacques · 2024",
+      "url": "https://de-villaine.com/en/wines/2/rully-les-saint-jacques",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-blanc-gresigny",
+      "title": "Domaine de Villaine · Rully Premier Cru Blanc Grésigny · 2023",
+      "url": "https://www.de-villaine.com/en/wines/9/rully-1er-cru-gresigny",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-cuvee-ronde",
+      "title": "Domaine de Villaine · Rully Premier Cru Cuvée Ronde · 2021",
+      "url": "https://www.de-villaine.com/f/news/wine-description-vintage-2021-2022-34.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc",
+      "title": "Dureuil-Janthial · Rully Blanc · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-blanc-cloux",
+      "title": "Domaine de Villaine · Rully Premier Cru Blanc Cloux · 2023",
+      "url": "https://www.de-villaine.com/en/wines/15/rully-1er-cru-cloux-blanc",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dureuil_web",
+      "title": "Dureuil-Janthial · Wine portfolio",
+      "url": "https://www.dureuil-janthial.fr/les-vins/",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-vauvry",
+      "title": "Dureuil-Janthial · Rully Premier Cru Blanc Vauvry · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_vauvry.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-villaine_stjacques",
+      "title": "Domaine de Villaine Rully Les Saint-Jacques 2024",
+      "url": "https://de-villaine.com/en/wines/2/rully-les-saint-jacques",
+      "type": "official_producer_wine",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot",
+      "title": "Dureuil-Janthial · Rully Premier Cru Blanc Le Meix Cadot · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_le_meix_cadot.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-organic",
+      "title": "Domaine de Villaine · Cultivation",
+      "url": "https://www.de-villaine.com/en/philosophy-organic-cultivation",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-blanc-rabource",
+      "title": "Domaine de Villaine · Rully Premier Cru Blanc Rabourcé · 2023",
+      "url": "https://www.de-villaine.com/en/wines/17/rully-1er-cru-rabource",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-villaine_2122",
+      "title": "Domaine de Villaine · 2021–2022 vintage report",
+      "url": "https://www.de-villaine.com/f/news/wine-description-vintage-2021-2022-34.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-rouge-cloux",
+      "title": "Domaine de Villaine · Rully Premier Cru Rouge Cloux · 2023",
+      "url": "https://www.de-villaine.com/en/wines/16/rully-1er-cru-cloux-rouge",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-rouge-1er-chapitre",
+      "title": "Dureuil-Janthial · Rully Premier Cru Rouge Chapitre · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_rouge_chapitre.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-people",
+      "title": "Domaine de Villaine · People and philosophy",
+      "url": "https://www.de-villaine.com/en/philosophy-men-gestures",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-villaine_2324",
+      "title": "Domaine de Villaine · 2023–2024 vintage report",
+      "url": "https://www.de-villaine.com/f/news/tasting-comments-vintages-2023-2024-35.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "rully-complete-villaine-1er-blanc-montpalais",
+      "title": "Domaine de Villaine · Rully Premier Cru Blanc Montpalais · 2023",
+      "url": "https://de-villaine.com/en/wines/11/rully-1er-cru-montpalais",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    },
+    {
+      "id": "fr-rully29-dj_rully-rouge-1er-la-fosse",
+      "title": "Dureuil-Janthial · Rully Premier Cru Rouge La Fosse · Technical sheet",
+      "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_rouge_la_fosse.pdf",
+      "type": "official_producer_historical_technical_sheet",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official source opened and checked against this dossier."
+    }
+  ],
+  "verification": {
+    "checkedWineIds": [
+      "wine-fr-dureuil-janthial-rully-blanc",
+      "wine-fr-dureuil-janthial-rully-blanc-maizieres",
+      "wine-fr-dureuil-janthial-rully-blanc-chene",
+      "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot",
+      "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+      "wine-fr-dureuil-janthial-rully-blanc-1er-margotes",
+      "wine-fr-dureuil-janthial-rully-blanc-1er-vauvry",
+      "wine-fr-dureuil-janthial-rully-blanc-1er-chapitre",
+      "wine-fr-dureuil-janthial-rully-blanc-1er-gresigny-vieilles-vignes",
+      "wine-fr-dureuil-janthial-rully-rouge",
+      "wine-fr-dureuil-janthial-rully-rouge-en-guesnes",
+      "wine-fr-dureuil-janthial-rully-rouge-maizieres",
+      "wine-fr-dureuil-janthial-rully-rouge-1er-chapitre",
+      "wine-fr-dureuil-janthial-rully-rouge-1er-la-fosse",
+      "wine-fr-dureuil-janthial-rully-rouge-1er-cloux",
+      "wine-fr-de-villaine-rully-blanc-les-saint-jacques",
+      "wine-fr-de-villaine-rully-1er-blanc-margotes",
+      "wine-fr-de-villaine-rully-1er-blanc-gresigny",
+      "wine-fr-de-villaine-rully-1er-blanc-montpalais",
+      "wine-fr-de-villaine-rully-1er-blanc-cloux",
+      "wine-fr-de-villaine-rully-1er-blanc-raclot",
+      "wine-fr-de-villaine-rully-1er-blanc-rabource",
+      "wine-fr-de-villaine-rully-1er-rouge-cloux",
+      "wine-fr-de-villaine-rully-1er-rouge-les-champs-cloux",
+      "wine-fr-de-villaine-rully-1er-cuvee-ronde"
+    ],
+    "newWines": [],
+    "sourceEvidence": [
+      {
+        "id": "fr-rully29-dureuil_about",
+        "url": "https://www.dureuil-janthial.fr/en/",
+        "ref": "turn1016view1"
+      },
+      {
+        "id": "fr-rully29-dureuil_web",
+        "url": "https://www.dureuil-janthial.fr/les-vins/",
+        "ref": "turn1016view0"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc.pdf",
+        "ref": "turn1028view0"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-maizieres",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_maizieres.pdf",
+        "ref": "turn1022view1"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-chene",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge_chene.pdf",
+        "ref": "turn1022view2"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_le_meix_cadot.pdf",
+        "ref": "turn1022view3"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_le_meix_cadot_vieilles_vignes.pdf",
+        "ref": "turn1022view4"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-margotes",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/11/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_margotes.pdf",
+        "ref": "turn1025view0"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-vauvry",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_vauvry.pdf",
+        "ref": "turn1025view1"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-chapitre",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc.pdf",
+        "ref": "turn1025view2"
+      },
+      {
+        "id": "fr-rully29-dj_rully-blanc-1er-gresigny-vieilles-vignes",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_gresigny_vieilles_vignes.pdf",
+        "ref": "turn1025view3"
+      },
+      {
+        "id": "fr-rully29-dj_rully-rouge",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge.pdf",
+        "ref": "turn1025view4"
+      },
+      {
+        "id": "fr-rully29-dj_rully-rouge-en-guesnes",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge_en_guesnes.pdf",
+        "ref": "turn1025view5"
+      },
+      {
+        "id": "fr-rully29-dj_rully-rouge-maizieres",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rullly_rouge_maizieres.pdf",
+        "ref": "turn1028view2"
+      },
+      {
+        "id": "fr-rully29-dj_rully-rouge-1er-chapitre",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_rouge_chapitre.pdf",
+        "ref": "turn1028view3"
+      },
+      {
+        "id": "fr-rully29-dj_rully-rouge-1er-la-fosse",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_rouge_la_fosse.pdf",
+        "ref": "turn1028view4"
+      },
+      {
+        "id": "fr-rully29-dj_rully-rouge-1er-cloux",
+        "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2022/10/fiche_technique_dureuil_janthial_cloux_fr.pdf",
+        "ref": "turn1028view5"
+      },
+      {
+        "id": "rully-complete-villaine-estate",
+        "url": "https://www.de-villaine.com/en/domaine",
+        "ref": "turn1022view5"
+      },
+      {
+        "id": "rully-complete-villaine-organic",
+        "url": "https://www.de-villaine.com/en/philosophy-organic-cultivation",
+        "ref": "turn1022view6"
+      },
+      {
+        "id": "rully-complete-villaine-cellar",
+        "url": "https://www.de-villaine.com/en/philosophy-wine-making-process",
+        "ref": "turn1029view0"
+      },
+      {
+        "id": "rully-complete-villaine-people",
+        "url": "https://www.de-villaine.com/en/philosophy-men-gestures",
+        "ref": "turn1029view1"
+      },
+      {
+        "id": "fr-rully29-villaine_2324",
+        "url": "https://www.de-villaine.com/f/news/tasting-comments-vintages-2023-2024-35.pdf",
+        "ref": "turn1016view3"
+      },
+      {
+        "id": "fr-rully29-villaine_2122",
+        "url": "https://www.de-villaine.com/f/news/wine-description-vintage-2021-2022-34.pdf",
+        "ref": "turn1016view4"
+      },
+      {
+        "id": "rully-complete-villaine-blanc-les-saint-jacques",
+        "url": "https://de-villaine.com/en/wines/2/rully-les-saint-jacques",
+        "ref": "turn1030view7"
+      },
+      {
+        "id": "rully-complete-villaine-1er-blanc-margotes",
+        "url": "https://www.de-villaine.com/en/wines/12/rully-1er-cru-margotes",
+        "ref": "turn1030view0"
+      },
+      {
+        "id": "rully-complete-villaine-1er-blanc-gresigny",
+        "url": "https://www.de-villaine.com/en/wines/9/rully-1er-cru-gresigny",
+        "ref": "turn1030view1"
+      },
+      {
+        "id": "rully-complete-villaine-1er-blanc-montpalais",
+        "url": "https://de-villaine.com/en/wines/11/rully-1er-cru-montpalais",
+        "ref": "turn1030view2"
+      },
+      {
+        "id": "rully-complete-villaine-1er-blanc-cloux",
+        "url": "https://www.de-villaine.com/en/wines/15/rully-1er-cru-cloux-blanc",
+        "ref": "turn1030view6"
+      },
+      {
+        "id": "rully-complete-villaine-1er-blanc-raclot",
+        "url": "https://www.de-villaine.com/en/wines/18/rully-1er-cru-raclot",
+        "ref": "turn1030view3"
+      },
+      {
+        "id": "rully-complete-villaine-1er-blanc-rabource",
+        "url": "https://www.de-villaine.com/en/wines/17/rully-1er-cru-rabource",
+        "ref": "turn1030view5"
+      },
+      {
+        "id": "rully-complete-villaine-1er-rouge-cloux",
+        "url": "https://www.de-villaine.com/en/wines/16/rully-1er-cru-cloux-rouge",
+        "ref": "turn1030view4"
+      },
+      {
+        "id": "rully-complete-villaine-1er-rouge-les-champs-cloux",
+        "url": "https://www.de-villaine.com/f/news/tasting-comments-vintages-2023-2024-35.pdf",
+        "ref": "turn1016view3"
+      },
+      {
+        "id": "rully-complete-villaine-1er-cuvee-ronde",
+        "url": "https://www.de-villaine.com/f/news/wine-description-vintage-2021-2022-34.pdf",
+        "ref": "turn1016view4"
+      }
+    ],
+    "corrections": [
+      "Dureuil Grésigny estate parcel faces east, not southeast.",
+      "De Villaine wine-specific vinification replaces generic vintage_records instructions.",
+      "Cuvée Ronde 2021 remains a distinct historical six-Premier-Cru blend."
+    ]
+  }
+}

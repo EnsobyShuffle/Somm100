@@ -1,0 +1,392 @@
+{
+  "sources": [
+    {
+      "id": "gn-entreosrios-estate",
+      "title": "Adega Entre os Ríos — 官方酒庄与 IXP 归属",
+      "url": "https://adegaentreosrios.com/en/about/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-entreosrios-portfolio",
+      "title": "Adega Entre os Ríos — 官方现行酒款目录",
+      "url": "https://adegaentreosrios.com/en/product/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-komokabras-amarillo",
+      "title": "Adega Entre os Ríos — KomoKabras Amarillo 官方技术页",
+      "url": "https://adegaentreosrios.com/product/komokabras-amarillo-barrica/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-os-areeiros-agacal",
+      "title": "Xunta / AGACAL — Os Areeiros Albariño、IXP 与酒庄介绍",
+      "url": "https://experienciasdecalidade.gal/gl/mercar-experiencias/os-areeiros",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-terras-mancas-agacal",
+      "title": "Xunta / AGACAL — Terras Mancas、IXP 与四品种混酿",
+      "url": "https://experienciasdecalidade.gal/es/ponles-cara/adega-terras-mancas-sl",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-terras-mancas-wines",
+      "title": "Adega Terras Mancas — 官方酒款与葡萄园",
+      "url": "https://adegaterrasmancas.com/vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-tempore-vineyard",
+      "title": "Bodegas Témpore — 官方葡萄园、IGP Bajo Aragón 与种植方式",
+      "url": "https://www.bodegastempore.com/es/el-vinedo/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-tempore-association",
+      "title": "Vinos de la Tierra de Aragón — Bodegas Témpore 酒庄档案",
+      "url": "https://www.vinosdelatierradearagon.es/empresas/bodegas-tempore-52.html",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-tempore-generacion-dossier",
+      "title": "Bodegas Témpore — Generación 官方系列资料与 IGP 标签",
+      "url": "https://www.bodegastempore.com/ficheros/prensa/dossier-generacion-online_calidad.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-tempore-generacion-46",
+      "title": "Bodegas Témpore 官方商店 — Generación 46（2021 技术参数）",
+      "url": "https://bodegastempore.tiendas.epages.es/p/generacion-46-garnacha-y-tempranillo",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-tempore-generacion-50",
+      "title": "Bodegas Témpore 官方商店 — Generación 50（2021 技术参数）",
+      "url": "https://bodegastempore.tiendas.epages.es/p/generacion-50-garnacha-blanca",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-tempore-generacion-76",
+      "title": "Bodegas Témpore 官方商店 — Generación 76（2024 技术参数）",
+      "url": "https://bodegastempore.tiendas.epages.es/p/generacion-76-tempranillo",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-ejeanas-portfolio",
+      "title": "Bodegas Ejeanas — 官方酒款目录与 IGP Ribera del Gállego Cinco Villas",
+      "url": "https://bodegasejeanas.com/nuestros-vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-ejeanas-roble",
+      "title": "Bodegas Ejeanas — UN Garnacha Roble 官方技术页",
+      "url": "https://bodegasejeanas.com/producto/un-garnacha-roble/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-ejeanas-garnacha-syrah",
+      "title": "Bodegas Ejeanas — UN Garnacha Syrah 官方技术页",
+      "url": "https://bodegasejeanas.com/producto/uva-nocturna-garnacha-syrah/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gn-ejeanas-blanc-de-noir",
+      "title": "Bodegas Ejeanas — UN Garnacha Blanc de Noir 官方技术页",
+      "url": "https://bodegasejeanas.com/producto/uva-nocturna-garnacha-blanc-de-noir/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    }
+  ],
+  "producers": [
+    {
+      "id": "gn-adega-entre-os-rios",
+      "name": "Adega Entre os Ríos",
+      "regionIds": [
+        "barbanza-e-iria"
+      ],
+      "location": "A Pobra do Caramiñal, A Coruña, Galicia",
+      "story": "位于 Ría de Arousa 北岸、明确加入 Barbanza e Iria IXP 的小型酒庄。葡萄园以 Albariño 为主，分布于花岗岩、片岩及局部冲积土；Francisco 与 José 的酒款体现传统白葡萄酒及 KomoKabras 系列的不同酿造尝试。所属 IGP 与海湾对岸常见的 Rías Baixas DO 须分开。",
+      "wineIds": [
+        "gn-komokabras-amarillo"
+      ],
+      "sourceIds": [
+        "gn-entreosrios-estate",
+        "gn-entreosrios-portfolio"
+      ],
+      "verification": "official",
+      "website": "https://adegaentreosrios.com/"
+    },
+    {
+      "id": "gn-os-areeiros",
+      "name": "Os Areeiros",
+      "regionIds": [
+        "ribeiras-do-morrazo"
+      ],
+      "location": "Santa Cristina de Cobres, Vilaboa, Pontevedra, Galicia",
+      "story": "Martínez 家族在 Os Areeiros 庄园延续种植与酿酒传统，2005 年更新酒窖，以气囊压榨、控温发酵及冷稳定处理发展 Albariño 白葡萄酒。Xunta 的产品记录明确把同名 Albariño 归入 Ribeiras do Morrazo IXP。",
+      "wineIds": [
+        "gn-os-areeiros-albarino"
+      ],
+      "sourceIds": [
+        "gn-os-areeiros-agacal"
+      ],
+      "verification": "official",
+      "website": "https://www.osareeiros.com/"
+    },
+    {
+      "id": "gn-adega-terras-mancas",
+      "name": "Adega Terras Mancas",
+      "regionIds": [
+        "valle-del-mino-ourense"
+      ],
+      "location": "Soutomanco / Trasalba, Amoeiro, Ourense, Galicia",
+      "story": "Javier、Camilo 与 Jorge 三位 Trasalba 邻里伙伴共同恢复当地葡萄园，经营靠近 Ribeiro 边界的梯田。酒庄在 Xunta 档案中明确属于 Val do Miño–Ourense IXP；其代表白酒以 Treixadura、Albariño、Godello、Loureira 混酿表达 Galicia 内陆风格。",
+      "wineIds": [
+        "gn-terras-mancas-blanco"
+      ],
+      "sourceIds": [
+        "gn-terras-mancas-agacal",
+        "gn-terras-mancas-wines"
+      ],
+      "verification": "official",
+      "website": "https://adegaterrasmancas.com/"
+    },
+    {
+      "id": "gn-bodegas-tempore",
+      "name": "Bodegas Témpore",
+      "regionIds": [
+        "bajo-aragon"
+      ],
+      "location": "Lécera, Zaragoza, Aragón",
+      "story": "Yago Aznar 家族的 Lécera 酒庄，葡萄园属于 Bajo Aragón IGP。官网强调干旱、强光与 Cierzo 风，以及有机和生物动力种植；Garnacha Tinta、Garnacha Blanca 与 Tempranillo 构成其重要酒款。Generación 系列通过单品种、混酿及不同熟成容器展示变化。",
+      "wineIds": [
+        "gn-tempore-generacion-46",
+        "gn-tempore-generacion-50",
+        "gn-tempore-generacion-76"
+      ],
+      "sourceIds": [
+        "gn-tempore-vineyard",
+        "gn-tempore-association",
+        "gn-tempore-generacion-dossier"
+      ],
+      "verification": "official",
+      "website": "https://www.bodegastempore.com/"
+    },
+    {
+      "id": "gn-bodegas-ejeanas",
+      "name": "Bodegas Ejeanas",
+      "regionIds": [
+        "ribera-del-gallego-cinco-villas"
+      ],
+      "location": "Ejea de los Caballeros / Sierra de Luna, Zaragoza, Aragón",
+      "story": "以 Uva Nocturna（UN）系列和夜间采收见长，旨在保持葡萄香气。酒庄在 Ejea 经营棚架葡萄园，也在 Sierra de Luna 保有老株杯形 Garnacha；官方目录将其静止葡萄酒与 Ribera del Gállego–Cinco Villas IGP 相连。红 Garnacha 亦用于酿造 Blanc de Noir 白酒。",
+      "wineIds": [
+        "gn-ejeanas-un-garnacha-roble",
+        "gn-ejeanas-un-garnacha-syrah",
+        "gn-ejeanas-un-garnacha-blanc-de-noir"
+      ],
+      "sourceIds": [
+        "gn-ejeanas-portfolio",
+        "gn-ejeanas-roble",
+        "gn-ejeanas-blanc-de-noir"
+      ],
+      "verification": "official",
+      "website": "https://bodegasejeanas.com/"
+    }
+  ],
+  "wines": [
+    {
+      "id": "gn-komokabras-amarillo",
+      "name": "KomoKabras Amarillo (Barrica)",
+      "producerId": "gn-adega-entre-os-rios",
+      "regionId": "barbanza-e-iria",
+      "denomination": "IGP Barbanza e Iria",
+      "grapeIds": [
+        "albarino"
+      ],
+      "grapeText": "Albariño 100%（官方酒款技术页）。",
+      "style": "White / oak-aged",
+      "notes": "KomoKabras 系列的旧橡木桶熟成白葡萄酒。官方技术页记载原生酵母、先在不锈钢中发酵、使用旧桶并避免苹果酸乳酸发酵；其详细数据涉及较早年份，页面内部的熟成月数也不一致，因此不将月数或旧年份酒精度泛化至当前批次。标签仍见于官方目录。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "gn-entreosrios-estate",
+        "gn-entreosrios-portfolio",
+        "gn-komokabras-amarillo"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gn-os-areeiros-albarino",
+      "name": "Os Areeiros Albariño",
+      "producerId": "gn-os-areeiros",
+      "regionId": "ribeiras-do-morrazo",
+      "denomination": "IGP Ribeiras do Morrazo",
+      "grapeIds": [
+        "albarino"
+      ],
+      "grapeText": "Albariño；Xunta / AGACAL 官方产品页明确列明品种，未另列混酿比例。",
+      "style": "White",
+      "notes": "官方产区产品记录中的同名白葡萄酒，以清晰果香、酸度及酒泥熟成带来的细微质感为特点。酒庄位于 Vilaboa，实际标签归属 Ribeiras do Morrazo IXP。",
+      "status": "current",
+      "sourceIds": [
+        "gn-os-areeiros-agacal"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gn-terras-mancas-blanco",
+      "name": "Terras Mancas Blanco",
+      "producerId": "gn-adega-terras-mancas",
+      "regionId": "valle-del-mino-ourense",
+      "denomination": "IGP Val do Miño-Ourense",
+      "grapeIds": [
+        "treixadura",
+        "albarino",
+        "godello",
+        "loureiro"
+      ],
+      "grapeText": "Treixadura、Albariño、Godello、Loureira（Loureiro）；官方未公布混酿百分比。",
+      "style": "White / blend",
+      "notes": "Xunta 的 TERRAS MANCAS 产品记录列出四种白葡萄，风格以柑橘、草本香、结构与酸度平衡为主。Blanco 在此用于区分酒色；官方产品主名称为 TERRAS MANCAS，不能因邻近 Ribeiro 而改标 Ribeiro DO。",
+      "status": "current",
+      "sourceIds": [
+        "gn-terras-mancas-agacal",
+        "gn-terras-mancas-wines"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gn-tempore-generacion-46",
+      "name": "Generación 46",
+      "producerId": "gn-bodegas-tempore",
+      "regionId": "bajo-aragon",
+      "denomination": "IGP Bajo Aragón",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo"
+      ],
+      "grapeText": "Garnacha Tinta、Tempranillo；官网 2021 年份技术页为 70% / 30%，不视为所有年份固定比例。",
+      "style": "Red / organic / oak-aged",
+      "notes": "Generación 系列的红葡萄混酿。2021 技术页记载两品种分别酿造与熟成 12 个月：Garnacha 使用法国橡木、Tempranillo 使用美国橡木，然后调配装瓶；这组参数仅对应已核实年份。",
+      "status": "current",
+      "sourceIds": [
+        "gn-tempore-vineyard",
+        "gn-tempore-generacion-dossier",
+        "gn-tempore-generacion-46"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gn-tempore-generacion-50",
+      "name": "Generación 50",
+      "producerId": "gn-bodegas-tempore",
+      "regionId": "bajo-aragon",
+      "denomination": "IGP Bajo Aragón",
+      "grapeIds": [
+        "garnacha-blanca"
+      ],
+      "grapeText": "Garnacha Blanca 100%（官方 2021 年份技术页）。",
+      "style": "White / organic / concrete-aged",
+      "notes": "Generación 系列的白 Garnacha。2021 技术页采用蛋形混凝土容器进行 9 个月酒泥熟成，体现容器与酒泥对质感的影响；不应写成橡木桶白酒，也不将该年份时长推广到所有年份。",
+      "status": "current",
+      "sourceIds": [
+        "gn-tempore-vineyard",
+        "gn-tempore-generacion-50"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gn-tempore-generacion-76",
+      "name": "Generación 76",
+      "producerId": "gn-bodegas-tempore",
+      "regionId": "bajo-aragon",
+      "denomination": "IGP Bajo Aragón",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "Tempranillo 100%（官方 2024 年份技术页）。",
+      "style": "Red / organic / short oak ageing",
+      "notes": "以 Tempranillo 单品种呈现的 Generación 标签。官网 2024 技术页记载 La Merla 葡萄园来源及 500 L 新美国橡木桶内短期熟成 2 个月；与 Generación 46 的混酿及较长分品种熟成形成区别。",
+      "status": "current",
+      "sourceIds": [
+        "gn-tempore-vineyard",
+        "gn-tempore-generacion-76"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gn-ejeanas-un-garnacha-roble",
+      "name": "UN Garnacha Roble",
+      "producerId": "gn-bodegas-ejeanas",
+      "regionId": "ribera-del-gallego-cinco-villas",
+      "denomination": "IGP Ribera del Gállego-Cinco Villas",
+      "grapeIds": [
+        "garnacha-tinta"
+      ],
+      "grapeText": "Garnacha Tinta 100%（官方技术页称 Garnacha）。",
+      "style": "Red / oak-aged",
+      "notes": "UN 系列的单品种 Garnacha 红酒，夜间采收。官方技术页列 4 个月法国橡木桶熟成及至少 8 个月瓶陈；适合与同系列 Garnacha–Syrah 混酿比较，不将 Roble 当成独立法定熟成等级。",
+      "status": "current",
+      "sourceIds": [
+        "gn-ejeanas-portfolio",
+        "gn-ejeanas-roble"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gn-ejeanas-un-garnacha-syrah",
+      "name": "UN Garnacha Syrah",
+      "producerId": "gn-bodegas-ejeanas",
+      "regionId": "ribera-del-gallego-cinco-villas",
+      "denomination": "IGP Ribera del Gállego-Cinco Villas",
+      "grapeIds": [
+        "garnacha-tinta",
+        "syrah"
+      ],
+      "grapeText": "Garnacha Tinta 60%、Syrah 40%（当前官方技术页，页面未指明年份）。",
+      "style": "Red / blend / oak-aged",
+      "notes": "UN 系列的 Garnacha–Syrah 红葡萄混酿，夜间采收，冷浸渍后发酵。当前官方页列 6 个月法国橡木桶及至少 12 个月瓶陈；其黑色果实与香料取向区别于单品种 Garnacha 标签。",
+      "status": "current",
+      "sourceIds": [
+        "gn-ejeanas-portfolio",
+        "gn-ejeanas-garnacha-syrah"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gn-ejeanas-un-garnacha-blanc-de-noir",
+      "name": "UN Garnacha Blanc de Noir",
+      "producerId": "gn-bodegas-ejeanas",
+      "regionId": "ribera-del-gallego-cinco-villas",
+      "denomination": "IGP Ribera del Gállego-Cinco Villas",
+      "grapeIds": [
+        "garnacha-tinta"
+      ],
+      "grapeText": "Garnacha Tinta 100%；白酒颜色来自红葡萄的白葡萄酒酿法，并非 Garnacha Blanca。",
+      "style": "White / blanc de noir / lees-aged",
+      "notes": "以夜间采收的红 Garnacha 榨取葡萄汁，采用白葡萄酒方式发酵。官方技术页列新法国橡木桶中带酒泥 3 个月、随后瓶陈 12 个月，形成酒泥与木桶带来的质感；页首与正文对发酵及熟成的表述应合并理解，不额外推定其他工艺。",
+      "status": "current",
+      "sourceIds": [
+        "gn-ejeanas-portfolio",
+        "gn-ejeanas-blanc-de-noir"
+      ],
+      "verification": "official"
+    }
+  ]
+}

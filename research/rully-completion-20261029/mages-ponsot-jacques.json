@@ -1,0 +1,1411 @@
+{
+  "producers": [
+    {
+      "id": "producer-fr-rois-mages",
+      "name": "Domaine Rois Mages",
+      "aliases": [
+        "Anne-Sophie Debavelaere",
+        "Rois Mages – Félix Debavelaere"
+      ],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "Rully, Côte Chalonnaise",
+      "website": "https://rois-mages.com/",
+      "intro": "Anne-Sophie Debavelaere 于 1984 年在 Rully 创立酒庄；儿子 Félix 于 2009 年回归。家族以分地块 Chardonnay 和 Pinot Noir 为核心，兼有 Bouzeron 与 Beaune。",
+      "scope": "酒庄与酒款原始资料已逐项核对；技术参数按具体来源和年份解释。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史与人物",
+          "text": "1984 年创立；Félix 受过酿酒学训练，2009 年返庄。2015 年酒窖完成翻新。",
+          "sourceIds": [
+            "rully-20261029-roismages-history"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "官网现列约 11 ha，分布于 Rully、Bouzeron 与 Beaune；Rully 酒单包含五款白酒、两款红酒。",
+          "sourceIds": [
+            "rully-20261029-roismages-history",
+            "rully-20261029-roismages-list"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "各酒款资料分别记录品种、坡向、土壤和藤龄；Les Pierres Rouge 明确注明人工采收与酒窖分选。",
+          "sourceIds": [
+            "rully-20261029-roismages-1er-rouge-les-pierres"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "白酒以本土酵母、桶中发酵及酒泥培养为核心；红酒浸渍、罐型和压帽频率按酒款区分。官网通用基准为桶熟 12 个月后在不锈钢罐细酒泥上经历第二个冬季。",
+          "sourceIds": [
+            "rully-20261029-roismages-list"
+          ]
+        },
+        {
+          "title": "酒款组合",
+          "text": "Rully 村庄级：Plante Moraine、Clos du Moulin à Vent、Les Cailloux Blanc、Chaponnières、Les Cailloux Rouge；一级园：Les Pierres Blanc 与 Rouge。",
+          "sourceIds": [
+            "rully-20261029-roismages-list"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-rois-mages-rully-blanc-plante-moraine",
+          "name": "Rully Blanc Plante Moraine",
+          "place": "东南向黏土石灰岩地块；未标年份的酒庄资料记载藤龄 34 年，不能直接视为 2026 年藤龄。",
+          "grape": "Chardonnay",
+          "method": "气囊压榨、低温澄清及本土酵母；桶中进行酒精和苹果酸乳酸发酵，每日搅桶，合桶前不换桶，装瓶前澄清。",
+          "detail": "酒庄风格描述：果味柔和，保持鲜活感与延续性。",
+          "vintageScope": "未标年份的酒庄酒款说明；藤龄保留原文口径，工艺不是所有年份的固定保证。",
+          "sourceIds": [
+            "rully-20261029-roismages-blanc-plante-moraine",
+            "rully-20261029-roismages-list"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Southeast-facing clay-limestone parcel. The undated estate sheet gives vine age as 34 years.",
+              "grape": "Chardonnay",
+              "method": "Pneumatic pressing, cold settling and indigenous yeasts; barrel alcoholic and malolactic fermentation, daily lees stirring, no racking before tank assembly, then fining.",
+              "detail": "Estate description: supple fruit, freshness and a persistent finish.",
+              "vintageScope": "Undated estate wine specification; quoted vine ages are source values, not calculated current ages. Methods may vary by vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Plante Moraine"
+          ],
+          "imageUrl": "https://rois-mages.com/wp-content/uploads/2019/06/0083d-plante-moraine-2017-1.jpg",
+          "imageSourceUrl": "https://rois-mages.com/rully-plante-moraine/",
+          "imageCredit": "Domaine Rois Mages",
+          "imageScope": "Estate reference image; not a guarantee of the current vintage label or bottle."
+        },
+        {
+          "id": "wine-fr-rois-mages-rully-blanc-clos-du-moulin-a-vent",
+          "name": "Rully Blanc Clos du Moulin à Vent",
+          "place": "东南向、黏土占优势；酒庄未标年份资料记载藤龄 35 年。",
+          "grape": "Chardonnay",
+          "method": "气囊压榨与低温澄清；本土酵母、桶中发酵及苹果酸乳酸发酵，每两周搅桶；合桶前不换桶，装瓶前澄清。",
+          "detail": "酒庄风格描述：成熟果实、奶油及蜡质香气，口感宽厚而持久。",
+          "vintageScope": "未标年份的酒庄酒款说明；藤龄保留原文口径，工艺不是所有年份的固定保证。",
+          "sourceIds": [
+            "rully-20261029-roismages-blanc-clos-du-moulin-a-vent",
+            "rully-20261029-roismages-list"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Southeast-facing, clay-dominant site; vine age quoted as 35 years in the undated estate sheet.",
+              "grape": "Chardonnay",
+              "method": "Pneumatic pressing and cold settling; indigenous fermentation and malolactic conversion in barrel, fine lees stirred fortnightly; no racking before tank assembly, followed by fining.",
+              "detail": "Estate profile: ripe fruit, butter and waxy notes, with a broad yet sustained palate.",
+              "vintageScope": "Undated estate wine specification; quoted vine ages are source values, not calculated current ages. Methods may vary by vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Clos du Moulin à Vent"
+          ]
+        },
+        {
+          "id": "wine-fr-rois-mages-rully-blanc-les-cailloux",
+          "name": "Rully Blanc Les Cailloux",
+          "place": "Rully 高台上的石灰岩与地表碎石，位置高于一级园坡地，朝东南；未标年份资料记载藤龄约 60 年。",
+          "grape": "Chardonnay",
+          "method": "气囊压榨、低温澄清后，以本土酵母在桶中发酵并完成苹果酸乳酸发酵；每两周搅桶，合桶前不换桶，随后澄清。",
+          "detail": "酒庄风格描述：花香、较丰厚的结构与鲜活而持久的收结。",
+          "vintageScope": "未标年份的酒庄酒款说明；藤龄保留原文口径，工艺不是所有年份的固定保证。",
+          "sourceIds": [
+            "rully-20261029-roismages-blanc-les-cailloux",
+            "rully-20261029-roismages-list"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Stony limestone on the Rully plateau, above the Premier Cru slopes; southeast-facing. Undated sheet: vines about 60 years old.",
+              "grape": "Chardonnay",
+              "method": "Indigenous yeasts; barrel alcoholic and malolactic fermentation after pneumatic pressing and cold settling. Fine lees stirred fortnightly; no racking before assembly, then fining.",
+              "detail": "Estate description: floral Chardonnay with rich structure and a lively, long finish.",
+              "vintageScope": "Undated estate wine specification; quoted vine ages are source values, not calculated current ages. Methods may vary by vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Les Cailloux"
+          ],
+          "imageUrl": "https://rois-mages.com/wp-content/uploads/2020/06/les-cailloux-2017-blc.jpg?w=1568",
+          "imageSourceUrl": "https://rois-mages.com/rully-les-cailloux-blanc/",
+          "imageCredit": "Domaine Rois Mages",
+          "imageScope": "Estate reference image; not a guarantee of the current vintage label or bottle."
+        },
+        {
+          "id": "wine-fr-rois-mages-rully-blanc-chaponieres",
+          "name": "Rully Blanc Chaponnières",
+          "place": "深厚、结构良好的白色黏土石灰岩，东南向；酒庄未标年份资料记载藤龄 50 年。",
+          "grape": "Chardonnay",
+          "method": "本土酵母、桶中发酵及苹果酸乳酸发酵，每两周搅桶；资料列 10% 新桶、90% 使用过两至三次的旧桶，装瓶前澄清。",
+          "detail": "酒庄风格描述：白花、榅桲、烤杏仁与奶油面包，入口鲜活、收结圆润。",
+          "vintageScope": "未标年份的酒庄酒款说明；藤龄保留原文口径，工艺不是所有年份的固定保证。",
+          "sourceIds": [
+            "rully-20261029-roismages-blanc-chaponieres",
+            "rully-20261029-roismages-list"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Deep, structured white clay-limestone soil, southeast-facing; undated estate sheet records 50-year-old vines.",
+              "grape": "Chardonnay",
+              "method": "Native-yeast barrel fermentation and malolactic conversion; fortnightly lees stirring. Estate sheet specifies 10% new oak and 90% barrels previously used for two or three wines; fining before bottling.",
+              "detail": "Estate profile: white flowers, quince, toasted almond and brioche; fresh attack and a rounded finish.",
+              "vintageScope": "Undated estate wine specification; quoted vine ages are source values, not calculated current ages. Methods may vary by vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Chaponnières"
+          ]
+        },
+        {
+          "id": "wine-fr-rois-mages-rully-1er-blanc-les-pierres",
+          "name": "Rully Premier Cru Blanc Les Pierres",
+          "place": "一级园中坡地块，表面碎石、下有黏土层，东南向；未标年份资料记载藤龄 40 年。",
+          "grape": "Chardonnay",
+          "method": "气囊压榨、低温澄清与本土酵母；橡木桶中发酵及苹果酸乳酸发酵，每日搅动细酒泥，合桶前不换桶，随后澄清。",
+          "detail": "酒庄风格描述：杏仁、洋槐与核果香，余味较长；其一般陈年建议为 3–7 年，需结合年份与储存条件。",
+          "vintageScope": "未标年份的酒庄酒款说明；藤龄保留原文口径，工艺不是所有年份的固定保证。",
+          "sourceIds": [
+            "rully-20261029-roismages-1er-blanc-les-pierres",
+            "rully-20261029-roismages-list"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Mid-slope Premier Cru, surface stones over clay layers, southeast-facing. Undated sheet records 40-year-old vines.",
+              "grape": "Chardonnay",
+              "method": "Pneumatic pressing, cold settling and indigenous yeasts. Alcoholic and malolactic fermentations in oak on fine lees with daily stirring; no racking before assembly, then fining.",
+              "detail": "Estate description: almond, acacia and stone-fruit character, with extended length. Its general cellaring suggestion is 3–7 years, subject to vintage and storage.",
+              "vintageScope": "Undated estate wine specification; quoted vine ages are source values, not calculated current ages. Methods may vary by vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Les Pierres"
+          ]
+        },
+        {
+          "id": "wine-fr-rois-mages-rully-rouge-les-cailloux",
+          "name": "Rully Rouge Les Cailloux",
+          "place": "东南向上坡高台，黏土石灰岩含大量碎石；未标年份资料记载藤龄 45 年。",
+          "grape": "Pinot Noir",
+          "method": "发酵前冷浸渍，本土酵母在混凝土罐发酵；约 15 天内每天两次压帽和淋皮，随后橡木桶熟成一年。",
+          "detail": "酒庄风格描述：覆盆子、黑莓果味，木香柔和，质地细滑。",
+          "vintageScope": "未标年份的酒庄酒款说明；藤龄保留原文口径，工艺不是所有年份的固定保证。",
+          "sourceIds": [
+            "rully-20261029-roismages-rouge-les-cailloux",
+            "rully-20261029-roismages-list"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Very stony clay-limestone on a southeast-facing upper-slope plateau; undated sheet gives vine age as 45 years.",
+              "grape": "Pinot Noir",
+              "method": "Cold pre-fermentation maceration, indigenous yeasts and concrete-vat fermentation; twice-daily punch-downs and pump-overs over about 15 days, followed by one year in oak.",
+              "detail": "Estate profile: raspberry and blackberry fruit with supple oak and silky texture.",
+              "vintageScope": "Undated estate wine specification; quoted vine ages are source values, not calculated current ages. Methods may vary by vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Les Cailloux"
+          ],
+          "imageUrl": "https://rois-mages.com/wp-content/uploads/2019/06/18dd2-les-cailloux-2017-rge-1.jpg",
+          "imageSourceUrl": "https://rois-mages.com/rully-les-cailloux-rouge/",
+          "imageCredit": "Domaine Rois Mages",
+          "imageScope": "Estate reference image; not a guarantee of the current vintage label or bottle."
+        },
+        {
+          "id": "wine-fr-rois-mages-rully-1er-rouge-les-pierres",
+          "name": "Rully Premier Cru Rouge Les Pierres",
+          "place": "Agneux 村落范围内的黏土石灰岩，迎向晨光；未标年份资料记载藤龄 30 年。",
+          "grape": "Pinot Noir",
+          "method": "人工采收并在酒窖分选；冷浸渍后罐中酿造，压帽与淋皮约 15 天，再于橡木桶熟成 12 个月。",
+          "detail": "酒庄风格描述：成熟红黑浆果、胡椒及香料，柔顺且有结构，单宁细滑。",
+          "vintageScope": "未标年份的酒庄酒款说明；藤龄保留原文口径，工艺不是所有年份的固定保证。",
+          "sourceIds": [
+            "rully-20261029-roismages-1er-rouge-les-pierres",
+            "rully-20261029-roismages-list"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Clay-limestone in the Agneux hamlet, facing the rising sun; undated estate sheet records 30-year-old vines.",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested and sorted at the winery; cold soak then tank vinification with punch-downs and pump-overs for 15 days; 12 months in oak.",
+              "detail": "Estate profile: ripe red and black berries, pepper and spice; supple, structured palate with silky tannins.",
+              "vintageScope": "Undated estate wine specification; quoted vine ages are source values, not calculated current ages. Methods may vary by vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Les Pierres"
+          ]
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "未公开的具体年份技术参数不作推断",
+        "已授权的酒瓶与酒庄图片"
+      ],
+      "translations": {
+        "en": {
+          "intro": "Founded in Rully by Anne-Sophie Debavelaere in 1984; Félix returned in 2009. The family range focuses on parcel-specific Chardonnay and Pinot Noir, alongside Bouzeron and Beaune.",
+          "scope": "Estate and wine source records reviewed individually; technical details retain their stated source and vintage scope.",
+          "sections": [
+            {
+              "title": "History & people",
+              "text": "Founded in 1984; oenology-trained Félix returned in 2009. Cellar renovation followed in 2015.",
+              "sourceIds": [
+                "rully-20261029-roismages-history"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "The estate currently states 11 ha across Rully, Bouzeron and Beaune; its Rully list comprises five whites and two reds.",
+              "sourceIds": [
+                "rully-20261029-roismages-history",
+                "rully-20261029-roismages-list"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "Individual sheets specify variety, aspect, soil and quoted vine age; the Les Pierres red sheet explicitly records hand-harvesting and winery sorting.",
+              "sourceIds": [
+                "rully-20261029-roismages-1er-rouge-les-pierres"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "Whites use indigenous yeasts, barrel fermentation and lees ageing. Red-vinification details vary by label. The general estate baseline is 12 months in barrel followed by a second winter on fine lees in stainless steel.",
+              "sourceIds": [
+                "rully-20261029-roismages-list"
+              ]
+            },
+            {
+              "title": "Portfolio",
+              "text": "Rully Village: Plante Moraine, Clos du Moulin à Vent, Les Cailloux Blanc, Chaponnières and Les Cailloux Rouge. Premier Cru: Les Pierres Blanc and Rouge.",
+              "sourceIds": [
+                "rully-20261029-roismages-list"
+              ]
+            }
+          ],
+          "gaps": [
+            "Unpublished vintage-specific parameters are not inferred",
+            "Licensed bottle and estate photography"
+          ]
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    },
+    {
+      "id": "producer-fr-jean-baptiste-ponsot",
+      "name": "Domaine Jean-Baptiste Ponsot",
+      "aliases": [],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "26 Grande Rue, 71150 Rully",
+      "website": "https://domaine-jean-baptiste-ponsot.fr/en/home/",
+      "intro": "1954 年由 Lucien Ponsot 创立，儿子 Bernard 逐步将混合农业转为专门葡萄园经营。Jean-Baptiste 2000 年、20 岁时接手；2005 年新建酒窖/接待空间，增植土地并深化地块研究。与 Sylvain et Lucie Ponsot、Morey-Saint-Denis 的 Domaine Ponsot 均为不同实体。",
+      "scope": "酒庄与酒款原始资料已逐项核对；技术参数按具体来源和年份解释。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史",
+          "text": "1954 年由 Lucien Ponsot 创立，儿子 Bernard 逐步将混合农业转为专门葡萄园经营。Jean-Baptiste 2000 年、20 岁时接手；2005 年新建酒窖/接待空间，增植土地并深化地块研究。与 Sylvain et Lucie Ponsot、Morey-Saint-Denis 的 Domaine Ponsot 均为不同实体。",
+          "sourceIds": [
+            "rully-20261029-ponsot-estate"
+          ]
+        },
+        {
+          "title": "所有权",
+          "text": "Ponsot 家族，Jean-Baptiste 独立经营。",
+          "sourceIds": [
+            "rully-20261029-ponsot-estate"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "官网约 8.8 ha：Rully Premier Cru 5.10 ha，Village 3.36 ha，Aligoté 0.21 ha、Chassagne-Montrachet 0.08 ha。官网该分项合计 8.75 ha，是四舍五入，Molesme 3.05 ha（Chardonnay 1.30、Pinot Noir 1.75）；Montpalais 1.71 ha；En Bas de Vauvry 3.03 ha 属 Village。",
+          "sourceIds": [
+            "rully-20261029-ponsot-estate"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "2007 年起禁止除草剂/杀虫剂等，修剪与叶幕及草生管理按园变化；官网表述 culture raisonnée，不等于取得有机证书。",
+          "sourceIds": [
+            "rully-20261029-ponsot-estate"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "红酒双重分选，发酵前冷浸约 4–6 天，总浸渍约 21 天；白酒压榨后澄清约 24 小时，再入桶发酵。逐款技术页的培养比例列入各酒款；Raclot 独立资料未给出的参数不从其他酒款推算。",
+          "sourceIds": [
+            "rully-20261029-ponsot-estate"
+          ]
+        },
+        {
+          "title": "酒款组合",
+          "text": "现列 Rully Village Blanc En Bas de Vauvry 与 Rouge；一级园包括 Molesme 红白、Montpalais 白、La Fosse 红，以及由 2022 年酒标和独立酒款资料确认的 Raclot 白。",
+          "sourceIds": [
+            "rully-20261029-ponsot-estate",
+            "rully-20261029-ponsot-raclot-2022"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-molesme",
+          "name": "Rully Premier Cru Blanc Molesme",
+          "place": "Molesme 一级园总地块 3.05 ha，Chardonnay 占 1.30 ha。东至东南向，牛津阶鲕粒及致密石灰岩。",
+          "grape": "Chardonnay",
+          "method": "Guyot 修剪；橡木桶熟成 12 个月，资料列 25% 新桶，随后合桶静置约 3 个月。",
+          "detail": "酒庄风格描述：丰厚质地与鲜明张力并存，余味持久。酒庄建议约 11°C 饮用。",
+          "vintageScope": "未标年份的酒庄技术说明；优先采用逐款比例，不将通用木桶比例套用于全部酒。",
+          "sourceIds": [
+            "rully-20261029-ponsot-1er-blanc-molesme",
+            "rully-20261029-ponsot-estate"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Molesme covers 3.05 ha in the family holding, including 1.30 ha Chardonnay; east to southeast exposure over Oxfordian oolitic and compact limestone.",
+              "grape": "Chardonnay",
+              "method": "Guyot-trained vines; 12 months in oak with 25% new barrels, followed by approximately three months after assembly.",
+              "detail": "Estate style: textured yet energetic, with sustained length. Suggested service: about 11°C.",
+              "vintageScope": "Undated estate technical profile. Individual wine proportions take precedence over estate-wide summaries; vintage-specific variations remain possible."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Molesme"
+          ]
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-molesme",
+          "name": "Rully Premier Cru Rouge Molesme",
+          "place": "Molesme 一级园中 Pinot Noir 约 1.75 ha；家族自 1954 年持有，分批种植记录为 1978–2011 年。",
+          "grape": "Pinot Noir",
+          "method": "Guyot 与 Cordon 修剪；桶熟 12 个月，资料列 40% 新桶，随后合桶约 3 个月。",
+          "detail": "酒庄风格描述：果味充沛、质地细滑、单宁包裹感强；建议约 16°C 饮用。",
+          "vintageScope": "未标年份的酒庄技术说明；优先采用逐款比例，不将通用木桶比例套用于全部酒。",
+          "sourceIds": [
+            "rully-20261029-ponsot-1er-rouge-molesme",
+            "rully-20261029-ponsot-estate"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "The Molesme holding includes about 1.75 ha Pinot Noir. Family ownership dates to 1954; recorded plantings extend from 1978 to 2011.",
+              "grape": "Pinot Noir",
+              "method": "Guyot and Cordon training; 12 months in barrel with 40% new oak, then approximately three months after assembly.",
+              "detail": "Estate style: generous fruit, a velvety texture and rounded tannins. Suggested service: about 16°C.",
+              "vintageScope": "Undated estate technical profile. Individual wine proportions take precedence over estate-wide summaries; vintage-specific variations remain possible."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Molesme"
+          ]
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-montpalais",
+          "name": "Rully Premier Cru Blanc Montpalais",
+          "place": "家族自 1952 年持有约 1.71 ha，1954 年种植 Chardonnay；东至东南向陡坡，白色泥灰岩与石灰岩，需防止侵蚀。",
+          "grape": "Chardonnay",
+          "method": "Guyot 修剪；桶熟 12 个月，资料列 20% 新桶，再合桶静置约 3 个月。",
+          "detail": "酒庄风格描述：燧石调性与较长余味；建议约 11°C 饮用。",
+          "vintageScope": "未标年份的酒庄技术说明；优先采用逐款比例，不将通用木桶比例套用于全部酒。",
+          "sourceIds": [
+            "rully-20261029-ponsot-1er-blanc-montpalais",
+            "rully-20261029-ponsot-estate"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Family holding of about 1.71 ha since 1952, planted in Chardonnay in 1954; steep east to southeast slope, white marl and limestone, requiring erosion control.",
+              "grape": "Chardonnay",
+              "method": "Guyot pruning; 12 months in oak with 20% new barrels, then approximately three months after assembly.",
+              "detail": "Estate style: flinty character and length. Suggested service: about 11°C.",
+              "vintageScope": "Undated estate technical profile. Individual wine proportions take precedence over estate-wide summaries; vintage-specific variations remain possible."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Montpalais"
+          ]
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-blanc-en-bas-de-vauvry",
+          "name": "Rully Blanc En Bas de Vauvry",
+          "place": "村庄级，不能因邻近一级园而升格。家族地块 3.03 ha，2000–2009 年栽植，东至东南向，石灰质泥灰岩。",
+          "grape": "Chardonnay",
+          "method": "酒款资料列 12 个月培养，再合桶 3 个月；其中 15% 罐体、20% 新桶，其余为使用过一至四次的木桶。",
+          "detail": "酒庄风格描述：干型、适度烘烤香、口感带奶油质感；建议约 11°C 饮用。",
+          "vintageScope": "未标年份的酒庄技术说明；优先采用逐款比例，不将通用木桶比例套用于全部酒。",
+          "sourceIds": [
+            "rully-20261029-ponsot-blanc-en-bas-de-vauvry",
+            "rully-20261029-ponsot-estate"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Village-level wine, despite its position among Premier Cru slopes. The family parcel is 3.03 ha, planted 2000–2009; east to southeast aspect with calcareous marl.",
+              "grape": "Chardonnay",
+              "method": "The wine sheet lists 12 months of ageing and three months after assembly: 15% tank, 20% new oak, with the balance in barrels used for one to four wines.",
+              "detail": "Estate style: dry, gently toasted and creamy-textured. Suggested service: about 11°C.",
+              "vintageScope": "Undated estate technical profile. Individual wine proportions take precedence over estate-wide summaries; vintage-specific variations remain possible."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "En Bas de Vauvry"
+          ]
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-rouge-village",
+          "name": "Rully Rouge",
+          "place": "酒款页标 En Bas de Vauvry；酒庄地块总览还将 Brange 列入这款村庄级红酒来源，Brange 约 0.33 ha、1958 年种植。",
+          "grape": "Pinot Noir",
+          "method": "Guyot 修剪；桶熟 12 个月，资料列 30% 新桶，随后合桶静置约 3 个月。",
+          "detail": "酒庄风格描述：成熟果味和圆润单宁；建议约 16°C 饮用。",
+          "vintageScope": "未标年份的酒庄技术说明；优先采用逐款比例，不将通用木桶比例套用于全部酒。",
+          "sourceIds": [
+            "rully-20261029-ponsot-rouge-village",
+            "rully-20261029-ponsot-estate"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "The wine page names En Bas de Vauvry; the estate parcel overview also associates Brange with this Village red. Brange is about 0.33 ha, planted in 1958.",
+              "grape": "Pinot Noir",
+              "method": "Guyot pruning; 12 months in oak, 30% new, followed by approximately three months after assembly.",
+              "detail": "Estate style: ripe fruit and rounded tannins. Suggested service: about 16°C.",
+              "vintageScope": "Undated estate technical profile. Individual wine proportions take precedence over estate-wide summaries; vintage-specific variations remain possible."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "En Bas de Vauvry",
+            "Brange"
+          ]
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-la-fosse",
+          "name": "Rully Premier Cru Rouge La Fosse",
+          "place": "约 0.25 ha，1969 年种植 Pinot Noir，2006 年起租种；东南向牛津阶石灰岩地块。",
+          "grape": "Pinot Noir",
+          "method": "Cordon 修剪与行间草生；桶熟 12 个月，资料列 40% 新桶，再合桶静置约 3 个月。",
+          "detail": "酒庄风格描述：花香与鲜活果味，结构适合培养；建议约 17°C 饮用。",
+          "vintageScope": "未标年份的酒庄技术说明；优先采用逐款比例，不将通用木桶比例套用于全部酒。",
+          "sourceIds": [
+            "rully-20261029-ponsot-1er-rouge-la-fosse",
+            "rully-20261029-ponsot-estate"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Approximately 0.25 ha of Pinot Noir planted in 1969, rented since 2006; southeast-facing Oxfordian limestone parcel.",
+              "grape": "Pinot Noir",
+              "method": "Cordon training and grass between rows; 12 months in oak with 40% new barrels, followed by three months after assembly.",
+              "detail": "Estate style: floral, fresh-fruited and structured for development. Suggested service: about 17°C.",
+              "vintageScope": "Undated estate technical profile. Individual wine proportions take precedence over estate-wide summaries; vintage-specific variations remain possible."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "La Fosse"
+          ]
+        },
+        {
+          "id": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot",
+          "name": "Rully Premier Cru Blanc Raclot",
+          "place": "Raclot，邻近 Cloux 的陡坡；2022 年酒款商家技术说明记载东向、泥灰岩和褐色石灰岩，表层黏土粉砂。",
+          "grape": "Chardonnay",
+          "method": "2022 年酒款资料确认品种和产地，但没有提供发酵容器、新桶比例或熟成时长；不能直接套用其他 Ponsot 酒款参数。",
+          "detail": "2022 年商家品鉴描述强调浓集白色果实、柑橘、香料与紧密结构。Raclot 为独立一级园酒款，不是 Molesme 或 Montpalais 的别名。",
+          "vintageScope": "地块及品鉴信息对应 2022 年，RVF 另列 2024 年；不将 2022 年描述当作所有年份恒定风格。",
+          "sourceIds": [
+            "rully-20261029-ponsot-raclot-2022",
+            "rully-20261029-ponsot-raclot-rvf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Raclot, beside Cloux on a steep slope. The 2022 merchant sheet describes an easterly aspect, marl and brown limestone with a clay-silt surface.",
+              "grape": "Chardonnay",
+              "method": "The 2022 sheet confirms variety and origin but does not provide fermentation vessels, new-oak percentage or ageing duration. Other Ponsot wine specifications cannot be substituted.",
+              "detail": "The merchant’s 2022 note describes concentrated white fruit, citrus, spice and a dense structure. Raclot is a separate Premier Cru wine, not an alias of Molesme or Montpalais.",
+              "vintageScope": "Site and tasting description refer to 2022; RVF also lists 2024. The tasting description is not a specification for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "climatNames": [
+            "Raclot"
+          ],
+          "vintage": 2022
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "未公开的具体年份技术参数不作推断",
+        "已授权的酒瓶与酒庄图片"
+      ],
+      "translations": {
+        "en": {
+          "intro": "Founded in 1954 by Lucien Ponsot and expanded by his son Bernard. Jean-Baptiste took over in 2000 and built new cellar facilities in 2005. Separate from Sylvain et Lucie Ponsot and Domaine Ponsot in Morey-Saint-Denis.",
+          "scope": "Estate and wine source records reviewed individually; technical details retain their stated source and vintage scope.",
+          "sections": [
+            {
+              "title": "History",
+              "text": "Founded in 1954 by Lucien Ponsot and expanded by his son Bernard. Jean-Baptiste took over in 2000 and built new cellar facilities in 2005. Separate from Sylvain et Lucie Ponsot and Domaine Ponsot in Morey-Saint-Denis.",
+              "sourceIds": [
+                "rully-20261029-ponsot-estate"
+              ]
+            },
+            {
+              "title": "Ownership",
+              "text": "Independent Jean-Baptiste Ponsot family estate.",
+              "sourceIds": [
+                "rully-20261029-ponsot-estate"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "Website c.8.8 ha (subparts 5.10 Premier Cru, 3.36 Village, 0.21 Aligoté, 0.08 Chassagne = 8.75 ha due to rounding). Molesme 3.05 ha across both varieties; Montpalais 1.71 ha; En Bas de Vauvry 3.03 ha is Village despite the RVF article listing 1er Cru.",
+              "sourceIds": [
+                "rully-20261029-ponsot-estate"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "Since 2007 the estate says it ceased herbicide/insecticide use, with plot-specific canopy, training and soil regimes; sustainable is not automatically certified organic.",
+              "sourceIds": [
+                "rully-20261029-ponsot-estate"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "Reds undergo two sorting stages, about four to six days of cold soak and around 21 days total vatting. Whites settle for roughly 24 hours before barrel fermentation. Individual wine specifications are recorded separately; missing Raclot parameters are not inferred from other labels.",
+              "sourceIds": [
+                "rully-20261029-ponsot-estate"
+              ]
+            },
+            {
+              "title": "Portfolio",
+              "text": "Rully Village En Bas de Vauvry Blanc and Rouge; Premier Cru Molesme in both colours, Montpalais Blanc, La Fosse Rouge, plus Raclot Blanc confirmed by the 2022 label and independent wine documentation.",
+              "sourceIds": [
+                "rully-20261029-ponsot-estate",
+                "rully-20261029-ponsot-raclot-2022"
+              ]
+            }
+          ],
+          "gaps": [
+            "Unpublished vintage-specific parameters are not inferred",
+            "Licensed bottle and estate photography"
+          ]
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    },
+    {
+      "id": "producer-fr-saint-jacques",
+      "name": "Domaine Saint-Jacques",
+      "aliases": [
+        "Christophe Grandmougin et Fils"
+      ],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "11 rue Saint-Jacques, 71150 Rully",
+      "website": "https://www.christophe-grandmougin.fr/",
+      "intro": "Grandmougin 家族于 1955 年取得 Domaine Saint-Jacques。酒庄位于 Rully，以 Marissou、La Fosse 一级园和独立优选酒款 Stellaris Campus 为重要参照。",
+      "scope": "酒庄与酒款原始资料已逐项核对；技术参数按具体来源和年份解释。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史与人物",
+          "text": "家族于 1955 年接手；Christophe 自 1991 年经营。庄舍曾与 Saint-Jacques 朝圣路线相关，现存罗马式酒窖。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-estate"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "酒庄围绕 Rully 的 Marissou、La Fosse 与 Village 地块经营 Chardonnay、Pinot Noir；另种 Aligoté。红白同名地块分别记录，不互作替代。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-estate"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "官网称采用合理农业，机械除草；通过抹芽、疏果与叶幕管理控制产量，人工采收。该表述不等同于有机认证。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-culture"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "官网按红白分别公布酒庄培养基准，酿造随年份调整；Stellaris Campus 的专属参数未另刊。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-culture"
+          ]
+        },
+        {
+          "title": "酒款组合",
+          "text": "Rully Blanc、Marissou 红白、La Fosse Rouge，以及 Stellaris Campus 红白均有原始酒单依据。La Fosse Blanc 地块在官网记载，并用于 Stellaris Campus Blanc；不能仅凭地块存在新建一个当前单独酒标。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-2023-order",
+            "rully-20261029-saintjacques-wines"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-saint-jacques-rully-blanc-village",
+          "name": "Rully Blanc",
+          "place": "村庄级 Chardonnay，酒庄列约 1.7 ha，朝南至东南。",
+          "grape": "Chardonnay",
+          "method": "酒庄通用白酒培养基准：约一半入橡木桶；具体年份和此酒单独比例未另列。",
+          "detail": "酒庄风格描述：葡萄柚、圆润质地与鲜活酸度。",
+          "vintageScope": "酒庄未标年份资料；2026 年展商酒单确认 2023 年酒款。面积为官网口径，不代表每年全部用于本酒。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-estate",
+            "rully-20261029-saintjacques-culture",
+            "rully-20261029-saintjacques-wines",
+            "rully-20261029-saintjacques-gjb2026"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Village Chardonnay; the estate states approximately 1.7 ha with south to southeast exposure.",
+              "grape": "Chardonnay",
+              "method": "House white-wine baseline: roughly half aged in oak; no separate vintage-specific proportion is published for this label.",
+              "detail": "Estate profile: grapefruit, rounded texture and fresh acidity.",
+              "vintageScope": "Undated estate profile; the 2026 exhibitor list confirms a 2023 release. Vineyard area is the website’s figure, not a guaranteed annual cuvée allocation."
+            }
+          },
+          "climatNames": [],
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-saint-jacques-rully-1er-blanc-marissou",
+          "name": "Rully Premier Cru Blanc Marissou",
+          "place": "Marissou 一级园 Chardonnay，酒庄列约 4.5 ha，朝南至东南。",
+          "grape": "Chardonnay",
+          "method": "白酒酒庄基准包含部分橡木桶培养；本酒没有公开逐年份独立技术单。",
+          "detail": "酒庄风格描述：杏、榅桲、蜂蜜与烘烤香，质地丰厚而有酸度。",
+          "vintageScope": "酒庄未标年份资料；2026 年展商酒单确认 2023 年酒款。面积为官网口径，不代表每年全部用于本酒。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-estate",
+            "rully-20261029-saintjacques-culture",
+            "rully-20261029-saintjacques-wines",
+            "rully-20261029-saintjacques-gjb2026"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Marissou Premier Cru Chardonnay; approximately 4.5 ha, south to southeast-facing in the estate account.",
+              "grape": "Chardonnay",
+              "method": "Partial oak ageing forms part of the estate white-wine baseline; a separate vintage-specific technical sheet is not published.",
+              "detail": "Estate profile: apricot, quince, honey and toast; rich texture supported by acidity.",
+              "vintageScope": "Undated estate profile; the 2026 exhibitor list confirms a 2023 release. Vineyard area is the website’s figure, not a guaranteed annual cuvée allocation."
+            }
+          },
+          "climatNames": [
+            "Marissou"
+          ],
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-saint-jacques-rully-1er-rouge-marissou",
+          "name": "Rully Premier Cru Rouge Marissou",
+          "place": "Marissou 一级园 Pinot Noir，酒庄列约 1.5 ha，朝南至东南。",
+          "grape": "Pinot Noir",
+          "method": "人工采收；全庄红酒基准为橡木桶熟成约 12 个月。具体年份新桶比例没有单列。",
+          "detail": "酒庄风格描述：红果、紫罗兰、香料，兼具柔细感与结构。",
+          "vintageScope": "酒庄未标年份资料；2026 年展商酒单确认 2023 年酒款。面积为官网口径，不代表每年全部用于本酒。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-estate",
+            "rully-20261029-saintjacques-culture",
+            "rully-20261029-saintjacques-wines",
+            "rully-20261029-saintjacques-gjb2026"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Marissou Premier Cru Pinot Noir; approximately 1.5 ha, south to southeast-facing in the estate account.",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested; the house red-wine baseline is about 12 months in oak. Vintage-specific new-oak percentage is not separately listed.",
+              "detail": "Estate profile: red fruit, violet and spice, combining finesse with structure.",
+              "vintageScope": "Undated estate profile; the 2026 exhibitor list confirms a 2023 release. Vineyard area is the website’s figure, not a guaranteed annual cuvée allocation."
+            }
+          },
+          "climatNames": [
+            "Marissou"
+          ],
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-saint-jacques-rully-1er-rouge-la-fosse",
+          "name": "Rully Premier Cru Rouge La Fosse",
+          "place": "La Fosse 一级园 Pinot Noir，酒庄列约 1 ha，朝南至东南；不能与白酒来源的 La Fosse 地块混算。",
+          "grape": "Pinot Noir",
+          "method": "人工采收；全庄红酒基准为橡木桶熟成约 12 个月，批次酿造随年份调整。",
+          "detail": "酒庄风格描述：樱桃、黑醋栗及香料，结构鲜明。",
+          "vintageScope": "酒庄未标年份资料；2026 年展商酒单确认 2023 年酒款。面积为官网口径，不代表每年全部用于本酒。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-estate",
+            "rully-20261029-saintjacques-culture",
+            "rully-20261029-saintjacques-wines",
+            "rully-20261029-saintjacques-gjb2026"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "La Fosse Premier Cru Pinot Noir; the estate states about 1 ha, south to southeast-facing, distinct from its white-wine La Fosse holding.",
+              "grape": "Pinot Noir",
+              "method": "Hand-harvested; the house red-wine baseline is about 12 months in oak, with vinification adapted to the vintage.",
+              "detail": "Estate profile: cherry, blackcurrant and spice, with defined structure.",
+              "vintageScope": "Undated estate profile; the 2026 exhibitor list confirms a 2023 release. Vineyard area is the website’s figure, not a guaranteed annual cuvée allocation."
+            }
+          },
+          "climatNames": [
+            "La Fosse"
+          ],
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+          "name": "Rully Premier Cru Blanc Stellaris Campus",
+          "place": "Marissou 与 La Fosse 的优选 Chardonnay 地块混合酿成。Stellaris Campus 是酒款名，并非独立一级园 climat。",
+          "grape": "Chardonnay",
+          "method": "独立优选酒款；官网未给出专属发酵容器、新桶比例和熟成时长，不直接套用常规酒款参数。",
+          "detail": "酒庄风格描述：柑橘、白色果实及白花；陈年后可发展坚果与蜂蜜。",
+          "vintageScope": "官网酒款说明及 2023 年独立红白酒款订单确认；描述为非年份基准，非独立酒评。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-wines",
+            "rully-20261029-saintjacques-2023-order",
+            "rully-20261029-saintjacques-gjb2026"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Selected Chardonnay parcels in Marissou and La Fosse. Stellaris Campus is a cuvée name, not a separate Premier Cru climat.",
+              "grape": "Chardonnay",
+              "method": "A separate parcel-selection cuvée. Dedicated fermentation vessels, new-oak percentage and ageing duration are not published; regular-cuvée parameters are not automatically transferred.",
+              "detail": "Estate profile: citrus, white fruit and flowers, developing nut and honey notes with age.",
+              "vintageScope": "Estate wine profiles and the 2023 order list confirm separate white and red labels. Descriptions are non-vintage estate baselines, not independent reviews."
+            }
+          },
+          "climatNames": [
+            "Marissou",
+            "La Fosse"
+          ],
+          "sourceVerifiedAt": "2026-10-29",
+          "imageUrl": "https://www.christophe-grandmougin.fr/wp-content/uploads/2025/01/STELLARIS-CAMPUS.png",
+          "imageSourceUrl": "https://www.christophe-grandmougin.fr/les-vins/",
+          "imageCredit": "Domaine Saint-Jacques / Christophe Grandmougin",
+          "imageScope": "Estate reference image; not a guarantee of the current vintage label or bottle."
+        },
+        {
+          "id": "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus",
+          "name": "Rully Premier Cru Rouge Stellaris Campus",
+          "place": "源自 Marissou 的优选 Pinot Noir 地块。与普通 Marissou Rouge 分开列售，并非一个新 climat。",
+          "grape": "Pinot Noir",
+          "method": "独立优选酒款；官网未给出专属发酵容器、新桶比例和熟成时长，不直接套用常规酒款参数。",
+          "detail": "酒庄风格描述：红色小浆果、细滑单宁，熟成后发展林地气息。",
+          "vintageScope": "官网酒款说明及 2023 年独立红白酒款订单确认；描述为非年份基准，非独立酒评。",
+          "sourceIds": [
+            "rully-20261029-saintjacques-wines",
+            "rully-20261029-saintjacques-2023-order",
+            "rully-20261029-saintjacques-stellaris-red-2023"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Selected Pinot Noir from Marissou. Sold separately from the regular Marissou Rouge; it does not designate a new climat.",
+              "grape": "Pinot Noir",
+              "method": "A separate parcel-selection cuvée. Dedicated fermentation vessels, new-oak percentage and ageing duration are not published; regular-cuvée parameters are not automatically transferred.",
+              "detail": "Estate profile: small red berries and silky tannins, developing woodland notes with maturity.",
+              "vintageScope": "Estate wine profiles and the 2023 order list confirm separate white and red labels. Descriptions are non-vintage estate baselines, not independent reviews."
+            }
+          },
+          "climatNames": [
+            "Marissou"
+          ],
+          "sourceVerifiedAt": "2026-10-29",
+          "imageUrl": "https://www.christophe-grandmougin.fr/wp-content/uploads/2025/01/Stellaris-campus-rg.png",
+          "imageSourceUrl": "https://www.christophe-grandmougin.fr/les-vins/",
+          "imageCredit": "Domaine Saint-Jacques / Christophe Grandmougin",
+          "imageScope": "Estate reference image; not a guarantee of the current vintage label or bottle."
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "未公开的具体年份技术参数不作推断",
+        "已授权的酒瓶与酒庄图片"
+      ],
+      "translations": {
+        "en": {
+          "intro": "The Grandmougin family acquired Domaine Saint-Jacques in 1955. Based in Rully, it is a reference for Marissou, La Fosse and the separate Stellaris Campus selections.",
+          "scope": "Estate and wine source records reviewed individually; technical details retain their stated source and vintage scope.",
+          "sections": [
+            {
+              "title": "History & people",
+              "text": "Family ownership dates from 1955; Christophe has managed the estate since 1991. Historic buildings are associated with the Saint-Jacques pilgrimage route and retain Romanesque cellars.",
+              "sourceIds": [
+                "rully-20261029-saintjacques-estate"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "The Rully holdings include Chardonnay and Pinot Noir in Marissou, La Fosse and Village parcels, plus Aligoté. Holdings of different colours are recorded separately.",
+              "sourceIds": [
+                "rully-20261029-saintjacques-estate"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "The estate describes sustainable farming, mechanical weed control, bud thinning, crop thinning, canopy management and manual harvest. This is not a claim of organic certification.",
+              "sourceIds": [
+                "rully-20261029-saintjacques-culture"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "The estate publishes separate house baselines for reds and whites and adapts vinification by vintage. Dedicated Stellaris Campus technical parameters are not separately published.",
+              "sourceIds": [
+                "rully-20261029-saintjacques-culture"
+              ]
+            },
+            {
+              "title": "Portfolio",
+              "text": "Source-listed wines are Rully Blanc, Marissou in both colours, La Fosse Rouge and white/red Stellaris Campus. The recorded La Fosse white holding contributes to Stellaris Blanc; a vineyard entry alone does not establish a separate current label.",
+              "sourceIds": [
+                "rully-20261029-saintjacques-2023-order",
+                "rully-20261029-saintjacques-wines"
+              ]
+            }
+          ],
+          "gaps": [
+            "Unpublished vintage-specific parameters are not inferred",
+            "Licensed bottle and estate photography"
+          ]
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rully-20261029-ponsot-1er-blanc-molesme",
+      "title": "Jean-Baptiste Ponsot · Rully Premier Cru Blanc Molesme",
+      "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-molesme-blanc-en/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-ponsot-1er-blanc-montpalais",
+      "title": "Jean-Baptiste Ponsot · Rully Premier Cru Blanc Montpalais",
+      "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-montpalais-blanc-en/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-ponsot-1er-rouge-la-fosse",
+      "title": "Jean-Baptiste Ponsot · Rully Premier Cru Rouge La Fosse",
+      "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-la-fosse-rouge-en/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-ponsot-1er-rouge-molesme",
+      "title": "Jean-Baptiste Ponsot · Rully Premier Cru Rouge Molesme",
+      "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-molesme-rouge-en/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-ponsot-blanc-en-bas-de-vauvry",
+      "title": "Jean-Baptiste Ponsot · Rully Blanc En Bas de Vauvry",
+      "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-en-bas-de-vauvry-blanc-en/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-ponsot-estate",
+      "title": "Jean-Baptiste Ponsot · Estate and parcel history",
+      "url": "https://domaine-jean-baptiste-ponsot.fr/en/home/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-ponsot-raclot-2022",
+      "title": "La Route des Blancs · Ponsot Raclot 2022",
+      "url": "https://laroutedesblancs.com/module/mwslrdb/lrdbpdf?id_product=6541",
+      "type": "merchant_wine_sheet",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-ponsot-raclot-rvf",
+      "title": "La Revue du vin de France · Ponsot Raclot",
+      "url": "https://www.larvf.com/rully-premier-cru-raclot,4884606.asp",
+      "type": "professional_critic",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-ponsot-rouge-village",
+      "title": "Jean-Baptiste Ponsot · Rully Rouge",
+      "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-village-rouge-en/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-1er-blanc-les-pierres",
+      "title": "Rois Mages · Rully Premier Cru Blanc Les Pierres",
+      "url": "https://rois-mages.com/rully-1er-cru-les-pierres/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-1er-rouge-les-pierres",
+      "title": "Rois Mages · Rully Premier Cru Rouge Les Pierres",
+      "url": "https://rois-mages.com/rully-1er-cru-les-pierres-2/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-blanc-chaponieres",
+      "title": "Rois Mages · Rully Blanc Chaponnières",
+      "url": "https://rois-mages.com/rully-chaponieres/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-blanc-clos-du-moulin-a-vent",
+      "title": "Rois Mages · Rully Blanc Clos du Moulin à Vent",
+      "url": "https://rois-mages.com/rully-clos-du-moulin-a-vent/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-blanc-les-cailloux",
+      "title": "Rois Mages · Rully Blanc Les Cailloux",
+      "url": "https://rois-mages.com/rully-les-cailloux-blanc/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-blanc-plante-moraine",
+      "title": "Rois Mages · Rully Blanc Plante Moraine",
+      "url": "https://rois-mages.com/rully-plante-moraine/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-history",
+      "title": "Domaine Rois Mages · Estate history",
+      "url": "https://rois-mages.com/le-domaine/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-list",
+      "title": "Domaine Rois Mages · Current wine range",
+      "url": "https://rois-mages.com/our-wines/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-roismages-rouge-les-cailloux",
+      "title": "Rois Mages · Rully Rouge Les Cailloux",
+      "url": "https://rois-mages.com/rully-les-cailloux-rouge/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-saintjacques-2023-order",
+      "title": "Domaine Saint-Jacques · 2023 estate order list",
+      "url": "https://www.christophe-grandmougin.fr/wp-content/uploads/2025/02/Bon-de-commande.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-saintjacques-culture",
+      "title": "Domaine Saint-Jacques · Farming and cellar practice",
+      "url": "https://www.christophe-grandmougin.fr/248-2/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-saintjacques-estate",
+      "title": "Domaine Saint-Jacques · Estate and vineyards",
+      "url": "https://www.christophe-grandmougin.fr/le-domaine-saint-jacques/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-saintjacques-gjb2026",
+      "title": "Grands Jours de Bourgogne · Saint-Jacques 2026 exhibitor list",
+      "url": "https://www.grands-jours-bourgogne.fr/exposants/8d269dd886da323a90ea1dd56a289a4a/",
+      "type": "producer_trade_exhibitor",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-saintjacques-wines",
+      "title": "Domaine Saint-Jacques · Wine profiles",
+      "url": "https://www.christophe-grandmougin.fr/les-vins/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Source page retrieved and read on 2026-10-29; non-vintage statements retain their stated scope."
+    },
+    {
+      "id": "rully-20261029-saintjacques-stellaris-red-2023",
+      "title": "Millésima · Saint-Jacques Stellaris Campus Rouge 2023 label and classification",
+      "url": "https://www.millesima.co.uk/domaine-saint-jacques-rully-1er-cru-stellaris-campus-rouge-2023.html",
+      "type": "merchant_wine_record",
+      "checkedAt": "2026-10-29",
+      "verification": "Commercial label corroboration only; estate source remains the basis for parcel identity."
+    }
+  ],
+  "verification": {
+    "checkedWineIds": [
+      "wine-fr-rois-mages-rully-blanc-plante-moraine",
+      "wine-fr-rois-mages-rully-blanc-clos-du-moulin-a-vent",
+      "wine-fr-rois-mages-rully-blanc-les-cailloux",
+      "wine-fr-rois-mages-rully-blanc-chaponieres",
+      "wine-fr-rois-mages-rully-1er-blanc-les-pierres",
+      "wine-fr-rois-mages-rully-rouge-les-cailloux",
+      "wine-fr-rois-mages-rully-1er-rouge-les-pierres",
+      "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-molesme",
+      "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-molesme",
+      "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-montpalais",
+      "wine-fr-jean-baptiste-ponsot-rully-blanc-en-bas-de-vauvry",
+      "wine-fr-jean-baptiste-ponsot-rully-rouge-village",
+      "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-la-fosse",
+      "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot",
+      "wine-fr-saint-jacques-rully-blanc-village",
+      "wine-fr-saint-jacques-rully-1er-blanc-marissou",
+      "wine-fr-saint-jacques-rully-1er-rouge-marissou",
+      "wine-fr-saint-jacques-rully-1er-rouge-la-fosse",
+      "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+      "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus"
+    ],
+    "newWines": [
+      "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot",
+      "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+      "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus"
+    ],
+    "resolvedHolds": [
+      {
+        "previousId": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot-review",
+        "canonicalId": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot",
+        "resolution": "Separate Raclot Chardonnay confirmed by 2022 labelled bottle in merchant PDF and RVF publisher wine record; technical parameters not borrowed."
+      },
+      {
+        "previousId": "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+        "canonicalId": "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+        "resolution": "Official estate identifies white selection from Marissou and La Fosse; trade exhibitor lists Rully Premier Cru 2023."
+      },
+      {
+        "previousId": "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus",
+        "canonicalId": "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus",
+        "resolution": "Official estate identifies separate red selection from Marissou; official 2023 order list confirms the label."
+      }
+    ],
+    "unresolvedFacts": [
+      {
+        "entity": "Rois Mages",
+        "issue": "Website vine ages are undated; retained as quoted values, not rebased to 2026."
+      },
+      {
+        "entity": "Ponsot Molesme Blanc",
+        "issue": "Individual English page has a Village field inconsistent with its Premier Cru title and estate parcel overview; canonical Premier Cru retained with evidence."
+      },
+      {
+        "entity": "Ponsot Raclot",
+        "issue": "No detailed Raclot page on accessible official estate site. Identity is confirmed by dated bottle/merchant PDF plus critic publisher record; vinification is not invented."
+      },
+      {
+        "entity": "Saint-Jacques Stellaris Campus",
+        "issue": "Dedicated fermentation and élevage proportions are unpublished; vineyard selection and separate labels are established."
+      }
+    ],
+    "sourceEvidence": [
+      {
+        "url": "https://rois-mages.com/le-domaine/",
+        "ref": "turn1011view2",
+        "claim": "Founded 1984 by Anne-Sophie Debavelaere; Félix returned 2009; estate states 11 ha; cellar renovated 2015."
+      },
+      {
+        "url": "https://rois-mages.com/our-wines/",
+        "ref": "turn994view0",
+        "claim": "Seven Rully labels: five white, two red; house élevage baseline."
+      },
+      {
+        "url": "https://rois-mages.com/rully-plante-moraine/",
+        "ref": "turn998view0",
+        "claim": "Parcel, vinification and estate tasting profile for this exact label."
+      },
+      {
+        "url": "https://rois-mages.com/rully-clos-du-moulin-a-vent/",
+        "ref": "turn998view2",
+        "claim": "Parcel, vinification and estate tasting profile for this exact label."
+      },
+      {
+        "url": "https://rois-mages.com/rully-les-cailloux-blanc/",
+        "ref": "turn998view1",
+        "claim": "Parcel, vinification and estate tasting profile for this exact label."
+      },
+      {
+        "url": "https://rois-mages.com/rully-chaponieres/",
+        "ref": "turn998view3",
+        "claim": "Parcel, vinification and estate tasting profile for this exact label."
+      },
+      {
+        "url": "https://rois-mages.com/rully-1er-cru-les-pierres/",
+        "ref": "turn998view4",
+        "claim": "Parcel, vinification and estate tasting profile for this exact label."
+      },
+      {
+        "url": "https://rois-mages.com/rully-les-cailloux-rouge/",
+        "ref": "turn998view6",
+        "claim": "Parcel, vinification and estate tasting profile for this exact label."
+      },
+      {
+        "url": "https://rois-mages.com/rully-1er-cru-les-pierres-2/",
+        "ref": "turn998view5",
+        "claim": "Parcel, vinification and estate tasting profile for this exact label."
+      },
+      {
+        "url": "https://domaine-jean-baptiste-ponsot.fr/en/home/",
+        "ref": "turn994view1",
+        "claim": "Estate chronology, parcel areas, geology, sustainable farming and general cellar practices; existing dossier details retained."
+      },
+      {
+        "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-molesme-blanc-en/",
+        "ref": "turn998view8",
+        "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+      },
+      {
+        "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-molesme-rouge-en/",
+        "ref": "turn1000view1",
+        "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+      },
+      {
+        "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-montpalais-blanc-en/",
+        "ref": "turn1003view2",
+        "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+      },
+      {
+        "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-en-bas-de-vauvry-blanc-en/",
+        "ref": "turn1003view3",
+        "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+      },
+      {
+        "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-village-rouge-en/",
+        "ref": "turn1003view4",
+        "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+      },
+      {
+        "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-la-fosse-rouge-en/",
+        "ref": "turn1003view5",
+        "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+      },
+      {
+        "url": "https://laroutedesblancs.com/module/mwslrdb/lrdbpdf?id_product=6541",
+        "ref": "turn1011view1",
+        "claim": "2022 bottle label and first-hand merchant presentation identify a separate Chardonnay Rully Premier Cru Raclot; east-facing marl/limestone slope beside Cloux."
+      },
+      {
+        "url": "https://www.larvf.com/rully-premier-cru-raclot,4884606.asp",
+        "ref": "turn1003search2",
+        "claim": "Publisher search record independently identifies Raclot Chardonnay for 2022/2024; full page requires access."
+      },
+      {
+        "url": "https://www.christophe-grandmougin.fr/le-domaine-saint-jacques/",
+        "ref": "turn1000view2",
+        "claim": "Grandmougin family history; official areas and aspects for Marissou, La Fosse and Village vineyards."
+      },
+      {
+        "url": "https://www.christophe-grandmougin.fr/248-2/",
+        "ref": "turn1000view3",
+        "claim": "Mechanical weed control, hand harvest, red oak ageing and white partial oak ageing as house baseline."
+      },
+      {
+        "url": "https://www.christophe-grandmougin.fr/les-vins/",
+        "ref": "turn1003view0",
+        "claim": "Exact labels and estate style descriptions; Stellaris white from Marissou/La Fosse, red from selected Marissou parcel."
+      },
+      {
+        "url": "https://www.christophe-grandmougin.fr/wp-content/uploads/2025/02/Bon-de-commande.pdf",
+        "ref": "turn1000search0",
+        "claim": "Official 2023 commercial list includes separate white and red Stellaris Campus."
+      },
+      {
+        "url": "https://www.grands-jours-bourgogne.fr/exposants/8d269dd886da323a90ea1dd56a289a4a/",
+        "ref": "turn994view2",
+        "claim": "Estate-supplied exhibitor list confirms Stellaris Campus Blanc 2023 as Rully Premier Cru."
+      },
+      {
+        "url": "https://www.millesima.co.uk/domaine-saint-jacques-rully-1er-cru-stellaris-campus-rouge-2023.html",
+        "ref": "turn1044search1",
+        "claim": "Corroborates 2023 red label as Rully AOC Premier Cru and Pinot Noir, without inferring classification from parcel origin alone."
+      }
+    ],
+    "imageEvidence": "Five image URLs were followed from exact estate wine pages with label-specific filenames/alt text. Web image retrieval returned textual placeholders rather than pixels; final visual QA remains with integrator. No rights transfer is inferred."
+  }
+}

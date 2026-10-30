@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 40" width="228" height="40" fill="none">
+  <title>SOMM100</title>
+  <g stroke="#273d35" stroke-width="2.8" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M25 9.5C22.5 6 18.5 4.5 13.8 4.5C7.5 4.5 3.4 7.6 3.4 12.1C3.4 17.3 8.4 18.8 14.2 20.3C20.8 22 25.3 24 25.3 28.6C25.3 33.1 20.7 35.5 14.6 35.5C8.5 35.5 4.2 33.2 1.9 29.6"/>
+    <ellipse cx="49" cy="20" rx="14.2" ry="15.5"/>
+    <path d="M74 35V5H76L88.5 28L101 5H103V35M116 35V5H118L130.5 28L143 5H145V35"/>
+    <path d="M158 10.5L165.5 5H167V35"/>
+    <ellipse cx="188.5" cy="20" rx="9.8" ry="15.5"/>
+    <ellipse cx="216.5" cy="20" rx="9.8" ry="15.5"/>
+  </g>
+</svg>

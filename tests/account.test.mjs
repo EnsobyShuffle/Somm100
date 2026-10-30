@@ -1,0 +1,56 @@
+import assert from 'node:assert/strict';
+import {readFileSync,readdirSync} from 'node:fs';
+import {DatabaseSync} from 'node:sqlite';
+import ts from 'typescript';
+import {moduleUrl,loadTypeScript} from './load-typescript.mjs';
+const sql=new DatabaseSync(':memory:');
+for(const file of readdirSync(new URL('../drizzle/',import.meta.url)).filter(f=>f.endsWith('.sql')).sort())sql.exec(readFileSync(new URL('../drizzle/'+file,import.meta.url),'utf8'));
+function statement(query,values=[]){return {bind(...args){return statement(query,args)},async first(){return sql.prepare(query).get(...values)||null},async all(){return {results:sql.prepare(query).all(...values)}},async run(){return sql.prepare(query).run(...values)}}}
+globalThis.__accountTestEnv={DB:{prepare:statement,async batch(list){sql.exec('BEGIN');try{const results=await Promise.all(list.map(x=>x.run()));sql.exec('COMMIT');return results}catch(e){sql.exec('ROLLBACK');throw e}}}};
+async function route(file){const path=new URL(file,import.meta.url);let code=ts.transpileModule(readFileSync(path,'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText;code=code.replace(/import\s*{\s*env\s*}\s*from\s*['"]cloudflare:workers['"];?/,'const env=globalThis.__accountTestEnv;');code=code.replace(/from\s*['"](\.[^'"]+)['"]/g,(_,spec)=>'from '+JSON.stringify(moduleUrl(new URL(spec+'.ts',path))));return import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'))}
+const account=await route('../app/api/account/route.ts'),learning=await route('../app/api/learning/route.ts'),habits=await route('../app/api/habits/route.ts');
+const {curriculum}=await loadTypeScript('../lib/learning.ts');
+function request(path,user,body,headers={}){return new Request('https://somm100.example'+path,{method:body?'POST':'GET',headers:{...(user?{'oai-authenticated-user-id':user,'oai-authenticated-user-email':user+'@example.com'}:{}),...(body?{'content-type':'application/json','origin':'https://somm100.example'}:{}),...headers},...(body?{body:JSON.stringify(body)}:{})})}
+async function call(api,user,body,headers){const response=await api[body?'POST':'GET'](request('/api/test',user,body,headers));return {status:response.status,body:await response.json(),response}}
+assert.deepEqual((await call(account)).body,{authenticated:false,registered:false});
+for(const api of [account,learning,habits])assert.equal((await call(api,null,{name:'Guest',type:'checkin'})).status,401);
+for(const api of [learning,habits])assert.equal((await call(api)).status,401);
+assert.equal((await call(account,'alice',{name:'Alice'},{origin:'https://evil.example'})).status,403);
+assert.equal((await call(account,'alice',{name:'Alice'},{'sec-fetch-site':'cross-site'})).status,403);
+assert.equal((await call(account,'alice',{name:'\n'})).status,400);
+assert.equal((await call(account,'alice',{name:'x'.repeat(61)})).status,400);
+assert.equal((await call(account,'alice')).body.registered,false);
+let registered=await call(account,'alice',{name:'Alice',role:'admin',id:'bob'});
+assert.equal(registered.body.registered,true);assert.equal(registered.body.id,'alice');assert.equal(sql.prepare('SELECT role FROM users WHERE id=?').get('alice').role,'student');
+const created=registered.body.createdAt;
+const q=curriculum.questions.find(q=>q.type==='short'&&q.canSelfAssess!==false);
+let answered=await call(learning,'alice',{type:'answer',questionId:q.id,answer:'My answer',rating:2,requestId:'alice-answer-1'});
+assert.equal(answered.status,200);assert.equal(answered.body.attempts.length,1);
+await call(learning,'alice',{type:'answer',questionId:q.id,answer:'Retry',rating:0,requestId:'alice-answer-1'});
+assert.equal((await call(learning,'alice')).body.attempts.length,1);
+assert.equal((await call(learning,'bob',{type:'answer',questionId:q.id,answer:'Other user',rating:2,requestId:'alice-answer-1'})).status,409);
+assert.equal((await call(learning,'bob')).body.attempts.length,0);
+await call(learning,'alice',{type:'bookmark',questionId:q.id,active:true});
+await call(learning,'alice',{type:'dismiss',questionId:q.id,active:true});
+let alice=(await call(learning,'alice')).body,bob=(await call(learning,'bob')).body;
+assert.deepEqual(alice.bookmarks,[q.id]);assert.deepEqual(alice.dismissed,[q.id]);assert.deepEqual(bob.bookmarks,[]);assert.deepEqual(bob.dismissed,[]);
+await call(learning,'alice',{type:'dismiss',questionId:q.id,active:false});
+assert.deepEqual((await call(learning,'alice')).body.dismissed,[]);
+const reading=curriculum.readings[0];
+await call(learning,'bob',{type:'read',readingId:reading.id});
+assert.deepEqual((await call(learning,'bob')).body.readings,[reading.id]);
+assert.equal((await call(habits,'bob')).body.canCheckIn,true);
+assert.equal((await call(habits,'bob',{type:'checkin'})).status,200);
+assert.equal((await call(habits,'alice')).body.checkins.length,0);
+await call(habits,'alice',{type:'study',id:'alice-study-01',seconds:120});
+assert.equal((await call(habits,'bob',{type:'study',id:'alice-study-01',seconds:180})).status,409);
+await call(learning,'alice',{type:'draft',id:'alice-draft',title:'Private',body:'Private text'});
+assert.equal((await call(learning,'bob',{type:'draft',id:'alice-draft',title:'Changed',body:'Overwrite'})).status,403);
+sql.prepare('UPDATE users SET role=? WHERE id=?').run('teacher','alice');
+registered=await call(account,'alice',{name:'Alice Updated',role:'student'});
+assert.equal(registered.body.createdAt,created);assert.equal(sql.prepare('SELECT role FROM users WHERE id=?').get('alice').role,'teacher');
+assert.equal((await call(learning,'alice')).body.user.name,'Alice Updated');
+assert.equal((await call(learning,'alice')).body.attempts.length,1);
+assert.match(registered.response.headers.get('cache-control'),/no-store/);
+assert.equal(sql.prepare('SELECT COUNT(*) AS count FROM users').get().count,2);
+console.log('PASS: guest authorization, registration validation, CSRF, stable identity, retry dedupe, account isolation, read/check-in persistence and existing role/history preservation.');

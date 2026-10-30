@@ -1,0 +1,20 @@
+{
+  "QL-CS-cee9db1a7e380f13": {"prompt":"波尔多 Bordeaux 的五大一级庄分别是哪几家？","answer":"1. 拉菲 Lafite-Rothschild\n2. 拉图 Latour\n3. 玛歌 Margaux\n4. 侯伯王 Haut-Brion\n5. 木桐 Mouton-Rothschild"},
+  "QL-CS-a1d0fd83c1d0ca3b": {"prompt":"酒款名：Cuvee Femme","answer":"酒庄：Duval Leroy"},
+  "QL-CS-a67c91de95fa7c7e": {"prompt":"酒款名：Celebris","answer":"酒庄：Gosset"},
+  "QL-CS-2e4e26656113a60a": {"prompt":"酒款名：Dom Ruinart","answer":"酒庄：Ruinart"},
+  "QL-CS-b11d9bf474e313a1": {"prompt":"酒款名：Cour de Cuvee（保留原卡拼写）","answer":"酒庄：Vilmart"},
+  "QL-CS-96d7351fb6b79d3d": {"prompt":"酒款名：Un jour de 1911","answer":"酒庄：Andre Clouet"},
+  "QL-CS-52a5891ef0fdaa82": {"prompt":"酒款名：Josephine","answer":"酒庄：Joseph Perrier"},
+  "QL-CS-8306bf414d5fa85c": {"prompt":"酒款名：Grande Cuvee de Mumm","answer":"酒庄：Mumm"},
+  "QL-CS-e1695db15218b7ec": {"prompt":"酒款名：Cuvee Louise","answer":"酒庄：Pommery"},
+  "QL-CS-3db9c06894c20c97": {"prompt":"酒款名：Rare","answer":"酒庄：Piper Hiedsieck（保留原卡拼写）"},
+  "QL-CS-872540f0efc716f8": {"prompt":"酒款名：Cuvee des Enchantleurs（保留原卡拼写）","answer":"酒庄：Henriot"},
+  "QL-CS-f8f77e49a5ce5e52": {"prompt":"酒款名：Grande Siecle","answer":"酒庄：Laurent Perrier"},
+  "QL-CS-88b60075a7ca3e0b": {"prompt":"酒款名：R.D. 与 La Grande Annee","answer":"酒庄：Bollinger"},
+  "QL-CS-6ef9c54e16116edf": {"prompt":"酒款名：La Grande Dame","answer":"酒庄：Veuve Cliquot（保留原卡拼写）"},
+  "QL-CS-9dd3f77a22a22104": {"prompt":"酒款名：Cuvee Laetitia","answer":"酒庄：H. biliot Fils（保留原卡拼写）"},
+  "QL-CS-d7b1870d497e98be": {"prompt":"酒款名：Cuvee William Deutz","answer":"酒庄：Deutz"},
+  "QL-CS-4c01392bbbc674fe": {"prompt":"酒款名：Cristal","answer":"酒庄：Roederer"},
+  "QL-CS-d70b8fa80a851b71": {"prompt":"酒款名：Cuvee Winston Churchill","answer":"酒庄：Pol Roger"}
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-29",
+  "before": {
+    "producers": 279,
+    "wines": 1125,
+    "cards": 1239,
+    "regions": 198
+  },
+  "after": {
+    "producers": 303,
+    "wines": 1239,
+    "cards": 1353,
+    "regions": 199
+  },
+  "added": {
+    "producers": 24,
+    "wines": 114,
+    "cards": 114,
+    "regions": 1
+  },
+  "france": {
+    "producers": 26,
+    "producerWines": 122,
+    "grapeWineCards": 149,
+    "regions": 47
+  },
+  "rully": {
+    "producerCount": 11,
+    "wineCount": 93,
+    "substantiveWineBaselines": 25,
+    "sourceListedWineDrafts": 68,
+    "heldIdentityConflicts": 3,
+    "existingBouzeron": "dv-bouzeron preserved; no duplicate added",
+    "sourceManifest": "Recovered FR002/FR003 original sources; publication mapping only, not independent source re-fetch"
+  },
+  "holds": [
+    {
+      "id": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot-review",
+      "reason": "hold_site_identity"
+    },
+    {
+      "id": "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+      "reason": "hold_site_identity"
+    },
+    {
+      "id": "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus",
+      "reason": "hold_site_identity"
+    }
+  ]
+}

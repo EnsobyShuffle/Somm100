@@ -1,0 +1,2523 @@
+{
+  "updatedAt": "2026-10-29",
+  "counts": {
+    "producer": 36,
+    "wine": 50,
+    "vintage": 24,
+    "region": 34,
+    "site": 18
+  },
+  "records": [
+    {
+      "id": "cn-prod-035",
+      "notionId": "40717d16de4c81f8bb09ce0458b3482d",
+      "kind": "producer",
+      "name": "云南红酒庄／云南高原葡萄酒集团",
+      "en": "Yunnan Red Winery / Yunnan Red Wine Group",
+      "status": "现行",
+      "entityType": "集团",
+      "aliases": [],
+      "summary": "云南低纬高原葡萄酒的历史规模型Producer；玫瑰蜜、法国野、云中舞、水晶等地方品种／商品名及完整产品线具有独立研究价值。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南红酒庄／云南高原葡萄酒集团 Yunnan Red Winery / Yunnan Red Wine Group 云南低纬高原葡萄酒的历史规模型Producer；玫瑰蜜、法国野、云中舞、水晶等地方品种／商品名及完整产品线具有独立研究价值。    云南省红河州弥勒市东风农场及相关基地  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile 云南红 法国野 Yunnan Red French Wild 云南红 三星干红 Yunnan Red 3 Star Red 云南红 云中舞 Yunnan Red Dance of the Clouds 云南红 老树25年水晶干白 Yunnan Red Old Vine 25 Years Niagara White 云南红 老树25年玫瑰蜜 Yunnan Red Old Vine 25 Years Isabella"
+    },
+    {
+      "id": "cn-prod-063",
+      "notionId": "40717d16de4c81f18a43df639a9f08d4",
+      "kind": "producer",
+      "name": "云南帝旺红酒庄园",
+      "en": "Yunnan Diwanghong Winery",
+      "status": "当前状态待核",
+      "entityType": "烈酒企业／历史资料",
+      "aliases": [],
+      "summary": "弥勒官方酒庄名单和历史许可中的葡萄烈酒企业；是否仍生产葡萄酒、当前品牌与许可待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南帝旺红酒庄园 Yunnan Diwanghong Winery 弥勒官方酒庄名单和历史许可中的葡萄烈酒企业；是否仍生产葡萄酒、当前品牌与许可待核。    云南省红河州弥勒市东风农场二十队／大红坡  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile"
+    },
+    {
+      "id": "cn-p-006",
+      "notionId": "40317d16de4c81ca9bf0cc9f95485d25",
+      "kind": "producer",
+      "name": "敖云",
+      "en": "Ao Yun",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "可串联高山河谷风土、藏区农耕、村庄与年份调配。此为编辑选题判断。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "敖云 Ao Yun 可串联高山河谷风土、藏区农耕、村庄与年份调配。此为编辑选题判断。    云南 · 云南北部澜沧江河谷、梅里雪山山麓  云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 敖云 Ao Yun 西当村 Yunnan — Deqin — Xidang Village 斯农村 Yunnan — Deqin — Sinong Village 朔日村 Yunnan — Deqin — Shuori Village 阿东村 Yunnan — Deqin — Adong Village"
+    },
+    {
+      "id": "cn-prod-050",
+      "notionId": "40717d16de4c81ff9b92e1d76ce9c6e5",
+      "kind": "producer",
+      "name": "西鸽梅里酒庄",
+      "en": "Xige Meili Estate",
+      "status": "当前状态待核",
+      "entityType": "企业／酒庄项目",
+      "aliases": [
+        "云南西鸽梅里酒庄"
+      ],
+      "summary": "宁夏西鸽集团在德钦落地的独立云南酒庄／农文旅项目；必须与宁夏西鸽酒庄、贺兰红项目分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "西鸽梅里酒庄 Xige Meili Estate 云南西鸽梅里酒庄 宁夏西鸽集团在德钦落地的独立云南酒庄／农文旅项目；必须与宁夏西鸽酒庄、贺兰红项目分开。    云南省迪庆州德钦县燕门乡、佛山乡相关葡萄基地及酒庄项目  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs"
+    },
+    {
+      "id": "cn-prod-057",
+      "notionId": "40717d16de4c816b93d5d52e405c71a8",
+      "kind": "producer",
+      "name": "寸山",
+      "en": "Petit Mont",
+      "status": "现行",
+      "entityType": "生产商或品牌",
+      "aliases": [],
+      "summary": "马捷创立的精品品牌，已建立白马雪山德钦霞多丽与红酒项目；跨产区品牌结构和阿东村直接管理地块具有重要数据库价值。",
+      "areas": [
+        "云南",
+        "宁夏"
+      ],
+      "searchText": "寸山 Petit Mont 马捷创立的精品品牌，已建立白马雪山德钦霞多丽与红酒项目；跨产区品牌结构和阿东村直接管理地块具有重要数据库价值。    品牌跨宁夏与云南项目；云南葡萄园位于德钦白马雪山／阿东村相关高山地块  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 寸山白马雪山德钦霞多丽 Petit Mont Baima Snow Mountain Deqin Chardonnay 寸山白马雪山德钦臻藏霞多丽 Petit Mont Baima Snow Mountain Deqin Cuvée Prestige Chardonnay 阿东村 Yunnan — Deqin — Adong Village"
+    },
+    {
+      "id": "cn-prod-053",
+      "notionId": "40717d16de4c81eda6cde75752f920af",
+      "kind": "producer",
+      "name": "硕日拉姆／Allofme",
+      "en": "Allofme / Shuo Ri La Mu",
+      "status": "现行",
+      "entityType": "生产商或品牌",
+      "aliases": [],
+      "summary": "以云南玫瑰蜜、桃红及霞多丽表达为核心的品牌；与宝庄同一所有者网络但风格和品牌身份独立。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "硕日拉姆／Allofme Allofme / Shuo Ri La Mu 以云南玫瑰蜜、桃红及霞多丽表达为核心的品牌；与宝庄同一所有者网络但风格和品牌身份独立。    云南省迪庆／德钦高山村庄葡萄来源网络；生产主体与宝庄／融生体系关系按酒标核  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 硕日拉姆桃红葡萄酒 Allofme Rosé 硕日拉姆玫瑰蜜干红葡萄酒 Allofme Rose Honey Red 硕日拉姆霞多丽 Allofme Chardonnay 宝庄／Célèbre Winery Célèbre Winery 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery"
+    },
+    {
+      "id": "cn-prod-060",
+      "notionId": "40717d16de4c818e86a1c2e17053ea0e",
+      "kind": "producer",
+      "name": "大兴地酒庄",
+      "en": "Daxingdi Winery",
+      "status": "现行",
+      "entityType": "综合加工企业",
+      "aliases": [],
+      "summary": "弥勒现行葡萄加工企业；2025扩建项目和2022产品抽检证明其仍有生产活动，但葡萄酒与果汁／玫瑰醋业务需分层。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "大兴地酒庄 Daxingdi Winery 弥勒现行葡萄加工企业；2025扩建项目和2022产品抽检证明其仍有生产活动，但葡萄酒与果汁／玫瑰醋业务需分层。    云南省红河州弥勒市东风农场一队  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile"
+    },
+    {
+      "id": "cn-prod-034",
+      "notionId": "40717d16de4c819c8a84da296b16b601",
+      "kind": "producer",
+      "name": "香格里拉酒业",
+      "en": "Shangri-La Winery / Shangri-La Wine Co., Ltd.",
+      "status": "现行",
+      "entityType": "集团",
+      "aliases": [],
+      "summary": "云南高山葡萄酒规模与村庄网络型Producer；圣域、圣域传奇及海拔系列可连接村庄、海拔、品种和年份档案。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 云南高山葡萄酒规模与村庄网络型Producer；圣域、圣域传奇及海拔系列可连接村庄、海拔、品种和年份档案。    云南省迪庆州；德钦、香格里拉及多村庄葡萄园网络  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 香格里拉 海拔1800高原干红 Shangri-La Altiwine 1800 Plateaus Red 香格里拉 圣域传奇赤霞珠 Shangri-La Legend of Sacred Land Cabernet Sauvignon 香格里拉 海拔2600高原干红 Shangri-La Altiwine 2600 Plateaus Red 香格里拉 海拔1800高原干白 Shangri-La Altiwine 1800 Plateaus White 香格里拉 海拔2000高原干红 Shangri-La Altiwine 2000 Plateaus Red 香格里拉 圣域红葡萄酒 Shangri-La Sacred Land Red 香格里拉 圣域荣中赤霞珠 Shangri-La Sacred Land Rongzhong Cabernet Sauvignon 香格里拉 2600霞多丽 Shangri-La 2600 Chardonnay 香格里拉 圣域传奇霞多丽 Shangri-La Sacred Land Legend Chardonnay 斯农村 Yunnan — Deqin — Sinong Village 江坡村 Yunnan — Deqin — Jiangpo Village 荣中村 Yunnan — Deqin — Rongzhong Village 明永村 Yunnan — Deqin — Mingyong Village 九龙顶 Yunnan — Deqin — Jiulongding 东水村 Yunnan — Deqin — Dongshui Village"
+    },
+    {
+      "id": "cn-prod-036",
+      "notionId": "40717d16de4c816a80b8c13913260aa7",
+      "kind": "producer",
+      "name": "梅里酒业",
+      "en": "Meili Winery / Meili Wine",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "德钦官方近年仍列名的本地葡萄酒企业；需要补足云南本土企业，不让产区只剩国际集团和少数精品品牌。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "梅里酒业 Meili Winery / Meili Wine 德钦官方近年仍列名的本地葡萄酒企业；需要补足云南本土企业，不让产区只剩国际集团和少数精品品牌。    云南省迪庆州德钦县／梅里雪山与澜沧江河谷相关  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs"
+    },
+    {
+      "id": "cn-prod-055",
+      "notionId": "40717d16de4c8179beeee6f3e435cd78",
+      "kind": "producer",
+      "name": "姜瑜酝酿",
+      "en": "JiangYu Ferment",
+      "status": "现行",
+      "entityType": "生产商或品牌",
+      "aliases": [],
+      "summary": "独立酿酒师跨产区项目；云南葡萄冷链运输至烟台酿造，是“葡萄来源、生产地、品牌所在地”分离的重要案例。",
+      "areas": [
+        "云南",
+        "山东"
+      ],
+      "searchText": "姜瑜酝酿 JiangYu Ferment 独立酿酒师跨产区项目；云南葡萄冷链运输至烟台酿造，是“葡萄来源、生产地、品牌所在地”分离的重要案例。    山东省烟台市酿造基地；云南德钦等跨产区葡萄来源  山东·烟台与蓬莱 Shandong — Yantai and Penglai 云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 姜瑜酝酿 六千里赤霞珠 JiangYu Ferment 6000 Li Cabernet Sauvignon 姜瑜酝酿 中国桶赤霞珠 JiangYu Ferment Chinese Barrel Cabernet Sauvignon 姜瑜酝酿 依云霞多丽 JiangYu Ferment Cloud Chardonnay"
+    },
+    {
+      "id": "cn-prod-042",
+      "notionId": "40717d16de4c81d09735ef86694563a5",
+      "kind": "producer",
+      "name": "木杺酒庄",
+      "en": "Domaine Muxin",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "独立酿酒师牟超创立的微地块精品酒庄；20余片高海拔葡萄园及红白酒款适合建立村庄与parcel层。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "木杺酒庄 Domaine Muxin 独立酿酒师牟超创立的微地块精品酒庄；20余片高海拔葡萄园及红白酒款适合建立村庄与parcel层。    云南省迪庆州德钦县燕门乡茨中村及澜沧江中上游微地块网络  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 木杺 霞多丽 Domaine Muxin Chardonnay 木杺 红葡萄酒 Domaine Muxin Rouge 木杺 Cuvée Spéciale Domaine Muxin Cuvée Spéciale 茨中村 Yunnan — Deqin — Cizhong Village"
+    },
+    {
+      "id": "cn-prod-033",
+      "notionId": "40717d16de4c817dadbac41cefd4c849",
+      "kind": "producer",
+      "name": "霄岭酒庄",
+      "en": "Xiaoling Estate",
+      "status": "现行",
+      "entityType": "生产商或品牌",
+      "aliases": [],
+      "summary": "滇藏高海拔村庄与农户合作型精品项目；适合建立村庄、合作葡萄园、品牌和单一酒款的关系。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "霄岭酒庄 Xiaoling Estate 滇藏高海拔村庄与农户合作型精品项目；适合建立村庄、合作葡萄园、品牌和单一酒款的关系。    云南省迪庆州德钦县燕门乡巴东村／澜沧江上游  云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 霄岭之道干红葡萄酒 Sentiers de XiaoLing 霄岭 红坡霞多丽 XiaoLing HongPo Chardonnay 霄岭干白葡萄酒 XiaoLing White 云上霄岭干红葡萄酒 Nuages de XiaoLing 霄岭红葡萄酒 Xiaoling Estate Red 巴东村 Yunnan — Deqin — Badong Village 红坡村 Yunnan — Deqin — Hongpo Village"
+    },
+    {
+      "id": "cn-prod-051",
+      "notionId": "40717d16de4c81b892f3e37ced208b53",
+      "kind": "producer",
+      "name": "宝庄／Célèbre Winery",
+      "en": "Célèbre Winery",
+      "status": "现行",
+      "entityType": "生产商或品牌",
+      "aliases": [],
+      "summary": "詹氏兄弟创立的云南高端项目；100%赤霞珠首发红酒与高海拔霞多丽具有重要benchmark价值。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "宝庄／Célèbre Winery Célèbre Winery 詹氏兄弟创立的云南高端项目；100%赤霞珠首发红酒与高海拔霞多丽具有重要benchmark价值。    云南省迪庆州德钦／香格里拉高山村庄葡萄园网络；具体酒庄地址待官方资料核  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 宝庄干白葡萄酒 Célèbre White / Chardonnay 宝庄干红葡萄酒 Célèbre Red / Hauts Plateaux de l’Himalaya 斯永贡 Yunnan — Deqin — Siyongong 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 硕日拉姆／Allofme Allofme / Shuo Ri La Mu 融生永恒酒庄 Rongsheng Eternal Winery"
+    },
+    {
+      "id": "cn-prod-039",
+      "notionId": "40717d16de4c81a7b418e1c1ac5a40d2",
+      "kind": "producer",
+      "name": "藏地天香酒业",
+      "en": "Zangdi Tianxiang Winery",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "维西冰酒与高海拔葡萄项目的重要Producer；2026官方活动仍出现，适合连接维西、冰酒、合作基地与酒款。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "藏地天香酒业 Zangdi Tianxiang Winery 维西冰酒与高海拔葡萄项目的重要Producer；2026官方活动仍出现，适合连接维西、冰酒、合作基地与酒款。    云南省迪庆州维西县及相关高海拔葡萄基地  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／维西／腊普河谷 Yunnan — Diqing / Weixi / Lapu Valley"
+    },
+    {
+      "id": "cn-prod-044",
+      "notionId": "40717d16de4c813491edd07744ea11db",
+      "kind": "producer",
+      "name": "松赞茨中酒庄",
+      "en": "Songtsam Cizhong Winery",
+      "status": "当前状态待核",
+      "entityType": "酒旅／酒庄项目",
+      "aliases": [],
+      "summary": "酒庄酒店、茨中历史葡萄文化与红坡葡萄园结合的新项目；首批酒款当前发行状态需要复核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "松赞茨中酒庄 Songtsam Cizhong Winery 酒庄酒店、茨中历史葡萄文化与红坡葡萄园结合的新项目；首批酒款当前发行状态需要复核。    云南省迪庆州德钦县燕门乡茨中村；葡萄园涉及红坡村  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 茨中村 Yunnan — Deqin — Cizhong Village 红坡村 Yunnan — Deqin — Hongpo Village 日咀村 Yunnan — Deqin — Rizui Village"
+    },
+    {
+      "id": "cn-prod-049",
+      "notionId": "40717d16de4c815eac36c790b832747a",
+      "kind": "producer",
+      "name": "峄桐酒业（德钦）",
+      "en": "Yitong Wine (Deqin)",
+      "status": "当前状态待核",
+      "entityType": "企业／酒庄项目",
+      "aliases": [],
+      "summary": "2026年10月迪庆州委书记实地调研的在营／在建葡萄酒企业，是德钦当前酒庄集群的重要新增节点。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "峄桐酒业（德钦） Yitong Wine (Deqin) 2026年10月迪庆州委书记实地调研的在营／在建葡萄酒企业，是德钦当前酒庄集群的重要新增节点。    云南省迪庆州德钦县；具体酒庄与基地地址待项目资料核实  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs"
+    },
+    {
+      "id": "cn-prod-038",
+      "notionId": "40717d16de4c81f79d47d3bd66e42b13",
+      "kind": "producer",
+      "name": "山江谷葡萄酒",
+      "en": "Yunnan Shanjianggu Wine",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "2026官方活动仍出现的云南本土Producer；与茨中村庄、合作农户和迪庆新品发布网络相关。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "山江谷葡萄酒 Yunnan Shanjianggu Wine 2026官方活动仍出现的云南本土Producer；与茨中村庄、合作农户和迪庆新品发布网络相关。    云南省迪庆州／德钦县茨中及相关高山村庄（具体公司地址待核）  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 茨中村 Yunnan — Deqin — Cizhong Village"
+    },
+    {
+      "id": "cn-prod-059",
+      "notionId": "40717d16de4c81cc9a6ff936ec0b4bb7",
+      "kind": "producer",
+      "name": "红河龙缘葡萄酒业",
+      "en": "Honghe Longyuan Winery",
+      "status": "现行",
+      "entityType": "综合加工企业／酒旅",
+      "aliases": [],
+      "summary": "李云飞夫妇创办的弥勒本土酒庄；2026仍有现行经营与品牌活动证据，覆盖葡萄酒、葡萄烈酒、葡萄果汁及酒旅体验。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "红河龙缘葡萄酒业 Honghe Longyuan Winery 李云飞夫妇创办的弥勒本土酒庄；2026仍有现行经营与品牌活动证据，覆盖葡萄酒、葡萄烈酒、葡萄果汁及酒旅体验。    云南省红河州弥勒市东风农场  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile"
+    },
+    {
+      "id": "cn-prod-040",
+      "notionId": "40717d16de4c8116b278d18e0aef894d",
+      "kind": "producer",
+      "name": "腊普河谷酒庄",
+      "en": "Lapu Valley Winery",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "维西高海拔Vidal、冰酒和白葡萄酒的代表性Producer；藏云谷系列连接不同海拔葡萄园和多个甜度／酒型。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "腊普河谷酒庄 Lapu Valley Winery 维西高海拔Vidal、冰酒和白葡萄酒的代表性Producer；藏云谷系列连接不同海拔葡萄园和多个甜度／酒型。    云南省迪庆州维西县腊普河谷及高海拔传统村落  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／维西／腊普河谷 Yunnan — Diqing / Weixi / Lapu Valley 腊普 藏云谷高端冰酒 Lapu Zangyungu Premium Icewine"
+    },
+    {
+      "id": "cn-prod-062",
+      "notionId": "40717d16de4c81aea4effa5fd6e4e02b",
+      "kind": "producer",
+      "name": "米轨时光葡萄酒庄",
+      "en": "Migui Shiguang Winery",
+      "status": "当前状态待核",
+      "entityType": "历史企业",
+      "aliases": [],
+      "summary": "弥勒历史酒庄名单与食品生产许可档案中的企业；2019官方调查称多年未收购原料生产，当前复产或停业状态待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "米轨时光葡萄酒庄 Migui Shiguang Winery 弥勒历史酒庄名单与食品生产许可档案中的企业；2019官方调查称多年未收购原料生产，当前复产或停业状态待核。    云南省红河州弥勒市东风农场明以则  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile"
+    },
+    {
+      "id": "cn-prod-048",
+      "notionId": "40717d16de4c81c28af1c49c95e56820",
+      "kind": "producer",
+      "name": "长石酒庄",
+      "en": "Changshi Winery",
+      "status": "当前状态待核",
+      "entityType": "综合加工企业／建设项目",
+      "aliases": [],
+      "summary": "弥勒当前仍有扩建／用地审批动作的本地酒庄；葡萄酒、葡萄烈酒和葡萄果汁业务需要分层记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "长石酒庄 Changshi Winery 弥勒当前仍有扩建／用地审批动作的本地酒庄；葡萄酒、葡萄烈酒和葡萄果汁业务需要分层记录。    云南省红河州弥勒市东风农场湖东路九号  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile"
+    },
+    {
+      "id": "cn-prod-058",
+      "notionId": "40717d16de4c810e82def5aa13510116",
+      "kind": "producer",
+      "name": "茨中秘境葡萄酒之家",
+      "en": "Cizhong Secret Wine House",
+      "status": "家庭酒庄／体验项目",
+      "entityType": "家庭酒庄／体验项目",
+      "aliases": [],
+      "summary": "茨中村玫瑰蜜传统、自酿酒、民宿体验和村庄文化展示节点；能够补足大型酒庄之外的微型家庭酒庄体系。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "茨中秘境葡萄酒之家 Cizhong Secret Wine House 茨中村玫瑰蜜传统、自酿酒、民宿体验和村庄文化展示节点；能够补足大型酒庄之外的微型家庭酒庄体系。    云南省迪庆州德钦县燕门乡茨中村  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 茨中秘境玫瑰蜜干红葡萄酒 Cizhong Secret Rose Honey Red 茨中村 Yunnan — Deqin — Cizhong Village"
+    },
+    {
+      "id": "cn-prod-052",
+      "notionId": "40717d16de4c814e9752f7f2d8ac11f9",
+      "kind": "producer",
+      "name": "诞生地酒庄／Dan Sheng Di",
+      "en": "Dan Sheng Di Winery",
+      "status": "现行",
+      "entityType": "生产商或品牌",
+      "aliases": [],
+      "summary": "云南超高端村庄／地块表达项目；Sulu、Bucun、Agape Siyongong等酒款需独立于宝庄建档。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 云南超高端村庄／地块表达项目；Sulu、Bucun、Agape Siyongong等酒款需独立于宝庄建档。    云南省迪庆州德钦县奔子栏镇及高山村庄葡萄园网络  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 诞生地 Agape Siyongong霞多丽 Dan Sheng Di Agape Siyongong 诞生地 Bucun红葡萄酒 Dan Sheng Di Bucun 诞生地 苏鲁红葡萄酒 Dan Sheng Di Sulu 苏鲁村 Yunnan — Deqin — Sulu Village 布村 Yunnan — Deqin — Bucun Village 斯永贡 Yunnan — Deqin — Siyongong 宝庄／Célèbre Winery Célèbre Winery 硕日拉姆／Allofme Allofme / Shuo Ri La Mu"
+    },
+    {
+      "id": "cn-prod-066",
+      "notionId": "40717d16de4c81f5a494c9e05dbfd494",
+      "kind": "producer",
+      "name": "酉川德钦酒庄项目",
+      "en": "Youchuan Deqin Winery Project",
+      "status": "签约／建设中",
+      "entityType": "项目",
+      "aliases": [],
+      "summary": "2026德钦梅里葡萄酒产区推介会签约项目；当前仅确认签约合作。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "酉川德钦酒庄项目 Youchuan Deqin Winery Project 2026德钦梅里葡萄酒产区推介会签约项目；当前仅确认签约合作。    云南省迪庆州德钦县；具体选址、基地与建设状态待核  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin"
+    },
+    {
+      "id": "cn-prod-061",
+      "notionId": "40717d16de4c81089ae8ece992f3eed3",
+      "kind": "producer",
+      "name": "门吉庄园",
+      "en": "Menji Estate",
+      "status": "签约／建设中",
+      "entityType": "酒旅综合体项目",
+      "aliases": [],
+      "summary": "总投资约3.5亿元的一二三产业融合庄园项目；规划包含酒厂、研发、玻璃酒窖、酒店与民宿，但是否已完成投产与现行酒款仍需核实。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "门吉庄园 Menji Estate 总投资约3.5亿元的一二三产业融合庄园项目；规划包含酒厂、研发、玻璃酒窖、酒店与民宿，但是否已完成投产与现行酒款仍需核实。    云南省红河州弥勒市东风农场鸡街铺社区长塘子水库旁  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile"
+    },
+    {
+      "id": "cn-prod-056",
+      "notionId": "40717d16de4c8100bc6ee704d1f30037",
+      "kind": "producer",
+      "name": "雪山秘境酒庄",
+      "en": "Sacred Snow Mountain Winery",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "李国军、牟方成于2019年前后建立的高山精品项目；霞多丽、冰酒和西拉已形成当前赛事与市场可核酒款。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "雪山秘境酒庄 Sacred Snow Mountain Winery 李国军、牟方成于2019年前后建立的高山精品项目；霞多丽、冰酒和西拉已形成当前赛事与市场可核酒款。    云南省迪庆州德钦县梅里雪山／澜沧江河谷；公司资料另涉及怒江主体  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 雪山秘境西拉干红葡萄酒 Sacred Snow Mountain Syrah 雪山秘境 花落祥云典藏冰酒 Sacred Snow Mountain Hualuo Xiangyun Reserve Icewine 雪山秘境珍藏霞多丽 Sacred Snow Mountain Grand Reserve Chardonnay 江坡村 Yunnan — Deqin — Jiangpo Village 红坡村 Yunnan — Deqin — Hongpo Village"
+    },
+    {
+      "id": "cn-prod-037",
+      "notionId": "40717d16de4c8184baf4e6cc6aac5814",
+      "kind": "producer",
+      "name": "融生永恒酒庄",
+      "en": "Rongsheng Eternal Winery",
+      "status": "当前状态待核",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "德钦本土规模酒庄节点；历史资料显示生产设施与葡萄产业投资，但截至当前日期生产许可状态需重新确认。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "融生永恒酒庄 Rongsheng Eternal Winery 德钦本土规模酒庄节点；历史资料显示生产设施与葡萄产业投资，但截至当前日期生产许可状态需重新确认。    云南省迪庆州德钦县奔子栏镇／甲木一带（具体地址待当前许可核）  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 宝庄／Célèbre Winery Célèbre Winery"
+    },
+    {
+      "id": "cn-prod-041",
+      "notionId": "40717d16de4c81189646ce6894d11b2b",
+      "kind": "producer",
+      "name": "扎西核桃树酒庄",
+      "en": "ZAXEE Walnut Tree Winery",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "跨省高海拔小型精品酒庄；酒庄地址与葡萄来源不同，是中国Wine Library产地关系模型的关键案例。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "扎西核桃树酒庄 ZAXEE Walnut Tree Winery 跨省高海拔小型精品酒庄；酒庄地址与葡萄来源不同，是中国Wine Library产地关系模型的关键案例。    酒庄位于云南德钦奔子栏镇哈充村；主要葡萄园涉及四川甘孜州得荣高山区域  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 扎西 2300干红葡萄酒 ZAXEE 2300 Red 扎西 大扎西2560 ZAXEE Grand Zaxee 2560 扎西 珍藏霞多丽 ZAXEE Reserve Chardonnay 哈充村 Yunnan — Deqin — Hachong Village"
+    },
+    {
+      "id": "cn-prod-067",
+      "notionId": "40717d16de4c816eafa0fe87efa7b7c9",
+      "kind": "producer",
+      "name": "江坡宝取酒庄项目",
+      "en": "Jiangpo Baoqu Winery Project",
+      "status": "签约／建设中",
+      "entityType": "项目",
+      "aliases": [],
+      "summary": "德钦县政府与北京莫斯卡托有限公司于2026年4月签约的酒庄项目；定位为生产服务平台与高端酒庄项目。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "江坡宝取酒庄项目 Jiangpo Baoqu Winery Project 德钦县政府与北京莫斯卡托有限公司于2026年4月签约的酒庄项目；定位为生产服务平台与高端酒庄项目。    云南省迪庆州德钦县江坡村／具体项目用地待核  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 江坡村 Yunnan — Deqin — Jiangpo Village"
+    },
+    {
+      "id": "cn-prod-065",
+      "notionId": "40717d16de4c8151a588d6dcf109fd3d",
+      "kind": "producer",
+      "name": "木兰朵德钦酒庄项目",
+      "en": "Mulanduo Deqin Winery Project",
+      "status": "签约／建设中",
+      "entityType": "项目",
+      "aliases": [],
+      "summary": "2026第四届德钦梅里葡萄酒产区推介会上签约的新增项目；目前仅确认签约，未确认投产、许可或酒款。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "木兰朵德钦酒庄项目 Mulanduo Deqin Winery Project 2026第四届德钦梅里葡萄酒产区推介会上签约的新增项目；目前仅确认签约，未确认投产、许可或酒款。    云南省迪庆州德钦县；具体选址、基地与建设状态待项目资料  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin"
+    },
+    {
+      "id": "cn-prod-054",
+      "notionId": "40717d16de4c81618e3ef3df78ddc080",
+      "kind": "producer",
+      "name": "罗迪酒庄／水乳大地",
+      "en": "Château Roduit",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [
+        "罗迪酒庄",
+        "水乳大地",
+        "Chateau Roduit",
+        "Château Roduit"
+      ],
+      "summary": "瑞士酿酒师Yves Roduit与藏族妻子Hélène建立的陶罐自然酿造项目；水乳大地和大地颂歌具有独特生产方法。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "罗迪酒庄／水乳大地 Château Roduit 罗迪酒庄 水乳大地 Chateau Roduit Château Roduit 瑞士酿酒师Yves Roduit与藏族妻子Hélène建立的陶罐自然酿造项目；水乳大地和大地颂歌具有独特生产方法。    云南省迪庆州德钦县燕门乡／巴东村及2200、2500、2700米葡萄园网络  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 水乳大地赤霞珠红葡萄酒 Château Roduit Shui Ru Da Di 大地颂歌红葡萄酒 Château Roduit Canticle to the Land 巴东村 Yunnan — Deqin — Badong Village"
+    },
+    {
+      "id": "cn-prod-064",
+      "notionId": "40717d16de4c811a8468e8a7d1425c01",
+      "kind": "producer",
+      "name": "东风宝云酒庄",
+      "en": "Dongfeng Baoyun Winery",
+      "status": "当前状态待核",
+      "entityType": "烈酒企业／历史资料",
+      "aliases": [],
+      "summary": "官方历史名单与许可中的葡萄烈酒、白兰地和朗姆酒生产企业；现行经营与葡萄酒产品待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "东风宝云酒庄 Dongfeng Baoyun Winery 官方历史名单与许可中的葡萄烈酒、白兰地和朗姆酒生产企业；现行经营与葡萄酒产品待核。    云南省红河州弥勒市东风农场八队葡萄种植园  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile"
+    },
+    {
+      "id": "cn-prod-043",
+      "notionId": "40717d16de4c812aab68fa547a12755e",
+      "kind": "producer",
+      "name": "醉生梦酒庄",
+      "en": "Zuishengmeng Winery",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "独立酿酒师、村庄单一园、冰酒与酒庄民宿复合项目；当前官方与行业资料持续出现。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "醉生梦酒庄 Zuishengmeng Winery 独立酿酒师、村庄单一园、冰酒与酒庄民宿复合项目；当前官方与行业资料持续出现。    云南省迪庆州德钦县奔子栏镇叶央村委会哈充组  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 醉生梦 高山冰酒 Zuishengmeng Alpine Icewine 醉生梦 只此高峰红葡萄酒 Zuishengmeng Only This Peak Red 哈充村 Yunnan — Deqin — Hachong Village 叶日村 Yunnan — Deqin — Yeri Village"
+    },
+    {
+      "id": "cn-prod-046",
+      "notionId": "40717d16de4c81f0a1c3f983c6833fe7",
+      "kind": "producer",
+      "name": "东风庄园",
+      "en": "Dongfeng Estate Winery",
+      "status": "现行",
+      "entityType": "酒庄",
+      "aliases": [],
+      "summary": "弥勒东风农场现行酒庄；玫瑰蜜、水晶、赤霞珠及葡萄烈酒产品线可连接红河／弥勒地方品种与产业历史。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "东风庄园 Dongfeng Estate Winery 弥勒东风农场现行酒庄；玫瑰蜜、水晶、赤霞珠及葡萄烈酒产品线可连接红河／弥勒地方品种与产业历史。    云南省红河州弥勒市东风农场七队  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile 东风庄园 经典赤霞珠干红葡萄酒 Dongfeng Estate Classic Cabernet Sauvignon"
+    },
+    {
+      "id": "cn-prod-047",
+      "notionId": "40717d16de4c81459dabedb0b1865181",
+      "kind": "producer",
+      "name": "云醴红酒庄",
+      "en": "Yunlihong Winery",
+      "status": "现行",
+      "entityType": "生产商或品牌",
+      "aliases": [],
+      "summary": "弥勒新生代精品品牌；官方站点明确披露自有葡园、委托生产单位及生产厂址，适合展示品牌与生产主体分离。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云醴红酒庄 Yunlihong Winery 弥勒新生代精品品牌；官方站点明确披露自有葡园、委托生产单位及生产厂址，适合展示品牌与生产主体分离。    云南省红河州弥勒市东风农场街道小平地社区；品牌运营中心在广州  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·红河／弥勒 Yunnan — Honghe / Mile"
+    },
+    {
+      "id": "cn-prod-045",
+      "notionId": "40717d16de4c816bb248eac2f6e922a5",
+      "kind": "producer",
+      "name": "小圃酿造／Domaine de la Gyalthang",
+      "en": "Xiaopu Winemaking / Domaine de la Gyalthang",
+      "status": "现行",
+      "entityType": "生产商或品牌",
+      "aliases": [
+        "小圃",
+        "建塘",
+        "Domaine de la Gyalthang"
+      ],
+      "summary": "新一代独立酿造品牌，覆盖高海拔赤霞珠、霞多丽、橘酒、Flor霞多丽及混植桃红等风格。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "小圃酿造／Domaine de la Gyalthang Xiaopu Winemaking / Domaine de la Gyalthang 小圃 建塘 Domaine de la Gyalthang 新一代独立酿造品牌，覆盖高海拔赤霞珠、霞多丽、橘酒、Flor霞多丽及混植桃红等风格。    云南迪庆／大香格里拉高海拔葡萄来源网络；具体酿造地点与园地逐酒款核实  云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 小圃酿造 高海拔赤霞珠 Domaine de la Gyalthang High Altitude Cabernet Sauvignon"
+    },
+    {
+      "id": "cn-wine-035",
+      "notionId": "40717d16de4c812a82c7c58500bcd57d",
+      "kind": "wine",
+      "name": "云南红 法国野",
+      "en": "Yunnan Red French Wild",
+      "status": "当前发行",
+      "entityType": "",
+      "aliases": [],
+      "summary": "地方市场名称与Baco Noir身份并存；不得仅按中文名创建第二个葡萄品种。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南红 法国野 Yunnan Red French Wild 地方市场名称与Baco Noir身份并存；不得仅按中文名创建第二个葡萄品种。  官网标示法国野／Baco Noir；红葡萄酒。   云南弥勒／东风农场体系；具体园地待核。 云南红酒庄／云南高原葡萄酒集团 Yunnan Red Winery / Yunnan Red Wine Group"
+    },
+    {
+      "id": "cn-wine-032",
+      "notionId": "40717d16de4c818da295e3b0fe23030c",
+      "kind": "wine",
+      "name": "云南红 三星干红",
+      "en": "Yunnan Red 3 Star Red",
+      "status": "当前发行",
+      "entityType": "",
+      "aliases": [
+        "三星玫瑰蜜",
+        "云南红三星玫瑰蜜"
+      ],
+      "summary": "云南红星级系列入门干红；3星、4星、5星老树是不同酒款记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南红 三星干红 Yunnan Red 3 Star Red 三星玫瑰蜜 云南红三星玫瑰蜜 云南红星级系列入门干红；3星、4星、5星老树是不同酒款记录。  玫瑰蜜／官网标示 Isabella；红葡萄酒。   云南红河州弥勒／东风农场体系；具体葡萄园与酒标产地待产品批次核。 云南红酒庄／云南高原葡萄酒集团 Yunnan Red Winery / Yunnan Red Wine Group"
+    },
+    {
+      "id": "cn-wine-034",
+      "notionId": "40717d16de4c81209376e97d86799216",
+      "kind": "wine",
+      "name": "云南红 云中舞",
+      "en": "Yunnan Red Dance of the Clouds",
+      "status": "当前发行",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南地方化葡萄身份的重要酒款；商品名、品种名和杂交亲本需分别核对。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南红 云中舞 Yunnan Red Dance of the Clouds 云南地方化葡萄身份的重要酒款；商品名、品种名和杂交亲本需分别核对。  官网标示云中舞／Seibel 4646 “Le Pourpre”；红葡萄酒。   云南弥勒／东风农场体系；具体园地待核。 云南红酒庄／云南高原葡萄酒集团 Yunnan Red Winery / Yunnan Red Wine Group"
+    },
+    {
+      "id": "cn-wine-046",
+      "notionId": "40717d16de4c812085d8ee0f93e2e820",
+      "kind": "wine",
+      "name": "云南红 老树25年水晶干白",
+      "en": "Yunnan Red Old Vine 25 Years Niagara White",
+      "status": "当前发行",
+      "entityType": "",
+      "aliases": [],
+      "summary": "老树25年白酒。树龄和品种身份按具体地块／种质来源核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南红 老树25年水晶干白 Yunnan Red Old Vine 25 Years Niagara White 老树25年白酒。树龄和品种身份按具体地块／种质来源核。  水晶／官网标示Niagara；老藤白葡萄酒。   云南弥勒／东风农场体系；具体园地和种植年份待技术资料。 云南红酒庄／云南高原葡萄酒集团 Yunnan Red Winery / Yunnan Red Wine Group"
+    },
+    {
+      "id": "cn-wine-033",
+      "notionId": "40717d16de4c8130a106d15455f7e957",
+      "kind": "wine",
+      "name": "云南红 老树25年玫瑰蜜",
+      "en": "Yunnan Red Old Vine 25 Years Isabella",
+      "status": "当前发行",
+      "entityType": "",
+      "aliases": [],
+      "summary": "老树25年系列红酒。树龄是产品／园地声明，需核实实际地块与当前年份。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南红 老树25年玫瑰蜜 Yunnan Red Old Vine 25 Years Isabella 老树25年系列红酒。树龄是产品／园地声明，需核实实际地块与当前年份。  玫瑰蜜／官网标示Isabella；老藤红葡萄酒。   云南弥勒／东风农场体系；具体老藤园地和种植年份待技术资料。 云南红酒庄／云南高原葡萄酒集团 Yunnan Red Winery / Yunnan Red Wine Group"
+    },
+    {
+      "id": "cn-wine-055",
+      "notionId": "40717d16de4c81adbf1ef8ac92787425",
+      "kind": "wine",
+      "name": "香格里拉 海拔1800高原干红",
+      "en": "Shangri-La Altiwine 1800 Plateaus Red",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "海拔1800红酒；与同系列白酒分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 海拔1800高原干红 Shangri-La Altiwine 1800 Plateaus Red 海拔1800红酒；与同系列白酒分开。  赤霞珠干红。   云南迪庆；具体来源按年份。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-wine-051",
+      "notionId": "40717d16de4c8160af68db33f2486381",
+      "kind": "wine",
+      "name": "香格里拉 圣域传奇赤霞珠",
+      "en": "Shangri-La Legend of Sacred Land Cabernet Sauvignon",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "圣域传奇红酒入口；与圣域、圣域荣中和海拔系列分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 圣域传奇赤霞珠 Shangri-La Legend of Sacred Land Cabernet Sauvignon 圣域传奇红酒入口；与圣域、圣域荣中和海拔系列分开。  赤霞珠干红。   云南迪庆高山村庄；具体村庄／园地和酒标声明待核。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-wine-052",
+      "notionId": "40717d16de4c81b8843de38d5a184371",
+      "kind": "wine",
+      "name": "香格里拉 海拔2600高原干红",
+      "en": "Shangri-La Altiwine 2600 Plateaus Red",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "海拔系列红酒；与2600霞多丽及圣域系列分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 海拔2600高原干红 Shangri-La Altiwine 2600 Plateaus Red 海拔系列红酒；与2600霞多丽及圣域系列分开。  赤霞珠干红；具体酒款可能存在年份差异。   云南迪庆高山村庄；2600为系列／产品表达，实际来源按年份。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-wine-054",
+      "notionId": "40717d16de4c81b4b1fcd063c3928243",
+      "kind": "wine",
+      "name": "香格里拉 海拔1800高原干白",
+      "en": "Shangri-La Altiwine 1800 Plateaus White",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "海拔1800白酒；当前发行与真实园地待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 海拔1800高原干白 Shangri-La Altiwine 1800 Plateaus White 海拔1800白酒；当前发行与真实园地待核。  霞多丽干白。   云南迪庆；具体村庄、海拔和酒标按年份。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-wine-048",
+      "notionId": "40717d16de4c81fbb4c7eaad7175ed68",
+      "kind": "wine",
+      "name": "霄岭之道干红葡萄酒",
+      "en": "Sentiers de XiaoLing",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "Sentiers de XiaoLing酒款身份由外部目录支持；现行状态待Producer确认。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "霄岭之道干红葡萄酒 Sentiers de XiaoLing Sentiers de XiaoLing酒款身份由外部目录支持；现行状态待Producer确认。  赤霞珠、梅洛混酿；具体比例按年份。   云南德钦／茨中相关；具体村庄与园地待核。 霄岭酒庄 Xiaoling Estate 茨中村 Yunnan — Deqin — Cizhong Village"
+    },
+    {
+      "id": "cn-wine-067",
+      "notionId": "40717d16de4c81878f69d41023b42f04",
+      "kind": "wine",
+      "name": "姜瑜酝酿 六千里赤霞珠",
+      "en": "JiangYu Ferment 6000 Li Cabernet Sauvignon",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "“六千里”是品牌叙事与酒款名，不等于法定产区。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "姜瑜酝酿 六千里赤霞珠 JiangYu Ferment 6000 Li Cabernet Sauvignon “六千里”是品牌叙事与酒款名，不等于法定产区。  赤霞珠红葡萄酒；跨产区冷链运输项目。   葡萄来源云南德钦；公开资料称冷链运输至山东烟台酿造。具体园地与酒标产地按年份。 姜瑜酝酿 JiangYu Ferment 姜瑜酝酿六千里赤霞珠 2022 "
+    },
+    {
+      "id": "cn-wine-053",
+      "notionId": "40717d16de4c81358052f2d9918964b7",
+      "kind": "wine",
+      "name": "香格里拉 海拔2000高原干红",
+      "en": "Shangri-La Altiwine 2000 Plateaus Red",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "海拔系列；当前发行与系列层级待官网核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 海拔2000高原干红 Shangri-La Altiwine 2000 Plateaus Red 海拔系列；当前发行与系列层级待官网核。  赤霞珠干红。   云南迪庆；具体葡萄来源和实际海拔按年份酒标。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-wine-074",
+      "notionId": "40717d16de4c81568b57d71a4667de35",
+      "kind": "wine",
+      "name": "寸山白马雪山德钦霞多丽",
+      "en": "Petit Mont Baima Snow Mountain Deqin Chardonnay",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [],
+      "summary": "与臻藏霞多丽分开的酒款；2024为当前公开年份。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "寸山白马雪山德钦霞多丽 Petit Mont Baima Snow Mountain Deqin Chardonnay 与臻藏霞多丽分开的酒款；2024为当前公开年份。  霞多丽干白；具体配方、酒泥与容器按年份。   云南德钦白马雪山／阿东村相关地块；2024起直接签约管理四片葡萄园的公开资料需逐地块核。 寸山 Petit Mont 寸山白马雪山德钦霞多丽 2024  阿东村 Yunnan — Deqin — Adong Village"
+    },
+    {
+      "id": "cn-wine-047",
+      "notionId": "40717d16de4c81089760d3a71d2ce84f",
+      "kind": "wine",
+      "name": "霄岭 红坡霞多丽",
+      "en": "XiaoLing HongPo Chardonnay",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "外部酒款目录收录；当前发行、正式中文名与年份待霄岭确认。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "霄岭 红坡霞多丽 XiaoLing HongPo Chardonnay 外部酒款目录收录；当前发行、正式中文名与年份待霄岭确认。  霞多丽干白。   云南德钦／红坡相关；具体葡萄园与Producer关系待酒庄资料。 霄岭酒庄 Xiaoling Estate 红坡村 Yunnan — Deqin — Hongpo Village"
+    },
+    {
+      "id": "cn-wine-049",
+      "notionId": "40717d16de4c81019fd5f47d581c3197",
+      "kind": "wine",
+      "name": "霄岭干白葡萄酒",
+      "en": "XiaoLing White",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "外部目录收录的霄岭白酒；是否与其他白酒／村庄酒为同一系列待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "霄岭干白葡萄酒 XiaoLing White 外部目录收录的霄岭白酒；是否与其他白酒／村庄酒为同一系列待核。  霞多丽干白。   云南德钦／茨中及合作村庄；具体园地待核。 霄岭酒庄 Xiaoling Estate 茨中村 Yunnan — Deqin — Cizhong Village"
+    },
+    {
+      "id": "cn-wine-056",
+      "notionId": "40717d16de4c81e08246fe9dde62a4b8",
+      "kind": "wine",
+      "name": "扎西 2300干红葡萄酒",
+      "en": "ZAXEE 2300 Red",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "“2300”酒款名称／海拔表达；与大扎西2560分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "扎西 2300干红葡萄酒 ZAXEE 2300 Red “2300”酒款名称／海拔表达；与大扎西2560分开。  赤霞珠干红。   Producer位于云南，葡萄来源可能涉及四川得荣；具体酒标按年份。 扎西核桃树酒庄 ZAXEE Walnut Tree Winery"
+    },
+    {
+      "id": "cn-wine-050",
+      "notionId": "40717d16de4c818c81f2f71fe29fb458",
+      "kind": "wine",
+      "name": "云上霄岭干红葡萄酒",
+      "en": "Nuages de XiaoLing",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "Nuages de XiaoLing酒款身份由外部目录支持；中文规范名和现行状态待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云上霄岭干红葡萄酒 Nuages de XiaoLing Nuages de XiaoLing酒款身份由外部目录支持；中文规范名和现行状态待核。  赤霞珠、梅洛混酿；具体比例按年份。   云南德钦／茨中相关；具体村庄与园地待核。 霄岭酒庄 Xiaoling Estate 茨中村 Yunnan — Deqin — Cizhong Village"
+    },
+    {
+      "id": "cn-wine-061",
+      "notionId": "40717d16de4c81419713cd2fa6f4be69",
+      "kind": "wine",
+      "name": "诞生地 Agape Siyongong霞多丽",
+      "en": "Dan Sheng Di Agape Siyongong",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "诞生地白葡萄酒／地块表达；可能与酒单中的“叁”霞多丽相关，但在品牌资料确认前不合并。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "诞生地 Agape Siyongong霞多丽 Dan Sheng Di Agape Siyongong 诞生地白葡萄酒／地块表达；可能与酒单中的“叁”霞多丽相关，但在品牌资料确认前不合并。  霞多丽白葡萄酒；具体年份、橡木和酒泥方案待技术资料。   云南高山村庄Siyongong；正式中文地名、园地与酒标声明待核。 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 斯永贡 Yunnan — Deqin — Siyongong"
+    },
+    {
+      "id": "cn-wine-028",
+      "notionId": "40717d16de4c8179b978d9b008fef935",
+      "kind": "wine",
+      "name": "香格里拉 圣域红葡萄酒",
+      "en": "Shangri-La Sacred Land Red",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [],
+      "summary": "香格里拉酒业旗舰红酒。圣域品牌、具体年份和村庄调配分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 圣域红葡萄酒 Shangri-La Sacred Land Red 香格里拉酒业旗舰红酒。圣域品牌、具体年份和村庄调配分别记录。  高海拔赤霞珠及波尔多品种混酿风格；具体比例按年份。   云南迪庆高山村庄网络；具体村庄、地块和海拔按年份资料。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-wine-030",
+      "notionId": "40717d16de4c81f2bdb7f63dd9fb49c5",
+      "kind": "wine",
+      "name": "香格里拉 圣域荣中赤霞珠",
+      "en": "Shangri-La Sacred Land Rongzhong Cabernet Sauvignon",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "圣域村庄／园地表达之一；不得把2020技术参数扩展到全部年份。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 圣域荣中赤霞珠 Shangri-La Sacred Land Rongzhong Cabernet Sauvignon 圣域村庄／园地表达之一；不得把2020技术参数扩展到全部年份。  赤霞珠高海拔红葡萄酒；具体品种比例按年份。   云南迪庆；Rongzhong／荣中名称的村庄、园地和中文规范写法按酒标及年份资料。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 香格里拉圣域荣中赤霞珠 2020  荣中村 Yunnan — Deqin — Rongzhong Village"
+    },
+    {
+      "id": "cn-wine-031",
+      "notionId": "40717d16de4c81eb98efc3f19b93a3a6",
+      "kind": "wine",
+      "name": "香格里拉 2600霞多丽",
+      "en": "Shangri-La 2600 Chardonnay",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [
+        "海拔2600霞多丽"
+      ],
+      "summary": "香格里拉海拔系列酒款之一；与圣域传奇霞多丽分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 2600霞多丽 Shangri-La 2600 Chardonnay 海拔2600霞多丽 香格里拉海拔系列酒款之一；与圣域传奇霞多丽分开。  霞多丽干白；高酸、清凉高海拔表达，具体酿造按年份。   云南迪庆高海拔村庄；“2600”是系列／酒款命名，实际葡萄海拔和村庄按年份核。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-wine-029",
+      "notionId": "40717d16de4c81bcb70bdfea7a1cd5a6",
+      "kind": "wine",
+      "name": "香格里拉 圣域传奇霞多丽",
+      "en": "Shangri-La Sacred Land Legend Chardonnay",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [],
+      "summary": "圣域传奇白葡萄酒；与圣域红、圣域传奇红及2600霞多丽分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉 圣域传奇霞多丽 Shangri-La Sacred Land Legend Chardonnay 圣域传奇白葡萄酒；与圣域红、圣域传奇红及2600霞多丽分开。  霞多丽；高海拔、保留酸度、风格，具体参数按年份。   云南迪庆高海拔村庄；具体来源按年份，详见2022档案。 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 香格里拉圣域传奇霞多丽 2022  江坡村 Yunnan — Deqin — Jiangpo Village"
+    },
+    {
+      "id": "cn-wine-060",
+      "notionId": "40717d16de4c8195a557e902d4ce269b",
+      "kind": "wine",
+      "name": "诞生地 Bucun红葡萄酒",
+      "en": "Dan Sheng Di Bucun",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "Dan Sheng Di独立酒款；不可按Sulu配方推断。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "诞生地 Bucun红葡萄酒 Dan Sheng Di Bucun Dan Sheng Di独立酒款；不可按Sulu配方推断。  高海拔红葡萄酒；当前公开酒单未提供完整品种与配方。   云南高山村庄；Bucun中文地名、行政身份和具体地块待品牌资料。 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 诞生地Bucun红葡萄酒 2018  布村 Yunnan — Deqin — Bucun Village"
+    },
+    {
+      "id": "cn-wine-069",
+      "notionId": "40717d16de4c81da8d7af204fc6d14d5",
+      "kind": "wine",
+      "name": "姜瑜酝酿 中国桶赤霞珠",
+      "en": "JiangYu Ferment Chinese Barrel Cabernet Sauvignon",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "不能从名称推断100%中国橡木或固定桶陈方案。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "姜瑜酝酿 中国桶赤霞珠 JiangYu Ferment Chinese Barrel Cabernet Sauvignon 不能从名称推断100%中国橡木或固定桶陈方案。  赤霞珠红葡萄酒；“中国桶”指酒款／橡木概念，具体桶材和陈酿按年份。   公开产品目录归入云南来源项目；具体葡萄园、生产地点与酒标待核。 姜瑜酝酿 JiangYu Ferment"
+    },
+    {
+      "id": "cn-wine-072",
+      "notionId": "40717d16de4c81568f11cca9a68dd8c5",
+      "kind": "wine",
+      "name": "雪山秘境西拉干红葡萄酒",
+      "en": "Sacred Snow Mountain Syrah",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "2024年份在产区大师班公开展示；长期系列和当前发行仍需酒庄确认。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "雪山秘境西拉干红葡萄酒 Sacred Snow Mountain Syrah 2024年份在产区大师班公开展示；长期系列和当前发行仍需酒庄确认。  Syrah／西拉干红；高山香料与果香风格，具体技术按年份。   云南高山葡萄来源；具体村庄、地块、公司与酒标产地按年份。 雪山秘境酒庄 Sacred Snow Mountain Winery 雪山秘境西拉干红 2024 "
+    },
+    {
+      "id": "cn-wine-073",
+      "notionId": "40717d16de4c81d4bb10fa3b31e342c8",
+      "kind": "wine",
+      "name": "寸山白马雪山德钦臻藏霞多丽",
+      "en": "Petit Mont Baima Snow Mountain Deqin Cuvée Prestige Chardonnay",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [],
+      "summary": "寸山云南线臻藏白酒；与普通白马雪山德钦霞多丽分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "寸山白马雪山德钦臻藏霞多丽 Petit Mont Baima Snow Mountain Deqin Cuvée Prestige Chardonnay 寸山云南线臻藏白酒；与普通白马雪山德钦霞多丽分开。  霞多丽干白；分批发酵、容器比例与酒泥陈酿按年份。   云南德钦白马雪山高山葡萄园；具体来源按年份。 寸山 Petit Mont 寸山白马雪山德钦臻藏霞多丽 2023  阿东村 Yunnan — Deqin — Adong Village"
+    },
+    {
+      "id": "cn-wine-037",
+      "notionId": "40717d16de4c817f81bceee8b8c7739a",
+      "kind": "wine",
+      "name": "扎西 大扎西2560",
+      "en": "ZAXEE Grand Zaxee 2560",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "“2560”属于酒款命名／海拔表达，需连接具体园地，不等同云南产地。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "扎西 大扎西2560 ZAXEE Grand Zaxee 2560 “2560”属于酒款命名／海拔表达，需连接具体园地，不等同云南产地。  高海拔红葡萄酒；具体品种与混酿待年份技术资料。   Producer位于云南德钦；葡萄来源涉及四川得荣高海拔园地，具体酒标产地按年份。 扎西核桃树酒庄 ZAXEE Walnut Tree Winery"
+    },
+    {
+      "id": "cn-wine-059",
+      "notionId": "40717d16de4c816c8a4be49cda0a5fef",
+      "kind": "wine",
+      "name": "诞生地 苏鲁红葡萄酒",
+      "en": "Dan Sheng Di Sulu",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "诞生地旗舰村庄／地块酒之一；与Bucun、Agape Siyongong分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "诞生地 苏鲁红葡萄酒 Dan Sheng Di Sulu 诞生地旗舰村庄／地块酒之一；与Bucun、Agape Siyongong分开。  赤霞珠红葡萄酒；具体比例按年份。   云南德钦／香格里拉高山村庄；Sulu中文地名与具体村庄、地块待品牌原始资料。 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 诞生地苏鲁红葡萄酒 2018  苏鲁村 Yunnan — Deqin — Sulu Village"
+    },
+    {
+      "id": "cn-wine-038",
+      "notionId": "40717d16de4c81feb264dda045ed048d",
+      "kind": "wine",
+      "name": "扎西 珍藏霞多丽",
+      "en": "ZAXEE Reserve Chardonnay",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "扎西白葡萄酒入口；酒庄建筑所在地不能替代葡萄来源。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "扎西 珍藏霞多丽 ZAXEE Reserve Chardonnay 扎西白葡萄酒入口；酒庄建筑所在地不能替代葡萄来源。  霞多丽高海拔干白；具体桶陈、酸度和年份按技术资料。   云南Producer／四川得荣高海拔葡萄来源关系待年份酒标核。 扎西核桃树酒庄 ZAXEE Walnut Tree Winery"
+    },
+    {
+      "id": "cn-wine-044",
+      "notionId": "40717d16de4c81848a2dc90a7f4a7776",
+      "kind": "wine",
+      "name": "醉生梦 高山冰酒",
+      "en": "Zuishengmeng Alpine Icewine",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "2021年份曾获2026赛事奖项；酒款长期身份与获奖年份分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "醉生梦 高山冰酒 Zuishengmeng Alpine Icewine 2021年份曾获2026赛事奖项；酒款长期身份与获奖年份分开。  冰酒／甜葡萄酒；公开资料提及Vidal种植，但具体酒款品种待原酒标。   云南德钦高海拔葡萄园；具体村庄、葡萄品种和自然结冰条件按年份。 醉生梦酒庄 Zuishengmeng Winery 醉生梦高山冰酒 2021 "
+    },
+    {
+      "id": "cn-wine-071",
+      "notionId": "40717d16de4c8116ae75cbdb25163ade",
+      "kind": "wine",
+      "name": "雪山秘境 花落祥云典藏冰酒",
+      "en": "Sacred Snow Mountain Hualuo Xiangyun Reserve Icewine",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [],
+      "summary": "花落祥云冰酒长期酒款；“冰酒”生产条件必须逐年份保存，不能只靠名称。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "雪山秘境 花落祥云典藏冰酒 Sacred Snow Mountain Hualuo Xiangyun Reserve Icewine 花落祥云冰酒长期酒款；“冰酒”生产条件必须逐年份保存，不能只靠名称。  Vidal冰酒；高残糖、高酸甜白，熟化信息按年份。   云南高山葡萄来源；2023赛事资料标为云南／香格里拉，具体村庄、采收点和生产主体按年份。 雪山秘境酒庄 Sacred Snow Mountain Winery 雪山秘境花落祥云典藏冰酒 2023 "
+    },
+    {
+      "id": "cn-wine-042",
+      "notionId": "40717d16de4c8144af21d45c5ddf7234",
+      "kind": "wine",
+      "name": "小圃酿造 高海拔赤霞珠",
+      "en": "Domaine de la Gyalthang High Altitude Cabernet Sauvignon",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [
+        "小圃高海拔赤霞珠"
+      ],
+      "summary": "Domaine de la Gyalthang当前产品身份；中文Producer与酒标名称需要统一。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "小圃酿造 高海拔赤霞珠 Domaine de la Gyalthang High Altitude Cabernet Sauvignon 小圃高海拔赤霞珠 Domaine de la Gyalthang当前产品身份；中文Producer与酒标名称需要统一。  赤霞珠干红；高海拔风格，具体比例和酿造按年份。   云南迪庆／大香格里拉高海拔葡萄来源；具体村庄、生产者与酒标声明待核。 小圃酿造／Domaine de la Gyalthang Xiaopu Winemaking / Domaine de la Gyalthang 小圃建塘高海拔赤霞珠 2022 "
+    },
+    {
+      "id": "cn-wine-065",
+      "notionId": "40717d16de4c81349c47fb578d21a3b2",
+      "kind": "wine",
+      "name": "水乳大地赤霞珠红葡萄酒",
+      "en": "Château Roduit Shui Ru Da Di",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "罗迪酒庄旗舰酒；2017首年份、2018评分与出口历史分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "水乳大地赤霞珠红葡萄酒 Château Roduit Shui Ru Da Di 罗迪酒庄旗舰酒；2017首年份、2018评分与出口历史分开。  赤霞珠红葡萄酒；陶罐发酵与陈酿，具体配方与时长按年份。   云南德钦燕门乡／巴东村及不同海拔葡萄园；具体年份来源组合待技术资料。 罗迪酒庄／水乳大地 Château Roduit 水乳大地赤霞珠 2018  巴东村 Yunnan — Deqin — Badong Village"
+    },
+    {
+      "id": "cn-wine-043",
+      "notionId": "40717d16de4c81088e70d4d6e435dec0",
+      "kind": "wine",
+      "name": "醉生梦 只此高峰红葡萄酒",
+      "en": "Zuishengmeng Only This Peak Red",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "醉生梦核心酒款入口；中文酒款名以当前酒标为准。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "醉生梦 只此高峰红葡萄酒 Zuishengmeng Only This Peak Red 醉生梦核心酒款入口；中文酒款名以当前酒标为准。  红葡萄酒；具体品种和混酿待官方技术资料。   云南德钦高山村庄网络；具体村庄／园地按年份。 醉生梦酒庄 Zuishengmeng Winery"
+    },
+    {
+      "id": "cn-wine-066",
+      "notionId": "40717d16de4c813db849da94c2dc823a",
+      "kind": "wine",
+      "name": "大地颂歌红葡萄酒",
+      "en": "Château Roduit Canticle to the Land",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "罗迪酒庄第二酒款／独立cuvée；不按水乳大地配方推断。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "大地颂歌红葡萄酒 Château Roduit Canticle to the Land 罗迪酒庄第二酒款／独立cuvée；不按水乳大地配方推断。  陶罐陈酿红葡萄酒；品种与配方待技术资料。   云南德钦高山葡萄园；具体地块和酒标待Producer资料。 罗迪酒庄／水乳大地 Château Roduit"
+    },
+    {
+      "id": "cn-wine-075",
+      "notionId": "40717d16de4c81d3b7e1f0242116a912",
+      "kind": "wine",
+      "name": "茨中秘境玫瑰蜜干红葡萄酒",
+      "en": "Cizhong Secret Rose Honey Red",
+      "status": "当前状态待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "旅游／村庄资料出现的自酿酒入口；未取得标准商业技术表前不标为正式当前发行。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "茨中秘境玫瑰蜜干红葡萄酒 Cizhong Secret Rose Honey Red 旅游／村庄资料出现的自酿酒入口；未取得标准商业技术表前不标为正式当前发行。  玫瑰蜜干红；传统家庭发酵风格，具体品种纯度、批次和酒精度待原瓶。   云南德钦县燕门乡茨中村；家庭酒庄／体验项目的具体葡萄园和生产许可待核。 茨中秘境葡萄酒之家 Cizhong Secret Wine House 茨中村 Yunnan — Deqin — Cizhong Village"
+    },
+    {
+      "id": "cn-wine-040",
+      "notionId": "40717d16de4c81f78cbbcf5dc75c5f0d",
+      "kind": "wine",
+      "name": "木杺 霞多丽",
+      "en": "Domaine Muxin Chardonnay",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [],
+      "summary": "木杺核心白酒；与Cuvée Spéciale等特殊批次分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "木杺 霞多丽 Domaine Muxin Chardonnay 木杺核心白酒；与Cuvée Spéciale等特殊批次分开。  霞多丽干白；具体酿造与陈酿按年份。   云南迪庆德钦高海拔微地块网络；具体村庄与海拔按年份。 木杺酒庄 Domaine Muxin 木杺霞多丽 2023 "
+    },
+    {
+      "id": "cn-wine-058",
+      "notionId": "40717d16de4c81a3a83dcd28064460d5",
+      "kind": "wine",
+      "name": "宝庄干白葡萄酒",
+      "en": "Célèbre White / Chardonnay",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [
+        "宝庄霞多丽",
+        "Célèbre White",
+        "Celebre Chardonnay"
+      ],
+      "summary": "宝庄白酒；Siyong-Gong村庄／地块关系与诞生地Agape酒款分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "宝庄干白葡萄酒 Célèbre White / Chardonnay 宝庄霞多丽 Célèbre White Celebre Chardonnay 宝庄白酒；Siyong-Gong村庄／地块关系与诞生地Agape酒款分别记录。  霞多丽干白；高海拔、矿物感与清新酸度，具体橡木／酒泥按年份。   云南高山村庄；具体村庄和园地按年份，详见2021档案。 宝庄／Célèbre Winery Célèbre Winery 宝庄霞多丽 2021  斯永贡 Yunnan — Deqin — Siyongong"
+    },
+    {
+      "id": "cn-wine-063",
+      "notionId": "40717d16de4c81a5936ec87200f346e3",
+      "kind": "wine",
+      "name": "硕日拉姆桃红葡萄酒",
+      "en": "Allofme Rosé",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "硕日拉姆桃红系列；奖项与榜单属于具体年份。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "硕日拉姆桃红葡萄酒 Allofme Rosé 硕日拉姆桃红系列；奖项与榜单属于具体年份。  玫瑰蜜桃红；具体酿造方法按年份。   云南高原葡萄来源；具体村庄和生产地按年份酒标。 硕日拉姆／Allofme Allofme / Shuo Ri La Mu 硕日拉姆桃红葡萄酒 2022 "
+    },
+    {
+      "id": "cn-wine-036",
+      "notionId": "40717d16de4c814b8acce047a89bc56c",
+      "kind": "wine",
+      "name": "腊普 藏云谷高端冰酒",
+      "en": "Lapu Zangyungu Premium Icewine",
+      "status": "当前状态待核",
+      "entityType": "",
+      "aliases": [
+        "腊普藏云谷冰酒"
+      ],
+      "summary": "藏云谷系列旗舰冰酒；自然结冰与Icewine身份必须逐年份确认。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "腊普 藏云谷高端冰酒 Lapu Zangyungu Premium Icewine 腊普藏云谷冰酒 藏云谷系列旗舰冰酒；自然结冰与Icewine身份必须逐年份确认。  Vidal冰酒；自然结冰、低温发酵和高甜高酸风格，具体指标按年份。   云南迪庆州维西县腊普河谷；园地海拔与冰酒生产条件按年份。 腊普河谷酒庄 Lapu Valley Winery"
+    },
+    {
+      "id": "cn-wine-062",
+      "notionId": "40717d16de4c81a680b7fd526175a182",
+      "kind": "wine",
+      "name": "硕日拉姆玫瑰蜜干红葡萄酒",
+      "en": "Allofme Rose Honey Red",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "硕日拉姆核心红酒；2018、2019等年份分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "硕日拉姆玫瑰蜜干红葡萄酒 Allofme Rose Honey Red 硕日拉姆核心红酒；2018、2019等年份分开。  玫瑰蜜干红；品种身份进入云南传统种质层。   云南迪庆／德钦高山葡萄来源；具体村庄、生产主体和酒标按年份。 硕日拉姆／Allofme Allofme / Shuo Ri La Mu 硕日拉姆玫瑰蜜干红 2019 "
+    },
+    {
+      "id": "cn-wine-070",
+      "notionId": "40717d16de4c81b29c88e57da02aa20b",
+      "kind": "wine",
+      "name": "雪山秘境珍藏霞多丽",
+      "en": "Sacred Snow Mountain Grand Reserve Chardonnay",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [],
+      "summary": "雪山秘境核心干白；当前可确认2024年份，长期配方不从单一年份泛化。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "雪山秘境珍藏霞多丽 Sacred Snow Mountain Grand Reserve Chardonnay 雪山秘境核心干白；当前可确认2024年份，长期配方不从单一年份泛化。  霞多丽干白；容器、发酵、MLF与熟化按年份。   云南德钦梅里雪山／澜沧江河谷；村庄比例按年份。 雪山秘境酒庄 Sacred Snow Mountain Winery 雪山秘境珍藏霞多丽 2024  江坡村 Yunnan — Deqin — Jiangpo Village 红坡村 Yunnan — Deqin — Hongpo Village"
+    },
+    {
+      "id": "cn-wine-057",
+      "notionId": "40717d16de4c8124a6e4df0722d915f1",
+      "kind": "wine",
+      "name": "宝庄干红葡萄酒",
+      "en": "Célèbre Red / Hauts Plateaux de l’Himalaya",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "宝庄正牌红酒；2018为首年份，不能把首年混酿与橡木方案固定到全部年份。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "宝庄干红葡萄酒 Célèbre Red / Hauts Plateaux de l’Himalaya 宝庄正牌红酒；2018为首年份，不能把首年混酿与橡木方案固定到全部年份。  赤霞珠红葡萄酒；具体混酿比例按年份。   云南德钦／香格里拉高山村庄网络；具体5村及酒标产地按年份资料。 宝庄／Célèbre Winery Célèbre Winery 宝庄干红葡萄酒 2018 "
+    },
+    {
+      "id": "cn-wine-064",
+      "notionId": "40717d16de4c8112905bdf9bcfcb5898",
+      "kind": "wine",
+      "name": "硕日拉姆霞多丽",
+      "en": "Allofme Chardonnay",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "高端酒单确认2022酒款存在；当前发行与品牌正式中文名待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "硕日拉姆霞多丽 Allofme Chardonnay 高端酒单确认2022酒款存在；当前发行与品牌正式中文名待核。  霞多丽干白。   云南喜马拉雅高山葡萄来源；具体村庄和酒标待核。 硕日拉姆／Allofme Allofme / Shuo Ri La Mu 硕日拉姆霞多丽 2022 "
+    },
+    {
+      "id": "cn-wine-039",
+      "notionId": "40717d16de4c816f83a8c22dd4a7d86c",
+      "kind": "wine",
+      "name": "木杺 红葡萄酒",
+      "en": "Domaine Muxin Rouge",
+      "status": "现行系列",
+      "entityType": "",
+      "aliases": [],
+      "summary": "木杺核心红酒；2022、2023等年份进入年份档案。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "木杺 红葡萄酒 Domaine Muxin Rouge 木杺核心红酒；2022、2023等年份进入年份档案。  赤霞珠、美乐等红葡萄品种；微地块独立采收酿造，具体混酿按年份。   云南迪庆德钦／茨中及澜沧江中上游微地块；每年份／批次来源另核。 木杺酒庄 Domaine Muxin 木杺红葡萄酒 2022 "
+    },
+    {
+      "id": "cn-wine-068",
+      "notionId": "40717d16de4c816abce4c4a87e6de497",
+      "kind": "wine",
+      "name": "姜瑜酝酿 依云霞多丽",
+      "en": "JiangYu Ferment Cloud Chardonnay",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "酒单列2023年份；正式中文名、当前发行与完整技术资料待Producer确认。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "姜瑜酝酿 依云霞多丽 JiangYu Ferment Cloud Chardonnay 酒单列2023年份；正式中文名、当前发行与完整技术资料待Producer确认。  霞多丽干白。   葡萄来源云南德钦；生产地点及酒标声明待2023酒款原始资料。 姜瑜酝酿 JiangYu Ferment 姜瑜酝酿依云霞多丽 2023 "
+    },
+    {
+      "id": "cn-wine-041",
+      "notionId": "40717d16de4c815a92dcc091610745f0",
+      "kind": "wine",
+      "name": "木杺 Cuvée Spéciale",
+      "en": "Domaine Muxin Cuvée Spéciale",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "Cuvée Spéciale不是法定等级，作为独立酒款／批次身份保存。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "木杺 Cuvée Spéciale Domaine Muxin Cuvée Spéciale Cuvée Spéciale不是法定等级，作为独立酒款／批次身份保存。  特殊批次／混酿酒款；葡萄和配方按年份。   云南迪庆高山微地块；具体批次来源待当前酒标。 木杺酒庄 Domaine Muxin 木杺 Cuvée Spéciale 2023 "
+    },
+    {
+      "id": "cn-wine-027",
+      "notionId": "40717d16de4c81e3b410d63e107e559d",
+      "kind": "wine",
+      "name": "霄岭红葡萄酒",
+      "en": "Xiaoling Estate Red",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [],
+      "summary": "霄岭品牌核心红酒；2014等历史年份与当前发行分开。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "霄岭红葡萄酒 Xiaoling Estate Red 霄岭品牌核心红酒；2014等历史年份与当前发行分开。  赤霞珠、蛇龙珠、梅洛等高海拔红葡萄酒；具体比例按年份。   云南迪庆州德钦县燕门乡巴东村及澜沧江上游合作葡萄园；具体村庄／来源随年份核实。 霄岭酒庄 Xiaoling Estate 霄岭红葡萄酒 2014  巴东村 Yunnan — Deqin — Badong Village"
+    },
+    {
+      "id": "cn-wine-045",
+      "notionId": "40717d16de4c817f8697d5389376073f",
+      "kind": "wine",
+      "name": "东风庄园 经典赤霞珠干红葡萄酒",
+      "en": "Dongfeng Estate Classic Cabernet Sauvignon",
+      "status": "当前发行",
+      "entityType": "",
+      "aliases": [],
+      "summary": "东风庄园经典系列；具体年份、园地和陈酿按产品资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "东风庄园 经典赤霞珠干红葡萄酒 Dongfeng Estate Classic Cabernet Sauvignon 东风庄园经典系列；具体年份、园地和陈酿按产品资料。  赤霞珠干红。   云南红河州弥勒市东风农场；官网同时披露香格里拉自控园，具体酒款来源必须按酒标。 东风庄园 Dongfeng Estate Winery"
+    },
+    {
+      "id": "cn-vint-031",
+      "notionId": "40717d16de4c817192adf5056dba0c90",
+      "kind": "vintage",
+      "name": "姜瑜酝酿六千里赤霞珠 2022",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南德钦葡萄；公开资料称采收后全程冷链运至山东烟台发酵车间。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "姜瑜酝酿六千里赤霞珠 2022  云南德钦葡萄；公开资料称采收后全程冷链运至山东烟台发酵车间。 2022  Cabernet Sauvignon／赤霞珠；是否100%待酒标或技术表。   姜瑜酝酿 六千里赤霞珠 JiangYu Ferment 6000 Li Cabernet Sauvignon"
+    },
+    {
+      "id": "cn-vint-017",
+      "notionId": "40717d16de4c81409eb4d58fbcf439a1",
+      "kind": "vintage",
+      "name": "香格里拉圣域荣中赤霞珠 2020",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南迪庆；Rongzhong／荣中的村庄或园地身份需酒庄原始资料确认。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉圣域荣中赤霞珠 2020  云南迪庆；Rongzhong／荣中的村庄或园地身份需酒庄原始资料确认。 2020  赤霞珠100%。   香格里拉 圣域荣中赤霞珠 Shangri-La Sacred Land Rongzhong Cabernet Sauvignon 荣中村 Yunnan — Deqin — Rongzhong Village"
+    },
+    {
+      "id": "cn-vint-025",
+      "notionId": "40717d16de4c8195ab09f2ff31e0dc50",
+      "kind": "vintage",
+      "name": "诞生地苏鲁红葡萄酒 2018",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南德钦／香格里拉高山村庄Sulu；正式中文地名和地块边界待Producer资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "诞生地苏鲁红葡萄酒 2018  云南德钦／香格里拉高山村庄Sulu；正式中文地名和地块边界待Producer资料。 2018  100% Cabernet Sauvignon／赤霞珠。   诞生地 苏鲁红葡萄酒 Dan Sheng Di Sulu 苏鲁村 Yunnan — Deqin — Sulu Village"
+    },
+    {
+      "id": "cn-vint-028",
+      "notionId": "40717d16de4c819a8c8fc6d8931c607e",
+      "kind": "vintage",
+      "name": "硕日拉姆桃红葡萄酒 2022",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南高原葡萄来源；村庄／园地待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "硕日拉姆桃红葡萄酒 2022  云南高原葡萄来源；村庄／园地待核。 2022  玫瑰蜜桃红；精确比例待品牌技术资料。   硕日拉姆桃红葡萄酒 Allofme Rosé"
+    },
+    {
+      "id": "cn-vint-036",
+      "notionId": "40717d16de4c81559eaecb23522b7da8",
+      "kind": "vintage",
+      "name": "寸山白马雪山德钦臻藏霞多丽 2023",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南德钦白马雪山高山葡萄园；具体地块和阿东村比例待品牌技术表。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "寸山白马雪山德钦臻藏霞多丽 2023  云南德钦白马雪山高山葡萄园；具体地块和阿东村比例待品牌技术表。 2023  Chardonnay／霞多丽 100%。   寸山白马雪山德钦臻藏霞多丽 Petit Mont Baima Snow Mountain Deqin Cuvée Prestige Chardonnay 阿东村 Yunnan — Deqin — Adong Village"
+    },
+    {
+      "id": "cn-vint-022",
+      "notionId": "40717d16de4c81089817fdf27aa7d7ac",
+      "kind": "vintage",
+      "name": "小圃建塘高海拔赤霞珠 2022",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南高海拔葡萄来源；具体村庄、园地和Producer生产关系待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "小圃建塘高海拔赤霞珠 2022  云南高海拔葡萄来源；具体村庄、园地和Producer生产关系待核。 2022  赤霞珠；是否100%待酒标或技术表。   小圃酿造 高海拔赤霞珠 Domaine de la Gyalthang High Altitude Cabernet Sauvignon"
+    },
+    {
+      "id": "cn-vint-016",
+      "notionId": "40717d16de4c81abad94d80a9be82625",
+      "kind": "vintage",
+      "name": "香格里拉圣域传奇霞多丽 2022",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "赛事页标示云南西南高山产区；专业资料进一步指向江坡村老藤来源，精确地块边界待酒庄技术表。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "香格里拉圣域传奇霞多丽 2022  赛事页标示云南西南高山产区；专业资料进一步指向江坡村老藤来源，精确地块边界待酒庄技术表。 2022  霞多丽100%。   香格里拉 圣域传奇霞多丽 Shangri-La Sacred Land Legend Chardonnay 江坡村 Yunnan — Deqin — Jiangpo Village"
+    },
+    {
+      "id": "cn-vint-035",
+      "notionId": "40717d16de4c819881c1d85ab8095ff1",
+      "kind": "vintage",
+      "name": "雪山秘境西拉干红 2024",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南香格里拉高山葡萄来源；具体村庄、海拔和葡萄园待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "雪山秘境西拉干红 2024  云南香格里拉高山葡萄来源；具体村庄、海拔和葡萄园待核。 2024  Syrah／西拉；是否100%待技术表。   雪山秘境西拉干红葡萄酒 Sacred Snow Mountain Syrah"
+    },
+    {
+      "id": "cn-vint-034",
+      "notionId": "40717d16de4c8126a9b1c70325e10940",
+      "kind": "vintage",
+      "name": "雪山秘境花落祥云典藏冰酒 2023",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南香格里拉高山葡萄来源；具体村庄、海拔和采收地块待Producer技术表。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "雪山秘境花落祥云典藏冰酒 2023  云南香格里拉高山葡萄来源；具体村庄、海拔和采收地块待Producer技术表。 2023  Vidal／威代尔 100%。   雪山秘境 花落祥云典藏冰酒 Sacred Snow Mountain Hualuo Xiangyun Reserve Icewine"
+    },
+    {
+      "id": "cn-vint-030",
+      "notionId": "40717d16de4c812ea7aecdaf5c13b6ea",
+      "kind": "vintage",
+      "name": "水乳大地赤霞珠 2018",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南德钦燕门乡／巴东及约2200、2500、2700米葡萄园网络；2018具体组合待Producer资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "水乳大地赤霞珠 2018  云南德钦燕门乡／巴东及约2200、2500、2700米葡萄园网络；2018具体组合待Producer资料。 2018  100% Cabernet Sauvignon／赤霞珠。   水乳大地赤霞珠红葡萄酒 Château Roduit Shui Ru Da Di 巴东村 Yunnan — Deqin — Badong Village"
+    },
+    {
+      "id": "cn-vint-027",
+      "notionId": "40717d16de4c814caa94c9bd44892ca8",
+      "kind": "vintage",
+      "name": "硕日拉姆玫瑰蜜干红 2019",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南高山葡萄来源；具体村庄和园地待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "硕日拉姆玫瑰蜜干红 2019  云南高山葡萄来源；具体村庄和园地待核。 2019  玫瑰蜜；是否100%及权威品种学身份待Producer与种质资料。   硕日拉姆玫瑰蜜干红葡萄酒 Allofme Rose Honey Red"
+    },
+    {
+      "id": "cn-vint-037",
+      "notionId": "40717d16de4c811cb80cdb4aacc3c7e9",
+      "kind": "vintage",
+      "name": "寸山白马雪山德钦霞多丽 2024",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "公开资料指向德钦白马雪山及阿东村；团队自2024年直接签约管理四片葡萄园，具体地块对应待Producer资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "寸山白马雪山德钦霞多丽 2024  公开资料指向德钦白马雪山及阿东村；团队自2024年直接签约管理四片葡萄园，具体地块对应待Producer资料。 2024  Chardonnay／霞多丽 100%。   寸山白马雪山德钦霞多丽 Petit Mont Baima Snow Mountain Deqin Chardonnay 阿东村 Yunnan — Deqin — Adong Village"
+    },
+    {
+      "id": "cn-vint-018",
+      "notionId": "40717d16de4c81e795e1c292c4c3eb1a",
+      "kind": "vintage",
+      "name": "木杺红葡萄酒 2022",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南香格里拉／德钦高海拔微地块网络；具体20余片中的来源组合待Producer技术资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "木杺红葡萄酒 2022  云南香格里拉／德钦高海拔微地块网络；具体20余片中的来源组合待Producer技术资料。 2022  赤霞珠与梅洛；精确比例未披露。   木杺 红葡萄酒 Domaine Muxin Rouge"
+    },
+    {
+      "id": "cn-vint-033",
+      "notionId": "40717d16de4c81baa4dbfdc4817acbd6",
+      "kind": "vintage",
+      "name": "雪山秘境珍藏霞多丽 2024",
+      "en": "",
+      "status": "当前发行",
+      "entityType": "",
+      "aliases": [],
+      "summary": "江坡村60% + 红坡村40%；海拔约2700–2800米。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "雪山秘境珍藏霞多丽 2024  江坡村60% + 红坡村40%；海拔约2700–2800米。 2024  Chardonnay／霞多丽 100%。   雪山秘境珍藏霞多丽 Sacred Snow Mountain Grand Reserve Chardonnay 江坡村 Yunnan — Deqin — Jiangpo Village 红坡村 Yunnan — Deqin — Hongpo Village"
+    },
+    {
+      "id": "cn-vint-029",
+      "notionId": "40717d16de4c8119b998f6a123610ec1",
+      "kind": "vintage",
+      "name": "硕日拉姆霞多丽 2022",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南喜马拉雅高山葡萄来源；具体村庄与地块待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "硕日拉姆霞多丽 2022  云南喜马拉雅高山葡萄来源；具体村庄与地块待核。 2022  Chardonnay／霞多丽；是否100%待技术表。   硕日拉姆霞多丽 Allofme Chardonnay"
+    },
+    {
+      "id": "cn-vint-015",
+      "notionId": "40717d16de4c8112a804d1144cf683ac",
+      "kind": "vintage",
+      "name": "霄岭红葡萄酒 2014",
+      "en": "",
+      "status": "历史年份",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南迪庆／德钦／澜沧江上游合作藏民葡萄园；具体村庄和地块待原年份档案。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "霄岭红葡萄酒 2014  云南迪庆／德钦／澜沧江上游合作藏民葡萄园；具体村庄和地块待原年份档案。 2014  官方当前概览仅支持赤霞珠、蛇龙珠、梅洛为项目核心红葡萄品种；2014精确比例待原年份资料。   霄岭红葡萄酒 Xiaoling Estate Red"
+    },
+    {
+      "id": "cn-vint-020",
+      "notionId": "40717d16de4c812cb526dee93f2b7da2",
+      "kind": "vintage",
+      "name": "木杺 Cuvée Spéciale 2023",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "云南高海拔微地块；具体来源待Producer资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "木杺 Cuvée Spéciale 2023  云南高海拔微地块；具体来源待Producer资料。 2023  未从当前公开零售资料取得，不能按普通木杺红酒配方推断。   木杺 Cuvée Spéciale Domaine Muxin Cuvée Spéciale"
+    },
+    {
+      "id": "cn-reg-yun-001",
+      "notionId": "40717d16de4c81a5b8c6e713098ea9ee",
+      "kind": "region",
+      "name": "云南·红河／弥勒",
+      "en": "Yunnan — Honghe / Mile",
+      "status": "来源资料收录",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "红河州弥勒市与东风农场等低纬高原葡萄产业入口。云南红集团、东风庄园、玫瑰蜜、法国野、云中舞、水晶等品种／品牌关系分别建档。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南·红河／弥勒 Yunnan — Honghe / Mile 红河州弥勒市与东风农场等低纬高原葡萄产业入口。云南红集团、东风庄园、玫瑰蜜、法国野、云中舞、水晶等品种／品牌关系分别建档。      云南红酒庄／云南高原葡萄酒集团 Yunnan Red Winery / Yunnan Red Wine Group 云南帝旺红酒庄园 Yunnan Diwanghong Winery 大兴地酒庄 Daxingdi Winery 红河龙缘葡萄酒业 Honghe Longyuan Winery 米轨时光葡萄酒庄 Migui Shiguang Winery 长石酒庄 Changshi Winery 门吉庄园 Menji Estate 东风宝云酒庄 Dongfeng Baoyun Winery 东风庄园 Dongfeng Estate Winery 云醴红酒庄 Yunlihong Winery 云南葡萄酒总入口 Yunnan Wine — Provincial Index"
+    },
+    {
+      "id": "cn-reg-yun-000",
+      "notionId": "40717d16de4c81779b11eace9f67e326",
+      "kind": "region",
+      "name": "云南葡萄酒总入口",
+      "en": "Yunnan Wine — Provincial Index",
+      "status": "来源资料收录",
+      "entityType": "省区级索引",
+      "aliases": [],
+      "summary": "云南省葡萄酒总索引。下分迪庆／德钦高山河谷、维西／腊普河谷、红河／弥勒及其他新兴高原节点；行政区、产业品牌、村庄、葡萄园和企业分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南葡萄酒总入口 Yunnan Wine — Provincial Index 云南省葡萄酒总索引。下分迪庆／德钦高山河谷、维西／腊普河谷、红河／弥勒及其他新兴高原节点；行政区、产业品牌、村庄、葡萄园和企业分别记录。      云南红酒庄／云南高原葡萄酒集团 Yunnan Red Winery / Yunnan Red Wine Group 云南帝旺红酒庄园 Yunnan Diwanghong Winery 敖云 Ao Yun 西鸽梅里酒庄 Xige Meili Estate 寸山 Petit Mont 硕日拉姆／Allofme Allofme / Shuo Ri La Mu 大兴地酒庄 Daxingdi Winery 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 梅里酒业 Meili Winery / Meili Wine 姜瑜酝酿 JiangYu Ferment 木杺酒庄 Domaine Muxin 霄岭酒庄 Xiaoling Estate 宝庄／Célèbre Winery Célèbre Winery 藏地天香酒业 Zangdi Tianxiang Winery 松赞茨中酒庄 Songtsam Cizhong Winery 峄桐酒业（德钦） Yitong Wine (Deqin) 山江谷葡萄酒 Yunnan Shanjianggu Wine 红河龙缘葡萄酒业 Honghe Longyuan Winery 腊普河谷酒庄 Lapu Valley Winery 米轨时光葡萄酒庄 Migui Shiguang Winery 长石酒庄 Changshi Winery 茨中秘境葡萄酒之家 Cizhong Secret Wine House 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 酉川德钦酒庄项目 Youchuan Deqin Winery Project 门吉庄园 Menji Estate 雪山秘境酒庄 Sacred Snow Mountain Winery 融生永恒酒庄 Rongsheng Eternal Winery 扎西核桃树酒庄 ZAXEE Walnut Tree Winery 江坡宝取酒庄项目 Jiangpo Baoqu Winery Project 木兰朵德钦酒庄项目 Mulanduo Deqin Winery Project 罗迪酒庄／水乳大地 Château Roduit 东风宝云酒庄 Dongfeng Baoyun Winery 醉生梦酒庄 Zuishengmeng Winery 东风庄园 Dongfeng Estate Winery 云醴红酒庄 Yunlihong Winery 小圃酿造／Domaine de la Gyalthang Xiaopu Winemaking / Domaine de la Gyalthang 云南·红河／弥勒 Yunnan — Honghe / Mile 云南·迪庆／维西／腊普河谷 Yunnan — Diqing / Weixi / Lapu Valley 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin"
+    },
+    {
+      "id": "cn-reg-yun-site-017",
+      "notionId": "40717d16de4c8162bb72ea3ce0601218",
+      "kind": "site",
+      "name": "布村",
+      "en": "Yunnan — Deqin — Bucun Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "布"
+      ],
+      "summary": "德钦县云岭乡布村及诞生地Bucun酒款相关村庄／地块网络。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "布村 Yunnan — Deqin — Bucun Village 布 德钦县云岭乡布村及诞生地Bucun酒款相关村庄／地块网络。      云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 诞生地 Bucun红葡萄酒 Dan Sheng Di Bucun 诞生地Bucun红葡萄酒 2018 "
+    },
+    {
+      "id": "cn-reg-yun-site-007",
+      "notionId": "40717d16de4c81ea98f1f687b155942f",
+      "kind": "site",
+      "name": "江坡村",
+      "en": "Yunnan — Deqin — Jiangpo Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "江坡"
+      ],
+      "summary": "香格里拉酒业高海拔霞多丽来源与新酒庄招商项目相关村庄；具体园地与企业分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "江坡村 Yunnan — Deqin — Jiangpo Village 江坡 香格里拉酒业高海拔霞多丽来源与新酒庄招商项目相关村庄；具体园地与企业分别记录。      云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 雪山秘境酒庄 Sacred Snow Mountain Winery 江坡宝取酒庄项目 Jiangpo Baoqu Winery Project 香格里拉 圣域传奇霞多丽 Shangri-La Sacred Land Legend Chardonnay 雪山秘境珍藏霞多丽 Sacred Snow Mountain Grand Reserve Chardonnay 香格里拉圣域传奇霞多丽 2022  雪山秘境珍藏霞多丽 2024 "
+    },
+    {
+      "id": "cn-reg-yun-site-001",
+      "notionId": "40717d16de4c81968fabe3fcd7b7a805",
+      "kind": "site",
+      "name": "西当村",
+      "en": "Yunnan — Deqin — Xidang Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "西当"
+      ],
+      "summary": "敖云四村之一；村庄与其内多个小地块的集合，不等于一个单一葡萄园。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "西当村 Yunnan — Deqin — Xidang Village 西当 敖云四村之一；村庄与其内多个小地块的集合，不等于一个单一葡萄园。      云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 敖云 Ao Yun 敖云 Ao Yun 敖云 2017 Ao Yun 2017"
+    },
+    {
+      "id": "cn-reg-yun-site-005",
+      "notionId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "kind": "site",
+      "name": "茨中村",
+      "en": "Yunnan — Deqin — Cizhong Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "茨中"
+      ],
+      "summary": "茨中村葡萄文化、酒庄、农户作坊、微地块和文旅节点。村庄不是单一Producer。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "茨中村 Yunnan — Deqin — Cizhong Village 茨中 茨中村葡萄文化、酒庄、农户作坊、微地块和文旅节点。村庄不是单一Producer。      云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 木杺酒庄 Domaine Muxin 松赞茨中酒庄 Songtsam Cizhong Winery 茨中秘境葡萄酒之家 Cizhong Secret Wine House 山江谷葡萄酒 Yunnan Shanjianggu Wine 霄岭之道干红葡萄酒 Sentiers de XiaoLing 云上霄岭干红葡萄酒 Nuages de XiaoLing 霄岭干白葡萄酒 XiaoLing White 茨中秘境玫瑰蜜干红葡萄酒 Cizhong Secret Rose Honey Red"
+    },
+    {
+      "id": "cn-reg-yun-site-016",
+      "notionId": "40717d16de4c811995dce62bb8b4b053",
+      "kind": "site",
+      "name": "苏鲁村",
+      "en": "Yunnan — Deqin — Sulu Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "苏鲁"
+      ],
+      "summary": "诞生地Sulu红葡萄酒来源的高山村庄／地块网络；村庄、葡萄园与酒款分别建档。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "苏鲁村 Yunnan — Deqin — Sulu Village 苏鲁 诞生地Sulu红葡萄酒来源的高山村庄／地块网络；村庄、葡萄园与酒款分别建档。      云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 诞生地 苏鲁红葡萄酒 Dan Sheng Di Sulu 诞生地苏鲁红葡萄酒 2018 "
+    },
+    {
+      "id": "cn-reg-yun-site-009",
+      "notionId": "40717d16de4c811a8412f675e5a1cb5a",
+      "kind": "site",
+      "name": "哈充村",
+      "en": "Yunnan — Deqin — Hachong Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "哈充"
+      ],
+      "summary": "奔子栏镇叶央村下属哈充村民小组；醉生梦与扎西核桃树酒庄、农户葡萄园和文旅项目共同构成。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "哈充村 Yunnan — Deqin — Hachong Village 哈充 奔子栏镇叶央村下属哈充村民小组；醉生梦与扎西核桃树酒庄、农户葡萄园和文旅项目共同构成。      云南·迪庆／德钦 Yunnan — Diqing / Deqin 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 扎西核桃树酒庄 ZAXEE Walnut Tree Winery 醉生梦酒庄 Zuishengmeng Winery"
+    },
+    {
+      "id": "cn-reg-yun-003",
+      "notionId": "40717d16de4c8101a0c8dbbcc2f3c1a7",
+      "kind": "region",
+      "name": "云南·德钦高山村庄风土网络",
+      "en": "Yunnan — Deqin Alpine Village Terroirs",
+      "status": "来源资料收录",
+      "entityType": "细分产区／地块",
+      "aliases": [],
+      "summary": "德钦县澜沧江—金沙江峡谷中的村庄、合作葡萄园和海拔梯度关系模型；茨中、阿东、朔日、梅里／西当、巴东、哈充、叶日、红坡等名称需逐项核实行政与园地身份。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 德钦县澜沧江—金沙江峡谷中的村庄、合作葡萄园和海拔梯度关系模型；茨中、阿东、朔日、梅里／西当、巴东、哈充、叶日、红坡等名称需逐项核实行政与园地身份。      敖云 Ao Yun 西鸽梅里酒庄 Xige Meili Estate 寸山 Petit Mont 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 梅里酒业 Meili Winery / Meili Wine 木杺酒庄 Domaine Muxin 霄岭酒庄 Xiaoling Estate 宝庄／Célèbre Winery Célèbre Winery 松赞茨中酒庄 Songtsam Cizhong Winery 峄桐酒业（德钦） Yitong Wine (Deqin) 山江谷葡萄酒 Yunnan Shanjianggu Wine 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 雪山秘境酒庄 Sacred Snow Mountain Winery 融生永恒酒庄 Rongsheng Eternal Winery 扎西核桃树酒庄 ZAXEE Walnut Tree Winery 罗迪酒庄／水乳大地 Château Roduit 醉生梦酒庄 Zuishengmeng Winery 小圃酿造／Domaine de la Gyalthang Xiaopu Winemaking / Domaine de la Gyalthang 云南葡萄酒总入口 Yunnan Wine — Provincial Index 布村 Yunnan — Deqin — Bucun Village 江坡村 Yunnan — Deqin — Jiangpo Village 西当村 Yunnan — Deqin — Xidang Village 茨中村 Yunnan — Deqin — Cizhong Village 苏鲁村 Yunnan — Deqin — Sulu Village 哈充村 Yunnan — Deqin — Hachong Village 云南·迪庆／德钦 Yunnan — Diqing / Deqin 斯农村 Yunnan — Deqin — Sinong Village 朔日村 Yunnan — Deqin — Shuori Village 阿东村 Yunnan — Deqin — Adong Village 巴东村 Yunnan — Deqin — Badong Village 荣中村 Yunnan — Deqin — Rongzhong Village 叶日村 Yunnan — Deqin — Yeri Village 红坡村 Yunnan — Deqin — Hongpo Village 日咀村 Yunnan — Deqin — Rizui Village 明永村 Yunnan — Deqin — Mingyong Village 九龙顶 Yunnan — Deqin — Jiulongding 东水村 Yunnan — Deqin — Dongshui Village 斯永贡 Yunnan — Deqin — Siyongong"
+    },
+    {
+      "id": "cn-reg-yun-site-003",
+      "notionId": "40717d16de4c81b9a952d3161da1652b",
+      "kind": "site",
+      "name": "朔日村",
+      "en": "Yunnan — Deqin — Shuori Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "朔日"
+      ],
+      "summary": "敖云四村之一；村庄内多个地块，不等于单一园。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "朔日村 Yunnan — Deqin — Shuori Village 朔日 敖云四村之一；村庄内多个地块，不等于单一园。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 敖云 Ao Yun 敖云 Ao Yun 敖云 2017 Ao Yun 2017"
+    },
+    {
+      "id": "cn-reg-yun-site-006",
+      "notionId": "40717d16de4c81e484d3fb2402bbbc9a",
+      "kind": "site",
+      "name": "巴东村",
+      "en": "Yunnan — Deqin — Badong Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "巴东"
+      ],
+      "summary": "霄岭酒庄及合作农户来源相关村庄；村庄、酒庄所在地与具体葡萄园分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "巴东村 Yunnan — Deqin — Badong Village 巴东 霄岭酒庄及合作农户来源相关村庄；村庄、酒庄所在地与具体葡萄园分别记录。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 霄岭酒庄 Xiaoling Estate 罗迪酒庄／水乳大地 Château Roduit 霄岭红葡萄酒 Xiaoling Estate Red 水乳大地赤霞珠红葡萄酒 Château Roduit Shui Ru Da Di 水乳大地赤霞珠 2018 "
+    },
+    {
+      "id": "cn-reg-yun-002",
+      "notionId": "40717d16de4c81a3835fc7422cdcbf0c",
+      "kind": "region",
+      "name": "云南·迪庆／维西／腊普河谷",
+      "en": "Yunnan — Diqing / Weixi / Lapu Valley",
+      "status": "来源资料收录",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "维西县腊普河谷及相关村庄、冰酒和高海拔葡萄项目入口；腊普河谷酒庄、藏地天香及维西其他企业分别建档。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南·迪庆／维西／腊普河谷 Yunnan — Diqing / Weixi / Lapu Valley 维西县腊普河谷及相关村庄、冰酒和高海拔葡萄项目入口；腊普河谷酒庄、藏地天香及维西其他企业分别建档。      藏地天香酒业 Zangdi Tianxiang Winery 腊普河谷酒庄 Lapu Valley Winery 云南葡萄酒总入口 Yunnan Wine — Provincial Index"
+    },
+    {
+      "id": "cn-reg-yun-site-002",
+      "notionId": "40717d16de4c81b9a50be21ed5d7a481",
+      "kind": "site",
+      "name": "斯农村",
+      "en": "Yunnan — Deqin — Sinong Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "斯农"
+      ],
+      "summary": "敖云官方四村之一，也是香格里拉酒业公开葡萄园网络的重要村庄；具体企业地块分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "斯农村 Yunnan — Deqin — Sinong Village 斯农 敖云官方四村之一，也是香格里拉酒业公开葡萄园网络的重要村庄；具体企业地块分别记录。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 敖云 Ao Yun 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 敖云 Ao Yun 敖云 2017 Ao Yun 2017"
+    },
+    {
+      "id": "cn-reg-yun-site-018",
+      "notionId": "40717d16de4c8102827be3f83edcbefc",
+      "kind": "site",
+      "name": "斯永贡",
+      "en": "Yunnan — Deqin — Siyongong",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "斯永贡"
+      ],
+      "summary": "宝庄霞多丽与诞生地Agape Siyongong相关的高山村庄／葡萄园名称；正式中文行政身份和边界继续核查。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "斯永贡 Yunnan — Deqin — Siyongong 斯永贡 宝庄霞多丽与诞生地Agape Siyongong相关的高山村庄／葡萄园名称；正式中文行政身份和边界继续核查。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 宝庄／Célèbre Winery Célèbre Winery 宝庄干白葡萄酒 Célèbre White / Chardonnay 诞生地 Agape Siyongong霞多丽 Dan Sheng Di Agape Siyongong 宝庄霞多丽 2021 "
+    },
+    {
+      "id": "cn-reg-yun-site-011",
+      "notionId": "40717d16de4c81ebac88df70e0ed300e",
+      "kind": "site",
+      "name": "红坡村",
+      "en": "Yunnan — Deqin — Hongpo Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "红坡"
+      ],
+      "summary": "松赞茨中葡萄园、霄岭红坡霞多丽酒款及当前产区技术指导涉及的明星村庄；各企业地块分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "红坡村 Yunnan — Deqin — Hongpo Village 红坡 松赞茨中葡萄园、霄岭红坡霞多丽酒款及当前产区技术指导涉及的明星村庄；各企业地块分别记录。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 松赞茨中酒庄 Songtsam Cizhong Winery 霄岭酒庄 Xiaoling Estate 雪山秘境酒庄 Sacred Snow Mountain Winery 霄岭 红坡霞多丽 XiaoLing HongPo Chardonnay 雪山秘境珍藏霞多丽 Sacred Snow Mountain Grand Reserve Chardonnay 雪山秘境珍藏霞多丽 2024 "
+    },
+    {
+      "id": "cn-reg-yun-site-004",
+      "notionId": "40717d16de4c81b3b554ed7abcac31d7",
+      "kind": "site",
+      "name": "阿东村",
+      "en": "Yunnan — Deqin — Adong Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "阿东"
+      ],
+      "summary": "敖云四村中海拔最高、最冷的村庄；村庄内包含多个地块。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "阿东村 Yunnan — Deqin — Adong Village 阿东 敖云四村中海拔最高、最冷的村庄；村庄内包含多个地块。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 敖云 Ao Yun 寸山 Petit Mont 敖云 Ao Yun 寸山白马雪山德钦臻藏霞多丽 Petit Mont Baima Snow Mountain Deqin Cuvée Prestige Chardonnay 寸山白马雪山德钦霞多丽 Petit Mont Baima Snow Mountain Deqin Chardonnay 寸山白马雪山德钦臻藏霞多丽 2023  寸山白马雪山德钦霞多丽 2024  敖云 2017 Ao Yun 2017"
+    },
+    {
+      "id": "cn-reg-013",
+      "notionId": "40317d16de4c811db6beda9fd21e6649",
+      "kind": "region",
+      "name": "云南·迪庆／德钦",
+      "en": "Yunnan — Diqing / Deqin",
+      "status": "来源资料收录",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "高原河谷产区学习入口。迪庆州、德钦县、香格里拉地理／品牌用法和梅里产业品牌不直接等同；具体葡萄园必须记录村庄与海拔。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "云南·迪庆／德钦 Yunnan — Diqing / Deqin 高原河谷产区学习入口。迪庆州、德钦县、香格里拉地理／品牌用法和梅里产业品牌不直接等同；具体葡萄园必须记录村庄与海拔。      敖云 Ao Yun 西鸽梅里酒庄 Xige Meili Estate 寸山 Petit Mont 硕日拉姆／Allofme Allofme / Shuo Ri La Mu 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 梅里酒业 Meili Winery / Meili Wine 姜瑜酝酿 JiangYu Ferment 木杺酒庄 Domaine Muxin 霄岭酒庄 Xiaoling Estate 宝庄／Célèbre Winery Célèbre Winery 松赞茨中酒庄 Songtsam Cizhong Winery 峄桐酒业（德钦） Yitong Wine (Deqin) 山江谷葡萄酒 Yunnan Shanjianggu Wine 茨中秘境葡萄酒之家 Cizhong Secret Wine House 诞生地酒庄／Dan Sheng Di Dan Sheng Di Winery 酉川德钦酒庄项目 Youchuan Deqin Winery Project 雪山秘境酒庄 Sacred Snow Mountain Winery 融生永恒酒庄 Rongsheng Eternal Winery 扎西核桃树酒庄 ZAXEE Walnut Tree Winery 江坡宝取酒庄项目 Jiangpo Baoqu Winery Project 木兰朵德钦酒庄项目 Mulanduo Deqin Winery Project 罗迪酒庄／水乳大地 Château Roduit 醉生梦酒庄 Zuishengmeng Winery 小圃酿造／Domaine de la Gyalthang Xiaopu Winemaking / Domaine de la Gyalthang 布村 Yunnan — Deqin — Bucun Village 江坡村 Yunnan — Deqin — Jiangpo Village 西当村 Yunnan — Deqin — Xidang Village 茨中村 Yunnan — Deqin — Cizhong Village 苏鲁村 Yunnan — Deqin — Sulu Village 哈充村 Yunnan — Deqin — Hachong Village 云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 朔日村 Yunnan — Deqin — Shuori Village 巴东村 Yunnan — Deqin — Badong Village 斯农村 Yunnan — Deqin — Sinong Village 斯永贡 Yunnan — Deqin — Siyongong 红坡村 Yunnan — Deqin — Hongpo Village 阿东村 Yunnan — Deqin — Adong Village 荣中村 Yunnan — Deqin — Rongzhong Village 叶日村 Yunnan — Deqin — Yeri Village 日咀村 Yunnan — Deqin — Rizui Village 明永村 Yunnan — Deqin — Mingyong Village 九龙顶 Yunnan — Deqin — Jiulongding 东水村 Yunnan — Deqin — Dongshui Village 云南葡萄酒总入口 Yunnan Wine — Provincial Index"
+    },
+    {
+      "id": "cn-reg-yun-site-014",
+      "notionId": "40717d16de4c81af8199cf9ceb6d86f4",
+      "kind": "site",
+      "name": "九龙顶",
+      "en": "Yunnan — Deqin — Jiulongding",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "九龙顶"
+      ],
+      "summary": "香格里拉酒业公开葡萄园地名／村庄来源；行政身份与园地边界待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "九龙顶 Yunnan — Deqin — Jiulongding 九龙顶 香格里拉酒业公开葡萄园地名／村庄来源；行政身份与园地边界待核。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-reg-yun-site-008",
+      "notionId": "40717d16de4c81b6aee8f47b6442938e",
+      "kind": "site",
+      "name": "荣中村",
+      "en": "Yunnan — Deqin — Rongzhong Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "荣中"
+      ],
+      "summary": "香格里拉酒业圣域荣中酒款来源相关村庄／园地；正式中文地名、边界与Producer权属待官方资料补核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "荣中村 Yunnan — Deqin — Rongzhong Village 荣中 香格里拉酒业圣域荣中酒款来源相关村庄／园地；正式中文地名、边界与Producer权属待官方资料补核。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd. 香格里拉 圣域荣中赤霞珠 Shangri-La Sacred Land Rongzhong Cabernet Sauvignon 香格里拉圣域荣中赤霞珠 2020 "
+    },
+    {
+      "id": "cn-reg-yun-site-013",
+      "notionId": "40717d16de4c81ad9f28da6d03fe0f00",
+      "kind": "site",
+      "name": "明永村",
+      "en": "Yunnan — Deqin — Mingyong Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "明永"
+      ],
+      "summary": "香格里拉酒业公开葡萄园村庄之一；冰川／雪峰环境和具体企业地块分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "明永村 Yunnan — Deqin — Mingyong Village 明永 香格里拉酒业公开葡萄园村庄之一；冰川／雪峰环境和具体企业地块分别记录。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-reg-yun-site-010",
+      "notionId": "40717d16de4c8118a12ed7193f06d67e",
+      "kind": "site",
+      "name": "叶日村",
+      "en": "Yunnan — Deqin — Yeri Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "叶日"
+      ],
+      "summary": "醉生梦单一村庄／园地酒款来源线索；正式行政写法、地块边界和权属待官方资料核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "叶日村 Yunnan — Deqin — Yeri Village 叶日 醉生梦单一村庄／园地酒款来源线索；正式行政写法、地块边界和权属待官方资料核。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 醉生梦酒庄 Zuishengmeng Winery"
+    },
+    {
+      "id": "cn-reg-yun-site-012",
+      "notionId": "40717d16de4c81c5a68cc5d6e577d83a",
+      "kind": "site",
+      "name": "日咀村",
+      "en": "Yunnan — Deqin — Rizui Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "日咀"
+      ],
+      "summary": "松赞茨中酒庄租赁／管理葡萄园所在村庄；农户、女性葡萄园团队与酒庄关系分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "日咀村 Yunnan — Deqin — Rizui Village 日咀 松赞茨中酒庄租赁／管理葡萄园所在村庄；农户、女性葡萄园团队与酒庄关系分别记录。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 松赞茨中酒庄 Songtsam Cizhong Winery"
+    },
+    {
+      "id": "cn-reg-yun-site-015",
+      "notionId": "40717d16de4c81b19370c6d320ebec32",
+      "kind": "site",
+      "name": "东水村",
+      "en": "Yunnan — Deqin — Dongshui Village",
+      "status": "村庄／Site",
+      "entityType": "村庄／来源网络",
+      "aliases": [
+        "东水"
+      ],
+      "summary": "香格里拉酒业“中国式村庄级子产区”公开名单之一；具体行政、园地和酒款关系待官方技术资料核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "东水村 Yunnan — Deqin — Dongshui Village 东水 香格里拉酒业“中国式村庄级子产区”公开名单之一；具体行政、园地和酒款关系待官方技术资料核。      云南·德钦高山村庄风土网络 Yunnan — Deqin Alpine Village Terroirs 云南·迪庆／德钦 Yunnan — Diqing / Deqin 香格里拉酒业 Shangri-La Winery / Shangri-La Wine Co., Ltd."
+    },
+    {
+      "id": "cn-w-005",
+      "notionId": "40317d16de4c812bb2b9fd2b47d63689",
+      "kind": "wine",
+      "name": "敖云",
+      "en": "Ao Yun",
+      "status": "现行系列／当前年份待核",
+      "entityType": "",
+      "aliases": [
+        "敖云各年份",
+        "Ao Yun vintages"
+      ],
+      "summary": "四村葡萄来源比例与葡萄品种比例分别记录。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "敖云 Ao Yun 敖云各年份 Ao Yun vintages 四村葡萄来源比例与葡萄品种比例分别记录。      敖云 Ao Yun 敖云 2017 Ao Yun 2017 西当村 Yunnan — Deqin — Xidang Village 斯农村 Yunnan — Deqin — Sinong Village 朔日村 Yunnan — Deqin — Shuori Village 阿东村 Yunnan — Deqin — Adong Village"
+    },
+    {
+      "id": "cn-vint-026",
+      "notionId": "40717d16de4c8172b29fd21a7c7ae9fa",
+      "kind": "vintage",
+      "name": "诞生地Bucun红葡萄酒 2018",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "Bucun高山村庄／地块；正式中文地名、海拔和边界待品牌资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "诞生地Bucun红葡萄酒 2018  Bucun高山村庄／地块；正式中文地名、海拔和边界待品牌资料。 2018  当前公开酒单未提供可靠完整配方。   诞生地 Bucun红葡萄酒 Dan Sheng Di Bucun 布村 Yunnan — Deqin — Bucun Village"
+    },
+    {
+      "id": "cn-vint-021",
+      "notionId": "40717d16de4c8108a846e8369bd61a0f",
+      "kind": "vintage",
+      "name": "醉生梦高山冰酒 2021",
+      "en": "",
+      "status": "历史年份",
+      "entityType": "",
+      "aliases": [],
+      "summary": "德钦金沙江／澜沧江沿岸高山葡萄园；具体村庄、自然结冰与采收条件待酒庄技术资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "醉生梦高山冰酒 2021  德钦金沙江／澜沧江沿岸高山葡萄园；具体村庄、自然结冰与采收条件待酒庄技术资料。 2021  公开获奖资料未披露；不能自动写成Vidal。   醉生梦 高山冰酒 Zuishengmeng Alpine Icewine"
+    },
+    {
+      "id": "cn-vint-019",
+      "notionId": "40717d16de4c81a3b8dde6d5ba5691aa",
+      "kind": "vintage",
+      "name": "木杺霞多丽 2023",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "零售资料称葡萄种于约2700米香格里拉高海拔园地；具体村庄和地块待核。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "木杺霞多丽 2023  零售资料称葡萄种于约2700米香格里拉高海拔园地；具体村庄和地块待核。 2023  霞多丽；零售资料标示Chardonnay，精确比例待Producer资料。   木杺 霞多丽 Domaine Muxin Chardonnay"
+    },
+    {
+      "id": "cn-vint-024",
+      "notionId": "40717d16de4c8140bd53d2316ee233f2",
+      "kind": "vintage",
+      "name": "宝庄霞多丽 2021",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "Siyong-Gong高山村庄，约2550米；白云岩与片岩相关土壤描述来自Producer资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "宝庄霞多丽 2021  Siyong-Gong高山村庄，约2550米；白云岩与片岩相关土壤描述来自Producer资料。 2021  Chardonnay／霞多丽；当前来源将其作为单一品种酒，精确比例待原技术表。   宝庄干白葡萄酒 Célèbre White / Chardonnay 斯永贡 Yunnan — Deqin — Siyongong"
+    },
+    {
+      "id": "cn-vint-023",
+      "notionId": "40717d16de4c812a9daacbd282fc3090",
+      "kind": "vintage",
+      "name": "宝庄干红葡萄酒 2018",
+      "en": "",
+      "status": "年份技术档案",
+      "entityType": "",
+      "aliases": [],
+      "summary": "来自喜马拉雅高原5个村庄；资料称葡萄园平均海拔约2500米，精确村庄与地块清单待Producer原始资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "宝庄干红葡萄酒 2018  来自喜马拉雅高原5个村庄；资料称葡萄园平均海拔约2500米，精确村庄与地块清单待Producer原始资料。 2018  100% Cabernet Sauvignon／赤霞珠。   宝庄干红葡萄酒 Célèbre Red / Hauts Plateaux de l’Himalaya"
+    },
+    {
+      "id": "cn-vint-032",
+      "notionId": "40717d16de4c81598696e33591c9ca9b",
+      "kind": "vintage",
+      "name": "姜瑜酝酿依云霞多丽 2023",
+      "en": "",
+      "status": "来源资料收录",
+      "entityType": "",
+      "aliases": [],
+      "summary": "酒单列德钦；具体村庄、地块和冷链／生产地点待Producer资料。",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "姜瑜酝酿依云霞多丽 2023  酒单列德钦；具体村庄、地块和冷链／生产地点待Producer资料。 2023  Chardonnay／霞多丽；比例待技术表。   姜瑜酝酿 依云霞多丽 JiangYu Ferment Cloud Chardonnay"
+    },
+    {
+      "id": "cn-reg-001",
+      "notionId": "40317d16de4c818aa3ebee21d027096a",
+      "kind": "region",
+      "name": "宁夏·贺兰山东麓",
+      "en": "Ningxia — Eastern Foothills of the Helan Mountains",
+      "status": "现行区域资料",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "国家地理标志产品保护产地与产区学习入口。贺兰山东麓GI、宁夏行政区、2021—2035产业规划范围、地方保护条例、列级酒庄制度和具体企业专用标志授权分别建档。",
+      "areas": [
+        "宁夏",
+        "山东",
+        "西北"
+      ],
+      "searchText": "宁夏·贺兰山东麓 Ningxia — Eastern Foothills of the Helan Mountains 国家地理标志产品保护产地与产区学习入口。贺兰山东麓GI、宁夏行政区、2021—2035产业规划范围、地方保护条例、列级酒庄制度和具体企业专用标志授权分别建档。      宁夏（自治区级索引） Ningxia — Autonomous Region Index 宁夏·贺兰县金山／插旗口 Ningxia — Jinshan / Chaqikou, Helan County 宁夏·西夏区镇北堡／套门沟 Ningxia — Zhenbeibu / Taomengou, Xixia District 宁夏·永宁玉泉营／闽宁沿山 Ningxia — Yuquanying / Minning Foothills, Yongning 宁夏·青铜峡鸽子山／甘城子 Ningxia — Gezi Mountain / Ganchengzi, Qingtongxia 宁夏·红寺堡酒庄与种植集群 Ningxia — Hongsibu Winery and Vineyard Clusters 宁夏·中宁／沙坡头西南翼 Ningxia — Zhongning / Shapotou Southwestern Wing"
+    },
+    {
+      "id": "cn-reg-025",
+      "notionId": "40717d16de4c81468372c9ee3f918e93",
+      "kind": "region",
+      "name": "宁夏·贺兰县金山／插旗口",
+      "en": "Ningxia — Jinshan / Chaqikou, Helan County",
+      "status": "现行区域资料",
+      "entityType": "细分产区／地块",
+      "aliases": [],
+      "summary": "贺兰山东麓GI内部的行政／产业规划／酒庄集群节点，不是独立法定GI。",
+      "areas": [
+        "宁夏",
+        "西北"
+      ],
+      "searchText": "宁夏·贺兰县金山／插旗口 Ningxia — Jinshan / Chaqikou, Helan County 贺兰山东麓GI内部的行政／产业规划／酒庄集群节点，不是独立法定GI。      宁夏·贺兰山东麓 Ningxia — Eastern Foothills of the Helan Mountains 新疆·玛纳斯（历史行业认证） Manas, Xinjiang — Historic Industry Certification"
+    },
+    {
+      "id": "cn-reg-028",
+      "notionId": "40717d16de4c819ea8d0cd07d8cfc5c9",
+      "kind": "region",
+      "name": "宁夏·青铜峡鸽子山／甘城子",
+      "en": "Ningxia — Gezi Mountain / Ganchengzi, Qingtongxia",
+      "status": "现行区域资料",
+      "entityType": "细分产区／地块",
+      "aliases": [],
+      "summary": "贺兰山东麓GI核心／重点发展区内的青铜峡酒庄与葡萄园集群节点，不是独立GI。",
+      "areas": [
+        "宁夏",
+        "西北"
+      ],
+      "searchText": "宁夏·青铜峡鸽子山／甘城子 Ningxia — Gezi Mountain / Ganchengzi, Qingtongxia 贺兰山东麓GI核心／重点发展区内的青铜峡酒庄与葡萄园集群节点，不是独立GI。      宁夏·贺兰山东麓 Ningxia — Eastern Foothills of the Helan Mountains"
+    },
+    {
+      "id": "cn-reg-027",
+      "notionId": "40717d16de4c8153bb0fd3892146b527",
+      "kind": "region",
+      "name": "宁夏·永宁玉泉营／闽宁沿山",
+      "en": "Ningxia — Yuquanying / Minning Foothills, Yongning",
+      "status": "现行区域资料",
+      "entityType": "细分产区／地块",
+      "aliases": [],
+      "summary": "贺兰山东麓GI内部的历史试种、农垦、规划和酒庄集群节点，不是独立法定GI。",
+      "areas": [
+        "宁夏",
+        "西北"
+      ],
+      "searchText": "宁夏·永宁玉泉营／闽宁沿山 Ningxia — Yuquanying / Minning Foothills, Yongning 贺兰山东麓GI内部的历史试种、农垦、规划和酒庄集群节点，不是独立法定GI。      宁夏·贺兰山东麓 Ningxia — Eastern Foothills of the Helan Mountains"
+    },
+    {
+      "id": "cn-reg-018",
+      "notionId": "40317d16de4c811eadaedbeda0bc3b80",
+      "kind": "region",
+      "name": "宁夏（自治区级索引）",
+      "en": "Ningxia — Autonomous Region Index",
+      "status": "来源资料收录",
+      "entityType": "省区级索引",
+      "aliases": [],
+      "summary": "行政区域索引。宁夏行政范围与贺兰山东麓产区范围分别记录；仅标宁夏的技术资料先关联本条。",
+      "areas": [
+        "宁夏",
+        "西北"
+      ],
+      "searchText": "宁夏（自治区级索引） Ningxia — Autonomous Region Index 行政区域索引。宁夏行政范围与贺兰山东麓产区范围分别记录；仅标宁夏的技术资料先关联本条。      宁夏·贺兰山东麓 Ningxia — Eastern Foothills of the Helan Mountains"
+    },
+    {
+      "id": "cn-reg-030",
+      "notionId": "40717d16de4c81d68843fa299832a15a",
+      "kind": "region",
+      "name": "宁夏·中宁／沙坡头西南翼",
+      "en": "Ningxia — Zhongning / Shapotou Southwestern Wing",
+      "status": "部分现行／需拆分",
+      "entityType": "细分产区／地块",
+      "aliases": [],
+      "summary": "贺兰山东麓规划西南翼与部分地理标志保护范围节点，不是独立GI；GI内外边界需按具体乡镇／农场核对。",
+      "areas": [
+        "宁夏",
+        "西北"
+      ],
+      "searchText": "宁夏·中宁／沙坡头西南翼 Ningxia — Zhongning / Shapotou Southwestern Wing 贺兰山东麓规划西南翼与部分地理标志保护范围节点，不是独立GI；GI内外边界需按具体乡镇／农场核对。      宁夏·贺兰山东麓 Ningxia — Eastern Foothills of the Helan Mountains"
+    },
+    {
+      "id": "cn-reg-026",
+      "notionId": "40717d16de4c81b28b20edc58419dcb1",
+      "kind": "region",
+      "name": "宁夏·西夏区镇北堡／套门沟",
+      "en": "Ningxia — Zhenbeibu / Taomengou, Xixia District",
+      "status": "现行区域资料",
+      "entityType": "细分产区／地块",
+      "aliases": [],
+      "summary": "贺兰山东麓GI核心区内的行政／产业规划／酒庄集群节点，不是独立法定GI。",
+      "areas": [
+        "宁夏",
+        "西北"
+      ],
+      "searchText": "宁夏·西夏区镇北堡／套门沟 Ningxia — Zhenbeibu / Taomengou, Xixia District 贺兰山东麓GI核心区内的行政／产业规划／酒庄集群节点，不是独立法定GI。      宁夏·贺兰山东麓 Ningxia — Eastern Foothills of the Helan Mountains"
+    },
+    {
+      "id": "cn-reg-029",
+      "notionId": "40717d16de4c818a96f5ea6d6048aa02",
+      "kind": "region",
+      "name": "宁夏·红寺堡酒庄与种植集群",
+      "en": "Ningxia — Hongsibu Winery and Vineyard Clusters",
+      "status": "现行区域资料",
+      "entityType": "细分产区／地块",
+      "aliases": [],
+      "summary": "贺兰山东麓GI东南翼／保护范围内的行政、移民灌溉、种植与酒庄集群节点，不是独立法定GI。",
+      "areas": [
+        "宁夏",
+        "西北"
+      ],
+      "searchText": "宁夏·红寺堡酒庄与种植集群 Ningxia — Hongsibu Winery and Vineyard Clusters 贺兰山东麓GI东南翼／保护范围内的行政、移民灌溉、种植与酒庄集群节点，不是独立法定GI。      宁夏·贺兰山东麓 Ningxia — Eastern Foothills of the Helan Mountains"
+    },
+    {
+      "id": "cn-reg-008",
+      "notionId": "40317d16de4c81b6a6a6f6a30f6cbd95",
+      "kind": "region",
+      "name": "山西·太谷",
+      "en": "Shanxi — Taigu",
+      "status": "来源资料收录",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "县域产地学习入口。以太谷为入口，不用一家酒庄代表全山西；怡园跨产区酒款须逐款核对来源。",
+      "areas": [
+        "华北"
+      ],
+      "searchText": "山西·太谷 Shanxi — Taigu 县域产地学习入口。以太谷为入口，不用一家酒庄代表全山西；怡园跨产区酒款须逐款核对来源。      山西（省级索引） Shanxi — Provincial Index"
+    },
+    {
+      "id": "cn-reg-031",
+      "notionId": "40717d16de4c815291eaf629ec1a1ade",
+      "kind": "region",
+      "name": "新疆·天山北麓",
+      "en": "Xinjiang — Northern Foothills of Tianshan",
+      "status": "现行区域资料",
+      "entityType": "产业规划分区",
+      "aliases": [],
+      "summary": "新疆2021年“十四五”葡萄酒产业规划四大主产区之一；不是统一国家GI。下级包括玛纳斯、石河子、昌吉、阜康、乌苏等行政／基地节点。",
+      "areas": [
+        "新疆",
+        "西北"
+      ],
+      "searchText": "新疆·天山北麓 Xinjiang — Northern Foothills of Tianshan 新疆2021年“十四五”葡萄酒产业规划四大主产区之一；不是统一国家GI。下级包括玛纳斯、石河子、昌吉、阜康、乌苏等行政／基地节点。      新疆·四大主产区综述 Xinjiang — Four Principal Wine Regions"
+    },
+    {
+      "id": "cn-reg-032",
+      "notionId": "40717d16de4c8100a5c4e32d6430b061",
+      "kind": "region",
+      "name": "新疆·伊犁河谷",
+      "en": "Xinjiang — Ili River Valley",
+      "status": "现行区域资料",
+      "entityType": "产业规划分区",
+      "aliases": [],
+      "summary": "新疆2021年产业规划四大主产区之一；以优质干型葡萄酒、特色酒庄和冰葡萄酒产业为规划方向，不是统一国家GI。",
+      "areas": [
+        "新疆",
+        "西北"
+      ],
+      "searchText": "新疆·伊犁河谷 Xinjiang — Ili River Valley 新疆2021年产业规划四大主产区之一；以优质干型葡萄酒、特色酒庄和冰葡萄酒产业为规划方向，不是统一国家GI。      新疆·四大主产区综述 Xinjiang — Four Principal Wine Regions"
+    },
+    {
+      "id": "cn-reg-034",
+      "notionId": "40717d16de4c813f89fcf74febfa849f",
+      "kind": "region",
+      "name": "新疆·吐哈盆地",
+      "en": "Xinjiang — Turpan–Hami Basin",
+      "status": "现行区域资料",
+      "entityType": "产业规划分区",
+      "aliases": [],
+      "summary": "新疆2021年四大主产区之一；涵盖吐鲁番、哈密和兵团第十三师的甜酒、蒸馏酒、干型酒与酒庄旅游规划，不是统一国家GI。",
+      "areas": [
+        "新疆",
+        "西北"
+      ],
+      "searchText": "新疆·吐哈盆地 Xinjiang — Turpan–Hami Basin 新疆2021年四大主产区之一；涵盖吐鲁番、哈密和兵团第十三师的甜酒、蒸馏酒、干型酒与酒庄旅游规划，不是统一国家GI。      新疆·四大主产区综述 Xinjiang — Four Principal Wine Regions"
+    },
+    {
+      "id": "cn-reg-033",
+      "notionId": "40717d16de4c8152a4c3d52083df444c",
+      "kind": "region",
+      "name": "新疆·焉耆盆地",
+      "en": "Xinjiang — Yanqi Basin",
+      "status": "现行区域资料",
+      "entityType": "产业规划分区",
+      "aliases": [],
+      "summary": "新疆2021年四大主产区之一；以和硕、焉耆、博湖为核心的精品干型葡萄酒产业规划区，不是统一国家GI。",
+      "areas": [
+        "新疆",
+        "西北"
+      ],
+      "searchText": "新疆·焉耆盆地 Xinjiang — Yanqi Basin 新疆2021年四大主产区之一；以和硕、焉耆、博湖为核心的精品干型葡萄酒产业规划区，不是统一国家GI。      新疆·四大主产区综述 Xinjiang — Four Principal Wine Regions"
+    },
+    {
+      "id": "cn-reg-036",
+      "notionId": "40717d16de4c81cd85ebfcba88d68216",
+      "kind": "region",
+      "name": "新疆·玛纳斯（历史行业认证）",
+      "en": "Manas, Xinjiang — Historic Industry Certification",
+      "status": "已撤销认证",
+      "entityType": "历史行业认证",
+      "aliases": [],
+      "summary": "原中国酒业协会葡萄酒小产区认证，2026年7月17日撤销；玛纳斯继续作为天山北麓县域、葡萄园与酒庄集群节点。",
+      "areas": [
+        "新疆",
+        "西北"
+      ],
+      "searchText": "新疆·玛纳斯（历史行业认证） Manas, Xinjiang — Historic Industry Certification 原中国酒业协会葡萄酒小产区认证，2026年7月17日撤销；玛纳斯继续作为天山北麓县域、葡萄园与酒庄集群节点。      宁夏·贺兰县金山／插旗口 Ningxia — Jinshan / Chaqikou, Helan County"
+    },
+    {
+      "id": "cn-reg-035",
+      "notionId": "40717d16de4c81a7b949f53dbce5d225",
+      "kind": "region",
+      "name": "新疆·阿克苏慕萨莱思特色产区",
+      "en": "Xinjiang — Aksu Museles Heritage Wine Area",
+      "status": "现行区域资料",
+      "entityType": "产业规划分区",
+      "aliases": [],
+      "summary": "新疆“4+2”产业布局中的传统慕萨莱思特色产区；属于文化／工艺／产业规划节点，不是统一国家GI。",
+      "areas": [
+        "新疆",
+        "西北"
+      ],
+      "searchText": "新疆·阿克苏慕萨莱思特色产区 Xinjiang — Aksu Museles Heritage Wine Area 新疆“4+2”产业布局中的传统慕萨莱思特色产区；属于文化／工艺／产业规划节点，不是统一国家GI。      新疆·四大主产区综述 Xinjiang — Four Principal Wine Regions"
+    },
+    {
+      "id": "cn-reg-002",
+      "notionId": "40317d16de4c81a2afb4f17781630185",
+      "kind": "region",
+      "name": "新疆·四大主产区综述",
+      "en": "Xinjiang — Four Principal Wine Regions",
+      "status": "部分现行／需拆分",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "省级综述入口。2021年四大主产区属于产业规划分区，不等同于统一法定原产地等级；中国酒业协会“新疆玛纳斯葡萄酒小产区”认证已于2026年7月17日撤销，玛纳斯仍作为天山北麓地理／产业节点保留。",
+      "areas": [
+        "新疆",
+        "西北"
+      ],
+      "searchText": "新疆·四大主产区综述 Xinjiang — Four Principal Wine Regions 省级综述入口。2021年四大主产区属于产业规划分区，不等同于统一法定原产地等级；中国酒业协会“新疆玛纳斯葡萄酒小产区”认证已于2026年7月17日撤销，玛纳斯仍作为天山北麓地理／产业节点保留。      新疆·天山北麓 Xinjiang — Northern Foothills of Tianshan 新疆·伊犁河谷 Xinjiang — Ili River Valley 新疆·吐哈盆地 Xinjiang — Turpan–Hami Basin 新疆·焉耆盆地 Xinjiang — Yanqi Basin 新疆·阿克苏慕萨莱思特色产区 Xinjiang — Aksu Museles Heritage Wine Area"
+    },
+    {
+      "id": "cn-reg-003",
+      "notionId": "40317d16de4c8152ac0adcb88fff1253",
+      "kind": "region",
+      "name": "山东·烟台与蓬莱",
+      "en": "Shandong — Yantai and Penglai",
+      "status": "部分现行／需拆分",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "区域综述入口。山东、胶东、烟台和蓬莱范围不同；2026年7月17日中国酒业协会撤销“山东蓬莱葡萄酒小产区”行业认证。蓬莱地理／产业区域、烟台葡萄酒地理标志及企业产品授权分别保留。",
+      "areas": [
+        "山东"
+      ],
+      "searchText": "山东·烟台与蓬莱 Shandong — Yantai and Penglai 区域综述入口。山东、胶东、烟台和蓬莱范围不同；2026年7月17日中国酒业协会撤销“山东蓬莱葡萄酒小产区”行业认证。蓬莱地理／产业区域、烟台葡萄酒地理标志及企业产品授权分别保留。      姜瑜酝酿 JiangYu Ferment"
+    },
+    {
+      "id": "cn-reg-016",
+      "notionId": "40317d16de4c81549197c43358bfd445",
+      "kind": "region",
+      "name": "山东·青岛／莱西",
+      "en": "Shandong — Qingdao / Laixi",
+      "status": "来源资料收录",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "区域与酒庄所在地学习入口。莱西属于青岛，本条与烟台／蓬莱分别建档；学习条目不代表已确定法定边界。",
+      "areas": [
+        "山东"
+      ],
+      "searchText": "山东·青岛／莱西 Shandong — Qingdao / Laixi 区域与酒庄所在地学习入口。莱西属于青岛，本条与烟台／蓬莱分别建档；学习条目不代表已确定法定边界。     "
+    },
+    {
+      "id": "cn-reg-007",
+      "notionId": "40317d16de4c81698fa1ef15a3ee219a",
+      "kind": "region",
+      "name": "甘肃·河西走廊",
+      "en": "Gansu — Hexi Corridor",
+      "status": "现行区域资料",
+      "entityType": "法定地理标志",
+      "aliases": [],
+      "summary": "国家地理标志产品与跨五市产区学习入口。河西走廊自然地理、法定GI保护范围、五市行政节点、具体Producer和年份酒款分别建档。",
+      "areas": [
+        "西北"
+      ],
+      "searchText": "甘肃·河西走廊 Gansu — Hexi Corridor 国家地理标志产品与跨五市产区学习入口。河西走廊自然地理、法定GI保护范围、五市行政节点、具体Producer和年份酒款分别建档。     "
+    },
+    {
+      "id": "cn-reg-012",
+      "notionId": "40317d16de4c818180a0fe4bf2e61e85",
+      "kind": "region",
+      "name": "吉林·通化与集安",
+      "en": "Jilin — Tonghua and Ji'an",
+      "status": "来源资料收录",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "区域综述入口。通化山葡萄酒GI、通化行政范围、鸭绿江河谷产业规划分别保留；不能把山葡萄与全部东北冰酒混为一类。",
+      "areas": [
+        "东北"
+      ],
+      "searchText": "吉林·通化与集安 Jilin — Tonghua and Ji'an 区域综述入口。通化山葡萄酒GI、通化行政范围、鸭绿江河谷产业规划分别保留；不能把山葡萄与全部东北冰酒混为一类。     "
+    },
+    {
+      "id": "cn-v-005",
+      "notionId": "40317d16de4c81969f60d5f7b66a86e7",
+      "kind": "vintage",
+      "name": "敖云 2017",
+      "en": "Ao Yun 2017",
+      "status": "历史年份",
+      "entityType": "",
+      "aliases": [],
+      "summary": "Adong；Shuori；Sinong；Xidang",
+      "areas": [
+        "云南"
+      ],
+      "searchText": "敖云 2017 Ao Yun 2017 Adong；Shuori；Sinong；Xidang 2017  72% 赤霞珠 Cabernet Sauvignon；19% 品丽珠 Cabernet Franc；4% 西拉 Syrah；3% 小维多 Petit Verdot；2% 梅洛 Merlot   敖云 Ao Yun 西当村 Yunnan — Deqin — Xidang Village 斯农村 Yunnan — Deqin — Sinong Village 朔日村 Yunnan — Deqin — Shuori Village 阿东村 Yunnan — Deqin — Adong Village"
+    },
+    {
+      "id": "cn-reg-005",
+      "notionId": "40317d16de4c81c6aa53fcdee746a46f",
+      "kind": "region",
+      "name": "河北·碣石山（昌黎相关）",
+      "en": "Hebei — Jieshi Mountain / Changli Context",
+      "status": "部分现行／需拆分",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "具地方保护条例的产区入口。2026年7月17日，中国酒业协会撤销“秦皇岛碣石山葡萄酒小产区”行业认证；地方保护条例、昌黎行政范围、国家地理标志及酒标使用资格按各自法源分别保留。",
+      "areas": [
+        "华北"
+      ],
+      "searchText": "河北·碣石山（昌黎相关） Hebei — Jieshi Mountain / Changli Context 具地方保护条例的产区入口。2026年7月17日，中国酒业协会撤销“秦皇岛碣石山葡萄酒小产区”行业认证；地方保护条例、昌黎行政范围、国家地理标志及酒标使用资格按各自法源分别保留。     "
+    },
+    {
+      "id": "cn-reg-004",
+      "notionId": "40317d16de4c81efa675d1ecfbc85145",
+      "kind": "region",
+      "name": "河北·怀来（延怀河谷相关）",
+      "en": "Hebei — Huailai / Yanhuai Valley Context",
+      "status": "来源资料收录",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "县域产区入口。怀来、沙城与延怀河谷不得直接当作完全相同范围；2014规划范围不自动等于当前GI或酒标产地。",
+      "areas": [
+        "华北"
+      ],
+      "searchText": "河北·怀来（延怀河谷相关） Hebei — Huailai / Yanhuai Valley Context 县域产区入口。怀来、沙城与延怀河谷不得直接当作完全相同范围；2014规划范围不自动等于当前GI或酒标产地。      沙城葡萄酒 Shacheng Wine"
+    },
+    {
+      "id": "cn-reg-019",
+      "notionId": "40717d16de4c816a86f0eebca0a2b1fd",
+      "kind": "region",
+      "name": "沙城葡萄酒",
+      "en": "Shacheng Wine",
+      "status": "现行区域资料",
+      "entityType": "法定地理标志",
+      "aliases": [],
+      "summary": "国家地理标志产品／证明商标体系中的葡萄酒名称；与怀来县、沙城镇、延怀河谷学习区域分别建档。",
+      "areas": [
+        "华北"
+      ],
+      "searchText": "沙城葡萄酒 Shacheng Wine 国家地理标志产品／证明商标体系中的葡萄酒名称；与怀来县、沙城镇、延怀河谷学习区域分别建档。      河北·怀来（延怀河谷相关） Hebei — Huailai / Yanhuai Valley Context"
+    },
+    {
+      "id": "cn-reg-006",
+      "notionId": "40317d16de4c819fb427cca2a0aa3d87",
+      "kind": "region",
+      "name": "北京·房山",
+      "en": "Beijing — Fangshan",
+      "status": "部分现行／需拆分",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "产区学习入口。2021年通过中国酒业协会葡萄酒小产区认证，但该行业认证已于2026年7月17日撤销；作为历史认证保留，不写成现行国家GI或法国AOC式等级。",
+      "areas": [
+        "华北"
+      ],
+      "searchText": "北京·房山 Beijing — Fangshan 产区学习入口。2021年通过中国酒业协会葡萄酒小产区认证，但该行业认证已于2026年7月17日撤销；作为历史认证保留，不写成现行国家GI或法国AOC式等级。     "
+    },
+    {
+      "id": "cn-reg-023",
+      "notionId": "40717d16de4c813da94edf2b9abb9f93",
+      "kind": "region",
+      "name": "北京·密云燕山南麓（历史行业认证）",
+      "en": "Miyun Southern Foothills of Yanshan — Historic Industry Certification",
+      "status": "已撤销认证",
+      "entityType": "历史行业认证",
+      "aliases": [],
+      "summary": "原中国酒业协会葡萄酒小产区认证，已于2026年7月17日撤销；作为北京密云葡萄酒产业与自然地理学习节点保留。",
+      "areas": [
+        "华北"
+      ],
+      "searchText": "北京·密云燕山南麓（历史行业认证） Miyun Southern Foothills of Yanshan — Historic Industry Certification 原中国酒业协会葡萄酒小产区认证，已于2026年7月17日撤销；作为北京密云葡萄酒产业与自然地理学习节点保留。     "
+    },
+    {
+      "id": "cn-reg-017",
+      "notionId": "40317d16de4c810d95d4e4e0715a1fb6",
+      "kind": "region",
+      "name": "山西（省级索引）",
+      "en": "Shanxi — Provincial Index",
+      "status": "来源资料收录",
+      "entityType": "省区级索引",
+      "aliases": [],
+      "summary": "行政区域索引。用于来源只明确到山西的酒款。不要将省级来源自动细化到太谷某一葡萄园。",
+      "areas": [
+        "华北"
+      ],
+      "searchText": "山西（省级索引） Shanxi — Provincial Index 行政区域索引。用于来源只明确到山西的酒款。不要将省级来源自动细化到太谷某一葡萄园。      山西·太谷 Shanxi — Taigu 山西·乡宁（历史行业认证） Xiangning, Shanxi — Historic Industry Certification"
+    },
+    {
+      "id": "cn-reg-024",
+      "notionId": "40717d16de4c814195d3c994e17ce885",
+      "kind": "region",
+      "name": "山西·乡宁（历史行业认证）",
+      "en": "Xiangning, Shanxi — Historic Industry Certification",
+      "status": "已撤销认证",
+      "entityType": "历史行业认证",
+      "aliases": [],
+      "summary": "原中国酒业协会葡萄酒小产区认证，已于2026年7月17日撤销；乡宁作为行政／产业／黄土高原学习节点保留。",
+      "areas": [
+        "华北"
+      ],
+      "searchText": "山西·乡宁（历史行业认证） Xiangning, Shanxi — Historic Industry Certification 原中国酒业协会葡萄酒小产区认证，已于2026年7月17日撤销；乡宁作为行政／产业／黄土高原学习节点保留。      山西（省级索引） Shanxi — Provincial Index"
+    },
+    {
+      "id": "cn-reg-011",
+      "notionId": "40317d16de4c812591edfaef5d05e9f0",
+      "kind": "region",
+      "name": "辽宁·桓仁",
+      "en": "Liaoning — Huanren",
+      "status": "来源资料收录",
+      "entityType": "产区学习入口",
+      "aliases": [],
+      "summary": "县域产区学习入口。冰酒法定采收条件、GI名称及授权企业另行核实；不把宣传性世界产量占比录为可靠统计。",
+      "areas": [
+        "东北"
+      ],
+      "searchText": "辽宁·桓仁 Liaoning — Huanren 县域产区学习入口。冰酒法定采收条件、GI名称及授权企业另行核实；不把宣传性世界产量占比录为可靠统计。      桓仁冰酒 Huanren Icewine"
+    },
+    {
+      "id": "cn-reg-021",
+      "notionId": "40717d16de4c8153ab89e343487276aa",
+      "kind": "region",
+      "name": "桓仁冰酒",
+      "en": "Huanren Icewine",
+      "status": "现行区域资料",
+      "entityType": "法定地理标志",
+      "aliases": [],
+      "summary": "国家地理标志产品／证明商标；冰酒产品身份与桓仁行政区、冰葡萄园、Vidal等葡萄品种分别建档。",
+      "areas": [
+        "东北"
+      ],
+      "searchText": "桓仁冰酒 Huanren Icewine 国家地理标志产品／证明商标；冰酒产品身份与桓仁行政区、冰葡萄园、Vidal等葡萄品种分别建档。      辽宁·桓仁 Liaoning — Huanren"
+    }
+  ]
+}

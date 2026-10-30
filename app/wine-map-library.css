@@ -1,0 +1,44 @@
+.wine-map-library{margin:18px 0 40px;color:var(--ink,#344237)}
+.wml-intro{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:24px 27px;border:1px solid #e2e6dc;background:#fafbf7;border-radius:6px}
+.wml-intro h2{font:normal 27px Georgia,'Noto Serif SC',serif;margin:9px 0 6px}
+.wml-intro p{margin:0;color:#7d877c;font-size:12px;line-height:1.7}
+.wml-summary{min-width:84px;text-align:center;border-left:1px solid #e2e6dc;padding-left:24px;color:#687662}
+.wml-summary b{display:block;font:normal 32px Georgia,serif;color:#435848}
+.wml-summary span{font-size:10px}
+.wml-pending-source{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:12px 0 0;padding:13px 16px;border:1px solid #eadfc8;border-radius:4px;background:#fbf8f1;color:#816b49}
+.wml-pending-source b{font-size:11px;font-weight:600}
+.wml-pending-source p{margin:4px 0 0;font-size:10px;line-height:1.6;color:#8b7a5e}
+.wml-pending-source a{display:inline-flex;align-items:center;gap:3px;white-space:nowrap;color:#74603f;text-decoration:none;font-size:9px}
+.wml-pending-source a:hover{text-decoration:underline}
+.wml-toolbar{display:flex;gap:12px;align-items:center;margin:18px 0 28px}
+.wml-search{display:flex;align-items:center;gap:9px;flex:1;min-width:160px;padding:0 13px;height:43px;background:#fff;border:1px solid #dfe4da;border-radius:4px;color:#8c968a}
+.wml-search input{width:100%;border:0;outline:0;background:transparent;color:#344237;font-size:12px}
+.wml-search input::placeholder{color:#9aa297}
+.wml-country{display:flex;align-items:center;gap:9px;color:#788276;font-size:11px}
+.wml-country select{height:43px;min-width:135px;border:1px solid #dfe4da;border-radius:4px;background:#fff;padding:0 12px;color:#344237}
+.wml-country-group{margin:0 0 30px}
+.wml-country-title{display:flex;align-items:end;gap:12px;margin-bottom:13px;padding-bottom:10px;border-bottom:1px solid #e7e9e3}
+.wml-country-title .eyebrow{color:#929b8c;font-size:8px;letter-spacing:1.5px}
+.wml-country-title h3{margin:0;font:normal 23px Georgia,'Noto Serif SC',serif}
+.wml-country-title h3 small{margin-left:9px;font:normal 10px Arial,sans-serif;color:#8a9488}
+.wml-country-title>span:last-child{margin-left:auto;font-size:10px;color:#8a9488}
+.wml-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.wml-card{min-width:0;padding:16px 17px 13px;border:1px solid #e3e6df;border-radius:5px;background:#fff;display:flex;flex-direction:column;min-height:206px}
+.wml-card-top{display:flex;justify-content:space-between;align-items:center;color:#8a9683}
+.wml-index{font:normal 11px Georgia,serif;letter-spacing:1px;color:#a5ada1}
+.wml-hierarchy{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin:13px 0 8px;font-size:9px;color:#788573;line-height:1.5}
+.wml-hierarchy i{font-style:normal;color:#b3bbb0}
+.wml-hierarchy b{font-weight:500;color:#445c48}
+.wml-card h4{font-size:13px;line-height:1.55;font-weight:500;margin:0;color:#36443a}
+.wml-level{margin:5px 0 10px;font-size:9px;color:#90998d}
+.wml-status{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:auto;padding:8px 0;border-top:1px solid #edf0ea;color:#758071;font-size:9px;line-height:1.4}
+.wml-status small{white-space:nowrap;color:#9a9f95;font-size:8px}
+.wml-note{padding:8px 9px;margin:0 0 8px;background:#f8f4eb;color:#876e48;font-size:9px;line-height:1.55}
+.wml-links{display:flex;justify-content:space-between;gap:8px;font-size:9px}
+.wml-links a{display:inline-flex;align-items:center;gap:3px;color:#536a52;text-decoration:none}
+.wml-links a:hover{text-decoration:underline}
+.wml-no-source{color:#a0a69b}
+.wml-empty{padding:30px;text-align:center;border:1px dashed #dce2d8;color:#899286;font-size:12px}
+.wml-footnote{margin:5px 0;padding:12px 14px;border-left:2px solid #cbd3c5;background:#fafbf8;color:#858f83;font-size:10px;line-height:1.7}
+@media(max-width:900px){.wml-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.wml-intro{padding:18px;align-items:flex-start}.wml-intro h2{font-size:23px}.wml-intro p{font-size:11px}.wml-summary{min-width:60px;padding-left:14px}.wml-summary b{font-size:27px}.wml-pending-source{align-items:flex-start;flex-direction:column}.wml-toolbar{align-items:stretch;flex-direction:column}.wml-country{justify-content:space-between}.wml-country select{flex:1}.wml-grid{grid-template-columns:1fr}.wml-card{min-height:180px}.wml-country-title h3{font-size:21px}}

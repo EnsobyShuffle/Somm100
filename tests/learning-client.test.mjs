@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {loadTypeScript} from './load-typescript.mjs';
+const saved=new Map();globalThis.localStorage={getItem:key=>saved.get(key)||null,setItem:(key,value)=>saved.set(key,value)};
+let status='offline',calls=[];
+globalThis.fetch=async (path,options)=>{calls.push({path,options});if(status==='offline')throw Error('Offline');if(path==='/api/account')return {ok:true,json:async()=>({authenticated:true,registered:true,id:'alice'})};return {status:401,ok:false,json:async()=>({error:'Expired'})}};
+const {learningFetch,focusStorageKey}=await loadTypeScript('../lib/learning-client.ts');
+let result=await learningFetch('/api/learning',{method:'POST',body:JSON.stringify({type:'bookmark',questionId:'bad',active:true})});
+assert.equal(result.ok,false);assert.equal(saved.size,0);
+status='authenticated';result=await learningFetch('/api/learning',{method:'POST',body:'{}'});
+assert.equal(result.ok,false);assert.match((await result.json()).error,/登录已失效/);assert.equal(saved.size,0);
+assert.equal(calls.filter(c=>c.path==='/api/learning').length,1);
+assert.equal(await focusStorageKey(),'somm100-account-focus:alice');
+console.log('PASS: account/network failures never write guest data; session retries and focus keys remain scoped.');

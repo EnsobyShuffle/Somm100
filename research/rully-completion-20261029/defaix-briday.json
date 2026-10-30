@@ -1,0 +1,1217 @@
+{
+  "producers": [
+    {
+      "id": "producer-fr-jaeger-defaix",
+      "name": "Domaine Jaeger-Defaix",
+      "aliases": [
+        "Domaine Jaeger Defaix"
+      ],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "20 rue des Buis, 71150 Rully",
+      "website": "https://www.jaeger-defaix.com/en/wines",
+      "intro": "Hélène Jaeger-Defaix 延续 Niepce 家族在 Rully 的葡萄种植传统，于 2000 年代初接手姑婆 Henriette Niepce 经营的家族庄园。2024 酒庄技术单记载经营 6.5 ha，现行目录为 5 款白葡萄酒、3 款红葡萄酒。",
+      "scope": "已核对全部 8 款 Rully 酒款与 2024 酒庄技术单；历史及年份数据各按所注范围阅读。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史",
+          "text": "Hélène Jaeger-Defaix 于 2002 年接过来自姑婆 Henriette Niepce 的 Rully Montpalais 白一级园；2003 年继续接手 Préaux 红地块，2005 年开始整体管理约 4.5 ha 家族葡萄园。Niepce 家族自十六世纪种葡萄，Henri Niepce 参与推动 1930 年代 Rully 法定产区地位。",
+          "sourceIds": [
+            "fr-rully29-jaeger_estate",
+            "fr-rully29-jaeger_wines"
+          ]
+        },
+        {
+          "title": "所有权",
+          "text": "Jaeger-Defaix / Niepce 家族独立庄园，官网关联 Bernard Defaix 家族酒庄，但应保留不同 Producer 身份。",
+          "sourceIds": [
+            "fr-rully29-jaeger_estate",
+            "fr-rully29-jaeger_wines"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "2024 酒庄技术单列总面积 6.5 ha。核心一级园包括 Montpalais、Cloux、Rabourcé、Préaux，以及 Chapitre 内的 Clos du Chapitre monopole；另有村庄级红、白葡萄酒及 Sans Soufre 白葡萄酒。",
+          "sourceIds": [
+            "rully-final-jd-portfolio",
+            "rully-final-jd-2024-w0"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "2024 酒庄技术单说明自 2007 年采用有机栽培，并注明 Ecocert 认证；认证表述以该资料为据。红葡萄采用疏芽控产，采收时在田间及酒窖严格分选。",
+          "sourceIds": [
+            "rully-final-jd-2024-w1",
+            "rully-final-jd-w6"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "2024 常规白葡萄酒采用旧桶发酵及 12 个月桶熟，随后 6 个月罐熟；Sans Soufre 则在不锈钢罐细酒泥熟成 8 个月。红葡萄酒去梗发酵，Préaux 与村庄红采用旧桶，Clos du Chapitre 含 10% 新桶。",
+          "sourceIds": [
+            "rully-final-jd-2024-w2",
+            "rully-final-jd-2024-w4",
+            "rully-final-jd-2024-w7"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-jaeger-defaix-rully-blanc-village",
+          "name": "Rully Blanc",
+          "place": "Bas de Vauvry 村庄级地块，黏土—石灰岩土壤；不可与 Premier Cru Vauvry 混同。",
+          "grape": "Chardonnay",
+          "method": "2024：原生酵母酒精发酵及自然完成的全量苹果酸—乳酸发酵；全部在旧橡木桶发酵、熟成 12 个月，期间少量搅桶，再调配并在不锈钢罐熟成 6 个月。",
+          "detail": "酒庄描述以花香、果香、杏仁及轻微矿物感为主。2024：13.5% vol，产量 30 hl/ha；建议约 12°C，陈年参考 4–6 年。",
+          "vintageScope": "地块和酒标按酒庄现行页面；技术参数及服务建议明确采用 2024 技术单，不外推至其他年份。品鉴为生产者描述。",
+          "sourceIds": [
+            "rully-final-jd-w0",
+            "rully-final-jd-2024-w0"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Bas de Vauvry village-level parcel on clay-limestone soils; distinct from Premier Cru Vauvry.",
+              "grape": "Chardonnay",
+              "method": "2024: native-yeast alcoholic fermentation and full spontaneous malolactic fermentation. Entirely fermented and aged in used oak for 12 months with occasional light lees stirring, then blended and held in stainless steel for six months.",
+              "detail": "Estate profile: floral and fruit notes, almond and a mineral accent. 2024: 13.5% ABV; 30 hl/ha; serve around 12°C; suggested cellaring 4–6 years.",
+              "vintageScope": "Site and label follow the current estate page. Technical and service figures are specifically from the 2024 sheet, not universal across vintages. Tasting descriptions are the producer’s."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "technicalVintage": 2024,
+          "imageUrl": "https://www.jaeger-defaix.com/image/uploads/vins/RBL-6a996b55c487c2.57867841.png?fm=png&h=520&s=def654918052afa23e98bf4280a1949d",
+          "imageSourceUrl": "https://www.jaeger-defaix.com/en/wines/rully-blanc-19",
+          "imageCredit": "Domaine Jaeger-Defaix",
+          "imageScope": "Official reference bottle; pictured label vintage may differ from the 2024 technical profile."
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-blanc-montpalais",
+          "name": "Rully Premier Cru Blanc Montpalais",
+          "place": "Montpalais 一级园，黏土—石灰岩土壤；酒庄标签写作 Mont Palais。",
+          "grape": "Chardonnay",
+          "method": "2024：原生酵母酒精发酵及自然完成的全量苹果酸—乳酸发酵；全部在旧橡木桶发酵、熟成 12 个月，期间少量搅桶，再调配并在不锈钢罐熟成 6 个月。",
+          "detail": "酒庄描述为桃、杏香气及较丰润的收尾。2024：13.5% vol，40 hl/ha；约 12°C，鱼类或贝类，陈年参考 5–10 年。",
+          "vintageScope": "地块和酒标按酒庄现行页面；技术参数及服务建议明确采用 2024 技术单，不外推至其他年份。品鉴为生产者描述。",
+          "sourceIds": [
+            "rully-final-jd-w1",
+            "rully-final-jd-2024-w1"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Montpalais Premier Cru on clay-limestone soils; the producer labels it Mont Palais.",
+              "grape": "Chardonnay",
+              "method": "2024: native-yeast alcoholic fermentation and full spontaneous malolactic fermentation. Entirely fermented and aged in used oak for 12 months with occasional light lees stirring, then blended and held in stainless steel for six months.",
+              "detail": "Estate profile: peach and apricot with a rounded finish. 2024: 13.5% ABV; 40 hl/ha; around 12°C with fish or shellfish; suggested cellaring 5–10 years.",
+              "vintageScope": "Site and label follow the current estate page. Technical and service figures are specifically from the 2024 sheet, not universal across vintages. Tasting descriptions are the producer’s."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "technicalVintage": 2024,
+          "aliases": [
+            "Rully Premier Cru Mont Palais Blanc",
+            "Rully Premier Cru Montpalais Blanc"
+          ],
+          "imageUrl": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Mont-Palais-6a996ba6097ba6.01212856.png?fm=png&h=520&s=07570ec8ec987cac3047430e1996033b",
+          "imageSourceUrl": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-mont-palais-blanc-20",
+          "imageCredit": "Domaine Jaeger-Defaix",
+          "imageScope": "Official reference bottle; pictured label vintage may differ from the 2024 technical profile."
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-blanc-les-cloux",
+          "name": "Rully Premier Cru Blanc Les Cloux",
+          "place": "位于 Chapitre 上方；黏土—石灰岩土壤沿坡向上颜色逐渐变浅。酒标用 Les Cloux，法定 climat 名为 Cloux。",
+          "grape": "Chardonnay",
+          "method": "2024：原生酵母酒精发酵及自然完成的全量苹果酸—乳酸发酵；全部在旧橡木桶发酵、熟成 12 个月，期间少量搅桶，再调配并在不锈钢罐熟成 6 个月。",
+          "detail": "酒庄强调精细、矿物风格与口腔结构。2024：13.5% vol，40 hl/ha；约 12°C，可配 Comté 或山羊奶酪，陈年参考 5–10 年。",
+          "vintageScope": "地块和酒标按酒庄现行页面；技术参数及服务建议明确采用 2024 技术单，不外推至其他年份。品鉴为生产者描述。",
+          "sourceIds": [
+            "rully-final-jd-w2",
+            "rully-final-jd-2024-w2"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Above Chapitre, with increasingly pale clay-limestone soils upslope. Les Cloux is the producer’s label spelling of the Cloux climat.",
+              "grape": "Chardonnay",
+              "method": "2024: native-yeast alcoholic fermentation and full spontaneous malolactic fermentation. Entirely fermented and aged in used oak for 12 months with occasional light lees stirring, then blended and held in stainless steel for six months.",
+              "detail": "Estate profile: fine texture, mineral notes and firm structure. 2024: 13.5% ABV; 40 hl/ha; around 12°C with Comté or goat cheese; suggested cellaring 5–10 years.",
+              "vintageScope": "Site and label follow the current estate page. Technical and service figures are specifically from the 2024 sheet, not universal across vintages. Tasting descriptions are the producer’s."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "technicalVintage": 2024,
+          "imageUrl": "https://www.jaeger-defaix.com/image/uploads/vins/RULLY-CLOUX-6a996bf50c0c12.57593358.png?fm=png&h=520&s=ebf1c26b917beed4ccc72ed94a0dcabf",
+          "imageSourceUrl": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-les-cloux-blanc-21",
+          "imageCredit": "Domaine Jaeger-Defaix",
+          "imageScope": "Official reference bottle; pictured label vintage may differ from the 2024 technical profile."
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-blanc-rabource",
+          "name": "Rully Premier Cru Blanc Rabourcé",
+          "place": "位于 Cloux 上方较陡坡段，白色黏土为主；酒庄称反射光有助成熟，是其较早成熟的地块。",
+          "grape": "Chardonnay",
+          "method": "2024：原生酵母酒精发酵及自然完成的全量苹果酸—乳酸发酵；全部在旧橡木桶发酵、熟成 12 个月，期间少量搅桶，再调配并在不锈钢罐熟成 6 个月。",
+          "detail": "酒庄风格描述以丰厚、力量与长度为重点。2024：13.5% vol，40 hl/ha；约 12°C，可配白肉或烩饭，陈年参考 5–10 年。",
+          "vintageScope": "地块和酒标按酒庄现行页面；技术参数及服务建议明确采用 2024 技术单，不外推至其他年份。品鉴为生产者描述。",
+          "sourceIds": [
+            "rully-final-jd-w3",
+            "rully-final-jd-2024-w3"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Steep slope above Cloux, predominantly white clay; the estate associates reflected light with this parcel’s early ripening.",
+              "grape": "Chardonnay",
+              "method": "2024: native-yeast alcoholic fermentation and full spontaneous malolactic fermentation. Entirely fermented and aged in used oak for 12 months with occasional light lees stirring, then blended and held in stainless steel for six months.",
+              "detail": "Estate profile: palate richness, strength and length. 2024: 13.5% ABV; 40 hl/ha; around 12°C with white meat or risotto; suggested cellaring 5–10 years.",
+              "vintageScope": "Site and label follow the current estate page. Technical and service figures are specifically from the 2024 sheet, not universal across vintages. Tasting descriptions are the producer’s."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "technicalVintage": 2024,
+          "imageUrl": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Rabource-6a996c72d0cc65.72231861.png?fm=png&h=520&s=cc7e53b628e4bc69a76e9c0331cb257a",
+          "imageSourceUrl": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-rabource-blanc-22",
+          "imageCredit": "Domaine Jaeger-Defaix",
+          "imageScope": "Official reference bottle; pictured label vintage may differ from the 2024 technical profile."
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-blanc-sans-soufre",
+          "name": "Rully Blanc Sans Soufre",
+          "place": "2022 年首次推出的新增地块酒款；2024 技术单列黏土—石灰岩土壤，未列独立 climat 名称。",
+          "grape": "Chardonnay",
+          "method": "2024：轻柔缓慢压榨，原生酵母发酵及全量自然苹果酸—乳酸发酵；不锈钢罐细酒泥熟成 8 个月，不澄清、不过滤装瓶。",
+          "detail": "不澄清、不过滤，因此可呈轻微浑浊。酒庄强调鲜活及年轻饮用。2024：13.5% vol，45 hl/ha；约 12°C，陈年参考 2–4 年。酒名不代表实验室检测总 SO₂ 为零。",
+          "vintageScope": "地块和酒标按酒庄现行页面；技术参数及服务建议明确采用 2024 技术单，不外推至其他年份。品鉴为生产者描述。",
+          "sourceIds": [
+            "rully-final-jd-w4",
+            "rully-final-jd-2024-w4"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "First released in 2022 from a newly acquired estate parcel. The 2024 sheet specifies clay-limestone soils without naming a climat.",
+              "grape": "Chardonnay",
+              "method": "2024: slow gentle pressing, native-yeast fermentation and full spontaneous malolactic fermentation; eight months on fine lees in stainless steel, bottled without fining or filtration.",
+              "detail": "Unfined and unfiltered, so slight haze is possible. The estate recommends youthful drinking. 2024: 13.5% ABV; 45 hl/ha; around 12°C; suggested cellaring 2–4 years. The label does not establish zero measured total SO₂.",
+              "vintageScope": "Site and label follow the current estate page. Technical and service figures are specifically from the 2024 sheet, not universal across vintages. Tasting descriptions are the producer’s."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "technicalVintage": 2024,
+          "imageUrl": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-bl-SSA-6a996d39064536.26733975.png?fm=png&h=520&s=4048b89298ae3357e8723367212ef7e9",
+          "imageSourceUrl": "https://www.jaeger-defaix.com/en/wines/rully-blanc-without-sulphur-23",
+          "imageCredit": "Domaine Jaeger-Defaix",
+          "imageScope": "Official reference bottle; pictured label vintage may differ from the 2024 technical profile."
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-rouge-village",
+          "name": "Rully Rouge",
+          "place": "村庄级 Pinot Noir；2024 技术单列黏土—石灰岩土壤。以疏芽控产，并在葡萄园及酒窖分选。",
+          "grape": "Pinot Noir",
+          "method": "2024：100% 去梗，数日冷浸渍；原生酵母发酵 10–15 日，每日淋皮、初期少量压帽；全量自然苹果酸—乳酸发酵。旧桶熟成一年，调配后再熟成六个月。",
+          "detail": "酒庄描述为樱桃、覆盆子及细致多汁的口感。2024：13% vol，40 hl/ha；16–18°C，可配烧烤，陈年参考 4–6 年。",
+          "vintageScope": "地块和酒标按酒庄现行页面；技术参数及服务建议明确采用 2024 技术单，不外推至其他年份。品鉴为生产者描述。",
+          "sourceIds": [
+            "rully-final-jd-w5",
+            "rully-final-jd-2024-w5"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Village-level Pinot Noir on clay-limestone soils in the 2024 sheet. Disbudding controls yield; grapes are sorted in the vineyard and cellar.",
+              "grape": "Pinot Noir",
+              "method": "2024: fully destemmed; several days’ cold maceration; native-yeast fermentation for 10–15 days with daily pump-overs and limited early punch-downs; full spontaneous malolactic fermentation. One year in used oak, then six months after blending.",
+              "detail": "Estate profile: cherry, raspberry and a fine, juicy palate. 2024: 13% ABV; 40 hl/ha; serve at 16–18°C with grilled food; suggested cellaring 4–6 years.",
+              "vintageScope": "Site and label follow the current estate page. Technical and service figures are specifically from the 2024 sheet, not universal across vintages. Tasting descriptions are the producer’s."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "technicalVintage": 2024,
+          "imageUrl": "https://www.jaeger-defaix.com/image/uploads/vins/rully-rouge-6a996d741fd2d1.68558680.png?fm=png&h=520&s=5acf44753d433c8eba4a89d9ee4aca0e",
+          "imageSourceUrl": "https://www.jaeger-defaix.com/en/wines/rully-rouge-24",
+          "imageCredit": "Domaine Jaeger-Defaix",
+          "imageScope": "Official reference bottle; pictured label vintage may differ from the 2024 technical profile."
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-rouge-preaux",
+          "name": "Rully Premier Cru Rouge Préaux",
+          "place": "Préaux 一级园，毗邻 Chapitre、位于 Cloux 下方，红色黏土土壤。",
+          "grape": "Pinot Noir",
+          "method": "2024：100% 去梗，数日冷浸渍；原生酵母发酵 10–15 日，每日淋皮、初期少量压帽；全量自然苹果酸—乳酸发酵。旧桶熟成一年，调配后再熟成六个月。",
+          "detail": "酒庄描述为樱桃、覆盆子、丝滑质地与较长余味。2024：13.5% vol，40 hl/ha；约 18°C，可配烤鸡或蔬菜炒食，陈年参考 5–10 年。",
+          "vintageScope": "地块和酒标按酒庄现行页面；技术参数及服务建议明确采用 2024 技术单，不外推至其他年份。品鉴为生产者描述。",
+          "sourceIds": [
+            "rully-final-jd-w6",
+            "rully-final-jd-2024-w6"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Préaux Premier Cru borders Chapitre below Cloux, on red-clay soils.",
+              "grape": "Pinot Noir",
+              "method": "2024: fully destemmed; several days’ cold maceration; native-yeast fermentation for 10–15 days with daily pump-overs and limited early punch-downs; full spontaneous malolactic fermentation. One year in used oak, then six months after blending.",
+              "detail": "Estate profile: cherry and raspberry with silky texture and length. 2024: 13.5% ABV; 40 hl/ha; around 18°C with roast chicken or stir-fried vegetables; suggested cellaring 5–10 years.",
+              "vintageScope": "Site and label follow the current estate page. Technical and service figures are specifically from the 2024 sheet, not universal across vintages. Tasting descriptions are the producer’s."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "technicalVintage": 2024,
+          "imageUrl": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Preaux-6a996db4cc31b6.18384607.png?fm=png&h=520&s=4123977a94b391bea4517ab4fe0b2199",
+          "imageSourceUrl": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-preaux-rouge-25",
+          "imageCredit": "Domaine Jaeger-Defaix",
+          "imageScope": "Official reference bottle; pictured label vintage may differ from the 2024 technical profile."
+        },
+        {
+          "id": "wine-fr-jaeger-defaix-rully-1er-rouge-clos-du-chapitre",
+          "name": "Rully Premier Cru Rouge Clos du Chapitre",
+          "place": "Chapitre 一级园内的围墙 monopole，超过 1 ha，紧邻家族住宅后方；Clos du Chapitre 是酒庄独立酒标。",
+          "grape": "Pinot Noir",
+          "method": "2024：100% 去梗，数日冷浸渍；原生酵母发酵 10–15 日，每日淋皮、初期少量压帽；全量自然苹果酸—乳酸发酵。橡木桶熟成一年，10% 新桶，调配后再熟成六个月。",
+          "detail": "酒庄强调果味、精细度与支撑陈年的结构。2024：13.5% vol，32 hl/ha；约 18°C，可配烤禽或半熟金枪鱼，陈年参考 5–10 年。",
+          "vintageScope": "地块和酒标按酒庄现行页面；技术参数及服务建议明确采用 2024 技术单，不外推至其他年份。品鉴为生产者描述。",
+          "sourceIds": [
+            "rully-final-jd-w7",
+            "rully-final-jd-2024-w7"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "An enclosed monopole of over one hectare within Chapitre Premier Cru, behind the family home; Clos du Chapitre is the distinct estate cuvée.",
+              "grape": "Pinot Noir",
+              "method": "2024: fully destemmed; several days’ cold maceration; native-yeast fermentation for 10–15 days with daily pump-overs and limited early punch-downs; full spontaneous malolactic fermentation. One year in oak, including 10% new barrels, then six months after blending.",
+              "detail": "Estate profile: fruit, elegance and structure for ageing. 2024: 13.5% ABV; 32 hl/ha; around 18°C with roast poultry or lightly cooked tuna; suggested cellaring 5–10 years.",
+              "vintageScope": "Site and label follow the current estate page. Technical and service figures are specifically from the 2024 sheet, not universal across vintages. Tasting descriptions are the producer’s."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "technicalVintage": 2024,
+          "imageUrl": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Chapitre-6a996df482ddb5.65855438.png?fm=png&h=520&s=acc5e225162923e8bfd06cbdf041a029",
+          "imageSourceUrl": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-clos-du-chapitre-rouge-26",
+          "imageCredit": "Domaine Jaeger-Defaix",
+          "imageScope": "Official reference bottle; pictured label vintage may differ from the 2024 technical profile."
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "未来年份的新增技术单与授权图片按发行更新。"
+      ],
+      "translations": {
+        "en": {
+          "intro": "Hélène Jaeger-Defaix continued the Niepce family’s Rully tradition, succeeding great-aunt Henriette Niepce in the early 2000s. The 2024 estate sheets report 6.5 hectares; the current Rully catalogue comprises five whites and three reds.",
+          "scope": "All eight Rully cuvées checked against estate pages and 2024 technical sheets; historical and vintage data retain their stated scope.",
+          "sections": [
+            {
+              "title": "History",
+              "text": "In 2002 Hélène Jaeger-Defaix received Montpalais from great-aunt Henriette Niepce; she took on Préaux in 2003 and managed the c.4.5-ha family estate from 2005. The Niepce family has centuries of local vineyard history.",
+              "sourceIds": [
+                "fr-rully29-jaeger_estate",
+                "fr-rully29-jaeger_wines"
+              ]
+            },
+            {
+              "title": "Ownership",
+              "text": "Family estate connected to the Defaix family; a distinct estate from Domaine Bernard Defaix.",
+              "sourceIds": [
+                "fr-rully29-jaeger_estate",
+                "fr-rully29-jaeger_wines"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "The 2024 estate sheets state 6.5 hectares. The range spans Montpalais, Cloux, Rabourcé, Préaux and the Clos du Chapitre monopole, alongside village red, white and Sans Soufre white.",
+              "sourceIds": [
+                "rully-final-jd-portfolio",
+                "rully-final-jd-2024-w0"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "The 2024 estate sheets describe organic farming since 2007 and Ecocert certification. Red-wine yields are controlled by disbudding, with sorting in vineyard and cellar.",
+              "sourceIds": [
+                "rully-final-jd-2024-w1",
+                "rully-final-jd-w6"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "In 2024, standard whites used old oak for 12 months followed by six months in tank; Sans Soufre spent eight months on fine lees in stainless steel. Reds were destemmed; only Clos du Chapitre’s sheet specifies 10% new oak.",
+              "sourceIds": [
+                "rully-final-jd-2024-w2",
+                "rully-final-jd-2024-w4",
+                "rully-final-jd-2024-w7"
+              ]
+            }
+          ],
+          "gaps": [
+            "Future vintage sheets and licensed imagery are maintained as releases become available."
+          ]
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    },
+    {
+      "id": "producer-fr-michel-briday",
+      "name": "Domaine Michel Briday",
+      "aliases": [
+        "Domaine Stéphane Briday",
+        "Domaine Briday Michel"
+      ],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "Rully, Côte Chalonnaise",
+      "website": "https://www.domaine-briday.com/en/presentation",
+      "intro": "Michel 与 Lucette Briday 于 1976 年创建酒庄。Stéphane 在 1988 年加入，Sandrine 于 2000 年加入；酒庄网站记载经营约 15 ha，跨 Rully、Mercurey 与 Bouzeron，重点表现地块差异。",
+      "scope": "全部 8 款 Rully 酒款已与酒庄页面对应，技术资料按未标年份基线呈现。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史",
+          "text": "1976 年由 Michel 与 Lucette 创办，起初租种约 6 ha，并自第一年份开始酒庄装瓶。Stéphane 于 1988 年加入父母的事业，Sandrine 于 2000 年加入。",
+          "sourceIds": [
+            "rully-final-briday-history"
+          ]
+        },
+        {
+          "title": "人物与经营",
+          "text": "Stéphane 与 Sandrine 延续家族经营。酒庄官网记载总面积约 15 ha，主要在 Rully，并延伸至 Mercurey 与 Bouzeron。",
+          "sourceIds": [
+            "rully-final-briday-history"
+          ]
+        },
+        {
+          "title": "葡萄园与酒款",
+          "text": "Rully 白葡萄酒包括村庄调配、Clos de Remenot monopole、Grésigny、La Pucelle 与 Les Cloux；红葡萄酒包括 Les 4 Vignes、Champs Cloux 与 Les Pierres。Clos de Remenot 为村庄级，不能因 monopole 而归为一级园。",
+          "sourceIds": [
+            "rully-final-briday-map",
+            "rully-final-briday-w5",
+            "rully-final-briday-w1"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "1996 年起停用除草剂并恢复全园土壤耕作；2014 年起遵循 Terra Vitis 体系。依地块观察决定必要处理，人工采收；Pinot Noir 用 20 kg 小箱运输并分选。",
+          "sourceIds": [
+            "rully-final-briday-practice"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "原生酵母发酵，橡木使用按酒款区分。白葡萄压榨后在罐或 300/400 L 桶发酵；红葡萄采取发酵前浸渍及分酒款整串策略。具体工艺见各酒档案，不以一套比例概括全庄。",
+          "sourceIds": [
+            "rully-final-briday-practice",
+            "rully-final-briday-w0",
+            "rully-final-briday-w7"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-michel-briday-rully-blanc-village",
+          "name": "Rully Blanc",
+          "place": "Chaponnières、Saint Jacques、La Crée、La Bergerie 四地块调配。La Crée 较多石质，La Bergerie 为深黏土；酒庄页面列 4.3 ha、平均树龄 40 年。",
+          "grape": "Chardonnay",
+          "method": "人工采收后立即轻柔压榨，罐与桶中原生酵母发酵；仅占调配 25% 的 La Crée 部分桶熟，其余罐熟。",
+          "detail": "生产者描述为梨、柠檬、香料及少量干果，果味清晰、口感易亲近。",
+          "vintageScope": "2026-10-29 核对酒庄未标年份酒款页面。面积、平均树龄、新桶比例和饮用期均为该页基线；不自动递增树龄或外推为每年份固定工艺。",
+          "sourceIds": [
+            "rully-final-briday-w0"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Four parcels: Chaponnières, Saint Jacques, stony La Crée and deep-clay La Bergerie. The undated estate page reports 4.3 ha and average vine age 40 years.",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and pressed promptly; native-yeast fermentation in tank and barrel. Only the La Crée portion, 25% of the blend, is barrel-aged; the remainder stays in vats.",
+              "detail": "Producer description: pear, lemon, spice and a dried-fruit accent, with accessible, fruit-led texture.",
+              "vintageScope": "Estate’s undated wine page checked 29 October 2026. Area, average vine age, oak share and drinking guidance are the published baseline, not automatically age-adjusted or universal vintage specifications."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-rouge-village",
+          "name": "Rully Rouge Les 4 Vignes",
+          "place": "四地块调配，包括较晚熟的坡顶石质地块及较早熟的坡脚黏土地块。酒庄页面列 4.07 ha、平均树龄 50 年；现行酒标为 Les 4 Vignes。",
+          "grape": "Pinot Noir",
+          "method": "小箱人工采收、酒窖分选、去梗；按年份进行 3–8 日发酵前浸渍，原生酵母发酵，整体酿造期 20–25 日；随后橡木桶熟成，酒庄未标年份页面列 25% 新桶。",
+          "detail": "生产者描述为樱桃、覆盆子、红醋栗及细致而集中的单宁，建议 4–10 年饮用参考。此为酒款级描述，不是某一年份的评分或保证。",
+          "vintageScope": "2026-10-29 核对酒庄未标年份酒款页面。面积、平均树龄、新桶比例和饮用期均为该页基线；不自动递增树龄或外推为每年份固定工艺。",
+          "sourceIds": [
+            "rully-final-briday-w1"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Four parcels combine later-ripening stony upper slopes with earlier-ripening clay lower slopes. Estate baseline: 4.07 ha; average vine age 50 years. Current cuvée name: Les 4 Vignes.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked in small crates, sorted and destemmed; 3–8 days’ pre-fermentation maceration depending on vintage, native yeasts, 20–25 days total vinification; oak élevage with 25% new barrels in the estate’s undated description.",
+              "detail": "Producer description: cherry, raspberry, redcurrant and concentrated yet fine tannins; suggested drinking at 4–10 years. This is cuvée-level guidance, not a vintage guarantee.",
+              "vintageScope": "Estate’s undated wine page checked 29 October 2026. Area, average vine age, oak share and drinking guidance are the published baseline, not automatically age-adjusted or universal vintage specifications."
+            }
+          },
+          "aliases": [
+            "Rully Rouge",
+            "Rully Les 4 Vignes",
+            "Rully « Les 4 vignes »"
+          ],
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-blanc-grésigny",
+          "name": "Rully Premier Cru Blanc Grésigny",
+          "place": "Rully 南部冷凉、多风地块，石灰岩占主导，表土约 15 cm；酒庄页面列 1.10 ha、平均树龄超过 60 年，成熟较晚。",
+          "grape": "Chardonnay",
+          "method": "人工采收、立即轻柔压榨；300 L 与 400 L 桶内原生酵母发酵，全部桶熟，酒庄页面列 15% 新桶。",
+          "detail": "生产者强调紧致、长度、柠檬和矿物风格，并提到槐花、燧石；适合给予开瓶或瓶中发展时间。",
+          "vintageScope": "2026-10-29 核对酒庄未标年份酒款页面。面积、平均树龄、新桶比例和饮用期均为该页基线；不自动递增树龄或外推为每年份固定工艺。",
+          "sourceIds": [
+            "rully-final-briday-w2"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Cool, windy southern-Rully site with limestone and approximately 15 cm topsoil. Estate baseline: 1.10 ha; vines averaging over 60 years; late ripening.",
+              "grape": "Chardonnay",
+              "method": "Hand harvest and immediate gentle pressing; native-yeast fermentation in 300/400 L barrels; entirely barrel-aged, with 15% new oak in the estate baseline.",
+              "detail": "Producer description: taut, persistent and lemony, with acacia and flint associations; benefits from time to open and develop.",
+              "vintageScope": "Estate’s undated wine page checked 29 October 2026. Area, average vine age, oak share and drinking guidance are the published baseline, not automatically age-adjusted or universal vintage specifications."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-blanc-la-pucelle",
+          "name": "Rully Premier Cru Blanc La Pucelle",
+          "place": "Rully 中部正东向地块，浅黏土；酒庄页面列 0.50 ha、平均树龄 45 年。",
+          "grape": "Chardonnay",
+          "method": "人工采收、立即轻柔压榨；300 L 与 400 L 桶内原生酵母发酵。酒庄此页未公布新桶比例或熟成时长。",
+          "detail": "生产者描述以柑橘、槐花、轻微烘烤及细致长余味为主；酒庄给出的陈年参考为 5–7 年。",
+          "vintageScope": "2026-10-29 核对酒庄未标年份酒款页面。面积、平均树龄、新桶比例和饮用期均为该页基线；不自动递增树龄或外推为每年份固定工艺。",
+          "sourceIds": [
+            "rully-final-briday-w3"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Due-east-facing central-Rully parcel on shallow clay. Estate baseline: 0.50 ha; average vine age 45 years.",
+              "grape": "Chardonnay",
+              "method": "Hand harvest and immediate gentle pressing; native-yeast fermentation in 300/400 L barrels. This wine’s estate page does not specify a new-oak percentage or élevage duration.",
+              "detail": "Producer description: citrus, acacia and discreet toast, favouring subtlety and length; estate cellaring guidance is 5–7 years.",
+              "vintageScope": "Estate’s undated wine page checked 29 October 2026. Area, average vine age, oak share and drinking guidance are the published baseline, not automatically age-adjusted or universal vintage specifications."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-blanc-les-cloux",
+          "name": "Rully Premier Cru Blanc Les Cloux",
+          "place": "村庄北侧正东向坡脚地块，土壤深，成熟较早；酒庄页面列 0.41 ha、平均树龄 45 年。",
+          "grape": "Chardonnay",
+          "method": "人工采收、立即轻柔压榨；300 L 与 400 L 桶内原生酵母发酵，全部桶熟，酒庄页面列 10% 新桶。",
+          "detail": "生产者描述为梨、桃与柔顺丰润的质地，建议采收后约 3–5 年饮用参考。",
+          "vintageScope": "2026-10-29 核对酒庄未标年份酒款页面。面积、平均树龄、新桶比例和饮用期均为该页基线；不自动递增树龄或外推为每年份固定工艺。",
+          "sourceIds": [
+            "rully-final-briday-w4"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "East-facing parcel north of the village, on deep lower-slope soils and relatively early ripening. Estate baseline: 0.41 ha; average vine age 45 years.",
+              "grape": "Chardonnay",
+              "method": "Hand harvest and immediate gentle pressing; native-yeast fermentation in 300/400 L barrels; entirely barrel-aged with 10% new oak in the estate baseline.",
+              "detail": "Producer description: pear, peach and supple, generous texture; estate guidance suggests approaching the wine at about 3–5 years after harvest.",
+              "vintageScope": "Estate’s undated wine page checked 29 October 2026. Area, average vine age, oak share and drinking guidance are the published baseline, not automatically age-adjusted or universal vintage specifications."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-blanc-clos-de-remenot",
+          "name": "Rully Blanc Clos de Remenot Monopole",
+          "place": "正南向坡顶 monopole，表土不超过约 10 cm，接近石灰岩基岩，属酒庄较早采收地块。页面列 0.54 ha、平均树龄 45 年；属 Village，不是 Premier Cru。",
+          "grape": "Chardonnay",
+          "method": "人工采收、立即轻柔压榨；300 L 与 400 L 桶内原生酵母发酵，全部桶熟，酒庄页面列 10% 新桶。",
+          "detail": "生产者强调成熟果香、浓度、丰满感与清新的结构并存；monopole 身份不改变其村庄级分级。",
+          "vintageScope": "2026-10-29 核对酒庄未标年份酒款页面。面积、平均树龄、新桶比例和饮用期均为该页基线；不自动递增树龄或外推为每年份固定工艺。",
+          "sourceIds": [
+            "rully-final-briday-w5"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "South-facing upper-slope monopole with no more than about 10 cm soil above limestone, harvested early. Estate baseline: 0.54 ha; average vine age 45 years. Village, not Premier Cru.",
+              "grape": "Chardonnay",
+              "method": "Hand harvest and immediate gentle pressing; native-yeast fermentation in 300/400 L barrels; entirely barrel-aged with 10% new oak in the estate baseline.",
+              "detail": "Producer description: ripe fruit and concentration, combining richness with a fresh structural line; monopole ownership does not change its Village classification.",
+              "vintageScope": "Estate’s undated wine page checked 29 October 2026. Area, average vine age, oak share and drinking guidance are the published baseline, not automatically age-adjusted or universal vintage specifications."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-rouge-champs-cloux",
+          "name": "Rully Premier Cru Rouge Champs Cloux",
+          "place": "Rully 城堡下方东向坡，深黏土且排水良好；酒庄页面列 0.62 ha、平均树龄 50 年。",
+          "grape": "Pinot Noir",
+          "method": "小箱人工采收、酒窖分选、去梗；按年份进行 3–8 日发酵前浸渍，原生酵母发酵，整体酿造期 20–25 日；橡木桶熟成，酒庄页面列 25% 新桶。",
+          "detail": "生产者描述为花香、蓝莓、少量木香与香料，质地饱满，单宁细致。",
+          "vintageScope": "2026-10-29 核对酒庄未标年份酒款页面。面积、平均树龄、新桶比例和饮用期均为该页基线；不自动递增树龄或外推为每年份固定工艺。",
+          "sourceIds": [
+            "rully-final-briday-w6"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "East-facing slope below Rully château, with deep but well-drained clay. Estate baseline: 0.62 ha; average vine age 50 years.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked in small crates, sorted and destemmed; 3–8 days’ pre-fermentation maceration according to vintage, native-yeast fermentation over 20–25 days total, then oak élevage with 25% new barrels.",
+              "detail": "Producer description: flowers, blueberry, discreet oak and spice, with plump texture and fine tannins.",
+              "vintageScope": "Estate’s undated wine page checked 29 October 2026. Area, average vine age, oak share and drinking guidance are the published baseline, not automatically age-adjusted or universal vintage specifications."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29"
+        },
+        {
+          "id": "wine-fr-michel-briday-rully-1er-rouge-les-pierres",
+          "name": "Rully Premier Cru Rouge Les Pierres",
+          "place": "La Pucelle 附近正东向地块，以石灰质砾石为主、黏土较少。酒庄为该小 climat 两位业主之一，页面列 0.18 ha、平均树龄 25 年。",
+          "grape": "Pinot Noir",
+          "method": "小箱人工采收并分选；以去梗为主，依年份可保留约 20% 整串。发酵前浸渍 3–8 日，原生酵母发酵，整体酿造期 20–25 日；酒庄页面列 25% 新桶。",
+          "detail": "生产者描述为成熟红莓、玫瑰、浓度与较扎实的单宁结构；给出的陈年参考为 5–10 年。",
+          "vintageScope": "2026-10-29 核对酒庄未标年份酒款页面。面积、平均树龄、新桶比例和饮用期均为该页基线；不自动递增树龄或外推为每年份固定工艺。",
+          "sourceIds": [
+            "rully-final-briday-w7"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Due-east-facing calcareous gravel near La Pucelle, with relatively little clay. The estate is one of two owners; baseline 0.18 ha and average vine age 25 years.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked and sorted; predominantly destemmed, with around 20% whole clusters retained in some years. Pre-fermentation maceration 3–8 days, native-yeast fermentation, 20–25 days total vinification; 25% new oak in the estate baseline.",
+              "detail": "Producer description: ripe red berries, rose, concentration and firm tannic structure; estate cellaring guidance is 5–10 years.",
+              "vintageScope": "Estate’s undated wine page checked 29 October 2026. Area, average vine age, oak share and drinking guidance are the published baseline, not automatically age-adjusted or universal vintage specifications."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29"
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "未来年份的新增技术单与授权图片按发行更新。"
+      ],
+      "translations": {
+        "en": {
+          "intro": "Michel and Lucette Briday founded the estate in 1976; Stéphane joined in 1988 and Sandrine in 2000. The estate reports around 15 hectares across Rully, Mercurey and Bouzeron, with a parcel-specific approach.",
+          "scope": "All eight Rully cuvées matched to estate pages; technical details are presented as undated estate baselines.",
+          "sections": [
+            {
+              "title": "History",
+              "text": "Founded in 1976 by Michel and Lucette, initially with about six rented hectares and estate bottling from the outset. Stéphane joined in 1988; Sandrine followed in 2000.",
+              "sourceIds": [
+                "rully-final-briday-history"
+              ]
+            },
+            {
+              "title": "People and estate",
+              "text": "Stéphane and Sandrine continue the family estate. Its website reports approximately 15 hectares, centred on Rully with holdings in Mercurey and Bouzeron.",
+              "sourceIds": [
+                "rully-final-briday-history"
+              ]
+            },
+            {
+              "title": "Vineyards and portfolio",
+              "text": "Rully whites comprise the village blend, Clos de Remenot monopole, Grésigny, La Pucelle and Les Cloux; reds are Les 4 Vignes, Champs Cloux and Les Pierres. Clos de Remenot remains Village-level.",
+              "sourceIds": [
+                "rully-final-briday-map",
+                "rully-final-briday-w5",
+                "rully-final-briday-w1"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "Herbicides were abandoned in 1996 in favour of soil cultivation; the estate follows Terra Vitis since 2014. Treatments depend on observation. Grapes are hand-picked, with Pinot Noir carried in 20 kg crates and sorted.",
+              "sourceIds": [
+                "rully-final-briday-practice"
+              ]
+            },
+            {
+              "title": "Vinification and élevage",
+              "text": "Native yeasts and cuvée-specific oak regimes. Whites ferment in tank or 300/400 L barrels; reds use pre-fermentation maceration and label-dependent whole-cluster handling. Individual wine profiles specify the differences.",
+              "sourceIds": [
+                "rully-final-briday-practice",
+                "rully-final-briday-w0",
+                "rully-final-briday-w7"
+              ]
+            }
+          ],
+          "gaps": [
+            "Future vintage sheets and licensed imagery are maintained as releases become available."
+          ]
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rully-final-jd-portfolio",
+      "title": "Jaeger-Defaix · current eight-wine portfolio",
+      "url": "https://www.jaeger-defaix.com/en/wines",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-w0",
+      "title": "Domaine Jaeger-Defaix · Rully Blanc",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-blanc-19",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-2024-w0",
+      "title": "Domaine Jaeger-Defaix · Rully Blanc · 2024 technical sheet",
+      "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Blanc-2024-Domaine-Jaeger-Defaix-6acdf13544d5b3.09136764.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-w1",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Blanc Montpalais",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-mont-palais-blanc-20",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-2024-w1",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Blanc Montpalais · 2024 technical sheet",
+      "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Mont-Palais-2024-Domaine-Jaeger-Defaix-6acdf25bdafa44.48469436.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-w2",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Blanc Les Cloux",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-les-cloux-blanc-21",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-2024-w2",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Blanc Les Cloux · 2024 technical sheet",
+      "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Les-Cloux-2024-Domaine-Jaeger-Defaix-6acdf29f5220c7.61745253.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-w3",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Blanc Rabourcé",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-rabource-blanc-22",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-2024-w3",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Blanc Rabourcé · 2024 technical sheet",
+      "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Rabource-2024-Domaine-Jaeger-Defaix-6acdf2c11f7671.31698561.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-w4",
+      "title": "Domaine Jaeger-Defaix · Rully Blanc Sans Soufre",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-blanc-without-sulphur-23",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-2024-w4",
+      "title": "Domaine Jaeger-Defaix · Rully Blanc Sans Soufre · 2024 technical sheet",
+      "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Blanc-Sans-Soufre-2024-Domaine-Jaeger-Defaix-6acdf327f40d61.30294288.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-w5",
+      "title": "Domaine Jaeger-Defaix · Rully Rouge",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-rouge-24",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-2024-w5",
+      "title": "Domaine Jaeger-Defaix · Rully Rouge · 2024 technical sheet",
+      "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Rouge-2024-Domaine-Jaeger-Defaix-6acdf3c74edcd3.56265363.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-w6",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Rouge Préaux",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-preaux-rouge-25",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-2024-w6",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Rouge Préaux · 2024 technical sheet",
+      "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Preaux-2024-Domaine-Jaeger-Defaix-6acdf40122aa87.26793474.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-w7",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Rouge Clos du Chapitre",
+      "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-clos-du-chapitre-rouge-26",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-jd-2024-w7",
+      "title": "Domaine Jaeger-Defaix · Rully Premier Cru Rouge Clos du Chapitre · 2024 technical sheet",
+      "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Clos-du-Chapitre-2024-Domaine-Jaeger-Defaix-6acdf479043cd5.82575312.pdf",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-history",
+      "title": "Michel Briday · estate history",
+      "url": "https://www.domaine-briday.com/en/presentation",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-practice",
+      "title": "Michel Briday · viticulture and cellar practice",
+      "url": "https://www.domaine-briday.com/en/philosophy",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-map",
+      "title": "Michel Briday · vineyard and wine catalogue",
+      "url": "https://www.domaine-briday.com/en/0004-carte",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-w0",
+      "title": "Domaine Michel Briday · Rully Blanc",
+      "url": "https://www.domaine-briday.com/en/wines/13/rully",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-w1",
+      "title": "Domaine Michel Briday · Rully Rouge Les 4 Vignes",
+      "url": "https://www.domaine-briday.com/en/wines/22/rully-les-4-vignes",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-w2",
+      "title": "Domaine Michel Briday · Rully Premier Cru Blanc Grésigny",
+      "url": "https://www.domaine-briday.com/en/wines/16/rully-1er-cru-gresigny",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-w3",
+      "title": "Domaine Michel Briday · Rully Premier Cru Blanc La Pucelle",
+      "url": "https://www.domaine-briday.com/en/wines/15/rully-1er-cru-la-pucelle",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-w4",
+      "title": "Domaine Michel Briday · Rully Premier Cru Blanc Les Cloux",
+      "url": "https://www.domaine-briday.com/en/wines/19/rully-1er-cru-les-cloux",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-w5",
+      "title": "Domaine Michel Briday · Rully Blanc Clos de Remenot Monopole",
+      "url": "https://www.domaine-briday.com/en/wines/17/rully-clos-de-remenot-monopole",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-w6",
+      "title": "Domaine Michel Briday · Rully Premier Cru Rouge Champs Cloux",
+      "url": "https://www.domaine-briday.com/en/wines/14/rully-1er-cru-champs-cloux",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "rully-final-briday-w7",
+      "title": "Domaine Michel Briday · Rully Premier Cru Rouge Les Pierres",
+      "url": "https://www.domaine-briday.com/en/wines/24/rully-1er-cru-les-pierres/",
+      "type": "official_producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official producer page or technical sheet retrieved 2026-10-29."
+    },
+    {
+      "id": "fr-rully29-jaeger_estate",
+      "title": "Domaine Jaeger-Defaix official history",
+      "url": "https://www.jaeger-defaix.com/en/rully-le-domaine",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    },
+    {
+      "id": "fr-rully29-jaeger_wines",
+      "title": "Jaeger-Defaix official current Rully wines",
+      "url": "https://www.jaeger-defaix.com/en/wines",
+      "type": "official_producer",
+      "verification": "Recovered from existing research accessed/indexed 2026-10-26; not independently re-fetched for this release."
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-10-29",
+    "checkedWineIds": [
+      "wine-fr-jaeger-defaix-rully-blanc-village",
+      "wine-fr-jaeger-defaix-rully-1er-blanc-montpalais",
+      "wine-fr-jaeger-defaix-rully-1er-blanc-les-cloux",
+      "wine-fr-jaeger-defaix-rully-1er-blanc-rabource",
+      "wine-fr-jaeger-defaix-rully-blanc-sans-soufre",
+      "wine-fr-jaeger-defaix-rully-rouge-village",
+      "wine-fr-jaeger-defaix-rully-1er-rouge-preaux",
+      "wine-fr-jaeger-defaix-rully-1er-rouge-clos-du-chapitre",
+      "wine-fr-michel-briday-rully-blanc-village",
+      "wine-fr-michel-briday-rully-rouge-village",
+      "wine-fr-michel-briday-rully-1er-blanc-grésigny",
+      "wine-fr-michel-briday-rully-1er-blanc-la-pucelle",
+      "wine-fr-michel-briday-rully-1er-blanc-les-cloux",
+      "wine-fr-michel-briday-rully-blanc-clos-de-remenot",
+      "wine-fr-michel-briday-rully-1er-rouge-champs-cloux",
+      "wine-fr-michel-briday-rully-1er-rouge-les-pierres"
+    ],
+    "newWines": [],
+    "identityCorrections": [
+      {
+        "wineId": "wine-fr-michel-briday-rully-rouge-village",
+        "name": "Rully Rouge Les 4 Vignes",
+        "reason": "Official estate product page names the village red Les 4 Vignes; retained stable existing ID and aliases, no duplicate cuvée."
+      }
+    ],
+    "unresolvedFacts": [
+      {
+        "wineId": "wine-fr-michel-briday-rully-1er-blanc-la-pucelle",
+        "fields": [
+          "new-oak percentage",
+          "élevage duration"
+        ],
+        "reason": "Not specified on the wine’s official technical page; no value borrowed from another cuvée."
+      },
+      {
+        "producerId": "producer-fr-jaeger-defaix",
+        "field": "current independent certification certificate",
+        "reason": "Ecocert wording attributed to official 2024 technical sheets; no independent certificate audit claimed."
+      }
+    ],
+    "sourceEvidence": [
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines",
+        "ref": "turn986view0",
+        "claim": "Current catalogue contains five white and three red Rully cuvées; 2024 seasonal account distinguishes Rully from Chablis."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-blanc-19",
+        "ref": "turn988view0",
+        "claim": "Wine identity, site and estate style statement."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Blanc-2024-Domaine-Jaeger-Defaix-6acdf13544d5b3.09136764.pdf",
+        "ref": "turn992view6",
+        "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-mont-palais-blanc-20",
+        "ref": "turn988view1",
+        "claim": "Wine identity, site and estate style statement."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Mont-Palais-2024-Domaine-Jaeger-Defaix-6acdf25bdafa44.48469436.pdf",
+        "ref": "turn1005view0",
+        "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-les-cloux-blanc-21",
+        "ref": "turn988view2",
+        "claim": "Wine identity, site and estate style statement."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Les-Cloux-2024-Domaine-Jaeger-Defaix-6acdf29f5220c7.61745253.pdf",
+        "ref": "turn1005view1",
+        "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-rabource-blanc-22",
+        "ref": "turn988view3",
+        "claim": "Wine identity, site and estate style statement."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Rabource-2024-Domaine-Jaeger-Defaix-6acdf2c11f7671.31698561.pdf",
+        "ref": "turn1005view2",
+        "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-blanc-without-sulphur-23",
+        "ref": "turn988view4",
+        "claim": "Wine identity, site and estate style statement."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Blanc-Sans-Soufre-2024-Domaine-Jaeger-Defaix-6acdf327f40d61.30294288.pdf",
+        "ref": "turn992view7",
+        "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-rouge-24",
+        "ref": "turn988view5",
+        "claim": "Wine identity, site and estate style statement."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Rouge-2024-Domaine-Jaeger-Defaix-6acdf3c74edcd3.56265363.pdf",
+        "ref": "turn995view2",
+        "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-preaux-rouge-25",
+        "ref": "turn988view6",
+        "claim": "Wine identity, site and estate style statement."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Preaux-2024-Domaine-Jaeger-Defaix-6acdf40122aa87.26793474.pdf",
+        "ref": "turn1005view3",
+        "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-clos-du-chapitre-rouge-26",
+        "ref": "turn988view7",
+        "claim": "Wine identity, site and estate style statement."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Clos-du-Chapitre-2024-Domaine-Jaeger-Defaix-6acdf479043cd5.82575312.pdf",
+        "ref": "turn1005view4",
+        "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/presentation",
+        "ref": "turn992view8",
+        "claim": "Michel and Lucette founded the estate in 1976; Stéphane joined in 1988, Sandrine in 2000; estate states 15 ha."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/philosophy",
+        "ref": "turn992view9",
+        "claim": "No herbicides since 1996; Terra Vitis since 2014; hand harvest and native yeasts."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/0004-carte",
+        "ref": "turn986view2",
+        "claim": "Current Rully portfolio including white and red village and Premier Cru wines."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/wines/13/rully",
+        "ref": "turn986view3",
+        "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/wines/22/rully-les-4-vignes",
+        "ref": "turn995view1",
+        "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/wines/16/rully-1er-cru-gresigny",
+        "ref": "turn992view0",
+        "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/wines/15/rully-1er-cru-la-pucelle",
+        "ref": "turn992view1",
+        "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/wines/19/rully-1er-cru-les-cloux",
+        "ref": "turn992view2",
+        "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/wines/17/rully-clos-de-remenot-monopole",
+        "ref": "turn992view3",
+        "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/wines/14/rully-1er-cru-champs-cloux",
+        "ref": "turn992view4",
+        "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+      },
+      {
+        "url": "https://www.domaine-briday.com/en/wines/24/rully-1er-cru-les-pierres/",
+        "ref": "turn992view5",
+        "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/image/uploads/vins/RBL-6a996b55c487c2.57867841.png?fm=png&h=520&s=def654918052afa23e98bf4280a1949d",
+        "ref": "turn1032view0",
+        "claim": "Reference bottle image linked directly by the corresponding official wine page."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Mont-Palais-6a996ba6097ba6.01212856.png?fm=png&h=520&s=07570ec8ec987cac3047430e1996033b",
+        "ref": "turn1032view1",
+        "claim": "Reference bottle image linked directly by the corresponding official wine page."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/image/uploads/vins/RULLY-CLOUX-6a996bf50c0c12.57593358.png?fm=png&h=520&s=ebf1c26b917beed4ccc72ed94a0dcabf",
+        "ref": "turn1032view2",
+        "claim": "Reference bottle image linked directly by the corresponding official wine page."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Rabource-6a996c72d0cc65.72231861.png?fm=png&h=520&s=cc7e53b628e4bc69a76e9c0331cb257a",
+        "ref": "turn1032view3",
+        "claim": "Reference bottle image linked directly by the corresponding official wine page."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-bl-SSA-6a996d39064536.26733975.png?fm=png&h=520&s=4048b89298ae3357e8723367212ef7e9",
+        "ref": "turn1032view4",
+        "claim": "Reference bottle image linked directly by the corresponding official wine page."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/image/uploads/vins/rully-rouge-6a996d741fd2d1.68558680.png?fm=png&h=520&s=5acf44753d433c8eba4a89d9ee4aca0e",
+        "ref": "turn1032view5",
+        "claim": "Reference bottle image linked directly by the corresponding official wine page."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Preaux-6a996db4cc31b6.18384607.png?fm=png&h=520&s=4123977a94b391bea4517ab4fe0b2199",
+        "ref": "turn1032view6",
+        "claim": "Reference bottle image linked directly by the corresponding official wine page."
+      },
+      {
+        "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Chapitre-6a996df482ddb5.65855438.png?fm=png&h=520&s=acc5e225162923e8bfd06cbdf041a029",
+        "ref": "turn1032view7",
+        "claim": "Reference bottle image linked directly by the corresponding official wine page."
+      }
+    ],
+    "portfolioConclusion": "Jaeger-Defaix all 8 current Rully cuvées covered. Briday all 8 Rully cuvées represented across current estate wine/map pages, with generic red reconciled to Les 4 Vignes. No new wine entities needed."
+  }
+}

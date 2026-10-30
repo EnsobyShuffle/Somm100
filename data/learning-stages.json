@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "moduleId": "module01",
+  "sourceUrl": "https://app.notion.com/p/3fa17d16de4c8120afe1c96ccaf3c195",
+  "questionAssignment": "SOMM100 MVP editorial selection; not historical assigned sets",
+  "stages": [
+    {
+      "id": 1,
+      "en": "KNOW",
+      "zh": "认识",
+      "body": "先把基本概念读清楚，再沿知识关系深入。",
+      "questions": []
+    },
+    {
+      "id": 2,
+      "en": "UNDERSTAND",
+      "zh": "了解 / 搞懂",
+      "body": "通过视频、比较和服务情境，解释知识背后的关系。",
+      "questions": []
+    },
+    {
+      "id": 3,
+      "en": "RECALL",
+      "zh": "复习强化记忆",
+      "body": "先独立回忆，再查看答案；把尚未掌握的内容带回复习。",
+      "questions": []
+    },
+    {
+      "id": 4,
+      "en": "FINAL CHECK",
+      "zh": "检查成果，查缺补漏",
+      "body": "用测试和知识清单定位薄弱点，再回到相应的阅读。",
+      "questions": []
+    }
+  ]
+}

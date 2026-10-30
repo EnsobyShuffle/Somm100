@@ -1,0 +1,1703 @@
+{
+  "reviewed": "2026-10-26",
+  "baseline": {
+    "grapes": 732,
+    "regions": 0,
+    "wines": 1231
+  },
+  "addedGrapes": 159,
+  "addedRegions": 198,
+  "addedWines": 0,
+  "newGrapeIds": [
+    "baratuciat",
+    "bianchetto-di-saluzzo",
+    "barbera-ciaria",
+    "barbassese",
+    "doux-d-henry",
+    "ner-d-ala",
+    "neretto-di-bairo",
+    "albarossa",
+    "barbera-bianca",
+    "lambrusca-di-alessandria",
+    "malvasia-moscata",
+    "nascetta",
+    "slarina",
+    "montanera",
+    "uvalino",
+    "quagliano",
+    "fumin",
+    "petit-rouge",
+    "prie-rouge",
+    "prie-blanc",
+    "mayolet",
+    "vuillermin",
+    "vien-de-nus",
+    "albarola",
+    "bosco",
+    "lumassina",
+    "erbamat",
+    "groppello-gentile",
+    "groppello-di-mocasina",
+    "pignola-valtellinese",
+    "rossola-nera",
+    "nebbiolo-rose",
+    "moscato-di-scanzo",
+    "ancellotta",
+    "durella",
+    "fortana",
+    "glera-lunga",
+    "lambrusco-maestri",
+    "lambrusco-marani",
+    "lambrusco-viadanese",
+    "manzoni-bianco",
+    "marzemino",
+    "ortrugo",
+    "raboso-piave",
+    "verdiso",
+    "verduzzo-friulano",
+    "verduzzo-trevigiano",
+    "centesimino",
+    "famoso",
+    "fogarina",
+    "lambrusco-barghi",
+    "lambrusco-benetti",
+    "lambrusco-del-pellegrino",
+    "lambrusco-oliva",
+    "maligia",
+    "negretto",
+    "sgavetta",
+    "trebbianina",
+    "uva-tosca",
+    "cjanorie",
+    "cividin",
+    "cordenossa",
+    "sagrestana",
+    "boschera",
+    "raboso-veronese",
+    "casetta",
+    "enantio",
+    "rebo",
+    "vitovska",
+    "moscato-rosa",
+    "oseleta",
+    "schiava-gentile",
+    "vespaiola",
+    "pecorino",
+    "passerina",
+    "grechetto",
+    "maceratino",
+    "foglia-tonda",
+    "pugnitello",
+    "malvasia-del-lazio",
+    "bellone",
+    "cesanese-comune",
+    "cesanese-d-affile",
+    "moscato-di-terracina",
+    "capolongo",
+    "lecinaro",
+    "maturano",
+    "maturano-nero",
+    "pampanaro",
+    "raspato-nero",
+    "reale-bianca",
+    "rosciola",
+    "trebbiano-giallo",
+    "abbuoto",
+    "malvasia-bianca-di-candia",
+    "nero-buono",
+    "trebbiano-spoletino",
+    "incrocio-bruni-54",
+    "grero",
+    "garofanata",
+    "barsaglina",
+    "vermentino-nero",
+    "pollera-nera",
+    "vernaccia-nera",
+    "cococciola",
+    "montonico",
+    "tintilia",
+    "piedirosso",
+    "coda-di-volpe",
+    "asprinio",
+    "biancolella",
+    "forastera",
+    "pallagrello-bianco",
+    "pallagrello-nero",
+    "casavecchia",
+    "fenile",
+    "ginestra",
+    "ripolo",
+    "pepella",
+    "caprettone",
+    "catalanesca",
+    "sciascinoso",
+    "tintore",
+    "roviello",
+    "coda-di-pecora-bianca",
+    "camaiola",
+    "uva-del-conte",
+    "aglianicone",
+    "guarnaccino",
+    "bombino-bianco",
+    "bombino-nero",
+    "impigno",
+    "bianco-d-alessano",
+    "verdeca",
+    "notardomenico",
+    "minutolo",
+    "moscatello-selvatico",
+    "gaglioppo",
+    "magliocco-dolce",
+    "magliocco-canino",
+    "greco-nero",
+    "greco-bianco",
+    "mantonico-bianco",
+    "guarnaccia-bianca",
+    "castiglione",
+    "pecorello",
+    "nocera",
+    "prunesta",
+    "marsigliana-nera",
+    "albanello",
+    "minnella-bianca",
+    "minnella-nera",
+    "lucignola",
+    "vitrarolo",
+    "arvesiniadu",
+    "semidano",
+    "vernaccia-di-oristano",
+    "retagliado-bianco",
+    "corinto-nero"
+  ],
+  "totalGrapes": 891,
+  "regionDossiers": 198,
+  "questions": 960,
+  "countryCounts": {
+    "France": {
+      "grapes": 348,
+      "regionDossiers": 46,
+      "connections": 630,
+      "questions": 360
+    },
+    "Italy": {
+      "grapes": 299,
+      "regionDossiers": 152,
+      "connections": 720,
+      "questions": 600
+    }
+  },
+  "unresolved": [
+    {
+      "scope": "Piemonte rare grapes",
+      "names": [
+        "Neretta Cuneese",
+        "Malvasia Nera Lunga",
+        "Rossese Bianco",
+        "Gamba di Pernice",
+        "Bussanello",
+        "Moscato Nero di Acqui",
+        "Plassa",
+        "Passau"
+      ],
+      "reason": "Dedicated accession, cultivation and wine dossiers remain; not counted as complete entries."
+    },
+    {
+      "scope": "Valle d’Aosta conservation",
+      "names": [
+        "Roussin",
+        "Bonda",
+        "Neyret",
+        "Crovassa"
+      ],
+      "reason": "Dedicated IAR/VitisDB identity, cultivation and viticulture reconciliation remains."
+    },
+    {
+      "scope": "Lombardia rare grapes",
+      "names": [
+        "Moradella",
+        "Cassina / Uva della Cascina"
+      ],
+      "reason": "Registry permission alone does not establish commercial planting or complete wine data."
+    },
+    {
+      "scope": "Additional Piemonte PDO dossiers",
+      "names": [
+        "Dolcetto d’Alba",
+        "Freisa di Chieri",
+        "Grignolino del Monferrato Casalese",
+        "Malvasia di Casorzo",
+        "Malvasia di Castelnuovo Don Bosco",
+        "Colline Saluzzesi",
+        "Pinerolese",
+        "Valsusa"
+      ],
+      "reason": "Separate detailed profiles still needed; not silently redirected to Piemonte administrative overview."
+    },
+    {
+      "scope": "Additional Liguria PDO dossiers",
+      "names": [
+        "Pornassio",
+        "Val Polcevera",
+        "Golfo del Tigullio-Portofino"
+      ],
+      "reason": "Separate detailed PDO dossiers pending."
+    },
+    {
+      "scope": "Additional Lombardia PDO dossiers",
+      "names": [
+        "Oltrepò Pavese Metodo Classico",
+        "Bonarda dell’Oltrepò Pavese",
+        "Buttafuoco dell’Oltrepò Pavese",
+        "Sangue di Giuda dell’Oltrepò Pavese",
+        "Valcalepio",
+        "Riviera del Garda Classico"
+      ],
+      "reason": "Independent parent/legal entities remain; current district/subzone profiles are not replacements."
+    },
+    {
+      "scope": "Current legal reconciliation",
+      "names": [
+        "Derthona",
+        "Ghemme",
+        "Oltrepò Classese"
+      ],
+      "reason": "Derthona/2026 subzone status, Ghemme consolidated changed thresholds and Classese proposals require operative legal-version checks before exact assertions."
+    },
+    {
+      "scope": "Individual wines",
+      "names": [],
+      "reason": "Identified producer references are attached, but no claim that all have become full independent internal wine records."
+    },
+    {
+      "type": "coverage",
+      "note": "This batch is not an exhaustive inventory of every local accession or PDO. Further priority grapes: Bianchetta Trevigiana, Perera, Recantina, Dindarella, Negrara, Marzemina Bianca, Schiava Grigia, Rossara, Versoaln, Sciaglin, Ucelut, Forgiarin, Piculit Neri, Refosco Nostrano, Malbo Gentile, Lambrusco Montericco, Alionza, Melara, Montù."
+    },
+    {
+      "type": "appellation-coverage",
+      "note": "Further dossiers: Recioto di Soave, Lessini Durello, Monti Lessini, Piave, Piave Malanotte, Bagnoli Friularo, Colli di Conegliano, Trentino DOC, Alto Adige DOC, Lago di Caldaro, Valdadige Terradeiforti, Bosco Eliceo, Ortrugo dei Colli Piacentini, Gutturnio, Colli Bolognesi Pignoletto."
+    },
+    {
+      "type": "wine-dossiers",
+      "note": "Six exact producer references are linked in region profiles; no new independent bottle dossiers or vintage-specific bottle photos were invented."
+    },
+    {
+      "type": "photo-coverage",
+      "note": "Seventeen new varieties have exact source-identified bunch photos; other entries intentionally have no unsupported image."
+    },
+    {
+      "topic": "Biancame homonyms",
+      "note": "Registry 025 is cross-referenced to Trebbiano Toscano 244; this does not establish DNA identity for every accession called Biancame, Biancame Nostrano or Biancame della Forcella."
+    },
+    {
+      "topic": "Coverage",
+      "note": "Four administrative overviews and 24 selected PDOs; not all central Italian PDOs or all minor vine accessions."
+    },
+    {
+      "topic": "Rare-grape depth",
+      "note": "Pollera Nera and Vermentino Nero require broader independent ampelographic/phenological research; producer observations are explicitly scoped."
+    },
+    {
+      "topic": "Images",
+      "note": "Seven source-identified VCR variety photographs attached; no image invented for remaining rare grapes."
+    },
+    {
+      "name": "Agostina",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Castagnara",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Ingannapastore",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Reginella",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Sabato",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Suppezza",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Cavalla",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Olivella Nera",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Tronto",
+      "reason": "Regional registration is documented; a complete cultivar identity, viticulture and wine dossier still requires primary evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ]
+    },
+    {
+      "name": "Cassano",
+      "reason": "ALSIA recovery documented; later registration, identity and agronomy require reconciliation.",
+      "sourceUrls": [
+        "https://alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Il-recupero-della-biodiversita-viticola-della-Basilicata/",
+        "https://www.alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Val-dAgri-recupero-e-valorizzazione-di-antichi-vitigni-autoctoni/"
+      ]
+    },
+    {
+      "name": "Colatamurro",
+      "reason": "ALSIA recovery documented; later registration, identity and agronomy require reconciliation.",
+      "sourceUrls": [
+        "https://alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Il-recupero-della-biodiversita-viticola-della-Basilicata/",
+        "https://www.alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Val-dAgri-recupero-e-valorizzazione-di-antichi-vitigni-autoctoni/"
+      ]
+    },
+    {
+      "name": "Giosana",
+      "reason": "ALSIA recovery documented; later registration, identity and agronomy require reconciliation.",
+      "sourceUrls": [
+        "https://alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Il-recupero-della-biodiversita-viticola-della-Basilicata/",
+        "https://www.alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Val-dAgri-recupero-e-valorizzazione-di-antichi-vitigni-autoctoni/"
+      ]
+    },
+    {
+      "name": "Iusana",
+      "reason": "ALSIA recovery documented; later registration, identity and agronomy require reconciliation.",
+      "sourceUrls": [
+        "https://alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Il-recupero-della-biodiversita-viticola-della-Basilicata/",
+        "https://www.alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Val-dAgri-recupero-e-valorizzazione-di-antichi-vitigni-autoctoni/"
+      ]
+    },
+    {
+      "name": "Santa Sofia",
+      "reason": "ALSIA recovery documented; later registration, identity and agronomy require reconciliation.",
+      "sourceUrls": [
+        "https://alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Il-recupero-della-biodiversita-viticola-della-Basilicata/",
+        "https://www.alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Val-dAgri-recupero-e-valorizzazione-di-antichi-vitigni-autoctoni/"
+      ]
+    },
+    {
+      "name": "Aglianico Bianco",
+      "reason": "ALSIA recovery documented; later registration, identity and agronomy require reconciliation.",
+      "sourceUrls": [
+        "https://alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Il-recupero-della-biodiversita-viticola-della-Basilicata/",
+        "https://www.alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Val-dAgri-recupero-e-valorizzazione-di-antichi-vitigni-autoctoni/"
+      ]
+    },
+    {
+      "name": "Asprinio di Ruoti",
+      "reason": "ALSIA recovery documented; later registration, identity and agronomy require reconciliation.",
+      "sourceUrls": [
+        "https://alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Il-recupero-della-biodiversita-viticola-della-Basilicata/",
+        "https://www.alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Val-dAgri-recupero-e-valorizzazione-di-antichi-vitigni-autoctoni/"
+      ]
+    },
+    {
+      "name": "Pentro Riserva release chronology",
+      "status": "needs control-body clarification",
+      "reason": "The consolidated text describes four years maturation including two years oak and six months bottle, but a separate earliest-release statement appears inconsistent. Do not derive an exact release date until clarified.",
+      "sourceUrls": [
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/molise/disciplinari-molise/disciplinare_pentro_doc.pdf"
+      ]
+    },
+    {
+      "name": "Guarnaccia (Ischia DOC)",
+      "status": "identity verification before canonical addition",
+      "reason": "Mandatory 40–50% component of basic Ischia Rosso. Do not merge with similarly named mainland grapes or Grenache without register/genetic evidence.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Ischia.pdf"
+      ]
+    },
+    {
+      "name": "Malvasia di Basilicata",
+      "status": "identity verification before canonical addition",
+      "reason": "Mandatory minimum 10% of Terre dell’Alta Val d’Agri Rosato. No unverified merge with Malvasia Bianca Lunga or another Malvasia.",
+      "sourceUrls": [
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/basilicata/disciplinari-basilicata/Terre-dellAlta-Val-dAgri.pdf?hash=57619B19EB843BD30FFCE5BE53CF6040&rev=-1"
+      ]
+    },
+    {
+      "topic": "Girò",
+      "reason": "Existing canonical giro concerns Alicante. Sardinian Girò must not be merged solely by spelling; authenticated cross-country genotype comparison still required."
+    },
+    {
+      "topic": "Recunu / Visparola / Orisi",
+      "reason": "2014 Sicilia monograph reports accession-level synonym clusters while newer registration lists distinguish names. Withhold a second canonical identity until authenticated registered profiles are compared.",
+      "sourceUrls": [
+        "https://cucinartusi.it/martusi/Identita_e_ricchezza_del_vigneto_Sicilia.pdf",
+        "https://vitisdb.it/varieties/show/978",
+        "https://www.irvos.it/wp-content/uploads/2021/08/Decreto_modifica_IGT_Terre_Siciliane__GURI_158_del_10.07.2025_-1.pdf"
+      ]
+    },
+    {
+      "topic": "Bovale Grande / Bovale Mannu",
+      "reason": "Names vary by locality; do not universally map them to Bobal, Carignan or Graciano. Cagnulari and Muristellu identity is handled explicitly.",
+      "sourceUrls": [
+        "https://vitisdb.it/varieties/show/1579",
+        "https://vitisdb.it/varieties/show/1614"
+      ]
+    },
+    {
+      "topic": "Guardavalle",
+      "reason": "Identity and accession mapping with Greco Bianco require further primary genetic verification before an independent record is added."
+    },
+    {
+      "topic": "Malvasia delle Lipari proposed 2026 changes",
+      "reason": "A consortium proposal to add dry Bianco/UGA is not treated as enacted law without published final approval."
+    },
+    {
+      "id": "aveyron-heritage",
+      "reason": "Topic/heritage or trial grouping, not an independent geographical region dossier."
+    },
+    {
+      "id": "garonne-quercy-heritage",
+      "reason": "Topic/heritage or trial grouping, not an independent geographical region dossier."
+    },
+    {
+      "id": "france-resistant-variety-trials",
+      "reason": "Topic/heritage or trial grouping, not an independent geographical region dossier."
+    },
+    {
+      "id": "southwest-pyrenean-heritage",
+      "reason": "Topic/heritage or trial grouping, not an independent geographical region dossier."
+    },
+    {
+      "id": "france-scope",
+      "reason": "All 45 geographical groups plus Bourgogne Aligoté covered; not all French AOCs. 34 shorter dossiers still need deeper producer coverage, current numerical legal audit and review banks. Maps/photos are not supplied; existing Bouzeron is untouched."
+    },
+    {
+      "id": "champagne-2026-pno",
+      "reason": "INAO June 2026 proposed specifications mention additional VIFA changes; proposed texts are not treated as proof of final authorisation. Reconcile final homologation before adding Serelis/Orellis associations.",
+      "sourceUrls": [
+        "https://extranet.inao.gouv.fr/fichier/pno-CDC-Champagne-cn260618.pdf",
+        "https://extranet.inao.gouv.fr/fichier/pno-CDC-CoteauxChampenois-260618.pdf"
+      ]
+    },
+    {
+      "topic": "Guarnaccia Saracena / ARSAC versus registered Guarnaccia Bianca / Granatza",
+      "reason": "Keep the genetically different Saracena/ARSAC material separate from the canonical registered identity until accession-level national-registration mapping is resolved.",
+      "sourceUrls": [
+        "https://iris.cnr.it/retrieve/50c271b2-a720-477d-8560-c41fbaca353e/prod_458698-doc_178404.pdf",
+        "https://vitisdb.it/varieties/show/1613"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "topic": "Source research",
+      "note": "Primary sources actually consulted through web retrieval include regional authorities, consorzi, CNR/VitisDB, VCR, original 2020 genetic research and identified producer pages. Context was recovered after scratch pruning; source facts and exact URLs were retained, with regional climate and additional PDO facts newly retrieved on 2026-10-26."
+    },
+    {
+      "topic": "Identity reconciliation",
+      "sourceUrls": [
+        "https://www.nature.com/articles/s41598-020-72799-6",
+        "https://vitisdb.it/varieties/show/8159",
+        "https://www.torinodoc.com/becuet/"
+      ],
+      "note": "Do not duplicate Bian Ver/Verdesse, Becuét/Persan, Pigato/Vermentino, Rossese/Tibouren or Albarola/Bianchetta Genovese. Historical/legal labels may differ from genetic identity."
+    },
+    {
+      "topic": "Photographs",
+      "sourceUrls": [
+        "https://vitisdb.it/varieties/show/1201",
+        "https://grosjeanvins.it/vitigni-valle-aosta/fumin/",
+        "https://grosjeanvins.it/vitigni-valle-aosta/petit-rouge/",
+        "https://grosjeanvins.it/vitigni-valle-aosta/premetta/",
+        "https://vitisdb.it/varieties/show/8159"
+      ],
+      "note": "Five exact cultivar/accession or producer-labelled images; original source and attribution retained. No generic grape substitute, no assertion of a separate commercial reuse licence."
+    },
+    {
+      "topic": "Franciacorta Rosé",
+      "sourceUrls": [
+        "https://franciacorta.wine/en/consortium/regulations/",
+        "https://franciacorta.wine/en/wine/types-pairings/franciacorta-rose/"
+      ],
+      "note": "Consulted current consortium rules and category page specify minimum 35% Pinot Noir, not 50%."
+    },
+    {
+      "topic": "Ghemme law",
+      "sourceUrls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52026XC01258",
+        "https://www.rina.org/it/-/media/Files/agroqualita/vini/piemonte2/disciplinare_DOCG_Ghemme.pdf"
+      ],
+      "note": "2026 approved EU amendment found; precise changed alcohol/composition/ageing figures withheld where consolidated current wording could not be fully retrieved."
+    },
+    {
+      "topic": "Core Piemonte PDO extension",
+      "sourceUrls": [
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F8%252F6%252FD.78fdbd09a0007a2699ad/P/BLOB%3AID%3D24256/E/pdf?mode=download",
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/9%252F7%252F3%252FD.5eef8a0607be95ec5213/P/BLOB%3AID%3D17671/E/pdf?mode=download",
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252Fa%252F0%252FD.447a6eeaba4254109be1/P/BLOB%3AID%3D15369/E/pdf?mode=download",
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/5%252Ff%252Fb%252FD.747bab6b1989d6a0dfe5/P/BLOB%3AID%3D14376/E/pdf?mode=download",
+        "https://www.viniastimonferrato.it/wp-content/uploads/Barbera-dAsti-con-approvazione-dalle-Commissione-Europea.pdf",
+        "https://ilnizza.net/en/production-regulations",
+        "https://www.langhevini.it/wp-content/uploads/2019/05/DOCG-Dogliani.pdf",
+        "https://www.ovada.eu/disciplinare_ovadadocg/",
+        "https://www.altalangadocg.com/en/consortium-alta-langa/the-production-regulations/",
+        "https://www.viniastimonferrato.it/wp-content/uploads/Grignolino-dAsti-disciplinare.pdf",
+        "https://www.viniastimonferrato.it/wp-content/uploads/DOCMonferrato_DMmodifica-1.pdf"
+      ],
+      "note": "Eleven core PDO dossiers and one historical-district profile added from primary sources. Asti March 2026 PDF was visually checked and text decoded locally. Monferrato historical district and Monferrato DOC are separate records. Annual yield-management measures may impose lower operative ceilings."
+    },
+    {
+      "topic": "Scope and review",
+      "note": "Recovered primary-source research, reviewed 2026-10-26. Forty distinct new grape dossiers after Spergola identity merge; 33 regions/denominations. Photos are source-identified variety bunch images, not generic illustrations."
+    },
+    {
+      "topic": "Valpolicella rules",
+      "sourceUrls": [
+        "https://www.consorziovalpolicella.it/wp-content/uploads/2024/02/DisciplinareAmarone-della-Valpolicella.pdf",
+        "https://www.consorziovalpolicella.it/wp-content/uploads/2024/02/DisciplinareValpolicella-Ripasso.pdf"
+      ],
+      "note": "Consolidated 2023 laws: Corvina and/or Corvinone 45–95%, Rondinella 5–30%. Ripasso operation minimum three days; release from 1 January of the second year after harvest. Do not reuse obsolete Corvinone substitution limits."
+    },
+    {
+      "topic": "Biancame identity",
+      "url": "https://www.acovit.it/uve-da-vino/79-biancame-b/",
+      "finding": "Current ACOVIT lists (244) Trebbiano Toscano B. and Bianchello; no independent new Biancame dossier created."
+    },
+    {
+      "topic": "Chianti effective campaign",
+      "url": "https://www.consorziovinochianti.it/wp-content/uploads/2026/07/Disciplinare-Chianti-2026.pdf",
+      "finding": "Art. 2 applies 60% red minimum from harvest campaign 2026/27; specific 2025 Rosé reclassification is separate."
+    },
+    {
+      "topic": "Chianti Classico Gran Selezione",
+      "url": "https://www.prweb.com/releases/The_Recently_Introduced_UGAs_To_Officially_Appear_on_Chianti_Classico_Gran_Selezione_Labels/prweb19461957.htm",
+      "finding": "90% Sangiovese minimum applies from vintage 2027; do not retrofit older vintages."
+    },
+    {
+      "topic": "Sagrantino clock",
+      "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/19833",
+      "finding": "33 months plus four additional bottle months; minimum total 37 months."
+    },
+    {
+      "batch": "italy-south",
+      "reviewed": "2026-10-26",
+      "scope": [
+        "Abruzzo",
+        "Molise",
+        "Campania",
+        "Basilicata"
+      ],
+      "newGrapes": 25,
+      "regionDossiers": 26,
+      "administrativeRegionDossiers": 4,
+      "selectedDenominationDossiers": 22,
+      "bilingualReviewQuestions": 120,
+      "identityPolicy": "Existing 732-grape baseline checked; 25 new canonical identities retained. Pecorino and Passerina are owned by the central Italy batch. Unknown parents and unresolved local-name identities are not invented.",
+      "coverage": "Selected primary-source dossiers; not a claim of exhaustive grape-register or all-denomination coverage.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/pubblicazioni/pdf/VITIENOLOGIA_IN_CAMPANIA.pdf",
+        "https://agricoltura.regione.campania.it/pubblicazioni/pdf/vitigni-storici-irpinia.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/vini.htm",
+        "https://www.vivairauscedo.com/en/product-sheet/coda-di-volpe/",
+        "https://www.vivairauscedo.com/en/product-sheet/piedirosso/",
+        "https://www.marisacuomo.com/azienda/",
+        "https://www.marisacuomo.com/vini/furore-bianco-fiorduva/",
+        "https://www.dambravini.com/",
+        "https://dambravini.com/biancolella_casadambra.php",
+        "https://dambravini.com/en/ischiabianco_casadambra.php",
+        "https://www.vestinicampagnano.it/azienda/",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/IGT_Terre_Volturno.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/aversa.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9368296/",
+        "https://www.vesuvio.wine/wp-content/uploads/2021/01/Schede-varietali-Caprettone.pdf",
+        "https://www.vesuvio.wine/il-territorio-consorzio-tutela-vini-vesuvio/",
+        "https://www.vinidabruzzo.it/territorio/",
+        "https://www.vinidabruzzo.it/wp-content/uploads/2024/04/ABRUZZO-o-DABRUZZO-DOC.pdf",
+        "https://destinazionecostadeitrabocchi.it/consigli/cococciola-20847",
+        "https://www.fondazioneslowfood.com/it/presidi-slow-food/uva-montonico/",
+        "https://www.comune.bisenti.te.it/vivere_il_comune/luoghi/luogo_3.html",
+        "https://www.arsarp.it/bancadelgermoplasma/bancadati/arboree/tintilia/",
+        "https://www.rina.org/it/vini-molise",
+        "https://www.600grotte.it/il-guarnaccino",
+        "https://www.600grotte.it/en-gb/vini",
+        "https://alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Il-recupero-della-biodiversita-viticola-della-Basilicata/",
+        "https://www.alsia.it/opencms/opencms/agrifoglio/agrifoglio_online/dettaglio/articolo/Val-dAgri-recupero-e-valorizzazione-di-antichi-vitigni-autoctoni/",
+        "https://www.rina.org/it/vini-basilicata",
+        "https://www.vinidabruzzo.it/wp-content/uploads/2024/02/Montepulciano-dAbruzzo-Disciplinare.pdf",
+        "https://www.vinidabruzzo.it/wp-content/uploads/2024/02/Trebbiano-dAbruzzo-Disciplinare.pdf",
+        "https://www.vinidabruzzo.it/wp-content/uploads/2024/02/Cerasuolo-dAbruzzo-Disciplinare.pdf",
+        "https://www.vinidabruzzo.it/wp-content/uploads/2024/02/Colline-Teramane-Montepulciano-dAbruzzo-Disciplinare.pdf",
+        "https://www.vinidabruzzo.it/vini-tutelati/?lang=en",
+        "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/24375",
+        "https://scresources.rina.org/it/food/DOCG-Casauria_disciplinare-di-produzione.pdf",
+        "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26A04940&atto.dataPubblicazioneGazzetta=2026-09-23&atto.tipoProvvedimento=DECRETO",
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/molise/disciplinari-molise/disciplinare_tintilia_doc.pdf",
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/molise/disciplinari-molise/disciplinare_pentro_doc.pdf",
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/molise/disciplinari-molise/disciplinare_biferno_doc.pdf?hash=E41BACBE07FF5FFC8CB189C31C738427&rev=-1",
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/basilicata/disciplinari-basilicata/Aglianico-del-Vulture.pdf",
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/basilicata/disciplinari-basilicata/Aglianico-del-Vulture-superiore.pdf",
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/basilicata/disciplinari-basilicata/Matera.pdf",
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/basilicata/disciplinari-basilicata/Terre-dellAlta-Val-dAgri.pdf?hash=57619B19EB843BD30FFCE5BE53CF6040&rev=-1",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/approvazione_GURI_Taurasi.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/taurasi.html",
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/9%252F5%252F7%252FD.b714653c197c0878d942/P/BLOB%3AID%3D14984/E/pdf?mode=download",
+        "https://consorziovinidirpinia.it/vini/fiano-di-avellino-docg-vino/",
+        "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=25A03321&atto.dataPubblicazioneGazzetta=2025-06-11&atto.tipoProvvedimento=COMUNICATO",
+        "https://www.sanniodop.it/pagine/static.aspx?IdArticolo=254",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Falanghina_Sannio.pdf",
+        "https://agricoltura.regione.campania.it/Tipici/flegrei.html",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Campi_Flegrei.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Ischia.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Amalfi.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Aversa.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Vesuvio_2025.pdf",
+        "https://www.emidiopepe.com/",
+        "https://www.emidiopepe.com/landing-page/",
+        "https://www.dimajonorante.com/en/wines/tintilia",
+        "https://www.claudiocipressi.it/tintilia-cipressi/",
+        "https://mastroberardino.com/radici-taurasi-docg-vino-rosso/",
+        "https://paternosterwine.it/en/vini/don-anselmo-aglianico-del-vulture-superiore-docg/",
+        "https://accademiavino.it/sites/default/files/disciplinari/Fiano%20di%20Avellino.pdf"
+      ]
+    },
+    {
+      "scope": "Puglia, Calabria, Sicilia, Sardegna",
+      "reviewed": "2026-10-26",
+      "method": "Primary genetic studies, official regional conservation records, production specifications and producer technical sheets. Exact legal designations are separate records; uncertain accession identities remain unresolved.",
+      "counts": {
+        "newGrapes": 30,
+        "existingUpdates": 25,
+        "regions": 25,
+        "questions": 120
+      }
+    },
+    {
+      "regionId": "fr-champagne",
+      "sourceUrls": [
+        "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-designation",
+        "https://inao.gouv.fr/en/node/32212",
+        "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/maturation",
+        "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/pressing",
+        "https://www.champagnejeanvesselle.com/en/technical-visit/champagne/visite-technique-2",
+        "https://www.taittinger.com/en/webzine/how-to-age-champagne",
+        "https://www.champagne.fr/fr/approfondir/mediaroom/communique-presse-champagne/le-chardonnay-rose-un-cepage-oublie-qui-retrouve",
+        "https://extranet.bivb.com/technique-et-innovation/nos-projets/viticulture/explorer-d-autres-varietes-en-bourgogne,3091,18634.html",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/27",
+        "https://levigneronchampenois.comitechampagne.fr/vin/le-voltis-lors-du-millesime-2025"
+      ],
+      "associationCount": 10,
+      "factualRows": 21,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-alsace",
+      "sourceUrls": [
+        "https://www.vinsalsace.com/en/gouts-et-couleurs/aoc/aoc-alsace/",
+        "https://www.vinsalsace.com/assets/files/presse/dossier_presse_fr.pdf",
+        "https://www.vinsalsace.com/fr/gouts-et-couleurs/cepages/",
+        "https://www.vinsalsace.com/en/grands-crus/zotzenberg/",
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049892619",
+        "https://www.boeckel-alsace.com/sylvaner-grand-cru-zotzenberg-s24.html",
+        "https://www.trimbach.fr/en/vins-alsace/vins-alsace-gamme-reserve",
+        "https://www.sipp.com/en/cremant-dalsace-rose-s99.html",
+        "https://www.louishauller.com/auxerrois-s2.html",
+        "https://www.vinsalsace.com/fr/gouts-et-couleurs/cepages/edelzwicker-dalsace/muscat-dalsace/",
+        "https://www.vinsalsace.com/assets/files/aoc/92/cdcalsacebo_20191017_a_diffuser.pdf",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/132",
+        "https://www.goldenerwagen.de/assets/docs/weinanbaugebiet-sachsen.pdf",
+        "https://www.vinsalsace.com/en/grands-crus/vorbourg/"
+      ],
+      "associationCount": 13,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-bourgogne",
+      "sourceUrls": [
+        "https://www.bourgogne-wines.com/wine-and-terroir/our-natural-assets/climatology/an-ideal-climate-for-producing-great-wines%2C2483%2C9268.html",
+        "https://climats-bourgogne.fr/fr/faq-lexique-liens_209.html",
+        "https://agriculture.gouv.fr/la-richesse-du-vignoble-de-bourgogne",
+        "https://www.chablis-wines.com/explore/chablis-appellations/chablis-grand-cru/chablis-grand-cru%2C1820%2C7663.html",
+        "https://www.bourgogne-wines.com/wine-and-terroir/bourgogne-and-its-appellations/gallery_files/site/321/402/79294/79302.pdf",
+        "https://www.de-villaine.com/en/wines/1/bouzeron",
+        "https://www.drouhin.com/en_US/wine/beaune-clos-des-mouches-premier-cru-rouge/2023",
+        "https://domaine-ponsot.com/produit/morey-saint-denis-monts-luisants-en/",
+        "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-cepages-nos-couleurs/des-cepages-rois-pour-la-bourgogne,2392,9184.html",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/243",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/276"
+      ],
+      "associationCount": 11,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-bordeaux",
+      "sourceUrls": [
+        "https://www.bordeaux.com/en/designations/",
+        "https://www.medoc-bordeaux.com/en/appellations-en/soil-and-climate/?age_legal=true",
+        "https://www.bordeaux.com/en/grape-varieties/",
+        "https://www.bordeaux.com/en/classifications/",
+        "https://www.bordeaux.com/en/classifications/classifications-1855/",
+        "https://gcc-1855.fr/en/",
+        "https://www.lafite.com/domaines/chateau-lafite-rothschild/contact/",
+        "https://pro.planete-bordeaux.fr/wp-content/uploads/Nouveaux-Cepages.pdf",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/153",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/249",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/336",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/314"
+      ],
+      "associationCount": 23,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-loire-valley",
+      "sourceUrls": [
+        "https://www.vinsdeloire.fr/sites/interloire/files/2024-10/vins-de-loire-livret-pro-210x210-fr-version-num-2.pdf",
+        "https://www.vinsdeloire.fr/sites/interloire/files/2025-11/guide-appellations-2024-bd_compressed.pdf",
+        "https://www.vinsdeloire.fr/sites/interloire/files/inline-files/carte-vignobles-de-loire-010324.pdf",
+        "https://www.vins-centre-loire.com/en/nos-terroirs/",
+        "https://domainehuet.com/",
+        "https://www.vinsdeloire.fr/fr/vins-loire/igp-val-loire/tout-sur-ligp-val-loire",
+        "https://www.vinsdeloire.fr/fr/cepages?page=0",
+        "https://henry-marionnet.com/en/domaine-de-la-charmoise/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/122",
+        "https://techniloire.com/sites/default/files/bulletin-dinformation-juillet-2026-igp.pdf",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/200",
+        "https://www.tresorsvivantsducentre.com/meslier-st-f",
+        "https://www.tresorsvivantsducentre.com/genouillet",
+        "https://www.tresorsvivantsducentre.com/cepages",
+        "https://www.tresorsvivantsducentre.com/lignage",
+        "https://www.domainedescognettes.fr/nos-vins/le-pas-rouge/"
+      ],
+      "associationCount": 21,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-rhone-valley",
+      "sourceUrls": [
+        "https://www.vins-rhone.com/en/territory-and-terroir",
+        "https://www.cotesdurhone.com/en/appellations/cotes-du-rhone-and-cotes-du-rhone-villages",
+        "https://www.vins-rhone.com/en/cotes-du-rhone-cru-aoc-cornas",
+        "https://www.vins-rhone.com/en/cotes-du-rhone-cru-aoc-saint-peray",
+        "https://www.guigal.com/en/wine/condrieu/",
+        "https://m.familleperrin.com/01LV0E",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/25",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/98",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/405",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/361",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/406",
+        "https://www.vins-rhone.com/en/muscat-petits-grains-rouge-grape-variety"
+      ],
+      "associationCount": 42,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-jura-franche-comte",
+      "sourceUrls": [
+        "https://www.jura-tourism.com/vivre-le-jura/deguster/vins-du-jura/vins-jura-appellations/",
+        "https://www.jura-tourism.com/vivre-le-jura/deguster/vins-du-jura/vins-jura-appellations/vin-jaune/",
+        "https://www.jura-vins.com/medias/documents-a-telecharger/docs-utiles/CIVJ_PLQ_Pro_2009_GB_web.pdf",
+        "https://www.clavelin.fr/vin/vin-jaune-cotes-du-jura",
+        "https://lapinte.fr/qui-sommes-nous/",
+        "https://www.domainemaire.com/fr/nos-vins.r-460/grandes-parcelles.r-469/vin-jaune-cotes-du-jura.v-18776.html?id_millesime=24",
+        "https://www.domainepierrerichard.com/les-vins-du-jura/les-cepages",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/31",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/401",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/404",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/102"
+      ],
+      "associationCount": 9,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-savoie",
+      "sourceUrls": [
+        "https://vindesavoie.fr/cepages",
+        "https://www.vignobles-aura.com/vignoble/savoie/",
+        "https://www.inao.gouv.fr/produit/roussette-de-savoie-monthoux-16757",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52024XC05918",
+        "https://www.inao.gouv.fr/produit/seyssel-13180",
+        "https://www.am-quenard.fr/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/245",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/493",
+        "https://ives-openscience.eu/wp-content/uploads/2023/02/G14-flash-LimousinT-new_ok.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/303",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/359",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/386",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/355",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/309",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/378",
+        "https://www.vins-coteaux-alpins.fr/cepage/24/etraire-de-la-dui/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/95",
+        "https://www.vins-coteaux-alpins.fr/cepage/74/servanin/",
+        "https://www.vins-coteaux-alpins.fr/cepage/39/joubertin/",
+        "https://swisswinevalais.ch/en/discover/grape-varieties/reze/"
+      ],
+      "associationCount": 24,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-provence",
+      "sourceUrls": [
+        "https://www.vinsdeprovence.com/les-appellations/cotes-de-provence",
+        "https://provence-alpes-cotedazur.com/en/things-to-do/wine-and-gastronomy/the-independent-designations-and-pgi-in-provence-alpes-cote-dazur/",
+        "https://www.inao.gouv.fr/en/node/67",
+        "https://www.maisondesvins-bandol.com/en/vineyard.cfm",
+        "https://inao.gouv.fr/produit/palette-rose-20023",
+        "https://saint-jean-bellet.com/",
+        "https://www.clos-cibonne.com/gb/gamme-crus-classes-provence.html",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/29",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/45",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/176",
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement"
+      ],
+      "associationCount": 24,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-languedoc",
+      "sourceUrls": [
+        "https://www.languedoc-aoc.com/une-forte-identite-de-terroir",
+        "https://languedoc-wines.com/en/appellations/pdo-languedoc/",
+        "https://languedoc-wines.com/appellations/pic-saint-loup/",
+        "https://www.languedoc-aoc.com/les-appellations",
+        "https://www.paysdoc-vin.com/les-cepages/",
+        "https://domaineampelhus.fr/produit/picardan/",
+        "https://www.aupilhac-laboutique.com/produit/le-canaguier/",
+        "https://www.pierrecros.fr/vins.php?gamme=noscuvyoes&la=fr&v=pierrecros&vinid=801&wines=description",
+        "https://domaineampelhus.fr/produit/pack-decouverte-cepages-rares-du-languedoc/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/13",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/195",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/239",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/272",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/322"
+      ],
+      "associationCount": 32,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-roussillon",
+      "sourceUrls": [
+        "https://www.roussillon.wine/vins-et-terroirs/nos-aoc-et-igp/aop-cotes-du-roussillon/",
+        "https://www.roussillon.wine/vins-et-terroirs/nos-aoc-et-igp/aop-rivesaltes/",
+        "https://www.roussillon.wine/wp-content/uploads/2023/05/dossier-de-presse-2022-gb-_compressed.pdf",
+        "https://www.roussillon.wine/vins-et-terroirs/nos-aoc-et-igp/",
+        "https://uk.winesofroussillon.com/explore/",
+        "https://eu.masamiel.com/collections/vin-doux"
+      ],
+      "associationCount": 17,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-corsica",
+      "sourceUrls": [
+        "https://www.vinsdecorse.com/en/naturally-singular/aop-igp-and-vsig",
+        "https://www.visit-corsica.com/en/Explore-Corsica/Our-inspirations/Wine-inspirations/Numerous-appellations-including-9-PDOs",
+        "https://www.ajaccio-tourisme.com/en/discover/heritage-and-identity/ajaccio-pdo-wines-the-mark-of-an-exceptional-terroir/",
+        "https://www.inao.gouv.fr/produit/patrimonio-rose-16826",
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024278448/",
+        "https://www.domaine-abbatucci.com/en/local-wines",
+        "https://www.domaine-abbatucci.com/fr/vins-de-terroir/parcellaires",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/192",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/255",
+        "https://www.crvi.corsica/ampelographie-illustree-des-cepages-insulaires/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/33",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/50",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/74",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/111",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/29",
+        "https://www.crvi.corsica/wp-content/uploads/2025/03/Aptitudes_des_clones_de_Minustellu.pdf",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/388",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/49",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/393",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/180",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/201",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/395",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/391",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/396",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/237",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/25",
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046179575",
+        "https://www.visit-corsica.com/en/La-destination-Corse/Inspirations-corses/Inspirations-autour-du-vin/La-Corse-terre-de-vignoble"
+      ],
+      "associationCount": 29,
+      "factualRows": 20,
+      "reviewQuestions": 30
+    },
+    {
+      "regionId": "fr-cahors",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-cahors/",
+        "https://www.vignobles-sudouest.fr/project/aop-cahors/",
+        "https://www.vignobles-sudouest.fr/project/aop-cahors/",
+        "https://www.vignobles-sudouest.fr/project/aop-cahors/",
+        "https://www.vignevin-occitanie.com/wp-content/uploads/2024/05/Diversite-et-originalite-des-cepages-du-sud-ouest-Clos-Vougeot-1.pdf"
+      ],
+      "associationCount": 5,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-fronton",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-fronton/",
+        "https://www.vignobles-sudouest.fr/project/aop-fronton/",
+        "https://www.vignobles-sudouest.fr/project/aop-fronton/",
+        "https://www.vignobles-sudouest.fr/project/aop-fronton/",
+        "https://www.vignobles-sudouest.fr/project/aop-fronton/",
+        "https://www.vignevin-occitanie.com/wp-content/uploads/2024/05/Diversite-et-originalite-des-cepages-du-sud-ouest-Clos-Vougeot-1.pdf"
+      ],
+      "associationCount": 11,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-gaillac",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-gaillac/",
+        "https://www.vins-plageoles.com/nos-vins/ondenc-sec/",
+        "https://www.vignobles-sudouest.fr/project/aop-gaillac/",
+        "https://www.vignobles-sudouest.fr/project/aop-gaillac/",
+        "https://www.vignobles-sudouest.fr/project/aop-gaillac/",
+        "https://www.vignobles-sudouest.fr/project/aop-gaillac/",
+        "https://www.vignevin-occitanie.com/wp-content/uploads/2024/05/Diversite-et-originalite-des-cepages-du-sud-ouest-Clos-Vougeot-1.pdf",
+        "https://www.vins-plageoles.com/nos-vins/braucol/",
+        "https://www.vins-plageoles.com/nos-vins/duras/",
+        "https://www.vins-plageoles.com/nos-vins/prunelart/"
+      ],
+      "associationCount": 15,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-madiran",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-madiran/",
+        "https://www.vignobles-sudouest.fr/project/aop-madiran/",
+        "https://www.vignobles-sudouest.fr/project/aop-madiran/",
+        "https://www.vignobles-sudouest.fr/project/aop-madiran/",
+        "https://www.vignobles-sudouest.fr/project/aop-madiran/"
+      ],
+      "associationCount": 4,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-pacherenc-du-vic-bilh",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-pacherenc-du-vic-bilh/",
+        "https://www.vignobles-sudouest.fr/project/aop-pacherenc-du-vic-bilh/",
+        "https://www.vignobles-sudouest.fr/project/aop-pacherenc-du-vic-bilh/",
+        "https://www.vignobles-sudouest.fr/project/aop-pacherenc-du-vic-bilh/",
+        "https://www.vignobles-sudouest.fr/project/aop-pacherenc-du-vic-bilh/",
+        "https://www.brumont.fr/en/wine/25/larmes-celestes"
+      ],
+      "associationCount": 6,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-marcillac",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-marcillac/",
+        "https://www.vignobles-sudouest.fr/project/aop-marcillac/",
+        "https://www.vignobles-sudouest.fr/project/aop-marcillac/",
+        "https://www.vignobles-sudouest.fr/project/aop-marcillac/",
+        "https://www.vignobles-sudouest.fr/project/aop-marcillac/"
+      ],
+      "associationCount": 4,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-irouleguy",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-irouleguy/",
+        "https://www.vignobles-sudouest.fr/project/aop-irouleguy/",
+        "https://www.vignobles-sudouest.fr/project/aop-irouleguy/",
+        "https://www.vignobles-sudouest.fr/project/aop-irouleguy/",
+        "https://www.vignobles-sudouest.fr/project/aop-irouleguy/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/83"
+      ],
+      "associationCount": 8,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-saint-mont",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-saint-mont/",
+        "https://www.vignobles-sudouest.fr/project/aop-saint-mont/",
+        "https://www.vignobles-sudouest.fr/project/aop-saint-mont/",
+        "https://www.vignobles-sudouest.fr/project/aop-saint-mont/",
+        "https://www.vignobles-sudouest.fr/project/aop-saint-mont/",
+        "https://www.plaimont.com/en/nos-vins/our-grape-varieties"
+      ],
+      "associationCount": 11,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-tursan",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-tursan/",
+        "https://www.vignobles-sudouest.fr/project/aop-tursan/",
+        "https://www.vignobles-sudouest.fr/project/aop-tursan/",
+        "https://www.vignobles-sudouest.fr/project/aop-tursan/",
+        "https://www.vignobles-sudouest.fr/project/aop-tursan/"
+      ],
+      "associationCount": 13,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-cotes-du-marmandais",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/aop-cotes-du-marmandais/",
+        "https://www.vignobles-sudouest.fr/project/aop-cotes-du-marmandais/",
+        "https://www.vignobles-sudouest.fr/project/aop-cotes-du-marmandais/",
+        "https://www.vignobles-sudouest.fr/project/aop-cotes-du-marmandais/",
+        "https://www.vignobles-sudouest.fr/project/aop-cotes-du-marmandais/"
+      ],
+      "associationCount": 12,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-cotes-de-gascogne",
+      "sourceUrls": [
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/",
+        "https://www.plaimont.com/en/nos-vins/our-grape-varieties"
+      ],
+      "associationCount": 42,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-bearn",
+      "sourceUrls": [
+        "https://inao.gouv.fr/produit/bearn-rose-20047",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement"
+      ],
+      "associationCount": 14,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-jurancon",
+      "sourceUrls": [
+        "https://www.inao.gouv.fr/en/node/35440",
+        "https://www.jurancon-lapeyre.fr/la-geologie-du-clos-lapeyre/",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-d645c8b2-51ab-4b49-838c-4339610be9ac/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-d645c8b2-51ab-4b49-838c-4339610be9ac/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-d645c8b2-51ab-4b49-838c-4339610be9ac/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-d645c8b2-51ab-4b49-838c-4339610be9ac/telechargement"
+      ],
+      "associationCount": 6,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-bergerac-duras",
+      "sourceUrls": [
+        "https://www.vins-bergeracduras.fr/nos-cepages/",
+        "https://www.vins-bergeracduras.fr/nos-cepages/",
+        "https://www.vins-bergeracduras.fr/nos-cepages/",
+        "https://www.vins-bergeracduras.fr/nos-cepages/",
+        "https://www.vins-bergeracduras.fr/nos-cepages/"
+      ],
+      "associationCount": 10,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-lorraine",
+      "sourceUrls": [
+        "https://vins-de-lorraine.fr/les-appellations-des-vins-de-lorraine/",
+        "https://www.aoc-cotesdetoul.fr/",
+        "https://www.aoc-cotesdetoul.fr/fr/l-aoc-cotes-de-toul.html",
+        "https://www.aoc-cotesdetoul.fr/fr/l-aoc-cotes-de-toul.html",
+        "https://www.aoc-cotesdetoul.fr/fr/l-aoc-cotes-de-toul.html",
+        "https://www.aoc-cotesdetoul.fr/fr/l-aoc-cotes-de-toul.html",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-e74f2c29-db49-4bd8-a89b-54340084a853/telechargement",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/24"
+      ],
+      "associationCount": 12,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-beaujolais",
+      "sourceUrls": [
+        "https://www.beaujolais.com/decouvrir/nos-12-appellations/",
+        "https://www.beaujolais.com/en/cepage/gamay/",
+        "https://www.beaujolais.com/en/",
+        "https://www.beaujolais.com/en/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/332",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/334",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/333",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/335"
+      ],
+      "associationCount": 6,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-centre-loire",
+      "sourceUrls": [
+        "https://www.vins-centre-loire.com/en/nos-terroirs/",
+        "https://www.vins-centre-loire.com/files/Dossier-Vins-Centre-Loire-FR.pdf",
+        "https://www.vins-centre-loire.com/fr/cepages/",
+        "https://www.vins-centre-loire.com/fr/cepages/",
+        "https://www.vins-centre-loire.com/fr/cepages/",
+        "https://www.vins-centre-loire.com/fr/cepages/"
+      ],
+      "associationCount": 7,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-auvergne-allier",
+      "sourceUrls": [
+        "https://www.vignobles-aura.com/vignoble/saint-pourcain/",
+        "https://www.moulins-tourisme.com/sejours/ou-acheter-des-produits-du-terroir/vignoble-du-saint-pourcain/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/247",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/250",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/114",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/193",
+        "https://www.tresorsvivantsducentre.com/cepages"
+      ],
+      "associationCount": 4,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-cognac-charentes",
+      "sourceUrls": [
+        "https://www.cognac.fr/en/discover/the-cognac-region/cognac-grapes-varieties/",
+        "https://www.cognac.fr/en/discover/a-unique-spirit/exceptional-spirit/",
+        "https://www.cognac.fr/decouvrir/vignoble/les-cepages/",
+        "https://www.cognac.fr/decouvrir/vignoble/les-cepages/",
+        "https://www.cognac.fr/decouvrir/vignoble/les-cepages/",
+        "https://www.cognac.fr/decouvrir/vignoble/les-cepages/",
+        "https://www.vinscharentais.fr/vin/chauche-2/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/314"
+      ],
+      "associationCount": 8,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-armagnac",
+      "sourceUrls": [
+        "https://www.armagnac.fr/cepages-et-terroir",
+        "https://www.armagnac.fr/distillation-et-vieillissement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement"
+      ],
+      "associationCount": 10,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-ajaccio",
+      "sourceUrls": [
+        "https://www.ajaccio-tourisme.com/en/discover/heritage-and-identity/ajaccio-pdo-wines-the-mark-of-an-exceptional-terroir/",
+        "https://www.ajaccio-tourisme.com/en/discover/heritage-and-identity/ajaccio-pdo-wines-the-mark-of-an-exceptional-terroir/",
+        "https://www.vinsdecorse.com/en/domainDetail/109",
+        "https://www.vinsdecorse.com/en/domainDetail/109",
+        "https://www.vinsdecorse.com/en/domainDetail/253",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/388"
+      ],
+      "associationCount": 5,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-patrimonio",
+      "sourceUrls": [
+        "https://www.inao.gouv.fr/produit/patrimonio-rose-16826",
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024278448/",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-ef16a4b1-5277-4772-9bf6-0d315936c90c/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-ef16a4b1-5277-4772-9bf6-0d315936c90c/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-ef16a4b1-5277-4772-9bf6-0d315936c90c/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-ef16a4b1-5277-4772-9bf6-0d315936c90c/telechargement"
+      ],
+      "associationCount": 4,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-muscat-du-cap-corse",
+      "sourceUrls": [
+        "https://inao.gouv.fr/produit/muscat-du-cap-corse-6423",
+        "https://www.inao.gouv.fr/en/node/1751",
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024278429/"
+      ],
+      "associationCount": 1,
+      "factualRows": 9,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-bandol",
+      "sourceUrls": [
+        "https://www.inao.gouv.fr/en/node/67",
+        "https://www.maisondesvins-bandol.com/en/vineyard.cfm",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-5dba9fe2-3426-4f86-90e1-84267bdbae56/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-5dba9fe2-3426-4f86-90e1-84267bdbae56/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-5dba9fe2-3426-4f86-90e1-84267bdbae56/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-5dba9fe2-3426-4f86-90e1-84267bdbae56/telechargement"
+      ],
+      "associationCount": 23,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-bellet",
+      "sourceUrls": [
+        "https://saint-jean-bellet.com/",
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658",
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658",
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658",
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658"
+      ],
+      "associationCount": 12,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-palette",
+      "sourceUrls": [
+        "https://inao.gouv.fr/produit/palette-rose-20023",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement"
+      ],
+      "associationCount": 26,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-pays-doc",
+      "sourceUrls": [
+        "https://www.paysdoc-vin.com/les-cepages/",
+        "https://www.paysdoc-vin.com/les-cepages/",
+        "https://www.paysdoc-vin.com/les-cepages/",
+        "https://www.paysdoc-vin.com/les-cepages/",
+        "https://www.paysdoc-vin.com/les-cepages/"
+      ],
+      "associationCount": 55,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-bugey",
+      "sourceUrls": [
+        "https://vinsdubugey.net/fr/",
+        "https://vinsdubugey.net/en/terroir/",
+        "https://vinsdubugey.net/assets/uploads/2023/06/depliant-V5.pdf",
+        "https://vinsdubugey.net/assets/uploads/2023/06/depliant-V5.pdf",
+        "https://vinsdubugey.net/assets/uploads/2023/06/depliant-V5.pdf",
+        "https://vinsdubugey.net/assets/uploads/2023/06/depliant-V5.pdf",
+        "https://vinsdubugey.net/fr/le-terroir/"
+      ],
+      "associationCount": 11,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-coteaux-du-gier",
+      "sourceUrls": [
+        "https://www.lesdeplaude.com/terroir-c%C3%A9pages/",
+        "https://www.lesdeplaude.com/terroir-c%C3%A9pages/",
+        "https://www.lesdeplaude.com/terroir-c%C3%A9pages/",
+        "https://www.cepagesrares.com/ressources/ODG_CoteauxDuGier.pdf"
+      ],
+      "associationCount": 3,
+      "factualRows": 11,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-coteaux-du-lyonnais",
+      "sourceUrls": [
+        "https://www.vignobles-aura.com/vignoble/coteaux-du-lyonnais/",
+        "https://www.vignobles-aura.com/vignoble/coteaux-du-lyonnais/",
+        "https://www.vignobles-aura.com/vignoble/coteaux-du-lyonnais/",
+        "https://www.vignobles-aura.com/vignoble/coteaux-du-lyonnais/"
+      ],
+      "associationCount": 3,
+      "factualRows": 11,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-hautes-alpes",
+      "sourceUrls": [
+        "https://inao.gouv.fr/produit/hautes-alpes-blanc-7857",
+        "https://www.vinigp.fr/igp-departementales/igp-hautes-alpes/",
+        "https://www.domaine-allemand.com/",
+        "https://www.domaine-allemand.com/gammes/theusien-blanc/",
+        "https://www.domaine-allemand.com/en/our-ranges/",
+        "https://www.domaine-allemand.com/en/our-ranges/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/170",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/222"
+      ],
+      "associationCount": 5,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-isere-dauphine",
+      "sourceUrls": [
+        "https://gb.vins-coteaux-alpins.fr/10/igp-isere/",
+        "https://domainedesrutissons.fr/nos-cepages/",
+        "https://domainedesrutissons.fr/nos-cepages/",
+        "https://domainedesrutissons.fr/nos-cepages/",
+        "https://domainedesrutissons.fr/nos-cepages/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/356",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/302",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/261",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/309",
+        "https://www.vins-coteaux-alpins.fr/cepage/73/sereneze/",
+        "https://ives-openscience.eu/wp-content/uploads/2023/02/G14-flash-LimousinT-new_ok.pdf"
+      ],
+      "associationCount": 16,
+      "factualRows": 12,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-seyssel",
+      "sourceUrls": [
+        "https://www.inao.gouv.fr/produit/seyssel-13180",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-1f4d6ce4-1fdf-4cf0-bf7b-b4548e8d0a02/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-1f4d6ce4-1fdf-4cf0-bf7b-b4548e8d0a02/telechargement"
+      ],
+      "associationCount": 2,
+      "factualRows": 10,
+      "reviewQuestions": 0
+    },
+    {
+      "regionId": "fr-bourgogne-aligote",
+      "sourceUrls": [
+        "https://www.bourgogne-wines.com/wine-and-terroir/bourgogne-and-its-appellations/gallery_files/site/321/402/79294/79302.pdf",
+        "https://www.de-villaine.com/en/wines/1/bouzeron",
+        "https://www.domainedangerville.fr/bourgogne-aligote/",
+        "https://www.morey-meursault.fr/en/wine/bourgogne-aligote/",
+        "https://www.sylvainmorey.com/wines/bourgogne-aligote-2023/"
+      ],
+      "associationCount": 1,
+      "factualRows": 11,
+      "reviewQuestions": 0
+    }
+  ],
+  "correctionsPendingReview": [],
+  "italianRegistryComplete": false,
+  "allItalianAppellationsComplete": false,
+  "correctionsReviewed": [
+    {
+      "topic": "Nebbiolo relatives",
+      "grapeIds": [
+        "nebbiolo",
+        "nebbiolo-rose",
+        "pignola-valtellinese",
+        "rossola-nera"
+      ],
+      "sourceUrls": [
+        "https://www.nature.com/articles/s41598-020-72799-6"
+      ],
+      "note": "Original 2020 SSR/SNP paper supports full-sibling relationships among these four; do not repeat older parent–offspring or colour-mutation claims. Named parental pair unresolved.",
+      "status": "reviewed-existing-unknown-parents-preserved-new-relative-records-carry-sibling-evidence"
+    },
+    {
+      "topic": "Albarola identity",
+      "grapeIds": [
+        "albarola"
+      ],
+      "sourceUrls": [
+        "https://vitisdb.it/varieties/show/8159"
+      ],
+      "note": "CNR VitisDB confirms Bianchetta Genovese synonymy; older CREA morphology-based descriptions may separate historical names. Do not confuse Bianchetta Trevigiana.",
+      "status": "reviewed-new-canonical-record-already-consolidates-alias"
+    },
+    {
+      "topic": "Asti 2026 specification",
+      "grapeIds": [
+        "muscat-blanc-a-petits-grains",
+        "brachetto"
+      ],
+      "sourceUrls": [
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F8%252F6%252FD.78fdbd09a0007a2699ad/P/BLOB%3AID%3D24256/E/pdf?mode=download"
+      ],
+      "note": "White Asti/Moscato d’Asti composition is minimum 97% Moscato Bianco; 2026 adds Rosé with 70–90% Moscato Bianco and 10–30% Brachetto. Do not assert all Asti is 100% Muscat or necessarily sweet. National effect 23 March 2026; do not invent separate EU-publication date.",
+      "status": "reviewed-current-rules-retained-in-exact-appellation-records"
+    },
+    {
+      "topic": "Freisa d’Asti 2021 amendment",
+      "grapeIds": [
+        "freisa"
+      ],
+      "sourceUrls": [
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/9%252F7%252F3%252FD.5eef8a0607be95ec5213/P/BLOB%3AID%3D17671/E/pdf?mode=download",
+        "https://www.viniastimonferrato.it/news/la-nuova-scommessa-del-freisa-dasti-doc-passa-la-modifica-di-disciplinare-e-i-produttori-ci-credono/"
+      ],
+      "note": "2021 amendment supersedes older consortium PDF: Freisa minimum 90%, with Superiore six-month minimum wood ageing and release from 1 November following harvest.",
+      "status": "reviewed-current-rules-retained-in-exact-appellation-records"
+    },
+    {
+      "topic": "Brachetto d’Acqui / Acqui identity",
+      "grapeIds": [
+        "brachetto"
+      ],
+      "sourceUrls": [
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/5%252Ff%252Fb%252FD.747bab6b1989d6a0dfe5/P/BLOB%3AID%3D14376/E/pdf?mode=download"
+      ],
+      "note": "One legal PDO with two names. Minimum Brachetto 97%; includes dry-to-sweet still red/rosé, extra-brut-to-sweet sparkling red/rosé and sweet red Passito. Older blanket 100%/sweet-only descriptions are incomplete.",
+      "status": "reviewed-current-rules-retained-in-exact-appellation-records"
+    },
+    {
+      "topic": "Ruchè Riserva",
+      "grapeIds": [
+        "ruche"
+      ],
+      "sourceUrls": [
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252Fa%252F0%252FD.447a6eeaba4254109be1/P/BLOB%3AID%3D15369/E/pdf?mode=download"
+      ],
+      "note": "Use operative 2020 specification rather than linked 2014 PDF. Riserva requires 24 months including 12 in wood; bare Vigna does not by itself impose Riserva ageing.",
+      "status": "reviewed-current-rules-retained-in-exact-appellation-records"
+    },
+    {
+      "id": "spergola-vernaccia-di-oristano",
+      "canonicalId": "vernaccia-di-oristano",
+      "removeProvisionalId": "spergola",
+      "note": {
+        "en": "The matched registered Spergola genotype is identical to Vernaccia di Oristano in Raimondi et al. 2020. Homonymous accessions require authentication; do not assert every historical Spergola accession is identical.",
+        "zh": "Raimondi 等 2020 年研究确认匹配的登记 Spergola 基因型与 Vernaccia di Oristano 相同；同名材料须鉴定，不应宣称所有历史同名材料皆相同。"
+      },
+      "sourceUrls": [
+        "https://www.nature.com/articles/s41598-020-72799-6",
+        "https://agricoltura.regione.emilia-romagna.it/produzioni-agroalimentari/agricoltura-sostenibile/agrobiodiversita/schede-specie-vegetali/vite/spergola/@@download/file"
+      ],
+      "status": "reviewed-single-canonical-identity-with-accession-qualification"
+    },
+    {
+      "id": "taurasi-ageing",
+      "issue": "Some promotional summaries use 1 January after harvest.",
+      "resolution": "Approved 2020 Taurasi specification starts ageing on 1 December of harvest year.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/approvazione_GURI_Taurasi.pdf"
+      ],
+      "status": "reviewed-source-reconciliation-retained-in-imported-dossiers"
+    },
+    {
+      "id": "pentro-blend",
+      "issue": "Old overview prose retains a Sangiovese-led Pentro blend.",
+      "resolution": "Use the 2014 law: Montepulciano 75–80%, Tintilia 20–25%; the ten-year vineyard transition began 1 August 2014.",
+      "sourceUrls": [
+        "https://mc-4cf22472-b2a7-42f7-8f97-1a7c-cdn-endpoint.azureedge.net/it/-/media/Files/agroqualita/vini/molise/disciplinari-molise/disciplinare_pentro_doc.pdf"
+      ],
+      "status": "reviewed-source-reconciliation-retained-in-imported-dossiers"
+    },
+    {
+      "id": "greco-sparkling",
+      "issue": "Promotional FAQ descriptions can imply tank fermentation or one uniform lees minimum.",
+      "resolution": "Approved law requires traditional bottle fermentation: 18 months Spumante, 36 months Spumante Riserva.",
+      "sourceUrls": [
+        "https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/9%252F5%252F7%252FD.b714653c197c0878d942/P/BLOB%3AID%3D14984/E/pdf?mode=download"
+      ],
+      "status": "reviewed-source-reconciliation-retained-in-imported-dossiers"
+    },
+    {
+      "id": "fiano-approval",
+      "issue": "A proposal date was liable to be confused with EU approval.",
+      "resolution": "Union amendment approved June 2025; consolidated law now includes traditional-method sparkling and Riserva.",
+      "sourceUrls": [
+        "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=25A03321&atto.dataPubblicazioneGazzetta=2025-06-11&atto.tipoProvvedimento=COMUNICATO",
+        "https://accademiavino.it/sites/default/files/disciplinari/Fiano%20di%20Avellino.pdf"
+      ],
+      "status": "reviewed-source-reconciliation-retained-in-imported-dossiers"
+    },
+    {
+      "id": "vesuvio-2025",
+      "issue": "Older summaries omit the expanded categories and updated composition.",
+      "resolution": "Use the consolidated specification incorporating EU 2025/1903.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Vesuvio_2025.pdf"
+      ],
+      "status": "reviewed-source-reconciliation-retained-in-imported-dossiers"
+    },
+    {
+      "id": "casauria-docg",
+      "issue": "Old Abruzzo counts and subzone maps omit independent Casauria.",
+      "resolution": "Casauria became an independent DOCG in 2025; retain original denomination for historic bottles.",
+      "sourceUrls": [
+        "https://scresources.rina.org/it/food/DOCG-Casauria_disciplinare-di-produzione.pdf",
+        "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/24375"
+      ],
+      "status": "reviewed-source-reconciliation-retained-in-imported-dossiers"
+    },
+    {
+      "id": "camaiola-identity",
+      "issue": "Historical Barbera del Sannio usage could be mistaken for Piemonte Barbera.",
+      "resolution": "Camaiola remains a distinct cultivar in this batch.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/pubblicazioni/pdf/VITIENOLOGIA_IN_CAMPANIA.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/pdf/DRD_69-03-02-26.pdf"
+      ],
+      "status": "reviewed-source-reconciliation-retained-in-imported-dossiers"
+    },
+    {
+      "id": "forastera-identity",
+      "issue": "A new Spain record named Forastera Blanca might be conflated with Ischia Forastera.",
+      "resolution": "Ischia Forastera remains distinct; no canonical synonym merge was justified.",
+      "sourceUrls": [
+        "https://agricoltura.regione.campania.it/pubblicazioni/pdf/VITIENOLOGIA_IN_CAMPANIA.pdf",
+        "https://agricoltura.regione.campania.it/viticoltura/disciplinari/DOC_Ischia.pdf"
+      ],
+      "status": "reviewed-source-reconciliation-retained-in-imported-dossiers"
+    },
+    {
+      "id": "graciano",
+      "field": "aliases",
+      "oldValue": {
+        "name": "Bovale Sardo",
+        "context": "撒丁岛"
+      },
+      "newValue": null,
+      "newEnValue": null,
+      "sourceUrls": [
+        "https://vitisdb.it/varieties/show/1614",
+        "https://vitisdb.it/varieties/show/1579"
+      ],
+      "reason": "Remove Bovale Sardo from Graciano: authenticated AGRIS Muristellu/Bovale Sardo matches Carcajolo Noir; Cagnulari/Graciano is a distinct genotype.",
+      "status": "applied",
+      "reviewed": "2026-10-26"
+    },
+    {
+      "id": "malvasia-aromatica",
+      "field": "aliases[Malvasia di Lipari].context",
+      "oldValue": "西班牙地区使用名称；具体地域与辨析见本档案。",
+      "newValue": "意大利 Aeolian 群岛名称；与 Malvasia di Sardegna 同型。",
+      "newEnValue": "Italian Aeolian-island name; same genotype as Malvasia di Sardegna.",
+      "sourceUrls": [
+        "https://vitisdb.it/varieties/show/1640"
+      ],
+      "reason": "The existing blanket Spanish context is geographically wrong for the Italian synonym.",
+      "status": "applied",
+      "reviewed": "2026-10-26"
+    },
+    {
+      "id": "fr-cognac-charentes",
+      "note": "Kept kind=region because the dossier explicitly covers Charentes geography and separate Cognac/wine identities. Armagnac, Champagne and Pays d’Oc use kind=appellation.",
+      "status": "reviewed-scope-or-source-note-retained"
+    },
+    {
+      "id": "france-topic-scope",
+      "note": "Four heritage/trial groupings remain topics; not promoted to geographic regions or AOCs.",
+      "status": "reviewed-scope-or-source-note-retained"
+    },
+    {
+      "id": "france-existing-bouzeron",
+      "note": "Existing Bouzeron dossier is untouched and not duplicated.",
+      "status": "reviewed-scope-or-source-note-retained"
+    },
+    {
+      "id": "france-source-access",
+      "note": "Some official legal/PDF URLs return 403 to automated full-page retrieval; indexed official text and independent primary producer/interprofessional sources were used. No claim of a complete current legal audit.",
+      "status": "reviewed-scope-or-source-note-retained"
+    },
+    {
+      "id": "france-champagne-maturation",
+      "note": "15 months total/12 months lees for NV and three years total for vintage; rejected producer pages that incorrectly label total minima as all-on-lees minima.",
+      "status": "reviewed-scope-or-source-note-retained"
+    },
+    {
+      "id": "france-bugey",
+      "note": "Bugey and Roussette du Bugey are two AOCs; named geographical/colour expressions are not counted as independent AOCs.",
+      "status": "reviewed-scope-or-source-note-retained"
+    },
+    {
+      "id": "france-corsica",
+      "note": "Corse geographical additions are not counted as five extra independent PDOs.",
+      "status": "reviewed-scope-or-source-note-retained"
+    },
+    {
+      "topic": "Accession qualification: guarnaccia-bianca",
+      "grapeIds": [
+        "guarnaccia-bianca"
+      ],
+      "note": "Granatza is mapped by AGRIS to nationally registered Guarnaccia Bianca (106). Fanelli 2021 identifies several distinct homonymous Calabrian profiles; Saracena/ARSAC traits cannot be transferred to that canonical identity.",
+      "sourceUrls": [
+        "https://vitisdb.it/varieties/show/1613",
+        "https://iris.cnr.it/retrieve/50c271b2-a720-477d-8560-c41fbaca353e/prod_458698-doc_178404.pdf"
+      ],
+      "status": "applied-and-primary-source-verified"
+    },
+    {
+      "topic": "Accession qualification: greco-nero",
+      "grapeIds": [
+        "greco-nero"
+      ],
+      "note": "Reported VIVC pedigree concerns a profile shown in 2021 to differ from ARSAC Greco Nero; state both findings without inventing a unified pedigree.",
+      "sourceUrls": [
+        "https://iris.cnr.it/retrieve/50c271b2-a720-477d-8560-c41fbaca353e/prod_458698-doc_178404.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/23015217/",
+        "https://www.ampelis.it/1.pdf",
+        "https://www.vivc.de/index.php?r=passport%2Fview&id=4971"
+      ],
+      "status": "applied-and-primary-source-verified"
+    },
+    {
+      "topic": "Accession qualification: magliocco-dolce",
+      "grapeIds": [
+        "magliocco-dolce"
+      ],
+      "note": "Replace generic introduction and restore molecularly confirmed synonyms from the same primary study.",
+      "sourceUrls": [
+        "https://iris.cnr.it/retrieve/50c271b2-a720-477d-8560-c41fbaca353e/prod_458698-doc_178404.pdf",
+        "https://www.arsacweb.it/i-vitigni-calabresi/"
+      ],
+      "status": "applied-and-primary-source-verified"
+    }
+  ]
+}

@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f9faf7">
+<title>SOMM100 · Tasting Notes V1.6</title>
+<style>
+:root{--green:#374733;--green2:#687a5c;--ink:#2e352d;--quiet:#858e80;--line:#e4e8df;--surface:#fbfcf9;--cream:#f2f5ee;--selected:#e7eee2;--white:#fff;--shadow:0 12px 36px #2c352412}
+*{box-sizing:border-box}html{background:#e9ede7}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.48;color:var(--ink);-webkit-tap-highlight-color:transparent}button,input,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #819c73;outline-offset:3px}
+[hidden]{display:none!important}.shell{min-height:100dvh;max-width:730px;margin:auto;background:var(--surface);box-shadow:0 0 75px #222d2012;position:relative}.app-head{height:74px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 25px;border-bottom:1px solid var(--line);background:#fdfefb}.wordmark{font:normal 22px/1.05 -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;color:var(--green);letter-spacing:-.6px}.wordmark small{display:block;font:600 9px/1.6 system-ui,sans-serif;letter-spacing:2px;color:#889783;margin-top:4px}.head-left{display:flex;align-items:center;gap:12px}.icon-btn{border:0;background:transparent;color:#465743;display:inline-flex;align-items:center;justify-content:center;min-width:39px;height:39px;padding:4px;border-radius:11px;font-size:21px}.icon-btn:hover{background:#f0f3eb}.head-right{display:flex;gap:6px;align-items:center}.back-btn{font-size:26px;margin-left:-9px}.tiny-label{font-size:11px;color:#73826d;white-space:nowrap}.main{padding:0 25px 44px;min-height:calc(100dvh - 74px)}
+/* Home */
+.home{min-height:calc(100dvh - 74px);display:flex;flex-direction:column;position:relative;padding-bottom:70px}.home-title{margin:39px 0 5px;font:normal 32px/1.1 -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;letter-spacing:-.6px;color:#2f402b}.home-under{font-size:12px;color:#859280;margin-bottom:20px}.home-space{flex:1;min-height:120px}.home-blank{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;min-height:240px;gap:13px}.home-blank .round-decoration{width:100px;height:100px;border:1px solid #d5ded0;border-radius:50%;position:relative}.round-decoration:before,.round-decoration:after{content:"";position:absolute;border:1px solid #d5ded0;border-radius:50%;inset:13px 32px}.round-decoration:after{inset:30px 13px}.home-blank p{font:normal 14px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;color:#9ba698;margin:0}.home-list{display:flex;flex-direction:column;gap:9px;margin-top:20px}.entry{background:#fff;border:1px solid var(--line);border-radius:13px;min-height:82px;width:100%;text-align:left;padding:11px 13px;display:flex;align-items:center;gap:12px;color:var(--ink)}.entry:hover{background:#f6f8f3}.entry img{height:60px;width:54px;object-fit:cover;border-radius:7px;background:#edf2e9}.entry-ph{height:60px;width:54px;border-radius:7px;display:grid;place-items:center;background:#edf2e9;color:#8e9d83;font:normal 24px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif}.entry-main{min-width:0;flex:1}.entry-main strong{font-size:13px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.entry-main small{font-size:11px;color:#8b9586;display:block;margin-top:4px}.entry-score{color:#617857;font:normal 21px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;min-width:34px;text-align:right}.fixed-add{position:sticky;bottom:0;margin-top:auto;display:flex;justify-content:center;align-items:center;padding:15px 0 max(20px,env(safe-area-inset-bottom));background:linear-gradient(180deg,#fbfcf900,#fbfcf9 25%);z-index:3}.add-btn{border:0;border-radius:99px;background:var(--green);color:white;display:flex;align-items:center;justify-content:center;gap:9px;font-size:15px;letter-spacing:.2px;font-weight:600;padding:16px 36px;min-width:173px;box-shadow:0 11px 24px #34472e37}.add-btn span{font-size:24px;font-weight:300;line-height:.7}.add-btn:hover{background:#4a6142}
+/* Page head and form */
+.record-head{padding:27px 0 19px;border-bottom:1px solid var(--line);margin-bottom:15px}.record-head h2{font:normal 32px/1.05 -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;color:var(--green);margin:0 0 7px}.record-meta{display:flex;align-items:center;gap:8px;font-size:11px;color:#909b8c;flex-wrap:wrap}.save-status:before{content:'•';color:#709565;margin-right:5px}.type-row{display:flex;justify-content:space-between;gap:10px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:14px 14px;background:#fff;width:100%;text-align:left;margin:13px 0}.type-row strong{font-weight:650}.type-row small{font-size:12px;color:#718467;margin-left:auto}.type-row .arrow{font-size:15px;color:#899783}.type-picks{display:flex;flex-wrap:wrap;gap:8px;margin:-4px 0 15px;background:#fff;padding:4px 0 3px}.photo-tile{border:1px dashed #aebca6;border-radius:13px;background:#f6f8f3;padding:16px;display:flex;gap:12px;align-items:center;margin-top:14px;color:#476141}.photo-tile .photo-symbol{border-radius:10px;background:#e9f0e4;width:44px;height:44px;display:grid;place-items:center;font-size:24px;flex-shrink:0}.photo-title{font-size:13px;font-weight:700}.photo-tile small{display:block;color:#9aa996;font-size:11px;margin-top:2px}.photo-tile button{margin-left:auto;border:1px solid #8fa587;border-radius:8px;background:white;color:#405938;padding:9px 12px;white-space:nowrap;font-size:12px}.photo-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;margin-top:10px}.photo-thumb{aspect-ratio:1;position:relative;border-radius:8px;overflow:hidden;background:#e9eee5}.photo-thumb img{width:100%;height:100%;object-fit:cover}.photo-thumb button{position:absolute;top:3px;right:3px;width:23px;height:23px;border:0;border-radius:50%;background:#ffffffed;font-size:16px;line-height:1;color:#55624b}
+.detail-box{background:#fff;border:1px solid var(--line);border-radius:12px;margin:12px 0;padding:0 13px}.detail-toggle{width:100%;border:0;background:#fff;display:flex;align-items:center;gap:10px;text-align:left;justify-content:space-between;color:var(--ink);padding:14px 0}.detail-toggle strong{font-size:12px}.detail-toggle .muted{font-size:11px;color:#9ca69a;margin-left:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:56%}.detail-body{padding:0 0 14px}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tfield{display:block;font-size:11px;color:#697c61;font-weight:650}.tfield input,.tfield textarea{display:block;width:100%;background:#fff;border:1px solid #d9e1d4;border-radius:9px;padding:11px 10px;margin-top:6px;font-size:13px;color:#2c3928}.tfield textarea{min-height:70px;resize:vertical}.wide{grid-column:1/-1}
+/* Vertical sections and nested selection */
+.sections{padding-top:7px}.section{border:1px solid var(--line);border-radius:13px;background:#fff;overflow:hidden;margin:11px 0;box-shadow:0 6px 23px #2a352409}.section-head{width:100%;border:0;background:#fff;padding:16px 15px;display:flex;align-items:center;gap:12px;text-align:left;min-height:67px}.section-head .number{height:30px;width:30px;flex:0 0 30px;display:grid;place-items:center;background:var(--cream);color:#687d5d;font:normal 13px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;border-radius:50%}.section-head .section-name{flex:1;font:normal 21px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;color:#293a27}.section-head .count{font-size:11px;color:#91a08c}.chevron{font-size:16px;color:#809476;transition:transform .12s}.section.expanded>.section-head .chevron,.nested.open>.nest-head .chevron,.option-field.open>.option-title .chevron{transform:rotate(180deg)}.section-body{border-top:1px solid #eff1eb;padding:6px 15px 15px}.option-field{border-bottom:1px solid #eef0eb}.option-field:last-child{border-bottom:0}.option-title{width:100%;border:0;background:#fff;color:var(--ink);padding:15px 0;display:flex;align-items:center;gap:9px;text-align:left}.option-title .index{font-size:10px;color:#b1bcb0;width:22px;flex-shrink:0}.option-title .label{font-size:12px;font-weight:650;flex:1}.answer{font-size:11px;color:#6b8362;max-width:42%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right}.answer.empty{color:#bdc5b9}.option-area{padding:0 0 14px 30px}.chips{display:flex;gap:7px;flex-wrap:wrap}.chip{font-size:12px;line-height:1.24;border:1px solid #d9e2d3;background:#f9faf7;border-radius:8px;padding:9px 11px;color:#4b6243;min-height:35px}.chip.selected{background:var(--green);border-color:var(--green);color:#fff}.chip.multi.selected{background:var(--selected);color:#3b5d34;border-color:#9db695}.chip:hover{border-color:#90a886}.flavour-list{border:1px solid #e9eee4;border-radius:10px;overflow:hidden}.nested{border-bottom:1px solid #edf1e8}.nested:last-child{border-bottom:0}.nest-head{background:#fbfcf9;border:0;width:100%;text-align:left;padding:12px 11px;display:flex;align-items:center;gap:10px;color:#3c4b37}.nest-head strong{font-size:12px;font-weight:650;flex:1}.nest-head small{font-size:10px;color:#77916e}.nest-body{padding:12px;background:#fff}.nest-caption{font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:#94a58b;margin:12px 0 7px}.nest-caption:first-child{margin-top:0}.special-row{padding:10px 0;border-top:1px solid #eff2eb}.special-row:first-child{padding-top:0;border-top:0}.special-row .special-title{font-size:11px;font-weight:650;color:#5c7154;margin-bottom:8px}.more{border:0;background:transparent;padding:14px 0 8px;color:#637d56;font-size:12px;font-weight:650}.notes-wrap{padding:10px 0 2px}.notes-wrap button{border:0;background:none;padding:6px 0;color:#688159;font-size:12px;font-weight:650}.notes-wrap textarea{display:block;width:100%;margin-top:7px;min-height:76px;padding:10px;border-radius:9px;border:1px solid #dce5d7;resize:vertical}.stack-group{border-bottom:1px solid #eef0eb;padding:10px 0}.stack-group:last-child{border-bottom:0}.group-caption{font-size:10px;letter-spacing:1.1px;text-transform:uppercase;color:#83937b;font-weight:700;margin:8px 0 9px}.hint{font-size:11px;color:#8c9b86;line-height:1.55;margin:7px 0}
+/* Scoring and pricing */
+.score-top{display:flex;align-items:baseline;justify-content:space-between;padding:12px 14px;background:var(--green);color:#fff;border-radius:10px;margin:10px 0 13px}.score-number{font:normal 35px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif}.score-top small{font-size:11px;color:#d0dfca}.score-group{padding:12px 0;border-bottom:1px solid var(--line)}.score-group:last-child{border:0}.score-group-head{display:flex;align-items:center;justify-content:space-between;color:#4a6144;font-size:12px;font-weight:700;margin-bottom:10px}.score-field{display:grid;grid-template-columns:minmax(110px,1fr) auto;gap:8px;align-items:center;margin:12px 0}.score-field label{font-size:11px;color:#5c6d56}.score-options{display:flex;gap:5px}.score-options button{min-width:33px;padding:8px 6px;border-radius:6px;border:1px solid #d9e2d2;background:#f8faf6;color:#4d6046;font-size:11px}.score-options button.active{border-color:var(--green);background:var(--green);color:#fff}.price-set{padding:11px 0;border-bottom:1px solid #edf1e9}.price-set:last-child{border:0}.price-set label{font-size:12px;color:#4c6145;font-weight:650;display:block;margin-bottom:10px}.price-set .currency{color:#91a18b;font-size:10px;font-weight:500}.money{border:1px solid #dce4d6;border-radius:8px;padding:10px;font-size:13px;width:100%;max-width:220px;margin-top:9px}.finish-actions{display:flex;align-items:center;gap:10px;margin:19px 0 5px}.primary-button{border:1px solid var(--green);color:#fff;background:var(--green);border-radius:9px;padding:12px 17px;font-size:13px;font-weight:650}.outline-button{border:1px solid #b3c2aa;color:#48623f;background:white;border-radius:9px;padding:12px 17px;font-size:13px;font-weight:650}.finish-actions .primary-button{flex:1}.reveal-panel{margin:17px 0;background:var(--cream);border-radius:12px;padding:17px;border:1px solid #cbd7c4}.reveal-panel strong{font:normal 21px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;display:block;margin-bottom:14px}.reveal-panel .primary-button{width:100%}
+/* Settings */
+.settings h2{font:normal 29px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;margin:31px 0 23px;color:var(--green)}.settings-block{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;padding:16px}.settings-block h3{font-size:13px;margin:0 0 9px}.settings-block p{font-size:11px;color:#8a9983;line-height:1.7;margin:7px 0 12px}.settings-buttons{display:flex;flex-wrap:wrap;gap:9px}.settings input[type=file]{display:none}.muted-btn{background:#f0f3ec;color:#6c7966;border:1px solid #e2e8dd;padding:9px 12px;font-size:12px;border-radius:8px}.danger-btn{color:#915c52!important}.search{width:100%;padding:11px;border:1px solid #dce4d6;border-radius:9px;margin:9px 0 5px;font-size:13px}
+/* Modals */
+.overlay{position:fixed;inset:0;z-index:50;background:#1623176b;display:flex;justify-content:center;align-items:flex-end;padding:0 12px 12px}.sheet{width:100%;max-width:560px;background:#fdfefb;border-radius:20px;padding:20px 18px max(24px,env(safe-area-inset-bottom));box-shadow:0 15px 48px #16211944;animation:slide .16s ease-out}.sheet h2{font:normal 27px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;color:var(--green);margin:1px 0 20px}.sheet-choice{border:1px solid var(--line);background:white;width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;border-radius:12px;padding:16px 15px;margin:9px 0;text-align:left}.sheet-choice strong{font-size:14px;display:block}.sheet-choice small{font-size:11px;color:#8b9b83;display:block;margin-top:3px}.sheet-choice .arrow{font-size:20px;color:#7f9176}.sheet-close{background:none;border:0;color:#788d71;padding:12px;display:block;margin:9px auto 0;font-size:12px}.input-file{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}@keyframes slide{from{transform:translateY(15px);opacity:.8}to{transform:translateY(0);opacity:1}}.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:90;background:#354830;color:#fff;border-radius:9px;padding:10px 15px;box-shadow:0 10px 32px #1f291f2b;font-size:12px;max-width:88vw;text-align:center}
+@media(max-width:550px){.app-head{height:65px;padding:9px 15px}.wordmark{font-size:19px}.main{min-height:calc(100dvh - 65px);padding:0 16px 28px}.home{min-height:calc(100dvh - 65px)}.home-title{margin-top:29px;font-size:29px}.record-head{padding-top:21px}.record-head h2{font-size:29px}.field-grid{grid-template-columns:1fr}.photo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.score-field{display:block}.score-options{justify-content:space-between;margin-top:7px}.score-options button{flex:1;min-width:0}.section-head{padding:14px 12px}.section-body{padding:5px 12px 15px}.option-area{padding-left:23px}.option-title .index{width:16px}.answer{max-width:39%}}
+@media(max-width:360px){.wordmark{font-size:17px}.photo-tile{gap:6px}.photo-tile button{padding:8px}.section-head .section-name{font-size:19px}.chip{font-size:11px;padding:8px}.score-options button{padding:8px 3px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* SOMM100 · adaptive tasting V1.5, original IndexedDB preserved */
+.wine-type-inline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin:14px 0 17px;width:100%}
+.wine-type-button{min-width:0;min-height:46px;border:1px solid #d7dfd2;background:#fff;border-radius:10px;color:#52634c;font-size:13px;font-weight:550;padding:10px 3px;white-space:nowrap}
+.wine-type-button.selected{background:var(--green);color:#fff;border-color:var(--green)}
+.wine-type-button:hover{border-color:#8da385}
+.section-head{gap:8px;padding-left:18px}.section-head .section-name{padding-left:0}.section-head .chevron{margin-left:auto}
+.option-title{gap:9px}.option-area{padding-left:0}.section-body .option-field .option-title .label{font-size:13px}
+.field-help{border:1px solid #e9eee4;border-radius:9px;padding:14px;color:#84937e;font-size:12px;background:#fbfcf9}
+.score-title-en{display:block}.score-title-zh{font:normal 12px/1.4 -apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;color:#7b8b73;margin-top:3px}
+.empty-cta{align-items:center;justify-content:center}.empty-cta .add-btn{min-width:214px;padding:17px 24px}
+.category-helper{color:#84957f;font-size:10px;padding:4px 0 9px}
+@media(max-width:550px){.wine-type-inline{gap:5px}.wine-type-button{font-size:12px;min-height:43px;padding:8px 1px}.section-head{padding-left:14px}.option-area{padding-left:0}}
+@media(max-width:355px){.wine-type-inline{gap:4px}.wine-type-button{font-size:11px}}
+
+/* V1.5: adaptive descriptors, mobile touch targets, OCR confirmation */
+.quick-card{border:1px solid #d9e3d3;border-radius:12px;background:#f5f8f2;padding:13px;margin:11px 0 13px}
+.quick-heading{font-size:12px;color:#51654b;letter-spacing:.2px;font-weight:700;margin:0 0 9px}
+.quick-card .chips{display:flex;gap:7px;flex-wrap:wrap}.quick-card .chip{min-height:38px}
+.selected-summary{font-size:11px;line-height:1.65;color:#687865;margin:6px 0 11px;word-break:break-word}
+.mini-more{margin:9px 0;border:0;background:transparent;color:#526c49;font-size:12px;font-weight:650;padding:9px 5px}
+.type-help{font-size:11px;color:#849280;margin:-6px 0 12px}
+.label-scan{border:1px solid #d6dfd0;border-radius:12px;padding:12px 13px;margin:12px 0;background:#fff}
+.label-scan h3{font-size:13px;color:#3f583c;margin:0 0 7px}.label-scan p{font-size:11px;color:#778775;margin:6px 0;line-height:1.55}
+.label-scan .label-actions{display:flex;gap:8px;flex-wrap:wrap}
+.label-scan button{min-height:40px;padding:9px 13px;background:#f6f8f3;color:#385637;border:1px solid #cbd9c7;border-radius:9px;font-size:12px;font-weight:600}
+.label-preview{width:63px;height:63px;object-fit:contain;float:right;border:1px solid #e0e7db;border-radius:8px;margin:1px 0 6px 9px;background:#fff}.label-scan .primary{background:#364f31;color:#fff;border-color:#364f31}
+.label-scan small{color:#6c8165;font-size:11px;display:block;margin-top:7px}
+.recognition-card{border:1px solid #d7e1d0;border-radius:12px;background:#fbfcf9;padding:15px;margin:10px 0}
+.recognition-card h3{font-size:15px;margin:0 0 4px;color:#314e30}.recognition-card p{color:#7a8b74;font-size:11px;margin:0 0 12px}
+.recognition-card textarea{width:100%;min-height:72px;max-height:170px;border:1px solid #d8e2d1;border-radius:8px;padding:9px;font-size:12px;background:#fff}
+.recognition-fields{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:12px 0}
+.recognition-fields label{display:block;font-size:11px;color:#61725a}.recognition-fields input{width:100%;margin-top:5px;padding:10px 8px;border:1px solid #d5dfd0;border-radius:8px;background:#fff;min-width:0;font-size:12px}
+.recognition-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:12px}
+.recognition-actions button{padding:10px 14px;min-height:42px;border-radius:8px;border:1px solid #b9c8b1;background:#fff;color:#375134}
+.recognition-actions .primary{background:#375134;color:#fff;border-color:#375134}
+.recognition-raw{margin:12px 0;padding:9px;border-radius:8px;background:#eef2e9;color:#65765f;font-size:10px;white-space:pre-wrap;max-height:130px;overflow:auto}
+.advanced-tech{padding:4px 0 7px}
+.hidden-count{padding:10px 11px;background:#f7f5eb;border:1px solid #e4dbc3;border-radius:9px;font-size:11px;color:#756d53;margin:7px 0 14px}
+.hidden-count button{border:0;background:transparent;color:#597048;text-decoration:underline;margin-left:4px}
+.photo-only-info{font-size:10px;color:#9aa695;margin:5px 0 0}
+@media(max-width:520px){.recognition-fields{grid-template-columns:1fr}.recognition-card{padding:12px}.label-scan .label-actions button{flex:1}.quick-card{padding:10px}.section-head{min-height:50px}.option-title{min-height:44px}.chip{min-height:37px}}
+
+/* Voice-first tasting, V1.6 */
+.voice-card{margin:15px 0 16px;border:1px solid #b9c8b0;background:linear-gradient(145deg,#f9fbf6,#edf2e9);border-radius:15px;padding:16px;color:#31482e}
+.voice-top{display:flex;align-items:flex-start;gap:12px}.voice-mark{display:grid;place-items:center;background:#dfe9d8;color:#3c5736;border-radius:12px;height:42px;width:42px;font-size:21px;flex:0 0 42px}
+.voice-top h3{font-size:16px;letter-spacing:-.2px;margin:0 0 4px}.voice-top p{margin:0;font-size:11px;color:#6b7c65;line-height:1.55}
+.voice-pill{font-size:10px;border:1px solid #cddac4;border-radius:50px;padding:4px 8px;white-space:nowrap;color:#5b7353;margin-left:auto}
+.voice-controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+.voice-controls button,.voice-actions button{min-height:42px;padding:10px 14px;border-radius:10px;border:1px solid #b6c8ad;background:#fff;color:#395534;font-size:12px;font-weight:650}
+.voice-controls button.primary,.voice-actions button.primary{background:#374733;color:#fff;border-color:#374733}
+.voice-controls button:disabled,.voice-actions button:disabled{opacity:.45}
+.voice-clock{display:inline-block;margin-left:auto;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700;color:#526947}
+.voice-language{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:11px;margin-top:11px;color:#667a60}
+.voice-language select{background:#fff;border:1px solid #cad7c2;border-radius:8px;padding:7px 9px;color:#395333;font-size:12px;max-width:200px}
+.voice-status{margin:10px 0 0;color:#596f51;font-size:11px;line-height:1.5}
+.voice-live{margin:12px 0 0;background:#fff;border:1px dashed #b4c7ac;border-radius:10px;padding:11px;white-space:pre-wrap;min-height:46px;line-height:1.65;font-size:12px;color:#3d493a}
+.voice-recording .voice-mark{background:#f4ddd7;color:#8a4235}.voice-recording .voice-clock{color:#a34736}
+.voice-edit{display:block;width:100%;min-height:116px;resize:vertical;background:#fff;color:#31432c;border:1px solid #d0dcc8;border-radius:10px;padding:11px;margin:8px 0 10px;font-size:13px;line-height:1.6}
+.voice-edit.summary{min-height:108px;background:#fafcf7}
+.voice-subhead{font-size:12px;font-weight:750;color:#3c5535;margin:15px 0 5px}
+.voice-actions{display:flex;gap:8px;flex-wrap:wrap;margin:7px 0 6px}
+.voice-evidence{font-size:11px;color:#667762;margin:6px 0}.voice-suggestions{display:flex;flex-direction:column;gap:7px;margin:8px 0 12px}
+.voice-suggest{display:flex;align-items:flex-start;gap:8px;font-size:12px;padding:8px 9px;background:#fff;border:1px solid #e0e9dc;border-radius:9px}
+.voice-suggest input{width:16px;height:16px;accent-color:#475f3e;flex:none;margin:1px 0 0}
+.voice-suggest small{font-size:10px;color:#84927e;display:block;margin-top:2px}
+.voice-audio{width:100%;height:40px;margin:8px 0 0}.voice-footnote{margin:10px 0 0;color:#71836b;font-size:10px;line-height:1.7}
+.voice-warn{color:#9a6133;border-left:2px solid #d5a66e;padding-left:8px}
+@media(max-width:520px){.voice-top{gap:9px}.voice-pill{font-size:9px}.voice-controls button{flex:1}.voice-clock{flex-basis:100%;text-align:center;margin:0}.voice-card{padding:13px}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <header class="app-head" id="appHeader"></header>
+  <main class="main" id="app"></main>
+</div>
+<div id="modalRoot"></div>
+<input id="photoCamera" class="input-file" type="file" accept="image/*" capture="environment">
+<input id="photoImage" class="input-file" type="file" accept="image/*" multiple>
+<input id="labelCamera" class="input-file" type="file" accept="image/*" capture="environment">
+<input id="labelImage" class="input-file" type="file" accept="image/*">
+<script>
+'use strict';
+const STILL=[
+ ['Visual / Sight', [['limpidity','Limpidity',[5,4,3,2,1]],['aspect','Aspect',[10,8,6,4,2]]]],
+ ['Nose', [['ngenuine','Genuineness',[6,5,4,3,2]],['nintensity','Positive Intensity',[8,7,6,4,2]],['nquality','Quality',[16,14,12,10,8]]]],
+ ['Palate / Taste', [['tgenuine','Genuineness',[6,5,4,3,2]],['tintensity','Positive Intensity',[8,7,6,4,2]],['tpersist','Persistence',[8,7,6,5,4]],['tquality','Quality',[22,19,16,13,10]]]],
+ ['Harmony', [['overall','Overall Judgement',[11,10,9,8,7]]]]
+];
+const SPARKLING=[
+ ['Visual / Sight', [['limpidity','Limpidity',[5,4,3,2,1]],['aspect','Aspect',[10,8,6,4,2]],['effervescence','Effervescence',[10,8,6,4,2]]]],
+ ['Nose', [['ngenuine','Genuineness',[7,6,5,4,3]],['nintensity','Positive Intensity',[7,6,5,4,3]],['nquality','Quality',[14,12,10,8,6]]]],
+ ['Palate / Taste', [['tgenuine','Genuineness',[7,6,5,4,3]],['tintensity','Positive Intensity',[7,6,5,4,3]],['tpersist','Persistence',[7,6,5,4,3]],['tquality','Quality',[14,12,10,8,6]]]],
+ ['Harmony', [['overall','Overall Judgement',[12,11,10,9,8]]]]
+];
+// All sensory terms in Title Case and grouped by wine style.
+const FRUIT={
+ Citrus:['Lemon','Lime','Grapefruit','Orange','Mandarin','Yuzu','Lemon Zest','Lime Zest','Orange Peel','Preserved Lemon'],
+ 'Green Fruit':['Green Apple','Granny Smith Apple','Green Pear','Gooseberry','Quince'],
+ 'Orchard Fruit':['Yellow Apple','Red Apple','Pear','Asian Pear','Baked Apple','Quince'],
+ 'Stone Fruit':['White Peach','Yellow Peach','Nectarine','Apricot','Mirabelle','Yellow Plum'],
+ 'Tropical Fruit':['Pineapple','Passion Fruit','Mango','Guava','Papaya','Lychee','Banana'],
+ 'Berry / Other':['White Currant','Melon','Fig','White Strawberry'],
+ 'Red Fruit':['Red Cherry','Sour Cherry','Raspberry','Strawberry','Cranberry','Redcurrant','Red Plum','Pomegranate'],
+ 'Black Fruit':['Blackcurrant','Blackberry','Black Cherry','Black Plum','Black Raspberry'],
+ 'Blue Fruit':['Blueberry','Bilberry','Huckleberry','Damson'],
+ 'Wild / Other Fruit':['Mulberry','Boysenberry','Loganberry','Wild Strawberry','Fig','Black Fig','Wild Berry'],
+ 'Dried Fruit':['Dried Apricot','Dried Cherry','Raisin','Prune','Dried Fig','Date','Sultana']
+};
+const FRUIT_ORDER={
+ White:['Citrus','Green Fruit','Orchard Fruit','Stone Fruit','Tropical Fruit','Berry / Other','Dried Fruit'],
+ Red:['Red Fruit','Black Fruit','Blue Fruit','Wild / Other Fruit','Dried Fruit'],
+ 'Rosé':['Citrus','Red Fruit','Stone Fruit','Tropical Fruit','Dried Fruit'],
+ Sparkling:['Citrus','Green Fruit','Orchard Fruit','Stone Fruit','Red Fruit','Black Fruit','Tropical Fruit','Dried Fruit']
+};
+const QUICK_DESCRIPTORS={
+ White:[['Lemon','Fruit','Citrus'],['Lime','Fruit','Citrus'],['Green Apple','Fruit','Green Fruit'],['Pear','Fruit','Orchard Fruit'],['White Peach','Fruit','Stone Fruit'],['Apricot','Fruit','Stone Fruit'],['Passion Fruit','Fruit','Tropical Fruit'],['Flint','Non','Earth & Mineral'],['Wet Stone','Non','Earth & Mineral'],['Honeysuckle','Non','Floral']],
+ Red:[['Red Cherry','Fruit','Red Fruit'],['Black Cherry','Fruit','Black Fruit'],['Blackcurrant','Fruit','Black Fruit'],['Blackberry','Fruit','Black Fruit'],['Raspberry','Fruit','Red Fruit'],['Violet','Non','Floral'],['Black Pepper','Non','Spice'],['Cedar','Non','Tertiary:Red'],['Graphite','Non','Earth & Mineral'],['Leather','Non','Tertiary:Red']],
+ 'Rosé':[['Strawberry','Fruit','Red Fruit'],['Raspberry','Fruit','Red Fruit'],['Redcurrant','Fruit','Red Fruit'],['Grapefruit','Fruit','Citrus'],['White Peach','Fruit','Stone Fruit'],['Rose','Non','Floral'],['Saline','Non','Earth & Mineral'],['Fresh Flowers','Non','Floral']],
+ Sparkling:[['Lemon','Fruit','Citrus'],['Green Apple','Fruit','Green Fruit'],['Pear','Fruit','Orchard Fruit'],['Brioche / Bread Dough','WM','Secondary Aromas'],['Toast','WM','Secondary Aromas'],['Chalk','Non','Earth & Mineral'],['Saline','Non','Earth & Mineral'],['Apple Blossom','Non','Floral']]
+};
+const MINERAL_ADVANCED={White:['Limestone','Slate','Sea Spray','Gunflint','Crushed Rock'],Red:['Iron','Gravel','Petrichor','Volcanic Ash','Clay'],'Rosé':['Crushed Rock','Limestone','Sea Spray'],Sparkling:['Limestone','Gunflint','Sea Spray']};
+const MINERAL_DEFAULT={White:['Wet Stone','Chalk','Flint','Saline','Sea Spray'],Red:['Graphite','Crushed Rock','Slate','Damp Earth','Forest Floor'], 'Rosé':['Wet Stone','Chalk','Saline','Gravel'],Sparkling:['Chalk','Wet Stone','Flint','Saline']};
+const SIGHT_COLORS={White:['Lemon-Green','Lemon','Gold','Amber','Brown'],Red:['Purple','Ruby','Garnet','Tawny','Brown'], 'Rosé':['Pale Pink','Pink','Salmon','Copper','Onion Skin'],Sparkling:['Lemon-Green','Lemon','Gold','Amber']};
+const SIGHT_RIMS={White:['Green','Yellow','Golden','Orange','Brown'],Red:['Purple','Ruby','Garnet','Tawny','Brown'],'Rosé':['Pink','Salmon','Copper','Orange'],Sparkling:['Green','Yellow','Golden','Pink','Salmon']};
+const PALETTE={White:['Lean','Crisp','Round','Creamy','Silky','Chalky','Oily'],'Rosé':['Lean','Crisp','Round','Creamy','Chalky','Silky'],Red:['Round','Silky','Fine-Grained','Chalky','Firm','Astringent'],Sparkling:['Lean','Crisp','Round','Creamy','Silky','Chalky']};
+const NONFRUIT={
+ Floral:{White:['Apple Blossom','Citrus Blossom','White Flower','Honeysuckle','Acacia','Jasmine','Orange Blossom','Elderflower','Chamomile','Linden Blossom'],Red:['Violet','Rose','Peony','Hibiscus','Lavender','Potpourri','Dried Rose'],Both:['Fresh Flowers','Dried Flowers']},
+ Herbal:{Both:['Mint','Eucalyptus','Basil','Thyme','Rosemary','Sage','Oregano','Bay Leaf','Fennel','Dill','Tarragon','Dried Herbs','Fresh-Cut Grass','Garrigue']},
+ Vegetal:{Both:['Green Bell Pepper','Asparagus','Pea Pod','Tomato Leaf','Blackcurrant Leaf','Jalapeño','Olive','Artichoke','Celery','Grass','Nettle']},
+ 'Earth & Mineral':{Both:['Wet Stone','Chalk','Limestone','Slate','Flint','Gunflint','Sea Spray','Saline','Crushed Rock','Volcanic Ash','Graphite','Gravel','Clay','Petrichor','Damp Earth','Forest Floor','Wet Leaves','Mushroom','Truffle','Fresh Soil']},
+ Spice:{Both:['Black Pepper','White Pepper','Pink Pepper','Sichuan Pepper','Star Anise','Aniseed','Fennel Seed','Juniper','Saffron','Liquorice Root','Ginger','Coriander Seed','Savory Spice']}
+};
+const OTHER_MARKERS={
+ Both:['Honey','Beeswax','Lanolin','Petrol','Rubber','Black Tea','Tobacco','Tar','Leather','Game','Meat','Musk','Iodine','Salty / Savory'],
+ White:['Thiols','Monoterpenes','Sotolon','Botrytis Character'],
+ Red:['Pyrazines','Rotundone','Reduction','Dried Floral Notes']
+};
+const WINEMAKING_GROUPS=[
+ ['Oak / Barrel','oak'],
+ ['Lees & Malolactic',['Lees Contact','Lees Stirring / Bâtonnage','Autolysis','Brioche / Bread Dough','Cream / Butter (MLF)','Diacetyl']],
+ ['Fermentation & Extraction',['Carbonic Maceration','Semi-Carbonic Maceration','Whole-Bunch Fermentation','Whole-Cluster Stems','Skin Contact','Extended Maceration']],
+ ['Oxidative & Reductive',['Oxidative Handling','Controlled Oxidation','Reduction','Flint / Struck Match','Sulphur-Derived Notes']],
+ ['Other Élevage',['Concrete Vessel','Stainless Steel','Amphora / Clay','Large Neutral Oak','Botrytis','Flor Influence']]
+];
+const TERTIARY={
+ White:['Honey','Beeswax','Dried Apricot','Dried Apple','Toasted Hazelnut','Almond','Walnut','Brioche','Hay','Chamomile','Mushroom','Truffle','Petrol','Lanolin','Caramel','Marmalade','Saffron','Dried Flowers','Oxidative Notes'],
+ Red:['Leather','Tobacco','Cigar Box','Forest Floor','Truffle','Mushroom','Dried Rose','Game','Meat','Dried Cherry','Prune','Fig','Balsamic','Tea Leaf','Tar','Earth','Musk','Cedar']
+};
+const OAK=[
+ ['Oak Evidence','oakEvidence',['No Perceptible Oak','Possible Oak','Clear Oak']],
+ ['Oak Intensity','oakIntensity',['Subtle','Moderate','Pronounced']],
+ ['Oak Aromas','oakAromas',['Vanilla','Toasted Oak','Cedar','Clove','Cinnamon','Nutmeg','Baking Spice','Allspice','Coconut','Dill','Smoke','Coffee','Cocoa','Caramel','Sandalwood'],'multi'],
+ ['Perceived Oak Age','oakAge',['Likely New Oak','Used / Neutral Oak','Mixed','Uncertain']],
+ ['Perceived Vessel','oakVessel',['Small Barrel','Larger Barrel','Foudre','Uncertain']],
+ ['Oak Origin Impression','oakOrigin',['French-Like','American-Like','Uncertain']],
+ ['Oak Integration','oakIntegration',['Seamless','Well Integrated','Noticeable','Dominant']],
+ ['Toasting Level','oakToast',['Light','Medium','Heavy','Uncertain']],
+ ];
+const SIGHT=[
+ ['Clarity','clarity',['Clear','Slightly Cloudy','Cloudy']],
+ ['Brightness','brightness',['Dull','Bright','Brilliant']],
+ ['Concentration / Intensity','colourIntensity',['Pale','Medium','Deep','Opaque']],
+ ['Color','colour',['Lemon-Green','Lemon','Gold','Amber','Pink','Salmon','Purple','Ruby','Garnet','Tawny','Brown']]
+];
+const SIGHT_EXTRA=[
+ ['Hue / Rim','rim',['Green','Yellow','Golden','Orange','Purple','Ruby','Garnet','Brown']],
+ ['Staining','staining',['None','Light','Medium','Heavy']],
+ ['Viscosity','viscosity',['Low','Med−','Medium','Med+','High']],
+ ['Gas / Bubbles','gas',['None','Pétillance','Visible Bubbles']],
+ ['Sediment','sediment',['None','Present']]
+];
+const NOSE_BASE=[
+ ['Condition','noseCondition',['Clean','Faulty','Corked']],
+ ['Aromatic Intensity','noseIntensity',['Delicate','Moderate','Pronounced']],
+ ['Fruit Condition','fruitRipeness',['Tart','Unripe','Ripe','Overripe','Jammy','Baked','Dried Fruit']],
+ ['Age Assessment','development',['Youthful','Vinous']]
+];
+const STRUCTURE=[
+ ['Sweetness','sweetness',['Bone Dry','Dry','Off-Dry','Medium Sweet','Sweet']],
+ ['Acidity','acidity',['Low','Med−','Medium','Med+','High']],
+ ['Tannin','tannin',['None','Low','Med−','Medium','Med+','High']],
+ ['Alcohol','alcohol',['Low','Med−','Medium','Med+','High']],
+ ['Body','body',['Light','Med−','Medium','Med+','Full']]
+];
+const PALATE_MARKERS=[
+ ['Concentration','palateConcentration',['Light','Moderate','Pronounced']],
+ ['Perceived Markers','palateMarkers',['Saline','Mineral','Phenolic Grip','Oak Grip','Savoury','Bitter','Warming','Fresh','Oxidative','Autolytic'],'multi']
+];
+const PALATE_FINISH=[
+ ['Texture','texture',['Lean','Crisp','Round','Creamy','Silky','Fine-Grained','Chalky','Firm','Astringent','Oily'],'multi'],
+ ['Complexity','complexity',['Simple','Moderate','Complex','Very Complex']],
+ ['Finish','finish',['Short','Med−','Medium','Med+','Long']],
+ ['Balance','balance',['Balanced','Slightly Unbalanced','Unbalanced']]
+];
+const INITIAL=[
+ ['World / Style','world',['Old World','New World','Uncertain']],
+ ['Climate','climate',['Cool','Cool-Moderate','Moderate','Moderate-Warm','Warm']],
+ ['Age Range','ageRange',['1–3 Years','3–5 Years','5–10 Years','10+ Years']]
+];
+const FINAL=[['Confidence','confidence',['Low','Medium','High']]];
+const PANELS=[
+ ['sight','Sight'],['nose','Nose'],['palate','Palate'],
+ ['initial','Initial Conclusion'],['final','Final Conclusion'],
+ ['overall','Overall Tasting Note / 品鉴总结'],['score','Quality Score / 质量评分'],['price','Price & Value']
+];
+const app=document.getElementById('app');
+const head=document.getElementById('appHeader');
+const modalRoot=document.getElementById('modalRoot');
+let db=null,notes=[],current=null,screen='home',modal=null,saveTimer=null,searchText='',storageMode='local',volatileNotes=[];
+const ui={panels:new Set(['sight']),fields:new Set(),categories:new Set(),more:new Set(),notes:new Set(),detailsOpen:false};
+let voiceSession=null,voiceClip=null,voiceClipUrl='',voiceClipOwner='',voiceClipSession=new Map();
+let pendingLabel=null,labelBusy=false;
+
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function freshId(){return 't-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,9)}
+function today(){return new Date().toISOString()}
+function formatDate(t){return new Date(t||Date.now()).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}
+function makeNote(blind){return {id:freshId(),createdAt:today(),updatedAt:today(),blind:!!blind,revealed:!blind,wineType:'',sparklingBase:'White',producer:'',wine:'',country:'',region:'',appellation:'',vintage:'',grape:'',abv:'',labelPhoto:'',labelOcr:'',fields:{},score:{},scoreBySchema:{},prices:{},photo:[],completed:false,voice:{transcript:'',summary:'',language:'zh-CN',durationSec:0,mode:'',suggestions:[],analysisKind:'',generatedAt:'',dirty:false}}}
+function normalise(note){
+ const copy=JSON.parse(JSON.stringify(note));copy.fields??={};copy.score??={};copy.prices??={};copy.photo??=[];
+ copy.producer??='';copy.wine??='';copy.grape??='';copy.region??='';copy.country??='';copy.appellation??='';copy.abv??='';copy.labelPhoto??='';copy.labelOcr??='';copy.sparklingBase??='White';copy.scoreBySchema??={};copy.vintage??='';copy.wineType??='';copy.revealed??=!copy.blind;
+ copy.voice=Object.assign({transcript:'',summary:'',language:'zh-CN',durationSec:0,mode:'',suggestions:[],analysisKind:'',generatedAt:'',dirty:false},copy.voice||{});if(!Array.isArray(copy.voice.suggestions))copy.voice.suggestions=[];
+ copy.id??=freshId();copy.createdAt??=today();copy.updatedAt??=copy.createdAt;
+ for(const phase of ['nose','palate']){
+  const f=copy.fields,earthKeys=[`${phase}Non:Earth & Mineral`,`${phase}Non:Mineral`,`${phase}Non:Earth & Organic`];
+  const merged=[...new Set(earthKeys.flatMap(k=>Array.isArray(f[k])?f[k]:[]))];
+  if(merged.length)f[earthKeys[0]]=merged;
+  delete f[earthKeys[1]];delete f[earthKeys[2]];
+  const oldOther=`${phase}Non:Other Markers`,newOther=`${phase}Other:Other Markers`;
+  if(Array.isArray(f[oldOther]))f[newOther]=[...new Set([...(Array.isArray(f[newOther])?f[newOther]:[]),...f[oldOther]])];
+  delete f[oldOther];
+ }
+ return copy;
+}
+function val(k){return current?.fields?.[k]??''}
+function valText(v){return Array.isArray(v)?v.join(' · '):String(v??'')}
+function filled(v){return Array.isArray(v)?v.length>0:String(v??'').trim().length>0}
+function hasContent(n){return !!(n?.photo?.length||n?.wineType||n?.producer||n?.wine||n?.region||n?.vintage||n?.grape||n?.labelPhoto||n?.voice?.durationSec||filled(n?.voice?.transcript)||filled(n?.voice?.summary)||n?.country||n?.appellation||n?.abv||Object.values(n?.fields||{}).some(filled)||Object.values(n?.score||{}).some(v=>v!=null)||Object.values(n?.prices||{}).some(filled))}
+function tally(n=current){const schema=(n?.wineType==='Sparkling')?SPARKLING:STILL;let sum=0,done=0,count=0,groups=[];for(const [name,rows] of schema){let scored=0,max=0,d=0;for(const [key,,bins] of rows){count++;max+=bins[0];const candidate=n?.score?.[key];if(candidate!=null&&bins.includes(Number(candidate))){d++;done++;sum+=Number(candidate);scored+=Number(candidate)}}groups.push({name,scored,max,done:d,count:rows.length})}return {sum,done,count,groups,complete:done===count}}
+function scoreSchema(){return current?.wineType==='Sparkling'?SPARKLING:STILL}
+function toast(message){document.querySelector('.toast')?.remove();const node=document.createElement('div');node.className='toast';node.textContent=message;document.body.appendChild(node);setTimeout(()=>node.remove(),2300)}
+function resetUi(){ui.panels=new Set(['sight']);ui.fields.clear();ui.categories.clear();ui.more.clear();ui.notes.clear();ui.detailsOpen=false;pendingLabel=null;labelBusy=false}
+// Reuse the V1.1/V1.2 database so existing records remain readable in the same browser origin.
+async function openDB(){return new Promise((res,rej)=>{const r=indexedDB.open('WTJ_V11',2);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains('notes'))r.result.createObjectStore('notes',{keyPath:'id'});if(!r.result.objectStoreNames.contains('recordings'))r.result.createObjectStore('recordings',{keyPath:'noteId'})};r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})}
+async function allNotes(){
+ if(db)return new Promise((res,rej)=>{const r=db.transaction('notes','readonly').objectStore('notes').getAll();r.onsuccess=()=>res(r.result||[]);r.onerror=()=>rej(r.error)});
+ if(storageMode==='session')return volatileNotes.slice();
+ try{return JSON.parse(localStorage.getItem('wtj_notes')||'[]')}catch(e){storageMode='session';return volatileNotes.slice()}
+}
+async function storeNote(n){
+ n.updatedAt=today();const obj=normalise(n);
+ if(db)return new Promise((res,rej)=>{const tx=db.transaction('notes','readwrite');tx.objectStore('notes').put(obj);tx.oncomplete=()=>res();tx.onerror=()=>rej(tx.error)});
+ let arr;
+ try{arr=storageMode==='session'?volatileNotes.slice():JSON.parse(localStorage.getItem('wtj_notes')||'[]')}catch(e){storageMode='session';arr=volatileNotes.slice()}
+ const idx=arr.findIndex(x=>x.id===obj.id);if(idx<0)arr.push(obj);else arr[idx]=obj;
+ if(storageMode!=='session'){try{localStorage.setItem('wtj_notes',JSON.stringify(arr));return}catch(e){storageMode='session'}}
+ volatileNotes=arr;
+}
+async function deleteNote(id){
+ await deleteVoiceAudio(id);
+ if(db)return new Promise((res,rej)=>{const tx=db.transaction('notes','readwrite');tx.objectStore('notes').delete(id);tx.oncomplete=()=>res();tx.onerror=()=>rej(tx.error)});
+ const arr=(await allNotes()).filter(n=>n.id!==id);
+ if(storageMode==='session'){volatileNotes=arr;return}
+ try{localStorage.setItem('wtj_notes',JSON.stringify(arr))}catch(e){storageMode='session';volatileNotes=arr}
+}
+async function refreshNotes(){notes=(await allNotes()).map(normalise).filter(hasContent).sort((a,b)=>String(b.updatedAt).localeCompare(String(a.updatedAt)))}
+function autoSave(){const el=document.getElementById('saveStatus');if(el)el.textContent='Saving';clearTimeout(saveTimer);saveTimer=setTimeout(async()=>{if(!current||!hasContent(current))return;try{await storeNote(current);const s=document.getElementById('saveStatus');if(s)s.textContent=storageMode==='session'?'Session Only':'Saved'}catch(err){toast('Could not save: '+err.message)}},380)}
+async function flush(){clearTimeout(saveTimer);if(current&&hasContent(current)){try{await storeNote(current)}catch(err){toast('Save failed: '+err.message)}}}
+async function goHome(){if(voiceSession)await stopVoiceRecording('navigation');await flush();await refreshNotes();current=null;screen='home';resetUi();clearVoiceClip();closeModal();render();window.scrollTo(0,0)}
+async function showSettings(){if(voiceSession)await stopVoiceRecording('navigation');await flush();screen='settings';closeModal();render();window.scrollTo(0,0)}
+function begin(blind){clearVoiceClip();current=makeNote(blind);resetUi();screen='record';closeModal();render();window.scrollTo(0,0)}
+async function loadNote(id){if(voiceSession)await stopVoiceRecording('navigation');await flush();await refreshNotes();const n=notes.find(n=>n.id===id);if(!n)return;clearVoiceClip();current=normalise(n);screen='record';resetUi();closeModal();render();window.scrollTo(0,0);await restoreVoiceClip(id)}
+function titleFor(n){if(n.blind&&!n.revealed)return `${n.wineType?n.wineType+' · ':''}Blind Tasting`;const title=[n.producer,n.wine,n.vintage].filter(Boolean).join(' ');return title||`${n.wineType?n.wineType+' · ':''}${n.blind?'Blind Tasting':'Open Tasting'}`}
+function chips(key,options,multi=false){const v=val(key);return `<div class="chips">${options.map(name=>{const selected=multi?(Array.isArray(v)&&v.includes(name)):v===name;return `<button type="button" class="chip ${multi?'multi ':''}${selected?'selected':''}" data-chip="${esc(key)}" data-choice="${esc(name)}" data-multi="${multi?'1':'0'}" aria-pressed="${selected}">${esc(name)}</button>`}).join('')}</div>`}
+function renderField(item){
+ const [label,key,options,feature]=item,expanded=ui.fields.has(key),txt=valText(val(key));
+ return `<div class="option-field ${expanded?'open':''}" id="field-${esc(key)}"><button class="option-title" type="button" data-field="${esc(key)}" aria-expanded="${expanded}"><span class="label">${esc(label)}</span><span class="answer ${txt?'':'empty'}">${esc(txt||'Select')}</span><span class="chevron">⌄</span></button>${expanded?`<div class="option-area">${chips(key,options,feature==='multi')}</div>`:''}</div>`;
+}
+function drawFields(items){return items.map(item=>renderField(item)).join('')}
+function typeFamilies(){
+ if(current.wineType!=='Sparkling')return FRUIT_ORDER[current.wineType]||[];
+ const b=current.sparklingBase||'White';
+ return b==='Red'?['Red Fruit','Black Fruit','Blue Fruit','Wild / Other Fruit','Dried Fruit']:
+ b==='Rosé'?['Citrus','Orchard Fruit','Stone Fruit','Red Fruit','Dried Fruit']:
+ ['Citrus','Green Fruit','Orchard Fruit','Stone Fruit','Tropical Fruit','Dried Fruit'];
+}
+function styleForFloral(){return current.wineType==='Sparkling'?(current.sparklingBase||'White'):current.wineType}
+function nonfruitGroups(){
+ const type=current.wineType,base=styleForFloral(),groups=[];
+ for(const [cat,data] of Object.entries(NONFRUIT)){
+  let styleTerms=base==='Red'?data.Red||[]:base==='Rosé'?[...(data.White||[]).filter(x=>['Citrus Blossom','Orange Blossom','Apple Blossom'].includes(x)),...(data.Red||[]).filter(x=>['Rose','Peony','Violet'].includes(x))]:data.White||[];
+  let terms=[...new Set([...(data.Both||[]),...styleTerms])];
+  if(cat==='Earth & Mineral')terms=MINERAL_DEFAULT[type==='Sparkling'?base:type]||MINERAL_DEFAULT.White;
+  if(cat==='Vegetal'&&['White','Rosé','Sparkling'].includes(type))terms=terms.filter(x=>!['Olive','Jalapeño'].includes(x));
+  groups.push([cat,terms]);
+ }
+ return groups;
+}
+function otherTerms(){
+ const style=styleForFloral();
+ return [...new Set([...OTHER_MARKERS.Both,...(OTHER_MARKERS[style==='Red'||style==='Rosé'?'Red':'White']||[])])];
+}
+function secondarySensory(){
+ if(current.wineType==='Red')return ['Vanilla','Toasted Oak','Cedar','Cocoa','Coffee','Smoke'];
+ if(current.wineType==='Sparkling')return ['Brioche / Bread Dough','Toast','Biscuit','Yeast','Cream','Roasted Nuts','Vanilla'];
+ return ['Cream','Butter','Brioche / Bread Dough','Toast','Vanilla','Roasted Nuts'];
+}
+function winemakingGroups(){return [['Secondary Aromas',secondarySensory()],['Oak / Barrel','oak']]}
+function technicalGroups(){return WINEMAKING_GROUPS.filter(([k])=>k!=='Oak / Barrel')}
+function advancedTerms(kind,cat){
+ if(kind!=='Non'||cat!=='Earth & Mineral')return [];
+ const style=current.wineType==='Sparkling'?(current.sparklingBase||'White'):current.wineType;const arr=MINERAL_ADVANCED[style]||[];
+ const shown=nonfruitGroups().find(([k])=>k==='Earth & Mineral')?.[1]||[];
+ return arr.filter(x=>!shown.includes(x));
+}
+function sightFields(){const style=current.wineType==='Sparkling'?current.sparklingBase||'White':current.wineType;const out=SIGHT.map(([lab,key,options,type])=>[lab,key,key==='colour'?SIGHT_COLORS[style]||options:options,type]);if(current.wineType==='Sparkling')out.push(['Bubble Size','bubbleSize',['Fine','Medium','Large']],['Bubble Persistence','bubblePersistence',['Fleeting','Moderate','Persistent']]);return out}
+function extraSightFields(){return SIGHT_EXTRA.filter(([,key])=>current.wineType==='Sparkling'?!['staining','gas'].includes(key):current.wineType==='Red'?key!=='gas':!['gas','staining'].includes(key)).map(([lab,key,opts])=>[lab,key,key==='rim'?SIGHT_RIMS[current.wineType==='Sparkling'?current.sparklingBase||'White':current.wineType]||opts:opts])}
+function structureFields(){
+ const arr=STRUCTURE.filter(([,key])=>key!=='tannin'||current.wineType==='Red');
+ if(current.wineType==='Sparkling')arr.push(['Mousse','mousse',['Fine','Delicate','Creamy','Persistent','Coarse','Aggressive']]);
+ return arr;
+}
+function palateMarkerFields(){return PALATE_MARKERS.map(([name,key,options,kind])=>[name,key,options.filter(x=>
+ x==='Autolytic'?current.wineType==='Sparkling':x==='Oak Grip'?current.wineType==='Red':x==='Phenolic Grip'?['White','Rosé','Red'].includes(current.wineType):true),kind])}
+function finishFields(){return PALATE_FINISH.map(([name,key,opts,kind])=>[name,key,key==='texture'?PALETTE[current.wineType]||opts:opts,kind])}
+function quickTerms(){
+ if(current.wineType!=='Sparkling')return QUICK_DESCRIPTORS[current.wineType]||[];
+ const b=current.sparklingBase||'White';
+ if(b==='Red')return [['Red Cherry','Fruit','Red Fruit'],['Blackcurrant','Fruit','Black Fruit'],['Blackberry','Fruit','Black Fruit'],['Violet','Non','Floral'],['Graphite','Non','Earth & Mineral'],['Brioche / Bread Dough','WM','Secondary Aromas'],['Toast','WM','Secondary Aromas']];
+ if(b==='Rosé')return [['Strawberry','Fruit','Red Fruit'],['Raspberry','Fruit','Red Fruit'],['Redcurrant','Fruit','Red Fruit'],['Lemon','Fruit','Citrus'],['Pear','Fruit','Orchard Fruit'],['Brioche / Bread Dough','WM','Secondary Aromas'],['Toast','WM','Secondary Aromas'],['Saline','Non','Earth & Mineral']];
+ return QUICK_DESCRIPTORS.Sparkling;
+}
+function quickDescriptors(phase){
+ if(!current.wineType)return '<div class="field-help">Choose a wine type first.</div>';
+ const items=quickTerms().map(([term,kind,cat])=>({term,key:`${phase}${kind}:${cat}`}));
+ const chosen=Object.entries(current.fields).filter(([k,v])=>k.startsWith(phase)&&(/Fruit:|Non:|WM:|Other:/).test(k)&&Array.isArray(v)).flatMap(([k,v])=>visibleStored(k,v));
+ const picked=[...new Set(chosen)];
+ return `<div class="quick-card"><div class="quick-heading">Quick Descriptors · 一键选择</div><div class="chips">${items.map(({term,key})=>{
+ const selected=Array.isArray(val(key))&&val(key).includes(term);
+ return `<button type="button" class="chip multi ${selected?'selected':''}" data-chip="${esc(key)}" data-choice="${esc(term)}" data-multi="1" aria-pressed="${selected}">${esc(term)}</button>`}).join('')}</div>${picked.length?`<div class="selected-summary">Selected: ${esc(picked.join(' · '))}</div>`:''}</div>`;
+}
+
+function flavoursChosen(phase,kind,category){return val(`${phase}${kind}:${category}`)}
+function countCategory(phase,kind,category){const v=flavoursChosen(phase,kind,category);return Array.isArray(v)?v.length:0}
+
+function oakStorageKey(phase,key){return phase==='nose'?key:'palate'+key[0].toUpperCase()+key.slice(1)}
+function oakCount(phase){return OAK.reduce((a,[,k])=>a+(filled(val(oakStorageKey(phase,k)))?1:0),0)}
+function categoryRow(phase,kind,category,contents){
+ const id=`${phase}${kind}:${category}`,expanded=ui.categories.has(id);
+ let inner='',count=0;
+ if(contents==='oak'){
+  count=oakCount(phase);
+  inner=OAK.map(([title,k,choices,type])=>`<div class="special-row"><div class="special-title">${esc(title)}</div>${chips(oakStorageKey(phase,k),choices,type==='multi')}</div>`).join('');
+ }else{
+  inner=chips(id,contents,true);count=countCategory(phase,kind,category);
+  const advanced=advancedTerms(kind,category);
+  if(advanced.length){inner+=`<button class="mini-more" type="button" data-more="${esc(id)}">${ui.more.has(id)?'− Hide Extra Mineral Terms':'＋ More Mineral Terms'}</button>`;
+   if(ui.more.has(id))inner+=chips(id,advanced,true);
+  }
+ }
+ return `<div class="nested ${expanded?'open':''}" id="cat-${esc(id)}"><button class="nest-head" type="button" data-cat="${esc(id)}" aria-expanded="${expanded}"><strong>${esc(category)}</strong>${count?`<small>${count} selected</small>`:''}<span class="chevron">⌄</span></button>${expanded?`<div class="nest-body">${inner}</div>`:''}</div>`;
+}
+
+function flavourField(phase,kind){
+ const id=`${phase}-${kind}`,opened=ui.fields.has(id);
+ const label=({Fruit:'Fruit',Non:'Non-Fruit',WM:'Winemaking & Oak',Tertiary:'Tertiary Characters',Other:'Other Markers'})[kind];
+ if(kind==='Other'){
+  const k=`${phase}Other:Other Markers`,values=val(k),count=Array.isArray(values)?values.length:0;
+  return `<div class="option-field ${opened?'open':''}" id="field-${esc(id)}"><button class="option-title" type="button" data-field="${esc(id)}" aria-expanded="${opened}"><span class="label">${label}</span><span class="answer ${count?'':'empty'}">${count?count+' Selected':'Select'}</span><span class="chevron">⌄</span></button>${opened?`<div class="option-area">${chips(k,otherTerms(),true)}</div>`:''}</div>`;
+ }
+ if(kind==='Tertiary'){
+  const styles=current.wineType==='Sparkling'?[current.sparklingBase==='Red'?'Red':'White']:current.wineType==='Red'||current.wineType==='Rosé'?['Red']:current.wineType==='White'?['White']:[];
+  const count=styles.reduce((a,style)=>a+countCategory(phase,'Non',`Tertiary:${style}`),0);
+  const content=styles.length===0?'<div class="field-help">Choose a Wine Type above.</div>':styles.length===1?chips(`${phase}Non:Tertiary:${styles[0]}`,TERTIARY[styles[0]],true):styles.map(style=>`<div class="special-row"><div class="special-title">${style} Wine Characters</div>${chips(`${phase}Non:Tertiary:${style}`,TERTIARY[style],true)}</div>`).join('');
+  return `<div class="option-field ${opened?'open':''}" id="field-${esc(id)}"><button class="option-title" type="button" data-field="${esc(id)}" aria-expanded="${opened}"><span class="label">${label}</span><span class="answer ${count?'':'empty'}">${count?count+' Selected':'Select'}</span><span class="chevron">⌄</span></button>${opened?`<div class="option-area">${content}</div>`:''}</div>`;
+ }
+ let groups=kind==='Fruit'?typeFamilies().map(cat=>[cat,FRUIT[cat]]):kind==='Non'?nonfruitGroups():winemakingGroups();
+ if(kind==='WM'&&ui.more.has(`${phase}WM:advanced`))groups=[...groups,...technicalGroups()];
+ let selected=0;
+ for(const [cat,contents] of groups){selected+=contents==='oak'?oakCount(phase):countCategory(phase,kind,cat)}
+ const content=kind==='Fruit'&&!current.wineType?'<div class="field-help">Choose Sparkling, White, Rosé or Red above.</div>':`<div class="flavour-list">${groups.map(([cat,terms])=>categoryRow(phase,kind,cat,terms)).join('')}${kind==='WM'?`<button class="mini-more" type="button" data-more="${phase}WM:advanced">${ui.more.has(`${phase}WM:advanced`)?'− Hide Advanced Techniques':'＋ Advanced Techniques · MLF / Lees / Extraction'}</button>`:''}</div>`;
+ return `<div class="option-field ${opened?'open':''}" id="field-${esc(id)}"><button class="option-title" type="button" data-field="${esc(id)}" aria-expanded="${opened}"><span class="label">${label}</span><span class="answer ${selected?'':'empty'}">${selected?selected+' Selected':'Select'}</span><span class="chevron">⌄</span></button>${opened?`<div class="option-area">${content}</div>`:''}</div>`;
+}
+function permittedValues(key){
+ if(!current.wineType)return null;
+ for(const phase of ['nose','palate']){
+  if(key.startsWith(`${phase}Fruit:`)){
+   const cat=key.slice(`${phase}Fruit:`.length);return typeFamilies().includes(cat)?FRUIT[cat]||[]:[];
+  }
+  if(key.startsWith(`${phase}Non:Tertiary:`)){
+   const style=current.wineType==='Sparkling'?(current.sparklingBase==='Red'?'Red':'White'):current.wineType==='Red'||current.wineType==='Rosé'?'Red':'White';
+   return key===`${phase}Non:Tertiary:${style}`?TERTIARY[style]:[];
+  }
+  if(key.startsWith(`${phase}Non:`)){
+   const cat=key.slice(`${phase}Non:`.length),group=nonfruitGroups().find(([c])=>cat===c);
+   return group?[...group[1],...advancedTerms('Non',cat)]:null;
+  }
+  if(key===`${phase}WM:Secondary Aromas`)return secondarySensory();
+  if(key.startsWith(`${phase}WM:`)){
+   const cat=key.slice(`${phase}WM:`.length),g=technicalGroups().find(([c])=>c===cat);
+   return g?g[1]:null;
+  }
+  if(key===`${phase}Other:Other Markers`)return otherTerms();
+ }
+ if(key==='colour')return SIGHT_COLORS[current.wineType==='Sparkling'?current.sparklingBase||'White':current.wineType]||null;
+ if(key==='rim')return SIGHT_RIMS[current.wineType==='Sparkling'?current.sparklingBase||'White':current.wineType]||null;
+ if(key==='gas')return current.wineType==='Sparkling'?['None','Pétillance','Visible Bubbles']:[];
+ if(key==='bubbleSize')return current.wineType==='Sparkling'?['Fine','Medium','Large']:[];
+ if(key==='bubblePersistence')return current.wineType==='Sparkling'?['Fleeting','Moderate','Persistent']:[];
+ if(key==='staining')return current.wineType==='Red'?['None','Light','Medium','Heavy']:[];
+ if(key==='tannin')return current.wineType==='Red'?STRUCTURE.find(([,k])=>k==='tannin')[2]:[];
+ if(key==='mousse')return current.wineType==='Sparkling'?structureFields().find(([,k])=>k==='mousse')[2]:[];
+ if(key==='palateMarkers')return palateMarkerFields()[0][2];
+ if(key==='texture')return finishFields()[0][2];
+ return null;
+}
+function visibleStored(key,value){
+ const permitted=permittedValues(key);
+ if(permitted===null)return value;
+ if(Array.isArray(value))return value.filter(v=>permitted.includes(v));
+ return permitted.includes(value)?value:'';
+}
+function incompatibleEntries(){
+ const found=[];
+ for(const [key,value] of Object.entries(current.fields)){
+  const allowed=permittedValues(key);
+  if(!allowed||!filled(value))continue;
+  const invalid=Array.isArray(value)?value.filter(v=>!allowed.includes(v)):(allowed.includes(value)?[]:[value]);
+  if(invalid.length)found.push({key,invalid});
+ }
+ return found;
+}
+function activeSelectedCount(){return incompatibleEntries().reduce((a,x)=>a+x.invalid.length,0)}
+
+function setWineType(style){
+ if(!FRUIT_ORDER[style])return;
+ const prev=current.wineType;
+ if(prev===style)return;
+ const before=activeSelectedCount();
+ const priorScoreType=prev==='Sparkling'?'sparkling':'still',nextScoreType=style==='Sparkling'?'sparkling':'still';
+ if(prev&&priorScoreType!==nextScoreType){current.scoreBySchema??={};current.scoreBySchema[priorScoreType]=current.score;current.score=current.scoreBySchema[nextScoreType]||{};}
+ current.wineType=style;current.sparklingBase=style==='Sparkling'?(current.sparklingBase||'White'):current.sparklingBase;
+ const hidden=activeSelectedCount();
+ ui.categories.clear();autoSave();rerender('wine-type');
+ if(hidden>0&&hidden!==before)toast(`${hidden} Previous descriptors preserved but hidden`);
+}
+function setSparklingBase(base){if(!['White','Rosé','Red'].includes(base))return;current.sparklingBase=base;ui.categories.clear();autoSave();rerender('wine-type');if(activeSelectedCount())toast('Other base-color notes preserved');}
+function hiddenNotice(){const n=activeSelectedCount();return n?`<div class="hidden-count">${n} previous selection(s) are hidden by this wine type, but preserved in the record. <button type="button" data-clear-incompatible="1">Clear hidden only</button></div>`:''}
+function clearIncompatible(){
+ const items=incompatibleEntries();if(!items.length)return;
+ const total=items.reduce((a,x)=>a+x.invalid.length,0);
+ if(!confirm(`Permanently remove ${total} hidden descriptor(s)? This does not affect typed notes.`))return;
+ for(const {key,invalid} of items){
+  const old=current.fields[key];
+  if(Array.isArray(old))current.fields[key]=old.filter(v=>!invalid.includes(v));
+  else current.fields[key]='';
+ }
+ autoSave();rerender('wine-type');toast('Hidden descriptors cleared');
+}
+
+function noteArea(name,key){const expanded=ui.notes.has(name);const text=val(key);return `<div class="notes-wrap"><button type="button" data-notes="${esc(name)}">${expanded?'−':'+'} Notes</button>${expanded||filled(text)?`<textarea data-textarea="${esc(key)}" placeholder="Optional">${esc(text)}</textarea>`:''}</div>`}
+function additionalSight(){return `<button type="button" class="more" data-more="sight">${ui.more.has('sight')?'− Less':'＋ More'}</button>${ui.more.has('sight')?drawFields(extraSightFields()):''}`}
+function renderSight(){return `${drawFields(sightFields())}${additionalSight()}`}
+function renderNose(){
+ let out=drawFields(NOSE_BASE);
+ if(['Faulty','Corked'].includes(val('noseCondition')))out+=renderField(['Fault Character','noseFault',['TCA / Cork Taint','Volatile Acidity','Brettanomyces','Reduction','Oxidation','Sulphur Dioxide','Other'],'multi']);
+ out+=quickDescriptors('nose');
+ out+=`<button type="button" class="mini-more" data-more="nose-full">${ui.more.has('nose-full')?'− Hide Full Descriptors':'＋ Full Professional Descriptors'}</button>`;
+ if(ui.more.has('nose-full'))for(const kind of ['Fruit','Non','WM','Tertiary','Other'])out+=flavourField('nose',kind);
+ return out+noteArea('nose','noseFree');
+}
+function renderPalate(){
+ let html=`<div class="group-caption">Structure</div>${drawFields(structureFields())}`;
+ html+=`<div class="group-caption" style="margin-top:17px">Palate Flavour</div><div style="text-align:right"><button type="button" class="more" data-confirm-nose="1">✓ Confirm Nose</button></div>`;
+ html+=quickDescriptors('palate');
+ html+=`<button type="button" class="mini-more" data-more="palate-full">${ui.more.has('palate-full')?'− Hide Full Descriptors':'＋ Full Professional Descriptors'}</button>`;
+ if(ui.more.has('palate-full'))for(const kind of ['Fruit','Non','WM','Tertiary','Other'])html+=flavourField('palate',kind);
+ html+=`<div class="group-caption" style="margin-top:18px">Palate Markers</div>${drawFields(palateMarkerFields())}`;
+ html+=`<div class="group-caption" style="margin-top:18px">Texture · Complexity · Finish · Balance</div>${drawFields(finishFields())}`;
+ return html+noteArea('palate','palateFree');
+}
+
+function tfield(key,label,where='fields',placeholder=''){const v=where==='fields'?val(key):current?.[key]??'';return `<label class="tfield">${esc(label)}<input type="text" data-input="${esc(key)}" data-location="${esc(where)}" value="${esc(v)}" placeholder="${esc(placeholder)}" autocomplete="off"></label>`}
+function renderInitial(){return `${drawFields(INITIAL)}<div class="field-grid" style="margin-top:14px">${tfield('possibleGrape','Possible Grapes')}${tfield('possibleCountry','Possible Countries')}${tfield('possibleRegion','Possible Regions')}${tfield('initialEvidence','Supporting Evidence')}</div>${noteArea('initial','initialNotes')}`}
+function renderFinal(){return `<div class="field-grid">${tfield('guessGrape','Grape Variety / Blend')}${tfield('guessCountry','Country')}${tfield('guessRegion','Region / Appellation')}${tfield('guessVintage','Vintage')}${tfield('guessQuality','Quality Hierarchy')}${tfield('evidence','Key Markers (3–5)')}</div>${drawFields(FINAL)}${noteArea('final','finalConclusion')}`}
+function renderOverall(){return `<div class="field-help" style="margin-bottom:10px">Open Tasting: describe what you actually experienced, without blind conclusions. The draft generator uses only your selected notes.</div><button type="button" class="more" data-compose-note="1">＋ Draft from Selections</button><div class="notes-wrap"><textarea data-textarea="overallNote" placeholder="Overall Tasting Note · Write your own conclusion" style="display:block;width:100%;min-height:110px;margin-top:12px">${esc(val('overallNote'))}</textarea></div>${renderField(['Quality Assessment','qualityAssessment',['Poor','Acceptable','Good','Very Good','Outstanding']])}`}
+function composeOverallNote(){
+ const type=current.wineType||'Wine';
+ const parts=[`${type} Tasting Note`];
+ const color=visibleStored('colour',val('colour'));if(filled(color))parts.push(`Sight: ${color}`);
+ for(const [phase,label] of [['nose','Nose'],['palate','Palate']]){
+  const terms=Object.entries(current.fields).filter(([k,v])=>k.startsWith(phase)&&(/Fruit:|Non:|WM:|Other:/).test(k)&&Array.isArray(v)).flatMap(([k,v])=>visibleStored(k,v));
+  if(terms.length)parts.push(`${label}: ${[...new Set(terms)].join(', ')}`);
+ }
+ const struct=structureFields().map(([lab,key])=>`${lab}: ${visibleStored(key,val(key))}`).filter(x=>!x.endsWith(': '));if(struct.length)parts.push(`Structure: ${struct.join('; ')}`);
+ const finish=val('finish');if(filled(finish))parts.push(`Finish: ${finish}`);
+ const quality=val('qualityAssessment');if(filled(quality))parts.push(`Quality: ${quality}`);
+ if(filled(val('overallNote'))&&!confirm('Replace your current overall note with a new draft?'))return;
+ current.fields.overallNote=parts.join('. ')+'.';autoSave();rerender('section-overall');
+}
+function renderScore(){const t=tally();let html=`<div class="score-top"><div><span class="score-number">${t.done?t.sum:'—'}</span><span style="opacity:.8"> / 100</span></div><small>${t.complete?'Complete':`${t.done}/${t.count} Scored`}</small></div>`;
+ for(const [title,rows] of scoreSchema()){const g=t.groups.find(g=>g.name===title);html+=`<div class="score-group"><div class="score-group-head"><span>${esc(title)}</span><span>${g.done===g.count?g.scored:'—'} / ${g.max}</span></div>`;
+ for(const [key,label,options] of rows){html+=`<div class="score-field"><label>${esc(label)}</label><div class="score-options">${options.map(n=>`<button type="button" data-score="${esc(key)}" data-scorevalue="${n}" class="${current.score[key]===n?'active':''}" aria-pressed="${current.score[key]===n}">${n}</button>`).join('')}</div></div>`}html+='</div>'}return html}
+function renderPriceInput(key,label){const value=current.prices[key]??'';const options=[150,300,500,800,1200,2000];return `<div class="price-set"><label>${esc(label)} <span class="currency">CNY · ¥</span></label><div class="chips">${options.map(n=>`<button type="button" class="chip ${String(value)===String(n)?'selected':''}" data-pricechip="${key}" data-pricevalue="${n}">¥${n}</button>`).join('')}</div><input class="money" type="number" inputmode="numeric" min="0" step="1" data-price="${key}" value="${esc(value)}" placeholder="Other Amount"></div>`}
+function renderPrice(){let html=renderPriceInput('expectedRetail','Estimated Retail Price');html+=renderPriceInput('willingPay','My Buying Price');
+ html+=`<div class="price-set"><label>Would You Buy?</label><div class="chips">${['Buy','Maybe','Pass'].map(x=>`<button type="button" class="chip ${current.prices.decision===x?'selected':''}" data-decision="${x}">${x}</button>`).join('')}</div></div>`;
+ if(!current.blind||current.revealed)html+=renderPriceInput('realRetail','Actual Retail Price');
+ html+=`<div class="notes-wrap"><button type="button" data-notes="price">${ui.notes.has('price')?'−':'+'} Notes</button>${ui.notes.has('price')||current.prices.notes?`<textarea data-textarea="priceNotes" placeholder="Optional">${esc(current.prices.notes||'')}</textarea>`:''}</div>`;
+ return html}
+function bodyFor(key){return key==='sight'?renderSight():key==='nose'?renderNose():key==='palate'?renderPalate():key==='initial'?renderInitial():key==='final'?renderFinal():key==='overall'?renderOverall():key==='score'?renderScore():renderPrice()}
+function panelProgress(key){if(key==='overall')return filled(val('overallNote'))?'●':'';if(key==='score'){const t=tally();return `${t.done}/${t.count}`};if(key==='price')return current.prices.decision?'●':'';if(key==='initial'||key==='final')return Object.keys(current.fields).filter(k=>key==='initial'?['possibleGrape','possibleCountry','possibleRegion','climate','world','ageRange'].includes(k):['guessGrape','guessCountry','guessRegion','guessVintage','guessQuality','evidence'].includes(k)).filter(k=>filled(val(k))).length?'●':'';
+ if(key==='sight')return `${sightFields().filter(([,k])=>filled(val(k))).length}/${sightFields().length}`;
+ if(key==='nose')return `${NOSE_BASE.filter(([,k])=>filled(val(k))).length}/4`;
+ return `${structureFields().filter(([,k])=>filled(val(k))).length}/${structureFields().length}`}
+function renderPanel(key,title){const opened=ui.panels.has(key);return `<section class="section ${opened?'expanded':''}" id="section-${key}"><button class="section-head" type="button" data-panel="${key}" aria-expanded="${opened}"><span class="section-name">${esc(title)}</span><span class="chevron">⌄</span></button>${opened?`<div class="section-body">${bodyFor(key)}</div>`:''}</section>`}
+function renderPhotos(){if(!current.photo.length)return '';return `<div class="photo-grid">${current.photo.map((src,i)=>`<div class="photo-thumb"><img src="${esc(src)}" alt="Wine Photo ${i+1}"><button type="button" data-remove-photo="${i}" aria-label="Remove Photo">×</button></div>`).join('')}</div>`}
+function renderPhotoTile(){return `<div class="photo-tile"><div class="photo-symbol">▣</div><div><div class="photo-title">Photo</div><small>${current.photo.length?current.photo.length+' Added':'Wine Label / Bottle'}</small></div><button type="button" data-photo="1">${current.photo.length?'+ Add':'Add Photo'}</button></div>${renderPhotos()}`}
+function renderIdentity(){return `<div class="detail-box"><button class="detail-toggle" type="button" data-detail="1" aria-expanded="${ui.detailsOpen}"><strong>Wine Details</strong><span class="muted">${esc([current.producer,current.wine].filter(Boolean).join(' ')||'Optional')}</span><span class="chevron">${ui.detailsOpen?'⌃':'⌄'}</span></button>${ui.detailsOpen?`<div class="detail-body"><div class="field-grid">${tfield('producer','Producer','note')}${tfield('wine','Wine / Cuvée','note')}${tfield('vintage','Vintage','note')}${tfield('country','Country','note')}${tfield('region','Region','note')}${tfield('appellation','Appellation','note')}${tfield('grape','Grape Variety / Blend','note')}${tfield('abv','ABV (%)','note')}</div></div>`:''}</div>`}
+
+function renderWineType(){let out=`<div class="wine-type-inline" id="wine-type" role="group" aria-label="Wine Type">${['Sparkling','White','Rosé','Red'].map(type=>`<button type="button" class="wine-type-button ${current.wineType===type?'selected':''}" data-type="${type}" aria-pressed="${current.wineType===type}">${type}</button>`).join('')}</div>`;
+ if(current.wineType==='Sparkling')out+=`<div class="type-help">Sparkling wine base color / 基酒颜色</div><div class="wine-type-inline" role="group" aria-label="Sparkling Base Color">${['White','Rosé','Red'].map(x=>`<button type="button" class="wine-type-button ${current.sparklingBase===x?'selected':''}" data-base="${x}" aria-pressed="${current.sparklingBase===x}">${x}</button>`).join('')}</div>`;
+ return out+hiddenNotice();}
+function renderLabelScan(){
+ if(current.blind&&!current.revealed)return '';
+ return `<section class="label-scan"><h3>Scan Wine Label · 酒标识别</h3><div class="label-actions"><button type="button" class="primary" data-label="camera">▣ Take Label Photo</button><button type="button" data-label="upload">↑ Upload Label</button>${current.labelOcr?'<button type="button" data-label="review">Review OCR</button>':''}</div><p>在本机识别文字，确认后自动填写酒款信息；未核实的信息不会猜测。首次加载识别引擎需要网络。</p>${current.labelPhoto?`<img class="label-preview" alt="Saved wine label" src="${esc(current.labelPhoto)}"><small>Label image saved · 已保存酒标照片</small>`:''}</section>`;
+}
+
+function renderReveal(){if(!current.blind)return '';if(!current.revealed)return `<div class="reveal-panel" id="reveal"><strong>Reveal Wine</strong><button type="button" class="primary-button" data-reveal="1">Reveal →</button></div>`;
+ return `<div id="reveal">${renderPhotoTile()}${renderLabelScan()}${renderIdentity()}</div>`}
+function renderRecord(){const mode=current.blind?'Blind Tasting':'Open Tasting';let html=`<div class="record-head"><h2>${mode}</h2><div class="record-meta"><span>${formatDate(current.createdAt)}</span><span>·</span><span class="save-status" id="saveStatus">${storageMode==='session'?'Session Only':'Saved Locally'}</span></div></div>`;
+ if(!current.blind)html+=renderPhotoTile();
+ html+=renderWineType()+renderVoiceTasting();if(!current.blind)html+=renderLabelScan()+renderIdentity();
+ html+=`<div class="sections">${PANELS.filter(([key])=>current.blind?key!=='overall':!['initial','final'].includes(key)).map(([key,title])=>renderPanel(key,title)).join('')}</div>`;
+ html+=renderReveal();
+ html+=`<div class="finish-actions"><button type="button" class="outline-button" data-copy="1">Copy</button><button type="button" class="primary-button" data-save="1">Save</button></div>`;
+ if(current.completed)html+=`<button type="button" class="more danger-btn" data-delete-current="1">Delete Tasting</button>`;
+ app.innerHTML=html;
+}
+function renderHome(){let shown=notes;if(searchText)shown=notes.filter(n=>JSON.stringify([n.producer,n.wine,n.region,n.vintage,n.grape,n.wineType,n.fields]).toLowerCase().includes(searchText.toLowerCase()));
+ let html=`<div class="home"><h2 class="home-title">Tastings</h2><div class="home-under">${notes.length?notes.length+' Records':''}</div>`;
+ if(notes.length>5)html+=`<input id="searchTastings" class="search" type="search" value="${esc(searchText)}" placeholder="Search Tastings" aria-label="Search Tastings">`;
+ if(shown.length){html+=`<div class="home-list">${shown.map(n=>{const t=tally(n),img=n.blind&&!n.revealed?null:n.photo?.[0];return `<button type="button" class="entry" data-open-note="${esc(n.id)}">${img?`<img src="${img}" alt="Wine Photo">`:'<div class="entry-ph">◌</div>'}<span class="entry-main"><strong>${esc(titleFor(n))}</strong><small>${formatDate(n.createdAt)} · ${n.blind?'Blind':'Open'}</small></span>${t.done?`<span class="entry-score">${t.sum}</span>`:'<span class="arrow">›</span>'}</button>`}).join('')}</div>`}else if(notes.length===0)html+='<div class="home-blank empty-cta"><button type="button" data-add="1" class="add-btn"><span>＋</span> Add Tasting Note</button></div>';
+ else html+='<div class="home-blank"><p>No Matches</p></div>';
+ if(notes.length)html+=`<div class="home-space"></div><div class="fixed-add"><button type="button" data-add="1" class="add-btn"><span>＋</span> Add</button></div>`;
+ html+='</div>';app.innerHTML=html
+}
+function renderSettings(){app.innerHTML=`<div class="settings"><h2>Settings</h2><div class="settings-block"><h3>Cloud Sync</h3><p>${storageMode==='session'?'Browser Storage Unavailable · 当前为临时记录，关闭页面可能丢失，请及时导出备份。':'Not Available Yet · 云同步将在正式版本中提供。当前记录保存在本机浏览器。'}</p><button class="muted-btn" disabled type="button">Coming Later</button></div><div class="settings-block"><h3>Data & Backup</h3><div class="settings-buttons"><button class="outline-button" type="button" data-export="1">Export JSON</button><label class="outline-button" style="cursor:pointer" for="importInput">Import JSON</label><input type="file" id="importInput" accept=".json,application/json"></div><p>Audio is saved separately in this browser and is NOT included in JSON backup. Download recordings individually before switching devices. JSON backup files can contain blind answers and photos; keep them private. Use Export before changing devices or clearing browser data. Older local records remain compatible; this standalone file uses browser-local storage and does not sync with the hosted SOMM100 site.</p></div><div class="settings-block"><h3>Scoring</h3><p>100-Point OIV/UIOE legacy judging scale based on your competition sheet. Kept separate from CMS deductive tasting. Still Wine and Sparkling Wine use different score distributions.</p></div><p style="font-size:11px;color:#a1ac9b;margin:24px 0">SOMM100 Tasting Notes · V1.6 · Voice Beta</p></div>`}
+function renderHeader(){if(screen==='home')head.innerHTML=`<div class="head-left"><div class="wordmark">SOMM100 · Tasting Notes</div></div><div class="head-right"><button type="button" class="icon-btn" data-go-settings="1" aria-label="Settings" title="Settings">⚙</button></div>`;
+ else if(screen==='settings')head.innerHTML=`<div class="head-left"><button type="button" class="icon-btn back-btn" data-back="1" aria-label="Back">‹</button><div class="wordmark">SOMM100 · Tasting Notes</div></div>`;
+ else head.innerHTML=`<div class="head-left"><button type="button" class="icon-btn back-btn" data-back="1" aria-label="Back">‹</button><div class="wordmark">SOMM100 · Tasting Notes</div></div><div class="head-right"><span class="tiny-label" id="headerMode">${current.blind?'BLIND':'OPEN'}</span></div>`;
+}
+function render(){renderHeader();if(screen==='home')renderHome();else if(screen==='settings')renderSettings();else renderRecord();renderModal()}
+function rerender(anchorId=''){const before=anchorId?document.getElementById(anchorId)?.getBoundingClientRect().top:null;const oldY=window.scrollY;render();if(before!=null&&anchorId){const newTop=document.getElementById(anchorId)?.getBoundingClientRect().top;if(newTop!=null)window.scrollBy(0,newTop-before);else window.scrollTo(0,oldY)}else window.scrollTo(0,oldY)}
+function closeModal(){modal=null;modalRoot.innerHTML=''}
+function showModal(name){modal=name;renderModal()}
+function renderModal(){if(!modal){modalRoot.innerHTML='';return}let title='',body='';if(modal==='mode'){title='Add Tasting Note';body=`<button type="button" class="sheet-choice" data-start-mode="open"><span><strong>Open Tasting</strong></span><span class="arrow">›</span></button><button type="button" class="sheet-choice" data-start-mode="blind"><span><strong>Blind Tasting</strong></span><span class="arrow">›</span></button>`}
+ if(modal==='photo'){title='Add Photo';body=`<button class="sheet-choice" type="button" data-photo-action="camera"><span><strong>Take Photo</strong><small>Camera</small></span><span class="arrow">›</span></button><button class="sheet-choice" type="button" data-photo-action="image"><span><strong>Choose Image</strong><small>Upload Image</small></span><span class="arrow">›</span></button>`}
+ modalRoot.innerHTML=`<div class="overlay" data-dismiss="1"><div class="sheet" role="dialog" aria-modal="true" aria-label="${esc(title)}"><h2>${esc(title)}</h2>${body}<button type="button" class="sheet-close" data-close-modal="1">Cancel</button></div></div>`}
+function copyNose(){
+ let count=0;
+ for(const [k,v] of Object.entries(current.fields)){
+  if(k.startsWith('noseFruit:')||k.startsWith('noseNon:')||k.startsWith('noseWM:')||k.startsWith('noseOther:')){
+   const dest=k.replace(/^nose/,'palate'),existing=current.fields[dest],allowed=visibleStored(k,v);
+   if(!filled(allowed))continue;
+   current.fields[dest]=Array.isArray(allowed)?[...new Set([...(Array.isArray(existing)?existing:[]),...allowed])]:allowed;count++;
+  }
+ }
+ for(const [,k] of OAK){if(filled(val(k))){const dest=oakStorageKey('palate',k);current.fields[dest]=Array.isArray(val(k))?[...new Set([...(Array.isArray(val(dest))?val(dest):[]),...val(k)])]:val(k);count++}}
+ if(count){autoSave();rerender('section-palate');toast('Nose Descriptors Confirmed')}else toast('No Nose Flavours Selected');
+}
+function summary(){
+ const t=tally(),identified=!current.blind||current.revealed;
+ let lines=['WINE TASTING JOURNAL · V1.6',formatDate(current.createdAt),current.blind?'Blind Tasting':'Open Tasting',`Wine Type: ${current.wineType||'—'}`];
+ if(identified)lines.push(`Wine: ${titleFor(current)}`,`Country: ${current.country||'—'}`,`Region: ${current.region||'—'}`,`Appellation: ${current.appellation||'—'}`,`Grape: ${current.grape||'—'}`,`ABV: ${current.abv||'—'}`);
+ else lines.push('Actual wine identity is hidden until Reveal');
+ lines.push('');
+ const groups=[['Sight',sightFields().concat(extraSightFields())],['Nose',NOSE_BASE],['Palate Structure',structureFields()],['Palate Markers',palateMarkerFields().concat(finishFields())]];
+ if(current.blind)groups.push(['Initial Conclusion',INITIAL],['Final Conclusion',FINAL]);
+ for(const [name,fieldKeys] of groups){lines.push('['+name+']');for(const [label,key] of fieldKeys){if(filled(visibleStored(key,val(key))))lines.push(label+': '+valText(visibleStored(key,val(key))))}lines.push('')}
+ lines.push('[Fruit / Non-Fruit]');for(const [key,v] of Object.entries(current.fields)){
+  if(key.includes('Fruit:')||key.includes('Non:')||key.includes('WM:')||key.includes('Other:')||OAK.some(([,k])=>key===k||key==='palate'+k[0].toUpperCase()+k.slice(1)))if(filled(visibleStored(key,v)))lines.push(key+': '+valText(visibleStored(key,v)));
+ }
+ if(filled(current.voice?.transcript))lines.push('[Voice Transcript]',current.voice.transcript,'');
+ if(filled(current.voice?.summary))lines.push('[Voice Summary]',current.voice.summary,'');
+ if(!current.blind&&filled(val('overallNote')))lines.push('Overall Tasting Note: '+val('overallNote'));
+ if(!current.blind&&filled(val('qualityAssessment')))lines.push('Quality Assessment: '+val('qualityAssessment'));
+ const extras=current.blind?['possibleGrape','possibleCountry','possibleRegion','guessGrape','guessCountry','guessRegion','guessVintage','guessQuality','evidence','noseFree','palateFree','finalConclusion']:['noseFree','palateFree'];
+ for(const k of extras)if(filled(val(k)))lines.push(k+': '+valText(val(k)));
+ lines.push('',`Quality Score: ${t.done?t.sum:'—'} / 100 (${t.done}/${t.count})`, `Estimated Price: ¥${current.prices.expectedRetail||'—'}`,`Buying Price: ¥${current.prices.willingPay||'—'}`,`Actual Price: ¥${identified?current.prices.realRetail||'—':'hidden'}`,`Would You Buy: ${current.prices.decision||'—'}`);
+ return lines.join('\n');
+}
+
+async function copyText(text){try{await navigator.clipboard.writeText(text)}catch(err){const t=document.createElement('textarea');t.value=text;document.body.append(t);t.select();document.execCommand('copy');t.remove()}}
+async function exportData(){await flush();const all=await allNotes();const blob=new Blob([JSON.stringify({app:'Wine Tasting Journal',version:'1.6',exportedAt:today(),notes:all},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='wine-tasting-journal-backup-'+today().slice(0,10)+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Backup Exported')}
+async function importData(file){try{const data=JSON.parse(await file.text());if(!data||!Array.isArray(data.notes))throw Error('Invalid Backup');let count=0;for(const x of data.notes){if(!x||!x.id||!x.createdAt)continue;await storeNote(normalise(x));count++}await refreshNotes();render();toast(`Imported ${count} Tastings`)}catch(err){toast('Import Failed: '+err.message)}}
+async function compressPhoto(f){if(!f.type.startsWith('image/'))throw Error('Not An Image');return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onerror=()=>reject(Error('File Read Failed'));reader.onload=()=>{const img=new Image();img.onerror=()=>reject(Error('Image Decode Failed'));img.onload=()=>{const scale=Math.min(1,960/Math.max(img.naturalWidth,img.naturalHeight)),canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(img.naturalWidth*scale));canvas.height=Math.max(1,Math.round(img.naturalHeight*scale));canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height);resolve(canvas.toDataURL('image/jpeg',0.76))};img.src=reader.result};reader.readAsDataURL(f)})}
+async function addPhotos(fileList){if(!current)return;const arr=[...fileList].slice(0,Math.max(0,8-current.photo.length));if(!arr.length){toast('Maximum 8 Photos');return}try{for(const f of arr)current.photo.push(await compressPhoto(f));autoSave();rerender(current.blind?'reveal':'');toast(`${arr.length} Photo${arr.length>1?'s':''} Added`)}catch(err){toast('Photo Failed: '+err.message)}}
+
+// Free, on-device OCR using Tesseract.js; no paid browser automation or hosted API.
+// The engine is loaded only when the user supplies a label. Wine Library matching
+// works only if a verified catalogue has explicitly been provided to the page.
+function cleanOcrText(t){return String(t||'').replace(/[^\S\n]+/g,' ').replace(/\n{3,}/g,'\n\n').trim().slice(0,20000)}
+function parseLabelText(raw){
+ const text=cleanOcrText(raw),lines=text.split(/\n/).map(l=>l.trim()).filter(Boolean).filter(l=>l.length>1);
+ const matchedYear=(text.match(/\b(?:19[5-9]\d|20[0-3]\d)\b/g)||[]).map(Number).find(y=>y<=new Date().getFullYear()+1)||'';
+ const abvMatch=text.match(/(?:alc(?:ohol)?\s*\.?\s*[:/]?\s*)(\d{1,2}(?:[.,]\d)?)\s*%?|(?:\b(\d{1,2}(?:[.,]\d)?)\s*%\s*(?:vol\b|alc\b)?)/i);
+ const abv=abvMatch?String(abvMatch[1]||abvMatch[2]).replace(',','.')+'%':'';
+ const explicitCountries=['France','Italy','Italia','Spain','España','Deutschland','Germany','Austria','Österreich','Portugal','United States','U.S.A.','USA','Argentina','Chile','South Africa','Australia','New Zealand','Uruguay','Greece','Hungary','China'];
+ const countryMap={Italia:'Italy',España:'Spain',Deutschland:'Germany','Österreich':'Austria','U.S.A.':'United States',USA:'United States'};
+ const countryWord=explicitCountries.find(w=>new RegExp('(^|[^a-z])'+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'([^a-z]|$)','i').test(text))||'';
+ const grapeVocabulary=['Cabernet Sauvignon','Cabernet Franc','Pinot Noir','Pinot Gris','Pinot Grigio','Chardonnay','Sauvignon Blanc','Riesling','Chenin Blanc','Gewürztraminer','Syrah','Shiraz','Merlot','Malbec','Sangiovese','Nebbiolo','Tempranillo','Gamay','Grenache','Garnacha','Viognier','Albariño','Albarino','Grüner Veltliner','Zinfandel','Primitivo','Carménère','Carmenere','Semillon','Sémillon','Meunier','Mourvèdre','Mourvedre','Pinot Meunier'];
+ const grapes=grapeVocabulary.filter(w=>new RegExp('(^|[^A-Za-z])'+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'([^A-Za-z]|$)','i').test(text));
+ const appellations=['Chablis','Sancerre','Pouilly-Fumé','Meursault','Puligny-Montrachet','Chassagne-Montrachet','Bourgogne','Châteauneuf-du-Pape','Saint-Émilion','Pauillac','Margaux','Pomerol','Champagne','Rioja','Ribera del Duero','Rías Baixas','Barolo','Barbaresco','Brunello di Montalcino','Chianti Classico','Valpolicella','Amarone della Valpolicella','Mosel','Rheingau','Wachau','Napa Valley','Sonoma Coast','Willamette Valley','Marlborough','Barossa Valley','Hunter Valley','Stellenbosch','Mendoza','Maipo Valley'];
+ const appellation=appellations.find(w=>text.toLowerCase().includes(w.toLowerCase()))||'';
+ // These are OCR candidates, not asserted wine facts. A label often has a producer
+ // and a cuvée in different positions; we require explicit human confirmation.
+ const meaningful=lines.filter(l=>!/\b(?:volume|product of|contains sulfites|imported by|bottled by|produced by|www\.|alc\.|750\s?ml)\b/i.test(l)&&!/^\d+\s*%/.test(l)&&!/^\d{4}$/.test(l));
+ const maybeProducer=meaningful.find(l=>l.length>2&&l.length<70)||'';
+ const maybeWine=(meaningful.find(l=>l!==maybeProducer&&l.length>2&&l.length<70)||'').replace(/\b(?:19[5-9]\d|20[0-3]\d)\b/g,'').trim();
+ return {producer:maybeProducer,wine:maybeWine,vintage:String(matchedYear),country:countryMap[countryWord]||countryWord,region:'',appellation,grape:grapes.join(', '),abv,raw:text};
+}
+function normalizeMatch(v){return String(v||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'')}
+function matchVerifiedWine(candidate){
+ const list=window.SOMM100_VERIFIED_WINES;
+ if(!Array.isArray(list)||!candidate.producer||!candidate.wine)return null;
+ return list.find(w=>w?.verified===true&&normalizeMatch(w.producer)===normalizeMatch(candidate.producer)&&normalizeMatch(w.wine)===normalizeMatch(candidate.wine)&&(!candidate.vintage||!w.vintage||String(w.vintage)===String(candidate.vintage)))||null;
+}
+function candidateFromText(text){const info=parseLabelText(text),known=matchVerifiedWine(info);
+ if(known){for(const key of ['grape','country','region','appellation'])if(!info[key]&&known[key])info[key]=String(known[key]);info.libraryMatch=true}
+ else info.libraryMatch=false;
+ return info;
+}
+function showRecognitionDialog(){
+ if(current.blind&&!current.revealed)return;
+ if(!pendingLabel)pendingLabel=candidateFromText(current.labelOcr||'');
+ const p=pendingLabel;
+ const fields=[['producer','Producer'],['wine','Wine / Cuvée'],['vintage','Vintage'],['country','Country'],['region','Region'],['appellation','Appellation'],['grape','Grape(s)'],['abv','ABV']];
+ modal='labelReview';
+ modalRoot.innerHTML=`<div class="overlay label-overlay"><div class="sheet recognition-card" role="dialog" aria-modal="true" aria-label="Review Label Recognition" style="max-width:600px;max-height:91dvh;overflow-y:auto"><h3>Review Wine Label · 确认识别信息</h3><p>以下仅为 OCR 候选信息。请检查酒庄、酒款、年份及产区后再自动填入；未确认不会更改已有笔记。${p.libraryMatch?'已匹配经过验证的 Wine Library 酒款。':'暂无经核实的 Wine Library 匹配，不自动推断缺失字段。'}</p><div class="recognition-fields">${fields.map(([key,name])=>`<label>${name}<input data-ocr="${key}" value="${esc(p[key]||'')}" autocomplete="off"></label>`).join('')}</div><label style="font-size:11px;color:#637c5b">Edit OCR text (optional)<textarea data-ocr-text="1" placeholder="Paste recognized label text">${esc(p.raw||'')}</textarea></label><div class="recognition-actions"><button type="button" data-reparse="1">Re-read Text</button><button type="button" data-close-modal="1">Cancel</button><button class="primary" type="button" data-confirm-ocr="1">Confirm & Fill</button></div></div></div>`;
+}
+async function loadOcrEngine(){
+ if(window.Tesseract?.recognize)return window.Tesseract;
+ await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js';script.async=true;script.onload=resolve;script.onerror=()=>reject(new Error('OCR engine unavailable; internet required for initial load'));document.head.appendChild(script)});
+ if(!window.Tesseract?.recognize)throw Error('OCR engine not available');
+ return window.Tesseract;
+}
+async function scanLabelFile(file){
+ if(!file||!current||current.blind&&!current.revealed)return;
+ if(!file.type.startsWith('image/')){toast('Please choose an image');return;}
+ labelBusy=true;toast('Reading wine label on your device…');
+ try{
+  const image=await compressPhoto(file);
+  current.labelPhoto=image;autoSave();
+  const ocr=await loadOcrEngine();
+  const result=await ocr.recognize(image,'eng');
+  const content=cleanOcrText(result?.data?.text||'');
+  current.labelOcr=content;pendingLabel=candidateFromText(content);autoSave();
+  showRecognitionDialog();
+ }catch(err){
+  // Photo still available; never invent recognition results. Manual transcript
+  // lets user continue without paid OCR services or network access.
+  current.labelOcr??='';pendingLabel=candidateFromText(current.labelOcr);
+  showRecognitionDialog();toast('OCR unavailable: enter or paste label text to continue');
+ }finally{labelBusy=false}
+}
+function confirmLabelFields(){
+ if(!pendingLabel||!current||current.blind&&!current.revealed)return;
+ const fields=['producer','wine','vintage','country','region','appellation','grape','abv'];
+ const conflicting=fields.filter(k=>pendingLabel[k]&&current[k]&&String(current[k]).trim()!==String(pendingLabel[k]).trim());
+ if(conflicting.length&&!confirm(`Overwrite previously filled ${conflicting.join(', ')}?`))return;
+ for(const k of fields){const v=String(pendingLabel[k]||'').trim();if(v)current[k]=v}
+ current.labelOcr=pendingLabel.raw||current.labelOcr||'';pendingLabel=null;closeModal();ui.detailsOpen=true;autoSave();rerender();toast('Confirmed wine details filled');
+}
+
+
+// V1.6 Voice Tasting. Original recordings are browser-local only (IndexedDB).
+// Browser SpeechRecognition might use a third-party speech service; no audio,
+// transcript, or blind answers are submitted to any SOMM100 server by this file.
+const MAX_VOICE_MS=10*60*1000;
+const SPEECH_ENGINE=()=>window.SpeechRecognition||window.webkitSpeechRecognition;
+function voiceData(){if(!current.voice)current.voice={transcript:'',summary:'',language:'zh-CN',durationSec:0,mode:'',suggestions:[],analysisKind:'',generatedAt:''};return current.voice}
+function clockVoice(ms){const s=Math.floor(Math.max(0,ms)/1000);return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')}
+function voiceElapsed(s=voiceSession){return s?s.accumulated+(s.paused||!s.active?0:Date.now()-s.activeSince):0}
+function clearVoiceClip(){if(voiceClipUrl)URL.revokeObjectURL(voiceClipUrl);voiceClipUrl='';voiceClip=null;voiceClipOwner=''}
+async function getVoiceAudio(noteId){if(db&&db.objectStoreNames.contains('recordings'))return new Promise((res,rej)=>{const q=db.transaction('recordings','readonly').objectStore('recordings').get(noteId);q.onsuccess=()=>res(q.result||null);q.onerror=()=>rej(q.error)});return voiceClipSession.get(noteId)||null}
+async function putVoiceAudio(noteId,blob,durationSec){const clip={noteId,blob,mimeType:blob.type||'audio/webm',durationSec,createdAt:today()};if(db&&db.objectStoreNames.contains('recordings'))return new Promise((res,rej)=>{const tx=db.transaction('recordings','readwrite');tx.objectStore('recordings').put(clip);tx.oncomplete=()=>res(clip);tx.onerror=()=>rej(tx.error)});voiceClipSession.set(noteId,clip);return clip}
+async function deleteVoiceAudio(noteId){if(voiceClipOwner===noteId)clearVoiceClip();voiceClipSession.delete(noteId);if(db&&db.objectStoreNames.contains('recordings'))return new Promise((res,rej)=>{const tx=db.transaction('recordings','readwrite');tx.objectStore('recordings').delete(noteId);tx.oncomplete=()=>res();tx.onerror=()=>rej(tx.error)}).catch(()=>{});}
+async function restoreVoiceClip(noteId){let clip;try{clip=await getVoiceAudio(noteId)}catch(e){return}if(!current||current.id!==noteId)return;clearVoiceClip();if(clip?.blob?.size){voiceClip=clip;voiceClipOwner=noteId;voiceClipUrl=URL.createObjectURL(clip.blob);rerender('voice-tasting')}}
+function voiceSpeechText(s=voiceSession){return s?([s.initialTranscript,...s.completedTranscripts,s.segmentTranscript].filter(Boolean).join('\n').trim()):String(voiceData().transcript||'')}
+function renderVoiceTasting(){
+ const v=voiceData(),active=voiceSession?.noteId===current.id?voiceSession:null,elapsed=active?voiceElapsed(active):v.durationSec*1000;
+ const transcript=active?voiceSpeechText(active):v.transcript||'';
+ const status=active?(active.paused?'Paused · 已暂停':active.recognitionUnavailable?'Recording audio · 语音自动识别不可用':'Recording · 正在收音并尝试转文字'):
+   (v.mode==='audio-only'?'Audio saved · 录音已保存，转文字需要设备或后端支持':v.transcript?'Transcription ready · 可修改文本并生成总结':'点击录音开始口述品鉴。');
+ let html=`<section class="voice-card ${active&&!active.paused?'voice-recording':''}" id="voice-tasting"><div class="voice-top"><div class="voice-mark">🎙</div><div><h3>Voice Tasting · 语音品鉴</h3><p>最长 10 分钟。录音 → 实时识别（若浏览器支持）→ 智能整理 → 审核填入。</p></div><span class="voice-pill">BETA · V1.6</span></div>`;
+ html+=`<div class="voice-language"><label for="voiceLanguage">Spoken language / 口述语言</label><select id="voiceLanguage" data-voice-language="1" ${active?'disabled':''}><option value="zh-CN" ${v.language!=='en-US'?'selected':''}>中文 / Mandarin</option><option value="en-US" ${v.language==='en-US'?'selected':''}>English</option></select><span>中英混讲可能需要手动修正</span></div>`;
+ html+=`<div class="voice-controls">${!active?'<button type="button" class="primary" data-voice-start="1">● Start Recording / 开始录音</button>':`<button type="button" class="primary" data-voice-stop="1">■ Finish / 完成</button><button type="button" data-voice-pause="1">${active.paused?'▶ Resume / 继续':'Ⅱ Pause / 暂停'}</button>`}<span class="voice-clock" id="voiceClock">${clockVoice(elapsed)} / 10:00</span></div>`;
+ html+=`<div class="voice-status" id="voiceStatus" role="status">${esc(status)}</div>`;
+ if(active){html+=`<div class="voice-live" id="voiceLive" aria-live="polite">${esc(transcript||'🎤 口述示例：颜色是柠檬黄，闻起来有柠檬、青苹果和烤面包，酸度很高，酒体中等，余味很长……')}</div>`;}
+ else{
+   if(voiceClipUrl&&voiceClipOwner===current.id)html+=`<div class="voice-subhead">Saved Audio · 录音回放</div><audio class="voice-audio" controls preload="metadata" src="${esc(voiceClipUrl)}"></audio><div class="voice-actions"><button data-voice-download="1" type="button">↓ Download Recording</button><button data-voice-delete="1" type="button">Delete Audio Only</button></div>`;
+   html+=`<label class="voice-subhead" for="voiceTranscriptInput">Transcript / 识别原文（可编辑）</label><textarea class="voice-edit" id="voiceTranscriptInput" data-voice-transcript="1" placeholder="录音完成后若识别成功，文字将出现在这里。也可以粘贴手机语音输入的文字，点击生成摘要。">${esc(v.transcript||'')}</textarea>`;
+   html+=`<div class="voice-actions"><button type="button" class="primary" data-voice-analyze="1">✧ Generate Smart Summary / 智能整理</button>${v.transcript?'<button type="button" data-voice-copy="1">Copy Transcript</button>':''}</div>`;
+   if(v.summary){html+=`<label class="voice-subhead" for="voiceSummaryInput">Tasting Summary / 口述总结</label><textarea class="voice-edit summary" id="voiceSummaryInput" data-voice-summary="1">${esc(v.summary)}</textarea>`;
+     html+=`<div class="voice-evidence">${v.analysisKind==='browser-rules'?'本地规则整理（非大模型 AI），仅提取口述内容；请检查是否正确。':'请检查摘要。'}</div>`;
+     const suggestions=(v.suggestions||[]);
+     if(suggestions.length)html+=`<div class="voice-subhead">Suggested Fields / 自动匹配的品鉴字段</div><div class="voice-suggestions">${suggestions.map((x,i)=>`<label class="voice-suggest"><input type="checkbox" data-voice-suggest="${i}" ${x.approved!==false?'checked':''}><span>${esc(x.section||'Tasting')} — <b>${esc(x.value||'')}</b><small>${esc(x.label||x.key||'')} · 听到“${esc(x.evidence||'')}”</small></span></label>`).join('')}</div>`;
+     html+=`<div class="voice-actions"><button type="button" class="primary" data-voice-apply="1">✓ Review & Fill Tasting Note / 审核填入</button></div>`;
+   }
+   html+=`<p class="voice-footnote">录音仅保存在当前浏览器（JSON 备份不包含音频）。语音识别取决于浏览器，可能通过浏览器自己的在线语音服务处理；此测试版智能整理不调用付费 AI，也不会猜测品种和产地。手机锁屏或切出网页可能中断录音。</p>`;
+ }
+ return html+'</section>';
+}
+function updateVoiceDisplay(){const s=voiceSession;if(!s)return;const node=document.getElementById('voiceClock');if(node)node.textContent=clockVoice(voiceElapsed(s))+' / 10:00';const live=document.getElementById('voiceLive');if(live){let t=voiceSpeechText(s);if(s.interimTranscript)t+=(t?'\n':'')+'… '+s.interimTranscript;live.textContent=t||'🎤 Listening…'}const status=document.getElementById('voiceStatus');if(status)status.textContent=s.paused?'Paused · 已暂停':s.recognitionUnavailable?'Recording audio · 自动转文字不可用':'Recording · 录音及转写中';if(voiceElapsed(s)>=MAX_VOICE_MS&&!s.stopping)void stopVoiceRecording('limit');}
+function beginSpeechRecognition(s){if(!SPEECH_ENGINE()||!s||s.stopping||s.paused||!s.active||s.recognitionUnavailable)return;
+ let recog;
+ try{recog=new (SPEECH_ENGINE())()}catch(e){s.recognitionUnavailable=true;return}
+ recog.lang=s.language;recog.continuous=true;recog.interimResults=true;recog.maxAlternatives=1;
+ s.segmentTranscript='';s.interimTranscript='';s.recognition=recog;
+ recog.onresult=evt=>{
+   if(!voiceSession||voiceSession!==s||s.stopping)return;
+   const completed=[];let interim='';
+   for(let i=0;i<evt.results.length;i++){const r=evt.results[i],t=String(r[0]?.transcript||'').trim();if(!t)continue;if(r.isFinal)completed.push(t);else interim+=(interim?' ':'')+t;}
+   s.segmentTranscript=completed.join(s.language==='zh-CN'?'，':' ');s.interimTranscript=interim;
+   const live=voiceSpeechText(s);if(current?.id===s.noteId){current.voice.transcript=live;autoSave()}
+   updateVoiceDisplay();
+ };
+ recog.onerror=evt=>{const err=evt?.error||'unknown';s.speechError=err;
+  if(['not-allowed','service-not-allowed','language-not-supported','network','audio-capture'].includes(err))s.recognitionUnavailable=true;
+  if(err==='no-speech')s.noSpeechCount=(s.noSpeechCount||0)+1;
+  if(s.noSpeechCount>6)s.recognitionUnavailable=true;
+  updateVoiceDisplay();
+ };
+ recog.onend=()=>{
+  const chunk=s.segmentTranscript.trim();if(chunk)s.completedTranscripts.push(chunk);
+  s.segmentTranscript='';s.interimTranscript='';s.recognition=null;
+  if(!s.stopping&&!s.paused&&s.active&&!s.recognitionUnavailable&&voiceSession===s){
+   setTimeout(()=>{if(voiceSession===s&&s.active&&!s.paused&&!s.stopping&&!s.recognitionUnavailable)beginSpeechRecognition(s)},280);
+  }
+ };
+ try{recog.start()}catch(e){s.recognitionUnavailable=true;s.recognition=null;updateVoiceDisplay()}
+}
+async function startVoiceRecording(){if(!current||screen!=='record'||voiceSession)return;
+ const noteId=current.id,v=voiceData();if(!navigator.mediaDevices?.getUserMedia){toast('This browser cannot access the microphone; paste a transcript instead');return}
+ let stream;
+ try{stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true},video:false})}catch(e){toast('Microphone permission unavailable · 麦克风权限未开启');return}
+ if(!current||current.id!==noteId||screen!=='record'){stream.getTracks().forEach(t=>t.stop());return}
+ let recorder=null,recordable=true;
+ try{if(typeof MediaRecorder!=='undefined'){
+   const mime=['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(t=>MediaRecorder.isTypeSupported(t));
+   recorder=new MediaRecorder(stream,mime?{mimeType:mime}:undefined);
+  }else recordable=false;
+ }catch(err){recordable=false}
+ if(!recordable&&!SPEECH_ENGINE()){stream.getTracks().forEach(t=>t.stop());toast('Recording and live dictation unavailable on this browser');return}
+ const initialTranscript=String(v.transcript||'').trim();
+ const s={noteId,stream,recorder,blobChunks:[],active:true,paused:false,stopping:false,recordable,accumulated:0,activeSince:Date.now(),language:v.language||'zh-CN',initialTranscript,completedTranscripts:[],segmentTranscript:'',interimTranscript:'',recognition:null,recognitionUnavailable:!SPEECH_ENGINE(),speechError:'',noSpeechCount:0,stopPromise:null};
+ voiceSession=s;
+ try{if(recorder){recorder.ondataavailable=e=>{if(e.data?.size)s.blobChunks.push(e.data)};recorder.start(1000)}}catch(e){s.recorder=null;s.recordable=false}
+ if(s.recorder||SPEECH_ENGINE()){beginSpeechRecognition(s)}else{voiceSession=null;stream.getTracks().forEach(t=>t.stop());toast('This browser cannot record or transcribe');return}
+ v.mode=s.recorder?'audio-and-speech':'speech-only';
+ autoSave();rerender('voice-tasting');
+ s.timerId=setInterval(()=>updateVoiceDisplay(),250);
+ updateVoiceDisplay();
+}
+function pauseVoiceRecording(){const s=voiceSession;if(!s||s.stopping)return;if(s.paused){s.paused=false;s.activeSince=Date.now();try{if(s.recorder?.state==='paused')s.recorder.resume()}catch(e){}beginSpeechRecognition(s)}
+ else{s.accumulated=voiceElapsed(s);s.paused=true;try{if(s.recorder?.state==='recording')s.recorder.pause()}catch(e){}try{s.recognition?.stop()}catch(e){}}rerender('voice-tasting');updateVoiceDisplay()}
+function persistTranscript(s){if(!current||current.id!==s.noteId)return;const v=voiceData();const base=[s.initialTranscript,...s.completedTranscripts,s.segmentTranscript].filter(Boolean).join('\n').trim();const tail=s.interimTranscript.trim();const combined=base+(tail?(base?'\n':'')+'[待核对 / interim] '+tail:'');v.transcript=combined;v.durationSec=Math.round(Math.min(MAX_VOICE_MS,voiceElapsed(s))/1000);v.mode=s.recorder?(s.recognitionUnavailable?'audio-only':'audio-and-speech'):'speech-only';autoSave()}
+async function stopVoiceRecording(reason='manual'){
+ const s=voiceSession;if(!s)return;if(s.stopPromise)return s.stopPromise;
+ s.stopPromise=(async()=>{
+   s.accumulated=Math.min(MAX_VOICE_MS,voiceElapsed(s));s.active=false;s.stopping=true;clearInterval(s.timerId);
+   try{s.recognition?.stop()}catch(e){}
+   // Allow the speech engine a brief chance to return its final result.
+   await new Promise(resolve=>setTimeout(resolve,350));
+   let blob=null;
+   if(s.recorder&&s.recorder.state!=='inactive'){
+     blob=await new Promise(resolve=>{let settled=false;const done=()=>{if(settled)return;settled=true;resolve(new Blob(s.blobChunks,{type:s.recorder?.mimeType||'audio/webm'}))};
+       s.recorder.onstop=done;try{s.recorder.stop()}catch(e){done()};setTimeout(done,2500);
+     });
+   }else if(s.recorder)blob=new Blob(s.blobChunks,{type:s.recorder.mimeType||'audio/webm'});
+   s.stream.getTracks().forEach(t=>t.stop());
+   if(current?.id===s.noteId){persistTranscript(s);}
+   if(blob?.size){try{await putVoiceAudio(s.noteId,blob,Math.round(s.accumulated/1000))}catch(e){toast('Audio could not be saved; check device storage')}}
+   voiceSession=null;
+   if(current?.id===s.noteId){
+     if((s.completedTranscripts.length||s.segmentTranscript||s.interimTranscript)&&filled(current.voice.transcript)){
+       deriveVoiceSummary(false);
+     }
+     await flush();await restoreVoiceClip(s.noteId);render();
+     if(reason==='limit')toast('10-minute limit reached · 已自动停止');
+     else if(!SPEECH_ENGINE())toast('Recording finished; transcription not supported, edit transcript manually');
+     else toast('Voice recording finished · 请核对文字与摘要');
+   }
+ })();return s.stopPromise;
+}
+function downloadVoiceRecording(){if(!voiceClip?.blob||voiceClipOwner!==current?.id)return;
+ const type=voiceClip.mimeType||'',ext=type.includes('mp4')?'m4a':type.includes('ogg')?'ogg':'webm';const a=document.createElement('a');a.href=voiceClipUrl;a.download='SOMM100_tasting_voice_'+current.id+'.'+ext;document.body.appendChild(a);a.click();a.remove();}
+// Sensory mapping is deliberately evidence-based: it suggests observable notes,
+// not a wine identity, variety, region, ageing method or imaginary score.
+const VOICE_TERM_LEXICON=[
+ ['Lemon','Fruit','Citrus','柠檬|lemon'],['Lime','Fruit','Citrus','青柠|lime'],['Grapefruit','Fruit','Citrus','西柚|葡萄柚|grapefruit'],
+ ['Green Apple','Fruit','Green Fruit','青苹果|绿苹果|green apple'],['Pear','Fruit','Orchard Fruit','梨子|梨香|梨|pear'],['White Peach','Fruit','Stone Fruit','白桃|white peach'],
+ ['Apricot','Fruit','Stone Fruit','杏子|杏香|apricot'],['Passion Fruit','Fruit','Tropical Fruit','百香果|passion fruit'],['Pineapple','Fruit','Tropical Fruit','菠萝|pineapple'],
+ ['Red Cherry','Fruit','Red Fruit','红樱桃|red cherry'],['Black Cherry','Fruit','Black Fruit','黑樱桃|black cherry'],['Strawberry','Fruit','Red Fruit','草莓|strawberry'],
+ ['Raspberry','Fruit','Red Fruit','覆盆子|树莓|raspberry'],['Blackcurrant','Fruit','Black Fruit','黑醋栗|blackcurrant|cassis'],['Blackberry','Fruit','Black Fruit','黑莓|blackberry'],
+ ['Blueberry','Fruit','Blue Fruit','蓝莓|blueberry'],['Violet','Non','Floral','紫罗兰|violet'],['Rose','Non','Floral','玫瑰|rose petals'],
+ ['Black Pepper','Non','Spice','黑胡椒|black pepper'],['Vanilla','OAK','Oak Aromas','香草味|香草气息|vanilla'],['Cedar','Non','Tertiary:Red','雪松|cedar'],
+ ['Leather','Non','Tertiary:Red','皮革|leather'],['Tobacco','Non','Tertiary:Red','烟草|tobacco'],['Graphite','Non','Earth & Mineral','石墨|graphite'],
+ ['Flint','Non','Earth & Mineral','燧石|flint'],['Wet Stone','Non','Earth & Mineral','湿石头|wet stone'],['Chalk','Non','Earth & Mineral','粉笔|chalky mineral|chalk'],
+ ['Saline','Non','Earth & Mineral','咸鲜|盐感|saline'],['Brioche / Bread Dough','WM','Secondary Aromas','奶油面包|布里欧修|brioche|bread dough'],
+ ['Toast','WM','Secondary Aromas','烤面包|toast'],['Cream / Butter (MLF)','WM','Secondary Aromas','黄油|奶油味|buttery|butter']
+];
+const VOICE_STRUCTURE=[
+ ['colour','Ruby',/(?:宝石红|ruby)/i],['colour','Garnet',/(?:石榴红|garnet)/i],['colour','Purple',/(?:紫红色|紫红|purple)/i],
+ ['colour','Lemon',/(?:柠檬黄色|柠檬黄|lemon yellow)/i],['colour','Gold',/(?:金黄色|金黄|golden)/i],['colour','Salmon',/(?:三文鱼粉|三文鱼色|salmon pink|salmon)/i],
+ ['colour','Pink',/(?:粉红色|粉红|pink)/i],
+ ['acidity','High',/(?:高酸|酸度(?:非常|很|较)?高|high acidity|high acid)/i],['acidity','Medium',/(?:酸度中等|中等酸度|medium acidity)/i],
+ ['acidity','Low',/(?:酸度低|低酸|low acidity)/i],
+ ['tannin','High',/(?:高单宁|高丹宁|单宁(?:很|较|非常)?强|high tannin)/i],['tannin','Medium',/(?:单宁中等|中等单宁|medium tannin)/i],
+ ['tannin','Low',/(?:低单宁|单宁低|low tannin)/i],
+ ['body','Full',/(?:酒体饱满|饱满酒体|full.body|full bodied)/i],['body','Medium',/(?:中等酒体|酒体中等|medium.body|medium bodied)/i],
+ ['body','Light',/(?:轻盈酒体|酒体轻盈|light.body|light bodied)/i],
+ ['sweetness','Off-Dry',/(?:微甜|半干|off.dry)/i],['sweetness','Dry',/(?:干型|不甜|dry wine)/i],
+ ['finish','Long',/(?:余味(?:非常|很|较)?长|收尾很长|long finish|long lingering)/i],['finish','Short',/(?:余味短|short finish)/i],
+ ['finish','Medium',/(?:余味中等|medium finish)/i]
+];
+function voiceSuggestion(key,value,section,label,evidence){return {key,value,section,label,evidence,approved:true}}
+function voiceTermSuggestions(text){const raw=String(text||'').toLowerCase(),out=[],seen=new Set();
+ function add(x){const id=x.key+'-'+x.value;if(seen.has(id))return;seen.add(id);out.push(x)}
+ for(const [term,kind,family,aliases] of VOICE_TERM_LEXICON){const match=aliases.split('|').find(x=>{
+  if(/[\u3400-\u9fff]/.test(x))return raw.includes(x.toLowerCase());
+  const safe=x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');return new RegExp('(^|[^a-z])'+safe+'(?=$|[^a-z])','i').test(raw);
+ });if(!match)continue;
+  const key=kind==='OAK'?'oakAromas':`nose${kind}:${family}`;
+  const allowed=kind==='OAK'||Array.isArray(visibleStored(key,[term]))&&visibleStored(key,[term]).includes(term);
+  if(allowed)add(voiceSuggestion(key,term,'Nose / Aroma',family,match));
+ }
+ for(const [key,value,regex] of VOICE_STRUCTURE){const m=raw.match(regex);if(!m)continue;
+  const allowed=Array.isArray(visibleStored(key,[value]))?visibleStored(key,[value]).includes(value):visibleStored(key,value)===value;
+  if(allowed)add(voiceSuggestion(key,value,key==='colour'?'Sight':'Palate / Finish',key,m[0]));
+ }
+ return out.slice(0,40);
+}
+function voiceExcerptSummary(text,suggestions){const clean=String(text||'').replace(/\[待核对 \/ interim\]/g,'').replace(/(?:嗯+|呃+|那个|就是|you know|um+|uh+)\s*/gi,'').trim();
+ const sentences=clean.split(/[。！？.!?\n]+|(?<=\S)[；;]+/u).map(x=>x.trim()).filter(x=>x.length>1).slice(0,16);
+ const buckets={sight:[],nose:[],palate:[],overall:[]};
+ for(const s of sentences){const v=s.toLowerCase();
+  const k=/(?:外观|颜色|色泽|视觉|酒液|sight|appearance|color|colour)/i.test(v)?'sight':/(?:香气|鼻子|闻起|闻到|鼻腔|nose|aroma|smell|bouquet)/i.test(v)?'nose':/(?:口感|口腔|入口|酸度|单宁|丹宁|酒体|余味|收尾|气泡|palate|finish|acid|tannin|body|mousse)/i.test(v)?'palate':'overall';
+  if(buckets[k].length<3)buckets[k].push(s);
+ }
+ const lines=[];
+ for(const [key,name] of [['sight','外观 / Sight'],['nose','香气 / Nose'],['palate','口感 / Palate']]){
+   if(buckets[key].length)lines.push(name+'：'+buckets[key].join('；')+'。');
+ }
+ const observed=[...new Set(suggestions.map(x=>x.value))].slice(0,14);
+ if(!lines.length&&clean)lines.push('口述摘要：'+sentences.slice(0,5).join('；').slice(0,650)+(sentences.length>0?'。':''));
+ if(buckets.overall.length)lines.push('其他观察：'+buckets.overall.slice(0,3).join('；')+'。');
+ if(observed.length)lines.push('可匹配的专业描述词：'+observed.join('、')+'。');
+ return lines.join('\n').slice(0,2200);
+}
+function deriveVoiceSummary(shouldRender=true){if(!current)return;const v=voiceData();if(!filled(v.transcript)){toast('请先录音转写或输入文本');return}
+ const suggestions=voiceTermSuggestions(v.transcript);v.suggestions=suggestions;v.summary=voiceExcerptSummary(v.transcript,suggestions);v.analysisKind='browser-rules';v.generatedAt=today();v.dirty=false;autoSave();if(shouldRender)rerender('voice-tasting');}
+function voiceApplyReview(){const v=voiceData();if(v.dirty){toast('Transcript changed — please regenerate the summary before applying');return}if(!v.summary?.trim()){toast('No summary to apply');return}
+ const chosen=(v.suggestions||[]).filter(x=>x.approved!==false),conflicts=chosen.filter(x=>{
+   const old=val(x.key);return filled(old)&&(!Array.isArray(old)?old!==x.value:false);
+ });
+ if(conflicts.length&&!confirm('Replace '+conflicts.map(x=>x.label).join(', ')+' already filled fields?'))return;
+ for(const s of chosen){const old=val(s.key);const next=Array.isArray(old)||/:/.test(s.key)||s.key==='oakAromas';if(next){current.fields[s.key]=[...new Set([...(Array.isArray(old)?old:[]),s.value])]}else current.fields[s.key]=s.value}
+ if(!current.blind){if(filled(val('overallNote'))&&!confirm('Overall note already exists. Replace it with this voice summary?')){
+   // Structured suggestions were still applied; do not replace handwritten note.
+  }else current.fields.overallNote=v.summary;
+ }else{
+  const note=String(current.fields.noseFree||'');
+  if(!note.trim())current.fields.noseFree='Voice summary (unverified): '+v.summary;
+  // Never generate guesses/actual wine names in a blind tasting.
+ }
+ v.appliedAt=today();autoSave();rerender('voice-tasting');toast('Reviewed suggestions added · 可继续编辑原品鉴记录');
+}
+
+// On-page actions. All controls act on the currently opened tasting only.
+head.addEventListener('click',async e=>{const button=e.target.closest('button');if(!button)return;if(button.dataset.back){if(screen==='settings')await goHome();else await goHome();return}if(button.dataset.goSettings)await showSettings()});
+modalRoot.addEventListener('click',e=>{const button=e.target.closest('button'),d=button?.dataset||{};if(d.startMode){begin(d.startMode==='blind');return}if(d.photoAction){const target=d.photoAction==='camera'?'photoCamera':'photoImage';closeModal();document.getElementById(target).click();return}if(d.closeModal){closeModal();pendingLabel=null;return}if(d.reparse){const t=modalRoot.querySelector('textarea[data-ocr-text]');pendingLabel=candidateFromText(t?.value||'');showRecognitionDialog();return}if(d.confirmOcr){confirmLabelFields();return}if(e.target.classList.contains('overlay')){closeModal();pendingLabel=null}});
+modalRoot.addEventListener('input',e=>{if(!pendingLabel)return;const k=e.target?.dataset?.ocr;if(k)pendingLabel[k]=e.target.value;else if(e.target.dataset.ocrText)pendingLabel.raw=e.target.value});
+app.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;
+ if(d.add){showModal('mode');return}
+ if(d.openNote){await loadNote(d.openNote);return}
+ if(d.photo){showModal('photo');return}
+ if(d.removePhoto!==undefined){current.photo.splice(Number(d.removePhoto),1);autoSave();rerender(current.blind?'reveal':'');return}
+ if(d.type){setWineType(d.type);return}
+ if(d.base){setSparklingBase(d.base);return}
+ if(d.clearIncompatible){clearIncompatible();return}
+ if(d.voiceStart){await startVoiceRecording();return}
+ if(d.voiceStop){await stopVoiceRecording();return}
+ if(d.voicePause){pauseVoiceRecording();return}
+ if(d.voiceAnalyze){deriveVoiceSummary();return}
+ if(d.voiceApply){voiceApplyReview();return}
+ if(d.voiceDownload){downloadVoiceRecording();return}
+ if(d.voiceCopy){await copyText(voiceData().transcript||'');toast('Voice transcript copied');return}
+ if(d.voiceDelete){if(!confirm('Delete saved audio? Transcript and summary will remain.'))return;await deleteVoiceAudio(current.id);voiceData().mode='transcript-only';autoSave();render();toast('Audio removed');return}
+ if(d.label){if(d.label==='review'){pendingLabel=candidateFromText(current.labelOcr||'');showRecognitionDialog();return}document.getElementById(d.label==='camera'?'labelCamera':'labelImage').click();return}
+ if(d.detail){ui.detailsOpen=!ui.detailsOpen;rerender();return}
+ if(d.panel){ui.panels.has(d.panel)?ui.panels.delete(d.panel):ui.panels.add(d.panel);rerender('section-'+d.panel);return}
+ if(d.field){ui.fields.has(d.field)?ui.fields.delete(d.field):ui.fields.add(d.field);rerender('field-'+d.field);return}
+ if(d.cat){ui.categories.has(d.cat)?ui.categories.delete(d.cat):ui.categories.add(d.cat);rerender('cat-'+d.cat);return}
+ if(d.chip){const k=d.chip,v=d.choice,isMulti=d.multi==='1';if(isMulti){const a=Array.isArray(val(k))?[...val(k)]:[];current.fields[k]=a.includes(v)?a.filter(x=>x!==v):[...a,v]}else{current.fields[k]=val(k)===v?'':v;ui.fields.delete(k)}autoSave();rerender(isMulti?(k.includes(':')?'cat-'+k:'section-'+(k.startsWith('palate')?'palate':'nose')):'field-'+k);return}
+ if(d.more){ui.more.has(d.more)?ui.more.delete(d.more):ui.more.add(d.more);const phase=d.more.startsWith('nose')?'nose':d.more.startsWith('palate')?'palate':d.more==='sight'?'sight':'nose';rerender('section-'+phase);return}
+ if(d.notes){ui.notes.has(d.notes)?ui.notes.delete(d.notes):ui.notes.add(d.notes);rerender('section-'+(d.notes==='initial'||d.notes==='final'?d.notes:d.notes==='price'?'price':d.notes));return}
+ if(d.confirmNose){copyNose();return}
+ if(d.composeNote){composeOverallNote();return}
+ if(d.score){const v=Number(d.scorevalue);current.score[d.score]=current.score[d.score]===v?undefined:v;autoSave();rerender('section-score');return}
+ if(d.pricechip){current.prices[d.pricechip]=Number(d.pricevalue);autoSave();rerender('section-price');return}
+ if(d.decision){current.prices.decision=current.prices.decision===d.decision?'':d.decision;autoSave();rerender('section-price');return}
+ if(d.reveal){if(!confirm('Reveal the actual wine and show label-identifying details?'))return;current.revealed=true;autoSave();rerender('reveal');return}
+ if(d.copy){await copyText(summary());toast('Copied');return}
+ if(d.save){if(voiceSession)await stopVoiceRecording('save');current.completed=true;await flush();await goHome();toast('Tasting Saved');return}
+ if(d.deleteCurrent){if(confirm('Delete This Tasting?')){if(voiceSession)await stopVoiceRecording('delete');await deleteNote(current.id);current=null;await goHome()}return}
+ if(d.export){await exportData();return}
+});
+app.addEventListener('input',e=>{const target=e.target;const d=target.dataset;
+ if(d.voiceTranscript!==undefined){voiceData().transcript=target.value;voiceData().generatedAt='';voiceData().dirty=true;autoSave();return}
+ if(d.voiceSummary!==undefined){voiceData().summary=target.value;autoSave();return}
+ if(d.voiceSuggest!==undefined){voiceData().suggestions[Number(d.voiceSuggest)].approved=!!target.checked;autoSave();return}
+ if(d.input!==undefined){if(d.location==='note')current[d.input]=target.value;else current.fields[d.input]=target.value;autoSave();return}
+ if(d.textarea!==undefined){if(d.textarea==='priceNotes')current.prices.notes=target.value;else current.fields[d.textarea]=target.value;autoSave();return}
+ if(d.price!==undefined){current.prices[d.price]=target.value;autoSave();return}
+ if(target.id==='searchTastings'){searchText=target.value;const pos=target.selectionStart;renderHome();const newInput=document.getElementById('searchTastings');newInput?.focus();newInput?.setSelectionRange(pos,pos)}
+});
+app.addEventListener('change',async e=>{if(e.target.dataset?.voiceLanguage!==undefined){voiceData().language=e.target.value==='en-US'?'en-US':'zh-CN';autoSave();return}if(e.target.id==='importInput'){if(e.target.files?.[0])await importData(e.target.files[0]);e.target.value=''}});
+for(const input of ['photoCamera','photoImage'])document.getElementById(input).addEventListener('change',async e=>{if(e.target.files?.length)await addPhotos(e.target.files);e.target.value=''});
+for(const input of ['labelCamera','labelImage'])document.getElementById(input).addEventListener('change',async e=>{if(e.target.files?.length)await scanLabelFile(e.target.files[0]);e.target.value=''});
+window.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal)closeModal()});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateVoiceDisplay()});
+(async()=>{try{db=await openDB()}catch(err){db=null}try{await refreshNotes()}catch(err){notes=[];toast('Local Storage Unavailable')}render()})().catch(err=>{notes=[];render();toast('Startup Error: '+err.message)});
+</script>
+</body>
+</html>

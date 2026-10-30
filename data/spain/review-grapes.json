@@ -1,0 +1,353 @@
+{
+  "scope": "Original grape notes and cultivar identity review",
+  "updatedAt": "2026-10-26",
+  "sources": [
+    {
+      "id": "archive-great-grapes",
+      "title": "Spain’s Great Grapes · Miquel Hudin · 2019-05-05 有道存档 / Notion 原文",
+      "url": "https://app.notion.com/p/3fb17d16de4c8194a39edb9fecdf94a2",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "mapa-dona-blanca",
+      "title": "MAPA · Doña Blanca · Registro 10900078 · 同义名",
+      "url": "https://servicio.mapa.gob.es/germenwai/DetalleVariedad.aspx?IDVariedad=10900078&TipoV=C&id=es",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "mapa-juan-garcia",
+      "title": "MAPA · Juan García · Registro 10900150 · Mouratón",
+      "url": "https://servicio.mapa.gob.es/germenwai/DetalleVariedad.aspx?IDVariedad=10900150&TipoV=C&id=es",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "vivc-trepat",
+      "title": "JKI / VIVC · Trepat 12633 · Bonicaire 同义名",
+      "url": "https://www.vivc.de/index.php?id=12633&r=passport%2Fview",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "mapa-bonicaire",
+      "title": "MAPA · Bonicaire · Registro 10900036 · 登记名称",
+      "url": "https://servicio.mapa.gob.es/germenwai/DetalleVariedad.aspx?IDVariedad=10900036&TipoV=C&id=es",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "itacyl-albillo",
+      "title": "ITACyL · Variedades minoritarias · Albillo Mayor 与 Albillo Real 辨析（2008）",
+      "url": "https://www.riberadelduero.es/sites/default/files/libro_2008.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "sherry-spec-2026",
+      "title": "Consejo Regulador · Jerez-Xérès-Sherry · 2026-05-21 生产规范",
+      "url": "https://www.sherry.wine/documents/597/21052026_Pliego_Jerez_1wBQg8y.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    }
+  ],
+  "grapes": [],
+  "regions": [],
+  "producers": [],
+  "wines": [],
+  "updates": {
+    "grapes": [
+      {
+        "id": "airen",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "albarino",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "albillo-real",
+        "sourceIds": [
+          "archive-great-grapes",
+          "itacyl-albillo"
+        ],
+        "sourceStudies": [
+          {
+            "title": {
+              "zh": "Albillo Real 与 Albillo Mayor 分开读",
+              "en": "Distinguishing the two Albillos"
+            },
+            "text": {
+              "zh": "2019 年存档的 Albillo Real 段落随后提到 Ribera del Duero 的泛称 Albillo；不能把这一表述当作该区使用 Albillo Real 的证据。ITACyL 的品种学资料明确区分两者：Ribera del Duero / Cigales 的 Albillo Mayor，与 Cebreros 的 Albillo Real。具体酒款的 Albillo 也须按产区、年份和酒庄技术表判定。",
+              "en": "The archived Albillo Real paragraph also mentions an unspecified Albillo in Ribera del Duero. That wording does not establish the use of Albillo Real there. ITACyL distinguishes Albillo Mayor in Ribera del Duero / Cigales from Albillo Real in Cebreros. Resolve a wine’s generic Albillo using its locality and technical sheet."
+            },
+            "sourceIds": [
+              "archive-great-grapes",
+              "itacyl-albillo"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "garnacha-blanca",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "godello",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "viura",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "palomino",
+        "sourceIds": [
+          "archive-great-grapes",
+          "sherry-spec-2026"
+        ],
+        "sourceStudies": [
+          {
+            "title": {
+              "zh": "旧文中的三种葡萄需要日期背景",
+              "en": "Dating the older three-grape description"
+            },
+            "text": {
+              "zh": "2019 年存档文章采用当时常见的“三种 Sherry 葡萄”表述。2026-05-21 的 Jerez 生产规范 F 节列 Palomino、Listán Blanco 或 Palomino Fino、Pedro Ximénez、Moscatel de Alejandría、Beba、Perruno 和 Vigiriega。这里保留规范的名称表达，不把同义名重复计为独立品种。Listán Blanco 与 Listán Negro 也不能由名字推成颜色变异关系。",
+              "en": "The 2019 archive uses the older three-grape description of Sherry. Section F of the 21 May 2026 specification gives a broader authorised list, including Beba, Perruno and Vigiriega. Preserve the specification’s names without counting synonyms as separate cultivars. The names Listán Blanco and Listán Negro alone do not imply a colour-mutation relationship."
+            },
+            "sourceIds": [
+              "archive-great-grapes",
+              "sherry-spec-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "verdejo",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "xarello",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "bobal",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "garnacha-tinta",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "carignan",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "mencia",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "monastrell",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "tempranillo",
+        "sourceIds": [
+          "archive-great-grapes"
+        ]
+      },
+      {
+        "id": "trepat",
+        "sourceIds": [
+          "archive-great-grapes",
+          "vivc-trepat",
+          "mapa-bonicaire"
+        ],
+        "aliases": [
+          "Bonicaire",
+          "Embolicaire"
+        ],
+        "sourceStudies": [
+          {
+            "title": {
+              "zh": "品种身份与登记名称",
+              "en": "Cultivar identity and registered names"
+            },
+            "text": {
+              "zh": "原存档文章将 Bonicaire 作为 Trepat 的地方名称；VIVC 的 Trepat 12633 条目也列 Bonicaire。MAPA 同时保留 Bonicaire 的登记名称，并列 Embolicaire。因此以 Trepat 为一个品种档案，保留 Bonicaire / Embolicaire 的检索入口及自治区许可原文，不因法律名录分列就计算成两个不同品种。",
+              "en": "The archived article associates Bonicaire with Trepat, and VIVC lists Bonicaire under Trepat 12633. MAPA also retains the registered name Bonicaire, with Embolicaire as a synonym. One cultivar dossier therefore preserves these searchable names and the original legal classification rows."
+            },
+            "sourceIds": [
+              "archive-great-grapes",
+              "vivc-trepat",
+              "mapa-bonicaire"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dona-blanca",
+        "sourceIds": [
+          "mapa-dona-blanca"
+        ],
+        "aliases": [
+          "Cigüente",
+          "Malvasía Castellana"
+        ],
+        "sourceStudies": [
+          {
+            "title": {
+              "zh": "Malvasía Castellana 的准确归属",
+              "en": "Identifying Malvasía Castellana"
+            },
+            "text": {
+              "zh": "MAPA 的 Doña Blanca 登记条目明确列出 Cigüente、Dona Branca 和 Malvasía Castellana。在 Toro、Tierra del Vino de Zamora、Arribes 与 Valles de Benavente 的资料中，完整名称 Malvasía Castellana 应关联 Doña Blanca，避免与 Síria 混连。该结论针对完整名称 Malvasía Castellana；酒标只写 Malvasía 时仍需核对产地和技术表。",
+              "en": "The MAPA register lists Cigüente, Dona Branca and Malvasía Castellana under Doña Blanca. In the relevant Castilla y León records, the full name Malvasía Castellana therefore identifies Doña Blanca rather than Síria. This identification applies to the full name Malvasía Castellana; an unspecified Malvasía on a wine label still needs local or technical evidence."
+            },
+            "sourceIds": [
+              "mapa-dona-blanca"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "juan-garcia",
+        "sourceIds": [
+          "mapa-juan-garcia"
+        ],
+        "aliases": [
+          "Mouratón"
+        ],
+        "sourceStudies": [
+          {
+            "title": {
+              "zh": "Mouratón 与 Juan García",
+              "en": "Mouratón and Juan García"
+            },
+            "text": {
+              "zh": "西班牙 MAPA 的 Juan García 登记条目列 Mouraton 为同义名。读 Galicia 酒款的混酿资料时，Mouratón 可关联至此档案；不要因拼写相近而连到法国 Mourvèdre / 西班牙 Monastrell。",
+              "en": "The Spanish MAPA register lists Mouraton as a synonym of Juan García. This supports linking Mouratón in Galician wine compositions to this dossier. It must not be confused with the similarly spelled Mourvèdre / Monastrell."
+            },
+            "sourceIds": [
+              "mapa-juan-garcia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "albillo-mayor",
+        "sourceIds": [
+          "itacyl-albillo"
+        ],
+        "sourceStudies": [
+          {
+            "title": {
+              "zh": "Albillo Real 与 Albillo Mayor 分开读",
+              "en": "Distinguishing the two Albillos"
+            },
+            "text": {
+              "zh": "2019 年存档的 Albillo Real 段落随后提到 Ribera del Duero 的泛称 Albillo；不能把这一表述当作该区使用 Albillo Real 的证据。ITACyL 的品种学资料明确区分两者：Ribera del Duero / Cigales 的 Albillo Mayor，与 Cebreros 的 Albillo Real。具体酒款的 Albillo 也须按产区、年份和酒庄技术表判定。",
+              "en": "The archived Albillo Real paragraph also mentions an unspecified Albillo in Ribera del Duero. That wording does not establish the use of Albillo Real there. ITACyL distinguishes Albillo Mayor in Ribera del Duero / Cigales from Albillo Real in Cebreros. Resolve a wine’s generic Albillo using its locality and technical sheet."
+            },
+            "sourceIds": [
+              "archive-great-grapes",
+              "itacyl-albillo"
+            ]
+          }
+        ]
+      }
+    ],
+    "regions": [
+      {
+        "id": "toro",
+        "sourceIds": [
+          "mapa-dona-blanca"
+        ]
+      },
+      {
+        "id": "tierra-del-vino-de-zamora",
+        "sourceIds": [
+          "mapa-dona-blanca"
+        ]
+      },
+      {
+        "id": "arribes",
+        "sourceIds": [
+          "mapa-dona-blanca"
+        ]
+      },
+      {
+        "id": "valles-de-benavente",
+        "sourceIds": [
+          "mapa-dona-blanca"
+        ]
+      }
+    ]
+  },
+  "corrections": [
+    {
+      "topic": "Malvasía Castellana 的品种关系",
+      "old": "四个 Castilla y León 产区的 Malvasía Castellana 被链接到 Síria。",
+      "new": "按 MAPA 的 Doña Blanca 登记同义名更正；保留其他 Malvasía 身份的独立核对。",
+      "sourceIds": [
+        "mapa-dona-blanca"
+      ]
+    },
+    {
+      "topic": "Bonicaire 与 Trepat 重复档案",
+      "old": "Trepat 品种档案与 Bonicaire 许可记录分成两个品种入口。",
+      "new": "依据 VIVC 合并品种身份；Bonicaire / Embolicaire 原名和法律许可原行保留。",
+      "sourceIds": [
+        "vivc-trepat",
+        "mapa-bonicaire"
+      ]
+    },
+    {
+      "topic": "Albillo 同名辨析",
+      "old": "旧文章在 Albillo Real 段落中引用 Ribera del Duero 的未细分 Albillo。",
+      "new": "以 ITACyL 资料区分 Albillo Mayor 与 Albillo Real；不跨产区套用品种名称。",
+      "sourceIds": [
+        "archive-great-grapes",
+        "itacyl-albillo"
+      ]
+    },
+    {
+      "topic": "旧 Sherry 品种清单",
+      "old": "2019 年存档文章使用传统三种葡萄的概括。",
+      "new": "按 2026-05-21 的 Jerez 规范补充名录；旧文保留日期，不作为现行完整清单。",
+      "sourceIds": [
+        "archive-great-grapes",
+        "sherry-spec-2026"
+      ]
+    }
+  ],
+  "gaps": [
+    "VIVC 的 Trepat 同义名来自其公开索引；完整护照页面本轮返回访问错误，未以此扩写亲本或完整遗传谱系。"
+  ]
+}

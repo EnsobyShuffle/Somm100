@@ -1,0 +1,60 @@
+{
+  "reviewed": "2026-10-26",
+  "grapeDossiers": 891,
+  "aliasRecords": 876,
+  "growingCountries": 46,
+  "wineDossiers": 1231,
+  "localGrapePhotos": 195,
+  "localWinePhotos": 80,
+  "globalCatalogueComplete": false,
+  "perGrapeWineCoverageComplete": false,
+  "notes": [
+    "Includes Pinot Teinturier as an explicitly qualified genetic-reference subtype entry.",
+    "Representative countries and regions, not exhaustive planting or legal-authorisation lists.",
+    "Some photographs/parentage/wine relationships remain unfilled or qualified.",
+    "All current grape records use the approved bilingual reference layout. Translation and template coverage do not imply equally detailed research or complete individual-wine/photo coverage."
+  ],
+  "bilingualReferenceProfiles": 891,
+  "uniformReferenceTemplateProfiles": 891,
+  "grapesWithSourcedDetailRows": 336,
+  "countryAssociations": 46,
+  "france": {
+    "dossiers": 390,
+    "regionalGroups": 49,
+    "regionalConnections": 666,
+    "nationalClassifiedNames": 361,
+    "departmentClassifiedNames": 11,
+    "temporaryClassifiedProfiles": 8,
+    "unprofiledResearchAccessions": 26,
+    "permanentNamesReconciled": true,
+    "historicalRegionalCoverageExhaustive": false
+  },
+  "countryWorkOrder": [
+    "France",
+    "Italy",
+    "Germany",
+    "Spain"
+  ],
+  "spain": {
+    "grapeRecords": 225,
+    "classificationOnlyGrapes": 99,
+    "regionRecords": 131,
+    "autonomousCommunityIndexes": 17,
+    "producerRecords": 277,
+    "wineRecords": 1115,
+    "officialClassificationRows": 703,
+    "sourceRecords": 614,
+    "archiveOnlyWineRecords": 126,
+    "archiveStatusWines": 302,
+    "historicWines": 8,
+    "labelDependentWines": 165,
+    "officiallySourcedWineRecords": 944
+  },
+  "italyAssociatedGrapes": 299,
+  "italyRegionDossiers": 152,
+  "franceRegionDossiers": 46,
+  "linkedRegionDossiers": 198,
+  "linkedRegionReviewQuestions": 960,
+  "italianRegistryComplete": false,
+  "allItalianAppellationsComplete": false
+}

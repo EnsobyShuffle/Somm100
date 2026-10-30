@@ -1,0 +1,4116 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-25",
+  "profiles": [
+    {
+      "id": "rp-sortes",
+      "aliases": [
+        "rafael-palacios-as-sortes"
+      ],
+      "name": "As Sortes",
+      "producer": "Rafael Palacios",
+      "appellation": "D.O. Valdeorras",
+      "origin": "Spain · Galicia · Ourense · O Bolo",
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/library/rp-sortes.jpg",
+      "imageCredit": "Rafael Palacios",
+      "imageSource": "https://en.rafaelpalacios.com/as-sortes",
+      "officialUrl": "https://en.rafaelpalacios.com/as-sortes",
+      "defaultVintage": "2023",
+      "intro": {
+        "en": "A Godello from six high-altitude estate parcels in Santa Cruz do Bolo. Old vines on decomposed granite, barrel fermentation and lees ageing define As Sortes: concentrated and textured, with a firm line of acidity.",
+        "zh": "来自 Santa Cruz do Bolo 六处高海拔自有地块的 Godello。风化花岗岩上的老藤、桶发酵与酒泥熟成共同塑造 As Sortes：浓缩而富于质地，酸度清晰。"
+      },
+      "highlights": [
+        {
+          "en": "6 parcels",
+          "zh": "六个地块"
+        },
+        {
+          "en": "Above 680 m",
+          "zh": "海拔 680 米以上"
+        },
+        {
+          "en": "500 L oak",
+          "zh": "500 升橡木桶"
+        },
+        {
+          "en": "8 months",
+          "zh": "熟成八个月"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Background",
+                "zh": "背景"
+              },
+              "text": {
+                "en": "Rafael Palacios established his Valdeorras project in 2004 after leaving the family business in Rioja. The Bibei valley’s old Godello vines became the focus of his work.",
+                "zh": "Rafael Palacios 离开 Rioja 的家族事业后，于 2004 年在 Valdeorras 开展自己的项目，专注 Bibei 河谷的老藤 Godello。"
+              },
+              "sources": [
+                "history"
+              ]
+            },
+            {
+              "label": {
+                "en": "Name & source",
+                "zh": "名称与来源"
+              },
+              "text": {
+                "en": "Sorte refers to an inherited parcel allocated by drawing lots. As Sortes combines six parcels acquired between 2004 and 2007; it is a multi-parcel estate wine.",
+                "zh": "Sorte 与通过抽签分配继承地块的传统有关。As Sortes 来自 2004–2007 年间购入的六个地块，属于多地块自有葡萄园酒。"
+              },
+              "sources": [
+                "history",
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Location & altitude",
+                "zh": "位置与海拔"
+              },
+              "text": {
+                "en": "Santa Cruz do Bolo, on the northern side of the Bibei valley; above 680 m. The northern side of a valley should not be confused with the aspect of each individual parcel.",
+                "zh": "Santa Cruz do Bolo，位于 Bibei 河谷北侧，海拔超过 680 米。河谷北侧的位置与每个具体地块的坡向应分别理解。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Planting & material",
+                "zh": "种植年代与材料"
+              },
+              "text": {
+                "en": "The six parcels were planted in the late 1970s and early 1980s, using Godello material recovered from traditional old vines through Proyecto Revival.",
+                "zh": "六处地块种植于 1970 年代末至 1980 年代初，采用通过 Proyecto Revival 从传统老藤恢复的 Godello 材料。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Soil",
+                "zh": "土壤"
+              },
+              "text": {
+                "en": "Low-fertility granite sand. The steep, terraced landscape requires careful soil management to protect the shallow, easily eroded ground.",
+                "zh": "低肥力的花岗岩砂土。陡坡梯田需要谨慎管理，保护浅薄且易侵蚀的土壤。"
+              },
+              "sources": [
+                "estate",
+                "history"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming",
+                "zh": "耕作"
+              },
+              "text": {
+                "en": "The estate describes organic treatments and biodynamic working methods. The historical importer sheet records hand work and hand harvesting. Current practice is distinguished from a current certification claim.",
+                "zh": "酒庄描述使用有机处理及生物动力耕作方法；历史进口商技术表记录人工田间作业与手工采收。耕作实践与当前认证状态分别记录。"
+              },
+              "sources": [
+                "estate",
+                "historic"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Aromas",
+                "zh": "香气"
+              },
+              "text": {
+                "en": "Grapefruit and apple, with floral and herbal nuances. The 2023 importer note adds citrus and white stone fruit; these are source tasting descriptions, rather than a personal tasting record.",
+                "zh": "葡萄柚、苹果，伴随花香与草本细节。2023 年进口商品鉴资料另提到柑橘及白色核果；此处为来源品鉴描述整理。"
+              },
+              "sources": [
+                "estate",
+                "liberty23"
+              ]
+            },
+            {
+              "label": {
+                "en": "Palate",
+                "zh": "口感"
+              },
+              "text": {
+                "en": "A rich, broad texture held by fresh acidity and a long finish. The estate’s description combines a taut opening with greater warmth and breadth toward the finish.",
+                "zh": "质地饱满、宽阔，以清新酸度支撑，余味绵长。酒庄描述的口感从紧致的入口，逐渐展开为更温暖、有包裹感的后段。"
+              },
+              "sources": [
+                "estate",
+                "liberty23"
+              ]
+            },
+            {
+              "label": {
+                "en": "Development",
+                "zh": "陈年表现"
+              },
+              "text": {
+                "en": "The 2022 importer recommends cellaring beyond ten years. Its published note emphasises a firm acid structure, saline finish and an increasingly complex savoury profile. Storage and bottle condition remain decisive.",
+                "zh": "2022 年进口商资料给出十年以上陈年潜力，强调酸度结构、咸鲜余味及随时间发展的复杂风味；实际表现仍取决于储存与瓶况。"
+              },
+              "sources": [
+                "trade22"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature",
+                "zh": "温度"
+              },
+              "text": {
+                "en": "Start at 10–12°C and allow the wine to warm gradually in the glass.",
+                "zh": "从 10–12°C 开始饮用，让杯中酒温自然上升。"
+              },
+              "sources": [
+                "trade22"
+              ]
+            },
+            {
+              "label": {
+                "en": "Glass & aeration",
+                "zh": "酒杯与透气"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: use a generous white-wine glass. Taste first, then aerate a closed young bottle progressively; assess mature bottles individually.",
+                "zh": "SOMM100 建议：使用杯肚较宽的白葡萄酒杯。年轻酒先试饮，再根据封闭程度逐步透气；老年份按瓶况决定。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: roast turbot with a light beurre blanc, or roast chicken with mushrooms. Match the wine’s weight and texture without overwhelming its acidity.",
+                "zh": "SOMM100 建议：烤多宝鱼配轻盈的白黄油汁，或蘑菇烤鸡；用菜肴的质地对应酒体，同时保留酸度的清晰感。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "2023",
+          "composition": "100% Godello",
+          "abv": "14.5%",
+          "acidity": "7.38 g/L",
+          "rs": "1.23 g/L",
+          "ph": "3.13",
+          "bottle": "750 mL",
+          "closure": {
+            "en": "Natural cork",
+            "zh": "天然软木塞"
+          },
+          "sources": [
+            "liberty23",
+            "sheet23"
+          ],
+          "season": {
+            "en": "A mild, wet winter replenished soil water. A warm, largely dry summer was followed by useful September rain, supporting the final stages of ripening.",
+            "zh": "温和多雨的冬季补充了土壤水分；夏季温暖、总体干燥，九月适时降雨帮助最后阶段的成熟。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Pressing & yeast",
+                "zh": "压榨与酵母"
+              },
+              "text": {
+                "en": "Grapes are pressed before fermentation with indigenous yeasts.",
+                "zh": "先压榨葡萄，再以原生酵母发酵。"
+              },
+              "sources": [
+                "liberty23"
+              ]
+            },
+            {
+              "label": {
+                "en": "Fermentation vessel",
+                "zh": "发酵容器"
+              },
+              "text": {
+                "en": "500-litre French oak barrels.",
+                "zh": "500 升法国橡木桶。"
+              },
+              "sources": [
+                "liberty23"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage",
+                "zh": "熟成"
+              },
+              "text": {
+                "en": "Eight months on lees in barrel before bottling.",
+                "zh": "装瓶前在桶内带酒泥熟成八个月。"
+              },
+              "sources": [
+                "sheet23"
+              ]
+            },
+            {
+              "label": {
+                "en": "New oak / MLF",
+                "zh": "新桶／MLF"
+              },
+              "text": {
+                "en": "The 2023 sources do not specify new-oak percentage, MLF, stirring frequency or a fermentation temperature.",
+                "zh": "2023 年份资料未列新桶比例、MLF、搅桶频率及发酵温度。"
+              },
+              "sources": [
+                "sheet23"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "composition": "100% Godello",
+          "abv": "14%",
+          "acidity": "7.2 g/L",
+          "rs": "< 3 g/L",
+          "ph": "3.02",
+          "bottle": "750 mL",
+          "closure": {
+            "en": "Not specified in this source",
+            "zh": "本来源未列"
+          },
+          "sources": [
+            "trade22"
+          ],
+          "season": {
+            "en": "A hot, dry growing season was followed by September rain. The importer describes a fresher result than the season might suggest, with ripeness supported by acidity.",
+            "zh": "生长季炎热干燥，九月出现降雨。进口商描述该年份比季节条件所暗示的更为清新，成熟度仍有酸度支撑。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Harvest & yeast",
+                "zh": "采收与酵母"
+              },
+              "text": {
+                "en": "Hand harvested; indigenous-yeast fermentation.",
+                "zh": "手工采收；原生酵母发酵。"
+              },
+              "sources": [
+                "trade22"
+              ]
+            },
+            {
+              "label": {
+                "en": "Vessel & élevage",
+                "zh": "容器与熟成"
+              },
+              "text": {
+                "en": "500-litre oak vessels; eight months on lees.",
+                "zh": "500 升橡木容器；带酒泥熟成八个月。"
+              },
+              "sources": [
+                "trade22"
+              ]
+            },
+            {
+              "label": {
+                "en": "Finishing",
+                "zh": "装瓶前处理"
+              },
+              "text": {
+                "en": "The importer records fining and filtration. Its reproduced Wine Advocate note reports bottling in June 2023 and 22,200 bottles.",
+                "zh": "进口商记载进行澄清与过滤；其转引的 Wine Advocate 记录为 2023 年六月装瓶、产量 22,200 瓶。"
+              },
+              "sources": [
+                "trade22"
+              ]
+            },
+            {
+              "label": {
+                "en": "New oak / MLF",
+                "zh": "新桶／MLF"
+              },
+              "text": {
+                "en": "Not specified for this vintage in the cited source.",
+                "zh": "引用来源未列这一年份的新桶比例与 MLF。"
+              },
+              "sources": [
+                "trade22"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "The historical European Cellars / Indigo Wine sheet lists 20% new oak and 7–8 months of ageing. It is retained as a historical source, not applied as a confirmed 2023 specification.",
+          "zh": "历史 European Cellars／Indigo Wine 技术表列有 20% 新桶及 7–8 个月熟成，保留作历史资料，不套用为已确认的 2023 年份数据。"
+        },
+        {
+          "en": "The estate gives planting dates, while older trade sheets give varying vine-age ranges. Planting dates are retained rather than displaying an automatically ageing “40-year-old vines” claim.",
+          "zh": "酒庄列出种植年代，而旧贸易资料的藤龄范围不同。本页保留种植年代，不将“40 年老藤”当作永远不变的数值。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "history",
+          "title": "Rafael Palacios · History",
+          "url": "https://en.rafaelpalacios.com/historia",
+          "scope": "Producer history / 酒庄历史"
+        },
+        {
+          "id": "estate",
+          "title": "Rafael Palacios · As Sortes",
+          "url": "https://en.rafaelpalacios.com/as-sortes",
+          "scope": "Estate profile / 酒庄通用档案"
+        },
+        {
+          "id": "liberty23",
+          "title": "Liberty Wines · As Sortes 2023",
+          "url": "https://www.libertywines.co.uk/our-portfolio/RP102-as-sortes-val-do-bibei-valdeorras-godello",
+          "scope": "2023 vintage / 2023 年份"
+        },
+        {
+          "id": "sheet23",
+          "title": "Liberty Wines · 2023 technical sheet",
+          "url": "https://media.libertywine.co.uk/Perfion/FactSheet.Report?id=192280",
+          "scope": "2023 PDF / 年份技术表"
+        },
+        {
+          "id": "historic",
+          "title": "European Cellars / Indigo Wine · historical sheet",
+          "url": "https://www.bowlerwine.com/sites/default/files/tech-sheets/Tech_Sheet_-_Rafael_Palacios_As_Sortes.pdf",
+          "scope": "Undated historical sheet / 无明确年份的历史技术表"
+        },
+        {
+          "id": "trade22",
+          "title": "Valade & Transandine · As Sortes 2022",
+          "url": "https://www.transandine.fr/vin/as-sortes/",
+          "scope": "2022 vintage / 含转引酒评"
+        }
+      ],
+      "links": [
+        {
+          "name": "Rafael Palacios",
+          "url": "#producers?id=rafael-palacios"
+        },
+        {
+          "name": "Godello",
+          "url": "#grapes?id=godello"
+        },
+        {
+          "name": "Valdeorras",
+          "url": "#library?type=region&id=valdeorras"
+        }
+      ],
+      "relatedIds": [
+        "rp-louro",
+        "rp-antiga",
+        "rp-soro"
+      ]
+    },
+    {
+      "id": "rp-louro",
+      "aliases": [],
+      "name": "Louro",
+      "producer": "Rafael Palacios",
+      "appellation": "D.O. Valdeorras",
+      "origin": "Spain · Galicia · Ourense · O Bolo",
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/library/rp-louro.jpg",
+      "imageCredit": "Rafael Palacios / Liberty Wines",
+      "imageSource": "https://www.libertywines.co.uk/our-portfolio/RP101-louro-do-bolo-valdeorras-godello",
+      "officialUrl": "https://en.rafaelpalacios.com/louro",
+      "defaultVintage": "2023",
+      "intro": {
+        "en": "An estate Godello assembled from parcels around four villages in O Bolo. Large foudres and a shorter period on fine lees give Louro its own place in the range.",
+        "zh": "来自 O Bolo 四个村庄周边自有地块的 Godello。大木桶与较短的细酒泥熟成，构成 Louro 在酒庄系列中的独立表达。"
+      },
+      "highlights": [
+        {
+          "en": "Godello",
+          "zh": "Godello"
+        },
+        {
+          "en": "Val do Bibei",
+          "zh": "Bibei 河谷"
+        },
+        {
+          "en": "Estate vineyards",
+          "zh": "自有葡萄园"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Producer",
+                "zh": "生产者"
+              },
+              "text": {
+                "en": "Rafael Palacios, established in O Bolo in 2004, with a focus on Godello from the Bibei valley.",
+                "zh": "Rafael Palacios 于 2004 年在 O Bolo 建立项目，专注 Bibei 河谷 Godello。"
+              },
+              "sources": [
+                "history"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Villages",
+                "zh": "村庄"
+              },
+              "text": {
+                "en": "Chandoiro, Lentellais, Outardepregos and Santa Cruz do Bolo. The parcels lie above 600 m.",
+                "zh": "Chandoiro、Lentellais、Outardepregos 与 Santa Cruz do Bolo；地块海拔超过 600 米。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Soils & vines",
+                "zh": "土壤与葡萄藤"
+              },
+              "text": {
+                "en": "Sandy granite, including sand with clay deposits. The estate describes vines averaging 25 years in its undated profile.",
+                "zh": "花岗岩砂土，亦有带黏土沉积的砂土。酒庄无明确年份的通用介绍将平均藤龄记为 25 年。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming",
+                "zh": "种植管理"
+              },
+              "text": {
+                "en": "The producer describes a return to traditional organic methods, with treatments chosen to protect vines and soils.",
+                "zh": "酒庄强调恢复传统、有机耕作方法，避免损害葡萄藤与土壤的处理。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Aromas",
+                "zh": "香气"
+              },
+              "text": {
+                "en": "Lemon peel, orange blossom, fennel and stony nuances in the importer’s 2023 note.",
+                "zh": "进口商 2023 年品鉴描述包括柠檬皮、橙花、茴香及石质气息。"
+              },
+              "sources": [
+                "liberty"
+              ]
+            },
+            {
+              "label": {
+                "en": "Palate",
+                "zh": "口感"
+              },
+              "text": {
+                "en": "Concentrated fruit and broad texture, supported by bright acidity and a saline finish.",
+                "zh": "浓缩果味与宽阔质地，由明亮酸度及咸鲜余味支撑。"
+              },
+              "sources": [
+                "liberty"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "SOMM100 suggestion",
+                "zh": "SOMM100 建议"
+              },
+              "text": {
+                "en": "Serve initially around 10–12°C in a generous white-wine glass. Assess aeration from the first taste; the bottle’s age and condition determine the approach.",
+                "zh": "可从约 10–12°C 开始，使用杯肚较宽的白葡萄酒杯。先试饮再决定透气方式，并根据酒龄与瓶况调整。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "Match textured, savoury dishes: roast fish, poultry or mushrooms. Keep the sauce intensity in balance with the wine.",
+                "zh": "可搭配具有质地与鲜味的烤鱼、禽类或蘑菇，并使酱汁强度与酒款保持平衡。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "2023",
+          "composition": "100% Godello",
+          "abv": "14%",
+          "acidity": "6.53 g/L",
+          "rs": "0.93 g/L",
+          "ph": "3.25",
+          "bottle": "750 mL",
+          "closure": {
+            "en": "Natural cork",
+            "zh": "天然软木塞"
+          },
+          "sources": [
+            "sheet",
+            "liberty"
+          ],
+          "season": {
+            "en": "Mild, wet winter; a warm and mainly dry summer; September rain helped complete ripening.",
+            "zh": "冬季温和多雨，夏季温暖且主要为干燥天气，九月降雨帮助完成成熟。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Pressing & fermentation",
+                "zh": "压榨与发酵"
+              },
+              "text": {
+                "en": "Grapes are pressed before fermentation in 35-hectolitre French oak foudres (3,500 litres).",
+                "zh": "葡萄压榨后，在 35 百升的法国橡木大桶中发酵，即 3,500 升。"
+              },
+              "sources": [
+                "sheet"
+              ]
+            },
+            {
+              "label": {
+                "en": "Lees ageing",
+                "zh": "酒泥熟成"
+              },
+              "text": {
+                "en": "Four months on fine lees before bottling.",
+                "zh": "装瓶前在细酒泥上熟成四个月。"
+              },
+              "sources": [
+                "sheet"
+              ]
+            },
+            {
+              "label": {
+                "en": "Winemaker",
+                "zh": "年份技术表酿酒师"
+              },
+              "text": {
+                "en": "The 2023 factsheet names Pablo Blanco Vilachá. The estate project is led by Rafael Palacios.",
+                "zh": "2023 年份技术表列酿酒师为 Pablo Blanco Vilachá；酒庄项目由 Rafael Palacios 主导。"
+              },
+              "sources": [
+                "sheet"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "The 2023 trade factsheet specifies 100% Godello. Do not transfer that percentage automatically to other Louro vintages.",
+          "zh": "2023 年贸易技术表明确为 100% Godello，不将该比例自动套用到 Louro 其他年份。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "history",
+          "title": "Rafael Palacios · History",
+          "url": "https://en.rafaelpalacios.com/historia",
+          "scope": "Producer history / 酒庄历史"
+        },
+        {
+          "id": "estate",
+          "title": "Rafael Palacios · Louro",
+          "url": "https://en.rafaelpalacios.com/louro",
+          "scope": "Estate profile / 酒庄通用档案"
+        },
+        {
+          "id": "liberty",
+          "title": "Liberty Wines · Louro 2023",
+          "url": "https://www.libertywines.co.uk/our-portfolio/RP101-louro-do-bolo-valdeorras-godello",
+          "scope": "2023 vintage / 年份资料"
+        },
+        {
+          "id": "sheet",
+          "title": "Liberty Wines · 2023 technical sheet",
+          "url": "https://media.libertywine.co.uk/Perfion/FactSheet.Report?id=192278",
+          "scope": "2023 PDF"
+        }
+      ],
+      "links": [
+        {
+          "name": "Rafael Palacios",
+          "url": "#producers?id=rafael-palacios"
+        },
+        {
+          "name": "Godello",
+          "url": "#grapes?id=godello"
+        },
+        {
+          "name": "Valdeorras",
+          "url": "#library?type=region&id=valdeorras"
+        }
+      ],
+      "relatedIds": [
+        "rp-sortes",
+        "rp-antiga",
+        "rp-soro"
+      ]
+    },
+    {
+      "id": "rp-antiga",
+      "aliases": [],
+      "name": "Sorte Antiga",
+      "producer": "Rafael Palacios",
+      "appellation": "D.O. Valdeorras",
+      "origin": "Spain · Galicia · Ourense · O Bolo",
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/library/rp-antiga.png",
+      "imageCredit": "Rafael Palacios / Liberty Wines",
+      "imageSource": "https://www.libertywines.co.uk/our-portfolio/RP103-sorte-antiga-valdeorras-godello",
+      "officialUrl": "https://www.rafaelpalacios.com/copia-de-o-soro",
+      "defaultVintage": "2023",
+      "intro": {
+        "en": "A single-parcel Godello from ungrafted bush vines planted in 1920. Skin fermentation adds a fine phenolic texture to this concentrated, high-altitude white.",
+        "zh": "来自 1920 年种植、自根灌木形老藤的单一地块 Godello。带皮发酵为这款高海拔、浓缩型白葡萄酒增添细致的酚类质地。"
+      },
+      "highlights": [
+        {
+          "en": "Godello",
+          "zh": "Godello"
+        },
+        {
+          "en": "Val do Bibei",
+          "zh": "Bibei 河谷"
+        },
+        {
+          "en": "Estate vineyards",
+          "zh": "自有葡萄园"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Producer",
+                "zh": "生产者"
+              },
+              "text": {
+                "en": "Rafael Palacios, established in O Bolo in 2004, with a focus on Godello from the Bibei valley.",
+                "zh": "Rafael Palacios 于 2004 年在 O Bolo 建立项目，专注 Bibei 河谷 Godello。"
+              },
+              "sources": [
+                "history"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Parcel & aspect",
+                "zh": "地块与坡向"
+              },
+              "text": {
+                "en": "A 0.24 ha parcel in Santa Cruz do Bolo, facing north at 680 m.",
+                "zh": "Santa Cruz do Bolo 的 0.24 公顷地块，朝北，海拔 680 米。"
+              },
+              "sources": [
+                "liberty"
+              ]
+            },
+            {
+              "label": {
+                "en": "Vines",
+                "zh": "葡萄藤"
+              },
+              "text": {
+                "en": "Planted in 1920; ungrafted, bush-trained Godello. The estate records small bunches and low yields.",
+                "zh": "1920 年种植的自根、灌木形 Godello，酒庄记载其果穗小、产量低。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Soil & farming",
+                "zh": "土壤与耕作"
+              },
+              "text": {
+                "en": "Shallow granite soils, described by the estate as lacking mica. The soil is not tilled; dry-straw mulch helps conserve summer moisture. Biodynamic farming.",
+                "zh": "浅薄的花岗岩土壤，酒庄指出其中缺少云母。不翻耕，以干草覆盖保持夏季水分，并采用生物动力耕作。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Aromas",
+                "zh": "香气"
+              },
+              "text": {
+                "en": "Grapefruit and tangerine peel, with a lifted floral character.",
+                "zh": "葡萄柚与橘皮，伴随扬起的花香。"
+              },
+              "sources": [
+                "liberty"
+              ]
+            },
+            {
+              "label": {
+                "en": "Palate",
+                "zh": "口感"
+              },
+              "text": {
+                "en": "A concentrated citrus core, fine pithy grip, refreshing salinity and a long finish. The importer relates its style to traditional brisado wines.",
+                "zh": "浓缩的柑橘核心，细致的果皮抓口感、清新咸鲜感及绵长余味；进口商将其联系到传统 brisado 风格。"
+              },
+              "sources": [
+                "liberty"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "SOMM100 suggestion",
+                "zh": "SOMM100 建议"
+              },
+              "text": {
+                "en": "Serve initially around 10–12°C in a generous white-wine glass. Assess aeration from the first taste; the bottle’s age and condition determine the approach.",
+                "zh": "可从约 10–12°C 开始，使用杯肚较宽的白葡萄酒杯。先试饮再决定透气方式，并根据酒龄与瓶况调整。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "Match textured, savoury dishes: roast fish, poultry or mushrooms. Keep the sauce intensity in balance with the wine.",
+                "zh": "可搭配具有质地与鲜味的烤鱼、禽类或蘑菇，并使酱汁强度与酒款保持平衡。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "2023",
+          "composition": "100% Godello",
+          "abv": "13.5%",
+          "acidity": "7.25 g/L",
+          "rs": "1.5 g/L",
+          "ph": "3.12",
+          "bottle": "750 mL",
+          "closure": {
+            "en": "Natural cork",
+            "zh": "天然软木塞"
+          },
+          "sources": [
+            "sheet",
+            "liberty"
+          ],
+          "season": {
+            "en": "A mild, wet winter preceded a dry, temperate summer. Early-September rain supported phenolic ripeness.",
+            "zh": "温和多雨的冬季之后是干燥、温和的夏季；九月初降雨帮助酚类成熟。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Fermentation",
+                "zh": "发酵"
+              },
+              "text": {
+                "en": "Destemmed grapes; indigenous yeasts; skin fermentation in 1,500-litre open oak vats, followed by a gentle, quick pressing.",
+                "zh": "葡萄去梗，以原生酵母在 1,500 升敞口橡木槽中带皮发酵，之后轻柔、快速压榨。"
+              },
+              "sources": [
+                "sheet"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage · 2023",
+                "zh": "熟成 · 2023"
+              },
+              "text": {
+                "en": "Nine months on fine lees in third-use, 500-litre French oak barrels.",
+                "zh": "在第三次使用的 500 升法国橡木桶中，带细酒泥熟成九个月。"
+              },
+              "sources": [
+                "sheet"
+              ]
+            },
+            {
+              "label": {
+                "en": "Estate method",
+                "zh": "酒庄通用工艺"
+              },
+              "text": {
+                "en": "The undated estate page describes approximately one month on skins and twelve months in used barrels. These are kept separate from the 2023 specification.",
+                "zh": "酒庄无明确年份的通用介绍记载约一个月带皮发酵、旧桶熟成十二个月；与 2023 年份数据分开记录。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "Nine months is the cited 2023 élevage; twelve months is the undated estate description. The difference is shown rather than silently reconciled.",
+          "zh": "九个月为引用的 2023 年份熟成数据；十二个月为无明确年份的酒庄介绍。本页保留差异，不擅自统一。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "history",
+          "title": "Rafael Palacios · History",
+          "url": "https://en.rafaelpalacios.com/historia",
+          "scope": "Producer history / 酒庄历史"
+        },
+        {
+          "id": "estate",
+          "title": "Rafael Palacios · Sorte Antiga",
+          "url": "https://www.rafaelpalacios.com/copia-de-o-soro",
+          "scope": "Estate profile / 酒庄通用档案"
+        },
+        {
+          "id": "liberty",
+          "title": "Liberty Wines · Sorte Antiga 2023",
+          "url": "https://www.libertywines.co.uk/our-portfolio/RP103-sorte-antiga-valdeorras-godello",
+          "scope": "2023 vintage / 年份资料"
+        },
+        {
+          "id": "sheet",
+          "title": "Liberty Wines · 2023 technical sheet",
+          "url": "https://media.libertywine.co.uk/Perfion/FactSheet.Report?id=208678",
+          "scope": "2023 PDF"
+        }
+      ],
+      "links": [
+        {
+          "name": "Rafael Palacios",
+          "url": "#producers?id=rafael-palacios"
+        },
+        {
+          "name": "Godello",
+          "url": "#grapes?id=godello"
+        },
+        {
+          "name": "Valdeorras",
+          "url": "#library?type=region&id=valdeorras"
+        }
+      ],
+      "relatedIds": [
+        "rp-sortes",
+        "rp-louro",
+        "rp-soro"
+      ]
+    },
+    {
+      "id": "rp-soro",
+      "aliases": [],
+      "name": "Sorte O Soro",
+      "producer": "Rafael Palacios",
+      "appellation": "D.O. Valdeorras",
+      "origin": "Spain · Galicia · Ourense · O Bolo",
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/library/rp-soro.jpg",
+      "imageCredit": "Rafael Palacios / Liberty Wines",
+      "imageSource": "https://www.libertywines.co.uk/our-portfolio/RP104-sorte-o-soro-valdeorras-godello",
+      "officialUrl": "https://en.rafaelpalacios.com/o-soro",
+      "defaultVintage": "2022",
+      "intro": {
+        "en": "A single terraced parcel in Santa Cruz do Bolo, planted in 1978 at 710 m. An original low-vigour Godello selection combines concentrated fruit with the freshness of an exposed, elevated site.",
+        "zh": "Santa Cruz do Bolo 的单一梯田地块，1978 年种植，海拔 710 米。原始低活力 Godello 材料，将浓缩果味与高海拔、通风地块的清新感结合。"
+      },
+      "highlights": [
+        {
+          "en": "Godello",
+          "zh": "Godello"
+        },
+        {
+          "en": "Val do Bibei",
+          "zh": "Bibei 河谷"
+        },
+        {
+          "en": "Estate vineyards",
+          "zh": "自有葡萄园"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Producer",
+                "zh": "生产者"
+              },
+              "text": {
+                "en": "Rafael Palacios, established in O Bolo in 2004, with a focus on Godello from the Bibei valley.",
+                "zh": "Rafael Palacios 于 2004 年在 O Bolo 建立项目，专注 Bibei 河谷 Godello。"
+              },
+              "sources": [
+                "history"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Aspect & altitude",
+                "zh": "坡向与海拔"
+              },
+              "text": {
+                "en": "South-west-facing at 710 m, on the northern side of the Bibei valley; exposed to a continuous breeze.",
+                "zh": "西南向，海拔 710 米，位于 Bibei 河谷北侧，持续受到微风影响。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Plant material",
+                "zh": "葡萄材料"
+              },
+              "text": {
+                "en": "Planted in 1978 with an original low-vigour Godello clone. The estate has used these vines for massal selection for new plantings.",
+                "zh": "1978 年以原始低活力 Godello 克隆种植，酒庄亦以这里的葡萄藤进行群体选种，供新地块栽植。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Soil",
+                "zh": "土壤"
+              },
+              "text": {
+                "en": "Granite-derived fine sand with quartz schist.",
+                "zh": "花岗岩风化的细砂，伴随石英片岩。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming",
+                "zh": "耕作"
+              },
+              "text": {
+                "en": "Traditional cultivation with horses and biodynamic methods. The estate relates pruning and harvest timing to the lunar calendar.",
+                "zh": "以马匹参与传统耕作，采用生物动力方法；酒庄将修剪及采收时间与月相日历相联系。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Aromas",
+                "zh": "香气"
+              },
+              "text": {
+                "en": "Fresh floral notes; the estate’s separate general description also points to tangerine peel and magnolia.",
+                "zh": "2022 年品鉴资料以清新花香为重点；酒庄另行提供的通用描述亦提及橘皮与木兰花。"
+              },
+              "sources": [
+                "liberty",
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Palate",
+                "zh": "口感"
+              },
+              "text": {
+                "en": "Substantial weight with freshness and a long, mineral-associated finish, despite the warm vintage.",
+                "zh": "尽管年份温暖，仍以清新感承托饱满重量，余味绵长，并有矿物感相关描述。"
+              },
+              "sources": [
+                "liberty"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "SOMM100 suggestion",
+                "zh": "SOMM100 建议"
+              },
+              "text": {
+                "en": "Serve initially around 10–12°C in a generous white-wine glass. Assess aeration from the first taste; the bottle’s age and condition determine the approach.",
+                "zh": "可从约 10–12°C 开始，使用杯肚较宽的白葡萄酒杯。先试饮再决定透气方式，并根据酒龄与瓶况调整。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "Match textured, savoury dishes: roast fish, poultry or mushrooms. Keep the sauce intensity in balance with the wine.",
+                "zh": "可搭配具有质地与鲜味的烤鱼、禽类或蘑菇，并使酱汁强度与酒款保持平衡。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "2022",
+          "composition": "100% Godello",
+          "abv": "14%",
+          "acidity": "7.46 g/L",
+          "rs": "1.8 g/L",
+          "ph": "3.15",
+          "bottle": "750 mL",
+          "closure": {
+            "en": "Natural cork",
+            "zh": "天然软木塞"
+          },
+          "sources": [
+            "sheet",
+            "liberty"
+          ],
+          "season": {
+            "en": "A hot, drought-affected growing season. September rain led to a delayed harvest; old vines handled the dry conditions well according to the importer.",
+            "zh": "生长季炎热干旱；九月降雨后延迟采收。进口商描述老藤较好地承受了干燥条件。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Pressing & fermentation",
+                "zh": "压榨与发酵"
+              },
+              "text": {
+                "en": "Pressing precedes fermentation in 500-litre French oak barrels.",
+                "zh": "先压榨，再在 500 升法国橡木桶中发酵。"
+              },
+              "sources": [
+                "sheet"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage",
+                "zh": "熟成"
+              },
+              "text": {
+                "en": "A further eight months in barrel before bottling.",
+                "zh": "装瓶前继续在桶内熟成八个月。"
+              },
+              "sources": [
+                "sheet"
+              ]
+            },
+            {
+              "label": {
+                "en": "Unspecified parameters",
+                "zh": "未列参数"
+              },
+              "text": {
+                "en": "The cited 2022 sheet does not publish a new-oak percentage, MLF treatment or lees-stirring schedule.",
+                "zh": "引用的 2022 年份技术表未公布新桶比例、MLF 处理及搅桶安排。"
+              },
+              "sources": [
+                "sheet"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "id": "history",
+          "title": "Rafael Palacios · History",
+          "url": "https://en.rafaelpalacios.com/historia",
+          "scope": "Producer history / 酒庄历史"
+        },
+        {
+          "id": "estate",
+          "title": "Rafael Palacios · Sorte O Soro",
+          "url": "https://en.rafaelpalacios.com/o-soro",
+          "scope": "Estate profile / 酒庄通用档案"
+        },
+        {
+          "id": "liberty",
+          "title": "Liberty Wines · Sorte O Soro 2022",
+          "url": "https://www.libertywines.co.uk/our-portfolio/RP104-sorte-o-soro-valdeorras-godello",
+          "scope": "2022 vintage / 年份资料"
+        },
+        {
+          "id": "sheet",
+          "title": "Liberty Wines · 2022 technical sheet",
+          "url": "https://media.libertywine.co.uk/Perfion/FactSheet.Report?id=184157",
+          "scope": "2022 PDF"
+        }
+      ],
+      "links": [
+        {
+          "name": "Rafael Palacios",
+          "url": "#producers?id=rafael-palacios"
+        },
+        {
+          "name": "Godello",
+          "url": "#grapes?id=godello"
+        },
+        {
+          "name": "Valdeorras",
+          "url": "#library?type=region&id=valdeorras"
+        }
+      ],
+      "relatedIds": [
+        "rp-sortes",
+        "rp-louro",
+        "rp-antiga"
+      ]
+    },
+    {
+      "id": "dv-bouzeron",
+      "aliases": [
+        "domaine-de-villaine-bouzeron",
+        "de-villaine-bouzeron"
+      ],
+      "name": "Bouzeron",
+      "producer": "Domaine de Villaine",
+      "producerUrl": "https://www.de-villaine.com/",
+      "appellation": "Bouzeron AOC",
+      "origin": "France · Burgundy · Côte Chalonnaise · Bouzeron",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/dv-bouzeron.png",
+      "imageCredit": "Domaine de Villaine · producer bottle image",
+      "imageSource": "https://www.de-villaine.com/image/wines/1/bouteille-fiche-bouzeron.png",
+      "officialUrl": "https://www.de-villaine.com/en/wines/1/bouzeron",
+      "defaultVintage": "2024",
+      "intro": {
+        "en": "An Aligoté Doré village wine from Bouzeron. The 2024 release combines 17 plots and balances floral lift with a rounded palate.",
+        "zh": "Bouzeron 村庄级 Aligoté Doré 白葡萄酒。2024 年份汇集 17 处地块，花香与圆润质地相互平衡。"
+      },
+      "highlights": [
+        {
+          "en": "Aligoté Doré",
+          "zh": "Aligoté Doré"
+        },
+        {
+          "en": "Village appellation",
+          "zh": "村庄级法定产区"
+        },
+        {
+          "en": "2024 source",
+          "zh": "2024 年份资料"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Location",
+                "zh": "位置"
+              },
+              "text": {
+                "en": "The domaine is based in Bouzeron, in the Côte Chalonnaise between Santenay and Rully.",
+                "zh": "酒庄位于 Côte Chalonnaise 的 Bouzeron，处于 Santenay 与 Rully 之间。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Context",
+                "zh": "背景"
+              },
+              "text": {
+                "en": "The estate describes a limestone-rich, nutrient-poor hillside setting within a sheltered, warm valley. Viticulture here dates to medieval Cluniac activity.",
+                "zh": "酒庄描述当地为谷地中的贫瘠石灰质坡地，微气候较温暖；葡萄种植传统可追溯到中世纪 Cluny 修士。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Sites",
+                "zh": "地块"
+              },
+              "text": {
+                "en": "Upper-slope plots with white marl; the producer links freshness to their exposure and position.",
+                "zh": "位于上坡的白色泥灰岩地块；酒庄将清新感与坡向、坡位联系起来。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming",
+                "zh": "耕作"
+              },
+              "text": {
+                "en": "The estate reports organic certification since 1986, vegetal compost, severe pruning and selective thinning when needed.",
+                "zh": "酒庄记载自 1986 年起获得有机认证，使用植物堆肥，通过短梢修剪及必要时疏果控制产量。"
+              },
+              "sources": [
+                "farming"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "2024",
+                "zh": "2024 年份"
+              },
+              "text": {
+                "en": "The producer describes hawthorn, acacia and chalk, a dense yet fresh palate, and a slight bitter finish.",
+                "zh": "酒庄描述山楂花、刺槐花与白垩气息，口感密集而清新，收尾带轻微苦感。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Development",
+                "zh": "陈年表现"
+              },
+              "text": {
+                "en": "The estate suggests 2–3 years for primary fruit or up to ten years for greater breadth.",
+                "zh": "酒庄建议在 2–3 年内欣赏果味，也可陈放至约十年以发展更宽厚的质地。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature & food",
+                "zh": "温度与配餐"
+              },
+              "text": {
+                "en": "Producer guidance: approximately 12°C; seafood or cheeses including goat cheese and Beaufort.",
+                "zh": "酒庄建议：约 12°C；可配海鲜、山羊奶酪或 Beaufort 等奶酪。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Glass & aeration",
+                "zh": "酒杯与透气"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: use a medium white-wine glass; taste before deciding whether additional air is useful.",
+                "zh": "SOMM100 建议：中等杯肚白葡萄酒杯，先试饮再决定是否需要透气。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "2024",
+          "composition": "Aligoté Doré",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "wine",
+            "pdf24"
+          ],
+          "season": {
+            "en": "The 2024 sheet discusses fruit maturity and site influence, without harvest dates or a full weather report.",
+            "zh": "2024 技术表讨论成熟度及地块影响，未列采收日期或完整气候记录。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Harvest & pressing",
+                "zh": "采收与压榨"
+              },
+              "text": {
+                "en": "Hand harvested and sorted; slow pneumatic pressing.",
+                "zh": "手工采收、分拣；气囊压榨机缓慢压榨。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Fermentation",
+                "zh": "发酵"
+              },
+              "text": {
+                "en": "Temperature-controlled tanks or oak tuns; precise vessel proportions and élevage duration are not stated.",
+                "zh": "在控温罐或大型橡木桶中发酵；具体容器比例及熟成时间未列。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "No analytical sheet is supplied: ABV, total acidity, residual sugar and pH remain unfilled. The bottle image identifies the cuvée and need not show the selected vintage.",
+          "zh": "未取得分析检测表，酒精度、总酸、残糖与 pH 留空。瓶图用于识别酒款，其标签年份未必对应所选年份。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wine",
+          "title": "Domaine de Villaine · Bouzeron 2024",
+          "url": "https://www.de-villaine.com/en/wines/1/bouzeron",
+          "scope": "2024 tasting; general vineyard and cellar description / 2024 品鉴及通用酿造资料"
+        },
+        {
+          "id": "pdf24",
+          "title": "Domaine de Villaine · Bouzeron 2024 PDF",
+          "url": "https://www.de-villaine.com/pdf/en/bouzeron-2024-232.pdf",
+          "scope": "2024 technical sheet / 年份技术表"
+        },
+        {
+          "id": "estate",
+          "title": "Domaine de Villaine · Domaine",
+          "url": "https://www.de-villaine.com/en/domaine",
+          "scope": "Estate location and landscape / 酒庄位置与环境"
+        },
+        {
+          "id": "farming",
+          "title": "Domaine de Villaine · Organic cultivation",
+          "url": "https://www.de-villaine.com/en/philosophy-organic-cultivation",
+          "scope": "Estate farming policy / 酒庄耕作政策"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Bouzeron AOC",
+          "url": "#grapes?region=Bouzeron&country=France"
+        }
+      ],
+      "relatedIds": [
+        "ponsot-monts-luisants",
+        "lafarge-raisins-dores",
+        "pataille-clos-du-roy-aligote"
+      ],
+      "originalImageUrl": "https://www.de-villaine.com/image/wines/1/bouteille-fiche-bouzeron.png"
+    },
+    {
+      "id": "ponsot-monts-luisants",
+      "aliases": [
+        "domaine-ponsot-clos-des-monts-luisants",
+        "ponsot-clos-des-monts-luisants"
+      ],
+      "name": "Clos des Monts-Luisants Monopole",
+      "producer": "Domaine Ponsot",
+      "producerUrl": "https://domaine-ponsot.com/en/home/",
+      "appellation": "Morey-Saint-Denis Premier Cru",
+      "origin": "France · Burgundy · Côte de Nuits · Morey-Saint-Denis",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/ponsot-monts-luisants.png",
+      "imageCredit": "Domaine Ponsot · producer bottle image",
+      "imageSource": "https://domaine-ponsot.com/wp-content/uploads/2023/07/Morey-Denis-Monts-Luisants.png",
+      "officialUrl": "https://domaine-ponsot.com/produit/morey-saint-denis-monts-luisants-en/",
+      "defaultVintage": "Cuvée",
+      "intro": {
+        "en": "A white premier cru made entirely from Aligoté, with surviving plantings from 1911. Its vineyard history and old-barrel élevage are central to the wine.",
+        "zh": "完全以 Aligoté 酿造的一级园白葡萄酒，保留 1911 年种植的葡萄藤。历史种植材料与旧桶熟成是理解这款酒的重点。"
+      },
+      "highlights": [
+        {
+          "en": "100% Aligoté",
+          "zh": "100% Aligoté"
+        },
+        {
+          "en": "Premier cru · monopole",
+          "zh": "一级园 · 独占园"
+        },
+        {
+          "en": "1911 plantings",
+          "zh": "1911 年种植"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "History",
+                "zh": "历史"
+              },
+              "text": {
+                "en": "William Ponsot acquired Clos des Monts-Luisants in 1872. After phylloxera, the white parcel was replanted to Aligoté in 1911. Estate bottling began in 1921.",
+                "zh": "William Ponsot 于 1872 年购入 Clos des Monts-Luisants；根瘤蚜灾害后，白葡萄地块在 1911 年重新种植 Aligoté。酒庄自 1921 年开始自行装瓶。"
+              },
+              "sources": [
+                "history"
+              ]
+            },
+            {
+              "label": {
+                "en": "Plant material",
+                "zh": "种植材料"
+              },
+              "text": {
+                "en": "A conservatory established in 2018 preserves material from the estate’s 1911 Aligoté and oldest Pinot Noir vines.",
+                "zh": "2018 年建立的种植材料保育园保存酒庄 1911 年 Aligoté 及最老 Pinot Noir 的遗传材料。"
+              },
+              "sources": [
+                "history"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Area & planting",
+                "zh": "面积与种植"
+              },
+              "text": {
+                "en": "1 ha; 85% planted in 1911 and 15% in 2006; 11,000 vines/ha.",
+                "zh": "1 公顷；85% 种于 1911 年，15% 种于 2006 年；密度为每公顷 11,000 株。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Soil",
+                "zh": "土壤"
+              },
+              "text": {
+                "en": "Lean clay and calcareous scree over White Oolite and Dijon-Corton limestone.",
+                "zh": "贫瘠黏土与石灰质碎屑，基岩为 White Oolite 及 Dijon-Corton 石灰岩。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming & yield",
+                "zh": "耕作与产量"
+              },
+              "text": {
+                "en": "Sustainable farming, goblet pruning; target 35 hl/ha and average 4,500 bottles.",
+                "zh": "可持续耕作、杯状整形；目标产量 35 百升/公顷，平均约 4,500 瓶。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Historical reference: 2007",
+                "zh": "历史参照：2007"
+              },
+              "text": {
+                "en": "Vineyard Brands’ Daniel Haas recorded pineapple and lemon-cream fruit, with spice, almond and brioche notes. This historical tasting describes 2007, not every release.",
+                "zh": "Vineyard Brands 的 Daniel Haas 在 2007 年份记录了菠萝、柠檬奶油果味，以及香料、杏仁和布里欧修气息。这是历史年份参照，不代表所有年份。"
+              },
+              "sources": [
+                "tasting07"
+              ]
+            },
+            {
+              "label": {
+                "en": "Current release",
+                "zh": "当前年份"
+              },
+              "text": {
+                "en": "A current-vintage sensory assessment is not supplied by the cited producer sheet.",
+                "zh": "引用的酒庄技术表未提供当前具体年份的品鉴记录。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature",
+                "zh": "温度"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: begin at 11–13°C; reassess texture and aroma as the wine warms.",
+                "zh": "SOMM100 建议：从 11–13°C 开始，随升温观察香气与质地。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Glass & aeration",
+                "zh": "酒杯与透气"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: a medium-to-large white-wine glass. Taste before decanting; aerate gradually if closed. For mature bottles, judge condition individually.",
+                "zh": "SOMM100 建议：中至大杯肚白葡萄酒杯。先试饮，再依封闭程度逐步透气；老年份按实际瓶况处理。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Pairing",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: roast turbot with a light butter sauce; mature examples may suit mushroom-based dishes.",
+                "zh": "SOMM100 建议：烤多宝鱼配轻盈黄油汁；成熟年份可尝试蘑菇类菜肴。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "Cuvée",
+          "composition": "100% Aligoté",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "wine"
+          ],
+          "season": {
+            "en": "Cuvée specifications; the cited technical source is undated. No vintage weather account is supplied.",
+            "zh": "酒款通用参数；引用技术资料未注明年份，未提供对应年份的气候记录。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Harvest & pressing",
+                "zh": "采收与压榨"
+              },
+              "text": {
+                "en": "Manual harvest, vineyard sorting, direct whole-bunch pressing.",
+                "zh": "手工采收、园内分拣、整串直接压榨。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Fermentation",
+                "zh": "发酵"
+              },
+              "text": {
+                "en": "Indigenous yeasts; fermentation begins in temperature-controlled vats and continues in barrels.",
+                "zh": "原生酵母；先在控温罐内启动发酵，再转入桶内。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage",
+                "zh": "熟成"
+              },
+              "text": {
+                "en": "16 months in French oak; no new wood; average barrel age 15 years.",
+                "zh": "法国橡木桶内 16 个月；不用新桶，桶龄平均 15 年。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "Cuvée denotes an undated wine profile, not a non-vintage wine. No current-vintage sulphur, MLF, filtration, closure or analytical specification is confirmed here.",
+          "zh": "Cuvée 表示未限定年份的酒款档案，并非无年份酒。当前具体年份的用硫、MLF、过滤、封口及分析数据尚未确认。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wine",
+          "title": "Domaine Ponsot · Clos des Monts-Luisants",
+          "url": "https://domaine-ponsot.com/produit/morey-saint-denis-monts-luisants-en/",
+          "scope": "Undated cuvée specification / 无明确年份的酒款技术资料"
+        },
+        {
+          "id": "history",
+          "title": "Domaine Ponsot · History",
+          "url": "https://domaine-ponsot.com/en/history/",
+          "scope": "Producer history / 酒庄历史"
+        },
+        {
+          "id": "tasting07",
+          "title": "Vineyard Brands · Daniel Haas tasting, 2007",
+          "url": "https://www.vineyardbrands.com/aspx/..%5CContent%5CTasting%20Notes%5C0053%5C0053-10-01-19-01-56-20-332.pdf",
+          "scope": "Historical 2007 tasting only / 仅作 2007 年份历史品鉴参照"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Morey-Saint-Denis",
+          "url": "#grapes?region=Morey-Saint-Denis%20Premier%20Cru&country=France"
+        }
+      ],
+      "relatedIds": [
+        "dv-bouzeron",
+        "pataille-clos-du-roy-aligote"
+      ],
+      "originalImageUrl": "https://domaine-ponsot.com/wp-content/uploads/2023/07/Morey-Denis-Monts-Luisants.png"
+    },
+    {
+      "id": "lafarge-raisins-dores",
+      "aliases": [
+        "michel-lafarge-raisins-dores",
+        "domaine-michel-lafarge-bourgogne-aligote-raisins-dores"
+      ],
+      "name": "Bourgogne Aligoté Raisins Dorés",
+      "producer": "Domaine Michel Lafarge",
+      "producerUrl": "https://www.domainelafarge.com/",
+      "appellation": "Bourgogne Aligoté AOC",
+      "origin": "France · Burgundy · Côte de Beaune · Volnay",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/lafarge-raisins-dores.png",
+      "imageCredit": "Armit Wines · product bottle image",
+      "imageSource": "https://www.armitwines.co.uk/files/10778.png",
+      "officialUrl": "https://www.beckywasserman.com/domaines/michel-lafarge/bourgogne-aligote-raisins-dores/",
+      "defaultVintage": "Cuvée",
+      "intro": {
+        "en": "An old-vine Aligoté Doré from the Volnay-based Lafarge estate, documented with a 1937 planting date and organic and biodynamic certification.",
+        "zh": "Volnay 的 Lafarge 酒庄所酿老藤 Aligoté Doré，资料列明种植于 1937 年，具有有机及生物动力认证。"
+      },
+      "highlights": [
+        {
+          "en": "Aligoté Doré",
+          "zh": "Aligoté Doré"
+        },
+        {
+          "en": "Planted 1937",
+          "zh": "种植于 1937 年"
+        },
+        {
+          "en": "Organic & biodynamic",
+          "zh": "有机及生物动力"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Estate",
+                "zh": "酒庄"
+              },
+              "text": {
+                "en": "Based in Volnay, Côte de Beaune. The family’s estate also grows Pinot Noir and Chardonnay.",
+                "zh": "酒庄位于 Côte de Beaune 的 Volnay，另种植 Pinot Noir 及 Chardonnay。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Family history",
+                "zh": "家族历史"
+              },
+              "text": {
+                "en": "The 2019 Corney & Barrow report records Frédéric working at the domaine since 1978 and Clothilde joining in 2018; Michel Lafarge died in January 2020.",
+                "zh": "Corney & Barrow 的 2019 年份报告记载 Frédéric 自 1978 年起在酒庄工作，Clothilde 于 2018 年加入；Michel Lafarge 于 2020 年一月去世。"
+              },
+              "sources": [
+                "tasting19"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Parcel",
+                "zh": "地块"
+              },
+              "text": {
+                "en": "0.8 ha, planted in 1937, on deep clay-limestone soil.",
+                "zh": "0.8 公顷，种植于 1937 年，深厚黏土石灰质土壤。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming & propagation",
+                "zh": "耕作与繁育"
+              },
+              "text": {
+                "en": "Ecocert organic and Demeter biodynamic certification; massal selections from the domaine.",
+                "zh": "Ecocert 有机及 Demeter 生物动力认证；采用酒庄自身的混合选种材料。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Historical reference: 2019",
+                "zh": "历史参照：2019"
+              },
+              "text": {
+                "en": "Corney & Barrow describes a flinty, lightly reductive opening, orchard fruit, a peach-like middle palate and a saline finish. The note belongs to the 2019 release.",
+                "zh": "Corney & Barrow 描述 2019 年份以燧石及轻微还原气息开场，带果园水果，中段近白桃，收尾有咸鲜感；此描述仅对应该年份。"
+              },
+              "sources": [
+                "tasting19"
+              ]
+            },
+            {
+              "label": {
+                "en": "Assessment scope",
+                "zh": "品鉴范围"
+              },
+              "text": {
+                "en": "No current-vintage tasting is added without a corresponding source.",
+                "zh": "未取得对应来源的当前年份不另行填入品鉴描述。"
+              },
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature",
+                "zh": "温度"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: begin at 10–12°C; reassess texture and aroma as the wine warms.",
+                "zh": "SOMM100 建议：从 10–12°C 开始，随升温观察香气与质地。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Glass & aeration",
+                "zh": "酒杯与透气"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: a medium-to-large white-wine glass. Taste before decanting; aerate gradually if closed. For mature bottles, judge condition individually.",
+                "zh": "SOMM100 建议：中至大杯肚白葡萄酒杯。先试饮，再依封闭程度逐步透气；老年份按实际瓶况处理。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Pairing",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: pan-fried sole, roast chicken or a mushroom tart; adjust sauce richness to the bottle’s development.",
+                "zh": "SOMM100 建议：煎比目鱼、烤鸡或蘑菇挞；酱汁浓度随瓶中成熟状态调整。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "Cuvée",
+          "composition": "Aligoté Doré",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "wine"
+          ],
+          "season": {
+            "en": "Cuvée specifications; the cited technical source is undated. No vintage weather account is supplied.",
+            "zh": "酒款通用参数；引用技术资料未注明年份，未提供对应年份的气候记录。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Pressing & fermentation",
+                "zh": "压榨与发酵"
+              },
+              "text": {
+                "en": "Whole-cluster pressing and ambient-yeast fermentation.",
+                "zh": "整串压榨，以自然酵母发酵。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage",
+                "zh": "熟成"
+              },
+              "text": {
+                "en": "Wasserman’s cuvée sheet gives 15–18 months in used barrels.",
+                "zh": "Wasserman 酒款表列为旧桶熟成 15–18 个月。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Finishing",
+                "zh": "装瓶前处理"
+              },
+              "text": {
+                "en": "Fining and/or filtration if needed. MLF, lees stirring and analytical values are not listed.",
+                "zh": "必要时澄清及／或过滤。未列 MLF、搅桶及分析检测数值。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "An undated Veritas sheet instead lists tank fermentation and 3–6 months in older barrels. The sources are not reconciled; Wasserman’s 15–18 months is retained with attribution, not imposed on every vintage.",
+          "zh": "另一份未注明年份的 Veritas 技术表列罐中发酵、旧桶熟成 3–6 个月。两者尚未核实统一，本页保留 Wasserman 的 15–18 个月并注明来源，不视为每个年份的固定参数。"
+        },
+        {
+          "en": "The Armit bottle image accompanies its 2022 listing. The profile is cuvée-level; the pictured label does not establish this profile’s vintage.",
+          "zh": "Armit 瓶图来自其 2022 年份页面；本档案为酒款通用记录，图片标签不决定本页年份。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wine",
+          "title": "Becky Wasserman & Co. · Raisins Dorés",
+          "url": "https://www.beckywasserman.com/domaines/michel-lafarge/bourgogne-aligote-raisins-dores/",
+          "scope": "Undated representative cuvée sheet / 代理商通用酒款资料"
+        },
+        {
+          "id": "estate",
+          "title": "Becky Wasserman & Co. · Michel Lafarge",
+          "url": "https://www.beckywasserman.com/domaines/michel-lafarge/",
+          "scope": "Estate location and certification / 酒庄位置与认证"
+        },
+        {
+          "id": "tasting19",
+          "title": "Corney & Barrow · Domaine Lafarge 2019",
+          "url": "https://www.corneyandbarrow.com/domaine-lafarge-en-primeur-2019",
+          "scope": "2019 tasting and historical family context / 2019 品鉴及历史背景"
+        },
+        {
+          "id": "conflict",
+          "title": "Veritas Wines · Raisins Dorés PDF",
+          "url": "https://veritaswine.com/?generate_pdf=1&post_id=6201",
+          "scope": "Undated conflicting cellar specification / 未标年份的差异技术资料"
+        },
+        {
+          "id": "image",
+          "title": "Armit Wines · Raisins Dorés 2022",
+          "url": "https://www.armitwines.co.uk/wine/2022-bourgogne-aligot%C3%A9-raisins-dor%C3%A9s/13406",
+          "scope": "Bottle image only; numerical data not generalized / 仅作瓶图来源"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Bourgogne Aligoté AOC",
+          "url": "#grapes?region=Bourgogne%20Aligot%C3%A9&country=France"
+        }
+      ],
+      "relatedIds": [
+        "dv-bouzeron",
+        "pataille-clos-du-roy-aligote"
+      ],
+      "originalImageUrl": "https://www.armitwines.co.uk/files/10778.png"
+    },
+    {
+      "id": "pataille-clos-du-roy-aligote",
+      "aliases": [
+        "sylvain-pataille-clos-du-roy-aligote",
+        "pataille-aligote-clos-du-roy"
+      ],
+      "name": "Bourgogne Aligoté Clos du Roy",
+      "producer": "Sylvain Pataille",
+      "producerUrl": "https://www.beckywasserman.com/domaines/sylvain-pataille/bourgogne-aligote-clos-du-roy/",
+      "appellation": "Bourgogne Aligoté AOC",
+      "origin": "France · Burgundy · Côte de Nuits · Chenôve",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/pataille-clos-du-roy-aligote.png",
+      "imageCredit": "Thatcher’s Wine · 2020 reference bottle",
+      "imageSource": "https://www.thatcherswine.com/products/2020-domaine-sylvain-pataille-bourgogne-aligote-clos-roy",
+      "officialUrl": "https://www.beckywasserman.com/domaines/sylvain-pataille/bourgogne-aligote-clos-du-roy/",
+      "defaultVintage": "Cuvée",
+      "intro": {
+        "en": "A single-site Aligoté Doré from Clos du Roy in Chenôve, with pre-war vines and extended used-barrel élevage. Its appellation is Bourgogne Aligoté.",
+        "zh": "来自 Chenôve 的 Clos du Roy 单一地块 Aligoté Doré，采用战前老藤及较长的旧桶熟成；法定产区为 Bourgogne Aligoté。"
+      },
+      "highlights": [
+        {
+          "en": "Single site",
+          "zh": "单一地块"
+        },
+        {
+          "en": "1932–1935 plantings",
+          "zh": "1932–1935 年种植"
+        },
+        {
+          "en": "24 months · used barrels",
+          "zh": "24 个月 · 旧桶"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Producer",
+                "zh": "生产者"
+              },
+              "text": {
+                "en": "Pataille began his domaine in 1999 after training in Beaune and Bordeaux and working as an oenologist. He is based in Marsannay.",
+                "zh": "Pataille 在 Beaune、Bordeaux 学习并从事酿酒顾问工作后，于 1999 年创建酒庄，基地位于 Marsannay。"
+              },
+              "sources": [
+                "history"
+              ]
+            },
+            {
+              "label": {
+                "en": "Single-site project",
+                "zh": "单一地块项目"
+              },
+              "text": {
+                "en": "Wasserman dates the separate Aligoté bottlings to the 2013 vintage.",
+                "zh": "Wasserman 记载其 Aligoté 单一地块独立装瓶项目始于 2013 年份。"
+              },
+              "sources": [
+                "tasting"
+              ]
+            },
+            {
+              "label": {
+                "en": "Identity",
+                "zh": "身份区分"
+              },
+              "text": {
+                "en": "Clos du Roy is the site name. This record concerns Bourgogne Aligoté, distinct from Pataille’s Chardonnay and Pinot Noir wines from the same site.",
+                "zh": "Clos du Roy 为地块名称；本档案为 Bourgogne Aligoté，与 Pataille 来自同一地块的 Chardonnay 及 Pinot Noir 酒款分别记录。"
+              },
+              "sources": [
+                "wine",
+                "history"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Area & planting",
+                "zh": "面积与种植"
+              },
+              "text": {
+                "en": "0.18 ha; planted 1932–1935; 270 m elevation.",
+                "zh": "0.18 公顷；种植于 1932–1935 年；海拔 270 米。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Aspect & soil",
+                "zh": "坡向与土壤"
+              },
+              "text": {
+                "en": "Moderate east-to-southeast slope, with iron-rich reddish gravel and calcareous grèzes litées.",
+                "zh": "中等坡度、朝东至东南；土壤含铁，呈浅红色并富含砾石及层状石灰质碎屑。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming",
+                "zh": "耕作"
+              },
+              "text": {
+                "en": "Certified organic, with biodynamic methods.",
+                "zh": "有机认证，采用生物动力耕作方法。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Historical reference",
+                "zh": "历史品鉴参照"
+              },
+              "text": {
+                "en": "Wasserman’s 2016 article describes citrus-led aromas, a silky opening, firm acidity and a tight chalk-like finish. The impression is concentrated and initially reserved.",
+                "zh": "Wasserman 的 2016 年文章描述柑橘主导香气、丝滑入口、鲜明酸度及紧致白垩质感的收尾，整体集中，初开较含蓄。"
+              },
+              "sources": [
+                "tasting"
+              ]
+            },
+            {
+              "label": {
+                "en": "Scope",
+                "zh": "范围"
+              },
+              "text": {
+                "en": "The article discusses the early single-site releases; it does not establish a tasting profile for a current vintage.",
+                "zh": "该文章讨论早期单一地块作品，不能据此认定当前具体年份的品鉴表现。"
+              },
+              "sources": [
+                "tasting"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature",
+                "zh": "温度"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: begin at 11–13°C; reassess texture and aroma as the wine warms.",
+                "zh": "SOMM100 建议：从 11–13°C 开始，随升温观察香气与质地。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Glass & aeration",
+                "zh": "酒杯与透气"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: a medium-to-large white-wine glass. Taste before decanting; aerate gradually if closed. For mature bottles, judge condition individually.",
+                "zh": "SOMM100 建议：中至大杯肚白葡萄酒杯。先试饮，再依封闭程度逐步透气；老年份按实际瓶况处理。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Pairing",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: turbot or scallops with restrained butter sauces; begin with a small pour to assess reduction and acidity.",
+                "zh": "SOMM100 建议：多宝鱼或扇贝配轻盈黄油汁；先倒少量评估还原气息与酸度。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "Cuvée",
+          "composition": "Aligoté Doré",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "wine"
+          ],
+          "season": {
+            "en": "Cuvée specifications; the cited technical source is undated. No vintage weather account is supplied.",
+            "zh": "酒款通用参数；引用技术资料未注明年份，未提供对应年份的气候记录。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Pressing & yeast",
+                "zh": "压榨与酵母"
+              },
+              "text": {
+                "en": "Vertical pressing; ambient-yeast fermentation.",
+                "zh": "立式压榨；自然酵母发酵。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage",
+                "zh": "熟成"
+              },
+              "text": {
+                "en": "24 months in used 350-litre barrels.",
+                "zh": "350 升旧桶熟成 24 个月。"
+              },
+              "sources": [
+                "wine"
+              ]
+            },
+            {
+              "label": {
+                "en": "Sulphur",
+                "zh": "二氧化硫"
+              },
+              "text": {
+                "en": "Minimal addition at bottling; dose and analytical sulphur values are not supplied.",
+                "zh": "装瓶时少量添加；未列用量或二氧化硫检测数值。"
+              },
+              "sources": [
+                "wine"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "No verified cuvée-specific producer/importer bottle image was obtained. No standalone producer website was verified; representative sources remain available below.",
+          "zh": "尚未取得可核实的此款酒专属酒庄／进口商瓶图；未核实独立酒庄官网，可使用下列代理商资料。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wine",
+          "title": "Becky Wasserman & Co. · Aligoté Clos du Roy",
+          "url": "https://www.beckywasserman.com/domaines/sylvain-pataille/bourgogne-aligote-clos-du-roy/",
+          "scope": "Undated cuvée specification / 无明确年份的酒款技术资料"
+        },
+        {
+          "id": "history",
+          "title": "Vine Trail · Sylvain Pataille",
+          "url": "https://www.vinetrail.co.uk/growers/sylvain-pataille/",
+          "scope": "Producer history; distinct wines from Clos du Roy / 生产者历史及同园酒款区分"
+        },
+        {
+          "id": "tasting",
+          "title": "Becky Wasserman & Co. · Single-Vineyard Aligotés, 2016",
+          "url": "https://www.beckywasserman.com/domaines/sylvain-pataille/sylvain-patailles-single-vineyard-aligote-dores/",
+          "scope": "Historical project account and tasting / 历史项目及品鉴记录"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Bourgogne Aligoté AOC",
+          "url": "#grapes?region=Bourgogne%20Aligot%C3%A9&country=France"
+        }
+      ],
+      "relatedIds": [
+        "pataille-bourgogne-aligote",
+        "ponsot-monts-luisants",
+        "lafarge-raisins-dores"
+      ],
+      "originalImageUrl": "https://www.thatcherswine.com/cdn/shop/files/Le-13312465_1800x1800.jpg?v=1716326210"
+    },
+    {
+      "id": "pataille-bourgogne-aligote",
+      "aliases": [
+        "sylvain-pataille-bourgogne-aligote"
+      ],
+      "name": "Bourgogne Aligoté",
+      "producer": "Sylvain Pataille",
+      "producerUrl": "https://www.skurnik.com/sku/bourgogne-aligote-domaine-sylvain-pataille-3/",
+      "appellation": "Bourgogne Aligoté AOC",
+      "origin": "France · Burgundy · Côte de Nuits · Marsannay",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/pataille-bourgogne-aligote.png",
+      "imageCredit": "Skurnik Wines & Spirits · importer bottle image",
+      "imageSource": "https://www.skurnik.com/wp-content/uploads/2019/07/bourgogne-aligote-domaine-sylvain-pataille-2-840x501.png",
+      "officialUrl": "https://www.skurnik.com/sku/bourgogne-aligote-domaine-sylvain-pataille-3/",
+      "defaultVintage": "2023",
+      "intro": {
+        "en": "The estate’s blended Aligoté Doré. Skurnik’s 2023 sheet identifies Champ Forey and Auvonnes as its sources; source and cellar details are kept vintage-specific.",
+        "zh": "酒庄的多地块 Aligoté Doré。Skurnik 的 2023 年份资料列 Champ Forey 与 Auvonnes 为来源；葡萄来源及酿造数据按年份分别记录。"
+      },
+      "highlights": [
+        {
+          "en": "Aligoté Doré",
+          "zh": "Aligoté Doré"
+        },
+        {
+          "en": "Multi-parcel cuvée",
+          "zh": "多地块酒款"
+        },
+        {
+          "en": "2023 technical reference",
+          "zh": "2023 技术参照"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Producer",
+                "zh": "生产者"
+              },
+              "text": {
+                "en": "Pataille is a Marsannay grower and consulting oenologist. His work includes both blended and single-site Aligoté bottlings.",
+                "zh": "Pataille 是 Marsannay 的种植酿酒者及酿酒顾问，其 Aligoté 系列同时包含多地块及单一地块酒款。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming",
+                "zh": "耕作"
+              },
+              "text": {
+                "en": "Wasserman records Ecocert organic certification from 2008 and biodynamic methods; Skurnik describes the 2023 wine as practising biodynamic.",
+                "zh": "Wasserman 记载 2008 年起获 Ecocert 有机认证，并采用生物动力方法；Skurnik 将 2023 酒款标为实践生物动力耕作。"
+              },
+              "sources": [
+                "estate",
+                "wine23"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "2023 sources",
+                "zh": "2023 来源"
+              },
+              "text": {
+                "en": "60% Champ Forey: limestone and gravel. 40% Auvonnes: clay, marl and small stones. The importer lists vines over 50 years old.",
+                "zh": "60% 来自 Champ Forey，石灰质及砾石土；40% 来自 Auvonnes，黏土、泥灰岩及小石块。进口商列藤龄超过 50 年。"
+              },
+              "sources": [
+                "wine23"
+              ]
+            },
+            {
+              "label": {
+                "en": "2022 sources",
+                "zh": "2022 来源"
+              },
+              "text": {
+                "en": "Bibendum instead records half from Marsannay and half from Échevronne in the Hautes Côtes. This is retained as 2022 information.",
+                "zh": "Bibendum 对 2022 年份记录为一半来自 Marsannay，另一半来自 Hautes Côtes 的 Échevronne；仅作该年份记录。"
+              },
+              "sources": [
+                "wine22"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "2022 reference",
+                "zh": "2022 参照"
+              },
+              "text": {
+                "en": "Bibendum describes depth and energy. Its reproduced critic notes add ripe yellow fruit, saline accents and an almond nuance, with a persistent finish.",
+                "zh": "Bibendum 强调深度与活力；其转引酒评另提到成熟黄色果实、咸鲜气息及杏仁细节，余味持久。"
+              },
+              "sources": [
+                "wine22"
+              ]
+            },
+            {
+              "label": {
+                "en": "2023 scope",
+                "zh": "2023 范围"
+              },
+              "text": {
+                "en": "Skurnik’s 2023 technical page does not publish a prose tasting note; the 2022 description is not relabelled as 2023.",
+                "zh": "Skurnik 的 2023 技术页面未发布文字品鉴描述；2022 的描述不移用为 2023。"
+              },
+              "sources": [
+                "wine23"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature",
+                "zh": "温度"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: begin at 10–12°C; reassess texture and aroma as the wine warms.",
+                "zh": "SOMM100 建议：从 10–12°C 开始，随升温观察香气与质地。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Glass & aeration",
+                "zh": "酒杯与透气"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: a medium-to-large white-wine glass. Taste before decanting; aerate gradually if closed. For mature bottles, judge condition individually.",
+                "zh": "SOMM100 建议：中至大杯肚白葡萄酒杯。先试饮，再依封闭程度逐步透气；老年份按实际瓶况处理。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Pairing",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: grilled prawns, gougères or a lemon-dressed fish dish; keep acidity in the sauce proportionate.",
+                "zh": "SOMM100 建议：烤虾、奶酪泡芙或少量柠檬调味的鱼类；注意酱汁酸度的比例。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "2023",
+          "composition": "100% Aligoté",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "750 mL",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "wine23"
+          ],
+          "season": {
+            "en": "The importer specifies the 2023 vintage but gives no weather or harvest-date report.",
+            "zh": "进口商明确标注 2023 年份，但未列气候或采收日期报告。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Yeast",
+                "zh": "酵母"
+              },
+              "text": {
+                "en": "Indigenous yeast fermentation.",
+                "zh": "原生酵母发酵。"
+              },
+              "sources": [
+                "wine23"
+              ]
+            },
+            {
+              "label": {
+                "en": "Vessels & élevage",
+                "zh": "容器与熟成"
+              },
+              "text": {
+                "en": "Two-thirds foudre, one-third older barrels; 12 months.",
+                "zh": "三分之二大型木桶、三分之一旧小桶；熟成 12 个月。"
+              },
+              "sources": [
+                "wine23"
+              ]
+            },
+            {
+              "label": {
+                "en": "Sulphur",
+                "zh": "二氧化硫"
+              },
+              "text": {
+                "en": "Minimal addition only at bottling.",
+                "zh": "仅在装瓶时少量添加。"
+              },
+              "sources": [
+                "wine23"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "composition": "Aligoté Doré",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "750 mL",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "wine22"
+          ],
+          "season": {
+            "en": "The 2022 importer page records vineyard sourcing and cellar sequence but no season account.",
+            "zh": "2022 进口商页面列葡萄来源及酒窖流程，未提供季节气候记录。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Fermentation",
+                "zh": "发酵"
+              },
+              "text": {
+                "en": "Natural fermentation in stainless steel.",
+                "zh": "不锈钢罐内自然发酵。"
+              },
+              "sources": [
+                "wine22"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage",
+                "zh": "熟成"
+              },
+              "text": {
+                "en": "Old foudre, followed by four months in stainless steel before bottling; total duration is not stated.",
+                "zh": "旧大型木桶熟成，装瓶前再回不锈钢罐四个月；未列总熟成时间。"
+              },
+              "sources": [
+                "wine22"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "The undated Wasserman sheet gives 66% used barrels and 33% tank, unlike Skurnik’s 2023 foudre/barrel proportions. These descriptions are not combined. Differences in fruit sourcing across importer pages require vintage-by-vintage verification.",
+          "zh": "未标年份的 Wasserman 技术表列 66% 旧桶、33% 罐，与 Skurnik 2023 的大木桶／旧小桶比例不同，两种资料不合并。不同进口商页面的葡萄来源差异需逐年份核对。"
+        },
+        {
+          "en": "No standalone producer homepage was verified. The photograph is the importer’s cuvée image and may show another vintage.",
+          "zh": "未核实独立酒庄官网。照片为进口商酒款示意图，可能显示其他年份。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wine23",
+          "title": "Skurnik · Bourgogne Aligoté 2023",
+          "url": "https://www.skurnik.com/sku/bourgogne-aligote-domaine-sylvain-pataille-3/",
+          "scope": "2023 technical specification / 2023 技术资料"
+        },
+        {
+          "id": "estate",
+          "title": "Becky Wasserman & Co. · Sylvain Pataille",
+          "url": "https://www.beckywasserman.com/domaines/sylvain-pataille/",
+          "scope": "Producer and farming profile / 酒庄与耕作档案"
+        },
+        {
+          "id": "wine22",
+          "title": "Bibendum · Bourgogne Aligoté 2022",
+          "url": "https://www.bibendum.com.au/collections/aligote/products/sylvain-pataille-bourgogne-aligote-2022",
+          "scope": "2022 source and cellar details; reproduced critic notes / 2022 来源及酿造，含转引酒评"
+        },
+        {
+          "id": "undated",
+          "title": "Becky Wasserman & Co. · Bourgogne Aligoté",
+          "url": "https://www.beckywasserman.com/domaines/sylvain-pataille/bourgogne-aligote/",
+          "scope": "Undated alternative vessel specification / 未标年份的容器说明"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Bourgogne Aligoté AOC",
+          "url": "#grapes?region=Bourgogne%20Aligot%C3%A9&country=France"
+        }
+      ],
+      "relatedIds": [
+        "pataille-clos-du-roy-aligote",
+        "dv-bouzeron",
+        "lafarge-raisins-dores"
+      ],
+      "originalImageUrl": "https://www.skurnik.com/wp-content/uploads/2019/07/bourgogne-aligote-domaine-sylvain-pataille-2-840x501.png"
+    },
+    {
+      "id": "mdangerville-aligote",
+      "aliases": [],
+      "name": "Bourgogne Aligoté",
+      "producer": "Domaine Marquis d’Angerville",
+      "producerUrl": "https://www.domainedangerville.fr/",
+      "appellation": "Bourgogne Aligoté AOC",
+      "origin": "France · Burgundy · Côte de Beaune · Volnay",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/mdangerville-aligote.png",
+      "imageCredit": "Domaine Marquis d’Angerville",
+      "imageSource": "https://www.domainedangerville.fr/bourgogne-aligote/",
+      "officialUrl": "https://www.domainedangerville.fr/bourgogne-aligote/",
+      "defaultVintage": "Cuvée",
+      "intro": {
+        "en": "Aligoté from Monpoulain, on the flatter eastern side of Volnay. Firm acidity defines this regional white from a domaine best known for Volnay.",
+        "zh": "来自 Volnay 东部平缓地带 Monpoulain 的 Aligoté。以清晰酸度为骨架，是以 Volnay 闻名的酒庄所酿的地区级白葡萄酒。"
+      },
+      "highlights": [
+        {
+          "en": "Monpoulain",
+          "zh": "Monpoulain"
+        },
+        {
+          "en": "Volnay",
+          "zh": "Volnay"
+        },
+        {
+          "en": "Clay-rich soils",
+          "zh": "富含黏土的土壤"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Classification",
+                "zh": "级别"
+              },
+              "text": {
+                "en": "Bourgogne Aligoté; the vineyard’s location in Volnay does not make this a Volnay appellation wine.",
+                "zh": "Bourgogne Aligoté；葡萄园位于 Volnay，不代表酒款使用 Volnay 法定产区名称。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Farming",
+                "zh": "耕作"
+              },
+              "text": {
+                "en": "The domaine completed its conversion to biodynamic farming in 2009.",
+                "zh": "酒庄于 2009 年完成生物动力耕作转换。"
+              },
+              "sources": [
+                "farming"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Parcels",
+                "zh": "地块"
+              },
+              "text": {
+                "en": "Two Monpoulain parcels totalled about 0.40 ha; an adjoining 0.22 ha was acquired in 2019.",
+                "zh": "Monpoulain 原有两块葡萄园合计约 0.40 公顷；2019 年增购相邻约 0.22 公顷。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Soil & position",
+                "zh": "土壤与位置"
+              },
+              "text": {
+                "en": "Eastern Volnay, off the hillside; relatively deep soils, high in clay and low in limestone.",
+                "zh": "Volnay 东部，非山坡地；土层较深、黏土比例高，石灰质较少。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Structure",
+                "zh": "结构"
+              },
+              "text": {
+                "en": "The producer emphasises pronounced acidity and an aromatic character; no detailed vintage tasting note is supplied.",
+                "zh": "酒庄强调突出的酸度与芳香特征；未提供具体年份的详细品鉴描述。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature & glass",
+                "zh": "温度与酒杯"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: 10–12°C; a white-wine glass. Taste before deciding on aeration.",
+                "zh": "SOMM100 建议：10–12°C；白葡萄酒杯。试饮后决定透气程度。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: oysters, grilled white fish, or a fresh goat-cheese salad.",
+                "zh": "SOMM100 建议：牡蛎、烤白肉鱼或新鲜山羊奶酪沙拉。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "Cuvée",
+          "composition": "Aligoté",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "estate"
+          ],
+          "season": {
+            "en": "Cuvée-level information; no single vintage is implied.",
+            "zh": "酒款通用资料，不对应单一年份。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Vinification",
+                "zh": "酿造"
+              },
+              "text": {
+                "en": "No Aligoté-specific cellar specification is published on the cited wine page.",
+                "zh": "所引酒款页面未列 Aligoté 专属的酿造技术参数。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "The domaine’s general cellar page principally describes red-wine extraction. Its 18-month élevage and premier-cru new-oak figures are not assigned to this Aligoté.",
+          "zh": "酒庄通用酿造页面主要描述红葡萄酒浸提，因此不将其中 18 个月熟成及一级园新桶比例套用于此 Aligoté。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "estate",
+          "title": "Domaine Marquis d’Angerville · Bourgogne Aligoté",
+          "url": "https://www.domainedangerville.fr/bourgogne-aligote/",
+          "scope": "Undated cuvée profile / 酒款通用档案"
+        },
+        {
+          "id": "farming",
+          "title": "Domaine Marquis d’Angerville · Notre philosophie",
+          "url": "https://www.domainedangerville.fr/notre-philosophie/",
+          "scope": "Estate farming practices / 酒庄耕作"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Bourgogne Aligoté AOC",
+          "url": "#grapes?region=Bourgogne%20Aligot%C3%A9"
+        }
+      ],
+      "relatedIds": [
+        "pierre-morey-aligote",
+        "roulot-aligote"
+      ],
+      "originalImageUrl": "https://www.domainedangerville.fr/wp-content/uploads/2019/05/Domaine-Marquis-dAngerville-Bourgogne-Aligot%C3%A9.jpg"
+    },
+    {
+      "id": "roulot-aligote",
+      "aliases": [],
+      "name": "Bourgogne Aligoté",
+      "producer": "Domaine Roulot",
+      "producerUrl": "https://kermitlynch.com/grower/domaine-roulot",
+      "appellation": "Bourgogne Aligoté AOC",
+      "origin": "France · Burgundy · Côte de Beaune",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/roulot-aligote.png",
+      "imageCredit": "The Wise Old Dog · reference bottle",
+      "imageSource": "https://thewiseolddog.com/products/domaine-roulot-bourgogne-aligote-2022",
+      "officialUrl": "https://kermitlynch.com/wine/domaine-roulot/668/RO15",
+      "defaultVintage": "Cuvée",
+      "intro": {
+        "en": "Roulot’s regional Aligoté provides a stainless-steel reference in the importer’s undated technical record: fermentation and approximately one year of maturation in tank.",
+        "zh": "按进口商未标年份的技术档案，Roulot 的地区级 Aligoté 是不锈钢酿造的参考：在罐中发酵并熟成约一年。"
+      },
+      "highlights": [
+        {
+          "en": "Aligoté",
+          "zh": "Aligoté"
+        },
+        {
+          "en": "Stainless steel",
+          "zh": "不锈钢罐"
+        },
+        {
+          "en": "Malolactic fermentation",
+          "zh": "苹果酸乳酸发酵"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Producer",
+                "zh": "生产者"
+              },
+              "text": {
+                "en": "Jean-Marc Roulot took charge of the family domaine in 1989.",
+                "zh": "Jean-Marc Roulot 于 1989 年接掌家族酒庄。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Soil",
+                "zh": "土壤"
+              },
+              "text": {
+                "en": "Clay and limestone. The importer lists organic certification.",
+                "zh": "黏土与石灰岩；进口商列有有机认证。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Vines",
+                "zh": "葡萄藤"
+              },
+              "text": {
+                "en": "The undated importer sheet gives a 20–80-year vine-age range; this is a source-period figure.",
+                "zh": "未标年份的进口商资料列藤龄 20–80 年；此为资料记录时的范围。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Assessment",
+                "zh": "品鉴关注"
+              },
+              "text": {
+                "en": "SOMM100 tasting focus: assess acidity, fruit definition and lees texture. A cuvée-specific tasting note remains to be documented.",
+                "zh": "SOMM100 品鉴关注：酸度、果味清晰度与酒泥质地。具体酒款品鉴记录待补。"
+              },
+              "sources": []
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature & glass",
+                "zh": "温度与酒杯"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: 10–12°C; a white-wine glass. Taste before deciding on aeration.",
+                "zh": "SOMM100 建议：10–12°C；白葡萄酒杯。试饮后决定透气程度。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: shellfish or gently cooked white fish.",
+                "zh": "SOMM100 建议：贝类或清淡烹调的白肉鱼。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "Cuvée",
+          "composition": "Aligoté",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "estate"
+          ],
+          "season": {
+            "en": "Cuvée-level information; no single vintage is implied.",
+            "zh": "酒款通用资料，不对应单一年份。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Fermentation",
+                "zh": "发酵"
+              },
+              "text": {
+                "en": "Stainless steel; malolactic fermentation takes place.",
+                "zh": "不锈钢罐发酵；进行苹果酸乳酸发酵。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Lees & élevage",
+                "zh": "酒泥与熟成"
+              },
+              "text": {
+                "en": "Light lees stirring every three to four weeks until MLF; stainless-steel ageing, bottled after one year.",
+                "zh": "MLF 前每三至四周轻搅酒泥；在不锈钢罐中熟成，一年后装瓶。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "This is an undated importer specification, not a guarantee of identical vessels or ageing for every vintage. Current analytical data are not supplied.",
+          "zh": "此为未标年份的进口商技术资料，不代表每个年份的容器及熟成都完全相同；未提供当前年份分析数据。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "estate",
+          "title": "Kermit Lynch · Domaine Roulot technical sheet",
+          "url": "https://kermitlynch.com/files/domaine-roulot.pdf",
+          "scope": "Undated importer technical sheet / 未标年份的进口商技术表"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Bourgogne Aligoté AOC",
+          "url": "#grapes?region=Bourgogne%20Aligot%C3%A9"
+        }
+      ],
+      "relatedIds": [
+        "pierre-morey-aligote",
+        "sylvain-morey-aligote"
+      ],
+      "originalImageUrl": "https://thewiseolddog.com/cdn/shop/files/6436312C-1B0F-4367-AA89-CAAB05DF5671.jpg?v=1729114449&width=1500"
+    },
+    {
+      "id": "pierre-morey-aligote",
+      "aliases": [],
+      "name": "Bourgogne Aligoté",
+      "producer": "Domaine Pierre Morey",
+      "producerUrl": "https://www.morey-meursault.fr/",
+      "appellation": "Bourgogne Aligoté AOC",
+      "origin": "France · Burgundy · Côte de Beaune · Meursault",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/pierre-morey-aligote.png",
+      "imageCredit": "Domaine Pierre Morey",
+      "imageSource": "https://www.morey-meursault.fr/en/wine/bourgogne-aligote/",
+      "officialUrl": "https://www.morey-meursault.fr/en/wine/bourgogne-aligote/",
+      "defaultVintage": "Cuvée",
+      "intro": {
+        "en": "A regional Aligoté entirely from the Meursault commune. The domaine describes a fresh, dry, moderately weighted white with the capacity to develop in bottle.",
+        "zh": "葡萄全部来自 Meursault 村的地区级 Aligoté。酒庄描述其清新、干型、酒体适中，并具瓶陈潜力。"
+      },
+      "highlights": [
+        {
+          "en": "Meursault vineyards",
+          "zh": "Meursault 葡萄园"
+        },
+        {
+          "en": "1.86 ha",
+          "zh": "1.86 公顷"
+        },
+        {
+          "en": "12 months",
+          "zh": "12 个月"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Classification",
+                "zh": "级别"
+              },
+              "text": {
+                "en": "Domaine Pierre Morey; Bourgogne Aligoté regional appellation.",
+                "zh": "Domaine Pierre Morey；Bourgogne Aligoté 地区级法定产区。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Area & planting",
+                "zh": "面积与种植"
+              },
+              "text": {
+                "en": "1.86 ha; the estate gives 1969 as the average planting year.",
+                "zh": "1.86 公顷；酒庄所列平均种植年份为 1969 年。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Location & soil",
+                "zh": "位置与土壤"
+              },
+              "text": {
+                "en": "All parcels are in Meursault, with relatively deep clay and chalk soils.",
+                "zh": "全部地块位于 Meursault，土层较深，为黏土与白垩质土壤。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Style",
+                "zh": "风格"
+              },
+              "text": {
+                "en": "Dry, fresh and fruit-driven, with good acidity and moderate weight. The domaine notes ageing potential beyond early drinking.",
+                "zh": "干型，清新而突出果味，酸度良好、酒体适中；酒庄指出可在年轻时饮用，也具继续陈年的潜力。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature & glass",
+                "zh": "温度与酒杯"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: 10–12°C; a white-wine glass. Taste before deciding on aeration.",
+                "zh": "SOMM100 建议：10–12°C；白葡萄酒杯。试饮后决定透气程度。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: river fish, shellfish, or a light cream sauce.",
+                "zh": "SOMM100 建议：淡水鱼、贝类或轻盈奶油汁菜肴。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "Cuvée",
+          "composition": "Aligoté",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "estate"
+          ],
+          "season": {
+            "en": "Cuvée-level information; no single vintage is implied.",
+            "zh": "酒款通用资料，不对应单一年份。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Élevage",
+                "zh": "熟成"
+              },
+              "text": {
+                "en": "Twelve months, mostly in tanks, to retain freshness and fruit.",
+                "zh": "熟成 12 个月，主要使用罐体，以保留清新感和果味。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "The general profile says tanks, not specifically stainless steel. Vessel proportions vary in the vintage notes; no fixed oak percentage is assigned here.",
+          "zh": "通用档案写的是罐体，并未指定不锈钢。年份资料显示容器比例可能变化，因此此处不设置固定橡木比例。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "estate",
+          "title": "Domaine Pierre Morey · Bourgogne Aligoté",
+          "url": "https://www.morey-meursault.fr/en/wine/bourgogne-aligote/",
+          "scope": "Estate cuvée profile / 酒庄通用档案"
+        },
+        {
+          "id": "sheet",
+          "title": "Domaine Pierre Morey · technical sheet",
+          "url": "https://www.morey-meursault.fr/fichiers/bourgogne-aligote-pierre-morey-en.pdf",
+          "scope": "Undated estate sheet / 未标年份的酒庄技术表"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Bourgogne Aligoté AOC",
+          "url": "#grapes?region=Bourgogne%20Aligot%C3%A9"
+        }
+      ],
+      "relatedIds": [
+        "roulot-aligote",
+        "mdangerville-aligote"
+      ],
+      "originalImageUrl": "https://www.morey-meursault.fr/fichiers/vin-pierre-morey-10.jpg"
+    },
+    {
+      "id": "naudin-clou34",
+      "aliases": [],
+      "name": "Le Clou 34",
+      "producer": "Domaine Naudin-Ferrand",
+      "producerUrl": "https://naudin-ferrand.fr/",
+      "appellation": "Vin de France",
+      "origin": "France · Burgundy · Corgoloin & Hautes-Côtes",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/naudin-clou34.png",
+      "imageCredit": "Juice Imports · reference bottle 2022",
+      "imageSource": "https://www.juiceimports.com/claire-naudin",
+      "officialUrl": "https://naudin-ferrand.fr/nos-vins/",
+      "defaultVintage": "2023",
+      "intro": {
+        "en": "Claire Naudin’s old-vine Aligoté, sold as Vin de France. Le Clou 34 takes its name from a Corgoloin parcel planted in 1934.",
+        "zh": "Claire Naudin 的老藤 Aligoté，以 Vin de France 标示。Le Clou 34 得名于 Corgoloin 一块种于 1934 年的葡萄园。"
+      },
+      "highlights": [
+        {
+          "en": "100% Aligoté",
+          "zh": "100% Aligoté"
+        },
+        {
+          "en": "Vin de France",
+          "zh": "Vin de France"
+        },
+        {
+          "en": "1934 parcel",
+          "zh": "1934 年地块"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Producer",
+                "zh": "生产者"
+              },
+              "text": {
+                "en": "Claire Naudin has managed the family domaine since 1994.",
+                "zh": "Claire Naudin 自 1994 年起管理家族酒庄。"
+              },
+              "sources": [
+                "importer"
+              ]
+            },
+            {
+              "label": {
+                "en": "Classification",
+                "zh": "级别"
+              },
+              "text": {
+                "en": "Vin de France; not Bourgogne Aligoté AOC.",
+                "zh": "Vin de France；不是 Bourgogne Aligoté AOC。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Parcels",
+                "zh": "地块"
+              },
+              "text": {
+                "en": "Le Clou in Corgoloin, plus five other parcels in 2023; shallow clay-limestone soils, facing east.",
+                "zh": "2023 年包括 Corgoloin 的 Le Clou 及另外五处地块；浅薄黏土石灰岩土壤，朝东。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Old vines",
+                "zh": "老藤"
+              },
+              "text": {
+                "en": "The importer identifies La Croix (1953), Egoulotte (1945) and Les Tilles (1935, 1948, 1953) among the contributing sites.",
+                "zh": "进口商列出的其他来源包括 La Croix（1953）、Egoulotte（1945）及 Les Tilles（1935、1948、1953）。"
+              },
+              "sources": [
+                "importer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Style",
+                "zh": "风格"
+              },
+              "text": {
+                "en": "The estate describes passion-fruit aromas with development, a rounded palate and a saline finish.",
+                "zh": "酒庄描述其陈年后出现百香果香气，口感圆润，余味带咸鲜感。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature & aeration",
+                "zh": "温度与透气"
+              },
+              "text": {
+                "en": "10–12°C; decant if needed to release dissolved gas.",
+                "zh": "10–12°C；如有需要，可醒酒以释放溶解气体。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "The estate suggests scallops, raw fish or spring asparagus.",
+                "zh": "酒庄建议搭配扇贝、生鱼或春季芦笋。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "2023",
+          "composition": "100% Aligoté",
+          "abv": "12.14%",
+          "acidity": "3.92 g/L*",
+          "rs": "< 0.3 g/L",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Parramon cork, 49 mm",
+            "zh": "Parramon 软木塞，49 毫米"
+          },
+          "sources": [
+            "estate"
+          ],
+          "season": {
+            "en": "Harvest: 8–16 September 2023. Bottled 18 November 2024.",
+            "zh": "采收：2023 年 9 月 8–16 日。装瓶：2024 年 11 月 18 日。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Pressing & fermentation",
+                "zh": "压榨与发酵"
+              },
+              "text": {
+                "en": "Hand harvested; slow whole-bunch pressing without added sulfites. Indigenous alcoholic and malolactic fermentations.",
+                "zh": "手工采收，整串缓慢压榨且不添加亚硫酸盐；原生酵母及细菌完成酒精发酵与 MLF。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage & bottling",
+                "zh": "熟成与装瓶"
+              },
+              "text": {
+                "en": "Extended lees ageing; gravity bottling without filtration; a small sulfite addition at bottling.",
+                "zh": "长时间带酒泥熟成；重力装瓶，不过滤；装瓶时少量添加亚硫酸盐。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "*Total acidity is reproduced as reported. The producer sheet does not identify its acid-equivalent basis; compare with other wines only after confirming the unit convention.",
+          "zh": "*总酸按酒庄原值记录。技术表未注明酸当量基准，与其他酒款比较前须确认单位口径。"
+        },
+        {
+          "en": "Reference photograph shows 2022; technical data on this page are for 2023. “Fermented without sulfites” does not mean no sulfites were added at bottling.",
+          "zh": "参考瓶图为 2022 年；本页技术数据对应 2023 年。“发酵不加亚硫酸盐”不等于装瓶时也没有添加。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "estate",
+          "title": "Domaine Naudin-Ferrand · Le Clou 34 2023",
+          "url": "https://naudin-ferrand.fr/wp-content/uploads/2025/10/CLOU-34-23.pdf",
+          "scope": "2023 estate technical sheet / 2023 酒庄技术表"
+        },
+        {
+          "id": "importer",
+          "title": "Juice Imports · Claire Naudin",
+          "url": "https://www.juiceimports.com/claire-naudin",
+          "scope": "Producer history and vineyard context / 酒庄历史与地块资料"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Burgundy",
+          "url": "#grapes?region=Burgundy"
+        }
+      ],
+      "relatedIds": [
+        "pataille-clos-du-roy-aligote",
+        "lafarge-raisins-dores"
+      ],
+      "originalImageUrl": "https://images.squarespace-cdn.com/content/v1/57a8bd74d482e9bbf170816e/aca68e52-c398-4427-a3d4-b52a762dfe9d/CLAIRE+NAUDIN+LE+CLOU+34+ALIGOTE+2022.jpg?format=750w"
+    },
+    {
+      "id": "sylvain-morey-aligote",
+      "aliases": [],
+      "name": "Bourgogne Aligoté",
+      "producer": "Sylvain Morey",
+      "producerUrl": "https://www.sylvainmorey.com/bourgogne/",
+      "appellation": "Bourgogne Aligoté AOC",
+      "origin": "France · Burgundy · Côte de Beaune · Chassagne-Montrachet",
+      "country": "France",
+      "grapeIds": [
+        "aligote"
+      ],
+      "type": {
+        "en": "Dry white",
+        "zh": "干型白葡萄酒"
+      },
+      "image": "/media/wines/sylvain-morey-aligote.png",
+      "imageCredit": "Sylvain Morey",
+      "imageSource": "https://www.sylvainmorey.com/wines/bourgogne-aligote-2023/",
+      "officialUrl": "https://www.sylvainmorey.com/wines/bourgogne-aligote-2023/",
+      "defaultVintage": "2023",
+      "intro": {
+        "en": "An Aligoté from Chassagne-Montrachet, fermented in used 350-litre barrels and given extended lees ageing. A reference for Aligoté with barrel-derived texture without new oak.",
+        "zh": "来自 Chassagne-Montrachet，在使用过的 350 升桶中发酵并长时间带酒泥熟成，体现 Aligoté 在不使用新桶的情况下形成的桶酿质地。"
+      },
+      "highlights": [
+        {
+          "en": "Planted 1997",
+          "zh": "种植于 1997 年"
+        },
+        {
+          "en": "350 L barrels",
+          "zh": "350 升桶"
+        },
+        {
+          "en": "0% new oak",
+          "zh": "0% 新桶"
+        },
+        {
+          "en": "18 months on lees",
+          "zh": "带酒泥 18 个月"
+        }
+      ],
+      "sections": [
+        {
+          "id": "wine",
+          "title": {
+            "en": "Wine & producer",
+            "zh": "酒款与生产者"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Producer",
+                "zh": "生产者"
+              },
+              "text": {
+                "en": "Sylvain and Caroline inherited their father Jean-Marc Morey’s vineyards in stages in 2014 and 2016, establishing separate domaines.",
+                "zh": "Sylvain 与 Caroline 于 2014、2016 年分阶段继承父亲 Jean-Marc Morey 的葡萄园，并分别建立酒庄。"
+              },
+              "sources": [
+                "history"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vineyard",
+          "title": {
+            "en": "Vineyard & viticulture",
+            "zh": "葡萄园与种植"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Site",
+                "zh": "位置"
+              },
+              "text": {
+                "en": "0.2665 ha in Chassagne-Montrachet; 210 m, east-facing, clay-limestone.",
+                "zh": "Chassagne-Montrachet 的 0.2665 公顷地块；海拔 210 米、朝东、黏土石灰岩。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Planting",
+                "zh": "种植"
+              },
+              "text": {
+                "en": "Planted in 1997 with clonal Aligoté; 10,000 vines/ha; trellised Guyot.",
+                "zh": "1997 年种植的 Aligoté 克隆选系；每公顷 10,000 株，采用架式 Guyot。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting profile",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Style",
+                "zh": "风格"
+              },
+              "text": {
+                "en": "The producer presents this cuvée around freshness. Its 2023 assessment stresses balance and finesse rather than excess ripeness.",
+                "zh": "酒庄以清新感描述此酒；对 2023 年份的评价强调平衡与细腻，而非过熟感。"
+              },
+              "sources": [
+                "history",
+                "estate"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Temperature & glass",
+                "zh": "温度与酒杯"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: 10–12°C; a white-wine glass. Taste before deciding on aeration.",
+                "zh": "SOMM100 建议：10–12°C；白葡萄酒杯。试饮后决定透气程度。"
+              },
+              "sources": []
+            },
+            {
+              "label": {
+                "en": "Food",
+                "zh": "配餐"
+              },
+              "text": {
+                "en": "SOMM100 suggestion: roast white fish, mushrooms, or poultry with a light sauce.",
+                "zh": "SOMM100 建议：烤白肉鱼、蘑菇或配轻盈酱汁的禽肉。"
+              },
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "vintages": [
+        {
+          "year": "2023",
+          "composition": "Aligoté",
+          "abv": "—",
+          "acidity": "—",
+          "rs": "—",
+          "ph": "—",
+          "bottle": "—",
+          "closure": {
+            "en": "Not specified",
+            "zh": "未列"
+          },
+          "sources": [
+            "estate"
+          ],
+          "season": {
+            "en": "The producer describes alternating rain and wind without sustained extremes, followed by hot harvest conditions around 10 September.",
+            "zh": "酒庄描述生长季雨水与风交替出现、没有持续极端天气；9 月 10 日前后采收时气温较高。"
+          },
+          "rows": [
+            {
+              "label": {
+                "en": "Pressing & fermentation",
+                "zh": "压榨与发酵"
+              },
+              "text": {
+                "en": "Hand harvest; direct whole-bunch pressing; spontaneous fermentation in 350 L barrels.",
+                "zh": "手工采收；整串直接压榨；在 350 升桶中自然发酵。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Élevage",
+                "zh": "熟成"
+              },
+              "text": {
+                "en": "18 months on fine lees; no new oak.",
+                "zh": "细酒泥熟成 18 个月；不使用新桶。"
+              },
+              "sources": [
+                "estate"
+              ]
+            },
+            {
+              "label": {
+                "en": "Bottling",
+                "zh": "装瓶"
+              },
+              "text": {
+                "en": "Fined, unfiltered; bottled in February 2025.",
+                "zh": "澄清但不过滤；2025 年 2 月装瓶。"
+              },
+              "sources": [
+                "estate"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "en": "The producer labels these specifications 2023; they are not applied automatically to other vintages. Analytical values and bottle size are not listed.",
+          "zh": "酒庄明确将这些参数标为 2023 年份，不自动套用于其他年份；来源未列分析数值及瓶容量。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "estate",
+          "title": "Sylvain Morey · Bourgogne Aligoté 2023",
+          "url": "https://www.sylvainmorey.com/wines/bourgogne-aligote-2023/",
+          "scope": "2023 estate technical record / 2023 酒庄技术档案"
+        },
+        {
+          "id": "history",
+          "title": "Sylvain Morey · Bourgogne",
+          "url": "https://www.sylvainmorey.com/bourgogne/",
+          "scope": "Estate history and cuvée context / 酒庄历史及酒款背景"
+        }
+      ],
+      "links": [
+        {
+          "name": "Aligoté",
+          "url": "#grapes?id=aligote"
+        },
+        {
+          "name": "Bourgogne Aligoté AOC",
+          "url": "#grapes?region=Bourgogne%20Aligot%C3%A9"
+        }
+      ],
+      "relatedIds": [
+        "roulot-aligote",
+        "pierre-morey-aligote"
+      ],
+      "originalImageUrl": "https://www.sylvainmorey.com/wp-content/uploads/2024/10/sylvain-morey-aligote-blanc.png"
+    }
+  ]
+}

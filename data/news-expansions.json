@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "articles": {
+    "news-20261023-palacios": [
+      {
+        "id": "valdeorras",
+        "type": "REGION · 产区",
+        "title": "Valdeorras：Rafael 的葡萄园在哪里？",
+        "teaser": "从 Galicia 进入 Bibei，区分产区全貌与一个庄园的地块。",
+        "body": "Valdeorras 位于西班牙 Galicia 的 Ourense。产区官方介绍了片岩、花岗岩、冲积等不同土壤，并非全区都是花岗岩。Rafael 的档案聚焦 O Bolo 的 Bibei 河谷地块；研究一家酒庄时，不能把其坡向、海拔和土壤推广到整个产区。",
+        "question": "Why is Rafael’s estate not a complete picture of Valdeorras?",
+        "answer": "它只是产区内特定地点的地块集合；全区土壤和种植条件更加多样。",
+        "url": "https://dovaldeorras.gal/en/territorio/",
+        "label": "D.O. Valdeorras · 官方产区资料"
+      },
+      {
+        "id": "godello",
+        "type": "GRAPE · 品种",
+        "title": "Godello：同一个品种，为什么有不同表达？",
+        "teaser": "品种是起点，再比较地块、容器、酒泥与果皮接触。",
+        "body": "Galicia 葡萄酒博物馆把 Godello 列为 Valdeorras、Monterrei 和 Ribeira Sacra 的主要白品种之一。它既有单品种表达，也可进入混酿。用 Rafael 的几款酒做比较时，先控制“同一生产者、同一品种”这两个条件，再观察地块与工艺；风格差异不能全部归因于品种。",
+        "question": "Is Godello exclusive to Valdeorras?",
+        "answer": "不是；Monterrei、Ribeira Sacra 等 Galicia 产区也种植。",
+        "url": "https://museovinogalicia.xunta.gal/es/el-vino/uvas-y-vinos-de-galicia/godello",
+        "label": "Museo do Viño de Galicia · Godello"
+      },
+      {
+        "id": "skin",
+        "type": "WINEMAKING · 酿造",
+        "title": "Sorte Antiga：带皮发酵改变了什么？",
+        "teaser": "把酿造方法放回一款真实的酒里理解。",
+        "body": "Sorte Antiga 官网记载敞口橡木槽带皮发酵约一个月，随后旧桶熟成 12 个月；O Soro 则列为 500 L 桶发酵与 8 个月熟成。学习时把果皮接触与橡木熟成区分开，并在实际品鉴中记录质地、涩感与香气，避免只看到桶就判断“橡木味重”。",
+        "question": "Which operation distinguishes Antiga most clearly in this comparison?",
+        "answer": "延长的带皮发酵；不能只把差异解释为桶内熟成时间。",
+        "url": "https://www.rafaelpalacios.com/copia-de-o-soro",
+        "label": "Rafael Palacios · Antiga 官方说明"
+      },
+      {
+        "id": "parcel",
+        "type": "VINEYARD · 葡萄园",
+        "title": "As Sortes 与 O Soro：多地块与单一园",
+        "teaser": "“来自老藤”与“来自单一地块”，不是同一件事。",
+        "body": "As Sortes 由六个 sortes 的葡萄酿成；O Soro 来自一个特定地块。一个酒款可以同时有老藤来源和多地块属性。阅读技术资料时，把来源范围、种植年份和选果方式分开记录，再讨论酒款如何表达地点。",
+        "question": "Does old-vine fruit automatically mean single-vineyard wine?",
+        "answer": "不意味着。As Sortes 是一个具体的反例。",
+        "url": "https://en.rafaelpalacios.com/as-sortes",
+        "label": "Rafael Palacios · As Sortes 官方说明"
+      }
+    ]
+  }
+}

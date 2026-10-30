@@ -1,0 +1,991 @@
+{
+  "checkedAt": "2026-10-29",
+  "counts": {
+    "producer": 36,
+    "wine": 50,
+    "vintage": 24,
+    "region": 52
+  },
+  "siteCount": 18,
+  "relations": [
+    {
+      "fromId": "40317d16de4c81ca9bf0cc9f95485d25",
+      "toId": "40717d16de4c81968fabe3fcd7b7a805",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "合作农户",
+      "kind": "grape-source",
+      "evidence": "Producer正文列出四村葡萄来源与合作农户葡萄园；不等于自有园。",
+      "source": "https://app.notion.com/p/40317d16de4c81ca9bf0cc9f95485d25",
+      "vintage": null
+    },
+    {
+      "fromId": "40317d16de4c81ca9bf0cc9f95485d25",
+      "toId": "40717d16de4c81b9a50be21ed5d7a481",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "合作农户",
+      "kind": "grape-source",
+      "evidence": "Producer正文列出四村葡萄来源与合作农户葡萄园；不等于自有园。",
+      "source": "https://app.notion.com/p/40317d16de4c81ca9bf0cc9f95485d25",
+      "vintage": null
+    },
+    {
+      "fromId": "40317d16de4c81ca9bf0cc9f95485d25",
+      "toId": "40717d16de4c81b9a952d3161da1652b",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "合作农户",
+      "kind": "grape-source",
+      "evidence": "Producer正文列出四村葡萄来源与合作农户葡萄园；不等于自有园。",
+      "source": "https://app.notion.com/p/40317d16de4c81ca9bf0cc9f95485d25",
+      "vintage": null
+    },
+    {
+      "fromId": "40317d16de4c81ca9bf0cc9f95485d25",
+      "toId": "40717d16de4c81b3b554ed7abcac31d7",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "合作农户",
+      "kind": "grape-source",
+      "evidence": "Producer正文列出四村葡萄来源与合作农户葡萄园；不等于自有园。",
+      "source": "https://app.notion.com/p/40317d16de4c81ca9bf0cc9f95485d25",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c819c8a84da296b16b601",
+      "toId": "40717d16de4c81b9a50be21ed5d7a481",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "grape-source-network",
+      "evidence": "Site档案列入香格里拉村庄／园地网络；地块权属、管理／采购方式和对应年份待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81b9a50be21ed5d7a481",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c819c8a84da296b16b601",
+      "toId": "40717d16de4c81ea98f1f687b155942f",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "grape-source-network",
+      "evidence": "Site档案列入香格里拉村庄／园地网络；地块权属、管理／采购方式和对应年份待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81ea98f1f687b155942f",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c819c8a84da296b16b601",
+      "toId": "40717d16de4c81b6aee8f47b6442938e",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "grape-source-network",
+      "evidence": "Site档案列入香格里拉村庄／园地网络；地块权属、管理／采购方式和对应年份待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81b6aee8f47b6442938e",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c819c8a84da296b16b601",
+      "toId": "40717d16de4c81ad9f28da6d03fe0f00",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "grape-source-network",
+      "evidence": "Site档案列入香格里拉村庄／园地网络；地块权属、管理／采购方式和对应年份待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81ad9f28da6d03fe0f00",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c819c8a84da296b16b601",
+      "toId": "40717d16de4c81af8199cf9ceb6d86f4",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "grape-source-network",
+      "evidence": "Site档案列入香格里拉村庄／园地网络；地块权属、管理／采购方式和对应年份待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81af8199cf9ceb6d86f4",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c819c8a84da296b16b601",
+      "toId": "40717d16de4c81b19370c6d320ebec32",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "grape-source-network",
+      "evidence": "Site档案列入香格里拉村庄／园地网络；地块权属、管理／采购方式和对应年份待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81b19370c6d320ebec32",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81d09735ef86694563a5",
+      "toId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "酒庄所在地",
+      "kind": "location",
+      "evidence": "Producer所在地／故事支持此村庄联系；该地址关系不证明各酒款葡萄来源。",
+      "source": "https://app.notion.com/p/40717d16de4c81d09735ef86694563a5",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c813491edd07744ea11db",
+      "toId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "酒庄所在地",
+      "kind": "location",
+      "evidence": "Producer所在地／故事支持此村庄联系；该地址关系不证明各酒款葡萄来源。",
+      "source": "https://app.notion.com/p/40717d16de4c813491edd07744ea11db",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c817dadbac41cefd4c849",
+      "toId": "40717d16de4c81e484d3fb2402bbbc9a",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "酒庄所在地",
+      "kind": "location",
+      "evidence": "Producer所在地／故事支持此村庄联系；该地址关系不证明各酒款葡萄来源。",
+      "source": "https://app.notion.com/p/40717d16de4c817dadbac41cefd4c849",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81618e3ef3df78ddc080",
+      "toId": "40717d16de4c81e484d3fb2402bbbc9a",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "酒庄所在地",
+      "kind": "location",
+      "evidence": "Producer所在地／故事支持此村庄联系；该地址关系不证明各酒款葡萄来源。",
+      "source": "https://app.notion.com/p/40717d16de4c81618e3ef3df78ddc080",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81189646ce6894d11b2b",
+      "toId": "40717d16de4c811a8412f675e5a1cb5a",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "酒庄所在地",
+      "kind": "location",
+      "evidence": "Producer所在地／故事支持此村庄联系；该地址关系不证明各酒款葡萄来源。",
+      "source": "https://app.notion.com/p/40717d16de4c81189646ce6894d11b2b",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c812aab68fa547a12755e",
+      "toId": "40717d16de4c811a8412f675e5a1cb5a",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "酒庄所在地",
+      "kind": "location",
+      "evidence": "Producer所在地／故事支持此村庄联系；该地址关系不证明各酒款葡萄来源。",
+      "source": "https://app.notion.com/p/40717d16de4c812aab68fa547a12755e",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c810e82def5aa13510116",
+      "toId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "酒庄所在地",
+      "kind": "location",
+      "evidence": "Producer所在地／故事支持此村庄联系；该地址关系不证明各酒款葡萄来源。",
+      "source": "https://app.notion.com/p/40717d16de4c810e82def5aa13510116",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81f79d47d3bd66e42b13",
+      "toId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "village-project",
+      "evidence": "正文将项目与茨中及农户合作联系起来；明确每个葡萄来源村庄仍需核实。",
+      "source": "https://app.notion.com/p/40717d16de4c81f79d47d3bd66e42b13",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c813491edd07744ea11db",
+      "toId": "40717d16de4c81ebac88df70e0ed300e",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "租赁",
+      "kind": "vineyard-relationship",
+      "evidence": "Site正文：松赞于2024年在红坡与日咀租地培育酿酒葡萄；地块与具体酒款仍待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81ebac88df70e0ed300e",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c813491edd07744ea11db",
+      "toId": "40717d16de4c81c5a68cc5d6e577d83a",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "租赁",
+      "kind": "vineyard-relationship",
+      "evidence": "Site正文：松赞于2024年在红坡与日咀租地培育酿酒葡萄；地块与具体酒款仍待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81c5a68cc5d6e577d83a",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c817dadbac41cefd4c849",
+      "toId": "40717d16de4c81ebac88df70e0ed300e",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "酒款名称关联／来源待核",
+      "kind": "name-link",
+      "evidence": "红坡Site只支持HongPo Chardonnay目录线索；不能认定霄岭自有红坡园。",
+      "source": "https://app.notion.com/p/40717d16de4c81ebac88df70e0ed300e",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c816b93d5d52e405c71a8",
+      "toId": "40717d16de4c81b3b554ed7abcac31d7",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "合同园",
+      "kind": "vineyard-relationship",
+      "evidence": "Producer正文称2024年起在阿东直接签约并管理四片葡萄园；不代表所有权。",
+      "source": "https://app.notion.com/p/40717d16de4c816b93d5d52e405c71a8",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c8100bc6ee704d1f30037",
+      "toId": "40717d16de4c81ea98f1f687b155942f",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "vintage-source",
+      "evidence": "2024珍藏霞多丽产品资料明确江坡60%与红坡40%；权属／采购关系未知，不扩展到所有酒款。",
+      "source": "https://app.notion.com/p/40717d16de4c81baa4dbfdc4817acbd6",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c8100bc6ee704d1f30037",
+      "toId": "40717d16de4c81ebac88df70e0ed300e",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "vintage-source",
+      "evidence": "2024珍藏霞多丽产品资料明确江坡60%与红坡40%；权属／采购关系未知，不扩展到所有酒款。",
+      "source": "https://app.notion.com/p/40717d16de4c81baa4dbfdc4817acbd6",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c816eafa0fe87efa7b7c9",
+      "toId": "40717d16de4c81ea98f1f687b155942f",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "项目选址／待核",
+      "kind": "project-location",
+      "evidence": "2026投资协议指向江坡；不证明葡萄来源或投产。",
+      "source": "https://app.notion.com/p/40717d16de4c816eafa0fe87efa7b7c9",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c812aab68fa547a12755e",
+      "toId": "40717d16de4c8118a12ed7193f06d67e",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "grape-source-network",
+      "evidence": "叶日Site以醉生梦叶日单一园酒款公开资料建立；地块权属及年份待核。",
+      "source": "https://app.notion.com/p/40717d16de4c8118a12ed7193f06d67e",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c814e9752f7f2d8ac11f9",
+      "toId": "40717d16de4c811995dce62bb8b4b053",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "vintage-source",
+      "evidence": "村庄／Site记录支持品牌酒款关联；地块权属、管理方式和品牌间是否共园尚无确认。",
+      "source": "https://app.notion.com/p/40717d16de4c811995dce62bb8b4b053",
+      "vintage": 2018
+    },
+    {
+      "fromId": "40717d16de4c814e9752f7f2d8ac11f9",
+      "toId": "40717d16de4c8162bb72ea3ce0601218",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "vintage-source",
+      "evidence": "村庄／Site记录支持品牌酒款关联；地块权属、管理方式和品牌间是否共园尚无确认。",
+      "source": "https://app.notion.com/p/40717d16de4c8162bb72ea3ce0601218",
+      "vintage": 2018
+    },
+    {
+      "fromId": "40717d16de4c814e9752f7f2d8ac11f9",
+      "toId": "40717d16de4c8102827be3f83edcbefc",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "grape-source-network",
+      "evidence": "村庄／Site记录支持品牌酒款关联；地块权属、管理方式和品牌间是否共园尚无确认。",
+      "source": "https://app.notion.com/p/40717d16de4c8102827be3f83edcbefc",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81b892f3e37ced208b53",
+      "toId": "40717d16de4c8102827be3f83edcbefc",
+      "fromType": "producer",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "vintage-source",
+      "evidence": "村庄／Site记录支持品牌酒款关联；地块权属、管理方式和品牌间是否共园尚无确认。",
+      "source": "https://app.notion.com/p/40717d16de4c8102827be3f83edcbefc",
+      "vintage": 2021
+    },
+    {
+      "fromId": "40317d16de4c812bb2b9fd2b47d63689",
+      "toId": "40717d16de4c81968fabe3fcd7b7a805",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "敖云2017记录明确四村葡萄来源；各年份村庄比例需分别查档。",
+      "source": "https://app.notion.com/p/40317d16de4c81969f60d5f7b66a86e7",
+      "vintage": 2017
+    },
+    {
+      "fromId": "40317d16de4c812bb2b9fd2b47d63689",
+      "toId": "40717d16de4c81b9a50be21ed5d7a481",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "敖云2017记录明确四村葡萄来源；各年份村庄比例需分别查档。",
+      "source": "https://app.notion.com/p/40317d16de4c81969f60d5f7b66a86e7",
+      "vintage": 2017
+    },
+    {
+      "fromId": "40317d16de4c812bb2b9fd2b47d63689",
+      "toId": "40717d16de4c81b9a952d3161da1652b",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "敖云2017记录明确四村葡萄来源；各年份村庄比例需分别查档。",
+      "source": "https://app.notion.com/p/40317d16de4c81969f60d5f7b66a86e7",
+      "vintage": 2017
+    },
+    {
+      "fromId": "40317d16de4c812bb2b9fd2b47d63689",
+      "toId": "40717d16de4c81b3b554ed7abcac31d7",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "敖云2017记录明确四村葡萄来源；各年份村庄比例需分别查档。",
+      "source": "https://app.notion.com/p/40317d16de4c81969f60d5f7b66a86e7",
+      "vintage": 2017
+    },
+    {
+      "fromId": "40717d16de4c81fbb4c7eaad7175ed68",
+      "toId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "酒款名称关联／来源待核",
+      "kind": "source-clue",
+      "evidence": "长期酒款字段只支持相关村庄线索，具体葡萄园／来源仍待酒庄技术资料。",
+      "source": "https://app.notion.com/p/40717d16de4c81fbb4c7eaad7175ed68",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c818c81f2f71fe29fb458",
+      "toId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "酒款名称关联／来源待核",
+      "kind": "source-clue",
+      "evidence": "长期酒款字段只支持相关村庄线索，具体葡萄园／来源仍待酒庄技术资料。",
+      "source": "https://app.notion.com/p/40717d16de4c818c81f2f71fe29fb458",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81019fd5f47d581c3197",
+      "toId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "酒款名称关联／来源待核",
+      "kind": "source-clue",
+      "evidence": "长期酒款字段只支持相关村庄线索，具体葡萄园／来源仍待酒庄技术资料。",
+      "source": "https://app.notion.com/p/40717d16de4c81019fd5f47d581c3197",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81089760d3a71d2ce84f",
+      "toId": "40717d16de4c81ebac88df70e0ed300e",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "酒款名称关联／来源待核",
+      "kind": "source-clue",
+      "evidence": "长期酒款字段只支持相关村庄线索，具体葡萄园／来源仍待酒庄技术资料。",
+      "source": "https://app.notion.com/p/40717d16de4c81089760d3a71d2ce84f",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81e3b410d63e107e559d",
+      "toId": "40717d16de4c81e484d3fb2402bbbc9a",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "source-clue",
+      "evidence": "长期酒款提及巴东及上游合作葡萄园；2014档案未明确逐村来源，不能称巴东单村酒。",
+      "source": "https://app.notion.com/p/40717d16de4c81e3b410d63e107e559d",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81349c47fb578d21a3b2",
+      "toId": "40717d16de4c81e484d3fb2402bbbc9a",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "当前关系待核",
+      "kind": "vintage-source",
+      "evidence": "2018资料提及巴东及2200、2500、2700米园地网络；当年具体组合待核。",
+      "source": "https://app.notion.com/p/40717d16de4c812ea7aecdaf5c13b6ea",
+      "vintage": 2018
+    },
+    {
+      "fromId": "40717d16de4c81d3b7e1f0242116a912",
+      "toId": "40717d16de4c81bf8ee7f3bd5012cb40",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "家庭酒庄所在地／葡萄来源待核",
+      "kind": "location",
+      "evidence": "家庭酿造／体验项目位于茨中；具体葡萄园与批次生产许可未核。",
+      "source": "https://app.notion.com/p/40717d16de4c81d3b7e1f0242116a912",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81bcb70bdfea7a1cd5a6",
+      "toId": "40717d16de4c81ea98f1f687b155942f",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "赛事页标示云南西南高山产区；专业资料进一步指向江坡村老藤来源，精确地块边界待酒庄技术表。",
+      "source": "https://app.notion.com/p/40717d16de4c81abad94d80a9be82625",
+      "vintage": 2022
+    },
+    {
+      "fromId": "40717d16de4c81f2bdb7f63dd9fb49c5",
+      "toId": "40717d16de4c81b6aee8f47b6442938e",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "云南迪庆；Rongzhong／荣中的村庄或园地身份需酒庄原始资料确认。",
+      "source": "https://app.notion.com/p/40717d16de4c81409eb4d58fbcf439a1",
+      "vintage": 2020
+    },
+    {
+      "fromId": "40717d16de4c816c8a4be49cda0a5fef",
+      "toId": "40717d16de4c811995dce62bb8b4b053",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "云南德钦／香格里拉高山村庄Sulu；正式中文地名和地块边界待Producer资料。",
+      "source": "https://app.notion.com/p/40717d16de4c8195ab09f2ff31e0dc50",
+      "vintage": 2018
+    },
+    {
+      "fromId": "40717d16de4c8195a557e902d4ce269b",
+      "toId": "40717d16de4c8162bb72ea3ce0601218",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "Bucun高山村庄／地块；正式中文地名、海拔和边界待品牌资料。",
+      "source": "https://app.notion.com/p/40717d16de4c8172b29fd21a7c7ae9fa",
+      "vintage": 2018
+    },
+    {
+      "fromId": "40717d16de4c81a3a83dcd28064460d5",
+      "toId": "40717d16de4c8102827be3f83edcbefc",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "Siyong-Gong高山村庄，约2550米；白云岩与片岩相关土壤描述来自Producer资料。",
+      "source": "https://app.notion.com/p/40717d16de4c8140bd53d2316ee233f2",
+      "vintage": 2021
+    },
+    {
+      "fromId": "40717d16de4c81d4bb10fa3b31e342c8",
+      "toId": "40717d16de4c81b3b554ed7abcac31d7",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "云南德钦白马雪山高山葡萄园；具体地块和阿东村比例待品牌技术表。",
+      "source": "https://app.notion.com/p/40717d16de4c81559eaecb23522b7da8",
+      "vintage": 2023
+    },
+    {
+      "fromId": "40717d16de4c81568b57d71a4667de35",
+      "toId": "40717d16de4c81b3b554ed7abcac31d7",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "公开资料指向德钦白马雪山及阿东村；团队自2024年直接签约管理四片葡萄园，具体地块对应待Producer资料。",
+      "source": "https://app.notion.com/p/40717d16de4c811cb80cdb4aacc3c7e9",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c81419713cd2fa6f4be69",
+      "toId": "40717d16de4c8102827be3f83edcbefc",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "酒款名称关联／来源待核",
+      "kind": "name-link",
+      "evidence": "长期酒款称Siyongong高山村庄；正式中文地名、具体园地和酒标待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81419713cd2fa6f4be69",
+      "vintage": null
+    },
+    {
+      "fromId": "40717d16de4c81b29c88e57da02aa20b",
+      "toId": "40717d16de4c81ea98f1f687b155942f",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "2024年份产品资料：江坡60%；此比例只适用于2024，地块权属和酒庄技术表待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81baa4dbfdc4817acbd6",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c81b29c88e57da02aa20b",
+      "toId": "40717d16de4c81ebac88df70e0ed300e",
+      "fromType": "wine",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "2024年份产品资料：红坡40%；此比例只适用于2024，地块权属和酒庄技术表待核。",
+      "source": "https://app.notion.com/p/40717d16de4c81baa4dbfdc4817acbd6",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c81409eb4d58fbcf439a1",
+      "toId": "40717d16de4c81b6aee8f47b6442938e",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "云南迪庆；Rongzhong／荣中的村庄或园地身份需酒庄原始资料确认。",
+      "source": "https://app.notion.com/p/40717d16de4c81409eb4d58fbcf439a1",
+      "vintage": 2020
+    },
+    {
+      "fromId": "40717d16de4c8195ab09f2ff31e0dc50",
+      "toId": "40717d16de4c811995dce62bb8b4b053",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "云南德钦／香格里拉高山村庄Sulu；正式中文地名和地块边界待Producer资料。",
+      "source": "https://app.notion.com/p/40717d16de4c8195ab09f2ff31e0dc50",
+      "vintage": 2018
+    },
+    {
+      "fromId": "40717d16de4c81559eaecb23522b7da8",
+      "toId": "40717d16de4c81b3b554ed7abcac31d7",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "云南德钦白马雪山高山葡萄园；具体地块和阿东村比例待品牌技术表。",
+      "source": "https://app.notion.com/p/40717d16de4c81559eaecb23522b7da8",
+      "vintage": 2023
+    },
+    {
+      "fromId": "40717d16de4c81abad94d80a9be82625",
+      "toId": "40717d16de4c81ea98f1f687b155942f",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "赛事页标示云南西南高山产区；专业资料进一步指向江坡村老藤来源，精确地块边界待酒庄技术表。",
+      "source": "https://app.notion.com/p/40717d16de4c81abad94d80a9be82625",
+      "vintage": 2022
+    },
+    {
+      "fromId": "40717d16de4c812ea7aecdaf5c13b6ea",
+      "toId": "40717d16de4c81e484d3fb2402bbbc9a",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "云南德钦燕门乡／巴东及约2200、2500、2700米葡萄园网络；2018具体组合待Producer资料。",
+      "source": "https://app.notion.com/p/40717d16de4c812ea7aecdaf5c13b6ea",
+      "vintage": 2018
+    },
+    {
+      "fromId": "40717d16de4c811cb80cdb4aacc3c7e9",
+      "toId": "40717d16de4c81b3b554ed7abcac31d7",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "公开资料指向德钦白马雪山及阿东村；团队自2024年直接签约管理四片葡萄园，具体地块对应待Producer资料。",
+      "source": "https://app.notion.com/p/40717d16de4c811cb80cdb4aacc3c7e9",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c81baa4dbfdc4817acbd6",
+      "toId": "40717d16de4c81ea98f1f687b155942f",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "江坡村60% + 红坡村40%；海拔约2700–2800米。",
+      "source": "https://app.notion.com/p/40717d16de4c81baa4dbfdc4817acbd6",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c81baa4dbfdc4817acbd6",
+      "toId": "40717d16de4c81ebac88df70e0ed300e",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "江坡村60% + 红坡村40%；海拔约2700–2800米。",
+      "source": "https://app.notion.com/p/40717d16de4c81baa4dbfdc4817acbd6",
+      "vintage": 2024
+    },
+    {
+      "fromId": "40717d16de4c8172b29fd21a7c7ae9fa",
+      "toId": "40717d16de4c8162bb72ea3ce0601218",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "Bucun高山村庄／地块；正式中文地名、海拔和边界待品牌资料。",
+      "source": "https://app.notion.com/p/40717d16de4c8172b29fd21a7c7ae9fa",
+      "vintage": 2018
+    },
+    {
+      "fromId": "40717d16de4c8140bd53d2316ee233f2",
+      "toId": "40717d16de4c8102827be3f83edcbefc",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源／地块待核",
+      "kind": "vintage-source",
+      "evidence": "Siyong-Gong高山村庄，约2550米；白云岩与片岩相关土壤描述来自Producer资料。",
+      "source": "https://app.notion.com/p/40717d16de4c8140bd53d2316ee233f2",
+      "vintage": 2021
+    },
+    {
+      "fromId": "40317d16de4c81969f60d5f7b66a86e7",
+      "toId": "40717d16de4c81968fabe3fcd7b7a805",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "2017年份档案明确Adong、Shuori、Sinong、Xidang；不把21/32/14/33无序配给村庄。",
+      "source": "https://app.notion.com/p/40317d16de4c81969f60d5f7b66a86e7",
+      "vintage": 2017
+    },
+    {
+      "fromId": "40317d16de4c81969f60d5f7b66a86e7",
+      "toId": "40717d16de4c81b9a50be21ed5d7a481",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "2017年份档案明确Adong、Shuori、Sinong、Xidang；不把21/32/14/33无序配给村庄。",
+      "source": "https://app.notion.com/p/40317d16de4c81969f60d5f7b66a86e7",
+      "vintage": 2017
+    },
+    {
+      "fromId": "40317d16de4c81969f60d5f7b66a86e7",
+      "toId": "40717d16de4c81b9a952d3161da1652b",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "2017年份档案明确Adong、Shuori、Sinong、Xidang；不把21/32/14/33无序配给村庄。",
+      "source": "https://app.notion.com/p/40317d16de4c81969f60d5f7b66a86e7",
+      "vintage": 2017
+    },
+    {
+      "fromId": "40317d16de4c81969f60d5f7b66a86e7",
+      "toId": "40717d16de4c81b3b554ed7abcac31d7",
+      "fromType": "vintage",
+      "toType": "site",
+      "label": "年份葡萄来源",
+      "kind": "vintage-source",
+      "evidence": "2017年份档案明确Adong、Shuori、Sinong、Xidang；不把21/32/14/33无序配给村庄。",
+      "source": "https://app.notion.com/p/40317d16de4c81969f60d5f7b66a86e7",
+      "vintage": 2017
+    }
+  ],
+  "wineDisplayEdits": [
+    {
+      "notionId": "40717d16de4c818da295e3b0fe23030c",
+      "name": "云南红 三星干红",
+      "field": "常用品种／风格",
+      "original": "玫瑰蜜／官网标示Isabella；12% vol、橡木桶4个月为当前产品页信息，长期记录仅保留风格。",
+      "displayValue": "玫瑰蜜／官网标示 Isabella；红葡萄酒。",
+      "reason": "12% vol、橡木桶4个月来自无年份当前产品页；不可作为所有年份参数，不伪造年份归属。",
+      "source": "https://app.notion.com/p/40717d16de4c818da295e3b0fe23030c"
+    },
+    {
+      "notionId": "40717d16de4c81f2bdb7f63dd9fb49c5",
+      "name": "香格里拉 圣域荣中赤霞珠",
+      "field": "常用品种／风格",
+      "original": "赤霞珠单品种高海拔红酒；2020资料为100%赤霞珠，其他年份另核。",
+      "displayValue": "赤霞珠高海拔红葡萄酒；具体品种比例按年份。",
+      "reason": "2020的100%只留2020年份页。",
+      "source": "https://app.notion.com/p/40717d16de4c81f2bdb7f63dd9fb49c5"
+    },
+    {
+      "notionId": "40717d16de4c816c8a4be49cda0a5fef",
+      "name": "诞生地 苏鲁红葡萄酒",
+      "field": "常用品种／风格",
+      "original": "赤霞珠红葡萄酒；2018资料为100%赤霞珠，其他年份另核。",
+      "displayValue": "赤霞珠红葡萄酒；具体比例按年份。",
+      "reason": "2018的100%只留2018年份页。",
+      "source": "https://app.notion.com/p/40717d16de4c816c8a4be49cda0a5fef"
+    },
+    {
+      "notionId": "40717d16de4c8124a6e4df0722d915f1",
+      "name": "宝庄干红葡萄酒",
+      "field": "常用品种／风格",
+      "original": "赤霞珠红葡萄酒；2018首年份为100%赤霞珠，其他年份按技术表。",
+      "displayValue": "赤霞珠红葡萄酒；具体混酿比例按年份。",
+      "reason": "2018的100%只留2018年份页。",
+      "source": "https://app.notion.com/p/40717d16de4c8124a6e4df0722d915f1"
+    },
+    {
+      "notionId": "40717d16de4c81a5936ec87200f346e3",
+      "name": "硕日拉姆桃红葡萄酒",
+      "field": "常用品种／风格",
+      "original": "玫瑰蜜桃红；2022资料为放血法，其他年份另核。",
+      "displayValue": "玫瑰蜜桃红；具体酿造方法按年份。",
+      "reason": "2022放血法只留2022年份页。",
+      "source": "https://app.notion.com/p/40717d16de4c81a5936ec87200f346e3"
+    },
+    {
+      "notionId": "40717d16de4c81b29c88e57da02aa20b",
+      "name": "雪山秘境珍藏霞多丽",
+      "field": "常用品种／风格",
+      "original": "100%霞多丽；陶罐与新橡木桶组合发酵／熟化风格按年份。",
+      "displayValue": "霞多丽干白；容器、发酵、MLF与熟化按年份。",
+      "reason": "2024的100%、70/30容器和8个月不扩展至长期系列。",
+      "source": "https://app.notion.com/p/40717d16de4c81b29c88e57da02aa20b"
+    },
+    {
+      "notionId": "40717d16de4c81d4bb10fa3b31e342c8",
+      "name": "寸山白马雪山德钦臻藏霞多丽",
+      "field": "常用品种／风格",
+      "original": "100%霞多丽；橡木桶与不锈钢分批发酵、酒泥陈酿的比例按年份。",
+      "displayValue": "霞多丽干白；分批发酵、容器比例与酒泥陈酿按年份。",
+      "reason": "100%与46/54及10个月来自2023，不固化长期。",
+      "source": "https://app.notion.com/p/40717d16de4c81d4bb10fa3b31e342c8"
+    },
+    {
+      "notionId": "40717d16de4c81568b57d71a4667de35",
+      "name": "寸山白马雪山德钦霞多丽",
+      "field": "常用品种／风格",
+      "original": "100%霞多丽；常规／村庄级高山白酒，具体酒泥与容器按年份。",
+      "displayValue": "霞多丽干白；具体配方、酒泥与容器按年份。",
+      "reason": "100%来自2024，未来年份另核。",
+      "source": "https://app.notion.com/p/40717d16de4c81568b57d71a4667de35"
+    },
+    {
+      "notionId": "40717d16de4c81349c47fb578d21a3b2",
+      "name": "水乳大地赤霞珠红葡萄酒",
+      "field": "常用品种／风格",
+      "original": "100%赤霞珠；陶罐自然发酵与长时间陶罐陈酿，具体时间按年份。",
+      "displayValue": "赤霞珠红葡萄酒；陶罐发酵与陈酿，具体配方与时长按年份。",
+      "reason": "长期不显示绝对100%配方；2018/2020不可混用。",
+      "source": "https://app.notion.com/p/40717d16de4c81349c47fb578d21a3b2"
+    },
+    {
+      "notionId": "40717d16de4c81bcb70bdfea7a1cd5a6",
+      "name": "香格里拉 圣域传奇霞多丽",
+      "field": "固定产区说明",
+      "original": "云南迪庆高海拔村庄；2022资料指向江坡老藤／村庄来源，其他年份另核。",
+      "displayValue": "云南迪庆高海拔村庄；具体来源按年份，详见2022档案。",
+      "reason": "从长期固定来源字段移出年份限定细节；原始文本与年份证据仍保留。",
+      "source": "https://app.notion.com/p/40717d16de4c81bcb70bdfea7a1cd5a6"
+    },
+    {
+      "notionId": "40717d16de4c81a3a83dcd28064460d5",
+      "name": "宝庄干白葡萄酒",
+      "field": "固定产区说明",
+      "original": "云南高山村庄；2021资料指向Siyong-Gong约2550米霞多丽，其他年份另核。",
+      "displayValue": "云南高山村庄；具体村庄和园地按年份，详见2021档案。",
+      "reason": "从长期固定来源字段移出年份限定细节；原始文本与年份证据仍保留。",
+      "source": "https://app.notion.com/p/40717d16de4c81a3a83dcd28064460d5"
+    },
+    {
+      "notionId": "40717d16de4c81b29c88e57da02aa20b",
+      "name": "雪山秘境珍藏霞多丽",
+      "field": "固定产区说明",
+      "original": "云南德钦梅里雪山／澜沧江河谷；2024年份葡萄来自江坡村与红坡村，其他年份另核。",
+      "displayValue": "云南德钦梅里雪山／澜沧江河谷；村庄比例按年份。",
+      "reason": "从长期固定来源字段移出年份限定细节；原始文本与年份证据仍保留。",
+      "source": "https://app.notion.com/p/40717d16de4c81b29c88e57da02aa20b"
+    },
+    {
+      "notionId": "40717d16de4c81d4bb10fa3b31e342c8",
+      "name": "寸山白马雪山德钦臻藏霞多丽",
+      "field": "固定产区说明",
+      "original": "云南德钦白马雪山高山葡萄园；2023具体来源、阿东村关系和生产主体按年份。",
+      "displayValue": "云南德钦白马雪山高山葡萄园；具体来源按年份。",
+      "reason": "从长期固定来源字段移出年份限定细节；原始文本与年份证据仍保留。",
+      "source": "https://app.notion.com/p/40717d16de4c81d4bb10fa3b31e342c8"
+    },
+    {
+      "notionId": "40717d16de4c814b8acce047a89bc56c",
+      "name": "腊普 藏云谷高端冰酒",
+      "field": "固定产区说明",
+      "original": "云南迪庆州维西县腊普河谷；2020资料指向约2800米高原葡萄园，当前年份另核。",
+      "displayValue": "云南迪庆州维西县腊普河谷；园地海拔与冰酒生产条件按年份。",
+      "reason": "从长期固定来源字段移出年份限定细节；原始文本与年份证据仍保留。",
+      "source": "https://app.notion.com/p/40717d16de4c814b8acce047a89bc56c"
+    }
+  ],
+  "producerDisplayOverrides": [
+    {
+      "notionId": "40717d16de4c8151a588d6dcf109fd3d",
+      "name": "木兰朵德钦酒庄项目",
+      "sourceStatus": "待核",
+      "displayStatus": "签约／建设中",
+      "displayEntityType": "项目",
+      "reason": "当前只确认签约／投资协议；投产、许可与真实酒款未确认。",
+      "source": "https://app.notion.com/p/40717d16de4c8151a588d6dcf109fd3d"
+    },
+    {
+      "notionId": "40717d16de4c81f5a494c9e05dbfd494",
+      "name": "酉川德钦酒庄项目",
+      "sourceStatus": "待核",
+      "displayStatus": "签约／建设中",
+      "displayEntityType": "项目",
+      "reason": "当前只确认签约／投资协议；投产、许可与真实酒款未确认。",
+      "source": "https://app.notion.com/p/40717d16de4c81f5a494c9e05dbfd494"
+    },
+    {
+      "notionId": "40717d16de4c816eafa0fe87efa7b7c9",
+      "name": "江坡宝取酒庄项目",
+      "sourceStatus": "待核",
+      "displayStatus": "签约／建设中",
+      "displayEntityType": "项目",
+      "reason": "当前只确认签约／投资协议；投产、许可与真实酒款未确认。",
+      "source": "https://app.notion.com/p/40717d16de4c816eafa0fe87efa7b7c9"
+    },
+    {
+      "notionId": "40717d16de4c81089ae8ece992f3eed3",
+      "name": "门吉庄园",
+      "sourceStatus": "待核",
+      "displayStatus": "签约／建设中",
+      "displayEntityType": "酒旅综合体项目",
+      "reason": "2025仍推进建设；计划工期不能作为竣工或投产证据。",
+      "source": "https://app.notion.com/p/40717d16de4c81089ae8ece992f3eed3"
+    },
+    {
+      "notionId": "40717d16de4c81ff9b92e1d76ce9c6e5",
+      "name": "西鸽梅里酒庄",
+      "sourceStatus": "现行",
+      "displayStatus": "当前状态待核",
+      "displayEntityType": "企业／酒庄项目",
+      "reason": "Notion“现行”仅支持企业当前活动和项目建设；投产、许可与当前酒款待核，不能显示已投产。",
+      "source": "https://app.notion.com/p/40717d16de4c81ff9b92e1d76ce9c6e5"
+    },
+    {
+      "notionId": "40717d16de4c815eac36c790b832747a",
+      "name": "峄桐酒业（德钦）",
+      "sourceStatus": "现行",
+      "displayStatus": "当前状态待核",
+      "displayEntityType": "企业／酒庄项目",
+      "reason": "Notion“现行”仅支持企业当前活动和项目建设；投产、许可与当前酒款待核，不能显示已投产。",
+      "source": "https://app.notion.com/p/40717d16de4c815eac36c790b832747a"
+    },
+    {
+      "notionId": "40717d16de4c81c28af1c49c95e56820",
+      "name": "长石酒庄",
+      "sourceStatus": "现行",
+      "displayStatus": "当前状态待核",
+      "displayEntityType": "综合加工企业／建设项目",
+      "reason": "2026用地公示只证明项目当前性，不能推断已投产、实际产量或当前酒款。",
+      "source": "https://app.notion.com/p/40717d16de4c81c28af1c49c95e56820"
+    },
+    {
+      "notionId": "40717d16de4c818e86a1c2e17053ea0e",
+      "name": "大兴地酒庄",
+      "sourceStatus": "现行",
+      "displayStatus": "现行",
+      "displayEntityType": "综合加工企业",
+      "reason": "现行企业活动证据明确，但2025扩建是果汁与醋；不能推出葡萄酒产品现售。",
+      "source": "https://app.notion.com/p/40717d16de4c818e86a1c2e17053ea0e"
+    },
+    {
+      "notionId": "40717d16de4c81cc9a6ff936ec0b4bb7",
+      "name": "红河龙缘葡萄酒业",
+      "sourceStatus": "现行",
+      "displayStatus": "现行",
+      "displayEntityType": "综合加工企业／酒旅",
+      "reason": "现行企业涵盖葡萄酒、烈酒、果汁；各产品分别核实。",
+      "source": "https://app.notion.com/p/40717d16de4c81cc9a6ff936ec0b4bb7"
+    },
+    {
+      "notionId": "40717d16de4c81aea4effa5fd6e4e02b",
+      "name": "米轨时光葡萄酒庄",
+      "sourceStatus": "待核",
+      "displayStatus": "当前状态待核",
+      "displayEntityType": "历史企业",
+      "reason": "2019称多年未生产，2021名单出现不证明复产；不直接断言永久停产。",
+      "source": "https://app.notion.com/p/40717d16de4c81aea4effa5fd6e4e02b"
+    },
+    {
+      "notionId": "40717d16de4c81f18a43df639a9f08d4",
+      "name": "云南帝旺红酒庄园",
+      "sourceStatus": "待核",
+      "displayStatus": "当前状态待核",
+      "displayEntityType": "烈酒企业／历史资料",
+      "reason": "历史许可主要涉及葡萄烈酒；无足够证据标成现行葡萄酒庄。",
+      "source": "https://app.notion.com/p/40717d16de4c81f18a43df639a9f08d4"
+    },
+    {
+      "notionId": "40717d16de4c811a8468e8a7d1425c01",
+      "name": "东风宝云酒庄",
+      "sourceStatus": "待核",
+      "displayStatus": "当前状态待核",
+      "displayEntityType": "烈酒企业／历史资料",
+      "reason": "历史许可主要涉及葡萄烈酒；无足够证据标成现行葡萄酒庄。",
+      "source": "https://app.notion.com/p/40717d16de4c811a8468e8a7d1425c01"
+    },
+    {
+      "notionId": "40717d16de4c810e82def5aa13510116",
+      "name": "茨中秘境葡萄酒之家",
+      "sourceStatus": "现行",
+      "displayStatus": "家庭酒庄／体验项目",
+      "displayEntityType": "家庭酒庄／体验项目",
+      "reason": "体验与家庭自酿身份可确认；食品生产许可与正式产品待核。",
+      "source": "https://app.notion.com/p/40717d16de4c810e82def5aa13510116"
+    },
+    {
+      "notionId": "40717d16de4c813491edd07744ea11db",
+      "name": "松赞茨中酒庄",
+      "sourceStatus": "待核",
+      "displayStatus": "当前状态待核",
+      "displayEntityType": "酒旅／酒庄项目",
+      "reason": "预计2025年推出首批酒不等于实际上市；首批产品和生产许可仍待核。",
+      "source": "https://app.notion.com/p/40717d16de4c813491edd07744ea11db"
+    }
+  ],
+  "criticalNotes": [
+    "所有关系仅为Notion当前页面支持的范围；村庄节点不等于单一葡萄园。",
+    "扎西大扎西2560、2300和珍藏霞多丽均不可因Producer地址云南而标成云南葡萄。",
+    "姜瑜六千里确认云南德钦葡萄、山东烟台生产；依云2023与中国桶的具体生产地尚待核，不自动继承。",
+    "寸山阿东四片合同园从2024起；不能反推2023拥有或管理相同四园。",
+    "敖云2017四村比例21/32/14/33未在Notion给出村庄对应顺序，不可自行映射。",
+    "Ao Yun仅2017有完整已收录年份记录；2019/2020瓶照不是完整年份技术档案。"
+  ]
+}

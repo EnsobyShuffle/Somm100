@@ -1,0 +1,5029 @@
+{
+  "scope": "Spain source-first second review: Central, South, Valencia/Murcia and islands",
+  "updatedAt": "2026-10-25",
+  "sources": [
+    {
+      "id": "rvs-expert",
+      "title": "Henry / Youdao archive — Expert Guide to Spain",
+      "url": "https://app.notion.com/p/3fb17d16de4c8176808ad61ea48d70db",
+      "kind": "archive",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-castilla",
+      "title": "Henry / Youdao archive — Castilla-La Mancha (2024-07-22)",
+      "url": "https://app.notion.com/p/3fb17d16de4c8172981ff222aaccc936",
+      "kind": "archive",
+      "checkedAt": "2026-10-25",
+      "sourceDate": "2024-07-22",
+      "originalNoteId": "WEB9aed069aaf065c99d6a0d1daf230b840"
+    },
+    {
+      "id": "rvs-south",
+      "title": "Henry / Youdao archive — Central & South Spain (2024-07-23)",
+      "url": "https://app.notion.com/p/3fb17d16de4c81b3aff2c7591787b7ad",
+      "kind": "archive",
+      "checkedAt": "2026-10-25",
+      "sourceDate": "2024-07-23",
+      "originalNoteId": "WEB578f9a4af9d2a658067bfae5cc6d4e3d"
+    },
+    {
+      "id": "rvs-master",
+      "title": "Henry — MS / Old World / Spain: detailed master notes",
+      "url": "https://app.notion.com/p/3f617d16de4c816a926af42bf7557f33",
+      "kind": "archive",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-study",
+      "title": "Henry / Youdao archive — Spain Study Guide (saved 2017; modified 2022)",
+      "url": "https://app.notion.com/p/3fb17d16de4c813fbd52fa87b9820b97",
+      "kind": "archive",
+      "checkedAt": "2026-10-25",
+      "sourceDate": "2022-07-14",
+      "originalNoteId": "81FC60FBD77F48348CE796F9722008D7"
+    },
+    {
+      "id": "rvs-youdao-islands",
+      "title": "Henry / Youdao — Canary & Balearic Islands: two original maps, visually checked",
+      "url": "https://note.youdao.com/web/#/file/BF45311AAFDF4E258318322924DEAB17/note/2AC706734B0F4A47B23CD2A1C8360B62/?search=Canary%20Islands",
+      "kind": "archive",
+      "checkedAt": "2026-10-25",
+      "originalNoteId": "2AC706734B0F4A47B23CD2A1C8360B62",
+      "verificationNote": "Both embedded maps visually checked by root on 2026-10-25; map images are not republished."
+    },
+    {
+      "id": "rvs-valencia-archive",
+      "title": "Henry / Youdao — Forgotten Spain: Valencia (article 2017; saved 2019)",
+      "url": "https://app.notion.com/p/3fb17d16de4c81508eddd9c054bceb4c",
+      "kind": "archive",
+      "checkedAt": "2026-10-25",
+      "sourceDate": "2019-05-04",
+      "originalNoteId": "wcp1556991384986332"
+    },
+    {
+      "id": "rvs-sherry-archive",
+      "title": "Henry / Youdao — Sherry Wine (saved 2017)",
+      "url": "https://app.notion.com/p/3fb17d16de4c8194b531fac45c55a227",
+      "kind": "archive",
+      "checkedAt": "2026-10-25",
+      "sourceDate": "2017-03-10",
+      "originalNoteId": "wcp1489117178147445"
+    },
+    {
+      "id": "rvs-madaras-archive",
+      "title": "Team wine dossier — Pepe Mendoza La Viña de Madaras 2022",
+      "url": "https://app.notion.com/p/3ff17d16de4c814a935decb857797041",
+      "kind": "archive",
+      "checkedAt": "2026-10-25",
+      "sourceDate": "2026-10-20"
+    },
+    {
+      "id": "rvs-mapa-pagos",
+      "title": "MAPA — list of wine DOPs by autonomous community",
+      "url": "https://servicio.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/04_dopxccaa_tcm30-628181.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-elez",
+      "title": "Pago Finca Élez — official portfolio",
+      "url": "https://pagofincaelez.com/vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-elez-chardonnay",
+      "title": "Pago Finca Élez — Chardonnay Barrica 2022",
+      "url": "https://pagofincaelez.com/vinos/x3-botellas-chardonnay-barrica/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-elez-syrah",
+      "title": "Pago Finca Élez — Syrah 2020 technical sheet",
+      "url": "https://pagofincaelez.com/wp-content/uploads/2023/05/Pago-Finca-Elez-SYRAH-2020.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-guijoso",
+      "title": "Familia Conesa / Pago Guijoso — wines and ranges",
+      "url": "https://pagoguijoso.com/vinos-de-pago-guijoso-nuestros-vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-guijoso-chardonnay",
+      "title": "Pago Guijoso — Finca la Sabina Chardonnay 2015",
+      "url": "https://pagoguijoso.com/vinos-de-pago-guijoso-finca-la-sabina-chardonnay/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-guijoso-tempranillo",
+      "title": "Pago Guijoso — Finca la Sabina Tempranillo",
+      "url": "https://pagoguijoso.com/vinos-de-pago-guijoso-finca-la-sabina-tempranillo/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-martue",
+      "title": "Martúe — official wine portfolio",
+      "url": "https://martue.com/vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-martue-gran",
+      "title": "Martúe Gran Vino 2018 — technical sheet",
+      "url": "https://martue.com/wp-content/uploads/2023/04/ES-MARTUE-GRAN-VINO-2018.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-florentino",
+      "title": "Arzuaga Navarro — Pago Florentino",
+      "url": "https://www.arzuaganavarro.com/vinos/pago-florentino",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-florentino-2017",
+      "title": "Arzuaga Navarro — Pago Florentino 2017 technical sheet",
+      "url": "https://www.arzuaganavarro.com/images/ARZUAGA/Fichas-PDF/Florentino/florentino-17.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-casa-blanco",
+      "title": "Pago Casa del Blanco — QuiXote wine technical descriptions",
+      "url": "https://pagocasadelblanco.es/vinos-de-pago/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-calzadilla-opta",
+      "title": "Pago Calzadilla — OPTA",
+      "url": "https://pagocalzadilla.com/vinos-pago-calzadilla-bodega-uribes-madero/vino-opta/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-calzadilla-allegro",
+      "title": "Pago Calzadilla — Allegro",
+      "url": "https://pagocalzadilla.com/vinos-pago-calzadilla-bodega-uribes-madero/vino-allegro/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-vallegarcia",
+      "title": "Vallegarcía — official collection",
+      "url": "https://vallegarcia.com/collections/coleccion-vallegarcia",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-vallegarcia-history",
+      "title": "Vallegarcía — winery history and vineyard",
+      "url": "https://vallegarcia.com/pages/bodega",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-jaraba",
+      "title": "La Jaraba — Pago de La Jaraba family and technical descriptions",
+      "url": "https://lajaraba.com/bodega/familia-pago-de-la-jaraba/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-jaraba-geography",
+      "title": "MAPA — La Jaraba specification: geographic extent",
+      "url": "https://www.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/la_jaraba_2020_10_19_tcm30-512522.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-montalvo",
+      "title": "Montalvo Wilmot — wine portfolio",
+      "url": "https://bodegasmontalvowilmot.com/vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-montalvo-cabernet",
+      "title": "Montalvo Wilmot — Pago Los Cerrillos Cabernet de Familia technical sheet",
+      "url": "https://bodegasmontalvowilmot.com/wp-content/uploads/2025/04/MW-PC-Cabernet-de-Familia-ENG.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-vicario",
+      "title": "Pago del Vicario — Castilla IGP range",
+      "url": "https://pagodelvicario.com/categoria-producto/castilla/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-vicario-50",
+      "title": "Pago del Vicario — 50-50",
+      "url": "https://pagodelvicario.com/producto/50-50/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-rosalejo",
+      "title": "MAPA — EU registration of Rosalejo (2024)",
+      "url": "https://www.mapa.gob.es/es/prensa/ultimas-noticias/detalle_noticias/la-union-europea-registra-la-nueva-denominacion-de-origen-protegida-de-vino-de-pago--rosalejo-/775158de-fc7a-4a12-950e-c5416c5f4793",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-eldoze",
+      "title": "ARAEX / R&G — Eldoze wine technical profile",
+      "url": "https://araex.com/vinos/rg-eldoze/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-eldoze-vines",
+      "title": "Eldoze — Valle del Rosalejo vineyard",
+      "url": "https://eldoze.com/pages/vinedos",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-vegalfaro",
+      "title": "Bodegas Vegalfaro — winery and estate history",
+      "url": "https://bodegasvegalfaro.es/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-vegalfaro-pagos",
+      "title": "Bodegas Vegalfaro — Vinos de Pago portfolio",
+      "url": "https://bodegasvegalfaro.es/collections/vinos-de-pago",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-vegalfaro-chardonnay",
+      "title": "Vegalfaro — Pago de los Balagueses Chardonnay 2021 technical sheet",
+      "url": "https://vegalfaro.com/wp-content/uploads/2023/02/Pago-de-los-Balagueses-Chardonnay-2021-1.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-chozas-ocho",
+      "title": "Chozas Carrascal — Las Ocho",
+      "url": "https://chozascarrascal.com/tienda/producto/las-ocho/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-chozas-cabernet",
+      "title": "Chozas Carrascal — Cabernet Familiar",
+      "url": "https://chozascarrascal.com/tienda/producto/cabernet-familiar/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-vera",
+      "title": "Vera de Estenas — Casa Don Ángel Bobal 2023",
+      "url": "https://veradeestenas.es/producto/casa-don-angel-bobal/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-tharsys",
+      "title": "Pago de Tharsys — current DOP Tharsys wines",
+      "url": "https://pagodetharsys.com/tienda/categoria-producto/pago-de-tharsys/vinos-ecologicos/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-tharsys-do",
+      "title": "Turisme Comunitat Valenciana — EU DOP Tharsys recognition, 21 Nov 2025",
+      "url": "https://www.comunitatvalenciana.com/es/inspirate/pago-de-tharsys-denominacion-de-origen-protegida",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-gutierrez",
+      "title": "Gutiérrez de la Vega — current wine portfolio",
+      "url": "https://bodegasgutierrezdelavega.es/vinos-2/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-gutierrez-tio",
+      "title": "Gutiérrez de la Vega — Tío Raimundo 2017",
+      "url": "https://bodegasgutierrezdelavega.es/producto/tio-raimundo-3/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-gutierrez-rojo",
+      "title": "Gutiérrez de la Vega — Rojo y Negro 2018 change of composition",
+      "url": "https://bodegasgutierrezdelavega.es/producto/rojo-y-negro/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-gutierrez-armonia",
+      "title": "Gutiérrez de la Vega — Recóndita Armonía 2021",
+      "url": "https://bodegasgutierrezdelavega.es/producto/recondita-armonia/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-el-seque",
+      "title": "El Sequé / Artadi — official wines",
+      "url": "https://elseque.es/collections/vinos",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-el-seque-dulce",
+      "title": "Artadi — El Sequé Dulce 2011 technical sheet",
+      "url": "https://artadi.com/sites/default/files/user_files/fichaelsequedulce2011esp_1.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-volver",
+      "title": "Bodegas Volver — Tarima Mediterráneo",
+      "url": "https://bodegasvolver.com/en/nuestros-vinos/tarima-mediterraneo/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-torreoria",
+      "title": "Torre Oria — Cava Brut Nature Organic",
+      "url": "https://torreoria.com/productos/torre-oria-cava-brut-nature-organic/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-torreoria-brand",
+      "title": "Torre Oria — brand history and range",
+      "url": "https://torreoria.com/brands/torre-oria/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-jalifa",
+      "title": "Williams & Humbert — Jalifa Amontillado Solera Especial VORS",
+      "url": "https://www.williams-humbert.com/en/product/jalifa-amontillado-solera-especial-vors/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-fernando",
+      "title": "Fernando de Castilla — Oloroso Antique",
+      "url": "https://fernandodecastilla.com/ficha/oloroso-antique/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-wellington",
+      "title": "Hidalgo La Gitana — Wellington VOS 20",
+      "url": "https://bodegashidalgolagitana.com/tienda/wellington-vos-20/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-valdespino",
+      "title": "Valdespino — official catalogue (Viejo C.P. / Cardenal hierarchy)",
+      "url": "https://bodegavaldespino.com/wp-content/uploads/2023/07/Valdespino_Catalogo.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-ordonez",
+      "title": "Jorge Ordóñez — Málaga winery history and wine range",
+      "url": "https://jorgeordonez.es/wineries/bodegas-ordonez-malaga/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-ordonez-victoria",
+      "title": "Jorge Ordóñez Selections — Málaga Nº2 Victoria",
+      "url": "https://www.jorgeordonezselections.com/single-wine.php?wineID=22",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-envinate-importer",
+      "title": "Envínate — José Pastor Selections producer-authorized importer profile",
+      "url": "https://www.josepastorselections.com/envinate.html",
+      "kind": "importer",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-envinate-benje-blanco",
+      "title": "Envínate — Benje Blanco technical sheet hosted by José Pastor Selections",
+      "url": "https://www.josepastorselections.com/uploads/1/3/9/1/13912267/env%C3%ADnate_-_benje_blanco_tech_sheet.pdf",
+      "kind": "importer",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-envinate-benje-tinto",
+      "title": "Envínate — Benje Tinto technical sheet hosted by José Pastor Selections",
+      "url": "https://www.josepastorselections.com/uploads/1/3/9/1/13912267/env%C3%ADnate_-_benje_tinto_tech_sheet.pdf",
+      "kind": "importer",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-envinate-albahra",
+      "title": "Envínate — Albahra, Indigo Wine importer technical profile",
+      "url": "https://www.indigowine.com/wine/albahra/",
+      "kind": "importer",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-telmo-almuvedre",
+      "title": "Compañía de Vinos Telmo Rodríguez — Al-Muvedre",
+      "url": "https://www.telmorodriguez.com/almuvedre-tinto-monastrell-en",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-binissalem",
+      "title": "DO Binissalem — official wine composition and permitted varieties",
+      "url": "https://binissalemdo.com/en/wine-in-mallorca/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-malaga",
+      "title": "Consejo Regulador — D.O. Málaga wine categories and aging",
+      "url": "https://vinomalaga.com/en/consejo-regulador/d-o-malaga/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-palo-cortado",
+      "title": "Consejo Regulador Jerez — Palo Cortado definition",
+      "url": "https://www.sherry.wine/es/vinos-de-jerez/generosos/palo-cortado",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-ucles-2026",
+      "title": "European Commission — Uclés standard amendment 2026/C 897",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A52026XC00897",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-inviosa-history",
+      "title": "Ruta del Vino y Cava Ribera del Guadiana — Bonaval / Inviosa history, 2022",
+      "url": "https://www.rutadelvinoriberadelguadiana.com/este-verano-brinda-con-cava-de-almendralejo/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-lopez-cava",
+      "title": "DO Cava — López Morenas / Bodegas Bonaval, Viñedos de Almendralejo",
+      "url": "https://www.cava.wine/es/bodegas/lopez-morenas-sl/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-bonaval-brut",
+      "title": "Bodegas López Morenas — Cava Bonaval Brut technical sheet (2026 upload)",
+      "url": "https://bodegaslopezmorenas.com/wp-content/uploads/2026/08/18.-Cava-Bonaval-Brut.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-terramoll-savina",
+      "title": "Terramoll — savina individual technical description",
+      "url": "https://terramoll.es/wine/savina/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-terramoll-rosa-de-mar",
+      "title": "Terramoll — rosa-de-mar individual technical description",
+      "url": "https://terramoll.es/wine/rosa-de-mar/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-terramoll-lliri",
+      "title": "Terramoll — lliri individual technical description",
+      "url": "https://terramoll.es/wine/lliri/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-terramoll-es-virot",
+      "title": "Terramoll — es-virot individual technical description",
+      "url": "https://terramoll.es/wine/es-virot/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-terramoll-es-monestir",
+      "title": "Terramoll — es-monestir individual technical description",
+      "url": "https://terramoll.es/wine/es-monestir/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-terramoll-astarte",
+      "title": "Terramoll — astarte individual technical description",
+      "url": "https://terramoll.es/wine/astarte/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-terramoll-monestir-2020",
+      "title": "Terramoll — Es Monestir 2020 full technical sheet",
+      "url": "https://terramoll.es/wp-content/uploads/2026/04/ESMONESTIR_2020_ENG_Terramoll.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-can-verdura",
+      "title": "Ca’n Verdura — estate and family introduction",
+      "url": "https://vinscanverdura.com/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "rvs-can-verdura-supernova",
+      "title": "Ca’n Verdura — Supernova Negre 2024, Blanc 2023, Rosat 2023",
+      "url": "https://vinscanverdura.com/supernova/",
+      "kind": "official",
+      "checkedAt": "2026-10-25"
+    },
+    {
+      "id": "es-south-islands-ss-mendoza",
+      "title": "Enrique Mendoza official portfolio",
+      "url": "https://bodegasmendoza.com/los-vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "es-south-islands-ss-mendoza-monastrell",
+      "title": "Enrique Mendoza: Monastrell wines",
+      "url": "https://bodegasmendoza.com/en/variedad/monastrell-en/?product_count=24&product_order=desc&product_orderby=price&product_view=list",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "es-south-islands-ss-mustiguillo",
+      "title": "Mustiguillo official wines with explicit designations",
+      "url": "https://bodegamustiguillo.com/productos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "es-south-islands-ss-mustiguillo-mest",
+      "title": "Mustiguillo: Mestizaje",
+      "url": "https://bodegamustiguillo.com/productos/mestizaje/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "es-south-islands-ss-pepe-home",
+      "title": "Pepe Mendoza Casa Agrícola current technical portfolio",
+      "url": "https://casaagricola.es/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "es-south-islands-ss-roure",
+      "title": "Celler del Roure: Safrà",
+      "url": "https://alcusses.es/ca/safra/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "es-south-islands-ss-terramoll",
+      "title": "Terramoll wines",
+      "url": "https://terramoll.es/vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "es-south-islands-ss-valdespino",
+      "title": "Valdespino official wine catalogue",
+      "url": "https://bodegavaldespino.com/wp-content/uploads/2023/07/Valdespino_Catalogo.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    }
+  ],
+  "grapes": [],
+  "regions": [
+    {
+      "id": "finca-elez",
+      "name": "Finca Élez",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "chardonnay",
+        "syrah",
+        "tempranillo"
+      ],
+      "overview": "以高原葡萄园与小地块酒为线索的独立 Pago；Henry 的 2024 Castilla-La Mancha 清单将其单列。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "El Bonillo, Albacete"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "pago-finca-elez"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-elez"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Finca Élez 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "guijoso",
+      "name": "Guijoso",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "chardonnay",
+        "merlot",
+        "tempranillo",
+        "syrah",
+        "cabernet-sauvignon"
+      ],
+      "overview": "Familia Conesa 的 Pago Guijoso；Finca la Sabina 单品种系列可用来辨认这块地产，与同自治区 Finca Élez 分列。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "El Bonillo, Albacete"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "familia-conesa-pago-guijoso"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-guijoso"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Guijoso 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "campo-de-la-guardia",
+      "name": "Campo de la Guardia",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "syrah",
+        "petit-verdot",
+        "malbec"
+      ],
+      "overview": "Martúe 所在的独立 Pago。集团旗下 Nieva 的 Rueda 白酒属于另一个产区，不能由集团关系自动归入本 Pago。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "La Guardia, Toledo"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "martue"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-martue"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Campo de la Guardia 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "pago-florentino",
+      "name": "Pago Florentino",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "overview": "Arzuaga 在 La Solana 地产的 Cencibel 项目；独立于其 Ribera del Duero 酒款，显示 Tempranillo 在 La Mancha 高原边缘的表达。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Malagón, Ciudad Real"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "pago-florentino-producer"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-florentino"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Pago Florentino 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "casa-del-blanco",
+      "name": "Casa del Blanco",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "syrah",
+        "malbec",
+        "cabernet-franc",
+        "merlot",
+        "tempranillo",
+        "petit-verdot"
+      ],
+      "overview": "独立 Pago，QuiXote 系列按组合及单品种区分；不能把 Cabernet–Syrah、Malbec–Cabernet Franc 与 Petit Verdot 当作同一款的年份别名。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Manzanares, Ciudad Real"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "pago-casa-del-blanco"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-casa-blanco"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Casa del Blanco 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "calzadilla",
+      "name": "Calzadilla",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "syrah"
+      ],
+      "overview": "Uribes Madero 的 Alcarria 山地 Pago。OPTA 混酿与 Allegro Syrah 提供同一地产内不同葡萄组合的对照。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Huete, Cuenca"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "pago-calzadilla"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-calzadilla-opta"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Calzadilla 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "vallegarcia",
+      "name": "Vallegarcía",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "viognier",
+        "syrah",
+        "cabernet-sauvignon",
+        "cabernet-franc",
+        "merlot",
+        "petit-verdot"
+      ],
+      "overview": "以法国品种为起点的 Montes de Toledo 地产，2019 年获独立 DOP；Viognier、Syrah 与 Hipperia 家族为主要辨认线索。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Montes de Toledo"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "pago-vallegarcia"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-vallegarcia-history"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Vallegarcía 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "la-jaraba",
+      "name": "La Jaraba",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot",
+        "sauvignon-blanc"
+      ],
+      "overview": "独立 Pago，酒庄明确区分 Pago de La Jaraba、Viña Jaraba 等不同产品家族。本条收录技术页明确标 Vino de Pago 的酒款。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Villarrobledo (Albacete)",
+        "El Provencio (Cuenca)"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "pago-la-jaraba"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-jaraba",
+        "rvs-jaraba-geography"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 La Jaraba 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "los-cerrillos",
+      "name": "Los Cerrillos",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "petit-verdot",
+        "tempranillo",
+        "syrah"
+      ],
+      "overview": "Montalvo Wilmot 的独立 Pago，葡萄园邻近 Peñarroya 水库，约 700 米高度；Cabernet de Familia 有明确 DOP Los Cerrillos 技术表。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Argamasilla de Alba, Ciudad Real"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "montalvo-wilmot"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-montalvo-cabernet"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Los Cerrillos 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "el-vicario",
+      "name": "El Vicario",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon"
+      ],
+      "overview": "Henry 的 2024 清单与 MAPA 名录所列的独立 DOP。生产者现有商店仍将部分酒列 Castilla IGP，因此地理页面与具体背标需要分开。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Ciudad Real"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "pago-del-vicario"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-vicario"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 El Vicario 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "rosalejo",
+      "name": "Rosalejo",
+      "kind": "DOP Pago",
+      "parent": "Castilla-La Mancha",
+      "grapeIds": [
+        "syrah",
+        "tempranillo",
+        "garnacha-tinta"
+      ],
+      "overview": "2024 年获欧盟注册的独立 Pago，跨 Ciudad Real 与 Toledo 边界。Eldoze 的 Syrah 地产酒连接 Valle del Rosalejo 的实际葡萄园。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Anchuras / Sevilleja de la Jara"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "eldoze"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-mapa-pagos",
+        "rvs-rosalejo"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Rosalejo 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-castilla",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "los-balagueses",
+      "name": "Los Balagueses",
+      "kind": "DOP Pago",
+      "parent": "Comunitat Valenciana",
+      "grapeIds": [
+        "syrah",
+        "alicante-bouschet",
+        "chardonnay"
+      ],
+      "overview": "Vegalfaro 的独立 Pago。酒庄另有 Utiel-Requena 的 Caprasia/Rebel·lia 以及 Cava；各名称须按酒款区分。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Requena"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "vegalfaro"
+      ],
+      "sourceIds": [
+        "rvs-south",
+        "rvs-mapa-pagos",
+        "rvs-vegalfaro-pagos"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Los Balagueses 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-south",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "chozas-carrascal",
+      "name": "Chozas Carrascal",
+      "kind": "DOP Pago",
+      "parent": "Comunitat Valenciana",
+      "grapeIds": [
+        "bobal",
+        "monastrell",
+        "garnacha-tinta",
+        "tempranillo",
+        "cabernet-sauvignon",
+        "cabernet-franc",
+        "syrah",
+        "merlot"
+      ],
+      "overview": "同名酒庄的独立 Pago，Las Ocho 与 Cabernet Familiar 的当前官网明确列 DOP。2017 文章中“申请／临时认可”的状态保留为历史资料。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "San Antonio, Requena"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "chozas-carrascal-producer"
+      ],
+      "sourceIds": [
+        "rvs-south",
+        "rvs-mapa-pagos",
+        "rvs-chozas-ocho"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Chozas Carrascal 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-south",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "vera-de-estenas",
+      "name": "Vera de Estenas",
+      "kind": "DOP Pago",
+      "parent": "Comunitat Valenciana",
+      "grapeIds": [
+        "bobal",
+        "cabernet-sauvignon",
+        "merlot",
+        "tempranillo",
+        "chardonnay"
+      ],
+      "overview": "老 Bobal 与瓶陈收藏是学习重点；Henry 的清单列 2019 年 DOP。来源文章品鉴的 2014–2016 年份须按当时标签处理。",
+      "climate": "",
+      "soils": "",
+      "subregions": [
+        "Utiel"
+      ],
+      "regulations": [
+        "独立 DOP Pago；同一生产者旗下其他地区及旧年份标签分别处理。"
+      ],
+      "producerIds": [
+        "vera-de-estenas-producer"
+      ],
+      "sourceIds": [
+        "rvs-south",
+        "rvs-mapa-pagos",
+        "rvs-vera"
+      ],
+      "verification": "official",
+      "studySections": [
+        {
+          "heading": "原笔记中的 Pago 身份",
+          "paragraphs": [
+            "Henry 的 2024 地区／Pago 清单把 Vera de Estenas 单列为独立保护名称。地区身份与生产者旗下每一款酒的实际保护名称分别核对，尤其需要保留历史年份的标签语境。"
+          ],
+          "sourceIds": [
+            "rvs-south",
+            "rvs-master"
+          ],
+          "status": "archive",
+          "sourceDate": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "tharsys",
+      "name": "Tharsys",
+      "kind": "DOP Pago",
+      "parent": "Comunitat Valenciana",
+      "grapeIds": [
+        "albarino",
+        "xarello",
+        "bobal"
+      ],
+      "overview": "Pago de Tharsys 的独立 DOP，2025 年由官方旅游部门公告欧盟认可。以 Requena 的石灰岩地块与有机栽培为基础；名称中的 Pago de Tharsys 是生产者，法定保护名称为 Tharsys。",
+      "climate": "",
+      "soils": "石灰岩基底。",
+      "subregions": [
+        "Requena"
+      ],
+      "regulations": [
+        "2025 年以后的 DOP 身份不能自动套到原文章 2011–2016 年份。",
+        "同庄 Cava 仍依 Cava 的实际酒款标识归类。"
+      ],
+      "producerIds": [
+        "pago-de-tharsys"
+      ],
+      "sourceIds": [
+        "rvs-tharsys-do",
+        "rvs-tharsys"
+      ],
+      "verification": "official"
+    }
+  ],
+  "producers": [
+    {
+      "id": "pago-finca-elez",
+      "name": "Pago Finca Élez",
+      "regionIds": [
+        "finca-elez"
+      ],
+      "location": "El Bonillo, Albacete",
+      "story": "以 parcela 为单位组织 Chardonnay、Syrah 与 Cencibel 等酒款的高原 Pago 项目。",
+      "wineIds": [
+        "pago-finca-elez-chardonnay-barrica",
+        "pago-finca-elez-syrah"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-elez"
+      ],
+      "verification": "official",
+      "website": "https://pagofincaelez.com/",
+      "sections": [
+        {
+          "title": "酒款结构",
+          "text": "官网把 Chardonnay Barrica、El Secreto de Élez、Miracielos、Syrah、Cencibel 列入地块酒系列，另列 Chardonnay Lías、Nostrum、Las Teselas 与 Tierra de Sabinas。配方未公开的名称不由庄内栽培品种推断。",
+          "sourceIds": [
+            "rvs-elez"
+          ]
+        },
+        {
+          "title": "技术与年份",
+          "text": "Chardonnay Barrica 2022 使用 500 升桶发酵；Syrah 2020 技术表列法国桶培养。两份表单分别保存年份语境，不把某年份产量或培养月数当成全系列永恒规定。",
+          "sourceIds": [
+            "rvs-elez-chardonnay",
+            "rvs-elez-syrah"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "familia-conesa-pago-guijoso",
+      "name": "Familia Conesa · Pago Guijoso",
+      "regionIds": [
+        "guijoso"
+      ],
+      "location": "El Bonillo, Albacete",
+      "story": "以 Finca la Sabina、La Doncella 等系列呈现 Guijoso 地产的有机葡萄酒。",
+      "wineIds": [
+        "guijoso-finca-la-sabina-chardonnay",
+        "guijoso-finca-la-sabina-tempranillo"
+      ],
+      "sourceIds": [
+        "rvs-guijoso",
+        "rvs-castilla"
+      ],
+      "verification": "official",
+      "website": "https://pagoguijoso.com/",
+      "sections": [
+        {
+          "title": "从地块到系列",
+          "text": "Finca la Sabina 包含 Merlot、Syrah、Chardonnay、Tempranillo 与 Cabernet 单品种名称；La Doncella、El Beso de las Uvas、Piedra a Piedra 与 Ousía 是不同产品家族。",
+          "sourceIds": [
+            "rvs-guijoso"
+          ]
+        },
+        {
+          "title": "可核实的长期培养白酒",
+          "text": "Finca la Sabina Chardonnay 的官方页具体对应 2015 年份，列 5 年法国桶培养。它是可追溯的长桶陈案例，不应与通常年轻饮用的 Chardonnay 泛称混在一起。",
+          "sourceIds": [
+            "rvs-guijoso-chardonnay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "martue",
+      "name": "Martúe",
+      "regionIds": [
+        "campo-de-la-guardia"
+      ],
+      "location": "La Guardia, Toledo",
+      "story": "Campo de la Guardia Pago 的生产者；红酒系列展示 Syrah 及多品种组合，集团也经营其他地区酒庄。",
+      "wineIds": [
+        "martue-syrah",
+        "martue-gran-vino-2018"
+      ],
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-martue"
+      ],
+      "verification": "official",
+      "website": "https://martue.com/",
+      "sections": [
+        {
+          "title": "地域与系列",
+          "text": "Martúe 的 Campo de la Guardia 红酒与集团酒单上的 Nieva Rueda 白酒分开。官网列 Especial、Evolution、Syrah 与 Gran Vino；该组合不能作为整个集团共用的产区或葡萄配方。",
+          "sourceIds": [
+            "rvs-martue"
+          ]
+        },
+        {
+          "title": "Gran Vino 的层级",
+          "text": "2018 Gran Vino 从 Syrah、Petit Verdot、Malbec 的精选桶组成，采用夜间采收、自发酵母发酵与 22 个月法国桶培养；来源明确给到年份及批次。",
+          "sourceIds": [
+            "rvs-martue-gran"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pago-florentino-producer",
+      "name": "Pago Florentino · Arzuaga Navarro",
+      "regionIds": [
+        "pago-florentino"
+      ],
+      "location": "La Solana, Malagón, Ciudad Real",
+      "story": "Arzuaga 的 La Mancha 地产项目，以 Cencibel 呈现独立 Pago 的风格。",
+      "wineIds": [
+        "pago-florentino-2017"
+      ],
+      "sourceIds": [
+        "rvs-florentino",
+        "rvs-castilla"
+      ],
+      "verification": "official",
+      "website": "https://www.arzuaganavarro.com/vinos/pago-florentino",
+      "sections": [
+        {
+          "title": "地块与水分条件",
+          "text": "La Solana 葡萄园围绕酒庄，北面有山丘遮护并朝向南侧湖泊。表层砾石利于排水，黏土与下层岩层帮助保水，适应炎热夏季。",
+          "sourceIds": [
+            "rvs-florentino-2017"
+          ]
+        },
+        {
+          "title": "年份技术档案",
+          "text": "2017 表单为 100% Cencibel（Tempranillo），经冷浸渍、钢罐发酵后在新法国与美国桶完成乳酸发酵及 12 个月培养。当前 Eco 命名不反向套在该旧年份。",
+          "sourceIds": [
+            "rvs-florentino-2017",
+            "rvs-florentino"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pago-casa-del-blanco",
+      "name": "Pago Casa del Blanco",
+      "regionIds": [
+        "casa-del-blanco"
+      ],
+      "location": "Manzanares, Ciudad Real",
+      "story": "QuiXote 系列来自 Casa del Blanco 独立 Pago，以多种组合及 Petit Verdot 单品种区分标签。",
+      "wineIds": [
+        "casa-del-blanco-quixote-cabernet-syrah",
+        "casa-del-blanco-quixote-malbec-cabernet-franc",
+        "casa-del-blanco-quixote-merlot-tempranillo-petit-verdot",
+        "casa-del-blanco-quixote-petit-verdot"
+      ],
+      "sourceIds": [
+        "rvs-casa-blanco",
+        "rvs-castilla"
+      ],
+      "verification": "official",
+      "website": "https://pagocasadelblanco.es/",
+      "sections": [
+        {
+          "title": "QuiXote 的四种组成",
+          "text": "官网分别列 Cabernet Sauvignon–Syrah、Malbec–Cabernet Franc、Merlot–Tempranillo–Petit Verdot 及 Petit Verdot。条目按照酒款命名分开，避免把所有葡萄合并为一个配方。",
+          "sourceIds": [
+            "rvs-casa-blanco"
+          ]
+        },
+        {
+          "title": "土壤与培养",
+          "text": "官方技术描述为偏碱性的石灰质砂壤土，相关 QuiXote 批次列法国与美国橡木桶培养。这里不延伸网站的锂元素营销主张。",
+          "sourceIds": [
+            "rvs-casa-blanco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pago-calzadilla",
+      "name": "Pago Calzadilla · Uribes Madero",
+      "regionIds": [
+        "calzadilla"
+      ],
+      "location": "Huete, Cuenca",
+      "story": "Alcarria 的山地 Pago，以贫瘠石灰质土、低产地块及长期瓶陈组织 OPTA、Allegro 等酒款。",
+      "wineIds": [
+        "calzadilla-opta",
+        "calzadilla-allegro"
+      ],
+      "sourceIds": [
+        "rvs-calzadilla-opta",
+        "rvs-calzadilla-allegro",
+        "rvs-castilla"
+      ],
+      "verification": "official",
+      "website": "https://pagocalzadilla.com/",
+      "sections": [
+        {
+          "title": "地块与品种",
+          "text": "Allegro 的 Syrah 生长于 Cerro de la Pájara 约 1,000 米坡地，表层石灰质、下层黏土；OPTA 把 Tempranillo、Syrah 和 Garnacha 组合在一起。",
+          "sourceIds": [
+            "rvs-calzadilla-opta",
+            "rvs-calzadilla-allegro"
+          ]
+        },
+        {
+          "title": "培养与发售节奏",
+          "text": "不同大小法国桶与木槽用于培养；酒庄说明装瓶后继续留庄 2–3 年才发售。应按具体产品表区分容器和时间，不把 Rioja 式等级名称套到这里。",
+          "sourceIds": [
+            "rvs-calzadilla-opta",
+            "rvs-calzadilla-allegro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pago-vallegarcia",
+      "name": "Pago de Vallegarcía",
+      "regionIds": [
+        "vallegarcia"
+      ],
+      "location": "Montes de Toledo",
+      "story": "Alfonso Cortina 发起的 Montes de Toledo 地产，法国品种与山地环境构成项目的起点。",
+      "wineIds": [
+        "vallegarcia-viognier",
+        "vallegarcia-syrah"
+      ],
+      "sourceIds": [
+        "rvs-vallegarcia-history",
+        "rvs-castilla"
+      ],
+      "verification": "official",
+      "website": "https://vallegarcia.com/",
+      "sections": [
+        {
+          "title": "项目建立",
+          "text": "1997 年由 Alfonso Cortina 推动，Richard Smart 参与葡萄园设计；官网记录 2001 年 Viognier 首酿及 2019 年 DOP 认可。",
+          "sourceIds": [
+            "rvs-vallegarcia-history"
+          ]
+        },
+        {
+          "title": "品种与系列",
+          "text": "核心种植包括 Viognier、Syrah、Cabernet Sauvignon、Cabernet Franc、Merlot 与 Petit Verdot。现行目录有 Petit Hipperia、Hipperia、Alfonso Cortina 与单品种酒；另见 Garnacha–Cariñena 标签，其保护名称需要另核，不自动归本 DOP。",
+          "sourceIds": [
+            "rvs-vallegarcia-history",
+            "rvs-vallegarcia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pago-la-jaraba",
+      "name": "Pago de La Jaraba",
+      "regionIds": [
+        "la-jaraba"
+      ],
+      "location": "Villarrobledo / El Provencio, Albacete–Cuenca",
+      "story": "把葡萄酒、橄榄及奶酪生产结合的地产；酒款中明确区分 Pago 系列与其他品牌。",
+      "wineIds": [
+        "la-jaraba-pago-tinto",
+        "la-jaraba-merlot",
+        "la-jaraba-sauvignon-blanc"
+      ],
+      "sourceIds": [
+        "rvs-jaraba",
+        "rvs-jaraba-geography",
+        "rvs-castilla"
+      ],
+      "verification": "official",
+      "website": "https://lajaraba.com/",
+      "sections": [
+        {
+          "title": "Pago 系列的三条线",
+          "text": "官方明确列出 Pago de La Jaraba Tinto、Merlot 与 Sauvignon Blanc。Tinto 是 Tempranillo/Cabernet Sauvignon/Merlot 混酿；另外两款是单品种。",
+          "sourceIds": [
+            "rvs-jaraba"
+          ]
+        },
+        {
+          "title": "酿造差异",
+          "text": "混酿各品种先分开发酵，之后在法国新桶培养 12 个月；Merlot 为 6 个月桶陈；Sauvignon Blanc 以酒泥接触表现白酒质感。",
+          "sourceIds": [
+            "rvs-jaraba"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montalvo-wilmot",
+      "name": "Bodegas Montalvo Wilmot",
+      "regionIds": [
+        "los-cerrillos"
+      ],
+      "location": "Argamasilla de Alba, Ciudad Real",
+      "story": "以 Finca Los Cerrillos 为核心，MW 系列包含 Cabernet de Familia、Petit Verdot Selección 等酒款。",
+      "wineIds": [
+        "montalvo-wilmot-cabernet-de-familia",
+        "montalvo-wilmot-petit-verdot"
+      ],
+      "sourceIds": [
+        "rvs-montalvo",
+        "rvs-montalvo-cabernet",
+        "rvs-castilla"
+      ],
+      "verification": "official",
+      "website": "https://bodegasmontalvowilmot.com/",
+      "sections": [
+        {
+          "title": "葡萄园位置",
+          "text": "Cabernet de Familia 来自近 Peñarroya 水库的一块约 1.5 公顷葡萄园，约 700 米海拔，山丘与水库周围条件令成熟较缓。",
+          "sourceIds": [
+            "rvs-montalvo-cabernet"
+          ]
+        },
+        {
+          "title": "Cabernet de Familia 的培养",
+          "text": "手工采摘、发酵前冷浸渍，以自发酵母发酵；法国桶乳酸发酵及 24 个月培养。技术表明确写 DOP Los Cerrillos，优先于仅按酒庄所在地猜测背标。",
+          "sourceIds": [
+            "rvs-montalvo-cabernet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pago-del-vicario",
+      "name": "Pago del Vicario",
+      "regionIds": [
+        "el-vicario",
+        "castilla-igp"
+      ],
+      "location": "Ciudad Real",
+      "story": "位于 Guadiana 河畔的地产，法定 El Vicario Pago 与其商品名 Pago del Vicario 应分清。",
+      "wineIds": [
+        "pago-del-vicario-50-50"
+      ],
+      "sourceIds": [
+        "rvs-vicario",
+        "rvs-castilla",
+        "rvs-mapa-pagos"
+      ],
+      "verification": "official",
+      "website": "https://pagodelvicario.com/",
+      "sections": [
+        {
+          "title": "身份与标签",
+          "text": "原笔记与官方名录列 El Vicario DOP；生产者当前商店把一批商品归在 Castilla IGP。地区被补回，并不意味着所有 Penta、Talva、50-50 的历史或现售标签已改为 DOP。",
+          "sourceIds": [
+            "rvs-mapa-pagos",
+            "rvs-vicario"
+          ]
+        },
+        {
+          "title": "代表酒 50-50",
+          "text": "官网描述 Tempranillo 与 Cabernet Sauvignon 的组合，并列法国及高加索橡木培养。百分比仅在品牌明确标示时理解，仍需跟随年份技术表。",
+          "sourceIds": [
+            "rvs-vicario-50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eldoze",
+      "name": "Eldoze · R&G",
+      "regionIds": [
+        "rosalejo"
+      ],
+      "location": "Valle del Rosalejo, Anchuras",
+      "story": "Rosalejo 独立 Pago 的 Syrah 地产项目；葡萄园位于 Montes de Toledo 南缘、近 Cabañeros。",
+      "wineIds": [
+        "eldoze-rg-syrah"
+      ],
+      "sourceIds": [
+        "rvs-eldoze-vines",
+        "rvs-eldoze",
+        "rvs-rosalejo"
+      ],
+      "verification": "official",
+      "website": "https://eldoze.com/",
+      "sections": [
+        {
+          "title": "地产与 DOP",
+          "text": "Valle del Rosalejo 的葡萄园与 2024 年欧盟注册的 Rosalejo DOP 相连；法定边界跨 Anchuras 与 Sevilleja de la Jara。",
+          "sourceIds": [
+            "rvs-eldoze-vines",
+            "rvs-rosalejo"
+          ]
+        },
+        {
+          "title": "R&G Eldoze",
+          "text": "品牌的 2021 技术页列 100% Syrah、手工采收、小钢罐和敞口桶发酵，并以重力转运及法国橡木培养。生产商页面已将酒归 D.O. Rosalejo；较早装瓶仍要以实物标签确认。",
+          "sourceIds": [
+            "rvs-eldoze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegalfaro",
+      "name": "Bodegas Vegalfaro",
+      "regionIds": [
+        "los-balagueses",
+        "utiel-requena",
+        "cava"
+      ],
+      "location": "Requena",
+      "story": "Rodolfo Valiente 的家族酒庄，Pago de los Balagueses、Utiel-Requena 静态酒与 Cava 构成不同产品线。",
+      "wineIds": [
+        "vegalfaro-los-balagueses-chardonnay",
+        "vegalfaro-los-balagueses-syrah",
+        "vegalfaro-los-balagueses-garnacha-tintorera"
+      ],
+      "sourceIds": [
+        "rvs-vegalfaro",
+        "rvs-vegalfaro-pagos",
+        "rvs-south"
+      ],
+      "verification": "official",
+      "website": "https://bodegasvegalfaro.es/",
+      "sections": [
+        {
+          "title": "家族与葡萄园",
+          "text": "酒庄创建于 1999 年，葡萄园位于 Requena 的 700–900 米地带，土壤含石灰质、黏土与石砾；有机栽培是产品线共同的出发点。",
+          "sourceIds": [
+            "rvs-vegalfaro"
+          ]
+        },
+        {
+          "title": "保护名称分开看",
+          "text": "Pago de los Balagueses 是地产最高层级的一组酒，包含 Chardonnay、Syrah、Garnacha Tintorera。Caprasia 的部分静态酒属于 Utiel-Requena，起泡酒则按 Cava 标识。",
+          "sourceIds": [
+            "rvs-vegalfaro",
+            "rvs-vegalfaro-pagos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chozas-carrascal-producer",
+      "name": "Chozas Carrascal",
+      "regionIds": [
+        "chozas-carrascal",
+        "utiel-requena"
+      ],
+      "location": "San Antonio, Requena",
+      "story": "López 家族从葡萄种植发展为自有品牌，酒窖的混凝土容器与多品种葡萄园是原文章的重点。",
+      "wineIds": [
+        "chozas-las-ocho",
+        "chozas-cabernet-familiar",
+        "chozas-las-2-ces-2015"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-chozas-ocho",
+        "rvs-chozas-cabernet"
+      ],
+      "verification": "official",
+      "website": "https://chozascarrascal.com/",
+      "sections": [
+        {
+          "title": "原文记录的建立过程",
+          "text": "2017 文章记载家族 1992 年种植葡萄园，先售果，再于 2003 年推出品牌；酒窖采用混凝土罐与蛋形容器。文中 Pago 尚处于临时认可阶段，与今天独立 DOP 状态分开保存。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "当前酒款与历史品鉴",
+          "text": "Las Ocho 以八个红葡萄品种组成，Cabernet Familiar 为 100% Cabernet Franc。Henry 收藏文章还品鉴 Las 2 Ces Tinto 2015（Bobal 80%、Tempranillo/Syrah 各 10%）与 Cabernet Familiar 2014。",
+          "sourceIds": [
+            "rvs-valencia-archive",
+            "rvs-chozas-ocho",
+            "rvs-chozas-cabernet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vera-de-estenas-producer",
+      "name": "Vera de Estenas",
+      "regionIds": [
+        "vera-de-estenas",
+        "utiel-requena"
+      ],
+      "location": "Utiel, Valencia",
+      "story": "以老 Bobal、陈年能力及长期保存旧年份为特色的家族地产。",
+      "wineIds": [
+        "vera-casa-don-angel-bobal",
+        "vera-bobal-de-estenas-2016",
+        "vera-madurado-barrica-2015"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-vera",
+        "rvs-south"
+      ],
+      "verification": "official",
+      "website": "https://veradeestenas.es/",
+      "sections": [
+        {
+          "title": "从散装到自有酒",
+          "text": "2017 文章把家族酒业追溯到 1870 年代，记载 1982 年开始瓶装自有酒，先种 Cabernet Sauvignon、Merlot、Chardonnay，至 1998 年重新聚焦 Bobal；酒庄收藏年份可追溯到 1982。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "老藤与酒款层级",
+          "text": "原文讨论百年 Bobal：年轻 El Bobal de Estenas、短桶陈 Madurado en Barrica，以及更集中、适合陈年的 Casa Don Ángel。当前官网继续列 Casa Don Ángel 2023 为 100% Bobal；旧年份配方和培养另行保存。",
+          "sourceIds": [
+            "rvs-valencia-archive",
+            "rvs-vera"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pago-de-tharsys",
+      "name": "Pago de Tharsys",
+      "regionIds": [
+        "tharsys",
+        "utiel-requena",
+        "cava"
+      ],
+      "location": "Requena, Valencia",
+      "story": "Vicente García 在 Requena 创立的酒庄，Cava、Bobal 起泡与静态酒需分线理解；2025 年增加独立 DOP Tharsys 身份。",
+      "wineIds": [
+        "tharsys-carlota-suria-brut-nature-archive",
+        "tharsys-unico-2013",
+        "tharsys-millesime-rose-2013",
+        "tharsys-academia-bobal-2016",
+        "tharsys-nuestro-bobal-2011",
+        "tharsys-vendimia-nocturna-albarino"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-tharsys",
+        "rvs-tharsys-do"
+      ],
+      "verification": "official",
+      "website": "https://pagodetharsys.com/",
+      "sections": [
+        {
+          "title": "Requena 起泡酒的历史角色",
+          "text": "2017 文章记载 Vicente García 曾任 Segura Viudas 技术主管，返乡在 Torre Oria 推动 Cava 生产资格，之后于 2002 年建立 Pago de Tharsys。Torre Oria 与 Pago de Tharsys 是不同生产者，人物经历不等于酒庄合并。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "原文的五款对照",
+          "text": "Carlota Suria Brut Nature 是 Macabeo Cava；Millésime Rosé 2013 为 Garnacha；Único 2013 则是 Bobal 白中黑起泡，因品种不同不能称 Cava。静态酒另有 Academia de los Nocturnos Bobal 2016 与含 15% Cabernet Franc 的 Nuestro Bobal 2011。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "现在的 DOP 与旧年份",
+          "text": "2025 年官方公告认可 DOP Tharsys，14 公顷石灰岩葡萄园与有机栽培是识别重点。当前酒庄把 Albariño Vendimia Nocturna 等列入该 DOP，不能把这项新身份反向套在 2017 文章的所有酒上。",
+          "sourceIds": [
+            "rvs-tharsys-do",
+            "rvs-tharsys"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gutierrez-de-la-vega",
+      "name": "Bodegas Gutiérrez de la Vega",
+      "regionIds": [
+        "alicante"
+      ],
+      "location": "Parcent / Marina Alta, Alicante",
+      "story": "Felipe Gutiérrez de la Vega 自 1978 年以 Moscatel、Monastrell 等探索干白、干红与甜酒；需特别区分原文桶样、solera 与后来的配方变化。",
+      "wineIds": [
+        "gutierrez-tio-raimundo-2014",
+        "gutierrez-tio-raimundo",
+        "gutierrez-casta-diva-reserva-real-2015",
+        "gutierrez-rojo-y-negro-2010",
+        "gutierrez-rojo-y-negro",
+        "gutierrez-recondita-armonia-solera-1987"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-gutierrez"
+      ],
+      "verification": "official",
+      "website": "https://bodegasgutierrezdelavega.es/",
+      "sections": [
+        {
+          "title": "人物与葡萄来源",
+          "text": "2017 文章记录 Felipe 自学酿酒，女儿在 Bordeaux 学习酿酒后参与酒庄；Moscatel 来自 Marina Alta，Monastrell 来自内陆山地。甜酒是重点，但酒单并不只限甜酒。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "原文的实验性培养",
+          "text": "文中 Tío Raimundo 2014 是干型 Moscatel、flor 培养桶样；Casta Diva Reserva Real Solera Blanco 2015 为晚采、席上风干、带皮发酵后进入长期 solera 的 Moscatel 桶样。所谓“白 Fondillón”是作者的类比，不能当成合法品类。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "年份变化必须保存",
+          "text": "2010 Rojo y Negro 为 Giró/Monastrell 各半；酒庄 2018 页面改列 Giró。Tío Raimundo 2017 官方表为 Moscatel de Alejandría、带皮发酵和 13 个月法国桶，不能沿用 2014 桶样的三年 flor 描述。Recóndita Armonía 的 1987 solera 记录也不同于官网 2021 采收酒。",
+          "sourceIds": [
+            "rvs-valencia-archive",
+            "rvs-gutierrez-tio",
+            "rvs-gutierrez-rojo",
+            "rvs-gutierrez-armonia"
+          ]
+        },
+        {
+          "title": "未命名的样酒也保留来源",
+          "text": "原文另有 2015 干型 Monastrell 桶样，没有给出正式酒名；品鉴描述偏肉感、林地与草本、质地宽厚。本次保留其存在和观察，不在酒款数据库中杜撰标签。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "el-seque",
+      "name": "El Sequé · Artadi",
+      "regionIds": [
+        "alicante"
+      ],
+      "location": "Pinoso, Alicante",
+      "story": "Artadi 家族在 Alicante 的老藤 Monastrell 地产，干红 El Sequé 与加烈甜红 El Sequé Dulce 为两条不同表达。",
+      "wineIds": [
+        "el-seque-tinto",
+        "el-seque-dulce"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-el-seque"
+      ],
+      "verification": "official",
+      "website": "https://elseque.es/",
+      "sections": [
+        {
+          "title": "项目起点",
+          "text": "原文记载 López de Lacalle 家族于 1999 年购入 Alicante 地产，主要为老藤 Monastrell 而来；这是 Rioja 生产者把注意力转向东南部地方品种的实例。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "干与甜的区分",
+          "text": "El Sequé 为结构丰富的干红；El Sequé Dulce 经加烈，原文以 Ruby Port 作风格类比。因此 Dulce 不能按同地区不加烈、长期氧化陈年的 Fondillón 处理。",
+          "sourceIds": [
+            "rvs-valencia-archive",
+            "rvs-el-seque",
+            "rvs-el-seque-dulce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bodegas-volver",
+      "name": "Bodegas Volver",
+      "regionIds": [
+        "alicante"
+      ],
+      "location": "Pinoso, Alicante",
+      "story": "Tarima 系列是原 Valencia 文章明确讨论的生产者与酒款线索；白酒名称及配方有年份差异。",
+      "wineIds": [
+        "volver-tarima-blanco-2016",
+        "volver-tarima-monastrell-2015",
+        "volver-tarima-mediterraneo"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-volver"
+      ],
+      "verification": "official",
+      "website": "https://bodegasvolver.com/",
+      "sections": [
+        {
+          "title": "原文章的两款酒",
+          "text": "Tarima Blanco 2016 为 Merseguera 70%、Macabeo 20%、Moscatel 10%；Tarima Monastrell 2015 是以成熟黑果、甘草和清楚单宁为线索的干红。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "当前白酒对照",
+          "text": "官网 Tarima Mediterráneo 列 Moscatel 与 Merseguera，来自 Alicante 石灰质、较高海拔葡萄园。它与原文 Tarima Blanco 的名称及配方分别存档，不把两张配方合并为同一个永久组合。",
+          "sourceIds": [
+            "rvs-volver"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vicente-gandia",
+      "name": "Vicente Gandía",
+      "regionIds": [
+        "utiel-requena"
+      ],
+      "location": "Comunitat Valenciana",
+      "story": "原文以 Hoya de Cadenas 130 Anniversary 2015 为样酒，展示 Utiel-Requena 多品种、成熟浓郁的一种风格。",
+      "wineIds": [
+        "vicente-gandia-hoya-cadenas-130-2015"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sections": [
+        {
+          "title": "存档对应范围",
+          "text": "此页恢复的是 Henry 原笔记实际出现的生产者及 2015 红酒，并非对 Vicente Gandía 当下全部品牌、葡萄园或所有权的完整审计。名称中“130 Anniversary”保留为酒款名，不把数字当作酒龄。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rafael-cambra",
+      "name": "Rafael Cambra",
+      "regionIds": [
+        "valencia"
+      ],
+      "location": "Valencia DO",
+      "story": "Henry 收藏文章以一款 2006 Monastrell 说明 Valencia 的红酒陈年能力。",
+      "wineIds": [
+        "rafael-cambra-monastrell-2006"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sections": [
+        {
+          "title": "原文与标签精度",
+          "text": "原文只写 Rafael Cambra Monastrell 2006，没有明写 Uno。保留原始命名，不因零售市场存在 Uno 就推断该样酒必定等于 Uno；待原瓶或当年份技术表再细化。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "torre-oria",
+      "name": "Torre Oria",
+      "regionIds": [
+        "utiel-requena",
+        "cava"
+      ],
+      "location": "Requena, Valencia",
+      "story": "在原笔记中承担 Requena Cava 历史角色的生产者；当前官方仍有明确标 Cava 的 Macabeo 起泡酒。",
+      "wineIds": [
+        "torre-oria-cava-brut-nature-organic"
+      ],
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-torreoria",
+        "rvs-torreoria-brand"
+      ],
+      "verification": "official",
+      "website": "https://torreoria.com/",
+      "sections": [
+        {
+          "title": "与 Pago de Tharsys 的人物联系",
+          "text": "2017 文章记载 Vicente García 曾在 Torre Oria 推动 Requena Cava 生产资格，之后才建立 Pago de Tharsys。这里保留两家独立 producer，以免由人物经历误合并。",
+          "sourceIds": [
+            "rvs-valencia-archive"
+          ]
+        },
+        {
+          "title": "当前可核实酒款",
+          "text": "官网 Cava Brut Nature Organic 标明 100% Macabeo 与至少 9 个月酒泥陈年。品牌也有其他酒，不能因为酒庄位于 Requena 就统一标为 Utiel-Requena DO。",
+          "sourceIds": [
+            "rvs-torreoria"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "williams-humbert",
+      "name": "Williams & Humbert",
+      "regionIds": [
+        "jerez-xeres-sherry"
+      ],
+      "location": "Jerez de la Frontera",
+      "story": "原始 Sherry Wine 笔记以 Jalifa 30 年 Amontillado 展示长期混合培养；现行官方资料可核实其 VORS 身份。",
+      "wineIds": [
+        "williams-humbert-jalifa"
+      ],
+      "sourceIds": [
+        "rvs-sherry-archive",
+        "rvs-jalifa"
+      ],
+      "verification": "official",
+      "website": "https://www.williams-humbert.com/",
+      "sections": [
+        {
+          "title": "Jalifa 的出处和培养",
+          "text": "官方列 Palomino、Pago Balbaína 葡萄来源、至少 30 年平均酒龄及干型风格。30 年是 solera 平均陈年级别，不是单一采收年份或瓶中年龄。",
+          "sourceIds": [
+            "rvs-jalifa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fernando-de-castilla",
+      "name": "Bodegas Rey Fernando de Castilla",
+      "regionIds": [
+        "jerez-xeres-sherry"
+      ],
+      "location": "Jerez de la Frontera",
+      "story": "原始 Sherry Wine 笔记以 Oloroso Antique 为例的生产者；Antique 是其长期培养酒系列。",
+      "wineIds": [
+        "fernando-de-castilla-oloroso-antique"
+      ],
+      "sourceIds": [
+        "rvs-sherry-archive",
+        "rvs-fernando"
+      ],
+      "verification": "official",
+      "website": "https://fernandodecastilla.com/",
+      "sections": [
+        {
+          "title": "Antique Oloroso",
+          "text": "官方技术表明确 100% Palomino、美国橡木 criaderas y solera、约 20 年平均酒龄与 20% ABV。平均酒龄并不自动等于瓶上已取得 VOS 标签，故本条不自行加 VOS。",
+          "sourceIds": [
+            "rvs-fernando"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jorge-ordonez-malaga",
+      "name": "Bodegas Ordóñez Málaga",
+      "regionIds": [
+        "malaga",
+        "sierras-de-malaga"
+      ],
+      "location": "Axarquía, Málaga",
+      "story": "Expert Guide 明确提到的 Málaga 生产者；Moscatel de Alejandría 同时支撑干型 Botani 与不加烈甜酒系列。",
+      "wineIds": [
+        "jorge-ordonez-no2-victoria"
+      ],
+      "sourceIds": [
+        "rvs-expert",
+        "rvs-ordonez",
+        "rvs-ordonez-victoria"
+      ],
+      "verification": "official",
+      "website": "https://jorgeordonez.es/wineries/bodegas-ordonez-malaga/",
+      "sections": [
+        {
+          "title": "生产者在原文中的位置",
+          "text": "Expert Guide 把 Jorge Ordóñez 与 Telmo Rodríguez 等放在 Málaga 甜酒复兴的背景。官网把 Botani 干白与 Nº1–Nº4 甜酒系列并列，目的是把干白和天然甜酒两条路径分别理解。",
+          "sourceIds": [
+            "rvs-expert",
+            "rvs-ordonez"
+          ]
+        },
+        {
+          "title": "Nº2 Victoria",
+          "text": "官方技术资料为 100% Moscatel de Alejandría，葡萄来自老藤地块；酒庄说明该甜酒系列不加烈。它适合与 Molino Real、Bentomiz 的不同培养方式并读，不能把所有 Málaga 酒概括成加烈。",
+          "sourceIds": [
+            "rvs-ordonez-victoria"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can-verdura",
+      "name": "Ca’n Verdura Viticultors",
+      "regionIds": [
+        "binissalem"
+      ],
+      "location": "Binissalem, Mallorca",
+      "story": "Tomeu Llabrés 的小地块项目，Supernova 系列可以把 Binissalem 的 Manto Negro 与 Moll 两个关键品种连接到有明确 DO 的实际酒款。",
+      "wineIds": [
+        "can-verdura-supernova-negre",
+        "can-verdura-supernova-blanc",
+        "can-verdura-supernova-rosat"
+      ],
+      "sourceIds": [
+        "rvs-can-verdura",
+        "rvs-can-verdura-supernova",
+        "rvs-binissalem"
+      ],
+      "verification": "official",
+      "website": "https://vinscanverdura.com/",
+      "sections": [
+        {
+          "title": "家族与小地块",
+          "text": "酒庄把历史联系到家族六代在 Binissalem 的葡萄种植。Supernova Negre 采用灌木藤与 call vermell 红黏土地块，来源分布在 Santa Maria del Camí、Santa Eugènia 等地。",
+          "sourceIds": [
+            "rvs-can-verdura",
+            "rvs-can-verdura-supernova"
+          ]
+        },
+        {
+          "title": "三种颜色",
+          "text": "官网分别给出 Supernova Negre 2024 的 100% Manto Negro，Blanc 2023 的 100% Moll / Prensal，以及 Rosat 2023 的 100% Manto Negro。三个标签均明确 DO Binissalem-Mallorca，与附近采用 Mallorca IGP 的酒庄形成可检索对照。",
+          "sourceIds": [
+            "rvs-can-verdura-supernova"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bonaval-lopez-morenas",
+      "name": "Bodegas Bonaval / López Morenas",
+      "regionIds": [
+        "cava",
+        "ribera-del-guadiana"
+      ],
+      "location": "Almendralejo, Tierra de Barros, Extremadura",
+      "story": "原笔记的 Bodegas Inviosa 与 Bonaval 的历史相连；当前 DO Cava 名录把 Bodegas Bonaval 归于 López Morenas。Tierra de Barros 为地理联系，本条酒款采用 Cava 保护名称。",
+      "wineIds": [
+        "bonaval-brut"
+      ],
+      "sourceIds": [
+        "rvs-study",
+        "rvs-inviosa-history",
+        "rvs-lopez-cava",
+        "rvs-bonaval-brut"
+      ],
+      "verification": "official",
+      "website": "https://bodegaslopezmorenas.com/",
+      "sections": [
+        {
+          "title": "Inviosa、Bonaval 与当前经营实体",
+          "text": "2017 年保存、2022 年修改的 Spain Study Guide 提到 Bodegas Inviosa，但未给出原稿年代。区域葡萄酒旅游路线的历史记述明确将 1985 年的 Cava Bonaval 联系到 Inviosa；当前 DO Cava 生产者名录则列 López Morenas，并说明 Bonaval 属于这个家族集团。旧笔记“西南西班牙唯一 Cava 生产者”的说法不能代表现在。",
+          "sourceIds": [
+            "rvs-study",
+            "rvs-inviosa-history",
+            "rvs-lopez-cava"
+          ]
+        },
+        {
+          "title": "当前酒款与葡萄信息",
+          "text": "Bonaval Brut 的酒庄技术表明确为传统法 Cava、11.5% vol，列 Macabeo、Parellada、Malvasía。技术表未细分 Malvasía 的遗传身份，因此保留原名称；不可用地区授权品种名单代替该酒的品种鉴别。",
+          "sourceIds": [
+            "rvs-bonaval-brut"
+          ]
+        }
+      ],
+      "aliases": [
+        "Bonaval",
+        "Bodegas Inviosa（历史关联）",
+        "Inviosa–Lar de Barros（历史关联）",
+        "López Morenas"
+      ]
+    }
+  ],
+  "wines": [
+    {
+      "id": "pago-finca-elez-chardonnay-barrica",
+      "name": "Chardonnay Barrica",
+      "producerId": "pago-finca-elez",
+      "regionId": "finca-elez",
+      "denomination": "Finca Élez DOP",
+      "grapeIds": [
+        "chardonnay"
+      ],
+      "grapeText": "Chardonnay",
+      "style": "干白",
+      "notes": "官方 2022 产品页：500 升桶发酵；属于酒庄 parcela 系列。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-elez",
+        "rvs-elez-chardonnay"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "pago-finca-elez-syrah",
+      "name": "Syrah",
+      "producerId": "pago-finca-elez",
+      "regionId": "finca-elez",
+      "denomination": "Finca Élez DOP",
+      "grapeIds": [
+        "syrah"
+      ],
+      "grapeText": "Syrah",
+      "style": "干红",
+      "notes": "现行目录保留该酒名；2020 技术表列 14 个月法国桶培养。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-elez",
+        "rvs-elez-syrah"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "guijoso-finca-la-sabina-chardonnay",
+      "name": "Finca la Sabina Chardonnay 2015",
+      "producerId": "familia-conesa-pago-guijoso",
+      "regionId": "guijoso",
+      "denomination": "Guijoso DOP",
+      "grapeIds": [
+        "chardonnay"
+      ],
+      "grapeText": "Chardonnay",
+      "style": "干白",
+      "notes": "官方技术页列地块 V6、2015 年份、法国桶 5 年后再瓶陈。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-guijoso-chardonnay"
+      ],
+      "verification": "official",
+      "sourceVintage": "2015"
+    },
+    {
+      "id": "guijoso-finca-la-sabina-tempranillo",
+      "name": "Finca la Sabina Tempranillo",
+      "producerId": "familia-conesa-pago-guijoso",
+      "regionId": "guijoso",
+      "denomination": "Guijoso DOP",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "Tempranillo",
+      "style": "干红",
+      "notes": "官方 Guijoso DOP 单品种系列的一员；与 Merlot、Syrah、Cabernet 标签分开。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-guijoso",
+        "rvs-guijoso-tempranillo"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "martue-syrah",
+      "name": "Martúe Syrah",
+      "producerId": "martue",
+      "regionId": "campo-de-la-guardia",
+      "denomination": "Campo de la Guardia DOP",
+      "grapeIds": [
+        "syrah"
+      ],
+      "grapeText": "Syrah",
+      "style": "干红",
+      "notes": "官网现行组合列 2022 Syrah；作为 Pago 单品种入口。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-martue"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "martue-gran-vino-2018",
+      "name": "Martúe Gran Vino 2018",
+      "producerId": "martue",
+      "regionId": "campo-de-la-guardia",
+      "denomination": "Campo de la Guardia DOP",
+      "grapeIds": [
+        "syrah",
+        "petit-verdot",
+        "malbec"
+      ],
+      "grapeText": "Syrah、Petit Verdot、Malbec",
+      "style": "干红",
+      "notes": "2018 技术表：精选 7 桶 Syrah、4 桶 Petit Verdot、4 桶 Malbec；法国桶 22 个月。桶数不是按体积核实的固定百分比。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-martue-gran"
+      ],
+      "verification": "official",
+      "sourceVintage": "2018"
+    },
+    {
+      "id": "pago-florentino-2017",
+      "name": "Pago Florentino 2017",
+      "producerId": "pago-florentino-producer",
+      "regionId": "pago-florentino",
+      "denomination": "Pago Florentino DOP",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "100% Cencibel / Tempranillo",
+      "style": "干红",
+      "notes": "官方年份档案；法国与美国新桶 12 个月。保留 2017 身份，与官网当前 Pago Florentino Eco 区分。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-florentino-2017"
+      ],
+      "verification": "official",
+      "sourceVintage": "2017"
+    },
+    {
+      "id": "casa-del-blanco-quixote-cabernet-syrah",
+      "name": "QuiXote Cabernet Sauvignon & Syrah",
+      "producerId": "pago-casa-del-blanco",
+      "regionId": "casa-del-blanco",
+      "denomination": "Casa del Blanco DOP",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "syrah"
+      ],
+      "grapeText": "Cabernet Sauvignon、Syrah",
+      "style": "干红",
+      "notes": "官网独立列出的 QuiXote 酒款；配方以名称和技术描述为依据，未假定固定比例。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-casa-blanco"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "casa-del-blanco-quixote-malbec-cabernet-franc",
+      "name": "QuiXote Malbec & Cabernet Franc",
+      "producerId": "pago-casa-del-blanco",
+      "regionId": "casa-del-blanco",
+      "denomination": "Casa del Blanco DOP",
+      "grapeIds": [
+        "malbec",
+        "cabernet-franc"
+      ],
+      "grapeText": "Malbec、Cabernet Franc",
+      "style": "干红",
+      "notes": "官网独立列出的 QuiXote 酒款；配方以名称和技术描述为依据，未假定固定比例。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-casa-blanco"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "casa-del-blanco-quixote-merlot-tempranillo-petit-verdot",
+      "name": "QuiXote Merlot, Tempranillo & Petit Verdot",
+      "producerId": "pago-casa-del-blanco",
+      "regionId": "casa-del-blanco",
+      "denomination": "Casa del Blanco DOP",
+      "grapeIds": [
+        "merlot",
+        "tempranillo",
+        "petit-verdot"
+      ],
+      "grapeText": "Merlot、Tempranillo、Petit Verdot",
+      "style": "干红",
+      "notes": "官网独立列出的 QuiXote 酒款；配方以名称和技术描述为依据，未假定固定比例。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-casa-blanco"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "casa-del-blanco-quixote-petit-verdot",
+      "name": "QuiXote Petit Verdot",
+      "producerId": "pago-casa-del-blanco",
+      "regionId": "casa-del-blanco",
+      "denomination": "Casa del Blanco DOP",
+      "grapeIds": [
+        "petit-verdot"
+      ],
+      "grapeText": "Petit Verdot",
+      "style": "干红",
+      "notes": "官网独立列出的 QuiXote 酒款；配方以名称和技术描述为依据，未假定固定比例。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-casa-blanco"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "calzadilla-opta",
+      "name": "OPTA",
+      "producerId": "pago-calzadilla",
+      "regionId": "calzadilla",
+      "denomination": "Calzadilla DOP",
+      "grapeIds": [
+        "tempranillo",
+        "syrah",
+        "garnacha-tinta"
+      ],
+      "grapeText": "60% Tempranillo、20% Syrah、20% Garnacha",
+      "style": "干红",
+      "notes": "官方技术页：12 个月培养，使用不同大小法国／美国桶及木槽，之后留庄瓶陈。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-calzadilla-opta"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "calzadilla-allegro",
+      "name": "Allegro",
+      "producerId": "pago-calzadilla",
+      "regionId": "calzadilla",
+      "denomination": "Calzadilla DOP",
+      "grapeIds": [
+        "syrah"
+      ],
+      "grapeText": "100% Syrah",
+      "style": "干红",
+      "notes": "Cerro de la Pájara 约 1,000 米坡地；官方列 12 个月法国桶及木槽培养。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-calzadilla-allegro"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vallegarcia-viognier",
+      "name": "Vallegarcía Viognier",
+      "producerId": "pago-vallegarcia",
+      "regionId": "vallegarcia",
+      "denomination": "Vallegarcía DOP",
+      "grapeIds": [
+        "viognier"
+      ],
+      "grapeText": "Viognier",
+      "style": "干白",
+      "notes": "酒庄标志性白葡萄酒；官网当前目录列 2024 年份。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-vallegarcia"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vallegarcia-syrah",
+      "name": "Vallegarcía Syrah",
+      "producerId": "pago-vallegarcia",
+      "regionId": "vallegarcia",
+      "denomination": "Vallegarcía DOP",
+      "grapeIds": [
+        "syrah"
+      ],
+      "grapeText": "Syrah",
+      "style": "干红",
+      "notes": "与 Hipperia 混酿家族分列的 Syrah；官网当前目录列 2024 年份。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-vallegarcia"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "la-jaraba-pago-tinto",
+      "name": "Pago de La Jaraba Tinto",
+      "producerId": "pago-la-jaraba",
+      "regionId": "la-jaraba",
+      "denomination": "La Jaraba DOP",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot"
+      ],
+      "grapeText": "Tempranillo、Cabernet Sauvignon、Merlot",
+      "style": "干红",
+      "notes": "约 700 米葡萄园；各品种分别在木槽发酵，法国新桶培养 12 个月。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-jaraba"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "la-jaraba-merlot",
+      "name": "Pago de La Jaraba Merlot",
+      "producerId": "pago-la-jaraba",
+      "regionId": "la-jaraba",
+      "denomination": "La Jaraba DOP",
+      "grapeIds": [
+        "merlot"
+      ],
+      "grapeText": "Merlot",
+      "style": "干红",
+      "notes": "官方列单品种，桶陈 6 个月。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-jaraba"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "la-jaraba-sauvignon-blanc",
+      "name": "Pago de La Jaraba Sauvignon Blanc",
+      "producerId": "pago-la-jaraba",
+      "regionId": "la-jaraba",
+      "denomination": "La Jaraba DOP",
+      "grapeIds": [
+        "sauvignon-blanc"
+      ],
+      "grapeText": "Sauvignon Blanc",
+      "style": "干白",
+      "notes": "官方 Pago 家族白酒；酒泥培养，与红酒的橡木培养分开理解。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-jaraba"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "montalvo-wilmot-cabernet-de-familia",
+      "name": "MW Cabernet de Familia",
+      "producerId": "montalvo-wilmot",
+      "regionId": "los-cerrillos",
+      "denomination": "Los Cerrillos DOP",
+      "grapeIds": [
+        "cabernet-sauvignon"
+      ],
+      "grapeText": "100% Cabernet Sauvignon",
+      "style": "干红",
+      "notes": "1.5 公顷 Cabernet 葡萄园，近 700 米；官方列法国桶 24 个月。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-montalvo-cabernet"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "montalvo-wilmot-petit-verdot",
+      "name": "MW Petit Verdot Selección",
+      "producerId": "montalvo-wilmot",
+      "regionId": "los-cerrillos",
+      "denomination": "具体年份背标核对（Los Cerrillos 地产）",
+      "grapeIds": [
+        "petit-verdot"
+      ],
+      "grapeText": "100% Petit Verdot",
+      "style": "干红",
+      "notes": "官网列 Petit Verdot 单品种及 12 个月法国新桶；本记录保留具体年份 DOP 背标复核。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-montalvo"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "pago-del-vicario-50-50",
+      "name": "50-50",
+      "producerId": "pago-del-vicario",
+      "regionId": "castilla-igp",
+      "denomination": "Castilla IGP（按官网产品分类）",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon"
+      ],
+      "grapeText": "Tempranillo、Cabernet Sauvignon",
+      "style": "干红",
+      "notes": "当前官方 Castilla 类别中的酒款；不因存在 El Vicario Pago 而自动改写背标。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-vicario",
+        "rvs-vicario-50"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "eldoze-rg-syrah",
+      "name": "R&G Eldoze",
+      "producerId": "eldoze",
+      "regionId": "rosalejo",
+      "denomination": "Rosalejo DOP（当前品牌归类；旧瓶查背标）",
+      "grapeIds": [
+        "syrah"
+      ],
+      "grapeText": "100% Syrah",
+      "style": "干红",
+      "notes": "官网 2021 技术资料列有机种植、手工采收及至少 15 个月桶陈；保留旧年份背标区别。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-eldoze"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vegalfaro-los-balagueses-chardonnay",
+      "name": "Pago de los Balagueses Chardonnay",
+      "producerId": "vegalfaro",
+      "regionId": "los-balagueses",
+      "denomination": "Los Balagueses DOP",
+      "grapeIds": [
+        "chardonnay"
+      ],
+      "grapeText": "Chardonnay",
+      "style": "干白",
+      "notes": "官方 Pago 系列酒款；Garnacha Tintorera 的品种节点与 Garnacha Tinta 分开。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-vegalfaro-pagos",
+        "rvs-vegalfaro-chardonnay"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vegalfaro-los-balagueses-syrah",
+      "name": "Pago de los Balagueses Syrah",
+      "producerId": "vegalfaro",
+      "regionId": "los-balagueses",
+      "denomination": "Los Balagueses DOP",
+      "grapeIds": [
+        "syrah"
+      ],
+      "grapeText": "Syrah",
+      "style": "干红",
+      "notes": "官方 Pago 系列酒款；Garnacha Tintorera 的品种节点与 Garnacha Tinta 分开。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-vegalfaro-pagos"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vegalfaro-los-balagueses-garnacha-tintorera",
+      "name": "Pago de los Balagueses Garnacha Tintorera",
+      "producerId": "vegalfaro",
+      "regionId": "los-balagueses",
+      "denomination": "Los Balagueses DOP",
+      "grapeIds": [
+        "alicante-bouschet"
+      ],
+      "grapeText": "Garnacha Tintorera / Alicante Bouschet",
+      "style": "干红",
+      "notes": "官方 Pago 系列酒款；Garnacha Tintorera 的品种节点与 Garnacha Tinta 分开。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-vegalfaro-pagos"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "chozas-las-ocho",
+      "name": "Las Ocho",
+      "producerId": "chozas-carrascal-producer",
+      "regionId": "chozas-carrascal",
+      "denomination": "Chozas Carrascal DOP",
+      "grapeIds": [
+        "bobal",
+        "monastrell",
+        "garnacha-tinta",
+        "tempranillo",
+        "cabernet-sauvignon",
+        "cabernet-franc",
+        "syrah",
+        "merlot"
+      ],
+      "grapeText": "Bobal、Monastrell、Garnacha、Tempranillo、Cabernet Sauvignon、Cabernet Franc、Syrah、Merlot",
+      "style": "干红",
+      "notes": "官网明确 DOP；八品种配比依年份，不能从名称均分为八等份。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-chozas-ocho"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "chozas-cabernet-familiar",
+      "name": "Cabernet Familiar",
+      "producerId": "chozas-carrascal-producer",
+      "regionId": "chozas-carrascal",
+      "denomination": "Chozas Carrascal DOP",
+      "grapeIds": [
+        "cabernet-franc"
+      ],
+      "grapeText": "100% Cabernet Franc",
+      "style": "干红",
+      "notes": "当前官网配方明确；2017 存档品鉴 2014 El Cabernet Familiar，强调其克制与草本、香料线索。官网对桶陈时长有 5–7 与 9 个月两处不一致，本档案不固定其中一个。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-chozas-cabernet",
+        "rvs-valencia-archive"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "chozas-las-2-ces-2015",
+      "name": "Las 2 Ces Tinto 2015",
+      "producerId": "chozas-carrascal-producer",
+      "regionId": "utiel-requena",
+      "denomination": "Utiel-Requena 地区；2015 原瓶保护名称复核",
+      "grapeIds": [
+        "bobal",
+        "tempranillo",
+        "syrah"
+      ],
+      "grapeText": "80% Bobal、10% Tempranillo、10% Syrah",
+      "style": "干红",
+      "notes": "Henry 收藏的 2017 文章品鉴记录；鲜活果味与成熟但清楚的单宁。不能后套当前 Chozas Carrascal DOP。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2015"
+    },
+    {
+      "id": "vera-casa-don-angel-bobal",
+      "name": "Casa Don Ángel Bobal",
+      "producerId": "vera-de-estenas-producer",
+      "regionId": "vera-de-estenas",
+      "denomination": "Vera de Estenas 地产；具体年份背标核对",
+      "grapeIds": [
+        "bobal"
+      ],
+      "grapeText": "100% Bobal",
+      "style": "干红",
+      "notes": "当前官方 2023 产品页核实单品种。存档的 2014 年份列新法国桶 15 个月，属于历史技术信息，不能视为全部年份规定。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-vera",
+        "rvs-valencia-archive"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vera-bobal-de-estenas-2016",
+      "name": "El Bobal de Estenas 2016",
+      "producerId": "vera-de-estenas-producer",
+      "regionId": "utiel-requena",
+      "denomination": "Utiel-Requena 地区；2016 原瓶保护名称复核",
+      "grapeIds": [
+        "bobal"
+      ],
+      "grapeText": "Bobal",
+      "style": "干红",
+      "notes": "2017 文章品鉴：黑莓、胡椒、烟熏，酸度与单宁明显；保留老年份观察。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2016"
+    },
+    {
+      "id": "vera-madurado-barrica-2015",
+      "name": "Madurado en Barrica 2015",
+      "producerId": "vera-de-estenas-producer",
+      "regionId": "utiel-requena",
+      "denomination": "Utiel-Requena 地区；2015 原瓶保护名称复核",
+      "grapeIds": [
+        "bobal",
+        "cabernet-sauvignon",
+        "tempranillo"
+      ],
+      "grapeText": "85% Bobal；其余 Cabernet Sauvignon、Tempranillo",
+      "style": "干红",
+      "notes": "存档记载法国及美国旧桶 4 个月。该配方只对应 2015，不能自动继承到酒庄当前标签。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2015"
+    },
+    {
+      "id": "tharsys-carlota-suria-brut-nature-archive",
+      "name": "Carlota Suria Brut Nature · NV 存档",
+      "producerId": "pago-de-tharsys",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "viura"
+      ],
+      "grapeText": "100% Macabeo",
+      "style": "传统法起泡白",
+      "notes": "2017 文章品鉴记录：零补糖，约一年酒泥陈年。NV 为非年份酒，存档日期不是葡萄采收年。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive"
+    },
+    {
+      "id": "tharsys-unico-2013",
+      "name": "Único 2013",
+      "producerId": "pago-de-tharsys",
+      "regionId": "utiel-requena",
+      "denomination": "Requena 起泡酒；不是 Cava",
+      "grapeIds": [
+        "bobal"
+      ],
+      "grapeText": "100% Bobal",
+      "style": "白中黑起泡",
+      "notes": "原文明确 Bobal blanc de noirs 不能标 Cava。原瓶具体保护名称未取得，不用 2025 年的 Tharsys DOP 反推。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2013"
+    },
+    {
+      "id": "tharsys-millesime-rose-2013",
+      "name": "Millésime Rosé Brut Reserva 2013",
+      "producerId": "pago-de-tharsys",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "garnacha-tinta"
+      ],
+      "grapeText": "Garnacha",
+      "style": "传统法起泡桃红",
+      "notes": "2017 原文品鉴的 Garnacha 桃红 Cava；保留当时 Reserva 名称与年份，不以后来的最低酒泥规则重判旧标签。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2013"
+    },
+    {
+      "id": "tharsys-academia-bobal-2016",
+      "name": "Academia de los Nocturnos Bobal 2016",
+      "producerId": "pago-de-tharsys",
+      "regionId": "utiel-requena",
+      "denomination": "Utiel-Requena 地区；原瓶背标复核",
+      "grapeIds": [
+        "bobal"
+      ],
+      "grapeText": "Bobal",
+      "style": "干红",
+      "notes": "原文记载无橡木影响、年轻饮用的鲜活 Bobal，与 Nuestro Bobal 的混酿风格对照。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2016"
+    },
+    {
+      "id": "tharsys-nuestro-bobal-2011",
+      "name": "Nuestro Bobal 2011",
+      "producerId": "pago-de-tharsys",
+      "regionId": "utiel-requena",
+      "denomination": "Utiel-Requena 地区；原瓶背标复核",
+      "grapeIds": [
+        "bobal",
+        "cabernet-franc"
+      ],
+      "grapeText": "85% Bobal、15% Cabernet Franc",
+      "style": "干红",
+      "notes": "2017 文章的明确配方；较结构化，伴草本和咸鲜线索。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2011"
+    },
+    {
+      "id": "tharsys-vendimia-nocturna-albarino",
+      "name": "Vendimia Nocturna Albariño 2025",
+      "producerId": "pago-de-tharsys",
+      "regionId": "tharsys",
+      "denomination": "Tharsys DOP",
+      "grapeIds": [
+        "albarino"
+      ],
+      "grapeText": "Albariño",
+      "style": "干白",
+      "notes": "官方当前 DOP Tharsys 分类列出的 2025 酒款；作为旧档案之外有证据的延伸。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-tharsys"
+      ],
+      "verification": "official",
+      "sourceVintage": "2025"
+    },
+    {
+      "id": "gutierrez-tio-raimundo-2014",
+      "name": "Tío Raimundo 2014 · 桶样存档",
+      "producerId": "gutierrez-de-la-vega",
+      "regionId": "alicante",
+      "denomination": "Alicante 地理来源；不是 Jerez DO",
+      "grapeIds": [],
+      "grapeText": "Moscatel（原文没有细分遗传品种；不由另一个年份推定）",
+      "style": "干白",
+      "notes": "2017 文章记录当时未完成的桶样：干型 Moscatel，flor 下发酵与培养约三年。仅为这一历史样品，不作为当前品牌固定做法。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-gutierrez-tio"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2014"
+    },
+    {
+      "id": "gutierrez-tio-raimundo",
+      "name": "Tío Raimundo · 官方 2017 档案",
+      "producerId": "gutierrez-de-la-vega",
+      "regionId": "alicante",
+      "denomination": "Alicante 地理来源；具体保护名称依背标",
+      "grapeIds": [
+        "muscat-of-alexandria"
+      ],
+      "grapeText": "100% Moscatel de Alejandría",
+      "style": "干白",
+      "notes": "官方 2017 技术表：300 升敞口桶带皮发酵 7 天，法国桶培养 13 个月，残糖低于 2 g/L。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-gutierrez-tio"
+      ],
+      "verification": "official",
+      "sourceVintage": "2017"
+    },
+    {
+      "id": "gutierrez-casta-diva-reserva-real-2015",
+      "name": "Casta Diva Reserva Real Solera Blanco · 2015 桶样存档",
+      "producerId": "gutierrez-de-la-vega",
+      "regionId": "alicante",
+      "denomination": "Alicante 地理来源；非 Fondillón 法定酒款",
+      "grapeIds": [],
+      "grapeText": "Moscatel（原文没有细分遗传品种；不由另一个年份推定）",
+      "style": "甜白",
+      "notes": "原文的“white Fondillón”是风格比喻。2015 为文章所记桶样标记；长期 solera 不等于全部酒液都在 2015 年采收。保留晚采、风干、带皮发酵与超过十年 solera 的叙述。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2015（桶样标记，非已核实单一年份）"
+    },
+    {
+      "id": "gutierrez-rojo-y-negro-2010",
+      "name": "Rojo y Negro 2010",
+      "producerId": "gutierrez-de-la-vega",
+      "regionId": "alicante",
+      "denomination": "Alicante 地理来源；具体保护名称依原瓶",
+      "grapeIds": [
+        "giro",
+        "monastrell"
+      ],
+      "grapeText": "50% Giró、50% Monastrell",
+      "style": "干红",
+      "notes": "2017 文章拼作 Rojo y Negra，按酒庄正式名称校正为 Rojo y Negro；历史 2010 配方与官网 2018 Giró 酒不同。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-gutierrez-rojo"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2010"
+    },
+    {
+      "id": "gutierrez-rojo-y-negro",
+      "name": "Rojo y Negro",
+      "producerId": "gutierrez-de-la-vega",
+      "regionId": "alicante",
+      "denomination": "Alicante 地理来源；具体保护名称依背标",
+      "grapeIds": [
+        "giro"
+      ],
+      "grapeText": "Giró（官网 2018 资料）",
+      "style": "干红",
+      "notes": "官方以 2018 年份说明红酒风格和组成变化；来自 Vall Xaló 约 400 米坡地，红黏土与鹅卵石。不能混用 2010 的 50/50 配方。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-gutierrez-rojo"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gutierrez-recondita-armonia-solera-1987",
+      "name": "Recóndita Armonía Monastrell Dulce Solera 1987",
+      "producerId": "gutierrez-de-la-vega",
+      "regionId": "alicante",
+      "denomination": "Alicante 地理来源；具体保护名称依原瓶",
+      "grapeIds": [
+        "monastrell"
+      ],
+      "grapeText": "Monastrell",
+      "style": "甜红",
+      "notes": "Henry 收藏的 2017 文章明确命名的成熟甜酒。1987 与 solera 名称一起保存，不解释为全部酒液单一年份；不与官网 2021 Recóndita Armonía 混同。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive"
+    },
+    {
+      "id": "el-seque-tinto",
+      "name": "El Sequé",
+      "producerId": "el-seque",
+      "regionId": "alicante",
+      "denomination": "Alicante DO",
+      "grapeIds": [
+        "monastrell"
+      ],
+      "grapeText": "Monastrell",
+      "style": "干红",
+      "notes": "当前官方酒单持续列名；原文强调老藤 Monastrell、成熟果味与结构。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-el-seque",
+        "rvs-valencia-archive"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "el-seque-dulce",
+      "name": "El Sequé Dulce",
+      "producerId": "el-seque",
+      "regionId": "alicante",
+      "denomination": "Alicante DO",
+      "grapeIds": [
+        "monastrell"
+      ],
+      "grapeText": "Monastrell",
+      "style": "加烈甜红",
+      "notes": "与 El Sequé 干红分列；加烈甜红的生产方式与 Fondillón 不同。旧年份具体数据以官方技术表为据。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-el-seque",
+        "rvs-el-seque-dulce",
+        "rvs-valencia-archive"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "volver-tarima-blanco-2016",
+      "name": "Tarima Blanco 2016",
+      "producerId": "bodegas-volver",
+      "regionId": "alicante",
+      "denomination": "Alicante DO",
+      "grapeIds": [
+        "merseguera",
+        "viura"
+      ],
+      "grapeText": "70% Merseguera、20% Macabeo、10% Moscatel（原文未细分 Moscatel）",
+      "style": "干白",
+      "notes": "2017 文章的年份配方；Moscatel 未未经证实映射到特定遗传品种。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2016"
+    },
+    {
+      "id": "volver-tarima-monastrell-2015",
+      "name": "Tarima Monastrell 2015",
+      "producerId": "bodegas-volver",
+      "regionId": "alicante",
+      "denomination": "Alicante DO",
+      "grapeIds": [
+        "monastrell"
+      ],
+      "grapeText": "Monastrell",
+      "style": "干红",
+      "notes": "原文章样酒：成熟黑樱桃、甘草、胡椒及干叶线索，单宁成熟但存在。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2015"
+    },
+    {
+      "id": "volver-tarima-mediterraneo",
+      "name": "Tarima Mediterráneo",
+      "producerId": "bodegas-volver",
+      "regionId": "alicante",
+      "denomination": "Alicante DO",
+      "grapeIds": [
+        "merseguera"
+      ],
+      "grapeText": "Moscatel、Merseguera；当前页未细分 Moscatel 种名",
+      "style": "芳香白",
+      "notes": "官方产品页列两品种、低温发酵与石灰质高地葡萄园。保留原文 Tarima Blanco 2016 为独立历史记录。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-volver"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vicente-gandia-hoya-cadenas-130-2015",
+      "name": "Hoya de Cadenas 130 Anniversary 2015",
+      "producerId": "vicente-gandia",
+      "regionId": "utiel-requena",
+      "denomination": "Utiel-Requena DO",
+      "grapeIds": [
+        "bobal",
+        "garnacha-tinta",
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah"
+      ],
+      "grapeText": "Bobal、Garnacha、Tempranillo、Cabernet Sauvignon、Merlot、Syrah",
+      "style": "干红",
+      "notes": "2017 原文给出六品种组合，未提供百分比；品鉴强调浓熟樱桃及结构。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2015"
+    },
+    {
+      "id": "rafael-cambra-monastrell-2006",
+      "name": "Monastrell 2006 · 原文命名",
+      "producerId": "rafael-cambra",
+      "regionId": "valencia",
+      "denomination": "Valencia DO",
+      "grapeIds": [
+        "monastrell"
+      ],
+      "grapeText": "Monastrell",
+      "style": "干红",
+      "notes": "2017 文章样酒，记录檀木、可可、黑李及融合的结构；完整 cuvée 名称尚未核实，不擅改为 Uno。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2006"
+    },
+    {
+      "id": "torre-oria-cava-brut-nature-organic",
+      "name": "Torre Oria Cava Brut Nature Organic",
+      "producerId": "torre-oria",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "viura"
+      ],
+      "grapeText": "100% Macabeo",
+      "style": "传统法起泡白",
+      "notes": "官方明确 Macabeo、Cava DO 与至少 9 个月酒泥培养。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-torreoria"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "celler-del-roure-cullerot-2016",
+      "name": "Cullerot 2016",
+      "producerId": "celler-del-roure",
+      "regionId": "valencia",
+      "denomination": "Valencia DO",
+      "grapeIds": [
+        "verdil",
+        "pedro-ximenez",
+        "viura",
+        "chardonnay"
+      ],
+      "grapeText": "Verdil、Pedro Ximénez、Macabeo、Chardonnay（2016 存档）",
+      "style": "干白",
+      "notes": "原文明确组成、比例随年份调整；2016 酒在陶罐中培养 6 个月。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-valencia-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2016"
+    },
+    {
+      "id": "pepe-mendoza-la-vina-de-madaras-2022",
+      "name": "La Viña de Madaras 2022",
+      "producerId": "pepe-mendoza-casa-agricola",
+      "regionId": "alicante",
+      "denomination": "Alicante DO（团队 2022 资料）",
+      "grapeIds": [
+        "giro",
+        "monastrell"
+      ],
+      "grapeText": "Giró、Monastrell；未提供百分比",
+      "style": "干红",
+      "notes": "团队档案：部分整串、自然酵母发酵，500 升法国桶 10 个月，14% ABV，建议约 16°C 侍酒。保留来源层级，尚未以生产者当年份表单独立复核。",
+      "status": "archive",
+      "sourceIds": [
+        "rvs-madaras-archive"
+      ],
+      "verification": "archive",
+      "sourceVintage": "2022"
+    },
+    {
+      "id": "williams-humbert-jalifa",
+      "name": "Jalifa Amontillado Solera Especial VORS",
+      "producerId": "williams-humbert",
+      "regionId": "jerez-xeres-sherry",
+      "denomination": "Jerez-Xérès-Sherry DO",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "Palomino",
+      "style": "干型 Amontillado",
+      "notes": "原笔记明确列出的缺失酒款；官方核实 Pago Balbaína 来源、最低平均 30 年与干型。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-sherry-archive",
+        "rvs-jalifa"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "fernando-de-castilla-oloroso-antique",
+      "name": "Oloroso Antique",
+      "producerId": "fernando-de-castilla",
+      "regionId": "jerez-xeres-sherry",
+      "denomination": "Jerez-Xérès-Sherry DO",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "100% Palomino",
+      "style": "干型 Oloroso",
+      "notes": "官方：氧化培养，美国橡木 criaderas y solera，平均约 20 年；不擅加未在来源明确的 VOS 认证。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-sherry-archive",
+        "rvs-fernando"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "hidalgo-la-gitana-wellington-vos20",
+      "name": "Wellington VOS 20",
+      "producerId": "hidalgo-la-gitana",
+      "regionId": "jerez-xeres-sherry",
+      "denomination": "Jerez-Xérès-Sherry DO",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "Palomino Fino",
+      "style": "干型 Palo Cortado",
+      "notes": "补回原 Sherry Wine 笔记的 Wellington 20 年；当前官方独立列 Wellington VOS 20。与另列的 Wellington VORS 版本分开。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-sherry-archive",
+        "rvs-wellington"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "valdespino-viejo-cp",
+      "name": "Viejo C.P. Palo Cortado VOS",
+      "producerId": "valdespino",
+      "regionId": "jerez-xeres-sherry",
+      "denomination": "Jerez-Xérès-Sherry DO",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "Palomino",
+      "style": "干型 Palo Cortado",
+      "notes": "原笔记简写 Palo Cortado Viejo；官方目录明确 Viejo C.P.，来自 Macharnudo Alto，并从 Inocente / Tío Diego 的早期 criaderas 选出。VOS、平均超过 20 年。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-sherry-archive",
+        "rvs-valdespino"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "jorge-ordonez-no2-victoria",
+      "name": "Nº2 Victoria",
+      "producerId": "jorge-ordonez-malaga",
+      "regionId": "malaga",
+      "denomination": "Málaga DO",
+      "grapeIds": [
+        "muscat-of-alexandria"
+      ],
+      "grapeText": "100% Moscatel de Alejandría",
+      "style": "天然甜白（不加烈）",
+      "notes": "官方资料列 Navarrete、Villazo 老藤地块；属于酒庄复兴不加烈 Málaga 甜酒的系列。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-ordonez",
+        "rvs-ordonez-victoria"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "envinate-taganan-parcela-margalagua",
+      "name": "Táganan Parcela Margalagua",
+      "producerId": "envinate",
+      "regionId": "islas-canarias",
+      "denomination": "Tenerife 地理来源；具体年份背标核对",
+      "grapeIds": [
+        "listan-negro",
+        "listan-prieto",
+        "alfrocheiro",
+        "tinta-negra"
+      ],
+      "grapeText": "老藤混栽：含 Listán Negro、Listán Prieto、Baboso、Negramoll 等；并有未定名葡萄",
+      "style": "干红",
+      "notes": "原 master 明确列名。进口商技术说明是面向大西洋的陡坡、未嫁接老混栽园；还列 Malvasía Negra 等地方名，不能把未定名部分武断映射为 Malvasía Rosada。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-master",
+        "rvs-envinate-importer"
+      ],
+      "verification": "mixed"
+    },
+    {
+      "id": "envinate-palo-blanco",
+      "name": "Palo Blanco",
+      "producerId": "envinate",
+      "regionId": "valle-de-la-orotava",
+      "denomination": "Valle de la Orotava 地理来源；具体年份背标核对",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "Listán Blanco / Palomino",
+      "style": "干白",
+      "notes": "原 master 明确列名。技术资料连接 cordón trenzado 老藤 Listán Blanco、约 600 米地块、整串压榨及大型木桶培养；地理关联不自动代表使用同名 DO。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-master",
+        "rvs-envinate-importer"
+      ],
+      "verification": "mixed"
+    },
+    {
+      "id": "envinate-migan",
+      "name": "Migan",
+      "producerId": "envinate",
+      "regionId": "valle-de-la-orotava",
+      "denomination": "Valle de la Orotava 地理来源；具体年份背标核对",
+      "grapeIds": [
+        "listan-negro"
+      ],
+      "grapeText": "Listán Negro",
+      "style": "干红",
+      "notes": "原 master 明确列名。进口商列 La Habanera 与 San Antonio 的老藤地块，火山砂与含黏土土壤形成对照，分开发酵后组合。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-master",
+        "rvs-envinate-importer"
+      ],
+      "verification": "mixed"
+    },
+    {
+      "id": "envinate-benje-blanco",
+      "name": "Benje Blanco",
+      "producerId": "envinate",
+      "regionId": "ycoden-daute-isora",
+      "denomination": "Ycoden-Daute-Isora DOP（所引技术表）",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "Listán Blanco / Palomino",
+      "style": "干白",
+      "notes": "master 只写 Benje，现按官方进口商技术表拆为白、红两款。Santiago del Teide 高海拔老藤，白款为 Listán Blanco；部分发酵／培养可涉及浸皮或 flor。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-master",
+        "rvs-envinate-benje-blanco",
+        "rvs-envinate-importer"
+      ],
+      "verification": "mixed"
+    },
+    {
+      "id": "envinate-benje-tinto",
+      "name": "Benje Tinto",
+      "producerId": "envinate",
+      "regionId": "ycoden-daute-isora",
+      "denomination": "Ycoden-Daute-Isora DOP（所引技术表）",
+      "grapeIds": [
+        "listan-prieto"
+      ],
+      "grapeText": "Listán Prieto 为主；部分资料另列少量 Tintilla",
+      "style": "干红",
+      "notes": "不能因 Tenerife 常见 Listán Negro 就把这款误接到 Listán Negro。技术表列 Listán Prieto；Tintilla 的本地身份与年份比例未独立核实。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-master",
+        "rvs-envinate-benje-tinto",
+        "rvs-envinate-importer"
+      ],
+      "verification": "mixed"
+    },
+    {
+      "id": "envinate-albahra",
+      "name": "Albahra",
+      "producerId": "envinate",
+      "regionId": "almansa",
+      "denomination": "Almansa 地理来源；实际保护名称依年份标签",
+      "grapeIds": [
+        "alicante-bouschet",
+        "moravia-agria"
+      ],
+      "grapeText": "Garnacha Tintorera / Alicante Bouschet、Moravia Agria",
+      "style": "干红",
+      "notes": "原 master 仅写 Alicante Bouschet；进口商现行资料补充 Moravia Agria，约 800 米、石灰质／黏土及混凝土培养。页面整串比例两处不一致，故不固定百分比。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "rvs-master",
+        "rvs-envinate-albahra"
+      ],
+      "verification": "mixed"
+    },
+    {
+      "id": "telmo-al-muvedre",
+      "name": "Al-Muvedre",
+      "producerId": "compania-de-vinos-telmo-rodriguez",
+      "regionId": "alicante",
+      "denomination": "Alicante DO",
+      "grapeIds": [
+        "monastrell"
+      ],
+      "grapeText": "100% Monastrell",
+      "style": "干红",
+      "notes": "补回原文 2015 Al-Muvedre。当前官网确认 Monóvar、Villena 多个地块、灌木藤和手采；旧样酒品鉴与目前酒款身份分开。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-telmo-almuvedre"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "can-verdura-supernova-negre",
+      "name": "Supernova Negre 2024",
+      "producerId": "can-verdura",
+      "regionId": "binissalem",
+      "denomination": "Binissalem DO",
+      "grapeIds": [
+        "manto-negro"
+      ],
+      "grapeText": "100% Manto Negro",
+      "style": "干红",
+      "notes": "官网 2024 表：call vermell 红黏土地块、灌木藤，法国 500 升桶与较大 foudres 培养 9 个月。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-can-verdura-supernova"
+      ],
+      "verification": "official",
+      "sourceVintage": "2024"
+    },
+    {
+      "id": "can-verdura-supernova-blanc",
+      "name": "Supernova Blanc 2023",
+      "producerId": "can-verdura",
+      "regionId": "binissalem",
+      "denomination": "Binissalem DO",
+      "grapeIds": [
+        "prensal-blanc"
+      ],
+      "grapeText": "100% Moll / Prensal Blanc",
+      "style": "干白",
+      "notes": "官网 2023 表：20% 在 500 升法国桶发酵，其余钢罐；酒泥培养 5 个月。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-can-verdura-supernova"
+      ],
+      "verification": "official",
+      "sourceVintage": "2023"
+    },
+    {
+      "id": "can-verdura-supernova-rosat",
+      "name": "Supernova Rosat 2023",
+      "producerId": "can-verdura",
+      "regionId": "binissalem",
+      "denomination": "Binissalem DO",
+      "grapeIds": [
+        "manto-negro"
+      ],
+      "grapeText": "100% Manto Negro",
+      "style": "干型桃红",
+      "notes": "官网 2023 表：轻柔直接压榨，低温发酵。与同品种的 Negre 分开记录。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-can-verdura-supernova"
+      ],
+      "verification": "official",
+      "sourceVintage": "2023"
+    },
+    {
+      "id": "bonaval-brut",
+      "name": "Bonaval Brut",
+      "producerId": "bonaval-lopez-morenas",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "viura",
+        "parellada"
+      ],
+      "grapeText": "Macabeo、Parellada、Malvasía（官方未细分 Malvasía）",
+      "style": "Brut 白起泡",
+      "notes": "酒庄 2026 年上传技术表：传统法、11.5% vol。历史 Inviosa/Bonaval 与当前 López Morenas 的关系见生产者章节。",
+      "status": "current",
+      "sourceIds": [
+        "rvs-bonaval-brut",
+        "rvs-lopez-cava"
+      ],
+      "verification": "official"
+    }
+  ],
+  "corrections": [
+    {
+      "topic": "原笔记中的独立 Pago 漏项",
+      "old": "CLM 原笔记 13 个 Pago 只建了其中 2 个；Valencia 原笔记 4 个只建了 El Terrerazo。",
+      "new": "补回 CLM 其余 11 个、Valencia 其余 3 个，逐一连接生产者与可追溯酒款；另外核实 2025 Tharsys DOP。",
+      "sourceIds": [
+        "rvs-castilla",
+        "rvs-south",
+        "rvs-master",
+        "rvs-mapa-pagos",
+        "rvs-tharsys-do"
+      ]
+    },
+    {
+      "topic": "Terramoll 六款空葡萄关联",
+      "old": "仅停留在酒庄总览，六款配方标待核实。",
+      "new": "打开六个官方单酒技术页，恢复已明确的葡萄、方法与年份范围；只有未细分的 Malvasía 身份继续保留原名。",
+      "sourceIds": [
+        "rvs-terramoll-savina",
+        "rvs-terramoll-rosa-de-mar",
+        "rvs-terramoll-lliri",
+        "rvs-terramoll-es-virot",
+        "rvs-terramoll-es-monestir",
+        "rvs-terramoll-astarte"
+      ]
+    },
+    {
+      "topic": "Binissalem Manto Negro 最低比例",
+      "old": "旧 Expert Guide 记红酒至少 50%。",
+      "new": "监管委员会明确为至少 30%；白酒至少 50% Moll 或 Moscatel。",
+      "sourceIds": [
+        "rvs-expert",
+        "rvs-master",
+        "rvs-binissalem"
+      ]
+    },
+    {
+      "topic": "Málaga Pálido 年龄说法",
+      "old": "旧笔记可能被读成 Pálido 必须六个月，或被简化为一律不陈年。",
+      "new": "委员会页面用最多六个月；六个月不是 Pálido 的最低培养。保留普通 Málaga、Noble、Añejo、Trasañejo 的类别区别。",
+      "sourceIds": [
+        "rvs-south",
+        "rvs-study",
+        "rvs-malaga"
+      ]
+    },
+    {
+      "topic": "Gutiérrez 酒款配方与方法的年份变化",
+      "old": "容易将 2010 Rojo y Negro 的 Giró/Monastrell 各半、2014 Tío Raimundo flor 桶样推及全部年份。",
+      "new": "2018 Rojo y Negro 官方改列 Giró；2017 Tío Raimundo 列 13 个月法国桶。分开保留历史样酒与后来的官方技术资料。",
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-gutierrez-rojo",
+        "rvs-gutierrez-tio"
+      ]
+    },
+    {
+      "topic": "Cava 与 Bobal 起泡的误归类风险",
+      "old": "因 Pago de Tharsys 擅长 Cava，可能把 Único 一并归 Cava。",
+      "new": "原文明确 Único 2013 是 Bobal 白中黑，不能标 Cava；2025 Tharsys DOP 也不反推旧瓶。",
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-tharsys-do"
+      ]
+    },
+    {
+      "topic": "Fondillón 的边界",
+      "old": "“白 Fondillón”或 El Sequé Dulce 容易被当作 Alicante 的法定 Fondillón。",
+      "new": "前者是文章比喻，后者为加烈甜红；与 Monastrell、不加烈、长期木陈的 Fondillón 区别保存。",
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-south",
+        "rvs-el-seque-dulce"
+      ]
+    },
+    {
+      "topic": "Benje 与 Albahra 的葡萄关联",
+      "old": "master 的 Benje 未分红白，Albahra 只列 Alicante Bouschet。",
+      "new": "Benje Blanco 为 Listán Blanco，Tinto 主体 Listán Prieto；Albahra 现行进口商资料另含 Moravia Agria。",
+      "sourceIds": [
+        "rvs-master",
+        "rvs-envinate-benje-blanco",
+        "rvs-envinate-benje-tinto",
+        "rvs-envinate-albahra"
+      ]
+    },
+    {
+      "topic": "当前独立 Pago 不等于所有旧瓶已用该名称",
+      "old": "按酒庄当前资格覆盖其 2010 年代旧酒或同集团其他地区。",
+      "new": "保留 El Vicario 部分酒当前 Castilla IGP 分类、Vera/Chozas/Tharsys 旧年份背标边界，Martúe Nieva 另属 Rueda。",
+      "sourceIds": [
+        "rvs-valencia-archive",
+        "rvs-vicario",
+        "rvs-martue",
+        "rvs-tharsys-do"
+      ]
+    },
+    {
+      "topic": "原图像与混合标题的证据边界",
+      "old": "纯图片岛屿笔记或四个 DO 共用标题可能被当成每个细节都已读取并分配。",
+      "new": "两张原图均已逐图查看：分别为 Canary 与 Balearic 产区地图，没有另藏的 producer／酒款文字，地图所列保护名称均已有节点。四岛共标题下 125 公顷数字仍不盲目复制给四岛；原图不转载。",
+      "sourceIds": [
+        "rvs-master",
+        "rvs-expert",
+        "rvs-youdao-islands"
+      ]
+    },
+    {
+      "topic": "Inviosa 的历史身份与唯一生产者旧说法",
+      "old": "2017 保存、2022 修改的 Study Guide 提及 Inviosa，并称其为西南西班牙唯一 Cava 生产者。",
+      "new": "保留 Inviosa 与 1985 Bonaval 的历史关系；现行 DO Cava 名录列 López Morenas / Bodegas Bonaval，新增当前 Bonaval Brut。原稿年代不详，不延用唯一生产者说法。",
+      "sourceIds": [
+        "rvs-study",
+        "rvs-inviosa-history",
+        "rvs-lopez-cava",
+        "rvs-bonaval-brut"
+      ]
+    }
+  ],
+  "gaps": [
+    "Rafael Cambra Monastrell 2006 原文没有完整 cuvée 名，尚不能确认为 Uno；保留原始命名。",
+    "Mustiguillo 原文仅泛称的 2015 Garnacha、Merseguera 保存在 producer 章节，没有硬凑当前 cuvée。",
+    "Gutiérrez 2015 未命名干型 Monastrell 桶样没有创建虚构酒名；其观察保留在审计记录。",
+    "若官方技术页只写 Malvasía 或 Moscatel，保留原名及已证实的其他葡萄，不用地区常见品种代替鉴别。",
+    "Chozas Cabernet Familiar 官网同页桶陈时间有 5–7 月与 9 月两种写法；未选择一个作为固定事实。",
+    "Albahra 进口商页的整串比例有 40% 与 30% 两处差异；未固定比例。",
+    "Rafael Cambra、Vicente Gandía 的本次新增记录着重恢复原文样酒，未宣称完成全品牌当前酒单审计。",
+    "Vera、Tharsys 及 Chozas 的早期年份，Envínate 部分酒与 El Vicario 等具体背标仍须按实物／年份表核对；地理节点不等于已证明那个 DO。",
+    "Uclés 2026 EU 修订页面本轮打开时出现机器人验证；不把检索摘要推导为已逐条复核的现行完整规格。"
+  ],
+  "updates": {
+    "grapes": [],
+    "regions": [
+      {
+        "id": "gredos",
+        "studySections": [
+          {
+            "heading": "山地、品种与法定边界",
+            "paragraphs": [
+              "原学习资料把 Gredos 的复兴与 Garnacha、Albillo Real 联系起来：高海拔、较凉夜晚及花岗岩风化砂让老藤酒不必依赖厚重萃取。地区学习应沿村庄、地块、坡向与高度展开。",
+              "同一个 Gredos 地理概念会穿过 Madrid、Toledo、Ávila；Vinos de Madrid、Méntrida、Cebreros 或其他实际背标需要逐酒辨认。Bernabeleva、Marañones、Jiménez-Landi 以及其他档案项目可沿此关系比较。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-south"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "vinos-de-madrid",
+        "studySections": [
+          {
+            "heading": "四个分区与 sobremadre",
+            "paragraphs": [
+              "Arganda 位于城市东南，原文强调 Tempranillo、Malvar 与部分石灰质台地；Navalcarnero 较平坦；西部 San Martín de Valdeiglesias 靠近 Gredos，花岗岩与 Garnacha/Albillo Real 更具代表性；El Molar 为 2019 年新增分区。",
+              "2024 笔记推荐组合：Arganda＝Malvar/Tinto Fino，Navalcarnero＝Malvar/Garnacha，San Martín＝Albillo Real/Garnacha，El Molar＝Malvar/Garnacha。推荐品种不等于唯一许可品种。",
+              "原笔记记录白、桃红、红、传统法起泡及 sobremadre。Sobremadre 指长期与“madre”固形物接触的传统，旧资料记最长 180 天；不应简单把所有这类白酒描述为普通桶陈白酒。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-south",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "mentrida",
+        "studySections": [
+          {
+            "heading": "Garnacha 之外的 Méntrida",
+            "paragraphs": [
+              "原文把 Méntrida 的山地老 Garnacha 与砂质花岗岩土联系起来；靠近 Gredos 的地块与更温暖的低地不能视为一种成熟条件。",
+              "2024 笔记列白、桃红、红三种颜色，白葡萄包括 Albillo Real、Macabeo、Sauvignon Blanc、Chardonnay、Verdejo、小粒 Muscat；红葡萄除 Garnacha 和 Tempranillo，也列 Bordeaux 品种、Syrah、Petit Verdot、Graciano。",
+              "Dominio de Valdepusa 从这一区域背景发展出独立 Pago 身份，学习时把地理历史与当前保护名称分开。"
+            ],
+            "sourceIds": [
+              "rvs-castilla",
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "la-mancha",
+        "studySections": [
+          {
+            "heading": "高原规模、稀植与多种酒型",
+            "paragraphs": [
+              "原文强调大陆性高原的炎热干夏、寒冷冬季及低降雨，传统 marco real 稀植灌木藤降低植株争水；Airén 与 Cencibel（Tempranillo）是白、红两条基础线。",
+              "大宗酒与蒸馏原料是历史产业背景，也有老藤、陶罐及桶陈的认真瓶装酒。自治区 Castilla-La Mancha、La Mancha DO 与 Castilla IGP 的范围不同。",
+              "2024 笔记除静态三色酒，也列 vino de aguja、起泡与自然甜酒；当时 Roble 记至少 60 天、容器不超过 600 升，干葡萄自然甜酒原料糖度记 300 g/L。保留为该版笔记的学习细节，实际瓶标需看适用规格。"
+            ],
+            "sourceIds": [
+              "rvs-castilla",
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "valdepenas",
+        "studySections": [
+          {
+            "heading": "独立 DO 与 Cencibel",
+            "paragraphs": [
+              "Valdepeñas 是与 La Mancha 分立的地区，Cencibel 是当地 Tempranillo 的名字；白葡萄 Airén 与干旱高原栽培背景仍重要。不能把自治区名直接当作该 DO。",
+              "2024 笔记列白、桃红、红以及白／桃红起泡，土壤线索是石灰质基底。当前代表酒 Viña Albali 与 El Vínculo 的地区归属不同，应跟随各自背标。"
+            ],
+            "sourceIds": [
+              "rvs-castilla",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "almansa",
+        "studySections": [
+          {
+            "heading": "Tintorera 与高地条件",
+            "paragraphs": [
+              "Almansa 处在 Castilla-La Mancha 与东南地中海影响的过渡带，石灰质土与高度有助于在成熟度较高的葡萄中保留结构和酸度。原笔记列白、桃红、红酒。",
+              "Garnacha Tintorera 的红色果肉是学习重点，canonical 葡萄对应 Alicante Bouschet，不能与 Garnacha Tinta 合并。新恢复的 Albahra 提供 Tintorera 与 Moravia Agria 的组合，但其保护名称仍需按年份背标。"
+            ],
+            "sourceIds": [
+              "rvs-castilla",
+              "rvs-expert",
+              "rvs-master",
+              "rvs-envinate-albahra"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ],
+        "producerIds": [
+          "atalaya",
+          "envinate"
+        ]
+      },
+      {
+        "id": "manchuela",
+        "studySections": [
+          {
+            "heading": "Bobal、河流与特殊酒型",
+            "paragraphs": [
+              "Manchuela 位于 Júcar 与 Cabriel 河流影响的东部高原，与 Utiel-Requena 共享 Bobal 的重要地位；高度、夜间降温以及地中海空气影响是理解鲜度的线索。",
+              "Ponce 的老藤 Bobal、Albilla 等酒可以把品种与地块连起来。原笔记除白、桃红、红及起泡，还明确列 Vino de Hielo，不能因当地总体温暖就从学习索引删除这一法定酒型。"
+            ],
+            "sourceIds": [
+              "rvs-castilla",
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "ribera-del-jucar",
+        "studySections": [
+          {
+            "heading": "与相邻两区的区别",
+            "paragraphs": [
+              "原文把 Ribera del Júcar 放在原 La Mancha 东缘、Júcar 河附近，与 Manchuela 分列。石砾土和相对较强的地中海影响帮助解释其与更干的中央高原差别。",
+              "笔记中的红酒线索包括 Tempranillo，并许可其他红葡萄；白酒线索是 Sauvignon Blanc 和 Moscatel de Grano Menudo。实际生产者 Illana 已有独立记录，不能把“Ribera”误当作 Ribera del Duero。"
+            ],
+            "sourceIds": [
+              "rvs-castilla",
+              "rvs-expert"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "ucles",
+        "studySections": [
+          {
+            "heading": "藤龄制度与酒型",
+            "paragraphs": [
+              "原笔记以藤龄和产量分档解释 Uclés：红葡萄低于 6 年的藤不进入该体系，之后区分年轻、中龄和超过 40 年的老藤；年龄与种植方式共同影响允许产量。",
+              "2024/master 记录白、桃红、红及白起泡酒。藤龄条款是产区栽培管理，不等于每款酒都必须在正标印 Old Vines；也不能与 Vino de Pago 的地理等级混淆。"
+            ],
+            "sourceIds": [
+              "rvs-castilla",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "mondejar",
+        "studySections": [
+          {
+            "heading": "白葡萄地方名称与标签",
+            "paragraphs": [
+              "2024 笔记列白、桃红、红；白葡萄包括 Malvar、Macabeo、Torrontés、Sauvignon Blanc、Moscatel、Verdejo，红葡萄包括 Cencibel、Cabernet Sauvignon、Merlot、Syrah。",
+              "Arís 是原先谨慎保留 Torrontés 地方名称的实例；仅凭相同名称，不能把 Guadalajara 的葡萄映射为阿根廷 Torrontés Riojano。该遗传身份仍待直接证据。"
+            ],
+            "sourceIds": [
+              "rvs-castilla",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "campo-de-calatrava",
+        "studySections": [
+          {
+            "heading": "2024 新名称与过熟葡萄酒",
+            "paragraphs": [
+              "master 列 2024 年新增 Campo de Calatrava，分区记 Casa del Capitán、Casa de Garcibáñez、Carril de las Cubas、Encomienda de Cervera。旧版本“Castilla-La Mancha 八个 DO”的计数因此不能继续作为现况。",
+              "笔记酒型含白、桃红、红、优质起泡，以及 Tinto de Uvas Sobremaduradas；后者记在 225 或 500 升橡木中培养 8 年。这里保存的是该条特殊酒型的档案细节，而非全部地区红酒都须如此。"
+            ],
+            "sourceIds": [
+              "rvs-master",
+              "rvs-castilla"
+            ],
+            "status": "archive",
+            "sourceDate": "2024"
+          }
+        ]
+      },
+      {
+        "id": "ribera-del-guadiana",
+        "studySections": [
+          {
+            "heading": "六分区与本地白葡萄",
+            "paragraphs": [
+              "六分区：Tierra de Barros、Ribera Alta、Ribera Baja、Montánchez、Matanegra、Cañamero。原文把 Tierra de Barros 作为葡萄种植集中的核心，但各区的海拔、土壤和降雨并不相同。",
+              "白葡萄本地名称尤其多：Alarije、Cayetana Blanca、Montúa、Eva、Pardina、Cigüente 等，另有国际品种。法定名称清单与遗传同义名需要分别核实；不得把名字相似的葡萄任意合并。",
+              "原笔记列白、桃红、红三色酒；地区产业曾与蒸馏供应相连，但 Habla、Palacio Quemado 等不同项目显示现代瓶装酒多样性。它们实际使用 DO 或 IGP 的选择应按酒款，而非仅按自治区。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          },
+          {
+            "heading": "Tierra de Barros 的 Cava 历史",
+            "paragraphs": [
+              "原 Study Guide 的 Bodegas Inviosa 对应 Almendralejo 的历史生产背景；区域旅游路线记 1985 年 Bonaval 与 Inviosa 相连。当前监管目录中的经营实体为 López Morenas / Bodegas Bonaval。",
+              "Almendralejo 的 Cava 属于 Cava 保护名称；Tierra de Barros 与 Ribera del Guadiana 是其所在地理背景，不能据此把起泡酒标签改为 Ribera del Guadiana。旧稿称 Inviosa 为西南唯一 Cava 生产者的说法已不适用于现况。"
+            ],
+            "sourceIds": [
+              "rvs-study",
+              "rvs-inviosa-history",
+              "rvs-lopez-cava"
+            ],
+            "status": "official",
+            "sourceDate": "2026-10-25"
+          }
+        ],
+        "producerIds": [
+          "palacio-quemado",
+          "bonaval-lopez-morenas"
+        ]
+      },
+      {
+        "id": "extremadura-igp",
+        "studySections": [
+          {
+            "heading": "IGP 与地区风格",
+            "paragraphs": [
+              "Extremadura 自治区横跨 Cáceres 与 Badajoz，气候总体炎热偏干，但山地与河谷条件有差别。原笔记的葡萄名表反映地方白品种遗产以及后来引入的红葡萄。",
+              "IGP 的地理标识与 Ribera del Guadiana DO 不可互换。Habla 的不同序号和非序号系列，需要逐款读取品种及年份资料；生产者所在地不等于旗下每款酒都采用同一个保护名称。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-expert"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "cava",
+        "studySections": [
+          {
+            "heading": "Viñedos de Almendralejo 与 Bonaval",
+            "paragraphs": [
+              "DO Cava 当前将 López Morenas 列于 Viñedos de Almendralejo，并明确 Bonaval 属于该集团。原笔记 Bodegas Inviosa 的名称作为 Bonaval 的历史关联保留；2017/2022 存档中“唯一生产者”的表述不作为现行事实。"
+            ],
+            "sourceIds": [
+              "rvs-study",
+              "rvs-inviosa-history",
+              "rvs-lopez-cava"
+            ],
+            "status": "official",
+            "sourceDate": "2026-10-25"
+          }
+        ],
+        "producerIds": [
+          "juve-camps",
+          "celler-kripta",
+          "codorniu",
+          "freixenet",
+          "san-valero",
+          "alta-alella",
+          "vegalfaro",
+          "pago-de-tharsys",
+          "torre-oria",
+          "bonaval-lopez-morenas"
+        ]
+      },
+      {
+        "id": "valencia",
+        "studySections": [
+          {
+            "heading": "四分区与地方品种复兴",
+            "paragraphs": [
+              "Alto Turia 的高海拔干白以 Merseguera、Macabeo 为线索；Valentino 在较靠海的多样地块上生产多种颜色及风格；Moscatel de Valencia 侧重 Moscatel de Alejandría 的甜酒／利口酒；南侧不相连的 Clariano 支持更多红酒与本地品种。",
+              "2017 文章重点是从散装酒走向老藤、地方品种与独立瓶装。Clariano 的 Celler del Roure 复兴 Mandó、Verdil，并通过陶罐保留果实；Terres dels Alforins 是区域合作与旅游推广的例子，不是另一个 DO。",
+              "2024 笔记还列 Vino de Licor、Vino Rancio、起泡、芳香型起泡及 Vino de Misa / Vino de Consagrar。Valencia 自治区、城市与同名 DO 是不同层级，Alicante、Utiel-Requena 及独立 Pago 不自动属于 Valencia DO。"
+            ],
+            "sourceIds": [
+              "rvs-valencia-archive",
+              "rvs-south",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2017 article / 2024 note"
+          }
+        ],
+        "producerIds": [
+          "celler-del-roure",
+          "rafael-cambra"
+        ]
+      },
+      {
+        "id": "utiel-requena",
+        "studySections": [
+          {
+            "heading": "Bobal、doble pasta 与 Requena Cava",
+            "paragraphs": [
+              "2017 文章把 Bobal 的老灌木藤、深色果实、酸度和粉尘感单宁作为核心；旧统计的面积及占比只属于当时，不能作为今天精确数字。Doble pasta 是增加果皮／果渣比例的传统红酒制作方式。",
+              "Requena 的 Cava 发展在原文中与 Vicente García、Torre Oria、Pago de Tharsys 相连。Cava 的葡萄许可单独适用，故 Bobal 起泡 Único 不能因出自同一酒庄就归 Cava。",
+              "2024 笔记列 Superior 至少 85% 优选品种，Bobal con mención específica 为 100% Bobal，Bobal Alta Expresión 至少 50 年藤龄，另有 Vendimia Inicial、aguja、起泡和利口酒。这些术语作为原版本学习资料保存。"
+            ],
+            "sourceIds": [
+              "rvs-valencia-archive",
+              "rvs-south",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2017 article / 2024 note"
+          }
+        ],
+        "producerIds": [
+          "mustiguillo",
+          "vegalfaro",
+          "chozas-carrascal-producer",
+          "vera-de-estenas-producer",
+          "pago-de-tharsys",
+          "vicente-gandia",
+          "torre-oria"
+        ]
+      },
+      {
+        "id": "el-terrerazo",
+        "studySections": [
+          {
+            "heading": "独立 Pago 与 Mustiguillo 的层级",
+            "paragraphs": [
+              "原文记载 Sarrión 家族及 Toni 推动的地产模式，1999 首个年份、2010 独立 Pago。核心 Bobal 老藤与较旧橡木的培养使香气、酸度和单宁成为酒款层级的学习线索。",
+              "原文章讨论 Mestizaje Tinto、Finca Terrerazo 及白酒样品，今天官网对不同酒款保护名称另有明确标示。应同时阅读 producer 的酒款档案和实际背标，不能把所有 Mustiguillo 酒都放在该 Pago。"
+            ],
+            "sourceIds": [
+              "rvs-valencia-archive",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "alicante",
+        "studySections": [
+          {
+            "heading": "Vinalopó 与 Marina 的差别",
+            "paragraphs": [
+              "内陆 Vinalopó 较干燥，Monastrell 与老藤干红是核心；Marina Alta／Baja 更接近海洋，湿度较高，Moscatel 更突出；El Comtat 与 L’Alcoià 是山地背景，葡萄多种在山谷。",
+              "2024 笔记八分区包括 L’Alacantí、L’Alcoià、Alto/Medio/Bajo Vinalopó、Marina Alta/Baja、El Comtat。原 2017 文章的三大区叙述是更粗的地理概括，不能取代八分区表。",
+              "Fondillón 以过熟 Monastrell、不加烈及至少 10 年木中培养为学习轴；solera 与氧化陈年可以产生 rancio。Gutiérrez 的“白 Fondillón”只是文章比喻，El Sequé Dulce 的加烈也使它不能等同 Fondillón。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-south",
+              "rvs-valencia-archive",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2017 article / 2024 note"
+          }
+        ],
+        "producerIds": [
+          "pepe-mendoza-casa-agricola",
+          "enrique-mendoza",
+          "primitivo-quiles",
+          "gutierrez-de-la-vega",
+          "el-seque",
+          "bodegas-volver",
+          "compania-de-vinos-telmo-rodriguez"
+        ]
+      },
+      {
+        "id": "jumilla",
+        "studySections": [
+          {
+            "heading": "晚来的根瘤蚜与 Monastrell",
+            "paragraphs": [
+              "Jumilla 横跨 Murcia 和 Castilla-La Mancha，不限于 Murcia。原文强调砂质土上石灰质基底、较高海拔，以及根瘤蚜在 1980 年代末才大规模造成的影响；重新种植推动更卫生的藤材和现代酿造。",
+              "2024 笔记列 Monastrell 标品种红／桃红至少 85%，Vino de Licor 为 100% Monastrell；同时许可白、桃红、红及三种颜色甜酒。Casa Castillo、Juan Gil、El Nido 可以作为单品种、混酿与单地块的实际对照。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "yecla",
+        "studySections": [
+          {
+            "heading": "高地 Monastrell 与少见酒型",
+            "paragraphs": [
+              "Yecla 围绕同名城镇，与 Jumilla、Alicante 内陆共享干旱高地和 Monastrell 传统。原文给出约 400–800 米的葡萄园高度及石灰岩下层的排水土壤；高度和坡向仍影响成熟。",
+              "2024 笔记除静态三色与利口酒，也列传统法起泡，酒泥至少 9 个月；红／桃红起泡中 Monastrell 至少 85%。这些是原文具体酒型规则，不代表当地只做红酒。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "bullas",
+        "studySections": [
+          {
+            "heading": "高度、鲜度与最低品种比例",
+            "paragraphs": [
+              "原文将 Bullas 划为西部、中部、东北部三带，向西高度上升、葡萄种植更集中；常见的山地 Monastrell 可以表现较鲜活酸度，而不只靠浓熟度。",
+              "2024 笔记列红／桃红至少 60% Monastrell，Vino de Licor 为 100% Monastrell；传统法起泡最少 9 个月酒泥，红／桃红起泡中 Monastrell 最少 65%。该表作为版本化学习资料保留，不能扩为所有年份所有酒的固定配方。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "jerez-xeres-sherry",
+        "studySections": [
+          {
+            "heading": "风土、培养与旧笔记的例酒",
+            "paragraphs": [
+              "原学习资料将 albariza 石灰质土、barros 黏土和 arenas 砂土分开，Palomino 与干型培养、Moscatel 与较砂质地带的关系是基础。Jerez 的 pago 是葡萄园地理名称，不等于独立 DOP Vino de Pago。",
+              "Fino 以 flor 下生物培养为核心；Amontillado 先有生物培养再转向氧化；Oloroso 以氧化培养为主。Palo Cortado 用细致香气和更丰厚口感理解，不能把偶然 flor 消失写成唯一必需成因。",
+              "原 Sherry Wine 笔记明确列 Tío Pepe、Inocente、La Gitana En Rama、Los Arcos、Alfonso、Oloroso Antique、Jalifa、Wellington 20、Valdespino Viejo 等例酒，可沿酒款链接比较生物培养、氧化培养及平均酒龄。"
+            ],
+            "sourceIds": [
+              "rvs-sherry-archive",
+              "rvs-south",
+              "rvs-master",
+              "rvs-palo-cortado"
+            ],
+            "status": "archive",
+            "sourceDate": "2017 / 2024"
+          },
+          {
+            "heading": "平均年龄与新版规则的边界",
+            "paragraphs": [
+              "原 master 的 VOS 至少 20 年、VORS 至少 30 年是平均酒龄概念；不能读成单一年份、瓶龄，也不能仅凭酒商说“约 20 年”就自行赋予 VOS 认证。",
+              "旧笔记中“全部必须加烈、只准三种葡萄、只能在三城培养”的旧归纳，应与现行官方规格并读；历史学习资料不能代替适用版本的规则。"
+            ],
+            "sourceIds": [
+              "rvs-master",
+              "rvs-sherry-archive"
+            ],
+            "status": "archive"
+          }
+        ],
+        "producerIds": [
+          "bodegas-tradicion",
+          "valdespino",
+          "lustau",
+          "gonzalez-byass-jerez",
+          "barbadillo",
+          "hidalgo-la-gitana",
+          "williams-humbert",
+          "fernando-de-castilla"
+        ]
+      },
+      {
+        "id": "manzanilla-sanlucar",
+        "studySections": [
+          {
+            "heading": "Sanlúcar 的生物培养与不同背标",
+            "paragraphs": [
+              "Manzanilla 与 Jerez 共享葡萄园和监管体系的历史，但培养地点 Sanlúcar de Barrameda 是其身份关键；不能把 Hidalgo 或 Barbadillo 全部酒款都归 Manzanilla。",
+              "master 列 Fina、Pasada 与 Añada，分别帮助理解持续 flor、较长培养及静态年份系统。La Gitana、Pastrana 等例酒与 Oloroso、Palo Cortado 的实际 DO 分开。旧笔记中的最低培养时间以当时版本记录。"
+            ],
+            "sourceIds": [
+              "rvs-sherry-archive",
+              "rvs-south",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "montilla-moriles",
+        "studySections": [
+          {
+            "heading": "PX 干酒、albariza 与 solera",
+            "paragraphs": [
+              "Pedro Ximénez 在这里既可用于干型 Fino，也可晒干后做浓甜酒。炎热条件令基酒达到较高自然酒精，部分干型酒无需加烈；Fino 不等同于 Palomino 或一定加烈。",
+              "原笔记的 Montilla-Moriles Superior 指更高比例 albariza 的区域。酒型含白酒、Fino/Amontillado/Oloroso/Palo Cortado、自然甜利口酒与加甜调配类型；Alvear、Toro Albalá、Pérez Barquero 可分别连接到实际标签。",
+              "2024 档案记 generoso 最少 2 年 solera 木中培养，桶陈白酒至少 1 年；同时保留 PX 与 Moscatel 甜酒糖度的不同类别。这些数字需要跟随适用版本，不由“Sherry 风格”三个字代替本 DO。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "malaga",
+        "studySections": [
+          {
+            "heading": "天然甜、加烈与 arrope",
+            "paragraphs": [
+              "原资料的五个地理范围为 Axarquía、Montes de Málaga、Manilva、Norte、Serranía de Ronda。Moscatel 与 PX 为核心，陡坡、晒葡萄（soleo）以及不同糖分保留方式解释酒型多样性。",
+              "Málaga 既有不加烈的干酒与甜酒，也有 Vino de Licor。Naturalmente Dulce 与 Vino Dulce Natural 的词序有实际差别；不能把它们一概译为同一种“天然甜酒”。",
+              "Maestro 为发酵前加入酒精但仍允许缓慢不完全发酵；Tierno 使用晒过的葡萄后中止发酵。Arrope 是煮浓葡萄汁，可影响颜色及风格；Lágrima 指没有机械压榨的取汁。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-master",
+              "rvs-malaga"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          },
+          {
+            "heading": "Pálido 的六个月不是最低要求",
+            "paragraphs": [
+              "监管委员会当前说明把 Pálido 写为“最多六个月”，Noble 为 2–3 年、Añejo 为 3–5 年、Trasañejo 为超过 5 年。旧笔记中普通 Málaga 的六个月最低培养，不应移植为 Pálido 的最低要求。",
+              "Pajarete 在委员会说明中为不加 arrope 的甜利口酒，至少两年培养；Lacrimae Christi 为至少两年培养的 Lágrima。实际生产应以适用规格及酒款技术表为准。"
+            ],
+            "sourceIds": [
+              "rvs-malaga"
+            ],
+            "status": "official",
+            "sourceDate": "2026-10-25"
+          }
+        ],
+        "producerIds": [
+          "molino-real",
+          "bentomiz",
+          "jorge-ordonez-malaga"
+        ]
+      },
+      {
+        "id": "sierras-de-malaga",
+        "studySections": [
+          {
+            "heading": "同省两个保护名称",
+            "paragraphs": [
+              "原 master 列 Serranía de Ronda 子区，以及 Axarquía、Montes de Málaga、Manilva、Costa Occidental、Norte、Sierra de las Nieves 等地理范围。白、桃红、红及过熟葡萄酒构成多样组合。",
+              "除 Moscatel、PX、Romé 等地方线索，笔记也列不少国际品种。Bentomiz 的干酒、甜酒以及 Jorge Ordóñez 的不同系列，需按具体保护名称分开，不能简单“甜的都是 Málaga、干的都只能 Sierras de Málaga”。"
+            ],
+            "sourceIds": [
+              "rvs-master",
+              "rvs-south"
+            ],
+            "status": "archive"
+          }
+        ],
+        "producerIds": [
+          "bentomiz",
+          "jorge-ordonez-malaga"
+        ]
+      },
+      {
+        "id": "condado-de-huelva",
+        "studySections": [
+          {
+            "heading": "Zalema 与 Pálido / Viejo",
+            "paragraphs": [
+              "Zalema 是原笔记的核心白葡萄。白酒分年轻、传统等表达；Condado Pálido 对应生物培养，Condado Viejo 对应氧化培养，两者都可使用 solera。",
+              "2024 笔记记 Blanco Tradicional 至少一年，Pálido/Viejo 至少三年木中培养，Generoso de Licor 至少两年。红酒、加甜利口酒与普通白酒需要分别读标签。",
+              "Vino Naranja del Condado de Huelva 是另一个受保护名称，以橙皮风味化处理为线索，不等同于把白葡萄带皮发酵得到的“orange wine”。Sauci 的产品可以连接这些差别。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "granada",
+        "studySections": [
+          {
+            "heading": "高度与分区",
+            "paragraphs": [
+              "原 master 列 Contraviesa-Alpujarra、Geoparque-Norte、Poniente 三个分区，并记录由旧 VCIG 表述转为 DO 的过程。省名、法定地区名与生产者选择的背标要分开。",
+              "白、桃红、红、起泡及过熟葡萄酒都在笔记中。Contraviesa-Alpujarra 起泡的旧表特别列至少 70% Vijiriego，其余可包括 Chardonnay、Pinot Noir、Viognier；这条要求不能扩大成 Granada 所有起泡共同配方。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024-07"
+          }
+        ]
+      },
+      {
+        "id": "lebrija",
+        "studySections": [
+          {
+            "heading": "Vino de Calidad 的地位",
+            "paragraphs": [
+              "原 Andalucía 清单把 Lebrija 列在 VCIG。它对应欧盟 DOP 下的西班牙传统术语 Vino de Calidad，而不是 IGP；不要因为级别名称较少见而略去。",
+              "生产者 González Palacios 及 Flor de Lebrija 的实际酒款已经连接，地理邻近 Jerez 不表示它们都使用 Jerez-Xérès-Sherry DO。"
+            ],
+            "sourceIds": [
+              "rvs-south",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "binissalem",
+        "studySections": [
+          {
+            "heading": "Manto Negro 与 Moll 的地区要求",
+            "paragraphs": [
+              "旧 Expert Guide 的红酒最低 50% Manto Negro 与 master/官方页面存在冲突。本次以监管委员会可核查的 30% 为准；白酒为至少 50% Moll 或 Moscatel。",
+              "授权红葡萄除 Manto Negro，也有 Callet、Gorgollassa、Monastrell、Tempranillo、Cabernet Sauvignon、Merlot、Syrah；白葡萄包括 Moll/Prensal、Moscatel、Giró Ros、Parellada、Macabeo、Chardonnay。地区葡萄名单不等于每个 cuvée 的配方。",
+              "Ca’n Verdura 的 Supernova 三色酒均有明确 Binissalem DO 标示；Ribas 虽与这一地理范围有关，其酒款仍按 Mallorca IGP 背标。"
+            ],
+            "sourceIds": [
+              "rvs-binissalem",
+              "rvs-can-verdura-supernova"
+            ],
+            "status": "official",
+            "sourceDate": "2026-10-25"
+          }
+        ],
+        "producerIds": [
+          "ribas",
+          "can-verdura"
+        ]
+      },
+      {
+        "id": "pla-i-llevant",
+        "studySections": [
+          {
+            "heading": "Mallorca 东部与多样酒型",
+            "paragraphs": [
+              "原 master 把 Pla i Llevant 与 Binissalem 并列为 Mallorca 的两个 DO，记 1999 年建立。地方葡萄 Callet、Fogoneu、Manto Negro、Moll 与国际品种同时存在。",
+              "笔记酒型不只静态红白桃红，还列 Vino de Licor、Vino de Aguja 与 Vino Espumoso。Miquel Gelabert 的 Chardonnay Roure 与 Sa Vall 可作为具体 producer／酒款入口，但不代表全区只有国际葡萄。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "mallorca-igp",
+        "studySections": [
+          {
+            "heading": "地方品种与多个保护名称并存",
+            "paragraphs": [
+              "Mallorca 上的 Binissalem、Pla i Llevant 两个 DO 与 Mallorca IGP 等路径并存。Manto Negro、Callet、Fogoneu、Moll/Prensal、Giró Ros 等让岛屿风格有不同于国际品种混酿的线索。",
+              "Ànima Negra、Ribas 等酒庄的实际标签要逐款看。酒庄位于某 DO 的地理范围，不自动表示其全部瓶装酒属于该 DO；有机、老藤或恢复品种也不是保护名称本身。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master",
+              "rvs-binissalem"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "menorca-igp",
+        "studySections": [
+          {
+            "heading": "岛屿与酒款对应",
+            "paragraphs": [
+              "Menorca 与 Mallorca 是不同岛屿；原 master 列主要 Balearic 岛屿时单列 Menorca。Binifadet 的 Tanca 地块酒已提供白、桃红实例，不能以 Mallorca 两个 DO 代替其标签。"
+            ],
+            "sourceIds": [
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "ibiza-igp",
+        "studySections": [
+          {
+            "heading": "岛屿与酒款对应",
+            "paragraphs": [
+              "Ibiza 与邻近 Formentera 同属 Balearic 群岛的一部分，但各有自己的地理标识。Ibizkus 的红、桃红酒应按 Ibiza IGP 酒款证据读取。"
+            ],
+            "sourceIds": [
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "formentera-igp",
+        "studySections": [
+          {
+            "heading": "岛屿与酒款对应",
+            "paragraphs": [
+              "Formentera 独立于 Ibiza；La Mola 高地、海风与干旱环境是 Terramoll 的生产背景。六款逐酒技术页已补齐有证据的葡萄联系，未细分的 Malvasía 仍保留原名。"
+            ],
+            "sourceIds": [
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "islas-canarias",
+        "studySections": [
+          {
+            "heading": "群岛共同背景与岛际差别",
+            "paragraphs": [
+              "原文以火山地貌、信风、海拔和海洋影响解释 Canaries：高海拔与云层可缓和低纬度的热量，北向与南向坡地条件不同，不能用单一炎热“火山岛”概括所有葡萄园。",
+              "未嫁接老藤、混栽与小块家族葡萄园（suertes）是重要遗产。白品种含 Listán Blanco、Malvasía、Gual、Verdello、Marmajuelo、Forastera、Vijariego Blanco 等；红品种含 Listán Negro、Negramoll、Listán Prieto、Baboso Negro 等。",
+              "Tenerife 有五个地区 DO，另外 La Palma、El Hierro、La Gomera、Gran Canaria、Lanzarote 各有岛屿 DO。群岛名称也被用作独立 DOP 标签，因此本页地理总览与每款实际保护名称必须分清。",
+              "原文把 Canary Tintilla/Bastardo 一概等同 Trousseau 的表述过度简化；当地同名与品种身份已在葡萄层分别处理。混栽酒里未确定的葡萄，不强行建立到某个熟悉品种的链接。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ],
+        "producerIds": [
+          "vinatigo",
+          "ferrera",
+          "tanajara",
+          "envinate"
+        ]
+      },
+      {
+        "id": "tacoronte-acentejo",
+        "studySections": [
+          {
+            "heading": "Tenerife 北侧与红酒",
+            "paragraphs": [
+              "Tenerife 北侧的 Tacoronte-Acentejo 是岛上较早、较大的地区 DO。原文记葡萄园向高处延伸，红色壤土层随海拔变化，Listán Negro 与 Negramoll 为关键红葡萄。",
+              "master 记 Anaga 子区；但在地理上位于 Anaga 的 wine 不一定选择这一 DO。Monje 的原官方菜单是存档证据，仍须保留 archive，而不是宣称已核实所有 2026 在售年份。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "valle-de-la-orotava",
+        "studySections": [
+          {
+            "heading": "Cordón trenzado 与土壤差异",
+            "paragraphs": [
+              "原文将 Orotava 描写为 Teide 面向大西洋的一段坡地，Listán Blanco 与 Listán Negro 是主线。Cordón trenzado 把多年生枝条编成长辫并支撑离地，冬季可移开，历史上便于其他作物种植。",
+              "葡萄园高度、云层与黏土比例形成差别。Suertes del Marqués 的多地块酒与恢复的 Envínate Palo Blanco、Migan 可对照读；同一地理区里，实际 DO 的选择和酒款年份仍需分别核实。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master",
+              "rvs-envinate-importer"
+            ],
+            "status": "archive"
+          }
+        ],
+        "producerIds": [
+          "suertes-del-marques",
+          "envinate"
+        ]
+      },
+      {
+        "id": "ycoden-daute-isora",
+        "studySections": [
+          {
+            "heading": "西北 Tenerife 与两种 Listán",
+            "paragraphs": [
+              "原文把 Listán Blanco 作为 Ycoden-Daute-Isora 的白酒主线，地块从靠海到高海拔跨越较大条件差异，不能把整个地区简化成一个湿度或土壤。",
+              "Santiago del Teide 的 Benje Blanco 与 Benje Tinto 是新补回的对应酒：白为 Listán Blanco，红为 Listán Prieto 主体。Listán Prieto 与 Listán Negro 是不同葡萄；单凭都来自 Canaries 不能互换。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master",
+              "rvs-envinate-benje-blanco",
+              "rvs-envinate-benje-tinto"
+            ],
+            "status": "archive"
+          }
+        ],
+        "producerIds": [
+          "vinatigo",
+          "envinate"
+        ]
+      },
+      {
+        "id": "abona",
+        "studySections": [
+          {
+            "heading": "南侧高海拔与白葡萄",
+            "paragraphs": [
+              "Abona 位于 Tenerife 南侧，整体较干；海拔可以缓解热量。Listán Blanco 及白酒在原文占重要位置，同时也有红葡萄种植。",
+              "旧文把其高地称“欧洲最高葡萄园”是随定义与时期变化的排名，不在这里继续当成绝对现况。Cumbres de Abona 的 Flor de Chasna 干红与甜白已作为实际酒款例证。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "valle-de-guimar",
+        "studySections": [
+          {
+            "heading": "南东侧坡地与高度",
+            "paragraphs": [
+              "Valle de Güímar 在 Tenerife 东南一侧，相较 Teide 北面更干。原文以约 800–1,400 米较高地块说明白酒如何保留鲜度，Listán Blanco 是关键。",
+              "Ferrera 的葡萄园及当前酒单为对应 producer；具体酒款的品种、产地名称须独立核实，不因为一个葡萄在酒庄种植就写入全部酒款。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "lanzarote",
+        "studySections": [
+          {
+            "heading": "Hoyos、zanjas 与地方品种",
+            "paragraphs": [
+              "原文强调 1730 年代长期火山喷发后的黑色火山碎屑地貌。Hoyos 是向下挖到可保水土层的单株坑穴，周边半圆石墙帮助防风；zanjas 为沟槽式种植，两者不是同一个训练法。",
+              "La Geria、Masdache 与 Ye-Lajares 是重要地理线索。Malvasía Volcánica、Listán Negro 与 Diego（Vijariego Blanco）可联系 El Grifo、Los Bermejos 的干白、甜白及起泡酒。",
+              "“火山土”说明地质和栽培环境，不足以证明酒中的某种矿物味直接来自熔岩；原文的感官比喻不转写为化学因果。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "la-palma",
+        "studySections": [
+          {
+            "heading": "三个分区与 vino de tea",
+            "paragraphs": [
+              "master 列 Hoyo de Mazo / Breñas、Fuencaliente、Norte 三个分区；北部的 vino de tea 与 Canary pine（Pinus canariensis）容器相连。它可以是白、桃红或红，松木香是容器工艺，不能与普通橡木 rancio 混为一谈。",
+              "2024/master 记 vino de tea 最少在松木容器中 6 个月，并列普通静态酒、clarete、自然甜、起泡、aguja 与利口酒。品种名包括 Sabro、Albillo Criollo、Malvasía Aromática 等岛屿线索。",
+              "Expert Guide 的“最近大喷发 1971”已过时；其中把 Fuencaliente 重点 Malvasía 概括为 Volcánica 的说法也不能套在 Teneguía。具体酒款应根据酒庄明确的 Malvasía Aromática 等名称连接。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive",
+            "sourceDate": "2024/master"
+          }
+        ]
+      },
+      {
+        "id": "el-hierro",
+        "studySections": [
+          {
+            "heading": "梯田与葡萄名字",
+            "paragraphs": [
+              "原文以火山地貌和梯田说明小岛栽培难度；历史上甜酒重要，当前干型红白也形成对应。Listán Blanco、Vijariego 的白／红类型、Listán Negro 与 Baboso Negro 不能因地方名接近而合并。",
+              "Tanajara 的 Baboso Negro 及 Vijariego Negro 是两条不同品种线；酒庄与原 de Yanes 命名、酒款实际保护名称需要分开保留，不能由旧岛屿概括替代现行品牌证据。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "la-gomera",
+        "studySections": [
+          {
+            "heading": "Forastera 与山地小产量",
+            "paragraphs": [
+              "陡坡、深谷和难以机械作业的地形令 La Gomera 葡萄种植规模有限。Forastera Blanca / Forastera Gomera 是地方白葡萄主线，不与 Campania 的 Forastera 自动合并。",
+              "原 master 把 La Gomera、El Hierro、Gran Canaria、Lanzarote 合用一个标题后出现 125 公顷及 Forastera 细节；该段无法无歧义分配给全部四岛，所以本次不把 125 公顷复制到四个 DO。Alisios 酒款提供可核实的具体连接。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "gran-canaria",
+        "studySections": [
+          {
+            "heading": "Monte Lentiscal 的历史与山地红酒",
+            "paragraphs": [
+              "原文记 Gran Canaria DO 在 2005 年吸收较早的 Monte Lentiscal 保护名称。岛屿北南坡向、高度及中央山地造成多种条件，不能把南部或北部一概定为固定质量等级。",
+              "Listán Negro 的本地名称 Negro Común、Negramoll 与白葡萄 Listán Blanco 等形成基础；Frontón de Oro 的 Tintilla 需保留 Canary 名称语境，未经该酒的品种鉴别不能自动连到 Trousseau 或 Cádiz 的 Tintilla de Rota。"
+            ],
+            "sourceIds": [
+              "rvs-expert",
+              "rvs-master"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "castilla-igp",
+        "producerIds": [
+          "verum",
+          "finca-rio-negro",
+          "pago-del-vicario"
+        ]
+      }
+    ],
+    "producers": [
+      {
+        "id": "celler-del-roure",
+        "sections": [
+          {
+            "title": "创立与地方品种",
+            "text": "Pablo Calatayud 于 1995 年创立酒庄，复兴 Mandó 与 Verdil 等本地品种。2017 文章把它放在 Clariano 以及 Terres dels Alforins 的地区合作背景下，说明质量提升与地方葡萄园的联系。",
+            "sourceIds": [
+              "rvs-valencia-archive"
+            ]
+          },
+          {
+            "title": "2006 年旧酒窖与陶罐",
+            "text": "2006 年购入带有地下陶罐酒窖的旧产业；原文把其年代形容为可能很古老，但没有充分依据认定为罗马时代。酒庄认为陶罐可以在炎热产区保留果实与土地表达，避免新橡木额外增加甜感与结构。",
+            "sourceIds": [
+              "rvs-valencia-archive"
+            ]
+          },
+          {
+            "title": "酒款的层次与年份",
+            "text": "Cullerot 2016 是 Verdil/PX/Macabeo/Chardonnay 白混酿，陶罐 6 个月；Safrà 2015 为 85% Mandó 加 Garnacha，采收思路偏向鲜活的桃红式成熟度；Parotet 2013 则以约 75% Mandó 加 Monastrell，结构较厚。三组配方只属于原文年份，不覆盖官网后来的比例。",
+            "sourceIds": [
+              "rvs-valencia-archive"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "es-south-islands-ss-roure",
+          "rvs-valencia-archive"
+        ],
+        "wineIds": [
+          "celler-del-roure-safra",
+          "celler-del-roure-parotet",
+          "celler-del-roure-cullerot-2016"
+        ]
+      },
+      {
+        "id": "mustiguillo",
+        "sections": [
+          {
+            "title": "Sarrión 家族与地产模式",
+            "text": "2017 文章记载 Sarrión 家族在 1990 年代购入地产，最初考虑大型合作设施；Toni 推动以地产为主，1999 年为首个年份。El Terrerazo 于 2010 年成为独立 Pago，老 Bobal 是项目核心。",
+            "sourceIds": [
+              "rvs-valencia-archive"
+            ]
+          },
+          {
+            "title": "原文的红白两条线",
+            "text": "2016 Mestizaje Blanco 为 Merseguera 60%、Viognier/Malvasía 各 20%；2015 Mestizaje Tinto 为 Bobal 80%，其余 Syrah、Tempranillo、Cabernet Sauvignon、Garnacha；2015 Finca Terrerazo Bobal 用较旧法国桶约 20 个月。",
+            "sourceIds": [
+              "rvs-valencia-archive"
+            ]
+          },
+          {
+            "title": "命名与当前资料的边界",
+            "text": "文章还提到没有完整 cuvée 名称的 2015 Garnacha 与 Merseguera；这些被保存在本节，未擅自认定为今日 La Garnacha 或 Finca Calvestra 的同一标签。原文强调较旧橡木与果实鲜度，亦不等于永久禁止使用新桶。",
+            "sourceIds": [
+              "rvs-valencia-archive"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "es-south-islands-ss-mustiguillo",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "enrique-mendoza",
+        "sections": [
+          {
+            "title": "原文的地区意义",
+            "text": "2017 文章将 1989 年创立的 Enrique Mendoza 放在 Alicante 从合作社、散装酒走向独立瓶装项目的阶段。作者品鉴的两款单品种 Monastrell 展示鲜度与土地表达，并不都追求过量橡木或萃取。",
+            "sourceIds": [
+              "rvs-valencia-archive"
+            ]
+          },
+          {
+            "title": "老年份品鉴线索",
+            "text": "Las Quebradas 2011 与 Estrecho 2012 的评价保留为当时样酒观察：前者结构清楚、叶片与黑果并存，后者红果、花香及草本更鲜活。不能把作者的历史品鉴写为今天所有年份的固定感官描述。",
+            "sourceIds": [
+              "rvs-valencia-archive"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "es-south-islands-ss-mendoza",
+          "es-south-islands-ss-mendoza-monastrell",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "pepe-mendoza-casa-agricola",
+        "sections": [
+          {
+            "title": "团队原始酒款资料",
+            "text": "2026-10-20 团队资料将项目记为 Pepe Mendoza 与家庭经营，联系 Marina Alta 与 Alto Vinalopó 两类风土，并记述恢复约 1900 年的 Riu Rau 建筑及约 14 公顷葡萄园。面积与建筑年代在这里保留为团队档案口径。",
+            "sourceIds": [
+              "rvs-madaras-archive"
+            ]
+          },
+          {
+            "title": "La Viña de Madaras 2022",
+            "text": "团队档案记 Giró 与 Monastrell、Alicante DO、14% 酒精；部分整串与自然酵母发酵，500 升法国桶约 10 个月。技术信息对应这份 2022 团队资料。",
+            "sourceIds": [
+              "rvs-madaras-archive"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "es-south-islands-ss-pepe-home",
+          "rvs-madaras-archive"
+        ],
+        "wineIds": [
+          "pepe-mendoza-casa-agricola-fierroca",
+          "pepe-mendoza-casa-agricola-giro-de-abargues",
+          "pepe-mendoza-casa-agricola-el-veneno",
+          "pepe-mendoza-casa-agricola-pureza-amphora",
+          "pepe-mendoza-casa-agricola-casa-agricola-tinto",
+          "pepe-mendoza-casa-agricola-casa-agricola-blanco",
+          "pepe-mendoza-casa-agricola-paciencia-infinita",
+          "pepe-mendoza-la-vina-de-madaras-2022"
+        ]
+      },
+      {
+        "id": "valdespino",
+        "sections": [
+          {
+            "title": "地块与 solera 的关系",
+            "text": "官方目录把 Inocente Fino、Tío Diego Amontillado 与 Viejo C.P. Palo Cortado 连到 Macharnudo Alto。Viejo C.P. 从前两者的早期 criaderas 分选，后来又为更高阶 Cardenal 的最后一层 criadera 提供补酒，展示同一地块如何进入不同培养路径。",
+            "sourceIds": [
+              "rvs-valdespino"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "es-south-islands-ss-valdespino",
+          "rvs-valdespino"
+        ],
+        "wineIds": [
+          "valdespino-inocente",
+          "valdespino-tio-diego",
+          "valdespino-deliciosa",
+          "valdespino-isabela",
+          "valdespino-el-candado",
+          "valdespino-promesa",
+          "valdespino-contrabandista",
+          "valdespino-viejo-cp"
+        ]
+      },
+      {
+        "id": "terramoll",
+        "sections": [
+          {
+            "title": "La Mola 的葡萄园条件",
+            "text": "六款单独技术页补足了原总览：葡萄园位于 Formentera 的 La Mola 高地，雨养、有机栽培，石灰质壤土含砂及局部红色黏土。不同地块与训练方式要随酒款理解，不能把每款都称老藤灌木。",
+            "sourceIds": [
+              "rvs-terramoll-savina"
+            ]
+          },
+          {
+            "title": "白酒、桃红与红酒组合",
+            "text": "Savina 为 Viognier/Malvasía；Astarté 为陶罐 Viognier；Lliri 则另加 Garnacha Blanca 和小粒 Muscat 的甜白。Rosa de Mar 包含 Viognier 与三个红葡萄；Es Virot 为 Merlot/Cabernet Sauvignon 主体，Es Monestir 为未嫁接 Monastrell。",
+            "sourceIds": [
+              "rvs-terramoll-savina",
+              "rvs-terramoll-astarte",
+              "rvs-terramoll-lliri",
+              "rvs-terramoll-rosa-de-mar",
+              "rvs-terramoll-es-virot",
+              "rvs-terramoll-es-monestir"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "es-south-islands-ss-terramoll",
+          "rvs-terramoll-savina",
+          "rvs-terramoll-astarte",
+          "rvs-terramoll-lliri",
+          "rvs-terramoll-rosa-de-mar",
+          "rvs-terramoll-es-virot",
+          "rvs-terramoll-es-monestir"
+        ]
+      },
+      {
+        "id": "hidalgo-la-gitana",
+        "wineIds": [
+          "hidalgo-la-gitana-la-gitana",
+          "hidalgo-la-gitana-la-gitana-en-rama",
+          "hidalgo-la-gitana-pastrana",
+          "hidalgo-la-gitana-napoleon",
+          "hidalgo-la-gitana-alameda-cream",
+          "hidalgo-la-gitana-wellington-vos20"
+        ]
+      }
+    ],
+    "wines": [
+      {
+        "id": "mustiguillo-mestizaje-blanco",
+        "notes": "Merseguera 为学习重点，混酿其余品种与比例按年份确认。 历史对照：2017 文章的 2016 年份为 Merseguera 60%、Viognier 20%、未细分身份的 Malvasía 20%；与当前配方分开。",
+        "sourceIds": [
+          "es-south-islands-ss-mustiguillo",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "mustiguillo-mestizaje-tinto",
+        "notes": "现行官方配方结合 Bobal、Garnacha 与 Syrah；不沿用旧资料中的固定国际品种比例。 历史对照：2017 文章的 2015 年份为 Bobal 80%，另含 Syrah、Tempranillo、Cabernet Sauvignon、Garnacha；不把这一组合视为全部年份。",
+        "sourceIds": [
+          "es-south-islands-ss-mustiguillo-mest",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "mustiguillo-finca-terrerazo",
+        "notes": "El Terrerazo 的 Bobal 旗舰地产表达，与精选 Quincha Corral 区分。 历史对照：2015 年份在旧法国桶约 20 个月，为原文讨论 Bobal 单宁与陈年风格的例子。",
+        "sourceIds": [
+          "es-south-islands-ss-mustiguillo",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "celler-del-roure-safra",
+        "notes": "官方叙述以恢复 Mandó 为起点；与 Parotet 作为不同酒款保留，配方随年份核实。 历史对照：原文 2015 年份为 85% Mandó 加 Garnacha，与后续年份可能不同。",
+        "sourceIds": [
+          "es-south-islands-ss-roure",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "celler-del-roure-parotet",
+        "notes": "官网 Safrà 资料将它列为先行的 Mandó 酒款；独立于更轻盈取向的 Safrà。 历史对照：原文 2013 年份约 75% Mandó 加 Monastrell；不得将该比例套到所有年份。",
+        "sourceIds": [
+          "es-south-islands-ss-roure",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "enrique-mendoza-las-quebradas",
+        "notes": "不同于 Estrecho 的 Villena 地块，官方列 100% Monastrell。 历史对照：2017 文章品鉴 2011 年份，强调叶片、铁、黑樱桃、胡椒与皮革线索，酸度鲜明，单宁成熟而清楚。",
+        "sourceIds": [
+          "es-south-islands-ss-mendoza",
+          "es-south-islands-ss-mendoza-monastrell",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "enrique-mendoza-estrecho",
+        "notes": "Villena 的 Estrecho de Pipa 老藤地块，官方列 100% Monastrell。 历史对照：原文品鉴 2012 年份，以较鲜活酸度、红果和烟灰／草本线索说明当地 Monastrell 不只有高萃取风格。",
+        "sourceIds": [
+          "es-south-islands-ss-mendoza",
+          "es-south-islands-ss-mendoza-monastrell",
+          "rvs-valencia-archive"
+        ]
+      },
+      {
+        "id": "terramoll-savina",
+        "notes": "La Mola 有机葡萄园；两品种分开发酵，低温处理与细过滤。",
+        "sourceIds": [
+          "es-south-islands-ss-terramoll",
+          "rvs-terramoll-savina"
+        ],
+        "grapeIds": [
+          "viognier"
+        ],
+        "grapeText": "Viognier、Malvasía（官网未细分 Malvasía 身份）",
+        "verification": "official"
+      },
+      {
+        "id": "terramoll-rosa-de-mar",
+        "notes": "官网明确包括白葡萄 Viognier，不能把它描述为只用红葡萄的配方。整串冷藏后分选、去梗、放血取汁，缓慢发酵。",
+        "sourceIds": [
+          "es-south-islands-ss-terramoll",
+          "rvs-terramoll-rosa-de-mar"
+        ],
+        "grapeIds": [
+          "cabernet-sauvignon",
+          "viognier",
+          "merlot",
+          "monastrell"
+        ],
+        "grapeText": "Cabernet Sauvignon、Viognier、Merlot、Monastrell",
+        "verification": "official"
+      },
+      {
+        "id": "terramoll-lliri",
+        "notes": "官方列 9 月底晚采、葡萄在藤上过熟，发酵后以冷却保留残糖。Malvasía 未细分，已知其他三个品种建立关联。",
+        "sourceIds": [
+          "es-south-islands-ss-terramoll",
+          "rvs-terramoll-lliri"
+        ],
+        "grapeIds": [
+          "garnacha-blanca",
+          "viognier",
+          "muscat-blanc-a-petits-grains"
+        ],
+        "grapeText": "Garnacha Blanca、Viognier、Malvasía、Moscatel de Grano Menudo",
+        "verification": "official"
+      },
+      {
+        "id": "terramoll-es-virot",
+        "notes": "官方当前技术页列 Merlot 与 Cabernet Sauvignon 为主，Monastrell 少于 1%；不再把庄内所有红葡萄当成无差别的可能配方。",
+        "sourceIds": [
+          "es-south-islands-ss-terramoll",
+          "rvs-terramoll-es-virot"
+        ],
+        "grapeIds": [
+          "merlot",
+          "cabernet-sauvignon",
+          "monastrell"
+        ],
+        "grapeText": "Merlot、Cabernet Sauvignon、少量 Monastrell（官网 <1%）",
+        "verification": "official"
+      },
+      {
+        "id": "terramoll-es-monestir",
+        "notes": "官方 2020 技术表：La Mola 未嫁接、雨养灌木藤，平均藤龄约 48 年，法国 Allier 新桶 12 个月。藤龄与月份仅对应该表。",
+        "sourceIds": [
+          "es-south-islands-ss-terramoll",
+          "rvs-terramoll-es-monestir",
+          "rvs-terramoll-monestir-2020"
+        ],
+        "grapeIds": [
+          "monastrell"
+        ],
+        "grapeText": "Monastrell（未嫁接）",
+        "verification": "official"
+      },
+      {
+        "id": "terramoll-astarte",
+        "notes": "官方为 Viognier，在陶罐中发酵并接触酒泥；不做冷稳定，不添加二氧化硫。与 Savina 的 Viognier/Malvasía 混酿区别清楚。",
+        "sourceIds": [
+          "es-south-islands-ss-terramoll",
+          "rvs-terramoll-astarte"
+        ],
+        "grapeIds": [
+          "viognier"
+        ],
+        "grapeText": "Viognier",
+        "verification": "official"
+      }
+    ]
+  },
+  "integrationNotes": {
+    "canonicalExternalProducers": {
+      "envinate": [
+        "envinate-taganan-parcela-margalagua",
+        "envinate-palo-blanco",
+        "envinate-migan",
+        "envinate-benje-blanco",
+        "envinate-benje-tinto",
+        "envinate-albahra"
+      ],
+      "compania-de-vinos-telmo-rodriguez": [
+        "telmo-al-muvedre"
+      ]
+    },
+    "sourcePolicy": "New local source IDs require nested sourceIds remapping. Existing canonical source IDs in updates remain valid external references.",
+    "existingEntityPolicy": "Existing IDs preserved. Explicit updates carry only fields to modify; relations are unions. No source or user document has been changed.",
+    "portfolioPolicy": "Source-mentioned historical vintages are archived, not silently presented as current release offers. Unnamed samples remain in producer sections.",
+    "resolvedPreviousGaps": [
+      "Terramoll six empty grape mappings",
+      "all fourteen omitted 2024 Pago region names",
+      "Cullerot",
+      "Pepe Mendoza La Viña de Madaras 2022",
+      "Sherry Wine named examples",
+      "master Envínate island/Albahra names",
+      "Binissalem actual DO wines",
+      "both original island maps visually checked",
+      "historic Inviosa identity and current Bonaval / López Morenas"
+    ]
+  }
+}

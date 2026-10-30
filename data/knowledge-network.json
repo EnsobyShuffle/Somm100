@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "nodes": {
+    "alsace": {
+      "title": "Alsace · 阿尔萨斯",
+      "type": "产区",
+      "body": "孚日山脉位于葡萄园西侧，莱茵河平原位于东侧。西侧湿润空气抬升降雨，东麓的雨影效应使部分葡萄园相对少雨。\n\n将雨影、坡向、海拔与可用水分一起考虑：北纬高不代表无法成熟，干燥也不代表没有水分胁迫。Riesling 可以同时呈现明亮酸度与充分果味；不能因此推断每一瓶酒都干。",
+      "source": "https://app.notion.com/p/3fe17d16de4c81388e37f28348fdef42",
+      "links": [
+        "riesling",
+        "rosacker",
+        "KB01"
+      ],
+      "label": "气候 → 地理 → 风格"
+    },
+    "riesling": {
+      "title": "Riesling · 雷司令",
+      "type": "品种",
+      "body": "Riesling 常呈现鲜明酸度、柑橘或青果香气，酒体、成熟度与甜度随产地和酿造而变化。香气强度不能代替残糖判断。\n\n餐厅应用：为海鲜推荐干型 Riesling 前，确认这瓶酒的实际甜度、酒体和客人的酸度偏好。把品种风格、具体酒款与菜肴联系起来。",
+      "source": "https://app.notion.com/p/3fe17d16de4c81388e37f28348fdef42",
+      "links": [
+        "alsace",
+        "rosacker",
+        "KB01"
+      ],
+      "label": "品种 → 风格 → 服务"
+    },
+    "rosacker": {
+      "title": "Rosacker → Clos Sainte Hune",
+      "type": "葡萄园 · 酒庄 · 酒款",
+      "body": "现有 Alsace 教学稿将 Rosacker、Trimbach 与 Clos Sainte Hune 连在一起：Clos Sainte Hune 葡萄园位于 Rosacker Grand Cru 范围内。\n\n学习时分别辨认：Rosacker 是葡萄园地名；Trimbach 是生产者；Clos Sainte Hune 是具名葡萄园及其酒款名称。葡萄园所在位置与酒标采用的品牌名称，是两类信息。\n\n进一步研究任务：对照具体年份瓶标与酒庄技术资料，再记录品种、年份和标示方式。此节点保留原教学稿的教师待审状态。",
+      "source": "https://app.notion.com/p/3fe17d16de4c81388e37f28348fdef42",
+      "links": [
+        "alsace",
+        "riesling",
+        "KB01"
+      ],
+      "label": "地理名称 ≠ 品种名称 ≠ 酒款名称"
+    },
+    "chablis": {
+      "title": "Chablis · 坡向与葡萄园",
+      "type": "葡萄园图像",
+      "body": "先从照片定位坡地、葡萄园边界和朝向，再联系日照、地形与成熟条件。\n\n这张原教学配图标注了多个具名葡萄园，适合建立空间印象；它是一张带标注的航拍照片，并非精确比例的法定地图。细小标签请回到原资料核对。",
+      "source": "https://app.notion.com/p/3fb17d16de4c813395c9f702a67f5d58",
+      "links": [
+        "KB01",
+        "KB03"
+      ],
+      "image": "chablis-map.png",
+      "label": "园址 → 坡向 → 日照 → 成熟"
+    }
+  },
+  "figures": {
+    "KB01": [
+      {
+        "file": "mosel-vineyard.png",
+        "caption": "Mosel 河岸葡萄园 · 将坡度、坡向与河流影响一起观察。"
+      },
+      {
+        "file": "chablis-limestone.png",
+        "caption": "Chablis 石灰岩土壤 · 土壤通过水分与根系等因素影响生长。"
+      }
+    ],
+    "KB02": [
+      {
+        "file": "guyot-before.png",
+        "caption": "Guyot 冬季修剪前 · 先识别多年生结构与一年生枝。"
+      },
+      {
+        "file": "guyot-after.png",
+        "caption": "Guyot 修剪后 · 比较保留枝条与芽的位置。"
+      }
+    ],
+    "KB03": [
+      {
+        "file": "budbreak.png",
+        "caption": "Budburst 萌芽 · 新组织对晚春霜冻敏感。"
+      },
+      {
+        "file": "veraison.png",
+        "caption": "Véraison 转色 · 果粒软化，进入成熟阶段。"
+      }
+    ],
+    "KB05": [
+      {
+        "file": "membrane-press.jpg",
+        "caption": "气囊压榨机 · 将压榨与破碎区分开。"
+      }
+    ],
+    "KB07": [
+      {
+        "file": "ferment-cap.jpg",
+        "caption": "发酵中的皮帽 · 压帽与淋皮改变皮汁接触。"
+      }
+    ],
+    "KB09": [
+      {
+        "file": "oak-cellar.jpg",
+        "caption": "橡木桶酒窖 · 木桶大小、新旧与接触时间共同影响结果。"
+      }
+    ]
+  },
+  "coreReadings": {
+    "KB01": [
+      0,
+      1,
+      2,
+      13
+    ],
+    "KB02": [
+      3
+    ],
+    "KB03": [
+      4
+    ],
+    "KB04": [
+      4,
+      12
+    ],
+    "KB05": [
+      5,
+      6
+    ],
+    "KB06": [
+      7
+    ],
+    "KB07": [
+      8
+    ],
+    "KB08": [
+      9
+    ],
+    "KB09": [
+      10,
+      11
+    ],
+    "KB10": [
+      14,
+      15
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {loadTypeScript} from './load-typescript.mjs';
+const {canAdvanceQuizCard,quizSwipeDirection}=await loadTypeScript('../lib/quiz-navigation.ts');
+assert.equal(canAdvanceQuizCard({type:'mcq'}),false);
+assert.equal(canAdvanceQuizCard({type:'mcq'},false,'Got it',true),false);
+assert.equal(canAdvanceQuizCard({type:'mcq'},true),true);
+assert.equal(canAdvanceQuizCard({type:'short'},false,'Review again',true),false);
+assert.equal(canAdvanceQuizCard({type:'short'},false,'Got it',true),true);
+assert.equal(canAdvanceQuizCard({type:'short',canSelfAssess:false}),false);
+assert.equal(canAdvanceQuizCard({type:'short',canSelfAssess:false},false,undefined,true),true);
+assert.equal(canAdvanceQuizCard(undefined),false);
+assert.equal(quizSwipeDirection(-90,10,250),'previous');
+assert.equal(quizSwipeDirection(90,-10,250),'next');
+for(const gesture of [[4,2,100],[60,150,200],[90,10,2000],[0,100,300],[-90,-100,300]])assert.equal(quizSwipeDirection(...gesture),null);
+console.log('PASS: forward navigation requires a correct answer; short-answer retry and incomplete-source exits; left/right gestures ignore taps and vertical scrolling.');

@@ -1,0 +1,511 @@
+[
+  {
+    "id": "cn-image-01",
+    "title": "敖云 2019／2020",
+    "caption": "敖云2019与2020年份瓶照。图片只用于酒款识别；具体年份配方、村庄比例与技术资料进入年份档案。",
+    "type": "bottle",
+    "src": "/media/china/ao-yun-2019-2020.png",
+    "width": 1024,
+    "height": 1024,
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0353/9510/9003/files/1_4f2c71d6-022c-433f-a23c-4fc2c0800a9b_1024x1024.png?v=1734348053",
+    "notionReference": "notion-file-block://62e45b9a-94a4-4202-a223-bd42b1af8c06/f7da4de6-8339-422a-8238-83f01d42f7f0?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=ao-yun-2019-2020.png",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "敖云 2019／2020",
+    "producerNotionIds": [
+      "40317d16de4c81ca9bf0cc9f95485d25"
+    ],
+    "wineNotionIds": [
+      "40317d16de4c812bb2b9fd2b47d63689"
+    ],
+    "vintageNotionIds": [],
+    "depictedYears": [
+      2019,
+      2020
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 1144019,
+    "sha256": "39da5ed54572902af6e40bd0f3371b01cf2588f4ff34696808b05757eabd76bd",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-02",
+    "title": "香格里拉圣域 2019",
+    "caption": "香格里拉圣域2019瓶照。图片用于酒标与产品身份识别；2019具体配方与园地进入年份档案。",
+    "type": "bottle",
+    "src": "/media/china/shangri-la-sacred-land-2019.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sourceUrl": "https://shop.theclub.com.hk/media/catalog/product/cache/3f2912b10d0df07b005f8dcd4558e949/r/g/rg-slhl-red19.jpg",
+    "notionReference": "notion-file-block://fad9450b-7bea-412b-bbf3-a7ec4869de0f/8a8fba88-7dee-456e-8951-1bd780a5dec7?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=shangri-la-sacred-land-2019.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "香格里拉圣域2019",
+    "producerNotionIds": [
+      "40717d16de4c819c8a84da296b16b601"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c8179b978d9b008fef935"
+    ],
+    "vintageNotionIds": [],
+    "depictedYears": [
+      2019
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 80790,
+    "sha256": "df09b0071256dcc7a932087816b78c91a7d99214a090d622e73dc87e446abbab",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-03",
+    "title": "圣域传奇霞多丽 2022",
+    "caption": "圣域传奇霞多丽2022瓶照。年份、品种、酒精度与技术资料另建年份档案。",
+    "type": "bottle",
+    "src": "/media/china/shangri-la-sacred-land-chardonnay-2022.png",
+    "width": 254,
+    "height": 932,
+    "sourceUrl": "https://owsc.wynnresortsmacau.com.cn/model-wines/photos/576.png",
+    "notionReference": "notion-file-block://727bfdd8-ee11-4859-88c0-5bb5e79f3b48/c5fa74ec-188d-4f18-b127-6eb60a6093d1?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=shangri-la-sacred-land-chardonnay-2022.png",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "圣域传奇霞多丽2022",
+    "producerNotionIds": [
+      "40717d16de4c819c8a84da296b16b601"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c81bcb70bdfea7a1cd5a6"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c81abad94d80a9be82625"
+    ],
+    "depictedYears": [
+      2022
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 158446,
+    "sha256": "63e42ac7472249f9f239b24220d211b1c6bc07336faa5f10462296999b3cc798",
+    "displayMaxWidth": 254,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-04",
+    "title": "香格里拉圣域传奇 · 场景瓶照",
+    "caption": "香格里拉圣域传奇单瓶场景照。原索引称“酒款阵容”，图片实为单瓶；仅关联Producer，具体酒款、品种与年份待核。背景不作为葡萄园权属证据。",
+    "type": "bottle",
+    "src": "/media/china/shangri-la-wine-lineup.jpg",
+    "width": 1080,
+    "height": 1441,
+    "sourceUrl": "https://tastespirit.com/p/134201.html",
+    "notionReference": "notion-file-block://5e1637d0-8c52-4e06-b17a-38ef5669289b/d9dbb424-1894-43f3-b5ce-81cd69c35ba4?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=shangri-la-wine-lineup.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "香格里拉酒款阵容",
+    "producerNotionIds": [
+      "40717d16de4c819c8a84da296b16b601"
+    ],
+    "wineNotionIds": [],
+    "vintageNotionIds": [],
+    "depictedYears": [],
+    "reviewedAt": "2026-10-29",
+    "bytes": 104181,
+    "sha256": "6f137cb1766115a6d67fa4670752effc583c806f68e54f41736a0fd355c1302d",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。",
+    "correction": "原图片索引“酒款阵容／产品组合图”与实际单瓶图不符，展示标题与说明已按图像改正。"
+  },
+  {
+    "id": "cn-image-05",
+    "title": "霄岭酒款组合 2021—2022",
+    "caption": "霄岭2021—2022年份酒款组合图。用于产品线与酒标识别；实际品种、村庄来源与当前发行状态逐瓶核查。",
+    "type": "bottle",
+    "src": "/media/china/xiaoling-wines-2021-2022.jpg",
+    "width": 820,
+    "height": 1239,
+    "sourceUrl": "https://s.terroirsense.com/2024/03/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240326114859-820x1239.jpg",
+    "notionReference": "notion-file-block://72abedb2-a5ee-4acb-b140-a488e5cbf1ff/47c98768-23e4-49f3-9326-cefa474a5c51?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=xiaoling-wines-2021-2022.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "霄岭酒款组合",
+    "producerNotionIds": [
+      "40717d16de4c817dadbac41cefd4c849"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c81089760d3a71d2ce84f",
+      "40717d16de4c81019fd5f47d581c3197"
+    ],
+    "vintageNotionIds": [],
+    "depictedYears": [
+      2021,
+      2022
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 87403,
+    "sha256": "117069e960c7617df4d785985a29cb4e60a14bc7c7377560c1aaea38f0a07ecd",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-06",
+    "title": "小圃高海拔赤霞珠 2022",
+    "caption": "Domaine de la Gyalthang高海拔赤霞珠2022瓶照；图中酒标可见2022年份。瓶照用于外观与年份识别，不替代技术资料。",
+    "type": "bottle",
+    "src": "/media/china/domaine-de-la-gyalthang-cabernet.png",
+    "width": 2048,
+    "height": 2048,
+    "sourceUrl": "https://gommonehk.com/cdn/shop/files/23_466ad1ae-d243-4623-9032-e1814aa8c353.png?v=1747816804&width=2500",
+    "notionReference": "notion-file-block://f361fa6c-18d4-4dd1-a617-31741e73a9f5/f5ed70a4-820b-4e14-9422-59342f086df0?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=domaine-de-la-gyalthang-cabernet.png",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "Domaine de la Gyalthang高海拔赤霞珠",
+    "producerNotionIds": [
+      "40717d16de4c816bb248eac2f6e922a5"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c8144af21d45c5ddf7234"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c81089817fdf27aa7d7ac"
+    ],
+    "depictedYears": [
+      2022
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 1009458,
+    "sha256": "252a87aecd99d331ae3b694bd5f9196f9ee114a2099b1c46bc6f5b0ce5daa8bc",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-07",
+    "title": "木杺 · Domaine Muxin",
+    "caption": "Domaine Muxin公开品牌图。用于品牌识别；具体酒款仍需独立瓶照。",
+    "type": "brand",
+    "src": "/media/china/domaine-muxin-brand.png",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://lyndhurstwine.com/cdn/shop/collections/Screenshot_2025-04-17_at_3.00.12_PM.png?v=1744873335&width=400",
+    "notionReference": "notion-file-block://132b6ac8-f758-4c99-8cad-18eeaa0cd288/6b539370-8afc-4bbe-b82b-5998fc028845?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=domaine-muxin-brand.png",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "木杺品牌图",
+    "producerNotionIds": [
+      "40717d16de4c81d09735ef86694563a5"
+    ],
+    "wineNotionIds": [],
+    "vintageNotionIds": [],
+    "depictedYears": [],
+    "reviewedAt": "2026-10-29",
+    "bytes": 17301,
+    "sha256": "6885191a9b6d7c8e19fe5ba028a5ae2dc88e3b36313840f515fe8bd4771be7ad",
+    "displayMaxWidth": 400,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-08",
+    "title": "扎西核桃树酒庄 · 建筑",
+    "caption": "扎西核桃树酒庄公开图片。用于酒庄建筑与Producer识别，不作为葡萄园权属证据。",
+    "type": "winery",
+    "src": "/media/china/zaxee-walnut-tree-winery.jpg",
+    "width": 900,
+    "height": 675,
+    "sourceUrl": "https://www.cmbug.com/static/uploads/20211123/930cdf0e7c5172c589273eeae47f1599.jpg",
+    "notionReference": "notion-file-block://094b4ae1-e6c2-42ea-add5-1e772e5bfa9f/41057345-989f-4866-b304-b8094a8e0b3c?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=zaxee-walnut-tree-winery.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "扎西核桃树酒庄",
+    "producerNotionIds": [
+      "40717d16de4c81189646ce6894d11b2b"
+    ],
+    "wineNotionIds": [],
+    "vintageNotionIds": [],
+    "depictedYears": [],
+    "reviewedAt": "2026-10-29",
+    "bytes": 490677,
+    "sha256": "c706962da6f3212961eb9b553f051223763539d5dbc585a25474bf36331dc600",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-09",
+    "title": "醉生梦酒庄 · 建筑与环境",
+    "caption": "醉生梦酒庄／民宿公开图片。图片用于Producer与建筑识别，不证明具体酒款的葡萄来源。",
+    "type": "winery",
+    "src": "/media/china/zuishengmeng-winery.jpg",
+    "width": 639,
+    "height": 853,
+    "sourceUrl": "https://dimg04.c-ctrip.com/images/0203a12000px2i6ay1B5F_W_1280_853_R5_Q70.jpg",
+    "notionReference": "notion-file-block://f6b2d229-7528-4367-881d-df6def8d08a4/f6b62b08-39f7-40be-a6b6-572280974d40?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=zuishengmeng-winery.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "醉生梦酒庄",
+    "producerNotionIds": [
+      "40717d16de4c812aab68fa547a12755e"
+    ],
+    "wineNotionIds": [],
+    "vintageNotionIds": [],
+    "depictedYears": [],
+    "reviewedAt": "2026-10-29",
+    "bytes": 100376,
+    "sha256": "ee5e1fc0c317863a1d1a349a84cb7a545a99190e059aa99956d5b2daabe5f6b2",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-10",
+    "title": "宝庄干红 2018",
+    "caption": "宝庄首年份红酒瓶照；用于酒款与年份识别，不证明当前发行。",
+    "type": "bottle",
+    "src": "/media/china/celebre-red-2018.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sourceUrl": "https://winesofchina.uk/products/celebre-red",
+    "notionReference": "notion-file-block://3c92c016-c89f-46dd-acf5-2928e053caeb/260383a9-d1ce-4364-bbc5-b8c7080146ce?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=celebre-red-2018.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "宝庄干红 2018",
+    "producerNotionIds": [
+      "40717d16de4c81b892f3e37ced208b53"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c8124a6e4df0722d915f1"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c812a9daacbd282fc3090"
+    ],
+    "depictedYears": [
+      2018
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 36065,
+    "sha256": "48e88278e2a3a3371ef1b4712074faa4cce8948cf547801d76a9e74d770d87ba",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-11",
+    "title": "宝庄霞多丽 2021",
+    "caption": "宝庄霞多丽2021瓶照；用于年份酒标和瓶型识别。",
+    "type": "bottle",
+    "src": "/media/china/celebre-white-2021.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sourceUrl": "https://winesofchina.uk/products/celebre-white-2021",
+    "notionReference": "notion-file-block://84898580-ee06-4be8-9b70-ade9361131e4/e4a50826-a4a3-4cb7-abe6-35818c247631?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=celebre-white-2021.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "宝庄霞多丽 2021",
+    "producerNotionIds": [
+      "40717d16de4c81b892f3e37ced208b53"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c81a3a83dcd28064460d5"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c8140bd53d2316ee233f2"
+    ],
+    "depictedYears": [
+      2021
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 39969,
+    "sha256": "c080fefb80427e84e765f5a863ec7cdcc42539b84f423f7126be0a6f20cb08b5",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。",
+    "framingNote": "原上传图瓶帽接近顶部边缘；页面保留完整原图，不再裁切。"
+  },
+  {
+    "id": "cn-image-12",
+    "title": "诞生地 Bucun 2018",
+    "caption": "诞生地Bucun 2018瓶照；只支持酒款名称、年份和外观识别。",
+    "type": "bottle",
+    "src": "/media/china/dan-sheng-di-bucun-2018.jpg",
+    "width": 571,
+    "height": 800,
+    "sourceUrl": "https://majorcellar.com/product-detail/240900011",
+    "notionReference": "notion-file-block://51f7b6b4-7695-4c69-9ca1-c21736e9ef0d/e74d695a-5a74-4c52-8a37-e3d3dc403d11?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=dan-sheng-di-bucun-2018.png",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "诞生地 Bucun 2018",
+    "producerNotionIds": [
+      "40717d16de4c814e9752f7f2d8ac11f9"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c8195a557e902d4ce269b"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c8172b29fd21a7c7ae9fa"
+    ],
+    "depictedYears": [
+      2018
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 95549,
+    "sha256": "aa57ad5c512dbfd809184845840fb974cef8d4f9e92b2454a4d7f4217b7d81d8",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-13",
+    "title": "硕日拉姆／Allofme 2018",
+    "caption": "Allofme 2018瓶照。当前图片索引支持品牌与年份识别；未据此推定葡萄品种，未关联2019年份档案。",
+    "type": "bottle",
+    "src": "/media/china/allofme-2018.jpg",
+    "width": 533,
+    "height": 533,
+    "sourceUrl": "https://winesofchina.uk/collections/celebre-winery-himalayas",
+    "notionReference": "notion-file-block://f7128ad4-5ef1-41c5-8031-2049e197889f/a5af777f-aa5f-4caa-9889-4aad160148d6?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=allofme-2018.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "硕日拉姆／Allofme 2018",
+    "producerNotionIds": [
+      "40717d16de4c81eda6cde75752f920af"
+    ],
+    "wineNotionIds": [],
+    "vintageNotionIds": [],
+    "depictedYears": [
+      2018
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 16703,
+    "sha256": "59eb0f5f140a4ddbc8dc0e0bbffc48b418cfe8a97ba47c74f8d4a860fe8f9e61",
+    "displayMaxWidth": 533,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-14",
+    "title": "水乳大地 2020",
+    "caption": "罗迪酒庄水乳大地赤霞珠2020瓶照；用于酒标与年份识别。",
+    "type": "bottle",
+    "src": "/media/china/chateau-roduit-shui-ru-da-di-2020.png",
+    "width": 933,
+    "height": 933,
+    "sourceUrl": "https://shop.myicellar.com/web/goodsDetail/13254?name=Chateau-Roduit-Shui-Ru-Da-Di-%E7%BE%85%E8%BF%AA%E9%85%92%E8%8E%8A%E6%B0%B4%E4%B9%B3%E5%A4%A7%E5%9C%B0%E8%B5%A4%E9%9C%9E%E7%8F%A0%E4%B9%BE%E7%B4%85%E9%85%92",
+    "notionReference": "notion-file-block://87be2496-6391-4c41-9152-b10f95269c8a/b40864f6-a2f9-44e8-819e-a7fc74adf168?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=chateau-roduit-shui-ru-da-di-2020.png",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "水乳大地 2020",
+    "producerNotionIds": [
+      "40717d16de4c81618e3ef3df78ddc080"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c81349c47fb578d21a3b2"
+    ],
+    "vintageNotionIds": [],
+    "depictedYears": [
+      2020
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 297041,
+    "sha256": "6b75a5cc033e17a98074d08466206de08b168f6629d2c6c5a6897a3e844c957f",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-15",
+    "title": "姜瑜酝酿六千里赤霞珠 2022",
+    "caption": "六千里赤霞珠2022瓶照；用于酒标、年份和跨产区项目识别。",
+    "type": "bottle",
+    "src": "/media/china/jiangyu-ferment-6000-li-2022.jpg",
+    "width": 900,
+    "height": 900,
+    "sourceUrl": "https://mall.wine-world.com/xproduct/2022-jiangyu-ferment-6000-li-cabernet-sauvignon-yunnan-china",
+    "notionReference": "notion-file-block://ea659f8b-6898-4a55-a306-aa52d974d596/691ee9a0-0f83-4e2f-8187-712d555f417a?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=jiangyu-ferment-6000-li-2022.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "姜瑜酝酿六千里赤霞珠 2022",
+    "producerNotionIds": [
+      "40717d16de4c8179beeee6f3e435cd78"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c81878f69d41023b42f04"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c817192adf5056dba0c90"
+    ],
+    "depictedYears": [
+      2022
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 78637,
+    "sha256": "e81fb3818289b9564688a01a46c8f6ad977917859d51106416452f54eba3419e",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-16",
+    "title": "雪山秘境珍藏霞多丽 2024",
+    "caption": "雪山秘境珍藏霞多丽2024瓶照；用于酒款、年份及酒标识别。技术数据仍以年份档案为准。",
+    "type": "bottle",
+    "src": "/media/china/sacred-snow-mountain-chardonnay-2024.png",
+    "width": 800,
+    "height": 800,
+    "sourceUrl": "https://www.vinehoo.com/pages/goods-detail/178508.html",
+    "notionReference": "notion-file-block://44c1fff1-fe68-4063-b432-f920e308f14d/26a1a1f8-6944-4fe0-be95-e28f6f8aafe8?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=sacred-snow-mountain-chardonnay-2024.png",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "雪山秘境珍藏霞多丽 2024",
+    "producerNotionIds": [
+      "40717d16de4c8100bc6ee704d1f30037"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c81b29c88e57da02aa20b"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c81baa4dbfdc4817acbd6"
+    ],
+    "depictedYears": [
+      2024
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 203015,
+    "sha256": "3129a91bc753066972405b0b830ad454c58e1513a827bb6d6905be1828d7f417",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-17",
+    "title": "雪山秘境花落祥云冰酒 2023",
+    "caption": "花落祥云冰酒2023瓶照；用于酒款、年份和Icewine酒标识别。",
+    "type": "bottle",
+    "src": "/media/china/sacred-snow-mountain-icewine-2023.png",
+    "width": 420,
+    "height": 1080,
+    "sourceUrl": "https://www.wynnresortsmacau.com.cn/zh-cn/wynn-signature/chinese-wine-awards/wines/sacred-snow-mountain-winery-hualuoxiangyun-icewine",
+    "notionReference": "notion-file-block://3638ffb0-77da-46eb-b7d6-c0904234ee20/26b6cb29-20da-4ca5-9d82-053c136cc530?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=sacred-snow-mountain-icewine-2023.png",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "雪山秘境花落祥云冰酒 2023",
+    "producerNotionIds": [
+      "40717d16de4c8100bc6ee704d1f30037"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c8116ae75cbdb25163ade"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c8126a9b1c70325e10940"
+    ],
+    "depictedYears": [
+      2023
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 42561,
+    "sha256": "68706422c5627d282dcecdc3658b228823d5c2d17b54c3de37c7dc55d15fe4c9",
+    "displayMaxWidth": 420,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  },
+  {
+    "id": "cn-image-18",
+    "title": "寸山白马雪山德钦臻藏霞多丽 2023",
+    "caption": "寸山白马雪山德钦臻藏霞多丽2023瓶照；用于酒款和年份识别。",
+    "type": "bottle",
+    "src": "/media/china/petit-mont-baima-cuvee-prestige-chardonnay-2023.jpg",
+    "width": 1110,
+    "height": 739,
+    "sourceUrl": "https://thirstmag.com/drinks/Award-Winning-Chinese-Wines-Tasted-at-67-Pall-Mall-with-Richard-Hemming-MW",
+    "notionReference": "notion-file-block://2c314554-db97-4409-b373-5774cc90000f/1cd54903-9549-4e20-8c3d-065c4829403f?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=petit-mont-baima-cuvee-prestige-chardonnay-2023.jpg",
+    "sourceIndexUrl": "https://app.notion.com/p/40717d16de4c8107810df7b19561478c",
+    "sourceIndexTitle": "寸山白马雪山德钦臻藏霞多丽 2023",
+    "producerNotionIds": [
+      "40717d16de4c816b93d5d52e405c71a8"
+    ],
+    "wineNotionIds": [
+      "40717d16de4c81d4bb10fa3b31e342c8"
+    ],
+    "vintageNotionIds": [
+      "40717d16de4c81559eaecb23522b7da8"
+    ],
+    "depictedYears": [
+      2023
+    ],
+    "reviewedAt": "2026-10-29",
+    "bytes": 30903,
+    "sha256": "efb428eae1f7e16095892087eca0f4dd61f9427bb4336e5ba551c2fce10684e6",
+    "displayMaxWidth": 560,
+    "usage": "仅用于外观、品牌或建筑识别；不作为葡萄园权属、技术资料或当前发行证据。"
+  }
+]

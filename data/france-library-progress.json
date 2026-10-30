@@ -1,0 +1,26 @@
+{
+  "updatedAt": "2026-10-29",
+  "nextVillage": "Mercurey",
+  "villages": [
+    {
+      "id": "fr-rully",
+      "name": "Rully",
+      "status": "reference-release-complete",
+      "reviewedAt": "2026-10-29",
+      "originalWineCount": 93,
+      "reviewedOriginalCount": 93,
+      "producerCount": 20,
+      "wineCount": 148,
+      "climatCount": 23,
+      "linkedClimatCount": 23,
+      "imageCount": 31,
+      "censusCount": 68,
+      "scope": "Published Rully wine dossiers, complete Premier Cru identity list, appellation reference, and dated BIVB operator directory. The directory is not an exhaustive worldwide producer or vintage census."
+    }
+  ],
+  "maintenance": [
+    "New vintages and source changes",
+    "Unpublished technical parameters",
+    "Additional producers outside the current reference selection"
+  ]
+}

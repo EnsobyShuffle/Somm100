@@ -1,0 +1,629 @@
+{
+  "census": [],
+  "producers": [
+    {
+      "id": "producer-fr-de-la-bressande",
+      "name": "Domaine de la Bressande",
+      "aliases": [
+        "Domaine de La Bressande"
+      ],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "Rully & Mercurey vineyards, Côte Chalonnaise",
+      "website": "https://www.domainedelabressande.fr/",
+      "intro": "2016 年创立的 Côte Chalonnaise 酒庄，经营 Rully、Mercurey 及 Hautes-Côtes de Beaune 葡萄园。Anne-Laure Hernette 负责酿造，Rully 酒款涵盖村庄级、多个一级园及 Vignes du Château de Rully 系列。",
+      "scope": "已核对来源的酒庄与 Rully 酒款档案；非年份技术基线与指定年份记录分开。",
+      "status": "source-reviewed",
+      "sourceVerifiedAt": "2026-10-29",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "规模与葡萄园",
+          "text": "当前酒庄总览列超过 70 ha，涵盖多个产区。方法页另记 Rully 约 21.57 ha、14 个地块；各页面统计口径与更新时间不同，不能将总面积都视为 Rully。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-estate",
+            "fr-rully29-add-bressande-methods"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "酒庄称自 2020 年份获得 HVE 认证，采用产量控制、审慎植保及生物防治产品；HVE 不等于有机认证。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-estate"
+          ]
+        },
+        {
+          "title": "酿酒团队",
+          "text": "Anne-Laure Hernette 与葡萄园团队共同制定栽培方案，并负责酿造、熟成和调配。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-winemaker"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "红酒多去梗，在温控混凝土罐中发酵；白酒先压榨并冷沉淀，再于不锈钢罐开始发酵。桶陈、新桶比例与酒泥管理按具体年份酒款记录。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-methods"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-de-la-bressande-rully-1er-molesme-chateau-blanc",
+          "name": "Rully Premier Cru Molesme Blanc — Vignes du Château de Rully",
+          "place": "Château 葡萄园的 0.5 ha 南向 Chardonnay；棕色钙质土、坡脚粉土及 Oxfordian 石灰岩。",
+          "grape": "Chardonnay",
+          "method": "2024 年 9 月 20 日采收；气囊压榨、冷沉淀 48 小时，不锈钢罐发酵后入桶。228 L 桶细酒泥熟成 9 个月，30% 新桶。",
+          "detail": "生产者 2024 风格记录：花香、烤面包与持久口感。",
+          "vintageScope": "2024 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-1er-molesme-chateau-blanc"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "South-facing 0.5 ha of Château Chardonnay, with brown calcareous soil, footslope silt and Oxfordian limestone.",
+              "grape": "Chardonnay",
+              "method": "Harvested 20 September 2024; pneumatic pressing, 48-hour cold settling and stainless-steel fermentation before barrelling. Nine months on fine lees in 228 L barrels, 30% new.",
+              "detail": "Producer's 2024 note: flowers, toast and persistence.",
+              "vintageScope": "Official 2024 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2024"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-1er-clos-la-bressande-chateau",
+          "name": "Rully Premier Cru Clos de la Bressande Monopole — Vignes du Château de Rully",
+          "place": "城堡脚下 2.60 ha 围墙葡萄园，东南向，黏土石灰岩。",
+          "grape": "Chardonnay",
+          "method": "9 月 20 日采收；气囊压榨，12°C 冷沉淀 24 小时；13–18°C 不锈钢罐起发，发酵中转桶。228 L 桶及少量 500 L 桶细酒泥熟成 8 个月，至 MLF 前每周搅桶。",
+          "detail": "生产者描述蜂蜜与烘烤香，酒体丰厚、余味长。",
+          "vintageScope": "2024 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-1er-clos-la-bressande-chateau"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Southeast-facing 2.60 ha walled vineyard below the château, on clay-limestone.",
+              "grape": "Chardonnay",
+              "method": "Harvested 20 September; pneumatic press, 24-hour settling at 12°C; fermentation starts in stainless steel at 13–18°C and continues after transfer. Eight months on fine lees in mostly 228 L and some 500 L barrels; weekly stirring until MLF.",
+              "detail": "Producer describes honey and toast, generous texture and length.",
+              "vintageScope": "Official 2024 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2024"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-blanc-chateau",
+          "name": "Rully Blanc — Vignes du Château de Rully",
+          "place": "Château 系列村庄级白酒；4.12 ha 棕色石灰质土，页面平均树龄约 20 年。",
+          "grape": "Chardonnay",
+          "method": "气囊压榨、冷沉淀 16–24 小时；不锈钢罐发酵末期转桶。细酒泥熟成 9 个月，约 20% 新桶；至 MLF 前每月约两次搅桶。",
+          "detail": "生产者描述金银花、融合的木香与果味。",
+          "vintageScope": "2024 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-blanc-chateau"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Château-labelled village white; 4.12 ha on brown calcareous soil, with vines averaging about 20 years in the source.",
+              "grape": "Chardonnay",
+              "method": "Pneumatic press and 16–24-hour cold settling; transferred from stainless steel near fermentation's end. Nine months on fine lees, about 20% new oak; stirring roughly twice monthly until MLF.",
+              "detail": "Producer describes honeysuckle, integrated oak and fruit.",
+              "vintageScope": "Official 2024 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2024"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-1er-chapitre-rouge",
+          "name": "Rully Premier Cru Chapitre Rouge",
+          "place": "Rully 北部、朝 Chagny 的坡地；酒庄 0.18 ha，棕色石灰质土，页面树龄约 15 年。",
+          "grape": "Pinot Noir",
+          "method": "2022 年 8 月 29 日人工采收、小筐运输及分选；温控混凝土罐，每日淋皮、少量压帽。桶陈 8 个月，约 25% 新桶，装瓶前过滤。",
+          "detail": "生产者 2022 描述红黑水果、包裹感与融合的橡木。",
+          "vintageScope": "2022 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-1er-chapitre-rouge"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Northern Rully slopes towards Chagny; estate parcel 0.18 ha on brown calcareous soil, source vine age about 15 years.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked on 29 August 2022, transported in small crates and sorted. Temperature-controlled concrete, daily pump-overs and little punching down; eight months in oak, about 25% new, followed by filtration.",
+              "detail": "Producer's 2022 note: red and black fruit, rounded texture and integrated oak.",
+              "vintageScope": "Official 2022 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2022"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-1er-gresigny",
+          "name": "Rully Premier Cru Grésigny Blanc",
+          "place": "0.7 ha，强钙质棕色土；2021 页面树龄约 27 年。",
+          "grape": "Chardonnay",
+          "method": "9 月 27 日采收，气囊压榨，冷沉淀 12–24 小时；不锈钢罐发酵末期转桶。细酒泥熟成 8 个月，25% 新桶；至 MLF 前每月两次搅桶。",
+          "detail": "生产者 2021 描述蜂蜜、花香和柔顺饱满的口感。",
+          "vintageScope": "2021 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-1er-gresigny"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "0.7 ha on strongly calcareous brown soil; the 2021 page gives vine age around 27 years.",
+              "grape": "Chardonnay",
+              "method": "Harvested 27 September; pneumatic pressing, 12–24-hour cold settling, then stainless-steel fermentation before barrelling. Eight months on fine lees, 25% new oak; twice-monthly stirring until MLF.",
+              "detail": "Producer's 2021 note: honey, flowers and supple richness.",
+              "vintageScope": "Official 2021 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2021"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-1er-la-pucelle",
+          "name": "Rully Premier Cru La Pucelle Blanc",
+          "place": "1.5 ha；棕色石灰质、多石土壤及少量黏土坡积物，页面树龄约 40 年。",
+          "grape": "Chardonnay",
+          "method": "人工采收，气囊压榨及冷沉淀 16–24 小时；不锈钢罐发酵末期转桶。228 L 桶细酒泥熟成 9 个月，25% 新桶；至 MLF 前每月约两次搅桶。",
+          "detail": "生产者 2024 描述柑橘、细致木香及紧致长余味。",
+          "vintageScope": "2024 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-1er-la-pucelle"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "1.5 ha with stony brown calcareous soils and some clay colluvium; source vine age about 40 years.",
+              "grape": "Chardonnay",
+              "method": "Hand harvest, pneumatic pressing and 16–24-hour cold settling; stainless-steel fermentation before barrelling. Nine months on fine lees in 228 L barrels, 25% new; stirring roughly twice monthly until MLF.",
+              "detail": "Producer's 2024 note: citrus, fine oak and a taut, persistent finish.",
+              "vintageScope": "Official 2024 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2024"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-1er-molesme-rouge",
+          "name": "Rully Premier Cru Molesme Rouge",
+          "place": "约 3 ha Pinot Noir，东至东南向的平缓坡脚；Oxfordian 石灰岩。与 Château 系列白 Molesme 分开。",
+          "grape": "Pinot Noir",
+          "method": "人工采收及两次分选；温控混凝土罐、每日淋皮、少量压帽。橡木桶 8 个月，25% 新桶，轻过滤装瓶。",
+          "detail": "生产者 2024 描述樱桃、白胡椒、烘烤及烟草。",
+          "vintageScope": "2024 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-1er-molesme-rouge"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "About 3 ha of Pinot Noir on an east-southeast-facing footslope over Oxfordian limestone; separate from Château Molesme white.",
+              "grape": "Pinot Noir",
+              "method": "Hand harvest and two-stage sorting; temperature-controlled concrete, daily pump-overs and little punching down. Eight months in oak, 25% new; lightly filtered.",
+              "detail": "Producer's 2024 note: cherry, white pepper, toast and tobacco.",
+              "vintageScope": "Official 2024 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2024"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-1er-preaux",
+          "name": "Rully Premier Cru Préaux Rouge",
+          "place": "1.50 ha，棕色多石石灰质土；2023 页面记树龄约 53 年。",
+          "grape": "Pinot Noir",
+          "method": "9 月 13 日人工采收；2023 工艺段记冷浸 72 小时、浸渍 14–20 天，温控混凝土罐中每日淋皮并少量压帽。桶陈 8 个月，25% 新桶，过滤装瓶。",
+          "detail": "生产者描述胡椒、花香、黑醋栗及清新感。",
+          "vintageScope": "2023 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-1er-preaux"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "1.50 ha on stony brown calcareous soil; the 2023 page gives vine age about 53 years.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked 13 September; the explicit 2023 method specifies 72-hour cold soak and 14–20-day maceration, temperature-controlled concrete, daily pump-overs and some punching down. Eight months in oak, 25% new; filtered.",
+              "detail": "Producer describes pepper, flowers, blackcurrant and freshness.",
+              "vintageScope": "Official 2023 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2023"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-blanc",
+          "name": "Rully Blanc",
+          "place": "三块葡萄园合计 2.6 ha，黏土石灰岩；页面平均树龄 30 年。与 Château 系列村庄白独立建档。",
+          "grape": "Chardonnay",
+          "method": "人工采收、气囊压榨及冷沉淀 16–24 小时；不锈钢罐发酵末期入 228 L 桶。细酒泥熟成 9 个月，20% 新桶；至 MLF 前每月约两次搅桶。",
+          "detail": "生产者 2024 描述金银花、果味与融合的木香。",
+          "vintageScope": "2024 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-blanc"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Three parcels totalling 2.6 ha on clay-limestone; source average vine age 30 years. Separate from the Château-labelled village white.",
+              "grape": "Chardonnay",
+              "method": "Hand-picked and pneumatically pressed; 16–24-hour settling, stainless-steel fermentation and transfer to 228 L barrels. Nine months on fine lees, 20% new oak; stirring about twice monthly until MLF.",
+              "detail": "Producer's 2024 note: honeysuckle, fruit and integrated oak.",
+              "vintageScope": "Official 2024 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2024"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-rouge",
+          "name": "Rully Rouge",
+          "place": "1.21 ha Pinot Noir，棕色多石石灰质土；页面树龄约 25 年。",
+          "grape": "Pinot Noir",
+          "method": "人工采收、小筐运输，温控混凝土罐发酵，每日淋皮与少量压帽。桶陈 8 个月，约 20% 新桶，装瓶前过滤。",
+          "detail": "生产者 2024 描述红黑水果、烘烤与细致但清晰的单宁。",
+          "vintageScope": "2024 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-rouge"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "1.21 ha of Pinot Noir on stony brown calcareous soil; source vine age about 25 years.",
+              "grape": "Pinot Noir",
+              "method": "Hand harvest into small crates; temperature-controlled concrete fermentation with daily pump-overs and little punching down. Eight months in oak, about 20% new; filtered before bottling.",
+              "detail": "Producer's 2024 note: red and black fruit, toast and fine but present tannins.",
+              "vintageScope": "Official 2024 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2024"
+        },
+        {
+          "id": "wine-fr-de-la-bressande-rully-saint-jacques",
+          "name": "Rully Saint-Jacques Blanc",
+          "place": "村庄级，1.5 ha 黏土、粉土及石灰质土；页面树龄约 30 年。",
+          "grape": "Chardonnay",
+          "method": "9 月 19 日采收，直接压榨及冷沉淀 16–24 小时；不锈钢罐发酵末期入桶。细酒泥熟成 8 个月，25% 新桶；至 MLF 前每月约两次搅桶。",
+          "detail": "生产者 2024 描述梨、菠萝、紫罗兰、轻木香及饱满酒体。",
+          "vintageScope": "2024 年份官方记录；面积与树龄均按该页面口径，工艺不自动外推至其他年份。",
+          "sourceIds": [
+            "fr-rully29-add-bressande-rully-saint-jacques"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Village-level 1.5 ha on clay-silt-limestone soil; source vine age about 30 years.",
+              "grape": "Chardonnay",
+              "method": "Harvested 19 September, directly pressed and cold-settled 16–24 hours; stainless-steel fermentation before barrelling. Eight months on fine lees, 25% new oak; stirring about twice monthly until MLF.",
+              "detail": "Producer's 2024 note: pear, pineapple, violet, gentle oak and breadth.",
+              "vintageScope": "Official 2024 record; parcel figures and vine ages are as published, and methods are not transferred to other vintages."
+            }
+          },
+          "vintage": "2024"
+        }
+      ],
+      "questions": [],
+      "gaps": [],
+      "translations": {
+        "en": {
+          "intro": "Founded in 2016, this Côte Chalonnaise estate works Rully, Mercurey and Hautes-Côtes de Beaune vineyards. Winemaker Anne-Laure Hernette oversees village and Premier Cru Rully wines, including the distinct Vignes du Château de Rully range.",
+          "scope": "Source-reviewed producer and Rully wine records; label-level technical baselines are separated from identified vintages.",
+          "sections": [
+            {
+              "title": "Scale and vineyards",
+              "text": "The current estate overview gives over 70 ha across several appellations. The methods page separately records 21.57 ha in 14 Rully parcels; figures from different pages are not interchangeable.",
+              "sourceIds": [
+                "fr-rully29-add-bressande-estate",
+                "fr-rully29-add-bressande-methods"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "The estate reports HVE certification from the 2020 vintage, yield control, reasoned protection and biocontrol products; HVE is not organic certification.",
+              "sourceIds": [
+                "fr-rully29-add-bressande-estate"
+              ]
+            },
+            {
+              "title": "Winemaking team",
+              "text": "Anne-Laure Hernette works with the vineyard team and directs vinification, ageing and blending.",
+              "sourceIds": [
+                "fr-rully29-add-bressande-winemaker"
+              ]
+            },
+            {
+              "title": "Winemaking and ageing",
+              "text": "Reds are mainly destemmed and fermented in temperature-controlled concrete. Whites are pressed, cold-settled and begin fermentation in stainless steel. Oak, lees management and timing are recorded by wine and vintage.",
+              "sourceIds": [
+                "fr-rully29-add-bressande-methods"
+              ]
+            }
+          ],
+          "gaps": []
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "fr-rully29-add-bressande-estate",
+      "title": "Domaine de la Bressande — estate",
+      "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-methods",
+      "title": "Domaine de la Bressande — methods",
+      "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/notre-savoir-faire.r-923/",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-winemaker",
+      "title": "Domaine de la Bressande — Anne-Laure Hernette",
+      "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/notre-vinicultrice.r-936/",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-1er-molesme-chateau-blanc",
+      "title": "Domaine de la Bressande — Rully Premier Cru Molesme Blanc — Vignes du Château de Rully 2024",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-molesme.v-24461.html?id_millesime=57",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-1er-clos-la-bressande-chateau",
+      "title": "Domaine de la Bressande — Rully Premier Cru Clos de la Bressande Monopole — Vignes du Château de Rully 2024",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-bressande.v-24462.html?id_millesime=57",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-blanc-chateau",
+      "title": "Domaine de la Bressande — Rully Blanc — Vignes du Château de Rully 2024",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-23952.html?id_millesime=57",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-1er-chapitre-rouge",
+      "title": "Domaine de la Bressande — Rully Premier Cru Chapitre Rouge 2022",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-chapitre.v-22129.html?id_millesime=43",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-1er-gresigny",
+      "title": "Domaine de la Bressande — Rully Premier Cru Grésigny Blanc 2021",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-crugresigny.v-22207.html?id_millesime=37",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-1er-la-pucelle",
+      "title": "Domaine de la Bressande — Rully Premier Cru La Pucelle Blanc 2024",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-pucelle.v-22130.html?id_millesime=57",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-1er-molesme-rouge",
+      "title": "Domaine de la Bressande — Rully Premier Cru Molesme Rouge 2024",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-molesme.v-22132.html?id_millesime=57",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-1er-preaux",
+      "title": "Domaine de la Bressande — Rully Premier Cru Préaux Rouge 2023",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-crupreaux.v-22133.html?id_millesime=44",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-blanc",
+      "title": "Domaine de la Bressande — Rully Blanc 2024",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-22126.html?id_millesime=57",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-rouge",
+      "title": "Domaine de la Bressande — Rully Rouge 2024",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-22373.html?id_millesime=57",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fr-rully29-add-bressande-rully-saint-jacques",
+      "title": "Domaine de la Bressande — Rully Saint-Jacques Blanc 2024",
+      "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-saint-jacques.v-22127.html?id_millesime=57",
+      "type": "producer",
+      "checkedAt": "2026-10-29"
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-10-29",
+    "count": 11,
+    "sourceEvidence": [
+      {
+        "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/",
+        "ref": "turn1051view3",
+        "claim": "Domaine de la Bressande — estate"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/notre-savoir-faire.r-923/",
+        "ref": "turn1051view4",
+        "claim": "Domaine de la Bressande — methods"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/notre-vinicultrice.r-936/",
+        "ref": "turn1051view5",
+        "claim": "Domaine de la Bressande — Anne-Laure Hernette"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-molesme.v-24461.html?id_millesime=57",
+        "ref": "turn1053view0",
+        "claim": "Domaine de la Bressande — Rully Premier Cru Molesme Blanc — Vignes du Château de Rully 2024"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-bressande.v-24462.html?id_millesime=57",
+        "ref": "turn1053view1",
+        "claim": "Domaine de la Bressande — Rully Premier Cru Clos de la Bressande Monopole — Vignes du Château de Rully 2024"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-23952.html?id_millesime=57",
+        "ref": "turn1053view2",
+        "claim": "Domaine de la Bressande — Rully Blanc — Vignes du Château de Rully 2024"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-chapitre.v-22129.html?id_millesime=43",
+        "ref": "turn1054view0",
+        "claim": "Domaine de la Bressande — Rully Premier Cru Chapitre Rouge 2022"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-crugresigny.v-22207.html?id_millesime=37",
+        "ref": "turn1054view1",
+        "claim": "Domaine de la Bressande — Rully Premier Cru Grésigny Blanc 2021"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-pucelle.v-22130.html?id_millesime=57",
+        "ref": "turn1054view2",
+        "claim": "Domaine de la Bressande — Rully Premier Cru La Pucelle Blanc 2024"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-molesme.v-22132.html?id_millesime=57",
+        "ref": "turn1054view3",
+        "claim": "Domaine de la Bressande — Rully Premier Cru Molesme Rouge 2024"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-crupreaux.v-22133.html?id_millesime=44",
+        "ref": "turn1054view4",
+        "claim": "Domaine de la Bressande — Rully Premier Cru Préaux Rouge 2023"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-22126.html?id_millesime=57",
+        "ref": "turn1055view0",
+        "claim": "Domaine de la Bressande — Rully Blanc 2024"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-22373.html?id_millesime=57",
+        "ref": "turn1055view1",
+        "claim": "Domaine de la Bressande — Rully Rouge 2024"
+      },
+      {
+        "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-saint-jacques.v-22127.html?id_millesime=57",
+        "ref": "turn1055view2",
+        "claim": "Domaine de la Bressande — Rully Saint-Jacques Blanc 2024"
+      }
+    ],
+    "scope": "All 11 distinct Rully wine pages in the official Domaine de la Bressande portfolio, across three pagination pages. Château-labelled whites remain separate from estate wines. Latest available vintage on each page used; no later vintage invented.",
+    "producerCount": 1,
+    "wineCount": 11,
+    "vintageCounts": {
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 8
+    },
+    "issues": [
+      {
+        "wine": "Rully Premier Cru Préaux 2023",
+        "resolution": "Use the explicit Vinification et élevage section: 72-hour cold soak, 14–20-day maceration. The earlier Origine block repeats a conflicting generic 24-hour process."
+      },
+      {
+        "wine": "Rully Premier Cru Chapitre",
+        "resolution": "Only 2022 selectable on the current official page; retained as 2022, not relabelled 2023/2024."
+      },
+      {
+        "wine": "Rully Premier Cru Grésigny",
+        "resolution": "Only 2021 selectable on the current official page; retained as 2021."
+      },
+      {
+        "wine": "Molesme / Chapitre / Rully Rouge",
+        "resolution": "Some official prose places pre-fermentation after maceration in an inconsistent sequence. Retain unambiguous vessel, extraction and oak details, without reproducing the contradictory ordering."
+      },
+      {
+        "wine": "Château Molesme 2024",
+        "resolution": "Official bâtonnage wording says until alcoholic fermentation; omitted that ambiguous timing rather than silently substituting MLF."
+      },
+      {
+        "field": "Rully acreage",
+        "resolution": "Estate site contains 21.57 ha, 21.35 ha and an older 9.20 ha in different sections. Profile cites the methods page with explicit scope; no sum across pages."
+      }
+    ]
+  }
+}

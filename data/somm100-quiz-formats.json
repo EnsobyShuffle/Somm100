@@ -1,0 +1,450 @@
+{
+  "qz-891549861-857c45abd080c262e9b9-1": {
+    "options": [
+      "热量",
+      "光能",
+      "氧气",
+      "淀粉"
+    ],
+    "correct": 0,
+    "sourceAnswer": "热量",
+    "sourceContentHash": "857c45abd080c262e9b9d451903f13377fea1d45b9ccd73ceb7bbd81d4e9c85d",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-beed794a9549fff87f32-1": {
+    "options": [
+      "酸化法 Acidification",
+      "加糖法 Chaptalization",
+      "橡木桶陈酿 Oak ageing",
+      "澄清 Fining"
+    ],
+    "correct": 1,
+    "sourceAnswer": "加糖法 Chaptalization",
+    "sourceContentHash": "beed794a9549fff87f32474c9e4178a219a798aea26915ef84105ce503d90319",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-be89fc7b82a60e07ab9c-1": {
+    "options": [
+      "美洲山葡萄 Vitis riparia",
+      "美洲沙地葡萄 Vitis rupestris",
+      "欧洲葡萄树种 Vitis Vinifera",
+      "美洲夏葡萄 Vitis aestivalis"
+    ],
+    "correct": 2,
+    "sourceAnswer": "欧洲葡萄树种 Vitis Vinifera",
+    "sourceContentHash": "be89fc7b82a60e07ab9cbe8a7c9f1d8a741d957d7ee01b8fcc99af2f0db2ea5d",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-5232955792b4f69303bf-1": {
+    "options": [
+      "砾石 Gravel",
+      "黏土 Clay",
+      "花岗岩 Granite",
+      "灰钙土，石灰岩"
+    ],
+    "correct": 3,
+    "sourceAnswer": "灰钙土，石灰岩",
+    "sourceContentHash": "5232955792b4f69303bfef6e927ec64ce8400fa0952cc2e60571858430fa7db4",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-a697a5e966ca0e4736b0-1": {
+    "options": [
+      "黏土 Clay",
+      "砾石 Gravel",
+      "灰钙土，石灰岩",
+      "花岗岩 Granite"
+    ],
+    "correct": 0,
+    "sourceAnswer": "黏土 Clay",
+    "sourceContentHash": "a697a5e966ca0e4736b0a8039ef4918650db503f7fe5db8ef9b839fe74eb32d2",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-4a916d8bc3cc2fe2ed06-1": {
+    "options": [
+      "黏土 Clay",
+      "砾石 Gravel",
+      "灰钙土，石灰岩",
+      "板岩 Slate"
+    ],
+    "correct": 1,
+    "sourceAnswer": "砾石 Gravel",
+    "sourceContentHash": "4a916d8bc3cc2fe2ed0658ace9356ab20dbad6d9e593de6e493fb3662a48242e",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-3767d5ce3684bcc06b93-1": {
+    "options": [
+      "迁移耕地，转换根茎品种，\n改变耕作方式、\n行距、\n产量、\n灌溉方式",
+      "增加裸露地表的蒸发，减少土壤保水",
+      "提高挂果量，同时停止所有水分管理",
+      "不考虑砧木与土壤，统一增加种植密度"
+    ],
+    "correct": 0,
+    "sourceAnswer": "迁移耕地，转换根茎品种，\n改变耕作方式、\n行距、\n产量、\n灌溉方式",
+    "sourceContentHash": "3767d5ce3684bcc06b93e5874994389e7850e87504fe5e791f900218cf90fa58",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-a686a83f1a872d7196e4-1": {
+    "options": [
+      "只在酒窖中降低发酵温度",
+      "烧燃油炉、巨型风扇、直升机、喷水法",
+      "在葡萄汁中加糖",
+      "通过酒液过滤改变葡萄园温度"
+    ],
+    "correct": 1,
+    "sourceAnswer": "烧燃油炉、巨型风扇、直升机、喷水法",
+    "sourceContentHash": "a686a83f1a872d7196e497fa054e32c6a2ee5752bfb2571f5cdf92888f2161f6",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-ae236aa8c93ac1b57ff1-1": {
+    "options": [
+      "阻止雨后叶面干燥",
+      "始终增加葡萄园湿度和病菌",
+      "让所有园址的空气温度持续升高",
+      "雨后吹干，减少病菌，调节过热空气"
+    ],
+    "correct": 3,
+    "sourceAnswer": "雨后吹干，减少病菌，调节过热空气",
+    "sourceContentHash": "ae236aa8c93ac1b57ff123709cc5da01197be744e2d82094fdb0150f19b19346",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-90c42f5f0d7c1b274ab0-1": {
+    "options": [
+      "种植密度的管理，修枝修蓬，每年换新枝",
+      "只选择橡木桶，不管理枝叶",
+      "只过滤葡萄汁，不处理植株",
+      "只管理酒标设计与装瓶批次"
+    ],
+    "correct": 0,
+    "sourceAnswer": "种植密度的管理，修枝修蓬，每年换新枝",
+    "sourceContentHash": "90c42f5f0d7c1b274ab03630685ef346ed5ee7deaeb0909eb67524afae3264a3",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-b74b2f62dba95e236192-1": {
+    "options": [
+      "修枝、疏叶、绑枝、绿采收、除梗",
+      "滴灌、沟灌、喷灌、漫灌、渗灌",
+      "压榨、浸渍、过滤、换桶、装瓶",
+      "发芽、开花、坐果、转色、休眠"
+    ],
+    "correct": 1,
+    "sourceAnswer": "滴灌、沟灌、喷灌、漫灌、渗灌",
+    "sourceContentHash": "b74b2f62dba95e2361924c7d72a16fe55a0bb93ae54ec3977eb8d23562ca5bda",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-40d312b1fef0e90efe42-1": {
+    "options": [
+      "通过增加挂果量加重植株负担",
+      "采掉全部果实以提高当年产酒量",
+      "给留下来的果实更充足的养分和糖",
+      "在采收后给葡萄汁增加色素"
+    ],
+    "correct": 2,
+    "sourceAnswer": "给留下来的果实更充足的养分和糖",
+    "sourceContentHash": "40d312b1fef0e90efe428183ec106ae50e2b5b4d3ff57664e5fcfa29c206b1f4",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-92eb0220612cdbfd52af-1": {
+    "options": [
+      "作为酿造酒精的酵母",
+      "替代橡木桶进行酒液陈酿",
+      "成为葡萄汁澄清时使用的滤材",
+      "成为欧洲树种的嫁接用根茎"
+    ],
+    "correct": 3,
+    "sourceAnswer": "成为欧洲树种的嫁接用根茎",
+    "sourceContentHash": "92eb0220612cdbfd52afe57599a177d9f728a601c517a790e3dfc5f2ec48c22c",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-0dfd3101c434e947226d-1": {
+    "options": [
+      "法国人 Louis Pasteur，1863 年提出",
+      "奥地利人 ：鲁道夫 . 斯坦纳 （Rudolf Steiner），1924年提出",
+      "法国人 Jean-Antoine Chaptal，1801 年提出",
+      "奥地利人 Gregor Mendel，1866 年提出"
+    ],
+    "correct": 1,
+    "sourceAnswer": "奥地利人 ：鲁道夫 . 斯坦纳 （Rudolf Steiner），1924年提出",
+    "sourceContentHash": "0dfd3101c434e947226d9832483151b85896851aa8470b67e763f9cb994841af",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-a5a0a44f3926a766de27-1": {
+    "options": [
+      "只按酒标颜色安排农事，不管理土壤",
+      "完全忽略自然周期，只在装瓶时管理",
+      "运用自然的特殊方式对抗病害，除草，肥土，等等。\n实施流程按日月星辰周期安排",
+      "以加糖和过滤代替所有葡萄园管理"
+    ],
+    "correct": 2,
+    "sourceAnswer": "运用自然的特殊方式对抗病害，除草，肥土，等等。\n实施流程按日月星辰周期安排",
+    "sourceContentHash": "a5a0a44f3926a766de274f8a027f07db76ab619fb5a4120348b2294f1f75617f",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-4cb3403c526f9c7888d4-1": {
+    "options": [
+      "酒瓶颜色、瓶塞气味和标签信息",
+      "橡木桶烘烤程度与桶板厚度",
+      "蒸馏酒的酒龄与蒸馏器形状",
+      "颜色，丹宁，味道，和酵母"
+    ],
+    "correct": 3,
+    "sourceAnswer": "颜色，丹宁，味道，和酵母",
+    "sourceContentHash": "4cb3403c526f9c7888d4727f5f05a07664a669b8b8308a7d5278c3bad78bde8c",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-79f8ff97d08e8beb1311-1": {
+    "options": [
+      "水，糖，果酸，果肉",
+      "瓶塞、玻璃和标签",
+      "橡木桶板、桶箍和木屑",
+      "成品酒的包装盒与瓶帽"
+    ],
+    "correct": 0,
+    "sourceAnswer": "水，糖，果酸，果肉",
+    "sourceContentHash": "79f8ff97d08e8beb1311c24420e063e2a0598529d27746439faba772e6568406",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-001a1cf940a98282d5b7-1": {
+    "options": [
+      "根瘤蚜 Phylloxera",
+      "灰霉病 (Botrytis Cinerea) = 贵腐 (Noble Rot)，可以酿成罕有昂贵的甜酒。",
+      "白粉病 Powdery mildew",
+      "霜霉病 Downy mildew"
+    ],
+    "correct": 1,
+    "sourceAnswer": "灰霉病 (Botrytis Cinerea) = 贵腐 (Noble Rot)，可以酿成罕有昂贵的甜酒。",
+    "sourceContentHash": "001a1cf940a98282d5b7cf6b9151e8691afc444622c3908612c83c7fd3ddbc89",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-4515a8e1f1e604f523f4-1": {
+    "options": [
+      "只由酒瓶高度和瓶底深度决定",
+      "只由瓶塞长度和标签颜色决定",
+      "葡萄的成熟度\n葡萄果采摘时间\n颗粒筛选 （triage）\n橡木桶的选用\n陈酿的时间",
+      "只由酒杯形状与侍酒盘材质决定"
+    ],
+    "correct": 2,
+    "sourceAnswer": "葡萄的成熟度\n葡萄果采摘时间\n颗粒筛选 （triage）\n橡木桶的选用\n陈酿的时间",
+    "sourceContentHash": "4515a8e1f1e604f523f4acdc2bd149d42ab8e307b22945ad84425ad4be6018bd",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-0e337244af730ad89c67-1": {
+    "options": [
+      "浸渍 Cuvaison",
+      "加糖 Chaptalization",
+      "澄清 Fining",
+      "装瓶 Bottling"
+    ],
+    "correct": 0,
+    "sourceAnswer": "浸渍 Cuvaison",
+    "sourceContentHash": "0e337244af730ad89c67647deef70376b61de6b97694ffaab190296270ee3f2d",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-2350169bbe9a88b7243d-1": {
+    "options": [
+      "压制酒 vin de press",
+      "自流酒 vin de goutte",
+      "酒渣白兰地 Marc Brandy",
+      "葡萄汁 Must"
+    ],
+    "correct": 1,
+    "sourceAnswer": "自流酒 vin de goutte",
+    "sourceContentHash": "2350169bbe9a88b7243dc155b55d03294345f4019104f5f9805121e2ad8c4f7d",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-6ceff21ada01f947aeb8-1": {
+    "options": [
+      "自流酒 vin de goutte",
+      "酒渣白兰地 Marc Brandy",
+      "压制酒 vin de press",
+      "未发酵葡萄汁 Must"
+    ],
+    "correct": 2,
+    "sourceAnswer": "压制酒 vin de press",
+    "sourceContentHash": "6ceff21ada01f947aeb82fd82ce0622f6e936286dc327791a38c99f75be2d005",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-13535f208cf613fa1571-1": {
+    "options": [
+      "氮气 Nitrogen",
+      "葡萄糖 Glucose",
+      "酒石酸 Tartaric acid",
+      "二氧化硫 Só"
+    ],
+    "correct": 3,
+    "sourceAnswer": "二氧化硫 Só",
+    "sourceContentHash": "13535f208cf613fa15710ac6b7ab46fa2b9c653b21aaafd3c83720582e09fd8e",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-91c0fae8d712099f9b33-1": {
+    "options": [
+      "专门用于苹果酸乳酸转化的细菌",
+      "天然酵母",
+      "贵腐霉菌 Botrytis cinerea",
+      "根瘤蚜 Phylloxera"
+    ],
+    "correct": 1,
+    "sourceAnswer": "天然酵母",
+    "sourceContentHash": "91c0fae8d712099f9b33c786398063878f5d5e21bfaf4b2c5e603b9ccd11aae8",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-ddede9e2450b2365ca3f-1": {
+    "options": [
+      "只取决于酒瓶大小",
+      "只取决于瓶塞材质",
+      "葡萄汁的含糖量、选用的酵母、还有酿酒师的想法",
+      "只取决于标签所用颜色"
+    ],
+    "correct": 2,
+    "sourceAnswer": "葡萄汁的含糖量、选用的酵母、还有酿酒师的想法",
+    "sourceContentHash": "ddede9e2450b2365ca3f1592f021539841e8dcdd9bb6a251b3d87cccf707c543",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-61b54624c5ac0d742734-1": {
+    "options": [
+      "氧气、淀粉和低温",
+      "酒精、二氧化碳 CO2、热量",
+      "氮气、纤维素和光能",
+      "盐、氧气和橡木"
+    ],
+    "correct": 1,
+    "sourceAnswer": "酒精、二氧化碳 CO2、热量",
+    "sourceContentHash": "61b54624c5ac0d742734fd33d4c5be0221141856cdc0d8f871cf805c744090bb",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-64adf54a737919afc30b-1": {
+    "options": [
+      "高单宁、低果味",
+      "高单宁、完全没有果香",
+      "低单宁、高果味",
+      "只有橡木香，不表现果味"
+    ],
+    "correct": 2,
+    "sourceAnswer": "低单宁、高果味",
+    "sourceContentHash": "64adf54a737919afc30b278e87dff183293380a2081ea4fdd6a8de4ef8399925",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-2672464273c1d28ec035-1": {
+    "options": [
+      "将糖转换为酒精与二氧化碳",
+      "通过压榨从葡萄皮中取出酒液",
+      "将酒液蒸馏为高度烈酒",
+      "将葡萄酒里的苹果酸转换为柔滑的乳酸"
+    ],
+    "correct": 3,
+    "sourceAnswer": "将葡萄酒里的苹果酸转换为柔滑的乳酸",
+    "sourceContentHash": "2672464273c1d28ec035dfa15b717837097c6ee8515fba04bb0f3ed9535718ec",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-57f62d4685e2a1006671-1": {
+    "options": [
+      "搅桶 Batonnage",
+      "踩皮 Pigeage",
+      "加糖 Chaptalization",
+      "装瓶 Bottling"
+    ],
+    "correct": 0,
+    "sourceAnswer": "搅桶 Batonnage",
+    "sourceContentHash": "57f62d4685e2a10066713baf6a4830490846bde23df2b9a12d2b8da0c0c481a9",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-891005e60c1a46e0fd25-1": {
+    "options": [
+      "搅桶 Batonnage",
+      "加糖 Chaptalization",
+      "踩皮 Pigeage",
+      "澄清 Fining"
+    ],
+    "correct": 2,
+    "sourceAnswer": "踩皮 Pigeage",
+    "sourceContentHash": "891005e60c1a46e0fd25b10dfafa552b065c2ac125a52970759e2826dc8c0349",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-7d3db9de253d32b645db-1": {
+    "options": [
+      "把酒液中的酒精全部蒸馏出来",
+      "给葡萄树嫁接砧木",
+      "改变葡萄园的种植纬度",
+      "澄清葡萄酒"
+    ],
+    "correct": 3,
+    "sourceAnswer": "澄清葡萄酒",
+    "sourceContentHash": "7d3db9de253d32b645db029d42040683478d53ff11737dea1919d8d0cb23bd45",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  },
+  "qz-891549861-6c7636adee98f5b91624-1": {
+    "options": [
+      "消除全部残糖，使酒绝对干型",
+      "提高葡萄酒的甜度和果味",
+      "自动增加橡木桶烘烤香",
+      "直接去除酒中的全部酒精"
+    ],
+    "correct": 1,
+    "sourceAnswer": "提高葡萄酒的甜度和果味",
+    "sourceContentHash": "6c7636adee98f5b91624c411f26e0145d0c4aa424b3c4d226565a9faefb8c405",
+    "presentation": "multiple-choice-from-original",
+    "reviewStatus": "original-answer-unverified",
+    "authorizedAt": "2026-10-29"
+  }
+}

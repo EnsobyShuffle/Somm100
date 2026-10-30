@@ -1,0 +1,1222 @@
+{
+  "producers": [
+    {
+      "id": "producer-fr-p-m-jacqueson",
+      "name": "Domaine P. et M. Jacqueson",
+      "aliases": [
+        "Domaine Jacqueson",
+        "Domaine Paul & Marie Jacqueson"
+      ],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "12 rue Saint-Laurent, 71150 Rully",
+      "website": "https://www.jacqueson-vins.fr/",
+      "intro": "1946年 Henri Jacqueson 在 Rully 建庄。Paul 于1971年加入；Marie 于2006年、Pierre 于2015年接棒。酒庄以 Rully 的红白单地块酒为核心。",
+      "scope": "已核对酒庄现行目录与可读取技术单；无年份资料按酒款级记录，文件日期与葡萄酒年份分开。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史与人物",
+          "text": "1946年 Henri Jacqueson 在 Rully 建庄。Paul 于1971年加入；Marie 于2006年、Pierre 于2015年接棒。酒庄以 Rully 的红白单地块酒为核心。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "约18 ha，分布 Rully、Mercurey、Bouzeron。面积与栽植年在酒款档案中逐项列明。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson"
+          ]
+        },
+        {
+          "title": "栽培与采收",
+          "text": "人工采收与分选；成熟度和健康状况决定采收及压榨处理。红葡萄用小箱运输。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "橡木桶熟成，白酒轻过滤；红酒逐桶蛋清澄清后不经过滤装瓶。新桶比例与时间以各酒技术单为准。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson"
+          ]
+        },
+        {
+          "title": "Rully 酒款",
+          "text": "官网列12款：7款白酒、5款红酒；另保留进口商通称 Rully Rouge。新增的无单一地块一级园白酒来自外购葡萄汁。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson",
+            "rully-complete-jn-jacqueson-1er-blanc"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-blanc-village",
+          "name": "Rully Blanc",
+          "place": "La Barre、Fromanges、La Crée 三地块调配；东向，褐色钙质土及黏土坡积物。",
+          "grape": "Chardonnay",
+          "method": "人工采收、分选、直接压榨及重力澄清，桶发酵；全桶熟成12个月，15–20%新桶，轻过滤。",
+          "detail": "官方新技术单列三地块；此前进口商的两地块描述属于较早资料。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2024-03，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-blanc-village"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Blend of La Barre, Fromanges and La Crée; east-facing brown calcareous soils and clay colluvium.",
+              "grape": "Chardonnay",
+              "method": "Hand-picked, sorted, direct-pressed and gravity-settled; barrel fermentation;12 months entirely in oak,15–20% new barrels; light filtration.",
+              "detail": "The current sheet identifies three parcels; the older importer account named only two.",
+              "vintageScope": "Non-vintage estate sheet; 2024-03 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_BLANC_RULLY_2024.pdf",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-rouge-village",
+          "name": "Rully Rouge",
+          "place": "进口商列出的 Rully 村庄级 Pinot Noir；未注明单一地块。",
+          "grape": "Pinot Noir",
+          "method": "酒庄红酒共通工艺为橡木桶熟成、逐桶蛋清澄清及不经过滤装瓶；本条没有可对应的独立技术单。",
+          "detail": "保留为进口商所列的独立名称。当前酒庄目录单列 La Barre、Les Chaponnières 及一级园红酒，没有单列此通称；尚无证据将它与某一单地块酒合并。",
+          "vintageScope": "进口商目录身份；当前具体发行年份及与单地块标签的关系未确定。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-importer",
+            "rully-complete-jn-jacqueson",
+            "rully-complete-jn-jacqueson-rouge-chaponnieres"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Importer-listed village Rully Pinot Noir, without a named parcel.",
+              "grape": "Pinot Noir",
+              "method": "Estate-wide red-wine practice is oak maturation, barrel-by-barrel egg-white fining and unfiltered bottling; no separate technical sheet is assigned to this entry.",
+              "detail": "Preserved as the importer’s generic label. The current estate menu lists named village reds instead; there is insufficient evidence to merge this entry with La Barre or Les Chaponnières.",
+              "vintageScope": "Importer catalogue identity; current release and continuity with named labels are unestablished."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "reviewScope": "importer-listed identity; current label continuity not established",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-rouge-la-barre",
+          "name": "Rully Rouge La Barre",
+          "place": "0.85 ha，1992年栽植，Agneux 洞穴附近高台；西向，红褐色钙质土与黏土。",
+          "grape": "Pinot Noir",
+          "method": "人工采收、分选、去梗、重力入罐；冷浸3–6日，浸渍发酵2–3周；桶熟12个月，15%新桶，蛋清澄清，不过滤。",
+          "detail": "西向高台的村庄级单地块 Pinot Noir；不与同名 Chardonnay 或其他生产者的 La Barre 合并。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2024-03，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-rouge-la-barre"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "0.85 ha, planted 1992, on the plateau near the Agneux caves; west-facing reddish calcareous soil and clay.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked, sorted, destemmed and gravity-vatted;3–6 days cold soak,2–3 weeks vatting;12 months in oak,15% new barrels, egg-white fining; unfiltered.",
+              "detail": "Village-level single-site Pinot Noir from a west-facing plateau; distinct from similarly named white wines.",
+              "vintageScope": "Non-vintage estate sheet; 2024-03 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY_barre_2024.pdf",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-rouge-chaponnieres",
+          "name": "Rully Rouge Chaponnières",
+          "place": "Rully 北部东向坡：1.67 ha于1985年栽植，另0.56 ha于2016年栽植；砾质钙质土与粉砂黏土坡积物。",
+          "grape": "Pinot Noir",
+          "method": "人工采收、分选、去梗及重力入罐；冷浸3–6日，浸渍发酵2–3周；桶熟12个月，15%新桶，蛋清澄清，不过滤。",
+          "detail": "技术单正文标为 Rully 村庄级；PDF文件名中的“1er cru”不作为分级依据。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2024-03，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-rouge-chaponnieres"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Northern Rully, east-facing:1.67 ha planted 1985 plus 0.56 ha planted 2016; gravelly calcareous soil and silty-clay colluvium.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked, sorted, destemmed and gravity-vatted;3–6 days cold soak,2–3 weeks vatting;12 months in oak,15% new barrels; egg-white fined, unfiltered.",
+              "detail": "The document identifies a village Rully; “1 er cru” in the PDF filename is not the wine classification.",
+              "vintageScope": "Non-vintage estate sheet; 2024-03 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY1er_cru_chaponnieres_2024.pdf",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-gresigny",
+          "name": "Rully Premier Cru Blanc Grésigny",
+          "place": "0.80 ha，1950年栽植，产区南部白葡萄坡；东至东南向，极多石的褐色钙质土。",
+          "grape": "Chardonnay",
+          "method": "人工采收、分选、直接压榨、重力澄清与桶发酵；全桶熟成18个月，15–20%新桶，轻过滤。",
+          "detail": "该酒18个月熟成，比同庄 Margotés、Raclot 与 Vauvry 技术单所列12个月更长。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2022-07，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-1er-blanc-gresigny"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "0.80 ha, planted 1950, on the southern white-wine slope; east/southeast, very stony brown calcareous soil.",
+              "grape": "Chardonnay",
+              "method": "Hand-picked, sorted, direct-pressed, gravity-settled and barrel-fermented;18 months in oak,15–20% new barrels; light filtration.",
+              "detail": "Its documented 18-month élevage is longer than the 12 months specified for Margotés, Raclot and Vauvry.",
+              "vintageScope": "Non-vintage estate sheet; 2022-07 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/gresigny.pdf",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-margotes",
+          "name": "Rully Premier Cru Blanc Margotés",
+          "place": "0.75 ha，1999年栽植，产区南部；东至东南向，白色泥灰岩与多石石灰岩。",
+          "grape": "Chardonnay",
+          "method": "人工采收、分选、直接压榨、重力澄清与桶发酵；全桶熟成12个月，15–20%新桶，轻过滤。",
+          "detail": "栽植年以酒庄技术单1999为准；较早进口商资料曾写2000。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2022-07，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-1er-blanc-margotes"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "0.75 ha, planted 1999, in southern Rully; east/southeast, white marl and stony limestone.",
+              "grape": "Chardonnay",
+              "method": "Hand-picked, sorted, direct-pressed, gravity-settled and barrel-fermented;12 months in oak,15–20% new barrels; light filtration.",
+              "detail": "The estate gives 1999 as the planting year, correcting the older importer estimate of 2000.",
+              "vintageScope": "Non-vintage estate sheet; 2022-07 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/margotes.pdf",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-la-pucelle",
+          "name": "Rully Premier Cru Blanc La Pucelle",
+          "place": "进口商记述：1992年栽植，石灰岩伴褐色黏土。",
+          "grape": "Chardonnay",
+          "method": "酒庄共通工艺：橡木桶熟成；白酒装瓶前轻过滤。此处不把酒庄共通工艺充作本酒具体年份的完整配方。",
+          "detail": "进口商将其描述为同庄白酒中较圆润丰满的一款。官网确认该酒仍在系列中；本次未能读取其独立技术单，故不补造桶熟月份。",
+          "vintageScope": "地块与风格为进口商非年份记述；有年份工艺仅适用于注明年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-importer",
+            "rully-complete-jn-jacqueson",
+            "rully-complete-jn-jacqueson-blanc-village"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Importer record: planted 1992, limestone with brown clay.",
+              "grape": "Chardonnay",
+              "method": "Estate-wide practice: oak-barrel maturation; whites receive light filtration before bottling. These are house methods, not a complete vintage recipe.",
+              "detail": "Importer style comparison: fuller and rounder. The current estate lists this wine; its individual sheet was not readable in this review, so no label-specific élevage duration is asserted.",
+              "vintageScope": "Importer site/style information is non-vintage; dated technical statements apply only to that vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://www.jacqueson-vins.fr/",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-vauvry",
+          "name": "Rully Premier Cru Blanc Vauvry",
+          "place": "0.78 ha，1986年栽植，产区南部白葡萄坡；东至东南向，白色泥灰岩与泥灰质石灰岩。",
+          "grape": "Chardonnay",
+          "method": "人工采收、分选、直接压榨、重力澄清与桶发酵；全桶熟成12个月，15%新桶，轻过滤。",
+          "detail": "地块中央有地下水泉出露；酒庄将泉水导向地块边缘后接回自然水道。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2022-07，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-1er-blanc-vauvry"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "0.78 ha, planted 1986, on the southern white-wine slope; east/southeast, white marl and marly limestone.",
+              "grape": "Chardonnay",
+              "method": "Hand-picked, sorted, direct-pressed, gravity-settled and barrel-fermented;12 months in oak,15% new barrels; light filtration.",
+              "detail": "A spring emerges within the holding; the estate diverted its flow around the plot before returning it to its natural course.",
+              "vintageScope": "Non-vintage estate sheet; 2022-07 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/vauvry.pdf",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc-raclot",
+          "name": "Rully Premier Cru Blanc Raclot",
+          "place": "0.35 ha，1991年栽植，主坡较高处，位于酒庄 Cloux 上方；东向，白色泥灰岩与石灰岩。",
+          "grape": "Chardonnay",
+          "method": "人工采收、分选、直接压榨、重力澄清与桶发酵；全桶熟成12个月，15–20%新桶，轻过滤。",
+          "detail": "官网目录拼 Raclot，酒庄技术单标题拼 Raclots；保留为同一酒款的来源拼写。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2022-07，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-1er-blanc-raclot"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "0.35 ha, planted 1991, high on the main slope above the estate’s Cloux holding; east-facing white marl and limestone.",
+              "grape": "Chardonnay",
+              "method": "Hand-picked, sorted, direct-pressed, gravity-settled and barrel-fermented;12 months in oak,15–20% new barrels; light filtration.",
+              "detail": "The estate menu uses Raclot and its sheet uses Raclots; these are retained as source spelling variants.",
+              "vintageScope": "Non-vintage estate sheet; 2022-07 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/raclots.pdf",
+          "aliases": [
+            "Rully Premier Cru Raclots"
+          ],
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-rouge-preaux",
+          "name": "Rully Premier Cru Rouge Préaux",
+          "place": "2.58 ha，Cloux 下方主坡下部，东南向；分别于1962、1980及1990年代栽植；砾质钙质土与粉砂黏土坡积物。",
+          "grape": "Pinot Noir",
+          "method": "人工采收、分选、去梗、重力入罐；冷浸3–6日，浸渍发酵2–3周；桶熟12个月，20%新桶，蛋清澄清，不过滤。",
+          "detail": "官方分三批栽植的资料取代此前“全部1967年”的进口商概述。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2024-03，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-1er-rouge-preaux"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "2.58 ha below Cloux, southeast-facing lower main slope; plantings 1962,1980 and 1990 s; gravelly calcareous soil and silty-clay colluvium.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked, sorted, destemmed and gravity-vatted;3–6 days cold soak,2–3 weeks vatting;12 months in oak,20% new barrels; egg-white fined, unfiltered.",
+              "detail": "The official three-stage planting history supersedes the older importer’s blanket 1967 estimate.",
+              "vintageScope": "Non-vintage estate sheet; 2024-03 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY1er_cru_preaux_2024.pdf",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-rouge-les-cloux",
+          "name": "Rully Premier Cru Rouge Les Cloux",
+          "place": "进口商历史资料：约1967年栽植，石灰岩与较轻黏土约各半。",
+          "grape": "Pinot Noir",
+          "method": "酒庄共通工艺：橡木桶熟成；红酒逐桶蛋清澄清后不经过滤装瓶。此处不把酒庄共通工艺充作本酒具体年份的完整配方。",
+          "detail": "进口商描述其酒体充实而协调。旧2022年份资料的25%新桶、12个月熟成仅限该年份，不延伸至当前年份。",
+          "vintageScope": "地块与风格为进口商非年份记述；有年份工艺仅适用于注明年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-importer",
+            "rully-complete-jn-jacqueson",
+            "rully-complete-jn-jacqueson-rouge-chaponnieres"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Historical importer record: planted around 1967, roughly equal limestone and lighter clay.",
+              "grape": "Pinot Noir",
+              "method": "Estate-wide practice: oak-barrel maturation; reds are egg-white fined barrel by barrel and bottled without filtration. These are house methods, not a complete vintage recipe.",
+              "detail": "Importer description: ample and harmonious. The retained 2022 profile’s 25% new oak and 12-month élevage apply only to that dated record.",
+              "vintageScope": "Importer site/style information is non-vintage; dated technical statements apply only to that vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://www.jacqueson-vins.fr/",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-rouge-clos-de-la-renarde",
+          "name": "Rully Premier Cru Rouge Clos de la Renarde",
+          "place": "0.32 ha，1988年栽植，村内近酒窖，三面围墙；东至东南向黏土粉砂坡积物。",
+          "grape": "Pinot Noir",
+          "method": "人工采收，依年份去梗或整串，重力入木质截锥罐；冷浸3–6日，浸渍2–3周；桶熟18个月，20%新桶，不过滤。",
+          "detail": "官网作为独占园列示。较长桶熟与可变整串处理是其区别于同庄其他红 Rully 的技术特点。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径日期为2022-07，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-1er-rouge-clos-de-la-renarde",
+            "rully-complete-jn-jacqueson"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "0.32 ha, planted 1988, beside the cellar within the village; walled on three sides, east/southeast-facing clay-silt colluvium.",
+              "grape": "Pinot Noir",
+              "method": "Hand-picked; destemmed or whole-cluster according to year, gravity-filled wooden conical vat;3–6 days cold soak,2–3 weeks vatting;18 months in oak,20% new barrels; unfiltered.",
+              "detail": "Listed as a monopole by the estate; longer élevage and variable whole-cluster use distinguish its cellar treatment.",
+              "vintageScope": "Non-vintage estate sheet; 2022-07 is its file-path date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/clos_de_la_renarde.pdf",
+          "vintage": null
+        },
+        {
+          "id": "wine-fr-p-m-jacqueson-rully-1er-blanc",
+          "name": "Rully Premier Cru Blanc",
+          "place": "来自 Rully 白葡萄坡上可信种植者的外购葡萄汁；东向，褐色钙质土及黏土坡积物。",
+          "grape": "Chardonnay",
+          "method": "桶中酒精发酵；全桶熟成12个月，15–20%新桶，装瓶前轻过滤。",
+          "detail": "酒庄小规模 négoce 业务的一级园白酒，不指定单一 climat；与酒庄自有地块的五款一级园白酒分别建档。",
+          "vintageScope": "官网链接的非年份技术单；2024-03是文件路径日期，不是酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-jacqueson-1er-blanc"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "officialUrl": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_BLANC_RULLY1er_cru_2024.pdf",
+          "translations": {
+            "en": {
+              "place": "Purchased must from trusted growers on Rully’s east-facing white-wine slope; brown calcareous soil and clay colluvium.",
+              "grape": "Chardonnay",
+              "method": "Barrel fermentation;12 months entirely in oak,15–20% new barrels; light filtration.",
+              "detail": "A small-volume négoce Premier Cru without a named climat; distinct from the five estate single-climat whites.",
+              "vintageScope": "Non-vintage estate sheet;2024-03 is a file-path date, not the wine vintage."
+            }
+          },
+          "vintage": null
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "未公开的逐年份变更不作推定。"
+      ],
+      "translations": {
+        "en": {
+          "intro": "Founded at Rully by Henri Jacqueson in 1946. Paul joined in 1971; Marie took over in 2006 and Pierre joined in 2015. Site-specific red and white Rully wines anchor the domaine.",
+          "scope": "Current estate portfolio and accessible technical sheets reviewed. Non-vintage specifications remain wine-level; document dates are separate from vintages.",
+          "sections": [
+            {
+              "title": "History & people",
+              "text": "Founded at Rully by Henri Jacqueson in 1946. Paul joined in 1971; Marie took over in 2006 and Pierre joined in 2015. Site-specific red and white Rully wines anchor the domaine.",
+              "sourceIds": [
+                "rully-complete-jn-jacqueson"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "About 18 ha across Rully, Mercurey and Bouzeron. Individual holdings and planting dates appear in the wine profiles.",
+              "sourceIds": [
+                "rully-complete-jn-jacqueson"
+              ]
+            },
+            {
+              "title": "Viticulture & harvest",
+              "text": "Hand harvest and sorting; maturity and fruit health guide picking and pressing. Red grapes travel in small crates.",
+              "sourceIds": [
+                "rully-complete-jn-jacqueson"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "Oak maturation; whites are lightly filtered, reds egg-white fined per barrel and bottled unfiltered. New-oak shares and duration are wine-specific.",
+              "sourceIds": [
+                "rully-complete-jn-jacqueson"
+              ]
+            },
+            {
+              "title": "Rully portfolio",
+              "text": "Official portfolio:12 Rully labels,7 white and 5 red. A generic importer-listed Rully Rouge is retained separately. The unnamed Premier Cru Blanc uses purchased must.",
+              "sourceIds": [
+                "rully-complete-jn-jacqueson",
+                "rully-complete-jn-jacqueson-1 er-blanc"
+              ]
+            }
+          ],
+          "gaps": [
+            "Unpublished vintage changes are not inferred."
+          ]
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    },
+    {
+      "id": "producer-fr-ninot",
+      "name": "Domaine Ninot",
+      "aliases": [],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "2 rue de Chagny, 71150 Rully",
+      "website": "https://domaineninot.com/en/the-estate/",
+      "intro": "Ninot 家族在 Rully 的葡萄种植与制桶历史可追溯至十四世纪。Erell 于2003年返乡，具制桶训练的 Flavien 于2012年加入；兄妹以独立地块酒呈现 Rully。",
+      "scope": "已核对酒庄现行目录与可读取技术单；无年份资料按酒款级记录，文件日期与葡萄酒年份分开。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史与人物",
+          "text": "Ninot 家族在 Rully 的葡萄种植与制桶历史可追溯至十四世纪。Erell 于2003年返乡，具制桶训练的 Flavien 于2012年加入；兄妹以独立地块酒呈现 Rully。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-estate"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "Rully 的 La Barre、Chaponnière、Le Meix Guillaume 及一级园 Grésigny、Marissou，另有 Mercurey 地块；La Barre 两色分别有独立技术单。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-wines"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "2020年获有机认证。技术单记载单 Guyot 修剪、抹芽、耕作；采收方式依地块而异，并非所有白酒均人工采收。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-estate",
+            "rully-complete-jn-ninot-blanc-la-barre",
+            "rully-complete-jn-ninot-blanc-chaponniere"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "白酒原生酵母桶发酵，红酒技术单列完全去梗和冷浸。Grésigny 桶熟15个月、Marissou18个月；其余本组酒12个月。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-blanc-la-barre",
+            "rully-complete-jn-ninot-blanc-chaponniere",
+            "rully-complete-jn-ninot-1er-blanc-gresigny",
+            "rully-complete-jn-ninot-rouge-la-barre",
+            "rully-complete-jn-ninot-rouge-meix-guillaume",
+            "rully-complete-jn-ninot-rouge-chaponniere",
+            "rully-complete-jn-ninot-1er-rouge-marissou"
+          ]
+        },
+        {
+          "title": "Rully 酒款",
+          "text": "已核对官网7款 Rully：3白、4红。Le Meix Guillaume 从2021年开始独立装瓶，之前用于调配或出售葡萄／酒给酒商。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-wines",
+            "rully-complete-jn-ninot-rouge-meix-guillaume"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-ninot-rully-blanc-la-barre",
+          "name": "Rully Blanc La Barre",
+          "place": "1.66 ha；Mont Palais 山顶约300 m的高地，褐色钙质土及黏土石灰岩底土；1990年栽植。",
+          "grape": "100% Chardonnay",
+          "method": "机械采收，轻压榨，静置12–18小时后以原生酵母桶发酵；228 L桶带细酒泥12个月，不搅桶，10%新桶，不过滤。",
+          "detail": "酒庄描述：白果、花香，质地圆润而收结清鲜。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径为2022年，不能把文件年当作酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-blanc-la-barre"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "1.66 ha on the Mont Palais plateau, about 300 m; brown calcareous soil over clay-limestone; planted 1990.",
+              "grape": "100% Chardonnay",
+              "method": "Machine-picked; gentle pressing and 12–18 h settling; native-yeast barrel fermentation;12 months on fine lees in 228 L barrels, no stirring,10% new oak; unfiltered.",
+              "detail": "Producer profile: white fruit and flowers, rounded texture with a fresh finish.",
+              "vintageScope": "Non-vintage sheet currently linked by the estate; the file-path year is a document date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-blanc-la-barre-2022.pdf",
+          "vintage": null,
+          "imageUrl": "https://domaineninot.com/wp-content/uploads/2022/05/domaine-ninot-etiquettes-7-1-600x465.jpg",
+          "imageSourceUrl": "https://domaineninot.com/en/the-wines/",
+          "imageCredit": "Domaine Ninot · estate label artwork",
+          "imageType": "label",
+          "imageScope": "Linked from the corresponding wine on the estate portfolio; label artwork, not a guaranteed current-vintage bottle photograph."
+        },
+        {
+          "id": "wine-fr-ninot-rully-blanc-chaponniere",
+          "name": "Rully Blanc Chaponnière",
+          "place": "2.63 ha，Remenot 山脚，东至东南向壤质黏土石灰岩；栽植年份1975、1990、2022。",
+          "grape": "100% Chardonnay",
+          "method": "人工及机械采收，轻压榨，静置12–18小时后原生酵母桶发酵；228 L桶细酒泥熟成12个月，轻搅桶，10%新桶，不过滤。",
+          "detail": "酒庄描述：白果与木质气息，酒体较丰满。建议3–7年内结合瓶况判断适饮期。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径为2022年，不能把文件年当作酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-blanc-chaponniere"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "2.63 ha below Mont Remenot; east/southeast-facing loamy clay-limestone; plantings 1975,1990,2022.",
+              "grape": "100% Chardonnay",
+              "method": "Hand and machine harvested; gentle pressing,12–18 h settling and native-yeast barrel fermentation;12 months on fine lees in 228 L barrels, light stirring,10% new oak; unfiltered.",
+              "detail": "Producer profile: white fruit and oak, with breadth; suggested development over 3–7 years depends on storage.",
+              "vintageScope": "Non-vintage sheet currently linked by the estate; the file-path year is a document date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-blanc-chaponniere.pdf",
+          "vintage": null,
+          "imageUrl": "https://domaineninot.com/wp-content/uploads/2022/05/domaine-ninot-etiquettes-4-1-600x465.jpg",
+          "imageSourceUrl": "https://domaineninot.com/en/the-wines/",
+          "imageCredit": "Domaine Ninot · estate label artwork",
+          "imageType": "label",
+          "imageScope": "Linked from the corresponding wine on the estate portfolio; label artwork, not a guaranteed current-vintage bottle photograph."
+        },
+        {
+          "id": "wine-fr-ninot-rully-1er-blanc-gresigny",
+          "name": "Rully Premier Cru Blanc Grésigny",
+          "place": "0.80 ha，1963年栽植，东至东南向；多石褐色钙质土，底层为中牛津阶白色泥灰岩与石灰岩。",
+          "grape": "100% Chardonnay",
+          "method": "人工采收，轻压榨，静置12–18小时，原生酵母桶发酵；228 L桶细酒泥熟成15个月，不搅桶，10%新桶，不过滤。",
+          "detail": "酒庄描述：柑橘、奶油和香草，酸度与酒体并存；建议3–7年内视瓶况饮用。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径为2022年，不能把文件年当作酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-1er-blanc-gresigny"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "0.80 ha, planted 1963, east/southeast; stony brown calcareous soil over Middle Oxfordian white marl and limestone.",
+              "grape": "100% Chardonnay",
+              "method": "Hand-picked; gentle pressing,12–18 h settling, native-yeast barrel fermentation;15 months on fine lees in 228 L barrels, no stirring,10% new oak; unfiltered.",
+              "detail": "Producer profile: citrus, butter and vanilla, balancing acidity and body; suggested development 3–7 years, storage-dependent.",
+              "vintageScope": "Non-vintage sheet currently linked by the estate; the file-path year is a document date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-premier-cru-gresigny.pdf",
+          "vintage": null,
+          "imageUrl": "https://domaineninot.com/wp-content/uploads/2022/05/domaine-ninot-etiquettes-6-1-600x465.jpg",
+          "imageSourceUrl": "https://domaineninot.com/en/the-wines/",
+          "imageCredit": "Domaine Ninot · estate label artwork",
+          "imageType": "label",
+          "imageScope": "Linked from the corresponding wine on the estate portfolio; label artwork, not a guaranteed current-vintage bottle photograph."
+        },
+        {
+          "id": "wine-fr-ninot-rully-rouge-la-barre",
+          "name": "Rully Rouge La Barre",
+          "place": "1.58 ha，Mont Palais 山顶约300 m，褐色钙质土与黏土石灰岩底土；1974年栽植。",
+          "grape": "100% Pinot Noir",
+          "method": "人工采收，完全去梗，冷浸4–5日；原生酵母发酵，压帽与淋皮，罐内约15日；228 L桶12个月，10%新桶，不过滤。",
+          "detail": "酒庄描述：黑果与香料，风格轻盈清鲜；年轻时建议提前约1小时开瓶。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径为2022年，不能把文件年当作酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-rouge-la-barre"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "1.58 ha on Mont Palais, about 300 m; brown calcareous soil over clay-limestone; planted 1974.",
+              "grape": "100% Pinot Noir",
+              "method": "Hand-picked, fully destemmed,4–5 days cold soak; native yeasts, punching-down and pumping-over,15 days vatting;12 months in 228 L barrels,10% new oak; unfiltered.",
+              "detail": "Producer profile: black fruit and spice, fresh and light; open young bottles about an hour before service.",
+              "vintageScope": "Non-vintage sheet currently linked by the estate; the file-path year is a document date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-rouge-la-barre.pdf",
+          "vintage": null,
+          "imageUrl": "https://domaineninot.com/wp-content/uploads/2022/05/domaine-ninot-etiquettes-15-1-600x465.jpg",
+          "imageSourceUrl": "https://domaineninot.com/en/the-wines/",
+          "imageCredit": "Domaine Ninot · estate label artwork",
+          "imageType": "label",
+          "imageScope": "Linked from the corresponding wine on the estate portfolio; label artwork, not a guaranteed current-vintage bottle photograph."
+        },
+        {
+          "id": "wine-fr-ninot-rully-rouge-meix-guillaume",
+          "name": "Rully Rouge Le Meix Guillaume",
+          "place": "1.5163 ha，近酒庄，南至东南向壤质黏土石灰岩；1975、1991年栽植。2021为首个独立装瓶年份。",
+          "grape": "100% Pinot Noir",
+          "method": "人工采收，完全去梗，冷浸4–5日；原生酵母发酵，压帽与淋皮，罐内约15日；228 L桶12个月，10%新桶，不过滤。",
+          "detail": "此前该地块用于调配或售予酒商。酒庄描述为果味集中、单宁细而柔滑。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径为2023年，不能把文件年当作酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-rouge-meix-guillaume"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "1.5163 ha beside the estate; south/southeast-facing loamy clay-limestone; planted 1975/1991. First separately labelled vintage:2021.",
+              "grape": "100% Pinot Noir",
+              "method": "Hand-picked and fully destemmed;4–5 days cold soak, native yeasts, cap work and 15 days vatting;12 months in 228 L barrels,10% new oak; unfiltered.",
+              "detail": "Previously blended or sold to merchants; the estate describes concentrated fruit and fine, silky tannins.",
+              "vintageScope": "Non-vintage sheet currently linked by the estate; the file-path year is a document date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://domaineninot.com/wp-content/uploads/2023/04/an-ft-rully-le-meix-guillaume.pdf",
+          "vintage": null,
+          "imageUrl": "https://domaineninot.com/wp-content/uploads/2023/04/domaine-ninot-etiquettes-11-1-600x465.jpg",
+          "imageSourceUrl": "https://domaineninot.com/en/the-wines/",
+          "imageCredit": "Domaine Ninot · estate label artwork",
+          "imageType": "label",
+          "imageScope": "Linked from the corresponding wine on the estate portfolio; label artwork, not a guaranteed current-vintage bottle photograph."
+        },
+        {
+          "id": "wine-fr-ninot-rully-rouge-chaponniere",
+          "name": "Rully Rouge Chaponnière",
+          "place": "1.86 ha，Remenot 山脚，东至东南向壤质黏土石灰岩；1975、1981年栽植。",
+          "grape": "100% Pinot Noir",
+          "method": "人工采收，完全去梗，冷浸4–5日；原生酵母发酵，压帽与淋皮，罐内约15日；228 L桶12个月，10%新桶，不过滤。",
+          "detail": "酒庄描述：红果、黑樱桃与鲜脆单宁。年轻时建议提前约1小时开瓶。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径为2022年，不能把文件年当作酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-rouge-chaponniere"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "1.86 ha below Mont Remenot, east/southeast-facing loamy clay-limestone; planted 1975/1981.",
+              "grape": "100% Pinot Noir",
+              "method": "Hand-picked and fully destemmed;4–5 days cold soak, native yeasts, cap work and 15 days vatting;12 months in 228 L barrels,10% new oak; unfiltered.",
+              "detail": "Producer profile: red fruit, black cherry and crunchy tannins; open young bottles about an hour ahead.",
+              "vintageScope": "Non-vintage sheet currently linked by the estate; the file-path year is a document date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-rouge-chaponniere.pdf",
+          "vintage": null,
+          "imageUrl": "https://domaineninot.com/wp-content/uploads/2022/05/domaine-ninot-etiquettes-10-1-600x465.jpg",
+          "imageSourceUrl": "https://domaineninot.com/en/the-wines/",
+          "imageCredit": "Domaine Ninot · estate label artwork",
+          "imageType": "label",
+          "imageScope": "Linked from the corresponding wine on the estate portfolio; label artwork, not a guaranteed current-vintage bottle photograph."
+        },
+        {
+          "id": "wine-fr-ninot-rully-1er-rouge-marissou",
+          "name": "Rully Premier Cru Rouge Marissou",
+          "place": "0.56 ha缓坡，牛津阶石灰岩底土与多石、薄层壤质黏土石灰岩；1970、1996年栽植。",
+          "grape": "100% Pinot Noir",
+          "method": "人工采收，完全去梗，冷浸4–5日；原生酵母发酵，压帽与淋皮，罐内约15日；228 L桶18个月，10%新桶，不过滤。",
+          "detail": "酒庄描述：黑樱桃、烟草与胡椒，单宁柔滑，余味较长；建议3–7年内视瓶况饮用。",
+          "vintageScope": "官网现行链接的非年份技术单；文件路径为2022年，不能把文件年当作酒款年份。",
+          "sourceIds": [
+            "rully-complete-jn-ninot-1er-rouge-marissou"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "0.56 ha on a gentle slope; Oxfordian limestone beneath stony, thin loamy clay-limestone; planted 1970/1996.",
+              "grape": "100% Pinot Noir",
+              "method": "Hand-picked and fully destemmed;4–5 days cold soak, native yeasts, cap work and 15 days vatting;18 months in 228 L barrels,10% new oak; unfiltered.",
+              "detail": "Producer profile: black cherry, tobacco and pepper, silky tannins and length; suggested development 3–7 years, storage-dependent.",
+              "vintageScope": "Non-vintage sheet currently linked by the estate; the file-path year is a document date, not a wine vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "officialUrl": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-premier-cru-marissou.pdf",
+          "vintage": null,
+          "imageUrl": "https://domaineninot.com/wp-content/uploads/2022/05/domaine-ninot-etiquettes-16-1-600x465.jpg",
+          "imageSourceUrl": "https://domaineninot.com/en/the-wines/",
+          "imageCredit": "Domaine Ninot · estate label artwork",
+          "imageType": "label",
+          "imageScope": "Linked from the corresponding wine on the estate portfolio; label artwork, not a guaranteed current-vintage bottle photograph."
+        }
+      ],
+      "questions": [],
+      "gaps": [
+        "未公开的逐年份变更不作推定。"
+      ],
+      "translations": {
+        "en": {
+          "intro": "The Ninot family’s Rully winegrowing and coopering history reaches the 14 th century. Erell returned in 2003; cooper-trained Flavien joined in 2012. The siblings focus on separate vineyard identities.",
+          "scope": "Current estate portfolio and accessible technical sheets reviewed. Non-vintage specifications remain wine-level; document dates are separate from vintages.",
+          "sections": [
+            {
+              "title": "History & people",
+              "text": "The Ninot family’s Rully winegrowing and coopering history reaches the 14 th century. Erell returned in 2003; cooper-trained Flavien joined in 2012. The siblings focus on separate vineyard identities.",
+              "sourceIds": [
+                "rully-complete-jn-ninot-estate"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "Rully holdings include La Barre, Chaponnière, Le Meix Guillaume and Premier Crus Grésigny and Marissou, alongside Mercurey vineyards. La Barre’s two colours have separate specifications.",
+              "sourceIds": [
+                "rully-complete-jn-ninot-wines"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "Certified organic in 2020. Sheets describe Guyot pruning, debudding and cultivation; harvesting varies by site, so hand-picking is not assumed for every white.",
+              "sourceIds": [
+                "rully-complete-jn-ninot-estate",
+                "rully-complete-jn-ninot-blanc-la-barre",
+                "rully-complete-jn-ninot-blanc-chaponniere"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "Whites ferment with native yeasts in oak; red sheets specify destemming and cold soaking. Grésigny receives 15 months and Marissou 18; the other Rully sheets specify 12.",
+              "sourceIds": [
+                "rully-complete-jn-ninot-blanc-la-barre",
+                "rully-complete-jn-ninot-blanc-chaponniere",
+                "rully-complete-jn-ninot-1 er-blanc-gresigny",
+                "rully-complete-jn-ninot-rouge-la-barre",
+                "rully-complete-jn-ninot-rouge-meix-guillaume",
+                "rully-complete-jn-ninot-rouge-chaponniere",
+                "rully-complete-jn-ninot-1 er-rouge-marissou"
+              ]
+            },
+            {
+              "title": "Rully portfolio",
+              "text": "All seven estate-listed Rully wines are represented:3 white and 4 red. Le Meix Guillaume has its own label from 2021; previously its production was blended or sold to merchants.",
+              "sourceIds": [
+                "rully-complete-jn-ninot-wines",
+                "rully-complete-jn-ninot-rouge-meix-guillaume"
+              ]
+            }
+          ],
+          "gaps": [
+            "Unpublished vintage changes are not inferred."
+          ]
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rully-complete-jn-jacqueson",
+      "title": "Jacqueson · estate, methods and current portfolio",
+      "url": "https://www.jacqueson-vins.fr/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-importer",
+      "title": "Thorman Hunt · Jacqueson importer profile",
+      "url": "https://thormanhunt.co.uk/our-growers/burgundy/domaine-paul-et-marie-jacqueson/",
+      "type": "importer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-estate",
+      "title": "Domaine Ninot · estate and family",
+      "url": "https://domaineninot.com/en/the-estate/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-wines",
+      "title": "Domaine Ninot · current wine portfolio",
+      "url": "https://domaineninot.com/en/the-wines/",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-blanc-la-barre",
+      "title": "Domaine Ninot · Rully Blanc La Barre technical sheet",
+      "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-blanc-la-barre-2022.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-blanc-chaponniere",
+      "title": "Domaine Ninot · Rully Blanc Chaponnière technical sheet",
+      "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-blanc-chaponniere.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-1er-blanc-gresigny",
+      "title": "Domaine Ninot · Rully Premier Cru Blanc Grésigny technical sheet",
+      "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-premier-cru-gresigny.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-rouge-la-barre",
+      "title": "Domaine Ninot · Rully Rouge La Barre technical sheet",
+      "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-rouge-la-barre.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-rouge-meix-guillaume",
+      "title": "Domaine Ninot · Rully Rouge Le Meix Guillaume technical sheet",
+      "url": "https://domaineninot.com/wp-content/uploads/2023/04/an-ft-rully-le-meix-guillaume.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-rouge-chaponniere",
+      "title": "Domaine Ninot · Rully Rouge Chaponnière technical sheet",
+      "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-rouge-chaponniere.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-ninot-1er-rouge-marissou",
+      "title": "Domaine Ninot · Rully Premier Cru Rouge Marissou technical sheet",
+      "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-premier-cru-marissou.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-blanc-village",
+      "title": "Jacqueson · Rully Blanc technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_BLANC_RULLY_2024.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-rouge-la-barre",
+      "title": "Jacqueson · Rully Rouge La Barre technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY_barre_2024.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-rouge-chaponnieres",
+      "title": "Jacqueson · Rully Rouge Chaponnières technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY1er_cru_chaponnieres_2024.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-1er-blanc-gresigny",
+      "title": "Jacqueson · Rully Premier Cru Blanc Grésigny technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/gresigny.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-1er-blanc-margotes",
+      "title": "Jacqueson · Rully Premier Cru Blanc Margotés technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/margotes.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-1er-blanc-raclot",
+      "title": "Jacqueson · Rully Premier Cru Blanc Raclot technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/raclots.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-1er-blanc-vauvry",
+      "title": "Jacqueson · Rully Premier Cru Blanc Vauvry technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/vauvry.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-1er-rouge-preaux",
+      "title": "Jacqueson · Rully Premier Cru Rouge Préaux technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY1er_cru_preaux_2024.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-1er-rouge-clos-de-la-renarde",
+      "title": "Jacqueson · Rully Premier Cru Rouge Clos de la Renarde technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/clos_de_la_renarde.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-jn-jacqueson-1er-blanc",
+      "title": "Jacqueson · Rully Premier Cru Blanc technical sheet",
+      "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_BLANC_RULLY1er_cru_2024.pdf",
+      "type": "official_producer",
+      "checkedAt": "2026-10-29",
+      "verification": "Primary page or estate-linked technical PDF read on 2026-10-29."
+    }
+  ],
+  "verification": {
+    "checkedWineIds": [
+      "wine-fr-p-m-jacqueson-rully-blanc-village",
+      "wine-fr-p-m-jacqueson-rully-rouge-village",
+      "wine-fr-p-m-jacqueson-rully-rouge-la-barre",
+      "wine-fr-p-m-jacqueson-rully-rouge-chaponnieres",
+      "wine-fr-p-m-jacqueson-rully-1er-blanc-gresigny",
+      "wine-fr-p-m-jacqueson-rully-1er-blanc-margotes",
+      "wine-fr-p-m-jacqueson-rully-1er-blanc-la-pucelle",
+      "wine-fr-p-m-jacqueson-rully-1er-blanc-vauvry",
+      "wine-fr-p-m-jacqueson-rully-1er-blanc-raclot",
+      "wine-fr-p-m-jacqueson-rully-1er-rouge-preaux",
+      "wine-fr-p-m-jacqueson-rully-1er-rouge-les-cloux",
+      "wine-fr-p-m-jacqueson-rully-1er-rouge-clos-de-la-renarde",
+      "wine-fr-p-m-jacqueson-rully-1er-blanc",
+      "wine-fr-ninot-rully-blanc-la-barre",
+      "wine-fr-ninot-rully-blanc-chaponniere",
+      "wine-fr-ninot-rully-1er-blanc-gresigny",
+      "wine-fr-ninot-rully-rouge-la-barre",
+      "wine-fr-ninot-rully-rouge-meix-guillaume",
+      "wine-fr-ninot-rully-rouge-chaponniere",
+      "wine-fr-ninot-rully-1er-rouge-marissou"
+    ],
+    "newWines": [
+      "wine-fr-p-m-jacqueson-rully-1er-blanc"
+    ],
+    "unresolvedFacts": [
+      {
+        "wineId": "wine-fr-p-m-jacqueson-rully-rouge-village",
+        "issue": "Importer-listed generic red is not a separate label in current estate menu; no merger inferred."
+      },
+      {
+        "wineId": "wine-fr-p-m-jacqueson-rully-1er-blanc-la-pucelle",
+        "issue": "Individual official PDF fetch failed; importer terroir and current estate listing verified; no new label-specific élevage duration asserted."
+      },
+      {
+        "wineId": "wine-fr-p-m-jacqueson-rully-1er-rouge-les-cloux",
+        "issue": "Individual current official PDF fetch failed; older importer terroir and existing2022record retained with dates; house methods explicitly separated."
+      }
+    ],
+    "sourceEvidence": [
+      {
+        "url": "https://www.jacqueson-vins.fr/",
+        "ref": "turn987view0",
+        "claim": "1946 foundation; Paul1971, Marie2006, Pierre2015; official Rully portfolio and barrel/fining practice."
+      },
+      {
+        "url": "https://thormanhunt.co.uk/our-growers/burgundy/domaine-paul-et-marie-jacqueson/",
+        "ref": "turn984view2",
+        "claim": "Importer confirms generic Rully Rouge; historical vineyard notes for La Pucelle and Les Cloux."
+      },
+      {
+        "url": "https://domaineninot.com/en/the-estate/",
+        "ref": "turn984view1",
+        "claim": "Flavien joined2012; Erell2003; organic certification2020."
+      },
+      {
+        "url": "https://domaineninot.com/en/the-wines/",
+        "ref": "turn984view0",
+        "claim": "Seven Rully labels and links to seven technical PDFs."
+      },
+      {
+        "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-blanc-la-barre-2022.pdf",
+        "ref": "turn985view0",
+        "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+      },
+      {
+        "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-blanc-chaponniere.pdf",
+        "ref": "turn985view1",
+        "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+      },
+      {
+        "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-premier-cru-gresigny.pdf",
+        "ref": "turn985view2",
+        "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+      },
+      {
+        "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-rouge-la-barre.pdf",
+        "ref": "turn985view3",
+        "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+      },
+      {
+        "url": "https://domaineninot.com/wp-content/uploads/2023/04/an-ft-rully-le-meix-guillaume.pdf",
+        "ref": "turn985view4",
+        "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+      },
+      {
+        "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-rouge-chaponniere.pdf",
+        "ref": "turn985view5",
+        "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+      },
+      {
+        "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-premier-cru-marissou.pdf",
+        "ref": "turn987view1",
+        "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_BLANC_RULLY_2024.pdf",
+        "ref": "turn990view0",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY_barre_2024.pdf",
+        "ref": "turn990view8",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY1er_cru_chaponnieres_2024.pdf",
+        "ref": "turn990view7",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/gresigny.pdf",
+        "ref": "turn990view2",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/margotes.pdf",
+        "ref": "turn990view4",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/raclots.pdf",
+        "ref": "turn990view5",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/vauvry.pdf",
+        "ref": "turn990view6",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY1er_cru_preaux_2024.pdf",
+        "ref": "turn990view10",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/clos_de_la_renarde.pdf",
+        "ref": "turn990view11",
+        "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+      },
+      {
+        "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_BLANC_RULLY1er_cru_2024.pdf",
+        "ref": "turn996view0",
+        "claim": "Négoce purchased must from trusted growers; east-facing white-wine slope;12months15–20%new oak."
+      }
+    ],
+    "counts": {
+      "producers": 2,
+      "existingWinesReviewed": 19,
+      "newWines": 1,
+      "officialIndividualSheetsRead": 17,
+      "retainedImporterProfiles": 3
+    },
+    "corrections": [
+      "Jacqueson founding1946 and Paul1971 fromestate, replacing importer1947/1972.",
+      "Jacqueson villagewhite now threeparcels includingLaCrée.",
+      "JacquesonMargotés planted1999 perestate, notimporter2000.",
+      "JacquesonPréaux 2.58ha;1962/1980/1990s plantings, notall1967.",
+      "NinotFlavien joined2012.",
+      "NinotLaBarreBlanc machineharvest; ChaponnièreBlanc mixedhand/machine.",
+      "Chaponnières Jacqueson remainsVillage despite misleadingPDFfilename."
+    ]
+  }
+}

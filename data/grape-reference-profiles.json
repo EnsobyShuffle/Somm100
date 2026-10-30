@@ -1,0 +1,588 @@
+[
+  {
+    "id": "aligote",
+    "name": "Aligoté",
+    "species": "Vitis vinifera",
+    "color": {
+      "en": "White",
+      "zh": "白葡萄"
+    },
+    "country": {
+      "en": "France",
+      "zh": "法国"
+    },
+    "intro": {
+      "en": "A Burgundian white Vitis vinifera variety with naturally high acidity, usually made as a dry wine. Expressions range from light, citrus-led whites to concentrated old-vine and single-vineyard wines with the structure to age. Site, yield and élevage are important to its expression.",
+      "zh": "源自勃艮第的白葡萄品种，天然酸度高，通常酿成干白。风格从轻盈、以柑橘果味为主的白葡萄酒，到浓度较高、具陈年结构的老藤及单一葡萄园酒款。地块、产量与熟成方式对其表现有重要影响。"
+    },
+    "image": "/media/grapes/aligote.jpg",
+    "imageCredit": "Pl@ntGrape · INRAE / IFV / Institut Agro",
+    "imageSource": "https://www.plantgrape.fr/en/varieties/fruit-varieties/7",
+    "reviewed": "2026-10-25",
+    "sources": [
+      {
+        "id": "plantgrape",
+        "title": "Pl@ntGrape · Aligoté",
+        "url": "https://www.plantgrape.fr/en/varieties/fruit-varieties/7"
+      },
+      {
+        "id": "vivc",
+        "title": "VIVC · Aligoté, no. 312",
+        "url": "https://www.vivc.de/index.php?id=312&r=passport%2Fview"
+      },
+      {
+        "id": "bivb",
+        "title": "BIVB · Aligoté",
+        "url": "https://www.bourgogne-wines.com/wine-and-terroir/our-grape-varietals-our-colors/aligote/aligote-a-100-bourgogne-varietal,2799,10609.html"
+      },
+      {
+        "id": "bouzeron",
+        "title": "Bouzeron · Conservatoire des Aligotés",
+        "url": "https://www.bouzeron-vins.com/en/the-conservatoire-of-aligotes/"
+      },
+      {
+        "id": "inao",
+        "title": "INAO · Bouzeron",
+        "url": "https://inao.gouv.fr/produit/bouzeron-7747"
+      },
+      {
+        "id": "ponsot",
+        "title": "Domaine Ponsot · Clos des Monts-Luisants",
+        "url": "https://domaine-ponsot.com/produit/morey-saint-denis-monts-luisants-en/"
+      },
+      {
+        "id": "villaine",
+        "title": "Domaine de Villaine · Bouzeron",
+        "url": "https://www.de-villaine.com/en/wines/1/bouzeron"
+      },
+      {
+        "id": "roulot",
+        "title": "Kermit Lynch · Domaine Roulot technical sheet",
+        "url": "https://kermitlynch.com/files/domaine-roulot.pdf"
+      },
+      {
+        "id": "lafarge",
+        "title": "Becky Wasserman · Michel Lafarge, Raisins Dorés",
+        "url": "https://www.beckywasserman.com/domaines/michel-lafarge/bourgogne-aligote-raisins-dores/"
+      },
+      {
+        "id": "pataille",
+        "title": "Becky Wasserman · Sylvain Pataille, Clos du Roy",
+        "url": "https://www.beckywasserman.com/domaines/sylvain-pataille/bourgogne-aligote-clos-du-roy/"
+      },
+      {
+        "id": "fps",
+        "title": "UC Davis · Foundation Plant Services · Aligoté",
+        "url": "https://fps.ucdavis.edu/FGRfamilies.cfm?varietyid=176"
+      }
+    ],
+    "sections": [
+      {
+        "id": "origin",
+        "title": {
+          "en": "Origin",
+          "zh": "起源"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Origin",
+              "zh": "起源"
+            },
+            "text": {
+              "en": "Burgundy, France.\nDocumented in the region from the 17th century.",
+              "zh": "法国，勃艮第。\n当地记录可追溯至 17 世纪。"
+            },
+            "sources": [
+              "bivb"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "History",
+              "zh": "历史"
+            },
+            "text": {
+              "en": "Before phylloxera, Aligoté was also planted in Corton-Charlemagne and Montrachet, vineyards now strongly associated with Chardonnay.\nBourgogne Aligoté AOC was established in 1937. Bouzeron subsequently became the principal village-appellation reference for the variety.",
+              "zh": "根瘤蚜灾害之前，Corton-Charlemagne、Montrachet 等如今与 Chardonnay 紧密关联的葡萄园中也曾种植 Aligoté。\nBourgogne Aligoté AOC 于 1937 年建立。Bouzeron 后来成为这一品种的重要村庄级法定产区参照。"
+            },
+            "sources": [
+              "bivb",
+              "inao"
+            ],
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": "synonyms",
+        "title": {
+          "en": "Synonyms",
+          "zh": "同义名"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Synonyms",
+              "zh": "同义名"
+            },
+            "text": {
+              "en": "Blanc de Troyes; Chaudenet Gras; Plant Gris; Aligoté Blanc; Aligotay.\nSelected synonyms. Aligote is the unaccented spelling; other spelling variants remain searchable.",
+              "zh": "Blanc de Troyes；Chaudenet Gras；Plant Gris；Aligoté Blanc；Aligotay。\n以上为同义名节选。Aligote 为省略重音的拼写；其他拼写变体仍可搜索。"
+            },
+            "sources": [
+              "fps",
+              "vivc"
+            ],
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": "parentage",
+        "title": {
+          "en": "Parentage",
+          "zh": "亲缘"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Parents",
+              "zh": "亲本"
+            },
+            "text": {
+              "en": "Pinot × Gouais Blanc.\nNatural crossing within Vitis vinifera; not an interspecific hybrid.",
+              "zh": "Pinot × Gouais Blanc。\nVitis vinifera 种内自然杂交，并非种间杂交品种。"
+            },
+            "sources": [
+              "plantgrape",
+              "bouzeron"
+            ],
+            "links": [
+              {
+                "label": "Gouais Blanc",
+                "href": "#grapes?id=gouais-blanc"
+              }
+            ]
+          },
+          {
+            "label": {
+              "en": "Related variety",
+              "zh": "相关品种"
+            },
+            "text": {
+              "en": "Chardonnay shares the Pinot × Gouais Blanc parentage; it is a distinct variety, not a synonym of Aligoté.",
+              "zh": "Chardonnay 同属 Pinot × Gouais Blanc 亲缘组合，但为独立品种，不是 Aligoté 的同义名。"
+            },
+            "sources": [
+              "bivb"
+            ],
+            "links": [
+              {
+                "label": "Chardonnay",
+                "href": "#grapes?id=chardonnay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "viticulture",
+        "title": {
+          "en": "Viticulture",
+          "zh": "葡萄种植"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Phenology",
+              "zh": "物候"
+            },
+            "text": {
+              "en": "Early budding and early ripening. At Vassal: budburst about 1 day after Chasselas; maturity about 1½ weeks later. These are comparative observations, not Burgundy harvest dates.",
+              "zh": "早萌芽、早熟。Vassal 观测：萌芽约晚于 Chasselas 1 天，成熟约晚 1.5 周；这是相对物候数据，并非勃艮第实际采收日期。"
+            },
+            "sources": [
+              "plantgrape"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Fertility & fruit",
+              "zh": "结实与果实"
+            },
+            "text": {
+              "en": "Fertile; prone to millerandage. Small bunches and berries.",
+              "zh": "结实能力强；易出现大小粒。果穗与果粒较小。"
+            },
+            "sources": [
+              "plantgrape"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Disease susceptibility",
+              "zh": "病害敏感性"
+            },
+            "text": {
+              "en": "Susceptible to downy mildew and grey rot; relatively less affected by powdery mildew.",
+              "zh": "对霜霉病、灰霉病较敏感；相对白粉病影响较小。"
+            },
+            "sources": [
+              "plantgrape"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Doré / Vert",
+              "zh": "Doré / Vert"
+            },
+            "text": {
+              "en": "Intra-varietal types. Aligoté Doré is particularly associated with Bouzeron; local conservation work records small bunches and berries with good sugar accumulation. These are not two unrelated varieties.",
+              "zh": "品种内类型。Aligoté Doré 尤其与 Bouzeron 相关；当地保育调查记录其小果穗、小果粒及良好糖分积累。二者并非两个互不相关的品种。"
+            },
+            "sources": [
+              "bouzeron"
+            ],
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": "regions",
+        "title": {
+          "en": "Regions & Appellations",
+          "zh": "产区与法定产区"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Bourgogne Aligoté AOC",
+              "zh": "Bourgogne Aligoté AOC"
+            },
+            "text": {
+              "en": "Regional Burgundy appellation for Aligoté white wines. Production extends across Burgundy.",
+              "zh": "勃艮第地区级白葡萄酒法定产区，以 Aligoté 酿造，生产范围覆盖勃艮第多个区域。"
+            },
+            "sources": [
+              "bivb"
+            ],
+            "links": [
+              {
+                "label": "Bourgogne Aligoté",
+                "href": "#grapes?region=Bourgogne%20Aligot%C3%A9&country=France"
+              }
+            ]
+          },
+          {
+            "label": {
+              "en": "Bouzeron AOC",
+              "zh": "Bouzeron AOC"
+            },
+            "text": {
+              "en": "Côte Chalonnaise. Burgundy’s village appellation devoted exclusively to Aligoté; marl-limestone slopes are central to its identity.",
+              "zh": "位于 Côte Chalonnaise，是勃艮第专属 Aligoté 的村庄级产区；泥灰岩与石灰岩坡地是其重要风土条件。"
+            },
+            "sources": [
+              "inao"
+            ],
+            "links": [
+              {
+                "label": "Bouzeron",
+                "href": "#grapes?region=Bouzeron&country=France"
+              }
+            ]
+          },
+          {
+            "label": {
+              "en": "Morey-Saint-Denis 1er Cru",
+              "zh": "Morey-Saint-Denis 1er Cru"
+            },
+            "text": {
+              "en": "Clos des Monts-Luisants, Domaine Ponsot: a 100% Aligoté Premier Cru white. The estate lists 85% of its vines as planted in 1911 and 15% in 2006.",
+              "zh": "Domaine Ponsot 的 Clos des Monts-Luisants：100% Aligoté 一级园白葡萄酒。酒庄资料列明 85% 葡萄藤种于 1911 年、15% 种于 2006 年。"
+            },
+            "sources": [
+              "ponsot"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Other registrations",
+              "zh": "其他登记国家"
+            },
+            "text": {
+              "en": "Also registered in Bulgaria, Cyprus, Romania and the Czech Republic. Registration alone does not establish current planted area.",
+              "zh": "亦在 Bulgaria、Cyprus、Romania、Czech Republic 的品种目录登记。登记不等于当前种植面积统计。"
+            },
+            "sources": [
+              "plantgrape"
+            ],
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": "vinification",
+        "title": {
+          "en": "Vinification",
+          "zh": "酿造"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Stainless steel",
+              "zh": "不锈钢"
+            },
+            "text": {
+              "en": "Domaine Roulot: fermentation and ageing in stainless steel; malolactic fermentation; bottled after approximately one year.",
+              "zh": "Domaine Roulot：不锈钢罐发酵及熟成，进行苹果酸乳酸发酵，约一年后装瓶。"
+            },
+            "sources": [
+              "roulot"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Oak & lees",
+              "zh": "橡木桶与酒泥"
+            },
+            "text": {
+              "en": "Domaine Ponsot: fermentation starts in vats and continues in barrel; 16 months in French oak, no new wood. Michel Lafarge’s Raisins Dorés: whole-cluster pressing, ambient yeast fermentation, 15–18 months in used barrels.",
+              "zh": "Domaine Ponsot：先在罐中开始发酵，再转入桶中，法国橡木桶熟成 16 个月，不使用新桶。Michel Lafarge 的 Raisins Dorés：整串压榨、自然酵母发酵，旧桶熟成 15–18 个月。"
+            },
+            "sources": [
+              "ponsot",
+              "lafarge"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Extended élevage",
+              "zh": "较长熟成"
+            },
+            "text": {
+              "en": "Sylvain Pataille’s Clos du Roy: vertical pressing, ambient yeast fermentation and 24 months in used 350-litre barrels. Vinification depends on the producer and cuvée.",
+              "zh": "Sylvain Pataille 的 Clos du Roy：立式压榨、自然酵母发酵，350 升旧桶熟成 24 个月。具体酿造取决于生产者与酒款。"
+            },
+            "sources": [
+              "pataille"
+            ],
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": "tasting",
+        "title": {
+          "en": "Tasting",
+          "zh": "品鉴"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Structure",
+              "zh": "结构"
+            },
+            "text": {
+              "en": "Dry; high acidity; usually light to medium body. Concentration, alcohol and texture vary with site, yield, ripeness and élevage.",
+              "zh": "干型、高酸，通常酒体轻至中等。浓度、酒精度及质地受地块、产量、成熟度和熟成方式影响。"
+            },
+            "sources": [
+              "bivb"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Aromas & flavours",
+              "zh": "香气与风味"
+            },
+            "text": {
+              "en": "Lemon, green apple, white peach and white flowers; hazelnut and saline notes may occur. Oak and lees can add texture without being necessary varietal markers.",
+              "zh": "柠檬、青苹果、白桃、白花；可出现榛子及咸鲜感。橡木桶与酒泥可增加质地，但不应作为必然的品种识别特征。"
+            },
+            "sources": [
+              "bivb",
+              "inao"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Ageing",
+              "zh": "陈年"
+            },
+            "text": {
+              "en": "Not limited to early drinking. Domaine de Villaine recommends young drinking for freshness and up to ten years for greater development in its Bouzeron; apply this to the wine, not every Aligoté.",
+              "zh": "并非只能年轻饮用。Domaine de Villaine 建议其 Bouzeron 年轻时饮用以欣赏清新果味，也可陈放至约十年以获得进一步发展；这是具体酒款建议，不适用于所有 Aligoté。"
+            },
+            "sources": [
+              "villaine"
+            ],
+            "links": []
+          }
+        ]
+      },
+      {
+        "id": "similar",
+        "title": {
+          "en": "Similar Varieties & Distinctions",
+          "zh": "相近品种与辨析"
+        },
+        "rows": [
+          {
+            "label": {
+              "en": "Chardonnay",
+              "zh": "Chardonnay"
+            },
+            "text": {
+              "en": "Shared parentage does not mean identical variety. High acidity and restrained fruit overlap; neither is sufficient to identify Aligoté in a blind tasting.",
+              "zh": "亲缘相同不等于同一品种。高酸与克制的果味可有重叠，不能仅据此在盲品中判定 Aligoté。"
+            },
+            "sources": [
+              "bivb"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Aligoté Doré",
+              "zh": "Aligoté Doré"
+            },
+            "text": {
+              "en": "A type of Aligoté, not a separate grape variety or appellation. Bouzeron is an appellation; Aligoté is the variety.",
+              "zh": "Aligoté 的品种内类型，不是独立葡萄品种或法定产区。Bouzeron 是产区名，Aligoté 是品种名。"
+            },
+            "sources": [
+              "bouzeron",
+              "inao"
+            ],
+            "links": []
+          },
+          {
+            "label": {
+              "en": "Premier Cru exception",
+              "zh": "一级园例外"
+            },
+            "text": {
+              "en": "A white Morey-Saint-Denis 1er Cru need not be Chardonnay: Ponsot’s Clos des Monts-Luisants is Aligoté.",
+              "zh": "Morey-Saint-Denis 1er Cru 白葡萄酒并不必然是 Chardonnay：Ponsot 的 Clos des Monts-Luisants 使用 Aligoté。"
+            },
+            "sources": [
+              "ponsot"
+            ],
+            "links": []
+          }
+        ]
+      }
+    ],
+    "wines": [
+      {
+        "producer": "Domaine de Villaine",
+        "name": "Bouzeron",
+        "url": "https://www.de-villaine.com/en/wines/1/bouzeron",
+        "id": "dv-bouzeron"
+      },
+      {
+        "producer": "Domaine Ponsot",
+        "name": "Morey-Saint-Denis 1er Cru Clos des Monts-Luisants",
+        "url": "https://domaine-ponsot.com/produit/morey-saint-denis-monts-luisants-en/",
+        "id": "ponsot-monts-luisants"
+      },
+      {
+        "producer": "Domaine Michel Lafarge",
+        "name": "Bourgogne Aligoté Raisins Dorés",
+        "url": "https://www.beckywasserman.com/domaines/michel-lafarge/bourgogne-aligote-raisins-dores/",
+        "id": "lafarge-raisins-dores"
+      },
+      {
+        "producer": "Sylvain Pataille",
+        "name": "Bourgogne Aligoté Clos du Roy",
+        "url": "https://www.beckywasserman.com/domaines/sylvain-pataille/bourgogne-aligote-clos-du-roy/",
+        "id": "pataille-clos-du-roy-aligote"
+      },
+      {
+        "producer": "Sylvain Pataille",
+        "name": "Bourgogne Aligoté",
+        "url": "https://www.skurnik.com/sku/bourgogne-aligote-domaine-sylvain-pataille-3/",
+        "id": "pataille-bourgogne-aligote"
+      },
+      {
+        "producer": "Domaine Marquis d’Angerville",
+        "name": "Bourgogne Aligoté",
+        "url": "https://www.domainedangerville.fr/bourgogne-aligote/",
+        "id": "mdangerville-aligote"
+      },
+      {
+        "producer": "Domaine Roulot",
+        "name": "Bourgogne Aligoté",
+        "url": "https://kermitlynch.com/wine/domaine-roulot/668/RO15",
+        "id": "roulot-aligote"
+      },
+      {
+        "producer": "Domaine Pierre Morey",
+        "name": "Bourgogne Aligoté",
+        "url": "https://www.morey-meursault.fr/en/wine/bourgogne-aligote/",
+        "id": "pierre-morey-aligote"
+      },
+      {
+        "producer": "Domaine Naudin-Ferrand",
+        "name": "Le Clou 34",
+        "url": "https://naudin-ferrand.fr/nos-vins/",
+        "id": "naudin-clou34"
+      },
+      {
+        "producer": "Sylvain Morey",
+        "name": "Bourgogne Aligoté",
+        "url": "https://www.sylvainmorey.com/wines/bourgogne-aligote-2023/",
+        "id": "sylvain-morey-aligote"
+      }
+    ],
+    "keyReferences": {
+      "en": "Bourgogne Aligoté AOC; Bouzeron AOC; Domaine Ponsot · Morey-Saint-Denis 1er Cru Clos des Monts-Luisants.",
+      "zh": "Bourgogne Aligoté AOC；Bouzeron AOC；Domaine Ponsot · Morey-Saint-Denis 1er Cru Clos des Monts-Luisants。"
+    },
+    "inlineLinks": [
+      {
+        "label": "Gouais Blanc",
+        "href": "#grapes?id=gouais-blanc"
+      },
+      {
+        "label": "Chardonnay",
+        "href": "#grapes?id=chardonnay"
+      },
+      {
+        "label": "Chasselas",
+        "href": "#grapes?id=chasselas"
+      },
+      {
+        "label": "Bourgogne Aligoté AOC",
+        "href": "#grapes?region=Bourgogne%20Aligot%C3%A9&country=France"
+      },
+      {
+        "label": "Bourgogne Aligoté",
+        "href": "#grapes?region=Bourgogne%20Aligot%C3%A9&country=France"
+      },
+      {
+        "label": "Bouzeron AOC",
+        "href": "#grapes?region=Bouzeron&country=France"
+      },
+      {
+        "label": "Bouzeron",
+        "href": "#grapes?region=Bouzeron&country=France"
+      },
+      {
+        "label": "Clos des Monts-Luisants",
+        "href": "#library?type=wine&id=ponsot-monts-luisants"
+      }
+    ]
+  }
+]

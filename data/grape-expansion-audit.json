@@ -1,0 +1,1003 @@
+{
+  "reviewed": "2026-10-25",
+  "addedGrapes": 94,
+  "addedWines": 34,
+  "grapeIds": [
+    "albana",
+    "aleatico",
+    "altesse",
+    "alvarelhao",
+    "arinarnoa",
+    "arinto-dos-acores",
+    "auxerrois-blanc",
+    "blatina",
+    "bonarda-piemontese",
+    "brachetto",
+    "caino-blanco",
+    "caino-tinto",
+    "caladoc",
+    "callet",
+    "cereza",
+    "chambourcin",
+    "chatus",
+    "criolla-grande",
+    "croatina",
+    "dafni",
+    "debina",
+    "domina",
+    "dunkelfelder",
+    "duras",
+    "egiodola",
+    "elbling",
+    "faberrebe",
+    "fer-servadou",
+    "fogoneu",
+    "forcallat-tinta",
+    "freisa",
+    "fruhroter-veltliner",
+    "goldburger",
+    "goldmuskateller",
+    "gouveio-real",
+    "helfensteiner",
+    "heroldrebe",
+    "huxelrebe",
+    "jacquere",
+    "krakhuna",
+    "listan-prieto",
+    "malvasia-de-colares",
+    "malvasia-di-casorzo",
+    "malvasia-di-schierano",
+    "malvasia-nera-di-brindisi",
+    "mandilaria",
+    "manto-negro",
+    "marselan",
+    "marufo",
+    "monica",
+    "moravia-agria",
+    "nasco",
+    "negoska",
+    "neuburger",
+    "nuragus",
+    "ondenc",
+    "orangetraube",
+    "ortega",
+    "otskhanuri-sapere",
+    "pedro-gimenez",
+    "pelaverga-grosso",
+    "peloursin",
+    "persan",
+    "petit-courbu",
+    "piquepoul-noir",
+    "plyto",
+    "prokupac",
+    "prunelard",
+    "rabo-de-ovelha",
+    "ramisco",
+    "roter-veltliner",
+    "rotgipfler",
+    "rufete",
+    "seara-nova",
+    "siria",
+    "sumoll",
+    "terrantez-do-pico",
+    "tinta-francisca",
+    "tinta-negra",
+    "torrontes-mendocino",
+    "torrontes-riojano",
+    "torrontes-sanjuanino",
+    "tsitska",
+    "tsolikouri",
+    "uva-cao",
+    "uva-rara",
+    "verdesse",
+    "vespolina",
+    "vidiano",
+    "vital",
+    "vranac",
+    "zametovka",
+    "zierfandler",
+    "zilavka"
+  ],
+  "evidence": [
+    {
+      "id": "auxerrois-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/26",
+        "https://www.vinsalsace.com/en/gouts-et-couleurs/cepages/pinot-blanc-dalsace/pinot-blanc-dalsace/",
+        "https://domaine-josmeyer.com/en/products/pinot-auxerrois-h-vieilles-vignes-2022"
+      ],
+      "notes": "Canonical Auxerrois Blanc intentionally differs from existing Malbec alias Auxerrois. Search must preserve that ambiguity. Pinot colour not inferred."
+    },
+    {
+      "id": "altesse",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/9",
+        "https://vindesavoie.fr/vigneron/domaine-duspasquier",
+        "https://vindesavoie.fr/wp-content/uploads/2023/01/etudegeohistoriquevignoblepaysagesviticolessavoyards_compressed.pdf"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "jacquere",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/128",
+        "https://vindesavoie.fr/apremont"
+      ],
+      "notes": "Gouais relationship is qualified, not encoded as a complete crossing."
+    },
+    {
+      "id": "verdesse",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/284",
+        "https://www.alpes-isere.com/en/taste/thomas-finot-eco-responsible-winegrower/"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "persan",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/209",
+        "https://www.alpes-isere.com/en/taste/thomas-finot-eco-responsible-winegrower/"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "chatus",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/66",
+        "https://boutique.vignerons-ardechois.com/selections-parcellaires-reserve/3-chataignier-chatus-reserve-rouge-2024-75cl.html"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "fer-servadou",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/97",
+        "https://www.vins-plageoles.com/nos-vins/braucol/"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "duras",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/91",
+        "https://www.vins-plageoles.com/nos-vins/duras/"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "prunelard",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/230",
+        "https://www.vins-plageoles.com/nos-vins/prunelart/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/78"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "marselan",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/157",
+        "https://www.vins-rhone.com/en/marselan-grape-variety"
+      ],
+      "notes": "Primary catalogue cultivation retained where interprofessional morphology differs. No unverified China/Uruguay/Bordeaux claims added."
+    },
+    {
+      "id": "caladoc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/44",
+        "https://www.vins-rhone.com/fr/caladoc"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "egiodola",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/92",
+        "https://muscadet-la-chevrue.fr/actualites/a-la-decouverte-du-cepage-egiodola-une-occasion-unique-dans-la-region"
+      ],
+      "notes": "Genetic parents use current Pl@ntGrape identification, not obsolete Fer Servadou attribution. Producer broad disease claim was not generalized."
+    },
+    {
+      "id": "arinarnoa",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/18"
+      ],
+      "notes": "Current genetic identification Tannat × Cabernet Sauvignon retained; obsolete parent claims omitted. One primary source; no unsupported regional legal claims."
+    },
+    {
+      "id": "petit-courbu",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/210",
+        "https://www.brumont.fr/en/wine/25/larmes-celestes"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "ondenc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/198",
+        "https://www.vins-plageoles.com/nos-vins/ondenc-sec/",
+        "https://www.vins-plageoles.com/"
+      ],
+      "notes": "Primary catalogue identity and cultivation checked; region and producer examples are scoped to cited pages."
+    },
+    {
+      "id": "albana",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/en/product-sheet/albana/",
+        "https://www.consorziovinidiromagna.it/vini/albana/"
+      ],
+      "notes": "Distinct replacement for deferred Aglianicone. Roman-origin legend explicitly not treated as fact."
+    },
+    {
+      "id": "aleatico",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/en/product-sheet/aleatico/",
+        "https://vitisdb.it/varieties/show/8175",
+        "https://www.regione.puglia.it/en/web/produzioni-di-qualita/-/aleatico-di-puglia-dop"
+      ],
+      "notes": "Primary catalogue / regional body and producer evidence; uncertain complete parentage explicitly qualified. Agronomic timing is relative, not a universal harvest date."
+    },
+    {
+      "id": "malvasia-nera-di-brindisi",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/en/product-sheet/malvasia-nera/",
+        "https://www.unipa.it/persone/docenti/c/pasquale.crupi/en/?idPubblicazione=953844&pagina=pubblicazione",
+        "https://doi.org/10.17660/ActaHortic.2009.827.41"
+      ],
+      "notes": "Primary 2008 study confirms Brindisi/Lecce synonymy and full pedigree. Generic VCR Malvasia Nera sheet used only for the Apulian material it describes; no ambiguous generic photograph attached."
+    },
+    {
+      "id": "malvasia-di-casorzo",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/en/product-sheet/malvasia-di-casorzo/",
+        "https://www.casorzodoc.it/en/vini/Casorzo%2BDOC-1.html",
+        "https://www.visitlmr.it/en/vitigni/malvasia",
+        "https://iris.cnr.it/retrieve/fb9162dd-2464-4872-aa8c-dd2308742f8e/prod_434447-doc_155244.pdf"
+      ],
+      "notes": "Full parentage from 2020 SSR/SNP pedigree table; distinct from Schierano. Viticulture from VCR; sweet frizzante wine verified at Cantina di Casorzo."
+    },
+    {
+      "id": "malvasia-di-schierano",
+      "sourceUrls": [
+        "https://www.viniastimonferrato.it/en/vitigni/malvasia-di-schierano/",
+        "https://www.visitlmr.it/en/vitigni/malvasia",
+        "https://www.lacabalesta.it/biblioteca/cagliero/cagliero_3_11.html",
+        "https://www.researchgate.net/publication/302595402_The_key_role_of_Moscato_bianco_and_Malvasia_aromatica_di_Parma_in_the_parentage_of_traditional_aromatic_grape_varieties"
+      ],
+      "notes": "Primary catalogue / regional body and producer evidence; uncertain complete parentage explicitly qualified. Agronomic timing is relative, not a universal harvest date."
+    },
+    {
+      "id": "brachetto",
+      "sourceUrls": [
+        "https://www.vignaioli.it/servizi-tecnici/selezione-clonale/brachetto/vitigno-brachetto/",
+        "https://www.vignaioli.it/il-brachetto-e-il-vitigno-dellanno-2024/",
+        "https://www.brachettodacqui.com/il-territorio/"
+      ],
+      "notes": "Primary catalogue / regional body and producer evidence; uncertain complete parentage explicitly qualified. Agronomic timing is relative, not a universal harvest date."
+    },
+    {
+      "id": "freisa",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/en/product-sheet/freisa/",
+        "https://www.nature.com/articles/s41598-020-72799-6",
+        "https://www.lavedettawines.com/en/wine/freisa-dasti/",
+        "https://fps.ucdavis.edu/fgrdetails.cfm?varietyid=672"
+      ],
+      "notes": "2020 primary genetics supersedes older Freisa × Avanà conjecture. Partial parentage represented as one supported parent, with explicit incomplete-pedigree wording."
+    },
+    {
+      "id": "uva-rara",
+      "sourceUrls": [
+        "https://www.vignaioli.it/servizi-tecnici/selezione-clonale/uva-rara/vitigno-uva-rara/",
+        "https://areadocumentale.vignaioli.it/wp-content/uploads/docg_ghemme-2025.pdf",
+        "https://vitisdb.it/varieties/show/1006"
+      ],
+      "notes": "Primary catalogue / regional body and producer evidence; uncertain complete parentage explicitly qualified. Agronomic timing is relative, not a universal harvest date."
+    },
+    {
+      "id": "vespolina",
+      "sourceUrls": [
+        "https://www.vignaioli.it/servizi-tecnici/selezione-clonale/vespolina/vitigno-vespolina/",
+        "https://vitisdb.it/varieties/show/11702",
+        "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2020.605934/full"
+      ],
+      "notes": "Primary catalogue / regional body and producer evidence; uncertain complete parentage explicitly qualified. Agronomic timing is relative, not a universal harvest date."
+    },
+    {
+      "id": "croatina",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/scheda-prodotto/croatina/",
+        "https://www.vignaioli.it/servizi-tecnici/selezione-clonale/croatina/",
+        "https://vitisdb.it/varieties/show/1006"
+      ],
+      "notes": "Primary catalogue / regional body and producer evidence; uncertain complete parentage explicitly qualified. Agronomic timing is relative, not a universal harvest date."
+    },
+    {
+      "id": "bonarda-piemontese",
+      "sourceUrls": [
+        "https://vitisdb.it/varieties/show/1006",
+        "https://www.ridarocawine.it/bonarda.html"
+      ],
+      "notes": "Canonical name Bonarda Piemontese deliberately retained to avoid ambiguous Bonarda. CNR identity-verified profile preferred over consortium page that conflates Bonarda Novarese and reports conflicting phenology. No unsupported universal disease traits copied."
+    },
+    {
+      "id": "pelaverga-grosso",
+      "sourceUrls": [
+        "https://www.vignaioli.it/servizi-tecnici/selezione-clonale/pelaverga/vitigno-pelaverga/",
+        "https://www.verdunopelaverga.it/vitigno/"
+      ],
+      "notes": "Separate identity from existing Pelaverga Piccolo verified by both Vignaioli and Verduno consortium. Cultivation facts taken only from the Grosso/Cari profile, not from the Piccolo section of the consortium page."
+    },
+    {
+      "id": "nasco",
+      "sourceUrls": [
+        "https://www.sardegnaagricoltura.it/index.php?c=4402&s=45726&v=2&xsl=443",
+        "https://www.argiolas.it/prodotto/iselis-nasco/",
+        "https://www.federicogregorio.it/index.php?id=214"
+      ],
+      "notes": "Primary catalogue / regional body and producer evidence; uncertain complete parentage explicitly qualified. Agronomic timing is relative, not a universal harvest date."
+    },
+    {
+      "id": "nuragus",
+      "sourceUrls": [
+        "https://www.sardegnaagricoltura.it/index.php?c=4402&httphst=www.sardegnaagricoltura.it&s=45714&v=2&xsl=443",
+        "https://www.pala.it/vini/milleluci-nuragus/",
+        "https://www.pala.it/vini/perlia-nuragus/",
+        "https://www.sardegnaagricoltura.it/documenti/14_43_20200410125551.pdf"
+      ],
+      "notes": "No unverified flowering/ripening or disease figures invented. Official summary page conflicts with official specification on minimum grape percentage (80 vs 85); profile avoids a numerical legal claim, producer wine is explicitly 100%."
+    },
+    {
+      "id": "monica",
+      "sourceUrls": [
+        "https://www.sardegnaagricoltura.it/index.php?c=4402&s=45553&v=2&xsl=443",
+        "https://www.sardegnaagricoltura.it/documenti/14_43_20200402135607.pdf",
+        "https://www.sardegnaagricoltura.it/documenti/14_43_20200401120110.pdf",
+        "https://www.argiolas.it/prodotto/perdera/"
+      ],
+      "notes": "Primary catalogue / regional body and producer evidence; uncertain complete parentage explicitly qualified. Agronomic timing is relative, not a universal harvest date."
+    },
+    {
+      "id": "deferred-aglianicone",
+      "sourceUrls": [
+        "https://pugliawineworld.it/en/vitigni/aglianicone-n-2/",
+        "https://ngr.ucdavis.edu/FGRfamilies.cfm?varietyid=165"
+      ],
+      "notes": "Regional material called Aglianicone reported as Ciliegiolo by DNA, while Aglianico synonym inventories also use Aglianicone. Deferred rather than creating a potentially duplicated genotype; Albana substituted. This is not a universal statement that every vine named Aglianicone is Ciliegiolo."
+    },
+    {
+      "id": "tinta-negra",
+      "sourceUrls": [
+        "https://www.ivv.gov.pt/casta/tinta-negra/",
+        "https://winesofportugal.com/en/portuguese-wines/grape-varieties/tinta-negra/",
+        "https://onlinelibrary.wiley.com/doi/10.1111/ajgw.12225"
+      ],
+      "notes": "Keep Tinta Negra/Molar/Saborinho together. Rabo de Ovelha Tinto and Ramisco Tinto are qualified synonyms, not identities of the separate white Rabo de Ovelha or Ramisco records. Cunha et al.2016 molecular research differentiates this from Negramoll/Mollar Cano; Spanish Bastardo Negro is the supported synonym."
+    },
+    {
+      "id": "ramisco",
+      "sourceUrls": [
+        "https://winesofportugal.com/en/portuguese-wines/grape-varieties/ramisco/",
+        "https://www.ivv.gov.pt/np4/%7B%24clientServletPath%7D/?fileName=PDO_Colares.pdf&newsId=8617"
+      ],
+      "notes": "Primary-source catalogue and regional/producer evidence; unsupported pedigree details omitted."
+    },
+    {
+      "id": "seara-nova",
+      "sourceUrls": [
+        "https://www.iniav.pt/can/brancas/seara-nova-b",
+        "https://projects.iniav.pt/oxyrebrand/index.php/en/wine-spirit-and-its-ageing/designations-of-origin"
+      ],
+      "notes": "Primary-source catalogue and regional/producer evidence; unsupported pedigree details omitted."
+    },
+    {
+      "id": "rabo-de-ovelha",
+      "sourceUrls": [
+        "https://www.ivv.gov.pt/casta/rabo-de-ovelha/",
+        "https://www.cvrdao.pt/pt/castas/",
+        "https://winesofportugal.com/en/discover/wine-regions/beira-interior/"
+      ],
+      "notes": "Primary-source catalogue and regional/producer evidence; unsupported pedigree details omitted."
+    },
+    {
+      "id": "siria",
+      "sourceUrls": [
+        "https://winesofportugal.com/en/portuguese-wines/grape-varieties/siria/",
+        "https://www.ivv.gov.pt/np4/home.html?fileName=Aviso_Agricultura.pdf&newsId=9214",
+        "https://www.cvrdao.pt/pt/castas/"
+      ],
+      "notes": "Primary-source catalogue and regional/producer evidence; unsupported pedigree details omitted."
+    },
+    {
+      "id": "gouveio-real",
+      "sourceUrls": [
+        "https://www.iniav.pt/images/INIAV/organica/Polo_Dois_Portos/Folha_Dois_Portos/2024/novembro-2024.pdf",
+        "https://www.ivv.gov.pt/casta/gouveio-real/",
+        "https://www.iniav.pt/images/publicacoes/2017/A_identidade_das_castas_de_videira_portuguesas.pdf"
+      ],
+      "notes": "Important identity exception: INIAV November2024 gives Gouveio Real VIVC4927 and Hebén female parent. Do not merge with Gouveio/Godello VIVC12953 based on older FPS synonym compilations."
+    },
+    {
+      "id": "vital",
+      "sourceUrls": [
+        "https://www.ivv.gov.pt/casta/vital/",
+        "https://www.ivv.gov.pt/np4/file/8845/Aviso_734_2018.pdf"
+      ],
+      "notes": "Primary-source catalogue and regional/producer evidence; unsupported pedigree details omitted."
+    },
+    {
+      "id": "uva-cao",
+      "sourceUrls": [
+        "https://www.cvrdao.pt/pt/castas/",
+        "https://www.vivc.de/index.php?id=12812&r=passport%2Fview",
+        "https://casadapassarella.pt/pt/vinhos/uva-cao"
+      ],
+      "notes": "Primary-source catalogue and regional/producer evidence; unsupported pedigree details omitted."
+    },
+    {
+      "id": "tinta-francisca",
+      "sourceUrls": [
+        "https://www.ivv.gov.pt/casta/tinta-francisca/",
+        "https://quintadascarvalhas.pt/tinta-francisca/"
+      ],
+      "notes": "Ripening disagreement retained: IVV mid-ripening versus Quinta das Carvalhas late. Morphological resemblance to Pinot Noir is not a genetic claim."
+    },
+    {
+      "id": "alvarelhao",
+      "sourceUrls": [
+        "https://www.ivv.gov.pt/casta/alvarelhao/",
+        "https://vivc.de/index.php?LiteraturSearch%5Bliteratur_nr%5D=40045&r=literatur%2Flitprimename&sort=-zusatzinfo",
+        "https://www.ribeiro.wine/es/variedades-de-uva/brancellao"
+      ],
+      "notes": "Canonical Alvarelhão owns Brancellao/Brancelho, coordinated with Spain batch to avoid duplication. Regional phenology and rot-response differences retained, not flattened."
+    },
+    {
+      "id": "rufete",
+      "sourceUrls": [
+        "https://www.iniav.pt/images/INIAV/organica/Polo_Dois_Portos/Folha_Dois_Portos/2025/janeiro-2025.pdf",
+        "https://winesofportugal.com/en/portuguese-wines/grape-varieties/rufete/",
+        "https://www.ivv.gov.pt/casta/tinta-negra/",
+        "https://www.dosierradesalamanca.es/wp-content/uploads/2020/05/dossier_DOP_Sierra-Salamanca.pdf"
+      ],
+      "notes": "INIAV January2025 pedigree is Perepinhão Portalegre × Molar; Molar normalized to Tinta Negra with IVV synonym evidence. Portuguese regional coverage is explicit, not a claim of global exclusivity. Sierra de Salamanca cultivation added from the DOP dossier; Rufete Blanco remains a separate white identity."
+    },
+    {
+      "id": "malvasia-de-colares",
+      "sourceUrls": [
+        "https://www.ivv.gov.pt/casta/malvasia/",
+        "https://www.ivv.gov.pt/np4/%7B%24clientServletPath%7D/?fileName=PDO_Colares.pdf&newsId=8617",
+        "https://www.ivv.gov.pt/np4/%7B%24clientServletPath%7D/?fileName=Anu_rio_2002_2003.pdf&newsId=1736"
+      ],
+      "notes": "Canonical disambiguated as Malvasia de Colares. IVV primary profile is named Malvasia; broad Malvasia alias must remain context-qualified, never globally resolve all Malvasia records to this grape."
+    },
+    {
+      "id": "arinto-dos-acores",
+      "sourceUrls": [
+        "https://www.antoniomacanita.com/en/all-about-wines/grape-list/arinto-dos-acores",
+        "https://onlinelibrary.wiley.com/doi/10.1111/ajgw.12353",
+        "https://www.ivv.gov.pt/regioes-vitivinicolas/mapa-das-regioes/acores/",
+        "https://www.ivv.gov.pt/2026/08/12/ivv-abre-2-o-periodo-de-submissao-de-candidaturas-ao-vitis-acores-para-reestruturacao-e-conversao-de-vinhas/",
+        "https://tarelo.pt/wp-content/uploads/2025/09/FT-Tarelo-Monumental-3.pdf"
+      ],
+      "notes": "2018 original molecular research supports Verdelho as parent; complete second parent not asserted. Terrantez da Terceira is the synonym, distinct from Terrantez do Pico."
+    },
+    {
+      "id": "terrantez-do-pico",
+      "sourceUrls": [
+        "https://www.ivv.gov.pt/casta/terrantez-do-pico/",
+        "https://www.antoniomacanita.com/en/all-about-wines/grape-list/terrantez-do-pico",
+        "https://onlinelibrary.wiley.com/doi/10.1111/ajgw.12353"
+      ],
+      "notes": "Parentage sourced to original2018 paper, not secondary accounts labelling it2020. IVV and producer alcohol/yield descriptions are condition-dependent; no universal alcohol or acidity claim."
+    },
+    {
+      "id": "marufo",
+      "sourceUrls": [
+        "https://www.ivv.gov.pt/casta/marufo/",
+        "https://www.iniav.pt/images/INIAV/organica/Polo_Dois_Portos/Folha_Dois_Portos/2026/Fevereiro-2026.pdf"
+      ],
+      "notes": "Do not resolve unqualified Mourisco globally: INIAV2026 distinguishes Douro Marufo VIVC8086 from Vinho Verde Castanal VIVC23051. Full parentage left unknown."
+    },
+    {
+      "id": "listan-prieto",
+      "sourceUrls": [
+        "https://fps.ucdavis.edu/fgrdetails.cfm?varietyid=980",
+        "https://fps.ucdavis.edu/fgrdetails.cfm?varietyid=3054",
+        "https://www.argentina.gob.ar/sites/default/files/identity_and_parentage_of_some_south_american_grapevine_cultivars_present_in_argentina.pdf",
+        "https://bouchonfamilywines.com/wp-content/uploads/2022/02/WINEMAKER-NOTES-J.B.-Pais-Salvaje-2021.pdf"
+      ],
+      "notes": "Primary-source identity and technical profile; local observations are distinguished from universal varietal claims."
+    },
+    {
+      "id": "torrontes-riojano",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/407",
+        "https://piercesdisease.cdfa.ca.gov/papers/904",
+        "https://www.argentina.gob.ar/sites/default/files/2018/10/torrontes_2024.pdf",
+        "https://winesofargentina.org/assets/pdf/en/varieties.pdf"
+      ],
+      "notes": "Primary-source identity and technical profile; local observations are distinguished from universal varietal claims."
+    },
+    {
+      "id": "torrontes-sanjuanino",
+      "sourceUrls": [
+        "https://piercesdisease.cdfa.ca.gov/papers/904",
+        "https://www.argentina.gob.ar/sites/default/files/2018/10/torrontes_2024.pdf",
+        "https://winesofargentina.org/assets/pdf/en/varieties.pdf"
+      ],
+      "notes": "Primary-source identity and technical profile; local observations are distinguished from universal varietal claims."
+    },
+    {
+      "id": "torrontes-mendocino",
+      "sourceUrls": [
+        "https://piercesdisease.cdfa.ca.gov/papers/904",
+        "https://www.argentina.gob.ar/sites/default/files/2018/10/torrontes_2024.pdf",
+        "https://winesofargentina.org/assets/pdf/en/varieties.pdf"
+      ],
+      "notes": "Original 2003 parentage study establishes Muscat of Alexandria only; broad INV wording must not be used to add Listán Prieto as the second parent."
+    },
+    {
+      "id": "pedro-gimenez",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/noticias/pedro-gimenez-en-argentina-superficie-sistema-de-conduccion-y-produccion",
+        "https://www.argentina.gob.ar/sites/default/files/identity_and_parentage_of_some_south_american_grapevine_cultivars_present_in_argentina.pdf"
+      ],
+      "notes": "Primary-source identity and technical profile; local observations are distinguished from universal varietal claims."
+    },
+    {
+      "id": "criolla-grande",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/node/137146",
+        "https://www.argentina.gob.ar/sites/default/files/criolla_grande.pdf",
+        "https://www.argentina.gob.ar/normativa/nacional/norma-430315/texto",
+        "https://www.argentina.gob.ar/sites/default/files/identity_and_parentage_of_some_south_american_grapevine_cultivars_present_in_argentina.pdf"
+      ],
+      "notes": "September 2026 INV resolution acknowledges quality potential; older official assessments of generic wine use are historical rather than an inherent quality ceiling."
+    },
+    {
+      "id": "cereza",
+      "sourceUrls": [
+        "https://www.argentina.gob.ar/sites/default/files/cereza.pdf",
+        "https://www.argentina.gob.ar/node/139283",
+        "https://www.argentina.gob.ar/sites/default/files/identity_and_parentage_of_some_south_american_grapevine_cultivars_present_in_argentina.pdf"
+      ],
+      "notes": "Primary-source identity and technical profile; local observations are distinguished from universal varietal claims."
+    },
+    {
+      "id": "sumoll",
+      "sourceUrls": [
+        "https://vitisnavarra.com/variedades/uvas-tintas/sumoll-tinta/",
+        "https://incavi.gencat.cat/ca/coneix-vi-catala/denominacions-origen-catalanes/pla-bages",
+        "https://incavi.gencat.cat/ca/coneix-vi-catala/denominacions-origen-catalanes/penedes",
+        "https://montrubi.com/wp-content/uploads/2025/11/Gaintus-Radical.pdf"
+      ],
+      "notes": "Primary-source identity and technical profile; local observations are distinguished from universal varietal claims."
+    },
+    {
+      "id": "callet",
+      "sourceUrls": [
+        "https://vitisnavarra.com/variedades/uvas-tintas/callet/",
+        "https://doplaillevant.com/tipos-de-uva/",
+        "https://www.foodswinesfromspain.com/en/wine/articles/2020/june/mallorca-native-wine-grapes",
+        "https://www.sech.info/ACTAS/Acta%20n%C2%BA%2076.%20II%20Jornadas%20del%20Grupo%20de%20Viticultura/Acta%20n%C2%BA%2076.%20II%20Jornadas%20del%20Grupo%20de%20Viticultura.pdf",
+        "https://www.caib.es/sites/qualitatagroalimentaria/f/520778",
+        "https://www.annegra.com/media/files/Ficha-AN2-en.pdf",
+        "https://varietatslocalsib.com/arxius/Varietats%20de%20vinya%20de%20les%20IB%202023.pdf"
+      ],
+      "notes": "Current IRFAP name Callet Negrella replaces earlier Callet Cas Concos in parent links. Regional phenology descriptions differ; profile states observation scope."
+    },
+    {
+      "id": "manto-negro",
+      "sourceUrls": [
+        "https://vitisnavarra.com/variedades/uvas-tintas/mantonegro/",
+        "https://doplaillevant.com/tipos-de-uva/",
+        "https://www.foodswinesfromspain.com/en/wine/articles/2020/june/mallorca-native-wine-grapes",
+        "https://www.sech.info/ACTAS/Acta%20n%C2%BA%2076.%20II%20Jornadas%20del%20Grupo%20de%20Viticultura/Acta%20n%C2%BA%2076.%20II%20Jornadas%20del%20Grupo%20de%20Viticultura.pdf",
+        "https://www.caib.es/sites/qualitatagroalimentaria/f/520778",
+        "https://varietatslocalsib.com/arxius/Varietats%20de%20vinya%20de%20les%20IB%202023.pdf"
+      ],
+      "notes": "IRFAP reports Callet Negrella × Sabater. Mantonegro is a spelling synonym."
+    },
+    {
+      "id": "fogoneu",
+      "sourceUrls": [
+        "https://doplaillevant.com/tipos-de-uva/",
+        "https://iris.urv.cat/es/ipublic/item/6389239",
+        "https://www.caib.es/sites/qualitatagroalimentaria/f/520778",
+        "https://www.annegra.com/media/files/Ficha-AN2-en.pdf",
+        "https://www.foodswinesfromspain.com/en/wine/articles/2020/june/mallorca-native-wine-grapes",
+        "https://varietatslocalsib.com/arxius/Varietats%20de%20vinya%20de%20les%20IB%202023.pdf"
+      ],
+      "notes": "IRFAP 2023 confirms Fogoneu Francès synonymy and distinguishes Fogoneu Mallorquí genetically. Parents Escursac and Mancès de Capdell are reported in its 20-SSR pedigree graph."
+    },
+    {
+      "id": "forcallat-tinta",
+      "sourceUrls": [
+        "https://www.vitivinicultura.net/forcallada-tinta.html",
+        "https://www.mapa.gob.es/es/dam/jcr%3Aeceb753d-3580-4fbf-b3a8-9016308ff2e2/variedadesxccaa.19179a17044f2be2c2ae285f2f1aeb06.pdf",
+        "https://www.rafaelcambra.es/eng/forcalla-de-antonia-vino-valecnica/"
+      ],
+      "notes": "Technical profile relies on the named nursery agronomist; the Rafael Cambra indexed page was observed but the live site did not load. No unverified producer wine added."
+    },
+    {
+      "id": "moravia-agria",
+      "sourceUrls": [
+        "https://www.bodegasgratias.com/variedad-de-uva-moravia-agria/",
+        "https://www.fincaelmolar.com/moravia-agria",
+        "https://ivicam.castillalamancha.es/servicios/variedades.html",
+        "https://bodegasponce.es/wp-content/uploads/2024/01/NOTA-DE-CATA-BUENA-PINTA-2022-NACIONAL.pdf"
+      ],
+      "notes": "Primary-source identity and technical profile; local observations are distinguished from universal varietal claims."
+    },
+    {
+      "id": "caino-tinto",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/es/ficha-producto/caino-tinto/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9140530/",
+        "https://evega.xunta.gal/es/recursos-geneticos-de-la-vid/vid/caino-tinto"
+      ],
+      "notes": "Borraçal is the Portuguese synonym. EVEGA uses Caíño Redondo locally for this cultivar; VCR/research distinguish other accessions under that name. Do not globally merge. EVEGA and VCR differ on budburst. Spanish VCR disease terminology (oídio) used over inconsistent English translation."
+    },
+    {
+      "id": "caino-blanco",
+      "sourceUrls": [
+        "https://evega.xunta.gal/es/recursos-geneticos-de-la-vid/vid/caino-branco",
+        "https://www.vivairauscedo.com/en/product-sheet/caino-blanco/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9140530/",
+        "https://sjar.revistas.csic.es/index.php/sjar/article/view/253/0"
+      ],
+      "notes": "EVEGA and 2022 research support Albariño × Caíño Bravo. The parental alias Azal Tinto was not independently resolved here; retain the primary research name. Regional maturity observations preferred to unqualified VCR early-ripening wording."
+    },
+    {
+      "id": "rotgipfler",
+      "sourceUrls": [
+        "https://www.weinobst.at/dam/jcr:d6528577-bd11-4db8-8079-a18b8dd4729c/Rotgipfler.pdf",
+        "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/rotgipfler"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "zierfandler",
+      "sourceUrls": [
+        "https://www.weinobst.at/dam/jcr:66bb97c0-a256-4a88-a6fc-2fa9bde0db4d/Zierfandler.pdf",
+        "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/zierfandler"
+      ],
+      "notes": "Unknown second parent retained accurately; do not collapse into a confirmed Roter Veltliner × Traminer pedigree."
+    },
+    {
+      "id": "roter-veltliner",
+      "sourceUrls": [
+        "https://www.weinobst.at/dam/jcr:68ab64dc-7757-44c9-9ef4-304031d0332c/Roter%20Veltliner.pdf",
+        "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/roter-veltliner"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "neuburger",
+      "sourceUrls": [
+        "https://www.weinobst.at/dam/jcr:26239918-1f96-4c61-be3c-127ac8eb6d43/Neuburger.pdf",
+        "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/neuburger"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "fruhroter-veltliner",
+      "sourceUrls": [
+        "https://www.weinobst.at/dam/jcr:e23f4f78-d72d-47a3-863b-a51a3f356e1f/Fr%3FhroterVeltliner.pdf",
+        "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/fruehroter-veltliner"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "goldburger",
+      "sourceUrls": [
+        "https://www.weinobst.at/dam/jcr:c972288c-c2a7-4719-a0ee-452da0d8d65e/Goldburger.pdf",
+        "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/goldburger",
+        "https://www.vivc.de/index.php?id=4868&r=passport%2Freportpdf&var=view"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "goldmuskateller",
+      "sourceUrls": [
+        "https://www.weinobst.at/dam/jcr:86aa2330-9ec4-4e23-aee8-e09c53f5de3f/Goldmuskateller.pdf",
+        "https://www.vivairauscedo.com/scheda-prodotto/moscato-giallo/",
+        "https://www.suedtirolwein.com/weinsorten/goldmuskateller",
+        "https://www.vivc.de/index.php?id=8056&r=passport%2Fview"
+      ],
+      "notes": "Regional phenology differs; retained both contexts. VCR loose Gelber Muskateller wording is not imported as a synonym; complete parents remain unresolved."
+    },
+    {
+      "id": "orangetraube",
+      "sourceUrls": [
+        "https://www.vivc.de/index.php?id=16645&r=passport%2Fview",
+        "https://www.zahel.at/en/produkt/orangetraube-demeter-2025/",
+        "https://www.weinobst.at/dam/jcr:c972288c-c2a7-4719-a0ee-452da0d8d65e/Goldburger.pdf",
+        "https://www.vivc.de/index.php?r=eva-analysis-mikrosatelliten-abstammungen%2Freportpdf&var=16645"
+      ],
+      "notes": "VIVC marker table establishes Pinot × Chasselas; historical wild-vine selection is not evidence of absent parentage. Sparse general viticultural evidence: retained documented site context. Producer fermentation field erroneously repeats soil and was not reproduced."
+    },
+    {
+      "id": "domina",
+      "sourceUrls": [
+        "https://www.deutscheweine.de/rebsorte/115/domina/",
+        "https://traubenshow.de/informationen-zu-rebsorten/ertragsrebsorten-auswahl-in-deutschland-a-z/436-d/210-domina"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "dunkelfelder",
+      "sourceUrls": [
+        "https://www.rebschule-freytag.de/rebsortiment-details-en-287390/dunkelfelder-312.en.html",
+        "https://www.vivc.de/index.php?id=3724&r=passport%2Fviewtree"
+      ],
+      "notes": "Marker-supported Madeleine Angevine × Teinturier. Do not link parent Teinturier to existing Pinot Teinturier without identity evidence."
+    },
+    {
+      "id": "helfensteiner",
+      "sourceUrls": [
+        "https://lvwo.landwirtschaft-bw.de/%2CLde/Startseite/Fachinformationen/Von%2BAugust%2BHerold%2Bgezuechtete%2BRebsorten",
+        "https://lvwo.landwirtschaft-bw.de/,Lde/Startseite/Fachinformationen/Erkenntnisse%2Bzur%2Bgenetischen%2BAbstammung%2Bvon%2BRebsorten%2Bder%2BLVWO%2BWeinsberg",
+        "https://www.traubenshow.de/informationen-zu-rebsorten/ertragsrebsorten-auswahl-in-deutschland-a-z/440-h/224-helfensteiner",
+        "https://www.vivc.de/index.php?id=5345&r=passport%2Fview"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "heroldrebe",
+      "sourceUrls": [
+        "https://lvwo.landwirtschaft-bw.de/%2CLde/Startseite/Fachinformationen/Von%2BAugust%2BHerold%2Bgezuechtete%2BRebsorten",
+        "https://lvwo.landwirtschaft-bw.de/,Lde/Startseite/Fachinformationen/Erkenntnisse%2Bzur%2Bgenetischen%2BAbstammung%2Bvon%2BRebsorten%2Bder%2BLVWO%2BWeinsberg",
+        "https://www.rebschule-freytag.de/rebsortiment-details-de/heroldrebe.de.html",
+        "https://www.krebs-grode.de/produkt/heroldrebe-weissherbst/",
+        "https://www.krebs-grode.de/weingut/"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "faberrebe",
+      "sourceUrls": [
+        "https://www.deutscheweine.de/rebsorte/117/faberrebe/",
+        "https://www.rebschule-freytag.de/rebsortiment-details-en-287390/faberrebe-337.en.html",
+        "https://www.vivc.de/index.php?id=4029&r=passport%2Freportpdf&var=view"
+      ],
+      "notes": "Corrected Chardonnay × Müller-Thurgau pedigree; superseded Pinot Blanc parentage excluded."
+    },
+    {
+      "id": "huxelrebe",
+      "sourceUrls": [
+        "https://www.vivc.de/index.php?id=5463&r=passport%2Fview",
+        "https://www.vivc.de/index.php?r=eva-analysis-mikrosatelliten-abstammungen%2Findex&var=5463",
+        "https://www.deutscheweine.de/rebsorte/118/huxelrebe",
+        "https://www.rebschule-freytag.de/rebsortiment-details-en-287390/huxelrebe-345.en.html"
+      ],
+      "notes": "Explicit source conflict resolved in favour of VIVC microsatellite pedigree. DWI still lists Gutedel × Courtiller Musqué, Freytag partly updates to Elbling; neither supersedes marker-backed Elbling Weiss × Muscat Précoce de Saumur."
+    },
+    {
+      "id": "ortega",
+      "sourceUrls": [
+        "https://www.deutscheweine.de/rebsorte/119/ortega",
+        "https://biddendenvineyards.com/products/ortega-2024-english-wine"
+      ],
+      "notes": "Primary-source identity and technical profile; no unsupported hectare figures or universal cellar prescription."
+    },
+    {
+      "id": "debina",
+      "sourceUrls": [
+        "https://winesofgreece.org/varieties/debina/",
+        "https://zoinos.gr/en/debina-orange-2/"
+      ],
+      "notes": "Exact origin left unassigned; Epirus cultivation is established. Zoinos page observed through indexed producer content; direct fetch timed out. No unsupported alternate spellings added."
+    },
+    {
+      "id": "dafni",
+      "sourceUrls": [
+        "https://winesofgreece.org/varieties/dafni/",
+        "https://www.lyrarakis.com/en/about",
+        "https://lyrarakis.com/arxeia/HarvestReports/HarvestReport2016.pdf",
+        "https://www.lyrarakis.com/en/wines-single-area-dafni-psarades"
+      ],
+      "notes": "Revival date supported by producer history. No unverified parentage or complete alias inventory asserted."
+    },
+    {
+      "id": "plyto",
+      "sourceUrls": [
+        "https://winesofgreece.org/varieties/plyto/",
+        "https://www.lyrarakis.com/en/about",
+        "https://www.lyrarakis.com/en/wines-single-area-plyto-psarades"
+      ],
+      "notes": "Drought sensitivity explicitly supported by national body. Accent spelling is an alias, not another grape entry."
+    },
+    {
+      "id": "vidiano",
+      "sourceUrls": [
+        "https://winesofgreece.org/varieties/vidiano/",
+        "https://www.lyrarakis.com/en/wines-single-area-vidiano-ippodromos"
+      ],
+      "notes": "Primary-source synthesis; synonym list is selective, not exhaustive. Unknown parentage is limited to consulted evidence."
+    },
+    {
+      "id": "mandilaria",
+      "sourceUrls": [
+        "https://winesofgreece.org/varieties/mandelaria/",
+        "https://www.lyrarakis.com/en/wines-single-area-mandilari-plakoura"
+      ],
+      "notes": "Mandilari and Mandelaria are normalized to Mandilaria. The producer’s marketing phrase premier cru is deliberately not treated as an official Cretan classification."
+    },
+    {
+      "id": "negoska",
+      "sourceUrls": [
+        "https://winesofgreece.org/varieties/negoska/",
+        "https://winesofgreece.org/pdo/pdo-goumenissa/"
+      ],
+      "notes": "Primary-source synthesis; synonym list is selective, not exhaustive. Unknown parentage is limited to consulted evidence."
+    },
+    {
+      "id": "vranac",
+      "sourceUrls": [
+        "https://www.nature.com/articles/s41598-020-71918-7",
+        "https://winesofmacedonia.mk/vranec/",
+        "https://www.plantaze.com/en/proizvod/montenegrin-vranac/",
+        "https://stari.plantaze.com/en/product/vranac-pro-corde/",
+        "https://fps.ucdavis.edu/FGRfamilies.cfm?varietyid=1634",
+        "https://fps.ucdavis.edu/FGRfamilies.cfm?varietyid=2826"
+      ],
+      "notes": "Pedigree supported by 2020 primary DNA research; parents normalized to existing Zinfandel while preserving Kratošija in text. Older Macedonian speculation about mutation is superseded by the research. No health claims from Pro Corde marketing reproduced. FPS notes historical misapplication of Kratošija to Vranac: this is explicitly distinguished from the confirmed genotype identity."
+    },
+    {
+      "id": "zilavka",
+      "sourceUrls": [
+        "https://wineroute.ba/index.php/en/wine/zilavka",
+        "https://vinogradinuic.com/en/wines/our-varieties/"
+      ],
+      "notes": "Primary-source synthesis; synonym list is selective, not exhaustive. Unknown parentage is limited to consulted evidence."
+    },
+    {
+      "id": "zametovka",
+      "sourceUrls": [
+        "https://slovenia.si/art-and-cultural-heritage/worlds-oldest-vine",
+        "https://www.slovenia.info/en/places-to-go/attractions/world-s-oldest-vine",
+        "https://www.slovenia.info/en/stories/royal-cvicek-a-special-wine-of-europe"
+      ],
+      "notes": "Avoids exact present-day old-vine age and generalized claims from a single historic vine. Aliases backed by Slovenian public institutions."
+    },
+    {
+      "id": "blatina",
+      "sourceUrls": [
+        "https://wineroute.ba/index.php/en/wine/blatina",
+        "https://vinogradinuic.com/en/wines/our-varieties/"
+      ],
+      "notes": "Pollination requirements kept separate from DNA parentage. No blanket resistance claim. Praznobačva labelled a nickname, not a newly distinct grape."
+    },
+    {
+      "id": "prokupac",
+      "sourceUrls": [
+        "https://cevvin.rs/sorte-vinove-loze-srbije/autohtone-i-regionalne-sorte-2/prokupac/",
+        "https://vinarijaaleksandrovic.rs/en/product/prokupac/"
+      ],
+      "notes": "Ampelography from Serbian research centre; disease resistance is relative, not immunity. No unsupported DNA pedigree assigned."
+    },
+    {
+      "id": "otskhanuri-sapere",
+      "sourceUrls": [
+        "https://wine.gov.ge/En/VarietyRed?page=3&pageSize=5",
+        "https://gwa.ge/en/regions/imereti-en/",
+        "https://www.wine.gov.ge/En/Wine/1034"
+      ],
+      "notes": "National agency explicitly distinguishes this grape genetically from Saperavi. No precise universal ageing window or unverified teinturier claim used."
+    },
+    {
+      "id": "krakhuna",
+      "sourceUrls": [
+        "https://www.wine.gov.ge/En/VarietyWhite?page=2&pageSize=5",
+        "https://gwa.ge/en/regions/imereti-en/",
+        "https://dwc.ge/cellar/krakhuna"
+      ],
+      "notes": "Phenology dates are regional examples. Main agency white-variety source used chiefly for Krakhuna; other western white records use separate evidence to avoid over-reliance on one page."
+    },
+    {
+      "id": "tsolikouri",
+      "sourceUrls": [
+        "https://www.nplg.gov.ge/wikidict/index.php/Tsolikouri",
+        "https://www.winesgeorgia.uk/grape-varieties-summary/tsolikouri-pjk7n",
+        "https://telianivalley.com/en/wines-spirits/tsolikauri",
+        "https://telianivalley.com/en/wines-spirits/tvishi"
+      ],
+      "notes": "Identity distinction with Bazaleturi Tsolikouri preserved. Historical Soviet-era planting totals deliberately not reported as current. No unconditional soft-acidity claim."
+    },
+    {
+      "id": "tsitska",
+      "sourceUrls": [
+        "https://www.nplg.gov.ge/wikidict/index.php/Tsitska",
+        "https://www.openagrar.de/servlets/MCRFileNodeServlet/openagrar_derivate_00059890/Vitis-51-si-09.pdf",
+        "https://gwa.ge/en/regions/imereti-en/",
+        "https://www.winesgeorgia.com/grape-varieties/"
+      ],
+      "notes": "Tsitska skin-thickness descriptions conflict between historical and modern sources, so no categorical skin-thickness claim retained. Old ampelographic disease comparisons not represented as immunity. Vitis PDF indexed but direct retrieval encountered security check."
+    },
+    {
+      "id": "lyrarakis-dafni-psarades",
+      "sourceUrls": [
+        "https://www.lyrarakis.com/en/wines-single-area-dafni-psarades"
+      ],
+      "notes": "Producer product identity and composition verified. Vintage not specified; tasting and technical information describe the producer product page, not every historical vintage."
+    },
+    {
+      "id": "lyrarakis-plyto-psarades",
+      "sourceUrls": [
+        "https://www.lyrarakis.com/en/wines-single-area-plyto-psarades"
+      ],
+      "notes": "Producer product identity and composition verified. Vintage not specified; tasting and technical information describe the producer product page, not every historical vintage."
+    },
+    {
+      "id": "lyrarakis-vidiano-ippodromos",
+      "sourceUrls": [
+        "https://www.lyrarakis.com/en/wines-single-area-vidiano-ippodromos"
+      ],
+      "notes": "Producer product identity and composition verified. Vintage not specified; tasting and technical information describe the producer product page, not every historical vintage."
+    },
+    {
+      "id": "lyrarakis-mandilari-plakoura",
+      "sourceUrls": [
+        "https://www.lyrarakis.com/en/wines-single-area-mandilari-plakoura"
+      ],
+      "notes": "Producer product identity and composition verified. Vintage not specified; tasting and technical information describe the producer product page, not every historical vintage."
+    },
+    {
+      "id": "plantaze-vranac-pro-corde",
+      "sourceUrls": [
+        "https://stari.plantaze.com/en/product/vranac-pro-corde/"
+      ],
+      "notes": "Producer product identity and composition verified. Vintage not specified; tasting and technical information describe the producer product page, not every historical vintage."
+    },
+    {
+      "id": "teliani-valley-tvishi",
+      "sourceUrls": [
+        "https://telianivalley.com/en/wines-spirits/tvishi"
+      ],
+      "notes": "Producer product identity and composition verified. Vintage not specified; tasting and technical information describe the producer product page, not every historical vintage."
+    },
+    {
+      "id": "aleksandrovic-prokupac",
+      "sourceUrls": [
+        "https://vinarijaaleksandrovic.rs/en/product/prokupac/"
+      ],
+      "notes": "Producer product identity and composition verified. Vintage not specified; tasting and technical information describe the producer product page, not every historical vintage."
+    },
+    {
+      "id": "peloursin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/360",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/141/export"
+      ],
+      "notes": "Primary source paraphrases; a documented relative is not substituted for an unverified parent."
+    },
+    {
+      "id": "chambourcin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/59",
+        "https://missouriwine.org/education/learn-the-basics/varietals/Chambourcin"
+      ],
+      "notes": "Primary source paraphrases; a documented relative is not substituted for an unverified parent."
+    },
+    {
+      "id": "piquepoul-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/221",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/219",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/220"
+      ],
+      "notes": "Primary source paraphrases; a documented relative is not substituted for an unverified parent."
+    },
+    {
+      "id": "elbling",
+      "sourceUrls": [
+        "https://fps.ucdavis.edu/FGRfamilies.cfm?varietyid=3547",
+        "https://www.deutscheweine.de/rebsorte/99/elbling"
+      ],
+      "notes": "Primary source paraphrases; a documented relative is not substituted for an unverified parent."
+    }
+  ]
+}

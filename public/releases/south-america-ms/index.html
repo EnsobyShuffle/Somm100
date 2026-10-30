@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover"/>
+<meta name="theme-color" content="#45563e"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="application-name" content="SOMM100 MS Quiz"/><meta name="description" content="South America MS theory practice: wine and spirits."/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<link rel="icon" type="image/png" href="icon-192.png"/>
+<title>SOMM100 | South America MS Theory</title>
+<style>
+:root {
+  --olive:#45563e; --olive-dark:#2b3b27; --muted:#85917b; --ink:#20291f;
+  --edge:#e0e8d9; --back:#f4f5ef; --white:#fff; --light:#e8eee2; --red:#aa695e;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--back);font:15px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Arial,sans-serif;color:var(--ink)}
+button,input,select{font:inherit}
+button{cursor:pointer}
+button:focus-visible,select:focus-visible,input:focus-visible,.qa:focus-visible{outline:3px solid #a4b79a;outline-offset:2px}
+.shell{max-width:910px;margin:0 auto;padding:24px 20px 65px}
+.kicker{font-size:11px;letter-spacing:.14em;color:var(--muted);font-weight:760}
+.head{display:flex;align-items:flex-start;gap:12px;justify-content:space-between;margin-bottom:22px}
+.logo{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:var(--olive);color:white;font-weight:800;font-size:21px;font-family:Georgia,serif;flex:none}
+.headleft{display:flex;align-items:center;gap:14px}
+h1{font-size:30px;line-height:1.16;margin:4px 0 4px;letter-spacing:-.035em}
+.sub{font-size:12px;color:var(--muted);line-height:1.5}
+.headtools{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:end}
+.button{border:1px solid var(--edge);background:var(--white);border-radius:10px;color:var(--olive-dark);padding:9px 12px;font-weight:600;font-size:12.5px;white-space:nowrap}
+.button:hover{border-color:#9dae92}
+.button.primary{background:var(--olive);color:#fff;border-color:var(--olive)}
+.button.light{background:var(--light)}
+.button.warning{color:#a45448}
+.button:disabled{opacity:.38;cursor:default}
+.breadcrumb{margin:-7px 0 20px;color:#788674;font-size:12px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.breadcrumb .last{color:var(--ink);font-weight:650}
+.segment{display:flex;border-radius:14px;background:var(--light);padding:4px;gap:4px;width:100%}
+.segment button{border:0;background:none;color:#687860;font-size:13px;font-weight:650;padding:10px;border-radius:10px;flex:1}
+.segment button.active{background:#fff;color:var(--olive-dark);box-shadow:0 1px 5px #25352012}
+.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px}
+.select{border:1px solid var(--edge);background:white;color:var(--ink);border-radius:10px;padding:10px 12px;min-width:175px;flex:1;min-height:42px}
+.order{display:flex;align-items:center;gap:4px;border:1px solid var(--edge);background:white;border-radius:10px;padding:3px}
+.order button{border:0;border-radius:7px;background:white;padding:8px 10px;color:#72806b;font-weight:650;font-size:12px}
+.order button.active{background:var(--olive);color:white}
+.metrics{display:flex;gap:20px;align-items:center;flex-wrap:wrap;font-size:12px;color:#778570;margin:16px 0 21px}
+.metrics strong{color:var(--olive);font-size:15px}
+.section{margin:22px 0 13px;display:flex;align-items:center;gap:13px}
+.section h2{font-size:16px;margin:0;font-weight:730;letter-spacing:-.008em;color:var(--olive-dark)}
+.section .sectionline{height:1px;flex:1;background:var(--edge)}
+.section .sectioncount{font-size:11px;color:var(--muted)}
+.card{background:var(--white);border:1px solid var(--edge);border-radius:17px;margin:0 0 11px;overflow:hidden;box-shadow:0 1px 3px #20321e05}
+.qa{display:flex;align-items:center;justify-content:space-between;gap:15px;border:0;width:100%;background:transparent;color:var(--ink);padding:25px 23px;text-align:left;font-weight:700;font-size:16px;line-height:1.5;min-height:92px}
+.qa:hover{background:#fcfdf9}
+.chevron{flex:none;color:#809177;font-weight:650;font-size:19px;line-height:1}
+.answer{padding:0 23px 22px}
+.answer-inner{padding:17px 0 17px;border-top:1px solid var(--edge)}
+.answer-label{font-size:10px;font-weight:750;color:var(--muted);letter-spacing:.13em;margin-bottom:4px}
+.answer-text{font-size:14px;line-height:1.7;color:#384633}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.actions button{flex:1;min-width:120px;border-radius:9px;background:#fff;border:1px solid var(--edge);color:var(--olive-dark);font-weight:650;font-size:12px;padding:10px 7px}
+.actions button:hover{border-color:#98ac8b;background:#f8faf5}
+.actions button.active{background:var(--olive);border-color:var(--olive);color:white}
+.actions button.discard{color:#8f665f;min-width:100px}
+.actions button.discard:hover{background:#fff5f2;border-color:#e1c9c2}
+.paginate{margin:22px 0 30px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.empty{background:white;text-align:center;padding:40px 24px;border:1px solid var(--edge);border-radius:16px;color:var(--muted);margin-top:20px}
+.empty strong{color:var(--ink);display:block;margin-bottom:5px}
+.footer{margin-top:25px;padding-top:19px;border-top:1px solid var(--edge);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--muted)}
+.note{background:#eaf0e3;border-radius:12px;padding:14px;color:#5b7053;font-size:12.5px;margin:16px 0}
+.toast{position:fixed;z-index:40;bottom:20px;left:50%;transform:translateX(-50%);background:var(--olive-dark);color:white;padding:11px 16px;border-radius:10px;box-shadow:0 8px 32px #1115;font-size:13px;max-width:94vw;text-align:center}
+.modalback{position:fixed;inset:0;background:#1b241a65;z-index:30;display:grid;place-items:center;padding:15px}
+.modal{width:min(560px,100%);max-height:90vh;overflow:auto;background:white;border-radius:19px;padding:25px;box-shadow:0 15px 50px #0003}
+.modal h2{margin:0 0 7px;font-size:22px}.modal h3{margin:16px 0 7px;font-size:14px}.modal p{margin:5px 0 13px;font-size:13px;color:#64705e}.modal .stack{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.modal label{font-size:12px;font-weight:650;color:#53644c}
+.modal input{border:1px solid var(--edge);border-radius:8px;padding:10px;width:100%;font-size:14px;margin:5px 0 10px}
+.modal .controls{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
+.quiz-meta{font-size:12px;color:var(--muted);margin:14px 0;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.quiz-meta .counter{font-weight:700;color:var(--olive)}
+.badge{background:#edf2e9;border-radius:999px;padding:3px 8px;color:#6b7a65;font-size:11px}
+@media(max-width:600px){.shell{padding:17px 12px 50px}.head{align-items:center}.headleft{gap:9px}.logo{width:36px;height:36px;border-radius:10px;font-size:17px}h1{font-size:25px}.kicker{font-size:9px}.headtools .button{font-size:11px;padding:8px 9px}.headtools{gap:6px}.breadcrumb{font-size:11px}.toolbar{gap:9px}.select{width:100%;flex:100%}.order{flex:1}.order button{flex:1}.toolbar>.button{flex:0}.metrics{gap:10px 15px}.qa{font-size:15px;padding:21px 18px;min-height:83px}.answer{padding:0 18px 19px}.actions button{font-size:11.5px;min-width:90px}.actions button.discard{min-width:75px}.section{margin-top:21px}.footer{font-size:10px}.modal{padding:20px}}
+</style></head>
+<body><div id="app"></div>
+<script>window.SOMM100_QUESTIONS = [];</script>
+<script>
+(() => {
+'use strict';
+const INITIAL = window.SOMM100_QUESTIONS || []; // Generated bank retired; personal imports remain on this device.
+const STORAGE_KEY='somm100-ms-south-america-v04';
+const NEW_WORLD_BREADCRUMB='CMS Program → MS → Theory → New World → South America';
+const EDITOR_MODE=true; // Personal review build. Restrict Dismiss to authenticated editors in the shared app.
+function safeParse(v,fallback){try{return JSON.parse(v)}catch(_){return fallback}}
+function load(){try{return safeParse(localStorage.getItem(STORAGE_KEY),{})||{}}catch(_){return {}}}
+let saved=load();
+const defaults={ratings:{},discarded:[],customQuestions:[],questionUpdates:{},tab:'spirits',topic:'All Topics',order:'sequential',seed:Date.now(),page:0};
+let state={...defaults,...saved};
+if(!state.ratings || typeof state.ratings!=='object')state.ratings={};
+if(!Array.isArray(state.discarded))state.discarded=[];
+if(!Array.isArray(state.customQuestions))state.customQuestions=[];
+if(!state.questionUpdates || typeof state.questionUpdates!=='object')state.questionUpdates={};
+let opened=new Set();
+let currentView='quiz';
+let toastText='';
+let toastTimer=null;
+const PAGE_SIZE=10;
+const root=document.getElementById('app');
+function persist(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}catch(err){notify('This browser cannot save data; use Export Backup regularly.')}}
+function escapeHtml(value){return String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+const normalize=(raw)=>{
+ const q={id:String(raw.id??'').trim(),topic:String(raw.topic??'General').trim(),question:String(raw.question??raw.q??'').trim(),answer:String(raw.answer??raw.a??'').trim(),part:String(raw.part??'spirits').trim().toLowerCase()};
+ if(!q.id||!q.question||!q.answer||!['spirits','wine'].includes(q.part))return null;
+ return q;
+};
+function bank(){
+ const map=new Map();
+ [...INITIAL,...state.customQuestions].forEach(q=>{const n=normalize(q);if(n)map.set(n.id,n)});
+ Object.keys(state.questionUpdates).forEach(id=>{const n=normalize(state.questionUpdates[id]);if(n&&map.has(id))map.set(id,n)});
+ state.discarded.forEach(id=>map.delete(id));
+ return [...map.values()];
+}
+const all=()=>bank();
+function selected(){return all().filter(q=>state.tab==='all'||q.part===state.tab).filter(q=>state.topic==='All Topics'||q.topic===state.topic)}
+function shuffle(list,seed){let out=list.slice(),s=Number(seed)>>>0;s=s||21235;for(let i=out.length-1;i>0;i--){s^=s<<13;s^=s>>>17;s^=s<<5;let j=(s>>>0)%(i+1);[out[i],out[j]]=[out[j],out[i]];}return out;}
+function displayed(){const qs=selected();return state.order==='random'?shuffle(qs,state.seed):qs;}
+function count(part){return all().filter(q=>part==='all'||q.part===part).length}
+function stats(){const ids=new Set(all().map(q=>q.id));let got=0,review=0;for(const [id,r] of Object.entries(state.ratings)){if(!ids.has(id))continue;if(r.state==='known')got++;else if(r.state==='review')review++;}return {got,review,total:all().length,discarded:state.discarded.length};}
+function topics(){return ['All Topics',...new Set(all().filter(q=>state.tab==='all'||q.part===state.tab).map(q=>q.topic))]}
+function renderCard(q){const show=opened.has(q.id),st=state.ratings[q.id]?.state||'';
+ return `<article class="card" data-question-id="${escapeHtml(q.id)}"><button class="qa" type="button" data-action="toggle" data-id="${escapeHtml(q.id)}" aria-expanded="${show}"><span>${escapeHtml(q.question)}</span><span class="chevron" aria-hidden="true">${show?'⌃':'⌄'}</span></button>${show?`<div class="answer"><div class="answer-inner"><div class="answer-label">ANSWER</div><div class="answer-text">${escapeHtml(q.answer)}</div></div><div class="actions"><button type="button" data-action="rate" data-id="${escapeHtml(q.id)}" data-value="known" class="${st==='known'?'active':''}">✓ Got it</button><button type="button" data-action="rate" data-id="${escapeHtml(q.id)}" data-value="review" class="${st==='review'?'active':''}">↻ Review again</button>${EDITOR_MODE?`<button type="button" data-action="discard" data-id="${escapeHtml(q.id)}" class="discard">× Dismiss</button>`:''}</div></div>`:''}</article>`
+}
+function renderSections(qs){if(!qs.length)return `<div class="empty"><strong>No questions in this selection</strong>Choose another topic, or import more questions.</div>`;
+ let html='',last='';for(let i=0;i<qs.length;i++){
+ const q=qs[i];const title=state.order==='random'?'Random Mix':q.topic;
+ if(i===0||title!==last){html+=`<div class="section"><h2>${escapeHtml(title)}</h2><span class="sectionline"></span>${state.order==='random'?'<span class="sectioncount">10 questions per page</span>':''}</div>`;last=title;}
+ html+=renderCard(q);
+ }
+ return html;
+}
+function renderQuiz(){const choices=displayed(),len=choices.length,pages=Math.max(1,Math.ceil(len/PAGE_SIZE));state.page=Math.min(Math.max(0,state.page),pages-1);
+ const rows=choices.slice(state.page*PAGE_SIZE,(state.page+1)*PAGE_SIZE);
+ const counts=stats();
+ const opt=topics().map(t=>`<option value="${escapeHtml(t)}" ${t===state.topic?'selected':''}>${escapeHtml(t)}</option>`).join('');
+ const tabs=[['spirits','Part II · Spirits'],['wine','Part I · Wine'],['all','All']].map(([id,label])=>`<button type="button" data-action="tab" data-value="${id}" class="${state.tab===id?'active':''}" aria-pressed="${state.tab===id}">${label} <span style="opacity:.6">${id==='all'?counts.total:count(id)}</span></button>`).join('');
+ return `<section aria-label="Select quiz section"><div class="segment">${tabs}</div></section><div class="toolbar"><select class="select" id="topic" aria-label="Select topic">${opt}</select><div class="order" role="group" aria-label="Question order"><button type="button" data-action="order" data-value="sequential" class="${state.order==='sequential'?'active':''}" aria-pressed="${state.order==='sequential'}">Sequential</button><button type="button" data-action="order" data-value="random" class="${state.order==='random'?'active':''}" aria-pressed="${state.order==='random'}">Random</button></div>${state.order==='random'?'<button type="button" class="button" data-action="reshuffle">↻ Shuffle</button>':''}</div><div class="metrics"><span><strong>${len}</strong> questions</span><span><strong>${counts.got}</strong> Got it</span><span><strong>${counts.review}</strong> Review again</span><span><strong>${counts.discarded}</strong> Dismissed</span></div><div class="quiz-meta"><span class="counter">${len?state.page*PAGE_SIZE+1:0}–${Math.min((state.page+1)*PAGE_SIZE,len)}</span> of ${len} questions <span class="badge">${state.order==='sequential'?'Topic order':'Shuffled order'}</span></div>${renderSections(rows)}<nav class="paginate" aria-label="Question pages"><button type="button" class="button" data-action="prev" ${state.page===0?'disabled':''}>← Previous</button><span class="sub">${state.page+1} / ${pages}</span><button type="button" class="button" data-action="next" ${state.page>=pages-1?'disabled':''}>Next →</button></nav>`;
+}
+function renderReview(){const rows=all().filter(q=>state.ratings[q.id]?.state==='review');
+ return `<div class="section"><h2>Review again</h2><span class="sectionline"></span><span class="sectioncount">${rows.length} questions</span></div>${rows.length?rows.map(renderCard).join(''):`<div class="empty"><strong>No questions pending</strong>Mark a question “Review again” after checking the answer.</div>`}`;
+}
+function renderSettings(){const st=stats();return `<div class="section"><h2>Study & content management</h2><span class="sectionline"></span></div><div class="note"><strong>Creator edition.</strong> Dismiss permanently excludes a question from your local working bank and future exports. It is an editorial discard, not a student rating. It does not change the live SOMM100 server until you import/publish the updated bank there.</div><div class="metrics"><span><strong>${st.total}</strong> active</span><span><strong>${st.discarded}</strong> editorially discarded</span><span><strong>${st.got}</strong> mastered</span><span><strong>${st.review}</strong> review again</span></div><div class="section"><h2>Update questions</h2><span class="sectionline"></span></div><p class="sub">Import a new JSON question bank or a backup to add and revise questions while preserving study results. Discarded IDs will not be restored by importing an older bank.</p><div class="toolbar"><button type="button" class="button primary" data-action="import">Import JSON</button><button type="button" class="button" data-action="exportbank">Export active bank</button><button type="button" class="button" data-action="exportbackup">Export backup</button></div><input type="file" id="importFile" accept="application/json,.json" style="display:none"/><div class="section"><h2>Study data</h2><span class="sectionline"></span></div><p class="sub">${persistEnabled?'Stored locally on this device.':'Browser storage is unavailable; export after studying.'} Download a backup before clearing browser data, changing phones or reinstalling.</p><div class="toolbar"><button type="button" class="button warning" data-action="clearRatings">Clear learning marks</button></div>`;
+}
+let persistEnabled=true;
+try{const _k=STORAGE_KEY+'-probe';localStorage.setItem(_k,'ok');localStorage.removeItem(_k)}catch(err){persistEnabled=false;}
+function render(){const s=stats();root.innerHTML=`<main class="shell"><header class="head"><div class="headleft"><div class="logo">S</div><div><div class="kicker">SOMM100 · CMS PROGRAM · MS THEORY</div><h1>South America</h1><div class="sub">Wine & Spirits · Master Sommelier Question Bank</div></div></div><div class="headtools"><button type="button" class="button ${currentView==='quiz'?'primary':''}" data-action="view" data-value="quiz">Quiz</button><button type="button" class="button ${currentView==='review'?'primary':''}" data-action="view" data-value="review">Review (${s.review})</button><button type="button" class="button ${currentView==='settings'?'primary':''}" data-action="view" data-value="settings" aria-label="Settings">⚙</button></div></header><nav class="breadcrumb" aria-label="Breadcrumb"><span>CMS Program</span> › <span>MS</span> › <span>Theory</span> › <span>New World</span> › <span class="last">South America</span></nav>${currentView==='quiz'?renderQuiz():currentView==='review'?renderReview():renderSettings()}<footer class="footer"><span>© SOMM100 · MS study prototype v0.4 · 90 original questions</span><span>Private learning build · Not an official CMS examination</span></footer></main>`;}
+function notify(text){toastText=text;let toast=document.getElementById('toast');if(toast)toast.remove();toast=document.createElement('div');toast.id='toast';toast.className='toast';toast.setAttribute('role','status');toast.textContent=text;document.body.appendChild(toast);clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.remove(),3000)}
+function mark(id,val){if(!bank().some(q=>q.id===id))return;state.ratings[id]={state:val,at:new Date().toISOString()};persist();render();}
+function discard(id){if(!EDITOR_MODE)return;const q=bank().find(x=>x.id===id);if(!q)return;
+ if(!window.confirm('Permanently discard this question from your local working bank? It will be excluded from future exports, and there is no Undo in this editor build.'))return;
+ state.discarded=[...new Set([...state.discarded,id])];delete state.ratings[id];delete state.questionUpdates[id];state.customQuestions=state.customQuestions.filter(x=>x.id!==id);opened.delete(id);persist();render();notify('Question discarded from this working bank.');}
+function download(filename,obj){const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(url);a.remove()},200);}
+function exportBank(){download('SOMM100_MS_SouthAmerica_ActiveQuestions.json',{schema:'somm100-ms-questions',version:1,updatedAt:new Date().toISOString(),questions:bank()});}
+function backup(){download('SOMM100_MS_SouthAmerica_Backup.json',{schema:'somm100-ms-backup',version:1,updatedAt:new Date().toISOString(),state,questions:bank()});}
+function importData(file){const reader=new FileReader();reader.onload=()=>{
+  let obj=safeParse(String(reader.result),null);if(!obj){notify('Invalid JSON');return;}
+  const entries=Array.isArray(obj)?obj:Array.isArray(obj.questions)?obj.questions:[];
+  if(!entries.length){notify('No questions found in JSON');return;}
+  const parsed=entries.map(normalize);if(parsed.some(x=>!x)){notify('Some questions are missing id, part, question or answer');return;}
+  if(new Set(parsed.map(x=>x.id)).size!==parsed.length){notify('Duplicate question IDs in import');return;}
+  const isBackup=obj.schema==='somm100-ms-backup'&&obj.state;
+  if(isBackup && !window.confirm('Restore this saved backup, including your marks and discarded-question history?'))return;
+  if(isBackup){const h=obj.state;state.ratings=h.ratings||{};state.discarded=[...new Set([...(state.discarded||[]),...(h.discarded||[])])];}
+  let added=0,updated=0;const existing=new Set(INITIAL.map(q=>q.id));const extra=new Map(state.customQuestions.map(q=>[q.id,q]));
+  for(const q of parsed){if(state.discarded.includes(q.id))continue;if(existing.has(q.id)){state.questionUpdates[q.id]=q;updated++;}else{if(!extra.has(q.id))added++;extra.set(q.id,q)}}
+  state.customQuestions=[...extra.values()];state.page=0;opened.clear();persist();render();notify('Imported '+added+' new and '+updated+' updated questions.');
+ };reader.readAsText(file,'UTF-8');}
+root.addEventListener('click',ev=>{const node=ev.target.closest('[data-action]');if(!node)return;const a=node.dataset.action,id=node.dataset.id,value=node.dataset.value;
+ if(a==='toggle'){opened.has(id)?opened.delete(id):opened.add(id);render();return;}
+ if(a==='rate'){mark(id,value);return;}
+ if(a==='discard'){discard(id);return;}
+ if(a==='tab'){state.tab=value;state.topic='All Topics';state.page=0;opened.clear();persist();render();return;}
+ if(a==='order'){state.order=value;state.page=0;opened.clear();if(value==='random')state.seed=Date.now();persist();render();return;}
+ if(a==='reshuffle'){state.seed=Date.now()+Math.floor(Math.random()*100000);state.page=0;opened.clear();persist();render();return;}
+ if(a==='prev'||a==='next'){state.page+=a==='next'?1:-1;opened.clear();persist();render();window.scrollTo(0,0);return;}
+ if(a==='view'){currentView=value;opened.clear();render();window.scrollTo(0,0);return;}
+ if(a==='exportbank'){exportBank();return;}
+ if(a==='exportbackup'){backup();return;}
+ if(a==='import'){document.getElementById('importFile')?.click();return;}
+ if(a==='clearRatings'){if(window.confirm('Clear your Got it / Review again marks? Dismissed questions will remain discarded.')){state.ratings={};persist();render();notify('Learning marks cleared.')}return;}
+});
+root.addEventListener('change',ev=>{
+ if(ev.target?.id==='topic'){state.topic=ev.target.value;state.page=0;opened.clear();persist();render();}
+ if(ev.target?.id==='importFile'&&ev.target.files?.length){importData(ev.target.files[0]);ev.target.value='';}
+});
+render();
+})();
+</script>
+<script>if('serviceWorker' in navigator && location.protocol.startsWith('http')){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>
+</body></html>

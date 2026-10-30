@@ -1,0 +1,555 @@
+{
+  "rp-sortes": {
+    "sources": [
+      {
+        "id": "ratings-estate",
+        "title": "Rafael Palacios · As Sortes ratings",
+        "url": "https://www.rafaelpalacios.com/puntuaciones-as-sortes",
+        "scope": "Estate score list by vintage / 酒庄分年份评分表"
+      },
+      {
+        "id": "wa23-review",
+        "title": "The Wine Advocate · As Sortes 2023 · via Saratoga Wine",
+        "url": "https://www.saratogawine.com/product/rafael-palacios-valdeorras-as-sortes-val-do-bibei-2023-750ml/",
+        "scope": "Critic review reproduced by retailer / 酒商公开转引酒评"
+      },
+      {
+        "id": "js23-review",
+        "title": "JamesSuckling.com · As Sortes 2023 · 1 August 2025",
+        "url": "https://www.jamessuckling.com/tasting-notes/321138/rafael-palacios-godello-valdeorras-as-sortes",
+        "scope": "Public preview only; full review requires subscription / 仅使用公开摘要"
+      }
+    ],
+    "notes": [
+      {
+        "en": "The 2023 analysis strip follows Liberty Wines’ dated technical sheet. The Wine Advocate excerpt reports 14% alcohol; this differing figure remains attributed to that review.",
+        "zh": "上方 2023 分析数据采用 Liberty Wines 年份技术表；Wine Advocate 转引酒评记载酒精度为 14%。来源数值不同，分别保留出处。"
+      }
+    ],
+    "vintages": {
+      "2023": {
+        "ratings": [
+          {
+            "score": "96",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "ratings-estate",
+            "critic": "Luis Gutiérrez",
+            "date": ""
+          },
+          {
+            "score": "96",
+            "scale": "100",
+            "publication": "JamesSuckling.com",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          },
+          {
+            "score": "18",
+            "scale": "20",
+            "publication": "JancisRobinson.com",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          },
+          {
+            "score": "96",
+            "scale": "100",
+            "publication": "Guía Peñín",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          }
+        ],
+        "criticNotes": [
+          {
+            "score": "96",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "wa23-review",
+            "critic": "Luis Gutiérrez",
+            "date": "",
+            "quote": "purity and precision",
+            "summary": {
+              "en": "Gutiérrez emphasises lifted fragrance and an even balance of ripe fruit and freshness. Fine-grained texture and clear definition are central to his assessment.",
+              "zh": "Gutiérrez 强调香气的扬升感，以及成熟果味与清新感之间的平衡；细腻的颗粒质地和清晰轮廓，是他评价的重点。"
+            },
+            "sourceLabel": {
+              "en": "Review excerpt via Saratoga Wine · summary",
+              "zh": "Saratoga Wine 转引酒评 · 摘要"
+            }
+          },
+          {
+            "score": "96",
+            "scale": "100",
+            "publication": "JamesSuckling.com",
+            "sourceId": "js23-review",
+            "critic": "",
+            "date": "2025-08-01",
+            "quote": "Very mineral and austere",
+            "summary": {
+              "en": "The public preview stresses a restrained mineral impression, clearly defined acidity and a tightly drawn texture.",
+              "zh": "公开摘要强调克制的矿物感、清晰的酸度，以及紧致的口感质地。"
+            },
+            "sourceLabel": {
+              "en": "JamesSuckling.com · public preview",
+              "zh": "JamesSuckling.com · 公开摘要"
+            }
+          }
+        ]
+      },
+      "2022": {
+        "ratings": [
+          {
+            "score": "95+",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "trade22",
+            "critic": "",
+            "date": ""
+          },
+          {
+            "score": "98",
+            "scale": "100",
+            "publication": "Guía Proensa",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          },
+          {
+            "score": "95",
+            "scale": "100",
+            "publication": "Guía Peñín",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          }
+        ],
+        "criticNotes": [
+          {
+            "score": "95+",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "trade22",
+            "critic": "",
+            "date": "",
+            "quote": "a long, dry and tasty finish",
+            "summary": {
+              "en": "The review describes slow development, a more polished and approachable character, and a lively palate with an extended savoury finish despite the hot, dry season.",
+              "zh": "酒评描述其发展缓慢，逐渐变得圆融、适饮；即使来自炎热干燥的年份，口感仍有活力，干爽而咸鲜的余味持续较长。"
+            },
+            "sourceLabel": {
+              "en": "Wine Advocate via Valade & Transandine · summary",
+              "zh": "Valade & Transandine 转引 Wine Advocate · 摘要"
+            }
+          }
+        ]
+      }
+    },
+    "selling": {
+      "pitch": {
+        "en": "If you enjoy a white with depth and texture, I’d suggest As Sortes. It’s Godello from old vines high in Valdeorras: there’s breadth from barrel and lees ageing, with a fresh, dry finish. With your roast fish, that balance should work beautifully.",
+        "zh": "如果你喜欢有厚度、喝起来细腻的白葡萄酒，我会推荐 As Sortes。它来自 Valdeorras 高海拔的老藤 Godello，桶内带酒泥熟成让口感更饱满，但收口仍然清新、干爽。配你们的烤鱼，我觉得很合适。"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Who to offer it to",
+            "zh": "推荐给谁"
+          },
+          "text": {
+            "en": "Guests looking for texture, freshness and a distinctive dry white; also a way to introduce Godello to drinkers familiar with barrel-aged Chardonnay.",
+            "zh": "喜欢有质地、同时保留清新感的干白的客人；也适合向熟悉桶陈 Chardonnay 的客人介绍 Godello。"
+          },
+          "sources": []
+        },
+        {
+          "label": {
+            "en": "What makes it distinctive",
+            "zh": "值得讲的一点"
+          },
+          "text": {
+            "en": "Six old-vine parcels. Lead with the balance of weight and freshness, then add the high-altitude origin if the guest wants more detail.",
+            "zh": "来自六处老藤地块。先讲清饱满与清新的平衡，客人有兴趣时，再补充高海拔葡萄园的故事。"
+          },
+          "sources": []
+        },
+        {
+          "label": {
+            "en": "At the table",
+            "zh": "餐桌上怎么推荐"
+          },
+          "text": {
+            "en": "Roast turbot, a restrained butter sauce or mushroom roast chicken. First ask whether the guest prefers a leaner or more textured white.",
+            "zh": "可搭配烤多宝鱼、轻盈黄油汁或蘑菇烤鸡。推荐前先确认客人更喜欢轻盈，还是有厚度的白葡萄酒。"
+          },
+          "sources": []
+        }
+      ]
+    }
+  },
+  "rp-louro": {
+    "sources": [
+      {
+        "id": "ratings-estate",
+        "title": "Rafael Palacios · Louro ratings",
+        "url": "https://www.rafaelpalacios.com/puntuaciones-louro",
+        "scope": "Estate list; Wine Advocate shown as 93 / 酒庄表列 WA 93"
+      },
+      {
+        "id": "wa23-review",
+        "title": "The Wine Advocate · Louro 2023 · July 2024 · via Farr Vintners",
+        "url": "https://farrvintners.com/wine.php?wine=105992",
+        "scope": "Dated critic review reproduced by merchant / 酒商转引有日期酒评"
+      }
+    ],
+    "notes": [
+      {
+        "en": "For Louro 2023, the estate’s undated score list gives Wine Advocate 93. Farr Vintners reproduces a July 2024 Luis Gutiérrez review at 93+. The displayed rating follows that dated review; both records remain separate.",
+        "zh": "Louro 2023 的酒庄评分表列 Wine Advocate 93；Farr Vintners 转引 Luis Gutiérrez 2024 年七月酒评为 93+。此页展示后者并标注日期，两条记录分别保留。"
+      }
+    ],
+    "vintages": {
+      "2023": {
+        "ratings": [
+          {
+            "score": "93+",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "wa23-review",
+            "critic": "Luis Gutiérrez",
+            "date": "2024-07"
+          },
+          {
+            "score": "17.5",
+            "scale": "20",
+            "publication": "JancisRobinson.com",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          },
+          {
+            "score": "93",
+            "scale": "100",
+            "publication": "Guía Peñín",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          }
+        ],
+        "criticNotes": [
+          {
+            "score": "93+",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "wa23-review",
+            "critic": "Luis Gutiérrez",
+            "date": "2024-07",
+            "quote": "combining power with freshness and elegance",
+            "summary": {
+              "en": "The review finds a substantial, ripe white with herbal-balsamic hints, an appetising bitter edge and an almost saline savour. Its energy keeps the concentration in balance.",
+              "zh": "酒评呈现的是一款有浓度、成熟的白葡萄酒，带草本与香脂气息，收口有开胃的微苦和近似咸鲜的感觉；清新活力让饱满感保持平衡。"
+            },
+            "sourceLabel": {
+              "en": "Wine Advocate via Farr Vintners · summary",
+              "zh": "Farr Vintners 转引 Wine Advocate · 摘要"
+            }
+          }
+        ]
+      }
+    },
+    "selling": {
+      "pitch": {
+        "en": "Louro is a good way into Godello. It has citrus and herbal freshness, with enough body to sit comfortably alongside food. I’d suggest it if you want a dry white that feels lively without being too light.",
+        "zh": "Louro 很适合用来认识 Godello。它有柑橘和草本的清新感，口感也有一定厚度，放在餐桌上很好搭。如果你想喝一款干爽、有精神，又不觉得太轻的白葡萄酒，我会推荐它。"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Who to offer it to",
+            "zh": "推荐给谁"
+          },
+          "text": {
+            "en": "Guests who want an expressive, food-friendly dry white and are open to an unfamiliar variety.",
+            "zh": "想要一款有风味、方便配餐的干白，也愿意尝试新葡萄品种的客人。"
+          },
+          "sources": []
+        },
+        {
+          "label": {
+            "en": "What makes it distinctive",
+            "zh": "值得讲的一点"
+          },
+          "text": {
+            "en": "Large 3,500-litre oak vessels and four months on fine lees contribute to the rounded texture. Start with how the wine feels before discussing vessel sizes.",
+            "zh": "3,500 升橡木大桶与四个月细酒泥熟成，帮助形成圆润的质地。对客先讲喝起来的感觉，再按兴趣补充工艺。"
+          },
+          "sources": []
+        },
+        {
+          "label": {
+            "en": "At the table",
+            "zh": "餐桌上怎么推荐"
+          },
+          "text": {
+            "en": "Grilled prawns, roast chicken or lightly creamy seafood. Move on to the more layered As Sortes when the guest wants to explore the producer.",
+            "zh": "可配烤虾、烤鸡或轻奶油海鲜。客人想进一步认识酒庄时，再引导尝试层次更丰富的 As Sortes。"
+          },
+          "sources": []
+        }
+      ]
+    }
+  },
+  "rp-antiga": {
+    "sources": [
+      {
+        "id": "ratings-estate",
+        "title": "Rafael Palacios · Sorte Antiga ratings",
+        "url": "https://www.rafaelpalacios.com/copia-de-puntuaciones-antiga",
+        "scope": "Estate-published 2023 scores / 酒庄公布的 2023 评分"
+      },
+      {
+        "id": "critics23",
+        "title": "Sorte Antiga 2023 · Wine Advocate / JancisRobinson.com · via Fine Wine Cellar",
+        "url": "https://www.finewinecellar.co.uk/products/sorte-antiga-rafael-palacios-2023",
+        "scope": "Dated critic reviews reproduced by merchant / 酒商转引有日期酒评"
+      }
+    ],
+    "notes": [],
+    "vintages": {
+      "2023": {
+        "ratings": [
+          {
+            "score": "97+",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "ratings-estate",
+            "critic": "Luis Gutiérrez",
+            "date": ""
+          },
+          {
+            "score": "18",
+            "scale": "20",
+            "publication": "JancisRobinson.com",
+            "sourceId": "critics23",
+            "critic": "Ferran Centelles",
+            "date": "2025-08"
+          },
+          {
+            "score": "97",
+            "scale": "100",
+            "publication": "Tim Atkin",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          },
+          {
+            "score": "96",
+            "scale": "100",
+            "publication": "Guía Peñín",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          }
+        ],
+        "criticNotes": [
+          {
+            "score": "97+",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "critics23",
+            "critic": "Luis Gutiérrez",
+            "date": "2025-07",
+            "quote": "textured and nuanced",
+            "summary": {
+              "en": "Gutiérrez sees skin contact expressed mainly through tactile detail, alongside fragrant grapefruit and tangerine-peel notes. He places the emphasis on finesse and citrus freshness.",
+              "zh": "Gutiérrez 认为带皮发酵主要体现为口感细节，而非突出皮渣感；香气有葡萄柚和橘皮，他着重强调其细腻与柑橘般的清新。"
+            },
+            "sourceLabel": {
+              "en": "Wine Advocate via Fine Wine Cellar · summary",
+              "zh": "Fine Wine Cellar 转引 Wine Advocate · 摘要"
+            }
+          },
+          {
+            "score": "18",
+            "scale": "20",
+            "publication": "JancisRobinson.com",
+            "sourceId": "critics23",
+            "critic": "Ferran Centelles",
+            "date": "2025-08",
+            "quote": "delicacy and softness",
+            "summary": {
+              "en": "Centelles highlights quince, smoky and chalk-like impressions, with an unusually gentle texture for a skin-contact wine and a persistent stony finish.",
+              "zh": "Centelles 提到榅桲、烟熏及白垩般的感受，尤其欣赏带皮发酵酒中少见的柔和质地，以及持续的石质感余味。"
+            },
+            "sourceLabel": {
+              "en": "JancisRobinson.com via Fine Wine Cellar · summary",
+              "zh": "Fine Wine Cellar 转引 JancisRobinson.com · 摘要"
+            }
+          }
+        ]
+      }
+    },
+    "selling": {
+      "pitch": {
+        "en": "This is a very particular expression of Godello, from a tiny vineyard planted in 1920. Fermenting with the skins adds texture, while the citrus character stays fresh and delicate. I’d choose it for someone who enjoys a white with a little more savoury depth.",
+        "zh": "这是一款很有个性的 Godello，来自一小块 1920 年种植的葡萄园。带皮发酵带来了更丰富的质地，同时保留清新、细腻的柑橘气息。如果你喜欢白葡萄酒多一点咸鲜感和层次，我会选它。"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Who to offer it to",
+            "zh": "推荐给谁"
+          },
+          "text": {
+            "en": "Curious drinkers interested in old vines, single parcels or skin contact, especially those who value subtlety.",
+            "zh": "对老藤、单一地块或带皮发酵感兴趣，且重视细腻感的客人。"
+          },
+          "sources": []
+        },
+        {
+          "label": {
+            "en": "What makes it distinctive",
+            "zh": "值得讲的一点"
+          },
+          "text": {
+            "en": "An ungrafted 1920 planting on just 0.24 hectares. Describe the texture first; the 2023 critics emphasise delicacy.",
+            "zh": "0.24 公顷的小地块，1920 年种植的自根老藤。先说明质地特点；2023 年酒评着重强调细腻。"
+          },
+          "sources": []
+        },
+        {
+          "label": {
+            "en": "At the table",
+            "zh": "餐桌上怎么推荐"
+          },
+          "text": {
+            "en": "Roast poultry, mushrooms or richer shellfish dishes. Explain the skin-contact style before opening.",
+            "zh": "可考虑烤禽、蘑菇或质地丰富的贝类料理。开瓶前先让客人了解它的带皮发酵风格。"
+          },
+          "sources": []
+        }
+      ]
+    }
+  },
+  "rp-soro": {
+    "sources": [
+      {
+        "id": "ratings-estate",
+        "title": "Rafael Palacios · Sorte O Soro ratings",
+        "url": "https://www.rafaelpalacios.com/puntuaciones-o-soro",
+        "scope": "Estate-published 2022 scores / 酒庄公布的 2022 评分"
+      },
+      {
+        "id": "wa22-review",
+        "title": "The Wine Advocate · Sorte O Soro 2022 · via Millésima",
+        "url": "https://www.millesima.com/rafael-palacios-sorte-o-soro-2022.html",
+        "scope": "Luis Gutiérrez review reproduced by merchant / 酒商转引酒评"
+      }
+    ],
+    "notes": [
+      {
+        "en": "The analysis strip follows Liberty Wines’ 2022 sheet (acidity 7.46 g/L, pH 3.15). The Wine Advocate review reproduced by Millésima reports 7.9 g/L and pH 2.97. These source differences remain unresolved; no averaged figure is shown.",
+        "zh": "分析栏采用 Liberty Wines 2022 技术表：酸度 7.46 g/L、pH 3.15。Millésima 转引 Wine Advocate 为 7.9 g/L、pH 2.97。来源差异尚未解决，保留各自出处，不取平均值。"
+      }
+    ],
+    "vintages": {
+      "2022": {
+        "ratings": [
+          {
+            "score": "98",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "ratings-estate",
+            "critic": "Luis Gutiérrez",
+            "date": ""
+          },
+          {
+            "score": "98",
+            "scale": "100",
+            "publication": "Guía Peñín",
+            "sourceId": "ratings-estate",
+            "critic": "",
+            "date": ""
+          }
+        ],
+        "criticNotes": [
+          {
+            "score": "98",
+            "scale": "100",
+            "publication": "The Wine Advocate",
+            "sourceId": "wa22-review",
+            "critic": "Luis Gutiérrez",
+            "date": "",
+            "quote": "purity, precision and very integrated oak",
+            "summary": {
+              "en": "Gutiérrez describes a wine developing slowly, with ripe power kept in check by freshness. He highlights its poise and discreet oak, despite the warm growing season.",
+              "zh": "Gutiérrez 描述其发展缓慢，成熟的力量感仍由清新度平衡；他尤其强调这款酒在温暖年份里保持的从容感，以及融入酒体的橡木。"
+            },
+            "sourceLabel": {
+              "en": "Wine Advocate via Millésima · summary",
+              "zh": "Millésima 转引 Wine Advocate · 摘要"
+            }
+          }
+        ],
+        "cellarNotes": [
+          {
+            "label": {
+              "en": "Vintage review detail",
+              "zh": "年份酒评补充"
+            },
+            "text": {
+              "en": "Gutiérrez’s 2022 review records fermentation in 500-litre barrels followed by maturation in an oval 1,500-litre foudre. This is more specific than the Liberty Wines sheet’s barrel-and-lees description above.",
+              "zh": "Gutiérrez 的 2022 酒评记载：500 升桶发酵后，转入 1,500 升椭圆形大桶熟成；这一记录比上方 Liberty Wines 技术表的桶与酒泥描述更具体。"
+            },
+            "sources": [
+              "wa22-review"
+            ]
+          }
+        ]
+      }
+    },
+    "selling": {
+      "pitch": {
+        "en": "Sorte O Soro is Rafael Palacios’s single-vineyard Godello from a site at 710 metres. What makes it compelling is the concentration and length without losing freshness. I’d suggest it if you’d like one bottle to spend time with over the meal.",
+        "zh": "Sorte O Soro 是 Rafael Palacios 来自海拔 710 米单一葡萄园的 Godello。它吸引人的地方，是浓度和余味很出色，同时保持清新。如果你想选一瓶在整顿饭里慢慢感受变化的白葡萄酒，我会推荐它。"
+      },
+      "rows": [
+        {
+          "label": {
+            "en": "Who to offer it to",
+            "zh": "推荐给谁"
+          },
+          "text": {
+            "en": "Guests seeking a distinctive single-vineyard white, including experienced drinkers exploring ambitious Spanish Godello.",
+            "zh": "希望喝到有明确单一园个性的白葡萄酒，或想深入认识西班牙高水平 Godello 的客人。"
+          },
+          "sources": []
+        },
+        {
+          "label": {
+            "en": "What makes it distinctive",
+            "zh": "值得讲的一点"
+          },
+          "text": {
+            "en": "The 1978 planting, high-altitude site and granite-based soils give a concrete vineyard story. Match the review and score to the bottle’s vintage.",
+            "zh": "1978 年种植、高海拔和花岗岩土壤，让它有一个具体可讲的葡萄园故事。推荐时使用与酒瓶对应年份的评分与酒评。"
+          },
+          "sources": []
+        },
+        {
+          "label": {
+            "en": "At the table",
+            "zh": "餐桌上怎么推荐"
+          },
+          "text": {
+            "en": "Roast turbot or lobster with a restrained sauce. Use a generous white-wine glass and follow its development through the meal.",
+            "zh": "可配烤多宝鱼或龙虾，酱汁保持克制。用杯肚较宽的白葡萄酒杯，随用餐观察变化。"
+          },
+          "sources": []
+        }
+      ]
+    }
+  }
+}

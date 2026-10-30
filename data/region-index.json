@@ -1,0 +1,4636 @@
+[
+  {
+    "id": "fr-ajaccio",
+    "name": "Ajaccio",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Ajaccio"
+    ],
+    "intro": {
+      "en": "Western Corsican appellation with a strong Sciaccarellu identity.",
+      "zh": "Corsica 西部产区，Sciaccarellu 身份突出。"
+    },
+    "grapeIds": [
+      "sciaccarello",
+      "vermentino",
+      "sangiovese",
+      "cinsault",
+      "brustianu"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-alsace",
+    "name": "Alsace",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Alsace"
+    ],
+    "intro": {
+      "en": "Alsace is a vineyard corridor east of the Vosges; grape, site and sweetness are separate dimensions.",
+      "zh": "Alsace 为 Vosges 东侧葡萄园带；品种、地块、甜度须分别理解。"
+    },
+    "grapeIds": [
+      "riesling",
+      "gewurztraminer",
+      "pinot-gris",
+      "pinot-blanc",
+      "pinot-noir",
+      "silvaner",
+      "auxerrois-blanc",
+      "muscat-blanc-a-petits-grains",
+      "muscat-ottonel",
+      "chasselas",
+      "savagnin-rose",
+      "knipperle",
+      "goldriesling"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-armagnac",
+    "name": "Armagnac",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Armagnac"
+    ],
+    "intro": {
+      "en": "Protected Gascon grape-spirit identity with three principal terroirs.",
+      "zh": "受保护 Gascon 葡萄蒸馏酒身份，有三大风土区。"
+    },
+    "grapeIds": [
+      "trebbiano-toscano",
+      "baco-blanc",
+      "colombard",
+      "folle-blanche",
+      "blanc-dame",
+      "graisse",
+      "jurancon-blanc",
+      "mauzac-blanc",
+      "mauzac-rose",
+      "meslier-saint-francois"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-auvergne-allier",
+    "name": "Auvergne / Allier",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Auvergne & Allier"
+    ],
+    "intro": {
+      "en": "A Massif Central regional grouping containing distinct Auvergne and Saint-Pourçain identities.",
+      "zh": "Massif Central 区域组合，含不同 Auvergne、Saint-Pourçain 身份。"
+    },
+    "grapeIds": [
+      "sacy",
+      "saint-pierre-dore",
+      "gouget",
+      "noir-fleurien"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-bandol",
+    "name": "Bandol",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Bandol"
+    ],
+    "intro": {
+      "en": "Provençal appellation particularly associated with Mourvèdre reds and rosés.",
+      "zh": "Provence 产区，尤其关联 Mourvèdre 红、桃红。"
+    },
+    "grapeIds": [
+      "monastrell",
+      "garnacha-tinta",
+      "cinsault",
+      "clairette-blanche",
+      "bourboulenc",
+      "trebbiano-toscano",
+      "carignan",
+      "syrah",
+      "marsanne",
+      "sauvignon-blanc",
+      "semillon",
+      "vermentino",
+      "mourvaison",
+      "counoise",
+      "xinomavro",
+      "nero-d-avola",
+      "agiorgitiko",
+      "garnacha-blanca",
+      "carignan-blanc",
+      "terret-blanc",
+      "assyrtiko",
+      "mourvedre-blanc",
+      "mourvedre-gris"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-bearn",
+    "name": "Béarn",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Béarn"
+    ],
+    "intro": {
+      "en": "Foothill red, rosé and white wines, with Raffiat de Moncade a white distinction.",
+      "zh": "山麓红、桃红、白酒，Raffiat de Moncade 为白酒特色。"
+    },
+    "grapeIds": [
+      "gros-manseng",
+      "petit-manseng",
+      "raffiat-de-moncade",
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "tannat",
+      "camaralet",
+      "courbu-blanc",
+      "lauzet",
+      "petit-courbu",
+      "sauvignon-blanc",
+      "courbu-noir",
+      "fer-servadou",
+      "manseng-noir"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-beaujolais",
+    "name": "Beaujolais",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Beaujolais"
+    ],
+    "intro": {
+      "en": "Gamay-focused region south of Mâcon, encompassing early-drinking and ageworthy cru wines.",
+      "zh": "Mâcon 以南以 Gamay 为核心，兼早饮及可陈年 cru 酒。"
+    },
+    "grapeIds": [
+      "gamay",
+      "chardonnay",
+      "granita",
+      "beaugaray",
+      "gaminot",
+      "picarlat"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-bellet",
+    "name": "Bellet",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Bellet"
+    ],
+    "intro": {
+      "en": "Small independent appellation on the hills above Nice.",
+      "zh": "Nice 上方丘陵的小型独立产区。"
+    },
+    "grapeIds": [
+      "brachet",
+      "fuella-nera",
+      "vermentino",
+      "cinsault",
+      "garnacha-tinta",
+      "bourboulenc",
+      "blanqueiron",
+      "clairette-blanche",
+      "mayorquin",
+      "trebbiano-toscano",
+      "chardonnay",
+      "muscat-blanc-a-petits-grains"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-bergerac-duras",
+    "name": "Bergerac / Duras",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Bergerac / Duras"
+    ],
+    "intro": {
+      "en": "Neighbouring southwestern appellations with Bordeaux-family grapes and independent identities.",
+      "zh": "西南相邻产区，使用 Bordeaux 系品种但身份独立。"
+    },
+    "grapeIds": [
+      "merlot",
+      "cabernet-sauvignon",
+      "cabernet-franc",
+      "malbec",
+      "semillon",
+      "sauvignon-blanc",
+      "muscadelle",
+      "trebbiano-toscano",
+      "chenin-blanc",
+      "merille"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-bordeaux",
+    "name": "Bordeaux",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Bordeaux"
+    ],
+    "intro": {
+      "en": "An Atlantic wine region of separate appellations, red blends, dry whites, sweet wines and multiple estate-classification systems.",
+      "zh": "大西洋葡萄酒区，含独立产区、红调配、干白、甜酒及多种酒庄分级。"
+    },
+    "grapeIds": [
+      "merlot",
+      "cabernet-sauvignon",
+      "cabernet-franc",
+      "semillon",
+      "sauvignon-blanc",
+      "muscadelle",
+      "petit-verdot",
+      "malbec",
+      "carmenere",
+      "colombard",
+      "merlot-blanc",
+      "sauvignon-gris",
+      "trebbiano-toscano",
+      "maturana-tinta",
+      "liliorila",
+      "albarino",
+      "arinarnoa",
+      "marselan",
+      "touriga-nacional",
+      "mancin",
+      "saint-macaire",
+      "pardotte",
+      "monbadon"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-bourgogne",
+    "name": "Bourgogne",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Bourgogne"
+    ],
+    "intro": {
+      "en": "A hierarchy of regional, village and vineyard names connects grape varieties to specific sites.",
+      "zh": "大区、村庄及葡萄园名称层级，将品种与特定地块相连。"
+    },
+    "grapeIds": [
+      "chardonnay",
+      "pinot-noir",
+      "aligote",
+      "gamay",
+      "sauvignon-blanc",
+      "cesar",
+      "pinot-gris",
+      "sacy",
+      "melon-de-bourgogne",
+      "roublot",
+      "tressot"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-bourgogne-aligote",
+    "name": "Bourgogne Aligoté",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Bourgogne Aligoté"
+    ],
+    "intro": {
+      "en": "Regional Bourgogne white appellation dedicated to Aligoté.",
+      "zh": "专门对应 Aligoté 的 Bourgogne 大区白酒产区。"
+    },
+    "grapeIds": [
+      "aligote"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-bugey",
+    "name": "Bugey",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Bugey"
+    ],
+    "intro": {
+      "en": "Ain foothill vineyards between Jura and Savoie, with distinct still and sparkling traditions.",
+      "zh": "Ain 山麓葡萄园，介 Jura、Savoie 之间，静止起泡传统各异。"
+    },
+    "grapeIds": [
+      "chardonnay",
+      "altesse",
+      "gamay",
+      "pinot-noir",
+      "mondeuse-noire",
+      "poulsard",
+      "aligote",
+      "mondeuse-blanche",
+      "pinot-gris",
+      "jacquere",
+      "molette"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-cahors",
+    "name": "Cahors",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Cahors"
+    ],
+    "intro": {
+      "en": "A Lot-valley red appellation centred on Malbec.",
+      "zh": "以 Malbec 为核心的 Lot 河谷红酒产区。"
+    },
+    "grapeIds": [
+      "malbec",
+      "merlot",
+      "tannat",
+      "noual",
+      "gibert"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-centre-loire",
+    "name": "Centre-Loire",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Centre-Loire"
+    ],
+    "intro": {
+      "en": "A group of inland Loire appellations, particularly known for Sauvignon Blanc, with important red and other white identities.",
+      "zh": "Loire 内陆产区群，以 Sauvignon Blanc 突出，也有重要红酒及其他白酒。"
+    },
+    "grapeIds": [
+      "sauvignon-blanc",
+      "pinot-noir",
+      "gamay",
+      "pinot-gris",
+      "chasselas",
+      "chardonnay",
+      "melon-de-bourgogne"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-champagne",
+    "name": "Champagne",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Champagne"
+    ],
+    "intro": {
+      "en": "Northeastern French sparkling-wine appellation based on cool-climate grapes, blending and bottle fermentation; neighbouring still-wine AOCs are separate.",
+      "zh": "法国东北部起泡酒产区，以凉爽气候葡萄、调配和瓶中发酵为核心；相邻静止酒 AOC 另列。"
+    },
+    "grapeIds": [
+      "chardonnay",
+      "pinot-noir",
+      "pinot-meunier",
+      "arbane",
+      "petit-meslier",
+      "pinot-blanc",
+      "pinot-gris",
+      "chardonnay-rose",
+      "voltis",
+      "bachet"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-cognac-charentes",
+    "name": "Cognac / Charentes",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Cognac / Charentes"
+    ],
+    "intro": {
+      "en": "Charentais viticultural territory containing Cognac spirit production and separate wine identities; this profile is geographic, not a single wine AOC.",
+      "zh": "Charentes 栽培区域，含 Cognac 蒸馏酒及独立葡萄酒身份；本页为地理区域，不是单一葡萄酒 AOC。"
+    },
+    "grapeIds": [
+      "trebbiano-toscano",
+      "colombard",
+      "folle-blanche",
+      "montils",
+      "semillon",
+      "folignan",
+      "trousseau-gris",
+      "monbadon"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-corsica",
+    "name": "Corsica",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Corsica"
+    ],
+    "intro": {
+      "en": "A mountainous Mediterranean island with distinct coastal, inland and local-variety identities.",
+      "zh": "多山地中海岛屿，海岸、内陆及地方品种身份各异。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "sciaccarello",
+      "vermentino",
+      "biancu-gentile",
+      "carcajolo",
+      "codivarta",
+      "genovese",
+      "barbaroux",
+      "aleatico",
+      "graciano",
+      "brustianu",
+      "carcajolo-blanc",
+      "cualtacciu",
+      "muresconu",
+      "pagadebiti",
+      "rossula-bianca",
+      "uva-biancona",
+      "vintaghju",
+      "albana",
+      "aubun",
+      "muriscu",
+      "muscateddu",
+      "garnacha-tinta",
+      "cinsault",
+      "monastrell",
+      "syrah",
+      "carignan",
+      "muscat-blanc-a-petits-grains",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-coteaux-du-gier",
+    "name": "Coteaux du Gier",
+    "country": "France",
+    "kind": "subregion",
+    "aliases": [
+      "Coteaux du Gier"
+    ],
+    "intro": {
+      "en": "A revived vineyard area around the Gier valley, important for rare local grapes.",
+      "zh": "Gier 谷地周边复兴葡萄园区，对稀有地方品种重要。"
+    },
+    "grapeIds": [
+      "mornen",
+      "chouchillon",
+      "bia"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-coteaux-du-lyonnais",
+    "name": "Coteaux du Lyonnais",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Coteaux du Lyonnais"
+    ],
+    "intro": {
+      "en": "Small wine appellation west and southwest of Lyon.",
+      "zh": "Lyon 西、西南的小型葡萄酒产区。"
+    },
+    "grapeIds": [
+      "gamay",
+      "chardonnay",
+      "aligote"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-cotes-de-gascogne",
+    "name": "Côtes de Gascogne IGP",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Côtes-de-Gascogne"
+    ],
+    "intro": {
+      "en": "A major Gascon wine IGP, particularly associated with aromatic whites.",
+      "zh": "Gascon 重要葡萄酒 IGP，尤其关联芳香白酒。"
+    },
+    "grapeIds": [
+      "colombard",
+      "gros-manseng",
+      "petit-manseng",
+      "trebbiano-toscano",
+      "sauvignon-blanc",
+      "chardonnay",
+      "chenin-blanc",
+      "merlot",
+      "tannat",
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "malbec",
+      "syrah",
+      "arrufiac",
+      "baroque",
+      "chasan",
+      "clairette-blanche",
+      "clairette-rose",
+      "courbu-blanc",
+      "petit-courbu",
+      "folle-blanche",
+      "palomino",
+      "pinot-gris",
+      "mauzac-blanc",
+      "mauzac-rose",
+      "muscadelle",
+      "ondenc",
+      "perdea",
+      "raffiat-de-moncade",
+      "sauvignon-gris",
+      "semillon",
+      "viognier",
+      "courbu-noir",
+      "egiodola",
+      "fer-servadou",
+      "gamay",
+      "gamay-de-bouze",
+      "gamay-de-chaudenay",
+      "jurancon-noir",
+      "pinot-noir",
+      "marselan",
+      "manseng-noir"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-cotes-du-marmandais",
+    "name": "Côtes-du-Marmandais",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Côtes-du-Marmandais"
+    ],
+    "intro": {
+      "en": "A Garonne-side appellation with local Abouriou alongside Bordeaux-family grapes.",
+      "zh": "Garonne 两岸产区，地方 Abouriou 与 Bordeaux 系品种并存。"
+    },
+    "grapeIds": [
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "merlot",
+      "sauvignon-blanc",
+      "sauvignon-gris",
+      "abouriou",
+      "malbec",
+      "fer-servadou",
+      "gamay",
+      "syrah",
+      "muscadelle",
+      "semillon"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-fronton",
+    "name": "Fronton",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Fronton"
+    ],
+    "intro": {
+      "en": "A red and rosé appellation distinguished by Négrette.",
+      "zh": "以 Négrette 为特色的红、桃红产区。"
+    },
+    "grapeIds": [
+      "negrette",
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "cinsault",
+      "malbec",
+      "fer-servadou",
+      "gamay",
+      "merille",
+      "syrah",
+      "bouysselet",
+      "negret-pounjut"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-gaillac",
+    "name": "Gaillac",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Gaillac"
+    ],
+    "intro": {
+      "en": "A Tarn-region appellation with unusually diverse local grapes and wine styles.",
+      "zh": "Tarn 地区产区，地方品种及风格多样。"
+    },
+    "grapeIds": [
+      "len-de-lel",
+      "mauzac-blanc",
+      "mauzac-rose",
+      "muscadelle",
+      "duras",
+      "fer-servadou",
+      "prunelard",
+      "syrah",
+      "ondenc",
+      "sauvignon-blanc",
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "gamay",
+      "merlot",
+      "verdanel"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-hautes-alpes",
+    "name": "Hautes-Alpes IGP",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Hautes-Alpes / Haute Durance"
+    ],
+    "intro": {
+      "en": "Alpine departmental wine IGP with an important Mollard heritage.",
+      "zh": "阿尔卑斯省级葡萄酒 IGP，Mollard 传统重要。"
+    },
+    "grapeIds": [
+      "mollard",
+      "muscat-blanc-a-petits-grains",
+      "chardonnay",
+      "merlot",
+      "plant-droit"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-irouleguy",
+    "name": "Irouléguy",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Irouléguy"
+    ],
+    "intro": {
+      "en": "French Basque foothill appellation producing red, rosé and white wines.",
+      "zh": "法国 Basque 山麓产区，产红、桃红、白。"
+    },
+    "grapeIds": [
+      "cabernet-franc",
+      "tannat",
+      "courbu-blanc",
+      "gros-manseng",
+      "petit-courbu",
+      "petit-manseng",
+      "cabernet-sauvignon",
+      "crouchen"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-isere-dauphine",
+    "name": "Isère / Dauphiné",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Isère / Dauphiné"
+    ],
+    "intro": {
+      "en": "Regional vineyard geography containing Isère IGP and distinct local sectors.",
+      "zh": "地区葡萄园地理，含 Isère IGP 及不同地方片区。"
+    },
+    "grapeIds": [
+      "verdesse",
+      "etraire-de-la-dui",
+      "persan",
+      "joubertin",
+      "douce-noire",
+      "mollard",
+      "jacquere",
+      "viognier",
+      "durif",
+      "onchette",
+      "mecle",
+      "servanin",
+      "bia",
+      "sereneze",
+      "peloursin",
+      "robin-noir"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-jura-franche-comte",
+    "name": "Jura & Franche-Comté",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Jura & Franche-Comté"
+    ],
+    "intro": {
+      "en": "Jura combines local grapes, topped-up whites and sous-voile styles; wider Franche-Comté heritage extends beyond these AOCs.",
+      "zh": "Jura 结合地方品种、添桶白酒与酒膜风格；更广 Franche-Comté 传统不限于这些 AOC。"
+    },
+    "grapeIds": [
+      "chardonnay",
+      "savagnin-blanc",
+      "poulsard",
+      "trousseau",
+      "pinot-noir",
+      "beclan",
+      "enfarine-noir",
+      "gueuche-noir",
+      "franc-noir-de-la-haute-saone"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-jurancon",
+    "name": "Jurançon",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Jurançon"
+    ],
+    "intro": {
+      "en": "Pyrenean-foothill dry and sweet whites retaining strong acidity.",
+      "zh": "比利牛斯山麓干、甜白酒，保留鲜明酸度。"
+    },
+    "grapeIds": [
+      "gros-manseng",
+      "petit-manseng",
+      "camaralet",
+      "courbu-blanc",
+      "petit-courbu",
+      "lauzet"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-languedoc",
+    "name": "Languedoc",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Languedoc"
+    ],
+    "intro": {
+      "en": "A Mediterranean wine region containing many AOCs and IGPs; broad regional geography differs from Languedoc AOC.",
+      "zh": "地中海酒区，含多个 AOC、IGP；广义地区与 Languedoc AOC 不同。"
+    },
+    "grapeIds": [
+      "garnacha-tinta",
+      "syrah",
+      "monastrell",
+      "garnacha-blanca",
+      "clairette-blanche",
+      "bourboulenc",
+      "piquepoul-blanc",
+      "roussanne",
+      "marsanne",
+      "vermentino",
+      "tourbat",
+      "cinsault",
+      "carignan",
+      "carignan-blanc",
+      "terret-blanc",
+      "trebbiano-toscano",
+      "viura",
+      "viognier",
+      "aramon",
+      "rivairenc",
+      "terret-noir",
+      "counoise",
+      "picardan",
+      "piquepoul-noir",
+      "carignan-gris",
+      "grenache-gris",
+      "clairette-rose",
+      "aramon-blanc",
+      "oeillade-noire",
+      "rivairenc-gris",
+      "terret-gris",
+      "grand-noir-de-la-calmette"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-loire-valley",
+    "name": "Loire Valley",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Loire Valley"
+    ],
+    "intro": {
+      "en": "A west–east sequence of independent wine regions along the Loire and its tributaries, not one appellation.",
+      "zh": "沿 Loire 与支流由西向东的一系列独立酒区，不是单一法定产区。"
+    },
+    "grapeIds": [
+      "melon-de-bourgogne",
+      "folle-blanche",
+      "chenin-blanc",
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "sauvignon-blanc",
+      "gamay",
+      "chardonnay",
+      "grolleau-noir",
+      "pinot-noir",
+      "pinot-meunier",
+      "romorantin",
+      "pineau-daunis",
+      "grolleau-gris",
+      "orbois",
+      "meslier-saint-francois",
+      "genouillet",
+      "gouget",
+      "lignage",
+      "gamay-de-bouze",
+      "gamay-de-chaudenay"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-lorraine",
+    "name": "Lorraine",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Lorraine"
+    ],
+    "intro": {
+      "en": "Northeastern regional umbrella containing distinct Toul, Moselle and Meuse wine identities.",
+      "zh": "东北区域总称，包含 Toul、Moselle、Meuse 不同酒区身份。"
+    },
+    "grapeIds": [
+      "auxerrois-blanc",
+      "pinot-noir",
+      "gamay",
+      "aubin",
+      "aubin-vert",
+      "muller-thurgau",
+      "pinot-gris",
+      "pinot-blanc",
+      "riesling",
+      "gewurztraminer",
+      "chardonnay",
+      "pinot-meunier"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-madiran",
+    "name": "Madiran",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Madiran"
+    ],
+    "intro": {
+      "en": "A southwestern red appellation strongly associated with Tannat.",
+      "zh": "与 Tannat 密切相关的西南红酒产区。"
+    },
+    "grapeIds": [
+      "tannat",
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "fer-servadou"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-marcillac",
+    "name": "Marcillac",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Marcillac"
+    ],
+    "intro": {
+      "en": "An Aveyron red and rosé appellation associated with Fer, locally Mansois.",
+      "zh": "Aveyron 红、桃红产区，关联 Fer，当地称 Mansois。"
+    },
+    "grapeIds": [
+      "fer-servadou",
+      "cabernet-sauvignon",
+      "merlot",
+      "prunelard"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-muscat-du-cap-corse",
+    "name": "Muscat du Cap Corse",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Muscat du Cap Corse"
+    ],
+    "intro": {
+      "en": "Corsican vin doux naturel appellation based on Muscat.",
+      "zh": "以 Muscat 为基础的 Corsica vin doux naturel 产区。"
+    },
+    "grapeIds": [
+      "muscat-blanc-a-petits-grains"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-pacherenc-du-vic-bilh",
+    "name": "Pacherenc du Vic-Bilh",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Pacherenc du Vic-Bilh"
+    ],
+    "intro": {
+      "en": "Dry and sweet whites sharing territory with Madiran red wines.",
+      "zh": "与 Madiran 红酒共享地域的干、甜白酒。"
+    },
+    "grapeIds": [
+      "courbu-blanc",
+      "petit-courbu",
+      "petit-manseng",
+      "gros-manseng",
+      "arrufiac",
+      "sauvignon-blanc"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-palette",
+    "name": "Palette",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Palette"
+    ],
+    "intro": {
+      "en": "Small Provençal appellation near Aix-en-Provence with diverse traditional grapes.",
+      "zh": "Aix-en-Provence 附近小型 Provence 产区，有多样传统品种。"
+    },
+    "grapeIds": [
+      "picardan",
+      "bourboulenc",
+      "clairette-blanche",
+      "clairette-rose",
+      "cinsault",
+      "garnacha-tinta",
+      "monastrell",
+      "colombaud",
+      "furmint",
+      "garnacha-blanca",
+      "muscat-blanc-a-petits-grains",
+      "muscat-of-alexandria",
+      "pascal",
+      "piquepoul-blanc",
+      "trebbiano-toscano",
+      "brun-fourca",
+      "cabernet-sauvignon",
+      "carignan",
+      "maturana-tinta",
+      "durif",
+      "muscat-a-petits-grains-rouges",
+      "muscat-de-hambourg",
+      "syrah",
+      "teoulier",
+      "tibouren",
+      "terret-gris"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-patrimonio",
+    "name": "Patrimonio",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Patrimonio"
+    ],
+    "intro": {
+      "en": "Northern Corsican appellation associated with Niellucciu and limestone-rich sites.",
+      "zh": "Corsica 北部产区，关联 Niellucciu 与富石灰质地块。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "vermentino",
+      "sciaccarello",
+      "garnacha-tinta"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-pays-doc",
+    "name": "Pays d’Oc IGP",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Pays d’Oc IGP"
+    ],
+    "intro": {
+      "en": "Broad southern French wine IGP with a strong varietal-wine identity.",
+      "zh": "法国南部广域葡萄酒 IGP，品种酒身份突出。"
+    },
+    "grapeIds": [
+      "merlot",
+      "cabernet-sauvignon",
+      "syrah",
+      "garnacha-tinta",
+      "chardonnay",
+      "sauvignon-blanc",
+      "viognier",
+      "muscat-blanc-a-petits-grains",
+      "alicante-bouschet",
+      "cabernet-franc",
+      "caladoc",
+      "carignan",
+      "carmenere",
+      "cinsault",
+      "malbec",
+      "gamay",
+      "marselan",
+      "mondeuse-noire",
+      "graciano",
+      "monastrell",
+      "muscat-a-petits-grains-rouges",
+      "negrette",
+      "sangiovese",
+      "petit-verdot",
+      "pinot-noir",
+      "portan",
+      "tempranillo",
+      "altesse",
+      "albarino",
+      "bourboulenc",
+      "carignan-blanc",
+      "chasan",
+      "chenin-blanc",
+      "clairette-blanche",
+      "colombard",
+      "gewurztraminer",
+      "garnacha-blanca",
+      "grenache-gris",
+      "gros-manseng",
+      "viura",
+      "marsanne",
+      "mauzac-blanc",
+      "muscat-of-alexandria",
+      "petit-manseng",
+      "pinot-blanc",
+      "pinot-gris",
+      "piquepoul-blanc",
+      "riesling",
+      "roussanne",
+      "sauvignon-gris",
+      "semillon",
+      "silvaner",
+      "terret-blanc",
+      "trebbiano-toscano",
+      "vermentino"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-provence",
+    "name": "Provence",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Provence"
+    ],
+    "intro": {
+      "en": "Mediterranean southeastern France, with several independent AOCs and red, white and rosé traditions.",
+      "zh": "法国东南地中海区域，含多个独立 AOC 及红、白、桃红传统。"
+    },
+    "grapeIds": [
+      "cinsault",
+      "garnacha-tinta",
+      "monastrell",
+      "syrah",
+      "tibouren",
+      "vermentino",
+      "clairette-blanche",
+      "semillon",
+      "trebbiano-toscano",
+      "cabernet-sauvignon",
+      "carignan",
+      "caladoc",
+      "rousseli",
+      "barbaroux",
+      "calitor",
+      "mourvaison",
+      "brachet",
+      "fuella-nera",
+      "mayorquin",
+      "blanqueiron",
+      "brun-fourca",
+      "colombaud",
+      "pascal",
+      "teoulier"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-rhone-valley",
+    "name": "Rhône Valley",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Rhône Valley"
+    ],
+    "intro": {
+      "en": "A north–south wine corridor with many independent AOCs; Rhône Valley geography is broader than Côtes du Rhône AOC.",
+      "zh": "南北向葡萄酒走廊，含许多独立 AOC；Rhône Valley 地理范围广于 Côtes du Rhône AOC。"
+    },
+    "grapeIds": [
+      "syrah",
+      "garnacha-tinta",
+      "monastrell",
+      "marsanne",
+      "roussanne",
+      "viognier",
+      "garnacha-blanca",
+      "clairette-blanche",
+      "bourboulenc",
+      "cinsault",
+      "carignan",
+      "counoise",
+      "marselan",
+      "muscardin",
+      "brun-argente",
+      "piquepoul-noir",
+      "terret-noir",
+      "caladoc",
+      "couston",
+      "gamay",
+      "pinot-noir",
+      "clairette-rose",
+      "grenache-gris",
+      "aligote",
+      "carignan-blanc",
+      "chardonnay",
+      "trebbiano-toscano",
+      "piquepoul-blanc",
+      "picardan",
+      "piquepoul-gris",
+      "muscat-blanc-a-petits-grains",
+      "muscat-a-petits-grains-rouges",
+      "viura",
+      "vermentino",
+      "calitor",
+      "vidoc",
+      "floreal",
+      "aubun",
+      "feunate",
+      "pougnet",
+      "raisaine",
+      "ribier-noir"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-roussillon",
+    "name": "Roussillon",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Roussillon"
+    ],
+    "intro": {
+      "en": "A southern French region combining dry wines and fortified vins doux naturels beside the Mediterranean and Pyrenees.",
+      "zh": "地中海与比利牛斯旁法国南部地区，兼有干酒及强化 vins doux naturels。"
+    },
+    "grapeIds": [
+      "garnacha-tinta",
+      "carignan",
+      "syrah",
+      "monastrell",
+      "garnacha-blanca",
+      "viura",
+      "tourbat",
+      "garnacha-peluda",
+      "cinsault",
+      "grenache-gris",
+      "roussanne",
+      "marsanne",
+      "vermentino",
+      "viognier",
+      "carignan-blanc",
+      "muscat-blanc-a-petits-grains",
+      "muscat-of-alexandria"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-saint-mont",
+    "name": "Saint Mont",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Saint-Mont"
+    ],
+    "intro": {
+      "en": "Gascon appellation combining red, rosé and white wines with active local-grape conservation.",
+      "zh": "Gascon 产区，兼红、桃红、白及活跃地方品种保育。"
+    },
+    "grapeIds": [
+      "tannat",
+      "gros-manseng",
+      "cabernet-sauvignon",
+      "fer-servadou",
+      "arrufiac",
+      "petit-courbu",
+      "cabernet-franc",
+      "merlot",
+      "courbu-blanc",
+      "petit-manseng",
+      "tardif"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-savoie",
+    "name": "Savoie",
+    "country": "France",
+    "kind": "region",
+    "aliases": [
+      "Savoie"
+    ],
+    "intro": {
+      "en": "An Alpine mosaic of lake shores, valleys and steep slopes with sharply local grape identities.",
+      "zh": "阿尔卑斯湖岸、谷地与陡坡组合，品种身份具有鲜明地方性。"
+    },
+    "grapeIds": [
+      "jacquere",
+      "altesse",
+      "mondeuse-noire",
+      "gringet",
+      "chasselas",
+      "roussanne",
+      "gamay",
+      "pinot-noir",
+      "chardonnay",
+      "persan",
+      "mondeuse-blanche",
+      "molette",
+      "roussette-d-ayze",
+      "cacaboue",
+      "douce-noire",
+      "hibou-noir",
+      "dousset",
+      "mondeuse-grise",
+      "bia",
+      "petite-sainte-marie",
+      "etraire-de-la-dui",
+      "servanin",
+      "joubertin",
+      "reze"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-seyssel",
+    "name": "Seyssel",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Seyssel"
+    ],
+    "intro": {
+      "en": "Small Rhône-crossing appellation for still and sparkling white wines.",
+      "zh": "横跨 Rhône 的小产区，酿静止及起泡白。"
+    },
+    "grapeIds": [
+      "altesse",
+      "molette"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-tursan",
+    "name": "Tursan",
+    "country": "France",
+    "kind": "appellation",
+    "aliases": [
+      "Tursan"
+    ],
+    "intro": {
+      "en": "A Landes-area appellation whose Baroque-based whites distinguish it locally.",
+      "zh": "Landes 一带产区，Baroque 白酒具有地方特色。"
+    },
+    "grapeIds": [
+      "baroque",
+      "gros-manseng",
+      "cabernet-franc",
+      "tannat",
+      "chenin-blanc",
+      "claverie",
+      "petit-manseng",
+      "raffiat-de-moncade",
+      "sauvignon-blanc",
+      "sauvignon-gris",
+      "cabernet-sauvignon",
+      "fer-servadou",
+      "merlot"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-abruzzo",
+    "name": "Abruzzo",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Adriatic central Italian region between mountains and coast, combining Montepulciano reds, Cerasuolo rosé and distinct white-grape traditions.",
+      "zh": "亚得里亚海与山地间的意大利中部大区，融合 Montepulciano 红酒、Cerasuolo 桃红及不同白葡萄传统。"
+    },
+    "grapeIds": [
+      "cococciola",
+      "montonico",
+      "montepulciano",
+      "trebbiano-abruzzese",
+      "trebbiano-toscano",
+      "sangiovese",
+      "pecorino",
+      "passerina"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-aglianico-del-vulture",
+    "name": "Aglianico del Vulture",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-basilicata",
+    "aliases": [],
+    "intro": {
+      "en": "Northern Basilicata Aglianico DOC, including still and red sparkling wines, separate from the Superiore DOCG.",
+      "zh": "Basilicata 北部 Aglianico DOC，含静止与红起泡，与 Superiore DOCG 分开。"
+    },
+    "grapeIds": [
+      "aglianico"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-aglianico-del-vulture-superiore",
+    "name": "Aglianico del Vulture Superiore",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-basilicata",
+    "aliases": [],
+    "intro": {
+      "en": "Still-red Aglianico DOCG with lower yields and longer compulsory maturation than the neighbouring DOC category.",
+      "zh": "静止红 Aglianico DOCG，产量更低，法定熟成长于相邻 DOC 类别。"
+    },
+    "grapeIds": [
+      "aglianico"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-alta-langa",
+    "name": "Alta Langa DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Alta Langa"
+    ],
+    "intro": {
+      "en": "Vintage traditional-method sparkling PDO, white and rosé.",
+      "zh": "标示年份的传统法起泡 PDO，含白及桃红。"
+    },
+    "grapeIds": [
+      "pinot-noir",
+      "chardonnay"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-alto-adige",
+    "name": "Alto Adige / Südtirol",
+    "country": "Italy",
+    "kind": "subregion",
+    "parentId": "it-trentino-alto-adige",
+    "aliases": [
+      "Alto Adige",
+      "Südtirol",
+      "South Tyrol"
+    ],
+    "intro": {
+      "en": "Autonomous Bolzano province: Alpine valleys, diverse elevations and both local and international grapes.",
+      "zh": "Bolzano 自治省：阿尔卑斯谷地、多样海拔及本地和国际品种。"
+    },
+    "grapeIds": [
+      "lagrein",
+      "schiava-grossa",
+      "pinot-blanc",
+      "pinot-gris",
+      "chardonnay",
+      "sauvignon-blanc",
+      "gewurztraminer",
+      "kerner",
+      "goldmuskateller",
+      "moscato-rosa"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-amarone-della-valpolicella-docg",
+    "name": "Amarone della Valpolicella DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Amarone",
+      "Amarone della Valpolicella",
+      "Amarone Classico"
+    ],
+    "intro": {
+      "en": "Concentrated dry-style red from dried Valpolicella grapes.",
+      "zh": "由 Valpolicella 风干葡萄酿成的浓缩干型风格红酒。"
+    },
+    "grapeIds": [
+      "corvina",
+      "corvinone",
+      "rondinella"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-asolo-prosecco-docg",
+    "name": "Asolo Prosecco DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Asolo",
+      "Asolo Prosecco",
+      "Colli Asolani Prosecco"
+    ],
+    "intro": {
+      "en": "Glera-led sparkling DOCG of the Asolo hills and Montello in Treviso.",
+      "zh": "Treviso 的 Asolo 丘陵及 Montello、以 Glera 为主的起泡 DOCG。"
+    },
+    "grapeIds": [
+      "glera",
+      "glera-lunga",
+      "verdiso"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-asti",
+    "name": "Asti DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Asti",
+      "Asti Spumante",
+      "Moscato d’Asti",
+      "Moscato d'Asti",
+      "Asti Rosé",
+      "Asti Rosato"
+    ],
+    "intro": {
+      "en": "Aromatic Piemonte PDO encompassing Asti spumante, Moscato d’Asti and late-harvest wine.",
+      "zh": "涵盖 Asti 起泡、Moscato d’Asti 及晚采酒的 Piemonte 芳香 PDO。"
+    },
+    "grapeIds": [
+      "muscat-blanc-a-petits-grains",
+      "brachetto"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-aversa",
+    "name": "Aversa",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [
+      "Asprinio di Aversa"
+    ],
+    "intro": {
+      "en": "Asprinio-based white and sparkling DOC across the Aversa plain, including the historic alberata training tradition.",
+      "zh": "Aversa 平原以 Asprinio 为主的白及起泡 DOC，包含历史 alberata 树附式栽培传统。"
+    },
+    "grapeIds": [
+      "asprinio"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-barbaresco",
+    "name": "Barbaresco DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Barbaresco"
+    ],
+    "intro": {
+      "en": "Langhe Nebbiolo dry-red PDO distinct from Barolo.",
+      "zh": "与 Barolo 独立的 Langhe Nebbiolo 干红 PDO。"
+    },
+    "grapeIds": [
+      "nebbiolo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-barbera-dasti",
+    "name": "Barbera d’Asti DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Barbera d’Asti",
+      "Barbera d'Asti"
+    ],
+    "intro": {
+      "en": "Dry red PDO of the Asti and Alessandria hills.",
+      "zh": "Asti 与 Alessandria 丘陵干红 PDO。"
+    },
+    "grapeIds": [
+      "barbera"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-bardolino-doc",
+    "name": "Bardolino DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Bardolino",
+      "Bardolino Chiaretto"
+    ],
+    "intro": {
+      "en": "Lake Garda’s eastern-shore red and Chiaretto rosé denomination.",
+      "zh": "Garda 湖东岸红酒及 Chiaretto 桃红产区。"
+    },
+    "grapeIds": [
+      "corvina",
+      "rondinella",
+      "molinara"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-barolo",
+    "name": "Barolo DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Barolo"
+    ],
+    "intro": {
+      "en": "Langhe dry-red PDO made from Nebbiolo.",
+      "zh": "以 Nebbiolo 酿造的 Langhe 干红 PDO。"
+    },
+    "grapeIds": [
+      "nebbiolo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-basilicata",
+    "name": "Basilicata",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Southern region whose vineyards span Vulture’s Aglianico, warmer Matera, inland Alta Val d’Agri and heritage-grape recovery around Pollino.",
+      "zh": "南部大区，涵盖 Vulture Aglianico、较暖 Matera、内陆 Alta Val d’Agri 及 Pollino 传统葡萄保育。"
+    },
+    "grapeIds": [
+      "guarnaccino",
+      "aglianico",
+      "merlot",
+      "cabernet-sauvignon",
+      "sangiovese",
+      "zinfandel",
+      "greco"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-biferno",
+    "name": "Biferno",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-molise",
+    "aliases": [],
+    "intro": {
+      "en": "Campobasso DOC with distinct red/rosé and white blends.",
+      "zh": "Campobasso DOC，红桃红与白酒有不同配比。"
+    },
+    "grapeIds": [
+      "montepulciano",
+      "aglianico",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-bolgheri",
+    "name": "Bolgheri",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Coastal Tuscan denomination centred on Castagneto Carducci, with international red grapes and a flexible white blend.",
+      "zh": "托斯卡纳沿海以 Castagneto Carducci 为中心的产区，以国际红葡萄及灵活白酒配方见长。"
+    },
+    "grapeIds": [
+      "cabernet-sauvignon",
+      "merlot",
+      "cabernet-franc",
+      "vermentino",
+      "sauvignon-blanc"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-bolgheri-sassicaia",
+    "name": "Bolgheri Sassicaia",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Precisely delimited Cabernet-led red denomination within Castagneto Carducci, distinct from Bolgheri DOC.",
+      "zh": "Castagneto Carducci 内精确划界、Cabernet 主导的红酒产区，与 Bolgheri DOC 独立。"
+    },
+    "grapeIds": [
+      "cabernet-sauvignon",
+      "cabernet-franc"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-brachetto-dacqui",
+    "name": "Brachetto d’Acqui / Acqui DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Brachetto d’Acqui",
+      "Brachetto d'Acqui",
+      "Acqui",
+      "Acqui DOCG",
+      "Acqui Rosé",
+      "Brachetto d’Acqui / Acqui"
+    ],
+    "intro": {
+      "en": "Brachetto d’Acqui and Acqui are alternative names of one DOCG.",
+      "zh": "Brachetto d’Acqui 与 Acqui 是同一 DOCG 的两种名称。"
+    },
+    "grapeIds": [
+      "brachetto"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-breganze-doc",
+    "name": "Breganze DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Breganze",
+      "Torcolato",
+      "Breganze Vespaiolo"
+    ],
+    "intro": {
+      "en": "Vicenza foothill DOC particularly associated with Vespaiola, as dry Vespaiolo and sweet Torcolato.",
+      "zh": "Vicenza 山麓 DOC，尤其关联 Vespaiola，酿干型 Vespaiolo、甜型 Torcolato。"
+    },
+    "grapeIds": [
+      "vespaiola"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-brunello-di-montalcino",
+    "name": "Brunello di Montalcino",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Long-aged Sangiovese from the municipality of Montalcino; Brunello is a local grape name.",
+      "zh": "Montalcino 市镇的长陈年 Sangiovese；Brunello 是地方葡萄名称。"
+    },
+    "grapeIds": [
+      "sangiovese"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-calabria",
+    "name": "Calabria",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Calabria links the Gaglioppo tradition of Cirò, late-ripening inland red varieties and the aromatic passito of Bianco. Modern genetic research is essential where historical names have overlapped.",
+      "zh": "Calabria 包括 Cirò 的 Gaglioppo、内陆晚熟红葡萄及 Bianco 芳香风干酒；历史名称多有交叠，须结合现代遗传研究。"
+    },
+    "grapeIds": [
+      "gaglioppo",
+      "greco-bianco",
+      "magliocco-dolce",
+      "magliocco-canino",
+      "greco-nero",
+      "mantonico-bianco",
+      "malvasia-aromatica",
+      "castiglione",
+      "pecorello",
+      "nocera",
+      "prunesta",
+      "marsigliana-nera"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-campania",
+    "name": "Campania",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Tyrrhenian region combining inland Irpinia and Sannio, volcanic Naples, islands, Caserta and the Amalfi coast. Local cultivar identities are fundamental.",
+      "zh": "第勒尼安大区，兼有 Irpinia、Sannio 内陆，Napoli 火山区、岛屿、Caserta、Amalfi 海岸，地方品种精确身份至关重要。"
+    },
+    "grapeIds": [
+      "piedirosso",
+      "coda-di-volpe",
+      "asprinio",
+      "biancolella",
+      "forastera",
+      "pallagrello-bianco",
+      "pallagrello-nero",
+      "casavecchia",
+      "fenile",
+      "ginestra",
+      "ripolo",
+      "pepella",
+      "caprettone",
+      "catalanesca",
+      "sciascinoso",
+      "tintore",
+      "roviello",
+      "coda-di-pecora-bianca",
+      "camaiola",
+      "uva-del-conte",
+      "aglianicone",
+      "aglianico",
+      "fiano",
+      "greco",
+      "falanghina-beneventana",
+      "falanghina-flegrea"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-campi-flegrei",
+    "name": "Campi Flegrei",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [],
+    "intro": {
+      "en": "Maritime volcanic DOC west of Naples, closely associated with Falanghina Flegrea and Piedirosso.",
+      "zh": "Napoli 西部海洋影响火山 DOC，紧密关联 Falanghina Flegrea 与 Piedirosso。"
+    },
+    "grapeIds": [
+      "falanghina-flegrea",
+      "piedirosso",
+      "aglianico"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-canavese",
+    "name": "Canavese DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Canavese"
+    ],
+    "intro": {
+      "en": "Broad northern Piemonte DOC with red, rosé, white and sparkling categories.",
+      "zh": "Piemonte 北部较广 DOC，含红、桃红、白及起泡类别。"
+    },
+    "grapeIds": [
+      "nebbiolo",
+      "barbera",
+      "bonarda-piemontese",
+      "freisa",
+      "neretto-di-bairo",
+      "erbaluce"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-cannellino-di-frascati",
+    "name": "Cannellino di Frascati",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lazio",
+    "aliases": [],
+    "intro": {
+      "en": "Sweet late-harvest white from the Frascati area, with its own DOCG identity.",
+      "zh": "Frascati 一带晚收甜白，具有独立 DOCG 身份。"
+    },
+    "grapeIds": [
+      "malvasia-bianca-di-candia",
+      "malvasia-del-lazio",
+      "bellone",
+      "trebbiano-giallo",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-cannonau-di-sardegna-doc",
+    "name": "Cannonau di Sardegna DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sardegna",
+    "aliases": [
+      "Cannonau di Sardegna"
+    ],
+    "intro": {
+      "en": "Island-wide Cannonau DOC with a more restricted Classico zone and three named subzones.",
+      "zh": "覆盖全岛的 Cannonau DOC，另设较小 Classico 区及三个子区。"
+    },
+    "grapeIds": [
+      "garnacha-tinta"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-carema",
+    "name": "Carema DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Carema"
+    ],
+    "intro": {
+      "en": "Mountain-foot Nebbiolo PDO at the Aosta Valley border.",
+      "zh": "Aosta Valley 边界山前 Nebbiolo PDO。"
+    },
+    "grapeIds": [
+      "nebbiolo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-carignano-del-sulcis-doc",
+    "name": "Carignano del Sulcis DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sardegna",
+    "aliases": [
+      "Carignano del Sulcis"
+    ],
+    "intro": {
+      "en": "Southwestern Sardegna’s Carignano DOC, with specific bush-vine and maturation requirements for Superiore.",
+      "zh": "Sardegna 西南部 Carignano DOC，Superiore 有具体灌木藤及熟化要求。"
+    },
+    "grapeIds": [
+      "carignan"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-carmignano",
+    "name": "Carmignano",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Historic Tuscan red blending Sangiovese with a required Cabernet component, centred on Carmignano and Poggio a Caiano.",
+      "zh": "历史托斯卡纳红酒，将 Sangiovese 与必需 Cabernet 组分结合，以 Carmignano、Poggio a Caiano 为中心。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "cabernet-sauvignon",
+      "cabernet-franc",
+      "canaiolo-nero"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-carso-kras-doc",
+    "name": "Carso / Kras DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-friuli-venezia-giulia",
+    "aliases": [
+      "Carso",
+      "Kras",
+      "Carso-Kras",
+      "Carso / Kras"
+    ],
+    "intro": {
+      "en": "Border limestone plateau denomination around Trieste and Gorizia, associated with Vitovska, Malvasia Istriana and Terrano.",
+      "zh": "Trieste、Gorizia 边境石灰岩台地产区，与 Vitovska、Malvasia Istriana、Terrano 相关。"
+    },
+    "grapeIds": [
+      "vitovska",
+      "malvasia-istriana",
+      "teran"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-casauria",
+    "name": "Casauria",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-abruzzo",
+    "aliases": [],
+    "intro": {
+      "en": "Independent DOCG registered in 2025, succeeding the former Montepulciano d’Abruzzo Casauria subzone.",
+      "zh": "2025 登记独立 DOCG，承接原 Montepulciano d’Abruzzo Casauria 子区。"
+    },
+    "grapeIds": [
+      "montepulciano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-castel-del-monte-bombino-nero-docg",
+    "name": "Castel del Monte Bombino Nero DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-puglia",
+    "aliases": [
+      "Castel del Monte Bombino Nero"
+    ],
+    "intro": {
+      "en": "A distinct denomination of the calcareous Murgia landscape.",
+      "zh": "石灰质 Murgia 地区的独立法定产区。"
+    },
+    "grapeIds": [
+      "bombino-nero"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-castel-del-monte-doc",
+    "name": "Castel del Monte DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-puglia",
+    "aliases": [
+      "Castel del Monte"
+    ],
+    "intro": {
+      "en": "A distinct denomination of the calcareous Murgia landscape.",
+      "zh": "石灰质 Murgia 地区的独立法定产区。"
+    },
+    "grapeIds": [
+      "uva-di-troia",
+      "bombino-bianco",
+      "verdeca"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-castel-del-monte-nero-di-troia-riserva-docg",
+    "name": "Castel del Monte Nero di Troia Riserva DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-puglia",
+    "aliases": [
+      "Castel del Monte Nero di Troia Riserva"
+    ],
+    "intro": {
+      "en": "A distinct denomination of the calcareous Murgia landscape.",
+      "zh": "石灰质 Murgia 地区的独立法定产区。"
+    },
+    "grapeIds": [
+      "uva-di-troia"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-castel-del-monte-rosso-riserva-docg",
+    "name": "Castel del Monte Rosso Riserva DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-puglia",
+    "aliases": [
+      "Castel del Monte Rosso Riserva"
+    ],
+    "intro": {
+      "en": "A distinct denomination of the calcareous Murgia landscape.",
+      "zh": "石灰质 Murgia 地区的独立法定产区。"
+    },
+    "grapeIds": [
+      "uva-di-troia"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-castelli-di-jesi-verdicchio-riserva",
+    "name": "Castelli di Jesi Verdicchio Riserva",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-marche",
+    "aliases": [],
+    "intro": {
+      "en": "Verdicchio from the Esino hill system, extending from maritime-influenced slopes toward the pre-Apennines.",
+      "zh": "Esino 丘陵体系的 Verdicchio，从受海洋影响的坡地延向亚平宁山麓。"
+    },
+    "grapeIds": [
+      "verdicchio"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-cerasuolo-dabruzzo",
+    "name": "Cerasuolo d’Abruzzo",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-abruzzo",
+    "aliases": [],
+    "intro": {
+      "en": "Independent Montepulciano-based Abruzzo rosé DOC.",
+      "zh": "以 Montepulciano 为主的独立 Abruzzo 桃红 DOC。"
+    },
+    "grapeIds": [
+      "montepulciano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-cerasuolo-di-vittoria-docg",
+    "name": "Cerasuolo di Vittoria DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sicilia",
+    "aliases": [
+      "Cerasuolo di Vittoria"
+    ],
+    "intro": {
+      "en": "A southeastern Sicilian red combining Nero d’Avola structure with Frappato perfume.",
+      "zh": "Sicilia 东南部红酒，结合 Nero d’Avola 结构与 Frappato 香气。"
+    },
+    "grapeIds": [
+      "nero-d-avola",
+      "frappato"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-cesanese-del-piglio",
+    "name": "Cesanese del Piglio",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lazio",
+    "aliases": [
+      "Piglio"
+    ],
+    "intro": {
+      "en": "Lazio’s Cesanese red DOCG in the Ernici foothills and upper Sacco valley, also labelled Piglio.",
+      "zh": "Ernici 山麓及 Sacco 河上游的 Cesanese 红酒 DOCG，亦可标 Piglio。"
+    },
+    "grapeIds": [
+      "cesanese-comune",
+      "cesanese-d-affile"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-chianti",
+    "name": "Chianti",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Extensive Tuscan Sangiovese denomination, legally separate from Chianti Classico; the 2026 amendment adds rosé and revises red composition.",
+      "zh": "广域托斯卡纳 Sangiovese 产区，与 Chianti Classico 法律上独立；2026修订新增桃红并调整红酒配方。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "canaiolo-nero",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-chianti-classico",
+    "name": "Chianti Classico",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Hill-country Sangiovese between Florence and Siena, with Annata, Riserva and Gran Selezione tiers.",
+      "zh": "Florence 与 Siena 之间的丘陵 Sangiovese 产区，分 Annata、Riserva、Gran Selezione。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "canaiolo-nero",
+      "colorino"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-cinque-terre",
+    "name": "Cinque Terre DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-liguria",
+    "aliases": [
+      "Cinque Terre",
+      "Cinque Terre Sciacchetrà"
+    ],
+    "intro": {
+      "en": "Eastern Ligurian coastal PDO for dry white and sweet dried-grape Sciacchetrà.",
+      "zh": "Liguria 东部海岸干白及风干甜酒 Sciacchetrà PDO。"
+    },
+    "grapeIds": [
+      "bosco",
+      "vermentino",
+      "albarola"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-ciro-classico-docg",
+    "name": "Cirò Classico DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-calabria",
+    "aliases": [
+      "Cirò Classico"
+    ],
+    "intro": {
+      "en": "A separate red DOCG recognised in 2025, restricted to Cirò and Cirò Marina.",
+      "zh": "2025 年认可的独立红酒 DOCG，仅限 Cirò 与 Cirò Marina。"
+    },
+    "grapeIds": [
+      "gaglioppo",
+      "greco-nero"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-ciro-doc",
+    "name": "Cirò DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-calabria",
+    "aliases": [
+      "Cirò"
+    ],
+    "intro": {
+      "en": "Calabria’s historic Ionian DOC for red, rosato and white; distinct from Cirò Classico DOCG established in 2025.",
+      "zh": "Calabria 历史悠久的爱奥尼亚海岸 DOC，涵盖红、桃红、白酒；与 2025 年设立的 Cirò Classico DOCG 区分。"
+    },
+    "grapeIds": [
+      "gaglioppo",
+      "greco-bianco"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-colli-di-luni",
+    "name": "Colli di Luni DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-liguria",
+    "aliases": [
+      "Colli di Luni"
+    ],
+    "intro": {
+      "en": "Cross-border Liguria–Toscana white-and-red PDO.",
+      "zh": "跨 Liguria 与 Toscana 的红白酒 PDO。"
+    },
+    "grapeIds": [
+      "vermentino",
+      "albarola",
+      "sangiovese",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-colli-di-scandiano-e-di-canossa-doc",
+    "name": "Colli di Scandiano e di Canossa DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-emilia-romagna",
+    "aliases": [
+      "Colli di Scandiano e di Canossa",
+      "Scandiano",
+      "Canossa"
+    ],
+    "intro": {
+      "en": "Reggio Emilia hill DOC with distinctive whites and several separate Lambrusco expressions.",
+      "zh": "Reggio Emilia 丘陵 DOC，拥有特色白酒及若干独立 Lambrusco 表达。"
+    },
+    "grapeIds": [
+      "vernaccia-di-oristano",
+      "malvasia-di-candia-aromatica",
+      "lambrusco-maestri",
+      "lambrusco-marani",
+      "lambrusco-salamino",
+      "lambrusco-barghi",
+      "lambrusco-grasparossa",
+      "marzemino",
+      "croatina",
+      "sgavetta"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-colli-orientali-del-friuli-picolit-docg",
+    "name": "Colli Orientali del Friuli Picolit DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-friuli-venezia-giulia",
+    "aliases": [
+      "Colli Orientali del Friuli Picolit",
+      "Picolit DOCG"
+    ],
+    "intro": {
+      "en": "Sweet Picolit-led DOCG from the eastern Friuli hills, with a separately delimited Cialla subzone.",
+      "zh": "Friuli 东部丘陵以 Picolit 为主的甜酒 DOCG，含独立划定 Cialla 子区。"
+    },
+    "grapeIds": [
+      "picolit"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-colli-tortonesi",
+    "name": "Colli Tortonesi DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Colli Tortonesi"
+    ],
+    "intro": {
+      "en": "Multi-style Tortona PDO, not a synonym for Timorasso.",
+      "zh": "多风格 Tortona PDO，并非 Timorasso 同义词。"
+    },
+    "grapeIds": [
+      "timorasso",
+      "cortese",
+      "barbera",
+      "croatina",
+      "uva-rara"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-colline-teramane",
+    "name": "Colline Teramane Montepulciano d’Abruzzo",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-abruzzo",
+    "aliases": [
+      "Montepulciano d’Abruzzo Colline Teramane",
+      "Colline Teramane"
+    ],
+    "intro": {
+      "en": "Teramo hill DOCG, with the current name order established in 2023.",
+      "zh": "Teramo 丘陵 DOCG，2023 年确立当前词序。"
+    },
+    "grapeIds": [
+      "montepulciano",
+      "sangiovese"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-collio-doc",
+    "name": "Collio DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-friuli-venezia-giulia",
+    "aliases": [
+      "Collio",
+      "Collio Goriziano"
+    ],
+    "intro": {
+      "en": "Gorizia border hills, noted for dry whites and the local marl-sandstone sequence called ponca.",
+      "zh": "Gorizia 边境丘陵，以干白及本地称 ponca 的泥灰岩—砂岩层著称。"
+    },
+    "grapeIds": [
+      "friulano",
+      "ribolla-gialla",
+      "malvasia-istriana",
+      "sauvignon-blanc",
+      "pinot-gris",
+      "pinot-blanc",
+      "chardonnay",
+      "muller-thurgau",
+      "gewurztraminer"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-conegliano-valdobbiadene-prosecco-docg",
+    "name": "Conegliano Valdobbiadene Prosecco DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Conegliano Valdobbiadene",
+      "Conegliano-Valdobbiadene",
+      "Valdobbiadene",
+      "Prosecco Superiore",
+      "Cartizze",
+      "Conegliano Valdobbiadene Prosecco"
+    ],
+    "intro": {
+      "en": "Historic Treviso hillside origin for Glera-led Prosecco Superiore, with Rive and Cartizze distinctions.",
+      "zh": "Treviso 历史丘陵 Glera 主导 Prosecco Superiore 产地，含 Rive、Cartizze 区分。"
+    },
+    "grapeIds": [
+      "glera",
+      "verdiso",
+      "glera-lunga"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-cori",
+    "name": "Cori",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lazio",
+    "aliases": [],
+    "intro": {
+      "en": "Lepini foothill denomination giving prominent roles to Bellone and Nero Buono.",
+      "zh": "Lepini 山麓产区，Bellone 与 Nero Buono 地位突出。"
+    },
+    "grapeIds": [
+      "bellone",
+      "nero-buono",
+      "malvasia-del-lazio",
+      "montepulciano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-costa-damalfi",
+    "name": "Costa d’Amalfi",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [],
+    "intro": {
+      "en": "Salerno coastal DOC with Furore, Ravello and Tramonti subzones and a remarkable surviving local grape heritage.",
+      "zh": "Salerno 海岸 DOC，含 Furore、Ravello、Tramonti 子区，并保留重要地方葡萄遗产。"
+    },
+    "grapeIds": [
+      "biancolella",
+      "fenile",
+      "ginestra",
+      "ripolo",
+      "pepella",
+      "tintore"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-dogliani",
+    "name": "Dogliani DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Dogliani"
+    ],
+    "intro": {
+      "en": "Dry Dolcetto DOCG in the southern Langhe.",
+      "zh": "南部 Langhe 的 Dolcetto 干红 DOCG。"
+    },
+    "grapeIds": [
+      "dolcetto"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-dolceacqua",
+    "name": "Rossese di Dolceacqua DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-liguria",
+    "aliases": [
+      "Dolceacqua",
+      "Rossese di Dolceacqua"
+    ],
+    "intro": {
+      "en": "Western Ligurian dry red based on Rossese.",
+      "zh": "Liguria 西部 Rossese 主导干红。"
+    },
+    "grapeIds": [
+      "tibouren"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-emilia-romagna",
+    "name": "Emilia-Romagna",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [
+      "Emilia Romagna"
+    ],
+    "intro": {
+      "en": "Northern region spanning Emilian plains and foothills, Romagna hills and the Adriatic coast.",
+      "zh": "北部大区，跨 Emilia 平原山麓、Romagna 丘陵及亚得里亚海岸。"
+    },
+    "grapeIds": [
+      "lambrusco-di-sorbara",
+      "lambrusco-grasparossa",
+      "lambrusco-salamino",
+      "albana",
+      "sangiovese",
+      "pagadebiti",
+      "trebbiano-toscano",
+      "pignoletto",
+      "malvasia-di-candia-aromatica",
+      "ancellotta",
+      "fortana",
+      "lambrusco-maestri",
+      "lambrusco-marani",
+      "lambrusco-viadanese",
+      "ortrugo",
+      "centesimino",
+      "famoso",
+      "fogarina",
+      "lambrusco-barghi",
+      "lambrusco-benetti",
+      "lambrusco-del-pellegrino",
+      "lambrusco-oliva",
+      "maligia",
+      "negretto",
+      "sgavetta",
+      "vernaccia-di-oristano",
+      "trebbianina",
+      "uva-tosca"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-erbaluce-di-caluso",
+    "name": "Erbaluce di Caluso DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Erbaluce di Caluso",
+      "Caluso"
+    ],
+    "intro": {
+      "en": "Erbaluce-based Canavese PDO covering dry, sparkling and passito styles.",
+      "zh": "Canavese 的 Erbaluce PDO，含干型、起泡及 passito。"
+    },
+    "grapeIds": [
+      "erbaluce"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-etna-doc",
+    "name": "Etna DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sicilia",
+    "aliases": [
+      "Etna"
+    ],
+    "intro": {
+      "en": "A delimited volcanic-slope DOC with Carricante whites, Nerello-led reds/rosato and traditional-method sparkling wines.",
+      "zh": "火山坡地划定 DOC，涵盖 Carricante 白酒、Nerello 主体红／桃红及传统法起泡酒。"
+    },
+    "grapeIds": [
+      "carricante",
+      "nerello-mascalese",
+      "nerello-cappuccio",
+      "catarratto",
+      "minnella-bianca"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-falanghina-del-sannio",
+    "name": "Falanghina del Sannio",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [],
+    "intro": {
+      "en": "Benevento white-wine DOC spanning dry, sparkling and concentrated late-harvest styles.",
+      "zh": "Benevento 白酒 DOC，涵盖干型、起泡与浓缩晚收风格。"
+    },
+    "grapeIds": [
+      "falanghina-beneventana"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-fiano-di-avellino",
+    "name": "Fiano di Avellino",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [],
+    "intro": {
+      "en": "Fiano-centred Irpinia DOCG, with still wines and traditional-method sparkling categories approved in 2025.",
+      "zh": "以 Fiano 为核心的 Irpinia DOCG，含静止酒及 2025 年批准的传统法起泡类型。"
+    },
+    "grapeIds": [
+      "fiano",
+      "greco",
+      "coda-di-volpe",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-franciacorta",
+    "name": "Franciacorta DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lombardia",
+    "aliases": [
+      "Franciacorta"
+    ],
+    "intro": {
+      "en": "Traditional-method sparkling PDO south of Lake Iseo.",
+      "zh": "Iseo 湖以南传统法起泡 PDO。"
+    },
+    "grapeIds": [
+      "chardonnay",
+      "pinot-noir",
+      "pinot-blanc",
+      "erbamat"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-frascati",
+    "name": "Frascati",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lazio",
+    "aliases": [],
+    "intro": {
+      "en": "Historic Frascati denomination encompassing still whites of several sweetness levels and sparkling wine.",
+      "zh": "历史 Frascati 产区，包含不同甜度静态白酒及起泡酒。"
+    },
+    "grapeIds": [
+      "malvasia-bianca-di-candia",
+      "malvasia-del-lazio",
+      "bellone",
+      "trebbiano-giallo",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-frascati-superiore",
+    "name": "Frascati Superiore",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lazio",
+    "aliases": [],
+    "intro": {
+      "en": "Dry white and Riserva from the volcanic Alban Hills, built on two Malvasias.",
+      "zh": "Alban 火山丘陵干白及 Riserva，以两种 Malvasia 为主体。"
+    },
+    "grapeIds": [
+      "malvasia-bianca-di-candia",
+      "malvasia-del-lazio",
+      "bellone",
+      "trebbiano-giallo",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-freisa-dasti",
+    "name": "Freisa d’Asti DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Freisa d’Asti",
+      "Freisa d'Asti"
+    ],
+    "intro": {
+      "en": "Asti red DOC with still, Superiore, frizzante and spumante categories.",
+      "zh": "Asti 红酒 DOC，含静止、Superiore、微起泡及起泡类别。"
+    },
+    "grapeIds": [
+      "freisa"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-friuli-colli-orientali-doc",
+    "name": "Friuli Colli Orientali DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-friuli-venezia-giulia",
+    "aliases": [
+      "Friuli Colli Orientali",
+      "Colli Orientali del Friuli",
+      "Colli Orientali"
+    ],
+    "intro": {
+      "en": "Eastern Udine hill DOC combining indigenous whites, distinctive local reds and international varieties.",
+      "zh": "Udine 东部丘陵 DOC，结合本土白品种、独特本地红品种及国际品种。"
+    },
+    "grapeIds": [
+      "friulano",
+      "ribolla-gialla",
+      "verduzzo-friulano",
+      "schioppettino",
+      "pignolo",
+      "refosco-dal-peduncolo-rosso",
+      "merlot",
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "sauvignon-blanc",
+      "pinot-gris",
+      "pinot-blanc",
+      "chardonnay"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-friuli-grave-doc",
+    "name": "Friuli Grave DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-friuli-venezia-giulia",
+    "aliases": [
+      "Friuli Grave",
+      "Grave"
+    ],
+    "intro": {
+      "en": "Friulian plain DOC associated with extensive gravelly alluvial deposits.",
+      "zh": "与广泛砾石冲积物相连的 Friuli 平原 DOC。"
+    },
+    "grapeIds": [
+      "friulano",
+      "verduzzo-friulano",
+      "pinot-gris",
+      "pinot-blanc",
+      "chardonnay",
+      "sauvignon-blanc",
+      "merlot",
+      "cabernet-franc",
+      "cabernet-sauvignon",
+      "refosco-dal-peduncolo-rosso"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-friuli-venezia-giulia",
+    "name": "Friuli-Venezia Giulia",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [
+      "Friuli Venezia Giulia",
+      "Friuli"
+    ],
+    "intro": {
+      "en": "Border region spanning Adriatic, Karst, eastern hills and alluvial plains, with distinct local grapes and denominations.",
+      "zh": "边境大区，跨亚得里亚海、喀斯特、东部丘陵及冲积平原，品种与法定产区各异。"
+    },
+    "grapeIds": [
+      "friulano",
+      "ribolla-gialla",
+      "malvasia-istriana",
+      "picolit",
+      "pignolo",
+      "schioppettino",
+      "tazzelenghe",
+      "refosco-dal-peduncolo-rosso",
+      "pinot-gris",
+      "sauvignon-blanc",
+      "teran",
+      "verduzzo-friulano",
+      "cjanorie",
+      "cividin",
+      "cordenossa",
+      "sagrestana",
+      "vitovska"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-gattinara",
+    "name": "Gattinara DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Gattinara"
+    ],
+    "intro": {
+      "en": "Alto Piemonte Nebbiolo-led dry red.",
+      "zh": "Alto Piemonte 的 Nebbiolo 主导干红。"
+    },
+    "grapeIds": [
+      "nebbiolo",
+      "vespolina",
+      "uva-rara"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-gavi",
+    "name": "Gavi DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Gavi",
+      "Cortese di Gavi"
+    ],
+    "intro": {
+      "en": "Southeastern Piemonte white PDO made from Cortese.",
+      "zh": "Piemonte 东南部以 Cortese 酿造的白酒 PDO。"
+    },
+    "grapeIds": [
+      "cortese"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-ghemme",
+    "name": "Ghemme DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Ghemme"
+    ],
+    "intro": {
+      "en": "Novara-side Alto Piemonte Nebbiolo PDO.",
+      "zh": "Novara 一侧的 Alto Piemonte Nebbiolo PDO。"
+    },
+    "grapeIds": [
+      "nebbiolo",
+      "vespolina",
+      "uva-rara"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-gioia-del-colle-doc",
+    "name": "Gioia del Colle DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-puglia",
+    "aliases": [
+      "Gioia del Colle"
+    ],
+    "intro": {
+      "en": "An inland Bari DOC spanning Primitivo, blended red/rosato, white and Aleatico categories.",
+      "zh": "Bari 内陆 DOC，涵盖 Primitivo、混酿红／桃红、白酒及 Aleatico。"
+    },
+    "grapeIds": [
+      "zinfandel",
+      "trebbiano-toscano",
+      "aleatico"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-greco-di-bianco-doc",
+    "name": "Greco di Bianco DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-calabria",
+    "aliases": [
+      "Greco di Bianco"
+    ],
+    "intro": {
+      "en": "A small Ionian passito DOC around Bianco, based on an aromatic Malvasia identity.",
+      "zh": "Bianco 周围的小型爱奥尼亚海岸风干甜酒 DOC，以芳香型 Malvasia 身份葡萄为基础。"
+    },
+    "grapeIds": [
+      "malvasia-aromatica"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-greco-di-tufo",
+    "name": "Greco di Tufo",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [],
+    "intro": {
+      "en": "Greco-led still and traditional-method sparkling DOCG in the Sabato valley of Irpinia.",
+      "zh": "Irpinia Sabato 河谷，以 Greco 为主的静止及传统法起泡 DOCG。"
+    },
+    "grapeIds": [
+      "greco",
+      "coda-di-volpe"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-grignolino-dasti",
+    "name": "Grignolino d’Asti DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Grignolino d’Asti",
+      "Grignolino d'Asti"
+    ],
+    "intro": {
+      "en": "Dry red DOC from the Asti hills, distinct from Grignolino del Monferrato Casalese.",
+      "zh": "Asti 丘陵干红 DOC，独立于 Grignolino del Monferrato Casalese。"
+    },
+    "grapeIds": [
+      "grignolino",
+      "freisa"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-ischia",
+    "name": "Ischia",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [],
+    "intro": {
+      "en": "Island DOC off Naples, with distinctive Biancolella–Forastera white blends and local red varieties.",
+      "zh": "Napoli 外海岛屿 DOC，以 Biancolella—Forastera 白葡萄配比与地方红葡萄为特色。"
+    },
+    "grapeIds": [
+      "biancolella",
+      "forastera",
+      "piedirosso"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-lacrima-di-morro-d-alba",
+    "name": "Lacrima di Morro d’Alba",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-marche",
+    "aliases": [],
+    "intro": {
+      "en": "Aromatic red denomination near Ancona, based on Lacrima with rose and violet perfume.",
+      "zh": "Ancona 附近芳香红酒产区，以 Lacrima 为基础，具玫瑰紫罗兰香。"
+    },
+    "grapeIds": [
+      "lacrima"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-lambrusco-di-sorbara-doc",
+    "name": "Lambrusco di Sorbara DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-emilia-romagna",
+    "aliases": [
+      "Lambrusco di Sorbara",
+      "Sorbara DOC"
+    ],
+    "intro": {
+      "en": "Modena plain DOC producing especially pale, fragrant and acid-driven red and rosé Lambrusco.",
+      "zh": "Modena 平原 DOC，尤以色浅、芳香、酸度鲜明的红及桃红 Lambrusco 著称。"
+    },
+    "grapeIds": [
+      "lambrusco-di-sorbara",
+      "lambrusco-salamino"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-lambrusco-grasparossa-di-castelvetro-doc",
+    "name": "Lambrusco Grasparossa di Castelvetro DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-emilia-romagna",
+    "aliases": [
+      "Lambrusco Grasparossa di Castelvetro",
+      "Grasparossa di Castelvetro"
+    ],
+    "intro": {
+      "en": "Southern Modena foothill DOC known for deeply coloured, tannic Lambrusco.",
+      "zh": "Modena 南部山麓 DOC，以深色、有单宁 Lambrusco 著称。"
+    },
+    "grapeIds": [
+      "lambrusco-grasparossa"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-lambrusco-salamino-di-santa-croce-doc",
+    "name": "Lambrusco Salamino di Santa Croce DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-emilia-romagna",
+    "aliases": [
+      "Lambrusco Salamino di Santa Croce",
+      "Salamino di Santa Croce"
+    ],
+    "intro": {
+      "en": "Carpi-area plain DOC led by Lambrusco Salamino.",
+      "zh": "Carpi 周边平原、以 Lambrusco Salamino 为主的 DOC。"
+    },
+    "grapeIds": [
+      "lambrusco-salamino",
+      "ancellotta",
+      "fortana"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-lazio",
+    "name": "Lazio",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Volcanic Castelli Romani whites, Cesanese from the eastern hills, Cori’s Bellone and Nero Buono, and Terracina’s aromatic wines form distinct regional traditions.",
+      "zh": "火山 Castelli Romani 白酒、东部丘陵 Cesanese、Cori 的 Bellone 与 Nero Buono、Terracina 芳香酒构成不同地方传统。"
+    },
+    "grapeIds": [
+      "malvasia-bianca-di-candia",
+      "malvasia-del-lazio",
+      "bellone",
+      "trebbiano-giallo",
+      "trebbiano-toscano",
+      "cesanese-comune",
+      "cesanese-d-affile",
+      "nero-buono",
+      "montepulciano",
+      "moscato-di-terracina",
+      "capolongo",
+      "lecinaro",
+      "maturano",
+      "maturano-nero",
+      "pampanaro",
+      "raspato-nero",
+      "reale-bianca",
+      "rosciola",
+      "abbuoto"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-liguria",
+    "name": "Liguria",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Coastal region linking western Rossese/Pigato wines to eastern Bosco–Albarola blends and cross-border Colli di Luni.",
+      "zh": "沿海大区，连接西部 Rossese／Pigato 酒、东部 Bosco–Albarola 混酿及跨界 Colli di Luni。"
+    },
+    "grapeIds": [
+      "albarola",
+      "bosco",
+      "lumassina",
+      "vermentino",
+      "tibouren",
+      "dolcetto",
+      "garnacha-tinta",
+      "genovese",
+      "pagadebiti",
+      "muscat-blanc-a-petits-grains",
+      "sangiovese",
+      "trebbiano-toscano",
+      "ciliegiolo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-lombardia",
+    "name": "Lombardia",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [
+      "Lombardy"
+    ],
+    "intro": {
+      "en": "Northern region spanning Alpine Nebbiolo, Garda whites and rosés, Franciacorta and Oltrepò sparkling traditions.",
+      "zh": "北部大区，涵盖阿尔卑斯 Nebbiolo、Garda 白酒桃红及 Franciacorta、Oltrepò 起泡传统。"
+    },
+    "grapeIds": [
+      "erbamat",
+      "groppello-gentile",
+      "groppello-di-mocasina",
+      "pignola-valtellinese",
+      "rossola-nera",
+      "nebbiolo-rose",
+      "moscato-di-scanzo",
+      "nebbiolo",
+      "chardonnay",
+      "pinot-noir",
+      "pinot-blanc",
+      "pinot-gris",
+      "verdicchio",
+      "croatina",
+      "barbera",
+      "uva-rara",
+      "vespolina",
+      "riesling",
+      "welschriesling",
+      "cabernet-sauvignon",
+      "merlot",
+      "muscat-blanc-a-petits-grains"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-lugana",
+    "name": "Lugana DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lombardia",
+    "aliases": [
+      "Lugana"
+    ],
+    "intro": {
+      "en": "Southern Lake Garda white PDO shared by Lombardia and Veneto.",
+      "zh": "Garda 湖南部跨 Lombardia 与 Veneto 的白酒 PDO。"
+    },
+    "grapeIds": [
+      "verdicchio"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-malvasia-delle-lipari-doc",
+    "name": "Malvasia delle Lipari DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sicilia",
+    "aliases": [
+      "Malvasia delle Lipari"
+    ],
+    "intro": {
+      "en": "The Aeolian aromatic wine DOC, combining Malvasia di Lipari with a small but compulsory Corinto Nero component.",
+      "zh": "Aeolian 群岛芳香酒 DOC，以 Malvasia di Lipari 加少量必需 Corinto Nero。"
+    },
+    "grapeIds": [
+      "malvasia-aromatica",
+      "corinto-nero"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-mandrolisai-doc",
+    "name": "Mandrolisai DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sardegna",
+    "aliases": [
+      "Mandrolisai"
+    ],
+    "intro": {
+      "en": "An inland Sardinian blend DOC requiring Bovale Sardo, Cannonau and Monica.",
+      "zh": "Sardegna 内陆混酿 DOC，必须含 Bovale Sardo、Cannonau、Monica。"
+    },
+    "grapeIds": [
+      "carcajolo",
+      "garnacha-tinta",
+      "monica"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-marche",
+    "name": "Marche",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Adriatic and Apennine influences define a region of Verdicchio, Pecorino and Passerina whites, aromatic Lacrima and Vernaccia Nera reds, and Montepulciano-led southern wines.",
+      "zh": "亚得里亚海与亚平宁山共同塑造地区：白酒有 Verdicchio、Pecorino、Passerina；红酒有芳香 Lacrima、Vernaccia Nera 及南部 Montepulciano 主导酒款。"
+    },
+    "grapeIds": [
+      "verdicchio",
+      "pecorino",
+      "passerina",
+      "montepulciano",
+      "lacrima",
+      "maceratino",
+      "incrocio-bruni-54",
+      "garofanata",
+      "vernaccia-nera"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-marsala-doc",
+    "name": "Marsala DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sicilia",
+    "aliases": [
+      "Marsala"
+    ],
+    "intro": {
+      "en": "A fortified-wine DOC classified by colour, sweetness and minimum ageing, governed here by the August 2026 consolidated text.",
+      "zh": "加强酒 DOC，按颜色、甜度及最低陈年分类；本档案依 2026 年 8 月整合法规。"
+    },
+    "grapeIds": [
+      "grillo",
+      "catarratto",
+      "inzolia",
+      "mayorquin",
+      "nero-d-avola",
+      "perricone",
+      "nerello-mascalese"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-matera",
+    "name": "Matera",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-basilicata",
+    "aliases": [],
+    "intro": {
+      "en": "Matera-province DOC with specified Sangiovese, Primitivo, Greco and international-variety blends across warmer southeastern Basilicata.",
+      "zh": "涵盖 Basilicata 东南部较暖区域的 Matera 省 DOC，规范 Sangiovese、Primitivo、Greco 及国际品种配比。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "zinfandel",
+      "cabernet-sauvignon",
+      "merlot",
+      "greco"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-modena-doc",
+    "name": "Modena DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-emilia-romagna",
+    "aliases": [
+      "Modena",
+      "Modena Lambrusco"
+    ],
+    "intro": {
+      "en": "Broad Modena denomination with multiple wine types; the Lambrusco rules apply to its Lambrusco type.",
+      "zh": "Modena 广域多类型产区，Lambrusco 规则适用于其 Lambrusco 类型。"
+    },
+    "grapeIds": [
+      "lambrusco-grasparossa",
+      "lambrusco-salamino",
+      "lambrusco-di-sorbara",
+      "lambrusco-marani",
+      "lambrusco-maestri",
+      "lambrusco-oliva",
+      "enantio",
+      "ancellotta",
+      "fortana"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-molise",
+    "name": "Molise",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Small Adriatic and inland region connecting Montepulciano and Aglianico blends with the recovered local Tintilia grape.",
+      "zh": "兼有亚得里亚海岸与内陆的小型大区，连接 Montepulciano、Aglianico 混酿及保育地方 Tintilia。"
+    },
+    "grapeIds": [
+      "tintilia",
+      "montepulciano",
+      "aglianico",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-monferrato",
+    "name": "Monferrato",
+    "country": "Italy",
+    "kind": "subregion",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Monferrato"
+    ],
+    "intro": {
+      "en": "Historical wine district containing multiple independent DOCs and DOCGs.",
+      "zh": "包含多个独立 DOC、DOCG 的历史葡萄酒地区。"
+    },
+    "grapeIds": [
+      "barbera",
+      "grignolino",
+      "freisa",
+      "ruche",
+      "brachetto",
+      "muscat-blanc-a-petits-grains"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-monferrato-doc",
+    "name": "Monferrato DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-monferrato",
+    "aliases": [
+      "Monferrato DOC"
+    ],
+    "intro": {
+      "en": "Broad Asti–Alessandria DOC producing white, rosé and red wines.",
+      "zh": "Asti–Alessandria 广域 DOC，生产白、桃红、红酒。"
+    },
+    "grapeIds": [
+      "barbera",
+      "nebbiolo",
+      "dolcetto",
+      "freisa",
+      "grignolino",
+      "cortese",
+      "vermentino",
+      "chardonnay",
+      "sauvignon-blanc",
+      "viognier",
+      "cabernet-sauvignon",
+      "merlot",
+      "pinot-noir",
+      "uvalino"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-montefalco",
+    "name": "Montefalco",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-umbria",
+    "aliases": [],
+    "intro": {
+      "en": "A multi-style denomination encompassing Sangiovese-based reds and local white grapes, separate from Sagrantino DOCG.",
+      "zh": "包含 Sangiovese 主导红酒及本土白葡萄多酒型产区，与 Sagrantino DOCG 独立。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "sagrantino",
+      "trebbiano-spoletino",
+      "grechetto"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-montefalco-sagrantino",
+    "name": "Montefalco Sagrantino",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-umbria",
+    "aliases": [],
+    "intro": {
+      "en": "Dry and passito wines made exclusively from Sagrantino in a small Umbrian hill area.",
+      "zh": "翁布里亚小片丘陵内仅用 Sagrantino 酿造的干型及风干甜型酒。"
+    },
+    "grapeIds": [
+      "sagrantino"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-montepulciano-dabruzzo",
+    "name": "Montepulciano d’Abruzzo",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-abruzzo",
+    "aliases": [],
+    "intro": {
+      "en": "Broad Abruzzo red-wine DOC based on Montepulciano, separate from the Tuscan town of that name.",
+      "zh": "以 Montepulciano 为主的广域 Abruzzo 红酒 DOC，与 Tuscany 同名城镇分开。"
+    },
+    "grapeIds": [
+      "montepulciano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-moscato-di-scanzo",
+    "name": "Moscato di Scanzo DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lombardia",
+    "aliases": [
+      "Moscato di Scanzo"
+    ],
+    "intro": {
+      "en": "Concentrated sweet red dried-grape PDO.",
+      "zh": "浓缩风干甜红 PDO。"
+    },
+    "grapeIds": [
+      "moscato-di-scanzo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-nizza",
+    "name": "Nizza DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Nizza"
+    ],
+    "intro": {
+      "en": "A dry, exclusively Barbera DOCG around Nizza Monferrato.",
+      "zh": "围绕 Nizza Monferrato、完全使用 Barbera 的干红 DOCG。"
+    },
+    "grapeIds": [
+      "barbera"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-offida",
+    "name": "Offida",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-marche",
+    "aliases": [],
+    "intro": {
+      "en": "Southern Marche denomination with separate Pecorino, Passerina and Montepulciano-based Rosso types.",
+      "zh": "Marche 南部产区，分 Pecorino、Passerina 及 Montepulciano 主导 Rosso。"
+    },
+    "grapeIds": [
+      "pecorino",
+      "passerina",
+      "montepulciano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-oltrepo-pavese",
+    "name": "Oltrepò Pavese DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lombardia",
+    "aliases": [
+      "Oltrepò Pavese",
+      "Oltrepo Pavese"
+    ],
+    "intro": {
+      "en": "Broad DOC within a district that also contains several independent DOC and DOCG names.",
+      "zh": "较广 DOC 所在地区同时含多个独立 DOC 与 DOCG。"
+    },
+    "grapeIds": [
+      "croatina",
+      "barbera",
+      "uva-rara",
+      "vespolina",
+      "pinot-noir",
+      "riesling",
+      "welschriesling",
+      "pinot-gris",
+      "chardonnay"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-orvieto",
+    "name": "Orvieto",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-umbria",
+    "aliases": [],
+    "intro": {
+      "en": "White-wine denomination crossing the Umbria–Lazio border, with dry through noble-rot sweet expressions.",
+      "zh": "跨 Umbria–Lazio 边界的白酒产区，风格从干型至贵腐甜型。"
+    },
+    "grapeIds": [
+      "trebbiano-toscano",
+      "grechetto"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-ovada",
+    "name": "Ovada DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Ovada",
+      "Dolcetto di Ovada Superiore"
+    ],
+    "intro": {
+      "en": "Ovada or Dolcetto di Ovada Superiore DOCG; distinct from Dolcetto di Ovada DOC.",
+      "zh": "Ovada 或 Dolcetto di Ovada Superiore DOCG；与 Dolcetto di Ovada DOC 独立。"
+    },
+    "grapeIds": [
+      "dolcetto"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-pantelleria-doc",
+    "name": "Pantelleria DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sicilia",
+    "aliases": [
+      "Pantelleria"
+    ],
+    "intro": {
+      "en": "An island DOC centred on Zibibbo, covering dry, sweet, sparkling and separately fortified categories.",
+      "zh": "以 Zibibbo 为核心的海岛 DOC，涵盖干、甜、起泡及独立加强酒型。"
+    },
+    "grapeIds": [
+      "muscat-of-alexandria"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-pentro-di-isernia",
+    "name": "Pentro di Isernia",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-molise",
+    "aliases": [
+      "Pentro"
+    ],
+    "intro": {
+      "en": "Isernia DOC with a modern Montepulciano–Tintilia red blend.",
+      "zh": "Isernia DOC，现代红酒以 Montepulciano—Tintilia 配比为核心。"
+    },
+    "grapeIds": [
+      "montepulciano",
+      "tintilia",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-piemonte",
+    "name": "Piemonte",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [
+      "Piedmont"
+    ],
+    "intro": {
+      "en": "Northwestern region spanning Langhe, Roero, Monferrato, Alto Piemonte and Alpine foothill grape traditions.",
+      "zh": "西北大区，涵盖 Langhe、Roero、Monferrato、Alto Piemonte 及阿尔卑斯山前葡萄传统。"
+    },
+    "grapeIds": [
+      "baratuciat",
+      "bianchetto-di-saluzzo",
+      "barbera-ciaria",
+      "barbassese",
+      "doux-d-henry",
+      "ner-d-ala",
+      "neretto-di-bairo",
+      "albarossa",
+      "barbera-bianca",
+      "lambrusca-di-alessandria",
+      "malvasia-moscata",
+      "nascetta",
+      "slarina",
+      "montanera",
+      "uvalino",
+      "quagliano",
+      "nebbiolo",
+      "barbera",
+      "dolcetto",
+      "arneis",
+      "cortese",
+      "erbaluce",
+      "timorasso",
+      "grignolino",
+      "brachetto",
+      "freisa",
+      "bonarda-piemontese",
+      "pelaverga-grosso",
+      "pelaverga-piccolo",
+      "ruche",
+      "croatina",
+      "uva-rara",
+      "vespolina",
+      "malvasia-di-casorzo",
+      "malvasia-di-schierano",
+      "vermentino",
+      "chatus",
+      "hibou-noir",
+      "gouais-blanc",
+      "verdesse",
+      "persan",
+      "muscat-blanc-a-petits-grains",
+      "pignola-valtellinese",
+      "nebbiolo-rose"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-primitivo-di-manduria-doc",
+    "name": "Primitivo di Manduria DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-puglia",
+    "aliases": [
+      "Primitivo di Manduria"
+    ],
+    "intro": {
+      "en": "A Primitivo-led red DOC in Taranto and Brindisi, distinct from the sweet DOCG.",
+      "zh": "Taranto 与 Brindisi 的 Primitivo 主体红酒 DOC，与甜型 DOCG 分开。"
+    },
+    "grapeIds": [
+      "zinfandel"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-primitivo-di-manduria-dolce-naturale-docg",
+    "name": "Primitivo di Manduria Dolce Naturale DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-puglia",
+    "aliases": [
+      "Primitivo di Manduria Dolce Naturale"
+    ],
+    "intro": {
+      "en": "A naturally sweet Primitivo DOCG with its own composition, sugar and release rules.",
+      "zh": "自然甜型 Primitivo DOCG，具有独立比例、糖分与上市规则。"
+    },
+    "grapeIds": [
+      "zinfandel"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-prosecco-doc",
+    "name": "Prosecco DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Prosecco",
+      "Prosecco Treviso",
+      "Prosecco Trieste"
+    ],
+    "intro": {
+      "en": "Cross-regional Glera-led denomination spanning Veneto and Friuli-Venezia Giulia, with separately specified white and rosé styles.",
+      "zh": "跨 Veneto、Friuli-Venezia Giulia 的 Glera 主导产区，白酒与桃红各有规范。"
+    },
+    "grapeIds": [
+      "glera",
+      "glera-lunga",
+      "verdiso",
+      "chardonnay",
+      "pinot-blanc",
+      "pinot-gris",
+      "pinot-noir"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-puglia",
+    "name": "Puglia",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Puglia combines Primitivo and Negroamaro country with Uva di Troia in the north and a diverse central white-grape tradition. Its principal names cover distinct legal styles rather than a single warm-climate red-wine model.",
+      "zh": "Puglia 除 Primitivo、Negroamaro 外，北部以 Uva di Troia 为重点，中部白葡萄传统多样；各主要名称代表不同法定酒型。"
+    },
+    "grapeIds": [
+      "zinfandel",
+      "negroamaro",
+      "uva-di-troia",
+      "bombino-nero",
+      "bombino-bianco",
+      "verdeca",
+      "minutolo",
+      "impigno",
+      "bianco-d-alessano",
+      "notardomenico",
+      "moscatello-selvatico"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-ramandolo-docg",
+    "name": "Ramandolo DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-friuli-venezia-giulia",
+    "aliases": [
+      "Ramandolo"
+    ],
+    "intro": {
+      "en": "Sweet Verduzzo Friulano DOCG on the southern slopes of Monte Bernadia around Nimis and Tarcento.",
+      "zh": "Nimis、Tarcento 周边 Monte Bernadia 南坡的甜型 Verduzzo Friulano DOCG。"
+    },
+    "grapeIds": [
+      "verduzzo-friulano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-recioto-della-valpolicella-docg",
+    "name": "Recioto della Valpolicella DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Recioto della Valpolicella",
+      "Recioto della Valpolicella Classico"
+    ],
+    "intro": {
+      "en": "Sweet red DOCG made from dried grapes; a separate denomination from Amarone.",
+      "zh": "以风干葡萄酿制的甜红 DOCG，与 Amarone 独立。"
+    },
+    "grapeIds": [
+      "corvina",
+      "corvinone",
+      "rondinella"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-reggiano-doc",
+    "name": "Reggiano DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-emilia-romagna",
+    "aliases": [
+      "Reggiano",
+      "Reggiano Lambrusco",
+      "Reggiano Rosso"
+    ],
+    "intro": {
+      "en": "Reggio Emilia DOC with Lambrusco, Ancellotta-led red and other separately specified types.",
+      "zh": "Reggio Emilia DOC，包含 Lambrusco、Ancellotta 主导红酒及其他独立规定类型。"
+    },
+    "grapeIds": [
+      "lambrusco-maestri",
+      "lambrusco-marani",
+      "lambrusco-salamino",
+      "lambrusco-di-sorbara",
+      "lambrusco-grasparossa",
+      "lambrusco-viadanese",
+      "lambrusco-oliva",
+      "lambrusco-barghi",
+      "ancellotta",
+      "fogarina",
+      "enantio"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-riviera-ligure-di-ponente",
+    "name": "Riviera Ligure di Ponente DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-liguria",
+    "aliases": [
+      "Riviera Ligure di Ponente"
+    ],
+    "intro": {
+      "en": "Western Ligurian multi-category PDO rather than one fixed blend.",
+      "zh": "Liguria 西部多类别 PDO，并非一种固定混酿。"
+    },
+    "grapeIds": [
+      "vermentino",
+      "tibouren",
+      "garnacha-tinta",
+      "muscat-blanc-a-petits-grains"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-roero",
+    "name": "Roero DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Roero"
+    ],
+    "intro": {
+      "en": "DOCG with Nebbiolo red and Arneis white categories.",
+      "zh": "含 Nebbiolo 红酒及 Arneis 白酒类别的 DOCG。"
+    },
+    "grapeIds": [
+      "nebbiolo",
+      "arneis"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-romagna-albana-docg",
+    "name": "Romagna Albana DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-emilia-romagna",
+    "aliases": [
+      "Romagna Albana",
+      "Albana di Romagna"
+    ],
+    "intro": {
+      "en": "Romagna’s Albana-led white DOCG, spanning dry, sweet and passito expressions.",
+      "zh": "Romagna 以 Albana 为主的白酒 DOCG，涵盖干、甜及风干风格。"
+    },
+    "grapeIds": [
+      "albana"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-rosazzo-docg",
+    "name": "Rosazzo DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-friuli-venezia-giulia",
+    "aliases": [
+      "Rosazzo"
+    ],
+    "intro": {
+      "en": "Dry white blend DOCG centred on the Rosazzo hills and abbey in Udine province.",
+      "zh": "以 Udine 省 Rosazzo 丘陵、修道院为中心的干白混酿 DOCG。"
+    },
+    "grapeIds": [
+      "friulano",
+      "sauvignon-blanc",
+      "pinot-blanc",
+      "chardonnay",
+      "ribolla-gialla"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-rosso-di-montalcino",
+    "name": "Rosso di Montalcino",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Earlier-release Sangiovese from Montalcino, with its own DOC rules.",
+      "zh": "Montalcino 较早上市的 Sangiovese，具有独立 DOC 规则。"
+    },
+    "grapeIds": [
+      "sangiovese"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-ruche-di-castagnole-monferrato",
+    "name": "Ruchè di Castagnole Monferrato DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Ruchè di Castagnole Monferrato",
+      "Ruche di Castagnole Monferrato",
+      "Ruchè DOCG"
+    ],
+    "intro": {
+      "en": "Dry aromatic red DOCG in Astigiano Monferrato.",
+      "zh": "Astigiano Monferrato 芳香干红 DOCG。"
+    },
+    "grapeIds": [
+      "ruche",
+      "barbera",
+      "brachetto"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-salice-salentino-doc",
+    "name": "Salice Salentino DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-puglia",
+    "aliases": [
+      "Salice Salentino"
+    ],
+    "intro": {
+      "en": "A Salento DOC led by Negroamaro, with revised composition and Superiore rules in May 2026.",
+      "zh": "以 Negroamaro 为主的 Salento DOC，2026 年 5 月更新比例与 Superiore 规则。"
+    },
+    "grapeIds": [
+      "negroamaro",
+      "verdeca",
+      "fiano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-sardegna",
+    "name": "Sardegna",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Sardegna combines the Vermentino of Gallura, Cannonau across the island, Carignano in Sulcis and long-aged Vernaccia around Oristano. Local synonyms require particular care: Bovale Sardo, Cagnulari and Bovale Grande are not interchangeable labels.",
+      "zh": "Sardegna 包括 Gallura 的 Vermentino、全岛 Cannonau、Sulcis 的 Carignano 及 Oristano 长期熟化 Vernaccia；Bovale Sardo、Cagnulari、Bovale Grande 不可随意互换。"
+    },
+    "grapeIds": [
+      "vermentino",
+      "garnacha-tinta",
+      "carignan",
+      "vernaccia-di-oristano",
+      "carcajolo",
+      "graciano",
+      "guarnaccia-bianca",
+      "arvesiniadu",
+      "semidano",
+      "retagliado-bianco"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-sforzato-di-valtellina",
+    "name": "Sforzato di Valtellina DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-valtellina",
+    "aliases": [
+      "Sforzato di Valtellina",
+      "Sfursat di Valtellina"
+    ],
+    "intro": {
+      "en": "Dry red made from dried Nebbiolo grapes.",
+      "zh": "风干 Nebbiolo 酿成的干红。"
+    },
+    "grapeIds": [
+      "nebbiolo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-sicilia",
+    "name": "Sicilia",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Sicilia ranges from Etna’s volcanic vineyards and Vittoria’s red blends to western fortified wines and island passiti. Its indigenous grape collection includes both established varieties and recently recovered material.",
+      "zh": "Sicilia 从 Etna 火山葡萄园、Vittoria 红酒混酿，延伸至西部加强酒及离岛风干酒；本地葡萄既有成熟主流品种，也有近年恢复材料。"
+    },
+    "grapeIds": [
+      "carricante",
+      "nerello-mascalese",
+      "nero-d-avola",
+      "frappato",
+      "muscat-of-alexandria",
+      "malvasia-aromatica",
+      "corinto-nero",
+      "nocera",
+      "albanello",
+      "minnella-bianca",
+      "minnella-nera",
+      "lucignola",
+      "vitrarolo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-soave-doc",
+    "name": "Soave DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Soave",
+      "Soave Classico",
+      "Soave Colli Scaligeri"
+    ],
+    "intro": {
+      "en": "Garganega-led white denomination east of Verona, including historical hills and a wider delimited zone.",
+      "zh": "Verona 东侧以 Garganega 为主的白酒产区，含历史丘陵及较广划定区域。"
+    },
+    "grapeIds": [
+      "garganega",
+      "verdicchio",
+      "chardonnay"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-soave-superiore-docg",
+    "name": "Soave Superiore DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Soave Superiore",
+      "Soave Superiore Classico"
+    ],
+    "intro": {
+      "en": "Separate Garganega-led DOCG associated with the Soave hillside zone.",
+      "zh": "与 Soave 丘陵区相连、以 Garganega 为主的独立 DOCG。"
+    },
+    "grapeIds": [
+      "garganega",
+      "verdicchio"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-spoleto",
+    "name": "Spoleto",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-umbria",
+    "aliases": [],
+    "intro": {
+      "en": "Umbrian white-wine denomination focused on Trebbiano Spoletino, including still, sparkling and passito styles.",
+      "zh": "以 Trebbiano Spoletino 为中心的翁布里亚白酒产区，包含静态、起泡与风干甜型。"
+    },
+    "grapeIds": [
+      "trebbiano-spoletino"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-taurasi",
+    "name": "Taurasi",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [],
+    "intro": {
+      "en": "Inland Irpinia red-wine DOCG centred on late-ripening Aglianico, with substantial compulsory maturation.",
+      "zh": "Irpinia 内陆红酒 DOCG，以晚熟 Aglianico 为核心，要求较长法定熟成。"
+    },
+    "grapeIds": [
+      "aglianico"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-teroldego-rotaliano-doc",
+    "name": "Teroldego Rotaliano DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-trentino",
+    "aliases": [
+      "Teroldego Rotaliano",
+      "Campo Rotaliano",
+      "Rotaliana"
+    ],
+    "intro": {
+      "en": "Teroldego denomination of the Campo Rotaliano north of Trento.",
+      "zh": "Trento 北侧 Campo Rotaliano 的 Teroldego 法定产区。"
+    },
+    "grapeIds": [
+      "teroldego"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-terracina",
+    "name": "Terracina",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-lazio",
+    "aliases": [],
+    "intro": {
+      "en": "Southern Lazio denomination centred on the aromatic Moscato di Terracina grape.",
+      "zh": "Lazio 南部，以芳香葡萄 Moscato di Terracina 为核心。"
+    },
+    "grapeIds": [
+      "moscato-di-terracina"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-terre-del-volturno",
+    "name": "Terre del Volturno",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [],
+    "intro": {
+      "en": "Caserta-centred geographical indication important for recovered Pallagrello and Casavecchia wines.",
+      "zh": "以 Caserta 为核心的地理标志，Pallagrello、Casavecchia 保育酒款的重要载体。"
+    },
+    "grapeIds": [
+      "pallagrello-bianco",
+      "pallagrello-nero",
+      "casavecchia"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-terre-dellalta-val-dagri",
+    "name": "Terre dell’Alta Val d’Agri",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-basilicata",
+    "aliases": [],
+    "intro": {
+      "en": "Interior Potenza valley DOC structured around Merlot and Cabernet Sauvignon, with a distinctive Malvasia contribution to rosé.",
+      "zh": "Potenza 内陆河谷 DOC，以 Merlot、Cabernet Sauvignon 为骨架，桃红特别要求 Malvasia 组成。"
+    },
+    "grapeIds": [
+      "merlot",
+      "cabernet-sauvignon"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-tintilia-del-molise",
+    "name": "Tintilia del Molise",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-molise",
+    "aliases": [],
+    "intro": {
+      "en": "Tintilia-focused DOC across specified hills in both Molise provinces.",
+      "zh": "以 Tintilia 为核心，跨 Molise 两省指定丘陵的 DOC。"
+    },
+    "grapeIds": [
+      "tintilia"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-toscana",
+    "name": "Toscana",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Sangiovese-led inland hills and Cabernet-led coastal zones coexist with distinctive white grapes and a diverse local red patrimony.",
+      "zh": "内陆 Sangiovese 丘陵与沿海 Cabernet 产区并存，另有独特白葡萄及丰富地方红葡萄。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "canaiolo-nero",
+      "trebbiano-toscano",
+      "colorino",
+      "ciliegiolo",
+      "sciaccarello",
+      "cabernet-sauvignon",
+      "merlot",
+      "cabernet-franc",
+      "vermentino",
+      "sauvignon-blanc",
+      "vernaccia-di-san-gimignano",
+      "foglia-tonda",
+      "pugnitello",
+      "barsaglina",
+      "vermentino-nero",
+      "pollera-nera"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-trebbiano-dabruzzo",
+    "name": "Trebbiano d’Abruzzo",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-abruzzo",
+    "aliases": [],
+    "intro": {
+      "en": "Still-white DOC allowing two different Trebbiano grapes as principals.",
+      "zh": "允许两种不同 Trebbiano 作主品种的静止白酒 DOC。"
+    },
+    "grapeIds": [
+      "trebbiano-abruzzese",
+      "trebbiano-toscano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-trentino",
+    "name": "Trentino",
+    "country": "Italy",
+    "kind": "subregion",
+    "parentId": "it-trentino-alto-adige",
+    "aliases": [
+      "Trento province"
+    ],
+    "intro": {
+      "en": "Wine territory of the autonomous province of Trento, encompassing several distinct DOCs.",
+      "zh": "Trento 自治省葡萄酒区域，含多个独立 DOC。"
+    },
+    "grapeIds": [
+      "teroldego",
+      "nosiola",
+      "chardonnay",
+      "pinot-blanc",
+      "pinot-gris",
+      "muller-thurgau",
+      "marzemino",
+      "enantio",
+      "casetta",
+      "rebo",
+      "schiava-gentile"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-trentino-alto-adige",
+    "name": "Trentino-Alto Adige",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [
+      "Trentino Alto Adige",
+      "Trentino-Alto Adige/Südtirol"
+    ],
+    "intro": {
+      "en": "Alpine administrative region comprising Trentino and Alto Adige/Südtirol, with distinct provincial wine territories.",
+      "zh": "阿尔卑斯行政大区，由 Trentino 与 Alto Adige／Südtirol 构成，各有不同省级葡萄酒区域。"
+    },
+    "grapeIds": [
+      "teroldego",
+      "nosiola",
+      "schiava-grossa",
+      "chardonnay",
+      "pinot-blanc",
+      "pinot-gris",
+      "muller-thurgau",
+      "kerner",
+      "gewurztraminer",
+      "goldmuskateller",
+      "lagrein",
+      "marzemino",
+      "casetta",
+      "enantio",
+      "rebo",
+      "moscato-rosa",
+      "schiava-gentile"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-trento-doc",
+    "name": "Trento DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-trentino",
+    "aliases": [
+      "Trento",
+      "Trentodoc"
+    ],
+    "intro": {
+      "en": "Traditional-method sparkling denomination of Trentino; Trentodoc is its collective promotional identity.",
+      "zh": "Trentino 传统法起泡产区；Trentodoc 为其集体推广身份。"
+    },
+    "grapeIds": [
+      "chardonnay",
+      "pinot-blanc",
+      "pinot-noir",
+      "pinot-meunier"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-umbria",
+    "name": "Umbria",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [],
+    "intro": {
+      "en": "Landlocked central Italy links Sagrantino’s tannic red wines, Sangiovese blends, late-ripening Trebbiano Spoletino and Orvieto’s white traditions.",
+      "zh": "意大利中部内陆地区，连接 Sagrantino 高单宁红酒、Sangiovese 混酿、晚熟 Trebbiano Spoletino 及 Orvieto 白酒传统。"
+    },
+    "grapeIds": [
+      "sagrantino",
+      "sangiovese",
+      "trebbiano-spoletino",
+      "grechetto",
+      "trebbiano-toscano",
+      "grero"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-valle-daosta",
+    "name": "Valle d’Aosta",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [
+      "Aosta Valley",
+      "Vallée d’Aoste"
+    ],
+    "intro": {
+      "en": "Alpine valley with distinct local grapes and a regional DOC containing geographical and varietal identities.",
+      "zh": "阿尔卑斯谷地，拥有独特地方葡萄及包含地理、品种身份的大区 DOC。"
+    },
+    "grapeIds": [
+      "fumin",
+      "petit-rouge",
+      "prie-rouge",
+      "prie-blanc",
+      "mayolet",
+      "vuillermin",
+      "vien-de-nus",
+      "nebbiolo",
+      "humagne-rouge",
+      "petite-arvine",
+      "pinot-noir",
+      "pinot-gris",
+      "chardonnay",
+      "gamay",
+      "muscat-blanc-a-petits-grains",
+      "muller-thurgau"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-valle-daosta-doc",
+    "name": "Valle d’Aosta DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-valle-daosta",
+    "aliases": [
+      "Vallée d’Aoste DOC"
+    ],
+    "intro": {
+      "en": "Regional DOC with geographical and varietal wine categories, separate from the administrative region.",
+      "zh": "含地理及品种酒类别的大区 DOC，与行政大区分开。"
+    },
+    "grapeIds": [
+      "prie-blanc",
+      "petit-rouge",
+      "fumin",
+      "mayolet",
+      "vuillermin",
+      "vien-de-nus",
+      "prie-rouge",
+      "nebbiolo",
+      "pinot-gris",
+      "muscat-blanc-a-petits-grains"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-valpolicella-doc",
+    "name": "Valpolicella DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Valpolicella",
+      "Valpolicella Classico",
+      "Valpolicella Superiore"
+    ],
+    "intro": {
+      "en": "Fresh-grape red DOC of Verona, separate from Ripasso and the two dried-grape DOCGs.",
+      "zh": "Verona 鲜葡萄红酒 DOC，与 Ripasso 及两个风干 DOCG 分开。"
+    },
+    "grapeIds": [
+      "corvina",
+      "corvinone",
+      "rondinella"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-valpolicella-ripasso-doc",
+    "name": "Valpolicella Ripasso DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-veneto",
+    "aliases": [
+      "Valpolicella Ripasso",
+      "Ripasso"
+    ],
+    "intro": {
+      "en": "Valpolicella red re-fermented on Amarone or Recioto marc under a separate DOC.",
+      "zh": "Valpolicella 红酒在 Amarone 或 Recioto 酒渣上再发酵，属独立 DOC。"
+    },
+    "grapeIds": [
+      "corvina",
+      "corvinone",
+      "rondinella"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-valtellina",
+    "name": "Valtellina",
+    "country": "Italy",
+    "kind": "subregion",
+    "parentId": "it-lombardia",
+    "aliases": [
+      "Valtellina"
+    ],
+    "intro": {
+      "en": "Alpine wine district containing independent protected red-wine denominations.",
+      "zh": "含独立受保护红酒名称的阿尔卑斯葡萄酒地区。"
+    },
+    "grapeIds": [
+      "nebbiolo",
+      "pignola-valtellinese",
+      "rossola-nera",
+      "nebbiolo-rose"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-valtellina-superiore",
+    "name": "Valtellina Superiore DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-valtellina",
+    "aliases": [
+      "Valtellina Superiore"
+    ],
+    "intro": {
+      "en": "Nebbiolo-led Alpine dry-red PDO with five named subzones.",
+      "zh": "Nebbiolo 主导、有五个具名分区的阿尔卑斯干红 PDO。"
+    },
+    "grapeIds": [
+      "nebbiolo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-valtenesi",
+    "name": "Riviera del Garda Classico DOC · Valtènesi",
+    "country": "Italy",
+    "kind": "subregion",
+    "parentId": "it-lombardia",
+    "aliases": [
+      "Valtènesi",
+      "Valtenesi"
+    ],
+    "intro": {
+      "en": "Valtènesi is a specified subzone within Riviera del Garda Classico DOC.",
+      "zh": "Valtènesi 为 Riviera del Garda Classico DOC 内指定分区。"
+    },
+    "grapeIds": [
+      "groppello-gentile",
+      "groppello-di-mocasina",
+      "barbera",
+      "sangiovese"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-veneto",
+    "name": "Veneto",
+    "country": "Italy",
+    "kind": "region",
+    "aliases": [
+      "Venetia"
+    ],
+    "intro": {
+      "en": "Northeastern Italian region joining Garda, Verona, Vicenza and Treviso wine territories.",
+      "zh": "意大利东北大区，连接 Garda、Verona、Vicenza 与 Treviso 葡萄酒区域。"
+    },
+    "grapeIds": [
+      "garganega",
+      "glera",
+      "corvina",
+      "corvinone",
+      "rondinella",
+      "molinara",
+      "durella",
+      "glera-lunga",
+      "manzoni-bianco",
+      "raboso-piave",
+      "verdiso",
+      "verduzzo-trevigiano",
+      "boschera",
+      "raboso-veronese",
+      "oseleta",
+      "vespaiola"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-verdicchio-dei-castelli-di-jesi",
+    "name": "Verdicchio dei Castelli di Jesi",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-marche",
+    "aliases": [],
+    "intro": {
+      "en": "Verdicchio from the Esino hill system, extending from maritime-influenced slopes toward the pre-Apennines.",
+      "zh": "Esino 丘陵体系的 Verdicchio，从受海洋影响的坡地延向亚平宁山麓。"
+    },
+    "grapeIds": [
+      "verdicchio"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-verdicchio-di-matelica",
+    "name": "Verdicchio di Matelica",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-marche",
+    "aliases": [],
+    "intro": {
+      "en": "Inland Verdicchio from a north–south valley sheltered from Adriatic moderation by Monte San Vicino.",
+      "zh": "内陆南北向谷地的 Verdicchio，Monte San Vicino 阻挡亚得里亚海调节。"
+    },
+    "grapeIds": [
+      "verdicchio"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-verduno-pelaverga",
+    "name": "Verduno Pelaverga DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-piemonte",
+    "aliases": [
+      "Verduno Pelaverga"
+    ],
+    "intro": {
+      "en": "Small Langhe dry-red PDO based on Pelaverga Piccolo.",
+      "zh": "以 Pelaverga Piccolo 为基础的小型 Langhe 干红 PDO。"
+    },
+    "grapeIds": [
+      "pelaverga-piccolo"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-vermentino-di-gallura-docg",
+    "name": "Vermentino di Gallura DOCG",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sardegna",
+    "aliases": [
+      "Vermentino di Gallura"
+    ],
+    "intro": {
+      "en": "A northeastern Sardinian DOCG tied to granitic soils and Vermentino, with still and specialised wine categories.",
+      "zh": "Sardegna 东北部 DOCG，以花岗岩土壤与 Vermentino 为核心，兼静止及其他酒型。"
+    },
+    "grapeIds": [
+      "vermentino"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-vernaccia-di-oristano-doc",
+    "name": "Vernaccia di Oristano DOC",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-sardegna",
+    "aliases": [
+      "Vernaccia di Oristano"
+    ],
+    "intro": {
+      "en": "A western Sardinian DOC for mature Vernaccia wines, with flor ageing a defining producer reference.",
+      "zh": "Sardegna 西部陈年 Vernaccia DOC，酒花膜熟化为重要生产者参照。"
+    },
+    "grapeIds": [
+      "vernaccia-di-oristano"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-vernaccia-di-san-gimignano",
+    "name": "Vernaccia di San Gimignano",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Dry white from the San Gimignano hills, built on the local Vernaccia grape and Pliocene sediments.",
+      "zh": "San Gimignano 丘陵干白，以当地 Vernaccia 葡萄及上新世沉积土为基础。"
+    },
+    "grapeIds": [
+      "vernaccia-di-san-gimignano",
+      "sauvignon-blanc"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-vesuvio",
+    "name": "Vesuvio",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-campania",
+    "aliases": [
+      "Lacryma Christi del Vesuvio"
+    ],
+    "intro": {
+      "en": "Somma–Vesuvius DOC with Lacryma Christi styles and expanded varietal categories under the 2025 specification.",
+      "zh": "Somma–Vesuvius DOC，含 Lacryma Christi 风格及 2025 规范扩展的品种类别。"
+    },
+    "grapeIds": [
+      "caprettone",
+      "coda-di-volpe",
+      "piedirosso",
+      "aglianico",
+      "greco",
+      "sciascinoso"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "it-vino-nobile-di-montepulciano",
+    "name": "Vino Nobile di Montepulciano",
+    "country": "Italy",
+    "kind": "appellation",
+    "parentId": "it-toscana",
+    "aliases": [],
+    "intro": {
+      "en": "Sangiovese-based red from the Tuscan town of Montepulciano; the town name is distinct from the Montepulciano grape.",
+      "zh": "托斯卡纳 Montepulciano 城镇的 Sangiovese 主导红酒，地名不同于 Montepulciano 葡萄。"
+    },
+    "grapeIds": [
+      "sangiovese",
+      "canaiolo-nero",
+      "ciliegiolo",
+      "sciaccarello",
+      "colorino"
+    ],
+    "questionCount": 0
+  },
+  {
+    "id": "fr-rully",
+    "name": "Rully",
+    "country": "France",
+    "kind": "appellation",
+    "parentId": "fr-bourgogne",
+    "aliases": [
+      "Rully AOP",
+      "Rully AOC",
+      "吕利"
+    ],
+    "intro": {
+      "en": "Rully is the northern Côte Chalonnaise village appellation spanning Rully and Chagny. It produces still Chardonnay-led whites and Pinot Noir-led reds at Village and Premier Cru levels; its 23 Premier Cru climats form the core of this connected reference.",
+      "zh": "Rully 位于 Côte Chalonnaise 北部，跨 Rully 与 Chagny 两市镇。静态白葡萄酒以 Chardonnay 为主，红葡萄酒以 Pinot Noir 为主；分 Village 与 Premier Cru。本专题逐一关联其 23 个 Premier Cru climat、生产者与酒款。"
+    },
+    "grapeIds": [
+      "chardonnay",
+      "pinot-noir",
+      "pinot-gris"
+    ],
+    "questionCount": 0
+  }
+]

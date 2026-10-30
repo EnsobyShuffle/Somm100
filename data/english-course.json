@@ -1,0 +1,1803 @@
+{
+  "version": 2,
+  "levels": [
+    {
+      "id": 0,
+      "en": "Start here",
+      "zh": "零基础起步",
+      "goal": "认识字母与音标，听清数字，说出第一句。"
+    },
+    {
+      "id": 1,
+      "en": "Everyday English",
+      "zh": "生活与出行",
+      "goal": "机场、酒店、交通与日常交流，从容表达需求。"
+    },
+    {
+      "id": 2,
+      "en": "At the restaurant",
+      "zh": "餐厅服务",
+      "goal": "介绍菜品、理解要求，完成一次完整服务。"
+    },
+    {
+      "id": 3,
+      "en": "Sommelier English",
+      "zh": "侍酒师表达",
+      "goal": "了解偏好、推荐酒款、解释搭配与服务。"
+    },
+    {
+      "id": 4,
+      "en": "Professional English",
+      "zh": "专业交流",
+      "goal": "解释判断、沟通执行、用英语学习专业知识。"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "first-hello",
+      "level": 0,
+      "category": "基础",
+      "title": "第一次自我介绍",
+      "en": "Say hello",
+      "role": "新同事",
+      "goal": "用三句话介绍自己和工作。",
+      "phrases": [
+        "My name is…",
+        "I work as…",
+        "Nice to meet you."
+      ],
+      "turns": [
+        {
+          "partner": "Hi, I’m Alex. What’s your name?",
+          "task": "打招呼并说出你的名字。",
+          "example": "Hi, I’m Henry. Nice to meet you.",
+          "tip": "名字前可以用 I’m，不必逐字翻译中文。"
+        },
+        {
+          "partner": "Nice to meet you too. What do you do?",
+          "task": "说明你在餐厅工作。",
+          "example": "I work as a server in a restaurant.",
+          "tip": "a server 是一个岗位；as 后接角色。"
+        },
+        {
+          "partner": "How is your first day going?",
+          "task": "说明是第一天，并请对方帮助。",
+          "example": "It’s my first day. Could you help me, please?",
+          "tip": "先说清情况，再礼貌提出请求。"
+        }
+      ]
+    },
+    {
+      "id": "numbers-time",
+      "level": 0,
+      "category": "基础",
+      "title": "听清人数与时间",
+      "en": "Numbers and time",
+      "role": "接听订位的员工",
+      "goal": "确认人数、时间和姓名。",
+      "phrases": [
+        "a table for four",
+        "at seven thirty",
+        "Could you spell that?"
+      ],
+      "turns": [
+        {
+          "partner": "Hello, a table for four at seven thirty, please.",
+          "task": "复述人数和时间。",
+          "example": "A table for four at seven thirty. Is that right?",
+          "tip": "先复述，降低数字听错的机会。"
+        },
+        {
+          "partner": "Yes. The name is Lee.",
+          "task": "请客人拼写姓名。",
+          "example": "Could you spell your name, please?",
+          "tip": "不确定姓名时直接请对方拼写。"
+        },
+        {
+          "partner": "L-E-E. Thank you.",
+          "task": "确认记录并结束通话。",
+          "example": "Thank you, Mr Lee. We’ll see you at seven thirty.",
+          "tip": "seven thirty 表示 7:30；实际工作还需确认日期和上午/下午。"
+        }
+      ]
+    },
+    {
+      "id": "please-repeat",
+      "level": 0,
+      "category": "基础",
+      "title": "没听懂时怎么说",
+      "en": "Ask for clarification",
+      "role": "英语初学者",
+      "goal": "请求重复、放慢并确认意思。",
+      "phrases": [
+        "Could you repeat that?",
+        "a little more slowly",
+        "Do you mean…?"
+      ],
+      "turns": [
+        {
+          "partner": "Could we have the dressing on the side?",
+          "task": "先请求对方慢一点重复。",
+          "example": "Sorry, could you say that again a little more slowly?",
+          "tip": "请对方重复是正常的沟通技能。"
+        },
+        {
+          "partner": "The dressing, on the side, please.",
+          "task": "确认是把沙拉酱单独放。",
+          "example": "Do you mean you’d like the dressing served separately?",
+          "tip": "用自己的话确认，不必假装听懂。"
+        },
+        {
+          "partner": "Exactly, thank you.",
+          "task": "回应并说明会处理。",
+          "example": "Of course. I’ll let the kitchen know.",
+          "tip": "说明下一步，让客人放心。"
+        }
+      ]
+    },
+    {
+      "id": "simple-request",
+      "level": 0,
+      "category": "基础",
+      "title": "提出一个简单请求",
+      "en": "Make a request",
+      "role": "咖啡店客人",
+      "goal": "点水、确认价格并付款。",
+      "phrases": [
+        "Could I have…?",
+        "How much is it?",
+        "Can I pay by card?"
+      ],
+      "turns": [
+        {
+          "partner": "Hello. What would you like?",
+          "task": "要一瓶静水。",
+          "example": "Could I have a bottle of still water, please?",
+          "tip": "still water 是静水；a bottle of 表示数量。"
+        },
+        {
+          "partner": "Of course. Anything else?",
+          "task": "说明不需要别的，并问价格。",
+          "example": "That’s all, thank you. How much is it?",
+          "tip": "That’s all 在这里表示就这些。"
+        },
+        {
+          "partner": "That’s three pounds.",
+          "task": "询问能否刷卡。",
+          "example": "Can I pay by card?",
+          "tip": "练习数字时也要听货币单位。"
+        }
+      ]
+    },
+    {
+      "id": "airport-checkin",
+      "level": 1,
+      "category": "生活",
+      "title": "机场值机",
+      "en": "At the airport",
+      "role": "旅客",
+      "goal": "完成值机，确认行李和登机口。",
+      "phrases": [
+        "check in",
+        "checked baggage",
+        "boarding gate"
+      ],
+      "turns": [
+        {
+          "partner": "Good morning. Where are you flying today?",
+          "task": "说明目的地并递护照。",
+          "example": "I’m flying to London. Here is my passport.",
+          "tip": "目的地前用 to。"
+        },
+        {
+          "partner": "Do you have any bags to check in?",
+          "task": "说明有一件托运行李和一件随身行李。",
+          "example": "Yes, one suitcase to check in and one carry-on bag.",
+          "tip": "区分托运与随身行李。"
+        },
+        {
+          "partner": "Here is your boarding pass.",
+          "task": "询问登机口与开始登机的时间。",
+          "example": "Which gate should I go to, and what time does boarding start?",
+          "tip": "boarding time 与 departure time 不同。"
+        }
+      ]
+    },
+    {
+      "id": "airport-delay",
+      "level": 1,
+      "category": "生活",
+      "title": "航班延误与转机",
+      "en": "A missed connection",
+      "role": "转机旅客",
+      "goal": "说明情况，询问改签和行李。",
+      "phrases": [
+        "connecting flight",
+        "delayed",
+        "rebook"
+      ],
+      "turns": [
+        {
+          "partner": "Hello, how can I help?",
+          "task": "说明航班延误，担心错过转机。",
+          "example": "My flight is delayed, and I may miss my connecting flight.",
+          "tip": "may 表达可能发生的情况。"
+        },
+        {
+          "partner": "May I see your booking reference?",
+          "task": "给出预订信息并询问替代航班。",
+          "example": "Here it is. Could you help me find another flight?",
+          "tip": "给信息后再提出具体请求。"
+        },
+        {
+          "partner": "We can rebook you on a later flight.",
+          "task": "确认托运行李会如何处理。",
+          "example": "Thank you. Will my checked bag be transferred to the new flight?",
+          "tip": "行李处理需向航司确认。"
+        }
+      ]
+    },
+    {
+      "id": "hotel-checkin",
+      "level": 1,
+      "category": "生活",
+      "title": "酒店入住",
+      "en": "Checking in",
+      "role": "住店客人",
+      "goal": "确认预订、早餐和退房时间。",
+      "phrases": [
+        "under the name",
+        "included",
+        "check-out"
+      ],
+      "turns": [
+        {
+          "partner": "Welcome. Do you have a reservation?",
+          "task": "说明有预订和姓名。",
+          "example": "Yes, I have a reservation under the name Wu.",
+          "tip": "under the name 用于预订姓名。"
+        },
+        {
+          "partner": "You’re staying for two nights, correct?",
+          "task": "确认并询问是否含早餐。",
+          "example": "Yes, that’s right. Is breakfast included?",
+          "tip": "included 表示包含在房费中。"
+        },
+        {
+          "partner": "Yes, breakfast is from seven until ten.",
+          "task": "确认地点和退房时间。",
+          "example": "Where is breakfast served, and what time is check-out?",
+          "tip": "用两个明确问题确认实用信息。"
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "level": 1,
+      "category": "生活",
+      "title": "问路与乘车",
+      "en": "Getting around",
+      "role": "出行者",
+      "goal": "问路、确认方向与票价。",
+      "phrases": [
+        "How do I get to…?",
+        "change trains",
+        "single ticket"
+      ],
+      "turns": [
+        {
+          "partner": "Hi, do you need help?",
+          "task": "询问怎样去火车站。",
+          "example": "Yes, how do I get to the train station?",
+          "tip": "get to 后接目的地。"
+        },
+        {
+          "partner": "Take the underground and change at Central.",
+          "task": "确认在哪里换乘。",
+          "example": "So I change trains at Central, is that right?",
+          "tip": "复述换乘站名，避免误解。"
+        },
+        {
+          "partner": "That’s right. The ticket machine is over there.",
+          "task": "询问单程票价。",
+          "example": "Thank you. How much is a single ticket?",
+          "tip": "英式 single ticket 对应单程票。"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "level": 1,
+      "category": "生活",
+      "title": "购物与换货",
+      "en": "Shopping",
+      "role": "顾客",
+      "goal": "询问尺码、试穿与退换。",
+      "phrases": [
+        "in a smaller size",
+        "try it on",
+        "return policy"
+      ],
+      "turns": [
+        {
+          "partner": "Can I help you find anything?",
+          "task": "询问更小尺码。",
+          "example": "Do you have this in a smaller size?",
+          "tip": "in a size 是常用搭配。"
+        },
+        {
+          "partner": "Yes, here you are.",
+          "task": "询问能否试穿。",
+          "example": "Thank you. Could I try it on?",
+          "tip": "代词 it 放在 try 和 on 之间。"
+        },
+        {
+          "partner": "Of course. The fitting rooms are at the back.",
+          "task": "询问退换政策。",
+          "example": "What is your return policy if it doesn’t fit?",
+          "tip": "先了解条件，避免自己假设。"
+        }
+      ]
+    },
+    {
+      "id": "small-talk",
+      "level": 1,
+      "category": "生活",
+      "title": "日常聊天",
+      "en": "A little conversation",
+      "role": "新认识的朋友",
+      "goal": "聊工作、兴趣与下一次见面。",
+      "phrases": [
+        "How long have you…?",
+        "interested in",
+        "Would you like to…?"
+      ],
+      "turns": [
+        {
+          "partner": "How long have you been working here?",
+          "task": "说明工作时长。",
+          "example": "I’ve been working here for about six months.",
+          "tip": "for 接一段时间。"
+        },
+        {
+          "partner": "What do you like doing outside work?",
+          "task": "介绍自己的一项兴趣。",
+          "example": "I enjoy hiking, and I’m interested in wine.",
+          "tip": "enjoy 后用动名词；interested in 后接名词。"
+        },
+        {
+          "partner": "Me too. We should go for a walk sometime.",
+          "task": "提出一个具体安排。",
+          "example": "Would you like to go for a walk on Sunday?",
+          "tip": "给出时间让邀请更容易回应。"
+        }
+      ]
+    },
+    {
+      "id": "restaurant-welcome",
+      "level": 2,
+      "category": "餐厅",
+      "title": "迎宾与安排座位",
+      "en": "Welcome your guests",
+      "role": "餐厅服务员",
+      "goal": "确认预订，带位，介绍饮水选择。",
+      "phrases": [
+        "Do you have a reservation?",
+        "follow me",
+        "still or sparkling"
+      ],
+      "turns": [
+        {
+          "partner": "Good evening. We have a booking for two.",
+          "task": "礼貌询问预订姓名。",
+          "example": "Good evening. May I have the name on the reservation?",
+          "tip": "先欢迎，再核对资料。"
+        },
+        {
+          "partner": "It’s under Chen.",
+          "task": "确认并邀请跟随。",
+          "example": "Thank you, Ms Chen. Your table is ready. Please follow me.",
+          "tip": "语气自然，配合实际带位动作。"
+        },
+        {
+          "partner": "Could we have some water?",
+          "task": "询问静水还是气泡水。",
+          "example": "Of course. Would you prefer still or sparkling water?",
+          "tip": "收费饮用水还需要清楚告知价格。"
+        }
+      ]
+    },
+    {
+      "id": "describe-dish",
+      "level": 2,
+      "category": "餐厅",
+      "title": "介绍一道菜",
+      "en": "Explain a dish",
+      "role": "餐厅服务员",
+      "goal": "按食材、做法与配菜介绍。",
+      "phrases": [
+        "pan-fried",
+        "served with",
+        "on the side"
+      ],
+      "turns": [
+        {
+          "partner": "What is the fish dish today?",
+          "task": "根据练习菜单介绍香煎海鲈鱼、土豆与柠檬黄油汁。",
+          "example": "Today we have pan-fried sea bass, served with potatoes and a lemon butter sauce.",
+          "tip": "这里的菜单为练习设定；实际介绍以厨房资料为准。"
+        },
+        {
+          "partner": "Is the skin crispy?",
+          "task": "说明鱼皮煎脆。",
+          "example": "Yes, the skin is pan-fried until crisp.",
+          "tip": "crisp / crispy 可描述酥脆口感。"
+        },
+        {
+          "partner": "Could I have the sauce on the side?",
+          "task": "说明会向厨房确认。",
+          "example": "Certainly. Let me check with the kitchen for you.",
+          "tip": "未确认的修改要求先核实。"
+        }
+      ]
+    },
+    {
+      "id": "allergy",
+      "level": 2,
+      "category": "餐厅",
+      "title": "确认过敏与饮食要求",
+      "en": "Dietary requirements",
+      "role": "餐厅服务员",
+      "goal": "记录过敏，向厨房核实并准确回复。",
+      "phrases": [
+        "allergic to",
+        "cross-contact",
+        "check with the kitchen"
+      ],
+      "turns": [
+        {
+          "partner": "I have a nut allergy. Is this dish safe for me?",
+          "task": "确认收到信息并说明需核实。",
+          "example": "Thank you for letting me know. I’ll check the ingredients and preparation with the kitchen.",
+          "tip": "不能根据菜名或外观保证安全。"
+        },
+        {
+          "partner": "It’s a severe allergy.",
+          "task": "复述严重程度并询问需避免的坚果种类。",
+          "example": "I understand. Which nuts do you need to avoid? I’ll pass that on to the chef.",
+          "tip": "原料与交叉接触都需由厨房确认。"
+        },
+        {
+          "partner": "Please let me know before I order.",
+          "task": "承诺在下单前带回确认信息。",
+          "example": "Of course. I’ll come back with the kitchen’s information before you order.",
+          "tip": "不要擅自承诺零风险。"
+        }
+      ]
+    },
+    {
+      "id": "steak-order",
+      "level": 2,
+      "category": "餐厅",
+      "title": "熟度与点单确认",
+      "en": "Taking an order",
+      "role": "餐厅服务员",
+      "goal": "询问熟度，确认配菜并复述。",
+      "phrases": [
+        "How would you like…?",
+        "medium-rare",
+        "instead of"
+      ],
+      "turns": [
+        {
+          "partner": "I’ll have the steak, please.",
+          "task": "询问牛排熟度。",
+          "example": "How would you like your steak cooked?",
+          "tip": "避免把中文几分熟直接变成数字。"
+        },
+        {
+          "partner": "Medium-rare, with a salad instead of chips.",
+          "task": "复述熟度与配菜修改。",
+          "example": "Medium-rare, with a salad instead of chips. Is that correct?",
+          "tip": "instead of 表示替换。"
+        },
+        {
+          "partner": "Yes, and the dressing on the side.",
+          "task": "确认酱汁另放。",
+          "example": "Of course. I’ll ask for the dressing on the side.",
+          "tip": "点单最后核对修改项。"
+        }
+      ]
+    },
+    {
+      "id": "service-recovery",
+      "level": 2,
+      "category": "餐厅",
+      "title": "处理等待与投诉",
+      "en": "When something goes wrong",
+      "role": "餐厅服务员",
+      "goal": "听取问题、致歉并确认解决办法。",
+      "phrases": [
+        "I’m sorry about…",
+        "find out",
+        "keep you updated"
+      ],
+      "turns": [
+        {
+          "partner": "We’ve been waiting a long time for our food.",
+          "task": "回应问题并说明去确认。",
+          "example": "I’m sorry about the wait. I’ll check with the kitchen straight away.",
+          "tip": "先回应客人的经历，再行动。"
+        },
+        {
+          "partner": "Can you tell us how much longer it will take?",
+          "task": "说明要获取可靠时间。",
+          "example": "Let me find out the expected time. I’ll come back and update you.",
+          "tip": "不要虚构一个等待时间。"
+        },
+        {
+          "partner": "We have to leave in twenty minutes.",
+          "task": "确认时间限制并寻找方案。",
+          "example": "I understand. I’ll explain that to the kitchen and check what we can arrange.",
+          "tip": "把客人的具体限制传达给团队。"
+        }
+      ]
+    },
+    {
+      "id": "bill",
+      "level": 2,
+      "category": "餐厅",
+      "title": "结账与挂房账",
+      "en": "Settling the bill",
+      "role": "酒店餐厅服务员",
+      "goal": "确认分账或挂房账并核对信息。",
+      "phrases": [
+        "split the bill",
+        "charge it to my room",
+        "receipt"
+      ],
+      "turns": [
+        {
+          "partner": "Could we have the bill, please?",
+          "task": "回应并询问是否一起结账。",
+          "example": "Certainly. Would you like to pay together or separately?",
+          "tip": "separately 表示分别支付。"
+        },
+        {
+          "partner": "Can I charge it to my room?",
+          "task": "礼貌询问房号与姓名用于核实。",
+          "example": "May I have your room number and the name on the booking, please?",
+          "tip": "挂房账要遵循酒店的身份核验流程。"
+        },
+        {
+          "partner": "Room 508, under Li.",
+          "task": "复述并说明会核实。",
+          "example": "Room 508, under Li. I’ll verify that for you and bring the receipt.",
+          "tip": "数字与姓名都值得复述。"
+        }
+      ]
+    },
+    {
+      "id": "service-preferences",
+      "level": 3,
+      "category": "葡萄酒",
+      "title": "了解客人的偏好",
+      "en": "Ask about preferences",
+      "role": "侍酒师",
+      "goal": "确认风格、用途与预算。",
+      "phrases": [
+        "light and crisp",
+        "price range",
+        "by the glass"
+      ],
+      "turns": [
+        {
+          "partner": "Could you recommend a white wine?",
+          "task": "先询问风格偏好。",
+          "example": "Of course. Do you prefer something light and crisp, or something richer?",
+          "tip": "先获取需求，再推荐。"
+        },
+        {
+          "partner": "Light and fresh. We’re having fish.",
+          "task": "确认按杯还是整瓶。",
+          "example": "Would you like a glass each or a bottle to share?",
+          "tip": "购买方式影响推荐范围。"
+        },
+        {
+          "partner": "A bottle, please.",
+          "task": "自然询问预算。",
+          "example": "Do you have a price range in mind?",
+          "tip": "预算是服务信息，不作价值判断。"
+        }
+      ]
+    },
+    {
+      "id": "describe-wine",
+      "level": 3,
+      "category": "葡萄酒",
+      "title": "自然介绍一瓶酒",
+      "en": "Describe a wine",
+      "role": "侍酒师",
+      "goal": "根据给定信息描述干型、高酸、柑橘香、轻酒体白酒。",
+      "phrases": [
+        "dry",
+        "light-bodied",
+        "refreshing"
+      ],
+      "turns": [
+        {
+          "partner": "What is this wine like?",
+          "task": "用客人听得懂的方式描述。",
+          "example": "It’s a dry, light-bodied white wine with citrus aromas and a refreshing finish.",
+          "tip": "dry 是甜度表达，不等于涩。"
+        },
+        {
+          "partner": "Is it sweet?",
+          "task": "说明干型但有果香。",
+          "example": "No, it’s dry. It has fruity aromas, but that doesn’t mean it tastes sweet.",
+          "tip": "区分果香与残糖带来的甜味。"
+        },
+        {
+          "partner": "Does it have a lot of acidity?",
+          "task": "解释酸度和感受。",
+          "example": "Yes, it has bright acidity, which gives it a fresh, crisp feel.",
+          "tip": "给出结构后接体验，帮助客人理解。"
+        }
+      ]
+    },
+    {
+      "id": "pairing",
+      "level": 3,
+      "category": "葡萄酒",
+      "title": "解释餐酒搭配",
+      "en": "Explain a pairing",
+      "role": "侍酒师",
+      "goal": "用练习菜单解释高酸白酒与奶油汁鱼菜。",
+      "phrases": [
+        "balance the richness",
+        "delicate",
+        "complement"
+      ],
+      "turns": [
+        {
+          "partner": "What would you pair with the fish in cream sauce?",
+          "task": "推荐清爽高酸白葡萄酒风格。",
+          "example": "I’d suggest a fresh white wine with bright acidity to balance the richness of the sauce.",
+          "tip": "解释选择的理由。"
+        },
+        {
+          "partner": "Why a white wine?",
+          "task": "说明酒体与菜品强度关系。",
+          "example": "A lighter style can complement the delicate fish without dominating it.",
+          "tip": "避免绝对化规则。"
+        },
+        {
+          "partner": "I’d actually prefer a red.",
+          "task": "尊重偏好并给出替代方向。",
+          "example": "Of course. We could look for a lighter red with gentle tannins.",
+          "tip": "搭配也包含客人的喜好。"
+        }
+      ]
+    },
+    {
+      "id": "unavailable-wine",
+      "level": 3,
+      "category": "葡萄酒",
+      "title": "酒款售罄与替代",
+      "en": "Offer an alternative",
+      "role": "侍酒师",
+      "goal": "说明售罄并按风格、预算提供选择。",
+      "phrases": [
+        "currently unavailable",
+        "similar style",
+        "within your budget"
+      ],
+      "turns": [
+        {
+          "partner": "We’d like this bottle, please.",
+          "task": "说明练习设定中的酒款已售罄。",
+          "example": "I’m sorry, that wine is currently unavailable. May I suggest an alternative?",
+          "tip": "直接说明，避免未经确认就承诺供货。"
+        },
+        {
+          "partner": "We chose it because we like fresh, unoaked whites.",
+          "task": "复述风格需求。",
+          "example": "You’re looking for a fresh white without noticeable oak, is that right?",
+          "tip": "以客人的选择理由寻找替代。"
+        },
+        {
+          "partner": "Yes, around the same price.",
+          "task": "说明会按预算找相近风格。",
+          "example": "I’ll look for a similar style within your budget and confirm the price with you.",
+          "tip": "替代酒价格需要明确确认。"
+        }
+      ]
+    },
+    {
+      "id": "present-wine",
+      "level": 3,
+      "category": "葡萄酒",
+      "title": "确认酒款与服务",
+      "en": "Present the bottle",
+      "role": "侍酒师",
+      "goal": "核对酒款、年份和醒酒意愿。",
+      "phrases": [
+        "the vintage",
+        "decant",
+        "Would you like me to…?"
+      ],
+      "turns": [
+        {
+          "partner": "Is this the wine we ordered?",
+          "task": "用占位信息练习完整确认。",
+          "example": "This is the producer and wine you selected, in the 2020 vintage. May I open it for you?",
+          "tip": "实际工作应说出酒庄和酒名；练习只使用给定信息。"
+        },
+        {
+          "partner": "Would you recommend decanting it?",
+          "task": "说明需考虑酒龄、沉淀与状态。",
+          "example": "I’d consider its age, condition and any sediment before deciding.",
+          "tip": "不要一律建议长时间醒酒。"
+        },
+        {
+          "partner": "Please check it first.",
+          "task": "确认服务安排。",
+          "example": "Certainly. I’ll check the wine first, then discuss the best way to serve it with you.",
+          "tip": "让客人知道接下来会发生什么。"
+        }
+      ]
+    },
+    {
+      "id": "team-execution",
+      "level": 4,
+      "category": "职业",
+      "title": "班前会与任务执行",
+      "en": "From plan to execution",
+      "role": "带班负责人",
+      "goal": "用 manage to、accomplish 与 execution 汇报工作。",
+      "phrases": [
+        "manage to do something",
+        "accomplish a task",
+        "execution of a plan"
+      ],
+      "turns": [
+        {
+          "partner": "Did you finish setting up before service?",
+          "task": "说明尽管时间紧，还是完成了。",
+          "example": "Yes, we managed to finish the setup before service, despite the short notice.",
+          "tip": "manage to + 动词原形，强调设法做到。"
+        },
+        {
+          "partner": "What did the team accomplish today?",
+          "task": "总结完成的具体事项。",
+          "example": "We accomplished our main task: updating the wine list and briefing the team.",
+          "tip": "accomplish 通常接任务或目标。"
+        },
+        {
+          "partner": "What should we improve for tomorrow?",
+          "task": "用 execution 谈执行改进。",
+          "example": "The plan was clear, but its execution could be smoother. We need clearer responsibilities.",
+          "tip": "execution 在这里指计划的执行，语域偏正式。"
+        }
+      ]
+    },
+    {
+      "id": "tasting-evidence",
+      "level": 4,
+      "category": "专业",
+      "title": "解释品鉴判断",
+      "en": "Explain your conclusion",
+      "role": "进阶学习者",
+      "goal": "依据高酸、柑橘与绿色水果解释可能性与限制。",
+      "phrases": [
+        "suggest",
+        "however",
+        "based on"
+      ],
+      "turns": [
+        {
+          "partner": "What do these features suggest to you?",
+          "task": "解释风格上的初步判断。",
+          "example": "The high acidity and citrus and green-fruit aromas suggest a cool-climate style.",
+          "tip": "suggest 表示线索支持的可能性。"
+        },
+        {
+          "partner": "Does that identify the grape variety?",
+          "task": "说明证据不足。",
+          "example": "Not on their own. Several varieties can share these features.",
+          "tip": "区分证据与最终结论。"
+        },
+        {
+          "partner": "What would you assess next?",
+          "task": "说明需要再观察的特征。",
+          "example": "I’d compare the texture, alcohol and other aroma markers before making a final conclusion.",
+          "tip": "回答下一步推理动作。"
+        }
+      ]
+    },
+    {
+      "id": "professional-reading",
+      "level": 4,
+      "category": "专业",
+      "title": "读懂并解释一个概念",
+      "en": "Read and explain",
+      "role": "专业学习者",
+      "goal": "阅读：Fermentation converts sugars into alcohol and carbon dioxide. 用英语转述。",
+      "phrases": [
+        "convert into",
+        "in other words",
+        "clarify"
+      ],
+      "turns": [
+        {
+          "partner": "What does fermentation do?",
+          "task": "根据上面的原句转述。",
+          "example": "Fermentation converts sugars into alcohol and carbon dioxide.",
+          "tip": "先抓住过程、原料和产物。"
+        },
+        {
+          "partner": "Could you explain that more simply?",
+          "task": "用简单英语重述。",
+          "example": "In other words, yeast uses the sugar and produces alcohol and carbon dioxide.",
+          "tip": "解释知识时可以换更简单的句型。"
+        },
+        {
+          "partner": "What would you ask the lecturer next?",
+          "task": "提出有关温度影响的问题。",
+          "example": "Could you clarify how temperature affects the process?",
+          "tip": "clarify 用于请对方进一步讲清楚。"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "en": "please",
+      "ipa": "/pliːz/",
+      "zh": "请",
+      "level": 0,
+      "category": "基础",
+      "example": "Could you repeat that, please?",
+      "cloze": "Could you repeat that, ____?",
+      "answer": "please",
+      "note": "礼貌表达也需要自然语气。"
+    },
+    {
+      "id": "w02",
+      "en": "repeat",
+      "ipa": "/rɪˈpiːt/",
+      "zh": "重复",
+      "level": 0,
+      "category": "基础",
+      "example": "Could you repeat the room number?",
+      "cloze": "Could you ____ the room number?",
+      "answer": "repeat",
+      "note": "repeat a number / repeat a question"
+    },
+    {
+      "id": "w03",
+      "en": "slowly",
+      "ipa": "/ˈsləʊli/",
+      "zh": "慢一点地",
+      "level": 0,
+      "category": "基础",
+      "example": "Could you speak more slowly?",
+      "cloze": "Could you speak more ____?",
+      "answer": "slowly",
+      "note": "slow 是形容词；slowly 常修饰动作。"
+    },
+    {
+      "id": "w04",
+      "en": "confirm",
+      "ipa": "/kənˈfɜːm/",
+      "zh": "确认",
+      "level": 0,
+      "category": "基础",
+      "example": "May I confirm your booking?",
+      "cloze": "May I ____ your booking?",
+      "answer": "confirm",
+      "note": "confirm a booking / confirm a detail"
+    },
+    {
+      "id": "w05",
+      "en": "available",
+      "ipa": "/əˈveɪləbəl/",
+      "zh": "有空的；可提供的",
+      "level": 0,
+      "category": "基础",
+      "example": "Is a table available at seven?",
+      "cloze": "Is a table ____ at seven?",
+      "answer": "available",
+      "note": "a room / table / wine is available"
+    },
+    {
+      "id": "w06",
+      "en": "prefer",
+      "ipa": "/prɪˈfɜː/",
+      "zh": "更喜欢",
+      "level": 0,
+      "category": "基础",
+      "example": "Would you prefer still water?",
+      "cloze": "Would you ____ still water?",
+      "answer": "prefer",
+      "note": "prefer A to B"
+    },
+    {
+      "id": "w07",
+      "en": "together",
+      "ipa": "/təˈɡeðə/",
+      "zh": "一起",
+      "level": 0,
+      "category": "基础",
+      "example": "Would you like to pay together?",
+      "cloze": "Would you like to pay ____?",
+      "answer": "together",
+      "note": "一起支付或一起做一件事。"
+    },
+    {
+      "id": "w08",
+      "en": "separately",
+      "ipa": "/ˈseprətli/",
+      "zh": "分别地",
+      "level": 0,
+      "category": "基础",
+      "example": "We’d like to pay separately.",
+      "cloze": "We’d like to pay ____.",
+      "answer": "separately",
+      "note": "与 together 对照。"
+    },
+    {
+      "id": "w09",
+      "en": "reservation",
+      "ipa": "/ˌrezəˈveɪʃən/",
+      "zh": "预订",
+      "level": 1,
+      "category": "生活",
+      "example": "I have a reservation under the name Wu.",
+      "cloze": "I have a ____ under the name Wu.",
+      "answer": "reservation",
+      "note": "make / confirm / cancel a reservation"
+    },
+    {
+      "id": "w10",
+      "en": "boarding pass",
+      "ipa": "/ˈbɔːdɪŋ pɑːs/",
+      "zh": "登机牌",
+      "level": 1,
+      "category": "生活",
+      "example": "May I see your boarding pass?",
+      "cloze": "May I see your ____?",
+      "answer": "boarding pass",
+      "note": "与 passport 护照区分。"
+    },
+    {
+      "id": "w11",
+      "en": "departure",
+      "ipa": "/dɪˈpɑːtʃə/",
+      "zh": "出发；起飞",
+      "level": 1,
+      "category": "生活",
+      "example": "What time is departure?",
+      "cloze": "What time is ____?",
+      "answer": "departure",
+      "note": "departure time 与 boarding time 不同。"
+    },
+    {
+      "id": "w12",
+      "en": "delayed",
+      "ipa": "/dɪˈleɪd/",
+      "zh": "延误的",
+      "level": 1,
+      "category": "生活",
+      "example": "My flight is delayed.",
+      "cloze": "My flight is ____.",
+      "answer": "delayed",
+      "note": "be delayed 表示被延误。"
+    },
+    {
+      "id": "w13",
+      "en": "connecting flight",
+      "ipa": "/kəˌnektɪŋ ˈflaɪt/",
+      "zh": "转接航班",
+      "level": 1,
+      "category": "生活",
+      "example": "I may miss my connecting flight.",
+      "cloze": "I may miss my ____.",
+      "answer": "connecting flight",
+      "note": "miss a flight 错过航班。"
+    },
+    {
+      "id": "w14",
+      "en": "luggage",
+      "ipa": "/ˈlʌɡɪdʒ/",
+      "zh": "行李",
+      "level": 1,
+      "category": "生活",
+      "example": "Where can I collect my luggage?",
+      "cloze": "Where can I collect my ____?",
+      "answer": "luggage",
+      "note": "不可数；用 a piece of luggage。"
+    },
+    {
+      "id": "w15",
+      "en": "included",
+      "ipa": "/ɪnˈkluːdɪd/",
+      "zh": "包含在内的",
+      "level": 1,
+      "category": "生活",
+      "example": "Is breakfast included?",
+      "cloze": "Is breakfast ____?",
+      "answer": "included",
+      "note": "included in the price"
+    },
+    {
+      "id": "w16",
+      "en": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "zh": "收据",
+      "level": 1,
+      "category": "生活",
+      "example": "Could I have a receipt?",
+      "cloze": "Could I have a ____?",
+      "answer": "receipt",
+      "note": "p 不发音；与 recipe 食谱区分。"
+    },
+    {
+      "id": "w17",
+      "en": "refund",
+      "ipa": "/ˈriːfʌnd/",
+      "zh": "退款（名词）",
+      "level": 1,
+      "category": "生活",
+      "example": "Can I get a refund?",
+      "cloze": "Can I get a ____?",
+      "answer": "refund",
+      "note": "这里练名词读音；动词重音不同。"
+    },
+    {
+      "id": "w18",
+      "en": "on the way",
+      "ipa": "/ɒn ðə weɪ/",
+      "zh": "在路上",
+      "level": 1,
+      "category": "生活",
+      "example": "I’m on the way to the hotel.",
+      "cloze": "I’m ____ to the hotel.",
+      "answer": "on the way",
+      "note": "on the way to + 地点"
+    },
+    {
+      "id": "w19",
+      "en": "instead of",
+      "ipa": "/ɪnˈsted əv/",
+      "zh": "代替",
+      "level": 1,
+      "category": "生活",
+      "example": "Could I have tea instead of coffee?",
+      "cloze": "Could I have tea ____ coffee?",
+      "answer": "instead of",
+      "note": "后接名词或动名词。"
+    },
+    {
+      "id": "w20",
+      "en": "look for",
+      "ipa": "/lʊk fɔː/",
+      "zh": "寻找",
+      "level": 1,
+      "category": "生活",
+      "example": "I’m looking for the station.",
+      "cloze": "Could you help me ____ the station?",
+      "answer": "look for",
+      "note": "look for 强调寻找；find 强调找到。"
+    },
+    {
+      "id": "w21",
+      "en": "ingredient",
+      "ipa": "/ɪnˈɡriːdiənt/",
+      "zh": "食材；原料",
+      "level": 2,
+      "category": "餐厅",
+      "example": "What is the main ingredient?",
+      "cloze": "What is the main ____?",
+      "answer": "ingredient",
+      "note": "常见复数 ingredients。"
+    },
+    {
+      "id": "w22",
+      "en": "pan-fried",
+      "ipa": "/ˈpæn fraɪd/",
+      "zh": "平底锅煎的",
+      "level": 2,
+      "category": "餐厅",
+      "example": "The fish is pan-fried.",
+      "cloze": "The fish is ____.",
+      "answer": "pan-fried",
+      "note": "用做法帮助客人想象菜品。"
+    },
+    {
+      "id": "w23",
+      "en": "grilled",
+      "ipa": "/ɡrɪld/",
+      "zh": "烤制的",
+      "level": 2,
+      "category": "餐厅",
+      "example": "We serve grilled vegetables.",
+      "cloze": "We serve ____ vegetables.",
+      "answer": "grilled",
+      "note": "结尾 /ld/ 不额外加一个元音。"
+    },
+    {
+      "id": "w24",
+      "en": "steamed",
+      "ipa": "/stiːmd/",
+      "zh": "蒸的",
+      "level": 2,
+      "category": "餐厅",
+      "example": "Would you like steamed rice?",
+      "cloze": "Would you like ____ rice?",
+      "answer": "steamed",
+      "note": "与 fried rice 对照。"
+    },
+    {
+      "id": "w25",
+      "en": "crispy",
+      "ipa": "/ˈkrɪspi/",
+      "zh": "酥脆的",
+      "level": 2,
+      "category": "餐厅",
+      "example": "The skin is crispy.",
+      "cloze": "The skin is ____.",
+      "answer": "crispy",
+      "note": "常用于食物口感。"
+    },
+    {
+      "id": "w26",
+      "en": "creamy",
+      "ipa": "/ˈkriːmi/",
+      "zh": "绵滑的；奶油般的",
+      "level": 2,
+      "category": "餐厅",
+      "example": "It comes with a creamy sauce.",
+      "cloze": "It comes with a ____ sauce.",
+      "answer": "creamy",
+      "note": "口感描述不替代原料核实。"
+    },
+    {
+      "id": "w27",
+      "en": "medium-rare",
+      "ipa": "/ˌmiːdiəm ˈreə/",
+      "zh": "中偏生熟度",
+      "level": 2,
+      "category": "餐厅",
+      "example": "I’d like my steak medium-rare.",
+      "cloze": "I’d like my steak ____.",
+      "answer": "medium-rare",
+      "note": "用英文熟度确认客人要求。"
+    },
+    {
+      "id": "w28",
+      "en": "allergic to",
+      "ipa": "/əˈlɜːdʒɪk tuː/",
+      "zh": "对……过敏",
+      "level": 2,
+      "category": "餐厅",
+      "example": "I’m allergic to nuts.",
+      "cloze": "I’m ____ nuts.",
+      "answer": "allergic to",
+      "note": "allergy 是名词；allergic 是形容词。"
+    },
+    {
+      "id": "w29",
+      "en": "on the side",
+      "ipa": "/ɒn ðə saɪd/",
+      "zh": "单独放在旁边",
+      "level": 2,
+      "category": "餐厅",
+      "example": "Could I have the sauce on the side?",
+      "cloze": "Could I have the sauce ____?",
+      "answer": "on the side",
+      "note": "常见点单修改要求。"
+    },
+    {
+      "id": "w30",
+      "en": "run out of",
+      "ipa": "/rʌn aʊt əv/",
+      "zh": "用完；售罄",
+      "level": 2,
+      "category": "餐厅",
+      "example": "We’ve run out of that dish.",
+      "cloze": "We’ve ____ that dish.",
+      "answer": "run out of",
+      "note": "用完整短语记忆。"
+    },
+    {
+      "id": "w31",
+      "en": "take care of",
+      "ipa": "/teɪk keər əv/",
+      "zh": "照顾；处理",
+      "level": 2,
+      "category": "餐厅",
+      "example": "I’ll take care of that for you.",
+      "cloze": "I’ll ____ that for you.",
+      "answer": "take care of",
+      "note": "后面说明要处理的具体问题。"
+    },
+    {
+      "id": "w32",
+      "en": "keep you updated",
+      "ipa": "/kiːp juː ʌpˈdeɪtɪd/",
+      "zh": "及时告知进展",
+      "level": 2,
+      "category": "餐厅",
+      "example": "I’ll keep you updated on your order.",
+      "cloze": "I’ll ____ on your order.",
+      "answer": "keep you updated",
+      "note": "承诺之后要实际跟进。"
+    },
+    {
+      "id": "w33",
+      "en": "dry",
+      "ipa": "/draɪ/",
+      "zh": "干型的",
+      "level": 3,
+      "category": "葡萄酒",
+      "example": "This wine is dry, not sweet.",
+      "cloze": "This wine is ____, not sweet.",
+      "answer": "dry",
+      "note": "与单宁造成的干涩感分开。"
+    },
+    {
+      "id": "w34",
+      "en": "acidity",
+      "ipa": "/əˈsɪdəti/",
+      "zh": "酸度",
+      "level": 3,
+      "category": "葡萄酒",
+      "example": "The wine has bright acidity.",
+      "cloze": "The wine has bright ____.",
+      "answer": "acidity",
+      "note": "客人表达也可用 fresh / crisp。"
+    },
+    {
+      "id": "w35",
+      "en": "tannin",
+      "ipa": "/ˈtænɪn/",
+      "zh": "单宁",
+      "level": 3,
+      "category": "葡萄酒",
+      "example": "The tannin feels firm.",
+      "cloze": "The ____ feels firm.",
+      "answer": "tannin",
+      "note": "复数 tannins 也常用。"
+    },
+    {
+      "id": "w36",
+      "en": "light-bodied",
+      "ipa": "/ˌlaɪt ˈbɒdid/",
+      "zh": "轻酒体的",
+      "level": 3,
+      "category": "葡萄酒",
+      "example": "It’s a light-bodied red.",
+      "cloze": "It’s a ____ red.",
+      "answer": "light-bodied",
+      "note": "表示口中重量感。"
+    },
+    {
+      "id": "w37",
+      "en": "vintage",
+      "ipa": "/ˈvɪntɪdʒ/",
+      "zh": "年份",
+      "level": 3,
+      "category": "葡萄酒",
+      "example": "Which vintage would you like?",
+      "cloze": "Which ____ would you like?",
+      "answer": "vintage",
+      "note": "一般指葡萄采收年份。"
+    },
+    {
+      "id": "w38",
+      "en": "decant",
+      "ipa": "/dɪˈkænt/",
+      "zh": "换瓶；醒酒",
+      "level": 3,
+      "category": "葡萄酒",
+      "example": "Would you like me to decant the wine?",
+      "cloze": "Would you like me to ____ the wine?",
+      "answer": "decant",
+      "note": "是否换瓶需考虑具体酒况。"
+    },
+    {
+      "id": "w39",
+      "en": "price range",
+      "ipa": "/praɪs reɪndʒ/",
+      "zh": "价格区间",
+      "level": 3,
+      "category": "葡萄酒",
+      "example": "Do you have a price range in mind?",
+      "cloze": "Do you have a ____ in mind?",
+      "answer": "price range",
+      "note": "自然地了解预算。"
+    },
+    {
+      "id": "w40",
+      "en": "complement",
+      "ipa": "/ˈkɒmplɪment/",
+      "zh": "与……相配；补充",
+      "level": 3,
+      "category": "葡萄酒",
+      "example": "This wine can complement the dish.",
+      "cloze": "This wine can ____ the dish.",
+      "answer": "complement",
+      "note": "与 compliment 赞美区分。"
+    },
+    {
+      "id": "w41",
+      "en": "manage to",
+      "ipa": "/ˈmænɪdʒ tuː/",
+      "zh": "设法做到",
+      "level": 4,
+      "category": "职业",
+      "example": "We managed to finish before service.",
+      "cloze": "We ____ finish before service yesterday.",
+      "answer": "managed to",
+      "note": "manage to + 动词原形；过去式 managed。"
+    },
+    {
+      "id": "w42",
+      "en": "accomplish",
+      "ipa": "/əˈkʌmplɪʃ/",
+      "zh": "完成；达成",
+      "level": 4,
+      "category": "职业",
+      "example": "We accomplished our main task.",
+      "cloze": "We need to ____ this task today.",
+      "answer": "accomplish",
+      "note": "accomplish a task / a goal，不接 to do。"
+    },
+    {
+      "id": "w43",
+      "en": "execution",
+      "ipa": "/ˌeksɪˈkjuːʃən/",
+      "zh": "执行；落实",
+      "level": 4,
+      "category": "职业",
+      "example": "The plan is clear; execution matters now.",
+      "cloze": "The plan is clear; ____ matters now.",
+      "answer": "execution",
+      "note": "偏正式：execution of a plan；日常也可说 carry it out。"
+    },
+    {
+      "id": "w44",
+      "en": "carry out",
+      "ipa": "/ˈkæri aʊt/",
+      "zh": "执行；开展",
+      "level": 4,
+      "category": "职业",
+      "example": "Let’s carry out the plan.",
+      "cloze": "Let’s ____ the plan.",
+      "answer": "carry out",
+      "note": "carry out a plan / a check"
+    },
+    {
+      "id": "w45",
+      "en": "prioritise",
+      "ipa": "/praɪˈɒrətaɪz/",
+      "zh": "确定优先顺序",
+      "level": 4,
+      "category": "职业",
+      "example": "We need to prioritise urgent requests.",
+      "cloze": "We need to ____ urgent requests.",
+      "answer": "prioritise",
+      "note": "英式拼写；美式常写 prioritize。"
+    },
+    {
+      "id": "w46",
+      "en": "clarify",
+      "ipa": "/ˈklærɪfaɪ/",
+      "zh": "澄清；解释清楚",
+      "level": 4,
+      "category": "职业",
+      "example": "Could you clarify what you mean?",
+      "cloze": "Could you ____ what you mean?",
+      "answer": "clarify",
+      "note": "clarify a point / clarify a request"
+    },
+    {
+      "id": "w47",
+      "en": "follow up",
+      "ipa": "/ˈfɒləʊ ʌp/",
+      "zh": "跟进",
+      "level": 4,
+      "category": "职业",
+      "example": "I’ll follow up with the supplier.",
+      "cloze": "I’ll ____ with the supplier.",
+      "answer": "follow up",
+      "note": "follow up with someone / on something"
+    },
+    {
+      "id": "w48",
+      "en": "suggest",
+      "ipa": "/səˈdʒest/",
+      "zh": "提示；建议",
+      "level": 4,
+      "category": "专业",
+      "example": "These features suggest a cool climate.",
+      "cloze": "These features ____ a cool climate.",
+      "answer": "suggest",
+      "note": "观察线索支持可能性，不能等同于证实。"
+    },
+    {
+      "id": "w49",
+      "en": "however",
+      "ipa": "/haʊˈevə/",
+      "zh": "然而",
+      "level": 4,
+      "category": "专业",
+      "example": "However, we need more evidence.",
+      "cloze": "____, we need more evidence.",
+      "answer": "However",
+      "note": "用于补充限制或转折。"
+    },
+    {
+      "id": "w50",
+      "en": "based on",
+      "ipa": "/beɪst ɒn/",
+      "zh": "基于",
+      "level": 4,
+      "category": "专业",
+      "example": "My conclusion is based on the evidence.",
+      "cloze": "My conclusion is ____ the evidence.",
+      "answer": "based on",
+      "note": "解释判断依据。"
+    },
+    {
+      "id": "w51",
+      "en": "in other words",
+      "ipa": "/ɪn ˈʌðə wɜːdz/",
+      "zh": "换句话说",
+      "level": 4,
+      "category": "专业",
+      "example": "In other words, it tastes fresh.",
+      "cloze": "____, it tastes fresh.",
+      "answer": "In other words",
+      "note": "换一种更易理解的表达。"
+    }
+  ],
+  "phonemes": [
+    {
+      "symbol": "iː",
+      "word": "tea",
+      "ipa": "/tiː/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "ɪ",
+      "word": "fish",
+      "ipa": "/fɪʃ/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "e",
+      "word": "bread",
+      "ipa": "/bred/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "æ",
+      "word": "salad",
+      "ipa": "/ˈsæləd/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "ɑː",
+      "word": "glass",
+      "ipa": "/ɡlɑːs/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "ɒ",
+      "word": "hot",
+      "ipa": "/hɒt/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "ɔː",
+      "word": "fork",
+      "ipa": "/fɔːk/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "ʊ",
+      "word": "good",
+      "ipa": "/ɡʊd/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "uː",
+      "word": "food",
+      "ipa": "/fuːd/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "ʌ",
+      "word": "cup",
+      "ipa": "/kʌp/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "ɜː",
+      "word": "serve",
+      "ipa": "/sɜːv/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "ə",
+      "word": "about",
+      "ipa": "/əˈbaʊt/",
+      "group": "单元音"
+    },
+    {
+      "symbol": "eɪ",
+      "word": "plate",
+      "ipa": "/pleɪt/",
+      "group": "双元音"
+    },
+    {
+      "symbol": "aɪ",
+      "word": "wine",
+      "ipa": "/waɪn/",
+      "group": "双元音"
+    },
+    {
+      "symbol": "ɔɪ",
+      "word": "choice",
+      "ipa": "/tʃɔɪs/",
+      "group": "双元音"
+    },
+    {
+      "symbol": "əʊ",
+      "word": "go",
+      "ipa": "/ɡəʊ/",
+      "group": "双元音"
+    },
+    {
+      "symbol": "aʊ",
+      "word": "house",
+      "ipa": "/haʊs/",
+      "group": "双元音"
+    },
+    {
+      "symbol": "ɪə",
+      "word": "beer",
+      "ipa": "/bɪə/",
+      "group": "双元音"
+    },
+    {
+      "symbol": "eə",
+      "word": "pair",
+      "ipa": "/peə/",
+      "group": "双元音"
+    },
+    {
+      "symbol": "ʊə",
+      "word": "tour",
+      "ipa": "/tʊə/",
+      "group": "双元音"
+    },
+    {
+      "symbol": "p",
+      "word": "plate",
+      "ipa": "/pleɪt/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "b",
+      "word": "bill",
+      "ipa": "/bɪl/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "t",
+      "word": "tea",
+      "ipa": "/tiː/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "d",
+      "word": "dish",
+      "ipa": "/dɪʃ/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "k",
+      "word": "cup",
+      "ipa": "/kʌp/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "ɡ",
+      "word": "glass",
+      "ipa": "/ɡlɑːs/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "f",
+      "word": "fish",
+      "ipa": "/fɪʃ/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "v",
+      "word": "vine",
+      "ipa": "/vaɪn/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "θ",
+      "word": "thank",
+      "ipa": "/θæŋk/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "ð",
+      "word": "this",
+      "ipa": "/ðɪs/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "s",
+      "word": "soup",
+      "ipa": "/suːp/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "z",
+      "word": "zero",
+      "ipa": "/ˈzɪərəʊ/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "ʃ",
+      "word": "shell",
+      "ipa": "/ʃel/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "ʒ",
+      "word": "measure",
+      "ipa": "/ˈmeʒə/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "h",
+      "word": "hot",
+      "ipa": "/hɒt/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "tʃ",
+      "word": "cheese",
+      "ipa": "/tʃiːz/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "dʒ",
+      "word": "juice",
+      "ipa": "/dʒuːs/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "m",
+      "word": "menu",
+      "ipa": "/ˈmenjuː/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "n",
+      "word": "no",
+      "ipa": "/nəʊ/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "ŋ",
+      "word": "booking",
+      "ipa": "/ˈbʊkɪŋ/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "l",
+      "word": "lemon",
+      "ipa": "/ˈlemən/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "r",
+      "word": "red",
+      "ipa": "/red/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "j",
+      "word": "yes",
+      "ipa": "/jes/",
+      "group": "辅音"
+    },
+    {
+      "symbol": "w",
+      "word": "wine",
+      "ipa": "/waɪn/",
+      "group": "辅音"
+    }
+  ],
+  "phonics": [
+    {
+      "title": "字母名字与单词读音",
+      "body": "先认识 26 个字母，用来拼写姓名与订位信息。字母名称与单词里的声音不同：A 的名字是 /eɪ/，在 apple 里通常是 /æ/。",
+      "examples": [
+        "A, B, C, D, E, F, G",
+        "H, I, J, K, L, M, N",
+        "O, P, Q, R, S, T",
+        "U, V, W, X, Y, Z",
+        "Could you spell your name, please?"
+      ],
+      "task": "拼出你的名字，再口述自己的姓名。"
+    },
+    {
+      "title": "看懂音标与重音",
+      "body": "斜线 / / 里是读音。ˈ 表示后面音节有主重音，ˌ 表示次重音，ː 是长音标记。reservation /ˌrezəˈveɪʃən/ 的主重音落在 /veɪ/。",
+      "examples": [
+        "reservation",
+        "available",
+        "Could I make a reservation?"
+      ],
+      "task": "在 reservation 中找到重音，跟读整句话。"
+    },
+    {
+      "title": "元音：嘴形和时长一起练",
+      "body": "/iː/ 与 /ɪ/ 不只是时长不同，嘴形和舌位也不同。听 sheep /ʃiːp/ 与 ship /ʃɪp/；再比较 food /fuːd/ 与 good /ɡʊd/。",
+      "examples": [
+        "sheep",
+        "ship",
+        "food",
+        "good",
+        "The fish is fresh."
+      ],
+      "task": "分别录下 sheep / ship，回听两者是否有区别。"
+    },
+    {
+      "title": "容易混淆的辅音",
+      "body": "/v/：上齿轻触下唇，声带振动；/w/：双唇收圆再展开。/θ/ 与 /ð/：舌尖轻放齿间，后者声带振动。",
+      "examples": [
+        "vine",
+        "wine",
+        "thank",
+        "this",
+        "Would you like some wine?"
+      ],
+      "task": "比较 vine / wine，再慢读 thank you 和 this wine。"
+    },
+    {
+      "title": "词尾、数字与句子重点",
+      "body": "词尾不要随意加“呃”：grilled /ɡrɪld/、steamed /stiːmd/。thirteen 通常重读后半部分，thirty 通常重读前半部分；数字最终仍要复述确认。",
+      "examples": [
+        "grilled",
+        "steamed",
+        "thirteen",
+        "thirty",
+        "Did you say thirteen or thirty?"
+      ],
+      "task": "先读两个数字，再练习确认人数。"
+    },
+    {
+      "title": "连读、弱读与自然表达",
+      "body": "短语里的功能词常会弱读。比如 a bottle of water 中的 of 常读 /əv/。把句子按意义分组：Could you / say that again / a little more slowly?",
+      "examples": [
+        "a bottle of water",
+        "Could you say that again a little more slowly?",
+        "Would you like the sauce on the side?"
+      ],
+      "task": "先逐段跟读，再用舒适的语速说完整句子。"
+    }
+  ]
+}

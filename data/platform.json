@@ -1,0 +1,75 @@
+{
+  "version": "0.2.3",
+  "workingName": "SOMM100",
+  "nameStatus": "confirmed",
+  "modules": [
+    {
+      "id": "home",
+      "title": "Discover",
+      "kind": "news-discovery",
+      "status": "active"
+    },
+    {
+      "id": "foundation",
+      "title": "SOMM100",
+      "kind": "program",
+      "status": "active"
+    },
+    {
+      "id": "cms",
+      "title": "CMS",
+      "kind": "program",
+      "status": "active",
+      "levels": [
+        "IC",
+        "AS",
+        "MS"
+      ]
+    },
+    {
+      "id": "wset",
+      "title": "WSET",
+      "kind": "program",
+      "status": "future"
+    },
+    {
+      "id": "journal",
+      "title": "Tasting Notes",
+      "kind": "tool",
+      "status": "active",
+      "sourceVersion": "Wine Tasting Journal 1.4"
+    },
+    {
+      "id": "practice",
+      "title": "Wine Quiz",
+      "kind": "tool",
+      "status": "active"
+    },
+    {
+      "id": "maps",
+      "title": "Wine Maps",
+      "kind": "tool",
+      "status": "active"
+    },
+    {
+      "id": "news",
+      "title": "Wine News",
+      "kind": "editorial",
+      "status": "source-directory",
+      "parent": "videos",
+      "discoverRoute": "home"
+    },
+    {
+      "id": "videos",
+      "title": "Wine Channel",
+      "kind": "media",
+      "status": "active"
+    },
+    {
+      "id": "english",
+      "title": "English Study",
+      "kind": "subject",
+      "status": "pilot"
+    }
+  ]
+}

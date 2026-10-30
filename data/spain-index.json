@@ -1,0 +1,3919 @@
+{
+  "reviewed": "2026-10-26",
+  "counts": {
+    "grapeRecords": 225,
+    "classificationOnlyGrapes": 99,
+    "regionRecords": 131,
+    "autonomousCommunityIndexes": 17,
+    "producerRecords": 277,
+    "wineRecords": 1115,
+    "officialClassificationRows": 703,
+    "sourceRecords": 614,
+    "archiveOnlyWineRecords": 126,
+    "archiveStatusWines": 302,
+    "historicWines": 8,
+    "labelDependentWines": 165,
+    "officiallySourcedWineRecords": 944
+  },
+  "regions": [
+    {
+      "id": "rias-baixas",
+      "name": "Rías Baixas",
+      "parent": "Galicia",
+      "kind": "DO",
+      "grapeIds": [
+        "albarino",
+        "loureiro",
+        "treixadura",
+        "caino-blanco",
+        "godello",
+        "caino-tinto",
+        "espadeiro",
+        "loureiro-tinto",
+        "vinhao",
+        "mencia",
+        "alvarelhao",
+        "pedral",
+        "castanal",
+        "ratino"
+      ]
+    },
+    {
+      "id": "ribeiro",
+      "name": "Ribeiro",
+      "parent": "Galicia",
+      "kind": "DO",
+      "grapeIds": [
+        "treixadura",
+        "godello",
+        "albarino",
+        "loureiro",
+        "caino-blanco",
+        "lado",
+        "torrontes-galicia",
+        "albilla-do-avia",
+        "albarin-blanco",
+        "alvarelhao",
+        "caino-tinto",
+        "caino-bravo",
+        "caino-longo",
+        "espadeiro",
+        "manseng-noir",
+        "mencia",
+        "trousseau",
+        "vinhao",
+        "palomino"
+      ]
+    },
+    {
+      "id": "ribeira-sacra",
+      "name": "Ribeira Sacra",
+      "parent": "Galicia",
+      "kind": "DO",
+      "grapeIds": [
+        "mencia",
+        "godello",
+        "alvarelhao",
+        "trousseau",
+        "vinhao",
+        "caino-tinto",
+        "albarino",
+        "treixadura",
+        "loureiro",
+        "dona-blanca",
+        "alicante-bouschet",
+        "juan-garcia"
+      ]
+    },
+    {
+      "id": "valdeorras",
+      "name": "Valdeorras",
+      "parent": "Galicia",
+      "kind": "DO",
+      "grapeIds": [
+        "godello",
+        "mencia",
+        "dona-blanca",
+        "albarino",
+        "treixadura",
+        "loureiro",
+        "trousseau",
+        "alicante-bouschet",
+        "palomino",
+        "vinhao",
+        "alvarelhao"
+      ]
+    },
+    {
+      "id": "monterrei",
+      "name": "Monterrei",
+      "parent": "Galicia",
+      "kind": "DO",
+      "grapeIds": [
+        "godello",
+        "treixadura",
+        "dona-blanca",
+        "albarino",
+        "loureiro",
+        "mencia",
+        "trousseau",
+        "caino-tinto",
+        "alicante-bouschet"
+      ]
+    },
+    {
+      "id": "barbanza-e-iria",
+      "name": "Barbanza e Iria",
+      "parent": "Galicia",
+      "kind": "IGP",
+      "grapeIds": [
+        "albarino",
+        "albarin-blanco",
+        "loureiro",
+        "caino-tinto",
+        "mencia"
+      ]
+    },
+    {
+      "id": "betanzos",
+      "name": "Betanzos",
+      "parent": "Galicia",
+      "kind": "IGP",
+      "grapeIds": [
+        "albarin-blanco",
+        "godello",
+        "mencia",
+        "garnacha-tinta"
+      ]
+    },
+    {
+      "id": "ribeiras-do-morrazo",
+      "name": "Ribeiras do Morrazo",
+      "parent": "Galicia",
+      "kind": "IGP",
+      "grapeIds": [
+        "albarino",
+        "loureiro",
+        "caino-blanco",
+        "godello",
+        "treixadura",
+        "caino-tinto",
+        "espadeiro",
+        "loureiro-tinto",
+        "vinhao",
+        "mencia",
+        "alvarelhao",
+        "pedral"
+      ]
+    },
+    {
+      "id": "valle-del-mino-ourense",
+      "name": "Valle del Miño-Ourense",
+      "parent": "Galicia",
+      "kind": "IGP",
+      "grapeIds": [
+        "godello",
+        "treixadura",
+        "albarino",
+        "loureiro",
+        "dona-blanca",
+        "mencia",
+        "alvarelhao",
+        "trousseau",
+        "vinhao"
+      ]
+    },
+    {
+      "id": "terras-do-navia",
+      "name": "Terras do Navia",
+      "parent": "Galicia",
+      "kind": "IGP",
+      "grapeIds": [
+        "albarin-blanco",
+        "albarino",
+        "caino-blanco",
+        "godello",
+        "loureiro",
+        "treixadura",
+        "torrontes-galicia",
+        "mencia",
+        "trousseau",
+        "alvarelhao",
+        "caino-tinto",
+        "loureiro-tinto",
+        "alfrocheiro"
+      ]
+    },
+    {
+      "id": "bierzo",
+      "name": "Bierzo",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "mencia",
+        "godello",
+        "dona-blanca",
+        "trousseau",
+        "estaladina",
+        "alicante-bouschet",
+        "malvasia-fina",
+        "palomino"
+      ]
+    },
+    {
+      "id": "rueda",
+      "name": "Rueda",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "verdejo",
+        "sauvignon-blanc",
+        "viura",
+        "chardonnay",
+        "viognier",
+        "garnacha-blanca",
+        "gewurztraminer",
+        "godello",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "palomino",
+        "riesling",
+        "tempranillo",
+        "cenicienta",
+        "cabernet-sauvignon",
+        "garnacha-tinta",
+        "merlot",
+        "syrah",
+        "alfrocheiro"
+      ]
+    },
+    {
+      "id": "ribera-del-duero",
+      "name": "Ribera del Duero",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot",
+        "malbec",
+        "garnacha-tinta",
+        "albillo-mayor"
+      ]
+    },
+    {
+      "id": "toro",
+      "name": "Toro",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "verdejo",
+        "dona-blanca",
+        "muscat-blanc-a-petits-grains",
+        "albillo-mayor"
+      ]
+    },
+    {
+      "id": "cigales",
+      "name": "Cigales",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "albillo-mayor",
+        "verdejo",
+        "viura",
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah"
+      ]
+    },
+    {
+      "id": "leon",
+      "name": "León",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "prieto-picudo",
+        "albarin-blanco",
+        "mencia",
+        "tempranillo",
+        "garnacha-tinta",
+        "verdejo",
+        "godello"
+      ]
+    },
+    {
+      "id": "arlanza",
+      "name": "Arlanza",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "mencia",
+        "cabernet-sauvignon",
+        "merlot",
+        "petit-verdot",
+        "albillo-mayor",
+        "viura"
+      ]
+    },
+    {
+      "id": "tierra-del-vino-de-zamora",
+      "name": "Tierra del Vino de Zamora",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "cabernet-sauvignon",
+        "verdejo",
+        "dona-blanca",
+        "albillo-mayor",
+        "muscat-blanc-a-petits-grains"
+      ]
+    },
+    {
+      "id": "arribes",
+      "name": "Arribes",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "juan-garcia",
+        "rufete",
+        "tempranillo",
+        "alfrocheiro",
+        "garnacha-tinta",
+        "mencia",
+        "dona-blanca",
+        "verdejo",
+        "albillo-mayor"
+      ]
+    },
+    {
+      "id": "sierra-de-salamanca",
+      "name": "Sierra de Salamanca",
+      "parent": "Castilla y León",
+      "kind": "DOP",
+      "grapeIds": [
+        "rufete",
+        "tempranillo",
+        "garnacha-tinta",
+        "rufete-blanco"
+      ]
+    },
+    {
+      "id": "valles-de-benavente",
+      "name": "Valles de Benavente",
+      "parent": "Castilla y León",
+      "kind": "DOP",
+      "grapeIds": [
+        "prieto-picudo",
+        "tempranillo",
+        "mencia",
+        "garnacha-tinta",
+        "verdejo",
+        "dona-blanca"
+      ]
+    },
+    {
+      "id": "valtiendas",
+      "name": "Valtiendas",
+      "parent": "Castilla y León",
+      "kind": "DOP",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah",
+        "albillo-mayor"
+      ]
+    },
+    {
+      "id": "cebreros",
+      "name": "Cebreros",
+      "parent": "Castilla y León",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "albillo-real",
+        "tempranillo"
+      ]
+    },
+    {
+      "id": "castilla-y-leon-igp",
+      "name": "Castilla y León",
+      "parent": "Castilla y León",
+      "kind": "IGP",
+      "grapeIds": [
+        "tempranillo",
+        "verdejo",
+        "godello",
+        "syrah",
+        "cabernet-sauvignon",
+        "merlot",
+        "garnacha-tinta",
+        "albarin-blanco",
+        "prieto-picudo",
+        "rufete",
+        "albillo-mayor",
+        "albillo-real"
+      ]
+    },
+    {
+      "id": "abadia-retuerta-pago",
+      "name": "Abadía Retuerta",
+      "parent": "Castilla y León",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "syrah",
+        "merlot",
+        "petit-verdot",
+        "sauvignon-blanc",
+        "verdejo",
+        "garnacha-tinta",
+        "graciano"
+      ]
+    },
+    {
+      "id": "uruena-pago",
+      "name": "Urueña",
+      "parent": "Castilla y León",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo",
+        "syrah",
+        "merlot",
+        "cabernet-sauvignon"
+      ]
+    },
+    {
+      "id": "dehesa-penalba-pago",
+      "name": "Dehesa Peñalba",
+      "parent": "Castilla y León",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "syrah",
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot"
+      ]
+    },
+    {
+      "id": "cangas",
+      "name": "Cangas",
+      "parent": "Asturias",
+      "kind": "DO",
+      "grapeIds": [
+        "albarin-blanco",
+        "alfrocheiro",
+        "carrasquin",
+        "trousseau",
+        "mencia",
+        "godello",
+        "muscat-blanc-a-petits-grains",
+        "palomino"
+      ]
+    },
+    {
+      "id": "getariako-txakolina",
+      "name": "Getariako Txakolina",
+      "parent": "País Vasco",
+      "kind": "DO",
+      "grapeIds": [
+        "hondarrabi-zuri",
+        "hondarrabi-beltza",
+        "petit-courbu",
+        "gros-manseng",
+        "riesling",
+        "chardonnay"
+      ]
+    },
+    {
+      "id": "bizkaiko-txakolina",
+      "name": "Bizkaiko Txakolina",
+      "parent": "País Vasco",
+      "kind": "DO",
+      "grapeIds": [
+        "hondarrabi-zuri",
+        "petit-courbu",
+        "hondarrabi-beltza",
+        "gros-manseng",
+        "petit-manseng",
+        "riesling",
+        "chardonnay",
+        "sauvignon-blanc"
+      ]
+    },
+    {
+      "id": "arabako-txakolina",
+      "name": "Arabako Txakolina",
+      "parent": "País Vasco",
+      "kind": "DO",
+      "grapeIds": [
+        "hondarrabi-zuri",
+        "petit-courbu",
+        "gros-manseng",
+        "petit-manseng",
+        "hondarrabi-beltza"
+      ]
+    },
+    {
+      "id": "costa-de-cantabria",
+      "name": "Costa de Cantabria",
+      "parent": "Cantabria",
+      "kind": "IGP",
+      "grapeIds": [
+        "albarino",
+        "riesling",
+        "hondarrabi-zuri",
+        "chardonnay",
+        "sauvignon-blanc",
+        "godello"
+      ]
+    },
+    {
+      "id": "liebana",
+      "name": "Liébana",
+      "parent": "Cantabria",
+      "kind": "IGP",
+      "grapeIds": [
+        "mencia",
+        "tempranillo",
+        "garnacha-tinta",
+        "syrah",
+        "merlot",
+        "cabernet-sauvignon",
+        "alfrocheiro",
+        "godello",
+        "palomino",
+        "albarin-blanco",
+        "gewurztraminer",
+        "sauvignon-blanc"
+      ]
+    },
+    {
+      "id": "rioja",
+      "name": "Rioja",
+      "parent": "Rioja",
+      "kind": "DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "graciano",
+        "carignan",
+        "maturana-tinta",
+        "viura",
+        "garnacha-blanca",
+        "alarije",
+        "tempranillo-blanco",
+        "maturana-blanca",
+        "albillo-mayor",
+        "chardonnay",
+        "sauvignon-blanc",
+        "verdejo",
+        "cabernet-sauvignon",
+        "palomino",
+        "viognier"
+      ]
+    },
+    {
+      "id": "rioja-alta",
+      "name": "Rioja Alta",
+      "parent": "Rioja",
+      "kind": "geographic",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "graciano",
+        "carignan",
+        "viura"
+      ]
+    },
+    {
+      "id": "rioja-alavesa",
+      "name": "Rioja Alavesa",
+      "parent": "Rioja",
+      "kind": "geographic",
+      "grapeIds": [
+        "tempranillo",
+        "graciano",
+        "viura",
+        "garnacha-tinta"
+      ]
+    },
+    {
+      "id": "rioja-oriental",
+      "name": "Rioja Oriental",
+      "parent": "Rioja",
+      "kind": "geographic",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "graciano",
+        "carignan"
+      ]
+    },
+    {
+      "id": "navarra",
+      "name": "Navarra",
+      "parent": "Navarra",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "carignan",
+        "graciano",
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah",
+        "pinot-noir",
+        "chardonnay",
+        "sauvignon-blanc",
+        "viura",
+        "garnacha-blanca",
+        "muscat-blanc-a-petits-grains"
+      ]
+    },
+    {
+      "id": "arinzano",
+      "name": "Arínzano",
+      "parent": "Navarra",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "chardonnay",
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot"
+      ]
+    },
+    {
+      "id": "pago-de-otazu",
+      "name": "Pago de Otazu",
+      "parent": "Navarra",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "chardonnay",
+        "cabernet-sauvignon",
+        "merlot",
+        "tempranillo"
+      ]
+    },
+    {
+      "id": "prado-de-irache",
+      "name": "Prado de Irache",
+      "parent": "Navarra",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot"
+      ]
+    },
+    {
+      "id": "bolandin",
+      "name": "Bolandín",
+      "parent": "Navarra",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah",
+        "tempranillo",
+        "chardonnay",
+        "sauvignon-blanc",
+        "muscat-blanc-a-petits-grains"
+      ]
+    },
+    {
+      "id": "pago-de-larrainzar",
+      "name": "Pago de Larrainzar",
+      "parent": "Navarra",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot",
+        "garnacha-tinta"
+      ]
+    },
+    {
+      "id": "calatayud",
+      "name": "Calatayud",
+      "parent": "Aragón",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "syrah",
+        "viura",
+        "garnacha-blanca"
+      ]
+    },
+    {
+      "id": "campo-de-borja",
+      "name": "Campo de Borja",
+      "parent": "Aragón",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "viura",
+        "syrah",
+        "cabernet-sauvignon",
+        "merlot"
+      ]
+    },
+    {
+      "id": "carinena",
+      "name": "Cariñena",
+      "parent": "Aragón",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "carignan",
+        "viura",
+        "syrah"
+      ]
+    },
+    {
+      "id": "somontano",
+      "name": "Somontano",
+      "parent": "Aragón",
+      "kind": "DO",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "merlot",
+        "tempranillo",
+        "syrah",
+        "garnacha-tinta",
+        "moristel",
+        "carcajolo",
+        "pinot-noir",
+        "chardonnay",
+        "gewurztraminer",
+        "sauvignon-blanc",
+        "viura",
+        "garnacha-blanca",
+        "riesling",
+        "alcanon"
+      ]
+    },
+    {
+      "id": "ayles",
+      "name": "Aylés",
+      "parent": "Aragón",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot"
+      ]
+    },
+    {
+      "id": "valdejalon",
+      "name": "Valdejalón",
+      "parent": "Aragón",
+      "kind": "IGP",
+      "grapeIds": [
+        "garnacha-tinta",
+        "viura",
+        "carignan"
+      ]
+    },
+    {
+      "id": "bajo-aragon",
+      "name": "Bajo Aragón",
+      "parent": "Aragón",
+      "kind": "IGP",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "viura",
+        "garnacha-blanca"
+      ]
+    },
+    {
+      "id": "ribera-del-gallego-cinco-villas",
+      "name": "Ribera del Gállego-Cinco Villas",
+      "parent": "Aragón",
+      "kind": "IGP",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "viura",
+        "syrah"
+      ]
+    },
+    {
+      "id": "catalunya",
+      "name": "Catalunya",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "viura",
+        "xarello",
+        "parellada",
+        "garnacha-blanca",
+        "garnacha-tinta",
+        "carignan",
+        "tempranillo",
+        "sumoll",
+        "mando",
+        "picapoll-blanc",
+        "picapoll-negre",
+        "merseguera",
+        "vinyater",
+        "malvasia-aromatica",
+        "alarije",
+        "xarello-vermell",
+        "garnacha-peluda",
+        "grenache-gris",
+        "monastrell",
+        "alicante-bouschet",
+        "trepat",
+        "cabernet-sauvignon",
+        "cabernet-franc",
+        "merlot",
+        "syrah",
+        "pinot-noir",
+        "petit-verdot",
+        "marselan",
+        "chardonnay",
+        "sauvignon-blanc",
+        "riesling",
+        "gewurztraminer",
+        "chenin-blanc",
+        "viognier",
+        "pedro-ximenez",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains"
+      ]
+    },
+    {
+      "id": "priorat",
+      "name": "Priorat",
+      "parent": "Catalunya",
+      "kind": "DOCa",
+      "grapeIds": [
+        "garnacha-tinta",
+        "carignan",
+        "syrah",
+        "cabernet-sauvignon",
+        "merlot",
+        "garnacha-blanca",
+        "viura",
+        "pedro-ximenez",
+        "chenin-blanc",
+        "viognier",
+        "escanyavella",
+        "tempranillo",
+        "muscat-of-alexandria",
+        "xarello",
+        "garnacha-peluda"
+      ]
+    },
+    {
+      "id": "montsant",
+      "name": "Montsant",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "carignan",
+        "syrah",
+        "garnacha-blanca",
+        "viura",
+        "garnacha-peluda",
+        "merlot",
+        "cabernet-sauvignon",
+        "xarello"
+      ]
+    },
+    {
+      "id": "penedes",
+      "name": "Penedès",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "xarello",
+        "viura",
+        "parellada",
+        "chardonnay",
+        "sauvignon-blanc",
+        "riesling",
+        "gewurztraminer",
+        "sumoll",
+        "forcada",
+        "moneu",
+        "cabernet-sauvignon",
+        "merlot",
+        "pinot-noir",
+        "garnacha-tinta",
+        "malvasia-aromatica",
+        "garnacha-blanca",
+        "tempranillo",
+        "xarello-vermell"
+      ]
+    },
+    {
+      "id": "cava",
+      "name": "Cava",
+      "parent": "跨地区 · Cava",
+      "kind": "DO",
+      "grapeIds": [
+        "viura",
+        "xarello",
+        "parellada",
+        "chardonnay",
+        "alarije",
+        "garnacha-tinta",
+        "monastrell",
+        "pinot-noir",
+        "trepat"
+      ]
+    },
+    {
+      "id": "corpinnat",
+      "name": "Corpinnat",
+      "parent": "Catalunya",
+      "kind": "organization",
+      "grapeIds": [
+        "xarello",
+        "viura",
+        "parellada",
+        "garnacha-tinta",
+        "monastrell",
+        "pinot-noir",
+        "chardonnay",
+        "trepat",
+        "sumoll"
+      ]
+    },
+    {
+      "id": "classic-penedes",
+      "name": "Clàssic Penedès",
+      "parent": "Catalunya",
+      "kind": "DO-subcategory",
+      "grapeIds": [
+        "xarello",
+        "viura",
+        "parellada",
+        "chardonnay",
+        "pinot-noir",
+        "forcada"
+      ]
+    },
+    {
+      "id": "conca-del-riu-anoia",
+      "name": "Conca del Riu Anoia",
+      "parent": "Catalunya",
+      "kind": "geographic",
+      "grapeIds": [
+        "xarello",
+        "viura",
+        "parellada",
+        "monastrell",
+        "xarello-vermell",
+        "sumoll"
+      ]
+    },
+    {
+      "id": "alella",
+      "name": "Alella",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "xarello",
+        "garnacha-blanca",
+        "chardonnay",
+        "sauvignon-blanc",
+        "picapoll-blanc",
+        "monastrell",
+        "xarello-vermell",
+        "garnacha-tinta",
+        "syrah",
+        "cabernet-sauvignon"
+      ]
+    },
+    {
+      "id": "emporda",
+      "name": "Empordà",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "carignan",
+        "garnacha-blanca",
+        "grenache-gris",
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah",
+        "viura",
+        "cabernet-franc",
+        "picapoll-blanc",
+        "muscat-of-alexandria"
+      ]
+    },
+    {
+      "id": "terra-alta",
+      "name": "Terra Alta",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-blanca",
+        "garnacha-tinta",
+        "garnacha-peluda",
+        "carignan",
+        "viura",
+        "morenillo"
+      ]
+    },
+    {
+      "id": "conca-de-barbera",
+      "name": "Conca de Barberà",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "trepat",
+        "viura",
+        "parellada",
+        "chardonnay",
+        "garnacha-tinta",
+        "tempranillo",
+        "vinyater",
+        "carignan",
+        "monastrell",
+        "mando",
+        "querol"
+      ]
+    },
+    {
+      "id": "costers-del-segre",
+      "name": "Costers del Segre",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "chardonnay",
+        "cabernet-sauvignon",
+        "merlot",
+        "tempranillo",
+        "riesling",
+        "sauvignon-blanc",
+        "viura",
+        "garnacha-tinta",
+        "carignan",
+        "syrah",
+        "albarino",
+        "semillon",
+        "cabernet-franc",
+        "petit-verdot",
+        "pinot-noir",
+        "xarello"
+      ]
+    },
+    {
+      "id": "pla-de-bages",
+      "name": "Pla de Bages",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "picapoll-blanc",
+        "mando",
+        "sumoll",
+        "viura",
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah"
+      ]
+    },
+    {
+      "id": "tarragona",
+      "name": "Tarragona",
+      "parent": "Catalunya",
+      "kind": "DO",
+      "grapeIds": [
+        "viura",
+        "xarello",
+        "parellada",
+        "garnacha-tinta",
+        "carignan",
+        "muscat-of-alexandria",
+        "monastrell",
+        "chardonnay"
+      ]
+    },
+    {
+      "id": "gredos",
+      "name": "Sierra de Gredos",
+      "parent": "中央山地 · Gredos",
+      "kind": "geographic",
+      "grapeIds": [
+        "garnacha-tinta",
+        "albillo-real",
+        "alicante-bouschet",
+        "garnacha-blanca",
+        "grenache-gris"
+      ]
+    },
+    {
+      "id": "vinos-de-madrid",
+      "name": "Vinos de Madrid",
+      "parent": "Madrid",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "tempranillo",
+        "albillo-real",
+        "malvar",
+        "airen",
+        "viura",
+        "muscat-blanc-a-petits-grains"
+      ]
+    },
+    {
+      "id": "mentrida",
+      "name": "Méntrida",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "syrah",
+        "albillo-real",
+        "tempranillo"
+      ]
+    },
+    {
+      "id": "la-mancha",
+      "name": "La Mancha",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "airen",
+        "tempranillo",
+        "viura",
+        "syrah"
+      ]
+    },
+    {
+      "id": "valdepenas",
+      "name": "Valdepeñas",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "airen"
+      ]
+    },
+    {
+      "id": "almansa",
+      "name": "Almansa",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "alicante-bouschet",
+        "monastrell",
+        "syrah",
+        "moravia-agria"
+      ]
+    },
+    {
+      "id": "manchuela",
+      "name": "Manchuela",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "bobal",
+        "moravia-agria",
+        "albilla-dorada",
+        "garnacha-tinta",
+        "monastrell"
+      ]
+    },
+    {
+      "id": "ribera-del-jucar",
+      "name": "Ribera del Júcar",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "bobal",
+        "tempranillo",
+        "syrah",
+        "sauvignon-blanc",
+        "muscat-blanc-a-petits-grains"
+      ]
+    },
+    {
+      "id": "ucles",
+      "name": "Uclés",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "syrah",
+        "verdejo",
+        "chardonnay"
+      ]
+    },
+    {
+      "id": "mondejar",
+      "name": "Mondéjar",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "malvar",
+        "airen"
+      ]
+    },
+    {
+      "id": "campo-de-calatrava",
+      "name": "Campo de Calatrava",
+      "parent": "Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "airen",
+        "syrah"
+      ]
+    },
+    {
+      "id": "castilla-igp",
+      "name": "Castilla / Vino de la Tierra de Castilla",
+      "parent": "Castilla-La Mancha",
+      "kind": "IGP",
+      "grapeIds": [
+        "airen",
+        "tempranillo",
+        "syrah",
+        "tinto-velasco",
+        "moravia-agria",
+        "albillo-real",
+        "graciano",
+        "garnacha-tinta",
+        "carignan",
+        "cabernet-sauvignon"
+      ]
+    },
+    {
+      "id": "rio-negro",
+      "name": "Río Negro",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "syrah",
+        "merlot",
+        "gewurztraminer",
+        "tinto-fragoso"
+      ]
+    },
+    {
+      "id": "dominio-de-valdepusa",
+      "name": "Dominio de Valdepusa",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "syrah",
+        "petit-verdot"
+      ]
+    },
+    {
+      "id": "dehesa-del-carrizal",
+      "name": "Dehesa del Carrizal",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "syrah",
+        "merlot",
+        "chardonnay"
+      ]
+    },
+    {
+      "id": "ribera-del-guadiana",
+      "name": "Ribera del Guadiana",
+      "parent": "Extremadura",
+      "kind": "DO",
+      "grapeIds": [
+        "tempranillo",
+        "cayetana-blanca",
+        "alarije",
+        "eva",
+        "montua",
+        "petit-verdot",
+        "cabernet-sauvignon",
+        "syrah"
+      ]
+    },
+    {
+      "id": "extremadura-igp",
+      "name": "Extremadura",
+      "parent": "Extremadura",
+      "kind": "IGP",
+      "grapeIds": [
+        "tempranillo",
+        "syrah",
+        "cabernet-sauvignon",
+        "sauvignon-blanc",
+        "cayetana-blanca"
+      ]
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia",
+      "parent": "Comunitat Valenciana",
+      "kind": "DO",
+      "grapeIds": [
+        "merseguera",
+        "viura",
+        "muscat-of-alexandria",
+        "monastrell",
+        "alicante-bouschet",
+        "mando",
+        "arcos",
+        "verdil",
+        "pedro-ximenez",
+        "chardonnay"
+      ]
+    },
+    {
+      "id": "utiel-requena",
+      "name": "Utiel-Requena",
+      "parent": "Comunitat Valenciana",
+      "kind": "DO",
+      "grapeIds": [
+        "bobal",
+        "tempranillo",
+        "viura",
+        "chardonnay",
+        "merseguera",
+        "garnacha-tinta",
+        "syrah",
+        "cabernet-sauvignon",
+        "cabernet-franc",
+        "merlot"
+      ]
+    },
+    {
+      "id": "el-terrerazo",
+      "name": "El Terrerazo",
+      "parent": "Comunitat Valenciana",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "bobal",
+        "garnacha-tinta",
+        "syrah"
+      ]
+    },
+    {
+      "id": "alicante",
+      "name": "Alicante",
+      "parent": "Comunitat Valenciana",
+      "kind": "DO",
+      "grapeIds": [
+        "monastrell",
+        "muscat-of-alexandria",
+        "merseguera",
+        "giro",
+        "forcallat-tinta",
+        "alicante-bouschet",
+        "viura",
+        "viognier",
+        "petit-verdot",
+        "pinot-noir"
+      ]
+    },
+    {
+      "id": "jumilla",
+      "name": "Jumilla",
+      "parent": "Murcia / Castilla-La Mancha",
+      "kind": "DO",
+      "grapeIds": [
+        "monastrell",
+        "syrah",
+        "cabernet-sauvignon",
+        "muscat-blanc-a-petits-grains"
+      ]
+    },
+    {
+      "id": "yecla",
+      "name": "Yecla",
+      "parent": "Murcia",
+      "kind": "DO",
+      "grapeIds": [
+        "monastrell",
+        "syrah",
+        "cabernet-sauvignon",
+        "viura"
+      ]
+    },
+    {
+      "id": "bullas",
+      "name": "Bullas",
+      "parent": "Murcia",
+      "kind": "DO",
+      "grapeIds": [
+        "monastrell",
+        "syrah",
+        "tempranillo",
+        "viura"
+      ]
+    },
+    {
+      "id": "jerez-xeres-sherry",
+      "name": "Jerez-Xérès-Sherry",
+      "parent": "Andalucía",
+      "kind": "DO",
+      "grapeIds": [
+        "palomino",
+        "pedro-ximenez",
+        "muscat-of-alexandria",
+        "beba",
+        "perruno",
+        "vijariego-blanco"
+      ]
+    },
+    {
+      "id": "manzanilla-sanlucar",
+      "name": "Manzanilla-Sanlúcar de Barrameda",
+      "parent": "Andalucía",
+      "kind": "DO",
+      "grapeIds": [
+        "palomino"
+      ]
+    },
+    {
+      "id": "montilla-moriles",
+      "name": "Montilla-Moriles",
+      "parent": "Andalucía",
+      "kind": "DO",
+      "grapeIds": [
+        "pedro-ximenez"
+      ]
+    },
+    {
+      "id": "malaga",
+      "name": "Málaga",
+      "parent": "Andalucía",
+      "kind": "DO",
+      "grapeIds": [
+        "muscat-of-alexandria",
+        "pedro-ximenez"
+      ]
+    },
+    {
+      "id": "sierras-de-malaga",
+      "name": "Sierras de Málaga",
+      "parent": "Andalucía",
+      "kind": "DO",
+      "grapeIds": [
+        "muscat-of-alexandria",
+        "pedro-ximenez",
+        "syrah",
+        "cabernet-sauvignon",
+        "pinot-noir",
+        "rome",
+        "merlot",
+        "tempranillo"
+      ]
+    },
+    {
+      "id": "condado-de-huelva",
+      "name": "Condado de Huelva",
+      "parent": "Andalucía",
+      "kind": "DO",
+      "grapeIds": [
+        "zalema",
+        "palomino",
+        "pedro-ximenez"
+      ]
+    },
+    {
+      "id": "granada",
+      "name": "Granada",
+      "parent": "Andalucía",
+      "kind": "DO",
+      "grapeIds": [
+        "vijariego-blanco",
+        "syrah",
+        "tempranillo",
+        "cabernet-sauvignon",
+        "muscat-of-alexandria"
+      ]
+    },
+    {
+      "id": "lebrija",
+      "name": "Lebrija",
+      "parent": "Andalucía",
+      "kind": "DOP",
+      "grapeIds": [
+        "palomino",
+        "pedro-ximenez"
+      ]
+    },
+    {
+      "id": "cadiz-igp",
+      "name": "Cádiz",
+      "parent": "Andalucía",
+      "kind": "IGP",
+      "grapeIds": [
+        "palomino",
+        "graciano",
+        "syrah",
+        "cabernet-sauvignon"
+      ]
+    },
+    {
+      "id": "binissalem",
+      "name": "Binissalem",
+      "parent": "Illes Balears",
+      "kind": "DO",
+      "grapeIds": [
+        "manto-negro",
+        "prensal-blanc",
+        "callet",
+        "gorgollassa"
+      ]
+    },
+    {
+      "id": "pla-i-llevant",
+      "name": "Pla i Llevant",
+      "parent": "Illes Balears",
+      "kind": "DO",
+      "grapeIds": [
+        "callet",
+        "fogoneu",
+        "manto-negro",
+        "prensal-blanc",
+        "chardonnay",
+        "merlot"
+      ]
+    },
+    {
+      "id": "mallorca-igp",
+      "name": "Mallorca",
+      "parent": "Illes Balears",
+      "kind": "IGP",
+      "grapeIds": [
+        "callet",
+        "manto-negro",
+        "fogoneu",
+        "prensal-blanc",
+        "giro-ros",
+        "gorgollassa",
+        "escursac",
+        "syrah"
+      ]
+    },
+    {
+      "id": "menorca-igp",
+      "name": "Illa de Menorca",
+      "parent": "Illes Balears",
+      "kind": "IGP",
+      "grapeIds": [
+        "chardonnay",
+        "merlot",
+        "cabernet-sauvignon"
+      ]
+    },
+    {
+      "id": "ibiza-igp",
+      "name": "Ibiza / Eivissa",
+      "parent": "Illes Balears",
+      "kind": "IGP",
+      "grapeIds": [
+        "monastrell",
+        "malvasia-aromatica"
+      ]
+    },
+    {
+      "id": "formentera-igp",
+      "name": "Formentera",
+      "parent": "Illes Balears",
+      "kind": "IGP",
+      "grapeIds": [
+        "monastrell",
+        "cabernet-sauvignon",
+        "merlot",
+        "muscat-of-alexandria",
+        "garnacha-blanca",
+        "viognier",
+        "muscat-blanc-a-petits-grains"
+      ]
+    },
+    {
+      "id": "islas-canarias",
+      "name": "Islas Canarias",
+      "parent": "Canarias",
+      "kind": "geographic",
+      "grapeIds": [
+        "palomino",
+        "listan-negro",
+        "listan-prieto",
+        "tinta-negra",
+        "malvasia-aromatica",
+        "malvasia-volcanica",
+        "marmajuelo",
+        "verdelho",
+        "malvasia-fina",
+        "sumoll",
+        "alfrocheiro"
+      ]
+    },
+    {
+      "id": "tacoronte-acentejo",
+      "name": "Tacoronte-Acentejo",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "listan-negro",
+        "tinta-negra",
+        "palomino",
+        "malvasia-rosada"
+      ]
+    },
+    {
+      "id": "valle-de-la-orotava",
+      "name": "Valle de la Orotava",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "palomino",
+        "listan-negro",
+        "castellana-negra",
+        "sumoll",
+        "alfrocheiro"
+      ]
+    },
+    {
+      "id": "ycoden-daute-isora",
+      "name": "Ycoden-Daute-Isora",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "palomino",
+        "listan-negro",
+        "listan-prieto",
+        "marmajuelo",
+        "malvasia-fina",
+        "sumoll"
+      ]
+    },
+    {
+      "id": "abona",
+      "name": "Abona",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "palomino",
+        "listan-negro",
+        "malvasia-aromatica",
+        "ruby-cabernet",
+        "tempranillo"
+      ]
+    },
+    {
+      "id": "valle-de-guimar",
+      "name": "Valle de Güímar",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "palomino",
+        "albillo-criollo",
+        "vijariego-blanco",
+        "malvasia-aromatica"
+      ]
+    },
+    {
+      "id": "lanzarote",
+      "name": "Lanzarote",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "malvasia-volcanica",
+        "vijariego-blanco",
+        "listan-negro",
+        "muscat-of-alexandria",
+        "syrah"
+      ]
+    },
+    {
+      "id": "la-palma",
+      "name": "La Palma",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "palomino",
+        "tinta-negra",
+        "malvasia-aromatica",
+        "albillo-criollo",
+        "sabro"
+      ]
+    },
+    {
+      "id": "el-hierro",
+      "name": "El Hierro",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "palomino",
+        "alfrocheiro",
+        "sumoll",
+        "listan-negro",
+        "vijariego-blanco"
+      ]
+    },
+    {
+      "id": "la-gomera",
+      "name": "La Gomera",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "forastera-blanca",
+        "palomino",
+        "tinta-negra",
+        "listan-negro",
+        "marmajuelo"
+      ]
+    },
+    {
+      "id": "gran-canaria",
+      "name": "Gran Canaria",
+      "parent": "Canarias",
+      "kind": "DO",
+      "grapeIds": [
+        "listan-negro",
+        "palomino",
+        "tinta-negra",
+        "marmajuelo",
+        "malvasia-aromatica",
+        "albillo-criollo",
+        "malvasia-volcanica"
+      ]
+    },
+    {
+      "id": "finca-elez",
+      "name": "Finca Élez",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "chardonnay",
+        "syrah",
+        "tempranillo"
+      ]
+    },
+    {
+      "id": "guijoso",
+      "name": "Guijoso",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "chardonnay",
+        "merlot",
+        "tempranillo",
+        "syrah",
+        "cabernet-sauvignon"
+      ]
+    },
+    {
+      "id": "campo-de-la-guardia",
+      "name": "Campo de la Guardia",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "syrah",
+        "petit-verdot",
+        "malbec"
+      ]
+    },
+    {
+      "id": "pago-florentino",
+      "name": "Pago Florentino",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo"
+      ]
+    },
+    {
+      "id": "casa-del-blanco",
+      "name": "Casa del Blanco",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "syrah",
+        "malbec",
+        "cabernet-franc",
+        "merlot",
+        "tempranillo",
+        "petit-verdot"
+      ]
+    },
+    {
+      "id": "calzadilla",
+      "name": "Calzadilla",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "syrah"
+      ]
+    },
+    {
+      "id": "vallegarcia",
+      "name": "Vallegarcía",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "viognier",
+        "syrah",
+        "cabernet-sauvignon",
+        "cabernet-franc",
+        "merlot",
+        "petit-verdot"
+      ]
+    },
+    {
+      "id": "la-jaraba",
+      "name": "La Jaraba",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot",
+        "sauvignon-blanc"
+      ]
+    },
+    {
+      "id": "los-cerrillos",
+      "name": "Los Cerrillos",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "petit-verdot",
+        "tempranillo",
+        "syrah"
+      ]
+    },
+    {
+      "id": "el-vicario",
+      "name": "El Vicario",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "tempranillo",
+        "cabernet-sauvignon"
+      ]
+    },
+    {
+      "id": "rosalejo",
+      "name": "Rosalejo",
+      "parent": "Castilla-La Mancha",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "syrah",
+        "tempranillo",
+        "garnacha-tinta"
+      ]
+    },
+    {
+      "id": "los-balagueses",
+      "name": "Los Balagueses",
+      "parent": "Comunitat Valenciana",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "syrah",
+        "alicante-bouschet",
+        "chardonnay"
+      ]
+    },
+    {
+      "id": "chozas-carrascal",
+      "name": "Chozas Carrascal",
+      "parent": "Comunitat Valenciana",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "bobal",
+        "monastrell",
+        "garnacha-tinta",
+        "tempranillo",
+        "cabernet-sauvignon",
+        "cabernet-franc",
+        "syrah",
+        "merlot"
+      ]
+    },
+    {
+      "id": "vera-de-estenas",
+      "name": "Vera de Estenas",
+      "parent": "Comunitat Valenciana",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "bobal",
+        "cabernet-sauvignon",
+        "merlot",
+        "tempranillo",
+        "chardonnay"
+      ]
+    },
+    {
+      "id": "tharsys",
+      "name": "Tharsys",
+      "parent": "Comunitat Valenciana",
+      "kind": "DOP Pago",
+      "grapeIds": [
+        "albarino",
+        "xarello",
+        "bobal"
+      ]
+    },
+    {
+      "id": "es-community-andalucia",
+      "name": "Andalucía",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "airen",
+        "albarino",
+        "albillo-mayor",
+        "albillo-real",
+        "arinto",
+        "beba",
+        "blanca-gordal",
+        "bobal",
+        "blaufrankisch",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "colombard",
+        "chardonnay",
+        "doradilla",
+        "garnacha-blanca",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "garrido-fino",
+        "gewurztraminer",
+        "graciano",
+        "jaen-tinto",
+        "lairen",
+        "listan-del-condado",
+        "listan-prieto",
+        "viura",
+        "malbec",
+        "malvasia-aromatica",
+        "marselan",
+        "melonera",
+        "mencia",
+        "merlot",
+        "molinera",
+        "mollar-cano",
+        "monastrell",
+        "montua",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "moscatel-negro",
+        "palomino",
+        "pardina",
+        "pedro-ximenez",
+        "perruno",
+        "petit-verdot",
+        "pinot-noir",
+        "prieto-picudo",
+        "riesling",
+        "rome",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo",
+        "tinto-velasco",
+        "es-catalogue-torrontes",
+        "verdejo",
+        "vermentino",
+        "vijariego-blanco",
+        "viognier",
+        "zalema"
+      ]
+    },
+    {
+      "id": "es-community-aragon",
+      "name": "Aragón",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "chenin-blanc",
+        "alarije",
+        "alcanon",
+        "aubun",
+        "benedicto",
+        "bobal",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "caladoc",
+        "carignan-blanc",
+        "chardonnay",
+        "derechero",
+        "garnacha-blanca",
+        "garnacha-peluda",
+        "grenache-gris",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "gewurztraminer",
+        "gonfaus",
+        "graciano",
+        "viura",
+        "marselan",
+        "carignan",
+        "merlot",
+        "merseguera",
+        "miguel-del-arco",
+        "monastrell",
+        "morenillo",
+        "moristel",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "pardina",
+        "parellada",
+        "carcajolo",
+        "parrel",
+        "pinot-noir",
+        "riesling",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo",
+        "tempranillo-blanco",
+        "verdejo",
+        "vidadillo",
+        "viognier",
+        "xarello"
+      ]
+    },
+    {
+      "id": "es-community-asturias",
+      "name": "Asturias",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "albarin-blanco",
+        "albarino",
+        "albillo-mayor",
+        "alfrocheiro",
+        "carrasquin",
+        "chardonnay",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "gewurztraminer",
+        "godello",
+        "graciano",
+        "mencia",
+        "trousseau",
+        "merlot",
+        "muscat-blanc-a-petits-grains",
+        "palomino",
+        "picapoll-blanc",
+        "pinot-noir",
+        "riesling",
+        "sauvignon-blanc",
+        "syrah",
+        "treixadura"
+      ]
+    },
+    {
+      "id": "es-community-illes-balears",
+      "name": "Illes Balears",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "callet",
+        "callet-negrella",
+        "calop-blanco",
+        "chardonnay",
+        "escursac",
+        "espero-de-gall",
+        "fogoneu",
+        "garnacha-blanca",
+        "garnacha-tinta",
+        "giro-ros",
+        "giro-negre",
+        "gorgollassa",
+        "viura",
+        "malvasia-aromatica",
+        "mances-de-tibus",
+        "manto-negro",
+        "merlot",
+        "prensal-blanc",
+        "monastrell",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "parellada",
+        "petit-verdot",
+        "pinot-noir",
+        "riesling",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo",
+        "viognier"
+      ]
+    },
+    {
+      "id": "es-community-canarias",
+      "name": "Canarias",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "albillo-criollo",
+        "bastardo-blanco",
+        "es-catalogue-bastardo-negro",
+        "marmajuelo",
+        "breval",
+        "alfrocheiro",
+        "burrablanca",
+        "cabernet-sauvignon",
+        "castellana-negra",
+        "doradilla",
+        "forastera-blanca",
+        "malvasia-fina",
+        "palomino",
+        "listan-negro",
+        "listan-prieto",
+        "malvasia-aromatica",
+        "malvasia-rosada",
+        "malvasia-volcanica",
+        "trousseau",
+        "merlot",
+        "muscat-of-alexandria",
+        "moscatel-negro",
+        "tinta-negra",
+        "pedro-ximenez",
+        "pinot-noir",
+        "ruby-cabernet",
+        "sabro",
+        "syrah",
+        "tempranillo",
+        "es-catalogue-torrontes",
+        "verdelho",
+        "vijariego-blanco",
+        "sumoll"
+      ]
+    },
+    {
+      "id": "es-community-cantabria",
+      "name": "Cantabria",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "albarin-blanco",
+        "albarino",
+        "cabernet-sauvignon",
+        "carrasquin",
+        "chardonnay",
+        "garnacha-tinta",
+        "gewurztraminer",
+        "godello",
+        "graciano",
+        "hondarrabi-beltza",
+        "hondarrabi-zuri",
+        "mencia",
+        "merlot",
+        "palomino",
+        "riesling",
+        "syrah",
+        "tempranillo",
+        "treixadura"
+      ]
+    },
+    {
+      "id": "es-community-castilla-la-mancha",
+      "name": "Castilla-La Mancha",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "airen",
+        "alarije",
+        "albarin-blanco",
+        "albarino",
+        "albilla-dorada",
+        "albillo-real",
+        "bobal",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "colombard",
+        "coloraillo",
+        "chardonnay",
+        "forcallat-tinta",
+        "garnacha-blanca",
+        "garnacha-peluda",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "gewurztraminer",
+        "graciano",
+        "viura",
+        "malbec",
+        "malvar",
+        "malvasia-aromatica",
+        "marselan",
+        "carignan",
+        "mencia",
+        "merlot",
+        "merseguera",
+        "mizancho",
+        "monastrell",
+        "montua",
+        "moravia-agria",
+        "moravia-dulce",
+        "moribel",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "palomino",
+        "pardillo",
+        "pardina",
+        "parellada",
+        "pedro-ximenez",
+        "petit-verdot",
+        "pinot-noir",
+        "planta-nova",
+        "prieto-picudo",
+        "riesling",
+        "rojal",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo",
+        "tinto-de-la-pampana-blanca",
+        "tinto-fragoso",
+        "tinto-velasco",
+        "es-catalogue-torrontes",
+        "touriga-nacional",
+        "verdejo",
+        "verdoncho",
+        "viognier"
+      ]
+    },
+    {
+      "id": "es-community-castilla-y-leon",
+      "name": "Castilla y León",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "alarije",
+        "albarin-blanco",
+        "albarino",
+        "albillo-mayor",
+        "albillo-real",
+        "aurigera",
+        "es-catalogue-bastardo-negro",
+        "bobal",
+        "alfrocheiro",
+        "cabernet-sauvignon",
+        "cabernet-eidos",
+        "cenicienta",
+        "chardonnay",
+        "dona-blanca",
+        "estaladina",
+        "gajo-arroba",
+        "garnacha-blanca",
+        "grenache-gris",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "mando",
+        "gewurztraminer",
+        "godello",
+        "graciano",
+        "hondarrabi-beltza",
+        "hondarrabi-zuri",
+        "juan-garcia",
+        "viura",
+        "malbec",
+        "maturana-blanca",
+        "maturana-tinta",
+        "mencia",
+        "trousseau",
+        "merlot",
+        "merlot-khorus",
+        "monastrell",
+        "montua",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "mouraz",
+        "palomino",
+        "petit-verdot",
+        "pinot-noir",
+        "prieto-picudo",
+        "rabigato",
+        "riesling",
+        "rufete",
+        "rufete-blanco",
+        "sauvignon-blanc",
+        "sauvignon-rytos",
+        "soreli",
+        "syrah",
+        "tempranillo-blanco",
+        "tempranillo",
+        "tijonera",
+        "tinto-jeromo",
+        "touriga-nacional",
+        "treixadura",
+        "verdejo",
+        "viognier"
+      ]
+    },
+    {
+      "id": "es-community-catalunya",
+      "name": "Catalunya",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "chenin-blanc",
+        "airen",
+        "alarije",
+        "albarino",
+        "alcanon",
+        "belat",
+        "bobal",
+        "bornac",
+        "botana",
+        "bronsa",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "caladoc",
+        "carignan-blanc",
+        "carignan-gris",
+        "chardonnay",
+        "coromina",
+        "forcada",
+        "garnacha-blanca",
+        "garnacha-peluda",
+        "grenache-gris",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "mando",
+        "gewurztraminer",
+        "giro-ros",
+        "godello",
+        "gonfaus",
+        "graciano",
+        "incrocio-manzoni",
+        "viura",
+        "malbec",
+        "malvasia-aromatica",
+        "malvasia-blanca-roja",
+        "marina-rion",
+        "marselan",
+        "carignan",
+        "merlot",
+        "merlot-khorus",
+        "merseguera",
+        "monastrell",
+        "moneu",
+        "montori",
+        "morenillo",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "parellada",
+        "pedro-ximenez",
+        "petit-verdot",
+        "picapoll-blanc",
+        "picapoll-negre",
+        "pinot-noir",
+        "pirene",
+        "querol",
+        "riesling",
+        "sauvignon-blanc",
+        "selma-blanca",
+        "solana",
+        "soreli",
+        "sumoll",
+        "syrah",
+        "tempranillo",
+        "trepat",
+        "trobat",
+        "verdejo",
+        "vermentino",
+        "verdil",
+        "vidadillo",
+        "vinyater",
+        "viognier",
+        "xarello",
+        "xarello-vermell"
+      ]
+    },
+    {
+      "id": "es-community-extremadura",
+      "name": "Extremadura",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "alarije",
+        "albillo-mayor",
+        "albillo-real",
+        "antao-vaz",
+        "arinto",
+        "bastardo-blanco",
+        "beba",
+        "bobal",
+        "borba",
+        "alfrocheiro",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "castelao",
+        "cayetana-blanca",
+        "chardonnay",
+        "colombard",
+        "dona-blanca",
+        "fernao-pires",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "gewurztraminer",
+        "graciano",
+        "gran-negro",
+        "jaen-tinto",
+        "viura",
+        "malbec",
+        "malvar",
+        "carignan",
+        "merlot",
+        "monastrell",
+        "montua",
+        "morisca",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "pardina",
+        "parellada",
+        "pedro-ximenez",
+        "perruno",
+        "petit-verdot",
+        "pinot-noir",
+        "riesling",
+        "rufete",
+        "rufete-blanco",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo",
+        "tinto-de-la-pampana-blanca",
+        "es-catalogue-torrontes",
+        "touriga-nacional",
+        "trincadeira",
+        "verdejo",
+        "viognier",
+        "xarello"
+      ]
+    },
+    {
+      "id": "es-community-galicia",
+      "name": "Galicia",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "chenin-blanc",
+        "albarin-blanco",
+        "albarino",
+        "albilla-do-avia",
+        "blanca-de-monterrei",
+        "alvarelhao",
+        "alfrocheiro",
+        "caino-blanco",
+        "caino-bravo",
+        "caino-longo",
+        "caino-tinto",
+        "castanal",
+        "dona-blanca",
+        "espadeiro",
+        "manseng-noir",
+        "alicante-bouschet",
+        "godello",
+        "gran-negro",
+        "juan-garcia",
+        "lado",
+        "loureiro",
+        "loureiro-tinto",
+        "viura",
+        "mencia",
+        "trousseau",
+        "palomino",
+        "pedral",
+        "ratino",
+        "vinhao",
+        "tempranillo",
+        "es-catalogue-torrontes",
+        "treixadura"
+      ]
+    },
+    {
+      "id": "es-community-madrid",
+      "name": "Madrid",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "airen",
+        "albillo-real",
+        "cabernet-sauvignon",
+        "garnacha-blanca",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "graciano",
+        "listan-prieto",
+        "viura",
+        "malvar",
+        "merlot",
+        "monastrell",
+        "muscat-blanc-a-petits-grains",
+        "pardina",
+        "parellada",
+        "petit-verdot",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo",
+        "es-catalogue-torrontes"
+      ]
+    },
+    {
+      "id": "es-community-murcia",
+      "name": "Murcia",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "airen",
+        "trepat",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "calblanque",
+        "calnegre",
+        "chardonnay",
+        "carmoli",
+        "forcallat-blanca",
+        "forcallat-tinta",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "gebas",
+        "gewurztraminer",
+        "graciano",
+        "viura",
+        "malvasia-aromatica",
+        "mencia",
+        "merlot",
+        "merseguera",
+        "monastrell",
+        "moravia-dulce",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "myrtia",
+        "quipar",
+        "pedro-ximenez",
+        "petit-verdot",
+        "pinot-noir",
+        "riesling",
+        "rojal",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo",
+        "verdejo",
+        "verdil",
+        "viognier"
+      ]
+    },
+    {
+      "id": "es-community-navarra",
+      "name": "Navarra",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "alarije",
+        "albarino",
+        "albillo-mayor",
+        "bobal",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "chardonnay",
+        "garnacha-blanca",
+        "grenache-gris",
+        "garnacha-tinta",
+        "gewurztraminer",
+        "graciano",
+        "gros-manseng",
+        "hondarrabi-zuri",
+        "viura",
+        "malbec",
+        "maturana-blanca",
+        "carignan",
+        "trousseau",
+        "merlot",
+        "monastrell",
+        "muscat-blanc-a-petits-grains",
+        "muscat-a-petits-grains-roses",
+        "musa",
+        "oneca",
+        "parellada",
+        "petit-courbu",
+        "petit-manseng",
+        "petit-verdot",
+        "pinot-noir",
+        "riesling",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo-blanco",
+        "tempranillo",
+        "tortozona-tinta",
+        "verdejo",
+        "viognier",
+        "xarello",
+        "xurra"
+      ]
+    },
+    {
+      "id": "es-community-pais-vasco",
+      "name": "País Vasco",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "alarije",
+        "albarino",
+        "albillo-mayor",
+        "albillo-real",
+        "bobal",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "chardonnay",
+        "dona-blanca",
+        "folle-blanche",
+        "garnacha-blanca",
+        "garnacha-tinta",
+        "graciano",
+        "gewurztraminer",
+        "godello",
+        "gros-manseng",
+        "hondarrabi-beltza",
+        "hondarrabi-zuri",
+        "viura",
+        "malbec",
+        "maturana-blanca",
+        "carignan",
+        "trousseau",
+        "merlot",
+        "monastrell",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "palomino",
+        "parellada",
+        "petit-courbu",
+        "petit-manseng",
+        "petit-verdot",
+        "pinot-noir",
+        "riesling",
+        "sauvignon-blanc",
+        "syrah",
+        "tempranillo-blanco",
+        "tempranillo",
+        "treixadura",
+        "verdejo",
+        "viognier",
+        "xarello"
+      ]
+    },
+    {
+      "id": "es-community-la-rioja",
+      "name": "La Rioja",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "alarije",
+        "albarino",
+        "albillo-mayor",
+        "chardonnay",
+        "garnacha-blanca",
+        "garnacha-tinta",
+        "gewurztraminer",
+        "graciano",
+        "hondarrabi-zuri",
+        "viura",
+        "maturana-blanca",
+        "trousseau",
+        "carignan",
+        "monastrell",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "parellada",
+        "pinot-noir",
+        "riesling",
+        "sauvignon-blanc",
+        "tempranillo-blanco",
+        "tempranillo",
+        "verdejo",
+        "viognier",
+        "xarello"
+      ]
+    },
+    {
+      "id": "es-community-comunitat-valenciana",
+      "name": "Comunitat Valenciana",
+      "parent": "Spain · Autonomías",
+      "kind": "autonomous-community",
+      "grapeIds": [
+        "airen",
+        "alarije",
+        "albarino",
+        "bobal",
+        "trepat",
+        "cabernet-franc",
+        "cabernet-sauvignon",
+        "chardonnay",
+        "forcallat-blanca",
+        "forcallat-tinta",
+        "garnacha-blanca",
+        "garnacha-tinta",
+        "alicante-bouschet",
+        "mando",
+        "gewurztraminer",
+        "godello",
+        "graciano",
+        "viura",
+        "malbec",
+        "marselan",
+        "carignan",
+        "mencia",
+        "merlot",
+        "merseguera",
+        "miguel-del-arco",
+        "monastrell",
+        "mondragon",
+        "moravia-dulce",
+        "moravia-agria",
+        "morenillo",
+        "muscat-of-alexandria",
+        "muscat-blanc-a-petits-grains",
+        "pampolat",
+        "parellada",
+        "pedro-ximenez",
+        "petit-verdot",
+        "pinot-noir",
+        "mayorquin",
+        "planta-nova",
+        "prieto-picudo",
+        "riesling",
+        "sauvignon-blanc",
+        "semillon",
+        "syrah",
+        "tempranillo",
+        "tinto-de-la-pampana-blanca",
+        "tortosi",
+        "valenci-blanco",
+        "valenci-tinto",
+        "verdejo",
+        "verdil",
+        "vermentino",
+        "vidadillo",
+        "viognier",
+        "xarello"
+      ]
+    }
+  ],
+  "grapes": [
+    {
+      "id": "airen",
+      "name": "Airén",
+      "verification": "archive"
+    },
+    {
+      "id": "alarije",
+      "name": "Alarije / Malvasía Riojana",
+      "verification": "official"
+    },
+    {
+      "id": "albarin-blanco",
+      "name": "Albarín Blanco",
+      "verification": "official"
+    },
+    {
+      "id": "albarino",
+      "name": "Albariño",
+      "verification": "official"
+    },
+    {
+      "id": "albilla-do-avia",
+      "name": "Albilla do Avia",
+      "verification": "official"
+    },
+    {
+      "id": "albillo-criollo",
+      "name": "Albillo Criollo",
+      "verification": "archive"
+    },
+    {
+      "id": "albilla-dorada",
+      "name": "Albillo Dorado",
+      "verification": "archive"
+    },
+    {
+      "id": "albillo-mayor",
+      "name": "Albillo Mayor",
+      "verification": "official"
+    },
+    {
+      "id": "albillo-real",
+      "name": "Albillo Real",
+      "verification": "official"
+    },
+    {
+      "id": "alcanon",
+      "name": "Alcañón",
+      "verification": "official"
+    },
+    {
+      "id": "alfrocheiro",
+      "name": "Alfrocheiro / Bruñal",
+      "verification": "official"
+    },
+    {
+      "id": "alicante-bouschet",
+      "name": "Alicante Bouschet",
+      "verification": "official"
+    },
+    {
+      "id": "alvarelhao",
+      "name": "Alvarelhão / Brancellao",
+      "verification": "official"
+    },
+    {
+      "id": "antao-vaz",
+      "name": "Antão Vaz",
+      "verification": "classification-only"
+    },
+    {
+      "id": "arcos",
+      "name": "Arcos",
+      "verification": "archive"
+    },
+    {
+      "id": "arinto",
+      "name": "Arinto",
+      "verification": "classification-only"
+    },
+    {
+      "id": "aubun",
+      "name": "Aubun",
+      "verification": "classification-only"
+    },
+    {
+      "id": "aurigera",
+      "name": "Aurígera",
+      "verification": "classification-only"
+    },
+    {
+      "id": "bastardo-blanco",
+      "name": "Bastardo Blanco",
+      "verification": "classification-only"
+    },
+    {
+      "id": "es-catalogue-bastardo-negro",
+      "name": "Bastardo Negro",
+      "verification": "classification-only"
+    },
+    {
+      "id": "beba",
+      "name": "Beba",
+      "verification": "archive"
+    },
+    {
+      "id": "belat",
+      "name": "Belat",
+      "verification": "classification-only"
+    },
+    {
+      "id": "benedicto",
+      "name": "Benedicto",
+      "verification": "classification-only"
+    },
+    {
+      "id": "blanca-de-monterrei",
+      "name": "Blanca de Monterrei",
+      "verification": "classification-only"
+    },
+    {
+      "id": "blanca-gordal",
+      "name": "Blanca Gordal",
+      "verification": "classification-only"
+    },
+    {
+      "id": "blaufrankisch",
+      "name": "Blaufränkisch",
+      "verification": "classification-only"
+    },
+    {
+      "id": "bobal",
+      "name": "Bobal",
+      "verification": "archive"
+    },
+    {
+      "id": "borba",
+      "name": "Borba",
+      "verification": "classification-only"
+    },
+    {
+      "id": "bornac",
+      "name": "Bornac",
+      "verification": "classification-only"
+    },
+    {
+      "id": "botana",
+      "name": "Botana",
+      "verification": "classification-only"
+    },
+    {
+      "id": "breval",
+      "name": "Breval",
+      "verification": "classification-only"
+    },
+    {
+      "id": "bronsa",
+      "name": "Bronsa",
+      "verification": "classification-only"
+    },
+    {
+      "id": "burrablanca",
+      "name": "Burrablanca",
+      "verification": "classification-only"
+    },
+    {
+      "id": "cabernet-eidos",
+      "name": "Cabernet Eidos",
+      "verification": "classification-only"
+    },
+    {
+      "id": "cabernet-franc",
+      "name": "Cabernet Franc",
+      "verification": "official"
+    },
+    {
+      "id": "cabernet-sauvignon",
+      "name": "Cabernet Sauvignon",
+      "verification": "official"
+    },
+    {
+      "id": "caino-blanco",
+      "name": "Caíño Blanco",
+      "verification": "official"
+    },
+    {
+      "id": "caino-bravo",
+      "name": "Caíño Bravo",
+      "verification": "official"
+    },
+    {
+      "id": "caino-longo",
+      "name": "Caíño Longo",
+      "verification": "official"
+    },
+    {
+      "id": "caino-tinto",
+      "name": "Caíño Tinto",
+      "verification": "official"
+    },
+    {
+      "id": "caladoc",
+      "name": "Caladoc",
+      "verification": "classification-only"
+    },
+    {
+      "id": "calblanque",
+      "name": "Calblanque",
+      "verification": "classification-only"
+    },
+    {
+      "id": "callet",
+      "name": "Callet",
+      "verification": "archive"
+    },
+    {
+      "id": "callet-negrella",
+      "name": "Callet Negrella",
+      "verification": "classification-only"
+    },
+    {
+      "id": "calnegre",
+      "name": "Calnegre",
+      "verification": "classification-only"
+    },
+    {
+      "id": "calop-blanco",
+      "name": "Calop Blanco",
+      "verification": "classification-only"
+    },
+    {
+      "id": "carignan-blanc",
+      "name": "Carignan Blanc",
+      "verification": "classification-only"
+    },
+    {
+      "id": "carignan-gris",
+      "name": "Carignan Gris",
+      "verification": "classification-only"
+    },
+    {
+      "id": "carignan",
+      "name": "Cariñena / Mazuelo",
+      "verification": "official"
+    },
+    {
+      "id": "carmoli",
+      "name": "Carmolí",
+      "verification": "classification-only"
+    },
+    {
+      "id": "carrasquin",
+      "name": "Carrasquín",
+      "verification": "official"
+    },
+    {
+      "id": "castanal",
+      "name": "Castañal",
+      "verification": "official"
+    },
+    {
+      "id": "castelao",
+      "name": "Castelão",
+      "verification": "classification-only"
+    },
+    {
+      "id": "castellana-negra",
+      "name": "Castellana Negra",
+      "verification": "archive"
+    },
+    {
+      "id": "cayetana-blanca",
+      "name": "Cayetana Blanca",
+      "verification": "archive"
+    },
+    {
+      "id": "cenicienta",
+      "name": "Cenicienta",
+      "verification": "official"
+    },
+    {
+      "id": "chardonnay",
+      "name": "Chardonnay",
+      "verification": "official"
+    },
+    {
+      "id": "chenin-blanc",
+      "name": "Chenin Blanc",
+      "verification": "official"
+    },
+    {
+      "id": "colombard",
+      "name": "Colombard",
+      "verification": "classification-only"
+    },
+    {
+      "id": "coloraillo",
+      "name": "Coloraillo",
+      "verification": "classification-only"
+    },
+    {
+      "id": "coromina",
+      "name": "Coromina",
+      "verification": "classification-only"
+    },
+    {
+      "id": "derechero",
+      "name": "Derechero",
+      "verification": "classification-only"
+    },
+    {
+      "id": "dona-blanca",
+      "name": "Doña Blanca",
+      "verification": "archive"
+    },
+    {
+      "id": "doradilla",
+      "name": "Doradilla",
+      "verification": "classification-only"
+    },
+    {
+      "id": "escanyavella",
+      "name": "Escanyavella",
+      "verification": "official"
+    },
+    {
+      "id": "escursac",
+      "name": "Escursac",
+      "verification": "archive"
+    },
+    {
+      "id": "espadeiro",
+      "name": "Espadeiro",
+      "verification": "official"
+    },
+    {
+      "id": "espero-de-gall",
+      "name": "Esperó de Gall",
+      "verification": "classification-only"
+    },
+    {
+      "id": "estaladina",
+      "name": "Estaladiña",
+      "verification": "official"
+    },
+    {
+      "id": "eva",
+      "name": "Eva",
+      "verification": "archive"
+    },
+    {
+      "id": "fernao-pires",
+      "name": "Fernão Pires",
+      "verification": "classification-only"
+    },
+    {
+      "id": "manseng-noir",
+      "name": "Ferrón",
+      "verification": "official"
+    },
+    {
+      "id": "fogoneu",
+      "name": "Fogoneu",
+      "verification": "archive"
+    },
+    {
+      "id": "folle-blanche",
+      "name": "Folle Blanche",
+      "verification": "classification-only"
+    },
+    {
+      "id": "forastera-blanca",
+      "name": "Forastera Blanca（Canarias）",
+      "verification": "archive"
+    },
+    {
+      "id": "forcada",
+      "name": "Forcada",
+      "verification": "official"
+    },
+    {
+      "id": "forcallat-blanca",
+      "name": "Forcallat Blanca",
+      "verification": "classification-only"
+    },
+    {
+      "id": "forcallat-tinta",
+      "name": "Forcallat Tinta",
+      "verification": "archive"
+    },
+    {
+      "id": "gajo-arroba",
+      "name": "Gajo Arroba",
+      "verification": "classification-only"
+    },
+    {
+      "id": "garnacha-blanca",
+      "name": "Garnacha Blanca / Garnatxa Blanca",
+      "verification": "official"
+    },
+    {
+      "id": "garnacha-tinta",
+      "name": "Garnacha Tinta / Garnatxa Negra",
+      "verification": "official"
+    },
+    {
+      "id": "garnacha-peluda",
+      "name": "Garnatxa Peluda",
+      "verification": "official"
+    },
+    {
+      "id": "grenache-gris",
+      "name": "Garnatxa Roja / Garnacha Roja",
+      "verification": "official"
+    },
+    {
+      "id": "garrido-fino",
+      "name": "Garrido Fino",
+      "verification": "classification-only"
+    },
+    {
+      "id": "gebas",
+      "name": "Gebas",
+      "verification": "classification-only"
+    },
+    {
+      "id": "gewurztraminer",
+      "name": "Gewürztraminer",
+      "verification": "official"
+    },
+    {
+      "id": "giro",
+      "name": "Giró",
+      "verification": "archive"
+    },
+    {
+      "id": "giro-negre",
+      "name": "Giró Negre",
+      "verification": "classification-only"
+    },
+    {
+      "id": "giro-ros",
+      "name": "Giró Ros",
+      "verification": "archive"
+    },
+    {
+      "id": "godello",
+      "name": "Godello",
+      "verification": "official"
+    },
+    {
+      "id": "gonfaus",
+      "name": "Gonfaus",
+      "verification": "classification-only"
+    },
+    {
+      "id": "gorgollassa",
+      "name": "Gorgollassa",
+      "verification": "archive"
+    },
+    {
+      "id": "graciano",
+      "name": "Graciano",
+      "verification": "official"
+    },
+    {
+      "id": "gran-negro",
+      "name": "Gran Negro",
+      "verification": "classification-only"
+    },
+    {
+      "id": "gros-manseng",
+      "name": "Gros Manseng",
+      "verification": "classification-only"
+    },
+    {
+      "id": "malvasia-fina",
+      "name": "Gual",
+      "verification": "archive"
+    },
+    {
+      "id": "hondarrabi-beltza",
+      "name": "Hondarrabi Beltza",
+      "verification": "official"
+    },
+    {
+      "id": "hondarrabi-zuri",
+      "name": "Hondarrabi Zuri",
+      "verification": "official"
+    },
+    {
+      "id": "incrocio-manzoni",
+      "name": "Incrocio Manzoni",
+      "verification": "classification-only"
+    },
+    {
+      "id": "jaen-tinto",
+      "name": "Jaén Tinto",
+      "verification": "classification-only"
+    },
+    {
+      "id": "juan-garcia",
+      "name": "Juan García",
+      "verification": "official"
+    },
+    {
+      "id": "lado",
+      "name": "Lado",
+      "verification": "official"
+    },
+    {
+      "id": "lairen",
+      "name": "Lairen",
+      "verification": "classification-only"
+    },
+    {
+      "id": "listan-del-condado",
+      "name": "Listán del Condado",
+      "verification": "classification-only"
+    },
+    {
+      "id": "listan-negro",
+      "name": "Listán Negro",
+      "verification": "archive"
+    },
+    {
+      "id": "listan-prieto",
+      "name": "Listán Prieto",
+      "verification": "archive"
+    },
+    {
+      "id": "loureiro",
+      "name": "Loureiro",
+      "verification": "official"
+    },
+    {
+      "id": "loureiro-tinto",
+      "name": "Loureiro Tinto",
+      "verification": "official"
+    },
+    {
+      "id": "viura",
+      "name": "Macabeo / Viura",
+      "verification": "official"
+    },
+    {
+      "id": "malbec",
+      "name": "Malbec",
+      "verification": "classification-only"
+    },
+    {
+      "id": "malvar",
+      "name": "Malvar",
+      "verification": "archive"
+    },
+    {
+      "id": "malvasia-aromatica",
+      "name": "Malvasía Aromática",
+      "verification": "official"
+    },
+    {
+      "id": "malvasia-blanca-roja",
+      "name": "Malvasía Blanca Roja",
+      "verification": "classification-only"
+    },
+    {
+      "id": "malvasia-rosada",
+      "name": "Malvasía Rosada",
+      "verification": "archive"
+    },
+    {
+      "id": "malvasia-volcanica",
+      "name": "Malvasía Volcánica",
+      "verification": "archive"
+    },
+    {
+      "id": "mances-de-tibus",
+      "name": "Mancès de Tibús",
+      "verification": "classification-only"
+    },
+    {
+      "id": "mando",
+      "name": "Mandó / Garró",
+      "verification": "official"
+    },
+    {
+      "id": "manto-negro",
+      "name": "Manto Negro",
+      "verification": "archive"
+    },
+    {
+      "id": "marina-rion",
+      "name": "Marina Rion",
+      "verification": "classification-only"
+    },
+    {
+      "id": "marmajuelo",
+      "name": "Marmajuelo",
+      "verification": "archive"
+    },
+    {
+      "id": "marselan",
+      "name": "Marselan",
+      "verification": "official"
+    },
+    {
+      "id": "maturana-blanca",
+      "name": "Maturana Blanca",
+      "verification": "official"
+    },
+    {
+      "id": "maturana-tinta",
+      "name": "Maturana Tinta",
+      "verification": "official"
+    },
+    {
+      "id": "mayorquin",
+      "name": "Mayorquin",
+      "verification": "classification-only"
+    },
+    {
+      "id": "melonera",
+      "name": "Melonera",
+      "verification": "classification-only"
+    },
+    {
+      "id": "mencia",
+      "name": "Mencía",
+      "verification": "official"
+    },
+    {
+      "id": "merlot",
+      "name": "Merlot",
+      "verification": "official"
+    },
+    {
+      "id": "merlot-khorus",
+      "name": "Merlot Khorus",
+      "verification": "classification-only"
+    },
+    {
+      "id": "merseguera",
+      "name": "Merseguera / Sumoll Blanc",
+      "verification": "official"
+    },
+    {
+      "id": "miguel-del-arco",
+      "name": "Miguel del Arco",
+      "verification": "classification-only"
+    },
+    {
+      "id": "mizancho",
+      "name": "Mizancho",
+      "verification": "classification-only"
+    },
+    {
+      "id": "molinera",
+      "name": "Molinera",
+      "verification": "classification-only"
+    },
+    {
+      "id": "mollar-cano",
+      "name": "Mollar Cano",
+      "verification": "classification-only"
+    },
+    {
+      "id": "monastrell",
+      "name": "Monastrell",
+      "verification": "official"
+    },
+    {
+      "id": "mondragon",
+      "name": "Mondragón",
+      "verification": "classification-only"
+    },
+    {
+      "id": "moneu",
+      "name": "Moneu",
+      "verification": "official"
+    },
+    {
+      "id": "montori",
+      "name": "Montori",
+      "verification": "classification-only"
+    },
+    {
+      "id": "montua",
+      "name": "Montúa",
+      "verification": "archive"
+    },
+    {
+      "id": "moravia-agria",
+      "name": "Moravia Agria",
+      "verification": "archive"
+    },
+    {
+      "id": "moravia-dulce",
+      "name": "Moravia Dulce",
+      "verification": "archive"
+    },
+    {
+      "id": "morenillo",
+      "name": "Morenillo",
+      "verification": "official"
+    },
+    {
+      "id": "moribel",
+      "name": "Moribel",
+      "verification": "classification-only"
+    },
+    {
+      "id": "morisca",
+      "name": "Morisca",
+      "verification": "classification-only"
+    },
+    {
+      "id": "moristel",
+      "name": "Moristel",
+      "verification": "official"
+    },
+    {
+      "id": "muscat-of-alexandria",
+      "name": "Moscatel de Alejandría",
+      "verification": "official"
+    },
+    {
+      "id": "muscat-blanc-a-petits-grains",
+      "name": "Moscatel de Grano Menudo",
+      "verification": "official"
+    },
+    {
+      "id": "moscatel-negro",
+      "name": "Moscatel Negro",
+      "verification": "classification-only"
+    },
+    {
+      "id": "mouraz",
+      "name": "Mouraz",
+      "verification": "classification-only"
+    },
+    {
+      "id": "musa",
+      "name": "Musa",
+      "verification": "classification-only"
+    },
+    {
+      "id": "muscat-a-petits-grains-roses",
+      "name": "Muscat à Petits Grains Roses",
+      "verification": "classification-only"
+    },
+    {
+      "id": "myrtia",
+      "name": "Myrtia",
+      "verification": "classification-only"
+    },
+    {
+      "id": "tinta-negra",
+      "name": "Negramoll",
+      "verification": "archive"
+    },
+    {
+      "id": "oneca",
+      "name": "Oneca",
+      "verification": "classification-only"
+    },
+    {
+      "id": "palomino",
+      "name": "Palomino / Listán Blanco",
+      "verification": "archive"
+    },
+    {
+      "id": "pampolat",
+      "name": "Pampolat",
+      "verification": "classification-only"
+    },
+    {
+      "id": "pardillo",
+      "name": "Pardillo",
+      "verification": "classification-only"
+    },
+    {
+      "id": "pardina",
+      "name": "Pardina",
+      "verification": "classification-only"
+    },
+    {
+      "id": "parellada",
+      "name": "Parellada",
+      "verification": "official"
+    },
+    {
+      "id": "carcajolo",
+      "name": "Parraleta",
+      "verification": "official"
+    },
+    {
+      "id": "parrel",
+      "name": "Parrel",
+      "verification": "classification-only"
+    },
+    {
+      "id": "pedral",
+      "name": "Pedral",
+      "verification": "official"
+    },
+    {
+      "id": "pedro-ximenez",
+      "name": "Pedro Ximénez",
+      "verification": "official"
+    },
+    {
+      "id": "perruno",
+      "name": "Perruno",
+      "verification": "archive"
+    },
+    {
+      "id": "petit-courbu",
+      "name": "Petit Courbu",
+      "verification": "official"
+    },
+    {
+      "id": "petit-manseng",
+      "name": "Petit Manseng",
+      "verification": "classification-only"
+    },
+    {
+      "id": "petit-verdot",
+      "name": "Petit Verdot",
+      "verification": "official"
+    },
+    {
+      "id": "picapoll-blanc",
+      "name": "Picapoll Blanc",
+      "verification": "official"
+    },
+    {
+      "id": "picapoll-negre",
+      "name": "Picapoll Negre",
+      "verification": "official"
+    },
+    {
+      "id": "pinot-noir",
+      "name": "Pinot Noir",
+      "verification": "official"
+    },
+    {
+      "id": "pirene",
+      "name": "Pirene",
+      "verification": "classification-only"
+    },
+    {
+      "id": "planta-nova",
+      "name": "Planta Nova",
+      "verification": "classification-only"
+    },
+    {
+      "id": "prensal-blanc",
+      "name": "Prensal Blanc",
+      "verification": "archive"
+    },
+    {
+      "id": "prieto-picudo",
+      "name": "Prieto Picudo",
+      "verification": "archive"
+    },
+    {
+      "id": "querol",
+      "name": "Querol",
+      "verification": "official"
+    },
+    {
+      "id": "quipar",
+      "name": "Quipar",
+      "verification": "classification-only"
+    },
+    {
+      "id": "rabigato",
+      "name": "Rabigato",
+      "verification": "classification-only"
+    },
+    {
+      "id": "ratino",
+      "name": "Ratiño Gallega",
+      "verification": "official"
+    },
+    {
+      "id": "riesling",
+      "name": "Riesling",
+      "verification": "official"
+    },
+    {
+      "id": "rojal",
+      "name": "Rojal Tinta",
+      "verification": "archive"
+    },
+    {
+      "id": "rome",
+      "name": "Romé",
+      "verification": "archive"
+    },
+    {
+      "id": "ruby-cabernet",
+      "name": "Ruby Cabernet",
+      "verification": "classification-only"
+    },
+    {
+      "id": "rufete",
+      "name": "Rufete",
+      "verification": "archive"
+    },
+    {
+      "id": "rufete-blanco",
+      "name": "Rufete Serrano Blanco",
+      "verification": "official"
+    },
+    {
+      "id": "sabro",
+      "name": "Sabro",
+      "verification": "archive"
+    },
+    {
+      "id": "sauvignon-blanc",
+      "name": "Sauvignon Blanc",
+      "verification": "official"
+    },
+    {
+      "id": "sauvignon-rytos",
+      "name": "Sauvignon Rytos",
+      "verification": "classification-only"
+    },
+    {
+      "id": "selma-blanca",
+      "name": "Selma Blanca",
+      "verification": "classification-only"
+    },
+    {
+      "id": "semillon",
+      "name": "Sémillon",
+      "verification": "classification-only"
+    },
+    {
+      "id": "solana",
+      "name": "Solana",
+      "verification": "classification-only"
+    },
+    {
+      "id": "soreli",
+      "name": "Soreli",
+      "verification": "classification-only"
+    },
+    {
+      "id": "sumoll",
+      "name": "Sumoll Negre",
+      "verification": "official"
+    },
+    {
+      "id": "syrah",
+      "name": "Syrah",
+      "verification": "official"
+    },
+    {
+      "id": "tempranillo",
+      "name": "Tempranillo",
+      "verification": "official"
+    },
+    {
+      "id": "tempranillo-blanco",
+      "name": "Tempranillo Blanco",
+      "verification": "official"
+    },
+    {
+      "id": "tijonera",
+      "name": "Tijonera",
+      "verification": "classification-only"
+    },
+    {
+      "id": "tinto-de-la-pampana-blanca",
+      "name": "Tinto de la Pámpana Blanca",
+      "verification": "classification-only"
+    },
+    {
+      "id": "tinto-fragoso",
+      "name": "Tinto Fragoso",
+      "verification": "archive"
+    },
+    {
+      "id": "tinto-jeromo",
+      "name": "Tinto Jeromo",
+      "verification": "classification-only"
+    },
+    {
+      "id": "tinto-velasco",
+      "name": "Tinto Velasco",
+      "verification": "archive"
+    },
+    {
+      "id": "es-catalogue-torrontes",
+      "name": "Torrontés",
+      "verification": "classification-only"
+    },
+    {
+      "id": "torrontes-galicia",
+      "name": "Torrontés (Galicia)",
+      "verification": "official"
+    },
+    {
+      "id": "tortosi",
+      "name": "Tortosí",
+      "verification": "classification-only"
+    },
+    {
+      "id": "tortozona-tinta",
+      "name": "Tortozona Tinta",
+      "verification": "classification-only"
+    },
+    {
+      "id": "touriga-nacional",
+      "name": "Touriga Nacional",
+      "verification": "classification-only"
+    },
+    {
+      "id": "treixadura",
+      "name": "Treixadura",
+      "verification": "official"
+    },
+    {
+      "id": "trepat",
+      "name": "Trepat",
+      "verification": "official"
+    },
+    {
+      "id": "trincadeira",
+      "name": "Trincadeira",
+      "verification": "classification-only"
+    },
+    {
+      "id": "trobat",
+      "name": "Trobat",
+      "verification": "classification-only"
+    },
+    {
+      "id": "trousseau",
+      "name": "Trousseau / Merenzao",
+      "verification": "official"
+    },
+    {
+      "id": "valenci-blanco",
+      "name": "Valencí Blanco",
+      "verification": "classification-only"
+    },
+    {
+      "id": "valenci-tinto",
+      "name": "Valencí Tinto",
+      "verification": "classification-only"
+    },
+    {
+      "id": "verdejo",
+      "name": "Verdejo",
+      "verification": "official"
+    },
+    {
+      "id": "verdelho",
+      "name": "Verdello",
+      "verification": "archive"
+    },
+    {
+      "id": "verdil",
+      "name": "Verdil",
+      "verification": "classification-only"
+    },
+    {
+      "id": "verdoncho",
+      "name": "Verdoncho",
+      "verification": "classification-only"
+    },
+    {
+      "id": "vermentino",
+      "name": "Vermentino",
+      "verification": "classification-only"
+    },
+    {
+      "id": "vidadillo",
+      "name": "Vidadillo",
+      "verification": "classification-only"
+    },
+    {
+      "id": "vijariego-blanco",
+      "name": "Vijariego Blanco",
+      "verification": "archive"
+    },
+    {
+      "id": "vinhao",
+      "name": "Vinhão / Sousón",
+      "verification": "official"
+    },
+    {
+      "id": "vinyater",
+      "name": "Vinyater",
+      "verification": "official"
+    },
+    {
+      "id": "viognier",
+      "name": "Viognier",
+      "verification": "official"
+    },
+    {
+      "id": "xarello",
+      "name": "Xarel·lo",
+      "verification": "official"
+    },
+    {
+      "id": "xarello-vermell",
+      "name": "Xarel·lo Vermell",
+      "verification": "official"
+    },
+    {
+      "id": "xurra",
+      "name": "Xurra",
+      "verification": "classification-only"
+    },
+    {
+      "id": "zalema",
+      "name": "Zalema",
+      "verification": "archive"
+    }
+  ],
+  "referenceWines": {
+    "do-ferreiro-albarino": "do-ferreiro-albarino",
+    "toro-albala-don-px-seleccion-1980": "toro-albala-don-px-seleccion-1980",
+    "belondrade-y-lurton": "belondrade-y-lurton",
+    "emilio-rojo-2022": "emilio-rojo-2022",
+    "descendientes-palacios-petalos": "descendientes-palacios-petalos",
+    "montrubi-gaintus-radical-2021": "montrubi-gaintus-radical-2021",
+    "ponce-buena-pinta-2022": "ponce-buena-pinta-2022",
+    "lopez-de-heredia-vina-gravonia-crianza": "lopez-heredia-vina-gravonia"
+  }
+}

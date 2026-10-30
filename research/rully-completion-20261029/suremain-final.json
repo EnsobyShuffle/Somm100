@@ -1,0 +1,329 @@
+{
+  "producers": [
+    {
+      "id": "producer-fr-eric-de-suremain",
+      "name": "Domaine Eric de Suremain",
+      "aliases": [
+        "Château de Monthelie",
+        "Eric de Suremain"
+      ],
+      "country": "France",
+      "region": "Bourgogne · Monthelie & Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully; Monthelie",
+      "village": "Monthelie",
+      "website": "https://domainedesuremain.com/",
+      "intro": "位于 Monthelie 的家族酒庄，经营约 10 ha 的 Monthelie 与 Rully 葡萄园；Rully 系列包含多个 Chardonnay 一级园和 Préaux Pinot Noir。",
+      "scope": "Rully 酒款与对应来源；酒庄整体栽培及工艺另注明适用范围。",
+      "status": "source-reviewed",
+      "sourceVerifiedAt": "2026-10-29",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "questions": [],
+      "gaps": [],
+      "sections": [
+        {
+          "title": "身份与历史",
+          "text": "Monthelie 的家族酒庄；现由 Eric、Dominique 与女儿 Gwendoline 共同经营，Gwendoline 于 2019 年回归。",
+          "sourceIds": [
+            "rully-final-suremain-home"
+          ]
+        },
+        {
+          "title": "葡萄园与栽培",
+          "text": "约 10 ha 横跨 Monthelie 与 Rully；全部 Chardonnay 位于 Rully。官网称葡萄园有机认证，1996 年起实践生物动力法。",
+          "sourceIds": [
+            "rully-final-suremain-home",
+            "rully-final-suremain-terroir"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "白酒轻压榨、静置后桶发酵，通常熟成约 15 个月；红酒在酒精发酵后入桶进行苹果酸乳酸发酵，桶熟 18–20 个月。这是酒庄基线，具体年份可不同。",
+          "sourceIds": [
+            "rully-final-suremain-white",
+            "rully-final-suremain-age"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-eric-de-suremain-rully-1er-agneux",
+          "name": "Rully Premier Cru Agneux",
+          "place": "Agneux 一级园；2023 年官方酒单将其 2020 白酒列为 monopole。",
+          "grape": "Chardonnay",
+          "method": "酒庄白酒基线：分选、轻破碎、立式木框压榨；静置 3–4 天后入 228 L 桶发酵，约 15 个月熟成，期间搅桶及添桶。新桶比例未披露。",
+          "detail": "2019 年酒庄品鉴描述为白花、成熟果味、丰富口感与清新酸度；这不是 2022 的品鉴笔记。",
+          "vintageScope": "身份年份：2022。其他年份品鉴与未标年份酒庄工艺分别标注；不将旧酒单价格或库存当作当前信息。",
+          "sourceIds": [
+            "rully-final-suremain-whites",
+            "rully-close-suremain",
+            "rully-final-suremain-notes",
+            "rully-final-suremain-white",
+            "rully-final-suremain-terroir"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "vintage": "2022",
+          "climatNames": [
+            "Agneux"
+          ],
+          "officialUrl": "https://domainedesuremain.com/categorie-produit/vins/vins-blancs/",
+          "translations": {
+            "en": {
+              "place": "Agneux Premier Cru; the 2023 estate list calls its 2020 white a monopole.",
+              "grape": "Chardonnay",
+              "method": "Estate white-wine baseline: sorting, light crushing, vertical pressing and 3–4 days settling; fermentation and about 15 months maturation in 228 L barrels, with lees stirring and topping. New-oak share is unspecified.",
+              "detail": "The estate’s 2019 note describes floral aromas, ripe fruit, volume and freshness; it is not a tasting of 2022.",
+              "vintageScope": "Identity reference: 2022. Older tasting notes and undated estate methods retain their stated scope; historic prices and stock are not treated as current."
+            }
+          }
+        },
+        {
+          "id": "wine-fr-eric-de-suremain-rully-1er-meix-caillet",
+          "name": "Rully Premier Cru Meix Caillet Monopole",
+          "place": "0.36 ha，1981 年种植，东南偏东向；酒庄标为 monopole。",
+          "grape": "Chardonnay",
+          "method": "酒庄白酒基线：分选、轻破碎、立式木框压榨；静置 3–4 天后入 228 L 桶发酵，约 15 个月熟成，期间搅桶及添桶。新桶比例未披露。",
+          "detail": "该 Chardonnay 与 Le Meix Cadot 为不同一级园。酒庄强调张力与细致度；2020 酒款身份见其 2023 年酒单。",
+          "vintageScope": "身份年份：2020。其他年份品鉴与未标年份酒庄工艺分别标注；不将旧酒单价格或库存当作当前信息。",
+          "sourceIds": [
+            "rully-final-suremain-terroir",
+            "rully-close-suremain",
+            "rully-final-suremain-white"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "vintage": "2020",
+          "climatNames": [
+            "Le Meix Caillet"
+          ],
+          "officialUrl": "https://domainedesuremain.com/le-terroir/",
+          "translations": {
+            "en": {
+              "place": "Estate parcel: 0.36 ha, planted 1981, east-southeast exposure; labelled a monopole.",
+              "grape": "Chardonnay",
+              "method": "Estate white-wine baseline: sorting, light crushing, vertical pressing and 3–4 days settling; fermentation and about 15 months maturation in 228 L barrels, with lees stirring and topping. New-oak share is unspecified.",
+              "detail": "This Chardonnay comes from a different climat from Le Meix Cadot. The estate emphasizes tension and finesse; its 2023 list documents the 2020 release.",
+              "vintageScope": "Identity reference: 2020. Older tasting notes and undated estate methods retain their stated scope; historic prices and stock are not treated as current."
+            }
+          }
+        },
+        {
+          "id": "wine-fr-eric-de-suremain-rully-1er-pillot-intemporelle",
+          "name": "Rully Premier Cru Pillot L’Intemporelle",
+          "place": "Pillot 一级园；2023 年酒单将其 2020 白酒标为 monopole。",
+          "grape": "Chardonnay",
+          "method": "酒庄白酒基线：分选、轻破碎、立式木框压榨；静置 3–4 天后入 228 L 桶发酵，约 15 个月熟成，期间搅桶及添桶。新桶比例未披露。",
+          "detail": "L’Intemporelle 是这款 Pillot 的 signature cuvée 名，非独立 climat；2022 官网系列中与 Cloux、Agneux 分别列示。",
+          "vintageScope": "身份年份：2022。其他年份品鉴与未标年份酒庄工艺分别标注；不将旧酒单价格或库存当作当前信息。",
+          "sourceIds": [
+            "rully-final-suremain-whites",
+            "rully-close-suremain",
+            "rully-final-suremain-white",
+            "rully-final-suremain-terroir"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "vintage": "2022",
+          "climatNames": [
+            "Pillot"
+          ],
+          "officialUrl": "https://domainedesuremain.com/categorie-produit/vins/vins-blancs/",
+          "translations": {
+            "en": {
+              "place": "Pillot Premier Cru; the estate’s 2023 list identifies the 2020 white as a monopole.",
+              "grape": "Chardonnay",
+              "method": "Estate white-wine baseline: sorting, light crushing, vertical pressing and 3–4 days settling; fermentation and about 15 months maturation in 228 L barrels, with lees stirring and topping. New-oak share is unspecified.",
+              "detail": "L’Intemporelle is the signature cuvée name for Pillot, not a separate climat. The 2022 portfolio lists it separately from Cloux and Agneux.",
+              "vintageScope": "Identity reference: 2022. Older tasting notes and undated estate methods retain their stated scope; historic prices and stock are not treated as current."
+            }
+          }
+        },
+        {
+          "id": "wine-fr-eric-de-suremain-rully-1er-cloux",
+          "name": "Rully Premier Cru Cloux",
+          "place": "Rully 的 Cloux 一级园，独立于 Champs Cloux。",
+          "grape": "Chardonnay",
+          "method": "酒庄白酒基线：分选、轻破碎、立式木框压榨；静置 3–4 天后入 228 L 桶发酵，约 15 个月熟成，期间搅桶及添桶。新桶比例未披露。",
+          "detail": "官网将 2022 Cloux 单独列为白葡萄酒；同庄 Pillot L’Intemporelle 为另一款酒。未公布本酒款地块面积和独立品鉴说明。",
+          "vintageScope": "身份年份：2022。其他年份品鉴与未标年份酒庄工艺分别标注；不将旧酒单价格或库存当作当前信息。",
+          "sourceIds": [
+            "rully-final-suremain-whites",
+            "rully-final-suremain-terroir",
+            "rully-final-suremain-white"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "vintage": "2022",
+          "climatNames": [
+            "Cloux"
+          ],
+          "officialUrl": "https://domainedesuremain.com/categorie-produit/vins/vins-blancs/",
+          "translations": {
+            "en": {
+              "place": "Cloux Premier Cru in Rully, distinct from Champs Cloux.",
+              "grape": "Chardonnay",
+              "method": "Estate white-wine baseline: sorting, light crushing, vertical pressing and 3–4 days settling; fermentation and about 15 months maturation in 228 L barrels, with lees stirring and topping. New-oak share is unspecified.",
+              "detail": "The official portfolio lists Cloux 2022 as a separate white wine, alongside Pillot L’Intemporelle. Cuvée-specific parcel area and tasting notes are not published in that listing.",
+              "vintageScope": "Identity reference: 2022. Older tasting notes and undated estate methods retain their stated scope; historic prices and stock are not treated as current."
+            }
+          }
+        },
+        {
+          "id": "wine-fr-eric-de-suremain-rully-1er-preaux",
+          "name": "Rully Premier Cru Préaux",
+          "place": "Rully Préaux 一级园；官方 2023 年酒单列 2020，并列有 2017–2019 的往年版本。",
+          "grape": "Pinot Noir",
+          "method": "酒庄红酒基线：酒精发酵后入 228 L 桶进行苹果酸乳酸发酵，桶熟约 18–20 个月；此酒款各年份的新桶比例未披露。",
+          "detail": "2019 年酒庄品鉴描述涉及黑莓、烟熏、甘草与圆润单宁，保留为该年份观察。",
+          "vintageScope": "身份年份：2020。其他年份品鉴与未标年份酒庄工艺分别标注；不将旧酒单价格或库存当作当前信息。",
+          "sourceIds": [
+            "rully-close-suremain",
+            "rully-final-suremain-notes",
+            "rully-final-suremain-age",
+            "rully-final-suremain-terroir"
+          ],
+          "status": "source-reviewed",
+          "sourceVerifiedAt": "2026-10-29",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "vintage": "2020",
+          "climatNames": [
+            "Préaux"
+          ],
+          "officialUrl": "https://domainedesuremain.com/",
+          "translations": {
+            "en": {
+              "place": "Préaux Premier Cru; the 2023 estate list documents 2020 and older 2017–2019 releases.",
+              "grape": "Pinot Noir",
+              "method": "Estate red-wine baseline: after alcoholic fermentation, malolactic fermentation and 18–20 months of ageing in 228 L barrels. This cuvée’s vintage-specific new-oak share is not published.",
+              "detail": "The estate’s 2019 tasting note describes blackberry, smoke, liquorice and rounded tannins; those observations remain tied to 2019.",
+              "vintageScope": "Identity reference: 2020. Older tasting notes and undated estate methods retain their stated scope; historic prices and stock are not treated as current."
+            }
+          }
+        }
+      ],
+      "translations": {
+        "en": {
+          "intro": "A Monthelie family estate farming approximately 10 ha across Monthelie and Rully. Its Rully range includes several Chardonnay Premiers Crus and Préaux Pinot Noir.",
+          "scope": "Rully wines with dated evidence; estate-level farming and cellar methods are labelled separately.",
+          "sections": [
+            {
+              "title": "Identity and history",
+              "text": "A family estate in Monthelie, run by Eric, Dominique and daughter Gwendoline, who returned in 2019.",
+              "sourceIds": [
+                "rully-final-suremain-home"
+              ]
+            },
+            {
+              "title": "Vineyards and farming",
+              "text": "Approximately 10 ha across Monthelie and Rully; all estate Chardonnay is in Rully. The estate reports organic certification and biodynamic practice since 1996.",
+              "sourceIds": [
+                "rully-final-suremain-home",
+                "rully-final-suremain-terroir"
+              ]
+            },
+            {
+              "title": "Vinification and élevage",
+              "text": "Estate baseline: whites ferment in barrel after pressing and settling, then mature for about 15 months. Reds enter barrel after alcoholic fermentation, undergo malolactic fermentation and mature for 18–20 months. Vintage choices may differ.",
+              "sourceIds": [
+                "rully-final-suremain-white",
+                "rully-final-suremain-age"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "rully-final-suremain-terroir",
+      "title": "Eric de Suremain · vineyards and farming",
+      "url": "https://domainedesuremain.com/le-terroir/",
+      "type": "producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official estate material; source date and scope retained."
+    },
+    {
+      "id": "rully-final-suremain-home",
+      "title": "Eric de Suremain · estate and family",
+      "url": "https://domainedesuremain.com/",
+      "type": "producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official estate material; source date and scope retained."
+    },
+    {
+      "id": "rully-final-suremain-white",
+      "title": "Eric de Suremain · white-wine vinification",
+      "url": "https://domainedesuremain.com/la-vinification-des-vins-blancs",
+      "type": "producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official estate material; source date and scope retained."
+    },
+    {
+      "id": "rully-final-suremain-age",
+      "title": "Eric de Suremain · élevage",
+      "url": "https://domainedesuremain.com/l-elevage/",
+      "type": "producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official estate material; source date and scope retained."
+    },
+    {
+      "id": "rully-final-suremain-whites",
+      "title": "Eric de Suremain · 2022 white wine portfolio",
+      "url": "https://domainedesuremain.com/categorie-produit/vins/vins-blancs/",
+      "type": "producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official estate material; source date and scope retained."
+    },
+    {
+      "id": "rully-final-suremain-notes",
+      "title": "Eric de Suremain · Blegny 2023 tasting notes for 2019",
+      "url": "https://domainedesuremain.com/blegny-mine/",
+      "type": "producer",
+      "verifiedAt": "2026-10-29",
+      "verification": "Official estate material; source date and scope retained."
+    }
+  ],
+  "verification": {
+    "reviewed": "2026-10-29",
+    "wineCount": 5,
+    "scope": "Official current portfolio and dated 2020 list; 2019 notes explicitly dated; no cross-vintage transfer.",
+    "sourceRefs": [
+      "turn1047view0",
+      "turn1048search3",
+      "turn1048search5",
+      "turn1049view0",
+      "turn1050view5",
+      "turn1052search0",
+      "turn1056search1"
+    ]
+  }
+}

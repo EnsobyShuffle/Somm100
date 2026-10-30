@@ -1,0 +1,2426 @@
+{
+  "reviewed": "2026-10-25",
+  "addedGrapes": 254,
+  "addedWines": 3,
+  "grapeIds": [
+    "abondant",
+    "abouriou",
+    "alphonse-lavallee",
+    "aramon",
+    "aramon-blanc",
+    "aramon-gris",
+    "aranel",
+    "arriloba",
+    "arrouya",
+    "arrufiac",
+    "artaban",
+    "artys",
+    "aubin",
+    "aubin-vert",
+    "aubun",
+    "bachet",
+    "baco-blanc",
+    "barbaroux",
+    "baroque",
+    "beaugaray",
+    "beclan",
+    "bequignol",
+    "bia",
+    "biancu-gentile",
+    "blanc-dame",
+    "blanqueiron",
+    "blauer-portugieser",
+    "bonne-vituaigne",
+    "bouchales",
+    "bouillet",
+    "bouquet-3159",
+    "bouquet-3160",
+    "bouquet-3176",
+    "bouquet-3179",
+    "bouquet-3196",
+    "bouquettraube",
+    "bouysselet",
+    "brachet",
+    "brun-argente",
+    "brun-fourca",
+    "brustianu",
+    "cabernet-blanc",
+    "cabernet-volos",
+    "cabestrel",
+    "cacaboue",
+    "calardis-blanc",
+    "calitor",
+    "calys",
+    "camaralet",
+    "carcajolo",
+    "carcajolo-blanc",
+    "cardinal",
+    "carignan-blanc",
+    "carignan-gris",
+    "cesar",
+    "chasan",
+    "chasselas-rose",
+    "chenanson",
+    "chichaud",
+    "chouchillon",
+    "clairette-rose",
+    "clarin",
+    "claverie",
+    "codivarta",
+    "coliris",
+    "colobel",
+    "colombaud",
+    "couderc-noir",
+    "counoise",
+    "courbu-noir",
+    "couston",
+    "coutia",
+    "crouchen",
+    "cualtacciu",
+    "danlas",
+    "douce-noire",
+    "dousset",
+    "ekigaina",
+    "elaris",
+    "enfarine-noir",
+    "etraire-de-la-dui",
+    "exelys",
+    "felen",
+    "ferradou",
+    "feunate",
+    "fleurtai",
+    "floreal",
+    "florental",
+    "florisia",
+    "folignan",
+    "franc-noir-de-la-haute-saone",
+    "fuella-nera",
+    "gamaret",
+    "gamay-de-bouze",
+    "gamay-de-chaudenay",
+    "gamay-freaux",
+    "gaminot",
+    "ganson",
+    "garonnet",
+    "gascon",
+    "genouillet",
+    "genovese",
+    "gibert",
+    "goldriesling",
+    "gouget",
+    "graisse",
+    "gramon",
+    "grand-noir-de-la-calmette",
+    "granita",
+    "grassen",
+    "grenache-gris",
+    "gringet",
+    "grolleau-gris",
+    "gros-vert",
+    "gueuche-noir",
+    "hibou-noir",
+    "joubertin",
+    "jurancon-blanc",
+    "jurancon-noir",
+    "kersus",
+    "knipperle",
+    "landal",
+    "lauzet",
+    "leon-millot",
+    "lignage",
+    "lilaro",
+    "liliorila",
+    "lival",
+    "luminan",
+    "mancin",
+    "manseng-noir",
+    "marechal-foch",
+    "mauzac-rose",
+    "mayorquin",
+    "mecle",
+    "melon-rouge",
+    "merille",
+    "merlot-blanc",
+    "merlot-khorus",
+    "meslier-saint-francois",
+    "milgranet",
+    "molette",
+    "mollard",
+    "monarch",
+    "monbadon",
+    "mondeuse-grise",
+    "monerac",
+    "montils",
+    "mornen",
+    "mourvaison",
+    "mourvedre-blanc",
+    "mourvedre-gris",
+    "mouyssagues",
+    "muresconu",
+    "muriscu",
+    "muscardin",
+    "muscaris",
+    "muscat-a-petits-grains-roses",
+    "muscat-a-petits-grains-rouges",
+    "muscat-cendre",
+    "muscat-de-hambourg",
+    "muscat-ottonel",
+    "muscateddu",
+    "negret-de-banhars",
+    "negret-pounjut",
+    "noir-fleurien",
+    "noual",
+    "oberlin-noir",
+    "oeillade-noire",
+    "onchette",
+    "opalor",
+    "orbois",
+    "orellis",
+    "pagadebiti",
+    "pardotte",
+    "pascal",
+    "perdea",
+    "petite-sainte-marie",
+    "picardan",
+    "picarlat",
+    "pineau-daunis",
+    "pinot-iskra",
+    "pinot-kors",
+    "pinotin",
+    "piquepoul-gris",
+    "plant-de-brunel",
+    "plant-droit",
+    "plantet",
+    "portan",
+    "pougnet",
+    "precoce-bousquet",
+    "precoce-de-malingre",
+    "prior",
+    "raffiat-de-moncade",
+    "raisaine",
+    "ravat-blanc",
+    "rayon-dor",
+    "reze",
+    "ribier-noir",
+    "ribol",
+    "rivairenc",
+    "rivairenc-blanc",
+    "rivairenc-gris",
+    "robin-noir",
+    "rossula-bianca",
+    "roublot",
+    "rousseli",
+    "roussette-d-ayze",
+    "rubilande",
+    "sacy",
+    "saint-come",
+    "saint-macaire",
+    "saint-pierre-dore",
+    "saphira",
+    "sauvignac",
+    "sauvignon-rytos",
+    "sciaccarello",
+    "segalin",
+    "seinoir",
+    "select",
+    "selenor",
+    "semebat",
+    "serelis",
+    "sereneze",
+    "servanin",
+    "servant",
+    "sirano",
+    "soreli",
+    "taranis",
+    "tardif",
+    "teoulier",
+    "terret-gris",
+    "terret-noir",
+    "tibouren",
+    "tourbat",
+    "tressot",
+    "trousseau-gris",
+    "uva-biancona",
+    "valdiguie",
+    "valerien",
+    "valpesia",
+    "varousset",
+    "verdanel",
+    "vidoc",
+    "villard-blanc",
+    "villard-noir",
+    "vintaghju",
+    "volturnis",
+    "clinton",
+    "herbemont",
+    "isabella",
+    "jacquez",
+    "noah",
+    "othello"
+  ],
+  "regionCount": 49,
+  "connections": 666,
+  "updatedIds": [
+    "fruhroter-veltliner",
+    "muscat-blanc-a-petits-grains",
+    "franc-noir-de-la-haute-saone",
+    "jacquere",
+    "viognier",
+    "roussanne",
+    "aligote",
+    "mondeuse-blanche",
+    "pinot-gris",
+    "graciano",
+    "sangiovese",
+    "albarino",
+    "mondeuse-noire",
+    "albana",
+    "vermentino",
+    "bronner",
+    "cabernet-cortis",
+    "johanniter",
+    "solaris",
+    "souvignier-gris",
+    "maturana-tinta",
+    "merlot",
+    "cabernet-sauvignon",
+    "cabernet-franc",
+    "semillon",
+    "sauvignon-blanc",
+    "muscadelle",
+    "petit-verdot",
+    "malbec",
+    "carmenere",
+    "colombard",
+    "sauvignon-gris",
+    "trebbiano-toscano",
+    "arinarnoa",
+    "marselan",
+    "touriga-nacional",
+    "folle-blanche",
+    "chenin-blanc",
+    "len-de-lel",
+    "mauzac-blanc",
+    "duras",
+    "fer-servadou",
+    "prunelard",
+    "syrah",
+    "ondenc",
+    "gamay",
+    "negrette",
+    "cinsault",
+    "tannat",
+    "courbu-blanc",
+    "petit-courbu",
+    "petit-manseng",
+    "gros-manseng",
+    "chardonnay",
+    "clairette-blanche",
+    "palomino",
+    "egiodola",
+    "pinot-noir"
+  ],
+  "skipped": [
+    {
+      "name": "Riminèse",
+      "reason": "Plantgrape 237 identifies Riminèse as Albana. Existing ID albana retained; add Corsican aliases and regional evidence, not a duplicate dossier."
+    },
+    {
+      "name": "Castets",
+      "reason": "Existing maturana-tinta includes Castets; Maturana Tinta de Navarrete is identified with Castets, unlike other historically conflated Maturana accessions. Preserve one canonical entry."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "beaugaray",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/334",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "cabestrel",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/331",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "chasan",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/61",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "clarin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/72",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "felen",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/402",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "gaminot",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/333",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "bouquettraube",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/37",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf",
+        "https://www.cederbergwine.com/tasting-notes/2022/cederberg-bukettraube-2022.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "gamaret",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/290",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "blauer-portugieser",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/225",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf",
+        "https://www.deutscheweine.de/rebsorte/91/portugieser"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "precoce-bousquet",
+      "sourceUrls": [
+        "https://plantgrape.fr/en/varieties/fruit-varieties/227",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "precoce-de-malingre",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/228",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "alphonse-lavallee",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/8",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "cardinal",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/51",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "chasselas-rose",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/65",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "danlas",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/86",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "gros-vert",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/125",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "lival",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/139",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "muscat-de-hambourg",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/188",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "ribol",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/235",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "servant",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/262",
+        "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf"
+      ],
+      "notes": "Reviewed primary cultivar profile; French legal scope separately referenced."
+    },
+    {
+      "id": "gringet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/121",
+        "https://www.vins-coteaux-alpins.fr/cepage/37/gringet/",
+        "https://vindesavoie.fr/cepages"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "molette",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/169",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-1f4d6ce4-1fdf-4cf0-bf7b-b4548e8d0a02/telechargement",
+        "https://www.vins-coteaux-alpins.fr/13/cepages/",
+        "https://vinsdubugey.net/assets/uploads/2023/06/depliant-V5.pdf"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "mollard",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/170",
+        "https://fps.ucdavis.edu/FGRfamilies.cfm?varietyid=6250",
+        "https://www.domaine-allemand.com/",
+        "https://www.vins-coteaux-alpins.fr/cepage/47/mollard/",
+        "https://domainedesrutissons.fr/nos-cepages/"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "etraire-de-la-dui",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/95",
+        "https://www.vins-coteaux-alpins.fr/cepage/24/etraire-de-la-dui/",
+        "https://domainedesrutissons.fr/nos-cepages/"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "douce-noire",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/303",
+        "https://fps.ucdavis.edu/fgrdetails.cfm?varietyid=302",
+        "https://fps.ucdavis.edu/fgrdetails.cfm?varietyid=436",
+        "https://domainedesrutissons.fr/nos-cepages/"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "servanin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/261",
+        "https://www.vins-coteaux-alpins.fr/cepage/74/servanin/"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "chouchillon",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/354",
+        "https://www.lesdeplaude.com/terroir-c%C3%A9pages/",
+        "https://www.cepagesrares.com/ressources/ODG_CoteauxDuGier.pdf"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "onchette",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/356"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "joubertin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/129",
+        "https://www.vins-coteaux-alpins.fr/cepage/39/joubertin/",
+        "https://domainedesrutissons.fr/nos-cepages/"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "hibou-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/359"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "sereneze",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/313",
+        "https://www.vins-coteaux-alpins.fr/cepage/73/sereneze/"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "mondeuse-grise",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/355",
+        "https://ives-openscience.eu/wp-content/uploads/2023/02/G14-flash-LimousinT-new_ok.pdf"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "roussette-d-ayze",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/245"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "cacaboue",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/493",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/359"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "bonne-vituaigne",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/490"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "dousset",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/386",
+        "https://ives-openscience.eu/wp-content/uploads/2023/02/G14-flash-LimousinT-new_ok.pdf"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "mecle",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/302"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "mornen",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/304",
+        "https://www.lesdeplaude.com/terroir-c%C3%A9pages/"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "bouillet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/36"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "gibert",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/376"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "robin-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/349",
+        "https://ives-openscience.eu/wp-content/uploads/2023/02/G14-flash-LimousinT-new_ok.pdf"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "bia",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/309",
+        "https://gb.vins-coteaux-alpins.fr/cepage/5/bia/",
+        "https://www.cepagesrares.com/ressources/ODG_CoteauxDuGier.pdf"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "chichaud",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/385"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "plant-de-brunel",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/297"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "reze",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/350",
+        "https://swisswinevalais.ch/en/discover/grape-varieties/reze/",
+        "https://www.museeduvin-valais.ch/blog/les-cepages/reze/",
+        "https://www.valdanniviers.ch/en/Z15344/vinduglacier"
+      ],
+      "notes": "Primary Plantgrape profile checked; historical, current and conservation associations separated. Parentage qualifications retained."
+    },
+    {
+      "id": "alpine-editorial-cautions",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/129",
+        "https://www.vins-coteaux-alpins.fr/cepage/39/joubertin/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/490",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/376",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/36",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/350"
+      ],
+      "notes": "Joubertin acidity differs between Plantgrape and regional descriptions; report source-specific observations. Bonne Vituaigne and Chichaud are Ardèche; Gibert is Lot; Bouillet is southwestern; Rèze is Swiss. Catalogue classification is not appellation permission. Regional maps include Petite Sainte-Marie and Plant Droit delivered by other batches."
+    },
+    {
+      "id": "aubin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/23",
+        "https://www.domaine-laroppe.fr/nos-vins-aoc-cotes-de-toul/"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "aubin-vert",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/24"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "bachet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/27",
+        "https://sibbus.com/fileadmin/pdfs/en/Chardonnay_parents.pdf"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "beclan",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/31"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "cesar",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/58",
+        "https://sibbus.com/fileadmin/pdfs/en/Chardonnay_parents.pdf",
+        "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-cepages-nos-couleurs/des-cepages-rois-pour-la-bourgogne,2392,9184.html"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "enfarine-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/401",
+        "https://www.plantgrape.fr/fr/varietes/varietes-a-fruits/401"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "franc-noir-de-la-haute-saone",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/102"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "gamay-de-bouze",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/105",
+        "https://henry-marionnet.com/en/domaine-de-la-charmoise/"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "gamay-de-chaudenay",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/106",
+        "https://www.domainedescognettes.fr/nos-vins/le-pas-rouge/"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "gamay-freaux",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/107"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "gascon",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/110"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "gueuche-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/404"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "knipperle",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/132"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "melon-rouge",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/384"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "meslier-saint-francois",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/165",
+        "https://www.tresorsvivantsducentre.com/meslier-st-f"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "noir-fleurien",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/193"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "roublot",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/243",
+        "https://sibbus.com/fileadmin/pdfs/en/Chardonnay_parents.pdf"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "sacy",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/247",
+        "https://www.vins-bourgogne.fr/vins-et-terroirs/nos-cepages-nos-couleurs/des-cepages-rois-pour-la-bourgogne,2392,9184.html"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "tressot",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/276",
+        "https://sibbus.com/fileadmin/pdfs/en/Chardonnay_parents.pdf",
+        "https://oeno-one.eu/article/view/46"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "goldriesling",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/113",
+        "https://www.gartenbau.sachsen.de/weinbau-in-sachsen-40782.html",
+        "https://www.goldenerwagen.de/assets/docs/weinanbaugebiet-sachsen.pdf"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "muscat-ottonel",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/189",
+        "https://www.vinsalsace.com/fr/gouts-et-couleurs/cepages/edelzwicker-dalsace/muscat-dalsace/"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "grolleau-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/122",
+        "https://techniloire.com/sites/default/files/bulletin-dinformation-juillet-2026-igp.pdf"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "orbois",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/200",
+        "https://www.baudry-dutour.fr/wp-content/uploads/2023/12/FICHE-TECHNIQUE-orbois-2022.pdf"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "pineau-daunis",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/215",
+        "https://www.vinsdeloire.fr/fr/cepages/pineau-daunis",
+        "https://www.vinsdeloire.fr/fr/couleurs-vins-loire/rouges"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "genouillet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/310",
+        "https://www.tresorsvivantsducentre.com/genouillet"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "gouget",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/114",
+        "https://www.tresorsvivantsducentre.com/cepages"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "saint-pierre-dore",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/250"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "abondant",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/2"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "lignage",
+      "sourceUrls": [
+        "https://www.tresorsvivantsducentre.com/lignage",
+        "https://www.tresorsvivantsducentre.com/cepages"
+      ],
+      "notes": "Primary profile checked; regional origin, conservation and appellation use are distinguished. Names remain untranslated."
+    },
+    {
+      "id": "duras-parentage-audit",
+      "sourceUrls": [
+        "https://oeno-one.eu/article/view/46",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/91",
+        "https://sibbus.com/fileadmin/pdfs/en/Chardonnay_parents.pdf"
+      ],
+      "notes": "Existing Duras correctly records Savagnin Blanc × Tressot. Do not reverse the direction by treating the older proposed Tressot = Duras × Petit Verdot pedigree as current settled evidence."
+    },
+    {
+      "id": "regional-coverage-limits",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/2",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/384",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/107"
+      ],
+      "notes": "Abondant is sourced only to eastern France; Melon Rouge only to France/mutation identity; Gamay Fréaux collection is sourced to the Rhône wine-growing region, not specifically Beaujolais. They remain complete grape entries without an over-specific regional map placement."
+    },
+    {
+      "id": "aramon",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/15",
+        "https://www.pierrecros.fr/vins.php?gamme=noscuvyoes&la=fr&v=pierrecros&vinid=801&wines=description"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "aramon-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/13"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "aramon-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/14"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "aranel",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/16"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "aubun",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/25"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "brun-argente",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/40",
+        "https://www.vins-rhone.com/en/brun-argente-aka-camarese-or-vaccarese-grape-variety",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "carignan-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/52",
+        "https://www.languedoc-aoc.com/une-forte-identite-de-terroir",
+        "https://www.roussillon.wine/vins-et-terroirs/nos-aoc-et-igp/aop-cotes-du-roussillon/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "carignan-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/372",
+        "https://www.aupilhac-laboutique.com/produit/le-canaguier/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "chenanson",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/67"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "clairette-rose",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/71",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties",
+        "https://www.aupilhac-laboutique.com/produit/le-canaguier/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "counoise",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/80",
+        "https://www.vins-rhone.com/en/counoise-grape-variety",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties",
+        "https://domaineampelhus.fr/produit/pack-decouverte-cepages-rares-du-languedoc/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "couston",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/298",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "ferradou",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/301"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "feunate",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/98"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "ganson",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/108"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "gramon",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/116"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "grand-noir-de-la-calmette",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/322"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "granita",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/332"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "grassen",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/117"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "grenache-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/119",
+        "https://www.roussillon.wine/vins-et-terroirs/nos-aoc-et-igp/aop-cotes-du-roussillon/",
+        "https://www.roussillon.wine/vins-et-terroirs/nos-aoc-et-igp/aop-rivesaltes/",
+        "https://www.aupilhac-laboutique.com/produit/le-canaguier/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "monerac",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/173"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "mourvedre-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/421"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "mourvedre-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/439"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "muscardin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/182",
+        "https://www.vins-rhone.com/en/muscardin-grape-variety",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "muscat-a-petits-grains-roses",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/184"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "muscat-a-petits-grains-rouges",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/185",
+        "https://www.paysdoc-vin.com/les-cepages/",
+        "https://www.vins-rhone.com/en/muscat-petits-grains-rouge-grape-variety"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "muscat-cendre",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/186"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "noual",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/377"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "oeillade-noire",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/195"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "picardan",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/214",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties",
+        "https://domaineampelhus.fr/produit/pack-decouverte-cepages-rares-du-languedoc/",
+        "https://domaineampelhus.fr/produit/picardan/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "picarlat",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/335"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "piquepoul-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/220",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "plant-droit",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/222"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "portan",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/224",
+        "https://www.paysdoc-vin.com/les-cepages/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "pougnet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/405"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "raisaine",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/361"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "ribier-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/406"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "rivairenc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/240",
+        "https://domaineampelhus.fr/produit/pack-decouverte-cepages-rares-du-languedoc/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "rivairenc-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/238"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "rivairenc-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/239"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "saint-come",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/248"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "segalin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/256"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "semebat",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/259"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "terret-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/273",
+        "https://www.vins-rhone.com/en/wine-school/glossary/grape-varieties",
+        "https://domaineampelhus.fr/produit/pack-decouverte-cepages-rares-du-languedoc/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "terret-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/272"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "tourbat",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/275",
+        "https://www.roussillon.wine/vins-et-terroirs/nos-aoc-et-igp/aop-cotes-du-roussillon/",
+        "https://www.roussillon.wine/vins-et-terroirs/nos-aoc-et-igp/aop-rivesaltes/"
+      ],
+      "notes": "Primary Plantgrape record checked for identity, origin/genetics, phenology, viticulture and technological potential. Geographic origin and conservation are not assertions of AOC authorization."
+    },
+    {
+      "id": "biancu-gentile",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/33",
+        "https://ngr.ucdavis.edu/FGRfamilies.cfm?varietyid=2871"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "brustianu",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/388"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "carcajolo-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/49"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "carcajolo",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/50"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "codivarta",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/74"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "cualtacciu",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/393",
+        "https://www.crvi.corsica/nos-productions-scientifiques/brochures-techniques/"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "genovese",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/111"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "muresconu",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/180"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "pagadebiti",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/201"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "rossula-bianca",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/395"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "sciaccarello",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/255",
+        "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2020.605934/full",
+        "https://www.ajaccio-tourisme.com/en/discover/heritage-and-identity/ajaccio-pdo-wines-the-mark-of-an-exceptional-terroir/"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "uva-biancona",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/391"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "vintaghju",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/396"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "muriscu",
+      "sourceUrls": [
+        "https://www.crvi.corsica/wp-content/uploads/2016/10/cepages-insulaires-ou-le-riacquistu-des-cepages-corses-ilovepdf-compressed-ok.pdf",
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046179575"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "muscateddu",
+      "sourceUrls": [
+        "https://www.crvi.corsica/wp-content/uploads/2016/10/cepages-insulaires-ou-le-riacquistu-des-cepages-corses-ilovepdf-compressed-ok.pdf",
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046179575"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "barbaroux",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/29"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "brachet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/39",
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "brun-fourca",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/41",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "calitor",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/45"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "colombaud",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/77",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "fuella-nera",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/103",
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "mayorquin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/160",
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "mourvaison",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/176",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-5dba9fe2-3426-4f86-90e1-84267bdbae56/telechargement"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "pascal",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/203",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "rousseli",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/242",
+        "https://www.vinsdeprovence.com/les-appellations/cotes-de-provence"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "teoulier",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/270",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "tibouren",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/274",
+        "https://www.vinsdeprovence.com/les-appellations/cotes-de-provence",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "blanqueiron",
+      "sourceUrls": [
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658",
+        "https://hal.science/hal-05329499v1/file/Repertoire_collection_Vassal-Montpellier2023_HAL_2025.pdf"
+      ],
+      "notes": "Primary-source profile; phenology, where given, is relative to Chasselas at Domaine de Vassal, not a fixed local harvest date."
+    },
+    {
+      "id": "albana",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/237"
+      ],
+      "notes": "Riminèse is Albana according to Plantgrape, including recognized propagation synonymy."
+    },
+    {
+      "id": "sciaccarello-identity",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/255",
+        "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2020.605934/full"
+      ],
+      "notes": "Official Plantgrape Mammolo synonym retained with an accession-level caveat. D’Onofrio et al. 2021 found Mammolo I-MAM-PA-1 distinct and parent–offspring related to Termarina/Sciaccarello. No duplicate Mammolo record was created."
+    },
+    {
+      "id": "muriscu-muscateddu-status",
+      "sourceUrls": [
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046179575"
+      ],
+      "notes": "Temporary classification, under CRVI responsibility, 15 years; the 2026 FranceAgriMer list dates the temporary authorizations to 27 September 2022. Do not repeat the old CRVI statement “unregistered” as if it meant no current trial classification."
+    },
+    {
+      "id": "blanqueiron-evidence-gap",
+      "sourceUrls": [
+        "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/5658",
+        "https://hal.science/hal-05329499v1/file/Repertoire_collection_Vassal-Montpellier2023_HAL_2025.pdf"
+      ],
+      "notes": "Explicit B-coded accessory in Bellet; the Vassal catalogue search snippet records Blanqueiron B, France. Full HAL PDF is access-blocked. No unverified Blanqueiro synonyms, parentage, disease, phenology or tasting claims introduced."
+    },
+    {
+      "id": "regional-map-dependencies",
+      "sourceUrls": [
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-9dfd1458-f6c1-4175-aa88-4175ff0255d6/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-5dba9fe2-3426-4f86-90e1-84267bdbae56/telechargement"
+      ],
+      "notes": "Regional maps intentionally reference Mediterranean-agent new IDs. Muscat de Hambourg (muscat-de-hambourg) is supplied by root. Palette Castet uses existing maturana-tinta, identity verified and enriched by the Southwest agent; do not create a Castets duplicate."
+    },
+    {
+      "id": "artys",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/451",
+        "https://www.vignevin.com/article/onze-nouvelles-varietes-resistantes-a-loidium-et-au-mildiou-inscrites-au-catalogue-officiel/",
+        "https://www.inrae.fr/dossiers/quels-vins-demain/creation-varietale-voie-royale"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "artaban",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/373",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/ARTABAN.pdf",
+        "https://www.inrae.fr/actualites/apres-artaban-floreal-vidoc-voltis-coliris-lilaro-sirano-selenor-opalor-5-nouvelles-varietes-vignes-inrae-resistantes-au-mildiou-loidium"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "bouquet-3159",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/475",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/BOUQUET-3159-B.pdf",
+        "https://viti-bouquet.fr/note-technique.php?titre=planter-et-vinifier-des-varietes-bouquet"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "bouquet-3160",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/478",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/BOUQUET-3160-N.pdf",
+        "https://viti-bouquet.fr/note-technique.php?titre=planter-et-vinifier-des-varietes-bouquet"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "bouquet-3176",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/481",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/BOUQUET-3176-N.pdf",
+        "https://viti-bouquet.fr/note-technique.php?titre=planter-et-vinifier-des-varietes-bouquet"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "bouquet-3179",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/484",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/BOUQUET-3179-N.pdf",
+        "https://viti-bouquet.fr/note-technique.php?titre=planter-et-vinifier-des-varietes-bouquet"
+      ],
+      "notes": "English Plantgrape origin paragraph mistakenly names Bouquet 3160; exact identity and parents independently verified against the corresponding July 2026 IFV breeder sheet. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "bouquet-3196",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/487",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/BOUQUET-3196-B.pdf",
+        "https://viti-bouquet.fr/note-technique.php?titre=planter-et-vinifier-des-varietes-bouquet"
+      ],
+      "notes": "English Plantgrape origin paragraph mistakenly names Bouquet 3160; exact identity and parents independently verified against the corresponding July 2026 IFV breeder sheet. The July 2026 legal amendment contains a berry-colour inconsistency (Noire); Plantgrape and IFV technical identity both establish the white variety. Do not propagate the clerical colour error. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "calardis-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/472",
+        "https://www.weincampus-neustadt.de/fileadmin/user_upload/VITIFIT_PIWI-Broschuere_01-24_web.pdf"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "calys",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/442",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/CALYS-N.pdf",
+        "https://www.inrae.fr/dossiers/quels-vins-demain/creation-varietale-voie-royale"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "coliris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/411",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/COLIRIS-N.pdf",
+        "https://www.inrae.fr/actualites/apres-artaban-floreal-vidoc-voltis-coliris-lilaro-sirano-selenor-opalor-5-nouvelles-varietes-vignes-inrae-resistantes-au-mildiou-loidium"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "coutia",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/412",
+        "https://observatoire-cepages-resistants.fr/cepage/coutia/"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "luminan",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/414",
+        "https://observatoire-cepages-resistants.fr/cepage/luminan-b/"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "exelys",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/454",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/EXELYS-B.pdf",
+        "https://www.inrae.fr/dossiers/quels-vins-demain/creation-varietale-voie-royale"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "floreal",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/375",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/FLOREAL-B.pdf",
+        "https://www.inrae.fr/actualites/apres-artaban-floreal-vidoc-voltis-coliris-lilaro-sirano-selenor-opalor-5-nouvelles-varietes-vignes-inrae-resistantes-au-mildiou-loidium"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "lilaro",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/413",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/LILARO-N.pdf",
+        "https://www.inrae.fr/actualites/apres-artaban-floreal-vidoc-voltis-coliris-lilaro-sirano-selenor-opalor-5-nouvelles-varietes-vignes-inrae-resistantes-au-mildiou-loidium"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "opalor",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/417",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/OPALOR-B.pdf",
+        "https://www.inrae.fr/actualites/apres-artaban-floreal-vidoc-voltis-coliris-lilaro-sirano-selenor-opalor-5-nouvelles-varietes-vignes-inrae-resistantes-au-mildiou-loidium"
+      ],
+      "notes": "Plantgrape gives 2022 catalogue entry while IFV programme roundup groups it in 2021; no disputed registration year asserted in narrative. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "selenor",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/415",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/SELENOR-B.pdf",
+        "https://www.inrae.fr/actualites/apres-artaban-floreal-vidoc-voltis-coliris-lilaro-sirano-selenor-opalor-5-nouvelles-varietes-vignes-inrae-resistantes-au-mildiou-loidium"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "sirano",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/416",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/SIRANO-N.pdf",
+        "https://www.inrae.fr/actualites/apres-artaban-floreal-vidoc-voltis-coliris-lilaro-sirano-selenor-opalor-5-nouvelles-varietes-vignes-inrae-resistantes-au-mildiou-loidium"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "vidoc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/379",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/VIDOC-N.pdf",
+        "https://www.inrae.fr/actualites/apres-artaban-floreal-vidoc-voltis-coliris-lilaro-sirano-selenor-opalor-5-nouvelles-varietes-vignes-inrae-resistantes-au-mildiou-loidium"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "elaris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/517",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/ELARIS-B.pdf",
+        "https://www.agroscope.admin.ch/fr/agroscope-devoile-sept-nouveaux-cepages-resistants"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "florisia",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/502",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/FLORISIA-B.pdf",
+        "https://www.agroscope.admin.ch/fr/agroscope-devoile-sept-nouveaux-cepages-resistants"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "orellis",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/505",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/ORELLIS-B.pdf",
+        "https://www.agroscope.admin.ch/fr/agroscope-devoile-sept-nouveaux-cepages-resistants"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "taranis",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/511",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/TARANIS-N.pdf",
+        "https://www.agroscope.admin.ch/fr/agroscope-devoile-sept-nouveaux-cepages-resistants"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "valpesia",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/514",
+        "https://www.vignevin.com/wp-content/uploads/2026/07/VALPESIA-N.pdf",
+        "https://www.agroscope.admin.ch/fr/agroscope-devoile-sept-nouveaux-cepages-resistants"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "serelis",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/508",
+        "https://svqv.colmar.hub.inrae.fr/content/download/4860/53147?version=2"
+      ],
+      "notes": "English Plantgrape profile is incomplete. The two-page INRAE breeder PDF was visually read and verifies Artaban × Bronner, selection Col-1301N, Chardonnay +2 days budbreak/+4 days ripening, and sparkling/distillation suitability. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "colobel",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/75"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "couderc-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/79"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "florental",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/99"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "garonnet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/109"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "landal",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/133"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "leon-millot",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/136"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "marechal-foch",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/155"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "oberlin-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/194"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "plantet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/223",
+        "https://www.vinievitiresistenti.it/wp-content/uploads/2025/02/F.-Rockel-et-al.pdf"
+      ],
+      "notes": "2021 original SSR research resolves Seibel 867 as one parent; the reported Seibel 2524 is probably extinct and not genetically verified. The same study verifies Plantet as a parent of Chambourcin. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "ravat-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/232"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "rayon-dor",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/233"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "rubilande",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/246"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "seinoir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/257"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "select",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/258"
+      ],
+      "notes": "Verified vinifera cross, not an interspecific resistant hybrid. Kept outside the resistant-trial grouping. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "valerien",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/281"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "varousset",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/282"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "villard-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/286"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "villard-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/287"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "cabernet-blanc",
+      "sourceUrls": [
+        "https://www.vignevin.com/wp-content/uploads/2019/03/FICHE_CEPAGE_CABERNET_BLANC.pdf",
+        "https://www.vinievitiresistenti.it/wp-content/uploads/2025/02/F.-Rockel-et-al.pdf",
+        "https://www.weincampus-neustadt.de/fileadmin/user_upload/VITIFIT_PIWI-Broschuere_01-24_web.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "monarch",
+      "sourceUrls": [
+        "https://www.vignevin.com/wp-content/uploads/2019/03/FICHE_CEPAGE_MONARCH.pdf",
+        "https://rebveredelung-bernd.de/wp-content/uploads/2021/02/Sorteninfoblatt-Monarch.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "muscaris",
+      "sourceUrls": [
+        "https://www.vignevin.com/wp-content/uploads/2019/03/FICHE_CEPAGE_MUSCARIS_B.pdf",
+        "https://www.weincampus-neustadt.de/fileadmin/user_upload/VITIFIT_PIWI-Broschuere_01-24_web.pdf",
+        "https://observatoire-cepages-resistants.fr/cepage/muscaris-b/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "pinotin",
+      "sourceUrls": [
+        "https://www.vinievitiresistenti.it/wp-content/uploads/2025/02/F.-Rockel-et-al.pdf",
+        "https://www.vignevin.com/wp-content/uploads/2019/03/FICHE_CEPAGE_PINOTIN_N.pdf",
+        "https://www.rebschule-sester.de/rebsortenbeschreibung/piwi-rotweinsorten/pinotin/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "2021 original SSR research, including its pedigree figure, supersedes CIVARE 2018 Pinot Noir × unknown parentage. Agronomic timing differs between CIVARE and nursery observations; the dossier retains the disagreement. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "prior",
+      "sourceUrls": [
+        "https://www.vivc.de/index.php?id=19993&r=passport%2Fview",
+        "https://www.vignevin.com/wp-content/uploads/2019/03/FICHE_CEPAGE_PRIOR.pdf",
+        "https://www.rebschule-sester.de/rebsortenbeschreibung/piwi-rotweinsorten/prior/",
+        "https://observatoire-cepages-resistants.fr/cepage/prior-n/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "VIVC accession 19993 confirms Freiburg 4-61 × Freiburg 236-75. The nursery shorthand substituting Bronner is not adopted. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "saphira",
+      "sourceUrls": [
+        "https://www.vignevin.com/wp-content/uploads/2019/03/FICHE_CEPAGE_SAPHIRA.pdf",
+        "https://observatoire-cepages-resistants.fr/cepage/saphira-b/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "sauvignac",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/392",
+        "https://www.weincampus-neustadt.de/fileadmin/user_upload/VITIFIT_PIWI-Broschuere_01-24_web.pdf"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "fleurtai",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/en/product-sheet/fleurtai/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "soreli",
+      "sourceUrls": [
+        "https://www.vivairauscedo.com/en/product-sheet/soreli/",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "merlot-khorus",
+      "sourceUrls": [
+        "https://vivairauscedo.com/contributi/it/schede/merlot-khorus.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "cabernet-volos",
+      "sourceUrls": [
+        "https://vivairauscedo.com/contributi/it/schede/cabernet-volos.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "sauvignon-rytos",
+      "sourceUrls": [
+        "https://vivairauscedo.com/contributi/it/schede/sauvignon-rytos.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue"
+      ],
+      "notes": "Primary technical profile checked; national classification is not treated as regional appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "abouriou",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/1",
+        "https://www.vignobles-sudouest.fr/project/aop-cotes-du-marmandais/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "arriloba",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/19"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "arrouya",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/20"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "arrufiac",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/21",
+        "https://www.vignobles-sudouest.fr/project/aop-saint-mont/",
+        "https://www.vignobles-sudouest.fr/project/aop-pacherenc-du-vic-bilh/",
+        "https://www.plaimont.com/en/nos-vins/our-grape-varieties",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "baroque",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/30",
+        "https://www.vignobles-sudouest.fr/project/aop-tursan/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/137",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "bequignol",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/32",
+        "https://www.brazoswine.com/winery/escala-humana"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "blanc-dame",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/34",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/131",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "bouchales",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/35",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/231"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "bouysselet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/362",
+        "https://www.vignevin-occitanie.com/wp-content/uploads/2024/05/Diversite-et-originalite-des-cepages-du-sud-ouest-Clos-Vougeot-1.pdf",
+        "https://www.osmin.fr/bouysselet"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "camaralet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/46",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-d645c8b2-51ab-4b49-838c-4339610be9ac/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "claverie",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/73",
+        "https://www.vignobles-sudouest.fr/project/aop-tursan/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "courbu-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/82",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "crouchen",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/83",
+        "https://www.sawis.co.za/cert/download/wineoforiginbooklet201604.pdf",
+        "https://www.sawis.co.za/info/download/Book_2022.1.pdf",
+        "https://brownfamilywines.com.au/products/brown-brothers-crouchen-riesling"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "ekigaina",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/93"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "folignan",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/100",
+        "https://www.cognac.fr/decouvrir/vignoble/les-cepages/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/314"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "graisse",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/115",
+        "https://www.laberoje.com/un-grand-bas-armagnac/cepages-bas-armagnac/",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "jurancon-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/130",
+        "https://www.laberoje.com/un-grand-bas-armagnac/cepages-bas-armagnac/",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-d645c8b2-51ab-4b49-838c-4339610be9ac/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "jurancon-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/131",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-d645c8b2-51ab-4b49-838c-4339610be9ac/telechargement",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "lauzet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/134",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-d645c8b2-51ab-4b49-838c-4339610be9ac/telechargement",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "liliorila",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/137",
+        "https://pro.planete-bordeaux.fr/wp-content/uploads/Nouveaux-Cepages.pdf"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "mancin",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/153"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "manseng-noir",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/154",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement",
+        "https://www.plaimont.com/en/nos-vins/our-grape-varieties"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "merille",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/162",
+        "https://www.vignobles-sudouest.fr/project/aop-fronton/",
+        "https://www.vins-bergeracduras.fr/nos-cepages/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "merlot-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/163",
+        "https://www.bordeaux.com/en/grape-varieties/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "milgranet",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/167"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "monbadon",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/314",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/100"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "montils",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/174",
+        "https://www.cognac.fr/decouvrir/vignoble/les-cepages/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "mouyssagues",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/178"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "negret-de-banhars",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/190"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "negret-pounjut",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/390",
+        "https://www.vignevin-occitanie.com/wp-content/uploads/2024/05/Diversite-et-originalite-des-cepages-du-sud-ouest-Clos-Vougeot-1.pdf"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "pardotte",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/336"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "perdea",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/204",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "petite-sainte-marie",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/378"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "raffiat-de-moncade",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/231",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-072c67b3-a78d-4184-95ab-6fe5eb6ddc59/telechargement",
+        "https://www.vignobles-sudouest.fr/project/aop-tursan/",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/19",
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/204",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "saint-macaire",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/249"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "tardif",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/371",
+        "https://www.vignevin-occitanie.com/wp-content/uploads/2024/05/Diversite-et-originalite-des-cepages-du-sud-ouest-Clos-Vougeot-1.pdf",
+        "https://www.plaimont.com/en/nos-vins/our-grape-varieties"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "verdanel",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/357",
+        "https://www.vignevin-occitanie.com/wp-content/uploads/2024/05/Diversite-et-originalite-des-cepages-du-sud-ouest-Clos-Vougeot-1.pdf"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "valdiguie",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/279",
+        "https://fps.ucdavis.edu/fgrdetails.cfm?varietyid=1575"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "baco-blanc",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/28",
+        "https://www.laberoje.com/un-grand-bas-armagnac/cepages-bas-armagnac/",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "mauzac-rose",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/159",
+        "https://www.vignobles-sudouest.fr/project/aop-gaillac/",
+        "https://www.laberoje.com/un-grand-bas-armagnac/cepages-bas-armagnac/",
+        "https://info.agriculture.gouv.fr/boagri/document_administratif-22aec213-de3a-450a-b4bb-5d17b539e5a9/telechargement",
+        "https://www.vignobles-sudouest.fr/project/igp-cotes-de-gascogne/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "trousseau-gris",
+      "sourceUrls": [
+        "https://www.plantgrape.fr/en/varieties/fruit-varieties/312",
+        "https://www.vinscharentais.fr/vin/chauche-2/"
+      ],
+      "notes": "Primary profile checked; origin or kinship remains qualified where the source is qualified. Regional links distinguish legal use from heritage/conservation."
+    },
+    {
+      "id": "kersus",
+      "sourceUrls": [
+        "https://vivairauscedo.com/contributi/en/schede/kersus.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue",
+        "https://www.franceagrimer.fr/bois-et-plants-de-vigne-catalogue-officiel-des-varietes-de-vigne"
+      ],
+      "notes": "Breeder PDF explicitly resolves the named identity. FranceAgriMer July 2026 list section d records VCR France, 1 August 2024, ten-year temporary classification. This is not evidence of commercial cultivation or general appellation permission. The Plantgrape outside-catalogue table displays N, inconsistent with the VCR white cultivar description; berry colour follows the breeder. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "pinot-iskra",
+      "sourceUrls": [
+        "https://vivairauscedo.com/contributi/en/schede/pinot-iskra.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue",
+        "https://www.franceagrimer.fr/bois-et-plants-de-vigne-catalogue-officiel-des-varietes-de-vigne"
+      ],
+      "notes": "Breeder PDF explicitly resolves the named identity. FranceAgriMer July 2026 list section d records VCR France, 1 August 2024, ten-year temporary classification. This is not evidence of commercial cultivation or general appellation permission. The Plantgrape outside-catalogue table displays N, inconsistent with the VCR white cultivar description; berry colour follows the breeder. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "pinot-kors",
+      "sourceUrls": [
+        "https://vivairauscedo.com/contributi/en/schede/pinot-kors.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue",
+        "https://www.franceagrimer.fr/bois-et-plants-de-vigne-catalogue-officiel-des-varietes-de-vigne"
+      ],
+      "notes": "Breeder PDF explicitly resolves the named identity. FranceAgriMer July 2026 list section d records VCR France, 1 August 2024, ten-year temporary classification. This is not evidence of commercial cultivation or general appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "volturnis",
+      "sourceUrls": [
+        "https://vivairauscedo.com/contributi/en/schede/volturnis.pdf",
+        "https://www.plantgrape.fr/fr/varietes/varietes-hors-catalogue",
+        "https://www.franceagrimer.fr/bois-et-plants-de-vigne-catalogue-officiel-des-varietes-de-vigne"
+      ],
+      "notes": "Breeder PDF explicitly resolves the named identity. FranceAgriMer July 2026 list section d records VCR France, 1 August 2024, ten-year temporary classification. This is not evidence of commercial cultivation or general appellation permission. Regions distinguish breeding, trials, historical national vineyard statistics and classification context; no appellation permission is inferred."
+    },
+    {
+      "id": "historic-legal-status",
+      "sourceUrls": [
+        "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A02013R1308-20260818",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02013R1308-20260818"
+      ],
+      "notes": "All six are educational historical entries, not additions to the legally classified French wine-grape list. Article 81(2)(b) names Noah, Othello, Isabelle, Jacquez, Clinton and Herbemont as excluded from classification. Checked against EUR-Lex consolidated 18 August 2026 indexed text; the full English endpoint presented a JavaScript wall, while the same-date German text confirmed the names. Exclusion from classification is not described as a universal ban on possessing plants."
+    },
+    {
+      "id": "historic-hybrid-identity",
+      "sourceUrls": [
+        "https://www.vivc.de/index.php?PassportSearch%5Bleitname%5D=&page=71&r=passport%2Fresult&sort=-utilization",
+        "https://www.vivc.de/index.php?id=5560&r=passport%2Freportpdf&var=view",
+        "https://www.vivc.de/eucatgrape/ANNEX_2B_V3-4.pdf"
+      ],
+      "notes": "Othello #8838 and Othello Arnold #26119 are separately catalogued: do not import the latter’s marker pedigree without an identity check. Isabella/Isabelle is a single entry, id isabella. Petit Meslier is the canonical library form of VIVC Meslier Petit #7675."
+    },
+    {
+      "id": "historic-quality-evidence",
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/45978/45978-h/45978-h.htm",
+        "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE40348"
+      ],
+      "notes": "Viticulture and fruit sensory statements from Hedrick are explicitly historical observations. Parliamentary claims about methanol are not adopted as present-day scientific conclusions. No unsupported contemporary wine tasting notes were added."
+    }
+  ],
+  "permanentClassificationNamesReconciled": 372,
+  "namedTemporaryProfiles": 8,
+  "unprofiledExperimentalAccessions": 26,
+  "addedPhotoLinks": 229
+}

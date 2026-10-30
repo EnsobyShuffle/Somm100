@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "baselineCommit": "28928060a98d929d26c261177097447bec15764b",
+  "counts": {
+    "producer": 36,
+    "wine": 50,
+    "vintage": 24,
+    "region": 34,
+    "site": 18
+  },
+  "images": 18,
+  "priorityQueries": 48,
+  "bidirectionalEdges": 292,
+  "unchangedExistingDataAndApiFiles": 71,
+  "separateWineAndVintage": true,
+  "imageVintageMatches": true,
+  "noDatabaseWrites": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ONE English · Your Daily English Studio",
+  "short_name": "ONE English",
+  "description": "每日计划、词汇复习、实用句子、分级阅读、场景口语，一站式英语学习。",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f2",
+  "theme_color": "#f7f7f2",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

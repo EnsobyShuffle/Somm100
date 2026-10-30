@@ -1,0 +1,939 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-25",
+  "collectionTitle": "SOMM100 Wine Channel 学习视频候选",
+  "verificationSummary": "共25条（原8条 + 新17条）真实B站视频地址，元数据由原平台搜索索引核对；未播放和逐段审看。部分原页直读返回412；学习用途是编辑建议，不是质量终审。",
+  "deliveryMode": "external-link",
+  "rightsNote": "仅原平台外链，不下载、复制、转传视频。",
+  "videos": [
+    {
+      "id": "bili-vine-anatomy",
+      "title": "三级品酒师精讲课程——4葡萄藤",
+      "url": "https://www.bilibili.com/video/BV1Vw411J73r/",
+      "platform": "Bilibili",
+      "publisher": "葡萄酒迪先森",
+      "publisherUrl": "https://space.bilibili.com/31565765/",
+      "language": "zh-CN",
+      "topic": "viticulture",
+      "topicLabel": "葡萄种植",
+      "tags": [
+        "葡萄藤",
+        "Viticulture"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "配合葡萄藤章节，整理根、叶、枝条、芽和果实各自的作用，再用自己的话说明它们如何共同支持成熟。",
+      "placementBasis": "按题名和发布者课程索引作教学匹配；难度及阶段标签由 SOMM100 编辑设定，不是原作者或 CMS 官方认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-24",
+        "sourceRefs": [
+          "turn7search1",
+          "turn10search10"
+        ],
+        "directRead": "not_accessible"
+      }
+    },
+    {
+      "id": "bili-red-rose-vinification",
+      "title": "三级品酒师精讲课程——12红葡萄酒和桃红葡萄酒的酿造（下）",
+      "url": "https://www.bilibili.com/video/BV1qW4y1w7Rs/",
+      "platform": "Bilibili",
+      "publisher": "葡萄酒迪先森",
+      "publisherUrl": "https://space.bilibili.com/31565765/",
+      "language": "zh-CN",
+      "topic": "vinification",
+      "topicLabel": "葡萄酒酿造",
+      "tags": [
+        "红葡萄酒",
+        "桃红葡萄酒",
+        "Vinification"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "学习后比较红葡萄酒与桃红葡萄酒的工艺选择，并把工艺与颜色、单宁和风格联系起来。此链接为下半节，可在原页面查看同系列上半节。",
+      "placementBasis": "按题名和发布者课程索引作教学匹配；阶段标签不等同于该视频作者的二级或三级课程名称。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-24",
+        "sourceRefs": [
+          "turn5search1",
+          "turn10search8"
+        ],
+        "directRead": "not_accessible"
+      }
+    },
+    {
+      "id": "bili-champagne-service",
+      "title": "香槟开瓶法 王后的叹息",
+      "url": "https://www.bilibili.com/video/BV1NJ411C71H/",
+      "platform": "Bilibili",
+      "publisher": "杯中时光-选酒指南",
+      "language": "zh-CN",
+      "topic": "service",
+      "topicLabel": "侍酒服务",
+      "tags": [
+        "香槟",
+        "开瓶",
+        "Champagne Service"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "观察控塞和安静开瓶的动作，记录你需要向教师确认的服务细节；实际操作由教师按课堂服务标准指导。",
+      "placementBasis": "题名与视频简介核验；本视频未被认定为 CMS 官方服务示范。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-24",
+        "sourceRefs": [
+          "turn4search0",
+          "turn9search1"
+        ],
+        "directRead": "412_precondition_failed"
+      }
+    },
+    {
+      "id": "bili-luyang-tasting-intro",
+      "title": "【大师课第1节】最强入门指南，侍酒师大师吕杨教你葡萄酒品鉴",
+      "url": "https://www.bilibili.com/video/BV1h3411N7L9/",
+      "platform": "Bilibili",
+      "publisher": "大渔大师课",
+      "presenter": "吕杨",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "品鉴导入",
+        "Tasting",
+        "吕杨"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "用作进入系统品鉴训练前的短导入；观看后写下你希望通过训练改善的三项观察或表达能力。",
+      "placementBasis": "原平台简介说明这是第一节/导入，完整课程在其自有 App；不可当作完整免费课程或 CMS 官方课程。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-24",
+        "sourceRefs": [
+          "turn11search0",
+          "turn11search10"
+        ],
+        "directRead": "412_precondition_failed"
+      }
+    },
+    {
+      "id": "bili-burgundy-overview",
+      "title": "勃艮第【Burgundy】概况介绍",
+      "url": "https://www.bilibili.com/video/BV1Y49nYWE6p/",
+      "platform": "Bilibili",
+      "publisher": "葡萄酒迪先森",
+      "publisherUrl": "https://space.bilibili.com/31565765/",
+      "language": "zh-CN",
+      "topic": "regions",
+      "topicLabel": "国家与产区",
+      "tags": [
+        "法国",
+        "勃艮第",
+        "Burgundy"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "结合地图建立勃艮第各主要区域的空间关系，再从感兴趣的村庄进入知识延伸。",
+      "placementBasis": "按题名中的概况介绍和发布者元数据作教学匹配。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-24",
+        "sourceRefs": [
+          "turn7search8",
+          "turn10search2"
+        ],
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-us-regions",
+      "title": "三级品酒师精讲课程——37美国（上）",
+      "url": "https://www.bilibili.com/video/BV16t421H7fo/",
+      "platform": "Bilibili",
+      "publisher": "葡萄酒迪先森",
+      "publisherUrl": "https://space.bilibili.com/31565765/",
+      "language": "zh-CN",
+      "topic": "regions",
+      "topicLabel": "国家与产区",
+      "tags": [
+        "美国",
+        "California",
+        "Napa",
+        "Sonoma"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "配合美国学习模块，用地图整理州、产区和代表葡萄品种的层级关系；法规或新 AVA 以最新官方资料复核。",
+      "placementBasis": "B 站题名、发布者与 California/Napa/Sonoma 标签核验；不据旧视频认定现行法规。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-24",
+        "sourceRefs": [
+          "turn6search5",
+          "turn11search5"
+        ],
+        "directRead": "412_precondition_failed"
+      }
+    },
+    {
+      "id": "bili-riesling",
+      "title": "二级品酒师精讲课——8雷司令",
+      "url": "https://www.bilibili.com/video/BV1EK411b77C/",
+      "platform": "Bilibili",
+      "publisher": "葡萄酒迪先森",
+      "publisherUrl": "https://space.bilibili.com/31565765/",
+      "language": "zh-CN",
+      "topic": "grape_varieties",
+      "topicLabel": "葡萄品种",
+      "tags": [
+        "雷司令",
+        "Riesling",
+        "白葡萄酒"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "完成一张雷司令品种卡：结构、风味、代表产区与不同甜度风格；再尝试把这些特征说成自然的客人推荐语。",
+      "placementBasis": "按题名和发布者课程索引作教学匹配。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-24",
+        "sourceRefs": [
+          "turn6search4",
+          "turn11search2"
+        ],
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-chardonnay",
+      "title": "二级品酒师精讲课——10霞多丽",
+      "url": "https://www.bilibili.com/video/BV1pK411b7QC/",
+      "platform": "Bilibili",
+      "publisher": "葡萄酒迪先森",
+      "publisherUrl": "https://space.bilibili.com/31565765/",
+      "language": "zh-CN",
+      "topic": "grape_varieties",
+      "topicLabel": "葡萄品种",
+      "tags": [
+        "霞多丽",
+        "Chardonnay",
+        "白葡萄酒"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "以霞多丽为例，把品种、气候与酿造选择分开记录，练习解释同一品种为何会呈现不同风格。",
+      "placementBasis": "按题名和发布者课程索引作教学匹配。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-24",
+        "sourceRefs": [
+          "turn6search0",
+          "turn11search1"
+        ],
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-xiaopi-intro",
+      "title": "小皮葡萄酒讲堂 ｜品酒 #01 初阶品酒体验",
+      "url": "https://www.bilibili.com/video/BV1yb41147oQ/",
+      "platform": "Bilibili",
+      "publisher": "小皮葡萄酒讲堂",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "品鉴训练",
+        "小皮葡萄酒讲堂"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "初次品鉴时练习观察与表达，不急于猜产地。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn28search0"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1yb41147oQ/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-xiaopi-flow",
+      "title": "小皮葡萄酒讲堂 ｜品酒 #14 品酒全流程",
+      "url": "https://www.bilibili.com/video/BV1xA411Y769/",
+      "platform": "Bilibili",
+      "publisher": "小皮葡萄酒讲堂",
+      "language": "zh-CN",
+      "topic": "service",
+      "topicLabel": "侍酒服务",
+      "tags": [
+        "侍酒服务",
+        "小皮葡萄酒讲堂"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "观察开酒、倒酒与品鉴的步骤，整理课堂实操清单。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn28search1"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1xA411Y769/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-xiaopi-myths",
+      "title": "小皮葡萄酒讲堂 ｜品酒 #15 误区盘点",
+      "url": "https://www.bilibili.com/video/BV1Bi4y1g7VM/",
+      "platform": "Bilibili",
+      "publisher": "小皮葡萄酒讲堂",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "品鉴训练",
+        "小皮葡萄酒讲堂"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "记录常见判断误区，再用课程依据逐项核对。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn28search4"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1Bi4y1g7VM/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-xiaopi-faults",
+      "title": "小皮葡萄酒讲堂 ｜品酒 #18 怪味道",
+      "url": "https://www.bilibili.com/video/BV1gy4y1g7ef/",
+      "platform": "Bilibili",
+      "publisher": "小皮葡萄酒讲堂",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "品鉴训练",
+        "小皮葡萄酒讲堂"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "把不熟悉的香气与真正酒病分开记录，准备课堂讨论。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn28search5"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1gy4y1g7ef/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-xiaopi-scores",
+      "title": "小皮葡萄酒讲堂 ｜品酒 #04 评分和奖项",
+      "url": "https://www.bilibili.com/video/BV1ut411A7mx/",
+      "platform": "Bilibili",
+      "publisher": "小皮葡萄酒讲堂",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "品鉴训练",
+        "小皮葡萄酒讲堂"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "比较评分、奖项与个人偏好各自能说明什么。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn28search7"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1ut411A7mx/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-xiaopi-oak",
+      "title": "小皮葡萄酒讲堂 ｜品酒 #08 橡木桶",
+      "url": "https://www.bilibili.com/video/BV1AJ411u79V/",
+      "platform": "Bilibili",
+      "publisher": "小皮葡萄酒讲堂",
+      "language": "zh-CN",
+      "topic": "vinification",
+      "topicLabel": "葡萄酒酿造",
+      "tags": [
+        "葡萄酒酿造",
+        "小皮葡萄酒讲堂"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "整理橡木影响风味和质地的方式，并与课程中的熟化选择连接。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn28search8"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1AJ411u79V/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-xiaopi-sparkling",
+      "title": "小皮葡萄酒讲堂 ｜品种 #08 起泡酒",
+      "url": "https://www.bilibili.com/video/BV1B54y1U7PZ/",
+      "platform": "Bilibili",
+      "publisher": "小皮葡萄酒讲堂",
+      "language": "zh-CN",
+      "topic": "vinification",
+      "topicLabel": "葡萄酒酿造",
+      "tags": [
+        "葡萄酒酿造",
+        "小皮葡萄酒讲堂"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "建立起泡酒类型的初步框架，再比较不同酿造方式。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn28search10"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1B54y1U7PZ/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-xiaopi-cabernet",
+      "title": "小皮葡萄酒讲堂 ｜品种 #01 赤霞珠",
+      "url": "https://www.bilibili.com/video/BV1Ab411J7af/",
+      "platform": "Bilibili",
+      "publisher": "小皮葡萄酒讲堂",
+      "language": "zh-CN",
+      "topic": "grape_varieties",
+      "topicLabel": "葡萄品种",
+      "tags": [
+        "葡萄品种",
+        "小皮葡萄酒讲堂"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "记录赤霞珠的结构、常见风味与产区差异。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn23search17"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1Ab411J7af/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-julien-paris",
+      "title": "50年前，这瓶酒改写了新世界葡萄酒的地位",
+      "url": "https://www.bilibili.com/video/BV1Pc3i6BEWu/",
+      "platform": "Bilibili",
+      "publisher": "朱利安的微醺视界",
+      "language": "zh-CN",
+      "topic": "history",
+      "topicLabel": "历史与人物",
+      "tags": [
+        "历史与人物",
+        "朱利安的微醺视界"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "将视频中的历史事件与新旧世界的市场认知联系起来。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn23search0"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1Pc3i6BEWu/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-julien-blind-challenge",
+      "title": "中国盲品冠军🇨🇳挑战🇫🇷法国葡萄酒大师【第三季 第一回合】",
+      "url": "https://www.bilibili.com/video/BV1HJZjBoELY/",
+      "platform": "Bilibili",
+      "publisher": "朱利安的微醺视界",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "品鉴训练",
+        "朱利安的微醺视界"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "先听描述与排除过程，再比较揭晓后的判断依据。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn23search1"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1HJZjBoELY/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-julien-scores",
+      "title": "今天聊聊葡萄酒的评分",
+      "url": "https://www.bilibili.com/video/BV1aN4y1n78e/",
+      "platform": "Bilibili",
+      "publisher": "朱利安的微醺视界",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "品鉴训练",
+        "朱利安的微醺视界"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "练习把品质判断、个人喜好和分数分开表达。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn23search9"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1aN4y1n78e/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-julien-fridge",
+      "title": "葡萄酒能存在冰箱里吗？",
+      "url": "https://www.bilibili.com/video/BV16K411B7iT/",
+      "platform": "Bilibili",
+      "publisher": "朱利安的微醺视界",
+      "language": "zh-CN",
+      "topic": "service",
+      "topicLabel": "侍酒服务",
+      "tags": [
+        "侍酒服务",
+        "朱利安的微醺视界"
+      ],
+      "difficulty": "foundation",
+      "difficultyLabel": "基础",
+      "suggestedStages": [
+        "Introductory",
+        "CS"
+      ],
+      "learningPrompt": "区分短期冷藏、开瓶保存与长期储藏的需求。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn31search2"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV16K411B7iT/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-julien-quality",
+      "title": "葡萄酒的品质很主观吗？",
+      "url": "https://www.bilibili.com/video/BV1f7411F7Qd/",
+      "platform": "Bilibili",
+      "publisher": "朱利安的微醺视界",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "品鉴训练",
+        "朱利安的微醺视界"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "用明确的感官依据解释品质，而不是只给出喜欢或不喜欢。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn31search14"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1f7411F7Qd/",
+        "directRead": "not_attempted"
+      }
+    },
+    {
+      "id": "bili-nora-cotes",
+      "title": "夜丘和伯恩丘为什么不一样？",
+      "url": "https://www.bilibili.com/video/BV1phZfBJEsn/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "language": "zh-CN",
+      "topic": "regions",
+      "topicLabel": "国家与产区",
+      "tags": [
+        "国家与产区",
+        "nora的葡萄酒世界"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "对照勃艮第地图整理夜丘、伯恩丘的位置、品种及风格；具体论点待教师审看。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn31search4"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1phZfBJEsn/",
+        "directRead": "not_attempted"
+      },
+      "publisherUrl": "https://space.bilibili.com/506969146/"
+    },
+    {
+      "id": "bili-nora-lamy",
+      "title": "Hubert Lamy高密种植凭什么贵？！",
+      "url": "https://www.bilibili.com/video/BV1uMyPBzEUf/",
+      "platform": "Bilibili",
+      "publisher": "nora的葡萄酒世界",
+      "language": "zh-CN",
+      "topic": "viticulture",
+      "topicLabel": "葡萄种植",
+      "tags": [
+        "葡萄种植",
+        "nora的葡萄酒世界"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "带着种植密度、竞争、水分和成本的问题观看，区分事实与作者观点。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn31search7"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1uMyPBzEUf/",
+        "directRead": "not_attempted"
+      },
+      "publisherUrl": "https://space.bilibili.com/506969146/"
+    },
+    {
+      "id": "bili-adelaide-course",
+      "title": "【阿德莱德大学】葡萄酒的世界：从葡萄到美酒",
+      "url": "https://www.bilibili.com/video/BV1aK4y1s77S/",
+      "platform": "Bilibili",
+      "publisher": "Lesicarz",
+      "language": "en",
+      "topic": "viticulture",
+      "topicLabel": "葡萄种植",
+      "tags": [
+        "葡萄种植",
+        "Lesicarz"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "英语课程学习候选，包含葡萄藤、种植、酿造与品鉴；可配合术语听读训练。合集原列50节，非50个独立审核视频。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn25search17"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1aK4y1s77S/",
+        "directRead": "not_attempted"
+      },
+      "rightsReview": "上传者非大学官方账号；简介列学堂在线原课来源。本版仅外链；不可冒充官方授权转载或自有课程。"
+    },
+    {
+      "id": "bili-julien-deduction",
+      "title": "葡萄酒侦探——如何盲品识酒？",
+      "url": "https://www.bilibili.com/video/BV1xoymBREdw/",
+      "platform": "Bilibili",
+      "publisher": "朱利安的微醺视界",
+      "language": "zh-CN",
+      "topic": "tasting",
+      "topicLabel": "品鉴训练",
+      "tags": [
+        "盲品",
+        "Deductive Tasting"
+      ],
+      "difficulty": "intermediate",
+      "difficultyLabel": "进阶",
+      "suggestedStages": [
+        "CS",
+        "AS"
+      ],
+      "learningPrompt": "记录盲品推理所用线索，并区别观察、假设与最终结论。",
+      "placementBasis": "按原平台题名、简介及发布者元数据匹配；尚未完整审看，不代表 CMS 官方课程或难度认定。",
+      "sourceType": "third_party_video",
+      "officialCms": false,
+      "verification": {
+        "metadata": "search_index_verified",
+        "playbackTested": false,
+        "fullContentReviewed": false,
+        "checkedAt": "2026-10-25",
+        "sourceRefs": [
+          "turn31search8"
+        ],
+        "evidenceUrl": "https://www.bilibili.com/video/BV1xoymBREdw/",
+        "directRead": "not_attempted"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "id": "nora",
+      "requestedName": "Nora 的葡萄酒世界",
+      "name": "nora的葡萄酒世界",
+      "url": "https://space.bilibili.com/506969146/",
+      "status": "profile_and_video_metadata_verified",
+      "evidenceRefs": [
+        "turn20search0",
+        "turn31search4",
+        "turn31search7"
+      ],
+      "note": "已核对 B站主页名及2个具体视频；未核对跨平台账号主体一致性，不与同名自然酒吧 Nora Liu 混同。"
+    },
+    {
+      "id": "miki",
+      "requestedName": "Miki老师",
+      "name": "Miki老师",
+      "url": null,
+      "status": "identity_pending",
+      "note": "多次 B站与全网检索未找到唯一对应葡萄酒教学账号；出现 Miki 张薇、Micky Chan 等不同人名，未擅自认定。需要一条本人分享链接或准确账号名后接入。"
+    },
+    {
+      "id": "somehouse",
+      "requestedName": "Somehouse",
+      "name": "Somehouse",
+      "url": null,
+      "status": "identity_pending",
+      "ownership": "own",
+      "note": "公开检索 Somehouse / 侍酒师社未找到可唯一确认的 B站发布账号或视频；预留自有内容分类，不能用其他人的视频填充。"
+    }
+  ],
+  "researchNotes": [
+    "Nora主页可检索，直读不可用；具体视频的题名与作者由原平台索引确认。",
+    "Miki老师、Somehouse身份缺口不阻塞其余视频入候选库。"
+  ]
+}

@@ -1,0 +1,1318 @@
+{
+  "producers": [
+    {
+      "id": "producer-fr-belleville",
+      "name": "Domaine Belleville",
+      "aliases": [],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "Rully, Côte Chalonnaise",
+      "website": "https://domainebelleville.com/en/the-domaine",
+      "intro": "以 Rully 为核心的地块型酒庄，官网列11款 Rully，涵盖五个白一级园及 Chapitre 红一级园；逐款区分土壤、藤龄、栽培与用桶。",
+      "scope": "Rully现行官网目录11款已逐款核对；采用酒款级技术资料，未将未标年份参数冒充某一年份。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史",
+          "text": "Belleville 家族于二十世纪初在 Rully 建立酒庄，随后扩展至 Mercurey 及 Côte d’Or；2023年开始经营 Monthélie 地块。",
+          "sourceIds": [
+            "rully-complete-belleville-history",
+            "rully-complete-belleville-estate"
+          ]
+        },
+        {
+          "title": "人物与所有权",
+          "text": "官网记载酒庄于2002和2008年经历瑞士家族所有权阶段，2017年由一对美国夫妇及酒庄总监 Jean-Luc Vitoux 收购。官网没有给出该夫妇姓名或股权比例。",
+          "sourceIds": [
+            "rully-complete-belleville-history"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "官网列18 ha自有及经营葡萄园，并自2023年增管 Monthélie 4.5 ha。Rully 占10.5 ha，其中 Chardonnay 8.25 ha、Pinot Noir 2.25 ha；五款白一级园和一款红一级园合计超过4 ha。面积按酒庄网页口径，不等于2026年地籍审计。",
+          "sourceIds": [
+            "rully-complete-belleville-estate"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "以地块单独管理；2017年开始转向有机耕作。官网称原18 ha自2021年份获有机认证；2023年新增 Monthélie 地块的网页状态为转换期。抹芽、修剪、覆盖作物及耕作强度按各地块调整。",
+          "sourceIds": [
+            "rully-complete-belleville-values",
+            "rully-complete-belleville-estate"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "酒庄以单一地块分别酿造、熟成，强调少量硫及节制用桶。Rully技术页列12或16个月熟成，新桶比例依酒款为15%至35%；各酒款页保留自己的数值。",
+          "sourceIds": [
+            "rully-complete-belleville-estate",
+            "rully-complete-belleville-catalogue"
+          ]
+        },
+        {
+          "title": "Rully 酒款",
+          "text": "现行官网列11款 Rully：8白、3红。白一级园为 Chapitre、La Fosse、Les Cloux、La Pucelle、Rabourcé；红一级园为 Chapitre。五款 Village 为白 Les Saint-Jacques、La Crée、La Perche，红 Chaponnière、Les Villeranges。",
+          "sourceIds": [
+            "rully-complete-belleville-catalogue"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-chapitre",
+          "name": "Rully Premier Cru Blanc Chapitre",
+          "place": "中坡黏土—石灰岩地块；网页所列平均藤龄约45年。酒庄加强抹芽，以控制芽数并追求更细致的表达。Chapitre 的名称与 Chalon 的 Saint-Vincent 主教座堂教士团有关。",
+          "grape": "Chardonnay",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占25%。",
+          "detail": "酒庄描述以成熟白色水果、轻微烤面包及圆润质感为主，收结带咸鲜感。这是 Chardonnay 白酒；同庄 Chapitre 红酒另有独立档案。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-1er-blanc-chapitre",
+            "rully-complete-belleville-rully-1er-blanc-chapitre-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Mid-slope clay-limestone parcel; the estate page gives an average vine age of about 45 years. More extensive debudding is used to refine the crop. The name recalls the chapter of Saint-Vincent cathedral in Chalon.",
+              "grape": "Chardonnay",
+              "method": "The undated estate profile lists 12 months of élevage and 25% new oak.",
+              "detail": "The estate describes ripe white fruit, light toast, a rounded palate and a saline finish. This is the Chardonnay bottling; Chapitre Pinot Noir is a separate wine.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/5/image_bouteille/fiche/rully-1er-cru-chapitre.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/5/rully-1er-cru-quot-chapitre-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-la-fosse",
+          "name": "Rully Premier Cru Blanc La Fosse",
+          "place": "中坡黏土—石灰岩地块，天然凹地有泉水，为 Thalie 河源头。网页列约30年藤龄；采用较长修剪并严格抹芽管理长势。",
+          "grape": "Chardonnay",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占25%。",
+          "detail": "酒庄描述为新鲜水果与矿物调性，入口清晰，酸度与圆润质感平衡，余味持久。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-1er-blanc-la-fosse"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Mid-slope clay-limestone in a natural hollow with a spring at the source of the Thalie. The estate lists approximately 30-year-old vines, longer pruning and rigorous debudding to manage vigour.",
+              "grape": "Chardonnay",
+              "method": "The undated estate profile lists 12 months of élevage and 25% new oak.",
+              "detail": "The estate describes fresh fruit and a mineral register, a defined attack and balanced acidity and roundness, followed by a persistent finish.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/4/image_bouteille/fiche/rully-1er-cru-la-fosse.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/4/rully-1er-cru-quot-la-fosse-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-les-cloux",
+          "name": "Rully Premier Cru Blanc Les Cloux",
+          "place": "朝东陡坡上部，黏土—石灰岩土壤中石灰岩占比较高；网页所列藤龄约35年。为减少侵蚀，限制深耕。Cloux 与由围墙或树篱围合的 clos 一词有关。",
+          "grape": "Chardonnay",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占25%。",
+          "detail": "酒庄描述带柑橘、白色水果、黄油及烘烤香气，口感有结构和圆润度，收结呈矿物调性。酒标用 Les Cloux。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-1er-blanc-les-cloux",
+            "rully-complete-belleville-rully-1er-blanc-les-cloux-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "East-facing upper slope, steep and limestone-dominant within clay-limestone soils. The page lists about 35-year-old vines. Deep tillage is limited to reduce erosion; Cloux refers to enclosed plots.",
+              "grape": "Chardonnay",
+              "method": "The undated estate profile lists 12 months of élevage and 25% new oak.",
+              "detail": "Estate notes combine citrus and white fruit with buttery and toasted accents, a structured but rounded palate and a mineral finish. The estate labels this wine Les Cloux.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/7/image_bouteille/fiche/rully-1er-cru-les-cloux.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/7/rully-1er-cru-quot-les-cloux-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-la-pucelle",
+          "name": "Rully Premier Cru Blanc La Pucelle",
+          "place": "朝东、多石坡地，网页所列平均藤龄约40年；酒庄认为该地块长势自然均衡。庄园讲述的幼女获赠佳地故事属于地名传说。",
+          "grape": "Chardonnay",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占25%。",
+          "detail": "酒庄描述为白色水果与柑橘、黄油及烤面包调性；结构清楚而质感圆润，余味较长。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-1er-blanc-la-pucelle",
+            "rully-complete-belleville-rully-1er-blanc-la-pucelle-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Stony east-facing slope with an estate-listed average vine age of about 40 years and naturally balanced growth. The story of a lord granting this parcel to his youngest daughter is presented as local tradition.",
+              "grape": "Chardonnay",
+              "method": "The undated estate profile lists 12 months of élevage and 25% new oak.",
+              "detail": "The estate describes white fruit and citrus, buttery and toasted nuances, clear structure, a rounded texture and a long finish.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/6/image_bouteille/fiche/rully-1er-cru-la-pucelle.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/6/rully-1er-cru-quot-la-pucelle-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-blanc-rabource",
+          "name": "Rully Premier Cru Blanc Rabourcé",
+          "place": "完全朝南的多石黏土—石灰岩地块；网页列平均藤龄约40年。酒庄采用较早采收掌握成熟度，并通过短修剪鼓励植株长势。",
+          "grape": "Chardonnay",
+          "method": "酒庄未标年份技术资料：熟成16个月，新橡木桶占25%。",
+          "detail": "酒庄描述为较丰厚的白果、香料与烘烤调性，兼具矿物和咸鲜印象。该款熟成为16个月，长于同庄多数白酒网页所列12个月。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-1er-blanc-rabource",
+            "rully-complete-belleville-rully-1er-blanc-rabource-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Fully south-facing, stony clay-limestone parcel with an estate-listed average age of about 40 years. Earlier picking manages ripeness, while shorter pruning supports vine vigour.",
+              "grape": "Chardonnay",
+              "method": "The undated estate profile lists 16 months of élevage and 25% new oak.",
+              "detail": "The estate describes a rich white-fruit profile with spice, toast and mineral-saline accents. Its stated 16-month élevage is longer than the 12 months listed for most of the other estate Rully whites.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/8/image_bouteille/fiche/rully-1er-cru-rabource.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/8/rully-1er-cru-quot-rabource-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-1er-rouge-chapitre",
+          "name": "Rully Premier Cru Rouge Chapitre",
+          "place": "中坡黏土—石灰岩地块，网页列藤龄约40年；较充分的地表植被覆盖，配合修剪和抹芽限制长势，追求均衡成熟。",
+          "grape": "Pinot Noir",
+          "method": "酒庄未标年份技术资料：熟成16个月，新橡木桶占35%。",
+          "detail": "Pinot Noir 红酒。酒庄描述以樱桃、覆盆子、香料、香草和轻微胡椒调性为主，风格细致、果味余韵较长。与 Chapitre 白酒分开记录。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-1er-rouge-chapitre",
+            "rully-complete-belleville-rully-1er-rouge-chapitre-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "Mid-slope clay-limestone parcel, with an estate-listed age of about 40 years. Substantial cover crops, pruning and debudding restrain vigour and promote even ripeness.",
+              "grape": "Pinot Noir",
+              "method": "The undated estate profile lists 16 months of élevage and 35% new oak.",
+              "detail": "Pinot Noir red. The estate describes cherry, raspberry, spice, vanilla and a light pepper note, with a fine-textured palate and long fruity finish. It is distinct from Chapitre Blanc.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/12/image_bouteille/fiche/rully-1er-cru-chapitre.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/12/rully-1er-cru-quot-chapitre-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-blanc-les-saint-jacques",
+          "name": "Rully Blanc Les Saint-Jacques",
+          "place": "坡脚朝东、以黏土为主的村庄级地块，网页列藤龄约30年；沿 Chagny 至 Cluny 古道分布。Les Saint-Jacques 为本款名称，不应与 Clos Saint-Jacques 一级园酒混同。",
+          "grape": "Chardonnay",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占35%。",
+          "detail": "酒庄描述为白花、山楂花、柠檬与热带水果，重在精细香气、活力和清脆口感，而非厚重力量。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-blanc-les-saint-jacques",
+            "rully-complete-belleville-rully-blanc-les-saint-jacques-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "East-facing lower-slope Village parcel, predominantly clay, with an estate-listed age of about 30 years; it lies along the old Chagny–Cluny route. Les Saint-Jacques is distinct from Premier Cru Clos Saint-Jacques.",
+              "grape": "Chardonnay",
+              "method": "The undated estate profile lists 12 months of élevage and 35% new oak.",
+              "detail": "Estate notes emphasize white flowers, hawthorn, lemon and tropical fruit, with fine aromas, energy and a crisp palate rather than weight.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/22/image_bouteille/fiche/rully-les-saint-jacques.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/22/rully-quot-les-saint-jacques-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-blanc-la-cree",
+          "name": "Rully Blanc La Crée",
+          "place": "位于 La Pucelle 一级园下方，村庄级多石黏土—石灰岩地块。由五个藤龄、朝向不同的小区组成，平均藤龄网页列约25年；分小区安排修剪及采收。",
+          "grape": "Chardonnay",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占25%。",
+          "detail": "酒庄描述为黄油、烘烤香气，口感丰厚但保留活力，收结带烤面包调性。La Crée 为 Village 酒，不能因邻近 La Pucelle 而标为 Premier Cru。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-blanc-la-cree",
+            "rully-complete-belleville-rully-blanc-la-cree-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Stony clay-limestone Village site below Premier Cru La Pucelle. Five subplots differ in orientation and vine age; the page gives an average of about 25 years. Pruning and harvest dates are adjusted by subplot.",
+              "grape": "Chardonnay",
+              "method": "The undated estate profile lists 12 months of élevage and 25% new oak.",
+              "detail": "Estate notes describe buttery and toasted aromas, a rich palate with freshness and a toasted finish. La Crée remains a Village wine, despite its position below La Pucelle.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/2/image_bouteille/fiche/rully-la-cree.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/2/rully-quot-la-cree-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-blanc-la-perche",
+          "name": "Rully Blanc La Perche",
+          "place": "坡脚黏土—石灰岩地块，黏土较为突出；网页列平均藤龄约30年。酒庄定期耕作以管理植株长势。",
+          "grape": "Chardonnay",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占35%。",
+          "detail": "酒庄描述为白花、柑橘、杏仁及轻微香料，口感鲜明，带柠檬与热带水果调性，余味持久。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-blanc-la-perche",
+            "rully-complete-belleville-rully-blanc-la-perche-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Lower-slope clay-limestone parcel with a substantial clay component. The estate lists about 30-year-old vines and regular cultivation to manage vigour.",
+              "grape": "Chardonnay",
+              "method": "The undated estate profile lists 12 months of élevage and 35% new oak.",
+              "detail": "The estate describes white flowers, citrus, almond and light spice, with a fresh palate, lemon and tropical-fruit accents and a persistent finish.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/3/image_bouteille/fiche/rully-la-perche.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/3/rully-quot-la-perche-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-rouge-chaponniere",
+          "name": "Rully Rouge Chaponnière",
+          "place": "朝东中坡，黏土较多的黏土—石灰岩地块，网页列平均藤龄约40年。通过针对性修剪和抹芽，协调不同老藤的成熟度。",
+          "grape": "Pinot Noir",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占15%。",
+          "detail": "酒庄描述以草莓、覆盆子等红果为主，兼具烟熏调性和细致口感；新桶比例15%，低于同庄红 Chapitre 的35%。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-rouge-chaponniere",
+            "rully-complete-belleville-rully-rouge-chaponniere-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "East-facing mid-slope clay-limestone with a predominance of clay; the page lists an average vine age of about 40 years. Pruning and debudding help balance ripeness across older vine material.",
+              "grape": "Pinot Noir",
+              "method": "The undated estate profile lists 12 months of élevage and 15% new oak.",
+              "detail": "Estate notes emphasize strawberry and raspberry, a smoky nuance and a delicate palate. The stated 15% new oak is lower than the 35% used for Chapitre Rouge.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/11/image_bouteille/fiche/rully-chaponniere.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/11/rully-quot-chaponniere-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        },
+        {
+          "id": "wine-fr-belleville-rully-rouge-les-villeranges",
+          "name": "Rully Rouge Les Villeranges",
+          "place": "中坡黏土较多的黏土—石灰岩地块，网页列平均藤龄约50年。老藤采取短修剪以支持长势。地名与历史乡村庄园有关。",
+          "grape": "Pinot Noir",
+          "method": "酒庄未标年份技术资料：熟成12个月，新橡木桶占30%。",
+          "detail": "酒庄描述为草莓、覆盆子、烟熏和细致果味口感。本款是 Rully Pinot Noir；同庄另有 Mercurey Les Villeranges 白酒，名称相近但产区及品种不同。",
+          "vintageScope": "未标年份的酒庄技术页，2026-10-29核对；藤龄为网页所述平均值，熟成与新桶比例不作为各年份固定保证。",
+          "sourceIds": [
+            "rully-complete-belleville-rully-rouge-les-villeranges",
+            "rully-complete-belleville-rully-rouge-les-villeranges-pdf"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "Mid-slope clay-limestone with a predominance of clay; the page lists approximately 50-year-old vines. Short pruning supports vigour in these old vines. The place name recalls a rural estate.",
+              "grape": "Pinot Noir",
+              "method": "The undated estate profile lists 12 months of élevage and 30% new oak.",
+              "detail": "The estate describes strawberry, raspberry, smoky nuances and delicate fruit. This is Rully Pinot Noir; the estate also lists a separate Mercurey Les Villeranges white, so the appellation matters.",
+              "vintageScope": "Undated producer specification checked 29 October 2026. Vine ages are the page’s stated averages; élevage and new-oak percentages are not guarantees for every vintage."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "imageUrl": "https://domainebelleville.com/image/vin/13/image_bouteille/fiche/rully-les-villeranges.png",
+          "imageSourceUrl": "https://domainebelleville.com/en/wines/13/rully-quot-les-villeranges-quot",
+          "imageCredit": "Domaine Belleville · official reference bottle",
+          "imageVintageScope": "Official product-page illustration; displayed bottle vintage is not guaranteed to match a purchased bottle."
+        }
+      ],
+      "questions": [],
+      "gaps": [],
+      "translations": {
+        "en": {
+          "intro": "A parcel-focused estate centred on Rully, with eleven Rully labels including five white Premiers Crus and Chapitre Rouge Premier Cru. Individual profiles distinguish site, vine-age statements, cultivation and oak regime.",
+          "scope": "All eleven Rully labels in the current official catalogue have been checked. Undated cuvée specifications are distinguished from vintage-specific data.",
+          "sections": [
+            {
+              "title": "History",
+              "text": "Founded by the Belleville family in early twentieth-century Rully, the estate expanded into Mercurey and the Côte d’Or. Farming in Monthélie began in 2023.",
+              "sourceIds": [
+                "rully-complete-belleville-history",
+                "rully-complete-belleville-estate"
+              ]
+            },
+            {
+              "title": "People & ownership",
+              "text": "The estate history records Swiss-family ownership in 2002 and 2008, followed by acquisition in 2017 by an American couple and director Jean-Luc Vitoux. The page does not name the couple or state shareholdings.",
+              "sourceIds": [
+                "rully-complete-belleville-history"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "The estate lists 18 ha owned and farmed, plus 4.5 ha in Monthélie taken on in 2023. Rully accounts for 10.5 ha: 8.25 ha Chardonnay and 2.25 ha Pinot Noir. Its five white and one red Premier Cru holdings total more than 4 ha. These are estate-reported figures.",
+              "sourceIds": [
+                "rully-complete-belleville-estate"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "Plots are managed individually. Organic conversion began in 2017; the estate reports certification of its original 18 ha from the 2021 vintage and describes the Monthélie addition as in conversion. Debudding, pruning, cover crops and tillage vary by parcel.",
+              "sourceIds": [
+                "rully-complete-belleville-values",
+                "rully-complete-belleville-estate"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "Parcels are vinified and aged separately, with restrained sulphur use and oak management. Rully sheets list either 12 or 16 months of élevage and 15–35% new oak, with the precise specification retained in each wine profile.",
+              "sourceIds": [
+                "rully-complete-belleville-estate",
+                "rully-complete-belleville-catalogue"
+              ]
+            },
+            {
+              "title": "Rully portfolio",
+              "text": "The current catalogue lists eleven Rully wines: eight whites and three reds. The five white Premiers Crus are Chapitre, La Fosse, Les Cloux, La Pucelle and Rabourcé; Chapitre is the red Premier Cru. Village wines comprise three whites and two reds.",
+              "sourceIds": [
+                "rully-complete-belleville-catalogue"
+              ]
+            }
+          ],
+          "gaps": []
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    },
+    {
+      "id": "producer-fr-de-la-folie",
+      "name": "Domaine de la Folie",
+      "aliases": [],
+      "country": "France",
+      "region": "Bourgogne · Côte Chalonnaise",
+      "regionIds": [
+        "fr-rully"
+      ],
+      "appellation": "Rully",
+      "village": "Chagny, Côte Chalonnaise",
+      "website": "https://www.domainedelafolie.fr/histoire-terroir/",
+      "intro": "Chagny 的家族酒庄，由第五代 Clémence 与 Baptiste Dubrulle 经营。五款 Rully 分别呈现老藤、独占园与罐／桶熟成的差异。",
+      "scope": "官网五款Rully已逐款核对，含面积、朝向、栽培、酿造、熟成与酒庄服务建议；未标年份参数保持其原有适用范围。",
+      "status": "source-reviewed",
+      "relatedProducerIds": [],
+      "newsIds": [],
+      "sections": [
+        {
+          "title": "历史",
+          "text": "酒庄位于 Chagny、Côte Chalonnaise 北端。家族历史联系包括运动摄影研究者 Étienne-Jules Marey、画家 Victor Bouton 和 Noël-Bouton 家族；酒庄沿用 Bouton 设计的酒标。",
+          "sourceIds": [
+            "rully-complete-folie-history"
+          ]
+        },
+        {
+          "title": "人物与传承",
+          "text": "第五代 Clémence 与 Baptiste Dubrulle 自2010年经营，分别有公关及工程背景。上一代 Jérôme 与 Elisabeth Noël-Bouton 推动商业及海外发展，并开创 Cuvée Marey。",
+          "sourceIds": [
+            "rully-complete-folie-history"
+          ]
+        },
+        {
+          "title": "葡萄园",
+          "text": "Rully 白酒来自 Clos la Folie、Clos du Chaigne 和 Clos Saint-Jacques，后两者为一级园。红酒为 Clos de Bellecroix 及 Cuvée Marey。各页面积和朝向分别记录；Marey与Bellecroix的面积口径不作未经证实的加总。",
+          "sourceIds": [
+            "rully-complete-folie-catalogue",
+            "rully-complete-folie-rully-blanc-clos-la-folie",
+            "rully-complete-folie-rully-1er-blanc-clos-du-chaigne",
+            "rully-complete-folie-rully-1er-blanc-clos-saint-jacques",
+            "rully-complete-folie-rully-rouge-clos-de-bellecroix",
+            "rully-complete-folie-rully-rouge-cuvee-marey"
+          ]
+        },
+        {
+          "title": "栽培",
+          "text": "五款技术页均列土壤耕作、culture raisonnée及人工小箱采收。这里的culture raisonnée不自动等于有机或生物动力认证；本轮未发现支持该认证说法的官方资料。",
+          "sourceIds": [
+            "rully-complete-folie-rully-blanc-clos-la-folie",
+            "rully-complete-folie-rully-1er-blanc-clos-du-chaigne",
+            "rully-complete-folie-rully-1er-blanc-clos-saint-jacques",
+            "rully-complete-folie-rully-rouge-clos-de-bellecroix",
+            "rully-complete-folie-rully-rouge-cuvee-marey"
+          ]
+        },
+        {
+          "title": "酿造与熟成",
+          "text": "三款白酒低压压榨、细致澄清，并描述酿造阶段不加SO₂。Clos la Folie罐熟；两款白一级园桶熟，新桶20%。红酒全部去梗；Clos de Bellecroix罐熟，Marey桶熟且新桶20%。",
+          "sourceIds": [
+            "rully-complete-folie-rully-blanc-clos-la-folie",
+            "rully-complete-folie-rully-1er-blanc-clos-du-chaigne",
+            "rully-complete-folie-rully-1er-blanc-clos-saint-jacques",
+            "rully-complete-folie-rully-rouge-clos-de-bellecroix",
+            "rully-complete-folie-rully-rouge-cuvee-marey"
+          ]
+        },
+        {
+          "title": "Rully 酒款",
+          "text": "官网Rully目录共五款：三白、两红；五款已保留各自独立档案。酒庄另列Aligoté、Crémant、Ratafia、Marc及黑醋栗利口酒，这些不计为Rully AOP酒款。",
+          "sourceIds": [
+            "rully-complete-folie-catalogue"
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "wine-fr-de-la-folie-rully-blanc-clos-la-folie",
+          "name": "Rully Blanc Clos la Folie",
+          "place": "北—东北朝向、黏土—石灰岩土壤，酒庄记载为1.96 ha独占园，平均藤龄约40年。采用土壤耕作、culture raisonnée及人工小箱采收。",
+          "grape": "Chardonnay",
+          "method": "低压压榨、细致澄清；酒庄称 vinification sans SO₂，之后罐中熟成。该表述不提供装瓶总SO₂含量，不能解读为零硫检测结果。",
+          "detail": "酒庄定位为清新、果味明确的 Chardonnay；罐熟风格与同庄桶熟的两款一级园形成对照。",
+          "vintageScope": "未标年份酒庄技术页，2026-10-29核对；面积、藤龄及工艺为该页所述口径，不保证所有年份完全相同。",
+          "sourceIds": [
+            "rully-complete-folie-rully-blanc-clos-la-folie"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "North-northeast-facing clay-limestone; the estate identifies a 1.96 ha monopole with an average vine age of about 40 years. Soil cultivation, culture raisonnée and hand harvest in small crates are stated.",
+              "grape": "Chardonnay",
+              "method": "Low-pressure pressing and careful settling; the estate describes vinification without SO₂, followed by tank ageing. This does not provide a bottled total-SO₂ measurement.",
+              "detail": "The estate presents a fresh, fruit-led Chardonnay. Tank maturation distinguishes it from the two barrel-aged Premier Cru whites.",
+              "vintageScope": "Undated estate page checked 29 October 2026. Area, vine age and methods retain the source’s scope and are not guaranteed for every vintage.",
+              "serving": "Estate guidance: 12–14°C; around 7 years of cellaring depending on vintage and storage conditions."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "serving": "酒庄建议12–14°C；储藏参考约7年，须结合年份及保存条件。"
+        },
+        {
+          "id": "wine-fr-de-la-folie-rully-1er-blanc-clos-du-chaigne",
+          "name": "Rully Premier Cru Blanc Clos du Chaigne",
+          "place": "朝东、黏土—石灰岩土壤；酒庄记载3.26 ha独占园，平均藤龄约50年。人工小箱采收，配合土壤耕作与culture raisonnée。",
+          "grape": "Chardonnay",
+          "method": "低压压榨、细致澄清；酒庄称酿造阶段不加SO₂，橡木桶熟成，新桶20%。网页未列熟成月数或装瓶总SO₂数值。",
+          "detail": "酒庄定位为有力量、丰厚的白一级园。Clos du Chaigne 与 Clos Saint-Jacques 是分开标示的酒款，面积和藤龄也分别记录。",
+          "vintageScope": "未标年份酒庄技术页，2026-10-29核对；面积、藤龄及工艺为该页所述口径，不保证所有年份完全相同。",
+          "sourceIds": [
+            "rully-complete-folie-rully-1er-blanc-clos-du-chaigne"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "East-facing clay-limestone; the estate records a 3.26 ha monopole and an average vine age of about 50 years. Hand harvesting in small crates accompanies soil cultivation and culture raisonnée.",
+              "grape": "Chardonnay",
+              "method": "Low-pressure pressing, careful settling and vinification described as without SO₂; barrel ageing with 20% new oak. The page does not specify ageing duration or bottled total SO₂.",
+              "detail": "The estate characterizes this Premier Cru white as powerful and generous. Clos du Chaigne and Clos Saint-Jacques are separate bottlings with different stated areas and vine ages.",
+              "vintageScope": "Undated estate page checked 29 October 2026. Area, vine age and methods retain the source’s scope and are not guaranteed for every vintage.",
+              "serving": "Estate guidance: 12–14°C; around 10 years of cellaring depending on vintage and storage conditions."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "serving": "酒庄建议12–14°C；储藏参考约10年，须结合年份及保存条件。"
+        },
+        {
+          "id": "wine-fr-de-la-folie-rully-1er-blanc-clos-saint-jacques",
+          "name": "Rully Premier Cru Blanc Clos Saint-Jacques",
+          "place": "朝东、黏土—石灰岩土壤，酒庄记载1.69 ha独占园；网页列平均藤龄80–90年，是本庄老藤白酒的重要参照。人工小箱采收。",
+          "grape": "Chardonnay",
+          "method": "低压压榨、细致澄清，酿造阶段不加SO₂；桶熟，新桶20%。熟成月数及装瓶总SO₂未在该页公布。",
+          "detail": "酒庄定位为兼具力量与优雅的老藤白一级园。Clos Saint-Jacques 的 Premier Cru 身份须与名称相近的 Village Les Saint-Jacques 区分。",
+          "vintageScope": "未标年份酒庄技术页，2026-10-29核对；面积、藤龄及工艺为该页所述口径，不保证所有年份完全相同。",
+          "sourceIds": [
+            "rully-complete-folie-rully-1er-blanc-clos-saint-jacques"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "chardonnay"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Premier Cru",
+          "translations": {
+            "en": {
+              "place": "East-facing clay-limestone, identified by the estate as a 1.69 ha monopole. The page lists an average vine age of 80–90 years; harvesting is by hand in small crates.",
+              "grape": "Chardonnay",
+              "method": "Low-pressure pressing and careful settling, followed by vinification described as without SO₂ and barrel ageing with 20% new oak. Ageing duration and bottled total SO₂ are not stated.",
+              "detail": "The estate presents a powerful yet elegant old-vine Premier Cru white. Premier Cru Clos Saint-Jacques must be distinguished from similarly named Village Les Saint-Jacques wines.",
+              "vintageScope": "Undated estate page checked 29 October 2026. Area, vine age and methods retain the source’s scope and are not guaranteed for every vintage.",
+              "serving": "Estate guidance: 12–14°C; around 10 years of cellaring depending on vintage and storage conditions."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "serving": "酒庄建议12–14°C；储藏参考约10年，须结合年份及保存条件。"
+        },
+        {
+          "id": "wine-fr-de-la-folie-rully-rouge-clos-de-bellecroix",
+          "name": "Rully Rouge Clos de Bellecroix",
+          "place": "北—东北朝向，黏土—石灰岩土壤；酒庄列面积3.18 ha、平均藤龄约50年。人工小箱采收并采用土壤耕作及culture raisonnée。",
+          "grape": "Pinot Noir",
+          "method": "100%去梗、发酵前浸渍；采用淋汁及完整放汁回淋，不压帽；在罐中熟成。官网未公布浸渍温度或熟成月数。",
+          "detail": "酒庄定位为清新、爽脆的 Pinot Noir；罐熟及不压帽的工艺说明是理解它与 Cuvée Marey 差异的依据。",
+          "vintageScope": "未标年份酒庄技术页，2026-10-29核对；面积、藤龄及工艺为该页所述口径，不保证所有年份完全相同。",
+          "sourceIds": [
+            "rully-complete-folie-rully-rouge-clos-de-bellecroix"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "North-northeast-facing clay-limestone; the estate lists 3.18 ha and an average vine age of about 50 years. Hand harvesting in small crates, soil cultivation and culture raisonnée are specified.",
+              "grape": "Pinot Noir",
+              "method": "Fully destemmed, with pre-fermentation maceration, pumpovers and complete rack-and-return; no punchdowns. Aged in tank. Maceration temperature and ageing duration are not published.",
+              "detail": "The estate describes a fresh, crunchy Pinot Noir. Its tank ageing and extraction choices provide a useful comparison with the separate Cuvée Marey.",
+              "vintageScope": "Undated estate page checked 29 October 2026. Area, vine age and methods retain the source’s scope and are not guaranteed for every vintage.",
+              "serving": "Estate guidance: 12–14°C; around 10 years of cellaring depending on vintage and storage conditions."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "serving": "酒庄建议12–14°C；储藏参考约10年，须结合年份及保存条件。"
+        },
+        {
+          "id": "wine-fr-de-la-folie-rully-rouge-cuvee-marey",
+          "name": "Rully Rouge Cuvée Marey du Clos de Bellecroix",
+          "place": "酒庄该酒款页列朝东、黏土—石灰岩地块，面积1.60 ha、平均藤龄约50年。网页未明确其与Clos de Bellecroix 3.18 ha的面积是否重叠，不能直接相加。",
+          "grape": "Pinot Noir",
+          "method": "100%去梗、发酵前浸渍；在claie格栅下进行酒精发酵，不压帽，采用淋汁；桶中熟成，新桶20%。",
+          "detail": "酒庄定位为浓郁而优雅的 Pinot Noir。Cuvée Marey 由 Jérôme 与 Elisabeth Noël-Bouton 开创；桶熟将其与罐熟 Clos de Bellecroix 区分。",
+          "vintageScope": "未标年份酒庄技术页，2026-10-29核对；面积、藤龄及工艺为该页所述口径，不保证所有年份完全相同。",
+          "sourceIds": [
+            "rully-complete-folie-rully-rouge-cuvee-marey",
+            "rully-complete-folie-history"
+          ],
+          "status": "source-reviewed",
+          "grapeIds": [
+            "pinot-noir"
+          ],
+          "regionId": "fr-rully",
+          "denomination": "Rully AOP · Village",
+          "translations": {
+            "en": {
+              "place": "The wine page lists east-facing clay-limestone, 1.60 ha and approximately 50-year-old vines. It does not establish whether this area overlaps the 3.18 ha listed for Clos de Bellecroix; the areas should not be added.",
+              "grape": "Pinot Noir",
+              "method": "Fully destemmed with pre-fermentation maceration; alcoholic fermentation under a claie framework, no punchdowns and the use of pumpovers. Barrel ageing includes 20% new oak.",
+              "detail": "The estate describes an intense, elegant Pinot Noir. Created by Jérôme and Elisabeth Noël-Bouton, Cuvée Marey is distinguished from tank-aged Clos de Bellecroix by its barrel élevage.",
+              "vintageScope": "Undated estate page checked 29 October 2026. Area, vine age and methods retain the source’s scope and are not guaranteed for every vintage.",
+              "serving": "Estate guidance: 12–14°C; around 10 years of cellaring depending on vintage and storage conditions."
+            }
+          },
+          "sourceVerifiedAt": "2026-10-29",
+          "vintage": null,
+          "serving": "酒庄建议12–14°C；储藏参考约10年，须结合年份及保存条件。"
+        }
+      ],
+      "questions": [],
+      "gaps": [],
+      "translations": {
+        "en": {
+          "intro": "A family estate in Chagny, run by fifth-generation Clémence and Baptiste Dubrulle. Five Rully wines distinguish old vines, estate monopoles and individual tank or barrel regimes.",
+          "scope": "All five official Rully wines have been checked individually for site, cultivation, cellar methods and estate service guidance. Undated specifications retain their original scope.",
+          "sections": [
+            {
+              "title": "History",
+              "text": "Located in Chagny at the northern end of the Côte Chalonnaise, the estate’s family history includes motion-photography researcher Étienne-Jules Marey, painter Victor Bouton and the Noël-Bouton family. Bouton’s label designs remain in use.",
+              "sourceIds": [
+                "rully-complete-folie-history"
+              ]
+            },
+            {
+              "title": "People & family",
+              "text": "Fifth-generation Clémence and Baptiste Dubrulle have run the domaine since 2010, following careers in public relations and engineering. Jérôme and Elisabeth Noël-Bouton developed its commercial reach and created Cuvée Marey.",
+              "sourceIds": [
+                "rully-complete-folie-history"
+              ]
+            },
+            {
+              "title": "Vineyards",
+              "text": "Rully whites comprise Clos la Folie and the Premiers Crus Clos du Chaigne and Clos Saint-Jacques. Reds are Clos de Bellecroix and Cuvée Marey. Parcel areas and aspects are recorded separately; the relationship between the two red-wine area figures is not assumed.",
+              "sourceIds": [
+                "rully-complete-folie-catalogue",
+                "rully-complete-folie-rully-blanc-clos-la-folie",
+                "rully-complete-folie-rully-1er-blanc-clos-du-chaigne",
+                "rully-complete-folie-rully-1er-blanc-clos-saint-jacques",
+                "rully-complete-folie-rully-rouge-clos-de-bellecroix",
+                "rully-complete-folie-rully-rouge-cuvee-marey"
+              ]
+            },
+            {
+              "title": "Viticulture",
+              "text": "All five technical pages state soil cultivation, culture raisonnée and hand harvesting in small crates. Culture raisonnée is not treated as proof of organic or biodynamic certification.",
+              "sourceIds": [
+                "rully-complete-folie-rully-blanc-clos-la-folie",
+                "rully-complete-folie-rully-1er-blanc-clos-du-chaigne",
+                "rully-complete-folie-rully-1er-blanc-clos-saint-jacques",
+                "rully-complete-folie-rully-rouge-clos-de-bellecroix",
+                "rully-complete-folie-rully-rouge-cuvee-marey"
+              ]
+            },
+            {
+              "title": "Vinification & élevage",
+              "text": "Whites are gently pressed and carefully settled, with vinification described as without SO₂. Clos la Folie is tank-aged; the Premier Cru whites use 20% new oak. Reds are destemmed: Clos de Bellecroix matures in tank and Marey in barrels with 20% new oak.",
+              "sourceIds": [
+                "rully-complete-folie-rully-blanc-clos-la-folie",
+                "rully-complete-folie-rully-1er-blanc-clos-du-chaigne",
+                "rully-complete-folie-rully-1er-blanc-clos-saint-jacques",
+                "rully-complete-folie-rully-rouge-clos-de-bellecroix",
+                "rully-complete-folie-rully-rouge-cuvee-marey"
+              ]
+            },
+            {
+              "title": "Rully portfolio",
+              "text": "The official Rully catalogue comprises three whites and two reds, each with its own profile here. Aligoté, Crémant, Ratafia, Marc and blackcurrant liqueur are separate categories and are not counted as Rully AOP wines.",
+              "sourceIds": [
+                "rully-complete-folie-catalogue"
+              ]
+            }
+          ],
+          "gaps": []
+        }
+      },
+      "sourceVerifiedAt": "2026-10-29"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rully-complete-belleville-estate",
+      "title": "Domaine Belleville · The estate",
+      "url": "https://domainebelleville.com/en/the-estate",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-history",
+      "title": "Domaine Belleville · History",
+      "url": "https://domainebelleville.com/en/the-history",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-values",
+      "title": "Domaine Belleville · Viticulture",
+      "url": "https://domainebelleville.com/en/our-values",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-catalogue",
+      "title": "Domaine Belleville · Wine catalogue",
+      "url": "https://domainebelleville.com/en/wines",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-folie-history",
+      "title": "Domaine de la Folie · History and terroir",
+      "url": "https://www.domainedelafolie.fr/histoire-terroir/",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-folie-catalogue",
+      "title": "Domaine de la Folie · Wine catalogue",
+      "url": "https://www.domainedelafolie.fr/vins-spiritueux/",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-chapitre",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc Chapitre",
+      "url": "https://domainebelleville.com/en/wines/5/rully-1er-cru-quot-chapitre-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-chapitre-pdf",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc Chapitre · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/5/en/rully-1er-cru-quot-chapitre-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-la-fosse",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc La Fosse",
+      "url": "https://domainebelleville.com/en/wines/4/rully-1er-cru-quot-la-fosse-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-les-cloux",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc Les Cloux",
+      "url": "https://domainebelleville.com/en/wines/7/rully-1er-cru-quot-les-cloux-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-les-cloux-pdf",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc Les Cloux · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/7/en/rully-1er-cru-quot-les-cloux-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-la-pucelle",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc La Pucelle",
+      "url": "https://domainebelleville.com/en/wines/6/rully-1er-cru-quot-la-pucelle-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-la-pucelle-pdf",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc La Pucelle · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/6/en/rully-1er-cru-quot-la-pucelle-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-rabource",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc Rabourcé",
+      "url": "https://domainebelleville.com/en/wines/8/rully-1er-cru-quot-rabource-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-blanc-rabource-pdf",
+      "title": "Domaine Belleville · Rully Premier Cru Blanc Rabourcé · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/8/en/rully-1er-cru-quot-rabource-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-rouge-chapitre",
+      "title": "Domaine Belleville · Rully Premier Cru Rouge Chapitre",
+      "url": "https://domainebelleville.com/en/wines/12/rully-1er-cru-quot-chapitre-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-1er-rouge-chapitre-pdf",
+      "title": "Domaine Belleville · Rully Premier Cru Rouge Chapitre · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/12/en/rully-1er-cru-quot-chapitre-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-blanc-les-saint-jacques",
+      "title": "Domaine Belleville · Rully Blanc Les Saint-Jacques",
+      "url": "https://domainebelleville.com/en/wines/22/rully-quot-les-saint-jacques-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-blanc-les-saint-jacques-pdf",
+      "title": "Domaine Belleville · Rully Blanc Les Saint-Jacques · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/22/en/rully-quot-les-saint-jacques-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-blanc-la-cree",
+      "title": "Domaine Belleville · Rully Blanc La Crée",
+      "url": "https://domainebelleville.com/en/wines/2/rully-quot-la-cree-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-blanc-la-cree-pdf",
+      "title": "Domaine Belleville · Rully Blanc La Crée · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/2/en/rully-quot-la-cree-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-blanc-la-perche",
+      "title": "Domaine Belleville · Rully Blanc La Perche",
+      "url": "https://domainebelleville.com/en/wines/3/rully-quot-la-perche-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-blanc-la-perche-pdf",
+      "title": "Domaine Belleville · Rully Blanc La Perche · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/3/en/rully-quot-la-perche-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-rouge-chaponniere",
+      "title": "Domaine Belleville · Rully Rouge Chaponnière",
+      "url": "https://domainebelleville.com/en/wines/11/rully-quot-chaponniere-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-rouge-chaponniere-pdf",
+      "title": "Domaine Belleville · Rully Rouge Chaponnière · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/11/en/rully-quot-chaponniere-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-rouge-les-villeranges",
+      "title": "Domaine Belleville · Rully Rouge Les Villeranges",
+      "url": "https://domainebelleville.com/en/wines/13/rully-quot-les-villeranges-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-belleville-rully-rouge-les-villeranges-pdf",
+      "title": "Domaine Belleville · Rully Rouge Les Villeranges · technical sheet",
+      "url": "https://domainebelleville.com/pdf/vin/13/en/rully-quot-les-villeranges-quot",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-folie-rully-blanc-clos-la-folie",
+      "title": "Domaine de la Folie · Rully Blanc Clos la Folie",
+      "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-la-folie-1/",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-folie-rully-1er-blanc-clos-du-chaigne",
+      "title": "Domaine de la Folie · Rully Premier Cru Blanc Clos du Chaigne",
+      "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-du-chaigne-1er-cru-1/",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-folie-rully-1er-blanc-clos-saint-jacques",
+      "title": "Domaine de la Folie · Rully Premier Cru Blanc Clos Saint-Jacques",
+      "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-st-jacques-1er-cru/",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-folie-rully-rouge-clos-de-bellecroix",
+      "title": "Domaine de la Folie · Rully Rouge Clos de Bellecroix",
+      "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-de-bellecroix-1/",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    },
+    {
+      "id": "rully-complete-folie-rully-rouge-cuvee-marey",
+      "title": "Domaine de la Folie · Rully Rouge Cuvée Marey du Clos de Bellecroix",
+      "url": "https://www.domainedelafolie.fr/vins-spiritueux/cuv%C3%A9e-marey/",
+      "type": "official_producer",
+      "accessed": "2026-10-29",
+      "verification": "Official producer page retrieved and reviewed on 2026-10-29."
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-10-29",
+    "checkedWineIds": [
+      "wine-fr-belleville-rully-1er-blanc-chapitre",
+      "wine-fr-belleville-rully-1er-blanc-la-fosse",
+      "wine-fr-belleville-rully-1er-blanc-les-cloux",
+      "wine-fr-belleville-rully-1er-blanc-la-pucelle",
+      "wine-fr-belleville-rully-1er-blanc-rabource",
+      "wine-fr-belleville-rully-1er-rouge-chapitre",
+      "wine-fr-belleville-rully-blanc-les-saint-jacques",
+      "wine-fr-belleville-rully-blanc-la-cree",
+      "wine-fr-belleville-rully-blanc-la-perche",
+      "wine-fr-belleville-rully-rouge-chaponniere",
+      "wine-fr-belleville-rully-rouge-les-villeranges",
+      "wine-fr-de-la-folie-rully-blanc-clos-la-folie",
+      "wine-fr-de-la-folie-rully-1er-blanc-clos-du-chaigne",
+      "wine-fr-de-la-folie-rully-1er-blanc-clos-saint-jacques",
+      "wine-fr-de-la-folie-rully-rouge-clos-de-bellecroix",
+      "wine-fr-de-la-folie-rully-rouge-cuvee-marey"
+    ],
+    "newWines": [],
+    "portfolioResult": "Official catalogues contain exactly the 11 Belleville and 5 Folie Rully labels already present; all 16 pages checked, no missing current Rully label found.",
+    "unresolvedFacts": [
+      {
+        "scope": "Domaine Belleville individual wines",
+        "fact": "Fermentation temperature, yeast, MLF details and vintage-specific changes are not stated in these undated producer profiles."
+      },
+      {
+        "scope": "Domaine de la Folie",
+        "fact": "Bottled total SO2 and specific ageing durations are not published on the checked wine pages; vinification sans SO2 is not a zero-total-SO2 claim."
+      },
+      {
+        "scope": "Domaine de la Folie Cuvée Marey",
+        "fact": "The official page does not clarify whether its 1.60 ha is included in the 3.18 ha stated for Clos de Bellecroix; areas are not summed."
+      },
+      {
+        "scope": "Domaine Belleville ownership",
+        "fact": "The official history identifies an American couple and Jean-Luc Vitoux, but does not name the couple or provide ownership percentages."
+      }
+    ],
+    "sourceEvidence": [
+      {
+        "url": "https://domainebelleville.com/en/the-estate",
+        "ref": "turn993view0",
+        "claim": "Estate area, Rully grape areas, 2021 organic certification scope, 2023 Monthélie expansion and parcel vinification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/the-history",
+        "ref": "turn993view1",
+        "claim": "Early twentieth-century foundation; 2017 acquisition by an American couple and director Jean-Luc Vitoux."
+      },
+      {
+        "url": "https://domainebelleville.com/en/our-values",
+        "ref": "turn991view1",
+        "claim": "Individual climat management; organic conversion began in 2017; soil work and restricted inputs."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines",
+        "ref": "turn989view1",
+        "claim": "Eleven distinct Rully labels: eight white and three red; six Premier Cru and five Village."
+      },
+      {
+        "url": "https://www.domainedelafolie.fr/histoire-terroir/",
+        "ref": "turn989view2",
+        "claim": "Chagny location; fifth-generation Clémence and Baptiste Dubrulle since 2010; Marey, Bouton and Noël-Bouton family history."
+      },
+      {
+        "url": "https://www.domainedelafolie.fr/vins-spiritueux/",
+        "ref": "turn989view3",
+        "claim": "Five Rully wines, separate from Aligoté, Crémant and spirits."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/5/rully-1er-cru-quot-chapitre-quot",
+        "ref": "turn991view2",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/5/en/rully-1er-cru-quot-chapitre-quot",
+        "ref": "turn1002view0",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/4/rully-1er-cru-quot-la-fosse-quot",
+        "ref": "turn991view3",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/7/rully-1er-cru-quot-les-cloux-quot",
+        "ref": "turn991view4",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/7/en/rully-1er-cru-quot-les-cloux-quot",
+        "ref": "turn1002view2",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/6/rully-1er-cru-quot-la-pucelle-quot",
+        "ref": "turn991view5",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/6/en/rully-1er-cru-quot-la-pucelle-quot",
+        "ref": "turn1002view3",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/8/rully-1er-cru-quot-rabource-quot",
+        "ref": "turn993view2",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/8/en/rully-1er-cru-quot-rabource-quot",
+        "ref": "turn1002view4",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/12/rully-1er-cru-quot-chapitre-quot",
+        "ref": "turn993view3",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/12/en/rully-1er-cru-quot-chapitre-quot",
+        "ref": "turn1002view5",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/22/rully-quot-les-saint-jacques-quot",
+        "ref": "turn993view4",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/22/en/rully-quot-les-saint-jacques-quot",
+        "ref": "turn1002view6",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/2/rully-quot-la-cree-quot",
+        "ref": "turn993view5",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/2/en/rully-quot-la-cree-quot",
+        "ref": "turn1002view7",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/3/rully-quot-la-perche-quot",
+        "ref": "turn993view6",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/3/en/rully-quot-la-perche-quot",
+        "ref": "turn1002view8",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/11/rully-quot-chaponniere-quot",
+        "ref": "turn993view7",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/11/en/rully-quot-chaponniere-quot",
+        "ref": "turn1002view9",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://domainebelleville.com/en/wines/13/rully-quot-les-villeranges-quot",
+        "ref": "turn993view8",
+        "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+      },
+      {
+        "url": "https://domainebelleville.com/pdf/vin/13/en/rully-quot-les-villeranges-quot",
+        "ref": "turn1002view10",
+        "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+      },
+      {
+        "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-la-folie-1/",
+        "ref": "turn997view0",
+        "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+      },
+      {
+        "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-du-chaigne-1er-cru-1/",
+        "ref": "turn997view1",
+        "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+      },
+      {
+        "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-st-jacques-1er-cru/",
+        "ref": "turn997view2",
+        "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+      },
+      {
+        "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-de-bellecroix-1/",
+        "ref": "turn997view3",
+        "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+      },
+      {
+        "url": "https://www.domainedelafolie.fr/vins-spiritueux/cuv%C3%A9e-marey/",
+        "ref": "turn997view4",
+        "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/5/image_bouteille/fiche/rully-1er-cru-chapitre.png",
+        "ref": "turn1033view0",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/4/image_bouteille/fiche/rully-1er-cru-la-fosse.png",
+        "ref": "turn1033view1",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/7/image_bouteille/fiche/rully-1er-cru-les-cloux.png",
+        "ref": "turn1033view2",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/6/image_bouteille/fiche/rully-1er-cru-la-pucelle.png",
+        "ref": "turn1033view3",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/8/image_bouteille/fiche/rully-1er-cru-rabource.png",
+        "ref": "turn1033view4",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/12/image_bouteille/fiche/rully-1er-cru-chapitre.png",
+        "ref": "turn1033view5",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/22/image_bouteille/fiche/rully-les-saint-jacques.png",
+        "ref": "turn1033view6",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/2/image_bouteille/fiche/rully-la-cree.png",
+        "ref": "turn1033view7",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/3/image_bouteille/fiche/rully-la-perche.png",
+        "ref": "turn1033view8",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/11/image_bouteille/fiche/rully-chaponniere.png",
+        "ref": "turn1033view9",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      },
+      {
+        "url": "https://domainebelleville.com/image/vin/13/image_bouteille/fiche/rully-les-villeranges.png",
+        "ref": "turn1033view10",
+        "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+      }
+    ],
+    "imageNote": "Eleven Belleville official product-image URLs recorded. Folie image filenames/alt text all say Clos Saint-Jacques even on other cuvée pages, so they were not assigned without a separate visual identity check."
+  }
+}

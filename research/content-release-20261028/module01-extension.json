@@ -1,0 +1,519 @@
+{
+  "schemaVersion": "somm100-research-extension-1",
+  "moduleId": "module01",
+  "title": "Understanding and Extension｜理解与延伸",
+  "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+  "sourcePageId": "3fb17d16-de4c-81d1-bc62-eafbd8059c86",
+  "sourceLastEdited": "2026-10-27T08:10:57.784Z",
+  "preparedOn": "2026-10-28",
+  "sourceVerification": {
+    "state": "unverified"
+  },
+  "counts": {
+    "topics": 16,
+    "images": 7,
+    "paragraphs": 16,
+    "readingLinks": 25,
+    "videos": 0
+  },
+  "sections": [
+    {
+      "id": "M1-EXP13",
+      "title": "Wine categories & residual sugar｜分类、干甜与残糖",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不同分类轴线彼此独立：颜色（红、白、桃红）、有无气泡、是否加强酒精与残糖水平，并不是同一回事。一款酒的果香闻起来甜，不表示它一定有较高残糖；Port 与 Fino 同属加强酒，甜度却可能完全不同。顺着分类往下看，学习重点便自然连接到**酵母发酵、残糖测量、止酵与甜酒酿造**。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[葡萄酒的起源与分类 · 红酒世界](http://www.wine-world.com/course/cj/20121211102237000)",
+            "[What determines the colour of wine?](https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 1
+    },
+    {
+      "id": "M1-EXP14",
+      "title": "Chaptalisation vs Süssreserve｜增醇与增甜",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Chaptalisation 在发酵前或期间添加可发酵糖，目标通常是增加潜在酒精；Süssreserve 则是把保留的未发酵葡萄汁用于调整成酒甜度。两者的**添加时机、作用对象与最终结果**都不同。进一步可连接 Mutage（加烈终止发酵）、Dosage 与各产区不同的增糖法规，避免把所有“加糖”混成一个概念。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Preserved grape must](https://www.oiv.int/standards/international-code-of-oenological-practices/part-i-definitions/musts/preserved-grape-must)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 2
+    },
+    {
+      "id": "M1-EXP15",
+      "title": "Terroir, climate, soils & water｜风土、气候、土壤与水",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Terroir 不是把某种岩石直接翻译成某种香气。更合理的理解是气候、地形、坡向、土壤性质、可用水和人的栽培选择共同影响葡萄成熟。**坡向不等于温度、排水良好不等于缺水**；把水分、叶幕、成熟度与最终糖酸关系接在一起，才能真正读懂一个园址。"
+        },
+        {
+          "type": "image",
+          "src": "/media/cms-extension-20261028/SOMM_Soil_Profile_Agne27_CCBYSA3.jpg",
+          "caption": "葡萄园土壤剖面 · Agne27 · CC BY-SA 3.0",
+          "credit": "Agne27",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kiona_soil_sample.JPG",
+          "reference": "notion-file-block://bd80a352-89b7-49f8-bd2b-3a25e2de5feb/de141e69-ceeb-4e58-82f8-f876b8eae251?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Soil_Profile_Agne27_CCBYSA3.jpg",
+          "sourceCaptionMarkdown": "葡萄园土壤剖面 · Agne27 · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [原图](https://commons.wikimedia.org/wiki/File:Kiona_soil_sample.JPG)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[OIV：正式 Terroir 定义](https://www.oiv.int/node/3362)",
+            "[How geography affects wine style](https://www.wsetglobal.com/knowledge-centre/blog/2021/august/24/how-does-geography-affect-a-wine-s-style)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 3
+    },
+    {
+      "id": "M1-EXP16",
+      "title": "Vine material & grafting｜葡萄藤材料、砧木与嫁接",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "砧木（Rootstock）与接穗（Scion）通过嫁接结合，可以把根系的抗性和地上品种的果实特性分开选择，却不会由此产生新的遗传杂交品种。**Variety、Clone、Crossing、Hybrid**是四个不同层次的概念；顺着砧木继续读，可以自然理解根瘤蚜、土壤适应性、修剪与树冠管理。"
+        },
+        {
+          "type": "image",
+          "src": "/media/cms-extension-20261028/SOMM_Graft_Union_Wcarter_CC0.jpg",
+          "caption": "葡萄藤嫁接口 · W.carter · CC0",
+          "credit": "W.carter",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graft_union_on_vines_in_Lysekil_1.jpg",
+          "reference": "notion-file-block://787bc60c-5158-4806-b1b8-f0cf0c974f4c/3018a487-c5b2-421a-bb39-6a28013f8a30?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Graft_Union_Wcarter_CC0.jpg",
+          "sourceCaptionMarkdown": "葡萄藤嫁接口 · W.carter · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) · [原图](https://commons.wikimedia.org/wiki/File:Graft_union_on_vines_in_Lysekil_1.jpg)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Decanter China：砧木是否影响风味？](https://www.decanterchina.com/zh/%E8%91%A1%E8%90%84%E9%85%92%E5%AD%A6%E4%B9%A0/%E8%91%A1%E8%90%84%E9%85%92%E5%B8%B8%E8%AF%86/%E9%99%A4%E4%BA%86%E6%8A%97%E5%87%BB%E6%A0%B9%E7%98%A4%E8%9A%9C-%E7%A0%A7%E6%9C%A8%E8%BF%98%E4%BC%9A%E5%AF%B9%E8%91%A1%E8%90%84%E9%85%92%E9%A3%8E%E5%91%B3%E9%80%A0%E6%88%90%E5%BD%B1%E5%93%8D%E5%90%97-%E9%97%AE%E9%97%AEdecanter)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 4
+    },
+    {
+      "id": "M1-EXP17",
+      "title": "Vine life cycle & vineyard decisions｜葡萄藤周期",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从 Dormancy、Budburst、Flowering、Fruit Set 到 Véraison、Ripening 和 Harvest，葡萄藤每个阶段的主要风险并不一样。花期恶劣天气可能影响坐果，春季萌芽组织则特别易受霜冻损伤。将**年度物候、气候异常、采收期与年份差异**画成同一条线，比单独背每个术语更有价值。"
+        },
+        {
+          "type": "image",
+          "src": "/media/cms-extension-20261028/SOMM_Budbreak_Agne27_CCBYSA3.jpg",
+          "caption": "葡萄藤萌芽 · Agne27 · CC BY-SA 3.0",
+          "credit": "Agne27",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Budbreak_on_Lynden_blue.jpg",
+          "reference": "notion-file-block://8d0111c2-acf3-46be-871b-bbb4a949bcf3/72235e98-df91-4d76-86ce-b1124ca2a3ae?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Budbreak_Agne27_CCBYSA3.jpg",
+          "sourceCaptionMarkdown": "葡萄藤萌芽 · Agne27 · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [原图](https://commons.wikimedia.org/wiki/File:Budbreak_on_Lynden_blue.jpg)"
+        },
+        {
+          "type": "image",
+          "src": "/media/cms-extension-20261028/SOMM_Veraison_Pagnier_CCBYSA3.jpg",
+          "caption": "葡萄转色期 · Véronique Pagnier · CC BY-SA 3.0",
+          "credit": "Véronique Pagnier",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A9raison.JPG",
+          "reference": "notion-file-block://5164123b-117d-4611-8862-08f1a3ef3ebc/b22b38dc-7d86-4804-99f2-ebbf4deb35cf?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Veraison_Pagnier_CCBYSA3.jpg",
+          "sourceCaptionMarkdown": "葡萄转色期 · Véronique Pagnier · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [原图](https://commons.wikimedia.org/wiki/File:V%C3%A9raison.JPG)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[The lifecycle of a vine](https://www.wsetglobal.com/knowledge-centre/blog/2021/june/22/the-lifecycle-of-a-vine)",
+            "[Grapevine phenology](https://pubs.nmsu.edu/_h/H338/index.html)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 5
+    },
+    {
+      "id": "M1-EXP18",
+      "title": "Frost & vintage risk｜霜冻与年份风险",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "春霜的危害不仅取决于温度数字，也取决于辐射霜冻还是平流冷空气、是否存在逆温层以及冷空气流向。风机需要合适的逆温条件，喷水防霜则依赖水结冰释放潜热并且必须正确、持续运行。由此可延伸到**选址、坡地冷空气排流、年份减产**，而不把一种设备当万能答案。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Weather, wine and vintages](https://www.wsetglobal.com/knowledge-centre/blog/2021/march/22/weather-wine-and-vintages)",
+            "[Frost Management](https://www.wineaustralia.com/growing-making/vineyard-management/frost-management)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 6
+    },
+    {
+      "id": "M1-EXP19",
+      "title": "Disease, Botrytis & passerillage｜疾病、贵腐与干缩",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Phylloxera 是昆虫，Powdery mildew 是真菌病害，Downy mildew 的病原属于卵菌，Botrytis cinerea 也是真菌。Botrytis 在合适天气组合下可能形成 Noble Rot，也可能带来毁灭性的 Grey Rot；Passerillage 则是葡萄失水干缩，不等于贵腐。这里的知识联系是**湿度与干燥、病原与果实状态、糖分浓缩与最后的成酒风格**。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Weather and vintages](https://www.wsetglobal.com/knowledge-centre/blog/2021/march/22/weather-wine-and-vintages)",
+            "[Decanter China：葡萄藤树干疾病](https://www.decanterchina.com/zh/%E5%90%8D%E5%AE%B6%E4%B8%93%E6%A0%8F/%E4%B8%8Ejefford%E7%9B%B8%E7%BA%A6%E6%98%9F%E6%9C%9F%E4%B8%80/%E4%B8%8B%E4%B8%80%E4%B8%AA-%E6%A0%B9%E7%98%A4%E8%9A%9C%E7%BA%A7-%E7%81%BE%E9%9A%BE-%E8%AF%B4%E8%AF%B4%E8%91%A1%E8%90%84%E8%97%A4%E6%A0%91%E5%B9%B2%E7%96%BE%E7%97%85)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 7
+    },
+    {
+      "id": "M1-EXP20",
+      "title": "Harvest, ripeness & sorting｜采收决策与成熟度",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "糖度、酸度、风味成熟和酚类成熟并非在同一天同时达到理想值。采收选择会影响潜在酒精、酸感、单宁成熟与酿造空间；有时同一产区或品种为起泡基酒与成熟干红选择不同采收窗口。理解这一点，也就能把**气候、葡萄成熟、果实分选与酿造目标**连在一起。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Geography and wine style](https://www.wsetglobal.com/knowledge-centre/blog/2021/august/24/how-does-geography-affect-a-wine-s-style)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 8
+    },
+    {
+      "id": "M1-EXP21",
+      "title": "White / red vinification & pressing｜红白酿造与压榨",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "典型白酒工艺通常先压榨再发酵，典型红酒则带皮发酵并在萃取后分离酒液和葡萄皮。颜色与单宁主要来自果皮接触和酿造选择，但不能据此断言所有白葡萄酒都不浸皮、黑葡萄不能做白酒。**Crushing、Pressing、Maceration、Free-run 与 Press Wine**也各有明确含义。"
+        },
+        {
+          "type": "image",
+          "src": "/media/cms-extension-20261028/SOMM_Membrane_Press_Pitkin_CCBYSA2.jpg",
+          "caption": "气囊压榨机与压榨后的葡萄皮 · Robert Pitkin · CC BY-SA 2.0",
+          "credit": "Robert Pitkin",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inside_of_membrane_wine_press.jpg",
+          "reference": "notion-file-block://92ce01f3-6b99-40a3-8055-aa94230f550d/0743a4f4-f995-47d1-8a9a-7df309d66f14?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Membrane_Press_Pitkin_CCBYSA2.jpg",
+          "sourceCaptionMarkdown": "气囊压榨机与压榨后的葡萄皮 · Robert Pitkin · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) · [原图](https://commons.wikimedia.org/wiki/File:Inside_of_membrane_wine_press.jpg)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[How red wine is made](https://winefolly.com/deep-dive/how-is-red-wine-made/)",
+            "[Wine colour](https://www.wsetglobal.com/knowledge-centre/blog/2021/september/23/what-determines-the-colour-of-wine)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 9
+    },
+    {
+      "id": "M1-EXP22",
+      "title": "Alcoholic fermentation, yeast & SO₂｜酵母、酒精发酵与二氧化硫",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "酒精发酵主要由酵母把糖转为乙醇与二氧化碳，同时产生多种次生香气物质；发酵温度、营养、氧管理都会影响进程。二氧化硫可参与抗氧化和微生物管理，但不是在酒表面形成一层实体薄膜。接下来便可比较**酵母 vs 乳酸菌、酒精发酵 vs 苹果酸乳酸转化**，避免用同一个“发酵”字眼混淆机制。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Alcoholic fermentation](https://www.oiv.int/standards/international-code-of-oenological-practices/part-ii-oenological-treatments-and-practices/musts/alcoholic-fermentation)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 10
+    },
+    {
+      "id": "M1-EXP23",
+      "title": "Extraction, carbonic & whole bunch｜萃取、二氧化碳浸渍与整串",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "压帽（Pigeage）、淋皮（Remontage）和抽汁回灌（Délestage）都是皮帽管理与萃取方式，却不代表一定更好或更差。Whole-bunch 保留整串葡萄，Carbonic maceration 的关键则是富二氧化碳环境中完整果粒的细胞内代谢，两者不能互作同义词。将**萃取、梗的参与、果香与单宁结构**联系起来，才有助于理解杯中风格。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[原始微信推文](https://mp.weixin.qq.com/s/oH8HgfV1W0lftBuxVHGVzg)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 11
+    },
+    {
+      "id": "M1-EXP24",
+      "title": "Malolactic fermentation & diacetyl｜苹果酸乳酸发酵",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "MLF 更准确地说是 Malolactic Conversion：乳酸菌（常见如 Oenococcus oeni）把苹果酸转为乳酸与二氧化碳，使酸感往往更柔和，同时影响微生物稳定性。这**不是第二次酒精发酵**。黄油香常与双乙酰有关，但其形成及保留取决于菌株、柠檬酸代谢、酿造时机和管理，不是“做了 MLF 就一定有黄油味”。香槟可以选择完全、部分或不进行 MLF，以保留不同的张力与质地。"
+        },
+        {
+          "type": "image",
+          "src": "/media/cms-extension-20261028/MLF_Conversion_CC0_Jnjoffin.jpg",
+          "caption": "苹果酸乳酸转化 · Jnjoffin · CC0",
+          "credit": "Jnjoffin",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fermentation_malolactique.jpg",
+          "reference": "notion-file-block://684e2dea-8f2e-4090-926c-d7f620deced3/5d8e1ba2-9848-42c0-b61d-1f81c0a0b1d1?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=MLF_Conversion_CC0_Jnjoffin.jpg",
+          "sourceCaptionMarkdown": "苹果酸乳酸转化 · Jnjoffin · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) · [原图](https://commons.wikimedia.org/wiki/File:Fermentation_malolactique.jpg)"
+        },
+        {
+          "type": "image",
+          "src": "/media/cms-extension-20261028/MLF_Chromatography_CCBYSA3_Agne27.jpg",
+          "caption": "苹果酸乳酸转化纸层析 · Agne27 · CC BY-SA 3.0",
+          "credit": "Agne27",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:MLF_spotting_sheet_results.JPG",
+          "reference": "notion-file-block://1e542085-0079-4b9f-b4c4-020a36d906bb/fff35137-cb89-4528-8240-af0a9520921f?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=MLF_Chromatography_CCBYSA3_Agne27.jpg",
+          "sourceCaptionMarkdown": "苹果酸乳酸转化纸层析 · Agne27 · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [原图](https://commons.wikimedia.org/wiki/File:MLF_spotting_sheet_results.JPG)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[槟客文化《Malo or Not Malo？要不要苹果酸-乳酸发酵？》](https://mp.weixin.qq.com/s/Owlhoqzq2lZfwxB07chzvQ)",
+            "[AWRI · Using MLF to modulate wine style](https://www.awri.com.au/wp-content/uploads/mlf_modulation_AWRI_fact_sheet.pdf)",
+            "[AWRI · MLF timing](https://www.awri.com.au/industry_support/winemaking_resources/winemaking-practices/winemaking-treatment-mlf-timing/)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 12
+    },
+    {
+      "id": "M1-EXP25",
+      "title": "Lees, bâtonnage, maturation & oak｜酒泥、搅桶与橡木",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lees 是发酵后沉积的物质；Sur Lie 说明酒与酒泥接触，Bâtonnage 则是主动搅动酒泥。它们不是一回事。酒泥接触可影响质地与氧化还原环境；橡木桶还带来木材本身的化合物和不同程度的氧接触。要解释酒的**丰满度、奶油感与香料气息**，必须分开看酒泥、搅动、桶龄、烘烤程度、发酵与熟成。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Lees contact](https://www.awri.com.au/industry_support/winemaking_resources/winemaking-practices/winemaking-treatment-lees-contact/)",
+            "[Why oak is used](https://www.wsetglobal.com/knowledge-centre/blog/2021/july/27/why-is-oak-used-in-winemaking/)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 13
+    },
+    {
+      "id": "M1-EXP26",
+      "title": "Fining, filtration, tartrates & stability｜澄清、过滤与稳定",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "澄清（Fining）、过滤（Filtration）、沉降（Settling）与换桶（Racking）处理的对象和方式不同；澄清透明并不代表已经实现蛋白、酒石或微生物稳定。酒中的酒石结晶通常无害，并非酒变质的证据。再往下可连接**装瓶前处理、蛋白质稳定、冷稳定和消费者的外观判断**。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[OIV：国际酿造工艺目录](https://www.oiv.int/standards/international-code-of-oenological-practices)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 14
+    },
+    {
+      "id": "M1-EXP27",
+      "title": "Organic, biodynamic & natural｜有机、生物动力、自然酒",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Organic、Biodynamic 和 Natural Wine 不是一套完全重叠的概念，也没有统一适用于全世界的认证制度。具体生产限制须对应国家、机构和时间，不能把“有机”解释成绝对不用农药或二氧化硫，也不能据此直接断定更安全、更好喝。相关延伸应帮助学生区分**法规认证、生产哲学与营销语言**。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Busting wine jargon](https://www.wsetglobal.com/knowledge-centre/blog/2022/september/27/busting-wine-industry-jargon)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 15
+    },
+    {
+      "id": "M1-EXP28",
+      "title": "Grape-variety bridge｜品种与酒风格",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "葡萄品种带有一定风格潜力，但不是一组永远固定的香气标签。气候与采收决定成熟基础，浸皮、酵母、MLF、橡木、酒泥和陈年又继续塑造最终表现。将同一 Chardonnay 或 Pinot Noir 在不同产区和不同酿造选择中的表现放在一起比较，才能把**品种、环境、工艺与杯中风格**连起来。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Decanter China：酿酒葡萄的身份](https://www.decanterchina.com/zh/%E8%91%A1%E8%90%84%E9%85%92%E5%AD%A6%E4%B9%A0/%E8%91%A1%E8%90%84%E9%85%92%E5%B8%B8%E8%AF%86/%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E8%91%A1%E8%90%84%E9%80%82%E5%90%88%E7%94%A8%E6%9D%A5%E9%85%BF%E9%85%92-%E8%91%97%E5%90%8D%E5%93%81%E7%A7%8D%E7%9A%84%E7%9C%9F%E5%AE%9E-%E8%BA%AB%E4%BB%BD-%E5%A4%A7%E6%8F%AD%E7%A7%98)"
+          ]
+        }
+      ],
+      "track": false,
+      "sourceUrl": "https://app.notion.com/p/3fb17d16de4c81d1bc62eafbd8059c86?pvs=204",
+      "originalTopicOrder": 16
+    }
+  ],
+  "images": [
+    {
+      "type": "image",
+      "src": "/media/cms-extension-20261028/SOMM_Soil_Profile_Agne27_CCBYSA3.jpg",
+      "caption": "葡萄园土壤剖面 · Agne27 · CC BY-SA 3.0",
+      "credit": "Agne27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kiona_soil_sample.JPG",
+      "reference": "notion-file-block://bd80a352-89b7-49f8-bd2b-3a25e2de5feb/de141e69-ceeb-4e58-82f8-f876b8eae251?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Soil_Profile_Agne27_CCBYSA3.jpg",
+      "sourceCaptionMarkdown": "葡萄园土壤剖面 · Agne27 · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [原图](https://commons.wikimedia.org/wiki/File:Kiona_soil_sample.JPG)",
+      "topic": "Terroir, climate, soils & water｜风土、气候、土壤与水",
+      "sha256": "63ad2563a7ff9e0a1621502d88b4bea97ba4a982e44bf0b410fe9aec1c8ab273",
+      "sizeBytes": 1796932
+    },
+    {
+      "type": "image",
+      "src": "/media/cms-extension-20261028/SOMM_Graft_Union_Wcarter_CC0.jpg",
+      "caption": "葡萄藤嫁接口 · W.carter · CC0",
+      "credit": "W.carter",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graft_union_on_vines_in_Lysekil_1.jpg",
+      "reference": "notion-file-block://787bc60c-5158-4806-b1b8-f0cf0c974f4c/3018a487-c5b2-421a-bb39-6a28013f8a30?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Graft_Union_Wcarter_CC0.jpg",
+      "sourceCaptionMarkdown": "葡萄藤嫁接口 · W.carter · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) · [原图](https://commons.wikimedia.org/wiki/File:Graft_union_on_vines_in_Lysekil_1.jpg)",
+      "topic": "Vine material & grafting｜葡萄藤材料、砧木与嫁接",
+      "sha256": "c16bee7c1303bb56b0e8b25cfa2716143c564a2be629b43c31e796e4aea2aa19",
+      "sizeBytes": 333210
+    },
+    {
+      "type": "image",
+      "src": "/media/cms-extension-20261028/SOMM_Budbreak_Agne27_CCBYSA3.jpg",
+      "caption": "葡萄藤萌芽 · Agne27 · CC BY-SA 3.0",
+      "credit": "Agne27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Budbreak_on_Lynden_blue.jpg",
+      "reference": "notion-file-block://8d0111c2-acf3-46be-871b-bbb4a949bcf3/72235e98-df91-4d76-86ce-b1124ca2a3ae?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Budbreak_Agne27_CCBYSA3.jpg",
+      "sourceCaptionMarkdown": "葡萄藤萌芽 · Agne27 · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [原图](https://commons.wikimedia.org/wiki/File:Budbreak_on_Lynden_blue.jpg)",
+      "topic": "Vine life cycle & vineyard decisions｜葡萄藤周期",
+      "sha256": "f2ea7a75621144444a8e7757456ff0aecf416b0b58327d76269bd10696de22c7",
+      "sizeBytes": 2314763
+    },
+    {
+      "type": "image",
+      "src": "/media/cms-extension-20261028/SOMM_Veraison_Pagnier_CCBYSA3.jpg",
+      "caption": "葡萄转色期 · Véronique Pagnier · CC BY-SA 3.0",
+      "credit": "Véronique Pagnier",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A9raison.JPG",
+      "reference": "notion-file-block://5164123b-117d-4611-8862-08f1a3ef3ebc/b22b38dc-7d86-4804-99f2-ebbf4deb35cf?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Veraison_Pagnier_CCBYSA3.jpg",
+      "sourceCaptionMarkdown": "葡萄转色期 · Véronique Pagnier · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [原图](https://commons.wikimedia.org/wiki/File:V%C3%A9raison.JPG)",
+      "topic": "Vine life cycle & vineyard decisions｜葡萄藤周期",
+      "sha256": "8342843774a1cf20bdd77c75a3c2a0a84c4759df2ed9e332dac98950d0d15535",
+      "sizeBytes": 1603478
+    },
+    {
+      "type": "image",
+      "src": "/media/cms-extension-20261028/SOMM_Membrane_Press_Pitkin_CCBYSA2.jpg",
+      "caption": "气囊压榨机与压榨后的葡萄皮 · Robert Pitkin · CC BY-SA 2.0",
+      "credit": "Robert Pitkin",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inside_of_membrane_wine_press.jpg",
+      "reference": "notion-file-block://92ce01f3-6b99-40a3-8055-aa94230f550d/0743a4f4-f995-47d1-8a9a-7df309d66f14?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=SOMM_Membrane_Press_Pitkin_CCBYSA2.jpg",
+      "sourceCaptionMarkdown": "气囊压榨机与压榨后的葡萄皮 · Robert Pitkin · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) · [原图](https://commons.wikimedia.org/wiki/File:Inside_of_membrane_wine_press.jpg)",
+      "topic": "White / red vinification & pressing｜红白酿造与压榨",
+      "sha256": "3bd2e0ab24e2065f35d64ce297c4370b74d056c13181bd11a9289f43b5bf41d7",
+      "sizeBytes": 2727053
+    },
+    {
+      "type": "image",
+      "src": "/media/cms-extension-20261028/MLF_Conversion_CC0_Jnjoffin.jpg",
+      "caption": "苹果酸乳酸转化 · Jnjoffin · CC0",
+      "credit": "Jnjoffin",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fermentation_malolactique.jpg",
+      "reference": "notion-file-block://684e2dea-8f2e-4090-926c-d7f620deced3/5d8e1ba2-9848-42c0-b61d-1f81c0a0b1d1?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=MLF_Conversion_CC0_Jnjoffin.jpg",
+      "sourceCaptionMarkdown": "苹果酸乳酸转化 · Jnjoffin · [CC0](https://creativecommons.org/publicdomain/zero/1.0/) · [原图](https://commons.wikimedia.org/wiki/File:Fermentation_malolactique.jpg)",
+      "topic": "Malolactic fermentation & diacetyl｜苹果酸乳酸发酵",
+      "sha256": "ce71b1c26b2025a68fcfd2c081c54bebb0f2fa6825b51fa0bd1d1528c526523b",
+      "sizeBytes": 91497
+    },
+    {
+      "type": "image",
+      "src": "/media/cms-extension-20261028/MLF_Chromatography_CCBYSA3_Agne27.jpg",
+      "caption": "苹果酸乳酸转化纸层析 · Agne27 · CC BY-SA 3.0",
+      "credit": "Agne27",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MLF_spotting_sheet_results.JPG",
+      "reference": "notion-file-block://1e542085-0079-4b9f-b4c4-020a36d906bb/fff35137-cb89-4528-8240-af0a9520921f?space_id=90eff6c8-e396-4bec-9407-980d5e7f07bc&name=MLF_Chromatography_CCBYSA3_Agne27.jpg",
+      "sourceCaptionMarkdown": "苹果酸乳酸转化纸层析 · Agne27 · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [原图](https://commons.wikimedia.org/wiki/File:MLF_spotting_sheet_results.JPG)",
+      "topic": "Malolactic fermentation & diacetyl｜苹果酸乳酸发酵",
+      "sha256": "0a1efda819c07eecaf88350c9aaa4fc2e6622a6c62f40de774886f49c7d44b48",
+      "sizeBytes": 1754620
+    }
+  ],
+  "unresolved": [],
+  "integrationNotes": [
+    "First topic's source paragraph precedes its heading in Notion; reassociated with Wine categories & residual sugar without changing prose.",
+    "Proposed section IDs retain M1-EXP13 through M1-EXP28, which are the existing corresponding topic anchors; track=false matches their current state. Owner should deliberately migrate prior KB01-10 completion rather than silently equating new topics with old lessons.",
+    "Seven original uploaded images downloaded and decoded successfully; creator, license URL and source preserved. The current Figure renderer needs license links alongside captions to expose these fields.",
+    "Source contains no current video blocks. Do not reintroduce previously withdrawn YouTube links or placeholders.",
+    "Chinese explanatory paragraphs and bilingual topic titles retained exactly apart from HTML bold becoming Markdown bold. No external article body copied."
+  ]
+}

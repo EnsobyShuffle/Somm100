@@ -1,0 +1,393 @@
+{
+  "sources": [
+    {
+      "id": "gc-illana",
+      "title": "Bodegas Illana｜酒庄与现行酒款",
+      "url": "https://www.bodegasillana.com/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "gc-jucar-council",
+      "title": "DO Ribera del Júcar｜酒庄与酒款目录",
+      "url": "https://vinosriberadeljucar.com/vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": "本次使用 Illana Alma 与 Los Bobalistas Clásico 的明确列名；不采用该页 Blanc de Noir 配方栏的疑似错配。"
+    },
+    {
+      "id": "gc-bobalistas-2024",
+      "title": "Illana｜Los Bobalistas Clásico 2024 官方技术表",
+      "url": "https://www.bodegasillana.com/wp-content/uploads/FICHA-Clasico-2024-Los-Bobalistas.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "gc-estacada-shop",
+      "title": "Finca La Estacada｜官方酒款与酒庄目录",
+      "url": "https://shop.fincalaestacada.com/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "gc-estacada-12",
+      "title": "Finca La Estacada｜12 Meses Barrica 官方产品",
+      "url": "https://shop.fincalaestacada.com/producto/finca-la-estacada-12-meses-barrica/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "gc-estacada-12-sheet",
+      "title": "Finca La Estacada｜12 Meses 官方技术表：DO Uclés",
+      "url": "https://shop.fincalaestacada.com/wp-content/uploads/2024/08/FINCA-LA-ESTACADA-12-MESES_compressed.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "gc-grinon-gpe",
+      "title": "Grandes Pagos de España｜Marqués de Griñón 酒庄",
+      "url": "https://grandespagos.com/bodega/marques-de-grinon/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": "协会酒庄原文确认 Dominio de Valdepusa 的庄园与 Pago 身份；不以协会会员资格本身代替法定认证。"
+    },
+    {
+      "id": "gc-grinon-svmma-sheet",
+      "title": "Marqués de Griñón｜Svmma Varietalis 2008 酒庄技术表（经销商保存镜像）",
+      "url": "https://vinopolis.gi/uploads/pdf/16575.pdf",
+      "kind": "archive",
+      "checkedAt": "2026-10-26",
+      "note": "文件署名 Marqués de Griñón Family Estates，明确年份 2008、Dominio de Valdepusa、品种与熟化；第三方托管的历史一手文件，不能作为当前年份技术保证。"
+    },
+    {
+      "id": "gc-grinon-petit-sheet",
+      "title": "Marqués de Griñón｜Petit Verdot 2006 酒庄技术档案（经销商保存镜像）",
+      "url": "https://www.vinopolis.gi/uploads/pdf/16574.pdf",
+      "kind": "archive",
+      "checkedAt": "2026-10-26",
+      "note": "历史酒庄技术档案，文件写 CURRENT VINTAGE 2006；这里明确按历史版本保存，不将旧字段误写成 2026 现售年份。"
+    },
+    {
+      "id": "gc-granada-calvente",
+      "title": "DO Granada Consejo Regulador｜Bodegas Calvente",
+      "url": "https://www.dopvinosdegranada.es/calvente",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "gc-granada-catalogue-2019",
+      "title": "DO Granada Consejo Regulador｜2019 官方参展产品目录",
+      "url": "https://www.gourmets.net/salon-gourmets/2019/catalogo-expositores/crdo-granada",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": "由 C.R.D.O. Granada 作为参展者发布的产品目录；明确列 Calvente Guindalera Blanco 为 Vino Blanco con DO、Guindalera Tinto 为 Vino Tinto con DO Crianza。只为所列历史命名和版本背书。"
+    },
+    {
+      "id": "gc-calvente-current",
+      "title": "Calvente｜当前白酒品种与酿造",
+      "url": "https://bodegascalvente.com/productos/calvente-original/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": "现行页面确认 Moscatel de Alejandría 与酒泥熟化。2026-09 技术 PDF 超过网页工具体积限制，本次不宣称已读取该 PDF，也不凭酒庄成员身份替所有产品认证。"
+    },
+    {
+      "id": "gc-gonzalez-palacios",
+      "title": "González Palacios｜酒庄与 DOP 身份",
+      "url": "https://gonzalezpalacios.com/quienes-somos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "gc-lebrija-original",
+      "title": "González Palacios｜Flor de Lebrija Frasquito Original",
+      "url": "https://gonzalezpalacios.com/producto/flor-de-lebrija-frasquito-original/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "gc-lebrija-rama",
+      "title": "González Palacios｜Flor de Lebrija Frasquito Reserva en Rama",
+      "url": "https://gonzalezpalacios.com/producto/frasquito-reserva-rama/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "note": ""
+    }
+  ],
+  "producers": [
+    {
+      "id": "gc-bodegas-illana",
+      "name": "Bodegas y Viñedos Illana",
+      "regionIds": [
+        "ribera-del-jucar"
+      ],
+      "location": "Aldea Buenavista, Cuenca",
+      "story": "位于 Aldea Buenavista 的家族酒庄，以葡萄园栽培和 Bobal 表达为核心。Los Bobalistas 系列集中表现 Bobal，Illana Alma 则让白葡萄与黑葡萄白酿相遇；具体 DO 和配方由酒委会目录及技术表交叉核对。",
+      "wineIds": [
+        "gc-illana-bobalistas-clasico",
+        "gc-illana-alma"
+      ],
+      "sourceIds": [
+        "gc-illana",
+        "gc-jucar-council"
+      ],
+      "verification": "official",
+      "website": "https://www.bodegasillana.com/"
+    },
+    {
+      "id": "gc-finca-la-estacada",
+      "name": "Finca La Estacada",
+      "regionIds": [
+        "ucles"
+      ],
+      "location": "Tarancón, Cuenca",
+      "story": "2001 年创立的 Tarancón 酒庄，由红酒生产发展为兼有餐饮与葡萄酒旅游的庄园。12 Meses Barrica 提供明确的 Uclés DO、Tempranillo 与桶陈学习连接；同庄其它系列须逐款核对认证。",
+      "wineIds": [
+        "gc-estacada-12-meses"
+      ],
+      "sourceIds": [
+        "gc-estacada-shop",
+        "gc-estacada-12-sheet"
+      ],
+      "verification": "official",
+      "website": "https://fincalaestacada.com/"
+    },
+    {
+      "id": "gc-marques-de-grinon",
+      "name": "Marqués de Griñón / Pagos de Familia",
+      "regionIds": [
+        "dominio-de-valdepusa"
+      ],
+      "location": "Finca Casa de Vacas, Malpica de Tajo, Toledo",
+      "story": "Dominio de Valdepusa 庄园将 Cabernet Sauvignon、Syrah 与 Petit Verdot 的单品种及混酿表达相连。Grandes Pagos 酒庄页确认该庄园的法定 Pago 身份；本次酒款技术细节取自酒庄署名的历史档案，不能视为当前年份保证。",
+      "wineIds": [
+        "gc-grinon-svmma-varietalis",
+        "gc-grinon-petit-verdot"
+      ],
+      "sourceIds": [
+        "gc-grinon-gpe",
+        "gc-grinon-svmma-sheet"
+      ],
+      "verification": "official",
+      "website": "https://grandespagos.com/bodega/marques-de-grinon/"
+    },
+    {
+      "id": "gc-bodegas-calvente",
+      "name": "Bodegas Calvente",
+      "regionIds": [
+        "granada"
+      ],
+      "location": "Jete, Granada",
+      "story": "Granada 酒委会正式列名的 Jete 小型家族酒庄。La Guindalera 与 Castillejos 山地老葡萄园受海拔和海风调节，Moscatel de Alejandría 干白是重要学习入口。并非该省所有产品或同庄全部酒款都自动获得 Granada DO。",
+      "wineIds": [
+        "gc-calvente-guindalera-blanco",
+        "gc-calvente-guindalera-tinto"
+      ],
+      "sourceIds": [
+        "gc-granada-calvente",
+        "gc-calvente-current"
+      ],
+      "verification": "official",
+      "website": "https://bodegascalvente.com/"
+    },
+    {
+      "id": "gc-gonzalez-palacios",
+      "name": "Bodegas González Palacios",
+      "regionIds": [
+        "lebrija"
+      ],
+      "location": "Lebrija, Sevilla",
+      "story": "1960 年创立的 Lebrija 家族酒庄。Flor de Lebrija 系列以 Pago de Overo 的 Palomino、酒花下熟成和 criaderas 系统表现本地风格；酒庄同时提及 Jerez 体系，仍逐瓶按实际 DOP 区分。",
+      "wineIds": [
+        "gc-flor-lebrija-frasquito-original",
+        "gc-flor-lebrija-frasquito-reserva-rama"
+      ],
+      "sourceIds": [
+        "gc-gonzalez-palacios",
+        "gc-lebrija-original",
+        "gc-lebrija-rama"
+      ],
+      "verification": "official",
+      "website": "https://gonzalezpalacios.com/"
+    }
+  ],
+  "wines": [
+    {
+      "id": "gc-illana-bobalistas-clasico",
+      "name": "Los Bobalistas Clásico",
+      "producerId": "gc-bodegas-illana",
+      "regionId": "ribera-del-jucar",
+      "denomination": "DOP Ribera del Júcar",
+      "grapeIds": [
+        "bobal"
+      ],
+      "grapeText": "官方 2024 技术表：100% Bobal。",
+      "style": "干红",
+      "notes": "2024 官方技术表明确 DOP Ribera del Júcar，十个月在陶罐与带微氧管理的储罐中熟化；不是把所有“十个月”都理解为橡木桶陈年。",
+      "status": "current",
+      "sourceIds": [
+        "gc-bobalistas-2024",
+        "gc-jucar-council"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gc-illana-alma",
+      "name": "Illana Alma",
+      "producerId": "gc-bodegas-illana",
+      "regionId": "ribera-del-jucar",
+      "denomination": "DOP Ribera del Júcar",
+      "grapeIds": [
+        "sauvignon-blanc",
+        "bobal"
+      ],
+      "grapeText": "Sauvignon Blanc 与 Bobal blanc de noir；酒委会目录未列比例，完整年份比例不作推定。",
+      "style": "干白",
+      "notes": "酒委会将此白酒列在 Ribera del Júcar 产品目录，酒庄现行目录列 2025；黑皮 Bobal 以白酿方式参与，不能因最终酒色为白而删去 Bobal 关系。",
+      "status": "current",
+      "sourceIds": [
+        "gc-jucar-council",
+        "gc-illana"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gc-estacada-12-meses",
+      "name": "Finca La Estacada 12 Meses Barrica",
+      "producerId": "gc-finca-la-estacada",
+      "regionId": "ucles",
+      "denomination": "DO Uclés · Crianza",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "Tempranillo；官方技术表的品种栏单列该品种，未另报百分比。",
+      "style": "干红",
+      "notes": "官方技术表明确 Uclés DO、Crianza，并写十二个月美国橡木桶熟化。现行官网仍列此产品；具体年份的酒精等分析参数不从无年份表中扩推。",
+      "status": "current",
+      "sourceIds": [
+        "gc-estacada-12",
+        "gc-estacada-12-sheet"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gc-grinon-svmma-varietalis",
+      "name": "Svmma Varietalis",
+      "producerId": "gc-marques-de-grinon",
+      "regionId": "dominio-de-valdepusa",
+      "denomination": "DOP Dominio de Valdepusa · Vino de Pago",
+      "grapeIds": [
+        "syrah",
+        "cabernet-sauvignon",
+        "petit-verdot"
+      ],
+      "grapeText": "所核实 2008 酒庄技术表：Syrah 为主，混合 Cabernet Sauvignon、Petit Verdot；未列固定百分比。",
+      "style": "干红",
+      "notes": "2008 技术表明确产区为 Dominio de Valdepusa，法国 Allier 橡木桶熟化十二个月。保留为有原始技术依据的产品档案；最新年份组成、熟化和上市状态仍待现行原件。",
+      "status": "archive",
+      "sourceIds": [
+        "gc-grinon-svmma-sheet",
+        "gc-grinon-gpe"
+      ],
+      "verification": "archive"
+    },
+    {
+      "id": "gc-grinon-petit-verdot",
+      "name": "Marqués de Griñón Petit Verdot",
+      "producerId": "gc-marques-de-grinon",
+      "regionId": "dominio-de-valdepusa",
+      "denomination": "DOP Dominio de Valdepusa · Vino de Pago",
+      "grapeIds": [
+        "petit-verdot"
+      ],
+      "grapeText": "所核实 2006 酒庄技术档案：100% Petit Verdot。",
+      "style": "干红",
+      "notes": "2006 技术档案记录庄园 Petit Verdot 单品种、长浸渍与十二至十五个月法国 Allier 新桶熟化；对应历史年份，不将旧文件的“current vintage”误认成现售年份。",
+      "status": "archive",
+      "sourceIds": [
+        "gc-grinon-petit-sheet",
+        "gc-grinon-gpe"
+      ],
+      "verification": "archive"
+    },
+    {
+      "id": "gc-calvente-guindalera-blanco",
+      "name": "Calvente Guindalera Blanco",
+      "producerId": "gc-bodegas-calvente",
+      "regionId": "granada",
+      "denomination": "DO Granada（酒委会 2019 参展目录所列版本）",
+      "grapeIds": [
+        "muscat-of-alexandria"
+      ],
+      "grapeText": "Moscatel de Alejandría；2019 酒委会目录明确该干白的品种。",
+      "style": "干白",
+      "notes": "Granada 酒委会 2019 参展目录明确将此酒列为有 DO 的年轻干白。保留完整历史酒名；不把当前网站简写 Calvente 的所有批次及技术参数无条件追溯合并。",
+      "status": "archive",
+      "sourceIds": [
+        "gc-granada-catalogue-2019",
+        "gc-granada-calvente"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gc-calvente-guindalera-tinto",
+      "name": "Calvente Guindalera Tinto",
+      "producerId": "gc-bodegas-calvente",
+      "regionId": "granada",
+      "denomination": "DO Granada · Crianza（酒委会 2019 参展目录所列版本）",
+      "grapeIds": [],
+      "grapeText": "官方 2019 目录写五种葡萄混酿，但未列五者名称；暂不填写推测品种。",
+      "style": "干红",
+      "notes": "Granada 酒委会的产品目录明确认证为 DO Crianza，记录十四个月法国及美国橡木桶、十二个月瓶陈；数字仅对应该目录版本，不套用到现行年份或 Castillejos。",
+      "status": "archive",
+      "sourceIds": [
+        "gc-granada-catalogue-2019",
+        "gc-granada-calvente"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gc-flor-lebrija-frasquito-original",
+      "name": "Flor de Lebrija Frasquito Original",
+      "producerId": "gc-gonzalez-palacios",
+      "regionId": "lebrija",
+      "denomination": "DOP Lebrija",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "100% Palomino，来自 Pago de Overo。",
+      "style": "干型 generoso · 酒花生物熟成",
+      "notes": "酒庄技术栏明确 DOP Lebrija、100% Palomino，使用 criaderas 与旧 500 升桶在 flor 下熟成。“全年十二个月保持酒花”不是仅陈年十二个月，“五十多年 solera”也不等于瓶中酒平均酒龄。",
+      "status": "current",
+      "sourceIds": [
+        "gc-lebrija-original"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "gc-flor-lebrija-frasquito-reserva-rama",
+      "name": "Flor de Lebrija Frasquito Reserva en Rama",
+      "producerId": "gc-gonzalez-palacios",
+      "regionId": "lebrija",
+      "denomination": "DOP Lebrija",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "100% Palomino，来自 Pago de Overo。",
+      "style": "干型 generoso · 酒花生物熟成 · En Rama",
+      "notes": "独立于 Original 的 Reserva en Rama 产品，酒庄强调尽量保留直接从旧桶取酒的表达；技术栏确认 DOP Lebrija 及 Palomino。不把这种风格相似性改写为 Manzanilla-Sanlúcar 或 Jerez 的认证。",
+      "status": "current",
+      "sourceIds": [
+        "gc-lebrija-rama"
+      ],
+      "verification": "official"
+    }
+  ]
+}

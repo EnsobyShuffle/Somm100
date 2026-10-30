@@ -1,0 +1,9 @@
+{
+ "version":1,
+ "scope":"Geographic orientation and existing learning connections, not legal appellation boundaries",
+ "regions":[
+  {"id":"alsace","title":"Alsace","zh":"阿尔萨斯","country":"France","anchor":"Colmar · 城市定位参考","lat":48.08,"lon":7.36,"bbox":[6.8,47.7,7.9,48.7],"nodeId":"alsace","links":["alsace","riesling","rosacker"],"questionTopic":"alsace","source":"https://www.vinsalsace.com/en/carte/","sourceLabel":"Vins d’Alsace · 产区、特级园与土壤地图","prompt":"先找到孚日山脉与莱茵河平原，再沿 Riesling → Rosacker → Clos Sainte Hune 继续学习。"},
+  {"id":"chablis","title":"Chablis","zh":"夏布利","country":"France","anchor":"Chablis · 城镇定位参考","lat":47.81,"lon":3.80,"bbox":[3.65,47.72,3.96,47.90],"nodeId":"chablis","links":["chablis","KB01","KB03"],"questionTopic":"viticulture","source":"https://www.bourgogne-wines.com/our-resources/media,3181,14293.html?args=Y29tcF9pZD0yMzA5JmFjdGlvbj1maWNoZV9tZWRpYSZpZD01MzUmfA%3D%3D","sourceLabel":"Bourgogne Wines · Chablis 与 Climats 官方地图","image":"chablis-map.png","prompt":"对照地形和原教学航拍图，辨认坡地、葡萄园与朝向，再回到气候与霜冻的练习。"},
+  {"id":"champagne","title":"Champagne","zh":"香槟","country":"France","anchor":"Reims · Épernay · 四大葡萄种植区","lat":48.66,"lon":4.12,"bbox":[3.15,47.72,5.25,49.48],"nodeId":"fr-champagne","links":["fr-champagne","chardonnay","pinot-noir","pinot-meunier"],"questionTopic":"champagne","source":"https://www.champagne.fr/en/about-champagne/the-champagne-vineyard","sourceLabel":"Comité Champagne · The Champagne vineyard","prompt":"先找到 Montagne de Reims、Vallée de la Marne、Côte des Blancs 和 Côte des Bar，再比较村镇与葡萄品种的分布。"}
+ ]
+}

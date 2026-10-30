@@ -1,0 +1,27 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import ts from 'typescript';
+const source=readFileSync(new URL('../lib/habits.ts',import.meta.url),'utf8');
+const js=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText;
+const {chinaDay,streakFor,validateSettings,validateVideo,reminderCalendar,defaultSettings}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+assert.equal(chinaDay(new Date('2026-10-24T15:59:59Z')),'2026-10-24');
+assert.equal(chinaDay(new Date('2026-10-24T16:00:00Z')),'2026-10-25');
+assert.equal(streakFor(['2026-10-24','2026-10-23','2026-10-22'],'2026-10-24'),3);
+assert.equal(streakFor(['2026-10-23','2026-10-22'],'2026-10-24'),2);
+assert.equal(streakFor(['2026-10-22'],'2026-10-24'),0);
+for(const change of [{goalMinutes:-1},{reminderTime:'25:00'},{reminderDays:[]},{reminderDays:[9]},{fontScale:'injected'},{defaultDifficulty:'expert'}])assert.throws(()=>validateSettings({...defaultSettings,...change}));
+assert.deepEqual(validateSettings({...defaultSettings,reminderDays:[1,1,2]}).reminderDays,[1,2]);
+for(const url of ['javascript:alert(1)','http://www.bilibili.com/video/x','https://www.bilibili.com.evil.example/video','https://user:pass@www.bilibili.com/video/x'])assert.throws(()=>validateVideo({title:'test',url}));
+assert.equal(validateVideo({title:'test',url:'https://www.bilibili.com/video/BV1Vw411J73r/',topic:'viticulture'}).platform,'Bilibili');
+const calendar=reminderCalendar({...defaultSettings,reminderDays:[1,3,5],reminderTime:'20:30'},new Date('2026-10-23T13:00:00Z'));
+assert(calendar.includes('DTSTART;TZID=Asia/Shanghai:20261026T203000'));
+assert(calendar.includes('RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR'));
+assert(calendar.includes('BEGIN:VALARM\r\nTRIGGER:PT0M'));
+assert(calendar.includes('DURATION:PT20M'));
+assert(calendar.split('\r\n').every(line=>Buffer.byteLength(line,'utf8')<=75));
+const content=JSON.parse(readFileSync(new URL('../data/curriculum.json',import.meta.url)));
+for(const level of ['Intro','CS','AS','MS'])assert(content.questions.some(q=>q.difficulty===level),'Existing learning levels remain available');
+const videos=JSON.parse(readFileSync(new URL('../data/video-library.json',import.meta.url)));
+assert.equal(new Set(videos.videos.map(v=>v.url)).size,25);
+for(const video of videos.videos){assert(video.url.startsWith('https://www.bilibili.com/video/BV'));assert.equal(video.verification.playbackTested,false)}
+console.log('PASS: China date boundaries, streaks, settings, video URL safety, recurring calendar and four difficulty banks.');

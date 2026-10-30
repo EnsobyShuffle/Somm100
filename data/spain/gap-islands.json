@@ -1,0 +1,382 @@
+{
+  "sources": [
+    {
+      "id": "gi-gelabert-chardonnay",
+      "title": "Vins Miquel Gelabert — Chardonnay Roure 2025 / vineyard and denomination",
+      "url": "https://vinsmiquelgelabert.com/producto/chardonnay-roure/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-gelabert-savall",
+      "title": "Vins Miquel Gelabert — Sa Vall Selecció Privada 2021",
+      "url": "https://vinsmiquelgelabert.com/producto/sa-vall-seleccio-privada/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-binifadet-region",
+      "title": "Illes Balears official gastronomy portal — Cellers Binifadet / Vi de la Terra Illa de Menorca",
+      "url": "https://gastronomia.illesbalears.travel/es/producto-local/donde-encontrar-producto-local/bodega-cellers-binifadet",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-binifadet-tanca12",
+      "title": "Binifadet — Tanca 12 White",
+      "url": "https://binifadet.com/en/products/tanca-12",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-binifadet-tanca13",
+      "title": "Binifadet — Tanca 13 Rosé",
+      "url": "https://binifadet.com/en/products/tanca-13",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-ibizkus-red",
+      "title": "Ibizkus — Red 2021 / IGP Vino de la tierra de Ibiza",
+      "url": "https://ibizkus.com/ibiza-wines/ibizkus-red-2021",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-ibizkus-rose",
+      "title": "Ibizkus — Rosé 2025 / IGP Vino de la tierra de Ibiza",
+      "url": "https://ibizkus.com/ibiza-wines/ibizkus-rose-2025",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-cumbres-contact",
+      "title": "Sociedad Cooperativa Cumbres de Abona — official contact and location",
+      "url": "https://www.cumbresdeabona.com/contactar/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-cumbres-tradicion",
+      "title": "Cumbres de Abona — Flor de Chasna Tradición Tinto / DO Abona",
+      "url": "https://www.cumbresdeabona.com/producto/tradicion-tinto/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-cumbres-dulce",
+      "title": "Cumbres de Abona — Flor de Chasna Blanco Naturalmente Dulce / DO Abona",
+      "url": "https://www.cumbresdeabona.com/producto/blanco-naturalmente-dulce/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "gi-alisios-council",
+      "title": "Consejo Regulador Vinos de La Gomera — Bodega Alisios and wine catalogue",
+      "url": "https://vinoslagomera.com/las-bodegas-y-sus-vinos/bodega-alisios/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    }
+  ],
+  "producers": [
+    {
+      "id": "miquel-gelabert",
+      "name": "Vins Miquel Gelabert",
+      "regionIds": [
+        "pla-i-llevant"
+      ],
+      "location": "Manacor, Mallorca",
+      "story": "位于 Manacor，以分布于 Manacor、Felanitx 与 Petra 的自有小地块供葡萄；官方资料说明葡萄园均登记于 Pla i Llevant。桶发酵与酒泥熟成白酒是理解其风格的入口：Chardonnay Roure 展示国际品种，Sa Vall 则展示当地命名品种与国际品种的组合。",
+      "wineIds": [
+        "miquel-gelabert-chardonnay-roure",
+        "miquel-gelabert-sa-vall"
+      ],
+      "sourceIds": [
+        "gi-gelabert-chardonnay",
+        "gi-gelabert-savall"
+      ],
+      "verification": "official",
+      "website": "https://vinsmiquelgelabert.com/"
+    },
+    {
+      "id": "binifadet",
+      "name": "Binifadet",
+      "regionIds": [
+        "menorca-igp"
+      ],
+      "location": "Sant Lluís, Menorca",
+      "story": "Menorca 南部的家族酒庄，2004 年起商业酿酒。葡萄分布于干砌石墙围护的 tancas，小地块体现海风、Tramuntana 与石灰质基底的影响。Tanca 系列把地块编号直接写进酒名，以 Chardonnay 白酒和 Merlot 桃红展示岛上国际品种及桶内酒泥熟成。",
+      "wineIds": [
+        "binifadet-tanca-12",
+        "binifadet-tanca-13"
+      ],
+      "sourceIds": [
+        "gi-binifadet-region",
+        "gi-binifadet-tanca12",
+        "gi-binifadet-tanca13"
+      ],
+      "verification": "official",
+      "website": "https://binifadet.com/"
+    },
+    {
+      "id": "ibizkus",
+      "name": "Ibizkus",
+      "regionIds": [
+        "ibiza-igp"
+      ],
+      "location": "Ibiza；红酒葡萄包括 Sant Agustí 地区地块",
+      "story": "以 Ibiza 本地 Monastrell 为重要支点，同时呈现红酒与桃红两条风格路线。红酒采用包含自根老藤的地块，结合旧法国橡木桶与陶罐；桃红通过直接压榨、低温发酵和细酒泥培养保留较轻盈的表达。两款官方技术页均明确标示 Vino de la tierra de Ibiza。",
+      "wineIds": [
+        "ibizkus-red",
+        "ibizkus-rose"
+      ],
+      "sourceIds": [
+        "gi-ibizkus-red",
+        "gi-ibizkus-rose"
+      ],
+      "verification": "official",
+      "website": "https://ibizkus.com/"
+    },
+    {
+      "id": "cumbres-de-abona",
+      "name": "Cumbres de Abona",
+      "regionIds": [
+        "abona"
+      ],
+      "location": "Teguedite, Arico, Tenerife",
+      "story": "位于 Arico 的合作社酒庄，Flor de Chasna 为其酒款系列之一。Abona 产品线可比较 Listán Negro 与其他红品种的年轻混酿，以及以过熟 Listán Blanco 制成的自然甜白。酒庄拥有不同地理标志的产品，本条关联以明确标示 Abona 的具体酒款为依据。",
+      "wineIds": [
+        "cumbres-de-abona-flor-de-chasna-tradicion-tinto",
+        "cumbres-de-abona-flor-de-chasna-naturalmente-dulce"
+      ],
+      "sourceIds": [
+        "gi-cumbres-contact",
+        "gi-cumbres-tradicion",
+        "gi-cumbres-dulce"
+      ],
+      "verification": "official",
+      "website": "https://www.cumbresdeabona.com/"
+    },
+    {
+      "id": "alisios",
+      "name": "Bodega Alisios",
+      "regionIds": [
+        "la-gomera"
+      ],
+      "location": "Vallehermoso, La Gomera",
+      "story": "La Gomera 北部 Roque del Capitán 山麓的家族酒庄，从使用旧橡木及栗木桶的传统酒窖转型为现代酒庄，同时修复被弃置的老藤与梯地。Forastera Gomera 是其核心；另有 Marmajuelo 酒款，适合比较岛内本土白品种。酒庄及以下酒款均见产区监管会名录。",
+      "wineIds": [
+        "alisios-blanco-semiseco",
+        "alisios-sereno",
+        "alisios-garuja"
+      ],
+      "sourceIds": [
+        "gi-alisios-council"
+      ],
+      "verification": "official",
+      "website": "https://vinoslagomera.com/las-bodegas-y-sus-vinos/bodega-alisios/"
+    }
+  ],
+  "wines": [
+    {
+      "id": "miquel-gelabert-chardonnay-roure",
+      "name": "Chardonnay Roure 2025",
+      "producerId": "miquel-gelabert",
+      "regionId": "pla-i-llevant",
+      "denomination": "Pla i Llevant DOP",
+      "grapeIds": [
+        "chardonnay"
+      ],
+      "grapeText": "100% Chardonnay",
+      "style": "桶发酵干白",
+      "notes": "Manacor 地块；官网所列 2025 酒款以法国橡木桶完成酒精及苹果酸乳酸发酵，桶内带酒泥熟成 6 个月，随后至少瓶陈 6 个月。用于学习成熟果味、乳酸发酵及木桶质感的结合。",
+      "status": "current",
+      "sourceIds": [
+        "gi-gelabert-chardonnay"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "miquel-gelabert-sa-vall",
+      "name": "Sa Vall – Selecció Privada 2021",
+      "producerId": "miquel-gelabert",
+      "regionId": "pla-i-llevant",
+      "denomination": "Pla i Llevant DOP",
+      "grapeIds": [],
+      "grapeText": "Giró Blanc、Viognier 及少量 Pinot Noir；Giró Blanc 的规范品种对应尚待核实，暂保留酒庄原称。",
+      "style": "桶发酵干白",
+      "notes": "Manacor 与 Petra 地块的混酿白酒。当前官方 2021 产品页列 Giró Blanc、Viognier 和少量 Pinot Noir；新法国橡木桶发酵，完成苹果酸乳酸发酵，并带酒泥熟成 6 个月后瓶陈。配方按该年份页记录。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "gi-gelabert-savall"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "binifadet-tanca-12",
+      "name": "Tanca 12 Blanco",
+      "producerId": "binifadet",
+      "regionId": "menorca-igp",
+      "denomination": "Illa de Menorca IGP / Vi de la Terra",
+      "grapeIds": [
+        "chardonnay"
+      ],
+      "grapeText": "Chardonnay",
+      "style": "桶发酵干白",
+      "notes": "选自庄园第 12 号地块的 Chardonnay，人工采收，在法国橡木桶中发酵并带酒泥熟成 9 个月，再瓶陈 9 个月。Tanca 地块系列中较浓郁、有结构的白酒表达；官方地区资料将该系列列于 Vi de la Terra Illa de Menorca。",
+      "status": "current",
+      "sourceIds": [
+        "gi-binifadet-tanca12",
+        "gi-binifadet-region"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "binifadet-tanca-13",
+      "name": "Tanca 13 Rosado",
+      "producerId": "binifadet",
+      "regionId": "menorca-igp",
+      "denomination": "Illa de Menorca IGP / Vi de la Terra",
+      "grapeIds": [
+        "merlot"
+      ],
+      "grapeText": "Merlot",
+      "style": "桶发酵桃红",
+      "notes": "来自第 13 号地块的 Merlot 桃红。人工采收，法国橡木桶发酵、桶内带酒泥熟成 5 个月，不进行苹果酸乳酸发酵；浅色与鲜果表达结合较丰润的酒泥质感。地区官方资料确认 Tanca 系列的 Illa de Menorca 地理标志。",
+      "status": "current",
+      "sourceIds": [
+        "gi-binifadet-tanca13",
+        "gi-binifadet-region"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "ibizkus-red",
+      "name": "Ibizkus Red 2021",
+      "producerId": "ibizkus",
+      "regionId": "ibiza-igp",
+      "denomination": "Ibiza IGP / Vino de la tierra de Ibiza",
+      "grapeIds": [
+        "monastrell"
+      ],
+      "grapeText": "100% Monastrell（Mourvèdre）",
+      "style": "干红",
+      "notes": "2021 技术页记录五块近海葡萄园的自根 Monastrell 老藤；以 60% 二、三次使用的法国橡木桶和 40% 陶罐熟成。可与同庄桃红比较同一品种在浸渍与容器选择下的不同表达；具体比例仅对应该年份。",
+      "status": "current",
+      "sourceIds": [
+        "gi-ibizkus-red"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "ibizkus-rose",
+      "name": "Ibizkus Rosé 2025",
+      "producerId": "ibizkus",
+      "regionId": "ibiza-igp",
+      "denomination": "Ibiza IGP / Vino de la tierra de Ibiza",
+      "grapeIds": [
+        "monastrell"
+      ],
+      "grapeText": "100% Monastrell（Mourvèdre）",
+      "style": "干型桃红",
+      "notes": "2025 技术页记录低温直接压榨，以预发酵葡萄汁启动发酵；主体在不锈钢中发酵，10% 使用 700 升法国橡木桶，混合装瓶前保留细酒泥。展示 Ibiza Monastrell 较轻盈、花香鲜明的一面。",
+      "status": "current",
+      "sourceIds": [
+        "gi-ibizkus-rose"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "cumbres-de-abona-flor-de-chasna-tradicion-tinto",
+      "name": "Flor de Chasna Tradición Tinto",
+      "producerId": "cumbres-de-abona",
+      "regionId": "abona",
+      "denomination": "Abona DO",
+      "grapeIds": [
+        "listan-negro",
+        "ruby-cabernet",
+        "tempranillo"
+      ],
+      "grapeText": "Listán Negro、Ruby Cabernet、Tempranillo；官网未列比例。",
+      "style": "年轻干红",
+      "notes": "Flor de Chasna 系列的 tinto joven，官网明确标注 Abona。适合学习 Tenerife 本地 Listán Negro 与国际品种及西班牙大陆品种的混酿；红果、香料和甘草调性是酒庄描述的风格线索。",
+      "status": "current",
+      "sourceIds": [
+        "gi-cumbres-tradicion"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "cumbres-de-abona-flor-de-chasna-naturalmente-dulce",
+      "name": "Flor de Chasna Blanco Naturalmente Dulce",
+      "producerId": "cumbres-de-abona",
+      "regionId": "abona",
+      "denomination": "Abona DO",
+      "grapeIds": [
+        "palomino"
+      ],
+      "grapeText": "Listán Blanco（Palomino），单一品种。",
+      "style": "自然甜白",
+      "notes": "以过熟 Listán Blanco 制作，官网明确标注 Abona。蜂蜜和成熟果酱调性体现成熟度与甜型酿造的方向，可用于理解 Listán Blanco 在 Canary Islands 的用途并不局限于清爽干白。",
+      "status": "current",
+      "sourceIds": [
+        "gi-cumbres-dulce"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "alisios-blanco-semiseco",
+      "name": "Alisios Blanco Semiseco",
+      "producerId": "alisios",
+      "regionId": "la-gomera",
+      "denomination": "La Gomera DOP",
+      "grapeIds": [
+        "forastera-blanca"
+      ],
+      "grapeText": "Forastera Gomera（Forastera Blanca）",
+      "style": "半干白",
+      "notes": "产区监管会列出的 Forastera Gomera 半干白；其草本、茴香、苹果与桃子描述可作为学习线索。可与同庄 Sereno 对照，理解同一地方品种的不同酒款表达；目录未给具体残糖数值。",
+      "status": "current",
+      "sourceIds": [
+        "gi-alisios-council"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "alisios-sereno",
+      "name": "Sereno",
+      "producerId": "alisios",
+      "regionId": "la-gomera",
+      "denomination": "La Gomera DOP",
+      "grapeIds": [
+        "forastera-blanca"
+      ],
+      "grapeText": "Forastera Gomera（Forastera Blanca）",
+      "style": "白葡萄酒",
+      "notes": "监管会所列 Forastera Gomera 酒款，突出青草、青苹果与鲜明酸度。资料未披露残糖或具体熟成方式，因此保留白葡萄酒分类，用于与同庄明确标注半干的 Alisios Blanco Semiseco 比较。",
+      "status": "current",
+      "sourceIds": [
+        "gi-alisios-council"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "alisios-garuja",
+      "name": "Garuja",
+      "producerId": "alisios",
+      "regionId": "la-gomera",
+      "denomination": "La Gomera DOP",
+      "grapeIds": [
+        "marmajuelo"
+      ],
+      "grapeText": "Marmajuelo；监管会列示品种，未披露比例。",
+      "style": "白葡萄酒",
+      "notes": "Alisios 的 Marmajuelo 酒款，与以 Forastera Gomera 为核心的系列形成品种对照。监管会强调其较鲜明的香气与良好酸度；未给残糖及熟成资料，不推定为特定干度或桶陈类型。",
+      "status": "current",
+      "sourceIds": [
+        "gi-alisios-council"
+      ],
+      "verification": "official"
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "id": "godello",
+      "name": "Godello",
+      "zh": "戈德约",
+      "otherName": "Gouveio",
+      "image": "godello.png",
+      "updatedAt": "2026-10-24",
+      "subtitle": {
+        "en": "White grape · Vitis vinifera · Northwestern Iberia",
+        "zh": "白葡萄 · 欧亚种 · 伊比利亚半岛西北部"
+      },
+      "intro": {
+        "en": "Godello is a white grape of northwestern Spain and northern Portugal, where it is known as Gouveio. It combines fresh acidity with substantial texture, producing both unoaked whites and complex wines shaped by lees, oak or skin contact.",
+        "zh": "Godello 是西班牙西北部与葡萄牙北部的白葡萄品种，在葡萄牙称 Gouveio。其酸度与饱满质地兼具，既可酿成清新的无橡木桶白葡萄酒，也可通过酒泥、橡木桶或果皮接触形成复杂风格。"
+      },
+      "sections": [
+        {
+          "id": "names",
+          "title": {
+            "en": "Synonyms & parentage",
+            "zh": "同义名与亲缘"
+          },
+          "rows": [
+            {
+              "id": "synonyms",
+              "label": {
+                "en": "Synonyms",
+                "zh": "同义名"
+              },
+              "text": {
+                "en": "Gouveio (Portugal); Verdello (Galicia); Godelho and Guveio. Older records also use Verdelho and Verdelho du Dão. Gouveio is distinct from the Verdelho of Madeira and the Azores.",
+                "zh": "Gouveio（葡萄牙）；Verdello（Galicia）；另见 Godelho、Guveio。历史资料亦使用 Verdelho、Verdelho du Dão。Gouveio 与 Madeira、Azores 的 Verdelho 是不同品种。"
+              },
+              "sourceIds": [
+                "fps",
+                "galicia"
+              ],
+              "links": []
+            },
+            {
+              "id": "parents",
+              "label": {
+                "en": "Parentage / crossing",
+                "zh": "亲缘／杂交来源"
+              },
+              "text": {
+                "en": "Castellana Blanca × Savagnin (Traminer). The 2021 genetic study lists this parent pair under Gouveio, VIVC 12953. Both parents are Vitis vinifera; this is an intraspecific crossing.",
+                "zh": "Castellana Blanca × Savagnin（Traminer）。2021 年遗传研究以 Gouveio、VIVC 12953 列出这组双亲。两者均为 Vitis vinifera，属于种内杂交。"
+              },
+              "sourceIds": [
+                "dna",
+                "fps"
+              ],
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": "viticulture",
+          "title": {
+            "en": "Viticulture",
+            "zh": "葡萄种植"
+          },
+          "rows": [
+            {
+              "id": "cycle",
+              "label": {
+                "en": "Growth cycle",
+                "zh": "生长周期"
+              },
+              "text": {
+                "en": "Early budding and relatively early ripening; spring frost is a significant risk. Productive, with compact bunches and thin-skinned berries. Yield management influences concentration.",
+                "zh": "萌芽早、成熟相对较早，需要防范春季晚霜。生产力较强，果穗紧凑、果皮薄；产量管理影响果实浓缩度。"
+              },
+              "sourceIds": [
+                "galicia",
+                "portugal"
+              ],
+              "links": []
+            },
+            {
+              "id": "risks",
+              "label": {
+                "en": "Climate & disease pressure",
+                "zh": "气候与病害"
+              },
+              "text": {
+                "en": "Adapted to warm, dry slopes in Galicia. Susceptible to powdery mildew (oidium); rain near harvest is a concern. Site exposure and canopy ventilation therefore matter.",
+                "zh": "适应 Galicia 温暖、干燥的坡地。易受白粉病（oidium）影响，采收期降雨亦构成风险，因此应关注坡向与冠层通风。"
+              },
+              "sourceIds": [
+                "galicia",
+                "portugal"
+              ],
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": "regions",
+          "title": {
+            "en": "Regions & terroir",
+            "zh": "产区与风土"
+          },
+          "rows": [
+            {
+              "id": "valdeorras",
+              "label": {
+                "en": "Valdeorras · Galicia",
+                "zh": "Valdeorras · 加利西亚"
+              },
+              "text": {
+                "en": "A major centre for varietal Godello in the Sil basin, Ourense. Soils include slate, alluvial deposits, iron-rich clay and granite. In O Bolo, Rafael Palacios works high-altitude granite sites in the Bibei valley; Sorte O Soro is at 710 m.",
+                "zh": "位于 Ourense 的 Sil 河流域，是 Godello 单一品种酒的重要产地。土壤包括板岩、冲积土、含铁黏土与花岗岩。Rafael Palacios 在 O Bolo 的 Bibei 河谷经营高海拔花岗岩地块；Sorte O Soro 位于 710 米。"
+              },
+              "sourceIds": [
+                "territory",
+                "soro"
+              ],
+              "links": [
+                {
+                  "label": "Valdeorras",
+                  "url": "#library?type=region&id=valdeorras"
+                },
+                {
+                  "label": "Rafael Palacios",
+                  "url": "#producers?id=rafael-palacios"
+                }
+              ]
+            },
+            {
+              "id": "galicia-regions",
+              "label": {
+                "en": "Other Galician regions",
+                "zh": "加利西亚其他产区"
+              },
+              "text": {
+                "en": "Monterrei and Ribeira Sacra are important growing areas; Godello also appears in Ribeiro and Rías Baixas. It can be bottled varietally or included in blends with local grapes, including Dona Branca.",
+                "zh": "Monterrei、Ribeira Sacra 是重要种植区，Ribeiro 与 Rías Baixas 也有种植。可酿成单一品种酒，亦与 Dona Branca 等本地品种混酿。"
+              },
+              "sourceIds": [
+                "galicia"
+              ],
+              "links": []
+            },
+            {
+              "id": "bierzo",
+              "label": {
+                "en": "Bierzo · Castilla y León",
+                "zh": "Bierzo · 卡斯蒂利亚-莱昂"
+              },
+              "text": {
+                "en": "An important expression outside Galicia. Raúl Pérez’s Ultreia La Claudina comes from Valtuille de Abajo; the 2015 estate record describes an east-facing sandy plot planted in 1995.",
+                "zh": "Galicia 以外的重要产区。Raúl Pérez 的 Ultreia La Claudina 来自 Valtuille de Abajo；酒庄的 2015 年份资料记载该沙土地块朝东，种植于 1995 年。"
+              },
+              "sourceIds": [
+                "claudina"
+              ],
+              "links": [
+                {
+                  "label": "Raúl Pérez",
+                  "url": "#producers?id=raul-perez"
+                }
+              ]
+            },
+            {
+              "id": "portuguese",
+              "label": {
+                "en": "Portugal · Gouveio",
+                "zh": "葡萄牙 · Gouveio"
+              },
+              "text": {
+                "en": "Douro is a key region, with plantings also in Dão and Alentejo. In Portugal the grape commonly contributes acidity, body and citrus or peach aromas to white blends as well as varietal wines.",
+                "zh": "Douro 是关键产区，Dão 与 Alentejo 亦有种植。以 Gouveio 之名用于白葡萄酒混酿，也用于单一品种酒，贡献酸度、酒体及柑橘或桃子香气。"
+              },
+              "sourceIds": [
+                "fps",
+                "portugal"
+              ],
+              "links": [
+                {
+                  "label": "Gouveio · Wines of Portugal",
+                  "url": "https://winesofportugal.com/en/portuguese-wines/grape-varieties/gouveio/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vinification",
+          "title": {
+            "en": "Vinification & élevage",
+            "zh": "酿造与熟成"
+          },
+          "rows": [
+            {
+              "id": "lees",
+              "label": {
+                "en": "Stainless steel / lees",
+                "zh": "不锈钢／酒泥"
+              },
+              "text": {
+                "en": "Stainless-steel élevage can preserve fruit definition while lees contact develops texture. Godeval Cepas Vellas spends approximately five months on its lees in stainless steel. Lees ageing does not imply oak ageing.",
+                "zh": "不锈钢熟成可保留清晰果味，酒泥接触则增加质地。Godeval Cepas Vellas 在不锈钢罐中带酒泥熟成约五个月；酒泥熟成并不等于橡木桶熟成。"
+              },
+              "sourceIds": [
+                "godeval"
+              ],
+              "links": []
+            },
+            {
+              "id": "oak",
+              "label": {
+                "en": "Foudre / barrel",
+                "zh": "大木桶／橡木桶"
+              },
+              "text": {
+                "en": "Louro uses large oak foudres; As Sortes is fermented and matured in 500-litre barrels. Guitián’s 2019 oak-fermented wine used new 225-litre barrels and six months of lees ageing with weekly stirring. Vessel size, oak age and stirring affect the result.",
+                "zh": "Louro 使用大橡木桶 foudre；As Sortes 在 500 升桶中发酵及熟成。Guitián 的 2019 年桶发酵酒使用 225 升新桶，并带酒泥熟成六个月、每周搅桶。桶容积、桶龄与搅桶方式都会影响最终风格。"
+              },
+              "sourceIds": [
+                "louro",
+                "sortes",
+                "guitian"
+              ],
+              "links": []
+            },
+            {
+              "id": "skins",
+              "label": {
+                "en": "Skin contact / flor",
+                "zh": "果皮接触／酒花膜"
+              },
+              "text": {
+                "en": "Sorte Antiga ferments with its skins, broadening the textural range of Godello. For Ultreia La Claudina 2015, the producer describes spontaneous fermentation in a 1,500-litre foudre and subsequent flor development; this is a cuvée-specific method.",
+                "zh": "Sorte Antiga 采用带皮发酵，展现 Godello 的另一种质地。Ultreia La Claudina 2015 的酒庄资料记载在 1,500 升大木桶中自发发酵，随后形成酒花膜；这是具体酒款的工艺。"
+              },
+              "sourceIds": [
+                "antiga",
+                "claudina"
+              ],
+              "links": []
+            },
+            {
+              "id": "mlf",
+              "label": {
+                "en": "Malolactic conversion",
+                "zh": "苹果酸乳酸转化"
+              },
+              "text": {
+                "en": "MLF is a producer and vintage decision, not a fixed varietal trait. In an examination answer, separate grape-derived structure from the effects of MLF, lees stirring and oak. Confirm the treatment in the relevant vintage technical sheet.",
+                "zh": "MLF 取决于生产者与年份，并非品种固定特征。作答时应区分品种本身的结构与 MLF、搅桶、橡木桶的影响；具体处理需查对应年份技术资料。"
+              },
+              "sourceIds": [],
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": "tasting",
+          "title": {
+            "en": "Tasting characteristics",
+            "zh": "品鉴特征"
+          },
+          "rows": [
+            {
+              "id": "sight",
+              "label": {
+                "en": "Sight",
+                "zh": "外观"
+              },
+              "text": {
+                "en": "Usually pale to medium lemon; golden tones may develop with ripeness, skin contact or bottle age. Colour alone is not diagnostic.",
+                "zh": "通常呈浅至中等柠檬黄；成熟度、果皮接触或瓶陈可带来金黄色调。颜色不能单独用于判断品种。"
+              },
+              "sourceIds": [
+                "godeval",
+                "guitian"
+              ],
+              "links": []
+            },
+            {
+              "id": "nose",
+              "label": {
+                "en": "Nose",
+                "zh": "香气"
+              },
+              "text": {
+                "en": "Lemon, grapefruit, apple, pear and peach; floral and fennel or aniseed notes may occur. Oak-fermented examples can add toast, smoke, vanilla or nutty tones. Mature examples may show honey, dried fruit and orange peel.",
+                "zh": "常见柠檬、葡萄柚、苹果、梨和桃子，可伴花香、茴香或八角线索。桶发酵酒款可有烘烤、烟熏、香草或坚果气息；成熟酒款可出现蜂蜜、干果与橘皮。"
+              },
+              "sourceIds": [
+                "portugal",
+                "godeval",
+                "guitian"
+              ],
+              "links": []
+            },
+            {
+              "id": "palate",
+              "label": {
+                "en": "Palate",
+                "zh": "口感"
+              },
+              "text": {
+                "en": "Typically dry, with medium to medium-plus body and medium-plus acidity. Concentration and lees contact can give breadth and a creamy texture; skin contact may add phenolic grip. Assess alcohol and oak from the wine, rather than assuming one fixed profile.",
+                "zh": "通常为干型，酒体中等至中等偏饱满，酸度中等偏高。浓缩度与酒泥接触可带来宽阔、奶油般质地；果皮接触可能增加酚类抓口感。酒精度与橡木桶特征应根据实际酒款判断。"
+              },
+              "sourceIds": [
+                "style",
+                "antiga",
+                "portugal"
+              ],
+              "links": []
+            },
+            {
+              "id": "ageing",
+              "label": {
+                "en": "Ageing potential",
+                "zh": "陈年潜力"
+              },
+              "text": {
+                "en": "Ranges from youthful, fruit-led wines to ageworthy, concentrated examples. Fresh acidity and structure support development, but bottle life depends on producer, cuvée, vintage and storage.",
+                "zh": "从适合年轻饮用的果味型酒，到可长期发展的浓缩型酒均有。酸度与结构支撑陈年，实际寿命取决于生产者、酒款、年份与储存条件。"
+              },
+              "sourceIds": [
+                "portugal",
+                "pedrouzos"
+              ],
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "title": {
+            "en": "History",
+            "zh": "历史"
+          },
+          "rows": [
+            {
+              "id": "revival",
+              "label": {
+                "en": "Modern revival",
+                "zh": "现代复兴"
+              },
+              "text": {
+                "en": "Godello’s modern revival is closely linked to Valdeorras. The appellation’s official timeline identifies Proyecto Revival in 1975 as a key point in the variety’s recovery.",
+                "zh": "Godello 的现代复兴与 Valdeorras 密切相关。产区官方年表将 1975 年的 Proyecto Revival 列为品种恢复的重要节点。"
+              },
+              "sourceIds": [
+                "history"
+              ],
+              "links": []
+            }
+          ]
+        },
+        {
+          "id": "service",
+          "title": {
+            "en": "Service",
+            "zh": "侍酒服务"
+          },
+          "rows": [
+            {
+              "id": "temperature",
+              "label": {
+                "en": "Temperature & food",
+                "zh": "温度与配餐"
+              },
+              "text": {
+                "en": "As producer-specific reference points, Godeval recommends 8–10°C for Cepas Vellas and 9–12°C for its oak-fermented 1986 cuvée. Seafood, fish, poultry and creamy cheeses suit different expressions; match weight and oak intensity to the dish.",
+                "zh": "以具体酒款为参考：Godeval 建议 Cepas Vellas 在 8–10°C 饮用，桶发酵的 1986 酒款为 9–12°C。海鲜、鱼类、禽类及奶油质地奶酪可分别搭配不同风格，并根据酒体及橡木桶强度选择菜式。"
+              },
+              "sourceIds": [
+                "godeval"
+              ],
+              "links": []
+            }
+          ]
+        }
+      ],
+      "wines": [
+        {
+          "id": "rp-soro",
+          "producer": "Rafael Palacios",
+          "name": "Sorte O Soro",
+          "sourceId": "soro",
+          "href": "#library?type=wine&id=rp-soro",
+          "officialUrl": "https://en.rafaelpalacios.com/o-soro"
+        },
+        {
+          "id": "rp-antiga",
+          "producer": "Rafael Palacios",
+          "name": "Sorte Antiga",
+          "sourceId": "antiga",
+          "href": "#library?type=wine&id=rp-antiga",
+          "officialUrl": "https://www.rafaelpalacios.com/copia-de-o-soro"
+        },
+        {
+          "id": "rp-sortes",
+          "producer": "Rafael Palacios",
+          "name": "As Sortes",
+          "sourceId": "sortes",
+          "href": "#library?type=wine&id=rp-sortes",
+          "officialUrl": "https://en.rafaelpalacios.com/as-sortes"
+        },
+        {
+          "id": "rp-louro",
+          "producer": "Rafael Palacios",
+          "name": "Louro",
+          "sourceId": "louro",
+          "href": "#library?type=wine&id=rp-louro",
+          "officialUrl": "https://en.rafaelpalacios.com/louro"
+        },
+        {
+          "id": "raul-claudina",
+          "producer": "Raúl Pérez",
+          "name": "Ultreia La Claudina",
+          "sourceId": "claudina",
+          "officialUrl": "https://bodega.raulperez.com/en/wines/ultreia-la-claudina-2015/",
+          "href": "https://bodega.raulperez.com/en/wines/ultreia-la-claudina-2015/"
+        },
+        {
+          "id": "valdesil-pedrouzos",
+          "producer": "Valdesil",
+          "name": "Pedrouzos",
+          "sourceId": "pedrouzos",
+          "officialUrl": "https://valdesil.com/en/producto/pedrouzos/",
+          "href": "https://valdesil.com/en/producto/pedrouzos/"
+        },
+        {
+          "id": "valdesil-pezas",
+          "producer": "Valdesil",
+          "name": "Pezas da Portela",
+          "sourceId": "pezas",
+          "officialUrl": "https://valdesil.com/en/producto/pezas-da-portela/",
+          "href": "https://valdesil.com/en/producto/pezas-da-portela/"
+        },
+        {
+          "id": "godeval-cepas",
+          "producer": "Godeval",
+          "name": "Cepas Vellas",
+          "sourceId": "godeval",
+          "officialUrl": "https://godeval.com/nuestros-vinos/?lang=en",
+          "href": "https://godeval.com/nuestros-vinos/?lang=en"
+        },
+        {
+          "id": "guitian-barrica",
+          "producer": "Guitián",
+          "name": "Fermentado en Barrica de Roble",
+          "sourceId": "guitian",
+          "officialUrl": "https://www.guitianvinos.com/gutian-aged-in-oak-casks",
+          "href": "https://www.guitianvinos.com/gutian-aged-in-oak-casks"
+        },
+        {
+          "id": "coroa-200",
+          "producer": "A Coroa",
+          "name": "200 Cestos",
+          "sourceId": "coroa",
+          "officialUrl": "https://acoroa.com/eng/our-wines/",
+          "href": "https://acoroa.com/eng/our-wines/"
+        }
+      ],
+      "questions": [],
+      "sources": [
+        {
+          "id": "fps",
+          "title": "UC Davis · Foundation Plant Services",
+          "url": "https://fps.ucdavis.edu/FGRfamilies.cfm?varietyid=2631"
+        },
+        {
+          "id": "galicia",
+          "title": "Museo do Viño de Galicia · Godello",
+          "url": "https://museovinogalicia.xunta.gal/es/el-vino/uvas-y-vinos-de-galicia/godello"
+        },
+        {
+          "id": "dna",
+          "title": "Augusto et al. · Plants (2021)",
+          "url": "https://doi.org/10.3390/plants10122755"
+        },
+        {
+          "id": "portugal",
+          "title": "Wines of Portugal · Gouveio",
+          "url": "https://winesofportugal.com/en/portuguese-wines/grape-varieties/gouveio/"
+        },
+        {
+          "id": "territory",
+          "title": "D.O. Valdeorras · Territory",
+          "url": "https://dovaldeorras.gal/en/territorio/"
+        },
+        {
+          "id": "history",
+          "title": "D.O. Valdeorras · History",
+          "url": "https://dovaldeorras.gal/en/do/"
+        },
+        {
+          "id": "louro",
+          "title": "Rafael Palacios · Louro",
+          "url": "https://en.rafaelpalacios.com/louro"
+        },
+        {
+          "id": "sortes",
+          "title": "Rafael Palacios · As Sortes",
+          "url": "https://en.rafaelpalacios.com/as-sortes"
+        },
+        {
+          "id": "antiga",
+          "title": "Rafael Palacios · Sorte Antiga",
+          "url": "https://www.rafaelpalacios.com/copia-de-o-soro"
+        },
+        {
+          "id": "soro",
+          "title": "Rafael Palacios · Sorte O Soro",
+          "url": "https://en.rafaelpalacios.com/o-soro"
+        },
+        {
+          "id": "claudina",
+          "title": "Raúl Pérez · Ultreia La Claudina 2015",
+          "url": "https://bodega.raulperez.com/en/wines/ultreia-la-claudina-2015/"
+        },
+        {
+          "id": "pedrouzos",
+          "title": "Valdesil · Pedrouzos",
+          "url": "https://valdesil.com/en/producto/pedrouzos/"
+        },
+        {
+          "id": "pezas",
+          "title": "Valdesil · Pezas da Portela",
+          "url": "https://valdesil.com/en/producto/pezas-da-portela/"
+        },
+        {
+          "id": "godeval",
+          "title": "Godeval · Wines",
+          "url": "https://godeval.com/nuestros-vinos/?lang=en"
+        },
+        {
+          "id": "guitian",
+          "title": "Guitián · Fermented in oak casks 2019",
+          "url": "https://www.guitianvinos.com/gutian-aged-in-oak-casks"
+        },
+        {
+          "id": "coroa",
+          "title": "A Coroa · Our wines",
+          "url": "https://acoroa.com/eng/our-wines/"
+        },
+        {
+          "id": "style",
+          "title": "Wine Folly · Godello",
+          "url": "https://winefolly.com/grapes/godello/"
+        }
+      ],
+      "editorialNotes": {
+        "selection": "Ten editorial reference wines, not a live critic-score ranking; names rather than tasting cards requested by Henry.",
+        "scope": "Full EN and ZH grape profile; producer links and external source pages retain their original languages.",
+        "evidence": "Row-level source IDs. MLF row is editorial examination guidance, not a universal Godello winemaking claim.",
+        "topTenSelection": "Four Rafael Palacios wines retained as explicitly requested, plus six examples from five other producers. No unsupported scores, prices or global rank order."
+      }
+    }
+  ]
+}

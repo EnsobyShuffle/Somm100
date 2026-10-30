@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f9faf7">
+<title>Wine Tasting Journal · V1.4</title>
+<style>
+:root{--green:#374733;--green2:#687a5c;--ink:#2e352d;--quiet:#858e80;--line:#e4e8df;--surface:#fbfcf9;--cream:#f2f5ee;--selected:#e7eee2;--white:#fff;--shadow:0 12px 36px #2c352412}
+*{box-sizing:border-box}html{background:#e9ede7}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.48;color:var(--ink);-webkit-tap-highlight-color:transparent}button,input,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #819c73;outline-offset:3px}
+[hidden]{display:none!important}.shell{min-height:100dvh;max-width:730px;margin:auto;background:var(--surface);box-shadow:0 0 75px #222d2012;position:relative}.app-head{height:74px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 25px;border-bottom:1px solid var(--line);background:#fdfefb}.wordmark{font:normal 22px/1.05 Georgia,'Times New Roman',serif;color:var(--green);letter-spacing:-.6px}.wordmark small{display:block;font:600 9px/1.6 system-ui,sans-serif;letter-spacing:2px;color:#889783;margin-top:4px}.head-left{display:flex;align-items:center;gap:12px}.icon-btn{border:0;background:transparent;color:#465743;display:inline-flex;align-items:center;justify-content:center;min-width:39px;height:39px;padding:4px;border-radius:11px;font-size:21px}.icon-btn:hover{background:#f0f3eb}.head-right{display:flex;gap:6px;align-items:center}.back-btn{font-size:26px;margin-left:-9px}.tiny-label{font-size:11px;color:#73826d;white-space:nowrap}.main{padding:0 25px 44px;min-height:calc(100dvh - 74px)}
+/* Home */
+.home{min-height:calc(100dvh - 74px);display:flex;flex-direction:column;position:relative;padding-bottom:70px}.home-title{margin:39px 0 5px;font:normal 32px/1.1 Georgia,serif;letter-spacing:-.6px;color:#2f402b}.home-under{font-size:12px;color:#859280;margin-bottom:20px}.home-space{flex:1;min-height:120px}.home-blank{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;min-height:240px;gap:13px}.home-blank .round-decoration{width:100px;height:100px;border:1px solid #d5ded0;border-radius:50%;position:relative}.round-decoration:before,.round-decoration:after{content:"";position:absolute;border:1px solid #d5ded0;border-radius:50%;inset:13px 32px}.round-decoration:after{inset:30px 13px}.home-blank p{font:normal 14px Georgia,serif;color:#9ba698;margin:0}.home-list{display:flex;flex-direction:column;gap:9px;margin-top:20px}.entry{background:#fff;border:1px solid var(--line);border-radius:13px;min-height:82px;width:100%;text-align:left;padding:11px 13px;display:flex;align-items:center;gap:12px;color:var(--ink)}.entry:hover{background:#f6f8f3}.entry img{height:60px;width:54px;object-fit:cover;border-radius:7px;background:#edf2e9}.entry-ph{height:60px;width:54px;border-radius:7px;display:grid;place-items:center;background:#edf2e9;color:#8e9d83;font:normal 24px Georgia,serif}.entry-main{min-width:0;flex:1}.entry-main strong{font-size:13px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.entry-main small{font-size:11px;color:#8b9586;display:block;margin-top:4px}.entry-score{color:#617857;font:normal 21px Georgia,serif;min-width:34px;text-align:right}.fixed-add{position:sticky;bottom:0;margin-top:auto;display:flex;justify-content:center;align-items:center;padding:15px 0 max(20px,env(safe-area-inset-bottom));background:linear-gradient(180deg,#fbfcf900,#fbfcf9 25%);z-index:3}.add-btn{border:0;border-radius:99px;background:var(--green);color:white;display:flex;align-items:center;justify-content:center;gap:9px;font-size:15px;letter-spacing:.2px;font-weight:600;padding:16px 36px;min-width:173px;box-shadow:0 11px 24px #34472e37}.add-btn span{font-size:24px;font-weight:300;line-height:.7}.add-btn:hover{background:#4a6142}
+/* Page head and form */
+.record-head{padding:27px 0 19px;border-bottom:1px solid var(--line);margin-bottom:15px}.record-head h2{font:normal 32px/1.05 Georgia,serif;color:var(--green);margin:0 0 7px}.record-meta{display:flex;align-items:center;gap:8px;font-size:11px;color:#909b8c;flex-wrap:wrap}.save-status:before{content:'•';color:#709565;margin-right:5px}.type-row{display:flex;justify-content:space-between;gap:10px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:14px 14px;background:#fff;width:100%;text-align:left;margin:13px 0}.type-row strong{font-weight:650}.type-row small{font-size:12px;color:#718467;margin-left:auto}.type-row .arrow{font-size:15px;color:#899783}.type-picks{display:flex;flex-wrap:wrap;gap:8px;margin:-4px 0 15px;background:#fff;padding:4px 0 3px}.photo-tile{border:1px dashed #aebca6;border-radius:13px;background:#f6f8f3;padding:16px;display:flex;gap:12px;align-items:center;margin-top:14px;color:#476141}.photo-tile .photo-symbol{border-radius:10px;background:#e9f0e4;width:44px;height:44px;display:grid;place-items:center;font-size:24px;flex-shrink:0}.photo-title{font-size:13px;font-weight:700}.photo-tile small{display:block;color:#9aa996;font-size:11px;margin-top:2px}.photo-tile button{margin-left:auto;border:1px solid #8fa587;border-radius:8px;background:white;color:#405938;padding:9px 12px;white-space:nowrap;font-size:12px}.photo-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;margin-top:10px}.photo-thumb{aspect-ratio:1;position:relative;border-radius:8px;overflow:hidden;background:#e9eee5}.photo-thumb img{width:100%;height:100%;object-fit:cover}.photo-thumb button{position:absolute;top:3px;right:3px;width:23px;height:23px;border:0;border-radius:50%;background:#ffffffed;font-size:16px;line-height:1;color:#55624b}
+.detail-box{background:#fff;border:1px solid var(--line);border-radius:12px;margin:12px 0;padding:0 13px}.detail-toggle{width:100%;border:0;background:#fff;display:flex;align-items:center;gap:10px;text-align:left;justify-content:space-between;color:var(--ink);padding:14px 0}.detail-toggle strong{font-size:12px}.detail-toggle .muted{font-size:11px;color:#9ca69a;margin-left:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:56%}.detail-body{padding:0 0 14px}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tfield{display:block;font-size:11px;color:#697c61;font-weight:650}.tfield input,.tfield textarea{display:block;width:100%;background:#fff;border:1px solid #d9e1d4;border-radius:9px;padding:11px 10px;margin-top:6px;font-size:13px;color:#2c3928}.tfield textarea{min-height:70px;resize:vertical}.wide{grid-column:1/-1}
+/* Vertical sections and nested selection */
+.sections{padding-top:7px}.section{border:1px solid var(--line);border-radius:13px;background:#fff;overflow:hidden;margin:11px 0;box-shadow:0 6px 23px #2a352409}.section-head{width:100%;border:0;background:#fff;padding:16px 15px;display:flex;align-items:center;gap:12px;text-align:left;min-height:67px}.section-head .number{height:30px;width:30px;flex:0 0 30px;display:grid;place-items:center;background:var(--cream);color:#687d5d;font:normal 13px Georgia,serif;border-radius:50%}.section-head .section-name{flex:1;font:normal 21px Georgia,serif;color:#293a27}.section-head .count{font-size:11px;color:#91a08c}.chevron{font-size:16px;color:#809476;transition:transform .12s}.section.expanded>.section-head .chevron,.nested.open>.nest-head .chevron,.option-field.open>.option-title .chevron{transform:rotate(180deg)}.section-body{border-top:1px solid #eff1eb;padding:6px 15px 15px}.option-field{border-bottom:1px solid #eef0eb}.option-field:last-child{border-bottom:0}.option-title{width:100%;border:0;background:#fff;color:var(--ink);padding:15px 0;display:flex;align-items:center;gap:9px;text-align:left}.option-title .index{font-size:10px;color:#b1bcb0;width:22px;flex-shrink:0}.option-title .label{font-size:12px;font-weight:650;flex:1}.answer{font-size:11px;color:#6b8362;max-width:42%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right}.answer.empty{color:#bdc5b9}.option-area{padding:0 0 14px 30px}.chips{display:flex;gap:7px;flex-wrap:wrap}.chip{font-size:12px;line-height:1.24;border:1px solid #d9e2d3;background:#f9faf7;border-radius:8px;padding:9px 11px;color:#4b6243;min-height:35px}.chip.selected{background:var(--green);border-color:var(--green);color:#fff}.chip.multi.selected{background:var(--selected);color:#3b5d34;border-color:#9db695}.chip:hover{border-color:#90a886}.flavour-list{border:1px solid #e9eee4;border-radius:10px;overflow:hidden}.nested{border-bottom:1px solid #edf1e8}.nested:last-child{border-bottom:0}.nest-head{background:#fbfcf9;border:0;width:100%;text-align:left;padding:12px 11px;display:flex;align-items:center;gap:10px;color:#3c4b37}.nest-head strong{font-size:12px;font-weight:650;flex:1}.nest-head small{font-size:10px;color:#77916e}.nest-body{padding:12px;background:#fff}.nest-caption{font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:#94a58b;margin:12px 0 7px}.nest-caption:first-child{margin-top:0}.special-row{padding:10px 0;border-top:1px solid #eff2eb}.special-row:first-child{padding-top:0;border-top:0}.special-row .special-title{font-size:11px;font-weight:650;color:#5c7154;margin-bottom:8px}.more{border:0;background:transparent;padding:14px 0 8px;color:#637d56;font-size:12px;font-weight:650}.notes-wrap{padding:10px 0 2px}.notes-wrap button{border:0;background:none;padding:6px 0;color:#688159;font-size:12px;font-weight:650}.notes-wrap textarea{display:block;width:100%;margin-top:7px;min-height:76px;padding:10px;border-radius:9px;border:1px solid #dce5d7;resize:vertical}.stack-group{border-bottom:1px solid #eef0eb;padding:10px 0}.stack-group:last-child{border-bottom:0}.group-caption{font-size:10px;letter-spacing:1.1px;text-transform:uppercase;color:#83937b;font-weight:700;margin:8px 0 9px}.hint{font-size:11px;color:#8c9b86;line-height:1.55;margin:7px 0}
+/* Scoring and pricing */
+.score-top{display:flex;align-items:baseline;justify-content:space-between;padding:12px 14px;background:var(--green);color:#fff;border-radius:10px;margin:10px 0 13px}.score-number{font:normal 35px Georgia,serif}.score-top small{font-size:11px;color:#d0dfca}.score-group{padding:12px 0;border-bottom:1px solid var(--line)}.score-group:last-child{border:0}.score-group-head{display:flex;align-items:center;justify-content:space-between;color:#4a6144;font-size:12px;font-weight:700;margin-bottom:10px}.score-field{display:grid;grid-template-columns:minmax(110px,1fr) auto;gap:8px;align-items:center;margin:12px 0}.score-field label{font-size:11px;color:#5c6d56}.score-options{display:flex;gap:5px}.score-options button{min-width:33px;padding:8px 6px;border-radius:6px;border:1px solid #d9e2d2;background:#f8faf6;color:#4d6046;font-size:11px}.score-options button.active{border-color:var(--green);background:var(--green);color:#fff}.price-set{padding:11px 0;border-bottom:1px solid #edf1e9}.price-set:last-child{border:0}.price-set label{font-size:12px;color:#4c6145;font-weight:650;display:block;margin-bottom:10px}.price-set .currency{color:#91a18b;font-size:10px;font-weight:500}.money{border:1px solid #dce4d6;border-radius:8px;padding:10px;font-size:13px;width:100%;max-width:220px;margin-top:9px}.finish-actions{display:flex;align-items:center;gap:10px;margin:19px 0 5px}.primary-button{border:1px solid var(--green);color:#fff;background:var(--green);border-radius:9px;padding:12px 17px;font-size:13px;font-weight:650}.outline-button{border:1px solid #b3c2aa;color:#48623f;background:white;border-radius:9px;padding:12px 17px;font-size:13px;font-weight:650}.finish-actions .primary-button{flex:1}.reveal-panel{margin:17px 0;background:var(--cream);border-radius:12px;padding:17px;border:1px solid #cbd7c4}.reveal-panel strong{font:normal 21px Georgia,serif;display:block;margin-bottom:14px}.reveal-panel .primary-button{width:100%}
+/* Settings */
+.settings h2{font:normal 29px Georgia,serif;margin:31px 0 23px;color:var(--green)}.settings-block{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;padding:16px}.settings-block h3{font-size:13px;margin:0 0 9px}.settings-block p{font-size:11px;color:#8a9983;line-height:1.7;margin:7px 0 12px}.settings-buttons{display:flex;flex-wrap:wrap;gap:9px}.settings input[type=file]{display:none}.muted-btn{background:#f0f3ec;color:#6c7966;border:1px solid #e2e8dd;padding:9px 12px;font-size:12px;border-radius:8px}.danger-btn{color:#915c52!important}.search{width:100%;padding:11px;border:1px solid #dce4d6;border-radius:9px;margin:9px 0 5px;font-size:13px}
+/* Modals */
+.overlay{position:fixed;inset:0;z-index:50;background:#1623176b;display:flex;justify-content:center;align-items:flex-end;padding:0 12px 12px}.sheet{width:100%;max-width:560px;background:#fdfefb;border-radius:20px;padding:20px 18px max(24px,env(safe-area-inset-bottom));box-shadow:0 15px 48px #16211944;animation:slide .16s ease-out}.sheet h2{font:normal 27px Georgia,serif;color:var(--green);margin:1px 0 20px}.sheet-choice{border:1px solid var(--line);background:white;width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;border-radius:12px;padding:16px 15px;margin:9px 0;text-align:left}.sheet-choice strong{font-size:14px;display:block}.sheet-choice small{font-size:11px;color:#8b9b83;display:block;margin-top:3px}.sheet-choice .arrow{font-size:20px;color:#7f9176}.sheet-close{background:none;border:0;color:#788d71;padding:12px;display:block;margin:9px auto 0;font-size:12px}.input-file{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}@keyframes slide{from{transform:translateY(15px);opacity:.8}to{transform:translateY(0);opacity:1}}.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:90;background:#354830;color:#fff;border-radius:9px;padding:10px 15px;box-shadow:0 10px 32px #1f291f2b;font-size:12px;max-width:88vw;text-align:center}
+@media(max-width:550px){.app-head{height:65px;padding:9px 15px}.wordmark{font-size:19px}.main{min-height:calc(100dvh - 65px);padding:0 16px 28px}.home{min-height:calc(100dvh - 65px)}.home-title{margin-top:29px;font-size:29px}.record-head{padding-top:21px}.record-head h2{font-size:29px}.field-grid{grid-template-columns:1fr}.photo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.score-field{display:block}.score-options{justify-content:space-between;margin-top:7px}.score-options button{flex:1;min-width:0}.section-head{padding:14px 12px}.section-body{padding:5px 12px 15px}.option-area{padding-left:23px}.option-title .index{width:16px}.answer{max-width:39%}}
+@media(max-width:360px){.wordmark{font-size:17px}.photo-tile{gap:6px}.photo-tile button{padding:8px}.section-head .section-name{font-size:19px}.chip{font-size:11px;padding:8px}.score-options button{padding:8px 3px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* V1.4 · Simplified form; the original typeface and colours are unchanged */
+.wine-type-inline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin:14px 0 17px;width:100%}
+.wine-type-button{min-width:0;min-height:46px;border:1px solid #d7dfd2;background:#fff;border-radius:10px;color:#52634c;font-size:13px;font-weight:550;padding:10px 3px;white-space:nowrap}
+.wine-type-button.selected{background:var(--green);color:#fff;border-color:var(--green)}
+.wine-type-button:hover{border-color:#8da385}
+.section-head{gap:8px;padding-left:18px}.section-head .section-name{padding-left:0}.section-head .chevron{margin-left:auto}
+.option-title{gap:9px}.option-area{padding-left:0}.section-body .option-field .option-title .label{font-size:13px}
+.field-help{border:1px solid #e9eee4;border-radius:9px;padding:14px;color:#84937e;font-size:12px;background:#fbfcf9}
+.score-title-en{display:block}.score-title-zh{font:normal 12px/1.4 -apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;color:#7b8b73;margin-top:3px}
+.empty-cta{align-items:center;justify-content:center}.empty-cta .add-btn{min-width:214px;padding:17px 24px}
+.category-helper{color:#84957f;font-size:10px;padding:4px 0 9px}
+@media(max-width:550px){.wine-type-inline{gap:5px}.wine-type-button{font-size:12px;min-height:43px;padding:8px 1px}.section-head{padding-left:14px}.option-area{padding-left:0}}
+@media(max-width:355px){.wine-type-inline{gap:4px}.wine-type-button{font-size:11px}}
+.direct-tasting{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin:56px auto 40px}.direct-tasting button{min-width:170px;min-height:64px;font-size:18px}.empty-instruction{text-align:center;color:#6b7665}.overall-note{padding:24px 0;border-top:1px solid #ddd}.overall-note textarea{display:block;width:100%;margin:16px 0;padding:16px;line-height:1.8;border:1px solid #d5d9cf;background:#fffefa;box-sizing:border-box}.overall-note p{font-size:12px;color:#6b7665}</style>
+</head>
+<body>
+<div class="shell">
+  <header class="app-head" id="appHeader"></header>
+  <main class="main" id="app"></main>
+</div>
+<div id="modalRoot"></div>
+<input id="photoCamera" class="input-file" type="file" accept="image/*" capture="environment">
+<input id="photoImage" class="input-file" type="file" accept="image/*" multiple>
+<script>
+'use strict';
+const STILL=[
+ ['Visual / Sight', [['limpidity','Limpidity',[5,4,3,2,1]],['aspect','Aspect',[10,8,6,4,2]]]],
+ ['Nose', [['ngenuine','Genuineness',[6,5,4,3,2]],['nintensity','Positive Intensity',[8,7,6,4,2]],['nquality','Quality',[16,14,12,10,8]]]],
+ ['Palate / Taste', [['tgenuine','Genuineness',[6,5,4,3,2]],['tintensity','Positive Intensity',[8,7,6,4,2]],['tpersist','Persistence',[8,7,6,5,4]],['tquality','Quality',[22,19,16,13,10]]]],
+ ['Harmony', [['overall','Overall Judgement',[11,10,9,8,7]]]]
+];
+const SPARKLING=[
+ ['Visual / Sight', [['limpidity','Limpidity',[5,4,3,2,1]],['aspect','Aspect',[10,8,6,4,2]],['effervescence','Effervescence',[10,8,6,4,2]]]],
+ ['Nose', [['ngenuine','Genuineness',[7,6,5,4,3]],['nintensity','Positive Intensity',[7,6,5,4,3]],['nquality','Quality',[14,12,10,8,6]]]],
+ ['Palate / Taste', [['tgenuine','Genuineness',[7,6,5,4,3]],['tintensity','Positive Intensity',[7,6,5,4,3]],['tpersist','Persistence',[7,6,5,4,3]],['tquality','Quality',[14,12,10,8,6]]]],
+ ['Harmony', [['overall','Overall Judgement',[12,11,10,9,8]]]]
+];
+// All sensory terms in Title Case and grouped by wine style.
+const FRUIT={
+ Citrus:['Lemon','Lime','Grapefruit','Orange','Mandarin','Yuzu','Lemon Zest','Lime Zest','Orange Peel','Preserved Lemon'],
+ 'Green Fruit':['Green Apple','Granny Smith Apple','Green Pear','Gooseberry','Quince'],
+ 'Orchard Fruit':['Yellow Apple','Red Apple','Pear','Asian Pear','Baked Apple','Quince'],
+ 'Stone Fruit':['White Peach','Yellow Peach','Nectarine','Apricot','Mirabelle','Yellow Plum'],
+ 'Tropical Fruit':['Pineapple','Passion Fruit','Mango','Guava','Papaya','Lychee','Banana'],
+ 'Berry / Other':['White Currant','Melon','Fig','White Strawberry'],
+ 'Red Fruit':['Red Cherry','Sour Cherry','Raspberry','Strawberry','Cranberry','Redcurrant','Red Plum','Pomegranate'],
+ 'Black Fruit':['Blackcurrant','Blackberry','Black Cherry','Black Plum','Black Raspberry'],
+ 'Blue Fruit':['Blueberry','Bilberry','Huckleberry','Damson'],
+ 'Wild / Other Fruit':['Mulberry','Boysenberry','Loganberry','Wild Strawberry','Fig','Black Fig','Wild Berry'],
+ 'Dried Fruit':['Dried Apricot','Dried Cherry','Raisin','Prune','Dried Fig','Date','Sultana']
+};
+const FRUIT_ORDER={
+ White:['Citrus','Green Fruit','Orchard Fruit','Stone Fruit','Tropical Fruit','Berry / Other','Dried Fruit'],
+ Red:['Red Fruit','Black Fruit','Blue Fruit','Wild / Other Fruit','Dried Fruit'],
+ 'Rosé':['Citrus','Red Fruit','Stone Fruit','Tropical Fruit','Dried Fruit'],
+ Sparkling:['Citrus','Green Fruit','Orchard Fruit','Stone Fruit','Red Fruit','Black Fruit','Tropical Fruit','Dried Fruit']
+};
+const NONFRUIT={
+ Floral:{White:['Apple Blossom','Citrus Blossom','White Flower','Honeysuckle','Acacia','Jasmine','Orange Blossom','Elderflower','Chamomile','Linden Blossom'],Red:['Violet','Rose','Peony','Hibiscus','Lavender','Potpourri','Dried Rose'],Both:['Fresh Flowers','Dried Flowers']},
+ Herbal:{Both:['Mint','Eucalyptus','Basil','Thyme','Rosemary','Sage','Oregano','Bay Leaf','Fennel','Dill','Tarragon','Dried Herbs','Fresh-Cut Grass','Garrigue']},
+ Vegetal:{Both:['Green Bell Pepper','Asparagus','Pea Pod','Tomato Leaf','Blackcurrant Leaf','Jalapeño','Olive','Artichoke','Celery','Grass','Nettle']},
+ 'Earth & Mineral':{Both:['Wet Stone','Chalk','Limestone','Slate','Flint','Gunflint','Sea Spray','Saline','Crushed Rock','Volcanic Ash','Graphite','Gravel','Clay','Petrichor','Damp Earth','Forest Floor','Wet Leaves','Mushroom','Truffle','Fresh Soil']},
+ Spice:{Both:['Black Pepper','White Pepper','Pink Pepper','Sichuan Pepper','Star Anise','Aniseed','Fennel Seed','Juniper','Saffron','Liquorice Root','Ginger','Coriander Seed','Savory Spice']}
+};
+const OTHER_MARKERS={
+ Both:['Honey','Beeswax','Lanolin','Petrol','Rubber','Black Tea','Tobacco','Tar','Leather','Game','Meat','Musk','Iodine','Salty / Savory'],
+ White:['Thiols','Monoterpenes','Sotolon','Botrytis Character'],
+ Red:['Pyrazines','Rotundone','Reduction','Dried Floral Notes']
+};
+const WINEMAKING_GROUPS=[
+ ['Oak / Barrel','oak'],
+ ['Lees & Malolactic',['Lees Contact','Lees Stirring / Bâtonnage','Autolysis','Brioche / Bread Dough','Cream / Butter (MLF)','Diacetyl']],
+ ['Fermentation & Extraction',['Carbonic Maceration','Semi-Carbonic Maceration','Whole-Bunch Fermentation','Whole-Cluster Stems','Skin Contact','Extended Maceration']],
+ ['Oxidative & Reductive',['Oxidative Handling','Controlled Oxidation','Reduction','Flint / Struck Match','Sulphur-Derived Notes']],
+ ['Other Élevage',['Concrete Vessel','Stainless Steel','Amphora / Clay','Large Neutral Oak','Botrytis','Flor Influence']]
+];
+const TERTIARY={
+ White:['Honey','Beeswax','Dried Apricot','Dried Apple','Toasted Hazelnut','Almond','Walnut','Brioche','Hay','Chamomile','Mushroom','Truffle','Petrol','Lanolin','Caramel','Marmalade','Saffron','Dried Flowers','Oxidative Notes'],
+ Red:['Leather','Tobacco','Cigar Box','Forest Floor','Truffle','Mushroom','Dried Rose','Game','Meat','Dried Cherry','Prune','Fig','Balsamic','Tea Leaf','Tar','Earth','Musk','Cedar']
+};
+const OAK=[
+ ['Oak Evidence','oakEvidence',['No Perceptible Oak','Possible Oak','Clear Oak']],
+ ['Oak Intensity','oakIntensity',['Subtle','Moderate','Pronounced']],
+ ['Oak Aromas','oakAromas',['Vanilla','Toasted Oak','Cedar','Clove','Cinnamon','Nutmeg','Baking Spice','Allspice','Coconut','Dill','Smoke','Coffee','Cocoa','Caramel','Sandalwood'],'multi'],
+ ['Perceived Oak Age','oakAge',['Likely New Oak','Used / Neutral Oak','Mixed','Uncertain']],
+ ['Perceived Vessel','oakVessel',['Small Barrel','Larger Barrel','Foudre','Uncertain']],
+ ['Oak Origin Impression','oakOrigin',['French-Like','American-Like','Uncertain']],
+ ['Oak Integration','oakIntegration',['Seamless','Well Integrated','Noticeable','Dominant']],
+ ['Toasting Level','oakToast',['Light','Medium','Heavy','Uncertain']],
+ ];
+const SIGHT=[
+ ['Clarity','clarity',['Clear','Slightly Cloudy','Cloudy']],
+ ['Brightness','brightness',['Dull','Bright','Brilliant']],
+ ['Concentration / Intensity','colourIntensity',['Pale','Medium','Deep','Opaque']],
+ ['Color','colour',['Lemon-Green','Lemon','Gold','Amber','Pink','Salmon','Purple','Ruby','Garnet','Tawny','Brown']]
+];
+const SIGHT_EXTRA=[
+ ['Hue / Rim','rim',['Green','Yellow','Golden','Orange','Purple','Ruby','Garnet','Brown']],
+ ['Staining','staining',['None','Light','Medium','Heavy']],
+ ['Viscosity','viscosity',['Low','Med−','Medium','Med+','High']],
+ ['Gas / Bubbles','gas',['None','Pétillance','Visible Bubbles']],
+ ['Sediment','sediment',['None','Present']]
+];
+const NOSE_BASE=[
+ ['Condition','noseCondition',['Clean','Faulty','Corked']],
+ ['Aromatic Intensity','noseIntensity',['Delicate','Moderate','Pronounced']],
+ ['Fruit Condition','fruitRipeness',['Tart','Unripe','Ripe','Overripe','Jammy','Baked','Dried Fruit']],
+ ['Age Assessment','development',['Youthful','Vinous']]
+];
+const STRUCTURE=[
+ ['Sweetness','sweetness',['Bone Dry','Dry','Off-Dry','Medium Sweet','Sweet']],
+ ['Acidity','acidity',['Low','Med−','Medium','Med+','High']],
+ ['Tannin','tannin',['None','Low','Med−','Medium','Med+','High']],
+ ['Alcohol','alcohol',['Low','Med−','Medium','Med+','High']],
+ ['Body','body',['Light','Med−','Medium','Med+','Full']]
+];
+const PALATE_MARKERS=[
+ ['Concentration','palateConcentration',['Light','Moderate','Pronounced']],
+ ['Perceived Markers','palateMarkers',['Saline','Mineral','Phenolic Grip','Oak Grip','Savoury','Bitter','Warming','Fresh','Oxidative','Autolytic'],'multi']
+];
+const PALATE_FINISH=[
+ ['Texture','texture',['Lean','Crisp','Round','Creamy','Silky','Fine-Grained','Chalky','Firm','Astringent','Oily'],'multi'],
+ ['Complexity','complexity',['Simple','Moderate','Complex','Very Complex']],
+ ['Finish','finish',['Short','Med−','Medium','Med+','Long']],
+ ['Balance','balance',['Balanced','Slightly Unbalanced','Unbalanced']]
+];
+const INITIAL=[
+ ['World / Style','world',['Old World','New World','Uncertain']],
+ ['Climate','climate',['Cool','Cool-Moderate','Moderate','Moderate-Warm','Warm']],
+ ['Age Range','ageRange',['1–3 Years','3–5 Years','5–10 Years','10+ Years']]
+];
+const FINAL=[['Confidence','confidence',['Low','Medium','High']]];
+const PANELS=[
+ ['sight','Sight'],['nose','Nose'],['palate','Palate'],
+ ['initial','Initial Conclusion'],['final','Final Conclusion'],
+ ['score','Quality Score / 质量评分'],['price','Price & Value']
+];
+const app=document.getElementById('app');
+const head=document.getElementById('appHeader');
+const modalRoot=document.getElementById('modalRoot');
+let db=null,notes=[],current=null,screen='home',modal=null,saveTimer=null,searchText='',storageMode='local',volatileNotes=[];
+const ui={panels:new Set(['sight']),fields:new Set(),categories:new Set(),more:new Set(),notes:new Set(),detailsOpen:false};
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function freshId(){return 't-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,9)}
+function today(){return new Date().toISOString()}
+function formatDate(t){return new Date(t||Date.now()).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}
+function makeNote(blind){return {id:freshId(),createdAt:today(),updatedAt:today(),blind:!!blind,revealed:!blind,wineType:'',producer:'',wine:'',region:'',vintage:'',grape:'',fields:{},score:{},prices:{},photo:[],completed:false}}
+function normalise(note){
+ const copy=JSON.parse(JSON.stringify(note));copy.fields??={};copy.score??={};copy.prices??={};copy.photo??=[];
+ copy.producer??='';copy.wine??='';copy.grape??='';copy.region??='';copy.vintage??='';copy.wineType??='';copy.revealed??=!copy.blind;
+ copy.id??=freshId();copy.createdAt??=today();copy.updatedAt??=copy.createdAt;
+ for(const phase of ['nose','palate']){
+  const f=copy.fields,earthKeys=[`${phase}Non:Earth & Mineral`,`${phase}Non:Mineral`,`${phase}Non:Earth & Organic`];
+  const merged=[...new Set(earthKeys.flatMap(k=>Array.isArray(f[k])?f[k]:[]))];
+  if(merged.length)f[earthKeys[0]]=merged;
+  delete f[earthKeys[1]];delete f[earthKeys[2]];
+  const oldOther=`${phase}Non:Other Markers`,newOther=`${phase}Other:Other Markers`;
+  if(Array.isArray(f[oldOther]))f[newOther]=[...new Set([...(Array.isArray(f[newOther])?f[newOther]:[]),...f[oldOther]])];
+  delete f[oldOther];
+ }
+ return copy;
+}
+function val(k){return current?.fields?.[k]??''}
+function valText(v){return Array.isArray(v)?v.join(' · '):String(v??'')}
+function filled(v){return Array.isArray(v)?v.length>0:String(v??'').trim().length>0}
+function hasContent(n){return !!(n?.photo?.length||n?.wineType||n?.producer||n?.wine||n?.region||n?.vintage||n?.grape||Object.values(n?.fields||{}).some(filled)||Object.values(n?.score||{}).some(v=>v!=null)||Object.values(n?.prices||{}).some(filled))}
+function tally(n=current){const schema=(n?.wineType==='Sparkling')?SPARKLING:STILL;let sum=0,done=0,count=0,groups=[];for(const [name,rows] of schema){let scored=0,max=0,d=0;for(const [key,,bins] of rows){count++;max+=bins[0];const candidate=n?.score?.[key];if(candidate!=null&&bins.includes(Number(candidate))){d++;done++;sum+=Number(candidate);scored+=Number(candidate)}}groups.push({name,scored,max,done:d,count:rows.length})}return {sum,done,count,groups,complete:done===count}}
+function scoreSchema(){return current?.wineType==='Sparkling'?SPARKLING:STILL}
+function toast(message){document.querySelector('.toast')?.remove();const node=document.createElement('div');node.className='toast';node.textContent=message;document.body.appendChild(node);setTimeout(()=>node.remove(),2300)}
+function resetUi(){ui.panels=new Set(['sight']);ui.fields.clear();ui.categories.clear();ui.more.clear();ui.notes.clear();ui.detailsOpen=false}
+// Reuse the V1.1/V1.2 database so existing records remain readable in the same browser origin.
+async function openDB(){return new Promise((res,rej)=>{const r=indexedDB.open('WTJ_V11',1);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains('notes'))r.result.createObjectStore('notes',{keyPath:'id'})};r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})}
+async function allNotes(){
+ if(db)return new Promise((res,rej)=>{const r=db.transaction('notes','readonly').objectStore('notes').getAll();r.onsuccess=()=>res(r.result||[]);r.onerror=()=>rej(r.error)});
+ if(storageMode==='session')return volatileNotes.slice();
+ try{return JSON.parse(localStorage.getItem('wtj_notes')||'[]')}catch(e){storageMode='session';return volatileNotes.slice()}
+}
+async function storeNote(n){
+ n.updatedAt=today();const obj=normalise(n);
+ if(db)return new Promise((res,rej)=>{const tx=db.transaction('notes','readwrite');tx.objectStore('notes').put(obj);tx.oncomplete=()=>res();tx.onerror=()=>rej(tx.error)});
+ let arr;
+ try{arr=storageMode==='session'?volatileNotes.slice():JSON.parse(localStorage.getItem('wtj_notes')||'[]')}catch(e){storageMode='session';arr=volatileNotes.slice()}
+ const idx=arr.findIndex(x=>x.id===obj.id);if(idx<0)arr.push(obj);else arr[idx]=obj;
+ if(storageMode!=='session'){try{localStorage.setItem('wtj_notes',JSON.stringify(arr));return}catch(e){storageMode='session'}}
+ volatileNotes=arr;
+}
+async function deleteNote(id){
+ if(db)return new Promise((res,rej)=>{const tx=db.transaction('notes','readwrite');tx.objectStore('notes').delete(id);tx.oncomplete=()=>res();tx.onerror=()=>rej(tx.error)});
+ const arr=(await allNotes()).filter(n=>n.id!==id);
+ if(storageMode==='session'){volatileNotes=arr;return}
+ try{localStorage.setItem('wtj_notes',JSON.stringify(arr))}catch(e){storageMode='session';volatileNotes=arr}
+}
+async function refreshNotes(){notes=(await allNotes()).map(normalise).filter(hasContent).sort((a,b)=>String(b.updatedAt).localeCompare(String(a.updatedAt)))}
+function autoSave(){const el=document.getElementById('saveStatus');if(el)el.textContent='Saving';clearTimeout(saveTimer);saveTimer=setTimeout(async()=>{if(!current||!hasContent(current))return;try{await storeNote(current);const s=document.getElementById('saveStatus');if(s)s.textContent=storageMode==='session'?'Session Only':'Saved'}catch(err){toast('Could not save: '+err.message)}},380)}
+async function flush(){clearTimeout(saveTimer);if(current&&hasContent(current)){try{await storeNote(current)}catch(err){toast('Save failed: '+err.message)}}}
+async function goHome(){await flush();await refreshNotes();current=null;screen='home';resetUi();closeModal();render();window.scrollTo(0,0)}
+async function showSettings(){await flush();screen='settings';closeModal();render();window.scrollTo(0,0)}
+function begin(blind){current=makeNote(blind);resetUi();screen='record';closeModal();render();window.scrollTo(0,0)}
+async function loadNote(id){await flush();await refreshNotes();const n=notes.find(n=>n.id===id);if(!n)return;current=normalise(n);screen='record';resetUi();closeModal();render();window.scrollTo(0,0)}
+function titleFor(n){const title=[n.producer,n.wine,n.vintage].filter(Boolean).join(' ');return title||`${n.wineType?n.wineType+' · ':''}${n.blind?'Blind Tasting':'Open Tasting'}`}
+function chips(key,options,multi=false){const v=val(key);return `<div class="chips">${options.map(name=>{const selected=multi?(Array.isArray(v)&&v.includes(name)):v===name;return `<button type="button" class="chip ${multi?'multi ':''}${selected?'selected':''}" data-chip="${esc(key)}" data-choice="${esc(name)}" data-multi="${multi?'1':'0'}" aria-pressed="${selected}">${esc(name)}</button>`}).join('')}</div>`}
+function renderField(item){
+ const [label,key,options,feature]=item,expanded=ui.fields.has(key),txt=valText(val(key));
+ return `<div class="option-field ${expanded?'open':''}" id="field-${esc(key)}"><button class="option-title" type="button" data-field="${esc(key)}" aria-expanded="${expanded}"><span class="label">${esc(label)}</span><span class="answer ${txt?'':'empty'}">${esc(txt||'Select')}</span><span class="chevron">⌄</span></button>${expanded?`<div class="option-area">${chips(key,options,feature==='multi')}</div>`:''}</div>`;
+}
+function drawFields(items){return items.map(item=>renderField(item)).join('')}
+function typeFamilies(){return FRUIT_ORDER[current.wineType]||[]}
+function flavoursChosen(phase,kind,category){return val(`${phase}${kind}:${category}`)}
+function countCategory(phase,kind,category){const v=flavoursChosen(phase,kind,category);return Array.isArray(v)?v.length:0}
+function nonfruitGroups(){
+ const type=current.wineType, groups=[];
+ for(const [cat,data] of Object.entries(NONFRUIT)){
+  const extras=type==='Red'?'Red':type==='Rosé'?'Red':type==='Sparkling'?'BothStyles':'White';
+  const styleTerms=extras==='BothStyles'?[...(data.White||[]),...(data.Red||[])]:data[extras]||[];
+  groups.push([cat,[...new Set([...(data.Both||[]),...styleTerms])]]);
+ }
+ return groups;
+}
+function otherTerms(){
+ const style=current.wineType;
+ return [...new Set([...OTHER_MARKERS.Both,...(style==='Sparkling'?[...OTHER_MARKERS.White,...OTHER_MARKERS.Red]:OTHER_MARKERS[style==='Red'||style==='Rosé'?'Red':'White'])])];
+}
+function oakStorageKey(phase,key){return phase==='nose'?key:'palate'+key[0].toUpperCase()+key.slice(1)}
+function oakCount(phase){return OAK.reduce((a,[,k])=>a+(filled(val(oakStorageKey(phase,k)))?1:0),0)}
+function categoryRow(phase,kind,category,contents){
+ const id=`${phase}${kind}:${category}`,expanded=ui.categories.has(id);
+ let inner='',count=0;
+ if(contents==='oak'){
+  count=oakCount(phase);
+  inner=OAK.map(([title,k,choices,type])=>`<div class="special-row"><div class="special-title">${esc(title)}</div>${chips(oakStorageKey(phase,k),choices,type==='multi')}</div>`).join('');
+ }else{
+  inner=chips(id,contents,true);count=countCategory(phase,kind,category);
+ }
+ return `<div class="nested ${expanded?'open':''}" id="cat-${esc(id)}"><button class="nest-head" type="button" data-cat="${esc(id)}" aria-expanded="${expanded}"><strong>${esc(category)}</strong>${count?`<small>${count} selected</small>`:''}<span class="chevron">⌄</span></button>${expanded?`<div class="nest-body">${inner}</div>`:''}</div>`;
+}
+function flavourField(phase,kind){
+ const id=`${phase}-${kind}`,opened=ui.fields.has(id);
+ const label=({Fruit:'Fruit',Non:'Non-Fruit',WM:'Winemaking & Oak',Tertiary:'Tertiary Characters',Other:'Other Markers'})[kind];
+ if(kind==='Other'){
+  const k=`${phase}Other:Other Markers`,values=val(k),count=Array.isArray(values)?values.length:0;
+  return `<div class="option-field ${opened?'open':''}" id="field-${esc(id)}"><button class="option-title" type="button" data-field="${esc(id)}" aria-expanded="${opened}"><span class="label">${label}</span><span class="answer ${count?'':'empty'}">${count?count+' Selected':'Select'}</span><span class="chevron">⌄</span></button>${opened?`<div class="option-area">${chips(k,otherTerms(),true)}</div>`:''}</div>`;
+ }
+ if(kind==='Tertiary'){
+  const styles=current.wineType==='Sparkling'?['White','Red']:current.wineType==='Red'||current.wineType==='Rosé'?['Red']:current.wineType==='White'?['White']:[];
+  const count=styles.reduce((a,style)=>a+countCategory(phase,'Non',`Tertiary:${style}`),0);
+  const content=styles.length===0?'<div class="field-help">Choose a Wine Type above.</div>':styles.length===1?chips(`${phase}Non:Tertiary:${styles[0]}`,TERTIARY[styles[0]],true):styles.map(style=>`<div class="special-row"><div class="special-title">${style} Wine Characters</div>${chips(`${phase}Non:Tertiary:${style}`,TERTIARY[style],true)}</div>`).join('');
+  return `<div class="option-field ${opened?'open':''}" id="field-${esc(id)}"><button class="option-title" type="button" data-field="${esc(id)}" aria-expanded="${opened}"><span class="label">${label}</span><span class="answer ${count?'':'empty'}">${count?count+' Selected':'Select'}</span><span class="chevron">⌄</span></button>${opened?`<div class="option-area">${content}</div>`:''}</div>`;
+ }
+ let groups=kind==='Fruit'?typeFamilies().map(cat=>[cat,FRUIT[cat]]):kind==='Non'?nonfruitGroups():WINEMAKING_GROUPS;
+ let selected=0;
+ for(const [cat,contents] of groups){selected+=contents==='oak'?oakCount(phase):countCategory(phase,kind,cat)}
+ const content=kind==='Fruit'&&!current.wineType?'<div class="field-help">Choose Sparkling, White, Rosé or Red above.</div>':`<div class="flavour-list">${groups.map(([cat,terms])=>categoryRow(phase,kind,cat,terms)).join('')}</div>`;
+ return `<div class="option-field ${opened?'open':''}" id="field-${esc(id)}"><button class="option-title" type="button" data-field="${esc(id)}" aria-expanded="${opened}"><span class="label">${label}</span><span class="answer ${selected?'':'empty'}">${selected?selected+' Selected':'Select'}</span><span class="chevron">⌄</span></button>${opened?`<div class="option-area">${content}</div>`:''}</div>`;
+}
+function setWineType(style){
+ if(!FRUIT_ORDER[style])return;
+ const previous=current.wineType;current.wineType=style;
+ if((previous==='Sparkling')!==(style==='Sparkling'))current.score={};
+ const allowed=new Set(FRUIT_ORDER[style]);
+ const tertiaryAllowed=new Set(style==='Sparkling'?['White','Red']:[style==='Red'||style==='Rosé'?'Red':'White']);
+ for(const phase of ['nose','palate']){
+  for(const k of Object.keys(current.fields)){
+   if(k.startsWith(`${phase}Fruit:`)&&!allowed.has(k.slice(`${phase}Fruit:`.length)))delete current.fields[k];
+   if(k.startsWith(`${phase}Non:Tertiary:`)&&!tertiaryAllowed.has(k.slice(`${phase}Non:Tertiary:`.length)))delete current.fields[k];
+  }
+  const floralKey=`${phase}Non:Floral`,floral=val(floralKey);
+  if(Array.isArray(floral)){const permitted=new Set(nonfruitGroups().find(x=>x[0]==='Floral')[1]);current.fields[floralKey]=floral.filter(x=>permitted.has(x))}
+ }
+ ui.categories.clear();autoSave();rerender('wine-type');
+}
+function noteArea(name,key){const expanded=ui.notes.has(name);const text=val(key);return `<div class="notes-wrap"><button type="button" data-notes="${esc(name)}">${expanded?'−':'+'} Notes</button>${expanded||filled(text)?`<textarea data-textarea="${esc(key)}" placeholder="Optional">${esc(text)}</textarea>`:''}</div>`}
+function additionalSight(){return `<button type="button" class="more" data-more="sight">${ui.more.has('sight')?'− Less':'＋ More'}</button>${ui.more.has('sight')?drawFields(SIGHT_EXTRA):''}`}
+function renderSight(){return `${drawFields(SIGHT)}${additionalSight()}`}
+function renderNose(){
+ let out=drawFields(NOSE_BASE);
+ if(['Faulty','Corked'].includes(val('noseCondition')))out+=renderField(['Fault Character','noseFault',['TCA / Cork Taint','Volatile Acidity','Brettanomyces','Reduction','Oxidation','Sulphur Dioxide','Other'],'multi']);
+ for(const kind of ['Fruit','Non','WM','Tertiary','Other'])out+=flavourField('nose',kind);
+ return out+noteArea('nose','noseFree');
+}
+function renderPalate(){
+ let html=`<div class="group-caption">Structure</div>${drawFields(STRUCTURE)}`;
+ html+=`<div class="group-caption" style="margin-top:17px">Palate Flavour</div><div style="text-align:right"><button type="button" class="more" data-confirm-nose="1">✓ Confirm Nose</button></div>`;
+ for(const kind of ['Fruit','Non','WM','Tertiary','Other'])html+=flavourField('palate',kind);
+ html+=`<div class="group-caption" style="margin-top:18px">Palate Markers</div>${drawFields(PALATE_MARKERS)}`;
+ html+=`<div class="group-caption" style="margin-top:18px">Texture · Complexity · Finish · Balance</div>${drawFields(PALATE_FINISH)}`;
+ return html+noteArea('palate','palateFree');
+}
+function tfield(key,label,where='fields',placeholder=''){const v=where==='fields'?val(key):current?.[key]??'';return `<label class="tfield">${esc(label)}<input type="text" data-input="${esc(key)}" data-location="${esc(where)}" value="${esc(v)}" placeholder="${esc(placeholder)}" autocomplete="off"></label>`}
+function renderInitial(){return `${drawFields(INITIAL)}<div class="field-grid" style="margin-top:14px">${tfield('possibleGrape','Possible Grapes')}${tfield('possibleCountry','Possible Countries')}${tfield('possibleRegion','Possible Regions')}${tfield('initialEvidence','Supporting Evidence')}</div>${noteArea('initial','initialNotes')}`}
+function renderFinal(){return `<div class="field-grid">${tfield('guessGrape','Grape Variety / Blend')}${tfield('guessCountry','Country')}${tfield('guessRegion','Region / Appellation')}${tfield('guessVintage','Vintage')}${tfield('guessQuality','Quality Hierarchy')}${tfield('evidence','Key Markers (3–5)')}</div>${drawFields(FINAL)}${noteArea('final','finalConclusion')}`}
+function renderScore(){const t=tally();let html=`<div class="score-top"><div><span class="score-number">${t.done?t.sum:'—'}</span><span style="opacity:.8"> / 100</span></div><small>${t.complete?'Complete':`${t.done}/${t.count} Scored`}</small></div>`;
+ for(const [title,rows] of scoreSchema()){const g=t.groups.find(g=>g.name===title);html+=`<div class="score-group"><div class="score-group-head"><span>${esc(title)}</span><span>${g.done===g.count?g.scored:'—'} / ${g.max}</span></div>`;
+ for(const [key,label,options] of rows){html+=`<div class="score-field"><label>${esc(label)}</label><div class="score-options">${options.map(n=>`<button type="button" data-score="${esc(key)}" data-scorevalue="${n}" class="${current.score[key]===n?'active':''}" aria-pressed="${current.score[key]===n}">${n}</button>`).join('')}</div></div>`}html+='</div>'}return html}
+function renderPriceInput(key,label){const value=current.prices[key]??'';const options=[150,300,500,800,1200,2000];return `<div class="price-set"><label>${esc(label)} <span class="currency">CNY · ¥</span></label><div class="chips">${options.map(n=>`<button type="button" class="chip ${String(value)===String(n)?'selected':''}" data-pricechip="${key}" data-pricevalue="${n}">¥${n}</button>`).join('')}</div><input class="money" type="number" inputmode="numeric" min="0" step="1" data-price="${key}" value="${esc(value)}" placeholder="Other Amount"></div>`}
+function renderPrice(){let html=renderPriceInput('expectedRetail','Estimated Retail Price');html+=renderPriceInput('willingPay','My Buying Price');
+ html+=`<div class="price-set"><label>Would You Buy?</label><div class="chips">${['Buy','Maybe','Pass'].map(x=>`<button type="button" class="chip ${current.prices.decision===x?'selected':''}" data-decision="${x}">${x}</button>`).join('')}</div></div>`;
+ if(!current.blind||current.revealed)html+=renderPriceInput('realRetail','Actual Retail Price');
+ html+=`<div class="notes-wrap"><button type="button" data-notes="price">${ui.notes.has('price')?'−':'+'} Notes</button>${ui.notes.has('price')||current.prices.notes?`<textarea data-textarea="priceNotes" placeholder="Optional">${esc(current.prices.notes||'')}</textarea>`:''}</div>`;
+ return html}
+function bodyFor(key){return key==='sight'?renderSight():key==='nose'?renderNose():key==='palate'?renderPalate():key==='initial'?renderInitial():key==='final'?renderFinal():key==='score'?renderScore():renderPrice()}
+function panelProgress(key){if(key==='score'){const t=tally();return `${t.done}/${t.count}`};if(key==='price')return current.prices.decision?'●':'';if(key==='initial'||key==='final')return Object.keys(current.fields).filter(k=>key==='initial'?['possibleGrape','possibleCountry','possibleRegion','climate','world','ageRange'].includes(k):['guessGrape','guessCountry','guessRegion','guessVintage','guessQuality','evidence'].includes(k)).filter(k=>filled(val(k))).length?'●':'';
+ if(key==='sight')return `${SIGHT.filter(([,k])=>filled(val(k))).length}/4`;
+ if(key==='nose')return `${NOSE_BASE.filter(([,k])=>filled(val(k))).length}/4`;
+ return `${STRUCTURE.filter(([,k])=>filled(val(k))).length}/5`}
+function renderPanel(key,title){const opened=ui.panels.has(key);return `<section class="section ${opened?'expanded':''}" id="section-${key}"><button class="section-head" type="button" data-panel="${key}" aria-expanded="${opened}"><span class="section-name">${esc(title)}</span><span class="chevron">⌄</span></button>${opened?`<div class="section-body">${bodyFor(key)}</div>`:''}</section>`}
+function renderPhotos(){if(!current.photo.length)return '';return `<div class="photo-grid">${current.photo.map((src,i)=>`<div class="photo-thumb"><img src="${src}" alt="Wine Photo ${i+1}"><button type="button" data-remove-photo="${i}" aria-label="Remove Photo">×</button></div>`).join('')}</div>`}
+function renderPhotoTile(){return `<div class="photo-tile"><div class="photo-symbol">▣</div><div><div class="photo-title">Photo</div><small>${current.photo.length?current.photo.length+' Added':'Wine Label / Bottle'}</small></div><button type="button" data-photo="1">${current.photo.length?'+ Add':'Add Photo'}</button></div>${renderPhotos()}`}
+function renderIdentity(){return `<div class="detail-box"><button class="detail-toggle" type="button" data-detail="1" aria-expanded="${ui.detailsOpen}"><strong>Wine Details</strong><span class="muted">${esc([current.producer,current.wine].filter(Boolean).join(' ')||'Optional')}</span><span class="chevron">${ui.detailsOpen?'⌃':'⌄'}</span></button>${ui.detailsOpen?`<div class="detail-body"><div class="field-grid">${tfield('producer','Producer','note')}${tfield('wine','Wine / Cuvée','note')}${tfield('vintage','Vintage','note')}${tfield('region','Region / Appellation','note')}${tfield('grape','Grape Variety / Blend','note')}</div></div>`:''}</div>`}
+function renderWineType(){return `<div class="wine-type-inline" id="wine-type" role="group" aria-label="Wine Type">${['Sparkling','White','Rosé','Red'].map(type=>`<button type="button" class="wine-type-button ${current.wineType===type?'selected':''}" data-type="${type}" aria-pressed="${current.wineType===type}">${type}</button>`).join('')}</div>`}
+function renderReveal(){if(!current.blind)return '';if(!current.revealed)return `<div class="reveal-panel" id="reveal"><strong>Reveal Wine</strong><button type="button" class="primary-button" data-reveal="1">Reveal →</button></div>`;
+ return `<div id="reveal">${renderPhotoTile()}${renderIdentity()}</div>`}
+function renderRecord(){const mode=current.blind?'Blind Tasting':'Open Tasting';let html=`<div class="record-head"><h2>${mode}</h2><div class="record-meta"><span>${formatDate(current.createdAt)}</span><span>·</span><span class="save-status" id="saveStatus">${storageMode==='session'?'Session Only':'Saved Locally'}</span></div></div>`;
+ if(!current.blind)html+=renderPhotoTile();
+ html+=renderWineType();if(!current.blind)html+=renderIdentity();
+ html+=`<div class="sections">${PANELS.map(([key,title])=>renderPanel(key,title)).join('')}</div>`;
+ html+=renderReveal();
+ html+=`<section id="overall-note" class="overall-note"><h3>Overall Tasting Note</h3><p>根据已填写的记录整理草稿，不补充未观察到的风味。你可以继续编辑。</p><button class="outline-button" data-generate-overall="1">${val("overallNote")?"Regenerate from fields":"Generate overall note"}</button><textarea aria-label="Overall Tasting Note" data-textarea="overallNote" rows="8" placeholder="Complete your observations, then generate a note.">${esc(val("overallNote"))}</textarea><button class="outline-button" data-copy-overall="1">Copy overall note</button></section>`;
+ html+=`<div class="finish-actions"><button type="button" class="outline-button" data-copy="1">Copy</button><button type="button" class="primary-button" data-save="1">Save</button></div>`;
+ if(current.completed)html+=`<button type="button" class="more danger-btn" data-delete-current="1">Delete Tasting</button>`;
+ app.innerHTML=html;
+}
+function renderHome(){let shown=notes;if(searchText)shown=notes.filter(n=>JSON.stringify([n.producer,n.wine,n.region,n.vintage,n.grape,n.wineType,n.fields]).toLowerCase().includes(searchText.toLowerCase()));
+ let html=`<div class="home"><h2 class="home-title">Tastings</h2><div class="home-under">${notes.length?notes.length+' Records':''}</div>`;
+ if(notes.length>5)html+=`<input id="searchTastings" class="search" type="search" value="${esc(searchText)}" placeholder="Search Tastings" aria-label="Search Tastings">`;
+ html+=`<div class="direct-tasting"><button class="primary-button" data-start-mode="open">Open Tasting</button><button class="outline-button" data-start-mode="blind">Blind Tasting</button></div>`;
+ if(shown.length){html+=`<div class="home-list">${shown.map(n=>{const t=tally(n),img=n.photo?.[0];return `<button type="button" class="entry" data-open-note="${esc(n.id)}">${img?`<img src="${img}" alt="Wine Photo">`:'<div class="entry-ph">◌</div>'}<span class="entry-main"><strong>${esc(titleFor(n))}</strong><small>${formatDate(n.createdAt)} · ${n.blind?'Blind':'Open'}</small></span>${t.done?`<span class="entry-score">${t.sum}</span>`:'<span class="arrow">›</span>'}</button>`}).join('')}</div>`}else if(notes.length===0)html+='<p class="empty-instruction">Choose Open or Blind to start a tasting.</p>';
+ else html+='<div class="home-blank"><p>No Matches</p></div>';
+
+ html+='</div>';app.innerHTML=html
+}
+function renderSettings(){app.innerHTML=`<div class="settings"><h2>Settings</h2><div class="settings-block"><h3>Cloud Sync</h3><p>${storageMode==='session'?'Browser Storage Unavailable · 当前为临时记录，关闭页面可能丢失，请及时导出备份。':'Not Available Yet · 云同步将在正式版本中提供。当前记录保存在本机浏览器。'}</p><button class="muted-btn" disabled type="button">Coming Later</button></div><div class="settings-block"><h3>Data & Backup</h3><div class="settings-buttons"><button class="outline-button" type="button" data-export="1">Export JSON</button><label class="outline-button" style="cursor:pointer" for="importInput">Import JSON</label><input type="file" id="importInput" accept=".json,application/json"></div><p>Use Export before changing devices or clearing browser data. Same-browser V1.2 records can be reused when storage is available.</p></div><div class="settings-block"><h3>Scoring</h3><p>100-Point OIV/UIOE legacy judging scale based on your competition sheet. Kept separate from CMS deductive tasting. Still Wine and Sparkling Wine use different score distributions.</p></div><p style="font-size:11px;color:#a1ac9b;margin:24px 0">Wine Tasting Journal · V1.4</p></div>`}
+function renderHeader(){if(screen==='home')head.innerHTML=`<div class="head-left"><div class="wordmark">Wine Tasting Journal</div></div><div class="head-right"><button type="button" class="icon-btn" data-go-settings="1" aria-label="Settings" title="Settings">⚙</button></div>`;
+ else if(screen==='settings')head.innerHTML=`<div class="head-left"><button type="button" class="icon-btn back-btn" data-back="1" aria-label="Back">‹</button><div class="wordmark">Wine Tasting Journal</div></div>`;
+ else head.innerHTML=`<div class="head-left"><button type="button" class="icon-btn back-btn" data-back="1" aria-label="Back">‹</button><div class="wordmark">Wine Tasting Journal</div></div><div class="head-right"><span class="tiny-label" id="headerMode">${current.blind?'BLIND':'OPEN'}</span></div>`;
+}
+function render(){renderHeader();if(screen==='home')renderHome();else if(screen==='settings')renderSettings();else renderRecord();renderModal()}
+function rerender(anchorId=''){const before=anchorId?document.getElementById(anchorId)?.getBoundingClientRect().top:null;const oldY=window.scrollY;render();if(before!=null&&anchorId){const newTop=document.getElementById(anchorId)?.getBoundingClientRect().top;if(newTop!=null)window.scrollBy(0,newTop-before);else window.scrollTo(0,oldY)}else window.scrollTo(0,oldY)}
+function closeModal(){modal=null;modalRoot.innerHTML=''}
+function showModal(name){modal=name;renderModal()}
+function renderModal(){if(!modal){modalRoot.innerHTML='';return}let title='',body='';if(modal==='mode'){title='Add Tasting Note';body=`<button type="button" class="sheet-choice" data-start-mode="open"><span><strong>Open Tasting</strong></span><span class="arrow">›</span></button><button type="button" class="sheet-choice" data-start-mode="blind"><span><strong>Blind Tasting</strong></span><span class="arrow">›</span></button>`}
+ if(modal==='photo'){title='Add Photo';body=`<button class="sheet-choice" type="button" data-photo-action="camera"><span><strong>Take Photo</strong><small>Camera</small></span><span class="arrow">›</span></button><button class="sheet-choice" type="button" data-photo-action="image"><span><strong>Choose Image</strong><small>Upload Image</small></span><span class="arrow">›</span></button>`}
+ modalRoot.innerHTML=`<div class="overlay" data-dismiss="1"><div class="sheet" role="dialog" aria-modal="true" aria-label="${esc(title)}"><h2>${esc(title)}</h2>${body}<button type="button" class="sheet-close" data-close-modal="1">Cancel</button></div></div>`}
+function copyNose(){
+ let count=0;
+ for(const [k,v] of Object.entries(current.fields)){
+  if(k.startsWith('noseFruit:')||k.startsWith('noseNon:')||k.startsWith('noseWM:')||k.startsWith('noseOther:')){
+   const dest=k.replace(/^nose/,'palate'),existing=current.fields[dest];
+   current.fields[dest]=Array.isArray(v)?[...new Set([...(Array.isArray(existing)?existing:[]),...v])]:v;count++;
+  }
+ }
+ for(const [,k] of OAK){if(filled(val(k))){const dest=oakStorageKey('palate',k);current.fields[dest]=Array.isArray(val(k))?[...new Set([...(Array.isArray(val(dest))?val(dest):[]),...val(k)])]:val(k);count++}}
+ if(count){autoSave();rerender('section-palate');toast('Nose Descriptors Confirmed')}else toast('No Nose Flavours Selected');
+}
+function overallNote(){
+ const lines=[];if(!current.blind||current.revealed){const identity=[current.producer,current.wine,current.vintage,current.region,current.grape].filter(Boolean).join(' · ');if(identity)lines.push(identity+'.')}
+ if(current.wineType)lines.push(current.wineType+' wine.');
+ for(const [name,items] of [['Appearance',SIGHT.concat(SIGHT_EXTRA)],['Nose',NOSE_BASE],['Palate',STRUCTURE.concat(PALATE_MARKERS,PALATE_FINISH)]]){const parts=items.filter(([,key])=>filled(val(key))).map(([label,key])=>label.toLowerCase()+': '+valText(val(key)));const phase=name==='Nose'?'nose':name==='Palate'?'palate':null;if(phase)for(const [key,v] of Object.entries(current.fields)){if(key.startsWith(phase)&&/Fruit:|Non:|WM:|Other:/.test(key)&&filled(v))parts.push(valText(v))}if(parts.length)lines.push(name+' — '+parts.join('; ')+'.')}
+ for(const key of ['noseFree','palateFree','finalConclusion','evidence'])if(filled(val(key)))lines.push(valText(val(key)));
+ const guesses=['guessGrape','guessCountry','guessRegion','guessVintage'].map(k=>val(k)).filter(filled);if(guesses.length)lines.push('Tasting conclusion: '+guesses.join(' · ')+'.');
+ return lines.join('\n\n')||'No observations entered yet.';
+}
+function summary(){const t=tally();let lines=['WINE TASTING JOURNAL',formatDate(current.createdAt),current.blind?'Blind Tasting':'Open Tasting',`Wine Type: ${current.wineType||'—'}`,`Wine: ${titleFor(current)}`,`Region: ${current.region||'—'}`,`Grape: ${current.grape||'—'}`,''];
+ for(const [name,fieldKeys] of [['Sight',SIGHT.concat(SIGHT_EXTRA)],['Nose',NOSE_BASE],['Palate Structure',STRUCTURE],['Palate Markers',PALATE_MARKERS.concat(PALATE_FINISH)],['Initial Conclusion',INITIAL],['Final Conclusion',FINAL]]){lines.push('['+name+']');for(const [label,key] of fieldKeys){if(filled(val(key)))lines.push(label+': '+valText(val(key)))}lines.push('')}
+ lines.push('[Fruit / Non-Fruit]');for(const [key,v] of Object.entries(current.fields)){if(key.includes('Fruit:')||key.includes('Non:')||key.includes('WM:')||key.includes('Other:')||OAK.some(([,k])=>key===k||key==='palate'+k[0].toUpperCase()+k.slice(1)))if(filled(v))lines.push(key+': '+valText(v))}
+ for(const k of ['possibleGrape','possibleCountry','possibleRegion','guessGrape','guessCountry','guessRegion','guessVintage','guessQuality','evidence','noseFree','palateFree','finalConclusion'])if(filled(val(k)))lines.push(k+': '+valText(val(k)));
+ if(filled(val('overallNote')))lines.push('[Overall Tasting Note]',val('overallNote'));
+ lines.push('',`Quality Score: ${t.done?t.sum:'—'} / 100 (${t.done}/${t.count})`, `Estimated Price: ¥${current.prices.expectedRetail||'—'}`,`Buying Price: ¥${current.prices.willingPay||'—'}`,`Actual Price: ¥${current.prices.realRetail||'—'}`,`Would You Buy: ${current.prices.decision||'—'}`);return lines.join('\n')}
+async function copyText(text){try{await navigator.clipboard.writeText(text)}catch(err){const t=document.createElement('textarea');t.value=text;document.body.append(t);t.select();document.execCommand('copy');t.remove()}}
+async function exportData(){await flush();const all=await allNotes();const blob=new Blob([JSON.stringify({app:'Wine Tasting Journal',version:'1.4',exportedAt:today(),notes:all},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='wine-tasting-journal-backup-'+today().slice(0,10)+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Backup Exported')}
+async function importData(file){try{const data=JSON.parse(await file.text());if(!data||!Array.isArray(data.notes))throw Error('Invalid Backup');let count=0;for(const x of data.notes){if(!x||!x.id||!x.createdAt)continue;await storeNote(normalise(x));count++}await refreshNotes();render();toast(`Imported ${count} Tastings`)}catch(err){toast('Import Failed: '+err.message)}}
+async function compressPhoto(f){if(!f.type.startsWith('image/'))throw Error('Not An Image');return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onerror=()=>reject(Error('File Read Failed'));reader.onload=()=>{const img=new Image();img.onerror=()=>reject(Error('Image Decode Failed'));img.onload=()=>{const scale=Math.min(1,960/Math.max(img.naturalWidth,img.naturalHeight)),canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(img.naturalWidth*scale));canvas.height=Math.max(1,Math.round(img.naturalHeight*scale));canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height);resolve(canvas.toDataURL('image/jpeg',0.76))};img.src=reader.result};reader.readAsDataURL(f)})}
+async function addPhotos(fileList){if(!current)return;const arr=[...fileList].slice(0,Math.max(0,8-current.photo.length));if(!arr.length){toast('Maximum 8 Photos');return}try{for(const f of arr)current.photo.push(await compressPhoto(f));autoSave();rerender(current.blind?'reveal':'');toast(`${arr.length} Photo${arr.length>1?'s':''} Added`)}catch(err){toast('Photo Failed: '+err.message)}}
+// On-page actions. All controls act on the currently opened tasting only.
+head.addEventListener('click',async e=>{const button=e.target.closest('button');if(!button)return;if(button.dataset.back){if(screen==='settings')await goHome();else await goHome();return}if(button.dataset.goSettings)await showSettings()});
+modalRoot.addEventListener('click',e=>{const button=e.target.closest('button'),d=button?.dataset||{};if(d.startMode){begin(d.startMode==='blind');return}if(d.photoAction){const target=d.photoAction==='camera'?'photoCamera':'photoImage';closeModal();document.getElementById(target).click();return}if(d.closeModal){closeModal();return}if(e.target.classList.contains('overlay'))closeModal()});
+app.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;
+ if(d.startMode){begin(d.startMode==='blind');return}
+ if(d.add){showModal('mode');return}
+ if(d.generateOverall){current.fields.overallNote=overallNote();autoSave();rerender('overall-note');return}
+ if(d.copyOverall){await copyText(current.fields.overallNote||overallNote());toast('Copied');return}
+ if(d.openNote){await loadNote(d.openNote);return}
+ if(d.photo){showModal('photo');return}
+ if(d.removePhoto!==undefined){current.photo.splice(Number(d.removePhoto),1);autoSave();rerender(current.blind?'reveal':'');return}
+ if(d.type){setWineType(d.type);return}
+ if(d.detail){ui.detailsOpen=!ui.detailsOpen;rerender();return}
+ if(d.panel){ui.panels.has(d.panel)?ui.panels.delete(d.panel):ui.panels.add(d.panel);rerender('section-'+d.panel);return}
+ if(d.field){ui.fields.has(d.field)?ui.fields.delete(d.field):ui.fields.add(d.field);rerender('field-'+d.field);return}
+ if(d.cat){ui.categories.has(d.cat)?ui.categories.delete(d.cat):ui.categories.add(d.cat);rerender('cat-'+d.cat);return}
+ if(d.chip){const k=d.chip,v=d.choice,isMulti=d.multi==='1';if(isMulti){const a=Array.isArray(val(k))?[...val(k)]:[];current.fields[k]=a.includes(v)?a.filter(x=>x!==v):[...a,v]}else{current.fields[k]=val(k)===v?'':v;ui.fields.delete(k)}autoSave();rerender(isMulti?(k.includes(':')?'cat-'+k:'section-'+(k.startsWith('palate')?'palate':'nose')):'field-'+k);return}
+ if(d.more){ui.more.has(d.more)?ui.more.delete(d.more):ui.more.add(d.more);rerender('section-'+d.more);return}
+ if(d.notes){ui.notes.has(d.notes)?ui.notes.delete(d.notes):ui.notes.add(d.notes);rerender('section-'+(d.notes==='initial'||d.notes==='final'?d.notes:d.notes==='price'?'price':d.notes));return}
+ if(d.confirmNose){copyNose();return}
+ if(d.score){const v=Number(d.scorevalue);current.score[d.score]=current.score[d.score]===v?undefined:v;autoSave();rerender('section-score');return}
+ if(d.pricechip){current.prices[d.pricechip]=Number(d.pricevalue);autoSave();rerender('section-price');return}
+ if(d.decision){current.prices.decision=current.prices.decision===d.decision?'':d.decision;autoSave();rerender('section-price');return}
+ if(d.reveal){current.revealed=true;autoSave();rerender('reveal');return}
+ if(d.copy){await copyText(summary());toast('Copied');return}
+ if(d.save){current.completed=true;await flush();await goHome();toast('Tasting Saved');return}
+ if(d.deleteCurrent){if(confirm('Delete This Tasting?')){await deleteNote(current.id);current=null;await goHome()}return}
+ if(d.export){await exportData();return}
+});
+app.addEventListener('input',e=>{const target=e.target;const d=target.dataset;
+ if(d.input!==undefined){if(d.location==='note')current[d.input]=target.value;else current.fields[d.input]=target.value;autoSave();return}
+ if(d.textarea!==undefined){if(d.textarea==='priceNotes')current.prices.notes=target.value;else current.fields[d.textarea]=target.value;autoSave();return}
+ if(d.price!==undefined){current.prices[d.price]=target.value;autoSave();return}
+ if(target.id==='searchTastings'){searchText=target.value;const pos=target.selectionStart;renderHome();const newInput=document.getElementById('searchTastings');newInput?.focus();newInput?.setSelectionRange(pos,pos)}
+});
+app.addEventListener('change',async e=>{if(e.target.id==='importInput'){if(e.target.files?.[0])await importData(e.target.files[0]);e.target.value=''}});
+for(const input of ['photoCamera','photoImage'])document.getElementById(input).addEventListener('change',async e=>{if(e.target.files?.length)await addPhotos(e.target.files);e.target.value=''});
+window.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal)closeModal()});
+(async()=>{try{db=await openDB()}catch(err){db=null}try{await refreshNotes()}catch(err){notes=[];toast('Local Storage Unavailable')}render()})().catch(err=>{notes=[];render();toast('Startup Error: '+err.message)});
+// Platform adapter: preserve the original database and save before leaving the document.
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flush()});
+</script>
+</body>
+</html>

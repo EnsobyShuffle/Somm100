@@ -1,0 +1,2806 @@
+{
+  "reviewed": "2026-10-25",
+  "classificationDate": "2026-07-30",
+  "sourceUrl": "https://www.franceagrimer.fr/sites/default/files/2026-07/liste%20vari%C3%A9t%C3%A9s%20class%C3%A9es.pdf",
+  "entries": [
+    {
+      "name": "Abondant",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Abouriou",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Agiorgitiko",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Airen",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aléatico",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Alicante Henri Bouschet",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aligoté",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Altesse",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Alvarinho",
+      "berry": "Blanche",
+      "labelNames": "Albariño",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aramon",
+      "berry": "Noire",
+      "labelNames": "Aramon",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aramon blanc",
+      "berry": "Blanche",
+      "labelNames": "Aramon",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aramon gris",
+      "berry": "Grise",
+      "labelNames": "Aramon",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aranel",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Arbane",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Arinarnoa",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Arriloba",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Arrouya",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Arrufiac",
+      "berry": "Blanche",
+      "labelNames": "Arrufiat",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Artys",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Arvine",
+      "berry": "Blanche",
+      "labelNames": "Petite Arvine",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Artaban",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Assyrtiko",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aubin",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aubin vert",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Aubun",
+      "berry": "Noire",
+      "labelNames": "Murescola",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Auxerrois",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bachet",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Baco blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Barbaroux",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Barbera",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Baroque",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Beaugaray",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Béclan",
+      "berry": "Noire",
+      "labelNames": "Petit Béclan",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Béquignol",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bia",
+      "berry": "Blanche",
+      "labelNames": "Bia blanc",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Biancu Gentile",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Blanc Dame",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bonne Vituaigne",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bouchalès",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bouillet",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bouquet 3159",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Bouquet 3160",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Bouquet 3176",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Bouquet 3179",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Bouquet 3196",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Bouquettraube",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bourboulenc",
+      "berry": "Blanche",
+      "labelNames": "Doucillon blanc",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bouysselet",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Brachet",
+      "berry": "Noire",
+      "labelNames": "Braquet",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Bronner",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Brun argenté",
+      "berry": "Noire",
+      "labelNames": "Vaccarèse",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Brun Fourca",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Brustianu",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Cabernet blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Cabernet cortis",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Cabernet franc",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Cabernet-Sauvignon",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Cabestrel",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Cacaboué",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Calabrese",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Caladoc",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Calardis blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Calitor",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Calys",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Camaralet",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Carcajolo blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Carcajolo",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Carignan",
+      "berry": "Noire",
+      "labelNames": "Carignan",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Carignan blanc",
+      "berry": "Blanche",
+      "labelNames": "Carignan",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Carignan gris",
+      "berry": "Grise",
+      "labelNames": "Carignan",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Carmenère",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Carricante",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Castets",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "César",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Chambourcin",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Chardonnay",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Chardonnay rose",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Chasan",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Chatus",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Chenanson",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Chenin",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Chichaud",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Chouchillon",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Cinsaut",
+      "berry": "Noire",
+      "labelNames": "Cinsault",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Clairette",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Clairette rose",
+      "berry": "Rose",
+      "labelNames": "Clairette",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Clarin",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Claverie",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Codivarta",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Coliris",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Colobel",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Colombard",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Colombaud",
+      "berry": "Blanche",
+      "labelNames": "Bouteillan",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Corbeau",
+      "berry": "Noire",
+      "labelNames": "Douce noire",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Cot",
+      "berry": "Noire",
+      "labelNames": "Malbec",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Couderc noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Counoise",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Courbu",
+      "berry": "Blanche",
+      "labelNames": "Gros Courbu",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Courbu noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Couston",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Coutia",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Crouchen",
+      "berry": "Blanche",
+      "labelNames": "Cruchen",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Cualtacciu",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Dolcetto",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Dousset",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Duras",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Dureza",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Durif",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Egiodola",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Ekigaïna",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Elaris",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Elbling",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Enfariné noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Etraire de la Dui",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Exelys",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Felen",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Fer",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Ferradou",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Feunate",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Fiano",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Fleurtai",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Floreal",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Florental",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Florisia",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Folignan",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Folle blanche",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Franc noir de Haute-Saône",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Fuella nera",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Furmint",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gamaret",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gamay de Bouze",
+      "berry": "Noire",
+      "labelNames": "Gamay",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gamay de Chaudenay",
+      "berry": "Noire",
+      "labelNames": "Gamay",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gamay Fréaux",
+      "berry": "Noire",
+      "labelNames": "Gamay",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gamay",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gaminot",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Ganson",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Garonnet",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Gascon",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Genouillet",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Genovèse",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gewurztraminer",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gibert",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Glera",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Goldriesling",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gouget",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gouveio",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Graisse",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gramon",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Grand noir de la Calmette",
+      "berry": "Noire",
+      "labelNames": "Grand Noir",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Granita",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Grassen",
+      "berry": "Noire",
+      "labelNames": "Grassenc",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Grenache",
+      "berry": "Noire",
+      "labelNames": "Garnacha, Grenache",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Grenache blanc",
+      "berry": "Blanche",
+      "labelNames": "Garnacha, Grenache",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Grenache gris",
+      "berry": "Grise",
+      "labelNames": "Garnacha, Grenache",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gringet",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Grolleau",
+      "berry": "Noire",
+      "labelNames": "Grolleau",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Grolleau gris",
+      "berry": "Grise",
+      "labelNames": "Grolleau",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gros Manseng",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gueuche noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Gouais blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Hibou noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Jacquère",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Johanniter",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Joubertin",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Jurançon blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Jurançon noir",
+      "berry": "Noire",
+      "labelNames": "Dame noire",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Kadarka",
+      "berry": "Noire",
+      "labelNames": "Gamza",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Knipperlé",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Landal",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Lauzet",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Len de l'El",
+      "berry": "Blanche",
+      "labelNames": "Loin de l'Œil",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Léon Millot",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Lilaro",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Liliorila",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Listan",
+      "berry": "Blanche",
+      "labelNames": "Palomino",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Lledoner pelut",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Luminan",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Macabeu",
+      "berry": "Blanche",
+      "labelNames": "Macabeo",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Malvasia fina",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mancin",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Manseng noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Marechal Foch",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Marsanne",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Marselan",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mauzac",
+      "berry": "Blanche",
+      "labelNames": "Mauzac",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mauzac rose",
+      "berry": "Rose",
+      "labelNames": "Mauzac",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mavrud",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mayorquin",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mècle",
+      "berry": "Noire",
+      "labelNames": "Mescle",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Melon",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Melon rouge",
+      "berry": "Rouge",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mérille",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Merlot",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Merlot blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Meslier Saint-François",
+      "berry": "Blanche",
+      "labelNames": "Gros Meslier",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Meunier",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Milgranet",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Molette",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mollard",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Monbadon",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mondeuse blanche",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mondeuse",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mondeuse grise",
+      "berry": "Grise",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Monerac",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Monarch",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Montepulciano",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Montils",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mornen",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Morrastel",
+      "berry": "Noire",
+      "labelNames": "Minustellu, Graciano",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Moschofilero",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mourvaison",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mourvèdre",
+      "berry": "Noire",
+      "labelNames": "Monastrell",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mourvèdre blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mourvèdre gris",
+      "berry": "Grise",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Mouyssaguès",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Müller-Thurgau",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Muresconu",
+      "berry": "Noire",
+      "labelNames": "Morescono",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Muscadelle",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Muscardin",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Muscaris",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Muscat à petits grains blancs",
+      "berry": "Blanche",
+      "labelNames": "Muscat, Moscato",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Muscat à petits grains roses",
+      "berry": "Rose",
+      "labelNames": "Muscat, Moscato",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Muscat à petits grains rouges",
+      "berry": "Rouge",
+      "labelNames": "Muscat, Moscato",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Muscat cendré",
+      "berry": "Blanche",
+      "labelNames": "Muscat, Moscato",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Muscat Ottonel",
+      "berry": "Blanche",
+      "labelNames": "Muscat, Moscato",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Nebbiolo",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Négret de Banhars",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Négret pounjut",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Négrette",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Nielluccio",
+      "berry": "Noire",
+      "labelNames": "Nielluciu",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Noir Fleurien",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Noual",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Oberlin noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Oeillade noire",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Onchette",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Ondenc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Opalor",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Orbois",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Orellis",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Pagadebiti",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pardotte",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Parellada",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pascal",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Peloursin",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Perdea",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Persan",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Petit Courbu",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Petit Manseng",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Petit Meslier",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Petit Verdot",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Petite Sainte-Marie",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Picardan",
+      "berry": "Blanche",
+      "labelNames": "Araignan",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Picarlat",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pineau d'Aunis",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pinot blanc",
+      "berry": "Blanche",
+      "labelNames": "mousseux et les vins",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pinot gris",
+      "berry": "Grise",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pinot noir",
+      "berry": "Noire",
+      "labelNames": "mousseux et les vins",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pinotage",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pinotin",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Piquepoul blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Piquepoul gris",
+      "berry": "Grise",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Piquepoul noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Plant de Brunel",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Plant droit",
+      "berry": "Noire",
+      "labelNames": "Espanenc",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Plantet",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Portan",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Portugais bleu",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Pougnet",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Poulsard",
+      "berry": "Noire",
+      "labelNames": "Ploussard",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Précoce Bousquet",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Précoce de Malingre",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Primitivo",
+      "berry": "Noire",
+      "labelNames": "Zinfandel",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Prior",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Prunelard",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Raffiat de Moncade",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Raisaine",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Ravat blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Rayon d'Or",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Rèze",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Ribier noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Riesling",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Riminèse",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Rivairenc",
+      "berry": "Noire",
+      "labelNames": "Aspiran noir (6)",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Rivairenc blanc",
+      "berry": "Blanche",
+      "labelNames": "Aspiran blanc (6)",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Rivairenc gris",
+      "berry": "Grise",
+      "labelNames": "Aspiran gris (6)",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Rkatsiteli",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Robin noir",
+      "berry": "Noire",
+      "labelNames": "Salagnin",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Roditis",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Romorantin",
+      "berry": "Blanche",
+      "labelNames": "Danery",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Rossula bianca",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Roublot",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Roussanne",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Rousseli",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Roussette d'Ayze",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Rubilande",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Sacy",
+      "berry": "Blanche",
+      "labelNames": "Tressallier B",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Saint-Côme",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Saint-Macaire",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Saint-Pierre doré",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Saperavi",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Saphira",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Sauvignac",
+      "berry": "Blanc-rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Sauvignon",
+      "berry": "Blanche",
+      "labelNames": "Sauvignon blanc",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Sauvignon gris",
+      "berry": "Grise",
+      "labelNames": "Fié gris",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Savagnin blanc",
+      "berry": "Blanche",
+      "labelNames": "Savagnin",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Savagnin rose",
+      "berry": "Rose",
+      "labelNames": "Savagnin",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Sciaccarello",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Segalin",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Seinoir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Select",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Selenor",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Semebat",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Semillon",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Serelis",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Sérénèze",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Servanin",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Seyval",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Sirano",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Solaris",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Soreli",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Souvignier gris",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Sylvaner",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Syrah",
+      "berry": "Noire",
+      "labelNames": "Shiraz, Serine",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Tannat",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Taranis",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Tardif",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Tempranillo",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Téoulier",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Terret blanc",
+      "berry": "Blanche",
+      "labelNames": "Terret",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Terret gris",
+      "berry": "Grise",
+      "labelNames": "Terret, Terret-Bourret",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Terret noir",
+      "berry": "Noire",
+      "labelNames": "Terret",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Tibouren",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Tourbat",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Touriga nacional",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Tressot",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Trousseau gris",
+      "berry": "Grise",
+      "labelNames": "Chauché gris",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Trousseau",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "UD-31.125",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "UD-32.078",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "UD-55.100",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Ugni blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Uva biancona",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Valdiguié",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Valérien",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Valpesia",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Varousset",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Velteliner rouge précoce",
+      "berry": "Rose",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Verdanel",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Verdejo",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Verdelho",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Verdesse",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Vermentino",
+      "berry": "Blanche",
+      "labelNames": "Rolle",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Vidal blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Vidoc",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Villard blanc",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Villard noir",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Vintaghju",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Viognier",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Voltis",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": true
+    },
+    {
+      "name": "Xarello",
+      "berry": "Blanche",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Xinomavro",
+      "berry": "Noire",
+      "labelNames": "",
+      "scope": "national",
+      "interspecific": false
+    },
+    {
+      "name": "Alphonse Lavallée",
+      "berry": "Noire",
+      "scope": "departmental",
+      "departments": [
+        "07",
+        "13",
+        "26",
+        "30",
+        "34",
+        "83",
+        "84"
+      ]
+    },
+    {
+      "name": "Cardinal",
+      "berry": "Rouge",
+      "scope": "departmental",
+      "departments": [
+        "30",
+        "34",
+        "84"
+      ]
+    },
+    {
+      "name": "Chasselas",
+      "berry": "Blanche",
+      "scope": "departmental",
+      "departments": [
+        "01",
+        "07",
+        "13",
+        "15",
+        "18",
+        "26",
+        "27",
+        "30",
+        "34",
+        "36",
+        "38",
+        "43",
+        "45",
+        "58",
+        "63",
+        "67",
+        "68",
+        "69",
+        "73",
+        "74",
+        "84"
+      ]
+    },
+    {
+      "name": "Chasselas rose",
+      "berry": "Rose",
+      "scope": "departmental",
+      "departments": [
+        "01",
+        "07",
+        "13",
+        "15",
+        "18",
+        "27",
+        "30",
+        "34",
+        "36",
+        "38",
+        "43",
+        "45",
+        "58",
+        "63",
+        "67",
+        "68",
+        "69",
+        "73",
+        "74",
+        "84"
+      ]
+    },
+    {
+      "name": "Danlas",
+      "berry": "Blanche",
+      "scope": "departmental",
+      "departments": [
+        "30",
+        "34",
+        "84"
+      ]
+    },
+    {
+      "name": "Gros vert",
+      "berry": "Blanche",
+      "scope": "departmental",
+      "departments": [
+        "04",
+        "13",
+        "30",
+        "34",
+        "66",
+        "83",
+        "84"
+      ]
+    },
+    {
+      "name": "Lival",
+      "berry": "Noire",
+      "scope": "departmental",
+      "departments": [
+        "30",
+        "34",
+        "84"
+      ]
+    },
+    {
+      "name": "Muscat d’Alexandrie",
+      "berry": "Blanche",
+      "scope": "departmental",
+      "departments": [
+        "04",
+        "05",
+        "06",
+        "07",
+        "11",
+        "13",
+        "20",
+        "26",
+        "30",
+        "34",
+        "66",
+        "83",
+        "84"
+      ]
+    },
+    {
+      "name": "Muscat de Hambourg",
+      "berry": "Noire",
+      "scope": "departmental",
+      "departments": [
+        "04",
+        "05",
+        "06",
+        "07",
+        "09",
+        "11",
+        "12",
+        "13",
+        "20",
+        "24",
+        "26",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "38",
+        "40",
+        "46",
+        "47",
+        "48",
+        "64",
+        "65",
+        "66",
+        "81",
+        "82",
+        "83",
+        "84"
+      ]
+    },
+    {
+      "name": "Ribol",
+      "berry": "Noire",
+      "scope": "departmental",
+      "departments": [
+        "84"
+      ]
+    },
+    {
+      "name": "Servant",
+      "berry": "Blanche",
+      "scope": "departmental",
+      "departments": [
+        "34"
+      ]
+    },
+    {
+      "name": "Torrontès riojano",
+      "grapeId": "torrontes-riojano",
+      "scope": "temporary",
+      "authorizedOn": "2021-12-23",
+      "durationYears": 10
+    },
+    {
+      "name": "Lignage",
+      "grapeId": "lignage",
+      "scope": "temporary",
+      "authorizedOn": "2022-09-27",
+      "durationYears": 9
+    },
+    {
+      "name": "Muriscu",
+      "grapeId": "muriscu",
+      "scope": "temporary",
+      "authorizedOn": "2022-09-27",
+      "durationYears": 15
+    },
+    {
+      "name": "Muscateddu",
+      "grapeId": "muscateddu",
+      "scope": "temporary",
+      "authorizedOn": "2022-09-27",
+      "durationYears": 15
+    },
+    {
+      "name": "Kersus",
+      "grapeId": "kersus",
+      "scope": "temporary",
+      "authorizedOn": "2024-08-01",
+      "durationYears": 10
+    },
+    {
+      "name": "Volturnis",
+      "grapeId": "volturnis",
+      "scope": "temporary",
+      "authorizedOn": "2024-08-01",
+      "durationYears": 10
+    },
+    {
+      "name": "UD.109-033",
+      "grapeId": "pinot-iskra",
+      "scope": "temporary",
+      "authorizedOn": "2024-08-01",
+      "durationYears": 10
+    },
+    {
+      "name": "UD.156-537",
+      "grapeId": "pinot-kors",
+      "scope": "temporary",
+      "authorizedOn": "2024-08-01",
+      "durationYears": 10
+    }
+  ],
+  "pendingResearchCodes": [
+    "3G3 B",
+    "3B12 B",
+    "3184-1-9 N (G14)",
+    "3160-11-3 N",
+    "3322-339 N",
+    "3197-81 B (G5)",
+    "CoL1382L",
+    "Col2284L",
+    "Col2854K",
+    "MH17VB0486",
+    "MH17VB0531",
+    "MH21VB0013",
+    "MH21VB0021",
+    "MH21VB0022",
+    "MH21VB0025",
+    "MH21VB0028",
+    "MH21VB0031",
+    "MH21VB0032",
+    "MH21VB0033",
+    "MH21VB0034",
+    "MH21VB0037",
+    "MH21VB0040",
+    "MH21VB0066",
+    "MH21VB0090",
+    "MH21VB0092",
+    "MH21VB0101"
+  ],
+  "scopeNotes": {
+    "en": "Permanent national and departmental lists are reconciled name by name. Named temporary varieties are distinguished from unprofiled experimental accessions. Section c refers to Geneva cross-border provisions and is not an enumerated list. National classification does not confer AOC eligibility or establish commercial acreage.",
+    "zh": "全国及限定省份的固定分类逐名核对；有独立档案的临时分类与尚未建档的试验编号分列。第 c 项为 Genève 跨境条款，不是逐名品种表。全国分类不等于 AOC 许可，也不证明商业种植面积。"
+  }
+}

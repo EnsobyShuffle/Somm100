@@ -1,0 +1,1897 @@
+{
+  "reviewedAt": "2026-10-29",
+  "originalWineCount": 93,
+  "reviewedOriginalCount": 93,
+  "producerCount": 20,
+  "wineCount": 148,
+  "climatCount": 23,
+  "linkedClimatCount": 23,
+  "imageCount": 31,
+  "censusCount": 68,
+  "scope": "Published Rully wine dossiers, complete Premier Cru identity list, appellation reference, and dated BIVB operator directory. The directory is not an exhaustive worldwide producer or vintage census.",
+  "originalWineIds": [
+    "wine-fr-dureuil-janthial-rully-blanc",
+    "wine-fr-dureuil-janthial-rully-blanc-maizieres",
+    "wine-fr-dureuil-janthial-rully-blanc-chene",
+    "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot",
+    "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+    "wine-fr-dureuil-janthial-rully-blanc-1er-margotes",
+    "wine-fr-dureuil-janthial-rully-blanc-1er-vauvry",
+    "wine-fr-dureuil-janthial-rully-blanc-1er-chapitre",
+    "wine-fr-dureuil-janthial-rully-blanc-1er-gresigny-vieilles-vignes",
+    "wine-fr-dureuil-janthial-rully-rouge",
+    "wine-fr-dureuil-janthial-rully-rouge-en-guesnes",
+    "wine-fr-dureuil-janthial-rully-rouge-maizieres",
+    "wine-fr-dureuil-janthial-rully-rouge-1er-chapitre",
+    "wine-fr-dureuil-janthial-rully-rouge-1er-la-fosse",
+    "wine-fr-dureuil-janthial-rully-rouge-1er-cloux",
+    "wine-fr-de-villaine-rully-blanc-les-saint-jacques",
+    "wine-fr-de-villaine-rully-1er-blanc-margotes",
+    "wine-fr-de-villaine-rully-1er-blanc-gresigny",
+    "wine-fr-de-villaine-rully-1er-blanc-montpalais",
+    "wine-fr-de-villaine-rully-1er-blanc-cloux",
+    "wine-fr-de-villaine-rully-1er-blanc-raclot",
+    "wine-fr-de-villaine-rully-1er-blanc-rabource",
+    "wine-fr-de-villaine-rully-1er-rouge-cloux",
+    "wine-fr-de-villaine-rully-1er-rouge-les-champs-cloux",
+    "wine-fr-de-villaine-rully-1er-cuvee-ronde",
+    "wine-fr-p-m-jacqueson-rully-blanc-village",
+    "wine-fr-p-m-jacqueson-rully-rouge-village",
+    "wine-fr-p-m-jacqueson-rully-rouge-la-barre",
+    "wine-fr-p-m-jacqueson-rully-rouge-chaponnieres",
+    "wine-fr-p-m-jacqueson-rully-1er-blanc-gresigny",
+    "wine-fr-p-m-jacqueson-rully-1er-blanc-margotes",
+    "wine-fr-p-m-jacqueson-rully-1er-blanc-la-pucelle",
+    "wine-fr-p-m-jacqueson-rully-1er-blanc-vauvry",
+    "wine-fr-p-m-jacqueson-rully-1er-blanc-raclot",
+    "wine-fr-p-m-jacqueson-rully-1er-rouge-preaux",
+    "wine-fr-p-m-jacqueson-rully-1er-rouge-les-cloux",
+    "wine-fr-p-m-jacqueson-rully-1er-rouge-clos-de-la-renarde",
+    "wine-fr-ninot-rully-blanc-la-barre",
+    "wine-fr-ninot-rully-blanc-chaponniere",
+    "wine-fr-ninot-rully-1er-blanc-gresigny",
+    "wine-fr-ninot-rully-rouge-la-barre",
+    "wine-fr-ninot-rully-rouge-meix-guillaume",
+    "wine-fr-ninot-rully-rouge-chaponniere",
+    "wine-fr-ninot-rully-1er-rouge-marissou",
+    "wine-fr-jaeger-defaix-rully-blanc-village",
+    "wine-fr-jaeger-defaix-rully-1er-blanc-montpalais",
+    "wine-fr-jaeger-defaix-rully-1er-blanc-les-cloux",
+    "wine-fr-jaeger-defaix-rully-1er-blanc-rabource",
+    "wine-fr-jaeger-defaix-rully-blanc-sans-soufre",
+    "wine-fr-jaeger-defaix-rully-rouge-village",
+    "wine-fr-jaeger-defaix-rully-1er-rouge-preaux",
+    "wine-fr-jaeger-defaix-rully-1er-rouge-clos-du-chapitre",
+    "wine-fr-michel-briday-rully-blanc-village",
+    "wine-fr-michel-briday-rully-rouge-village",
+    "wine-fr-michel-briday-rully-1er-blanc-grésigny",
+    "wine-fr-michel-briday-rully-1er-blanc-la-pucelle",
+    "wine-fr-michel-briday-rully-1er-blanc-les-cloux",
+    "wine-fr-michel-briday-rully-blanc-clos-de-remenot",
+    "wine-fr-michel-briday-rully-1er-rouge-champs-cloux",
+    "wine-fr-michel-briday-rully-1er-rouge-les-pierres",
+    "wine-fr-belleville-rully-1er-blanc-chapitre",
+    "wine-fr-belleville-rully-1er-blanc-la-fosse",
+    "wine-fr-belleville-rully-1er-blanc-les-cloux",
+    "wine-fr-belleville-rully-1er-blanc-la-pucelle",
+    "wine-fr-belleville-rully-1er-blanc-rabource",
+    "wine-fr-belleville-rully-1er-rouge-chapitre",
+    "wine-fr-belleville-rully-blanc-les-saint-jacques",
+    "wine-fr-belleville-rully-blanc-la-cree",
+    "wine-fr-belleville-rully-blanc-la-perche",
+    "wine-fr-belleville-rully-rouge-chaponniere",
+    "wine-fr-belleville-rully-rouge-les-villeranges",
+    "wine-fr-de-la-folie-rully-blanc-clos-la-folie",
+    "wine-fr-de-la-folie-rully-1er-blanc-clos-du-chaigne",
+    "wine-fr-de-la-folie-rully-1er-blanc-clos-saint-jacques",
+    "wine-fr-de-la-folie-rully-rouge-clos-de-bellecroix",
+    "wine-fr-de-la-folie-rully-rouge-cuvee-marey",
+    "wine-fr-rois-mages-rully-blanc-plante-moraine",
+    "wine-fr-rois-mages-rully-blanc-clos-du-moulin-a-vent",
+    "wine-fr-rois-mages-rully-blanc-les-cailloux",
+    "wine-fr-rois-mages-rully-blanc-chaponieres",
+    "wine-fr-rois-mages-rully-1er-blanc-les-pierres",
+    "wine-fr-rois-mages-rully-rouge-les-cailloux",
+    "wine-fr-rois-mages-rully-1er-rouge-les-pierres",
+    "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-molesme",
+    "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-molesme",
+    "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-montpalais",
+    "wine-fr-jean-baptiste-ponsot-rully-blanc-en-bas-de-vauvry",
+    "wine-fr-jean-baptiste-ponsot-rully-rouge-village",
+    "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-la-fosse",
+    "wine-fr-saint-jacques-rully-blanc-village",
+    "wine-fr-saint-jacques-rully-1er-blanc-marissou",
+    "wine-fr-saint-jacques-rully-1er-rouge-marissou",
+    "wine-fr-saint-jacques-rully-1er-rouge-la-fosse"
+  ],
+  "producerIds": [
+    "producer-fr-dureuil-janthial",
+    "producer-fr-domaine-de-villaine",
+    "producer-fr-p-m-jacqueson",
+    "producer-fr-ninot",
+    "producer-fr-jaeger-defaix",
+    "producer-fr-michel-briday",
+    "producer-fr-belleville",
+    "producer-fr-de-la-folie",
+    "producer-fr-rois-mages",
+    "producer-fr-jean-baptiste-ponsot",
+    "producer-fr-saint-jacques",
+    "producer-fr-albert-sounit",
+    "producer-fr-andre-delorme",
+    "producer-fr-david-lefort",
+    "producer-fr-sylvain-lucie-ponsot",
+    "producer-fr-de-la-renaissance",
+    "producer-fr-de-l-ecette",
+    "producer-fr-des-chauchoux",
+    "producer-fr-eric-de-suremain",
+    "producer-fr-de-la-bressande"
+  ],
+  "newWineIds": [
+    "wine-fr-p-m-jacqueson-rully-1er-blanc",
+    "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot",
+    "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+    "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus",
+    "wine-fr-albert-sounit-rully-1er-la-pucelle",
+    "wine-fr-albert-sounit-rully-la-bergerie",
+    "wine-fr-albert-sounit-rully-les-saint-jacques",
+    "wine-fr-albert-sounit-rully-1er-les-raclots",
+    "wine-fr-andre-delorme-rully-blanc",
+    "wine-fr-andre-delorme-rully-1er-gresigny",
+    "wine-fr-andre-delorme-rully-rouge",
+    "wine-fr-david-lefort-rully-les-cailloux-rouge",
+    "wine-fr-david-lefort-rully-les-cailloux-blanc",
+    "wine-fr-david-lefort-rully-chaponniere",
+    "wine-fr-david-lefort-rully-1er-calliope",
+    "wine-fr-david-lefort-rully-la-chaume",
+    "wine-fr-sylvain-lucie-ponsot-rully-bas-de-vauvry",
+    "wine-fr-sylvain-lucie-ponsot-rully-1er-vauvry-blanc",
+    "wine-fr-sylvain-lucie-ponsot-rully-1er-vauvry-coup-de-foudre",
+    "wine-fr-sylvain-lucie-ponsot-rully-1er-vauvry-authentique",
+    "wine-fr-sylvain-lucie-ponsot-rully-1er-rabource",
+    "wine-fr-sylvain-lucie-ponsot-rully-1er-vauvry-rouge",
+    "wine-fr-sylvain-lucie-ponsot-rully-1er-vauvry-elegance",
+    "wine-fr-de-la-renaissance-rully-les-gaudoirs",
+    "wine-fr-de-la-renaissance-rully-1er-les-raclots",
+    "wine-fr-de-la-renaissance-rully-la-barre",
+    "wine-fr-de-l-ecette-rully-maizieres",
+    "wine-fr-de-l-ecette-rully-la-gaudine",
+    "wine-fr-de-l-ecette-rully-les-gaudoirs",
+    "wine-fr-de-l-ecette-rully-brange",
+    "wine-fr-de-l-ecette-rully-clos-de-vesignot",
+    "wine-fr-de-l-ecette-rully-saint-jacques",
+    "wine-fr-de-l-ecette-rully-le-cul-des-saloirs",
+    "wine-fr-des-chauchoux-rully-blanc",
+    "wine-fr-des-chauchoux-rully-rouge",
+    "wine-fr-des-chauchoux-rully-1er-les-cloux",
+    "wine-fr-des-chauchoux-rully-1er-montpalais",
+    "wine-fr-des-chauchoux-rully-1er-rabource-blanc",
+    "wine-fr-des-chauchoux-rully-1er-rabource-rouge",
+    "wine-fr-eric-de-suremain-rully-1er-agneux",
+    "wine-fr-eric-de-suremain-rully-1er-meix-caillet",
+    "wine-fr-eric-de-suremain-rully-1er-pillot-intemporelle",
+    "wine-fr-eric-de-suremain-rully-1er-cloux",
+    "wine-fr-eric-de-suremain-rully-1er-preaux",
+    "wine-fr-de-la-bressande-rully-1er-molesme-chateau-blanc",
+    "wine-fr-de-la-bressande-rully-1er-clos-la-bressande-chateau",
+    "wine-fr-de-la-bressande-rully-blanc-chateau",
+    "wine-fr-de-la-bressande-rully-1er-chapitre-rouge",
+    "wine-fr-de-la-bressande-rully-1er-gresigny",
+    "wine-fr-de-la-bressande-rully-1er-la-pucelle",
+    "wine-fr-de-la-bressande-rully-1er-molesme-rouge",
+    "wine-fr-de-la-bressande-rully-1er-preaux",
+    "wine-fr-de-la-bressande-rully-blanc",
+    "wine-fr-de-la-bressande-rully-rouge",
+    "wine-fr-de-la-bressande-rully-saint-jacques"
+  ],
+  "verification": [
+    {
+      "checkedWineIds": [
+        "wine-fr-dureuil-janthial-rully-blanc",
+        "wine-fr-dureuil-janthial-rully-blanc-maizieres",
+        "wine-fr-dureuil-janthial-rully-blanc-chene",
+        "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot",
+        "wine-fr-dureuil-janthial-rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+        "wine-fr-dureuil-janthial-rully-blanc-1er-margotes",
+        "wine-fr-dureuil-janthial-rully-blanc-1er-vauvry",
+        "wine-fr-dureuil-janthial-rully-blanc-1er-chapitre",
+        "wine-fr-dureuil-janthial-rully-blanc-1er-gresigny-vieilles-vignes",
+        "wine-fr-dureuil-janthial-rully-rouge",
+        "wine-fr-dureuil-janthial-rully-rouge-en-guesnes",
+        "wine-fr-dureuil-janthial-rully-rouge-maizieres",
+        "wine-fr-dureuil-janthial-rully-rouge-1er-chapitre",
+        "wine-fr-dureuil-janthial-rully-rouge-1er-la-fosse",
+        "wine-fr-dureuil-janthial-rully-rouge-1er-cloux",
+        "wine-fr-de-villaine-rully-blanc-les-saint-jacques",
+        "wine-fr-de-villaine-rully-1er-blanc-margotes",
+        "wine-fr-de-villaine-rully-1er-blanc-gresigny",
+        "wine-fr-de-villaine-rully-1er-blanc-montpalais",
+        "wine-fr-de-villaine-rully-1er-blanc-cloux",
+        "wine-fr-de-villaine-rully-1er-blanc-raclot",
+        "wine-fr-de-villaine-rully-1er-blanc-rabource",
+        "wine-fr-de-villaine-rully-1er-rouge-cloux",
+        "wine-fr-de-villaine-rully-1er-rouge-les-champs-cloux",
+        "wine-fr-de-villaine-rully-1er-cuvee-ronde"
+      ],
+      "newWines": [],
+      "sourceEvidence": [
+        {
+          "id": "fr-rully29-dureuil_about",
+          "url": "https://www.dureuil-janthial.fr/en/",
+          "ref": "turn1016view1"
+        },
+        {
+          "id": "fr-rully29-dureuil_web",
+          "url": "https://www.dureuil-janthial.fr/les-vins/",
+          "ref": "turn1016view0"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc.pdf",
+          "ref": "turn1028view0"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc-maizieres",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_maizieres.pdf",
+          "ref": "turn1022view1"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc-chene",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge_chene.pdf",
+          "ref": "turn1022view2"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_le_meix_cadot.pdf",
+          "ref": "turn1022view3"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc-1er-le-meix-cadot-vieilles-vignes",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_le_meix_cadot_vieilles_vignes.pdf",
+          "ref": "turn1022view4"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc-1er-margotes",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/11/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_margotes.pdf",
+          "ref": "turn1025view0"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc-1er-vauvry",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc_vauvry.pdf",
+          "ref": "turn1025view1"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc-1er-chapitre",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_blanc.pdf",
+          "ref": "turn1025view2"
+        },
+        {
+          "id": "fr-rully29-dj_rully-blanc-1er-gresigny-vieilles-vignes",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_blanc_1er_cru_gresigny_vieilles_vignes.pdf",
+          "ref": "turn1025view3"
+        },
+        {
+          "id": "fr-rully29-dj_rully-rouge",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge.pdf",
+          "ref": "turn1025view4"
+        },
+        {
+          "id": "fr-rully29-dj_rully-rouge-en-guesnes",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_rouge_en_guesnes.pdf",
+          "ref": "turn1025view5"
+        },
+        {
+          "id": "fr-rully29-dj_rully-rouge-maizieres",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rullly_rouge_maizieres.pdf",
+          "ref": "turn1028view2"
+        },
+        {
+          "id": "fr-rully29-dj_rully-rouge-1er-chapitre",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_rouge_chapitre.pdf",
+          "ref": "turn1028view3"
+        },
+        {
+          "id": "fr-rully29-dj_rully-rouge-1er-la-fosse",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2020/06/fiche_technique_dureuil_janthial_aoc_rully_1er_cru_rouge_la_fosse.pdf",
+          "ref": "turn1028view4"
+        },
+        {
+          "id": "fr-rully29-dj_rully-rouge-1er-cloux",
+          "url": "https://www.dureuil-janthial.fr/wp-content/uploads/2022/10/fiche_technique_dureuil_janthial_cloux_fr.pdf",
+          "ref": "turn1028view5"
+        },
+        {
+          "id": "rully-complete-villaine-estate",
+          "url": "https://www.de-villaine.com/en/domaine",
+          "ref": "turn1022view5"
+        },
+        {
+          "id": "rully-complete-villaine-organic",
+          "url": "https://www.de-villaine.com/en/philosophy-organic-cultivation",
+          "ref": "turn1022view6"
+        },
+        {
+          "id": "rully-complete-villaine-cellar",
+          "url": "https://www.de-villaine.com/en/philosophy-wine-making-process",
+          "ref": "turn1029view0"
+        },
+        {
+          "id": "rully-complete-villaine-people",
+          "url": "https://www.de-villaine.com/en/philosophy-men-gestures",
+          "ref": "turn1029view1"
+        },
+        {
+          "id": "fr-rully29-villaine_2324",
+          "url": "https://www.de-villaine.com/f/news/tasting-comments-vintages-2023-2024-35.pdf",
+          "ref": "turn1016view3"
+        },
+        {
+          "id": "fr-rully29-villaine_2122",
+          "url": "https://www.de-villaine.com/f/news/wine-description-vintage-2021-2022-34.pdf",
+          "ref": "turn1016view4"
+        },
+        {
+          "id": "rully-complete-villaine-blanc-les-saint-jacques",
+          "url": "https://de-villaine.com/en/wines/2/rully-les-saint-jacques",
+          "ref": "turn1030view7"
+        },
+        {
+          "id": "rully-complete-villaine-1er-blanc-margotes",
+          "url": "https://www.de-villaine.com/en/wines/12/rully-1er-cru-margotes",
+          "ref": "turn1030view0"
+        },
+        {
+          "id": "rully-complete-villaine-1er-blanc-gresigny",
+          "url": "https://www.de-villaine.com/en/wines/9/rully-1er-cru-gresigny",
+          "ref": "turn1030view1"
+        },
+        {
+          "id": "rully-complete-villaine-1er-blanc-montpalais",
+          "url": "https://de-villaine.com/en/wines/11/rully-1er-cru-montpalais",
+          "ref": "turn1030view2"
+        },
+        {
+          "id": "rully-complete-villaine-1er-blanc-cloux",
+          "url": "https://www.de-villaine.com/en/wines/15/rully-1er-cru-cloux-blanc",
+          "ref": "turn1030view6"
+        },
+        {
+          "id": "rully-complete-villaine-1er-blanc-raclot",
+          "url": "https://www.de-villaine.com/en/wines/18/rully-1er-cru-raclot",
+          "ref": "turn1030view3"
+        },
+        {
+          "id": "rully-complete-villaine-1er-blanc-rabource",
+          "url": "https://www.de-villaine.com/en/wines/17/rully-1er-cru-rabource",
+          "ref": "turn1030view5"
+        },
+        {
+          "id": "rully-complete-villaine-1er-rouge-cloux",
+          "url": "https://www.de-villaine.com/en/wines/16/rully-1er-cru-cloux-rouge",
+          "ref": "turn1030view4"
+        },
+        {
+          "id": "rully-complete-villaine-1er-rouge-les-champs-cloux",
+          "url": "https://www.de-villaine.com/f/news/tasting-comments-vintages-2023-2024-35.pdf",
+          "ref": "turn1016view3"
+        },
+        {
+          "id": "rully-complete-villaine-1er-cuvee-ronde",
+          "url": "https://www.de-villaine.com/f/news/wine-description-vintage-2021-2022-34.pdf",
+          "ref": "turn1016view4"
+        }
+      ],
+      "corrections": [
+        "Dureuil Grésigny estate parcel faces east, not southeast.",
+        "De Villaine wine-specific vinification replaces generic vintage_records instructions.",
+        "Cuvée Ronde 2021 remains a distinct historical six-Premier-Cru blend."
+      ]
+    },
+    {
+      "checkedWineIds": [
+        "wine-fr-p-m-jacqueson-rully-blanc-village",
+        "wine-fr-p-m-jacqueson-rully-rouge-village",
+        "wine-fr-p-m-jacqueson-rully-rouge-la-barre",
+        "wine-fr-p-m-jacqueson-rully-rouge-chaponnieres",
+        "wine-fr-p-m-jacqueson-rully-1er-blanc-gresigny",
+        "wine-fr-p-m-jacqueson-rully-1er-blanc-margotes",
+        "wine-fr-p-m-jacqueson-rully-1er-blanc-la-pucelle",
+        "wine-fr-p-m-jacqueson-rully-1er-blanc-vauvry",
+        "wine-fr-p-m-jacqueson-rully-1er-blanc-raclot",
+        "wine-fr-p-m-jacqueson-rully-1er-rouge-preaux",
+        "wine-fr-p-m-jacqueson-rully-1er-rouge-les-cloux",
+        "wine-fr-p-m-jacqueson-rully-1er-rouge-clos-de-la-renarde",
+        "wine-fr-p-m-jacqueson-rully-1er-blanc",
+        "wine-fr-ninot-rully-blanc-la-barre",
+        "wine-fr-ninot-rully-blanc-chaponniere",
+        "wine-fr-ninot-rully-1er-blanc-gresigny",
+        "wine-fr-ninot-rully-rouge-la-barre",
+        "wine-fr-ninot-rully-rouge-meix-guillaume",
+        "wine-fr-ninot-rully-rouge-chaponniere",
+        "wine-fr-ninot-rully-1er-rouge-marissou"
+      ],
+      "newWines": [
+        "wine-fr-p-m-jacqueson-rully-1er-blanc"
+      ],
+      "unresolvedFacts": [
+        {
+          "wineId": "wine-fr-p-m-jacqueson-rully-rouge-village",
+          "issue": "Importer-listed generic red is not a separate label in current estate menu; no merger inferred."
+        },
+        {
+          "wineId": "wine-fr-p-m-jacqueson-rully-1er-blanc-la-pucelle",
+          "issue": "Individual official PDF fetch failed; importer terroir and current estate listing verified; no new label-specific élevage duration asserted."
+        },
+        {
+          "wineId": "wine-fr-p-m-jacqueson-rully-1er-rouge-les-cloux",
+          "issue": "Individual current official PDF fetch failed; older importer terroir and existing2022record retained with dates; house methods explicitly separated."
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.jacqueson-vins.fr/",
+          "ref": "turn987view0",
+          "claim": "1946 foundation; Paul1971, Marie2006, Pierre2015; official Rully portfolio and barrel/fining practice."
+        },
+        {
+          "url": "https://thormanhunt.co.uk/our-growers/burgundy/domaine-paul-et-marie-jacqueson/",
+          "ref": "turn984view2",
+          "claim": "Importer confirms generic Rully Rouge; historical vineyard notes for La Pucelle and Les Cloux."
+        },
+        {
+          "url": "https://domaineninot.com/en/the-estate/",
+          "ref": "turn984view1",
+          "claim": "Flavien joined2012; Erell2003; organic certification2020."
+        },
+        {
+          "url": "https://domaineninot.com/en/the-wines/",
+          "ref": "turn984view0",
+          "claim": "Seven Rully labels and links to seven technical PDFs."
+        },
+        {
+          "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-blanc-la-barre-2022.pdf",
+          "ref": "turn985view0",
+          "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+        },
+        {
+          "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-blanc-chaponniere.pdf",
+          "ref": "turn985view1",
+          "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+        },
+        {
+          "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-premier-cru-gresigny.pdf",
+          "ref": "turn985view2",
+          "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+        },
+        {
+          "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-rouge-la-barre.pdf",
+          "ref": "turn985view3",
+          "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+        },
+        {
+          "url": "https://domaineninot.com/wp-content/uploads/2023/04/an-ft-rully-le-meix-guillaume.pdf",
+          "ref": "turn985view4",
+          "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+        },
+        {
+          "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-rouge-chaponniere.pdf",
+          "ref": "turn985view5",
+          "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+        },
+        {
+          "url": "https://domaineninot.com/wp-content/uploads/2022/05/an-ft-rully-premier-cru-marissou.pdf",
+          "ref": "turn987view1",
+          "claim": "Estate-specific area, planting, soil, harvest and cellar specifications."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_BLANC_RULLY_2024.pdf",
+          "ref": "turn990view0",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY_barre_2024.pdf",
+          "ref": "turn990view8",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY1er_cru_chaponnieres_2024.pdf",
+          "ref": "turn990view7",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/gresigny.pdf",
+          "ref": "turn990view2",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/margotes.pdf",
+          "ref": "turn990view4",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/raclots.pdf",
+          "ref": "turn990view5",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/vauvry.pdf",
+          "ref": "turn990view6",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_ROUGE_RULLY1er_cru_preaux_2024.pdf",
+          "ref": "turn990view10",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2022-07/clos_de_la_renarde.pdf",
+          "ref": "turn990view11",
+          "claim": "Wine-specific site, area, plantings and vinification; document date is not vintage."
+        },
+        {
+          "url": "https://jacqueson.catapulpe.fr/sites/development/files/2024-03/2204_jacqueson_fiches_vins_BLANC_RULLY1er_cru_2024.pdf",
+          "ref": "turn996view0",
+          "claim": "Négoce purchased must from trusted growers; east-facing white-wine slope;12months15–20%new oak."
+        }
+      ],
+      "counts": {
+        "producers": 2,
+        "existingWinesReviewed": 19,
+        "newWines": 1,
+        "officialIndividualSheetsRead": 17,
+        "retainedImporterProfiles": 3
+      },
+      "corrections": [
+        "Jacqueson founding1946 and Paul1971 fromestate, replacing importer1947/1972.",
+        "Jacqueson villagewhite now threeparcels includingLaCrée.",
+        "JacquesonMargotés planted1999 perestate, notimporter2000.",
+        "JacquesonPréaux 2.58ha;1962/1980/1990s plantings, notall1967.",
+        "NinotFlavien joined2012.",
+        "NinotLaBarreBlanc machineharvest; ChaponnièreBlanc mixedhand/machine.",
+        "Chaponnières Jacqueson remainsVillage despite misleadingPDFfilename."
+      ]
+    },
+    {
+      "checkedAt": "2026-10-29",
+      "checkedWineIds": [
+        "wine-fr-jaeger-defaix-rully-blanc-village",
+        "wine-fr-jaeger-defaix-rully-1er-blanc-montpalais",
+        "wine-fr-jaeger-defaix-rully-1er-blanc-les-cloux",
+        "wine-fr-jaeger-defaix-rully-1er-blanc-rabource",
+        "wine-fr-jaeger-defaix-rully-blanc-sans-soufre",
+        "wine-fr-jaeger-defaix-rully-rouge-village",
+        "wine-fr-jaeger-defaix-rully-1er-rouge-preaux",
+        "wine-fr-jaeger-defaix-rully-1er-rouge-clos-du-chapitre",
+        "wine-fr-michel-briday-rully-blanc-village",
+        "wine-fr-michel-briday-rully-rouge-village",
+        "wine-fr-michel-briday-rully-1er-blanc-grésigny",
+        "wine-fr-michel-briday-rully-1er-blanc-la-pucelle",
+        "wine-fr-michel-briday-rully-1er-blanc-les-cloux",
+        "wine-fr-michel-briday-rully-blanc-clos-de-remenot",
+        "wine-fr-michel-briday-rully-1er-rouge-champs-cloux",
+        "wine-fr-michel-briday-rully-1er-rouge-les-pierres"
+      ],
+      "newWines": [],
+      "identityCorrections": [
+        {
+          "wineId": "wine-fr-michel-briday-rully-rouge-village",
+          "name": "Rully Rouge Les 4 Vignes",
+          "reason": "Official estate product page names the village red Les 4 Vignes; retained stable existing ID and aliases, no duplicate cuvée."
+        }
+      ],
+      "unresolvedFacts": [
+        {
+          "wineId": "wine-fr-michel-briday-rully-1er-blanc-la-pucelle",
+          "fields": [
+            "new-oak percentage",
+            "élevage duration"
+          ],
+          "reason": "Not specified on the wine’s official technical page; no value borrowed from another cuvée."
+        },
+        {
+          "producerId": "producer-fr-jaeger-defaix",
+          "field": "current independent certification certificate",
+          "reason": "Ecocert wording attributed to official 2024 technical sheets; no independent certificate audit claimed."
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines",
+          "ref": "turn986view0",
+          "claim": "Current catalogue contains five white and three red Rully cuvées; 2024 seasonal account distinguishes Rully from Chablis."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines/rully-blanc-19",
+          "ref": "turn988view0",
+          "claim": "Wine identity, site and estate style statement."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Blanc-2024-Domaine-Jaeger-Defaix-6acdf13544d5b3.09136764.pdf",
+          "ref": "turn992view6",
+          "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-mont-palais-blanc-20",
+          "ref": "turn988view1",
+          "claim": "Wine identity, site and estate style statement."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Mont-Palais-2024-Domaine-Jaeger-Defaix-6acdf25bdafa44.48469436.pdf",
+          "ref": "turn1005view0",
+          "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-les-cloux-blanc-21",
+          "ref": "turn988view2",
+          "claim": "Wine identity, site and estate style statement."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Les-Cloux-2024-Domaine-Jaeger-Defaix-6acdf29f5220c7.61745253.pdf",
+          "ref": "turn1005view1",
+          "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-rabource-blanc-22",
+          "ref": "turn988view3",
+          "claim": "Wine identity, site and estate style statement."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Rabource-2024-Domaine-Jaeger-Defaix-6acdf2c11f7671.31698561.pdf",
+          "ref": "turn1005view2",
+          "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines/rully-blanc-without-sulphur-23",
+          "ref": "turn988view4",
+          "claim": "Wine identity, site and estate style statement."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Blanc-Sans-Soufre-2024-Domaine-Jaeger-Defaix-6acdf327f40d61.30294288.pdf",
+          "ref": "turn992view7",
+          "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines/rully-rouge-24",
+          "ref": "turn988view5",
+          "claim": "Wine identity, site and estate style statement."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Rouge-2024-Domaine-Jaeger-Defaix-6acdf3c74edcd3.56265363.pdf",
+          "ref": "turn995view2",
+          "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-preaux-rouge-25",
+          "ref": "turn988view6",
+          "claim": "Wine identity, site and estate style statement."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Preaux-2024-Domaine-Jaeger-Defaix-6acdf40122aa87.26793474.pdf",
+          "ref": "turn1005view3",
+          "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/en/wines/rully-premier-cru-clos-du-chapitre-rouge-26",
+          "ref": "turn988view7",
+          "claim": "Wine identity, site and estate style statement."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/uploads/vins/Rully-Premier-Cru-Clos-du-Chapitre-2024-Domaine-Jaeger-Defaix-6acdf479043cd5.82575312.pdf",
+          "ref": "turn1005view4",
+          "claim": "2024 viticulture, vinification, yield, alcohol and service guidance."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/presentation",
+          "ref": "turn992view8",
+          "claim": "Michel and Lucette founded the estate in 1976; Stéphane joined in 1988, Sandrine in 2000; estate states 15 ha."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/philosophy",
+          "ref": "turn992view9",
+          "claim": "No herbicides since 1996; Terra Vitis since 2014; hand harvest and native yeasts."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/0004-carte",
+          "ref": "turn986view2",
+          "claim": "Current Rully portfolio including white and red village and Premier Cru wines."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/wines/13/rully",
+          "ref": "turn986view3",
+          "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/wines/22/rully-les-4-vignes",
+          "ref": "turn995view1",
+          "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/wines/16/rully-1er-cru-gresigny",
+          "ref": "turn992view0",
+          "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/wines/15/rully-1er-cru-la-pucelle",
+          "ref": "turn992view1",
+          "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/wines/19/rully-1er-cru-les-cloux",
+          "ref": "turn992view2",
+          "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/wines/17/rully-clos-de-remenot-monopole",
+          "ref": "turn992view3",
+          "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/wines/14/rully-1er-cru-champs-cloux",
+          "ref": "turn992view4",
+          "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+        },
+        {
+          "url": "https://www.domaine-briday.com/en/wines/24/rully-1er-cru-les-pierres/",
+          "ref": "turn992view5",
+          "claim": "Estate parcel area and vine age, soil/aspect, cuvée-specific vinification and style; undated technical baseline."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/image/uploads/vins/RBL-6a996b55c487c2.57867841.png?fm=png&h=520&s=def654918052afa23e98bf4280a1949d",
+          "ref": "turn1032view0",
+          "claim": "Reference bottle image linked directly by the corresponding official wine page."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Mont-Palais-6a996ba6097ba6.01212856.png?fm=png&h=520&s=07570ec8ec987cac3047430e1996033b",
+          "ref": "turn1032view1",
+          "claim": "Reference bottle image linked directly by the corresponding official wine page."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/image/uploads/vins/RULLY-CLOUX-6a996bf50c0c12.57593358.png?fm=png&h=520&s=ebf1c26b917beed4ccc72ed94a0dcabf",
+          "ref": "turn1032view2",
+          "claim": "Reference bottle image linked directly by the corresponding official wine page."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Rabource-6a996c72d0cc65.72231861.png?fm=png&h=520&s=cc7e53b628e4bc69a76e9c0331cb257a",
+          "ref": "turn1032view3",
+          "claim": "Reference bottle image linked directly by the corresponding official wine page."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-bl-SSA-6a996d39064536.26733975.png?fm=png&h=520&s=4048b89298ae3357e8723367212ef7e9",
+          "ref": "turn1032view4",
+          "claim": "Reference bottle image linked directly by the corresponding official wine page."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/image/uploads/vins/rully-rouge-6a996d741fd2d1.68558680.png?fm=png&h=520&s=5acf44753d433c8eba4a89d9ee4aca0e",
+          "ref": "turn1032view5",
+          "claim": "Reference bottle image linked directly by the corresponding official wine page."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Preaux-6a996db4cc31b6.18384607.png?fm=png&h=520&s=4123977a94b391bea4517ab4fe0b2199",
+          "ref": "turn1032view6",
+          "claim": "Reference bottle image linked directly by the corresponding official wine page."
+        },
+        {
+          "url": "https://www.jaeger-defaix.com/image/uploads/vins/Rully-Chapitre-6a996df482ddb5.65855438.png?fm=png&h=520&s=acc5e225162923e8bfd06cbdf041a029",
+          "ref": "turn1032view7",
+          "claim": "Reference bottle image linked directly by the corresponding official wine page."
+        }
+      ],
+      "portfolioConclusion": "Jaeger-Defaix all 8 current Rully cuvées covered. Briday all 8 Rully cuvées represented across current estate wine/map pages, with generic red reconciled to Les 4 Vignes. No new wine entities needed."
+    },
+    {
+      "checkedAt": "2026-10-29",
+      "checkedWineIds": [
+        "wine-fr-belleville-rully-1er-blanc-chapitre",
+        "wine-fr-belleville-rully-1er-blanc-la-fosse",
+        "wine-fr-belleville-rully-1er-blanc-les-cloux",
+        "wine-fr-belleville-rully-1er-blanc-la-pucelle",
+        "wine-fr-belleville-rully-1er-blanc-rabource",
+        "wine-fr-belleville-rully-1er-rouge-chapitre",
+        "wine-fr-belleville-rully-blanc-les-saint-jacques",
+        "wine-fr-belleville-rully-blanc-la-cree",
+        "wine-fr-belleville-rully-blanc-la-perche",
+        "wine-fr-belleville-rully-rouge-chaponniere",
+        "wine-fr-belleville-rully-rouge-les-villeranges",
+        "wine-fr-de-la-folie-rully-blanc-clos-la-folie",
+        "wine-fr-de-la-folie-rully-1er-blanc-clos-du-chaigne",
+        "wine-fr-de-la-folie-rully-1er-blanc-clos-saint-jacques",
+        "wine-fr-de-la-folie-rully-rouge-clos-de-bellecroix",
+        "wine-fr-de-la-folie-rully-rouge-cuvee-marey"
+      ],
+      "newWines": [],
+      "portfolioResult": "Official catalogues contain exactly the 11 Belleville and 5 Folie Rully labels already present; all 16 pages checked, no missing current Rully label found.",
+      "unresolvedFacts": [
+        {
+          "scope": "Domaine Belleville individual wines",
+          "fact": "Fermentation temperature, yeast, MLF details and vintage-specific changes are not stated in these undated producer profiles."
+        },
+        {
+          "scope": "Domaine de la Folie",
+          "fact": "Bottled total SO2 and specific ageing durations are not published on the checked wine pages; vinification sans SO2 is not a zero-total-SO2 claim."
+        },
+        {
+          "scope": "Domaine de la Folie Cuvée Marey",
+          "fact": "The official page does not clarify whether its 1.60 ha is included in the 3.18 ha stated for Clos de Bellecroix; areas are not summed."
+        },
+        {
+          "scope": "Domaine Belleville ownership",
+          "fact": "The official history identifies an American couple and Jean-Luc Vitoux, but does not name the couple or provide ownership percentages."
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://domainebelleville.com/en/the-estate",
+          "ref": "turn993view0",
+          "claim": "Estate area, Rully grape areas, 2021 organic certification scope, 2023 Monthélie expansion and parcel vinification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/the-history",
+          "ref": "turn993view1",
+          "claim": "Early twentieth-century foundation; 2017 acquisition by an American couple and director Jean-Luc Vitoux."
+        },
+        {
+          "url": "https://domainebelleville.com/en/our-values",
+          "ref": "turn991view1",
+          "claim": "Individual climat management; organic conversion began in 2017; soil work and restricted inputs."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines",
+          "ref": "turn989view1",
+          "claim": "Eleven distinct Rully labels: eight white and three red; six Premier Cru and five Village."
+        },
+        {
+          "url": "https://www.domainedelafolie.fr/histoire-terroir/",
+          "ref": "turn989view2",
+          "claim": "Chagny location; fifth-generation Clémence and Baptiste Dubrulle since 2010; Marey, Bouton and Noël-Bouton family history."
+        },
+        {
+          "url": "https://www.domainedelafolie.fr/vins-spiritueux/",
+          "ref": "turn989view3",
+          "claim": "Five Rully wines, separate from Aligoté, Crémant and spirits."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/5/rully-1er-cru-quot-chapitre-quot",
+          "ref": "turn991view2",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/5/en/rully-1er-cru-quot-chapitre-quot",
+          "ref": "turn1002view0",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/4/rully-1er-cru-quot-la-fosse-quot",
+          "ref": "turn991view3",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/7/rully-1er-cru-quot-les-cloux-quot",
+          "ref": "turn991view4",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/7/en/rully-1er-cru-quot-les-cloux-quot",
+          "ref": "turn1002view2",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/6/rully-1er-cru-quot-la-pucelle-quot",
+          "ref": "turn991view5",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/6/en/rully-1er-cru-quot-la-pucelle-quot",
+          "ref": "turn1002view3",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/8/rully-1er-cru-quot-rabource-quot",
+          "ref": "turn993view2",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/8/en/rully-1er-cru-quot-rabource-quot",
+          "ref": "turn1002view4",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/12/rully-1er-cru-quot-chapitre-quot",
+          "ref": "turn993view3",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/12/en/rully-1er-cru-quot-chapitre-quot",
+          "ref": "turn1002view5",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/22/rully-quot-les-saint-jacques-quot",
+          "ref": "turn993view4",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/22/en/rully-quot-les-saint-jacques-quot",
+          "ref": "turn1002view6",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/2/rully-quot-la-cree-quot",
+          "ref": "turn993view5",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/2/en/rully-quot-la-cree-quot",
+          "ref": "turn1002view7",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/3/rully-quot-la-perche-quot",
+          "ref": "turn993view6",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/3/en/rully-quot-la-perche-quot",
+          "ref": "turn1002view8",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/11/rully-quot-chaponniere-quot",
+          "ref": "turn993view7",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/11/en/rully-quot-chaponniere-quot",
+          "ref": "turn1002view9",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://domainebelleville.com/en/wines/13/rully-quot-les-villeranges-quot",
+          "ref": "turn993view8",
+          "claim": "Identity, parcel, vine-age statement, viticulture, stated élevage and estate tasting profile."
+        },
+        {
+          "url": "https://domainebelleville.com/pdf/vin/13/en/rully-quot-les-villeranges-quot",
+          "ref": "turn1002view10",
+          "claim": "Undated estate PDF corroborates page identity, terroir and élevage specification."
+        },
+        {
+          "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-la-folie-1/",
+          "ref": "turn997view0",
+          "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+        },
+        {
+          "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-du-chaigne-1er-cru-1/",
+          "ref": "turn997view1",
+          "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+        },
+        {
+          "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-st-jacques-1er-cru/",
+          "ref": "turn997view2",
+          "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+        },
+        {
+          "url": "https://www.domainedelafolie.fr/vins-spiritueux/clos-de-bellecroix-1/",
+          "ref": "turn997view3",
+          "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+        },
+        {
+          "url": "https://www.domainedelafolie.fr/vins-spiritueux/cuv%C3%A9e-marey/",
+          "ref": "turn997view4",
+          "claim": "Wine identity, aspect, soil, estate area and vine-age statement, individual cellar process and service guidance."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/5/image_bouteille/fiche/rully-1er-cru-chapitre.png",
+          "ref": "turn1033view0",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/4/image_bouteille/fiche/rully-1er-cru-la-fosse.png",
+          "ref": "turn1033view1",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/7/image_bouteille/fiche/rully-1er-cru-les-cloux.png",
+          "ref": "turn1033view2",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/6/image_bouteille/fiche/rully-1er-cru-la-pucelle.png",
+          "ref": "turn1033view3",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/8/image_bouteille/fiche/rully-1er-cru-rabource.png",
+          "ref": "turn1033view4",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/12/image_bouteille/fiche/rully-1er-cru-chapitre.png",
+          "ref": "turn1033view5",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/22/image_bouteille/fiche/rully-les-saint-jacques.png",
+          "ref": "turn1033view6",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/2/image_bouteille/fiche/rully-la-cree.png",
+          "ref": "turn1033view7",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/3/image_bouteille/fiche/rully-la-perche.png",
+          "ref": "turn1033view8",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/11/image_bouteille/fiche/rully-chaponniere.png",
+          "ref": "turn1033view9",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        },
+        {
+          "url": "https://domainebelleville.com/image/vin/13/image_bouteille/fiche/rully-les-villeranges.png",
+          "ref": "turn1033view10",
+          "claim": "Official bottle-image link linked by the matching individual wine page; product number matches the wine source."
+        }
+      ],
+      "imageNote": "Eleven Belleville official product-image URLs recorded. Folie image filenames/alt text all say Clos Saint-Jacques even on other cuvée pages, so they were not assigned without a separate visual identity check."
+    },
+    {
+      "checkedWineIds": [
+        "wine-fr-rois-mages-rully-blanc-plante-moraine",
+        "wine-fr-rois-mages-rully-blanc-clos-du-moulin-a-vent",
+        "wine-fr-rois-mages-rully-blanc-les-cailloux",
+        "wine-fr-rois-mages-rully-blanc-chaponieres",
+        "wine-fr-rois-mages-rully-1er-blanc-les-pierres",
+        "wine-fr-rois-mages-rully-rouge-les-cailloux",
+        "wine-fr-rois-mages-rully-1er-rouge-les-pierres",
+        "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-molesme",
+        "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-molesme",
+        "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-montpalais",
+        "wine-fr-jean-baptiste-ponsot-rully-blanc-en-bas-de-vauvry",
+        "wine-fr-jean-baptiste-ponsot-rully-rouge-village",
+        "wine-fr-jean-baptiste-ponsot-rully-1er-rouge-la-fosse",
+        "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot",
+        "wine-fr-saint-jacques-rully-blanc-village",
+        "wine-fr-saint-jacques-rully-1er-blanc-marissou",
+        "wine-fr-saint-jacques-rully-1er-rouge-marissou",
+        "wine-fr-saint-jacques-rully-1er-rouge-la-fosse",
+        "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+        "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus"
+      ],
+      "newWines": [
+        "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot",
+        "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+        "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus"
+      ],
+      "resolvedHolds": [
+        {
+          "previousId": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot-review",
+          "canonicalId": "wine-fr-jean-baptiste-ponsot-rully-1er-blanc-raclot",
+          "resolution": "Separate Raclot Chardonnay confirmed by 2022 labelled bottle in merchant PDF and RVF publisher wine record; technical parameters not borrowed."
+        },
+        {
+          "previousId": "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+          "canonicalId": "wine-fr-saint-jacques-rully-1er-blanc-stellaris-campus",
+          "resolution": "Official estate identifies white selection from Marissou and La Fosse; trade exhibitor lists Rully Premier Cru 2023."
+        },
+        {
+          "previousId": "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus",
+          "canonicalId": "wine-fr-saint-jacques-rully-1er-rouge-stellaris-campus",
+          "resolution": "Official estate identifies separate red selection from Marissou; official 2023 order list confirms the label."
+        }
+      ],
+      "unresolvedFacts": [
+        {
+          "entity": "Rois Mages",
+          "issue": "Website vine ages are undated; retained as quoted values, not rebased to 2026."
+        },
+        {
+          "entity": "Ponsot Molesme Blanc",
+          "issue": "Individual English page has a Village field inconsistent with its Premier Cru title and estate parcel overview; canonical Premier Cru retained with evidence."
+        },
+        {
+          "entity": "Ponsot Raclot",
+          "issue": "No detailed Raclot page on accessible official estate site. Identity is confirmed by dated bottle/merchant PDF plus critic publisher record; vinification is not invented."
+        },
+        {
+          "entity": "Saint-Jacques Stellaris Campus",
+          "issue": "Dedicated fermentation and élevage proportions are unpublished; vineyard selection and separate labels are established."
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://rois-mages.com/le-domaine/",
+          "ref": "turn1011view2",
+          "claim": "Founded 1984 by Anne-Sophie Debavelaere; Félix returned 2009; estate states 11 ha; cellar renovated 2015."
+        },
+        {
+          "url": "https://rois-mages.com/our-wines/",
+          "ref": "turn994view0",
+          "claim": "Seven Rully labels: five white, two red; house élevage baseline."
+        },
+        {
+          "url": "https://rois-mages.com/rully-plante-moraine/",
+          "ref": "turn998view0",
+          "claim": "Parcel, vinification and estate tasting profile for this exact label."
+        },
+        {
+          "url": "https://rois-mages.com/rully-clos-du-moulin-a-vent/",
+          "ref": "turn998view2",
+          "claim": "Parcel, vinification and estate tasting profile for this exact label."
+        },
+        {
+          "url": "https://rois-mages.com/rully-les-cailloux-blanc/",
+          "ref": "turn998view1",
+          "claim": "Parcel, vinification and estate tasting profile for this exact label."
+        },
+        {
+          "url": "https://rois-mages.com/rully-chaponieres/",
+          "ref": "turn998view3",
+          "claim": "Parcel, vinification and estate tasting profile for this exact label."
+        },
+        {
+          "url": "https://rois-mages.com/rully-1er-cru-les-pierres/",
+          "ref": "turn998view4",
+          "claim": "Parcel, vinification and estate tasting profile for this exact label."
+        },
+        {
+          "url": "https://rois-mages.com/rully-les-cailloux-rouge/",
+          "ref": "turn998view6",
+          "claim": "Parcel, vinification and estate tasting profile for this exact label."
+        },
+        {
+          "url": "https://rois-mages.com/rully-1er-cru-les-pierres-2/",
+          "ref": "turn998view5",
+          "claim": "Parcel, vinification and estate tasting profile for this exact label."
+        },
+        {
+          "url": "https://domaine-jean-baptiste-ponsot.fr/en/home/",
+          "ref": "turn994view1",
+          "claim": "Estate chronology, parcel areas, geology, sustainable farming and general cellar practices; existing dossier details retained."
+        },
+        {
+          "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-molesme-blanc-en/",
+          "ref": "turn998view8",
+          "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+        },
+        {
+          "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-molesme-rouge-en/",
+          "ref": "turn1000view1",
+          "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+        },
+        {
+          "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-montpalais-blanc-en/",
+          "ref": "turn1003view2",
+          "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+        },
+        {
+          "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-en-bas-de-vauvry-blanc-en/",
+          "ref": "turn1003view3",
+          "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+        },
+        {
+          "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-village-rouge-en/",
+          "ref": "turn1003view4",
+          "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+        },
+        {
+          "url": "https://domaine-jean-baptiste-ponsot.fr/en/rully-premier-cru-la-fosse-rouge-en/",
+          "ref": "turn1003view5",
+          "claim": "Individual wine specification, oak proportions, estate tasting description and service temperature."
+        },
+        {
+          "url": "https://laroutedesblancs.com/module/mwslrdb/lrdbpdf?id_product=6541",
+          "ref": "turn1011view1",
+          "claim": "2022 bottle label and first-hand merchant presentation identify a separate Chardonnay Rully Premier Cru Raclot; east-facing marl/limestone slope beside Cloux."
+        },
+        {
+          "url": "https://www.larvf.com/rully-premier-cru-raclot,4884606.asp",
+          "ref": "turn1003search2",
+          "claim": "Publisher search record independently identifies Raclot Chardonnay for 2022/2024; full page requires access."
+        },
+        {
+          "url": "https://www.christophe-grandmougin.fr/le-domaine-saint-jacques/",
+          "ref": "turn1000view2",
+          "claim": "Grandmougin family history; official areas and aspects for Marissou, La Fosse and Village vineyards."
+        },
+        {
+          "url": "https://www.christophe-grandmougin.fr/248-2/",
+          "ref": "turn1000view3",
+          "claim": "Mechanical weed control, hand harvest, red oak ageing and white partial oak ageing as house baseline."
+        },
+        {
+          "url": "https://www.christophe-grandmougin.fr/les-vins/",
+          "ref": "turn1003view0",
+          "claim": "Exact labels and estate style descriptions; Stellaris white from Marissou/La Fosse, red from selected Marissou parcel."
+        },
+        {
+          "url": "https://www.christophe-grandmougin.fr/wp-content/uploads/2025/02/Bon-de-commande.pdf",
+          "ref": "turn1000search0",
+          "claim": "Official 2023 commercial list includes separate white and red Stellaris Campus."
+        },
+        {
+          "url": "https://www.grands-jours-bourgogne.fr/exposants/8d269dd886da323a90ea1dd56a289a4a/",
+          "ref": "turn994view2",
+          "claim": "Estate-supplied exhibitor list confirms Stellaris Campus Blanc 2023 as Rully Premier Cru."
+        },
+        {
+          "url": "https://www.millesima.co.uk/domaine-saint-jacques-rully-1er-cru-stellaris-campus-rouge-2023.html",
+          "ref": "turn1044search1",
+          "claim": "Corroborates 2023 red label as Rully AOC Premier Cru and Pinot Noir, without inferring classification from parcel origin alone."
+        }
+      ],
+      "imageEvidence": "Five image URLs were followed from exact estate wine pages with label-specific filenames/alt text. Web image retrieval returned textual placeholders rather than pixels; final visual QA remains with integrator. No rights transfer is inferred."
+    },
+    {
+      "reviewed": "2026-10-29",
+      "wineCount": 5,
+      "scope": "Official current portfolio and dated 2020 list; 2019 notes explicitly dated; no cross-vintage transfer.",
+      "sourceRefs": [
+        "turn1047view0",
+        "turn1048search3",
+        "turn1048search5",
+        "turn1049view0",
+        "turn1050view5",
+        "turn1052search0",
+        "turn1056search1"
+      ]
+    },
+    {
+      "checkedAt": "2026-10-29",
+      "count": 11,
+      "sourceEvidence": [
+        {
+          "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/",
+          "ref": "turn1051view3",
+          "claim": "Domaine de la Bressande — estate"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/notre-savoir-faire.r-923/",
+          "ref": "turn1051view4",
+          "claim": "Domaine de la Bressande — methods"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/notre-domaine.r-913/notre-vinicultrice.r-936/",
+          "ref": "turn1051view5",
+          "claim": "Domaine de la Bressande — Anne-Laure Hernette"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-molesme.v-24461.html?id_millesime=57",
+          "ref": "turn1053view0",
+          "claim": "Domaine de la Bressande — Rully Premier Cru Molesme Blanc — Vignes du Château de Rully 2024"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-bressande.v-24462.html?id_millesime=57",
+          "ref": "turn1053view1",
+          "claim": "Domaine de la Bressande — Rully Premier Cru Clos de la Bressande Monopole — Vignes du Château de Rully 2024"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-23952.html?id_millesime=57",
+          "ref": "turn1053view2",
+          "claim": "Domaine de la Bressande — Rully Blanc — Vignes du Château de Rully 2024"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-chapitre.v-22129.html?id_millesime=43",
+          "ref": "turn1054view0",
+          "claim": "Domaine de la Bressande — Rully Premier Cru Chapitre Rouge 2022"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-crugresigny.v-22207.html?id_millesime=37",
+          "ref": "turn1054view1",
+          "claim": "Domaine de la Bressande — Rully Premier Cru Grésigny Blanc 2021"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-la-pucelle.v-22130.html?id_millesime=57",
+          "ref": "turn1054view2",
+          "claim": "Domaine de la Bressande — Rully Premier Cru La Pucelle Blanc 2024"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-cru-molesme.v-22132.html?id_millesime=57",
+          "ref": "turn1054view3",
+          "claim": "Domaine de la Bressande — Rully Premier Cru Molesme Rouge 2024"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-premier-crupreaux.v-22133.html?id_millesime=44",
+          "ref": "turn1054view4",
+          "claim": "Domaine de la Bressande — Rully Premier Cru Préaux Rouge 2023"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-22126.html?id_millesime=57",
+          "ref": "turn1055view0",
+          "claim": "Domaine de la Bressande — Rully Blanc 2024"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully.v-22373.html?id_millesime=57",
+          "ref": "turn1055view1",
+          "claim": "Domaine de la Bressande — Rully Rouge 2024"
+        },
+        {
+          "url": "https://www.domainedelabressande.fr/fr/nos-vins.r-935/nos-appellations.r-914/rully-saint-jacques.v-22127.html?id_millesime=57",
+          "ref": "turn1055view2",
+          "claim": "Domaine de la Bressande — Rully Saint-Jacques Blanc 2024"
+        }
+      ],
+      "scope": "All 11 distinct Rully wine pages in the official Domaine de la Bressande portfolio, across three pagination pages. Château-labelled whites remain separate from estate wines. Latest available vintage on each page used; no later vintage invented.",
+      "producerCount": 1,
+      "wineCount": 11,
+      "vintageCounts": {
+        "2021": 1,
+        "2022": 1,
+        "2023": 1,
+        "2024": 8
+      },
+      "issues": [
+        {
+          "wine": "Rully Premier Cru Préaux 2023",
+          "resolution": "Use the explicit Vinification et élevage section: 72-hour cold soak, 14–20-day maceration. The earlier Origine block repeats a conflicting generic 24-hour process."
+        },
+        {
+          "wine": "Rully Premier Cru Chapitre",
+          "resolution": "Only 2022 selectable on the current official page; retained as 2022, not relabelled 2023/2024."
+        },
+        {
+          "wine": "Rully Premier Cru Grésigny",
+          "resolution": "Only 2021 selectable on the current official page; retained as 2021."
+        },
+        {
+          "wine": "Molesme / Chapitre / Rully Rouge",
+          "resolution": "Some official prose places pre-fermentation after maceration in an inconsistent sequence. Retain unambiguous vessel, extraction and oak details, without reproducing the contradictory ordering."
+        },
+        {
+          "wine": "Château Molesme 2024",
+          "resolution": "Official bâtonnage wording says until alcoholic fermentation; omitted that ambiguous timing rather than silently substituting MLF."
+        },
+        {
+          "field": "Rully acreage",
+          "resolution": "Estate site contains 21.57 ha, 21.35 ha and an older 9.20 ha in different sections. Profile cites the methods page with explicit scope; no sum across pages."
+        }
+      ]
+    }
+  ],
+  "census": {
+    "directoryDate": "2026-10-29",
+    "count": 68,
+    "scope": "Snapshot of every row in BIVB's public Rully directory. Includes local estates, outside producers, négociants, cooperatives and sales/visitor entries. 68 rows are not 68 independent estates or 68 complete profiles. The directory omits existing verified Rully producers Jean-Baptiste Ponsot and Domaine Saint-Jacques. Wine technical sheets are label-level baselines unless a vintage is explicitly recorded.",
+    "rawDirectoryCount": 68,
+    "possibleDuplicateRows": [
+      [
+        "rully-directory-115",
+        "rully-directory-118"
+      ]
+    ],
+    "notInDirectoryExistingProducerIds": [
+      "producer-fr-jean-baptiste-ponsot",
+      "producer-fr-saint-jacques"
+    ],
+    "localityCounts": {
+      "rully": 14,
+      "chagny": 1,
+      "outside-rully": 53
+    },
+    "sourceEvidence": [
+      {
+        "url": "https://www.vins-bourgogne.fr/nos-vins-nos-terroirs/la-bourgogne-et-ses-appellations/la-bourgogne-une-localisation-privilegiee%2C2377%2C9170.html?args=Y29tcF9pZD0yMjA1JmFjdGlvbj12aWV3RmljaGVXaXRoVmlnbmVyb24maWQ9Mzg3JmFwcGVsbGF0aW9uX2FwcGVsbGF0aW9uPVJ1bGx5JmFwcGVsbGF0aW9uX2Rlc2NyaXB0aW9uPSZhcHBlbGxhdGlvbl9pZF9hY2Nlc3M9NTV8",
+        "ref": "turn1017view0",
+        "claim": "Complete directory rows 75–142: 68 entries."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/albert-sounit-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDAwNSZ8",
+        "ref": "turn1009view0",
+        "claim": "Directory identity, town and advertised business category for Maison Albert Sounit."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/andre-delorme-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDM0MCZ8",
+        "ref": "turn1009view1",
+        "claim": "Directory identity, town and advertised business category for Maison André Delorme."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/antoine-olivier-santenay-21590%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDg5NCZ8",
+        "ref": "turn1018view0",
+        "claim": "Directory identity, town and advertised business category for Domaine Antoine Olivier."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/belleville-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDA1NiZ8",
+        "ref": "turn1018view1",
+        "claim": "Directory identity, town and advertised business category for Domaine Belleville."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/berger-rive-cheilly-les-maranges-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDA2MCZ8",
+        "ref": "turn1018view2",
+        "claim": "Directory identity, town and advertised business category for Domaine Berger-Rive."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/briday-michel-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDM2MCZ8",
+        "ref": "turn1018view3",
+        "claim": "Directory identity, town and advertised business category for Domaine Briday Michel."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/cave-de-bissey-bissey-sous-cruchaud-71390%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDE2NCZ8",
+        "ref": "turn1018view4",
+        "claim": "Directory identity, town and advertised business category for Cave de Bissey."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/cave-des-vignerons-de-genouilly-genouilly-71460%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDE2NyZ8",
+        "ref": "turn1018view5",
+        "claim": "Directory identity, town and advertised business category for Cave des vignerons de Genouilly."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chanzy-bouzeron-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDE5NCZ8",
+        "ref": "turn1018view6",
+        "claim": "Directory identity, town and advertised business category for Maison Chanzy."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chanzy-olivier-meursault-21190%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUwNEhWTCZ8",
+        "ref": "turn1018view7",
+        "claim": "Directory identity, town and advertised business category for Maison Chanzy Olivier."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/charousset-a-ma-cave-mercurey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9QjAwMTFCT1UwMDAwMDA5MSZ8",
+        "ref": "turn1018view8",
+        "claim": "Directory identity, town and advertised business category for Etablissement Charousset - A ma Cave."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/chartron-jean-puligny-montrachet-21190%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDIwNCZ8",
+        "ref": "turn1018view9",
+        "claim": "Directory identity, town and advertised business category for Domaine Chartron Jean."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/d-allaines-francois-demigny-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDMwNyZ8",
+        "ref": "turn1018view10",
+        "claim": "Directory identity, town and advertised business category for Maison D'Allaines François."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/de-suremain-eric-monthelie-21190%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTA1NyZ8",
+        "ref": "turn1018view11",
+        "claim": "Directory identity, town and advertised business category for Domaine De Suremain Eric."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/defaix-bernard-chablis-89800%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDMyNSZ8",
+        "ref": "turn1018view13",
+        "claim": "Directory identity, town and advertised business category for Maison Defaix Bernard."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-chanson-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDE5MyZ8",
+        "ref": "turn1018view14",
+        "claim": "Directory identity, town and advertised business category for Domaine Chanson."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-d-aubigny-aluze-71510%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwVjUzUUxUNCZ8",
+        "ref": "turn1021view0",
+        "claim": "Directory identity, town and advertised business category for DOMAINE D'AUBIGNY."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-l-ecette-daux-vincent-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDM3MSZ8",
+        "ref": "turn1021view1",
+        "claim": "Directory identity, town and advertised business category for Domaine de l'Ecette - Daux Vincent."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-la-folie-chagny-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDM4MyZ8",
+        "ref": "turn1021view2",
+        "claim": "Directory identity, town and advertised business category for Domaine de la Folie."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-la-renaissance-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUwRjlaQyZ8",
+        "ref": "turn1009view2",
+        "claim": "Directory identity, town and advertised business category for Domaine de La Renaissance."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-de-la-vieille-fontaine-mercurey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDY4OSZ8",
+        "ref": "turn1021view3",
+        "claim": "Directory identity, town and advertised business category for Domaine de la vieille fontaine."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-des-chauchoux-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwVjUwQklDSSZ8",
+        "ref": "turn1021view4",
+        "claim": "Directory identity, town and advertised business category for Domaine des Chauchoux."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-du-chateau-d-etroyes-mercurey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDk1OCZ8",
+        "ref": "turn1021view5",
+        "claim": "Directory identity, town and advertised business category for Domaine du Château d'Etroyes."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-du-chateau-de-garnerot-mercurey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwVjUwNUxSViZ8",
+        "ref": "turn1021view6",
+        "claim": "Directory identity, town and advertised business category for Domaine du Château de Garnerot."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-du-four-bassot-saint-mard-de-vaux-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9QjAwMTFCT1UwMDAwMDBCTiZ8",
+        "ref": "turn1021view7",
+        "claim": "Directory identity, town and advertised business category for Domaine du Four Bassot."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/domaine-la-renarde-jully-les-buxy-71390%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUwRkZQQiZ8",
+        "ref": "turn1021view8",
+        "claim": "Directory identity, town and advertised business category for Domaine la Renarde."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/dureuil-janthial-vincent-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDQ5NSZ8",
+        "ref": "turn1021view9",
+        "claim": "Directory identity, town and advertised business category for Domaine Dureuil-Janthial Vincent."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/duvernay-p-et-f-mercurey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDUwMiZ8",
+        "ref": "turn1021view10",
+        "claim": "Directory identity, town and advertised business category for Domaine Duvernay P et F."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/faiveley-nuits-saint-georges-21700%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDUwOSZ8",
+        "ref": "turn1021view11",
+        "claim": "Directory identity, town and advertised business category for Domaine Faiveley."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/famille-picard-chassagne-montrachet-21190%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDc3NCZ8",
+        "ref": "turn1021view12",
+        "claim": "Directory identity, town and advertised business category for Domaines Famille Picard."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/fatien-pere-fils-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUwSk9RUSZ8",
+        "ref": "turn1021view13",
+        "claim": "Directory identity, town and advertised business category for Maison Fatien Père & Fils."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/gaugey-demigny-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDU1MSZ8",
+        "ref": "turn1021view15",
+        "claim": "Directory identity, town and advertised business category for Domaine Gaugey."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/giboulot-emmanuel-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDU3MiZ8",
+        "ref": "turn1020view0",
+        "claim": "Directory identity, town and advertised business category for Domaine Giboulot Emmanuel."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/gille-comblanchien-21700%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDU3NSZ8",
+        "ref": "turn1020view1",
+        "claim": "Directory identity, town and advertised business category for Domaine Gille."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/girard-philippe-savigny-les-beaune-21420%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDU3OSZ8",
+        "ref": "turn1020view2",
+        "claim": "Directory identity, town and advertised business category for Domaine Girard Philippe."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/gouffier-fontaines-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUwOFRHTSZ8",
+        "ref": "turn1020view3",
+        "claim": "Directory identity, town and advertised business category for Domaine Gouffier."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/guyaux-jean-claude-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDYyNCZ8",
+        "ref": "turn1020view4",
+        "claim": "Directory identity, town and advertised business category for Maison Guyaux Jean Claude."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/jaeger-defaix-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9QjAwMTFCT1UwMDAwMDBOQyZ8",
+        "ref": "turn1020view5",
+        "claim": "Directory identity, town and advertised business category for Domaine Jaeger Defaix."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/jaffelin-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDY0OSZ8",
+        "ref": "turn1020view6",
+        "claim": "Directory identity, town and advertised business category for Maison Jaffelin."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/jobard-claudie-demigny-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUwSlZSMyZ8",
+        "ref": "turn1020view7",
+        "claim": "Directory identity, town and advertised business category for Domaine Jobard Claudie."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/juillot-michel-mercurey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDY3OSZ8",
+        "ref": "turn1020view8",
+        "claim": "Directory identity, town and advertised business category for Domaine Juillot Michel."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/la-maison-jaffelin-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9QjAwMTFCT1UwMDAwMDBLTiZ8",
+        "ref": "turn1020view9",
+        "claim": "Directory identity, town and advertised business category for La maison Jaffelin."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/lefort-david-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQkZDMDAwVjUxN0c3NyZ8",
+        "ref": "turn1009view3",
+        "claim": "Directory identity, town and advertised business category for Domaine Lefort David."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/les-champs-de-l-abbaye-aluze-71510%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDE4NyZ8",
+        "ref": "turn1020view10",
+        "claim": "Directory identity, town and advertised business category for Domaine Les Champs de l'Abbaye."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/louis-max-nuits-saint-georges-21700%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTMzMiZ8",
+        "ref": "turn1020view11",
+        "claim": "Directory identity, town and advertised business category for Maison Louis Max."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/maison-des-vins-de-la-cote-chalonnaise-chalon-sur-saone-71100%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUwM1BDRCZ8",
+        "ref": "turn1020view12",
+        "claim": "Directory identity, town and advertised business category for Maison des Vins de la Côte Chalonnaise."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/maison-maconnaise-des-vins-macon-71000%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDc3MyZ8",
+        "ref": "turn1020view13",
+        "claim": "Directory identity, town and advertised business category for Maison Mâconnaise des Vins."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/marinot-verdun-cave-de-mazenay-saint-sernin-du-plain-71510%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDE3NCZ8",
+        "ref": "turn1020view14",
+        "claim": "Directory identity, town and advertised business category for Maison Marinot Verdun - Cave de Mazenay."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/masse-pere-et-fils-barizey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDc5OCZ8",
+        "ref": "turn1020view15",
+        "claim": "Directory identity, town and advertised business category for Domaine Masse Père et Fils."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/moreteaux-chassey-le-camp-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDg1NyZ8",
+        "ref": "turn1019view0",
+        "claim": "Directory identity, town and advertised business category for Domaine Moreteaux."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/ninot-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDg4NSZ8",
+        "ref": "turn1019view1",
+        "claim": "Directory identity, town and advertised business category for Domaine Ninot."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/olivier-leflaive-puligny-montrachet-21190%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDg5MyZ8",
+        "ref": "turn1019view2",
+        "claim": "Directory identity, town and advertised business category for Olivier Leflaive."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/p.-et-m.-jacqueson-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDY0NiZ8",
+        "ref": "turn1019view3",
+        "claim": "Directory identity, town and advertised business category for Domaine P. et M. JACQUESON."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/pascal-clement-savigny-les-beaune-21420%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9QjAwMTFCT1UwMDAwMDBVMSZ8",
+        "ref": "turn1019view4",
+        "claim": "Directory identity, town and advertised business category for Maison Pascal Clément."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/patriarche-pere-et-fils-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDkwNiZ8",
+        "ref": "turn1019view5",
+        "claim": "Directory identity, town and advertised business category for Patriarche Père et Fils."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/pigneret-fils-moroges-71390%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTE3MSZ8",
+        "ref": "turn1019view6",
+        "claim": "Directory identity, town and advertised business category for Domaine Pigneret Fils."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/ponsot-sylvain-et-lucie-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwVjUwSFExSCZ8",
+        "ref": "turn1009view4",
+        "claim": "Directory identity, town and advertised business category for Domaine Ponsot Sylvain et Lucie."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/rodet-antonin-mercurey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTAwMyZ8",
+        "ref": "turn1019view7",
+        "claim": "Directory identity, town and advertised business category for Le Clos Rodet Antonin."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/rois-mages-debavelaere-felix-rully-71150%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDMyNCZ8",
+        "ref": "turn1019view8",
+        "claim": "Directory identity, town and advertised business category for Domaine Rois Mages - Debavelaere Félix."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/roux-saint-aubin-21190%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTAxOCZ8",
+        "ref": "turn1019view9",
+        "claim": "Directory identity, town and advertised business category for Domaine Roux."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/royet-roland-et-catherine-change-21340%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTI1NiZ8",
+        "ref": "turn1019view10",
+        "claim": "Directory identity, town and advertised business category for Domaine Royet Roland et Catherine."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/seguin-manuel-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTAzNSZ8",
+        "ref": "turn1019view11",
+        "claim": "Directory identity, town and advertised business category for Domaine Seguin Manuel."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/tramier-l-fils-mercurey-71640%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTI3NyZ8",
+        "ref": "turn1019view12",
+        "claim": "Directory identity, town and advertised business category for Maison Tramier L & Fils."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/veuve-ambal-circuit-visite-montagny-les-beaune-21200%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTExMiZ8",
+        "ref": "turn1019view13",
+        "claim": "Directory identity, town and advertised business category for Veuve Ambal - Circuit visite."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/veuve-moroni-henri-puligny-montrachet-21190%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMTExMyZ8",
+        "ref": "turn1019view14",
+        "claim": "Directory identity, town and advertised business category for Veuve Moroni Henri."
+      },
+      {
+        "url": "https://www.vins-bourgogne.fr/vignerons-savoir-faire/femmes-et-hommes-passionnes/vignerons-de-buxy-caveau-de-saint-gengoux-le-national-saint-gengoux-le-national-71460%2C2397%2C9211.html?args=Y29tcF9pZD0xNDA2JmFjdGlvbj12aWV3RmljaGUmaWQ9VklOQk9VMDAwMDIwMDE2NiZ8",
+        "ref": "turn1019view15",
+        "claim": "Directory identity, town and advertised business category for Cave Vignerons de Buxy - Caveau de Saint Gengoux le National."
+      },
+      {
+        "url": "https://albert-sounit.fr/wp-content/uploads/2024/05/Rully-1er-Cru-la-Pucelle.pdf",
+        "ref": "turn1039search0",
+        "claim": "Albert Sounit — Rully Premier Cru La Pucelle technical sheet"
+      },
+      {
+        "url": "https://albert-sounit.fr/wp-content/uploads/2023/02/DESCRIPTIF-VINS-BLANC.pdf",
+        "ref": "turn1039search1",
+        "claim": "Albert Sounit — white wine specifications"
+      },
+      {
+        "url": "https://www.andre-delorme.com/en/the-estate/",
+        "ref": "turn1026view2",
+        "claim": "André Delorme — estate history"
+      },
+      {
+        "url": "https://www.andre-delorme.com/en/",
+        "ref": "turn1023view1",
+        "claim": "André Delorme — estate and vineyard overview"
+      },
+      {
+        "url": "https://www.andre-delorme.com/en/our-wines/rully-blanc/",
+        "ref": "turn1036view2",
+        "claim": "André Delorme — Rully Blanc"
+      },
+      {
+        "url": "https://www.andre-delorme.com/en/our-wines/rully-1er-cru-gresigny/",
+        "ref": "turn1036view3",
+        "claim": "André Delorme — Rully Premier Cru Grésigny"
+      },
+      {
+        "url": "https://www.andre-delorme.com/en/our-wines/rully-rouge/",
+        "ref": "turn1036view4",
+        "claim": "André Delorme — Rully Rouge"
+      },
+      {
+        "url": "https://www.domainelefort.fr/",
+        "ref": "turn1023view2",
+        "claim": "Domaine David Lefort — estate"
+      },
+      {
+        "url": "https://vintus.com/producers/domaine-david-lefort/",
+        "ref": "turn1027view0",
+        "claim": "VINTUS — Domaine David Lefort"
+      },
+      {
+        "url": "https://vintus.com/wines/domaine-david-lefort-rully-la-chaume/domaine-david-lefort-rully-la-chaume-2019/",
+        "ref": "turn1036view0",
+        "claim": "VINTUS — David Lefort Rully La Chaume 2019"
+      },
+      {
+        "url": "https://www.domainelefort.fr/product/les-cailloux-vin-rouge/",
+        "ref": "turn1026view4",
+        "claim": "David Lefort — Rully Les Cailloux Rouge"
+      },
+      {
+        "url": "https://www.domainelefort.fr/product/les-cailloux-vin-blanc/",
+        "ref": "turn1026view5",
+        "claim": "David Lefort — Rully Les Cailloux Blanc"
+      },
+      {
+        "url": "https://www.domainelefort.fr/product/chaponniere-vin-blanc/",
+        "ref": "turn1026view6",
+        "claim": "David Lefort — Rully Chaponnière"
+      },
+      {
+        "url": "https://www.domainelefort.fr/product/calliope-2024/",
+        "ref": "turn1026view7",
+        "claim": "David Lefort — Rully Premier Cru Calliopé"
+      },
+      {
+        "url": "https://domaine-ponsot-sl.fr/notre-histoire",
+        "ref": "turn1026view8",
+        "claim": "Sylvain & Lucie Ponsot — history"
+      },
+      {
+        "url": "https://domaine-ponsot-sl.fr/les-vignes-les-vins",
+        "ref": "turn1026view9",
+        "claim": "Sylvain & Lucie Ponsot — vineyards and winemaking"
+      },
+      {
+        "url": "https://domaine-ponsot-sl.fr/la-gamme",
+        "ref": "turn1027view1",
+        "claim": "Sylvain & Lucie Ponsot — current range"
+      },
+      {
+        "url": "https://www.dvp-vins-domaines.com/en/domain/170/domaine-renaissance",
+        "ref": "turn1026view1",
+        "claim": "Domaine de la Renaissance — distributor estate presentation"
+      },
+      {
+        "url": "https://vincod.com/1X623F/get/tech-sheet/3731PY2VNB",
+        "ref": "turn1045view1",
+        "claim": "Domaine de la Renaissance — Rully Premier Cru Raclot technical sheet"
+      },
+      {
+        "url": "https://vincod.com/Y1692F/get/tech-sheet",
+        "ref": "turn1045search4",
+        "claim": "Domaine de la Renaissance — Les Gaudoirs technical sheet"
+      },
+      {
+        "url": "https://vincod.com/2117TF/get/tech-sheet/3731PY2VNB",
+        "ref": "turn1045search6",
+        "claim": "Domaine de la Renaissance — La Barre technical sheet"
+      },
+      {
+        "url": "https://domaine-ecette.fr/le-domaine/",
+        "ref": "turn1027search13",
+        "claim": "Domaine de l’Ecette — estate history"
+      },
+      {
+        "url": "https://domaine-ecette.fr/categorie-produit/blanc/",
+        "ref": "turn1035view1",
+        "claim": "Domaine de l’Ecette — white wine portfolio"
+      },
+      {
+        "url": "https://domaine-ecette.fr/categorie-produit/rouge/",
+        "ref": "turn1035view2",
+        "claim": "Domaine de l’Ecette — red wine portfolio"
+      },
+      {
+        "url": "https://domaine-ecette.fr/pdf/rully-blanc-maizieres.pdf",
+        "ref": "turn1036view5",
+        "claim": "Domaine de l’Ecette — Rully Blanc Maizières technical sheet"
+      },
+      {
+        "url": "https://domaine-ecette.fr/pdf/rully-blanc-la-gaudine.pdf",
+        "ref": "turn1037view0",
+        "claim": "Domaine de l’Ecette — Rully Blanc La Gaudine technical sheet"
+      },
+      {
+        "url": "https://domaine-ecette.fr/pdf/rully-blanc-les-gaudoirs.pdf",
+        "ref": "turn1037view1",
+        "claim": "Domaine de l’Ecette — Rully Blanc Les Gaudoirs technical sheet"
+      },
+      {
+        "url": "https://domaine-ecette.fr/pdf/rully-rouge-brange.pdf",
+        "ref": "turn1037view2",
+        "claim": "Domaine de l’Ecette — Rully Rouge Brange technical sheet"
+      },
+      {
+        "url": "https://domaine-ecette.fr/pdf/rully-rouge-clos-de-vesignot.pdf",
+        "ref": "turn1037view3",
+        "claim": "Domaine de l’Ecette — Rully Rouge Clos de Vesignot technical sheet"
+      },
+      {
+        "url": "https://domaine-ecette.fr/pdf/rully-rouge-st-jacques.pdf",
+        "ref": "turn1037view4",
+        "claim": "Domaine de l’Ecette — Rully Rouge Les Saint Jacques technical sheet"
+      },
+      {
+        "url": "https://domainedeschauchoux.com/685906e61cd82988609b87db",
+        "ref": "turn1045view0",
+        "claim": "Domaine des Chauchoux — centenary estate history and cellar method"
+      }
+    ],
+    "newProducerCount": 7,
+    "newWineCount": 35,
+    "rullyDomiciledDirectoryProfiles": 14,
+    "identityDecisions": [
+      {
+        "name": "Jean-Claude Desvignes",
+        "action": "not-created",
+        "reason": "No verified Rully estate identity located; do not conflate Givry's Domaine Desvignes or Morgon's Louis-Claude Desvignes with a Rully producer."
+      },
+      {
+        "name": "Domaine Sylvain & Lucie Ponsot",
+        "action": "separate-profile",
+        "reason": "Distinct identity from Domaine Jean-Baptiste Ponsot and Morey-Saint-Denis Domaine Ponsot."
+      },
+      {
+        "name": "Domaine des Chauchoux",
+        "action": "separate-profile",
+        "reason": "Belleville family estate and Manigley history do not justify merging with the separate Domaine Belleville."
+      },
+      {
+        "name": "Maison Jaffelin / La maison Jaffelin",
+        "action": "retain-raw-rows",
+        "reason": "Two directory listings apparently refer to the same house; not counted as two verified independent estates."
+      }
+    ],
+    "technicalLimitations": [
+      "No dated analytical data or confirmed photo reuse permissions were available for every new wine; no such claims were invented.",
+      "David Lefort's own product pages identify bottles, grapes and vintages but do not publish full vinification specifications. La Chaume 2019 importer specifications are retained separately.",
+      "Sylvain & Lucie Ponsot's portfolio distinguishes multiple vessels for Vauvry; these are separate cuvées, not duplicate names.",
+      "Renaissance French primary technical sheets are used for farming/identity: the English promotional text's unsupported biodynamic wording is not adopted.",
+      "Census types combine BIVB business categories with explicit entity names. A tasting cellar label alone does not establish the business owns vineyards."
+    ]
+  }
+}

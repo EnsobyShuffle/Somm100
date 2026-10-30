@@ -1,0 +1,5392 @@
+{
+  "scope": "Spain northeast — original archive reconciliation and primary-source corrections",
+  "updatedAt": "2026-10-26",
+  "sources": [
+    {
+      "id": "ne-catalunya",
+      "title": "Henry Notion｜Spain-Catalunya（产区与酒款）",
+      "url": "https://app.notion.com/p/3fb17d16de4c815d8b89e833277ae2aa",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-corpinnat",
+      "title": "Corpinnat｜Juvé & Camps joins 1 April 2026",
+      "url": "https://www.corpinnat.com/en/article/629-corpinnat-grows-juve-camps-joins-the-collective-brand-which-now-has-22-member",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-encus",
+      "title": "Castell d’Encús｜Official wines",
+      "url": "https://castelldencus.com/en/wines/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-expert",
+      "title": "Henry Notion｜Expert Guide to Spain（既有学习原文）",
+      "url": "https://app.notion.com/p/3fb17d16de4c8176808ad61ea48d70db",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-north-central",
+      "title": "Henry Notion｜North Central Spain - Rioja, Navarra, Aragon",
+      "url": "https://app.notion.com/p/3fb17d16de4c81269ea2cb803345668f",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-priorat-class",
+      "title": "DOQ Priorat｜Los nombres de la tierra",
+      "url": "https://www.doqpriorat.org/es/los-nombres-de-la-tierra/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-producers",
+      "title": "Henry Notion｜Spain Producers（详细酒庄资料）",
+      "url": "https://app.notion.com/p/3fb17d16de4c81208dcef4141f12f942",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-alella-ivori",
+      "title": "Alella town authority｜Ivori Blanc at 2025 harvest festival",
+      "url": "https://alella.cat/document.php?id=24597",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-alella-marfil",
+      "title": "Alella town authority｜Marfil winery / Alella Vinícola",
+      "url": "https://alella.cat/cellers",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-alta-exeo",
+      "title": "Art Laietà｜Current OPUS / EXEO Paratge Vallcirera range",
+      "url": "https://artlaieta.wine/shop/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-artadi-white",
+      "title": "Artadi｜Viñas de Gaín Blanco 2015 technical sheet",
+      "url": "https://artadi.com/sites/default/files/notas-cata/vgblanco2015_en.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-berceo",
+      "title": "Bodegas Berceo｜Haro winery and five-level gravity cellar",
+      "url": "https://bodegasberceo.com/en/the-winery/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-berceo-brand",
+      "title": "Bodegas Berceo｜Berceo Reserva (separate series)",
+      "url": "https://bodegasberceo.com/en/berceo-reserva/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-berceo-gr",
+      "title": "Bodegas Berceo｜Gonzalo de Berceo Gran Reserva",
+      "url": "https://bodegasberceo.com/en/gonzalo-de-berceo-gran-reserva/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-berceo-history",
+      "title": "Bodegas Berceo｜1801 family roots / 1872 winery history",
+      "url": "https://bodegasberceo.com/en/history/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-berceo-reserva",
+      "title": "Bodegas Berceo｜Gonzalo de Berceo Reserva",
+      "url": "https://bodegasberceo.com/en/gonzalo-de-berceo-reserva-2/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-bodega-lanzaga",
+      "title": "Compañía de Vinos Telmo Rodríguez｜Bodega Lanzaga",
+      "url": "https://www.telmorodriguez.com/bodega-lanzaga-en",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-bosque",
+      "title": "Viñedos de Sierra Cantabria｜Finca El Bosque 2023 technical sheet",
+      "url": "https://sierracantabria.com/ficha-tecnica/finca-el-bosque-2023-es.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-brisat",
+      "title": "Terroir Sense Fronteres｜Brisat 2022 official technical page",
+      "url": "https://terroir-al-limit.com/terroir-sense-fronteres-brisat/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-campo-wine",
+      "title": "Campo Viejo｜Reserva",
+      "url": "https://www.campoviejo.com/es/product/reserva/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-candi-catalog",
+      "title": "Mas Candí｜Official still / Corpinnat catalogue",
+      "url": "https://cellermascandi.com/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-candi-still",
+      "title": "Mas Candí｜Still wine catalogue including Desig",
+      "url": "https://cellermascandi.com/product-category/mas-candi/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-cava-archive",
+      "title": "Henry Notion / Youdao｜Cava de Paraje — Amaya Cervera article, 2016-12-16",
+      "url": "https://app.notion.com/p/3fb17d16de4c812fb6a8f4122619b48c",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-claror-2019",
+      "title": "Vins el Cep｜2019 Claror first 100% Xarel·lo vintage",
+      "url": "https://vinselcep.com/en/claror-twice-in-the-spotlight-at-the-cava-meeting/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-contador",
+      "title": "Bodega Contador｜Official wine catalogue",
+      "url": "https://www.bodegacontador.com/es/nuestros-vinos",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-corpinnat-event",
+      "title": "Corpinnat｜Nit de Verema 2024, producer / vintage wine list",
+      "url": "https://www.corpinnat.com/esdeveniments/nit-de-verema/nit-de-verema-2024",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-desig",
+      "title": "Mas Candí｜Desig 2022, 100% Xarel·lo still white",
+      "url": "https://cellermascandi.com/product/desig/?lang=en",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-ekam",
+      "title": "Castell d’Encús｜Ekam 2024, 85% Riesling / 15% Albariño",
+      "url": "https://castelldencus.com/en/producto/ekam/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-encus-catalog",
+      "title": "Castell d’Encús｜Official catalogue including Taleia Brisat 2018",
+      "url": "https://castelldencus.com/en/categoria-producto/wines/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-ferrer",
+      "title": "Vins Família Ferrer｜Can Sala and Vinyes de Can Sala",
+      "url": "https://vinsfamiliaferrer.com/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-ferrer-bobet",
+      "title": "Ferrer Bobet｜Vintage-specific technical notes",
+      "url": "https://ferrerbobet.com/en/wines/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-ferrer-bobet-vines",
+      "title": "Ferrer Bobet｜Among vines",
+      "url": "https://ferrerbobet.com/en/among-vines/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-gran-coronas-2022",
+      "title": "Familia Torres｜Gran Coronas 2022 technical sheet, DO Catalunya",
+      "url": "https://www.torres.es/sites/default/files/2025-10/Familia_Torres_Gran_Coronas_2022_p_ES%20%281%29.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-gran-coronas-page",
+      "title": "Familia Torres｜Gran Coronas general page, DO Penedès description",
+      "url": "https://www.torres.es/en/wines/familia-torres/gran-coronas",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-huguet",
+      "title": "Huguet de Can Feixes｜Corpinnat Brut Nature",
+      "url": "https://www.canfeixes.com/en/wines/corpinnat-brut-nature",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-huguet-classic",
+      "title": "Huguet de Can Feixes｜Corpinnat Brut Classic",
+      "url": "https://www.canfeixes.com/en/wines/corpinnat-brut-classic",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-jaume",
+      "title": "García Carrión｜Jaume Serra range",
+      "url": "https://garciacarrion.com/collections/jaume-serra",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-jaume-history",
+      "title": "García Carrión｜Company history, Jaume Serra / Cristalino",
+      "url": "https://garciacarrion.com/en/pages/sobre-nosotros",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-julia",
+      "title": "Corpinnat｜Júlia Bernet joins 2019",
+      "url": "https://www.corpinnat.com/en/article/94-julia-bernet-the-eighth-winery-to-join-corpinnat",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-lan",
+      "title": "LAN｜Official wine catalogue",
+      "url": "https://bodegaslan.com/nuestros-vinos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-lan-group",
+      "title": "Sogrape｜Rioja / LAN",
+      "url": "https://sogrape.com/region/rioja",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-lanzaga",
+      "title": "Compañía de Vinos Telmo Rodríguez｜Lanzaga",
+      "url": "https://www.telmorodriguez.com/lanzaga-en",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-las-beatas",
+      "title": "Compañía de Vinos Telmo Rodríguez｜Las Beatas",
+      "url": "https://www.telmorodriguez.com/las-beatas-en",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-macan",
+      "title": "Macán｜Official Macán wine and terroir",
+      "url": "https://macan-wine.com/macan/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-macan-clasico",
+      "title": "Macán｜Macán Clásico",
+      "url": "https://macan-wine.com/macan-clasico/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-magico",
+      "title": "Viñedos de Sierra Cantabria｜Mágico 2022 technical sheet",
+      "url": "https://sierracantabria.com/ficha-tecnica/magico-2022-es.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-martelo",
+      "title": "Torre de Oña｜Finca Martelo",
+      "url": "https://www.riojalta.com/en/wines_torre-de-ona/martelo/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-mas-candi",
+      "title": "Corpinnat｜Mas Candí joins 2019, named cuvées",
+      "url": "https://www.corpinnat.com/media-all/noticies/96-mas-candi-ja-es-el-nove-celler-corpinnat",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-mas-estela",
+      "title": "Mas Estela｜Official wine range",
+      "url": "https://www.masestela.com/es/nuestros-productos",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-mas-estela-do",
+      "title": "DO Empordà｜Mas Estela estate and wine directory",
+      "url": "https://www.doemporda.cat/en/wineries/l/89-mas-estela.html",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-mas-oller",
+      "title": "DO Empordà｜Mas Oller and wine range",
+      "url": "https://www.doemporda.cat/en/wineries/l/90-mas-oller.html",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-mas-oller-mar",
+      "title": "Mas Oller｜Mar",
+      "url": "https://www.masoller.cat/product-page/mar",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-mas-oller-pur",
+      "title": "Mas Oller｜Pur",
+      "url": "https://www.masoller.cat/ca/product-page/pur",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-masia-exit",
+      "title": "Masia Serra｜Official notice of exit from DO Empordà (indexed; direct page unavailable)",
+      "url": "https://masiaserra.com/comunicat-oficial-sortida-masia-serra-de-la-do-emporda/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-masia-ino",
+      "title": "Masia Serra｜Ino sweet wine",
+      "url": "https://masiaserra.com/botiga/vi-dolc/ino/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-masia-serra",
+      "title": "Masia Serra｜Official wine range",
+      "url": "https://masiaserra.com/els-nostres-vins/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-master",
+      "title": "Henry Notion / Youdao｜MS Old World Spain master — reviewed northeast sections",
+      "url": "https://app.notion.com/p/3f617d16de4c81b58271fc895c02b3d6",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-master-other",
+      "title": "Henry Notion｜Spain Master — Cava, Corpinnat, Priorat and Rioja producer / regulatory sections",
+      "url": "https://app.notion.com/p/3f617d16de4c816a926af42bf7557f33",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-meritxell",
+      "title": "Priorat tourism authority｜Meritxell Pallejà",
+      "url": "https://www.turismepriorat.org/ca/organitzat/productors-locals/meritxell-palleja",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-miquel",
+      "title": "Miquel Pons｜Official Cava / Montargull catalogue",
+      "url": "https://shop.cavamiquelpons.com/categoria-producte/cava/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-miquel-do",
+      "title": "DO Cava｜Miquel Pons winery",
+      "url": "https://www.cava.wine/en/wineries/cava-miquel-pons/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-monopole-gr",
+      "title": "CVNE｜Monopole Clásico Gran Reserva 2017",
+      "url": "https://cvne.com/en/wines/monopole-clasico-gran-reserva/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-nadal",
+      "title": "Nadal｜Official wine range; separates sparkling, still and Botrytis",
+      "url": "https://nadal.com/en/our-wines/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-nadal-blend",
+      "title": "Nadal｜Salvatge Brut Nature 2015 and RNG10 2004 exact blends",
+      "url": "https://nadal.com/en/els-nostres-vins/selections/brut-nature-selection/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-nadal-salvatge",
+      "title": "Nadal｜Salvatge history, Macabeo and Anterina",
+      "url": "https://nadal.com/en/salvatge/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-nieta",
+      "title": "Viñedos de Páganos｜La Nieta technical sheet",
+      "url": "https://www.sierracantabria.com/wp-content/uploads/2023/08/VP-La-Nieta.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-nin",
+      "title": "Familia Nin Ortiz｜Estate history",
+      "url": "https://familianinortiz.com/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-nit-nin",
+      "title": "Familia Nin Ortiz｜Nit de Nin Mas d’en Caçador 2022 and parcel identity history",
+      "url": "https://familianinortiz.com/es/vi/nit-de-nin-mas-den-cacador-2022-2/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-olagar",
+      "title": "Remírez de Ganuza｜Olagar Blanco Gran Reserva 2017",
+      "url": "https://remirezdeganuza.com/productos/remirez-de-ganuza-blanco-gran-reserva-olagar/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-ownership",
+      "title": "Henry Notion｜Producer Ownership — original ownership snapshot",
+      "url": "https://app.notion.com/p/3fb17d16de4c81aa9393e3343330a522",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-paganos",
+      "title": "Viñedos de Páganos｜Estate and wines",
+      "url": "https://sierracantabria.com/bodegas/vinedos-de-paganos/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-pardas",
+      "title": "Corpinnat｜Pardas Hermós 2018 launch",
+      "url": "https://www.corpinnat.com/es/article/337-pardas-saca-al-mercado-su-primer-espumoso-con-el-sello-de-corpinnat",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-pere",
+      "title": "Pere Ventura Family Wine Estates｜Wineries and wine range",
+      "url": "https://pereventuragroup.com/es/nuestras-bodegas/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-planetes",
+      "title": "Familia Nin Ortiz｜Planetes Clàssic 2022",
+      "url": "https://familianinortiz.com/es/vi/planetes-classic-2022-2/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-producer-list",
+      "title": "Henry Notion / Youdao｜Spain Producers short list (2024-09-22)",
+      "url": "https://app.notion.com/p/3fb17d16de4c8177bac1ebbb67fd01a7",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-propiedad",
+      "title": "DOCa Rioja USA｜Grand Tasting wine list incl. Palacios Remondo Propiedad",
+      "url": "https://riojatrade.com/rioja-doca-grand-tasting/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-puntido",
+      "title": "Viñedos de Páganos｜El Puntido 2020 technical sheet",
+      "url": "https://sierracantabria.com/otras-anadas/2020/el-puntido-2020.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-raimat",
+      "title": "DO Costers del Segre｜Raimat and wine catalogue",
+      "url": "https://www.costersdelsegre.es/en/cellars/raimat",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-raimat-range",
+      "title": "Raventós Codorníu / 15 Bodegas｜Raimat wine range",
+      "url": "https://www.15bodegas.com/raimat",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-rodeda",
+      "title": "Familia Nin Ortiz｜La Rodeda 2022",
+      "url": "https://familianinortiz.com/vi/la-rodeda-2022/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-roger",
+      "title": "CVNE｜Roger Goulart",
+      "url": "https://cvne.com/en/wineries/roger-goulart/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-roger-brut",
+      "title": "CVNE｜Roger Goulart Brut Millésimé 2022",
+      "url": "https://cvne.com/en/wines/roger-goulart-brut-reserva/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-roger-josep",
+      "title": "CVNE｜Roger Goulart Gran Reserva Josep Valls 2020",
+      "url": "https://cvne.com/en/wines/roger-goulart-gran-reserva-josep-valls/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-sabate",
+      "title": "Sabaté i Coca｜Reserva Familiar and official range",
+      "url": "https://www.castellroig.com/index.php/en/terroir-wines/corpinnat-sparkling-wines/sabate-i-coca/reserva-familiar",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-san-vicente",
+      "title": "Señorío de San Vicente｜La Canoca and Tempranillo Peludo",
+      "url": "https://sierracantabria.com/bodegas/senorio-de-san-vicente/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-scala",
+      "title": "Scala Dei｜Official wine collection",
+      "url": "https://cellersdescaladei.com/collections/tienda",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-scala-massipa",
+      "title": "Scala Dei｜Massipa 2023",
+      "url": "https://cellersdescaladei.com/products/scala-dei-massipa-2023",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-studyguide-berceo",
+      "title": "Henry Notion｜Spain Study Guide — Berceo passages reviewed",
+      "url": "https://app.notion.com/p/3fb17d16de4c813fbd52fa87b9820b97",
+      "kind": "archive",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-sumarroca",
+      "title": "Sumarroca｜Sparkling wine catalogue",
+      "url": "https://sumarroca.es/en/coleccion/sparklingwine/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-sumarroca-bdn",
+      "title": "Sumarroca｜Núria Claverol Blanc de Noirs",
+      "url": "https://sumarroca.es/en/product/?pid=414",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-torre-ona",
+      "title": "La Rioja Alta group｜Torre de Oña",
+      "url": "https://www.riojalta.com/en/la-rioja-alta-group/wineries/torre-de-ona/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-tros-nou",
+      "title": "Codorníu / 15 Bodegas｜Ars Collecta El Tros Nou",
+      "url": "https://www.15bodegas.com/ars-collecta-el-tros-nou",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-valmira",
+      "title": "DOCa Rioja｜2025 Viñedos Singulares list",
+      "url": "https://riojawine.com/wp-content/uploads/2025/07/vs-2019-2020-2021-2022-2023-2024-2025.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-valpiedra",
+      "title": "Familia Martínez Bujanda｜Finca Valpiedra and estate wine range",
+      "url": "https://familiamartinezbujanda.com/en/finca-valpiedra/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-vargas",
+      "title": "Marqués de Vargas｜Rioja estate",
+      "url": "https://www.marquesdevargas.com/en/bodegas/bodega-marques-vargas/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-vargas-sp",
+      "title": "Marqués de Vargas｜Selección Privada",
+      "url": "https://www.marquesdevargas.com/es/bodegas/bodega-marques-vargas/rioja-seleccion-privada/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-vega-ribes",
+      "title": "Vega de Ribes｜Vintage-specific wine catalogue",
+      "url": "https://www.vegaderibes.com/en/els-vins/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-vinarchy",
+      "title": "Vinarchy｜Brand homes: Campo Viejo and Ysios",
+      "url": "https://vinarchy.com/pages/brand-homes",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-vinarchy-sale",
+      "title": "Pernod Ricard｜Wine sale completion, 2025-04-30",
+      "url": "https://www.pernod-ricard.com/en/media/successful-completion-sale-pernod-ricard-s-portfolio-strategic-international-wines-australian",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-vins-cep",
+      "title": "Vins el Cep｜Claror Can Prats",
+      "url": "https://vinselcep.com/en/botiga-cava-vins-enoturisme-barcelona/cava-en/buy-sparkling-wine-cava-claror/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-yjar",
+      "title": "DOCa Rioja｜Centennial tasting, Yjar 2021",
+      "url": "https://riojawine.com/es/noticias/dos-catas-magistrales-muestran-la-historia-y-el-futuro-de-rioja-en-el-cierre-de-su-centenario/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-review-ysios-wine",
+      "title": "Ysios｜Selección 2019",
+      "url": "https://bodegasysios.com/en/wine/yisos-seleccion/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-rioja-grapes",
+      "title": "DOCa Rioja｜Grape varieties",
+      "url": "https://riojawine.com/en-gb/the-designation/grape-varieties/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-roda",
+      "title": "Bodegas Roda｜Cirsion 2021 technical page",
+      "url": "https://roda.es/en/our-wines/cirsion/vintage-2021",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "ne-torello-canmarti",
+      "title": "Torelló｜Finca Can Martí adds Garnacha, 2026",
+      "url": "https://torello.com/en/torello-finca-can-marti-incorporates-red-grenache-in-its-coupage/",
+      "kind": "official",
+      "checkedAt": "2026-10-26"
+    }
+  ],
+  "grapes": [],
+  "regions": [],
+  "producers": [
+    {
+      "id": "macan",
+      "name": "Bodegas Benjamin de Rothschild & Vega Sicilia — Macán",
+      "regionIds": [
+        "rioja",
+        "rioja-alta"
+      ],
+      "location": "Samaniego / San Vicente, Labastida, Ábalos, Elvillar",
+      "story": "Rothschild 与 Vega Sicilia 的 Rioja 项目，聚焦 Tempranillo。Macán 与 Macán Clásico 通过不同选果和熟化呈现各自层次。",
+      "wineIds": [
+        "macan-macan",
+        "macan-clasico"
+      ],
+      "sourceIds": [
+        "ne-review-macan",
+        "ne-review-macan-clasico",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "sections": [
+        {
+          "title": "项目与选地",
+          "text": "项目以 Tempranillo 为核心；官网将 San Vicente de la Sonsierra、Labastida、Ábalos 和 Elvillar 的不同地块作为来源，不应由酒庄地址推定全部葡萄来自一个村庄。",
+          "sourceIds": [
+            "ne-review-macan"
+          ]
+        },
+        {
+          "title": "两款酒的结构",
+          "text": "Macán 与 Macán Clásico 都用 Tempranillo；主酒官网列木槽发酵、法国桶与大木桶熟化，Clásico 采用不同的筛选和熟化组合。",
+          "sourceIds": [
+            "ne-review-macan",
+            "ne-review-macan-clasico"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bodega-contador",
+      "name": "Bodega Contador — Benjamín Romeo",
+      "regionIds": [
+        "rioja",
+        "rioja-alta"
+      ],
+      "location": "San Vicente de la Sonsierra",
+      "story": "Benjamín Romeo 创立的 San Vicente de la Sonsierra 酒庄。Contador、La Cueva del Contador 与 Predicador 红白系列构成不同产品层次。",
+      "wineIds": [
+        "bodega-contador-contador",
+        "bodega-contador-cueva",
+        "bodega-contador-predicador-tinto",
+        "bodega-contador-que-bonito",
+        "bodega-contador-predicador-blanco"
+      ],
+      "sourceIds": [
+        "ne-review-contador",
+        "ne-review-producer-list"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vinedos-sierra-cantabria",
+      "name": "Viñedos de Sierra Cantabria",
+      "regionIds": [
+        "rioja",
+        "rioja-alta"
+      ],
+      "location": "San Vicente de la Sonsierra",
+      "story": "Eguren 家族在 San Vicente de la Sonsierra 的地块项目；Mágico 来自古老混植园，Finca El Bosque 聚焦 Tempranillo。",
+      "wineIds": [
+        "vinedos-sierra-cantabria-magico",
+        "vinedos-sierra-cantabria-finca-el-bosque"
+      ],
+      "sourceIds": [
+        "ne-review-magico",
+        "ne-review-bosque",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "relatedProducerIds": [
+        "vinedos-de-paganos",
+        "senorio-de-san-vicente"
+      ]
+    },
+    {
+      "id": "vinedos-de-paganos",
+      "name": "Viñedos de Páganos",
+      "regionIds": [
+        "rioja",
+        "rioja-alavesa"
+      ],
+      "location": "Páganos, Laguardia",
+      "story": "Eguren 家族在 Rioja Alavesa 的项目。La Nieta 与 El Puntido 对应不同园址，分别呈现 Páganos 的 Tempranillo。",
+      "wineIds": [
+        "vinedos-de-paganos-la-nieta",
+        "vinedos-de-paganos-el-puntido"
+      ],
+      "sourceIds": [
+        "ne-review-paganos",
+        "ne-review-nieta",
+        "ne-review-puntido",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "relatedProducerIds": [
+        "vinedos-sierra-cantabria",
+        "senorio-de-san-vicente"
+      ]
+    },
+    {
+      "id": "senorio-de-san-vicente",
+      "name": "Señorío de San Vicente",
+      "regionIds": [
+        "rioja",
+        "rioja-alta"
+      ],
+      "location": "San Vicente de la Sonsierra",
+      "story": "1991 年建立的 Eguren 家族项目，聚焦 La Canoca 与 Tempranillo Peludo。",
+      "wineIds": [
+        "senorio-de-san-vicente-san-vicente"
+      ],
+      "sourceIds": [
+        "ne-review-san-vicente",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "relatedProducerIds": [
+        "vinedos-sierra-cantabria",
+        "vinedos-de-paganos"
+      ]
+    },
+    {
+      "id": "torre-de-ona",
+      "name": "Torre de Oña",
+      "regionIds": [
+        "rioja",
+        "rioja-alavesa"
+      ],
+      "location": "Páganos, Rioja Alavesa",
+      "story": "La Rioja Alta 集团旗下独立酒庄；Finca Martelo 与 Finca San Martín 分别建档，避免并入 Haro 主酒庄。",
+      "wineIds": [
+        "torre-de-ona-finca-martelo",
+        "torre-de-ona-finca-san-martin"
+      ],
+      "sourceIds": [
+        "ne-review-torre-ona",
+        "ne-review-martelo",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "relatedProducerIds": [
+        "la-rioja-alta"
+      ]
+    },
+    {
+      "id": "finca-valpiedra",
+      "name": "Finca Valpiedra",
+      "regionIds": [
+        "rioja",
+        "rioja-alta"
+      ],
+      "location": "Ebro 河曲",
+      "story": "Martínez Bujanda 家族单一庄园项目，强调河曲砾石地块、自有葡萄与四款不同表达；Grandes Pagos de España 会员身份并不等于法定 Vino de Pago。",
+      "wineIds": [
+        "finca-valpiedra-reserva",
+        "finca-valpiedra-cantos",
+        "finca-valpiedra-petra",
+        "finca-valpiedra-blanco-reserva"
+      ],
+      "sourceIds": [
+        "ne-review-valpiedra",
+        "ne-review-master"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "marques-de-vargas",
+      "name": "Marqués de Vargas",
+      "regionIds": [
+        "rioja",
+        "rioja-alta"
+      ],
+      "location": "Logroño 周边庄园",
+      "story": "Rioja 的庄园酒庄，强调自有葡萄与庄园酿造。Reserva、Gran Reserva 和 Selección Privada 是各自独立的系列。",
+      "wineIds": [
+        "marques-de-vargas-reserva",
+        "marques-de-vargas-gran-reserva",
+        "marques-de-vargas-seleccion-privada"
+      ],
+      "sourceIds": [
+        "ne-review-vargas",
+        "ne-review-master",
+        "ne-review-vargas-sp"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "compania-de-vinos-telmo-rodriguez",
+      "name": "Compañía de Vinos Telmo Rodríguez",
+      "regionIds": [
+        "rioja",
+        "rioja-alavesa"
+      ],
+      "location": "Lanciego / Labastida",
+      "story": "Bodega Lanzaga 是 Compañía de Vinos Telmo Rodríguez 在 Rioja 的项目，以村庄与小地块表达连接 Lanciego、Labastida。",
+      "wineIds": [
+        "compania-de-vinos-telmo-rodriguez-lanzaga",
+        "compania-de-vinos-telmo-rodriguez-las-beatas"
+      ],
+      "sourceIds": [
+        "ne-review-lanzaga",
+        "ne-review-bodega-lanzaga",
+        "ne-review-master",
+        "ne-review-las-beatas"
+      ],
+      "verification": "official",
+      "relatedProducerIds": [
+        "remelluri"
+      ],
+      "sections": [
+        {
+          "title": "Bodega Lanzaga 与村庄酒",
+          "text": "Lanzaga 使用 Lanciego 的有机丛式葡萄园，海拔约 500–700m；Tempranillo、Graciano 与 Garnacha 组成村庄表达。混凝土发酵，再用大木桶与小橡木桶熟化。",
+          "sourceIds": [
+            "ne-review-lanzaga"
+          ]
+        },
+        {
+          "title": "地块层次",
+          "text": "官网另列 Las Beatas、Tabuérniga、El Velado 和 La Estrada，须与 Lanzaga 村庄酒分别识别。Remelluri 是相关但独立的酒庄项目。",
+          "sourceIds": [
+            "ne-review-bodega-lanzaga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "campo-viejo",
+      "name": "Campo Viejo",
+      "regionIds": [
+        "rioja"
+      ],
+      "location": "Logroño",
+      "story": "Logroño 的 Rioja 品牌，Reserva 采用 Tempranillo、Graciano 与 Mazuelo。2025 年酒业交易后归属 Vinarchy。",
+      "wineIds": [
+        "campo-viejo-reserva"
+      ],
+      "sourceIds": [
+        "ne-review-vinarchy-sale",
+        "ne-review-vinarchy",
+        "ne-review-master",
+        "ne-review-ownership",
+        "ne-review-campo-wine"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "ysios",
+      "name": "Ysios",
+      "regionIds": [
+        "rioja",
+        "rioja-alavesa"
+      ],
+      "location": "Laguardia",
+      "story": "Laguardia 的 Rioja Alavesa 酒庄，Selección 汇集周边村庄的旱作老藤 Tempranillo。2025 年酒业交易后归属 Vinarchy。",
+      "wineIds": [
+        "ysios-seleccion"
+      ],
+      "sourceIds": [
+        "ne-review-vinarchy-sale",
+        "ne-review-vinarchy",
+        "ne-review-ownership",
+        "ne-review-ysios-wine"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "bodegas-lan",
+      "name": "Bodegas LAN",
+      "regionIds": [
+        "rioja",
+        "rioja-alta"
+      ],
+      "location": "Fuenmayor",
+      "story": "Sogrape 官方确认自 2012 年纳入集团；保留 LAN 庄园与品牌身份，不与其他集团酒庄合并。",
+      "wineIds": [
+        "bodegas-lan-crianza",
+        "bodegas-lan-reserva",
+        "bodegas-lan-gran-reserva",
+        "bodegas-lan-a-mano",
+        "bodegas-lan-d-12"
+      ],
+      "sourceIds": [
+        "ne-review-lan",
+        "ne-review-lan-group",
+        "ne-review-ownership"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "ferrer-bobet",
+      "name": "Ferrer Bobet",
+      "regionIds": [
+        "priorat"
+      ],
+      "location": "Porrera 周边",
+      "story": "Sergi Ferrer-Salat 与 Raül Bobet 的 Priorat 项目，以老藤 Cariñena、Garnacha、逐粒筛选及重力操作为重要特征。",
+      "wineIds": [
+        "ferrer-bobet-vinyes-velles",
+        "ferrer-bobet-seleccio-especial"
+      ],
+      "sourceIds": [
+        "ne-review-ferrer-bobet",
+        "ne-review-ferrer-bobet-vines",
+        "ne-review-producer-list"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "familia-nin-ortiz",
+      "name": "Familia Nin Ortiz",
+      "regionIds": [
+        "priorat"
+      ],
+      "location": "Porrera",
+      "story": "Ester Nin 与 Carles Ortiz 在 Porrera 的家族项目，Planetes、La Rodeda、Mas d’en Caçador 对应不同园址与历史。",
+      "wineIds": [
+        "familia-nin-ortiz-nit-de-nin-mas-cacador",
+        "familia-nin-ortiz-planetes-classic",
+        "familia-nin-ortiz-la-rodeda"
+      ],
+      "sourceIds": [
+        "ne-review-nin",
+        "ne-review-nit-nin",
+        "ne-review-producer-list",
+        "ne-review-planetes",
+        "ne-review-rodeda"
+      ],
+      "verification": "official",
+      "sections": [
+        {
+          "title": "家族与土地",
+          "text": "Carles Ortiz 于 1999 年购入 Planetes；Ester Nin 自 2003 年耕作 La Rodeda。两人 2007 年联合，Planetes 首年份为 2008，官网称自 2015 年起只用自家葡萄。",
+          "sourceIds": [
+            "ne-review-nin"
+          ]
+        },
+        {
+          "title": "Mas d’en Caçador 名称的历史",
+          "text": "官网解释：2003–2009 的早期 Nit de Nin 实际来自 La Rodeda，曾误称 Mas d’en Caçador de Baix；2010–2016 使用两处园，2017 起分开，2021 年买下真正的 Mas d’en Caçador。品鉴旧年份不能只用今天地块资料套入。",
+          "sourceIds": [
+            "ne-review-nit-nin"
+          ]
+        },
+        {
+          "title": "2022 的具体表达",
+          "text": "Nit de Nin Mas d’en Caçador 2022 为 Garnacha / Garnacha Peluda、Cariñena 及少量白葡萄混植；整串发酵，北向高地与 llicorella 是其来源特征。",
+          "sourceIds": [
+            "ne-review-nit-nin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cellers-scala-dei",
+      "name": "Cellers de Scala Dei",
+      "regionIds": [
+        "priorat"
+      ],
+      "location": "Escaladei",
+      "story": "Escaladei 的历史酒庄。Masdeu 红酒与 Massipa 白酒呈现较高海拔和石灰质园地，也说明 Priorat 地质与颜色的多样性。",
+      "wineIds": [
+        "cellers-scala-dei-masdeu",
+        "cellers-scala-dei-massipa"
+      ],
+      "sourceIds": [
+        "ne-review-scala",
+        "ne-review-scala-massipa",
+        "ne-catalunya"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "meritxell-palleja",
+      "name": "Meritxell Pallejà",
+      "regionIds": [
+        "priorat"
+      ],
+      "location": "Gratallops",
+      "story": "Gratallops 的独立生产者，Nita、Magran 与 Torrent 构成不同表达；Henry 的学习档案把 Magran、Torrent 与 Vi de Paratge 联系。",
+      "wineIds": [
+        "meritxell-palleja-nita",
+        "meritxell-palleja-magran",
+        "meritxell-palleja-torrent"
+      ],
+      "sourceIds": [
+        "ne-review-meritxell",
+        "ne-review-master-other"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "sabate-i-coca",
+      "name": "Sabaté i Coca / Castellroig",
+      "regionIds": [
+        "corpinnat",
+        "penedes"
+      ],
+      "location": "Vall del Bitlles",
+      "story": "Vall del Bitlles 庄园同时使用 Sabaté i Coca 和 Castellroig 品牌；拥有 Corpinnat 起泡系列，也酿造 Terroja 等 Penedès 静态白酒。",
+      "wineIds": [
+        "sabate-i-coca-reserva-familiar",
+        "sabate-i-coca-josep-coca",
+        "sabate-i-coca-mosset",
+        "sabate-i-coca-castellroig-brut-nature",
+        "sabate-i-coca-terroja"
+      ],
+      "sourceIds": [
+        "ne-review-sabate",
+        "ne-catalunya",
+        "ne-review-master-other",
+        "ne-review-cava-archive"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "nadal",
+      "name": "Nadal",
+      "regionIds": [
+        "corpinnat",
+        "penedes"
+      ],
+      "location": "Nadal de la Boadella",
+      "story": "Nadal de la Boadella 庄园生产 Nadal、Salvatge、RNG 起泡系列，以及 X Collection 静态白酒和 1510 Botrytis 贵腐甜白。",
+      "wineIds": [
+        "nadal-salvatge-brut-nature",
+        "nadal-rng10",
+        "nadal-1510-botrytis",
+        "nadal-x-vermell"
+      ],
+      "sourceIds": [
+        "ne-review-nadal",
+        "ne-review-nadal-salvatge",
+        "ne-review-master-other",
+        "ne-review-nadal-blend"
+      ],
+      "verification": "official",
+      "sections": [
+        {
+          "title": "Macabeo 与 Salvatge",
+          "text": "Salvatge 从 1984 年份发展；酒庄强调 1953 年种植的 l’Anterina Macabeo 园，绝不是统一的 100% Xarel·lo 系列。",
+          "sourceIds": [
+            "ne-review-nadal-salvatge"
+          ]
+        },
+        {
+          "title": "RNG 与长陈年",
+          "text": "RNG 以 Ramón Nadal Giró 命名；官网列 RNG、RNG10、RNG20。年份与熟化长度须依各产品，不能由名称为其他系列补同一数值。",
+          "sourceIds": [
+            "ne-review-nadal"
+          ]
+        },
+        {
+          "title": "1510 的类型纠错",
+          "text": "Nadal 1510 Botrytis Noble 属贵腐甜酒。旧 Master 把 1510 写成长陈年起泡酒，现依据生产者目录更正。",
+          "sourceIds": [
+            "ne-review-nadal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mas-candi",
+      "name": "Mas Candí",
+      "regionIds": [
+        "corpinnat",
+        "penedes"
+      ],
+      "location": "Les Gunyoles, Penedès",
+      "story": "Les Gunyoles 的生产者，静态 Xarel·lo 白酒 Desig 与 Corpinnat 起泡系列分别呈现。Segunyola、Indomable、Prohibit 是可独立识别的酒款。",
+      "wineIds": [
+        "mas-candi-desig",
+        "mas-candi-segunyola",
+        "mas-candi-indomable",
+        "mas-candi-prohibit"
+      ],
+      "sourceIds": [
+        "ne-review-mas-candi",
+        "ne-review-candi-catalog",
+        "ne-review-master-other",
+        "ne-review-desig",
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "julia-bernet",
+      "name": "Júlia Bernet",
+      "regionIds": [
+        "corpinnat",
+        "penedes"
+      ],
+      "location": "Ordal",
+      "story": "Ordal 的 Corpinnat 生产者。Serres d’Ordal、Feixes de la Font、Barraca dels Coscons 是其不同来源和层次的起泡酒。",
+      "wineIds": [
+        "julia-bernet-serres-ordal",
+        "julia-bernet-feixes-font",
+        "julia-bernet-barraca-coscons"
+      ],
+      "sourceIds": [
+        "ne-review-julia",
+        "ne-review-corpinnat-event",
+        "ne-catalunya"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "huguet-can-feixes",
+      "name": "Huguet de Can Feixes / Can Feixes",
+      "regionIds": [
+        "corpinnat",
+        "penedes"
+      ],
+      "location": "Cabrera d’Anoia",
+      "story": "Cabrera d’Anoia 的庄园；Huguet de Can Feixes 为 Corpinnat 起泡品牌，Can Feixes 也生产静态葡萄酒。",
+      "wineIds": [
+        "huguet-can-feixes-brut-nature",
+        "huguet-can-feixes-brut-classic"
+      ],
+      "sourceIds": [
+        "ne-review-huguet",
+        "ne-review-huguet-classic",
+        "ne-catalunya"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "can-descregut",
+      "name": "Can Descregut / Descregut",
+      "regionIds": [
+        "corpinnat",
+        "penedes"
+      ],
+      "location": "Penedès",
+      "story": "Penedès 的 Corpinnat 生产者，Can Descregut、Fumissola、Memòria 是不同起泡酒系列。",
+      "wineIds": [
+        "can-descregut-can-descregut",
+        "can-descregut-fumissola",
+        "can-descregut-memoria"
+      ],
+      "sourceIds": [
+        "ne-review-corpinnat-event",
+        "ne-review-master"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "pardas",
+      "name": "Celler Pardas",
+      "regionIds": [
+        "corpinnat",
+        "penedes"
+      ],
+      "location": "Torrelavit, Penedès",
+      "story": "Torrelavit 的生产者，2021 年加入 Corpinnat。Hermós 以 Xarel·lo 和 Sumoll 酿造，首发为 2018 年份。",
+      "wineIds": [
+        "pardas-hermos"
+      ],
+      "sourceIds": [
+        "ne-review-pardas",
+        "ne-review-master",
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vins-el-cep",
+      "name": "Vins el Cep",
+      "regionIds": [
+        "cava",
+        "penedes"
+      ],
+      "location": "Can Prats, Penedès",
+      "story": "Can Prats 地块与 Claror 起泡酒相连。Claror 的配方有年份变化，2019 年开始采用 100% Xarel·lo。",
+      "wineIds": [
+        "vins-el-cep-claror-can-prats"
+      ],
+      "sourceIds": [
+        "ne-review-vins-cep",
+        "ne-review-claror-2019",
+        "ne-catalunya",
+        "ne-review-master-other"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "sumarroca",
+      "name": "Sumarroca",
+      "regionIds": [
+        "cava",
+        "penedes"
+      ],
+      "location": "Penedès",
+      "story": "Penedès 的生产者，Núria Claverol 下有 Blanc de Noirs、Homenatge 等不同地块和葡萄表达，另有其他 Cava 与静态酒系列。",
+      "wineIds": [
+        "sumarroca-nuria-claverol-blanc-noirs",
+        "sumarroca-nuria-claverol-homenatge"
+      ],
+      "sourceIds": [
+        "ne-review-sumarroca",
+        "ne-review-cava-archive",
+        "ne-review-sumarroca-bdn"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "jaume-serra",
+      "name": "Jaume Serra",
+      "regionIds": [
+        "cava",
+        "penedes"
+      ],
+      "location": "Vilanova i la Geltrú",
+      "story": "位于 Vilanova i la Geltrú，García Carrión 于 1997 年收购。Jaume Serra Cava 与出口品牌 Cristalino 是其不同市场系列。",
+      "wineIds": [
+        "jaume-serra-cristalino",
+        "jaume-serra-brut-nature-vintage"
+      ],
+      "sourceIds": [
+        "ne-review-jaume",
+        "ne-review-jaume-history",
+        "ne-catalunya"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "roger-goulart",
+      "name": "Roger Goulart",
+      "regionIds": [
+        "cava"
+      ],
+      "location": "Sant Esteve Sesrovires",
+      "story": "Sant Esteve Sesrovires 的 Cava 酒庄，现属 CVNE。深地下酒窖与长酒泥熟化构成其传统，Josep Valls 为独立特酿。",
+      "wineIds": [
+        "roger-goulart-josep-valls",
+        "roger-goulart-brut-millesime"
+      ],
+      "sourceIds": [
+        "ne-review-roger",
+        "ne-review-master",
+        "ne-review-roger-josep",
+        "ne-review-roger-brut"
+      ],
+      "verification": "official",
+      "relatedProducerIds": [
+        "cvne"
+      ]
+    },
+    {
+      "id": "pere-ventura",
+      "name": "Pere Ventura",
+      "regionIds": [
+        "cava",
+        "penedes"
+      ],
+      "location": "Sant Sadurní d’Anoia / Can Bas",
+      "story": "Sant Sadurní d’Anoia 的 Cava 生产者，Gran Vintage 与 Can Bas Paraje 相连，Tresor 为另一系列。",
+      "wineIds": [
+        "pere-ventura-gran-vintage-can-bas",
+        "pere-ventura-tresor-cuvee-barrique"
+      ],
+      "sourceIds": [
+        "ne-review-pere",
+        "ne-review-master-other"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "miquel-pons",
+      "name": "Miquel Pons / Montargull",
+      "regionIds": [
+        "cava",
+        "penedes"
+      ],
+      "location": "La Granada del Penedès",
+      "story": "La Granada del Penedès 的生产者。Montargull 是其 Cava 品牌，拥有 Xarel·lo Barrica 与 Criança amb Suro 等版本。",
+      "wineIds": [
+        "miquel-pons-montargull-xarello-barrica",
+        "miquel-pons-montargull-crianca-suro"
+      ],
+      "sourceIds": [
+        "ne-review-miquel",
+        "ne-review-miquel-do",
+        "ne-review-master-other"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vins-familia-ferrer",
+      "name": "Vins Família Ferrer — Can Sala",
+      "regionIds": [
+        "cava",
+        "penedes"
+      ],
+      "location": "Sant Quintí de Mediona",
+      "story": "Can Sala 位于 Sant Quintí de Mediona；Parellada 与 Xarel·lo 园地支撑 Can Sala、Vinyes de Can Sala 两款长陈年 Cava。",
+      "wineIds": [
+        "vins-familia-ferrer-can-sala",
+        "vins-familia-ferrer-vinyes-can-sala"
+      ],
+      "sourceIds": [
+        "ne-review-ferrer",
+        "ne-review-master-other"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "vega-de-ribes",
+      "name": "Vega de Ribes",
+      "regionIds": [
+        "penedes"
+      ],
+      "location": "Sant Pere de Ribes",
+      "story": "Sant Pere de Ribes 的生产者，以 Malvasia de Sitges 等地方葡萄酿静态酒及祖传法起泡；Saserra 与 Vïcèfal 是两种白酒表达。",
+      "wineIds": [
+        "vega-de-ribes-saserra",
+        "vega-de-ribes-vicefal",
+        "vega-de-ribes-ancestral-malvasia"
+      ],
+      "sourceIds": [
+        "ne-review-vega-ribes",
+        "ne-catalunya"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "alella-vinicola",
+      "name": "Alella Vinícola / Celler Marfil",
+      "regionIds": [
+        "alella"
+      ],
+      "location": "Alella",
+      "story": "Alella Vinícola 亦以 Celler Marfil 名称出现，生产 Marfil 与 Ivori 系列。Ivori 需进一步区分白酒和红酒版本。",
+      "wineIds": [
+        "alella-vinicola-marfil-blanc",
+        "alella-vinicola-ivori-negre",
+        "alella-vinicola-ivori-blanc"
+      ],
+      "sourceIds": [
+        "ne-review-alella-marfil",
+        "ne-review-alella-ivori",
+        "ne-catalunya"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "raimat",
+      "name": "Raimat",
+      "regionIds": [
+        "costers-del-segre"
+      ],
+      "location": "Raimat",
+      "story": "Costers del Segre 的酒庄，与同名 Raimat 分区相连。Abadia、Saira Albariño、El Niu de la Cigonya 展示红白品种与调配的多样性。",
+      "wineIds": [
+        "raimat-abadia-tinto",
+        "raimat-saira-albarino",
+        "raimat-el-niu"
+      ],
+      "sourceIds": [
+        "ne-review-raimat",
+        "ne-review-raimat-range",
+        "ne-catalunya"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "mas-oller",
+      "name": "Mas Oller",
+      "regionIds": [
+        "emporda"
+      ],
+      "location": "Torrent, Baix Empordà",
+      "story": "位于 Torrent、Baix Empordà。Pur 红酒和 Mar 白酒分别展示 Syrah / Garnacha / Cabernet 与 Picapoll / Malvasía 的组合。",
+      "wineIds": [
+        "mas-oller-pur",
+        "mas-oller-mar"
+      ],
+      "sourceIds": [
+        "ne-review-mas-oller",
+        "ne-catalunya",
+        "ne-review-mas-oller-pur",
+        "ne-review-mas-oller-mar"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "mas-estela",
+      "name": "Mas Estela",
+      "regionIds": [
+        "emporda"
+      ],
+      "location": "La Selva de Mar / Cap de Creus",
+      "story": "Cap de Creus、La Selva de Mar 的家庭酒庄。海岸山地板岩梯田、Garnacha Tinta 与 Gris，以及 solera 甜酒是其特色。",
+      "wineIds": [
+        "mas-estela-gorgs-negre",
+        "mas-estela-gorgs-blanc",
+        "mas-estela-solera-1989"
+      ],
+      "sourceIds": [
+        "ne-review-mas-estela",
+        "ne-catalunya",
+        "ne-review-mas-estela-do"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "masia-serra",
+      "name": "Masia Serra",
+      "regionIds": [
+        "emporda"
+      ],
+      "location": "Cantallops, Alt Empordà",
+      "story": "Cantallops、Alt Empordà 的生产者，酒款包括 Ctònia 白酒、Gneis 红酒与 Ino 甜酒。现已出现退出 DO 的官方公告，地域身份与具体年份法律标签应分别读取。",
+      "wineIds": [
+        "masia-serra-ctonia",
+        "masia-serra-gneis",
+        "masia-serra-ino"
+      ],
+      "sourceIds": [
+        "ne-review-masia-serra",
+        "ne-review-masia-exit",
+        "ne-catalunya",
+        "ne-review-masia-ino"
+      ],
+      "verification": "official"
+    },
+    {
+      "id": "bodegas-berceo",
+      "name": "Bodegas Berceo",
+      "regionIds": [
+        "rioja",
+        "rioja-alta"
+      ],
+      "location": "Haro",
+      "story": "Haro 的历史酒庄，Gonzalo de Berceo 品牌纪念中世纪诗人。五层重力酒窖与地下 calados 构成其建筑和陈年特色。",
+      "wineIds": [
+        "bodegas-berceo-gonzalo-reserva",
+        "bodegas-berceo-gonzalo-gran-reserva",
+        "bodegas-berceo-berceo-reserva"
+      ],
+      "sourceIds": [
+        "ne-review-berceo",
+        "ne-review-berceo-history",
+        "ne-review-studyguide-berceo",
+        "ne-review-berceo-reserva",
+        "ne-review-berceo-gr",
+        "ne-review-berceo-brand"
+      ],
+      "verification": "official",
+      "sections": [
+        {
+          "title": "家族起点与酒窖建筑",
+          "text": "酒庄官网区分 1801 年 Muga Barahona 家族业务的起点，以及 Guy Hageman 于 1872 年建造酒庄的阶段；不能把家族起源、建筑年份和今天的公司名称都写成同一天成立。",
+          "sourceIds": [
+            "ne-review-berceo-history"
+          ]
+        },
+        {
+          "title": "五层重力结构",
+          "text": "Haro 山坡高差形成五层工作空间，让酿造阶段间的转移利用重力；地下 calados 与旧城堡廊道相连，较稳定的温湿度用于陈年。",
+          "sourceIds": [
+            "ne-review-berceo"
+          ]
+        },
+        {
+          "title": "Gonzalo de Berceo 与 Berceo",
+          "text": "Gonzalo de Berceo Reserva / Gran Reserva 属同一命名系列；官网另有简单名为 Berceo Reserva 的产品，配方与用桶不同，不能仅以 Reserva 合并。",
+          "sourceIds": [
+            "ne-review-berceo-reserva",
+            "ne-review-berceo-gr",
+            "ne-review-berceo-brand"
+          ]
+        }
+      ]
+    }
+  ],
+  "wines": [
+    {
+      "id": "macan-macan",
+      "name": "Macán",
+      "producerId": "macan",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "官网主酒说明：100% Tempranillo。",
+      "style": "干红",
+      "notes": "官网列 100% Tempranillo；木槽发酵，约 16–18 个月法国小桶及 4,000L 大木桶，再经瓶陈。具体发售年份以技术表为准。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-macan",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "macan-clasico",
+      "name": "Macán Clásico",
+      "producerId": "macan",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "官网说明：100% Tempranillo。",
+      "style": "干红",
+      "notes": "官方系列中的独立酒款；不锈钢发酵、约 12–14 个月橡木熟化。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-macan-clasico"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodega-contador-contador",
+      "name": "Contador",
+      "producerId": "bodega-contador",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "tempranillo；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "酒庄旗舰红酒，与 La Cueva del Contador 及 Predicador 系列分别识别。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-contador",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodega-contador-cueva",
+      "name": "La Cueva del Contador",
+      "producerId": "bodega-contador",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "tempranillo；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "San Vicente 酒庄的独立红酒，与旗舰 Contador 分列。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-contador",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodega-contador-predicador-tinto",
+      "name": "Predicador Tinto",
+      "producerId": "bodega-contador",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "Predicador 系列的红酒版本，另有独立白酒。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-contador",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodega-contador-que-bonito",
+      "name": "Qué Bonito Cacareaba",
+      "producerId": "bodega-contador",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干白",
+      "notes": "酒庄白酒系列中的独立酒款。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-contador",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodega-contador-predicador-blanco",
+      "name": "Predicador Blanco",
+      "producerId": "bodega-contador",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干白",
+      "notes": "Predicador 系列的白酒版本，另有独立红酒。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-contador",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vinedos-sierra-cantabria-magico",
+      "name": "Mágico",
+      "producerId": "vinedos-sierra-cantabria",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "graciano",
+        "viura",
+        "albillo-mayor"
+      ],
+      "grapeText": "2022：多品种老园混植；官方列红、白葡萄，种植比例不等于成酒比例。",
+      "style": "干红",
+      "notes": "2022 技术表对应 El Vardallo / Las Sepulturas，1.18ha 老混植园。表中 Tempranillo 65%、Garnacha 20% 等是种植构成，不能当作成酒配方；亦含 Petit Bouschet、Calagraño、Turruntés 与其他混植葡萄。Garnacha 分开发酵。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-magico",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vinedos-sierra-cantabria-finca-el-bosque",
+      "name": "Finca El Bosque",
+      "producerId": "vinedos-sierra-cantabria",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "2023：100% Tempranillo。",
+      "style": "干红",
+      "notes": "2023 技术表：1.482ha，1973 年种植，San Vicente de la Sonsierra；砾石与黏土石灰质土壤，法国木槽发酵。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-bosque",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vinedos-de-paganos-la-nieta",
+      "name": "La Nieta",
+      "producerId": "vinedos-de-paganos",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "官方技术资料：100% Tempranillo。",
+      "style": "干红",
+      "notes": "官方园址资料：Páganos，1.78ha、约 525m、1975 年种植；小园的独立表达。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-nieta",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vinedos-de-paganos-el-puntido",
+      "name": "El Puntido",
+      "producerId": "vinedos-de-paganos",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "tempranillo；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "2020 技术表对应 Páganos 25ha、约 600m、1975 年种植园，黏土石灰质土壤。不要与 La Nieta 共用面积、海拔。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-puntido",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "senorio-de-san-vicente-san-vicente",
+      "name": "San Vicente",
+      "producerId": "senorio-de-san-vicente",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "Tempranillo Peludo（Tempranillo 选择系）。",
+      "style": "干红",
+      "notes": "酒庄以一园、一酒及 Tempranillo Peludo 选择系为核心；Peludo 不应另建为无依据的独立葡萄品种。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-san-vicente",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "torre-de-ona-finca-martelo",
+      "name": "Finca Martelo",
+      "producerId": "torre-de-ona",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "carignan",
+        "graciano",
+        "garnacha-tinta",
+        "viura"
+      ],
+      "grapeText": "官网版本：95% Tempranillo；余 5% 为 Mazuelo、Graciano、Garnacha、Viura，非各 5%。",
+      "style": "干红",
+      "notes": "官网对应版本以老藤 Tempranillo 为主体，并保留少量红白混植传统。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-martelo",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "torre-de-ona-finca-san-martin",
+      "name": "Finca San Martín",
+      "producerId": "torre-de-ona",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "tempranillo；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "官方集团目录确认的独立酒款；与 Finca Martelo 分开。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-torre-ona"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "finca-valpiedra-reserva",
+      "name": "Finca Valpiedra Reserva",
+      "producerId": "finca-valpiedra",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "官方家族酒庄页明确列为庄园产品。完整配方以年份技术表为准。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-valpiedra",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "finca-valpiedra-cantos",
+      "name": "Cantos de Valpiedra",
+      "producerId": "finca-valpiedra",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "官方家族酒庄页明确列为庄园产品。完整配方以年份技术表为准。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-valpiedra",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "finca-valpiedra-petra",
+      "name": "Petra de Valpiedra",
+      "producerId": "finca-valpiedra",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "garnacha-tinta"
+      ],
+      "grapeText": "garnacha-tinta；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "官方家族酒庄页明确列为庄园产品。官方注明 100% Garnacha。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-valpiedra",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "finca-valpiedra-blanco-reserva",
+      "name": "Finca Valpiedra Reserva Blanco",
+      "producerId": "finca-valpiedra",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干白",
+      "notes": "官方家族酒庄页明确列为庄园产品。完整配方以年份技术表为准。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-valpiedra",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "marques-de-vargas-reserva",
+      "name": "Marqués de Vargas Reserva",
+      "producerId": "marques-de-vargas",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "tempranillo；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "Reserva / Gran Reserva 为不同系列；Selección Privada 官网另指 La Victoria、La Garnacha、Manolo 等选地。未将 Tempranillo 主体推成全部年份单一品种。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-vargas",
+        "ne-review-vargas-sp",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "marques-de-vargas-gran-reserva",
+      "name": "Marqués de Vargas Gran Reserva",
+      "producerId": "marques-de-vargas",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "tempranillo；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "Reserva / Gran Reserva 为不同系列；Selección Privada 官网另指 La Victoria、La Garnacha、Manolo 等选地。未将 Tempranillo 主体推成全部年份单一品种。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-vargas",
+        "ne-review-vargas-sp",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "marques-de-vargas-seleccion-privada",
+      "name": "Marqués de Vargas Selección Privada",
+      "producerId": "marques-de-vargas",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "tempranillo；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "Reserva / Gran Reserva 为不同系列；Selección Privada 官网另指 La Victoria、La Garnacha、Manolo 等选地。未将 Tempranillo 主体推成全部年份单一品种。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-vargas",
+        "ne-review-vargas-sp",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "compania-de-vinos-telmo-rodriguez-lanzaga",
+      "name": "Lanzaga",
+      "producerId": "compania-de-vinos-telmo-rodriguez",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "graciano",
+        "garnacha-tinta"
+      ],
+      "grapeText": "tempranillo、graciano、garnacha-tinta；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "Lanciego 村庄表达；官网列混凝土发酵与约 14 个月 1,500–2,500L 大木桶及 225L 小桶熟化。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-lanzaga",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "compania-de-vinos-telmo-rodriguez-las-beatas",
+      "name": "Las Beatas",
+      "producerId": "compania-de-vinos-telmo-rodriguez",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "Labastida 的 1.9ha 地块，十级梯田朝向东、南与西北，砂岩、泥灰岩及砾岩并存；当地红白葡萄混植，大木桶熟化。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-las-beatas",
+        "ne-review-bodega-lanzaga",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "campo-viejo-reserva",
+      "name": "Campo Viejo Reserva",
+      "producerId": "campo-viejo",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "graciano",
+        "carignan"
+      ],
+      "grapeText": "官网列 Tempranillo、Graciano、Mazuelo。",
+      "style": "干红",
+      "notes": "官方 Reserva 页面确认三品种组合；未列比例。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-campo-wine",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "ysios-seleccion",
+      "name": "Ysios Selección",
+      "producerId": "ysios",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo"
+      ],
+      "grapeText": "2019：100% Tempranillo。",
+      "style": "干红",
+      "notes": "2019 官网：Laguardia、Páganos、Lapuebla、Elvillar 等村的旱作老丛式园，分园发酵、至少 12 个月法国桶。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-ysios-wine"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodegas-lan-crianza",
+      "name": "LAN Crianza",
+      "producerId": "bodegas-lan",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "酒庄官方当前目录列出的独立系列；配方未按未经核实的旧表统一。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-lan"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodegas-lan-reserva",
+      "name": "LAN Reserva",
+      "producerId": "bodegas-lan",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "酒庄官方当前目录列出的独立系列；配方未按未经核实的旧表统一。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-lan"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodegas-lan-gran-reserva",
+      "name": "LAN Gran Reserva",
+      "producerId": "bodegas-lan",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "酒庄官方当前目录列出的独立系列；配方未按未经核实的旧表统一。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-lan"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodegas-lan-a-mano",
+      "name": "LAN a Mano",
+      "producerId": "bodegas-lan",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "酒庄官方当前目录列出的独立系列；配方未按未经核实的旧表统一。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-lan"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodegas-lan-d-12",
+      "name": "LAN D-12",
+      "producerId": "bodegas-lan",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "酒庄官方当前目录列出的独立系列；配方未按未经核实的旧表统一。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-lan"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "ferrer-bobet-vinyes-velles",
+      "name": "Ferrer Bobet Vinyes Velles",
+      "producerId": "ferrer-bobet",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [
+        "carignan",
+        "garnacha-tinta"
+      ],
+      "grapeText": "2020：72% Cariñena，28% Garnacha。",
+      "style": "干红",
+      "notes": "2020：72% Cariñena、28% Garnacha；法国桶 15 个月，瓶陈至少 18 个月。该比例不外推到 2019 或其他年份。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-ferrer-bobet",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "ferrer-bobet-seleccio-especial",
+      "name": "Ferrer Bobet Selecció Especial",
+      "producerId": "ferrer-bobet",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [
+        "carignan"
+      ],
+      "grapeText": "2020：100% Cariñena。",
+      "style": "干红",
+      "notes": "2020：100% Cariñena，18 个月新法国桶、至少 24 个月瓶陈。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-ferrer-bobet"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "familia-nin-ortiz-nit-de-nin-mas-cacador",
+      "name": "Nit de Nin Mas d’en Caçador",
+      "producerId": "familia-nin-ortiz",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [
+        "garnacha-tinta",
+        "garnacha-peluda",
+        "carignan"
+      ],
+      "grapeText": "2022：66% Garnacha / Garnacha Peluda，31% Cariñena，3% 白葡萄；66% 是合计。",
+      "style": "干红",
+      "notes": "2022：66% Garnacha 与 Garnacha Peluda、31% Cariñena、3% 未逐一列名白葡萄；官方记载 650m、3.5ha、整串发酵与 17 个月木桶。地块名称在早期年份有变化，详读酒庄档案。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-nit-nin",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "familia-nin-ortiz-planetes-classic",
+      "name": "Planetes Clàssic",
+      "producerId": "familia-nin-ortiz",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [
+        "garnacha-tinta",
+        "garnacha-peluda",
+        "carignan"
+      ],
+      "grapeText": "garnacha-tinta、garnacha-peluda、carignan；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "2022 官方页描述整串发酵与 3,200L 木槽；2008 首年份，风格经过逐年调整。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-planetes"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "familia-nin-ortiz-la-rodeda",
+      "name": "La Rodeda",
+      "producerId": "familia-nin-ortiz",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [
+        "garnacha-peluda"
+      ],
+      "grapeText": "garnacha-peluda；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "La Rodeda 自 2017 年重新作为独立地块酒呈现；不把它与今天的 Mas d’en Caçador 当作同一园。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-rodeda",
+        "ne-review-nit-nin"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "cellers-scala-dei-masdeu",
+      "name": "Scala Dei Masdeu",
+      "producerId": "cellers-scala-dei",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [
+        "garnacha-tinta"
+      ],
+      "grapeText": "原档案：100% Garnacha Tinta。",
+      "style": "干红",
+      "notes": "原笔记：1974 年种植 Garnacha、较高海拔石灰质园，传统酿造与大容器熟化。官方目录确认 Masdeu 2019；旧笔记的栽植和工艺数字仍按历史学习资料保留。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-review-scala",
+        "ne-catalunya"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "cellers-scala-dei-massipa",
+      "name": "Scala Dei Massipa",
+      "producerId": "cellers-scala-dei",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [
+        "garnacha-blanca",
+        "chenin-blanc"
+      ],
+      "grapeText": "2023：70% Garnacha Blanca，30% Chenin Blanc。",
+      "style": "干白",
+      "notes": "2023：650m 东向园，红黏土和石膏；共同采收与混凝土共发酵，先细酒泥搅桶，再大木桶陈年。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-scala-massipa",
+        "ne-catalunya"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "meritxell-palleja-nita",
+      "name": "Nita",
+      "producerId": "meritxell-palleja",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "Gratallops 生产者的红酒系列，名称见 Priorat 官方地方生产者目录。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-meritxell",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "meritxell-palleja-magran",
+      "name": "Magran",
+      "producerId": "meritxell-palleja",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "Henry 学习档案将 Magran 列作 Vi de Paratge 示例；地方官方目录确认该酒名。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-meritxell",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "meritxell-palleja-torrent",
+      "name": "Torrent",
+      "producerId": "meritxell-palleja",
+      "regionId": "priorat",
+      "denomination": "Priorat DOQ",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "Henry 学习档案列作 Meritxell Pallejà 的 Vi de Paratge 酒款；尚缺可逐项核对的年份技术表。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-review-meritxell",
+        "ne-review-master-other"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "sabate-i-coca-reserva-familiar",
+      "name": "Sabaté i Coca Reserva Familiar Brut Nature",
+      "producerId": "sabate-i-coca",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方品牌目录确认；旧 Cava Paraje 身份保留为历史，不回写当前 Corpinnat 瓶标。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-sabate",
+        "ne-review-cava-archive"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "sabate-i-coca-josep-coca",
+      "name": "Josep Coca",
+      "producerId": "sabate-i-coca",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方品牌目录确认；旧 Cava Paraje 身份保留为历史，不回写当前 Corpinnat 瓶标。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-sabate",
+        "ne-review-cava-archive"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "sabate-i-coca-mosset",
+      "name": "Sabaté i Coca Mosset Brut Nature",
+      "producerId": "sabate-i-coca",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方品牌目录确认；旧 Cava Paraje 身份保留为历史，不回写当前 Corpinnat 瓶标。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-sabate",
+        "ne-review-cava-archive"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "sabate-i-coca-castellroig-brut-nature",
+      "name": "Castellroig Brut Nature",
+      "producerId": "sabate-i-coca",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方品牌目录确认；旧 Cava Paraje 身份保留为历史，不回写当前 Corpinnat 瓶标。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-sabate",
+        "ne-review-cava-archive"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "sabate-i-coca-terroja",
+      "name": "Terroja",
+      "producerId": "sabate-i-coca",
+      "regionId": "penedes",
+      "denomination": "Penedès DO",
+      "grapeIds": [
+        "xarello"
+      ],
+      "grapeText": "xarello；品种关联不代表各年份完整配方。",
+      "style": "干白",
+      "notes": "官网列在静态 terroir wines；不可因 Terroja 园曾申请 Paraje 而把同名静态白酒也标成起泡酒。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-sabate",
+        "ne-review-cava-archive"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "nadal-salvatge-brut-nature",
+      "name": "Salvatge Brut Nature",
+      "producerId": "nadal",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [
+        "viura",
+        "parellada",
+        "xarello"
+      ],
+      "grapeText": "2015：51% Macabeu，38% Parellada，11% Xarel·lo。",
+      "style": "传统法起泡白",
+      "notes": "2015 官方配方明确为 Macabeu 主体；纠正原笔记“Xarel·lo、零 dosage”过度概括。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-nadal-blend",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "nadal-rng10",
+      "name": "RNG10 Brut Nature",
+      "producerId": "nadal",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [
+        "xarello",
+        "parellada"
+      ],
+      "grapeText": "2004：53% Xarel·lo，47% Parellada。",
+      "style": "传统法起泡白",
+      "notes": "2004 官方配方为 Xarel·lo 与 Parellada，目录仍列明该长陈年份。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-nadal-blend",
+        "ne-review-nadal"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "nadal-1510-botrytis",
+      "name": "Nadal 1510 Botrytis Noble",
+      "producerId": "nadal",
+      "regionId": "penedes",
+      "denomination": "Penedès 地理关联；具体瓶标核对",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "贵腐甜白",
+      "notes": "官方目录列 2003 年份并归入 Botrytis sweet wines；不是起泡酒。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-nadal",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "nadal-x-vermell",
+      "name": "Nadal X Vermell Col·lecció",
+      "producerId": "nadal",
+      "regionId": "penedes",
+      "denomination": "Penedès DO",
+      "grapeIds": [
+        "xarello-vermell"
+      ],
+      "grapeText": "xarello-vermell；品种关联不代表各年份完整配方。",
+      "style": "干白",
+      "notes": "官网列 2021 年份静态白酒系列；让 Xarel·lo Vermell 与具体酒款关联。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-nadal"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-candi-desig",
+      "name": "Desig",
+      "producerId": "mas-candi",
+      "regionId": "penedes",
+      "denomination": "Penedès DO",
+      "grapeIds": [
+        "xarello"
+      ],
+      "grapeText": "2022：100% Xarel·lo。",
+      "style": "干白",
+      "notes": "2022：50 年以上 Xarel·lo 老藤；浸皮 24 小时、静置澄清，在不锈钢中带酒泥熟化。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-desig",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-candi-segunyola",
+      "name": "Segunyola",
+      "producerId": "mas-candi",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [
+        "xarello"
+      ],
+      "grapeText": "官方产品说明：100% Xarel·lo。",
+      "style": "传统法起泡白",
+      "notes": "Corpinnat 官方入会文章明确列作 100% Xarel·lo 单园起泡酒；2024 活动确认 2020 年份。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-mas-candi",
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-candi-indomable",
+      "name": "Indomable",
+      "producerId": "mas-candi",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方协会目录和 2024 活动确认；不以通用三品种配方填充未知年份。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-mas-candi",
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-candi-prohibit",
+      "name": "Prohibit",
+      "producerId": "mas-candi",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡桃红",
+      "notes": "官方协会确认的桃红起泡系列；2024 活动列 2021 年份。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-mas-candi",
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "julia-bernet-serres-ordal",
+      "name": "Serres d’Ordal Brut Nature",
+      "producerId": "julia-bernet",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Corpinnat 官方 2024 品鉴名单列 Serres d’Ordal Brut Nature 2021。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-corpinnat-event",
+        "ne-review-julia"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "julia-bernet-feixes-font",
+      "name": "Feixes de la Font",
+      "producerId": "julia-bernet",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Corpinnat 官方 2024 品鉴名单列 Feixes de la Font 2020。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-corpinnat-event",
+        "ne-review-julia"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "julia-bernet-barraca-coscons",
+      "name": "Barraca dels Coscons",
+      "producerId": "julia-bernet",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Corpinnat 官方 2024 品鉴名单列 Barraca dels Coscons 2018。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-corpinnat-event",
+        "ne-review-julia"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "huguet-can-feixes-brut-nature",
+      "name": "Huguet de Can Feixes Brut Nature",
+      "producerId": "huguet-can-feixes",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "庄园有机葡萄、整串压榨，不锈钢基酒发酵；Brut Nature 与 Brut Classic 分列。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-huguet"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "huguet-can-feixes-brut-classic",
+      "name": "Huguet de Can Feixes Brut Classic",
+      "producerId": "huguet-can-feixes",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方独立产品页确认；与 Brut Nature 分开。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-huguet-classic"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "can-descregut-can-descregut",
+      "name": "Can Descregut",
+      "producerId": "can-descregut",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Corpinnat 官方 2024 品鉴名单列 Can Descregut 2021。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "can-descregut-fumissola",
+      "name": "Fumissola",
+      "producerId": "can-descregut",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Corpinnat 官方 2024 品鉴名单列 Fumissola 2019。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "can-descregut-memoria",
+      "name": "Memòria",
+      "producerId": "can-descregut",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Corpinnat 官方 2024 品鉴名单列 Memòria 2018。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "pardas-hermos",
+      "name": "Hermós",
+      "producerId": "pardas",
+      "regionId": "corpinnat",
+      "denomination": "Corpinnat",
+      "grapeIds": [
+        "xarello",
+        "sumoll"
+      ],
+      "grapeText": "xarello、sumoll；品种关联不代表各年份完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方首发记录：2018 年份 Brut Nature，约 40 个月酒泥陈年，Xarel·lo 与 Sumoll；2024 活动已列 2020 年份。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-pardas",
+        "ne-review-corpinnat-event"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vins-el-cep-claror-can-prats",
+      "name": "Claror Can Prats",
+      "producerId": "vins-el-cep",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "xarello"
+      ],
+      "grapeText": "2019：100% Xarel·lo；旧年份配方另查。",
+      "style": "传统法起泡白",
+      "notes": "2019 是首个 100% Xarel·lo 的 Claror 年份；Can Prats 的老园混植资料与成酒配方分别记录。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-vins-cep",
+        "ne-review-claror-2019",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "sumarroca-nuria-claverol-blanc-noirs",
+      "name": "Núria Claverol Blanc de Noirs",
+      "producerId": "sumarroca",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "pinot-noir"
+      ],
+      "grapeText": "官方产品说明：100% Pinot Noir。",
+      "style": "传统法起泡白",
+      "notes": "当前官方说明为 Pinot Noir、至少 36 个月酒泥陈年；与 2016 文章讨论的配方版本区分。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-sumarroca-bdn",
+        "ne-review-cava-archive"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "sumarroca-nuria-claverol-homenatge",
+      "name": "Núria Claverol Homenatge",
+      "producerId": "sumarroca",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "xarello"
+      ],
+      "grapeText": "xarello；品种关联不代表各年份完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方目录关联 Peretes 地块与 Xarel·lo；不自动加上 Paraje Calificado 认证。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-sumarroca"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "jaume-serra-cristalino",
+      "name": "Cristalino",
+      "producerId": "jaume-serra",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡酒",
+      "notes": "历史品牌条目；存在多个甜度和颜色版本，原资料未指定则不编造一个“Brut 单一配方”。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-review-jaume-history",
+        "ne-catalunya"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "jaume-serra-brut-nature-vintage",
+      "name": "Jaume Serra Brut Nature Vintage",
+      "producerId": "jaume-serra",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方当前目录中的明确产品名。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-jaume"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "roger-goulart-josep-valls",
+      "name": "Roger Goulart Gran Reserva Josep Valls",
+      "producerId": "roger-goulart",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "xarello",
+        "chardonnay",
+        "viura",
+        "parellada",
+        "pinot-noir"
+      ],
+      "grapeText": "2020：30% Xarel·lo，20% Chardonnay，20% Macabeo，20% Parellada，10% Pinot Noir。",
+      "style": "传统法起泡白",
+      "notes": "2020 官方配方：30% Xarel·lo、20% Chardonnay、20% Macabeo、20% Parellada、10% Pinot Noir。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-roger-josep"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "roger-goulart-brut-millesime",
+      "name": "Roger Goulart Brut Millésimé",
+      "producerId": "roger-goulart",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "xarello",
+        "viura",
+        "parellada"
+      ],
+      "grapeText": "2022：40% Xarel·lo，30% Macabeo，30% Parellada。",
+      "style": "传统法起泡白",
+      "notes": "官网旧路径名仍为 Brut Reserva，当前页面为 Brut Millésimé 2022；记录名称演变，避免重复建酒。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-roger-brut"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "pere-ventura-gran-vintage-can-bas",
+      "name": "Gran Vintage Paraje Calificado Can Bas",
+      "producerId": "pere-ventura",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "xarello",
+        "viura"
+      ],
+      "grapeText": "xarello、viura；品种关联不代表各年份完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Can Bas 的 Xarel·lo、Macabeo 园地与 Gran Vintage Paraje 表达相连，具体成酒比例随年份核对。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-pere",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "pere-ventura-tresor-cuvee-barrique",
+      "name": "Tresor Cuvée Barrique",
+      "producerId": "pere-ventura",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方集团酒庄页列明该独立特酿。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-pere"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "miquel-pons-montargull-xarello-barrica",
+      "name": "Montargull Brut Nature Gran Reserva Xarel·lo Barrica",
+      "producerId": "miquel-pons",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "xarello"
+      ],
+      "grapeText": "xarello；品种关联不代表各年份完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Miquel Pons 的 Montargull 品牌，Xarel·lo 与橡木工艺的 Cava Gran Reserva Brut Nature 表达。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-miquel",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "miquel-pons-montargull-crianca-suro",
+      "name": "Montargull Brut Nature Gran Reserva Criança amb Suro",
+      "producerId": "miquel-pons",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "酒庄官方目录的软木塞熟化版本；与 Xarel·lo Barrica 分列。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-miquel"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vins-familia-ferrer-can-sala",
+      "name": "Can Sala",
+      "producerId": "vins-familia-ferrer",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "parellada",
+        "xarello"
+      ],
+      "grapeText": "parellada、xarello；品种关联不代表各年份完整配方。",
+      "style": "传统法起泡白",
+      "notes": "Can Sala Paraje 的 Parellada、Xarel·lo 地块关系；Can Sala 与 Vinyes de Can Sala 为独立酒款。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-ferrer",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vins-familia-ferrer-vinyes-can-sala",
+      "name": "Vinyes de Can Sala",
+      "producerId": "vins-familia-ferrer",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "parellada",
+        "xarello"
+      ],
+      "grapeText": "parellada、xarello；品种关联不代表各年份完整配方。",
+      "style": "传统法起泡白",
+      "notes": "官方范围确认的独立 Can Sala Paraje 酒款；完整年份配方没有在此资料另行固定。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-ferrer",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vega-de-ribes-saserra",
+      "name": "Saserra",
+      "producerId": "vega-de-ribes",
+      "regionId": "penedes",
+      "denomination": "Penedès DO",
+      "grapeIds": [
+        "malvasia-de-sitges"
+      ],
+      "grapeText": "malvasia-de-sitges；品种关联不代表各年份完整配方。",
+      "style": "干白",
+      "notes": "官方列 2017 / 2018 Malvasia de Sitges 静态白，慢压榨、酒泥与瓶陈是生产者描述重点。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-vega-ribes",
+        "ne-catalunya"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vega-de-ribes-vicefal",
+      "name": "Vïcèfal",
+      "producerId": "vega-de-ribes",
+      "regionId": "penedes",
+      "denomination": "Penedès DO",
+      "grapeIds": [
+        "xarello",
+        "malvasia-de-sitges"
+      ],
+      "grapeText": "xarello、malvasia-de-sitges；品种关联不代表各年份完整配方。",
+      "style": "干白",
+      "notes": "2020 官方目录：Xarel·lo 与 Malvasia de Sitges。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-vega-ribes"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "vega-de-ribes-ancestral-malvasia",
+      "name": "Ancestral Malvasia de Sitges",
+      "producerId": "vega-de-ribes",
+      "regionId": "penedes",
+      "denomination": "Penedès 地理关联；祖传法起泡",
+      "grapeIds": [
+        "malvasia-de-sitges"
+      ],
+      "grapeText": "malvasia-de-sitges；品种关联不代表各年份完整配方。",
+      "style": "祖传法半甜起泡",
+      "notes": "2019 官方目录描述为半甜祖传法、无添加糖；不是传统法 Cava。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-vega-ribes"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "alella-vinicola-marfil-blanc",
+      "name": "Marfil Blanc / Marfil Clàssic",
+      "producerId": "alella-vinicola",
+      "regionId": "alella",
+      "denomination": "Alella DO",
+      "grapeIds": [
+        "xarello"
+      ],
+      "grapeText": "Pansa Blanca / Xarel·lo；年份完整配方未在本轮确认。",
+      "style": "干白",
+      "notes": "原 Catalunya 笔记的 Pansa Blanca 关联；主品种不等于所有历史版本都为单一品种。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-review-alella-marfil",
+        "ne-catalunya"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "alella-vinicola-ivori-negre",
+      "name": "Ivori Negre",
+      "producerId": "alella-vinicola",
+      "regionId": "alella",
+      "denomination": "Alella DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "syrah",
+        "cabernet-sauvignon"
+      ],
+      "grapeText": "garnacha-tinta、syrah、cabernet-sauvignon；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "保留原笔记 Ivori 红酒的品种关系；不与现在官方活动列出的 Ivori Blanc 合并。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-catalunya"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "alella-vinicola-ivori-blanc",
+      "name": "Ivori Blanc",
+      "producerId": "alella-vinicola",
+      "regionId": "alella",
+      "denomination": "Alella DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干白",
+      "notes": "Alella 市政府 2025 年葡萄收获节官方酒单明确列 Celler Marfil 的 Ivori Blanc。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-alella-ivori"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "raimat-abadia-tinto",
+      "name": "Raimat Abadia Tinto",
+      "producerId": "raimat",
+      "regionId": "costers-del-segre",
+      "denomination": "Costers del Segre DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "官方集团列 2023 年份；具体配方不以别年份网店文字填补。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-raimat-range"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "raimat-saira-albarino",
+      "name": "Raimat Saira Albariño",
+      "producerId": "raimat",
+      "regionId": "costers-del-segre",
+      "denomination": "Costers del Segre DO",
+      "grapeIds": [
+        "albarino"
+      ],
+      "grapeText": "albarino；品种关联不代表各年份完整配方。",
+      "style": "干白",
+      "notes": "官方集团目录列 2025 年份 Albariño；说明该葡萄并不限于 Galicia。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-raimat-range"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "raimat-el-niu",
+      "name": "El Niu de la Cigonya",
+      "producerId": "raimat",
+      "regionId": "costers-del-segre",
+      "denomination": "Costers del Segre DO",
+      "grapeIds": [
+        "xarello",
+        "chardonnay",
+        "albarino"
+      ],
+      "grapeText": "xarello、chardonnay、albarino；品种关联不代表各年份完整配方。",
+      "style": "干白",
+      "notes": "集团目录列 Xarel·lo、Chardonnay、Albariño 与约九个月法国桶熟化；不补未知比例。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-raimat-range"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-oller-pur",
+      "name": "Mas Oller Pur",
+      "producerId": "mas-oller",
+      "regionId": "emporda",
+      "denomination": "Empordà DO",
+      "grapeIds": [
+        "syrah",
+        "garnacha-tinta",
+        "cabernet-sauvignon"
+      ],
+      "grapeText": "syrah、garnacha-tinta、cabernet-sauvignon；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "酒庄产品页列 Syrah、Garnacha Negra、Cabernet Sauvignon；人工筛选与重力操作。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-mas-oller-pur"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-oller-mar",
+      "name": "Mas Oller Mar",
+      "producerId": "mas-oller",
+      "regionId": "emporda",
+      "denomination": "Empordà DO",
+      "grapeIds": [
+        "picapoll-blanc"
+      ],
+      "grapeText": "Picapoll Blanco、Malvasía（官方页面未进一步明确 Malvasía 身份）。",
+      "style": "干白",
+      "notes": "官方列 Picapoll Blanco 与 Malvasía；Malvasía 未具体定种，因此不强行映射成 Sitges 或 Rioja Malvasía。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-mas-oller-mar"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-estela-gorgs-negre",
+      "name": "Gorgs Negre",
+      "producerId": "mas-estela",
+      "regionId": "emporda",
+      "denomination": "Empordà DO",
+      "grapeIds": [
+        "garnacha-tinta",
+        "syrah"
+      ],
+      "grapeText": "garnacha-tinta、syrah；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "官网红酒系列关联 Garnacha 與 Syrah；此资料不固定某年份百分比。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-mas-estela"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-estela-gorgs-blanc",
+      "name": "Gorgs Blanc",
+      "producerId": "mas-estela",
+      "regionId": "emporda",
+      "denomination": "Empordà DO",
+      "grapeIds": [
+        "grenache-gris",
+        "muscat-of-alexandria"
+      ],
+      "grapeText": "grenache-gris、muscat-of-alexandria；品种关联不代表各年份完整配方。",
+      "style": "干白",
+      "notes": "官方产品页列 Garnacha Gris 与 Muscat of Alexandria。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-mas-estela"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "mas-estela-solera-1989",
+      "name": "Estela Solera 1989",
+      "producerId": "mas-estela",
+      "regionId": "emporda",
+      "denomination": "Empordà DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "甜酒",
+      "notes": "官方列自然甜酒系列；1989 为 solera 名称，不理解为所有酒液来自该单一年份。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-mas-estela"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "masia-serra-ctonia",
+      "name": "Ctònia",
+      "producerId": "masia-serra",
+      "regionId": "emporda",
+      "denomination": "Empordà 地理；法律名称依年份瓶标",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干白",
+      "notes": "官方酒单列桶陈白酒；此资料未核准所有年份配方。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "ne-review-masia-serra"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "masia-serra-gneis",
+      "name": "Gneis",
+      "producerId": "masia-serra",
+      "regionId": "emporda",
+      "denomination": "Empordà 地理；法律名称依年份瓶标",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "干红",
+      "notes": "官方酒单确认；退出 DO 的时间与历史年份标签不能混写。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "ne-review-masia-serra"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "masia-serra-ino",
+      "name": "Ino",
+      "producerId": "masia-serra",
+      "regionId": "emporda",
+      "denomination": "Empordà 地理；法律名称依年份瓶标",
+      "grapeIds": [
+        "grenache-gris"
+      ],
+      "grapeText": "Garnatxa Roja / Grenache Gris；具体配方依批次。",
+      "style": "甜酒",
+      "notes": "官方列 Garnatxa Roja 与 solera 熟化；勿把当前地理归属等同每年份 DO 认证。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "ne-review-masia-ino"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "cvne-monopole-clasico-gran-reserva",
+      "name": "Monopole Clásico Gran Reserva",
+      "producerId": "cvne",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "viura"
+      ],
+      "grapeText": "2017 技术页列 Viura。",
+      "style": "干白",
+      "notes": "2017：Villalba 的 La Plana 东向旱作园，超过 600m；旧 300L 桶和 500L bota 发酵，约 60 个月熟化。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-monopole-gr",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "artadi-vinas-de-gain-blanco",
+      "name": "Viñas de Gaín Blanco",
+      "producerId": "artadi",
+      "regionId": "rioja-alavesa",
+      "denomination": "Álava / Rioja Alavesa 地理；退出 DOCa 后瓶标依年份",
+      "grapeIds": [
+        "viura"
+      ],
+      "grapeText": "viura；品种关联不代表各年份完整配方。",
+      "style": "干白",
+      "notes": "2015 官方技术表：Laguardia 450–700m 石灰质黏土园。当前地域归 Álava / Rioja Alavesa，不据地址自动标 DOCa Rioja。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "ne-review-artadi-white",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "remirez-de-ganuza-olagar-blanco-gran-reserva",
+      "name": "Blanco Gran Reserva Olagar",
+      "producerId": "remirez-de-ganuza",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "viura"
+      ],
+      "grapeText": "2017：100% Viura。",
+      "style": "干白",
+      "notes": "2017：Olagar 1978 年种植园，100% Viura，新法国 225 / 228L 桶发酵并熟化 9 个月，2018-09-17 装瓶。不是普通 Blanco Reserva 的重复。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-olagar",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "remelluri-yjar",
+      "name": "Yjar",
+      "producerId": "remelluri",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "graciano"
+      ],
+      "grapeText": "2021：Tempranillo、Garnacha、Graciano、Granegro、Rojal；官方未列比例。",
+      "style": "干红",
+      "notes": "Rioja 官方 2021 资料列 Toloño 山麓 600–800m 老丛式园；含 Tempranillo、Garnacha、Graciano、Granegro、Rojal，未把身份待澄清的后两者强映射成已知葡萄。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-yjar",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "palacios-remondo-propiedad",
+      "name": "Propiedad",
+      "producerId": "palacios-remondo",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "garnacha-tinta"
+      ],
+      "grapeText": "garnacha-tinta；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "Palacios Remondo 的独立红酒系列，Garnacha 为历史资料的核心品种关联；葡萄比例按年份读取。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-review-propiedad",
+        "ne-review-master"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "palacios-remondo-quinon-de-valmira",
+      "name": "Quiñón de Valmira",
+      "producerId": "palacios-remondo",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "garnacha-tinta"
+      ],
+      "grapeText": "Garnacha 主导的原档案关联；未把未知年份其余少量混植写成零。",
+      "style": "干红",
+      "notes": "Rioja 官方 2025 单园清单将 Quiñón de Valmira 列在 Palacios Remondo、Rioja Oriental、Alfaro；不归到 Álvaro Palacios 的 Priorat 酒庄。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-valmira",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "terroir-al-limit-sense-fronteres-brisat",
+      "name": "Terroir Sense Fronteres Brisat",
+      "producerId": "terroir-al-limit",
+      "regionId": "montsant",
+      "denomination": "Montsant DO",
+      "grapeIds": [
+        "garnacha-blanca"
+      ],
+      "grapeText": "2022：100% Garnacha Blanca。",
+      "style": "浸皮干白",
+      "notes": "2022 官方：100% Grenache Blanc，300–350m 黏土砂质园；整串浸皮发酵 4–6 天，不锈钢熟化约 6 个月。2017 旧评论的 Garnacha Blanca + Macabeo 不能套到 2022。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-brisat",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "castell-dencus-taleia-brisat",
+      "name": "Taleia Brisat",
+      "producerId": "castell-dencus",
+      "regionId": "costers-del-segre",
+      "denomination": "Costers del Segre DO",
+      "grapeIds": [
+        "sauvignon-blanc",
+        "semillon"
+      ],
+      "grapeText": "sauvignon-blanc、semillon；品种关联不代表各年份完整配方。",
+      "style": "浸皮干白",
+      "notes": "2018 官方目录中的浸皮白酒，与 Taleia 的常规白酒版本分列。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-review-encus-catalog",
+        "ne-review-master"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "familia-torres-gran-coronas",
+      "name": "Gran Coronas",
+      "producerId": "familia-torres",
+      "regionId": "catalunya",
+      "denomination": "2022：Catalunya DO；其他年份按瓶标",
+      "grapeIds": [
+        "cabernet-sauvignon",
+        "tempranillo"
+      ],
+      "grapeText": "cabernet-sauvignon、tempranillo；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "2022 官方技术表列 DO Catalunya、Cabernet Sauvignon 与 Tempranillo；至少 12 个月法国桶和 12 个月瓶陈。品牌通用网页仍写 Penedès，故法律名称按年份表及瓶标读取。",
+      "status": "label-dependent",
+      "sourceIds": [
+        "ne-review-gran-coronas-2022",
+        "ne-review-gran-coronas-page",
+        "ne-review-master"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "familia-torres-sangre-de-toro-original",
+      "name": "Sangre de Toro Original",
+      "producerId": "familia-torres",
+      "regionId": "catalunya",
+      "denomination": "Catalunya DO，依具体版本瓶标",
+      "grapeIds": [
+        "garnacha-tinta",
+        "carignan"
+      ],
+      "grapeText": "garnacha-tinta、carignan；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "Garnacha / Cariñena 组合的经典品牌，区别于同公司高端庄园酒。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-review-master"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "juve-camps-finca-la-siberia",
+      "name": "Finca La Siberia Gran Reserva Brut Nature Rosé",
+      "producerId": "juve-camps",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "pinot-noir"
+      ],
+      "grapeText": "pinot-noir；品种关联不代表各年份完整配方。",
+      "style": "传统法起泡桃红",
+      "notes": "Pinot Noir 桃红起泡，Henry 的历史档案标为 Cava Gran Reserva Brut Nature；2026 年后的商标随实际瓶标读取。",
+      "status": "archive",
+      "sourceIds": [
+        "ne-review-master-other"
+      ],
+      "verification": "archive",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "codorniu-el-tros-nou",
+      "name": "Ars Collecta El Tros Nou",
+      "producerId": "codorniu",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [
+        "pinot-noir"
+      ],
+      "grapeText": "官方产品资料：Pinot Noir 白中黑。",
+      "style": "传统法起泡白",
+      "notes": "Serra de Prades 的 Pinot Noir，地块板岩 / llicorella；官方集团目录列 Paraje Calificado、长酒泥熟化。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-tros-nou",
+        "ne-review-producer-list"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "alta-alella-mirgin-exeo",
+      "name": "EXEO Paratge Qualificat Vallcirera（旧名 Mirgin EXEO）",
+      "producerId": "alta-alella",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "原档案 Mirgin 系列名称保留；当前 Art Laietà 官方目录仍列 EXEO / OPUS，并与 Vallcirera Paraje 对应。地块种植 Pansa Blanca / Chardonnay 不足以证明每款每年配方一致。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-alta-exeo",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "alta-alella-mirgin-opus",
+      "name": "OPUS Paratge Qualificat Vallcirera（旧名 Mirgin OPUS）",
+      "producerId": "alta-alella",
+      "regionId": "cava",
+      "denomination": "Cava DO",
+      "grapeIds": [],
+      "grapeText": "本轮原始档案或官方目录未提供可落实到该版本的完整配方。",
+      "style": "传统法起泡白",
+      "notes": "原档案 Mirgin 系列名称保留；当前 Art Laietà 官方目录仍列 EXEO / OPUS，并与 Vallcirera Paraje 对应。地块种植 Pansa Blanca / Chardonnay 不足以证明每款每年配方一致。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-alta-exeo",
+        "ne-review-master-other"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodegas-berceo-gonzalo-reserva",
+      "name": "Gonzalo de Berceo Reserva",
+      "producerId": "bodegas-berceo",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "graciano",
+        "garnacha-tinta"
+      ],
+      "grapeText": "官网未标年份版本：70% Tempranillo、10% Graciano、20% Garnacha。",
+      "style": "干红",
+      "notes": "官网未标年份版本：24 个月二次使用法国桶，18 个月瓶陈；具体批次仍需与年份技术表对应。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-berceo-reserva",
+        "ne-review-studyguide-berceo"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodegas-berceo-gonzalo-gran-reserva",
+      "name": "Gonzalo de Berceo Gran Reserva",
+      "producerId": "bodegas-berceo",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "graciano"
+      ],
+      "grapeText": "tempranillo、garnacha-tinta、graciano；品种关联不代表各年份完整配方。",
+      "style": "干红",
+      "notes": "官网未标年份版本列 24 个月二次使用法国桶、8 年瓶陈；这些是产品描述，不能理解为 Rioja 所有 Gran Reserva 的最低要求。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-berceo-gr",
+        "ne-review-studyguide-berceo"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    },
+    {
+      "id": "bodegas-berceo-berceo-reserva",
+      "name": "Berceo Reserva",
+      "producerId": "bodegas-berceo",
+      "regionId": "rioja",
+      "denomination": "Rioja DOCa",
+      "grapeIds": [
+        "tempranillo",
+        "garnacha-tinta",
+        "graciano"
+      ],
+      "grapeText": "官网未标年份版本：80% Tempranillo、10% Garnacha、10% Graciano。",
+      "style": "干红",
+      "notes": "官网未标年份版本：24 个月橡木桶，70% 法国 / 30% 美国桶，至少 18 个月瓶陈；与 Gonzalo de Berceo Reserva 为不同系列。",
+      "status": "current",
+      "sourceIds": [
+        "ne-review-berceo-brand"
+      ],
+      "verification": "official",
+      "compositionStatus": "仅注明年份的百分比属于该年份；未列比例时为品种关联。",
+      "verificationScope": "已核对所引来源中的身份、产区与明确列出的资料；没有把目录验证扩大为全部年份技术表验证。"
+    }
+  ],
+  "corrections": [
+    {
+      "topic": "Mas Oller 产区",
+      "old": "Catalunya 原笔记一问答写 Pla de Bages。",
+      "new": "DO Empordà 官方列 Mas Oller，地址 Torrent / Baix Empordà；已归 Empordà。",
+      "sourceIds": [
+        "ne-review-mas-oller",
+        "ne-catalunya"
+      ]
+    },
+    {
+      "topic": "Nadal 1510 类型",
+      "old": "Master 把 Nadal 1510 描写成长陈年起泡酒。",
+      "new": "生产者目录明确 Nadal 1510 Botrytis Noble 属贵腐甜酒；已单列甜白。",
+      "sourceIds": [
+        "ne-review-nadal",
+        "ne-review-master-other"
+      ]
+    },
+    {
+      "topic": "Salvatge 配方",
+      "old": "Master 将 Salvatge 统称 Xarel·lo、zero dosage。",
+      "new": "Salvatge 有 Brut、Brut Nature、Rosé 多版本；2015 Brut Nature 官方配方 51% Macabeu / 38% Parellada / 11% Xarel·lo。",
+      "sourceIds": [
+        "ne-review-nadal-blend",
+        "ne-review-nadal",
+        "ne-review-master-other"
+      ]
+    },
+    {
+      "topic": "Montargull 实体与商标",
+      "old": "Master 把 Montargull 列入 Corpinnat。",
+      "new": "Montargull 为 Miquel Pons 的品牌；DO Cava 及生产者目录确认 Cava 身份。",
+      "sourceIds": [
+        "ne-review-miquel",
+        "ne-review-miquel-do",
+        "ne-review-master-other"
+      ]
+    },
+    {
+      "topic": "Mas Candí Desig 类型",
+      "old": "Master 写 Desig 是 sparkling wine。",
+      "new": "生产者将 Desig 放在静态 Mas Candí 系列，Corpinnat 为另一类别；已恢复静态白。",
+      "sourceIds": [
+        "ne-review-candi-still",
+        "ne-review-master-other"
+      ]
+    },
+    {
+      "topic": "Claror 年份变化",
+      "old": "Master 把 Can Prats 的 Xarel·lo / Macabeu / Parellada 种植列当作固定配方。",
+      "new": "生产者明确 2019 Claror 是首个 100% Xarel·lo 年份；旧年份和地块混植另记。",
+      "sourceIds": [
+        "ne-review-claror-2019",
+        "ne-review-master-other"
+      ]
+    },
+    {
+      "topic": "Castell d’Encús Ekam",
+      "old": "Master 一处只写 Albariño。",
+      "new": "2024 官网技术卡为 85% Riesling / 15% Albariño；保持年份限定。",
+      "sourceIds": [
+        "ne-review-ekam",
+        "ne-review-master"
+      ]
+    },
+    {
+      "topic": "Pernod 旧集团表",
+      "old": "原所有权档案列 Campo Viejo、Ysios 属 Pernod Ricard。",
+      "new": "Pernod 官方 2025-04-30 公告确认酒类资产出售完成，由 AWL 形成 Vinarchy；现有品牌页及 Ysios 页脚均为新归属。",
+      "sourceIds": [
+        "ne-review-vinarchy-sale",
+        "ne-review-vinarchy",
+        "ne-review-ysios-wine",
+        "ne-review-ownership"
+      ]
+    },
+    {
+      "topic": "Mágico 葡萄百分比",
+      "old": "技术表里葡萄园种植百分比易被抄成成酒配方。",
+      "new": "2022 的数字属 El Vardallo / Las Sepulturas 种植构成；本轮不把它标为瓶内确定比例。",
+      "sourceIds": [
+        "ne-review-magico"
+      ]
+    },
+    {
+      "topic": "Nit de Nin 地块同名历史",
+      "old": "把所有历史年份 Mas d’en Caçador 当作同一个来源园。",
+      "new": "生产者说明早期 La Rodeda 的名称误用及 2010–2016 两园组合，2017 后分开；旧年份必须保留区别。",
+      "sourceIds": [
+        "ne-review-nit-nin"
+      ]
+    },
+    {
+      "topic": "Brisat 的产区与年份",
+      "old": "只凭 Terroir al Límit 官网或 2017 评论推为 Priorat、固定 Garnacha / Macabeo。",
+      "new": "Brisat 属 Terroir Sense Fronteres / Montsant；2022 官方为 100% Garnacha Blanca。",
+      "sourceIds": [
+        "ne-review-brisat"
+      ]
+    },
+    {
+      "topic": "Can Sala 的公司关联",
+      "old": "旧资料统一写 Freixenet / Agrícola Casa Sala。",
+      "new": "保存历史集团关系，当前用 Vins Família Ferrer 的独立项目连接 Can Sala / Vinyes de Can Sala。",
+      "sourceIds": [
+        "ne-review-ferrer",
+        "ne-review-master-other"
+      ]
+    },
+    {
+      "topic": "Priorat 冷热村庄",
+      "old": "Catalunya 笔记同时把 Porrera 列作最暖和较冷，且称 Bellmunt 最冷。",
+      "new": "矛盾名单未复制为定律；改用单园海拔、坡向、土壤与成熟条件解释，保留来源记录。",
+      "sourceIds": [
+        "ne-catalunya"
+      ]
+    },
+    {
+      "topic": "Terra Alta 的最高海拔",
+      "old": "原问答因为名字 High Land 就称全 Catalunya 最高。",
+      "new": "不保留绝对最高结论；高地特征与 Costers del Segre / Priorat 的高海拔园分别学习。",
+      "sourceIds": [
+        "ne-catalunya",
+        "ne-expert"
+      ]
+    },
+    {
+      "topic": "Cava Paraje 2016 文章的时态",
+      "old": "将文章中的申请意向及旧会员全部当成现行获批名录。",
+      "new": "2016 原文保留为历史制度背景；每个地块、生产者和当前商标另查，退出 DO 的历史瓶标不回写。",
+      "sourceIds": [
+        "ne-review-cava-archive",
+        "ne-catalunya"
+      ]
+    },
+    {
+      "topic": "Gran Coronas 官方网页与年份技术表",
+      "old": "通用品牌页写 DO Penedès。",
+      "new": "2022 官方技术表明确 DO Catalunya；该年份按技术表记录，其他年份按实际瓶标，不能用品牌页覆盖所有年份。",
+      "sourceIds": [
+        "ne-review-gran-coronas-2022",
+        "ne-review-gran-coronas-page"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "原档案不确定产品名称",
+      "detail": "Mas Candí Segona Volta / Tinc Set（后者的现行品牌归属与起泡商标待原酒标核实）、Torelló Manel Raventós / Special Edition、Can Feixes Reserva Selecció / Blanc de Blancs、Júlia Bernet 泛称 Blanc de Blancs / Reserva / Rosé、Montargull Reserva Especial 未找到足以建立精确酒标的生产者证据；保留在审阅疑项，不伪造确定当前酒款。",
+      "sourceIds": [
+        "ne-review-master-other"
+      ]
+    },
+    {
+      "topic": "Masia Serra 退出 DO 的精确时间",
+      "detail": "官方退出公告可在搜索索引确认，直接页面当前返回不可访问；已按 Empordà 地理和依年份瓶标处理，不填无证据的退出日期。",
+      "sourceIds": [
+        "ne-review-masia-exit"
+      ]
+    },
+    {
+      "topic": "图像原件与全部年份技术表",
+      "detail": "本东北审阅已阅读相关笔记文本；未声称对所有原 Youdao 图片做逐图 OCR，亦未声称全部酒款的每个年份、每批 disgorgement 技术表均已复核。",
+      "sourceIds": [
+        "ne-catalunya",
+        "ne-producers",
+        "ne-review-master"
+      ]
+    },
+    {
+      "topic": "稀有混植葡萄的唯一身份",
+      "detail": "Mágico 中 Calagraño / Petit Bouschet，Yjar 中 Granegro / Rojal，Mas Oller Mar 中未具体化 Malvasía，保留原标签文字，不仅凭名称强行映射成数据库既有葡萄。",
+      "sourceIds": [
+        "ne-review-magico",
+        "ne-review-yjar",
+        "ne-review-mas-oller-mar"
+      ]
+    }
+  ],
+  "updates": {
+    "producers": [
+      {
+        "id": "lopez-de-heredia",
+        "sections": [
+          {
+            "title": "家族与酿造传统",
+            "text": "Henry 详细档案记载 Rafael López de Heredia 于 1877 年在 Haro 创办；长期家族经营、自己的制桶设施与旧美国桶，是理解其细腻氧化发展和长陈年的背景。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "四园与四个酒名",
+            "text": "Tondonia 对应红、白及桃红；Bosconia 主要对应红酒；Cubillas 对应 Viña Cubillo；Zaconia 对应 Viña Gravonia。原档案面积分别记约 100、15、24、24ha，作为历史快照保留，不能把酒名相近误当同一园。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "白酒与长熟化",
+            "text": "Viura 和 Malvasía 的白酒同样重要。Reserva 与 Gran Reserva、红白和桃红应分别建酒款，不能把 Tondonia 简化成一个红酒名称。具体调配和桶陈时间以该年份资料为准。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "葡萄园土壤对照",
+            "text": "2024 档案将 Tondonia 记为黏土、冲积材料与较多石灰质；Bosconia 和 Cubillas 为黏土石灰质；Zaconia 较多石块。Bosconia 的四个红葡萄与 Gravonia 的 Viura 白葡萄，在园名、土壤和酒款之间构成明确对应。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "la-rioja-alta",
+        "sections": [
+          {
+            "title": "创立与纪念酒名",
+            "text": "原档案追溯到 1890 年五个家庭组成的公司；1904 年与 Ardanza 酒庄的结合解释 904，890 则纪念 1890。酒名中的数字不能当作酿造年份。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "木桶与调配逻辑",
+            "text": "档案强调美国橡木、自有制桶和分批熟化后调配。Tempranillo 构成主线，但不同酒款搭配 Graciano、Mazuelo 或 Garnacha；Viña Ardanza 的 Garnacha 与 890 / 904 的结构不同。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "集团与主酒庄分开",
+            "text": "Haro 的 La Rioja Alta 酒款与 Torre de Oña、Áster、Lagar de Cervera 属同一集团的不同酒庄与产区。同集团的酒庄仍各有独立产区与酒款。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "旧版熟化路径",
+            "text": "2024 档案中的 904 主要用旧美国桶约四年；Ardanza 的 Tempranillo 与来自较暖区域的 Garnacha 分开熟化后调配；890 使用新与较旧美国桶组合，并多次换桶。这些是各系列的历史工艺描述。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "muga",
+        "sections": [
+          {
+            "title": "Haro 家族酒庄",
+            "text": "原档案记载 Isaac Muga Martínez 与 Aurora Caño 于 1932 年创立；木容器发酵、自己的制桶工艺和传统澄清方法是其技术背景。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Prado Enea 与 Torre Muga",
+            "text": "Prado Enea 走更长熟化的经典路径；Torre Muga 体现更集中的选果与法国橡木思路。两者不是同一酒的熟化等级，Aro 也应单独识别。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "学习年份而非固定模板",
+            "text": "原档案具体年份记录的 Tempranillo、Garnacha、Mazuelo、Graciano 比例与熟化月份只属于当时版本。白酒与桃红也各有独立的酿造、采收与熟化选择。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "木容器和蛋清澄清",
+            "text": "档案记 Prado Enea 先在较大木槽浸渍发酵，后转较小容器熟化，并用蛋清澄清；Torre Muga 则先大木槽、后新小桶。French 与 American oak 都出现在酒庄工艺中，器皿尺寸与新旧程度需要跟着具体酒款读取。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marques-de-murrieta",
+        "sections": [
+          {
+            "title": "庄园形成",
+            "text": "原档案将酒庄历史追溯到 Luciano de Murrieta 1852 年的酿酒，以及 1872 年购入 Ygay 庄园；1983 年 Cebrián-Sagarriga 家族接手是另一个历史节点。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Ygay、La Plana 与 Capellanía",
+            "text": "Castillo Ygay 与 La Plana 地块相联，原档案记 1950 年种植；Capellanía 白酒对应 1945 年种植 Viura 的同名园。两处地块和两款酒的红白类型不能交叉。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Dalmau 的例外语境",
+            "text": "Dalmau 的 Cabernet Sauvignon 是具体庄园与历史许可情境，不能反推 Cabernet 是 Rioja 常规许可红品种。白酒、Primer Rosé 和 Dalmau 各自保留具体酒款资料。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "分品种熟化的例子",
+            "text": "档案对 Castillo Ygay 的旧版描述中，Tempranillo 与 Mazuelo 分开发酵，前者用美国桶、后者法国桶，再调配与瓶陈。Capellanía 的 Viura 则有短暂浸皮与法国桶熟化，体现同庄不同颜色的技术路径。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cvne",
+        "sections": [
+          {
+            "title": "Haro 起点与公司名称",
+            "text": "原档案记 1879 年 Real de Asúa 兄弟在 Haro 创立 Compañía Vinícola del Norte de España。公司 CVNE、标签常见 Cune 与集团其他酒庄是相连但不同层次的名称。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "不同系列的历史",
+            "text": "Monopole 品牌注册于 1915；Viña Real 是另一条历史产品线，后来有独立酒庄；Contino 于 1973 年发展为庄园项目。Imperial 的选择和熟化方式也不能套到所有 Cune 产品。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "原料来源与白酒复兴",
+            "text": "原资料区分帝国系列选地、购买葡萄与其他庄园，不能写成整个 CVNE 集团只用自有园。Monopole Clásico 及 Gran Reserva 恢复历史白酒做法，和年轻 Monopole 分开学习。",
+            "sourceIds": [
+              "ne-producers",
+              "ne-review-monopole-gr"
+            ]
+          },
+          {
+            "title": "Imperial、Viña Real 与 Contino 的选地",
+            "text": "2024 档案将 Imperial 的选果联系 Rioja Alta 的 28ha 庄园，而 Viña Real 的原料联系 Rioja Alavesa；Contino 是另一块庄园。Viña Real 的不锈钢发酵、混合来源橡木与 Imperial 的更长传统熟化不能彼此替换。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "contino",
+        "sections": [
+          {
+            "title": "庄园模式",
+            "text": "Henry 档案将 1973 年 CVNE 与庄园方的合作作为 Contino 的起点；与 Haro 主公司的混合来源思路相比，它强调 Laserna、Ebro 河曲周围庄园。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "红白与地块酒",
+            "text": "Contino Reserva / Gran Reserva、单品种 Graciano、Viña del Olivo 与白酒需分别识别。Viña del Olivo 名称来自具体园中橄榄树，并不是所有 Contino 酒的通称。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "档案数字的限度",
+            "text": "原资料所记约 62ha 为当时庄园规模，保存为学习背景；当前采购、面积或各年份配方不能由这一个旧数字推定。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Graciano 单品种",
+            "text": "档案特别提到 Contino 有较老的 Graciano 园，支撑单一 Graciano 酒；其存在让 Rioja 的调配葡萄也可以作为独立品种表达学习。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "remelluri",
+        "sections": [
+          {
+            "title": "修院农庄与现代复兴",
+            "text": "原档案以 Sierra de Toloño 山麓的中世纪农庄和 Jaime Rodríguez Salís 于 1967 年购入、恢复酒庄的历史串联。今天讨论 Telmo Rodríguez，也应保留更早的家族与土地背景。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "庄园与合作种植者",
+            "text": "庄园 Remelluri 与 Lindes de Remelluri 的村庄 / 合作种植者来源不同。具体村庄需要独立酒款关系，不能把所有 Lindes 标为同一自有园混酿。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "高端与白葡萄",
+            "text": "La Granja 强调优选年份；Remelluri Blanco 的多品种实验与白葡萄园、Yjar 的老园表达各有不同目的。旧档案白葡萄种植名单不等于每个年份白酒完整配方。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "La Granja 的混植传统",
+            "text": "2024 档案把 La Granja Gran Reserva 描述为优选年份酒，以老藤 Tempranillo 为主，夹有 Garnacha、Graciano 及白葡萄。天然酵母、木槽与不锈钢并用，是该文对历史酿造路径的记录。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "artadi",
+        "sections": [
+          {
+            "title": "起点与法律身份",
+            "text": "原档案记录 1985 年 Laguardia 起点、Juan Carlos López de Lacalle 的发展，以及 2015 年退出 DOCa Rioja。酒庄仍在 Rioja Alavesa 地理区域，退出后的瓶标法律身份须独立处理。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "村庄与地块层次",
+            "text": "Viñas de Gaín 与 La Poza de Ballesteros、Valdeginés、El Carretil、El Pisón 应形成可追索层次；原档案记录的石灰质黏土、砂岩和坡向差别，是单园酒学习的内容。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "历史系列与外区项目",
+            "text": "Pagos Viejos、Grandes Añadas 属历史系列；Artazu 在 Navarra、El Sequé 在 Alicante，应以独立项目连接。Viñas de Gaín Blanco 的 Viura 也应补回，避免把 Artadi 等同只有红酒。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "三个园的地质与田间工作",
+            "text": "原档案：La Poza de Ballesteros 为黏土石灰质及石灰岩；Valdeginés 的黏土石灰质含较软砂岩；El Carretil 则为砂岩上的黏土石灰质。旱作、人工采收及筛选、重力装瓶，是其地块表达的技术背景。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "roda",
+        "sections": [
+          {
+            "title": "名称与创始人",
+            "text": "1987 年 Mario Rotllant 与 Carmen Daurella 创立；RODA 取姓氏片段。原档案记录对多处老园的长期研究，而不是一个同名园覆盖全部产品。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "RODA 与 RODA I",
+            "text": "原档案以红色果味取向和深色果味取向区分两种选择。RODA 曾以 RODA II 名称销售，1992–2001 的旧名称需保留检索关系，不能建成永远并存的新产品。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Cirsion 的选果逻辑",
+            "text": "Cirsion 注重葡萄在成熟时的酚类状态和个别果串筛选，不应把早期单一 Tempranillo 记忆写成永远固定；现有 2021 技术表已明确 86% Tempranillo、14% Graciano。",
+            "sourceIds": [
+              "ne-producers",
+              "ne-roda"
+            ]
+          },
+          {
+            "title": "分园发酵与生物气候酒窖",
+            "text": "档案记多个园分开在法国木槽发酵，以保存地块差异；山坡内的酒窖利用重力输送和自然温度条件，配合苹果酸乳酸发酵及稳定过程。最后是否归入 RODA 或 RODA I，取决于酒的实际果味和结构。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marques-de-riscal",
+        "sections": [
+          {
+            "title": "历史与交流",
+            "text": "1858 年的历史起点与 Bordeaux 技术交流是原档案重点；后来的顾问关系也属于具体历史时期，不写成永远不变的现任团队。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Barón de Chirel 与经典系列",
+            "text": "Barón de Chirel 首年份 1986，体现老园精选与不同熟化方向。经典 Reserva、Gran Reserva 与该酒分开，Cabernet 的历史例外不等于整个 DOCa 的一般许可。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "跨产区项目",
+            "text": "Rueda 白酒属于 Marqués de Riscal 的另一产区业务，不能因同一品牌把 Verdejo 或 Sauvignon 的资料直接并入 Rioja 红酒技术卡。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "葡萄来源与法国顾问",
+            "text": "2024 档案同时记自有园与受酒庄管理的外部园，说明“酒庄拥有葡萄园”不等于只用自有园。Château Margaux 的 Paul Pontallier 曾长期参与顾问工作，这是历史关系而非现任团队信息。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "remirez-de-ganuza",
+        "sections": [
+          {
+            "title": "选地经验",
+            "text": "原档案记 Fernando Remírez de Ganuza 于 1989 年创立酒庄之前从事葡萄园交易；这种经验解释对具体园址与果实质量的重视，而不是一段抽象“现代派”标签。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "果串分区与 Trasnocho",
+            "text": "原资料区分果串肩部与尖端，并介绍 Trasnocho 的水袋轻压萃取方式。该方法是特定酒款的技术线索，不能写成每一款都用同一套萃取。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "园址与白酒",
+            "text": "El Sotillo、San Miguel、Lagillos、Ermita y Cofrades 等是档案中的园址；Olagar 需独立对应白酒 Gran Reserva，不能只留下红酒高端系列。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "四处园的历史快照",
+            "text": "2024 档案记 El Sotillo 为石灰质黏土与砾石，另有去除老树皮以减少病虫压力的试验；San Miguel 为 Tempranillo 与石灰质黏土；Lagillos 有少量白葡萄混植和小砾石；Ermita y Cofrades 则较白垩质并有大石块。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "faustino",
+        "sections": [
+          {
+            "title": "家族历史",
+            "text": "原档案由 1861 年 Eleuterio Martínez 在 Oyón 的事业讲起，至 Julio 在 1950 年代推动品牌；家族代际与创始历史应分别看待。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "罗马数字的意义",
+            "text": "Faustino I、V 等是品牌系列，并非 Rioja 官方葡萄园等级，也不能单凭数字推定酒龄。Gran Reserva 等法定熟化标识应读对应酒款。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "木桶风格",
+            "text": "档案的美国与法国橡木结合、较长桶陈与瓶陈解释其传统风格；具体用桶比例和时间按年份保留，不固定套用全系列。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "I 与 V 的旧版工艺差异",
+            "text": "档案的 Faustino I Gran Reserva 版本列 Tempranillo、Graciano、Mazuelo，并用美国 / 法国橡木组合；Faustino V Reserva 列 Tempranillo、Mazuelo，以美国桶为主。二者的浸渍、桶陈和瓶陈时间并不相同。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "finca-allende",
+        "sections": [
+          {
+            "title": "Briones 与创立",
+            "text": "Henry 资料将 Miguel Ángel de Gregorio 1986 年在 Briones 的起步与 1996 年首次发行串联。尊重园址而非只记“现代 Rioja”是原档案的重要内容。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Aurus 与 Calvario",
+            "text": "Aurus、Calvario 对应不同选地与坡向；Calvario 记有 1945 年种植的老园、黏壤土及砾石。酒名、园址和酿造选择要分别记。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "不完整旧配方",
+            "text": "原 Calvario 段落的 85% 与 14% 合计仅 99%，不能当成已知完整公式。保留葡萄关系，同时把缺失部分作为原始资料局限。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Aurus 与 Calvario 园址差异",
+            "text": "原档案将 Aurus 记作北向园，Calvario 记作东南向、1945 年种植的老园；两者均有黏壤土与砾石，但园龄、坡向和产量条件不同。法国小桶和人工选果是这一时期的共同技术背景。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marques-de-caceres",
+        "sections": [
+          {
+            "title": "Forner 的经历",
+            "text": "原档案记 Enrique Forner 在 Bordeaux 的 Camensac、Larose Trintaudon 经历，1968 年返西、1970 年发展 Marqués de Cáceres，解释其跨地区技术背景。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "法国桶与果味",
+            "text": "原资料把法国橡木和更强调果味的酒风视为区别于更长旧美国桶熟化的一条路径；这是风格背景，不是每瓶酒共同的固定工艺。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "级别与产品关系",
+            "text": "Crianza、Reserva、Gran Reserva 与 MC 等不同系列分开。公司当前所有权与庄园面积并未从旧档案直接升级为现况。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Reserva 与 Gran Reserva 的旧版熟化",
+            "text": "2024 档案给 Reserva 的工艺示例为约 22 个月法国桶及两年瓶陈；Gran Reserva 约 26–28 个月法国桶及四年瓶陈，均挑选年份。具体年份配方及现代熟化数字应另读瓶标或技术表。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bodegas-riojanas",
+        "sections": [
+          {
+            "title": "Cenicero 起点",
+            "text": "原档案记 1890 年 Artacho 家族与 Rafael Carreras 在 Cenicero 的起点，强调当地长期葡萄园及酒窖基础。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "Monte Real 与 Viña Albina",
+            "text": "这两条经典系列不是同一个名称的翻译，各自有酒款与熟化级别。原资料对 Mazuelo、Graciano 的关注也应保留在品种关系中。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "工艺快照",
+            "text": "旧资料中的美国桶、园地比例和产量属于当时记录；本次恢复这些学习主题但不把绝对化“全部自有葡萄、全部美国桶”当作当前全集团事实。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          },
+          {
+            "title": "两款 Gran Reserva 的葡萄区别",
+            "text": "档案的 Monte Real Gran Reserva 示例为 Tempranillo；Viña Albina Gran Reserva 则结合 Tempranillo、Graciano、Mazuelo。小箱采收、手工筛选及长浸渍，是该历史资料描述的选果流程。",
+            "sourceIds": [
+              "ne-producers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "alvaro-palacios",
+        "sections": [
+          {
+            "title": "Priorat 复兴与家族分工",
+            "text": "原档案把 Álvaro Palacios 列入 1989 年五个 Clos 的复兴核心。Priorat 的酒庄、Alfaro 的 Palacios Remondo、Bierzo 的 Descendientes de J. Palacios 分别属于不同项目，不能只以人的名字合并酒款。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "从地区到园址",
+            "text": "Camins del Priorat、Les Terrasses、Gratallops、Finca Dofí、L’Ermita、Les Aubaguetes、La Baixada 对应不同来源范围与选择。这些名称分别体现区域、村庄与园址的来源范围。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "原笔记的年份边界",
+            "text": "L’Ermita 或 Dofí 的历史 Cabernet / Syrah 组成不等于今天各年份公式。原档案具体配方要与当年版本相连，不能用一套固定比例覆盖几十年。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clos-mogador",
+        "sections": [
+          {
+            "title": "René Barbier 与复兴",
+            "text": "Clos Mogador 是 1989 年 Priorat 复兴五个 Clos 之一；与后来由下一代参与的 Montsant 项目需分别识别。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "单园与其他表达",
+            "text": "Clos Mogador、Manyetes、Nelin 三者分别有不同园址及红白角色。Com Tu 属 Montsant 项目，不能由母酒庄名就归成 Priorat。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "Nelin 的学习价值",
+            "text": "Nelin 的白葡萄、酒泥与氧化管理丰富了 Priorat 白酒学习；原笔记 Garnacha Blanca 与 Macabeu 的短列不是所有年份完整配方，现有官方资料优先。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mas-martinet",
+        "sections": [
+          {
+            "title": "两代技术视角",
+            "text": "原档案将 Josep Lluís Pérez 与后继 Sara Pérez 放在 Priorat 复兴脉络中。Sara 与 René Barbier fils 的 Venus La Universal 是 Montsant 的独立项目。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "三条园址路线",
+            "text": "Clos Martinet、Camí Pesseroles、Els Escurçons 各有不同葡萄园和酿造选择；Martinet Bru 是另一层级。地块名比“现代派、浓郁”更能帮助形成可复习的资料。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "葡萄与器皿按酒款读取",
+            "text": "原档案中的 Garnacha、Cariñena、Syrah 关系应保留，但园址酒与年轻系列不能共享完全相同的发酵容器或熟化月份。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clos-i-terrasses",
+        "sections": [
+          {
+            "title": "Daphne Glorian 与 Clos Erasmus",
+            "text": "Clos i Terrasses 为酒庄实体，Clos Erasmus 为酒名；它参与早期五 Clos 复兴。Erasmus 来自学者 Desiderius Erasmus 的名字。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "Laurel 的独立身份",
+            "text": "Laurel 是另一条选择路径，原笔记列 Garnacha、Syrah、Cabernet Sauvignon。它与 Clos Erasmus 的葡萄和熟化不能直接互换。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "配方保存方式",
+            "text": "原笔记的葡萄关联保留在单独酒款；任何百分比、橡木新桶比例及上市时间都需要落实到具体年份，不能因同庄园就默认相同。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clos-figueras",
+        "sections": [
+          {
+            "title": "苗木错误形成白酒",
+            "text": "Henry Catalunya 档案详述：1998 年种植后，原计划为 Cabernet Sauvignon 的一批苗木被发现实际为 Viognier；酒庄后来留下健康 Viognier，另种 Cabernet。此事解释 Font de la Figuera Blanc 的存在。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "白酒与红酒分列",
+            "text": "档案白酒例子为 Viognier 主导、辅以 Garnacha Blanca 和 Chenin Blanc。Clos Figueras、Font de la Figuera 的红白版本应各自建卡，不用一个同名记录覆盖颜色。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "历史百分比",
+            "text": "原笔记的 85% Viognier 属当时酒庄介绍；没有年份资料时只保留品种及历史比例，不把它标成永久法律规定。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mas-doix",
+        "sections": [
+          {
+            "title": "村庄与老藤",
+            "text": "原笔记把 Mas Doix 与 Poboleda 对应。Doix Costers de Vinyes Velles 是老藤混酿层次，Les Crestes 与 Salanques 是不同酒款。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "1902 与 1903",
+            "text": "1902 Tossal d’en Bou 与 1903 Coma de Cases 既指种植历史也关联不同葡萄表达；不能把两款都简化成一个“百年老藤”。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "配方与地理层级",
+            "text": "Henry 原笔记 Doix 的 45% Garnacha / 55% Samsó 仅作历史版本；现代分类和各年份品种按官方资料分别标注。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vall-llach",
+        "sections": [
+          {
+            "title": "Porrera 的对应关系",
+            "text": "原笔记将 Porrera Vi de Vila 与 Vall Llach 联系，Embruix、Idus、Mas de la Rosa 分属不同选择。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "两个 Mas de la Rosa",
+            "text": "Vall Llach 的 Mas de la Rosa 与 Familia Torres 的同名酒是两个生产者、不同地块及酒款，必须保留两条记录。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "Cariñena 的地方表达",
+            "text": "原档案以 Samsó / Cariñena 突出 Vall Llach 的老园特征；不能由一个单园 100% Cariñena 的版本推定 Embruix 等所有系列配方。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "terroir-al-limit",
+        "sections": [
+          {
+            "title": "村庄与地块",
+            "text": "原 Catalunya 笔记将酒庄与 Torroja del Priorat 联系，L’Arbossar、Dits del Terra、Les Tosses 以 Cariñena 为主，Les Manyes 体现 Garnacha 的不同地块。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "白酒不是空白",
+            "text": "Pedra de Guix 的 Garnacha Blanca、Macabeo、Pedro Ximénez 是明确的学习关系。Brisat 则属于 Terroir Sense Fronteres 的 Montsant 系列，不应误归 Priorat。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master",
+              "ne-review-brisat"
+            ]
+          },
+          {
+            "title": "高海拔的限度",
+            "text": "旧笔记将 Les Manyes 约 800m 说成“全 Priorat 最高”，缺乏完整地块比较；保留其高海拔特征，删除绝对最高的结论。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ],
+        "regionIds": [
+          "priorat",
+          "montsant"
+        ]
+      },
+      {
+        "id": "mas-den-gil",
+        "sections": [
+          {
+            "title": "Bellmunt 的庄园",
+            "text": "原笔记将 Mas d’en Gil 与 Bellmunt del Priorat 联系，而非仅泛称 Priorat。Clos Fontà 与 Coma Vella 红酒、Coma Blanca 白酒各自保留。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "老藤白酒与红酒",
+            "text": "Coma Blanca 的 Garnacha Blanca / Macabeo 与 Clos Fontà 的 Garnacha / Cariñena，能构成同庄园跨颜色学习对照。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "分类措辞",
+            "text": "Catalan Vi de Finca 与 Priorat 的 Vi de Paratge / Vinya Classificada 属不同制度维度。原文提及认证时不能自行改为另一个等级。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "familia-torres",
+        "sections": [
+          {
+            "title": "现代化背景",
+            "text": "原档案以 Miguel Torres Carbó 与 Miguel A. Torres 两代人的工作说明 Catalunya 现代化，包括品种选择、酿酒技术与单园发展。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "Conca de Barberà 两款",
+            "text": "Milmanda 白酒与 Grans Muralles 红酒都须连接到 Conca de Barberà；前者 Chardonnay，后者恢复地方品种的组合。不能因酒庄在 Penedès 就把全部产品移过去。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "品牌与多产区",
+            "text": "Gran Coronas、Sangre de Toro 与高端单园并存；Priorat 的 Mas de la Rosa / Salmos / Perpetual、Costers del Segre 的 Purgatori、Ribera 的 Celeste 则分别标产区和项目。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "castell-dencus",
+        "sections": [
+          {
+            "title": "高地实验",
+            "text": "原笔记将 Raül Bobet 的 Castell d’Encús 与 Costers del Segre 的高地、岩石槽酿造及冷凉品种联系；它与 Ferrer Bobet 在 Priorat 是两个项目。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "白酒系列的区分",
+            "text": "Ekam 是 Riesling 与 Albariño 的干白；Ekam Essència 是另一款 Riesling；Taleia 和 Taleia Brisat 涉及 Sauvignon Blanc / Sémillon，不能因简表只写一个葡萄就删去另一部分。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master",
+              "ne-review-ekam"
+            ]
+          },
+          {
+            "title": "红酒与品种",
+            "text": "Acusp 对应 Pinot Noir，Thalarn 对应 Syrah，Quest 对应 Bordeaux 红品种组合。原档案的具体比例和年份需保留，不与当前目录混成一张全庄公式。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "recaredo",
+        "sections": [
+          {
+            "title": "两处旧 Paraje",
+            "text": "Henry 笔记明确记录 Turó d’en Mota 与 Serral del Vell 曾在 Cava Paraje 体系，2019 年退出后改以 Corpinnat 呈现。历史与当前标签分别记录。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "Turó d’en Mota",
+            "text": "原档案首年份 1999，1940 年种植 Xarel·lo 单园，石灰质土壤与极长酒泥熟化；种植年、首年份、上市时间是三个不同概念。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "名称变化",
+            "text": "Brut de Brut / Brut de Bruts 为旧资料中的称呼，与 Serral del Vell 的历史关系需保留检索，不能凭旧名新增一个当前重复酒款。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gramona",
+        "sections": [
+          {
+            "title": "Font de Jui 的历史",
+            "text": "原 Cava Paraje 档案把 Font de Jui 地块体系与 III Lustros、Celler Batlle、Enoteca 联系。地块名字并不意味着所有酒具有完全相同配方或熟化。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "三个长陈层次",
+            "text": "Imperial、III Lustros、Celler Batlle、Enoteca 应分别识别；后几款与 Xarel·lo、Macabeu 的组合及长陈密切相关，具体月份仍按年份资料。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "退出后的身份",
+            "text": "旧资料上的 Cava / Gran Reserva 与现行 Corpinnat 商标应保留时间维度，不能把已售出的历史瓶标统一改写。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "torello",
+        "sections": [
+          {
+            "title": "Can Martí 庄园与品牌",
+            "text": "原笔记的 Vinyes de Can Martí 是园址体系；Gran Torelló、225 与 Finca Can Martí 是不同酒款，不能用园名再虚构同名独立特酿。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "2026 配方变化",
+            "text": "现有官方资料显示 Finca Can Martí 加入 Garnacha；旧资料三白葡萄配方只适用于当时版本。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master",
+              "ne-torello-canmarti"
+            ]
+          },
+          {
+            "title": "错误人名归属",
+            "text": "Master 表中的“Manel Raventós”不能归到 Torelló。应与 Raventós i Blanc 的 Manuel Raventós Negra 名称区别，未找到证据前不新增错误 Torelló 酒款。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "juve-camps",
+        "sections": [
+          {
+            "title": "Reserva de la Familia",
+            "text": "原笔记用 free-run juice、Brut Nature 与较长酒泥熟化解释该经典系列，配方与熟化数值是记录版本，不宜成为所有年份固定值。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "La Capella 与 La Siberia",
+            "text": "La Capella 为 Xarel·lo 相关地块表达；Finca La Siberia 为独立桃红酒款。原先只有 La Capella 会丢失档案中重要的桃红关系。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master"
+            ]
+          },
+          {
+            "title": "时间与商标",
+            "text": "2026 年加入 Corpinnat 后，新的商标关系与历史 Cava 年份同时保留。不要因生产者当前会员身份改写旧年份酒的原始标签。",
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master",
+              "ne-corpinnat"
+            ]
+          }
+        ]
+      }
+    ],
+    "wines": [
+      {
+        "id": "castell-dencus-ekam",
+        "grapeIds": [
+          "riesling",
+          "albarino"
+        ],
+        "grapeText": "2024 官方：85% Riesling、15% Albariño。",
+        "notes": "原 Master 一处只列 Albariño；酒庄 2024 官方技术卡清楚列 Riesling 为主体。不得把这一年份比例当成所有年份通用公式。",
+        "sourceIds": [
+          "ne-review-ekam",
+          "ne-encus",
+          "ne-review-master"
+        ],
+        "verification": "official"
+      }
+    ],
+    "regions": [
+      {
+        "id": "rioja",
+        "studySections": [
+          {
+            "heading": "地理：河谷、山脉与三个分区",
+            "paragraphs": [
+              "Rioja 位于 Ebro 流域，Sierra de Cantabria / Toloño 的遮挡、来自大西洋的湿润影响、内陆大陆性与向东增强的地中海作用共同塑造差异。Oja、Najerilla、Iregua 等支谷以及海拔和坡向，比一个单纯东西对照更精确。",
+              "Rioja Alta 与 Alavesa 常见石灰质黏土；Oriental 常见含铁黏土、冲积和粉砂质土，但三大土类并非分区独占。Haro、Briones、Cenicero、San Vicente、Labastida、Laguardia、Alfaro 等村名应与具体酒庄和园址互相连接。",
+              "Rioja 的行政边界并不等于 La Rioja 自治区：Alavesa 在 Álava，Oriental 也不等于“全部在 Navarra”。原 Master 对子区和自治区的一行括注过度简化，学习地图必须保留跨行政区关系。"
+            ],
+            "sourceIds": [
+              "ne-north-central",
+              "ne-expert",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          },
+          {
+            "heading": "历史酒庄、混酿与新地理标识",
+            "paragraphs": [
+              "Haro 的铁路交通、法国酒商及 Bordeaux 技术交流，是许多 19 世纪酒庄兴起的背景。传统混酿常以 Tempranillo 提供主体，Garnacha、Graciano、Mazuelo 分担果味、香气、酸度、单宁等作用；白酒长桶陈传统同样重要。",
+              "Crianza、Reserva、Gran Reserva 描述熟化条件；Zona、Pueblo 和 Viñedo Singular 描述来源。这些是可以并行的维度，并非一个按售价从低到高的单一阶梯。",
+              "原 Master 的 Viñedo Singular 学习点包括 35 年藤龄、人工采收、园地追溯及生产者长期管理关系；该页是法规学习快照，最新具体例外、审批和标签要求须以当前正式规则为准。"
+            ],
+            "sourceIds": [
+              "ne-producers",
+              "ne-north-central",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          },
+          {
+            "heading": "14 个常规品种与例外的边界",
+            "paragraphs": [
+              "官方目录列 5 红：Tempranillo、Garnacha Tinta、Graciano、Mazuelo、Maturana Tinta；9 白：Viura、Garnacha Blanca、Malvasía、Tempranillo Blanco、Maturana Blanca、Turruntés、Chardonnay、Sauvignon Blanc、Verdejo。",
+              "酒庄个别历史地块的 Cabernet Sauvignon 或老混植园中稀有葡萄，不等于该葡萄已成为整个 DOCa 的常规许可品种。档案里的“葡萄—酒款关联”与法律许可表应分别读取。"
+            ],
+            "sourceIds": [
+              "ne-rioja-grapes"
+            ],
+            "status": "official"
+          }
+        ]
+      },
+      {
+        "id": "navarra",
+        "studySections": [
+          {
+            "heading": "五个分区与多样风格",
+            "paragraphs": [
+              "五个学习分区为 Baja Montaña、Valdizarbe、Tierra Estella、Ribera Alta、Ribera Baja。向南暖干程度增强，但坡向、高地、河谷与山地影响仍要同时考虑。",
+              "Garnacha 桃红是历史重点，saignée / sangrado 是原档案强调的生产路径；当代 Cabernet Sauvignon、Merlot、Tempranillo 红酒、Chardonnay 白酒以及 Moscatel de Grano Menudo 甜酒也应相连。",
+              "Arínzano、Pago de Otazu、Prado de Irache、Bolandin、Pago de Larrainzar 的法定 Pago 项目应单列，酒庄地理位置在 Navarra 不意味着每款都使用 Navarra DO。"
+            ],
+            "sourceIds": [
+              "ne-north-central",
+              "ne-expert",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "calatayud",
+        "studySections": [
+          {
+            "heading": "高地 Garnacha 与旧藤标识",
+            "paragraphs": [
+              "Calatayud 学习要点是高地、大陆性、较大昼夜温差与老藤 Garnacha，而非只看名称相似的葡萄或城市。San Alejandro 的 Baltasar Gracián 系列应与此地相连。",
+              "原 Master 规则快照：Viñas Viejas 要求至少 35 年藤龄；Calatayud Superior 至少 85% Garnacha，相关老园至少 50 年；另记最少 6 个月木桶、10 个月总熟化。此处保存原学习规则，不冒充本轮已逐条复核的现行法律文本。"
+            ],
+            "sourceIds": [
+              "ne-north-central",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "campo-de-borja",
+        "studySections": [
+          {
+            "heading": "Garnacha 与 Moncayo 地形",
+            "paragraphs": [
+              "Moncayo 周围海拔梯度和不同成熟期，使 Campo de Borja 可以形成集中与清新并存的 Garnacha。Borsao 合作社体系、Tres Picos 和 Alto Moncayo 的更集中选地表达是不同学习案例。",
+              "原档案列白、红、桃红，也提 Moscatel 加强酒和晚收；产区不应只留一条 Garnacha 干红的摘要。"
+            ],
+            "sourceIds": [
+              "ne-north-central",
+              "ne-expert",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "carinena",
+        "studySections": [
+          {
+            "heading": "地名和品种名分开",
+            "paragraphs": [
+              "Cariñena 是 Aragón 的 DO 名，也是葡萄在西班牙的重要名称；该葡萄在 Rioja 常称 Mazuelo，在 Catalunya 常称 Carinyena / Samsó。地区里同时大量种 Garnacha，因此不能由产区名推定每瓶都是纯 Cariñena。",
+              "San Valero / Bodega Particular 的品种酒与 Aylés 的独立法定 Pago 身份可以并列学习；Aylés 的地理位置不把它的所有酒自动变为 Cariñena DO。"
+            ],
+            "sourceIds": [
+              "ne-north-central",
+              "ne-expert"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "somontano",
+        "studySections": [
+          {
+            "heading": "比利牛斯山麓与地方品种",
+            "paragraphs": [
+              "Somontano 的山麓地势与不同海拔，对比 Aragón 更热的低地具有学习价值。Chardonnay、Gewürztraminer、Cabernet Sauvignon、Merlot 的国际品种发展与地方 Moristel、Parraleta、Alcañón 要同时保留。",
+              "Enate 白、红酒的具体品种表达能连接法规和品种页面；原笔记的品种拼写不应让 Alcañón 或 Moristel 因少见而消失。"
+            ],
+            "sourceIds": [
+              "ne-north-central",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "catalunya",
+        "studySections": [
+          {
+            "heading": "地方名称与多种葡萄酒类型",
+            "paragraphs": [
+              "Macabeu / Viura、Ull de Llebre / Tempranillo、Pansa Blanca / Xarel·lo、Carinyena / Samsó 是跨产区阅读时需要辨认的名称。Garnatxa Blanca、Gris / Roja、Peluda 也不应全部并成红 Garnacha。",
+              "Catalunya 的历史包括 ranci、天然甜与加强酒，现代还有干白、红、桃红、传统法与祖传法起泡、brisat 浸皮白。白葡萄做成橙酒仍是白葡萄，天然甜与加酒精也不是同一工艺。",
+              "Torres、Raimat、国际品种与现代技术的发展，与恢复地方葡萄的工作并行；DO Catalunya 是具体法定产区名称，不能当作所有 Catalan DO 的法律标签。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "priorat",
+        "studySections": [
+          {
+            "heading": "复兴、地质与十二个村庄来源",
+            "paragraphs": [
+              "1989 年的复兴通常以 Clos Mogador、Clos Dofí、Clos Martinet、Clos Erasmus、Clos de l’Obac 五个 Clos 为线索；早期共同酿造和后来分化的庄园、酒款不应混成五个永远相同的配方。",
+              "llicorella 是核心地质线索；坡地板岩、河谷冲积覆盖层以及 Escaladei 等处石灰质材料说明 Priorat 并非每园土壤相同。海拔、坡向、风与采收成熟度共同作用，旧笔记冷热村庄名单内有自相矛盾，不能直接当定律。",
+              "十二个 Vi de Vila 来源名称：Bellmunt del Priorat、Gratallops、El Lloar、La Morera de Montsant、Poboleda、Porrera、Torroja del Priorat、La Vilella Alta、La Vilella Baixa、Escaladei、Masos de Falset、Solanes del Molar。最后两个来源边界不是把整个 Falset / El Molar 都纳入。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          },
+          {
+            "heading": "从地区、村庄、paratge 到分类葡萄园",
+            "paragraphs": [
+              "官方“Los nombres de la tierra”按来源精确程度区分 DOQ Priorat、Vi de Vila、Vi de Paratge、Vinya Classificada、Gran Vinya Classificada，强调来源可追溯。",
+              "Vi de Paratge 为更限定的地方来源；Vinya Classificada 与 Gran Vinya Classificada 对应获认定葡萄园。Catalunya 的 Vi de Finca 认证另有制度，不能与这些名字互换。",
+              "酒款例子必须连到正确生产者：Manyetes — Clos Mogador；Porrera Vi de Vila — Vall Llach；Gratallops — Álvaro Palacios。同名 Mas de la Rosa 的 Vall Llach 与 Torres 记录必须分开。"
+            ],
+            "sourceIds": [
+              "ne-priorat-class",
+              "ne-catalunya"
+            ],
+            "status": "official"
+          },
+          {
+            "heading": "白酒、老藤和笔记中的数值",
+            "paragraphs": [
+              "Massipa 的 Garnacha Blanca / Chenin、Nelin 的白葡萄探索、Coma Blanca 的 Garnacha Blanca / Macabeu、Pedra de Guix 的 Garnacha Blanca / Macabeo / Pedro Ximénez，构成四个可直接复习的白酒例子。",
+              "原 Master 将 Velles Vinyes 简写为“1945 年前 / 75 年”；这是一个时间快照，不能在新年度机械保留固定的 75 年年龄。更完整的规则、树龄与老园追溯要按官方版本核对。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "montsant",
+        "studySections": [
+          {
+            "heading": "环绕 Priorat 的独立产区",
+            "paragraphs": [
+              "Montsant 常见黏土、砂质、花岗岩及石灰质环境，地形也有显著高低变化。原档案“没有相同陡坡或海拔”的概括不宜理解为整个 DO 低平；单园实际条件优先。",
+              "Venus La Universal 把 Sara Pérez 与 René Barbier fils 两个 Priorat 家庭背景连接到 Montsant；Dido 红、Dido Blanc、Venus 和 Venus de la Figuera 各有不同配方与选地。Espectacle 的 Garnacha 则是另一独立项目。",
+              "Terroir Sense Fronteres Brisat 2022 明确属于 Montsant，以 100% Garnacha Blanca 浸皮。不能因为同一官网名为 Terroir al Límit 就归入 Priorat。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-expert",
+              "ne-review-brisat"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "cava",
+        "studySections": [
+          {
+            "heading": "地理范围、地块名和时间轴",
+            "paragraphs": [
+              "Cava 跨越多个自治区；Comtats de Barcelona、Valle del Ebro、Viñedos de Almendralejo、Levante / Requena 的地区划分不能简化为“全部在 Penedès”。酒庄地址和葡萄来源也可能不相同。",
+              "原 2016 年 Cava de Paraje 文章讨论获批制度与申请意向。文中出现一个地块，不能证明它在后来所有年份都已经批准；也不能把后来离开 DO 的生产者继续当作当前 Cava 会员。",
+              "需分清园名与酒名：Can Prats — Vins el Cep / Claror；Vallcirera — Alta Alella / OPUS、EXEO；Can Sala — Vins Família Ferrer；El Tros Nou — Codorníu；Can Bas — Pere Ventura。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-review-master-other",
+              "ne-review-cava-archive"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "corpinnat",
+        "studySections": [
+          {
+            "heading": "会员名录的历史与实际酒款",
+            "paragraphs": [
+              "原笔记的 9 家及后来的 11 家名单是历史快照：除已建档的大庄，Nadal、Sabaté i Coca、Huguet de Can Feixes、Júlia Bernet、Mas Candí、Can Descregut、Pardas 也应具备对应 producer 和确切酒款。",
+              "同一个 producer 的静态白酒、贵腐酒或祖传法酒不能因为会员身份一律标 Corpinnat。Nadal 1510 属贵腐甜酒；Mas Candí Desig 属静态白；Sabaté i Coca Terroja 也是静态酒。",
+              "原 Master 将 Montargull 放进会员酒款段，已由 Miquel Pons 与 DO Cava 官方资料更正归属。旧文中宽泛的 Reserva / Blanc de Blancs 若无明确对应酒标，保留为疑项，不创造新的确定酒款。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-review-master",
+              "ne-review-master-other",
+              "ne-review-nadal",
+              "ne-review-miquel",
+              "ne-review-miquel-do",
+              "ne-review-candi-still"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "costers-del-segre",
+        "studySections": [
+          {
+            "heading": "七个分区与两个不同发展案例",
+            "paragraphs": [
+              "原档案七分区：Raimat、Segrià、Urgell、Garrigues、Artesa de Segre、Valls del Riucorb、Pallars Jussà（相关现代资料亦使用 Pallars 名称）。它们分散于 Lleida，不能只画成一整块同气候平原。",
+              "Raimat 是现代化、国际品种与规模化葡萄园的案例；Castell d’Encús 的高地、岩石槽和冷凉品种实验则是另一条路线。Ekam 的 2024 官方配方是 85% Riesling、15% Albariño，修正原简表单列 Albariño。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-review-master-other",
+              "ne-review-raimat",
+              "ne-review-ekam"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "alella",
+        "studySections": [
+          {
+            "heading": "Pansa Blanca、sauló 与酒庄关系",
+            "paragraphs": [
+              "Pansa Blanca 是当地 Xarel·lo 名称，sauló 指花岗岩风化形成的砂质土。海岸侧与内陆侧的差异解释小产区内部仍有不同成熟条件。",
+              "Alella Vinícola / Celler Marfil 的 Marfil、Ivori 与 Art Laietà / Alta Alella 的静态酒应分开；Art Laietà 的 Vallcirera Cava 地块酒仍属于 Cava 的法律体系，不能因酒庄位于 Alella 就改为 DO Alella 起泡。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-review-alella-marfil",
+              "ne-review-alta-exeo"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "emporda",
+        "studySections": [
+          {
+            "heading": "海岸山地与甜酒传统",
+            "paragraphs": [
+              "Alt Empordà、Baix Empordà、Tramuntana 风及不同海岸山地条件共同构成该区。Perelada 之外，原档案还特别列 Mas Estela、Masia Serra、Mas Oller，现全部恢复对应酒庄与酒款。",
+              "Garnatxa de l’Empordà 与氧化熟化甜酒是重要历史；Garnatxa Roja / Gris 不宜并成 Garnacha Tinta。Mas Estela 的 Solera 1989、Masia Serra 的 Ino 提供具体例子。",
+              "Mas Oller 由 DO Empordà 官方目录确认，原笔记 Pla de Bages 归类是错误；Masia Serra 的地域在 Empordà，但已发现退出 DO 的官方公告，现以年份瓶标处理法律名称。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-review-mas-oller",
+              "ne-review-mas-estela",
+              "ne-review-masia-serra",
+              "ne-review-masia-exit"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "conca-de-barbera",
+        "studySections": [
+          {
+            "heading": "石灰质地形、Trepat 与静态酒",
+            "paragraphs": [
+              "Conca de Barberà 既与 Cava 原料及 Trepat 桃红传统关联，也有静态红白酒。Torres 的 Milmanda Chardonnay 与 Grans Muralles 红酒在此，不能归到 Penedès。",
+              "Codorníu 的 El Tros Nou 是 Serra de Prades 的 Pinot Noir 地块，法律标签为 Cava；地理位置与酒的受保护名称需要分别记录。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-review-tros-nou"
+            ],
+            "status": "archive"
+          }
+        ]
+      },
+      {
+        "id": "terra-alta",
+        "studySections": [
+          {
+            "heading": "Garnacha Blanca 与 brisat",
+            "paragraphs": [
+              "Garnacha Blanca 是 Terra Alta 的关键葡萄，Garnacha Peluda、Garnacha Tinta、Cariñena 也不可遗漏；Edetària 的品种与单园酒可把这些葡萄落实到酒款。",
+              "Brisat 为浸皮白酒路径；ranci、mistela、天然甜与起泡等历史类型应按各自规则区分。Terra Alta 的名称意为高地，但不足以证明它是 Catalunya 所有葡萄园的最高处。"
+            ],
+            "sourceIds": [
+              "ne-catalunya",
+              "ne-review-master-other"
+            ],
+            "status": "archive"
+          }
+        ]
+      }
+    ],
+    "grapes": []
+  }
+}
