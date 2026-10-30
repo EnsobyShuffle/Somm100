@@ -37,3 +37,44 @@ a.producer-card{position:relative;display:flex;flex-direction:column;min-width:0
 
 /* Keep existing navigation usable on 320px screens. */
 @media(max-width:360px){.topbar{gap:8px;padding-inline:12px}.topbar .top-actions{gap:6px}.topbar .breadcrumb{gap:8px}}
+
+
+/* Responsive reading modes: portrait prioritizes reading; compact landscape keeps the desktop navigation. */
+@media (max-width:760px) and (orientation:portrait){
+  html{scroll-padding-top:72px}
+  main{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right));padding-bottom:calc(96px + env(safe-area-inset-bottom))}
+  .topbar{padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right))}
+  .mobile-menu{min-width:44px;min-height:44px;justify-content:center}
+  .account-notice{flex-wrap:wrap}
+  .account-notice button{min-height:44px}
+  .reading,.cms-reading,.cms-article>p,.wl-section>p,.daily-article>p{font-size:16px;line-height:1.9}
+  .study-card h2{font-size:18px;line-height:1.7}
+  .chip,.text-button,.back-link,.button-row button{min-height:40px}
+  input,select,textarea{font-size:16px}
+  img,video,iframe{max-width:100%}
+}
+@media (orientation:landscape) and (max-height:600px) and (min-width:560px) and (max-width:1100px){
+  .sidebar{display:flex!important;width:184px;padding:14px 12px 12px;overflow-y:auto;box-shadow:none}
+  .sidebar .brand.wordmark-v4{min-height:42px;padding:4px}
+  .sidebar .somm-wordmark{max-width:150px}
+  .sidebar .wordmark-v4+.workspace-tag{margin:10px 6px 10px}
+  .sidebar nav{gap:2px}
+  .sidebar nav .nav{min-height:40px;padding:6px 8px;gap:9px}
+  .sidebar nav .nav>span{font-size:11px}
+  .sidebar nav .nav small{display:none}
+  .sidebar-bottom{padding-top:10px}
+  .sidebar-bottom .small-print{display:none}
+  .foundation-link{padding:8px 6px}
+  .foundation-link small{font-size:8px}
+  .utility{padding-top:9px}
+  .main-shell{margin-left:184px}
+  .topbar{height:56px;padding:0 16px;gap:10px}
+  .topbar .mobile-menu,.topbar .mobile-brand,.menu-shade,.bottom-nav{display:none!important}
+  .topbar .breadcrumb>strong{display:block!important}
+  .topbar .top-actions{gap:9px}
+  main{padding:18px 20px 24px;min-height:calc(100dvh - 56px)}
+  .app-footer{padding-bottom:20px}
+  .journal-frame{height:calc(100dvh - 95px);min-height:240px}
+  .wine-atlas-frame{height:calc(100dvh - 150px);min-height:250px}
+  .study-notes-panel{top:64px;max-height:calc(100dvh - 76px)}
+}
