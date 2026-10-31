@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31T01:32:51.330Z",
+  "checkedAt": "2026-10-31T02:35:49.747Z",
   "repository": "EnsobyShuffle/Somm100",
   "branch": "main",
-  "baseCommit": "3f280196a2de071861f43986cb7bbe8f03498e44",
+  "baseCommit": "c0d5b7a4b7cc528b53edc2e2ff4b3a82d90fcf02",
   "netlifyProject": "somm100",
   "siteUrl": "https://somm100.netlify.app/",
   "netlifyDashboard": "https://app.netlify.com/projects/somm100/deploys",
@@ -11,24 +11,24 @@
   "publishing": {
     "autoPublishMain": true,
     "status": "blocked_by_netlify_credits",
-    "evidence": "2026-10-31 09:32 CST Netlify: operational credits, production deploys paused; main@3f28019 skipped due to account credit usage exceeded. Published remains fdae698.",
+    "evidence": "2026-10-31 10:33 CST Netlify dashboard: operational credits; production deploys paused. main@c0d5b7a skipped due to account credit usage exceeded; published remains fdae698.",
     "newContentLiveVerified": false,
     "instruction": "Check the original project's current state. Do not buy/upgrade, create a replacement site, or claim live from a Git commit alone. Once publishing is available, publish through this existing main-to-Netlify workflow and verify creator pages.",
     "previewUrl": "https://6ae50124544fba545f1793a6--somm100.netlify.app/#videos?creator=nora",
-    "previewVerifiedScope": "Prior PR #1 33-video preview only; current 66-video catalog not production verified.",
+    "previewVerifiedScope": "Prior PR #1 33-video preview only; current 71-video catalog not production verified.",
     "lastConfirmedStatus": "blocked_by_netlify_credits"
   },
   "catalog": {
     "legacyFile": "data/video-library.json",
     "legacyVideoCount": 25,
     "additionsFile": "data/wine-channel.json",
-    "addedVideoCount": 41,
-    "combinedCuratedCount": 66,
-    "newOriginalCovers": 43,
+    "addedVideoCount": 46,
+    "combinedCuratedCount": 71,
+    "newOriginalCovers": 48,
     "noraNew": 24,
     "noraTotal": 26,
-    "bingkeNew": 17,
-    "bingkeTotal": 17,
+    "bingkeNew": 22,
+    "bingkeTotal": 22,
     "playbackVerified": false,
     "fullContentReviewed": false
   },
@@ -75,7 +75,12 @@
     "BV1vs411P76d",
     "BV1wa411V7sr",
     "BV15R4y1r722",
-    "BV1Pt411Q7NN"
+    "BV1Pt411Q7NN",
+    "BV1UK411i7zr",
+    "BV1a3411i7re",
+    "BV1KG4y1M7aW",
+    "BV1Za4y1i7iJ",
+    "BV1gs411p71e"
   ],
   "next": [
     {
@@ -88,13 +93,9 @@
       "creatorId": "bingke",
       "uid": "348903504",
       "bvids": [
-        "BV1TXmCBXEFd",
-        "BV1h9p5ekEYX",
-        "BV1HM411k7NX",
-        "BV1UK411i7zr",
-        "BV1a3411i7re"
+        "BV1nd4y1S7Z1"
       ],
-      "task": "Candidates from verified creator's related links; verify exact author and cover before addition."
+      "task": "Search candidate 槟客桃红香槟月，魔性法文发音，让你包学会！; verify original author UID, educational relevance, cover and metadata before adding. Existing related-link batch processed; this is not an exhaustive account census."
     },
     {
       "creatorId": "miki",
@@ -111,25 +112,24 @@
   "validationNotes": "See docs/wine-channel-20261031.md. Original Bilibili metadata was read; actual playback and post-deploy mobile visual QA remain unverified.",
   "lastRun": {
     "added": [
-      "BV1qs411P7C1",
-      "BV1ya4y1v7Df",
-      "BV1Yt411v7mM",
-      "BV1vs411P76d",
-      "BV1wa411V7sr",
-      "BV15R4y1r722",
-      "BV1Pt411Q7NN"
+      "BV1UK411i7zr",
+      "BV1a3411i7re",
+      "BV1KG4y1M7aW",
+      "BV1Za4y1i7iJ",
+      "BV1gs411p71e"
     ],
     "enrichedExisting": [],
     "newAuthors": 0,
-    "total": 66,
+    "total": 71,
     "lastCreatorId": "bingke",
-    "lastBvid": "BV1Pt411Q7NN",
+    "lastBvid": "BV1gs411p71e",
     "deferred": [
-      "BV1GN4y1F7p2",
-      "BV15G4y1B7CD",
-      "BV1Me411G7uJ"
+      "BV1TXmCBXEFd",
+      "BV1h9p5ekEYX",
+      "BV1HM411k7NX",
+      "BV1aP4y1p74K"
     ],
-    "tests": "3 data/source tests pass; 66 unique BV IDs. Existing 34 additions preserved; 25 legacy records untouched. No new full application build, playback or mobile visual QA claimed.",
+    "tests": "3 data/source tests passed. 71 unique BV IDs across 46 additions and 25 legacy records. All 41 prior additions preserved unchanged; legacy file unchanged. Data-only batch: no new full application build, playback or mobile visual QA claimed.",
     "productionLive": false,
     "fullPlaybackTested": false,
     "mobileVisualTested": false,
@@ -140,14 +140,14 @@
       "libraryFileId": "libfile_4195d9da01cc8191b2299c44a209cc68",
       "name": "Wine_Channel_Sourcebook_2026-10-25.xlsx",
       "versionId": "1",
-      "readAt": "2026-10-31T01:32:51.330Z",
+      "readAt": "2026-10-31T02:35:49.747Z",
       "scope": "Full current text; no new creators approved from candidate pool."
     },
     {
       "libraryFileId": "libfile_739586147c14819189cbf49c52f31faa",
       "name": "Dante_Video_Team_Inventory_2026-10-28.xlsx",
       "versionId": null,
-      "readAt": "2026-10-31T01:32:51.330Z",
+      "readAt": "2026-10-31T02:35:49.747Z",
       "scope": "Full current text; no new creators approved from candidate pool."
     }
   ],
@@ -202,6 +202,38 @@
       "title": "一篇让你掌握派对Slay全场的关键法宝！香槟关于尺寸不得不说的那些事",
       "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1Me411G7uJ/",
       "reason": "Author verified; hold for full educational relevance/content review. Description contains promotion or biodynamic/scientific framing requiring review; no factual endorsement.",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV1TXmCBXEFd",
+      "creatorId": "bingke",
+      "title": "香槟活动 | 2025 槟客文化全香槟品鉴盛典",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1TXmCBXEFd/",
+      "reason": "Author verified; event recap or cultural-brand exhibition promotion. Hold outside learning catalog.",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV1h9p5ekEYX",
+      "creatorId": "bingke",
+      "title": "香槟活动 | 2024 槟客文化全香槟品鉴盛典",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1h9p5ekEYX/",
+      "reason": "Author verified; event recap or cultural-brand exhibition promotion. Hold outside learning catalog.",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV1HM411k7NX",
+      "creatorId": "bingke",
+      "title": "以香槟开启“法式生活艺术巡展”，共享法式文化美学!",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1HM411k7NX/",
+      "reason": "Author verified; event recap or cultural-brand exhibition promotion. Hold outside learning catalog.",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV1aP4y1p74K",
+      "creatorId": "bingke",
+      "title": "与庄主对话｜Champagne Salon & Delamotte",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1aP4y1p74K/",
+      "reason": "Author verified; short China/food greeting teaser, not substantive wine teaching. Hold outside learning catalog.",
       "checkedAt": "2026-10-31"
     }
   ]
