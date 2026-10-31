@@ -2,6 +2,9 @@ import {testFetch} from './testing-store';
 import type {AccountSession} from './account';
 let sessionPromise:Promise<AccountSession>|undefined;
 export function getSession():Promise<AccountSession>{
+  // CloudBase phase one retains the existing guest experience; no fake identity
+  // or trust in the old platform's incoming authentication headers.
+  if(import.meta.env?.VITE_SOMM100_LOCAL_ONLY)return Promise.resolve({authenticated:false,registered:false});
   if(!sessionPromise)sessionPromise=fetch('/api/account',{cache:'no-store',credentials:'same-origin'}).then(async r=>{const data=await r.json() as AccountSession & {error?:string};if(!r.ok)throw Error(data.error||'账号读取失败');return data}).catch(e=>{sessionPromise=undefined;throw e});
   return sessionPromise!;
 }

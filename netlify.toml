@@ -1,4 +1,6 @@
 [build]
+  # Tencent migration branch: keep legacy Netlify builds disabled.
+  ignore = "exit 0"
   command = "pnpm run build:netlify"
   publish = "dist"
 

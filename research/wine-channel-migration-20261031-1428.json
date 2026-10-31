@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "packageId": "WC-MIG-20261031-1428",
+  "checkedAt": "2026-10-31",
+  "baseRepository": "EnsobyShuffle/Somm100",
+  "baseCommit": "56ec515c3ff67e97e95f6d66475561d0d87367fd",
+  "publication": {
+    "status": "held_for_migration",
+    "netlifyContacted": false,
+    "repositoryMutated": false,
+    "newSiteCreated": false,
+    "newHostConfirmed": false
+  },
+  "counts": {
+    "baselineCatalog": 83,
+    "nora": 26,
+    "bingke": 34,
+    "other": 23,
+    "newCatalogVideos": 0,
+    "newCreators": 0,
+    "researchCandidates": 4
+  },
+  "delta": {
+    "videos": [],
+    "creators": []
+  },
+  "researchCandidates": [
+    {
+      "bvid": "BV1Ja4y1E7dP",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1Ja4y1E7dP/",
+      "title": "葡萄酒电影 | 经典产区 | Burgundy 勃艮第 Bourgogne_哔哩哔哩_bilibili",
+      "author": "Mickey米老师",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/26124055/?spm_id_from=333.788.upinfo.head.click",
+      "durationSeconds": 1296,
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/738e45d77c3b290141a1ffc943f8ff00891a74f8.jpg@1200w_630h",
+      "publishedAt": "2020-08-29T13:37:19.000Z",
+      "status": "research_only_not_in_catalog",
+      "fullContentReviewed": false,
+      "authorizationVerified": false,
+      "originalSource": {
+        "title": "An Introduction to the Wines of Burgundy",
+        "publisher": "GuildSomm International",
+        "url": "https://vimeo.com/134381846",
+        "status": "Unresolved exact-film match. Bilibili duration 1296 seconds. Search surfaced similarly titled GuildSomm introduction and separate Wine101 e-learning page; title similarity is insufficient to confirm same film. Do not silently equate them or import the e-learning page as a video."
+      }
+    },
+    {
+      "bvid": "BV1L3411V7Ts",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1L3411V7Ts/",
+      "title": "葡萄酒电影 | Barolo Boys | The Story of a Revolution 意大利著名产区 巴罗洛的传奇酿酒师_哔哩哔哩_bilibili",
+      "author": "Mickey米老师",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/26124055/?spm_id_from=333.788.upinfo.head.click",
+      "durationSeconds": 3807,
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/b7027506097e7953860c77c1de35287e2a091963.jpg@1200w_630h",
+      "publishedAt": "2022-05-25T14:51:09.000Z",
+      "status": "research_only_not_in_catalog",
+      "fullContentReviewed": false,
+      "authorizationVerified": false,
+      "originalSource": {
+        "title": "Barolo Boys – The Story of a Revolution",
+        "producer": "Stuffilm",
+        "directors": [
+          "Paolo Casalis",
+          "Tiziano Gaia"
+        ],
+        "year": 2014,
+        "url": "https://iicsanfrancisco.esteri.it/en/gli_eventi/calendario/barolo-boys-the-story-of-a-revolution-2/",
+        "status": "Official cultural-institute screening page read; original credits verified, upload authorization unverified."
+      }
+    },
+    {
+      "bvid": "BV1k5411h77o",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1k5411h77o/",
+      "title": "葡萄酒电影 | A Year in Champagne 香槟产区的一年 香槟酒庄 酿酒师 侍酒师 专访 香槟知识干货_哔哩哔哩_bilibili",
+      "author": "Mickey米老师",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/26124055/?spm_id_from=333.788.upinfo.head.click",
+      "durationSeconds": 4941,
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/f480f221fe0651613a3ee49cc055f6d3beac3981.jpg@1200w_630h",
+      "publishedAt": "2020-08-29T12:39:45.000Z",
+      "status": "research_only_not_in_catalog",
+      "fullContentReviewed": false,
+      "authorizationVerified": false,
+      "originalSource": {
+        "title": "A Year in Champagne",
+        "director": "David John Kennard",
+        "studioAsListed": "Samuel Goldwyn Films",
+        "copyrightAsListed": "© 2014 RTR International Inc.",
+        "releaseAsListed": "2015-03-06",
+        "runtimeSecondsAsListed": 4920,
+        "url": "https://tv.apple.com/us/movie/a-year-in-champagne/umc.cmc.3q4rluxjnhk924499nu9ocayi",
+        "corroboratingCreatorPage": "http://www.ayearinport.com/the-creators",
+        "status": "Both pages directly read on 2026-10-31. Credits verified; equivalence of Bilibili upload and permission not verified."
+      }
+    },
+    {
+      "bvid": "BV1jS411w7dX",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1jS411w7dX/",
+      "title": "法国美食纪录片 | Menus Plaisirs Les Troisgros | 拥有五十多年历史法国米其餐厅|纪录片大师Frederick Wiseman力作_哔哩哔哩_bilibili",
+      "author": "Mickey米老师",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/26124055/?spm_id_from=333.788.upinfo.head.click",
+      "durationSeconds": 14393,
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/98e3427cd86da22943c8d8d996f8c37a91e20d76.jpg@1200w_630h",
+      "publishedAt": "2024-07-11T13:24:55.000Z",
+      "status": "research_only_not_in_catalog",
+      "fullContentReviewed": false,
+      "authorizationVerified": false,
+      "originalSource": {
+        "title": "Menus-Plaisirs – Les Troisgros",
+        "copyright": "3 Star LLC, 2023",
+        "release": "Zipporah Films",
+        "url": "https://zipporahfilms.com/menus-plaisirs",
+        "status": "Official release page read, 240-minute film; Bilibili upload authorization unverified."
+      }
+    }
+  ],
+  "next": {
+    "creatorId": "miki",
+    "bvids": [
+      "BV1Ja4y1E7dP",
+      "BV1k5411h77o"
+    ],
+    "tasks": [
+      "Resolve exact GuildSomm Burgundy film identity; do not conflate with 3-minute introduction or e-learning course.",
+      "Review Bilibili upload equivalence and appropriate source attribution for A Year in Champagne.",
+      "Locate Somm House historical Youdao links without guessing creator UID."
+    ]
+  },
+  "sourcebooks": [
+    {
+      "libraryFileId": "libfile_4195d9da01cc8191b2299c44a209cc68",
+      "name": "Wine_Channel_Sourcebook_2026-10-25.xlsx",
+      "version": "1",
+      "fullRead": true
+    },
+    {
+      "libraryFileId": "libfile_739586147c14819189cbf49c52f31faa",
+      "name": "Dante_Video_Team_Inventory_2026-10-28.xlsx",
+      "version": null,
+      "fullRead": true
+    }
+  ],
+  "notes": [
+    "No video files or copied full articles included.",
+    "Research-only candidates are not additional catalog entries.",
+    "Next run must read this migration package as well as latest repository checkpoint; do not push or open PR."
+  ]
+}

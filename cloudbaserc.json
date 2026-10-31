@@ -1,0 +1,12 @@
+{
+  "envId": "shuffle-platform-d6eoe6y06c6f4ea",
+  "region": "ap-shanghai",
+  "hosting": [
+    {
+      "name": "somm100",
+      "framework": "static",
+      "outputDir": "dist-cloudbase",
+      "deployPath": "/"
+    }
+  ]
+}

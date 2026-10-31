@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "packageId": "WC-MIG-20261031-1529",
+  "previousPackage": {
+    "libraryFileId": "libfile_6259776e535881919aba2c7c6a386da9",
+    "name": "Wine_Channel_Migration_20261031_1428.zip"
+  },
+  "status": "held_for_migration",
+  "baselineCatalogCount": 83,
+  "pendingVideoCount": 11,
+  "pendingCreatorCount": 1,
+  "projectedCountIfApprovedAndApplied": 94,
+  "notPublished": true,
+  "netlifyContacted": false,
+  "repositoryMutated": false,
+  "delta": {
+    "creators": [
+      {
+        "id": "somehouse",
+        "name": "亨利的逐未旅途",
+        "url": "https://space.bilibili.com/32601116/",
+        "description": "Somm House 历史葡萄酒学习与侍酒服务视频。",
+        "initial": "S",
+        "topics": [
+          "Somm House",
+          "Viticulture",
+          "Vinification",
+          "Service"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "id": "bili-BV1Ub4y1d7XE",
+        "bvid": "BV1Ub4y1d7XE",
+        "creatorId": "somehouse",
+        "title": "Somm House 餐厅葡萄酒服务 - 醒酒服务",
+        "url": "https://www.bilibili.com/video/BV1Ub4y1d7XE/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "service",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i1.hdslb.com/bfs/archive/d83a4a436de716ddbf9465dcfacb2a35e838f0d3.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ub4y1d7XE",
+        "durationSeconds": 227,
+        "publishedAt": "2021-06-14T15:29:54.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1xM4y1u7Ab",
+        "bvid": "BV1xM4y1u7Ab",
+        "creatorId": "somehouse",
+        "title": "Somm House 葡萄酒学习 - 了解葡萄酒风格",
+        "url": "https://www.bilibili.com/video/BV1xM4y1u7Ab/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "tasting",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i2.hdslb.com/bfs/archive/f61c73018519120473b669cc1d9e7ecaef1e8311.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xM4y1u7Ab",
+        "durationSeconds": 201,
+        "publishedAt": "2021-06-14T15:22:56.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1Zb4y1d7Jh",
+        "bvid": "BV1Zb4y1d7Jh",
+        "creatorId": "somehouse",
+        "title": "Somm House 葡萄酒学习 - 葡萄酒的储存，侍酒&品鉴",
+        "url": "https://www.bilibili.com/video/BV1Zb4y1d7Jh/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "service",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i2.hdslb.com/bfs/archive/9d55a1ddcb64cf9006165bb3e219835c145bdd6b.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Zb4y1d7Jh",
+        "durationSeconds": 269,
+        "publishedAt": "2021-06-14T15:17:08.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1264y1X7Af",
+        "bvid": "BV1264y1X7Af",
+        "creatorId": "somehouse",
+        "title": "Somm House 餐厅葡萄酒服务 - 起泡酒的服务",
+        "url": "https://www.bilibili.com/video/BV1264y1X7Af/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "service",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i1.hdslb.com/bfs/archive/af0fed16fb1326d2db8f01d047bc6c09b7e4884b.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1264y1X7Af",
+        "durationSeconds": 187,
+        "publishedAt": "2021-06-14T15:25:00.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1mg411G7zM",
+        "bvid": "BV1mg411G7zM",
+        "creatorId": "somehouse",
+        "title": "Somm House 侍酒师学习 - 勃艮第红葡萄酒的酿造",
+        "url": "https://www.bilibili.com/video/BV1mg411G7zM/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "vinification",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i1.hdslb.com/bfs/archive/1e70c4feb0f1e2eb9ebc395033eb40c1fd230116.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mg411G7zM",
+        "durationSeconds": 161,
+        "publishedAt": "2021-06-07T13:48:16.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1uh411a7W6",
+        "bvid": "BV1uh411a7W6",
+        "creatorId": "somehouse",
+        "title": "Somm House侍酒师学习 - 葡萄种植",
+        "url": "https://www.bilibili.com/video/BV1uh411a7W6/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "viticulture",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i0.hdslb.com/bfs/archive/7578af6c2d5c7df62897a67deea01301155e67cb.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uh411a7W6",
+        "durationSeconds": 208,
+        "publishedAt": "2021-06-07T12:59:22.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV19U4y1V79Y",
+        "bvid": "BV19U4y1V79Y",
+        "creatorId": "somehouse",
+        "title": "Somm House侍酒师学习 - 传统香槟酿造法",
+        "url": "https://www.bilibili.com/video/BV19U4y1V79Y/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "vinification",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i2.hdslb.com/bfs/archive/d958ab2c3dc12a9c5f9db64a9dbef9a533cb274c.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19U4y1V79Y",
+        "durationSeconds": 147,
+        "publishedAt": "2021-06-07T13:04:35.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1xy4y1u73K",
+        "bvid": "BV1xy4y1u73K",
+        "creatorId": "somehouse",
+        "title": "Somm House侍酒师学习 - 葡萄树的生长周期",
+        "url": "https://www.bilibili.com/video/BV1xy4y1u73K/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "viticulture",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i0.hdslb.com/bfs/archive/3aae6270b9c5740c2160d9ffa914a8e83933aaa8.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xy4y1u73K",
+        "durationSeconds": 80,
+        "publishedAt": "2021-06-07T13:51:25.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1z5411K79A",
+        "bvid": "BV1z5411K79A",
+        "creatorId": "somehouse",
+        "title": "Somm House侍酒师学习 - Prosecco的酿造法 - Charmat Method",
+        "url": "https://www.bilibili.com/video/BV1z5411K79A/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "vinification",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i0.hdslb.com/bfs/archive/66222f2bac8859aee8f901540d7c8695ac32edcc.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1z5411K79A",
+        "durationSeconds": 181,
+        "publishedAt": "2021-06-07T13:02:27.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1X54y137bB",
+        "bvid": "BV1X54y137bB",
+        "creatorId": "somehouse",
+        "title": "Somm House 侍酒师学习- 乳酸发酵",
+        "url": "https://www.bilibili.com/video/BV1X54y137bB/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "vinification",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i2.hdslb.com/bfs/archive/78702622f1ac1ddf6ec053393ca7503f42970e63.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1X54y137bB",
+        "durationSeconds": 163,
+        "publishedAt": "2021-06-07T13:54:06.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      },
+      {
+        "id": "bili-BV1Zq4y15741",
+        "bvid": "BV1Zq4y15741",
+        "creatorId": "somehouse",
+        "title": "Somm House侍酒师学习 - 橡木桶对葡萄酒的影响",
+        "url": "https://www.bilibili.com/video/BV1Zq4y15741/",
+        "platform": "Bilibili",
+        "publisher": "亨利的逐未旅途",
+        "publisherUrl": "https://space.bilibili.com/32601116/",
+        "topic": "vinification",
+        "tags": [
+          "Somm House"
+        ],
+        "coverUrl": "https://i0.hdslb.com/bfs/archive/565fec70ddb23ef25c536784e833adcc1133d0dd.jpg@1200w_630h",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Zq4y15741",
+        "durationSeconds": 111,
+        "publishedAt": "2021-06-07T13:59:47.000Z",
+        "verification": {
+          "metadata": "original_page_verified",
+          "checkedAt": "2026-10-31",
+          "playbackTested": false,
+          "fullContentReviewed": false
+        },
+        "rightsNote": "用户既有Somm House分享笔记与原平台发布账号已对应；原出品方和素材权利未逐片审查。仅原片外链及公开分享封面，未下载重传。"
+      }
+    ]
+  },
+  "sourceEvidence": [
+    {
+      "bvid": "BV1Ub4y1d7XE",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1Ub4y1d7XE/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/d83a4a436de716ddbf9465dcfacb2a35e838f0d3.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ub4y1d7XE",
+      "durationSeconds": 227,
+      "publishedAt": "2021-06-14T15:29:54.000Z"
+    },
+    {
+      "bvid": "BV1xM4y1u7Ab",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1xM4y1u7Ab/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/f61c73018519120473b669cc1d9e7ecaef1e8311.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xM4y1u7Ab",
+      "durationSeconds": 201,
+      "publishedAt": "2021-06-14T15:22:56.000Z"
+    },
+    {
+      "bvid": "BV1Zb4y1d7Jh",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1Zb4y1d7Jh/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/9d55a1ddcb64cf9006165bb3e219835c145bdd6b.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Zb4y1d7Jh",
+      "durationSeconds": 269,
+      "publishedAt": "2021-06-14T15:17:08.000Z"
+    },
+    {
+      "bvid": "BV1264y1X7Af",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1264y1X7Af/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/af0fed16fb1326d2db8f01d047bc6c09b7e4884b.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1264y1X7Af",
+      "durationSeconds": 187,
+      "publishedAt": "2021-06-14T15:25:00.000Z"
+    },
+    {
+      "bvid": "BV1mg411G7zM",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1mg411G7zM/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/1e70c4feb0f1e2eb9ebc395033eb40c1fd230116.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mg411G7zM",
+      "durationSeconds": 161,
+      "publishedAt": "2021-06-07T13:48:16.000Z"
+    },
+    {
+      "bvid": "BV1uh411a7W6",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1uh411a7W6/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/7578af6c2d5c7df62897a67deea01301155e67cb.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uh411a7W6",
+      "durationSeconds": 208,
+      "publishedAt": "2021-06-07T12:59:22.000Z"
+    },
+    {
+      "bvid": "BV19U4y1V79Y",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV19U4y1V79Y/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/d958ab2c3dc12a9c5f9db64a9dbef9a533cb274c.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19U4y1V79Y",
+      "durationSeconds": 147,
+      "publishedAt": "2021-06-07T13:04:35.000Z"
+    },
+    {
+      "bvid": "BV1xy4y1u73K",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1xy4y1u73K/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/3aae6270b9c5740c2160d9ffa914a8e83933aaa8.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xy4y1u73K",
+      "durationSeconds": 80,
+      "publishedAt": "2021-06-07T13:51:25.000Z"
+    },
+    {
+      "bvid": "BV1z5411K79A",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1z5411K79A/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/66222f2bac8859aee8f901540d7c8695ac32edcc.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1z5411K79A",
+      "durationSeconds": 181,
+      "publishedAt": "2021-06-07T13:02:27.000Z"
+    },
+    {
+      "bvid": "BV1X54y137bB",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1X54y137bB/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/78702622f1ac1ddf6ec053393ca7503f42970e63.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1X54y137bB",
+      "durationSeconds": 163,
+      "publishedAt": "2021-06-07T13:54:06.000Z"
+    },
+    {
+      "bvid": "BV1Zq4y15741",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1Zq4y15741/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/565fec70ddb23ef25c536784e833adcc1133d0dd.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Zq4y15741",
+      "durationSeconds": 111,
+      "publishedAt": "2021-06-07T13:59:47.000Z"
+    }
+  ],
+  "internalEvidence": {
+    "sourcePage": "https://app.notion.com/p/3fb17d16de4c81a7b9c4eea8da9afecc",
+    "sourceNoteId": "WEB77e2c3cca84d7cc9c5cdfd03d5b37f72",
+    "crossCheckPage": "https://app.notion.com/p/40717d16de4c81b49819d0c33e4bd885",
+    "note": "Account directory is older and still says UID pending; current imported Youdao note supplies 11 full BV mappings. This run independently confirmed every public original page uploader UID32601116. Prior creator-center inspection is reported by the note, not claimed as this run's own browser work."
+  },
+  "next": {
+    "creatorId": "somehouse",
+    "bvids": [],
+    "tasks": [
+      "Locate Somm House 勃艮第白葡萄酒的酿造 link seen in original-page recommendations; verify before adding.",
+      "Review own-content filter against creatorId somehouse and publisher display name before integration.",
+      "Keep 4 Mickey films research-only; no duplicate re-import."
+    ]
+  }
+}

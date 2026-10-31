@@ -46,3 +46,8 @@ yarn-error.log*
 
 # Netlify build output
 /.netlify/
+
+# CloudBase release output and local CLI state
+/dist-cloudbase/
+/cloudbase-artifacts/
+/.cloudbase/

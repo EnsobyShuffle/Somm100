@@ -1,0 +1,111 @@
+{
+  "videos": [
+    {
+      "id": "bili-BV17U4y157Xq",
+      "bvid": "BV17U4y157Xq",
+      "creatorId": "somehouse",
+      "title": "Somm House侍酒师学习 - 勃艮第白葡萄酒的酿造",
+      "url": "https://www.bilibili.com/video/BV17U4y157Xq/",
+      "platform": "Bilibili",
+      "publisher": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/32601116/",
+      "topic": "vinification",
+      "tags": [
+        "Somm House"
+      ],
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/ae7fe436dd5b9c289f28aa88e18ada3a3345a743.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17U4y157Xq",
+      "durationSeconds": 106,
+      "publishedAt": "2021-06-07T13:26:09.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "原发布账号与UID已核实；只整理原片链接和公开分享封面，未下载重传，未推定所有原始素材版权。"
+    },
+    {
+      "id": "bili-BV14M41137xT",
+      "bvid": "BV14M41137xT",
+      "creatorId": "somehouse",
+      "title": "葡萄酒学习工具 - 有道云笔记",
+      "url": "https://www.bilibili.com/video/BV14M41137xT/",
+      "platform": "Bilibili",
+      "publisher": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/32601116/",
+      "topic": "mixed",
+      "tags": [
+        "Somm House"
+      ],
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/767f2a4d251d36d516846fb165d6c670c638e796.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14M41137xT",
+      "durationSeconds": 431,
+      "publishedAt": "2023-05-08T16:31:20.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "原发布账号与UID已核实；只整理原片链接和公开分享封面，未下载重传，未推定所有原始素材版权。"
+    },
+    {
+      "id": "bili-BV17g4y197JG",
+      "bvid": "BV17g4y197JG",
+      "creatorId": "somehouse",
+      "title": "波尔多大师班 - 波尔多酒单制作&餐酒搭配",
+      "url": "https://www.bilibili.com/video/BV17g4y197JG/",
+      "platform": "Bilibili",
+      "publisher": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/32601116/",
+      "topic": "service",
+      "tags": [
+        "Somm House"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/c1414223142cf2ccaa9e2d4dbe81ede16cdeab4a.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17g4y197JG",
+      "durationSeconds": 1954,
+      "publishedAt": "2023-11-07T17:52:48.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "原发布账号与UID已核实；只整理原片链接和公开分享封面，未下载重传，未推定所有原始素材版权。"
+    }
+  ],
+  "sourceEvidence": [
+    {
+      "bvid": "BV17U4y157Xq",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV17U4y157Xq/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/ae7fe436dd5b9c289f28aa88e18ada3a3345a743.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17U4y157Xq",
+      "durationSeconds": 106,
+      "publishedAt": "2021-06-07T13:26:09.000Z"
+    },
+    {
+      "bvid": "BV14M41137xT",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV14M41137xT/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/767f2a4d251d36d516846fb165d6c670c638e796.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14M41137xT",
+      "durationSeconds": 431,
+      "publishedAt": "2023-05-08T16:31:20.000Z"
+    },
+    {
+      "bvid": "BV17g4y197JG",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV17g4y197JG/",
+      "author": "亨利的逐未旅途",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/32601116/?spm_id_from=333.788.upinfo.head.click",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/c1414223142cf2ccaa9e2d4dbe81ede16cdeab4a.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17g4y197JG",
+      "durationSeconds": 1954,
+      "publishedAt": "2023-11-07T17:52:48.000Z"
+    }
+  ]
+}

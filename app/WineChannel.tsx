@@ -87,7 +87,7 @@ export default function WineChannel({h}:{h:Habits}) {
       <div className="wc-creators">{creators.map(c=><button className="wc-creator" key={c.id} onClick={()=>openCreator(c.id)}>
         <span className="wc-initial" aria-hidden="true">{c.initial}</span><span className="wc-creator-copy"><strong>{c.name}</strong><span>{c.description}</span><small>{curated.filter(v=>v.publisher===c.name).length} 条已收录视频{c.topics?.length?' · '+c.topics.join(' / '):''}</small></span><span className="wc-dots" aria-hidden="true">…</span>
       </button>)}</div>
-      <details className="wc-pending"><summary>待接入的指定作者</summary>{legacy.creators.filter(c=>c.status==='identity_pending').map(c=><p key={c.id}><b>{c.name}</b> · 原发布账号待确认。</p>)}</details>
+      <details className="wc-pending"><summary>待接入的指定作者</summary>{legacy.creators.filter(c=>c.status==='identity_pending'&&!catalog.creators.some(known=>known.id===c.id)).map(c=><p key={c.id}><b>{c.name}</b> · 原发布账号待确认。</p>)}</details>
     </> : <>
       <button className="back-link" onClick={()=>openCreator('')}>返回创作者</button>
       <div className="wc-section-heading"><div><h2>{current?.name || (selected==='own'?'Somehouse · 自有内容':selected==='personal'?'我的视频链接':selected==='all'?'全部视频':'未找到此创作者')}</h2>{current && <p>{current.description}</p>}</div>{current?.url&&<a className="text-button" href={current.url} target="_blank" rel="noopener noreferrer">B 站账号主页</a>}</div>
