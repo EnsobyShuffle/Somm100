@@ -1456,6 +1456,31 @@
         "fullContentReviewed": false
       },
       "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1vs411P7q1",
+      "bvid": "BV1vs411P7q1",
+      "creatorId": "bingke",
+      "title": "香槟食谱 | 5分钟学会！搭配香槟的绝妙海鲜食谱",
+      "url": "https://www.bilibili.com/video/BV1vs411P7q1/",
+      "platform": "Bilibili",
+      "publisher": "槟客文化",
+      "publisherUrl": "https://space.bilibili.com/348903504/",
+      "topic": "service",
+      "tags": [
+        "Champagne"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/beaebd6808aa4006eb0af7f258bf99a738a1e4f7.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vs411P7q1",
+      "durationSeconds": 244,
+      "publishedAt": "2018-07-24T09:02:59.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
     }
   ]
 }
