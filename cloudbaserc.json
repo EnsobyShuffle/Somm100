@@ -6,7 +6,7 @@
       "name": "somm100",
       "framework": "static",
       "outputDir": "dist-cloudbase",
-      "deployPath": "/"
+      "deployPath": "/somm100"
     }
   ]
 }

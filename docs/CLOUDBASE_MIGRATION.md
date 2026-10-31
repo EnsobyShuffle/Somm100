@@ -79,3 +79,10 @@ tcb hosting deploy ./dist-cloudbase / --verify --safe -e shuffle-platform-d6eoe6
 - CloudBase 表单：项目 `somm100`，框架“其他”，Node.js 24，目标目录 `./`，安装命令 `npx --yes pnpm@11.25.0 install --frozen-lockfile`，构建命令 `npm run build:cloudbase`，产物目录 `./dist-cloudbase`，部署路径 `/`。
 - 已读取 16:25 视频迁移包（Library `libfile_e31080718d908191bdd62777625110b0`），在此前94条基础上按BV去重新增3条，待部署目录97条；原目录保留，原片证据随同保存。未把已核实元数据说成完整播放或版权确认。
 - 此检查点是部署准备，不能代替腾讯构建成功、远端文件验证、实际域名和国内网络验收。
+
+## 子路径修正（覆盖上文根路径配置）
+
+- Henry反馈当前控制台表单的根路径 `/` 无法提交，因此当前部署路径改为 `/somm100`，其余表单命令不变。尚未取得具体校验错误，不能把这一现象说成CloudBase全平台禁止根路径。
+- CloudBase构建的Vite base设为 `/somm100/`，仅在该构建中改写app/data内既有公开资源前缀（media、brand、releases、journal、wine-atlas、sw.js）；API、外部视频地址和音标保持。PWA manifest采用相对scope/start_url/icons；service worker按注册scope预缓存并只清理自己scope的旧缓存。
+- 生产构建成功，实际入口HTML/JS、资源文件存在性、PWA图标与scope检查通过；离线fallback和其他项目缓存不被删除的执行检查通过。public目录还含历史独立导出的bundle，不把它们误判为当前入口bundle。
+- 用户随后表示“部署好了”；尚未提供实际访问URL或构建版本，当前仅记录用户反馈，不能声明网站实测完成。需确认本次子路径修正提交被腾讯构建采用；若未自动触发，则在已有somm100应用重新部署同一分支，不重复创建应用。

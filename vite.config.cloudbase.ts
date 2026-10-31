@@ -7,8 +7,21 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   root: fileURLToPath(new URL('./cloudbase', import.meta.url)),
   publicDir: fileURLToPath(new URL('./public', import.meta.url)),
-  base: '/',
-  plugins: [react()],
+  base: '/somm100/',
+  plugins: [
+    {
+      name: 'somm100-cloudbase-public-paths',
+      enforce: 'pre',
+      transform(code, id) {
+        // Scope public URLs in this build; retain APIs, external URLs and phonetics.
+        const file = id.split('?')[0];
+        if (!/\/(app|data)\//.test(file) || file.includes('/node_modules/')) return;
+        if (!/\.(?:tsx?|json)$/.test(file)) return;
+        return code.replace(/(["'`])\/(media\/|brand\/|journal\/|wine-atlas\/|releases\/|sw\.js(?=["'`]))/g, '$1/somm100/$2');
+      },
+    },
+    react(),
+  ],
   resolve: { alias: { '@': fileURLToPath(new URL('.', import.meta.url)) } },
   define: { 'import.meta.env.VITE_SOMM100_LOCAL_ONLY': 'true' },
   build: {
