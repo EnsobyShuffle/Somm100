@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31T03:36:02.074Z",
+  "checkedAt": "2026-10-31T04:27:04.763Z",
   "repository": "EnsobyShuffle/Somm100",
   "branch": "main",
-  "baseCommit": "79134f3d2fcbfe0d8d8ccf731d4d3c24e91b0621",
+  "baseCommit": "4858e6b5602f2146f0fcd15d4d774487b9a71926",
   "netlifyProject": "somm100",
   "siteUrl": "https://somm100.netlify.app/",
   "netlifyDashboard": "https://app.netlify.com/projects/somm100/deploys",
@@ -11,7 +11,7 @@
   "publishing": {
     "autoPublishMain": true,
     "status": "blocked_by_netlify_credits",
-    "evidence": "2026-10-31 11:33 CST Netlify dashboard: operational credits; production deploys paused; main@79134f3 skipped due to account credit usage exceeded. Published remains fdae698. PR7 preview completed.",
+    "evidence": "2026-10-31 12:26 CST Netlify dashboard: production deploys paused for credits; main@4858e6b skipped. Published remains fdae698. PR8 preview completed.",
     "newContentLiveVerified": false,
     "instruction": "Check the original project's current state. Do not buy/upgrade, create a replacement site, or claim live from a Git commit alone. Once publishing is available, publish through this existing main-to-Netlify workflow and verify creator pages.",
     "previewUrl": "https://6ae5542fea75887bc61562f3--somm100.netlify.app/#videos?creator=bingke",
@@ -22,13 +22,13 @@
     "legacyFile": "data/video-library.json",
     "legacyVideoCount": 25,
     "additionsFile": "data/wine-channel.json",
-    "addedVideoCount": 53,
-    "combinedCuratedCount": 78,
-    "newOriginalCovers": 55,
+    "addedVideoCount": 57,
+    "combinedCuratedCount": 82,
+    "newOriginalCovers": 59,
     "noraNew": 24,
     "noraTotal": 26,
-    "bingkeNew": 29,
-    "bingkeTotal": 29,
+    "bingkeNew": 33,
+    "bingkeTotal": 33,
     "playbackVerified": false,
     "fullContentReviewed": false
   },
@@ -87,7 +87,11 @@
     "BV1At411Q71k",
     "BV1UK4y1t7NZ",
     "BV1Ft411Q7Rt",
-    "BV1ct411Q7Fo"
+    "BV1ct411Q7Fo",
+    "BV1uW4y127cN",
+    "BV1ct411Q756",
+    "BV1UV41127PU",
+    "BV1HY4y1u7mE"
   ],
   "next": [
     {
@@ -100,22 +104,25 @@
       "creatorId": "bingke",
       "uid": "348903504",
       "bvids": [
-        "BV1qt4y117CB",
-        "BV1uW4y127cN",
-        "BV1ct411Q756",
-        "BV1UV41127PU"
+        "BV1X14y1x7st",
+        "BV1vs411P7q1"
       ],
-      "task": "New candidates discovered on Tarlant source page. Verify exact author UID, educational relevance and cover before addition; related links are not author approval."
+      "task": "Candidates discovered on duck-pairing source page; verify author and educational relevance. Not an exhaustive account census."
     },
     {
       "creatorId": "miki",
-      "task": "Search found documentary candidates; confirm UID26124055 and trace original production. Not added or claimed authorized.",
+      "task": "Uploader name and UID verified from BV1rx4y1x75n. Documentary links remain discovery leads: trace original title/producer and suitability; do not infer redistribution authorization. Leroy excerpt original production unresolved; not added.",
       "candidateName": "Mickey米老师",
       "candidateUrl": "https://space.bilibili.com/26124055/",
       "bvids": [
-        "BV1rx4y1x75n",
+        "BV1Ja4y1E7dP",
+        "BV1L3411V7Ts",
+        "BV1k5411h77o",
         "BV1jS411w7dX"
-      ]
+      ],
+      "uid": "26124055",
+      "identityVerified": true,
+      "identityEvidence": "https://www.bilibili.com/zh-Hans/video/BV1rx4y1x75n/"
     },
     {
       "creatorId": "somehouse",
@@ -126,21 +133,20 @@
   "validationNotes": "See docs/wine-channel-20261031.md. Original Bilibili metadata was read; actual playback and post-deploy mobile visual QA remain unverified.",
   "lastRun": {
     "added": [
-      "BV1nd4y1S7Z1",
-      "BV1Ep4y1X7kQ",
-      "BV19C4y1H74p",
-      "BV1At411Q71k",
-      "BV1UK4y1t7NZ",
-      "BV1Ft411Q7Rt",
-      "BV1ct411Q7Fo"
+      "BV1uW4y127cN",
+      "BV1ct411Q756",
+      "BV1UV41127PU",
+      "BV1HY4y1u7mE"
     ],
     "enrichedExisting": [],
     "newAuthors": 0,
-    "total": 78,
+    "total": 82,
     "lastCreatorId": "bingke",
-    "lastBvid": "BV1ct411Q7Fo",
-    "deferred": [],
-    "tests": "3 data/source tests passed. 78 unique BV IDs. All 46 prior additions preserved unchanged; legacy 25 records untouched. PR7 preview search/player fallback interaction inspected; no actual playback, mobile visual or new full build claimed.",
+    "lastBvid": "BV1HY4y1u7mE",
+    "deferred": [
+      "BV1qt4y117CB"
+    ],
+    "tests": "3 data/source tests passed. 82 unique BV IDs. All 53 prior additions preserved; legacy 25 records untouched. No new full build, actual playback or mobile visual QA claimed.",
     "productionLive": false,
     "fullPlaybackTested": false,
     "mobileVisualTested": false,
@@ -151,14 +157,14 @@
       "libraryFileId": "libfile_4195d9da01cc8191b2299c44a209cc68",
       "name": "Wine_Channel_Sourcebook_2026-10-25.xlsx",
       "versionId": "1",
-      "readAt": "2026-10-31T03:36:02.074Z",
+      "readAt": "2026-10-31T04:27:04.763Z",
       "scope": "Full current text; no new creators approved from candidate pool."
     },
     {
       "libraryFileId": "libfile_739586147c14819189cbf49c52f31faa",
       "name": "Dante_Video_Team_Inventory_2026-10-28.xlsx",
       "versionId": null,
-      "readAt": "2026-10-31T03:36:02.074Z",
+      "readAt": "2026-10-31T04:27:04.763Z",
       "scope": "Full current text; no new creators approved from candidate pool."
     }
   ],
@@ -246,6 +252,24 @@
       "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1aP4y1p74K/",
       "reason": "Author verified; short China/food greeting teaser, not substantive wine teaching. Hold outside learning catalog.",
       "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV1qt4y117CB",
+      "creatorId": "bingke",
+      "title": "香槟酒庄故事 | Champagne Carbon",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1qt4y117CB/",
+      "reason": "53-second brand partnership short emphasizing F1/Bugatti and packaging. Hold for substantive educational-content review.",
+      "checkedAt": "2026-10-31"
     }
-  ]
+  ],
+  "creatorResearch": {
+    "miki": {
+      "name": "Mickey米老师",
+      "uid": "26124055",
+      "sourcePage": "https://www.bilibili.com/zh-Hans/video/BV1rx4y1x75n/",
+      "publisherUrl": "https://space.bilibili.com/zh-Hans/26124055/?spm_id_from=333.788.upinfo.head.click",
+      "checkedAt": "2026-10-31",
+      "status": "uploader_identity_verified_original_production_pending"
+    }
+  }
 }

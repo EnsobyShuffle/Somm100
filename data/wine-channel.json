@@ -1356,6 +1356,106 @@
         "fullContentReviewed": false
       },
       "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1uW4y127cN",
+      "bvid": "BV1uW4y127cN",
+      "creatorId": "bingke",
+      "title": "Champagne Pierre Gerbais 哲别香槟酒庄 | 白皮诺小王子的酿酒方法论",
+      "url": "https://www.bilibili.com/video/BV1uW4y127cN/",
+      "platform": "Bilibili",
+      "publisher": "槟客文化",
+      "publisherUrl": "https://space.bilibili.com/348903504/",
+      "topic": "vinification",
+      "tags": [
+        "Champagne"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/055bee3b850f1d5d25ddc6072c6a834839eecfb7.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uW4y127cN",
+      "durationSeconds": 532,
+      "publishedAt": "2022-07-23T23:05:28.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1ct411Q756",
+      "bvid": "BV1ct411Q756",
+      "creatorId": "bingke",
+      "title": "香槟酒庄故事 | Canard-Duchêne",
+      "url": "https://www.bilibili.com/video/BV1ct411Q756/",
+      "platform": "Bilibili",
+      "publisher": "槟客文化",
+      "publisherUrl": "https://space.bilibili.com/348903504/",
+      "topic": "regions",
+      "tags": [
+        "Champagne"
+      ],
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/60355643ee5fc374c7136c23e2461822e663bb3b.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ct411Q756",
+      "durationSeconds": 54,
+      "publishedAt": "2018-12-04T04:36:53.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1UV41127PU",
+      "bvid": "BV1UV41127PU",
+      "creatorId": "bingke",
+      "title": "Champagne Vilmart&Cie 酒庄介绍",
+      "url": "https://www.bilibili.com/video/BV1UV41127PU/",
+      "platform": "Bilibili",
+      "publisher": "槟客文化",
+      "publisherUrl": "https://space.bilibili.com/348903504/",
+      "topic": "regions",
+      "tags": [
+        "Champagne"
+      ],
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/eaca6e8226a7f8a48e20a4a050247308c8e5454b.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UV41127PU",
+      "durationSeconds": 167,
+      "publishedAt": "2020-09-07T07:29:00.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
+    },
+    {
+      "id": "bili-BV1HY4y1u7mE",
+      "bvid": "BV1HY4y1u7mE",
+      "creatorId": "bingke",
+      "title": "香槟配烤鸭，怎么那么搭！高级侍酒师开启美食模式，米其林侦探都给馋哭了！",
+      "url": "https://www.bilibili.com/video/BV1HY4y1u7mE/",
+      "platform": "Bilibili",
+      "publisher": "槟客文化",
+      "publisherUrl": "https://space.bilibili.com/348903504/",
+      "topic": "service",
+      "tags": [
+        "Champagne"
+      ],
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/73e4284212c333e33e0537e8a5940e2642e9192c.jpg@1200w_630h",
+      "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1HY4y1u7mE",
+      "durationSeconds": 344,
+      "publishedAt": "2022-08-26T16:43:49.000Z",
+      "verification": {
+        "metadata": "original_page_verified",
+        "checkedAt": "2026-10-31",
+        "playbackTested": false,
+        "fullContentReviewed": false
+      },
+      "rightsNote": "B站原视频外链与原页面公开分享预览；未下载或重新上传视频。"
     }
   ]
 }
