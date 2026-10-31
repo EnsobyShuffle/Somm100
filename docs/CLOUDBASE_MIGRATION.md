@@ -7,7 +7,7 @@
 - 原始 Sites 项目：`appgprj_6adbaff9281081919f00f6a89b1fa1c7`。
 - 已对齐 GitHub `EnsobyShuffle/Somm100` 的 `56ec515c3ff67e97e95f6d66475561d0d87367fd`，逐个校验 853 个文件；18 个差异文件按 Git blob SHA 验证后同步。
 - 腾讯云上海标准环境：`shuffle-platform-d6eoe6y06c6f4ea`，控制台已确认到期日 2027-04-30。
-- SOMM100 首先使用这个环境的托管根路径 `/`；其他项目不得覆盖此路径。正式域名与备案仍需核对。
+- SOMM100 当前使用这个环境的托管子路径 `/somm100`；其他项目不得覆盖此路径。正式域名与备案仍需核对。此前根路径计划已被后文子路径修正取代。
 
 ## 第一阶段保留现有功能
 
@@ -25,10 +25,12 @@ node --test tests/learning-client.test.mjs tests/testing-store.test.mjs tests/wi
 python3 scripts/package-cloudbase.py
 tcb login --flow device --intl false
 tcb hosting detail -e shuffle-platform-d6eoe6y06c6f4ea
-tcb hosting deploy ./dist-cloudbase / --verify --safe -e shuffle-platform-d6eoe6y06c6f4ea
+tcb hosting deploy ./dist-cloudbase /somm100 --verify --safe -e shuffle-platform-d6eoe6y06c6f4ea
 ```
 
 只上传 `dist-cloudbase/`。ZIP 文件包含托管根目录下的页面与公开资源，禁止上传源码、研究目录、`.openai`、`.env` 或凭证。默认不删除远端文件。
+
+当前采用 Git 个人仓库部署，不需要重复 CLI 授权。上面的 CLI 命令只在执行环境已有合法可用访问通路、身份和远端文件检查通过后使用。ZIP 内部不增加 `somm100` 层，上传目标为 `/somm100`。打包清单从 `cloudbaserc.json` 读取环境和路径，区分本地提交与通过 `--github-commit` 显式记录的已核验 GitHub 提交，不再把旧 main 的提交号当最新源。
 
 本次不发布旧 ChatGPT Site、不触发 Netlify、不修改旧域名。旧浏览器记录仍属于旧域名，未导出并验证新域名导入前不得切断旧入口。CLI 登录完成后仍须核对托管是否开通、远端现存文件及默认域名，再实际上传。
 
@@ -86,3 +88,12 @@ tcb hosting deploy ./dist-cloudbase / --verify --safe -e shuffle-platform-d6eoe6
 - CloudBase构建的Vite base设为 `/somm100/`，仅在该构建中改写app/data内既有公开资源前缀（media、brand、releases、journal、wine-atlas、sw.js）；API、外部视频地址和音标保持。PWA manifest采用相对scope/start_url/icons；service worker按注册scope预缓存并只清理自己scope的旧缓存。
 - 生产构建成功，实际入口HTML/JS、资源文件存在性、PWA图标与scope检查通过；离线fallback和其他项目缓存不被删除的执行检查通过。public目录还含历史独立导出的bundle，不把它们误判为当前入口bundle。
 - 用户随后表示“部署好了”；尚未提供实际访问URL或构建版本，当前仅记录用户反馈，不能声明网站实测完成。需确认本次子路径修正提交被腾讯构建采用；若未自动触发，则在已有somm100应用重新部署同一分支，不重复创建应用。
+
+## 2026-10-31 17:30 验证与接续
+
+- GitHub 分支读回为 `f9cee5f1b93f1892b31b8d1645ecde619cfefa4b`，父提交 `caf5fa8`，主分支仍为 `56ec515`。6 个子路径改动文件及 `netlify.toml` 的远端 blob SHA 与本地逐一相同；未访问旧 Netlify 站。
+- 本轮发现打包脚本的清单仍固定写旧基线和 `/`，已修正为读取当前配置，并分别记录本地/GitHub 提交，防止后续手动上传误用根路径。
+- 基于已经通过生产构建的子路径产物重新打包：451个公开文件；ZIP完整性、逐文件SHA-256、清单路径、HTML资源前缀和未混入源码/研究/凭证目录的检查全部通过。本轮仅修改打包与交接文件，不重复运行未受影响的前端构建。
+- 17:28 读取 Wine Channel 最新任务结果：17:25 包新增前端视频为 0，仍为原83加待迁移14条。本项目已合入这14条，当前97条；未把新包内尚待对应的BIVB研究当新增上线视频。
+- 17:29 再次读取现有腾讯云浏览器：tab107仍报 `Runtime.addBinding timed out`；tab99实际仍是腾讯登录页，微信二维码iframe显示 `Site Unavailable`。执行环境的网络配置状态工具仍未暴露，策略文件仍不存在；没有证据说明已解除之前的腾讯API网络策略拒绝。未重复生成授权码或付款。
+- 尚未取得腾讯实际构建结果、所用提交号、托管域名或公网页面。用户已完成部署的反馈保留为“用户报告、待验收”；五个项目的腾讯HTTPS访问网址均尚未取得。SOMM100后端账号同步、数据库迁移、旧域名学习记录恢复和大陆网络验收仍未完成。
