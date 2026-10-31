@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31T00:30:45.981Z",
+  "checkedAt": "2026-10-31T01:32:51.330Z",
   "repository": "EnsobyShuffle/Somm100",
   "branch": "main",
-  "baseCommit": "b3be0a2bc2ff3bc408f400b8ca9fd699c9c00816",
+  "baseCommit": "3f280196a2de071861f43986cb7bbe8f03498e44",
   "netlifyProject": "somm100",
   "siteUrl": "https://somm100.netlify.app/",
   "netlifyDashboard": "https://app.netlify.com/projects/somm100/deploys",
@@ -11,24 +11,24 @@
   "publishing": {
     "autoPublishMain": true,
     "status": "blocked_by_netlify_credits",
-    "evidence": "2026-10-31 08:29 CST Netlify Deploys: production paused on operational credits; main@b3be0a2 skipped due to credit usage exceeded. Published main remains fdae698.",
+    "evidence": "2026-10-31 09:32 CST Netlify: operational credits, production deploys paused; main@3f28019 skipped due to account credit usage exceeded. Published remains fdae698.",
     "newContentLiveVerified": false,
     "instruction": "Check the original project's current state. Do not buy/upgrade, create a replacement site, or claim live from a Git commit alone. Once publishing is available, publish through this existing main-to-Netlify workflow and verify creator pages.",
     "previewUrl": "https://6ae50124544fba545f1793a6--somm100.netlify.app/#videos?creator=nora",
-    "previewVerifiedScope": "Prior PR #1 33-video preview only. Current 59-video catalog not production verified.",
+    "previewVerifiedScope": "Prior PR #1 33-video preview only; current 66-video catalog not production verified.",
     "lastConfirmedStatus": "blocked_by_netlify_credits"
   },
   "catalog": {
     "legacyFile": "data/video-library.json",
     "legacyVideoCount": 25,
     "additionsFile": "data/wine-channel.json",
-    "addedVideoCount": 34,
-    "combinedCuratedCount": 59,
-    "newOriginalCovers": 36,
+    "addedVideoCount": 41,
+    "combinedCuratedCount": 66,
+    "newOriginalCovers": 43,
     "noraNew": 24,
     "noraTotal": 26,
-    "bingkeNew": 10,
-    "bingkeTotal": 10,
+    "bingkeNew": 17,
+    "bingkeTotal": 17,
     "playbackVerified": false,
     "fullContentReviewed": false
   },
@@ -68,7 +68,14 @@
     "BV1ET4y1u7qV",
     "BV1et411v73x",
     "BV1zG4y1o7NC",
-    "BV17s411E7wA"
+    "BV17s411E7wA",
+    "BV1qs411P7C1",
+    "BV1ya4y1v7Df",
+    "BV1Yt411v7mM",
+    "BV1vs411P76d",
+    "BV1wa411V7sr",
+    "BV15R4y1r722",
+    "BV1Pt411Q7NN"
   ],
   "next": [
     {
@@ -81,12 +88,11 @@
       "creatorId": "bingke",
       "uid": "348903504",
       "bvids": [
-        "BV1qs411P7C1",
-        "BV1ya4y1v7Df",
-        "BV1Yt411v7mM",
-        "BV1GN4y1F7p2",
-        "BV15G4y1B7CD",
-        "BV1vs411P76d"
+        "BV1TXmCBXEFd",
+        "BV1h9p5ekEYX",
+        "BV1HM411k7NX",
+        "BV1UK411i7zr",
+        "BV1a3411i7re"
       ],
       "task": "Candidates from verified creator's related links; verify exact author and cover before addition."
     },
@@ -105,44 +111,44 @@
   "validationNotes": "See docs/wine-channel-20261031.md. Original Bilibili metadata was read; actual playback and post-deploy mobile visual QA remain unverified.",
   "lastRun": {
     "added": [
-      "BV1KJ4BzMErJ",
-      "BV1ye4y1z7tD",
-      "BV1FN4y137T5",
-      "BV1wt411Q7At",
-      "BV1ET4y1u7qV",
-      "BV1et411v73x",
-      "BV1zG4y1o7NC",
-      "BV17s411E7wA"
+      "BV1qs411P7C1",
+      "BV1ya4y1v7Df",
+      "BV1Yt411v7mM",
+      "BV1vs411P76d",
+      "BV1wa411V7sr",
+      "BV15R4y1r722",
+      "BV1Pt411Q7NN"
     ],
     "enrichedExisting": [],
     "newAuthors": 0,
-    "total": 59,
+    "total": 66,
     "lastCreatorId": "bingke",
-    "lastBvid": "BV17s411E7wA",
-    "excluded": [
-      "BV1Mw2gBREaJ",
-      "BV1AG57zuEav"
+    "lastBvid": "BV1Pt411Q7NN",
+    "deferred": [
+      "BV1GN4y1F7p2",
+      "BV15G4y1B7CD",
+      "BV1Me411G7uJ"
     ],
-    "tests": "node --test tests/wine-channel.test.mjs: 3 pass. 59 distinct BV IDs; all original 26 additions preserved; 25 legacy records untouched. Source UID, title, cover, date, duration and player verified. No new full build, playback or mobile visual QA claimed.",
+    "tests": "3 data/source tests pass; 66 unique BV IDs. Existing 34 additions preserved; 25 legacy records untouched. No new full application build, playback or mobile visual QA claimed.",
     "productionLive": false,
     "fullPlaybackTested": false,
     "mobileVisualTested": false,
-    "submissionStatus": "Prepared for PR; final merge SHA in GitHub history."
+    "submissionStatus": "Prepared for PR; final merge SHA in repository history."
   },
   "sourcebooksRead": [
     {
       "libraryFileId": "libfile_4195d9da01cc8191b2299c44a209cc68",
       "name": "Wine_Channel_Sourcebook_2026-10-25.xlsx",
       "versionId": "1",
-      "readAt": "2026-10-31T00:30:45.981Z",
-      "scope": "Current full text read; creator approvals not inferred from candidate pool."
+      "readAt": "2026-10-31T01:32:51.330Z",
+      "scope": "Full current text; no new creators approved from candidate pool."
     },
     {
       "libraryFileId": "libfile_739586147c14819189cbf49c52f31faa",
       "name": "Dante_Video_Team_Inventory_2026-10-28.xlsx",
       "versionId": null,
-      "readAt": "2026-10-31T00:30:45.981Z",
-      "scope": "Current full text read; creator approvals not inferred from candidate pool."
+      "readAt": "2026-10-31T01:32:51.330Z",
+      "scope": "Full current text; no new creators approved from candidate pool."
     }
   ],
   "excludedCandidates": [
@@ -173,6 +179,30 @@
       "bvid": "BV1qG4y1F7ht",
       "creatorId": "bingke",
       "reason": "Author confirmed; broad drinker/cocktail lifestyle interview. Hold for educational relevance review, not auto-add whole creator."
+    },
+    {
+      "bvid": "BV1GN4y1F7p2",
+      "creatorId": "bingke",
+      "title": "喜欢中医和针灸的自然派技术流！传说中的葡萄“开光”到底是什么？魔爵香槟酒庄",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1GN4y1F7p2/",
+      "reason": "Author verified; hold for full educational relevance/content review. Description contains promotion or biodynamic/scientific framing requiring review; no factual endorsement.",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV15G4y1B7CD",
+      "creatorId": "bingke",
+      "title": "经历九九八十一难的生物动力法香槟，是玄学？三分钟让你快速弄懂有机/生物动力法香槟！",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV15G4y1B7CD/",
+      "reason": "Author verified; hold for full educational relevance/content review. Description contains promotion or biodynamic/scientific framing requiring review; no factual endorsement.",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV1Me411G7uJ",
+      "creatorId": "bingke",
+      "title": "一篇让你掌握派对Slay全场的关键法宝！香槟关于尺寸不得不说的那些事",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1Me411G7uJ/",
+      "reason": "Author verified; hold for full educational relevance/content review. Description contains promotion or biodynamic/scientific framing requiring review; no factual endorsement.",
+      "checkedAt": "2026-10-31"
     }
   ]
 }
