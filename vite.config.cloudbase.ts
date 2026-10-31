@@ -7,7 +7,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   root: fileURLToPath(new URL('./cloudbase', import.meta.url)),
   publicDir: fileURLToPath(new URL('./public', import.meta.url)),
-  base: '/somm100/',
+  // App-specific and custom domains serve this app at /. Shared hosting may
+  // mount it at /somm100/. Relative URLs support both without changing storage.
+  base: './',
   plugins: [
     {
       name: 'somm100-cloudbase-public-paths',
@@ -17,7 +19,7 @@ export default defineConfig({
         const file = id.split('?')[0];
         if (!/\/(app|data)\//.test(file) || file.includes('/node_modules/')) return;
         if (!/\.(?:tsx?|json)$/.test(file)) return;
-        return code.replace(/(["'`])\/(media\/|brand\/|journal\/|wine-atlas\/|releases\/|sw\.js(?=["'`]))/g, '$1/somm100/$2');
+        return code.replace(/(["'`])\/(media\/|brand\/|journal\/|wine-atlas\/|releases\/|sw\.js(?=["'`]))/g, '$1./$2');
       },
     },
     react(),
