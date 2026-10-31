@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-30T23:31:57.393Z",
+  "checkedAt": "2026-10-31T00:30:45.981Z",
   "repository": "EnsobyShuffle/Somm100",
   "branch": "main",
-  "baseCommit": "e127f178f378b34049ae695bda37fe3d3cb1d13d",
+  "baseCommit": "b3be0a2bc2ff3bc408f400b8ca9fd699c9c00816",
   "netlifyProject": "somm100",
   "siteUrl": "https://somm100.netlify.app/",
   "netlifyDashboard": "https://app.netlify.com/projects/somm100/deploys",
   "publishedCommitAtInspection": "fdae6980ec60ddda99309572d384ec872669432d",
   "publishing": {
     "autoPublishMain": true,
-    "status": "current_inspection_timed_out",
-    "evidence": "2026-10-31 07:30 CST: existing Netlify dashboard loads its shell, then DOM snapshot times out, including one reload attempt. Current production status unconfirmed. Last successful inspection 06:29 CST showed production paused for credit usage, published fdae698. Do not infer resumed publishing.",
+    "status": "blocked_by_netlify_credits",
+    "evidence": "2026-10-31 08:29 CST Netlify Deploys: production paused on operational credits; main@b3be0a2 skipped due to credit usage exceeded. Published main remains fdae698.",
     "newContentLiveVerified": false,
     "instruction": "Check the original project's current state. Do not buy/upgrade, create a replacement site, or claim live from a Git commit alone. Once publishing is available, publish through this existing main-to-Netlify workflow and verify creator pages.",
     "previewUrl": "https://6ae50124544fba545f1793a6--somm100.netlify.app/#videos?creator=nora",
-    "previewVerifiedScope": "Only prior PR #1 33-video preview was inspected. Current 51-video catalog has not been production verified.",
+    "previewVerifiedScope": "Prior PR #1 33-video preview only. Current 59-video catalog not production verified.",
     "lastConfirmedStatus": "blocked_by_netlify_credits"
   },
   "catalog": {
     "legacyFile": "data/video-library.json",
     "legacyVideoCount": 25,
     "additionsFile": "data/wine-channel.json",
-    "addedVideoCount": 26,
-    "combinedCuratedCount": 51,
-    "newOriginalCovers": 28,
-    "noraNew": 23,
-    "noraTotal": 25,
-    "bingkeNew": 3,
-    "bingkeTotal": 3,
+    "addedVideoCount": 34,
+    "combinedCuratedCount": 59,
+    "newOriginalCovers": 36,
+    "noraNew": 24,
+    "noraTotal": 26,
+    "bingkeNew": 10,
+    "bingkeTotal": 10,
     "playbackVerified": false,
     "fullContentReviewed": false
   },
@@ -60,24 +60,33 @@
     "BV1ySqEBHEwS",
     "BV1pdL26LEfP",
     "BV1QH5n6UEeH",
-    "BV1RVFnzPEJR"
+    "BV1RVFnzPEJR",
+    "BV1KJ4BzMErJ",
+    "BV1ye4y1z7tD",
+    "BV1FN4y137T5",
+    "BV1wt411Q7At",
+    "BV1ET4y1u7qV",
+    "BV1et411v73x",
+    "BV1zG4y1o7NC",
+    "BV17s411E7wA"
   ],
   "next": [
     {
       "creatorId": "nora",
       "uid": "506969146",
-      "bvids": [
-        "BV1Mw2gBREaJ",
-        "BV1AG57zuEav"
-      ],
-      "task": "Original Nora page BV1RVFnzPEJR related links. Author unknown until verified; exclude other publishers, do not assume Nora. Continue account discovery; Nora catalog not exhaustive."
+      "bvids": [],
+      "task": "Current queue exhausted after exclusions. Search found BV1KJ4BzMErJ, now added. Not an exhaustive account census; continue targeted account discovery later instead of unrelated recommendation chains."
     },
     {
       "creatorId": "bingke",
       "uid": "348903504",
       "bvids": [
-        "BV1qG4y1F7ht",
-        "BV1ye4y1z7tD"
+        "BV1qs411P7C1",
+        "BV1ya4y1v7Df",
+        "BV1Yt411v7mM",
+        "BV1GN4y1F7p2",
+        "BV15G4y1B7CD",
+        "BV1vs411P76d"
       ],
       "task": "Candidates from verified creator's related links; verify exact author and cover before addition."
     },
@@ -96,38 +105,44 @@
   "validationNotes": "See docs/wine-channel-20261031.md. Original Bilibili metadata was read; actual playback and post-deploy mobile visual QA remain unverified.",
   "lastRun": {
     "added": [
-      "BV1pdL26LEfP",
-      "BV1QH5n6UEeH",
-      "BV1RVFnzPEJR"
+      "BV1KJ4BzMErJ",
+      "BV1ye4y1z7tD",
+      "BV1FN4y137T5",
+      "BV1wt411Q7At",
+      "BV1ET4y1u7qV",
+      "BV1et411v73x",
+      "BV1zG4y1o7NC",
+      "BV17s411E7wA"
     ],
     "enrichedExisting": [],
     "newAuthors": 0,
-    "total": 51,
-    "lastCreatorId": "nora",
-    "lastBvid": "BV1RVFnzPEJR",
+    "total": 59,
+    "lastCreatorId": "bingke",
+    "lastBvid": "BV17s411E7wA",
     "excluded": [
-      "BV1Ppp3z2EaC"
+      "BV1Mw2gBREaJ",
+      "BV1AG57zuEav"
     ],
-    "tests": "node --test tests/wine-channel.test.mjs: 3 tests pass. 51 unique BV IDs. Existing 23 additions preserved unchanged; legacy 25 records untouched. Data-only update; no full app build, playback or mobile visual QA claimed.",
+    "tests": "node --test tests/wine-channel.test.mjs: 3 pass. 59 distinct BV IDs; all original 26 additions preserved; 25 legacy records untouched. Source UID, title, cover, date, duration and player verified. No new full build, playback or mobile visual QA claimed.",
     "productionLive": false,
     "fullPlaybackTested": false,
     "mobileVisualTested": false,
-    "submissionStatus": "Changes prepared for PR; final commit status is in repository history."
+    "submissionStatus": "Prepared for PR; final merge SHA in GitHub history."
   },
   "sourcebooksRead": [
     {
       "libraryFileId": "libfile_4195d9da01cc8191b2299c44a209cc68",
       "name": "Wine_Channel_Sourcebook_2026-10-25.xlsx",
       "versionId": "1",
-      "readAt": "2026-10-30T23:31:57.393Z",
-      "scope": "Current full text; candidate lists are not author approval."
+      "readAt": "2026-10-31T00:30:45.981Z",
+      "scope": "Current full text read; creator approvals not inferred from candidate pool."
     },
     {
       "libraryFileId": "libfile_739586147c14819189cbf49c52f31faa",
       "name": "Dante_Video_Team_Inventory_2026-10-28.xlsx",
       "versionId": null,
-      "readAt": "2026-10-30T23:31:57.393Z",
-      "scope": "Current full text; candidate lists are not author approval."
+      "readAt": "2026-10-31T00:30:45.981Z",
+      "scope": "Current full text read; creator approvals not inferred from candidate pool."
     }
   ],
   "excludedCandidates": [
@@ -137,6 +152,27 @@
       "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1Ppp3z2EaC/",
       "reason": "Related recommendation is not Nora. Author is excluded in current Sourcebook and Inventory; not added.",
       "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV1Mw2gBREaJ",
+      "actualAuthor": "酒精恶魔桑",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1Mw2gBREaJ/",
+      "reason": "Not Nora; unconfirmed creator and not selected for this catalog.",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "bvid": "BV1AG57zuEav",
+      "actualAuthor": "法语Ambre老师",
+      "sourceUrl": "https://www.bilibili.com/zh-Hans/video/BV1AG57zuEav/",
+      "reason": "Not Nora; unconfirmed creator and not selected for this catalog.",
+      "checkedAt": "2026-10-31"
+    }
+  ],
+  "deferredCandidates": [
+    {
+      "bvid": "BV1qG4y1F7ht",
+      "creatorId": "bingke",
+      "reason": "Author confirmed; broad drinker/cocktail lifestyle interview. Hold for educational relevance review, not auto-add whole creator."
     }
   ]
 }
