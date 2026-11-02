@@ -1,5 +1,16 @@
 # SOMM100 腾讯云迁移检查点
 
+## 2026-11-02 10:01 CST · 线上与部署通路复核
+
+- 本轮通过现有云浏览器重新加载腾讯测试应用，学习设置页正常显示，仍明确为游客本机记录；每日目标显示 20 分钟。只读观察，没有修改用户记录。DOM 入口脚本仍是 `/assets/index-ByL68l2x.js`，不能把此前相对路径新构建称为已上线。测试入口仍为 https://somm100-shuffle-platform-d6eoe6y06c6f4ea.webapps.tcloudbase.com/ ，不是正式自有域名或大陆网络验收。
+- 腾讯控制台本轮实际跳转官方登录页，微信二维码 iframe 显示 Site Unavailable / Unable to access this site。没有可用已登录控制台会话，无法读取当前部署 SHA、远端文件、域名绑定或发起重新部署。未切换登录方式、生成授权码、购买或续费。
+- 执行环境仍未暴露 environment_status，/etc/codex/network-policy.json 仍不存在；没有腾讯 API 网络策略已解除的证据。此前 explicit policy denial 不以改代理、IP 或路由规避。本轮未冒称 CLI 登录或上传成功。
+- GitHub 部署分支源检查：b714e39（功能父提交 c6221b9）；`vite.config.cloudbase.ts` 保留 base './'，`cloudbaserc.json` 保留上海原环境与 /somm100；`netlify.toml` 保留 ignore = "exit 0"。本次仅增加检查点，不更改正文、业务代码、main 或旧站。
+- 已读取 Core Text 最新独立任务交接（2026-11-02 09:41 CST）：Champagne 已有 33 个唯一编号，本轮涉及 6 处 Notion 定点修改；imported/live 仍未完成。11月1日私有候选包中 Champagne 12 节已落后于当前 Notion，后续必须重新逐节比较，禁止把旧候选包直接当最新教材发布。本轮没有将任何新教材原文上传公开仓库。
+- 新 Wine Channel 20261102_0906 包已有交接引用，但本轮未读取包内容、未导入，不将包生成或研究更新当成新增前端条目。
+- 项目状态：SOMM100 腾讯测试站本轮可访问，正式域名、最新构建、跨域恢复、手机实机、大陆访问、后端同步均未完成验收；Shuffle / Art Gallery / Atlas / Enso 本轮未部署，腾讯 HTTPS 地址尚未取得。Art Gallery 另遵守最新仅整理资料、不部署的指示。
+- 部署执行受上述身份/访问通路阻塞；暂停重复部署巡检，保留全部成果与费用设置。恢复条件为可用的已授权腾讯控制台或合法已放行的部署通路，再读取构建记录核对本分支并继续验收。内容整理任务不由本轮更改。
+
 ## 2026-11-01 15:25 CST · 恢复执行与腾讯线上验收（最新）
 
 - Henry 明确表示额度恢复、允许继续当前迁移工作。本轮只恢复手动执行；没有修改原自动任务计划。
