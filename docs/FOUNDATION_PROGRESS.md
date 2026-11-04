@@ -1,3 +1,45 @@
+# Foundation checkpoint — 2026-11-04 Rhône comparison and map guide
+
+Base: 10d540769d95edd5c812fa080236222ec98b7ccf on migration/tencent-somm100.
+
+## Delivered increment
+- Fresh branch/checkpoint/source map/France component and data/diagram renderer/CSS/Netlify guard read. No intervening branch update at start.
+- Read resource matrix 40717d16de4c81c2910decdcecc94d7d and both linked candidates.
+- France candidate 3fe17d16de4c81368988dbaf72730fdd is SOMM-095 WORLD wine map, 553x311; metadata does not establish a suitable France-region map. Its pixels were not inspected; not published.
+- Rhône candidate 3fb17d16de4c8161b60ff956897c6334 contains advanced historical CMS notes and two attached images. Image identity/clarity/rights remain unverified; no private note text or images copied to student UI.
+- Added original Rhône north/south conceptual comparison using existing Foundation France-05 summary. Clearly NOT geographic map, boundaries or relative distances.
+- Added app/FoundationRhoneMapGuide.js with attributed external official Inter Rhône map (2025 edition), three location tasks, native expandable answer guide and official resource-page fallback.
+- Official resource page https://www.vins-rhone.com/en/wine-school/educational-resources and PDF https://www.vins-rhone.com/sites/vignoble/files/documentation/2025-04/CARTE-VVDR-A3-2025-sans%20villes.pdf fetched through web search on 2026-11-04. PDF text contains all cities and appellations used in exercise. External link only; no map rehosted or blanket reuse licence inferred.
+- Mounted existing diagram wrapper and new guide only in France review (guide only unit 05). No record schema, ID, score, instructor, image, cohort date or unrelated module changes.
+- Updated provenance with inspected metadata, suitability decisions and exact limits. Six teaching diagrams total now.
+
+## Course state
+D1: 10 units / 71 checks / 30 MCQs, four diagrams.
+D2: 9 units / 64 checks / 27 MCQs, one diagram.
+France: 6 units / 38 checks / 18 MCQs, NEW Rhône comparison and three unscored map tasks.
+D3 and D4: pre-course preview only, formal daily material pending.
+D5: current cohort dates recorded; material/assessment placement pending.
+Historical D6: not present in current five-day cohort source; no sixth day invented.
+All actual day-content allocation remains to be verified.
+
+## Verification / status
+- node --check passed for France review, new guide and diagram renderer.
+- Isolated static preview generated from the same renderer, guide function and CSS, NOT full React application. Desktop screenshot inspected; native details answer expansion verified.
+- Narrow iframe 390px outer / 375px content: both comparison columns stack at equal x; document scrollWidth 375 equals clientWidth 375; screenshot inspected.
+- Existing progress code/data unchanged; prior 24-test pass remains prior evidence, not rerun this round.
+- Complete checkout/React/Vite dependencies not restored. No production build, full app interaction test, physical phone or mainland network QA. Official PDF web fetch does not establish student browser availability.
+- Saved source/checkpoint changes; atomic GitHub commit and readback follow. Tencent deployment/live acceptance NOT verified. No newly verified live domain.
+- Preserve [skip netlify] and ignore = "exit 0". No Netlify, billing, ICP/domain or paused task action.
+
+## Next breakpoint
+1. Find a genuine France overview map with verified content/use scope; world-map candidate is not a substitute. Embedded Rhône geographic map remains open despite external guide.
+2. Read real wine-label sources for D1-10 before creating annotation; retain existing images/instructor text.
+3. Confirm actual five-day teaching allocation; no invented D3–D6.
+4. Restore full build workspace from authoritative branch, build:cloudbase, then verify deployed SHA and full Foundation UI.
+5. Continue Foundation only; substantive work delivered, no dependency-only stall.
+
+---
+
 # Foundation checkpoint — 2026-11-04 teaching diagrams
 
 Base: 0faa53d739ae79098fb7a12fc09ac9fd60a92dde on migration/tencent-somm100. Preserve the cohort 22 five-classroom-day correction.

@@ -440,7 +440,7 @@
     "status": "integrated-production-build-and-live-qa-pending",
     "renderer": "lib/foundation-diagrams.mjs",
     "component": "app/FoundationDiagram.js",
-    "count": 5,
+    "count": 6,
     "type": "original-semantic-html-diagrams",
     "sources": [
       {
@@ -477,10 +477,47 @@
         "sourceEditedAt": "2026-10-28T19:47:23.667Z",
         "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
         "verification": "unverified"
+      },
+      {
+        "id": "foundation-france-05",
+        "source": "https://app.notion.com/p/40717d16de4c8172833dcff7d2cd3fca",
+        "sourceEditedAt": "2026-10-28T19:48:28.705Z",
+        "verification": "unverified",
+        "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
       }
     ],
     "scope": "Visual adaptation of existing condensed lesson summaries. No third-party image or private textbook reproduced. No new day allocation or learning-record IDs.",
     "resourceMatrix": "https://app.notion.com/p/40717d16de4c81c2910decdcecc94d7d",
-    "remaining": "France maps, Rhône comparison and actual wine-label annotation remain pending."
+    "remaining": "France overview map, geographically accurate Rhône embedded map, and real label annotation pending. Rhône comparison and external official map guide integrated."
+  },
+  "franceMapResources": {
+    "checkedAt": "2026-11-04",
+    "candidates": [
+      {
+        "source": "https://app.notion.com/p/3fe17d16de4c81368988dbaf72730fdd",
+        "title": "SOMM-095｜世界葡萄酒产区地图",
+        "pixels": "553 × 311",
+        "decision": "not suitable for France region location practice; world overview only",
+        "verification": "metadata/content read; image not inspected or published"
+      },
+      {
+        "source": "https://app.notion.com/p/3fb17d16de4c8161b60ff956897c6334",
+        "title": "Rhone Valley",
+        "imageCount": 2,
+        "decision": "advanced study notes; no Foundation-ready map established",
+        "verification": "text read; images not inspected; no republication permission inferred from Media Verified"
+      }
+    ],
+    "officialRhoneMap": {
+      "url": "https://www.vins-rhone.com/sites/vignoble/files/documentation/2025-04/CARTE-VVDR-A3-2025-sans%20villes.pdf",
+      "publisher": "Inter Rhône",
+      "edition": "2025",
+      "resourcePage": "https://www.vins-rhone.com/en/wine-school/educational-resources",
+      "verification": "official page and PDF fetched via web search; required place labels present; not mobile/mainland network tested",
+      "use": "external attributed link only; no copied map asset",
+      "component": "app/FoundationRhoneMapGuide.js",
+      "exercises": 3
+    },
+    "status": "code-integrated-build-and-live-qa-pending"
   }
 }
