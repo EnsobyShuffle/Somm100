@@ -1,0 +1,15 @@
+.foundation-study { min-width: 0; }
+.foundation-study-controls { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0; }
+.foundation-study-controls label { display: grid; gap: .4rem; flex: 1 1 12rem; }
+.foundation-study-controls select { width: 100%; min-height: 44px; padding: .6rem; font: inherit; color: inherit; background: #fff; border: 1px solid #b9b5aa; border-radius: .35rem; }
+.foundation-week { padding-top: 1rem; }
+.foundation-study fieldset { min-width: 0; padding: 1rem; margin: 1rem 0; border: 1px solid #d8d4ca; border-radius: .5rem; }
+.foundation-study legend { font-weight: 600; padding: 0 .4rem; max-width: 100%; }
+.foundation-study .foundation-check { display: flex; align-items: flex-start; gap: .6rem; min-height: 44px; padding: .6rem 0; cursor: pointer; }
+.foundation-check input { width: 1.15rem; height: 1.15rem; margin: .15rem 0 0; flex: 0 0 1.15rem; }
+.foundation-check span { overflow-wrap: anywhere; }
+.foundation-study summary { padding: .8rem 0; cursor: pointer; font-weight: 600; }
+.foundation-study button { white-space: normal; min-height: 44px; }
+.foundation-study :focus-visible { outline: 3px solid #725832; outline-offset: 3px; }
+.foundation-study h4, .foundation-chapter { scroll-margin-top: 5rem; }
+@media (max-width: 600px) { .foundation-study fieldset { padding: .75rem; } .foundation-study .button-row { display: flex; flex-direction: column; align-items: stretch; } }

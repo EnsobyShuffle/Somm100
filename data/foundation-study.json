@@ -1,0 +1,660 @@
+{
+  "schemaVersion": 1,
+  "weeks": [
+    {
+      "id": "foundation-week-1",
+      "number": 1,
+      "title": "先学“怎么学葡萄酒”",
+      "goal": "先理解葡萄酒学习不是背百科。",
+      "checks": [
+        {
+          "id": "foundation-w1-check-1",
+          "text": "我知道为什么先建立框架比先背产区更重要。"
+        },
+        {
+          "id": "foundation-w1-check-2",
+          "text": "我知道一瓶酒的风格不是凭空产生的。"
+        },
+        {
+          "id": "foundation-w1-check-3",
+          "text": "我知道后面会不断连接葡萄、产区、年份和酿造。"
+        }
+      ],
+      "digest": "先把一瓶酒看成一组关系：葡萄品种提供风格的可能范围，产地与年份影响葡萄生长，种植和酿造选择继续改变结果。价格和酒庄名不能代替这些关系。遇到陌生概念，先问它在这条链条中做了什么。",
+      "concepts": [
+        "foundation-0",
+        "foundation-1"
+      ]
+    },
+    {
+      "id": "foundation-week-2",
+      "number": 2,
+      "title": "从一颗葡萄开始",
+      "goal": "认识葡萄本身和葡萄树一年怎么生长。",
+      "checks": [
+        {
+          "id": "foundation-w2-check-1",
+          "text": "我知道葡萄皮、果肉、籽、梗分别会影响什么。"
+        },
+        {
+          "id": "foundation-w2-check-2",
+          "text": "我能按顺序说出葡萄树主要生长阶段。"
+        },
+        {
+          "id": "foundation-w2-check-3",
+          "text": "我知道采收时间会影响成熟度。"
+        }
+      ],
+      "digest": "果肉含有水、糖和酸；葡萄皮可提供颜色和单宁，籽和梗也可能影响单宁。葡萄树经历休眠、萌芽、开花、坐果、转色、成熟与采收。转色是成熟阶段的重要变化，采收时间会影响糖、酸和最后的风格。",
+      "concepts": [
+        "foundation-2"
+      ]
+    },
+    {
+      "id": "foundation-week-3",
+      "number": 3,
+      "title": "环境为什么会改变葡萄",
+      "goal": "理解气候、阳光、水、坡度、海拔和土壤最终都在影响成熟。",
+      "checks": [
+        {
+          "id": "foundation-w3-check-1",
+          "text": "我知道温度、水、阳光会影响成熟。"
+        },
+        {
+          "id": "foundation-w3-check-2",
+          "text": "我知道年份不是简单的“好 / 坏年份表”。"
+        },
+        {
+          "id": "foundation-w3-check-3",
+          "text": "我知道种植者会主动管理葡萄园。"
+        },
+        {
+          "id": "foundation-w3-check-4",
+          "text": "我知道嫁接与砧木为什么重要。"
+        }
+      ],
+      "digest": "温度、阳光、水分、地形和人的管理共同影响成熟。在其他条件相近时，冷凉环境通常更有利于保留酸度。土壤通过排水、保水、温度和根系环境影响生长，不能直接套用“某种土壤等于某种香气”。使用抗根瘤蚜砧木并嫁接欧洲葡萄品种，是应对根系危害的重要方法。",
+      "concepts": [
+        "foundation-2"
+      ]
+    },
+    {
+      "id": "foundation-week-4",
+      "number": 4,
+      "title": "葡萄怎么变成酒",
+      "goal": "先理解发酵，再理解红、白、桃红基本差异。",
+      "checks": [
+        {
+          "id": "foundation-w4-check-1",
+          "text": "我能解释什么是酒精发酵。"
+        },
+        {
+          "id": "foundation-w4-check-2",
+          "text": "我知道红酒颜色主要来自果皮。"
+        },
+        {
+          "id": "foundation-w4-check-3",
+          "text": "我知道红葡萄也可以做白葡萄酒。"
+        },
+        {
+          "id": "foundation-w4-check-4",
+          "text": "我知道桃红为什么颜色更浅。"
+        }
+      ],
+      "digest": "酒精发酵中，酵母利用糖，产生酒精、二氧化碳和热量。红葡萄酒通常与果皮接触发酵，获得颜色和单宁；白葡萄酒通常先把汁与皮分离，红葡萄也能用于酿白酒。许多桃红通过较短的果皮接触获得浅色，这并非所有桃红唯一的酿法。",
+      "concepts": [
+        "foundation-3"
+      ]
+    },
+    {
+      "id": "foundation-week-5",
+      "number": 5,
+      "title": "发酵之后，风格继续形成",
+      "goal": "理解“酒精发酵结束，不等于葡萄酒已经完成”。",
+      "checks": [
+        {
+          "id": "foundation-w5-check-1",
+          "text": "我知道苹果酸乳酸转化为什么会改变酸感。"
+        },
+        {
+          "id": "foundation-w5-check-2",
+          "text": "我知道酒泥与质地有什么关系。"
+        },
+        {
+          "id": "foundation-w5-check-3",
+          "text": "我知道橡木桶不是“高级葡萄酒必需品”。"
+        },
+        {
+          "id": "foundation-w5-check-4",
+          "text": "我能说出酸度、单宁、酒体分别在描述什么。"
+        }
+      ],
+      "digest": "苹果酸乳酸转化会把较尖锐的苹果酸转为较柔和的乳酸。酒泥陈酿可影响质地和复杂度；橡木可能影响香气、质地和熟成，不是高品质的必需条件。酸度描述酸感，甜度与残糖有关，单宁带来收敛感，酒体描述口中轻重饱满的感受。",
+      "concepts": [
+        "foundation-3",
+        "foundation-4"
+      ]
+    },
+    {
+      "id": "foundation-week-6",
+      "number": 6,
+      "title": "六个核心葡萄品种",
+      "goal": "按结构、气候变化、酿造变化和经典产区认识六个核心品种。",
+      "checks": [
+        {
+          "id": "foundation-w6-check-1",
+          "text": "我能简单比较三个核心白品种。"
+        },
+        {
+          "id": "foundation-w6-check-2",
+          "text": "我能简单比较三个核心红品种。"
+        },
+        {
+          "id": "foundation-w6-check-3",
+          "text": "我知道同一品种换产区会改变。"
+        },
+        {
+          "id": "foundation-w6-check-4",
+          "text": "我不会只背香气表。"
+        }
+      ],
+      "digest": "先认识三个白品种与三个红品种。Chardonnay 可随气候与酿造表现出不同风格；Sauvignon Blanc 常有鲜明酸度；Riesling 的高酸可帮助平衡甜度。Pinot Noir 通常颜色较浅、单宁较低；Cabernet Sauvignon 常有较高单宁和酸度，具有陈年潜力但不保证每瓶都适合久藏；Syrah 与 Shiraz 是同一品种的常见名称。不要把这些概括当成每瓶酒的固定答案。",
+      "concepts": [
+        "foundation-5"
+      ]
+    },
+    {
+      "id": "foundation-week-7",
+      "number": 7,
+      "title": "葡萄酒来自哪里：France 作为第一张地图",
+      "goal": "理解产区名称为什么重要，并第一次把地图、品种和酒标连接起来。",
+      "checks": [
+        {
+          "id": "foundation-w7-check-1",
+          "text": "我能在地图上大致找到法国主要葡萄酒产区。"
+        },
+        {
+          "id": "foundation-w7-check-2",
+          "text": "我知道欧洲酒标可能不直接写葡萄品种。"
+        },
+        {
+          "id": "foundation-w7-check-3",
+          "text": "我能从一张基础酒标找到产区、年份和酒精度。"
+        }
+      ],
+      "digest": "把法国地名与品种连接起来：Bordeaux 左岸常以 Cabernet Sauvignon 为重要角色；Burgundy 的重要红品种是 Pinot Noir，Chablis 白葡萄酒使用 Chardonnay。接着认识 Loire Valley、Rhône Valley 和 Alsace。酒标不一定直接标出品种；年份通常指葡萄采收年，而非装瓶或购买年。地图定位材料仍待补齐，不用猜测代替读图。",
+      "concepts": [
+        "foundation-6",
+        "foundation-7"
+      ]
+    },
+    {
+      "id": "foundation-week-8",
+      "number": 8,
+      "title": "世界第一轮预览：为 D3 / D4 提前见一次",
+      "goal": "这里只做“第一次见面”。\n\n让学生以后在三周 Bridge 里再次预习 D3 / D4 时，不是第一次看到这些名字。",
+      "checks": [
+        {
+          "id": "foundation-w8-check-1",
+          "text": "我看到 Italy / Spain / Germany 等国家时不会完全陌生。"
+        },
+        {
+          "id": "foundation-w8-check-2",
+          "text": "我知道 Champagne 是特定产区名称。"
+        },
+        {
+          "id": "foundation-w8-check-3",
+          "text": "我知道加强型葡萄酒的基本概念。"
+        },
+        {
+          "id": "foundation-w8-check-4",
+          "text": "我知道 Napa Valley / Barossa Valley / Marlborough / Mendoza 等几个名字。"
+        },
+        {
+          "id": "foundation-w8-check-5",
+          "text": "我知道中国葡萄酒要单独学习。"
+        }
+      ],
+      "digest": "第一次认识世界地图上的名字：Italy、Spain、Portugal、Germany、Austria；再接触起泡酒、加强酒、新世界与中国葡萄酒。Barolo 联系 Nebbiolo，Rioja 的重要红品种之一是 Tempranillo，Mendoza 常联系 Malbec。Champagne 是特定产区的起泡酒名称，不是所有起泡酒的统称；葡萄酒通过加入葡萄蒸馏酒提高酒精度可制成加强型葡萄酒。中国葡萄酒作为独立板块学习。这只是预览，后续课堂和桥接还会继续。",
+      "concepts": [
+        "foundation-6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "foundation-readiness-01",
+      "number": 1,
+      "prompt": "一瓶葡萄酒的风格最合理的理解是？",
+      "options": [
+        "只由酒庄名字决定",
+        "由葡萄品种、产地、年份、种植和酿造共同影响",
+        "只由价格决定",
+        "只由橡木桶决定"
+      ],
+      "answer": 1,
+      "topic": "学习框架",
+      "week": 1
+    },
+    {
+      "id": "foundation-readiness-02",
+      "number": 2,
+      "prompt": "对零基础学生来说，最合理的学习顺序是？",
+      "options": [
+        "先背几百个酒庄",
+        "先背所有法规年份",
+        "先建立基本框架，再逐步增加细节",
+        "先刷大量难题"
+      ],
+      "answer": 2,
+      "topic": "学习方式",
+      "week": 1
+    },
+    {
+      "id": "foundation-readiness-03",
+      "number": 3,
+      "prompt": "学习一个陌生葡萄酒概念时，SOMM100 更强调什么？",
+      "options": [
+        "先记技术数字",
+        "先背英文定义",
+        "先记 Producer 排名",
+        "先理解“为什么”和基本关系"
+      ],
+      "answer": 3,
+      "topic": "理解优先",
+      "week": 1
+    },
+    {
+      "id": "foundation-readiness-04",
+      "number": 4,
+      "prompt": "红葡萄酒的颜色最主要来自哪里？",
+      "options": [
+        "葡萄皮",
+        "果肉",
+        "酒精",
+        "橡木桶"
+      ],
+      "answer": 0,
+      "topic": "葡萄结构",
+      "week": 2
+    },
+    {
+      "id": "foundation-readiness-05",
+      "number": 5,
+      "prompt": "葡萄转色意味着什么？",
+      "options": [
+        "葡萄已经完成发酵",
+        "葡萄开始进入明显成熟阶段",
+        "葡萄树开始休眠",
+        "葡萄酒已经装瓶"
+      ],
+      "answer": 1,
+      "topic": "生长周期",
+      "week": 2
+    },
+    {
+      "id": "foundation-readiness-06",
+      "number": 6,
+      "prompt": "为什么采收时间很重要？",
+      "options": [
+        "只影响酒标颜色",
+        "只影响酒瓶重量",
+        "会影响成熟度、糖、酸和最终风格",
+        "与葡萄酒没有关系"
+      ],
+      "answer": 2,
+      "topic": "成熟与采收",
+      "week": 2
+    },
+    {
+      "id": "foundation-readiness-07",
+      "number": 7,
+      "prompt": "在其他条件相近时，较冷凉环境通常更容易保留什么？",
+      "options": [
+        "较高橡木味",
+        "较高残糖",
+        "更深颜色",
+        "较高酸度"
+      ],
+      "answer": 3,
+      "topic": "气候",
+      "week": 3
+    },
+    {
+      "id": "foundation-readiness-08",
+      "number": 8,
+      "prompt": "关于土壤，最合理的理解是？",
+      "options": [
+        "土壤会影响排水、保水、温度和根系环境",
+        "石灰岩一定等于矿物味",
+        "黏土一定等于高品质",
+        "土壤名称可以直接决定葡萄酒香气"
+      ],
+      "answer": 0,
+      "topic": "土壤",
+      "week": 3
+    },
+    {
+      "id": "foundation-readiness-09",
+      "number": 9,
+      "prompt": "现代葡萄园使用嫁接的重要原因之一是什么？",
+      "options": [
+        "提高酒精度",
+        "应对根瘤蚜对欧洲葡萄根系的危害",
+        "增加橡木风味",
+        "让葡萄变甜"
+      ],
+      "answer": 1,
+      "topic": "嫁接",
+      "week": 3
+    },
+    {
+      "id": "foundation-readiness-10",
+      "number": 10,
+      "prompt": "酒精发酵最核心的变化是？",
+      "options": [
+        "单宁变成糖",
+        "酸度变成颜色",
+        "酵母把糖转化成酒精",
+        "橡木桶变成酒精"
+      ],
+      "answer": 2,
+      "topic": "发酵",
+      "week": 4
+    },
+    {
+      "id": "foundation-readiness-11",
+      "number": 11,
+      "prompt": "红葡萄酒与白葡萄酒最核心的差别之一是？",
+      "options": [
+        "白葡萄酒不发酵",
+        "红葡萄酒一定过桶",
+        "白葡萄酒一定甜",
+        "红葡萄酒通常有更长的果皮接触"
+      ],
+      "answer": 3,
+      "topic": "红白酿造",
+      "week": 4
+    },
+    {
+      "id": "foundation-readiness-12",
+      "number": 12,
+      "prompt": "桃红葡萄酒颜色通常较浅，主要原因是什么？",
+      "options": [
+        "红葡萄汁与果皮接触时间更短",
+        "一定加入白葡萄酒",
+        "酒精度一定更低",
+        "一定不发酵"
+      ],
+      "answer": 0,
+      "topic": "桃红",
+      "week": 4
+    },
+    {
+      "id": "foundation-readiness-13",
+      "number": 13,
+      "prompt": "苹果酸乳酸转化通常会怎样影响葡萄酒？",
+      "options": [
+        "酒精消失",
+        "酸感更柔和",
+        "颜色一定变深",
+        "单宁一定翻倍"
+      ],
+      "answer": 1,
+      "topic": "苹果酸乳酸转化",
+      "week": 5
+    },
+    {
+      "id": "foundation-readiness-14",
+      "number": 14,
+      "prompt": "酒泥陈酿通常更容易影响什么？",
+      "options": [
+        "葡萄园海拔",
+        "酒庄等级",
+        "质地与复杂度",
+        "产区边界"
+      ],
+      "answer": 2,
+      "topic": "酒泥",
+      "week": 5
+    },
+    {
+      "id": "foundation-readiness-15",
+      "number": 15,
+      "prompt": "关于橡木桶，哪项最合理？",
+      "options": [
+        "所有高级酒都必须使用新桶",
+        "它只负责储存",
+        "所有白葡萄酒都不能使用",
+        "它可能影响香气、质地和熟成，但不代表一定更高级"
+      ],
+      "answer": 3,
+      "topic": "橡木桶",
+      "week": 5
+    },
+    {
+      "id": "foundation-readiness-16",
+      "number": 16,
+      "prompt": "哪个品种最适合帮助理解“气候与酿造选择会明显改变风格”？",
+      "options": [
+        "Chardonnay",
+        "Pinotage",
+        "Touriga Nacional",
+        "Gamay"
+      ],
+      "answer": 0,
+      "topic": "Chardonnay",
+      "week": 6
+    },
+    {
+      "id": "foundation-readiness-17",
+      "number": 17,
+      "prompt": "Sauvignon Blanc 最典型的结构特点之一是？",
+      "options": [
+        "单宁很高",
+        "酸度较鲜明",
+        "颜色很深",
+        "一定高酒精"
+      ],
+      "answer": 1,
+      "topic": "Sauvignon Blanc",
+      "week": 6
+    },
+    {
+      "id": "foundation-readiness-18",
+      "number": 18,
+      "prompt": "为什么 Riesling 可以酿成甜型又保持平衡？",
+      "options": [
+        "Riesling 没有酸度",
+        "甜型 Riesling 一定过桶",
+        "高酸可以帮助平衡甜度",
+        "甜度会自动降低酒精"
+      ],
+      "answer": 2,
+      "topic": "Riesling",
+      "week": 6
+    },
+    {
+      "id": "foundation-readiness-19",
+      "number": 19,
+      "prompt": "Pinot Noir 通常更接近哪种结构？",
+      "options": [
+        "颜色很深、单宁极高",
+        "低酸、高酒精、高单宁",
+        "一定重酒体",
+        "颜色较浅、酸度较高、单宁较低"
+      ],
+      "answer": 3,
+      "topic": "Pinot Noir",
+      "week": 6
+    },
+    {
+      "id": "foundation-readiness-20",
+      "number": 20,
+      "prompt": "Cabernet Sauvignon 通常为什么有较强陈年能力？",
+      "options": [
+        "单宁和酸度通常较高",
+        "一定很甜",
+        "一定使用新橡木桶",
+        "颜色深就一定能陈年"
+      ],
+      "answer": 0,
+      "topic": "Cabernet Sauvignon",
+      "week": 6
+    },
+    {
+      "id": "foundation-readiness-21",
+      "number": 21,
+      "prompt": "Syrah 与 Shiraz 是什么关系？",
+      "options": [
+        "两个完全不同品种",
+        "同一个葡萄品种的不同常见名称",
+        "一个是产区，一个是品种",
+        "一个是酒庄，一个是品种"
+      ],
+      "answer": 1,
+      "topic": "Syrah",
+      "week": 6
+    },
+    {
+      "id": "foundation-readiness-22",
+      "number": 22,
+      "prompt": "一瓶 Chablis 白葡萄酒没有直接写品种，最合理的判断是？",
+      "options": [
+        "一定使用 Riesling",
+        "无法获得任何信息",
+        "很可能主要使用 Chardonnay",
+        "一定是混酿红酒"
+      ],
+      "answer": 2,
+      "topic": "Chablis",
+      "week": 7
+    },
+    {
+      "id": "foundation-readiness-23",
+      "number": 23,
+      "prompt": "Bordeaux 左岸通常哪个品种更重要？",
+      "options": [
+        "Gamay",
+        "Nebbiolo",
+        "Pinotage",
+        "Cabernet Sauvignon"
+      ],
+      "answer": 3,
+      "topic": "Bordeaux",
+      "week": 7
+    },
+    {
+      "id": "foundation-readiness-24",
+      "number": 24,
+      "prompt": "Burgundy 最重要的红葡萄品种是？",
+      "options": [
+        "Pinot Noir",
+        "Syrah",
+        "Merlot",
+        "Tempranillo"
+      ],
+      "answer": 0,
+      "topic": "Burgundy",
+      "week": 7
+    },
+    {
+      "id": "foundation-readiness-25",
+      "number": 25,
+      "prompt": "酒标上的 Vintage 通常指什么？",
+      "options": [
+        "酒庄成立年份",
+        "葡萄采收年份",
+        "酒瓶生产年份",
+        "购买年份"
+      ],
+      "answer": 1,
+      "topic": "酒标",
+      "week": 7
+    },
+    {
+      "id": "foundation-readiness-26",
+      "number": 26,
+      "prompt": "Barolo 最重要的葡萄品种是？",
+      "options": [
+        "Sangiovese",
+        "Tempranillo",
+        "Nebbiolo",
+        "Malbec"
+      ],
+      "answer": 2,
+      "topic": "Italy",
+      "week": 8
+    },
+    {
+      "id": "foundation-readiness-27",
+      "number": 27,
+      "prompt": "Rioja 最重要的红葡萄品种之一是？",
+      "options": [
+        "Riesling",
+        "Pinotage",
+        "Chardonnay",
+        "Tempranillo"
+      ],
+      "answer": 3,
+      "topic": "Spain",
+      "week": 8
+    },
+    {
+      "id": "foundation-readiness-28",
+      "number": 28,
+      "prompt": "关于 Champagne，哪项最准确？",
+      "options": [
+        "Champagne 是特定产区的起泡酒名称",
+        "所有起泡酒都可以叫 Champagne",
+        "Champagne 是葡萄品种",
+        "Champagne 是橡木桶类型"
+      ],
+      "answer": 0,
+      "topic": "Champagne",
+      "week": 8
+    },
+    {
+      "id": "foundation-readiness-29",
+      "number": 29,
+      "prompt": "加强型葡萄酒最核心的定义是什么？",
+      "options": [
+        "一定加入糖",
+        "加入葡萄蒸馏酒提高酒精度",
+        "一定加入二氧化碳",
+        "一定使用新桶"
+      ],
+      "answer": 1,
+      "topic": "加强型葡萄酒",
+      "week": 8
+    },
+    {
+      "id": "foundation-readiness-30",
+      "number": 30,
+      "prompt": "Mendoza 最经典的红葡萄品种联系是？",
+      "options": [
+        "Gamay",
+        "Riesling",
+        "Malbec",
+        "Pinot Gris"
+      ],
+      "answer": 2,
+      "topic": "新世界",
+      "week": 8
+    },
+    {
+      "id": "foundation-readiness-31",
+      "number": 31,
+      "prompt": "关于中国葡萄酒，哪项最合理？",
+      "options": [
+        "中国只有 Cabernet Sauvignon",
+        "所有中国产区气候相同",
+        "只需要背名庄",
+        "应作为独立知识板块学习，不只是“新世界”附录"
+      ],
+      "answer": 3,
+      "topic": "中国葡萄酒",
+      "week": 8
+    }
+  ]
+}

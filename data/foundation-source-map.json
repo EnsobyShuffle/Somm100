@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-11-04",
-  "status": "source-mapped-not-integrated",
+  "status": "weekly-ui-and-readiness-integrated-build-pending",
   "frameworkSource": "https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e",
   "guidedSource": "https://app.notion.com/p/40717d16de4c812fa096fb12992546e3",
   "supersedes": "Chapter 00 is an early prototype, not the current Pre-Course standard.",
@@ -16,134 +16,145 @@
     {
       "id": "foundation-0",
       "title": "学习葡萄酒之前",
-      "status": "framework-verified-content-pending"
+      "status": "introductory-ui-integrated-full-lesson-qa-pending"
     },
     {
       "id": "foundation-1",
       "title": "葡萄酒从哪里来",
-      "status": "framework-verified-content-pending"
+      "status": "introductory-ui-integrated-full-lesson-qa-pending"
     },
     {
       "id": "foundation-2",
       "title": "葡萄与葡萄园",
-      "status": "framework-verified-content-pending"
+      "status": "introductory-ui-integrated-full-lesson-qa-pending"
     },
     {
       "id": "foundation-3",
       "title": "葡萄怎么变成酒",
-      "status": "framework-verified-content-pending"
+      "status": "introductory-ui-integrated-full-lesson-qa-pending"
     },
     {
       "id": "foundation-4",
       "title": "为什么葡萄酒喝起来不一样",
-      "status": "framework-verified-content-pending"
+      "status": "introductory-ui-integrated-full-lesson-qa-pending"
     },
     {
       "id": "foundation-5",
       "title": "核心葡萄品种",
-      "status": "framework-verified-content-pending"
+      "status": "introductory-ui-integrated-full-lesson-qa-pending"
     },
     {
       "id": "foundation-6",
       "title": "葡萄酒来自哪里",
-      "status": "framework-verified-content-pending"
+      "status": "introductory-ui-integrated-full-lesson-qa-pending"
     },
     {
       "id": "foundation-7",
       "title": "怎么读懂一瓶酒",
-      "status": "framework-verified-content-pending"
+      "status": "introductory-ui-integrated-full-lesson-qa-pending"
     }
   ],
   "paths": {
     "fourWeeks": [
       [
-        0,
         1,
         2
       ],
       [
-        3
+        3,
+        4
       ],
       [
-        4,
-        5
+        5,
+        6
       ],
       [
-        6,
-        7
+        7,
+        8
       ]
     ],
     "eightWeeks": [
-      "学习方法",
-      "葡萄与生长周期",
-      "气候、水、土壤与管理",
-      "发酵与红白酿造",
-      "MLF、橡木、酒泥与熟化",
-      "风格与结构",
-      "六个核心品种",
-      "产地与酒标"
-    ]
+      "先学“怎么学葡萄酒”",
+      "从一颗葡萄开始",
+      "环境为什么会改变葡萄",
+      "葡萄怎么变成酒",
+      "发酵之后，风格继续形成",
+      "六个核心葡萄品种",
+      "葡萄酒来自哪里：France 作为第一张地图",
+      "世界第一轮预览：为 D3 / D4 提前见一次"
+    ],
+    "indexMeaning": "fourWeeks groups reference 1-based source weeks, not framework node indexes"
   },
   "articles": [
     {
       "title": "聊聊葡萄酒的学习",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247483757&idx=1&sn=3b22e4054ad636522f33e6cb8539f06d&chksm=cf837ca1f8f4f5b78dc99251b4b934f3e9f936010eb82fad4742edd743fa0055b89e3cbfce31&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "先调整学习方法，避免把学习变成名词记忆。"
     },
     {
       "title": "葡萄酒学习的框架",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247483757&idx=2&sn=d8d2068a4f09dc9ec23d1c10fad7e16a&chksm=cf837ca1f8f4f5b7391670a7dd9e8adbd3e8ca714795aa9445130758c9fa79f76495694908d2&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "把葡萄、地方、年份和酿造连成一张知识框架。"
     },
     {
       "title": "影响葡萄种植的因素",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484065&idx=2&sn=3151f02bfdb33b0155170f9fd10304e5&chksm=cf837f6df8f4f67bcf5f0893f37fc0f8b2a47b6b118c14b9d1889cf86c4d45c428411ecc130d&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "理解环境因素如何共同影响葡萄成熟。"
     },
     {
       "title": "土壤",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484065&idx=3&sn=19f13610cfad0acae1fb53972e487b9d&chksm=cf837f6df8f4f67b084fad3fe08a23f75a588a3c6e1c047b2cf8978fdd153c35c4fd477abe1f&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "从排水、保水与根系环境理解土壤，不套用风味公式。"
     },
     {
       "title": "葡萄的生长季节",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484065&idx=4&sn=9f337f244ee142b2c973b1b81e0221f4&chksm=cf837f6df8f4f67b48f8edff273b5f7748014a2219d8329fda044091d97ea39fb16c7919d1ea&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "按时间顺序认识葡萄树一年发生的变化。"
     },
     {
       "title": "老藤、有机种植、生物动力法",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484065&idx=5&sn=4d3250cca6b9396704266b50ac5d5c81&chksm=cf837f6df8f4f67bdd6afe5961a6d8cde96b5995bdf4133a981bce0546f2043786a6084d0a62&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "认识种植者的选择，不把种植方式当成品质保证。"
     },
     {
       "title": "解析一个葡萄",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484357&idx=1&sn=0aa169c8cadd41763f4d6e1224103b9a&chksm=cf837e09f8f4f71fce763e7d190490b260dd5daa330b8bf61f7750938730f03d33d33d2ce8df&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "连接果皮、果肉与糖、酸、颜色和单宁。"
     },
     {
       "title": "红葡萄酒的酿造",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484357&idx=2&sn=caed74c69ec3cff5924f067218245675&chksm=cf837e09f8f4f71fea8fc4c616fc825b6f743160992c4c056ac53a6f9b48dfcfd7ac4c7ace9d&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "看懂果皮接触、发酵和压榨的关系。"
     },
     {
       "title": "白葡萄酒的酿造",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484357&idx=4&sn=e80cbf08ad786abebbc8ca1463ddf73b&chksm=cf837e09f8f4f71f94375b3423e0f84a1450d1d662f48864025533f2a7ed4130b81f3c3ac200&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "比较白葡萄酒与红葡萄酒的基本酿造流程。"
     },
     {
       "title": "橡木桶",
       "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484357&idx=3&sn=a39a2911d24d51609cab0bdb4e5253bf&chksm=cf837e09f8f4f71ff813d63d94bb0f85ded75bc99f7e726b38a3af6c89712f05a1ee142ec027&scene=21#wechat_redirect",
-      "status": "source-indexed-not-live"
+      "status": "ui-linked-accessibility-not-verified",
+      "whyRead": "理解橡木如何影响风格，而不是把过桶等同于高级。"
     }
   ],
   "courseDays": [
     {
       "day": 1,
-      "status": "pending-current-timetable-verification"
+      "status": "digest-inventory-read-current-timetable-pending"
     },
     {
       "day": 2,
-      "status": "pending-current-timetable-verification"
+      "status": "digest-inventory-read-current-timetable-pending"
     },
     {
       "day": 3,
@@ -163,9 +174,23 @@
     }
   ],
   "nextActions": [
-    "Integrate current Pre-Course navigation into foundation view, preserving existing user records.",
-    "Read D1–D2 inventory 40717d16de4c810c811dd8a1324066cd and pre-course path 40717d16de4c814ba288fa4ab63f2746.",
-    "Recover six grape article original links; do not expose private Notion pages as student links.",
-    "Preserve existing lecturer introductions and course images when importing verified course information."
+    "Fetch canonical D1/D2 child digests and resource matrix, preserve scope distinctions.",
+    "Restore complete build workspace and run build:cloudbase and mobile/refresh/retry QA.",
+    "Read latest course/lecturer Library document before importing dates, fees or registration.",
+    "Verify actual Tencent deployment commit and URL; do not equate GitHub commit with deployment."
+  ],
+  "pathSource": "https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746",
+  "inventorySource": "https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd",
+  "readinessSource": "https://app.notion.com/p/40717d16de4c81a4bd1df5ceede99a46",
+  "readiness": {
+    "questions": 31,
+    "checks": 30,
+    "answers": "Source answer key retained; display options shuffled by stable ID",
+    "status": "source-extracted-and-integrated-not-live"
+  },
+  "knownGaps": [
+    "D1/D2 inventory confirms 10 D1, 9 D2 and 6 France digests but child texts not imported. France exact D1/D2 placement unconfirmed.",
+    "D3–D6 current timetable not verified.",
+    "Maps, six grape source links, lecturer/registration documents and full build/browser QA remain pending."
   ]
 }
