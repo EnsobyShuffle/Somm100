@@ -1,3 +1,15 @@
+# Foundation — 2026-11-05 07:31 CST · D4 draft and sparkling practice
+
+Base b56f419111dced1593481db7b3b96c75014ede15, migration/tencent-somm100. Confirmed current migration/progress/source map, inventory, Foundation mount and Netlify stop-build guard.
+
+- Read all 15 D4 source pages and compared edit times with the inventory. Staged 15 objectives, 15 individual prep activities, 30 original explanatory paragraphs, 93 source checks and 45 unit questions with source answers in docs/staging/foundation-d4-review.json. The separate 45-question course quiz remains mapped only. The complete draft still needs subject review and current cohort PPT alignment.
+- Integrated an independent two-record exercise into Foundation through its own lazy-loaded component and course menu button. Learners can identify the second fermentation vessel, see feedback and correct their choice. Examples are original and cross-checked with Comité Champagne and Consorzio Tutela Prosecco DOC (links in the component). Session-only answers. No changes to progress keys. Private Notion links stay outside student content.
+- Downloaded the exact GitHub head archive and restored CloudBase build dependencies at pinned versions (not a full frozen-lockfile install). npm run build:cloudbase passed with 452 files and 1,937 modules. Entry ./assets/index-BCSeoqGq.js, SHA256 e17d51bb901e9582029e65a768e186e7fe64b8311f366b58c103e47b5d3da543. Existing entry remains large (~12 MB). 29 existing Foundation tests and 2 new draft checks passed. The D3/D4 inventory validator also passed.
+- Tested the actual production bundle on a 390px iframe (375px content). Course navigation reached the exercise, an incorrect answer produced a clue, correcting A and answering B produced independent correct feedback. Document scrollWidth and clientWidth were both 375px. This is a browser viewport test, not a physical phone or Tencent test.
+- D1/D2 and shared France retain the last integrated state. D3 has 13 staged units. D4 has 15 staged units plus the separate interactive exercise in the student route. D5 materials pending. Cohort22 has five face-to-face days, no D6. Full D3/D4 lessons are not imported or day-aligned. Next: review candidate D3 facts and integrate reviewed units with scoped local record tests, then broaden D4. New Tencent deployment and online acceptance remain unverified.
+
+---
+
 # Foundation checkpoint — 2026-11-05 05:38 CST: complete D3 editorial data draft
 
 Base: 86a95e9c85c80d0282549fbd0f4f2c50ff344971. Current migration/source/progress/inventory and Netlify guard read. No concurrent head change at start.

@@ -552,5 +552,22 @@
     "publicationReady": false,
     "sourceInventory": "docs/qa/foundation-d34-source-inventory-20261105.json",
     "next": "Fact QA, current cohort alignment, then student UI and full build/mobile tests"
+  },
+  "d4Draft": {
+    "file": "docs/staging/foundation-d4-review.json",
+    "units": 15,
+    "checks": 93,
+    "unitQuestions": 45,
+    "status": "editorial-draft-tested-not-imported",
+    "publicationReady": false
+  },
+  "sparklingPractice": {
+    "component": "app/FoundationSparklingPractice.tsx",
+    "sources": [
+      "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/bottling-and-second-fermentation",
+      "https://www.prosecco.wine/en/prosecco/discover/winemaking/"
+    ],
+    "status": "integrated-local-build-and-narrow-browser-verified",
+    "scope": "Two original sample records. Session-only feedback; no grading/storage or confirmed cohort day."
   }
 }
