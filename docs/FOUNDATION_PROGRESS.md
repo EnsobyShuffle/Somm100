@@ -1,3 +1,25 @@
+# Foundation checkpoint — 2026-11-05 01:45 CST: full CloudBase build restored
+
+Base: 047af4d9477d11da7c92af1148acaabbae26b0e1. No concurrent branch update found at start.
+
+## Delivered
+- Downloaded exact GitHub source archive via normal supported HTTPS. All 900 repository blobs match the Git tree SHA individually. Complete checkout: /workspace/scratch/4b501e03edb8/current-source. No AGENTS.md present.
+- Read latest Foundation/source map/migration checkpoints and build configuration. Existing course content, instructors/images/IDs untouched.
+- Actual npm run build:cloudbase passed: question-source gate, dictionary generation, 1936 modules. Existing local React/Vite packages plus fixed-version required build dependencies were used; this is NOT evidence of a frozen-lockfile installation.
+- Added scripts/check-cloudbase-foundation.mjs and appended it to build:cloudbase. Checks local HTML/PWA assets, both mount paths, symlink/hidden/source-file exclusion, actual bundled Foundation modules and four stable local-storage keys; produces entry SHA256 and size evidence.
+- Checker initially rejected generated-only media/grapes/.peloursin.jpg.nEos4O (not in verified tree/public). Removed that single output artifact and reran: PASS,443 files,11 markers. No source asset deleted. Cause not established.
+- Full result: docs/qa/foundation-cloudbase-build-20261105.json. Existing Foundation 24 tests rerun, all pass.
+- Entry index-DCGKFiB2.js is 12,126,898 bytes (~2.06 MB gzip). Significant loading-performance issue remains; no claim of ready-for-production speed.
+
+## State
+Saved locally; GitHub atomic commit/readback follow. Build verified offline; NOT deployed or live accepted. No new live URL verified.
+Pre-course 8 weeks/4-week pace remains; D1 10 units/71 checks/30 questions + label practice; D2 9 units/64 checks/27 questions; France 6 units/38 checks/18 questions + Rhône guide. D3 and D4 formal daily material pending; D5 dates verified/material placement pending; D6 absent in current five-day cohort22 source. No course-content changes this round.
+
+## Next breakpoint
+Complete source is now available: do not repeat partial source restoration. Run full-app browser checks against dist-cloudbase, then address entry-bundle size within approved scope. Frozen-lockfile install is still unverified. Continue D3/D4 authoritative source mapping; missing formal timetable is not permission to invent lessons. Tencent deployment path/session remains unverified; no repeated auth, domain/ICP/billing actions or paused task changes. Netlify guard retained.
+
+---
+
 # Foundation checkpoint — 2026-11-05 (UTC+8): label practice and real React verification
 
 Base: 413359df23db68c8410c736b987a63179d826afd on migration/tencent-somm100.

@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-11-05T01:45:00+08:00",
+  "sourceCommit": "047af4d9477d11da7c92af1148acaabbae26b0e1",
+  "sourceFilesVerified": 900,
+  "sourceMismatches": 0,
+  "command": "npm run build:cloudbase",
+  "buildPassed": true,
+  "modules": 1936,
+  "foundationTests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "output": {
+    "files": 443,
+    "entry": "./assets/index-DCGKFiB2.js",
+    "entryBytes": 12126898,
+    "entryGzipBytesApprox": 2061310,
+    "entrySha256": "262354f7e543280e763d047b5c0b2de1cf0cc25f439c14c7f03e7ee373aec2ab",
+    "foundationMarkers": 11,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ]
+  },
+  "limits": [
+    "Build used existing local React/Vite dependencies plus fixed-version CloudBase-required dependencies; full frozen-lockfile installation not verified.",
+    "No browser verification of this full build, deployment, physical phone or mainland network test.",
+    "Large entry bundle remains a performance concern.",
+    "Generated-output-only temporary image .peloursin.jpg.nEos4O rejected and removed; no source asset removed."
+  ],
+  "deployed": false,
+  "liveAccepted": false
+}
