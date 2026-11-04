@@ -1,3 +1,46 @@
+# Foundation checkpoint — 2026-11-04 teaching diagrams
+
+Base: 0faa53d739ae79098fb7a12fc09ac9fd60a92dde on migration/tencent-somm100. Preserve the cohort 22 five-classroom-day correction.
+
+## Actual increment
+- Read current remote HEAD, Foundation/CloudBase checkpoints, source map, D1/D2 lesson data/components, CSS and Netlify guard; HEAD rechecked before commit.
+- Added lib/foundation-diagrams.mjs and app/FoundationDiagram.js: FIVE original semantic HTML diagrams, integrated immediately after the matching review unit prose.
+- D1-05 graft/rootstock functional structure; D1-06 fermentation inputs/process/concurrent outputs; D1-07 typical red/white/one rosé pathway comparison; D1-09 origin/rules/label reading framework; D2-01 variety/climate/structure/style/region learning path.
+- All text adapted from existing source-mapped condensed lessons. Added teachingDiagrams provenance in data/foundation-source-map.json, retaining source verification limitations. No third-party image or private textbook reproduced.
+- Explicit caveats retain process exceptions, distinction between potential/actual alcohol, varied rosé methods, and no origin/colour quality ranking. No numerical regulations or fabricated official day allocation.
+- Semantic figures/lists expose all labels as selectable readable text; steps have visual connectors; graft layers show distinct roles; fermentation outputs are parallel rather than sequential. Scoped styles stack comparison columns below 700px.
+- Removed remaining stale six-day wording in D1/D2 introductory copy. Existing IDs, checklist/question counts, local storage, lecturers, images and unrelated modules unchanged.
+
+## Current course content status
+| Item | Status |
+| --- | --- |
+| D1 | 10 reviews / 71 checks / 30 MCQs; four new diagrams; actual cohort day allocation pending |
+| D2 | 9 grape reviews / 64 checks / 27 MCQs; one new learning-framework diagram; day allocation pending |
+| France | 6 shared reviews / 38 checks / 18 MCQs; maps and day allocation pending |
+| D3 | Pre-course preview only; formal daily material pending |
+| D4 | Pre-course preview only; formal daily material pending |
+| D5 | Latest cohort date exists; teaching/assessment allocation pending |
+| Historical D6 | Not in current five-day source; no sixth day invented |
+
+## Validation and delivery
+- node --check: renderer, wrapper and both modified review components passed.
+- Existing tests rerun in france-work: 24/24 passed (pre-course/D1/D2/France, first/latest answers, storage isolation, corrupt/future data and review completion).
+- Isolated static QA uses the EXACT renderer with an HTML serializer and the same CSS, not the full React app. Preview served through supported sites-preview and inspected in cloud browser.
+- Desktop viewport 1363px: all five figures present, no horizontal overflow; screenshot inspected grafting and three-column wine process.
+- Narrow QA iframe: 390px outer width / 375px content width with scrollbar; all five figures present, scrollWidth equals clientWidth, no horizontal overflow; screenshot inspected readable grafting layout. This is narrow browser layout QA, NOT physical phone testing.
+- Runtime wrapper/build integration not verified: complete authoritative checkout and React/Vite dependencies still absent in this focused workspace. Isolated preview and Node syntax tests are NOT a production build.
+- Saved seven source/checkpoint files; atomic GitHub commit and remote readback follow checkpoint creation. Tencent deployment and online acceptance unverified; no newly verified live URL.
+- Commit retains [skip netlify], unchanged netlify.toml ignore = "exit 0". No old Netlify, charges, domain/ICP or paused-task actions. Preview/QA harness is scratch-only and excluded from GitHub commit.
+
+## Next breakpoint
+1. Read resource matrix map sources for France overview and Rhône north/south; verify actual asset content and use scope. Current diagrams do not fill those geography gaps.
+2. Prepare a genuine wine-label annotation using a verified permitted image; do not call origin/rules concept diagram a real label illustration.
+3. Locate confirmed five-day classroom teaching allocation and retain original instructor bios/images. Historical D3–D6 remains non-authoritative.
+4. Restore supported full build workspace on the latest deployment branch, run build:cloudbase, full Foundation UI/record restore checks, then verify Tencent deployment SHA and live pages.
+5. Continue Foundation only; substantive increment delivered, other paused tasks remain paused.
+
+---
+
 # Foundation checkpoint — 2026-11-04 cohort 22 source reconciliation
 
 Base: f0948edac9f0fac79c071a9a78145ade5c22b27e on migration/tencent-somm100. Current source corrects the historical six-day assumption.
@@ -188,3 +231,4 @@ Source Notion pages have unverified metadata. Read/extraction is not final factu
 2. Read resource-gap matrix 40717d16de4c81c2910decdcecc94d7d. Import verified images/videos and grape original links without removing existing course images.
 3. Read Library latest course/lecturer document before introducing any enrollment facts. Do not invent D3–D6 timetable, fees or dates.
 4. Obtain complete supported build workspace, run build:cloudbase and browser/mobile QA; then verify actual Tencent deployment independently. Do not call this commit live.
+

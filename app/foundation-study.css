@@ -21,3 +21,34 @@
 .foundation-cohort-city dl > div { margin:.7rem 0; }
 .foundation-cohort-city dt { font-weight:600; }
 .foundation-cohort-city dd { margin:.25rem 0 0; overflow-wrap:anywhere; }
+
+.foundation-diagram { margin:1.5rem 0; padding:clamp(.85rem,3vw,1.5rem); background:#f8f5ee; border:1px solid #d8d4ca; border-radius:.75rem; color:#292d28; min-width:0; }
+.foundation-diagram figcaption { font-size:1.15rem; line-height:1.5; font-weight:700; }
+.foundation-diagram-intro { margin:.5rem 0 1.25rem; line-height:1.7; }
+.foundation-diagram-groups { display:grid; gap:1rem; }
+.foundation-diagram-group { min-width:0; }
+.foundation-diagram-group h5 { margin:0 0 .7rem; font-size:1rem; line-height:1.5; color:inherit; }
+.foundation-diagram-nodes { list-style:none; margin:0; padding:0; display:grid; gap:.85rem; }
+.foundation-diagram-nodes > li { position:relative; min-width:0; padding:.9rem; background:#fff; border:1px solid #cbc7bc; border-radius:.4rem; overflow-wrap:anywhere; }
+.foundation-diagram-nodes strong { display:block; line-height:1.5; }
+.foundation-diagram-nodes p { margin:.35rem 0 0; line-height:1.7; }
+.foundation-diagram-number { display:block; color:#725832; font-size:.85rem; font-weight:700; margin-bottom:.2rem; }
+.foundation-diagram-nodes--steps > li + li::before { content:''; position:absolute; top:-.85rem; left:1.25rem; height:.85rem; border-left:2px solid #82745c; }
+.foundation-diagram-nodes--steps > li + li::after { content:''; position:absolute; top:-.4rem; left:1.07rem; width:.35rem; height:.35rem; border-right:2px solid #82745c; border-bottom:2px solid #82745c; transform:rotate(45deg); }
+.foundation-diagram--graft .foundation-diagram-nodes { max-width:34rem; margin:auto; gap:0; }
+.foundation-diagram--graft li { border-radius:0; border-left:5px solid #556d4b; }
+.foundation-diagram--graft li:nth-child(2) { background:#eee8d9; border-block-style:dashed; }
+.foundation-diagram--graft li:last-child { border-left-color:#805c3b; background:#f4eadd; }
+.foundation-diagram--fermentation .foundation-diagram-group:last-child { border-top:2px solid #82745c; padding-top:1rem; }
+.foundation-diagram--fermentation .foundation-diagram-group:last-child ul { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.foundation-diagram--wine-process .foundation-diagram-groups { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.foundation-diagram-group--red { border-top:4px solid #81424f; padding-top:.75rem; }
+.foundation-diagram-group--white { border-top:4px solid #a2863b; padding-top:.75rem; }
+.foundation-diagram-group--rose { border-top:4px solid #b67570; padding-top:.75rem; }
+.foundation-diagram-takeaway { margin:1.2rem 0 .6rem; padding:.85rem 1rem; background:#e9eee5; border-left:3px solid #556d4b; line-height:1.7; }
+.foundation-diagram-note { margin:.6rem 0 0; font-size:.9rem; line-height:1.7; color:#59594f; }
+@media (max-width:700px) {
+  .foundation-diagram--wine-process .foundation-diagram-groups,
+  .foundation-diagram--fermentation .foundation-diagram-group:last-child ul { grid-template-columns:minmax(0,1fr); }
+}
+

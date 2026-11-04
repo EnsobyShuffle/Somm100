@@ -435,5 +435,52 @@
       "France map",
       "Rhône north/south map"
     ]
+  },
+  "teachingDiagrams": {
+    "status": "integrated-production-build-and-live-qa-pending",
+    "renderer": "lib/foundation-diagrams.mjs",
+    "component": "app/FoundationDiagram.js",
+    "count": 5,
+    "type": "original-semantic-html-diagrams",
+    "sources": [
+      {
+        "id": "foundation-d1-05",
+        "source": "https://app.notion.com/p/40717d16de4c8129ae41fc99ca760455",
+        "sourceEditedAt": "2026-10-28T19:46:04.722Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-06",
+        "source": "https://app.notion.com/p/40717d16de4c814c93b7c56d250d1aea",
+        "sourceEditedAt": "2026-10-28T19:46:38.638Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-07",
+        "source": "https://app.notion.com/p/40717d16de4c81a089b3d25c9e5e74a0",
+        "sourceEditedAt": "2026-10-28T19:46:41.893Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-09",
+        "source": "https://app.notion.com/p/40717d16de4c81a790eec02320cffcb1",
+        "sourceEditedAt": "2026-10-28T19:46:46.426Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-01",
+        "source": "https://app.notion.com/p/40717d16de4c813ab93fcb3566d7c9e2",
+        "sourceEditedAt": "2026-10-28T19:47:23.667Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      }
+    ],
+    "scope": "Visual adaptation of existing condensed lesson summaries. No third-party image or private textbook reproduced. No new day allocation or learning-record IDs.",
+    "resourceMatrix": "https://app.notion.com/p/40717d16de4c81c2910decdcecc94d7d",
+    "remaining": "France maps, Rhône comparison and actual wine-label annotation remain pending."
   }
 }

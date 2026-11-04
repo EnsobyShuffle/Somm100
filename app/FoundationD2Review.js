@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react';
 import data from '../data/foundation-d2.json';
 import {emptyD2Progress, readD2Progress, writeD2Progress, d2UnitResult} from '../lib/foundation-d2.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
+import FoundationDiagram from './FoundationDiagram.js';
 import './foundation-study.css';
 
 const h = React.createElement;
@@ -32,7 +33,7 @@ export default function FoundationD2Review() {
   }
   return h('section', {className: 'white-panel foundation-study', id: 'foundation-d2-review', 'aria-labelledby': 'foundation-d2-title'},
     h('h2', {id: 'foundation-d2-title'}, 'D2｜葡萄品种复习'),
-    h('p', null, '本区先开放葡萄品种的 9 个复习单元，供课堂后重建知识、检查理解。法国专题请见下方独立复习区；这些内容仍不代表完整 D2 课程或六天课表。'),
+    h('p', null, '本区先开放葡萄品种的 9 个复习单元，供课堂后重建知识、检查理解。法国专题请见下方独立复习区；这些内容仍不代表完整 D2 课程或当期课表。'),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，独立于课前和 D1 记录，不同步到账号或讲师端。'),
     error ? h('p', {role: 'alert'}, error) : null,
     h('div', {className: 'foundation-study-controls'},
@@ -42,6 +43,7 @@ export default function FoundationD2Review() {
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
       unit.sections.map((section, i) => h('section', {key: i}, h('h4', null, section.heading), h('p', null, section.text))),
+      h(FoundationDiagram, {unitId: unit.id}),
       h('fieldset', null, h('legend', null, '知识点自查 · 理解后勾选'),
         unit.checks.map(c => h('label', {key: c.id, className: 'foundation-check'},
           h('input', {type: 'checkbox', checked: progress.checks[c.id] === true, disabled: !loaded, onChange: e => {
@@ -67,3 +69,4 @@ export default function FoundationD2Review() {
         h('button', {type: 'button', className: 'button secondary', disabled: !loaded || unit.number === 1, onClick: () => chooseUnit(unit.number - 1)}, '上一节'),
         h('button', {type: 'button', className: 'button secondary', disabled: !loaded || unit.number === data.units.length, onClick: () => chooseUnit(unit.number + 1)}, '下一节'))));
 }
+
