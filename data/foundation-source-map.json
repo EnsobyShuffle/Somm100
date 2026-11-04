@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-11-04",
-  "status": "weekly-ui-and-readiness-integrated-build-pending",
+  "status": "precourse-d1-d2-review-integrated-build-and-live-qa-pending",
   "frameworkSource": "https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e",
   "guidedSource": "https://app.notion.com/p/40717d16de4c812fa096fb12992546e3",
   "supersedes": "Chapter 00 is an early prototype, not the current Pre-Course standard.",
@@ -160,7 +160,13 @@
     },
     {
       "day": 2,
-      "status": "digest-inventory-read-current-timetable-pending"
+      "status": "9-grape-review-digests-64-checks-27-questions-integrated-not-live",
+      "remaining": [
+        "Six shared France units and their exact D1/D2 placement",
+        "Current six-day timetable",
+        "Visual/video resources",
+        "Full production build and live QA"
+      ]
     },
     {
       "day": 3,
@@ -274,6 +280,79 @@
         "id": "foundation-d1-10",
         "source": "https://app.notion.com/p/40717d16de4c81108c65e16da8465979",
         "sourceEditedAt": "2026-10-28T19:46:48.485Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      }
+    ]
+  },
+  "d2Review": {
+    "status": "nine-grape-units-integrated-france-build-and-live-qa-pending",
+    "units": 9,
+    "checks": 64,
+    "questions": 27,
+    "dataFile": "data/foundation-d2.json",
+    "storage": "browser-local-separate-from-precourse-and-d1",
+    "sources": [
+      {
+        "id": "foundation-d2-01",
+        "source": "https://app.notion.com/p/40717d16de4c813ab93fcb3566d7c9e2",
+        "sourceEditedAt": "2026-10-28T19:47:23.667Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-02",
+        "source": "https://app.notion.com/p/40717d16de4c81dfa152f98ad58b5f82",
+        "sourceEditedAt": "2026-10-28T19:47:25.941Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-03",
+        "source": "https://app.notion.com/p/40717d16de4c8184af60d7e196274050",
+        "sourceEditedAt": "2026-10-28T19:47:27.708Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-04",
+        "source": "https://app.notion.com/p/40717d16de4c81adb621f27bf23fbf7e",
+        "sourceEditedAt": "2026-10-28T19:47:29.686Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-05",
+        "source": "https://app.notion.com/p/40717d16de4c81e49368f5d2e7ad11b9",
+        "sourceEditedAt": "2026-10-28T19:47:32.065Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-06",
+        "source": "https://app.notion.com/p/40717d16de4c81b1b1b8c74bc88080be",
+        "sourceEditedAt": "2026-10-28T19:47:39.031Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-07",
+        "source": "https://app.notion.com/p/40717d16de4c81e48d88e3435e9a6a2b",
+        "sourceEditedAt": "2026-10-28T19:47:40.969Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-08",
+        "source": "https://app.notion.com/p/40717d16de4c818f8996f928d2485e4e",
+        "sourceEditedAt": "2026-10-28T19:47:59.417Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d2-09",
+        "source": "https://app.notion.com/p/40717d16de4c81c8afd3e10a2584fed4",
+        "sourceEditedAt": "2026-10-28T19:48:01.329Z",
         "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
         "verification": "unverified"
       }
