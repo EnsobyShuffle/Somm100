@@ -1,57 +1,60 @@
-# Foundation progress — 2026-11-04, weekly path and readiness increment
+# Foundation latest checkpoint — 2026-11-04, D1 review integration
 
-Base commit: 588aa9cb2d4da04d8493dc619437e7b99e734384 on migration/tencent-somm100. This checkpoint ships in the same atomic commit as the implementation.
+Base: a765ffa312cf564036a96d6a831550dd71db1431 on migration/tencent-somm100.
+This checkpoint and all D1 code/data ship together in one atomic commit.
 
-## This increment
+## Actual changes
 
-- Read current app/LearningApp.tsx, foundation-source-map.json, prior FOUNDATION_PROGRESS.md, CLOUDBASE_MIGRATION.md and netlify.toml before editing. No concurrent changes observed at initial read.
-- Replaced the incorrect week mapping with the actual 8-week pre-course path. Week 6 = six core grapes; week 7 = France and labels; week 8 = first D3/D4 preview. Four-week mode pairs weeks 1–2, 3–4, 5–6, 7–8.
-- Added app/FoundationStudy.js, scoped mobile styles, data/foundation-study.json and lib/foundation-study.mjs. The existing Foundation route imports the component; all eight foundation-0 through foundation-7 concept IDs and ten article links remain.
-- Added 8 short original knowledge summaries, 30 source-derived self-check items, and all 31 existing readiness questions with the source answer key. No new official day assignments or exam pass line.
-- Corrected previous open-ended reflection prompts: removed them from the Foundation student UI in accordance with the source's choice-only rule.
-- Added why-read guidance to all 10 existing original WeChat links. No private Notion student entrance.
-- Student selects pace and current week; only the selected one/two source-week units display. Self-check and first/latest question answers use the separate localStorage key somm100.foundation.study.v1. No existing learning keys or user records touched. No cloud/account/instructor sync.
-- Wrong answers show the correct concept and a return-to-week-summary button; retry preserves the first answer. An incomplete question group cannot show ready. Display choices are deterministically shuffled while source answer indexes stay stable.
-- Read/parse failure or unsupported stored version preserves the old raw record and disables writes. Quota/write failure is surfaced in the UI. Browser execution of these cases remains pending.
+- Read current LearningApp, FoundationStudy, progress helper, source map, Foundation and CloudBase checkpoints, and Netlify guard. Latest branch initially remained a765ffa.
+- Read all 10 canonical D1 student digest pages linked by the inventory, including checklist, extension questions and answer explanations.
+- Added data/foundation-d1.json: 10 short original teaching summaries (3 sections each), 71 source-derived checklist items, 30 source-derived multiple-choice questions and answer feedback. This is condensed review, not a full textbook or classroom delivery.
+- Added app/FoundationD1Review.js and lib/foundation-d1.mjs. Existing Foundation view now offers direct pre-course / D1 review navigation; review is labeled classroom follow-up, separate from pre-course.
+- Reused existing option-shuffle/answer tracking functions and scoped mobile styles. Separate storage key somm100.foundation.d1-review.v1; existing weekly progress remains untouched. Unknown/future/corrupt storage is preserved and not overwritten.
+- Retains first/latest answers, review counts, retry feedback and return-to-body action. No account/cloud sync, instructor reporting, calendar enrollment or attendance completion claim.
+- Existing eight concept IDs, 10 public article links, pre-course 8 weeks/30 checks/31 questions, lecturers, images and unrelated course modules remain unchanged.
 
-## Source evidence read directly this run
+## Sources
 
-1. Pre-course path: https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746
-   - eight weekly goals, 30 checklist entries, pace pairing, choice-only rule.
-2. D1–D2 inventory: https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd
-   - confirms a 10-D1 / 9-D2 / 6-France digest inventory and existing quizzes; child digest contents not imported this run.
-   - France is shared D1–D2 material; exact day placement explicitly remains unconfirmed.
-3. Readiness V0.1: https://app.notion.com/p/40717d16de4c81a4bd1df5ceede99a46
-   - actual 31 prompts, 124 options, 31 answer-key mappings and eight-week question distribution read and extracted.
-4. Existing framework and guided-source links remain in data/foundation-source-map.json. Updated map schema 2 distinguishes source weeks from eight concept node indexes. Source pages have Notion unverified metadata; extraction does not equal final teaching/fact QA.
+All 10 source URLs and edit/verification metadata are recorded in data/foundation-source-map.json under d1Review.sources.
+Canonical parent: https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd
 
-## Six formal days
+- D1-01: 40717d16de4c81d7bbd8fba68936ecab — grape components
+- D1-02: 40717d16de4c81cb9b72c529baeec3b4 — annual cycle
+- D1-03: 40717d16de4c81b581a8d85b7ff77709 — maturity/environment
+- D1-04: 40717d16de4c8143b199fb57a899a5f5 — vineyard choices
+- D1-05: 40717d16de4c8129ae41fc99ca760455 — grafting/rootstock
+- D1-06: 40717d16de4c814c93b7c56d250d1aea — fermentation
+- D1-07: 40717d16de4c81a089b3d25c9e5e74a0 — skin contact
+- D1-08: 40717d16de4c81bca48fff8dbdb56587 — MLF/lees/maturation
+- D1-09: 40717d16de4c81a790eec02320cffcb1 — origin systems (concepts only; no numeric regulations)
+- D1-10: 40717d16de4c81108c65e16da8465979 — labels
 
-| Day | Verified material | Remaining |
-| --- | --- | --- |
-| D1 | Knowledge inventory read: 10 digests identified | Child texts/media/quiz import and current timetable |
-| D2 | Inventory read: 9 digests and 6 shared France units identified | Child texts/media/quiz import; France exact day placement |
-| D3 | First-preview topics only, per pre-course path | Current day timetable and full lessons |
-| D4 | First-preview topics only, per pre-course path | Current day timetable and full lessons |
-| D5 | No new verified material | Current timetable and lesson sources |
-| D6 | No new verified material | Current timetable and lesson sources |
+Source Notion pages have unverified metadata. Read/extraction is not final factual or teaching QA. Linked private historical materials were not copied into student content; backend Notion links are not student navigation. Condensed prose avoids absolute soil/flavor, low-yield/quality or oak/quality claims.
 
-## Validation and delivery boundary
+## Six-day status
 
-- node --test tests/foundation-study.test.mjs: 6 passed, 0 failed. Covers source data structure, first/latest answer preservation, incomplete/wrong readiness state, JSON round trip, corrupt-record filtering, stable option permutations.
-- node --check app/FoundationStudy.js: passed.
-- Source extraction checks: 8 weeks, 30 checklist IDs, 31 questions with 4 options each, all answer keys parsed. Existing eight concept IDs and ten original reading URLs retained. Surrounding LearningApp source unchanged except the new component import and Foundation block.
-- Full repository dependencies are unavailable in this scratch workspace; no installed TSX compiler was found. Full build:cloudbase, browser/mobile render, refresh/scroll/storage-failure interaction QA and external article accessibility remain NOT VERIFIED. Plain JS syntax and pure state tests are not a production build.
-- No Tencent deployment or current public-page verification performed. GitHub commit is not evidence of a deployed/accepted update.
-- No Netlify access or release. Keep [skip netlify] on this commit and netlify.toml ignore = "exit 0".
-- No fees, dates, refunds, registration links, lecturers or existing images changed. No other paused course task resumed.
+| Day | Actual status |
+| --- | --- |
+| D1 | 10 review summaries + 71 checklist items + 30 extension MCQs integrated in code; classroom timetable/media and separate 25-question Course Quiz still pending |
+| D2 | 9 digest and 6 shared France units identified previously; child content integration pending; France exact D1/D2 placement unconfirmed |
+| D3 | Pre-course preview only; formal curriculum/timetable pending |
+| D4 | Pre-course preview only; formal curriculum/timetable pending |
+| D5 | Verified timetable/materials missing |
+| D6 | Verified timetable/materials missing |
+
+## Validation
+
+- node --test tests/foundation-study.test.mjs tests/foundation-d1.test.mjs: 12/12 passed.
+- node --check app/FoundationD1Review.js: passed.
+- Tests cover 10/71/30 mapping and IDs, unit 10 restore, review gating, first/latest answers, dedicated storage key with pre-course data untouched, invalid record and quota failures, plus all 6 pre-course regression tests.
+- Source parsing validated 3 questions / 4 options per D1 page and 30 actual source answer keys.
+- LearningApp diff restricted to new component import, two navigation buttons and D1 component mount. Netlify guard remains ignore = "exit 0"; commit contains [skip netlify].
+- Full checkout/dependencies remain unavailable after workspace cleanup. Current resolution checks: typescript, react and vite not installed. Full build:cloudbase, mobile/browser rendering, storage UI refresh/focus/scroll and Tencent deployment NOT verified. Node syntax and pure logic tests are not production build evidence.
+- No domain, DNS, ICP, billing, Netlify or Tencent configuration actions this run.
 
 ## Next breakpoint
 
-1. Obtain a complete supported checkout of the SAME authoritative branch and its dependencies; run build:cloudbase and mobile/browser interactions (pace switch, select, retry, refresh, unavailable storage).
-2. Read canonical D1 child digests linked by the inventory, then D2 and France. Import reviewed short student summaries/learning loops, not historical private textbook originals. Keep these formal/bridge materials distinct from pre-course.
-3. Read resource gap matrix 40717d16de4c81c2910decdcecc94d7d and restore six grape original article links. France/world map assets still missing; do not claim map-learning complete.
-4. Read current Library course/lecturer documents before introducing course registration data; preserve lecturers and images. Six-day timetable remains a dependency.
-5. Verify actual Tencent build commit and tested URL independently. No domain/ICP status change inferred in this content task.
-
-Previous implementation a49b0dc added introductory concepts. This increment supersedes its incorrect week schedule and reflection-only checks, without claiming complete six-day teaching content.
+1. Read D2-01 through D2-09 and shared France F-01 through F-06 child pages from canonical inventory; import a coherent D2 review package separately.
+2. Read resource-gap matrix 40717d16de4c81c2910decdcecc94d7d. Import verified images/videos and grape original links without removing existing course images.
+3. Read Library latest course/lecturer document before introducing any enrollment facts. Do not invent D3–D6 timetable, fees or dates.
+4. Obtain complete supported build workspace, run build:cloudbase and browser/mobile QA; then verify actual Tencent deployment independently. Do not call this commit live.

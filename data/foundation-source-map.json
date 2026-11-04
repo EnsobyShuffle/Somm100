@@ -150,7 +150,13 @@
   "courseDays": [
     {
       "day": 1,
-      "status": "digest-inventory-read-current-timetable-pending"
+      "status": "10-review-digests-71-checks-30-questions-integrated-not-live",
+      "remaining": [
+        "Current six-day timetable",
+        "25-question standalone D1 Course Quiz",
+        "Visual/video resources",
+        "Full production build and live QA"
+      ]
     },
     {
       "day": 2,
@@ -174,10 +180,10 @@
     }
   ],
   "nextActions": [
-    "Fetch canonical D1/D2 child digests and resource matrix, preserve scope distinctions.",
-    "Restore complete build workspace and run build:cloudbase and mobile/refresh/retry QA.",
-    "Read latest course/lecturer Library document before importing dates, fees or registration.",
-    "Verify actual Tencent deployment commit and URL; do not equate GitHub commit with deployment."
+    "Read canonical D2 and shared France digests, keeping exact class-day placement unconfirmed.",
+    "Read the source resource-gap matrix and recover original grape article links.",
+    "Restore full build workspace and run production/mobile QA; current React/Vite/TypeScript dependencies unavailable.",
+    "Read current lecturer/registration document before inserting enrollment facts."
   ],
   "pathSource": "https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746",
   "inventorySource": "https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd",
@@ -192,5 +198,85 @@
     "D1/D2 inventory confirms 10 D1, 9 D2 and 6 France digests but child texts not imported. France exact D1/D2 placement unconfirmed.",
     "D3–D6 current timetable not verified.",
     "Maps, six grape source links, lecturer/registration documents and full build/browser QA remain pending."
-  ]
+  ],
+  "d1Review": {
+    "status": "integrated-build-and-live-qa-pending",
+    "units": 10,
+    "checks": 71,
+    "questions": 30,
+    "dataFile": "data/foundation-d1.json",
+    "storage": "browser-local-separate-from-precourse",
+    "sources": [
+      {
+        "id": "foundation-d1-01",
+        "source": "https://app.notion.com/p/40717d16de4c81d7bbd8fba68936ecab",
+        "sourceEditedAt": "2026-10-28T19:45:44.658Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-02",
+        "source": "https://app.notion.com/p/40717d16de4c81cb9b72c529baeec3b4",
+        "sourceEditedAt": "2026-10-28T19:45:47.716Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-03",
+        "source": "https://app.notion.com/p/40717d16de4c81b581a8d85b7ff77709",
+        "sourceEditedAt": "2026-10-28T19:45:51.079Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-04",
+        "source": "https://app.notion.com/p/40717d16de4c8143b199fb57a899a5f5",
+        "sourceEditedAt": "2026-10-28T19:45:58.157Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-05",
+        "source": "https://app.notion.com/p/40717d16de4c8129ae41fc99ca760455",
+        "sourceEditedAt": "2026-10-28T19:46:04.722Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-06",
+        "source": "https://app.notion.com/p/40717d16de4c814c93b7c56d250d1aea",
+        "sourceEditedAt": "2026-10-28T19:46:38.638Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-07",
+        "source": "https://app.notion.com/p/40717d16de4c81a089b3d25c9e5e74a0",
+        "sourceEditedAt": "2026-10-28T19:46:41.893Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-08",
+        "source": "https://app.notion.com/p/40717d16de4c81bca48fff8dbdb56587",
+        "sourceEditedAt": "2026-10-28T19:46:44.360Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-09",
+        "source": "https://app.notion.com/p/40717d16de4c81a790eec02320cffcb1",
+        "sourceEditedAt": "2026-10-28T19:46:46.426Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      },
+      {
+        "id": "foundation-d1-10",
+        "source": "https://app.notion.com/p/40717d16de4c81108c65e16da8465979",
+        "sourceEditedAt": "2026-10-28T19:46:48.485Z",
+        "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
+        "verification": "unverified"
+      }
+    ]
+  }
 }
