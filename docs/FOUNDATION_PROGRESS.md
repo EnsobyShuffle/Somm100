@@ -1,3 +1,24 @@
+# Foundation checkpoint — 2026-11-05 03:34 CST: D3/D4 source inventory recovered
+
+Base: 0fe50afd6eb7b9218f6f033f2232704c5bca47f4; authoritative branch migration/tencent-somm100. Read current migration/progress/source-map/Netlify guard; no concurrent update at start.
+
+## Actual increment
+- Read Notion D3/D4 inventory 40717d16de4c817aaad6f3433f55df22 and resource-gap matrix 40717d16de4c816888a7ca112c353d45. Followed and fetched every one of 28 unit pages plus two standalone quizzes. Sources are marked unverified, last edited 2026-10-28; source existence is not final course approval.
+- D3: 13 units, 72 checks,39 inline questions; standalone quiz30. D4:15 units,93 checks,45 inline questions; standalone quiz45. Counted actual page bodies/answer sections, not filenames. All inline answer numbers match;75 standalone quiz mappings resolve to known units (including dual mapping for D3 quiz10).
+- Added docs/qa/foundation-d34-source-inventory-20261105.json: stable proposed unit/quiz IDs, original URLs/edit dates, section headings, observed counts and all75 quiz-to-unit mappings. No private textbook body or image copied; Notion links are engineering provenance, not student UI links. This is inventory metadata, not published lesson content.
+- Added scripts/check-foundation-d34-inventory.mjs for reproducible inventory integrity checks. Executed its pure validation function in the available JavaScript runtime:28 units/165 checks/84 inline questions/75 quiz entries valid. Three negative cases rejected (missing unit, false cohort confirmation, dangling quiz target). Node file invocation NOT run because execution host unavailable.
+- Corrected stale foundation-source-map statuses: prior local full build/desktop verification succeeded; D3/D4 materials exist but await fact QA, current PPT mapping and UI work. Preserve existing nodes, articles, data, local-progress keys and five-day cohort distinction.
+
+## Constraints and exact failures
+Execution environment reported exec-server connection attempt failed: timed out waiting for exec-server initialize handshake after 10s. One pwd probe returned: No usable execution environment is available. Wait for an environment to become available before using this tool. Browser tools unavailable this round. No new production build, React test, mobile test or deployment performed; previous24 tests are not counted again. Not fully blocked: connected-source discovery and GitHub persistence succeeded. No automation changes needed for this transient host failure.
+
+## Day status / next breakpoint
+D1 10 and D2 9 integrated review units; shared France6. D3/D4 now inventoried in full, NOT student integrated and NOT confirmed current cohort day assignments. D5 dates known/material allocation pending; D6 absent from current five-day cohort. Follow inventory URLs to prepare condensed lessons and fact QA; no further broad rediscovery needed. Resource matrix prioritizes maps, traditional/tank fermentation comparison, fortification timing and Sherry aging visuals. Restore runtime before student UI integration/build/mobile acceptance. Continue only Foundation; no CMS/WSET/Into/Wine Library restart, Netlify connection, Tencent billing/auth/ICP actions.
+
+Saved through GitHub atomic commit/readback; not deployed or live accepted. No new verified public URL.
+
+---
+
 # Foundation checkpoint — 2026-11-05 01:53 CST: full-app acceptance and route loading
 
 Base: e2513bf018b5b31ba1bfe0ef3cb1b9b518c6c563 on migration/tencent-somm100. Head rechecked immediately before preparing this commit; no concurrent update found.

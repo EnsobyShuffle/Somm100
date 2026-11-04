@@ -1,0 +1,1262 @@
+{
+  "schemaVersion": 1,
+  "readAt": "2026-11-05",
+  "status": "source-inventory-not-student-content",
+  "inventorySource": "https://app.notion.com/p/40717d16de4c817aaad6f3433f55df22",
+  "resourceMatrixSource": "https://app.notion.com/p/40717d16de4c816888a7ca112c353d45",
+  "caution": "D3/D4 are source labels, not confirmed assignments for the current five-day cohort. Source verification state is unverified; fact QA and current PPT alignment remain required. Do not expose Notion links as student reading destinations.",
+  "units": [
+    {
+      "id": "foundation-d3-01",
+      "sourceDay": 3,
+      "number": 1,
+      "title": "学一个欧洲国家，先别从法规开始",
+      "source": "https://app.notion.com/p/40717d16de4c81f18261c37a8af8baea",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先复用你已经会的框架",
+        "为什么不从法规开始？",
+        "D3 最重要的能力"
+      ],
+      "checkCount": 4,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-02",
+      "sourceDay": 3,
+      "number": 2,
+      "title": "意大利：先把北部、中部、南部放进脑子",
+      "source": "https://app.notion.com/p/40717d16de4c818f881ff54d69f2e2c9",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "为什么 Italy 特别容易学乱？",
+        "北部先认识两个核心区域",
+        "中部先认识 Tuscany",
+        "南部现在先不展开",
+        "来源"
+      ],
+      "checkCount": 5,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-03",
+      "sourceDay": 3,
+      "number": 3,
+      "title": "Piedmont：颜色浅，不代表结构轻",
+      "source": "https://app.notion.com/p/40717d16de4c81ad8293cb31b5750566",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先认识 Nebbiolo",
+        "Barolo 与 Barbaresco",
+        "为什么这个品种很重要？",
+        "Asti / Moscato d'Asti"
+      ],
+      "checkCount": 5,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-04",
+      "sourceDay": 3,
+      "number": 4,
+      "title": "Veneto：Amarone 和 Prosecco 为什么像两个世界？",
+      "source": "https://app.notion.com/p/40717d16de4c8185b523dc664e1cd618",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "Amarone 先抓住“风干葡萄”",
+        "Prosecco 完全是另一套逻辑",
+        "为什么要把这两个放在一起？"
+      ],
+      "checkCount": 5,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-05",
+      "sourceDay": 3,
+      "number": 5,
+      "title": "Tuscany：为什么 Sangiovese 会出现这么多名字？",
+      "source": "https://app.notion.com/p/40717d16de4c81b089c0d6b8912a13ff",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "Sangiovese 是核心",
+        "Chianti",
+        "Brunello di Montalcino",
+        "Super Tuscan"
+      ],
+      "checkCount": 5,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-06",
+      "sourceDay": 3,
+      "number": 6,
+      "title": "西班牙：别只记 Rioja，先看完整地图",
+      "source": "https://app.notion.com/p/40717d16de4c81459859df24fcb5d8ec",
+      "sourceEditedAt": "2026-10-28T20:12:04.163Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先抓五个方向",
+        "Cava 在哪里？",
+        "来源"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-07",
+      "sourceDay": 3,
+      "number": 7,
+      "title": "Rioja、Ribera del Duero、Priorat：同一个国家，三种红酒逻辑",
+      "source": "https://app.notion.com/p/40717d16de4c81de84f2c8a98135343f",
+      "sourceEditedAt": "2026-10-28T20:12:07.258Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "Rioja：先抓住 Tempranillo 与陈年传统",
+        "Ribera del Duero：还是 Tempranillo，但不是 Rioja 的复制版",
+        "Priorat：换一条主线",
+        "三个产区先这样比较",
+        "来源"
+      ],
+      "checkCount": 5,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-08",
+      "sourceDay": 3,
+      "number": 8,
+      "title": "Rías Baixas 与 Cava：西班牙不只有红葡萄酒",
+      "source": "https://app.notion.com/p/40717d16de4c81ef9e21ed6540e07908",
+      "sourceEditedAt": "2026-10-28T20:12:52.465Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "Rías Baixas：先抓 Albariño",
+        "Cava：先认识它是 西班牙 的重要起泡酒",
+        "为什么把 Rías Baixas 和 Cava 放在一起？"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-09",
+      "sourceDay": 3,
+      "number": 9,
+      "title": "葡萄牙：先从 Vinho Verde 与 Douro 看懂两个方向",
+      "source": "https://app.notion.com/p/40717d16de4c81d8b274fef925c61e78",
+      "sourceEditedAt": "2026-10-28T20:12:54.402Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "Vinho Verde：先看清爽白葡萄酒的一面",
+        "“Vinho Verde”不是说葡萄一定是绿色的",
+        "Douro：完全换一个环境",
+        "葡萄牙 为什么不能只学国际品种？",
+        "来源"
+      ],
+      "checkCount": 7,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-10",
+      "sourceDay": 3,
+      "number": 10,
+      "title": "德国：先用 Riesling、河流与坡地建立地图",
+      "source": "https://app.notion.com/p/40717d16de4c812eb094ee8743a00acc",
+      "sourceEditedAt": "2026-10-28T20:12:56.314Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "第一条主线：Riesling",
+        "Mosel：河流、陡坡、冷凉成熟",
+        "Rheingau 与 Pfalz",
+        "德国 不等于甜酒"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-11",
+      "sourceDay": 3,
+      "number": 11,
+      "title": "德国酒标：先学会找线索，不先背整套德语",
+      "source": "https://app.notion.com/p/40717d16de4c815985c2ca3ef6f63160",
+      "sourceEditedAt": "2026-10-28T20:12:58.123Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "一张 德国 酒标，先找什么？",
+        "为什么“成熟度词”不等于“喝起来一定甜”？",
+        "Trocken 先认识",
+        "VDP / GG 先认名字",
+        "状态"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-12",
+      "sourceDay": 3,
+      "number": 12,
+      "title": "奥地利：先抓 Grüner Veltliner，再看 Wachau",
+      "source": "https://app.notion.com/p/40717d16de4c81aeb4c0dbc72a52e737",
+      "sourceEditedAt": "2026-10-28T20:13:00.640Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "第一条主线：Grüner Veltliner",
+        "Riesling 也很重要",
+        "Wachau",
+        "DAC 是什么？"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d3-13",
+      "sourceDay": 3,
+      "number": 13,
+      "title": "其他欧洲：先让希腊与匈牙利不再陌生",
+      "source": "https://app.notion.com/p/40717d16de4c81e38fcadf0fca5a0cf7",
+      "sourceEditedAt": "2026-10-28T20:13:02.495Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "希腊：先认识 Assyrtiko 与 Santorini",
+        "匈牙利：先认识 Tokaj 与 Furmint",
+        "为什么这一页不继续塞更多国家？",
+        "状态"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-01",
+      "sourceDay": 4,
+      "number": 1,
+      "title": "起泡酒：气泡到底从哪里来？",
+      "source": "https://app.notion.com/p/40717d16de4c8132b4a3cc775baffc08",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "回到 D1：发酵会产生二氧化碳",
+        "最常见的逻辑：再进行一次发酵",
+        "为什么不同起泡酒喝起来差很多？"
+      ],
+      "checkCount": 5,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-02",
+      "sourceDay": 4,
+      "number": 2,
+      "title": "Champagne：为什么冷凉、高酸反而是优势？",
+      "source": "https://app.notion.com/p/40717d16de4c8154ba99f2c3911a2370",
+      "sourceEditedAt": "2026-10-28T20:12:22.397Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先把名称搞清楚",
+        "为什么冷凉气候适合这里？",
+        "三个核心葡萄品种",
+        "地图先认识，不背村庄",
+        "来源"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-03",
+      "sourceDay": 4,
+      "number": 3,
+      "title": "传统法：一瓶起泡酒为什么要在瓶里再发酵一次？",
+      "source": "https://app.notion.com/p/40717d16de4c81e0b72be94950521689",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "第一步：先做出基酒",
+        "第二步：让第二次发酵发生在瓶里",
+        "第三步：酒与酒泥一起熟成",
+        "第四步：把沉淀集中起来",
+        "第五步：除渣、补液、封瓶"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-04",
+      "sourceDay": 4,
+      "number": 4,
+      "title": "Prosecco、Cava、Franciacorta：都是起泡酒，为什么不像？",
+      "source": "https://app.notion.com/p/40717d16de4c8180bb3ed067f5e4373a",
+      "sourceEditedAt": "2026-10-28T20:12:24.562Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "Prosecco：先抓罐式法与果香",
+        "Cava：西班牙 的传统法起泡酒",
+        "Franciacorta：意大利 的另一种起泡酒逻辑",
+        "一张比较表先这样记"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-05",
+      "sourceDay": 4,
+      "number": 5,
+      "title": "加强型葡萄酒：真正关键不是“加了烈酒”，而是什么时候加",
+      "source": "https://app.notion.com/p/40717d16de4c81c0aee5ed55c07ee9bc",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "为什么要“加强”？",
+        "发酵还没结束时加强",
+        "发酵完成后加强",
+        "加强以后还没结束"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-06",
+      "sourceDay": 4,
+      "number": 6,
+      "title": "Port：为什么甜度和“中途加强”密切相关？",
+      "source": "https://app.notion.com/p/40717d16de4c81a4a01ef2e9c543b3ae",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先把地理关系连起来",
+        "为什么 Port 通常是甜的？",
+        "分类先认名字，不背全部年限",
+        "Vintage Port 为什么常需要注意沉淀？",
+        "来源"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-07",
+      "sourceDay": 4,
+      "number": 7,
+      "title": "Sherry：为什么很多人误以为它都是甜酒？",
+      "source": "https://app.notion.com/p/40717d16de4c81ff8503f56b42a11ad1",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先把地理关系连起来",
+        "基酒通常先发酵成干型",
+        "Flor：一层活的酵母膜",
+        "氧化熟成",
+        "Solera：保持风格连续性的动态熟成"
+      ],
+      "checkCount": 8,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-08",
+      "sourceDay": 4,
+      "number": 8,
+      "title": "Madeira：为什么氧气和热反而成为它的风格？",
+      "source": "https://app.notion.com/p/40717d16de4c81b59baed7a52c76df94",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先把地理关系连起来",
+        "为什么 Madeira 那么特别？",
+        "第一批品种 / 风格名称先认",
+        "为什么 Madeira 很耐放？"
+      ],
+      "checkCount": 7,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-09",
+      "sourceDay": 4,
+      "number": 9,
+      "title": "新世界：不是一种风格，而是一张新的世界地图",
+      "source": "https://app.notion.com/p/40717d16de4c81d4aaa0f7e7522eb3c8",
+      "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先纠正一个最常见的误解",
+        "学新世界，继续用同一套框架",
+        "为什么品种名称会更常直接出现在酒标上？",
+        "但不要只看品种"
+      ],
+      "checkCount": 5,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-10",
+      "sourceDay": 4,
+      "number": 10,
+      "title": "美国与加拿大：Napa、Oregon、Icewine 先放进地图",
+      "source": "https://app.notion.com/p/40717d16de4c81988e3ec639a461cb1b",
+      "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "美国：先从 California 和 Oregon 开始",
+        "Oregon / Willamette Valley",
+        "美国还有很多，不急着一次学完",
+        "加拿大：先认识两个区域"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-11",
+      "sourceDay": 4,
+      "number": 11,
+      "title": "澳大利亚与新西兰：别只记 Shiraz 和 Sauvignon Blanc",
+      "source": "https://app.notion.com/p/40717d16de4c81bfb56bd2567d84b3ad",
+      "sourceEditedAt": "2026-10-28T20:12:30.244Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "澳大利亚：先抓四个地理关系",
+        "新西兰：先抓两个核心",
+        "Hawke's Bay 先认识名字"
+      ],
+      "checkCount": 7,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-12",
+      "sourceDay": 4,
+      "number": 12,
+      "title": "智利与阿根廷：一边是太平洋，一边是安第斯山",
+      "source": "https://app.notion.com/p/40717d16de4c812e8595e90956d6121f",
+      "sourceEditedAt": "2026-10-28T20:12:31.971Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "智利：一条狭长国家",
+        "Maipo Valley",
+        "Casablanca Valley",
+        "阿根廷：先抓 Mendoza",
+        "高海拔为什么重要？"
+      ],
+      "checkCount": 7,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-13",
+      "sourceDay": 4,
+      "number": 13,
+      "title": "南非：为什么 Chenin Blanc 和 Pinotage 都很重要？",
+      "source": "https://app.notion.com/p/40717d16de4c81459d06c16cfd370b38",
+      "sourceEditedAt": "2026-10-28T20:12:34.192Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "先把地图放在 Cape 一带",
+        "Chenin Blanc",
+        "Pinotage",
+        "Stellenbosch"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-14",
+      "sourceDay": 4,
+      "number": 14,
+      "title": "中国葡萄酒：先建立自己的产区地图",
+      "source": "https://app.notion.com/p/40717d16de4c814ab561dcaf2ffb89b2",
+      "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "为什么中国葡萄酒必须按区域学？",
+        "宁夏",
+        "新疆",
+        "山东",
+        "云南",
+        "河北与山西",
+        "来源"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    },
+    {
+      "id": "foundation-d4-15",
+      "sourceDay": 4,
+      "number": 15,
+      "title": "中国葡萄酒：从品种走向酒庄与基准酒款",
+      "source": "https://app.notion.com/p/40717d16de4c8137896bd236453a996e",
+      "sourceEditedAt": "2026-10-28T20:13:04.657Z",
+      "sourceVerification": "unverified",
+      "sourceRead": true,
+      "headings": [
+        "Cabernet Sauvignon 很重要，但不是全部",
+        "Marselan 为什么值得特别认识？",
+        "蛇龙珠为什么容易学乱？",
+        "Producer 应该什么时候学？",
+        "Benchmark Wine 是什么作用？",
+        "来源"
+      ],
+      "checkCount": 6,
+      "questionCount": 3,
+      "answerCount": 3,
+      "answerNumbersMatch": true,
+      "currentCohortDayConfirmed": false,
+      "studentUiIntegrated": false
+    }
+  ],
+  "quizzes": [
+    {
+      "source": "https://app.notion.com/p/40717d16de4c819bac12f69bbba8442c",
+      "sourceEditedAt": "2026-10-28T20:11:46.220Z",
+      "day": 3,
+      "questionCount": 30,
+      "studentUiIntegrated": false,
+      "mapping": [
+        {
+          "id": "foundation-d3-quiz-01",
+          "number": 1,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d3-01"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-02",
+          "number": 2,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d3-02"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-03",
+          "number": 3,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d3-03"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-04",
+          "number": 4,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d3-03"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-05",
+          "number": 5,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d3-04"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-06",
+          "number": 6,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d3-04"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-07",
+          "number": 7,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d3-04"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-08",
+          "number": 8,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d3-05"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-09",
+          "number": 9,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d3-05"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-10",
+          "number": 10,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d3-06",
+            "foundation-d3-07"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-11",
+          "number": 11,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d3-07"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-12",
+          "number": 12,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d3-07"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-13",
+          "number": 13,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d3-08"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-14",
+          "number": 14,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d3-08"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-15",
+          "number": 15,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d3-08"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-16",
+          "number": 16,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d3-09"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-17",
+          "number": 17,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d3-09"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-18",
+          "number": 18,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d3-09"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-19",
+          "number": 19,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d3-10"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-20",
+          "number": 20,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d3-10"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-21",
+          "number": 21,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d3-10"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-22",
+          "number": 22,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d3-11"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-23",
+          "number": 23,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d3-11"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-24",
+          "number": 24,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d3-11"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-25",
+          "number": 25,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d3-12"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-26",
+          "number": 26,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d3-12"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-27",
+          "number": 27,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d3-12"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-28",
+          "number": 28,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d3-13"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-29",
+          "number": 29,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d3-13"
+          ]
+        },
+        {
+          "id": "foundation-d3-quiz-30",
+          "number": 30,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d3-13"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://app.notion.com/p/40717d16de4c81d49a25ccf54a780b3c",
+      "sourceEditedAt": "2026-10-28T20:11:46.220Z",
+      "day": 4,
+      "questionCount": 45,
+      "studentUiIntegrated": false,
+      "mapping": [
+        {
+          "id": "foundation-d4-quiz-01",
+          "number": 1,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-01"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-02",
+          "number": 2,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-01"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-03",
+          "number": 3,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-01"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-04",
+          "number": 4,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-02"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-05",
+          "number": 5,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-02"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-06",
+          "number": 6,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-02"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-07",
+          "number": 7,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-03"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-08",
+          "number": 8,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-03"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-09",
+          "number": 9,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-03"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-10",
+          "number": 10,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-04"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-11",
+          "number": 11,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-04"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-12",
+          "number": 12,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-04"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-13",
+          "number": 13,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-05"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-14",
+          "number": 14,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-05"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-15",
+          "number": 15,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-05"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-16",
+          "number": 16,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-06"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-17",
+          "number": 17,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-06"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-18",
+          "number": 18,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-06"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-19",
+          "number": 19,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-07"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-20",
+          "number": 20,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-07"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-21",
+          "number": 21,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-07"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-22",
+          "number": 22,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-08"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-23",
+          "number": 23,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-08"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-24",
+          "number": 24,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-08"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-25",
+          "number": 25,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-09"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-26",
+          "number": 26,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-09"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-27",
+          "number": 27,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-09"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-28",
+          "number": 28,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-10"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-29",
+          "number": 29,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-10"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-30",
+          "number": 30,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-10"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-31",
+          "number": 31,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-11"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-32",
+          "number": 32,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-11"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-33",
+          "number": 33,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-11"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-34",
+          "number": 34,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-12"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-35",
+          "number": 35,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-12"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-36",
+          "number": 36,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-12"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-37",
+          "number": 37,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-13"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-38",
+          "number": 38,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-13"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-39",
+          "number": 39,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-13"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-40",
+          "number": 40,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-14"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-41",
+          "number": 41,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-14"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-42",
+          "number": 42,
+          "sourceAnswer": "C",
+          "unitIds": [
+            "foundation-d4-14"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-43",
+          "number": 43,
+          "sourceAnswer": "D",
+          "unitIds": [
+            "foundation-d4-15"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-44",
+          "number": 44,
+          "sourceAnswer": "A",
+          "unitIds": [
+            "foundation-d4-15"
+          ]
+        },
+        {
+          "id": "foundation-d4-quiz-45",
+          "number": 45,
+          "sourceAnswer": "B",
+          "unitIds": [
+            "foundation-d4-15"
+          ]
+        }
+      ]
+    }
+  ],
+  "remaining": [
+    "Confirm current PPT scope/order/hours before assigning cohort days.",
+    "Review Germany/Austria regulations and generalized sparkling/fortified explanations before publication.",
+    "Prepare licensed maps and original process diagrams per resource matrix.",
+    "Create condensed original student copy; preserve existing local-progress keys.",
+    "Integrate reviewed units and quizzes only after executable build/browser tests."
+  ]
+}

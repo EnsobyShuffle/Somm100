@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-04",
-  "status": "precourse-d1-d2-review-integrated-build-and-live-qa-pending",
+  "updatedAt": "2026-11-05",
+  "status": "precourse-d1-d2-france-integrated-local-build-verified-d34-source-inventoried-not-live",
   "frameworkSource": "https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e",
   "guidedSource": "https://app.notion.com/p/40717d16de4c812fa096fb12992546e3",
   "supersedes": "Chapter 00 is an early prototype, not the current Pre-Course standard.",
@@ -152,10 +152,10 @@
       "day": 1,
       "status": "10-review-digests-71-checks-30-questions-integrated-not-live",
       "remaining": [
-        "Current six-day timetable",
+        "Current five-day cohort PPT/day allocation",
         "25-question standalone D1 Course Quiz",
         "Visual/video resources",
-        "Full production build and live QA"
+        "Current deployment and live/mobile QA (prior local build/desktop QA passed)"
       ]
     },
     {
@@ -163,18 +163,18 @@
       "status": "9-grape-review-digests-64-checks-27-questions-integrated-not-live",
       "remaining": [
         "Exact placement of six integrated shared France units",
-        "Current six-day timetable",
+        "Current five-day cohort PPT/day allocation",
         "Visual/video resources",
-        "Full production build and live QA"
+        "Current deployment and live/mobile QA (prior local build/desktop QA passed)"
       ]
     },
     {
       "day": 3,
-      "status": "pending-current-timetable-verification"
+      "status": "13-source-units-72-checks-39-unit-questions-30-quiz-questions-read-not-integrated-current-day-unconfirmed"
     },
     {
       "day": 4,
-      "status": "pending-current-timetable-verification"
+      "status": "15-source-units-93-checks-45-unit-questions-45-quiz-questions-read-not-integrated-current-day-unconfirmed"
     },
     {
       "day": 5,
@@ -186,10 +186,10 @@
     }
   ],
   "nextActions": [
-    "Read canonical D2 and shared France digests, keeping exact class-day placement unconfirmed.",
-    "Read the source resource-gap matrix and recover original grape article links.",
-    "Restore full build workspace and run production/mobile QA; current React/Vite/TypeScript dependencies unavailable.",
-    "Read current lecturer/registration document before inserting enrollment facts."
+    "Use the D3/D4 inventory and quiz-to-unit mappings; do not repeat source discovery.",
+    "Fact-check and condense D3/D4 lessons; confirm current cohort PPT before assigning classroom dates/order.",
+    "Restore execution environment for mobile full-app tests and further UI integration; last successful build/desktop QA is recorded in docs/qa/foundation-full-app-20261105.json.",
+    "Keep student reading destinations separate from private Notion source references; verify live Tencent deployment independently."
   ],
   "pathSource": "https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746",
   "inventorySource": "https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd",
@@ -201,12 +201,14 @@
     "status": "source-extracted-and-integrated-not-live"
   },
   "knownGaps": [
-    "D1/D2 inventory confirms 10 D1, 9 D2 and 6 France digests but child texts not imported. France exact D1/D2 placement unconfirmed.",
-    "D3–D6 current timetable not verified.",
-    "Maps, six grape source links, lecturer/registration documents and full build/browser QA remain pending."
+    "D3/D4 source content exists and all 28 unit pages plus two quizzes were read on 2026-11-05; current five-day cohort placement still unconfirmed.",
+    "D5 teaching-material allocation pending; no current D6 in verified cohort22 source.",
+    "D3/D4 facts, current regulations, maps/media rights and student UI integration pending.",
+    "Current runtime unavailable: exec-server initialization timed out; browser tooling unavailable. Prior build/desktop verification remains historical evidence, not a new test.",
+    "Tencent current deployment SHA/live state and mobile/mainland tests remain unverified."
   ],
   "d1Review": {
-    "status": "integrated-build-and-live-qa-pending",
+    "status": "integrated-prior-local-build-and-desktop-verified-live-pending",
     "units": 10,
     "checks": 71,
     "questions": 30,
@@ -286,7 +288,7 @@
     ]
   },
   "d2Review": {
-    "status": "nine-grape-units-integrated-france-in-separate-shared-review-build-and-live-qa-pending",
+    "status": "integrated-prior-local-build-and-desktop-verified-live-pending",
     "units": 9,
     "checks": 64,
     "questions": 27,
@@ -359,7 +361,7 @@
     ]
   },
   "franceReview": {
-    "status": "six-shared-review-units-integrated-map-build-and-live-qa-pending",
+    "status": "integrated-prior-local-build-and-desktop-verified-live-pending",
     "units": 6,
     "checks": 38,
     "questions": 18,
@@ -530,5 +532,15 @@
     "assessment": "Unscored; existing checks/questions/IDs and local progress unchanged",
     "verification": "Real React component bundle + desktop/narrow iframe interaction checked; not full CloudBase or production acceptance",
     "verifiedAt": "2026-11-04T16:35:00Z"
+  },
+  "d34Inventory": {
+    "file": "docs/qa/foundation-d34-source-inventory-20261105.json",
+    "readAt": "2026-11-05",
+    "units": 28,
+    "checks": 165,
+    "unitQuestions": 84,
+    "standaloneQuizQuestions": 75,
+    "status": "all-unit-and-quiz-pages-read-not-ui-integrated",
+    "currentCohortDayConfirmed": false
   }
 }
