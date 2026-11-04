@@ -182,7 +182,7 @@
     },
     {
       "day": 6,
-      "status": "pending-current-timetable-verification"
+      "status": "historical-six-day-framework-conflicts-with-current-five-day-cohort-not-scheduled"
     }
   ],
   "nextActions": [
@@ -408,6 +408,32 @@
         "verification": "unverified",
         "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
       }
+    ]
+  },
+  "cohort22": {
+    "status": "source-schedule-integrated-not-live",
+    "sourceFile": "libfile_73efd088c36c819184f2422d15af1764",
+    "sourceVersion": "3",
+    "sourceModifiedAt": "2026-11-04T11:51:36.800823Z",
+    "sourceUrl": "https://mp.weixin.qq.com/s/ry29Vvs8tSHyR3xgekgySg",
+    "teachingDays": 5,
+    "fieldTripDays": 4,
+    "conflict": "Current cohort source says five teaching days; previous six-day framework is historical/unconfirmed. Do not fabricate a sixth class or relabel existing review IDs.",
+    "enrollment": "Fees, instructors and enrollment URL read from full source; not modified or newly published this increment. Preserve complete bios and images.",
+    "linkAccess": "not-tested"
+  },
+  "resourceMatrix": {
+    "source": "https://app.notion.com/p/40717d16de4c81c2910decdcecc94d7d",
+    "status": "read-gaps-not-yet-filled",
+    "priorities": [
+      "grafting diagram",
+      "fermentation diagram",
+      "red-white-rose process comparison",
+      "origin-rule-label concept",
+      "real-label annotation",
+      "grape learning framework",
+      "France map",
+      "Rhône north/south map"
     ]
   }
 }

@@ -1,3 +1,45 @@
+# Foundation checkpoint — 2026-11-04 cohort 22 source reconciliation
+
+Base: f0948edac9f0fac79c071a9a78145ade5c22b27e on migration/tencent-somm100. Current source corrects the historical six-day assumption.
+
+## Actual increment
+- Freshly read branch HEAD, Foundation/CloudBase checkpoints, source map, LearningApp, D1/D2 components, styles, data and Netlify guard.
+- Read resource-gap matrix 40717d16de4c81c2910decdcecc94d7d. It explicitly calls for diagrams, map/media and verified playability; no candidate asset is marked delivered.
+- Read complete current Library HTML SOMM100_Yichel_公众号排版_讲师介绍补全版.html, libfile_73efd088c36c819184f2422d15af1764, version 3, modified 2026-11-04T11:51:36.800823Z, has_more false. Full source has instructor bios, embedded images, cohort schedule, fees and registration information.
+- Material finding: cohort 22 has FIVE classroom days in THREE stages, plus FOUR field-trip days. Do not continue presenting historical six-day framework as current timetable.
+- Added data/foundation-cohort22.json and app/FoundationCohort.js, mounted in existing Foundation. Five city cards show complete years, stages and daily time; responsive grid avoids wide schedule table on phone.
+- Neutralized four stale six-day labels in LearningApp. Existing D1/D2/France review IDs and progress unchanged; content allocation remains unconfirmed.
+- No instructor bios, images, prices, refund terms, payment or registration links changed. Do not shorten or rewrite original instructor material when subsequently integrating it.
+- Source article: https://mp.weixin.qq.com/s/ry29Vvs8tSHyR3xgekgySg . Link copied from supplied source; live accessibility not tested. Current source schedule shown with instruction to confirm near course start.
+
+## Current content status
+| Item | Status |
+| --- | --- |
+| D1 | 10 review units, 71 checks, 30 MCQs; actual cohort day allocation pending |
+| D2 | 9 grape review units, 64 checks, 27 MCQs; actual cohort day allocation pending |
+| France | 6 shared review units, 38 checks, 18 MCQs; maps and day allocation pending |
+| D3 | Pre-course preview only; formal daily material pending |
+| D4 | Pre-course preview only; formal daily material pending |
+| D5 | Class date exists for each city; teaching materials/assessment placement pending |
+| Historical D6 | Not present in current five-day cohort source; do not fabricate a sixth date |
+
+## Validation and status
+- node --check app/FoundationCohort.js passed.
+- Parsed source HTML schedule rows and compared all five city ranges with JSON. All 25 dates valid, unique per city, ascending; stage lengths 2+2+1; inclusive field-trip span 4 days (2027-03-14 to 2027-03-17).
+- react/typescript/vite still NOT_INSTALLED in current workspace. Production build, browser/phone rendering, source link accessibility and Tencent deployment not verified.
+- This is a display/content change; no learning-record writes added. Existing 24 logic tests passed in previous commit; not represented as rerun here.
+- Saved files; atomic commit/readback follow checkpoint creation. No newly verified live URL.
+- Preserve [skip netlify] and netlify.toml ignore = "exit 0"; no Netlify, cloud billing, domain, ICP or other paused-task action.
+
+## Next breakpoint
+1. Prioritize original code-native diagrams for D1-05 graft/rootstock, D1-06 fermentation, D1-07 red/white/rose, D1-09 origin/rules/label, D2-01 learning framework; validate against actual current lesson content.
+2. Follow resource matrix map links; verify use scope and clarity before displaying third-party images. Do not call source availability deployment.
+3. Keep original instructor bios and all existing images intact. If integrating enrollment section, use source version 3 or newer; no paraphrased replacement of user-approved text.
+4. Find actual five-day cohort teaching allocation; old D3–D6 frame is not authority for latest class schedule.
+5. Restore supported complete build workspace; run build:cloudbase and mobile/browser QA before claiming deployment/acceptance.
+
+---
+
 # Foundation checkpoint — 2026-11-04 France shared review
 
 Base: 478b1da156e846be8271750ea5763ac2adc3b3a3 on migration/tencent-somm100. Supersedes previous France-pending status below.
