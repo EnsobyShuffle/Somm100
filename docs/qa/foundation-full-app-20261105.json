@@ -1,0 +1,54 @@
+{
+  "verifiedAt": "2026-11-05T01:53:00+08:00",
+  "baseCommit": "e2513bf018b5b31ba1bfe0ef3cb1b9b518c6c563",
+  "change": "Load five Foundation components with React.lazy under route-scoped Suspense; preserve all content and storage keys.",
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 451,
+    "entry": "./assets/index-B08pKafx.js",
+    "entryBytes": 12023677,
+    "entrySha256": "8ca8bdfe01793298d7369b373058334aa63cf3c07b2fe750c2e18d459200d0ae",
+    "foundationMarkers": 11,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "tests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "fullAppBrowser": {
+    "preview": "http://terminal.local:4173/",
+    "source": "fresh CloudBase production build",
+    "homeToFoundation": true,
+    "loadingStatusObserved": true,
+    "allFiveComponentsMounted": true,
+    "conceptAndDirectoryLinksPreserveFoundationRoute": true,
+    "d1LabelExerciseExpanded": true,
+    "awayAndBack": true,
+    "reload": true,
+    "restored": {
+      "pace": 4,
+      "d1Unit": 10,
+      "d1Checked": 2,
+      "d1Answered": 2,
+      "firstAndLatestAnswersRetained": true,
+      "franceUnit": 5
+    },
+    "screenshot": "docs/qa/foundation-full-app-20261105.jpg"
+  },
+  "entryReductionBytes": 103221,
+  "limits": [
+    "Existing fixed-version build dependencies used; full frozen-lockfile installation not verified.",
+    "Desktop full-app browser test; no new narrow-screen or physical-phone test this round.",
+    "Root URL browser tested; /somm100/ checked offline only.",
+    "Main entry remains about 12 MB; no broad loading-speed acceptance.",
+    "No Tencent deployment or live verification; no new public URL."
+  ],
+  "deployed": false,
+  "liveAccepted": false
+}

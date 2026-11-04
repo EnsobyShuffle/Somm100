@@ -1,3 +1,29 @@
+# Foundation checkpoint — 2026-11-05 01:53 CST: full-app acceptance and route loading
+
+Base: e2513bf018b5b31ba1bfe0ef3cb1b9b518c6c563 on migration/tencent-somm100. Head rechecked immediately before preparing this commit; no concurrent update found.
+
+## Delivered
+- app/LearningApp.tsx: moved five existing Foundation imports to module-scope React.lazy, with a route-scoped Suspense loading status. Existing course JSX, instructors/images, content, IDs and local-storage schemas are unchanged.
+- First entry reduced by 103,221 bytes (12,126,898 → 12,023,677; gzip approximately 2,061.31 → 2,030.21 kB). Foundation code/CSS now use separate chunks. This is a modest reduction; the roughly 12 MB main entry remains unresolved.
+- First rebuild contained old generated chunks (461 files). Moved the generated directory aside, rebuilt from an empty output directory, then replaced/restarted the managed static preview. Fresh result is 451 files, including eight additional Foundation assets. No source content removed; cause of stale output not established.
+- npm run build:cloudbase passes, 1,936 modules; offline entry/PWA/resource checks pass for / and /somm100/. Entry index-B08pKafx.js SHA256 8ca8bdfe01793298d7369b373058334aa63cf3c07b2fe750c2e18d459200d0ae.
+- All 24 existing Foundation tests pass.
+
+## Full-app browser evidence
+- Tested actual full CloudBase production build using managed preview, not the focused Foundation harness.
+- Discover → Foundation shows loading status, then all five course components mount. Concept buttons and directory links retain #foundation and scroll to the matching content.
+- D1 unit10 label exercise expands. Added a second self-check and answered the vintage question. Navigate to Discover and back, then reload: D1 unit10, 2/8 checks, 2/3 answers remain; prior first/latest answer pair remains; 4-week pace and France unit5 remain.
+- Screenshot docs/qa/foundation-full-app-20261105.jpg; machine-readable evidence docs/qa/foundation-full-app-20261105.json. Desktop test only this round; root mount browser verified, subpath offline only. Browser-local test records are not account/cloud synchronization.
+
+## Delivery status and remaining curriculum
+Saved locally; GitHub atomic commit and readback follow. Production build and local full-app browser checks verified. NOT deployed to Tencent and NOT live accepted; no new live URL verified. Full frozen-lockfile dependency install remains unverified.
+No new teaching text or day assignments this round. Current evidence remains: pre-course 8 weeks/4-week pace (30 checks,31 questions); D1 10 units/71 checks/30 questions; D2 9 units/64 checks/27 questions; France 6 units/38 checks/18 questions. D3 and D4 formal daily materials pending; D5 dates verified but material allocation pending; D6 absent from current five-day cohort22 source. Do not present this as six completed course days.
+
+## Next breakpoint
+Continue authoritative D3/D4 source mapping and mobile full-app validation; do not repeat the completed desktop checks or dependency restoration without a new reason. Main-entry bloat lies largely outside Foundation and is not solved by this scoped change. Tencent deployment remains unverified. Preserve Netlify ignore='exit 0' and [skip netlify]; no old-site/ICP/billing changes or paused task restarts.
+
+---
+
 # Foundation checkpoint — 2026-11-05 01:45 CST: full CloudBase build restored
 
 Base: 047af4d9477d11da7c92af1148acaabbae26b0e1. No concurrent branch update found at start.
@@ -336,5 +362,6 @@ Source Notion pages have unverified metadata. Read/extraction is not final factu
 2. Read resource-gap matrix 40717d16de4c81c2910decdcecc94d7d. Import verified images/videos and grape original links without removing existing course images.
 3. Read Library latest course/lecturer document before introducing any enrollment facts. Do not invent D3–D6 timetable, fees or dates.
 4. Obtain complete supported build workspace, run build:cloudbase and browser/mobile QA; then verify actual Tencent deployment independently. Do not call this commit live.
+
 
 
