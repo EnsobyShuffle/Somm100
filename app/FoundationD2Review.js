@@ -32,7 +32,7 @@ export default function FoundationD2Review() {
   }
   return h('section', {className: 'white-panel foundation-study', id: 'foundation-d2-review', 'aria-labelledby': 'foundation-d2-title'},
     h('h2', {id: 'foundation-d2-title'}, 'D2｜葡萄品种复习'),
-    h('p', null, '本区先开放葡萄品种的 9 个复习单元，供课堂后重建知识、检查理解。法国部分尚待整理，不能视为完整 D2 课程或六天课表。'),
+    h('p', null, '本区先开放葡萄品种的 9 个复习单元，供课堂后重建知识、检查理解。法国专题请见下方独立复习区；这些内容仍不代表完整 D2 课程或六天课表。'),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，独立于课前和 D1 记录，不同步到账号或讲师端。'),
     error ? h('p', {role: 'alert'}, error) : null,
     h('div', {className: 'foundation-study-controls'},

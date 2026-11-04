@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "stage": "shared-review-not-fixed-day",
+  "units": [
+    {
+      "id": "foundation-france-01",
+      "number": 1,
+      "title": "先看地图：法国葡萄酒不是一个风格",
+      "sections": [
+        {
+          "heading": "先建立位置与气候的关系",
+          "text": "法国葡萄酒不能用一种风格概括。北部和东北部通常更冷凉；波尔多及卢瓦尔河谷西部明显受到大西洋影响；南罗讷、普罗旺斯和朗格多克—鲁西荣更多受到地中海气候影响。卢瓦尔河谷向内陆延伸，不能把全区视为相同气候。"
+        },
+        {
+          "heading": "把地名变成问题",
+          "text": "遇到一个地名，依次问：它在哪里、气候怎样、常见什么品种、这些条件如何影响成熟与风格。本节先建立方向感；地图定位练习需要配合地图，当前页面尚未提供地图，不把文字阅读等同于定位能力。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-france-01-check-1",
+          "text": "我能在法国地图上大致指出 Bordeaux、Burgundy、Loire Valley、Rhône Valley、Alsace、Champagne。"
+        },
+        {
+          "id": "foundation-france-01-check-2",
+          "text": "我知道 France 从北到南存在明显气候差异。"
+        },
+        {
+          "id": "foundation-france-01-check-3",
+          "text": "我知道 Atlantic 与 Mediterranean 对不同产区影响不同。"
+        },
+        {
+          "id": "foundation-france-01-check-4",
+          "text": "我知道学习法国地名的目的，是为了连接品种、气候和风格。"
+        },
+        {
+          "id": "foundation-france-01-check-5",
+          "text": "我不会把所有法国葡萄酒理解成“旧世界风格”四个字就结束。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-france-01-q1",
+          "prompt": "哪个产区位于 France 东部、靠近 Germany？",
+          "options": [
+            "Alsace",
+            "Bordeaux",
+            "Loire Valley",
+            "Provence"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Alsace。"
+        },
+        {
+          "id": "foundation-france-01-q2",
+          "prompt": "哪个产区明显受到 Mediterranean 气候影响？",
+          "options": [
+            "Southern Rhône",
+            "Champagne",
+            "Chablis",
+            "Alsace"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Southern Rhône。"
+        },
+        {
+          "id": "foundation-france-01-q3",
+          "prompt": "为什么 France 学习应该先看地图？",
+          "options": [
+            "因为不同位置的气候、品种和风格差异很大",
+            "因为所有法国酒都是一个风格",
+            "因为地图可以代替所有法规学习",
+            "因为酒庄名字都写在地图上"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：因为不同位置的气候、品种和风格差异很大。"
+        }
+      ]
+    },
+    {
+      "id": "foundation-france-02",
+      "number": 2,
+      "title": "Bordeaux：为什么要分左岸和右岸？",
+      "sections": [
+        {
+          "heading": "左右岸先连接品种",
+          "text": "波尔多左岸许多经典产区以 Cabernet Sauvignon 为重要骨架，右岸常见 Merlot 与 Cabernet Franc。不同品种的成熟时间和结构不同；地块、年份和生产者都会改变混酿比例，左右岸不是每瓶酒的固定配方。"
+        },
+        {
+          "heading": "混酿与白葡萄酒",
+          "text": "混酿可让不同品种的单宁、果实成熟感与香气互相补充，但不能消除年份影响。波尔多还有干白和甜白，先认识 Sauvignon Blanc、Sémillon，以及贵腐甜酒代表 Sauternes；此阶段无需背完整酒庄分级名单。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-france-02-check-1",
+          "text": "我知道 Bordeaux 红葡萄酒经常是混酿。"
+        },
+        {
+          "id": "foundation-france-02-check-2",
+          "text": "我能说出 Bordeaux 最重要的三个红葡萄品种。"
+        },
+        {
+          "id": "foundation-france-02-check-3",
+          "text": "我知道左岸通常 Cabernet Sauvignon 更重要。"
+        },
+        {
+          "id": "foundation-france-02-check-4",
+          "text": "我知道右岸通常 Merlot / Cabernet Franc 更重要。"
+        },
+        {
+          "id": "foundation-france-02-check-5",
+          "text": "我能说出 Bordeaux 主要白葡萄品种中的 Sauvignon Blanc 与 Sémillon。"
+        },
+        {
+          "id": "foundation-france-02-check-6",
+          "text": "我知道 Sauternes 是 Bordeaux 重要甜酒代表。"
+        },
+        {
+          "id": "foundation-france-02-check-7",
+          "text": "我现在不需要背 1855 全部酒庄名单。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-france-02-q1",
+          "prompt": "Bordeaux 左岸通常哪个品种更重要？",
+          "options": [
+            "Cabernet Sauvignon",
+            "Gamay",
+            "Nebbiolo",
+            "Pinotage"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Cabernet Sauvignon。"
+        },
+        {
+          "id": "foundation-france-02-q2",
+          "prompt": "Bordeaux 右岸通常哪个品种更重要？",
+          "options": [
+            "Merlot",
+            "Syrah",
+            "Riesling",
+            "Tempranillo"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Merlot。"
+        },
+        {
+          "id": "foundation-france-02-q3",
+          "prompt": "Bordeaux 为什么经常使用混酿？",
+          "options": [
+            "不同品种可以互相补充结构、成熟度和风格",
+            "因为单一品种在法律上全部禁止",
+            "因为混酿一定比单一品种贵",
+            "因为混酿可以忽略年份差异"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：不同品种可以互相补充结构、成熟度和风格。"
+        }
+      ]
+    },
+    {
+      "id": "foundation-france-03",
+      "number": 3,
+      "title": "Burgundy：为什么一个地名能比葡萄品种更重要？",
+      "sections": [
+        {
+          "heading": "先把品种放回地理",
+          "text": "勃艮第的核心红、白品种分别是 Pinot Noir 与 Chardonnay。酒标常强调地名，学习重点是同品种在不同地方的表达。先按北到南认识 Chablis、Côte de Nuits、Côte de Beaune、Côte Chalonnaise、Mâconnais。"
+        },
+        {
+          "heading": "等级不是绝对品质排名",
+          "text": "大区、村庄、一级园与特级园帮助理解地理来源的层次。更具体的地名并不保证每瓶酒更好喝；生产者、年份、保存也重要。这里的葡萄园等级不能直接套用到波尔多的酒庄分级。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-france-03-check-1",
+          "text": "我知道 Burgundy 主要红葡萄品种是 Pinot Noir。"
+        },
+        {
+          "id": "foundation-france-03-check-2",
+          "text": "我知道 Burgundy 主要白葡萄品种是 Chardonnay。"
+        },
+        {
+          "id": "foundation-france-03-check-3",
+          "text": "我知道 Chablis 属于 Burgundy。"
+        },
+        {
+          "id": "foundation-france-03-check-4",
+          "text": "我能理解 Burgundy 为什么特别强调地理来源。"
+        },
+        {
+          "id": "foundation-france-03-check-5",
+          "text": "我大致知道 Chablis、Côte de Nuits、Côte de Beaune、Mâconnais 的南北顺序。"
+        },
+        {
+          "id": "foundation-france-03-check-6",
+          "text": "我知道 Premier Cru / Grand Cru 首先是地理等级概念。"
+        },
+        {
+          "id": "foundation-france-03-check-7",
+          "text": "我不会把 Burgundy 的 Grand Cru 和 Bordeaux 酒庄分级混为一谈。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-france-03-q1",
+          "prompt": "Burgundy 最重要的红葡萄品种是？",
+          "options": [
+            "Pinot Noir",
+            "Cabernet Sauvignon",
+            "Syrah",
+            "Merlot"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Pinot Noir。"
+        },
+        {
+          "id": "foundation-france-03-q2",
+          "prompt": "Burgundy 最重要的白葡萄品种是？",
+          "options": [
+            "Chardonnay",
+            "Sauvignon Blanc",
+            "Riesling",
+            "Sémillon"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Chardonnay。"
+        },
+        {
+          "id": "foundation-france-03-q3",
+          "prompt": "关于 Burgundy 的 Grand Cru，哪项最合理？",
+          "options": [
+            "它主要是地理等级概念，不能和 Bordeaux 酒庄分级直接混为一谈",
+            "它表示所有酒庄都属于一级酒庄",
+            "它等于任何国家的最高酒庄等级",
+            "它表示必须使用 Cabernet Sauvignon"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：它主要是地理等级概念，不能和 Bordeaux 酒庄分级直接混为一谈。"
+        }
+      ]
+    },
+    {
+      "id": "foundation-france-04",
+      "number": 4,
+      "title": "Loire Valley：一条河，为什么能出现这么多不同风格？",
+      "sections": [
+        {
+          "heading": "用四组关系串起卢瓦尔",
+          "text": "Sancerre 和 Pouilly-Fumé 的经典白葡萄是 Sauvignon Blanc；Chenin Blanc 在卢瓦尔多个重要区域可做干型、甜型或起泡酒；Chinon 的重要红品种是 Cabernet Franc。长河沿线的位置和气候不同，风格也不相同。"
+        },
+        {
+          "heading": "分清 Muscadet 与 Muscat",
+          "text": "Muscadet 是卢瓦尔西部的葡萄酒／产区名称，其核心品种是 Melon de Bourgogne。Muscat 则是葡萄品种家族。读标时先辨认一个词指的是地方、品种还是酒款类别，避免只凭相似拼写判断。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-france-04-check-1",
+          "text": "我能把 Sancerre / Pouilly-Fumé 与 Sauvignon Blanc 联系起来。"
+        },
+        {
+          "id": "foundation-france-04-check-2",
+          "text": "我知道 Chenin Blanc 是 Loire Valley 的重要品种。"
+        },
+        {
+          "id": "foundation-france-04-check-3",
+          "text": "我知道 Cabernet Franc 在 Loire 也很重要。"
+        },
+        {
+          "id": "foundation-france-04-check-4",
+          "text": "我知道 Chinon 与 Cabernet Franc 有重要关系。"
+        },
+        {
+          "id": "foundation-france-04-check-5",
+          "text": "我知道 Muscadet 不是 Muscat。"
+        },
+        {
+          "id": "foundation-france-04-check-6",
+          "text": "我知道 Loire Valley 风格多样，不能只用一种葡萄酒风格概括。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-france-04-q1",
+          "prompt": "Sancerre 最重要的白葡萄品种是？",
+          "options": [
+            "Sauvignon Blanc",
+            "Chardonnay",
+            "Riesling",
+            "Sémillon"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Sauvignon Blanc。"
+        },
+        {
+          "id": "foundation-france-04-q2",
+          "prompt": "Chinon 最重要的红葡萄品种之一是？",
+          "options": [
+            "Cabernet Franc",
+            "Syrah",
+            "Nebbiolo",
+            "Pinotage"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Cabernet Franc。"
+        },
+        {
+          "id": "foundation-france-04-q3",
+          "prompt": "关于 Muscadet，哪项正确？",
+          "options": [
+            "它不是 Muscat，核心葡萄品种是 Melon de Bourgogne",
+            "它就是 Muscat 的另一种拼写",
+            "它是 Bordeaux 的红葡萄品种",
+            "它是 Champagne 的等级名称"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：它不是 Muscat，核心葡萄品种是 Melon de Bourgogne。"
+        }
+      ]
+    },
+    {
+      "id": "foundation-france-05",
+      "number": 5,
+      "title": "Rhône Valley：为什么北边讲 Syrah，南边讲 GSM？",
+      "sections": [
+        {
+          "heading": "北罗讷以 Syrah 为线索",
+          "text": "北罗讷红葡萄酒的核心品种是 Syrah，可连接 Côte-Rôtie、Hermitage、Cornas、Saint-Joseph 与 Crozes-Hermitage。白葡萄也要认识 Viognier、Marsanne 和 Roussanne，其中 Condrieu 与 Viognier 是重要关系。"
+        },
+        {
+          "heading": "南部先理解成熟与混酿",
+          "text": "南罗讷地中海气候影响更明显，Grenache 更重要，混酿也更常见。GSM 指 Grenache、Syrah、Mourvèdre，既不是固定比例，也不代表所有南罗讷酒都只用这三个品种。先以 Châteauneuf-du-Pape 建立产区联系。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-france-05-check-1",
+          "text": "我知道 Northern Rhône 红葡萄酒核心品种是 Syrah。"
+        },
+        {
+          "id": "foundation-france-05-check-2",
+          "text": "我能说出至少两个 Northern Rhône 经典产区。"
+        },
+        {
+          "id": "foundation-france-05-check-3",
+          "text": "我能把 Condrieu 与 Viognier 联系起来。"
+        },
+        {
+          "id": "foundation-france-05-check-4",
+          "text": "我知道 Marsanne / Roussanne 是 Rhône 重要白葡萄品种。"
+        },
+        {
+          "id": "foundation-france-05-check-5",
+          "text": "我知道 Southern Rhône 更常见 Grenache 主导的混酿。"
+        },
+        {
+          "id": "foundation-france-05-check-6",
+          "text": "我知道 GSM 的三个品种。"
+        },
+        {
+          "id": "foundation-france-05-check-7",
+          "text": "我能解释为什么南北 Rhône 的品种逻辑不同。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-france-05-q1",
+          "prompt": "Northern Rhône 红葡萄酒最核心的品种是？",
+          "options": [
+            "Syrah",
+            "Merlot",
+            "Gamay",
+            "Tempranillo"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Syrah。"
+        },
+        {
+          "id": "foundation-france-05-q2",
+          "prompt": "GSM 中不包括哪个品种？",
+          "options": [
+            "Cabernet Sauvignon",
+            "Grenache",
+            "Syrah",
+            "Mourvèdre"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Cabernet Sauvignon。"
+        },
+        {
+          "id": "foundation-france-05-q3",
+          "prompt": "Condrieu 最重要的白葡萄品种是？",
+          "options": [
+            "Viognier",
+            "Chardonnay",
+            "Riesling",
+            "Sémillon"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Viognier。"
+        }
+      ]
+    },
+    {
+      "id": "foundation-france-06",
+      "number": 6,
+      "title": "Alsace：为什么这里的酒标看起来和法国其他地方不太一样？",
+      "sections": [
+        {
+          "heading": "地理条件与品种",
+          "text": "阿尔萨斯位于法国东部、邻近德国，孚日山脉影响降水分布，使不少葡萄园相对干燥。先认识 Riesling、Gewürztraminer、Pinot Gris 和 Muscat；偏北的位置并不意味着葡萄无法充分成熟。"
+        },
+        {
+          "heading": "看见品种名，还要确认甜度",
+          "text": "阿尔萨斯许多酒标直接标注葡萄品种，适合连接品种与产区知识。但品种名称不能单独决定甜度：这里既有干型，也有带甜度的酒。判断具体酒款仍需查看酒标信息和生产者资料。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-france-06-check-1",
+          "text": "我知道 Alsace 位于 France 东部、靠近 Germany。"
+        },
+        {
+          "id": "foundation-france-06-check-2",
+          "text": "我知道 Vosges Mountains 会影响当地气候。"
+        },
+        {
+          "id": "foundation-france-06-check-3",
+          "text": "我能说出 Riesling、Gewürztraminer、Pinot Gris、Muscat。"
+        },
+        {
+          "id": "foundation-france-06-check-4",
+          "text": "我知道 Alsace 酒标经常直接写葡萄品种。"
+        },
+        {
+          "id": "foundation-france-06-check-5",
+          "text": "我不会把 Alsace 所有酒都理解成甜酒。"
+        },
+        {
+          "id": "foundation-france-06-check-6",
+          "text": "我能解释为什么 Alsace 是连接品种与产区学习的好案例。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-france-06-q1",
+          "prompt": "Alsace 位于 France 哪个方向？",
+          "options": [
+            "东部",
+            "西南部",
+            "西北海岸",
+            "最南端地中海沿岸"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：东部。"
+        },
+        {
+          "id": "foundation-france-06-q2",
+          "prompt": "以下哪个品种不是 Alsace 最典型的核心白品种之一？",
+          "options": [
+            "Cabernet Sauvignon",
+            "Riesling",
+            "Gewürztraminer",
+            "Pinot Gris"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：Cabernet Sauvignon。"
+        },
+        {
+          "id": "foundation-france-06-q3",
+          "prompt": "关于 Alsace 酒标，哪项最合理？",
+          "options": [
+            "很多酒会直接标注葡萄品种",
+            "所有酒都禁止写品种",
+            "所有酒都必须是甜型",
+            "所有酒都必须使用 Chardonnay"
+          ],
+          "answer": 0,
+          "explanation": "关键理解：很多酒会直接标注葡萄品种。"
+        }
+      ]
+    }
+  ]
+}

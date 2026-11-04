@@ -162,7 +162,7 @@
       "day": 2,
       "status": "9-grape-review-digests-64-checks-27-questions-integrated-not-live",
       "remaining": [
-        "Six shared France units and their exact D1/D2 placement",
+        "Exact placement of six integrated shared France units",
         "Current six-day timetable",
         "Visual/video resources",
         "Full production build and live QA"
@@ -286,7 +286,7 @@
     ]
   },
   "d2Review": {
-    "status": "nine-grape-units-integrated-france-build-and-live-qa-pending",
+    "status": "nine-grape-units-integrated-france-in-separate-shared-review-build-and-live-qa-pending",
     "units": 9,
     "checks": 64,
     "questions": 27,
@@ -355,6 +355,58 @@
         "sourceEditedAt": "2026-10-28T19:48:01.329Z",
         "scope": "Original condensed teaching summaries plus source checklist/questions; no linked historical textbook reproduced",
         "verification": "unverified"
+      }
+    ]
+  },
+  "franceReview": {
+    "status": "six-shared-review-units-integrated-map-build-and-live-qa-pending",
+    "units": 6,
+    "checks": 38,
+    "questions": 18,
+    "dayAssignment": "unconfirmed-do-not-force-into-D1-or-D2",
+    "dataFile": "data/foundation-france.json",
+    "sources": [
+      {
+        "id": "foundation-france-01",
+        "source": "https://app.notion.com/p/40717d16de4c812a91a9e646c9e10af3",
+        "sourceEditedAt": "2026-10-28T19:48:03.553Z",
+        "verification": "unverified",
+        "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
+      },
+      {
+        "id": "foundation-france-02",
+        "source": "https://app.notion.com/p/40717d16de4c81df9eabe257fe06ffb5",
+        "sourceEditedAt": "2026-10-28T19:48:05.664Z",
+        "verification": "unverified",
+        "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
+      },
+      {
+        "id": "foundation-france-03",
+        "source": "https://app.notion.com/p/40717d16de4c81558f88ddcb1d61593e",
+        "sourceEditedAt": "2026-10-28T19:48:24.645Z",
+        "verification": "unverified",
+        "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
+      },
+      {
+        "id": "foundation-france-04",
+        "source": "https://app.notion.com/p/40717d16de4c8178ab75e37868eb8ee3",
+        "sourceEditedAt": "2026-10-28T19:48:26.781Z",
+        "verification": "unverified",
+        "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
+      },
+      {
+        "id": "foundation-france-05",
+        "source": "https://app.notion.com/p/40717d16de4c8172833dcff7d2cd3fca",
+        "sourceEditedAt": "2026-10-28T19:48:28.705Z",
+        "verification": "unverified",
+        "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
+      },
+      {
+        "id": "foundation-france-06",
+        "source": "https://app.notion.com/p/40717d16de4c817cba87daed923a5a5d",
+        "sourceEditedAt": "2026-10-28T19:49:22.884Z",
+        "verification": "unverified",
+        "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
       }
     ]
   }
