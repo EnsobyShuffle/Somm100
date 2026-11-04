@@ -542,5 +542,15 @@
     "standaloneQuizQuestions": 75,
     "status": "all-unit-and-quiz-pages-read-not-ui-integrated",
     "currentCohortDayConfirmed": false
+  },
+  "d3Draft": {
+    "file": "docs/staging/foundation-d3-review.json",
+    "units": 13,
+    "checks": 72,
+    "questions": 39,
+    "status": "editorial-draft-tested-not-imported",
+    "publicationReady": false,
+    "sourceInventory": "docs/qa/foundation-d34-source-inventory-20261105.json",
+    "next": "Fact QA, current cohort alignment, then student UI and full build/mobile tests"
   }
 }

@@ -1,3 +1,21 @@
+# Foundation checkpoint — 2026-11-05 05:38 CST: complete D3 editorial data draft
+
+Base: 86a95e9c85c80d0282549fbd0f4f2c50ff344971. Current migration/source/progress/inventory and Netlify guard read. No concurrent head change at start.
+
+## Delivered
+- Runtime recovered: pwd and Node tests executed successfully. Previous local checkout/dependencies absent after workspace maintenance; did not claim missing source or return to old main. Focused working directory /workspace/scratch/4b501e03edb8/somm100-d3, authoritative base files read through GitHub.
+- Read all13 D3 child pages using saved inventory URLs; each text fetched before extraction. Added docs/staging/foundation-d3-review.json with13 stable unit IDs,26 original condensed Chinese teaching paragraphs,13 learning objectives/preparation prompts,72 source checks and39 source MCQs/answer keys. Source URLs/edit times retained as engineering provenance only.
+- Teaching scope: country learning framework; Italy/Piedmont/Veneto/Tuscany; Spain/Rioja-Ribera-Priorat/Rías Baixas-Cava; Portugal; Germany/geographic and label entry; Austria; Greece/Hungary entry. No private linked textbook text/image reproduced. Source labels D3 do not establish the current five-day cohort's classroom allocation.
+- This is a staged editorial draft under docs, not app data/public output. publicationReady,studentUiIntegrated,currentCohortDayConfirmed all false. No runtime UI/import/storage-key change, no lecture/instructor/photo deletion. Existing39 source questions retained; explanatory prompts refer back to the matching digest. Domain fact review still required before publication, especially Germany/Austria regulations and broad regional/production descriptions.
+- Added tests/foundation-d3-draft.test.mjs. Actual Node run:5 passed,0 failed. Checks draft gates, all13 source mappings, unique stable IDs,72/39 counts, four distinct options and answer ranges, objectives/preparation/original digest shape. This verifies structure, not wine facts or UI.
+
+## Status / next breakpoint
+Saved and ready for atomic GitHub commit/readback. No production build or browser/mobile test this round; no Tencent deployment/live acceptance or new public URL. Last full build/desktop evidence remains the prior 0fe50af change, not this draft.
+D1 ten units/D2 nine units/shared France six remain integrated. D3 now has a complete staged13-unit draft; D4 remains15-source-unit inventory with93 checks/45 inline questions/45 standalone quiz questions. Standalone D3 quiz30 remains mapped but not imported. D5 material allocation pending; D6 absent from verified five-day cohort22 source.
+Next: fact-check D3 candidate, enrich answer explanations where useful, prepare equivalent D4 original digests, then restore current full workspace for UI integration and mobile testing. Do not repeat broad source discovery or overwrite live student UI with unreviewed draft. Runtime failure is resolved; full checkout/dependencies still need restoration for full build. Keep [skip netlify] and ignore='exit 0'; no unrelated task restart, cloud purchases/auth or ICP actions.
+
+---
+
 # Foundation checkpoint — 2026-11-05 03:34 CST: D3/D4 source inventory recovered
 
 Base: 0fe50afd6eb7b9218f6f033f2232704c5bca47f4; authoritative branch migration/tencent-somm100. Read current migration/progress/source-map/Netlify guard; no concurrent update at start.

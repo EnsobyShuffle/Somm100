@@ -1,0 +1,1066 @@
+{
+  "schemaVersion": 1,
+  "stage": "post-class-review",
+  "status": "editorial-draft-not-imported",
+  "currentCohortDayConfirmed": false,
+  "studentUiIntegrated": false,
+  "publicationReady": false,
+  "notes": "Original condensed teaching text; checklist/questions extracted from user course drafts. Source labels do not confirm current cohort day allocation. Fact QA and full UI/build tests pending. Notion URLs are provenance only.",
+  "units": [
+    {
+      "id": "foundation-d3-01",
+      "number": 1,
+      "title": "学一个欧洲国家，先别从法规开始",
+      "learningObjective": "知道 D3 学国家仍然使用“地图 → 品种 → 产区 → 风格 → 酒标 / 法规”的顺序。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "先把名字放回地图",
+          "text": "沿用法国专题的学习方法，把一个国家拆成位置、主要产区、核心品种和风格。遇到陌生酒名，先确认它是品种、产区还是生产者，再讨论标签和法规。"
+        },
+        {
+          "heading": "关系比名单重要",
+          "text": "同一个品种在不同地方可能有不同表达。先画出两三条“国家—产区—品种”关系，再用风格解释这些关系；暂不背整套等级和陈年数字。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-01-check-1",
+          "text": "我知道 D3 学国家仍然使用“地图 → 品种 → 产区 → 风格 → 酒标 / 法规”的顺序。"
+        },
+        {
+          "id": "foundation-d3-01-check-2",
+          "text": "我不会一开始就背完整法规等级。"
+        },
+        {
+          "id": "foundation-d3-01-check-3",
+          "text": "我知道同一个品种在不同国家和产区会有不同风格。"
+        },
+        {
+          "id": "foundation-d3-01-check-4",
+          "text": "我知道学习国家的目标是建立关系，而不是收集孤立名词。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-01-q1",
+          "prompt": "学一个新葡萄酒国家，最合理的第一步是什么？",
+          "options": [
+            "背完整法规",
+            "先建立地图与核心品种关系",
+            "背全部酒庄",
+            "背所有年份"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：先建立地图与核心品种关系。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-01-q2",
+          "prompt": "为什么不建议一开始背 DOC / DOCG / DO 等全部等级？",
+          "options": [
+            "因为法规完全没用",
+            "因为法规必须先放回具体国家、产区和酒款里理解",
+            "因为这些词都是葡萄品种",
+            "因为所有国家法规都一样"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：因为法规必须先放回具体国家、产区和酒款里理解。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-01-q3",
+          "prompt": "D3 最重要的学习能力是什么？",
+          "options": [
+            "背最多酒庄",
+            "记住最多数字",
+            "把新名字放回地图、品种和风格关系里",
+            "只会认酒标颜色"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：把新名字放回地图、品种和风格关系里。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81f18261c37a8af8baea",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z"
+    },
+    {
+      "id": "foundation-d3-02",
+      "number": 2,
+      "title": "意大利：先把北部、中部、南部放进脑子",
+      "learningObjective": "知道 Italy 可以先按北部、中部、南部建立地图。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "先建立三个地理方向",
+          "text": "把意大利先分为北部、中部、南部与岛屿，作为定位工具，而非法规或品质分类。先在北部找到 Piedmont 和 Veneto，在中部找到 Tuscany。"
+        },
+        {
+          "heading": "用酒名连接品种",
+          "text": "Piedmont 可由 Nebbiolo 与 Barolo、Barbaresco 入手；Veneto 比较 Corvina 相关红酒与 Glera 相关起泡酒；Tuscany 从 Sangiovese 进入。不要据此把每一区域限定为一种酒。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-02-check-1",
+          "text": "我知道 Italy 可以先按北部、中部、南部建立地图。"
+        },
+        {
+          "id": "foundation-d3-02-check-2",
+          "text": "我能把 Piedmont、Veneto 放在北部。"
+        },
+        {
+          "id": "foundation-d3-02-check-3",
+          "text": "我能把 Tuscany 放在中部。"
+        },
+        {
+          "id": "foundation-d3-02-check-4",
+          "text": "我知道 Italy 本土品种很多，不能只靠国际品种理解。"
+        },
+        {
+          "id": "foundation-d3-02-check-5",
+          "text": "我现在不需要背完整 DOC / DOCG 体系。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-02-q1",
+          "prompt": "Piedmont 位于 Italy 哪一部分？",
+          "options": [
+            "南部",
+            "北部",
+            "中部",
+            "岛屿"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：北部。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-02-q2",
+          "prompt": "Tuscany 最重要的核心红葡萄品种是？",
+          "options": [
+            "Riesling",
+            "Tempranillo",
+            "Sangiovese",
+            "Pinotage"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：Sangiovese。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-02-q3",
+          "prompt": "以下哪个学习方法最适合刚进入 Italy？",
+          "options": [
+            "先背所有 DOCG",
+            "先背全部酒庄",
+            "只学国际葡萄品种",
+            "先建立北部、中部、南部和核心产区地图"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：先建立北部、中部、南部和核心产区地图。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c818f881ff54d69f2e2c9",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z"
+    },
+    {
+      "id": "foundation-d3-03",
+      "number": 3,
+      "title": "Piedmont：颜色浅，不代表结构轻",
+      "learningObjective": "能把 Nebbiolo 与 Barolo / Barbaresco 联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "颜色与结构分开观察",
+          "text": "学习 Nebbiolo 时，把颜色、酸度和单宁分别记录。颜色较浅仍可能伴随高酸和明显单宁；颜色深浅不能直接替代结构判断或品质判断。"
+        },
+        {
+          "heading": "从两个产区建立联系",
+          "text": "把 Barolo、Barbaresco 与 Nebbiolo 连起来，再比较具体酒款。Piedmont 也有 Moscato 相关风格；这一轮先建立关系，详细村庄、陈年要求和风格例外留待核实。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-03-check-1",
+          "text": "我能把 Nebbiolo 与 Barolo / Barbaresco 联系起来。"
+        },
+        {
+          "id": "foundation-d3-03-check-2",
+          "text": "我知道 Nebbiolo 颜色未必很深，但酸度和单宁可以很高。"
+        },
+        {
+          "id": "foundation-d3-03-check-3",
+          "text": "我知道 Piedmont 不只有红葡萄酒。"
+        },
+        {
+          "id": "foundation-d3-03-check-4",
+          "text": "我认识 Moscato d'Asti 这个名字。"
+        },
+        {
+          "id": "foundation-d3-03-check-5",
+          "text": "我现在不需要背 Barolo 全部村庄与法规。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-03-q1",
+          "prompt": "Barolo 最重要的葡萄品种是？",
+          "options": [
+            "Sangiovese",
+            "Nebbiolo",
+            "Syrah",
+            "Cabernet Sauvignon"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：Nebbiolo。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-03-q2",
+          "prompt": "关于 Nebbiolo，哪项最合理？",
+          "options": [
+            "颜色浅，所以一定低单宁",
+            "一定低酸",
+            "可以颜色较浅，但酸度和单宁都很高",
+            "只能酿甜酒"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：可以颜色较浅，但酸度和单宁都很高。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-03-q3",
+          "prompt": "Moscato d'Asti 最重要的葡萄品种是？",
+          "options": [
+            "Chardonnay",
+            "Pinot Noir",
+            "Riesling",
+            "Moscato"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：Moscato。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81ad8293cb31b5750566",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z"
+    },
+    {
+      "id": "foundation-d3-04",
+      "number": 4,
+      "title": "Veneto：Amarone 和 Prosecco 为什么像两个世界？",
+      "learningObjective": "能把 Amarone 与 Corvina 联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "先理解风干的作用",
+          "text": "Amarone 的学习入口是 Corvina 等品种与 Appassimento：葡萄在发酵前失去部分水分，影响后续浓缩程度和发酵条件。风干不等于成酒一定甜，最终甜度还要看发酵结果。"
+        },
+        {
+          "heading": "对照另一种风格",
+          "text": "Prosecco 以 Glera 为重要品种，常见起泡风格与 Amarone 的红酒表达不同。比较时分开写品种、葡萄处理、起泡与否及结构，不用 Veneto 一个地名概括全部风格。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-04-check-1",
+          "text": "我能把 Amarone 与 Corvina 联系起来。"
+        },
+        {
+          "id": "foundation-d3-04-check-2",
+          "text": "我知道 Appassimento 是葡萄风干过程。"
+        },
+        {
+          "id": "foundation-d3-04-check-3",
+          "text": "我知道风干会让葡萄更浓缩。"
+        },
+        {
+          "id": "foundation-d3-04-check-4",
+          "text": "我能把 Prosecco 与 Glera 联系起来。"
+        },
+        {
+          "id": "foundation-d3-04-check-5",
+          "text": "我知道 Amarone 与 Prosecco 是完全不同的风格体系。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-04-q1",
+          "prompt": "Amarone 最重要的核心葡萄品种之一是？",
+          "options": [
+            "Riesling",
+            "Corvina",
+            "Pinotage",
+            "Malbec"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：Corvina。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-04-q2",
+          "prompt": "Appassimento 最接近哪种做法？",
+          "options": [
+            "加入二氧化碳",
+            "加入烈酒",
+            "发酵前风干葡萄",
+            "冷冻葡萄酒"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：发酵前风干葡萄。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-04-q3",
+          "prompt": "Prosecco 最重要的葡萄品种是？",
+          "options": [
+            "Chardonnay",
+            "Moscato",
+            "Nebbiolo",
+            "Glera"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：Glera。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c8185b523dc664e1cd618",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z"
+    },
+    {
+      "id": "foundation-d3-05",
+      "number": 5,
+      "title": "Tuscany：为什么 Sangiovese 会出现这么多名字？",
+      "learningObjective": "能把 Sangiovese 与 Tuscany 联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "先抓住 Sangiovese",
+          "text": "把 Chianti、Chianti Classico、Brunello di Montalcino 与 Sangiovese 建立联系。相同品种并不意味着相同成酒：产地、成熟条件和酿造熟成选择都值得比较。"
+        },
+        {
+          "heading": "名称不等于另一个品种",
+          "text": "不要因为酒名不同就把 Brunello 当作与 Sangiovese 无关的葡萄。Super Tuscan 先作为生产者探索和法规历史的讨论入口，不用它直接推断某瓶酒的配比或品质。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-05-check-1",
+          "text": "我能把 Sangiovese 与 Tuscany 联系起来。"
+        },
+        {
+          "id": "foundation-d3-05-check-2",
+          "text": "我知道 Chianti 以 Sangiovese 为核心。"
+        },
+        {
+          "id": "foundation-d3-05-check-3",
+          "text": "我知道 Brunello di Montalcino 不是一个独立葡萄品种。"
+        },
+        {
+          "id": "foundation-d3-05-check-4",
+          "text": "我知道同一个 Sangiovese 可以因产区和酿造形成不同风格。"
+        },
+        {
+          "id": "foundation-d3-05-check-5",
+          "text": "我只需要先认识 Super Tuscan 概念，不背酒庄名单。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-05-q1",
+          "prompt": "Tuscany 最重要的核心红葡萄品种是？",
+          "options": [
+            "Nebbiolo",
+            "Sangiovese",
+            "Tempranillo",
+            "Syrah"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：Sangiovese。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-05-q2",
+          "prompt": "Brunello di Montalcino 最核心的葡萄品种本质上属于？",
+          "options": [
+            "Cabernet Sauvignon",
+            "Merlot",
+            "Sangiovese",
+            "Riesling"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：Sangiovese。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-05-q3",
+          "prompt": "Super Tuscan 第一层最适合怎样理解？",
+          "options": [
+            "一种白葡萄品种",
+            "一种起泡酒方法",
+            "一个 Germany 等级",
+            "Tuscany 中突破传统法规框架的重要历史风格 / 酒款概念"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：Tuscany 中突破传统法规框架的重要历史风格 / 酒款概念。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81b089c0d6b8912a13ff",
+      "sourceEditedAt": "2026-10-28T20:06:34.144Z"
+    },
+    {
+      "id": "foundation-d3-06",
+      "number": 6,
+      "title": "西班牙：别只记 Rioja，先看完整地图",
+      "learningObjective": "能把 Tempranillo 与 Rioja / Ribera del Duero 联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "用不同类型打开西班牙",
+          "text": "先识别 Rioja、Ribera del Duero、Priorat、Rías Baixas 和 Jerez。它们帮助建立红酒、白酒和加强酒等不同方向；一张地图上同时保留类型差异。"
+        },
+        {
+          "heading": "不要把国家等同于一个品种",
+          "text": "Tempranillo 是重要学习线索，但不是全部。把 Priorat 与 Garnacha、Cariñena，Rías Baixas 与 Albariño 连接起来；Cava 的方法和 Jerez 的熟成逻辑放到相应专题继续。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-06-check-1",
+          "text": "我能把 Tempranillo 与 Rioja / Ribera del Duero 联系起来。"
+        },
+        {
+          "id": "foundation-d3-06-check-2",
+          "text": "我知道 Priorat 与 Garnacha 有重要关系。"
+        },
+        {
+          "id": "foundation-d3-06-check-3",
+          "text": "我能把 Rías Baixas 与 Albariño 联系起来。"
+        },
+        {
+          "id": "foundation-d3-06-check-4",
+          "text": "我知道 Jerez 与 Sherry 有重要关系。"
+        },
+        {
+          "id": "foundation-d3-06-check-5",
+          "text": "我知道 Cava 是 西班牙 的重要起泡酒。"
+        },
+        {
+          "id": "foundation-d3-06-check-6",
+          "text": "我现在不需要背完整 Crianza / Reserva / Gran Reserva 年限。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-06-q1",
+          "prompt": "Rioja 最重要的红葡萄品种之一是？",
+          "options": [
+            "Riesling",
+            "Tempranillo",
+            "Pinotage",
+            "Chardonnay"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：Tempranillo。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-06-q2",
+          "prompt": "Rías Baixas 最重要的白葡萄品种是？",
+          "options": [
+            "Sangiovese",
+            "Nebbiolo",
+            "Albariño",
+            "Merlot"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：Albariño。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-06-q3",
+          "prompt": "Jerez 最重要的葡萄酒类型是？",
+          "options": [
+            "Champagne",
+            "Barolo",
+            "Port",
+            "Sherry"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：Sherry。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81459859df24fcb5d8ec",
+      "sourceEditedAt": "2026-10-28T20:12:04.163Z"
+    },
+    {
+      "id": "foundation-d3-07",
+      "number": 7,
+      "title": "Rioja、Ribera del Duero、Priorat：同一个国家，三种红酒逻辑",
+      "learningObjective": "能把 Rioja 与 Tempranillo 联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "同品种也需要比较产区",
+          "text": "Rioja 和 Ribera del Duero 都能帮助学习 Tempranillo，但不能互相套用风格答案。比较成熟环境、结构和橡木熟成选择，保留生产者与年份带来的差异。"
+        },
+        {
+          "heading": "Priorat 换一组品种关系",
+          "text": "学习 Priorat 时从 Garnacha 与 Cariñena 入手，而非沿用 Tempranillo。先建立品种与产地关系，再看具体酒款的成熟感和结构；不把所有酒固定为浓重或高酒精。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-07-check-1",
+          "text": "我能把 Rioja 与 Tempranillo 联系起来。"
+        },
+        {
+          "id": "foundation-d3-07-check-2",
+          "text": "我能把 Ribera del Duero 与 Tempranillo 联系起来。"
+        },
+        {
+          "id": "foundation-d3-07-check-3",
+          "text": "我知道同一个 Tempranillo 在两个产区不会自动表现成同一个风格。"
+        },
+        {
+          "id": "foundation-d3-07-check-4",
+          "text": "我能把 Priorat 与 Garnacha / Cariñena 联系起来。"
+        },
+        {
+          "id": "foundation-d3-07-check-5",
+          "text": "我知道 西班牙 的陈年术语很重要，但现在不需要背全部年限。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-07-q1",
+          "prompt": "Rioja 最重要的红葡萄品种之一是？",
+          "options": [
+            "Riesling",
+            "Tempranillo",
+            "Pinotage",
+            "Chardonnay"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：Tempranillo。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-07-q2",
+          "prompt": "哪个产区同样以 Tempranillo 为核心，但常用来与 Rioja 做不同产区比较？",
+          "options": [
+            "Chablis",
+            "Barolo",
+            "Ribera del Duero",
+            "Mosel"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：Ribera del Duero。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-07-q3",
+          "prompt": "Priorat 最适合先和哪组葡萄品种建立联系？",
+          "options": [
+            "Riesling / Gewürztraminer",
+            "Chardonnay / Pinot Noir",
+            "Cabernet Franc / Chenin Blanc",
+            "Garnacha / Cariñena"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：Garnacha / Cariñena。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81de84f2c8a98135343f",
+      "sourceEditedAt": "2026-10-28T20:12:07.258Z"
+    },
+    {
+      "id": "foundation-d3-08",
+      "number": 8,
+      "title": "Rías Baixas 与 Cava：西班牙不只有红葡萄酒",
+      "learningObjective": "能把 Rías Baixas 与 Albariño 联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "把白酒放回海洋环境",
+          "text": "Rías Baixas 位于西班牙西北部，Albariño 是核心学习对象。用此前的气候、成熟和酸度知识提出比较问题，而不是仅记一个香气词。"
+        },
+        {
+          "heading": "把起泡酒放回酿造方法",
+          "text": "Cava 是西班牙起泡酒的重要入口。先连接传统法与瓶中第二次发酵，再进入酒泥、转瓶和除渣等流程；不要把西班牙只记成红酒国家。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-08-check-1",
+          "text": "我能把 Rías Baixas 与 Albariño 联系起来。"
+        },
+        {
+          "id": "foundation-d3-08-check-2",
+          "text": "我知道 Rías Baixas 受大西洋影响明显。"
+        },
+        {
+          "id": "foundation-d3-08-check-3",
+          "text": "我知道 Cava 是 西班牙 的重要起泡酒。"
+        },
+        {
+          "id": "foundation-d3-08-check-4",
+          "text": "我知道 Cava 常使用传统法。"
+        },
+        {
+          "id": "foundation-d3-08-check-5",
+          "text": "我认识 Macabeo、Xarel·lo、Parellada 这三个名字。"
+        },
+        {
+          "id": "foundation-d3-08-check-6",
+          "text": "我不会把 西班牙 只理解成红葡萄酒国家。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-08-q1",
+          "prompt": "Rías Baixas 最重要的白葡萄品种是？",
+          "options": [
+            "Riesling",
+            "Chardonnay",
+            "Albariño",
+            "Sangiovese"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：Albariño。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-08-q2",
+          "prompt": "Cava 最适合先归入哪一类葡萄酒？",
+          "options": [
+            "加强型葡萄酒",
+            "静止甜红",
+            "蒸馏酒",
+            "起泡酒"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：起泡酒。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-08-q3",
+          "prompt": "关于 Cava 的第一层理解，哪项最合理？",
+          "options": [
+            "它通常采用传统法，第二次发酵发生在瓶中",
+            "它一定使用 Cabernet Sauvignon",
+            "它来自 葡萄牙",
+            "它没有第二次发酵"
+          ],
+          "answer": 0,
+          "explanation": "复习要点：它通常采用传统法，第二次发酵发生在瓶中。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81ef9e21ed6540e07908",
+      "sourceEditedAt": "2026-10-28T20:12:52.465Z"
+    },
+    {
+      "id": "foundation-d3-09",
+      "number": 9,
+      "title": "葡萄牙：先从 Vinho Verde 与 Douro 看懂两个方向",
+      "learningObjective": "能把 Vinho Verde 与 葡萄牙 西北部联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "沿着两个产区学习葡萄牙",
+          "text": "Vinho Verde 可从西北部的白葡萄酒入手，认识 Alvarinho 等本土品种；Douro 则连接 Touriga Nacional、静止酒与 Port。两个入口都不代表产区全部类型。"
+        },
+        {
+          "heading": "分清名称与简单推断",
+          "text": "不要把 Vinho Verde 理解成使用未成熟葡萄的保证，也不要把 Douro 等同于 Port。看到陌生品种时，先查它与具体产区、酒款的关系。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-09-check-1",
+          "text": "我能把 Vinho Verde 与 葡萄牙 西北部联系起来。"
+        },
+        {
+          "id": "foundation-d3-09-check-2",
+          "text": "我知道 Alvarinho 与 西班牙 的 Albariño 是同一葡萄品种的常见不同名称。"
+        },
+        {
+          "id": "foundation-d3-09-check-3",
+          "text": "我不会把 Vinho Verde 简单理解成“用没熟葡萄做的酒”。"
+        },
+        {
+          "id": "foundation-d3-09-check-4",
+          "text": "我能把 Douro 与 Touriga Nacional 联系起来。"
+        },
+        {
+          "id": "foundation-d3-09-check-5",
+          "text": "我知道 Douro 同时与 Port 强相关。"
+        },
+        {
+          "id": "foundation-d3-09-check-6",
+          "text": "我知道 Douro 也生产重要静止葡萄酒。"
+        },
+        {
+          "id": "foundation-d3-09-check-7",
+          "text": "我知道 葡萄牙 本土葡萄品种非常丰富。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-09-q1",
+          "prompt": "Vinho Verde 最适合先与哪个葡萄品种建立重要联系？",
+          "options": [
+            "Sangiovese",
+            "Nebbiolo",
+            "Syrah",
+            "Alvarinho"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：Alvarinho。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-09-q2",
+          "prompt": "Douro 最重要的本土红葡萄品种之一是？",
+          "options": [
+            "Touriga Nacional",
+            "Gamay",
+            "Pinotage",
+            "Riesling"
+          ],
+          "answer": 0,
+          "explanation": "复习要点：Touriga Nacional。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-09-q3",
+          "prompt": "关于 Douro，哪项最合理？",
+          "options": [
+            "只生产 Port，不生产静止酒",
+            "它与 Port 强相关，同时也生产重要静止葡萄酒",
+            "它位于 德国",
+            "它最重要品种是 Pinot Noir"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：它与 Port 强相关，同时也生产重要静止葡萄酒。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81d8b274fef925c61e78",
+      "sourceEditedAt": "2026-10-28T20:12:54.402Z"
+    },
+    {
+      "id": "foundation-d3-10",
+      "number": 10,
+      "title": "德国：先用 Riesling、河流与坡地建立地图",
+      "learningObjective": "能把 Riesling 与 德国 建立强联系。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "把 Riesling 放回具体地方",
+          "text": "先在德国找到 Mosel、Rheingau 和 Pfalz。比较河流、坡地、成熟条件与具体酒款，借此连接 D1 的环境知识和 D2 的品种知识。"
+        },
+        {
+          "heading": "国家与品种都不能决定甜度",
+          "text": "德国有干型及不同甜度风格，Riesling 也不是甜酒的同义词。判断时结合完整标签与酒款资料；暂不由国家名或单个成熟度词直接下结论。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-10-check-1",
+          "text": "我能把 Riesling 与 德国 建立强联系。"
+        },
+        {
+          "id": "foundation-d3-10-check-2",
+          "text": "我知道 Mosel 是 德国 的重要经典产区。"
+        },
+        {
+          "id": "foundation-d3-10-check-3",
+          "text": "我能解释河流、坡地、冷凉环境为什么会影响葡萄成熟。"
+        },
+        {
+          "id": "foundation-d3-10-check-4",
+          "text": "我认识 Rheingau、Pfalz。"
+        },
+        {
+          "id": "foundation-d3-10-check-5",
+          "text": "我知道 德国 不等于“所有酒都是甜型”。"
+        },
+        {
+          "id": "foundation-d3-10-check-6",
+          "text": "我知道 德国 学习可以复用 D1 的气候与成熟框架。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-10-q1",
+          "prompt": "德国 最重要的经典白葡萄品种之一是？",
+          "options": [
+            "Sangiovese",
+            "Riesling",
+            "Malbec",
+            "Carmenère"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：Riesling。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-10-q2",
+          "prompt": "Mosel 最适合和哪组地理概念联系？",
+          "options": [
+            "热带雨林与平原",
+            "沙漠与灌溉",
+            "河流、陡坡与冷凉成熟",
+            "地中海岛屿"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：河流、陡坡与冷凉成熟。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-10-q3",
+          "prompt": "关于 德国 Riesling，哪项最合理？",
+          "options": [
+            "全部都是甜酒",
+            "全部必须高酒精",
+            "全部必须过新桶",
+            "既有重要干型，也有不同甜度风格"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：既有重要干型，也有不同甜度风格。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c812eb094ee8743a00acc",
+      "sourceEditedAt": "2026-10-28T20:12:56.314Z"
+    },
+    {
+      "id": "foundation-d3-11",
+      "number": 11,
+      "title": "德国酒标：先学会找线索，不先背整套德语",
+      "learningObjective": "知道读 德国 酒标时先找产区、品种、年份等基础线索。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "先读信息类别",
+          "text": "先找生产者、产区、品种、年份，再分辨干甜提示与地理、分类信息。把酒标明示事实和仍需查询的判断写在不同栏，避免见到德语就开始背完整术语表。"
+        },
+        {
+          "heading": "不同词回答不同问题",
+          "text": "成熟度相关词不能单独告诉你最终甜度。Trocken 先按干型提示理解；VDP、GG 等留待专门校核，不能把行业体系和国家法规当成完全相同的一套分类。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-11-check-1",
+          "text": "我知道读 德国 酒标时先找产区、品种、年份等基础线索。"
+        },
+        {
+          "id": "foundation-d3-11-check-2",
+          "text": "我知道成熟度相关词不等于最终甜度的简单答案。"
+        },
+        {
+          "id": "foundation-d3-11-check-3",
+          "text": "我知道 Trocken 通常表示干型。"
+        },
+        {
+          "id": "foundation-d3-11-check-4",
+          "text": "我认识 VDP、GG 这些以后会反复出现的标识。"
+        },
+        {
+          "id": "foundation-d3-11-check-5",
+          "text": "我现在不需要背完整 德国 现行法规体系。"
+        },
+        {
+          "id": "foundation-d3-11-check-6",
+          "text": "我知道具体法规需要使用最新资料，而不是照搬旧笔记。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-11-q1",
+          "prompt": "德国 酒标上看到 Trocken，第一层最适合怎样理解？",
+          "options": [
+            "贵腐甜酒",
+            "起泡酒",
+            "干型",
+            "加强型"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：干型。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-11-q2",
+          "prompt": "为什么不能简单把 Spätlese 等成熟度词直接等同于最终甜度？",
+          "options": [
+            "因为成熟度和最终残糖不是同一个概念",
+            "因为 德国 没有甜酒",
+            "因为所有酒都完全发酵干",
+            "因为这些词是葡萄品种"
+          ],
+          "answer": 0,
+          "explanation": "复习要点：因为成熟度和最终残糖不是同一个概念。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-11-q3",
+          "prompt": "学 德国 酒标的第一步最合理是什么？",
+          "options": [
+            "背全部法规年份",
+            "背全部 VDP 葡萄园",
+            "只看瓶型",
+            "先找产区、品种、年份和关键风格线索"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：先找产区、品种、年份和关键风格线索。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c815985c2ca3ef6f63160",
+      "sourceEditedAt": "2026-10-28T20:12:58.123Z"
+    },
+    {
+      "id": "foundation-d3-12",
+      "number": 12,
+      "title": "奥地利：先抓 Grüner Veltliner，再看 Wachau",
+      "learningObjective": "能把 Grüner Veltliner 与 奥地利 联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "建立奥地利自己的入口",
+          "text": "先连接 Grüner Veltliner、Riesling 与 Wachau。可借用河流、坡地和成熟条件的分析方法，但不要把奥地利当成德国资料的延伸副本。"
+        },
+        {
+          "heading": "比较时保留各自体系",
+          "text": "跨国比较同一品种，先问产地与酒款条件有什么不同。DAC 作为原产地体系的后续学习入口；具体允许品种、等级与要求在正式讲解前另行核实。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-12-check-1",
+          "text": "我能把 Grüner Veltliner 与 奥地利 联系起来。"
+        },
+        {
+          "id": "foundation-d3-12-check-2",
+          "text": "我知道 Riesling 在 奥地利 也很重要。"
+        },
+        {
+          "id": "foundation-d3-12-check-3",
+          "text": "我认识 Wachau。"
+        },
+        {
+          "id": "foundation-d3-12-check-4",
+          "text": "我知道 德国 与 奥地利 不能使用同一套法规逻辑。"
+        },
+        {
+          "id": "foundation-d3-12-check-5",
+          "text": "我认识 DAC 这个以后会出现的重要名称。"
+        },
+        {
+          "id": "foundation-d3-12-check-6",
+          "text": "我现在不需要背所有 DAC 规则。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-12-q1",
+          "prompt": "奥地利 最有代表性的白葡萄品种之一是？",
+          "options": [
+            "Malbec",
+            "Grüner Veltliner",
+            "Tempranillo",
+            "Pinotage"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：Grüner Veltliner。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-12-q2",
+          "prompt": "Wachau 属于哪个国家？",
+          "options": [
+            "德国",
+            "法国",
+            "奥地利",
+            "西班牙"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：奥地利。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-12-q3",
+          "prompt": "关于 德国 与 奥地利，哪项最合理？",
+          "options": [
+            "两国使用完全相同法规",
+            "奥地利 没有 Riesling",
+            "德国 没有干型酒",
+            "两国有相邻和共同品种，但产区与法规体系需要分别学习"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：两国有相邻和共同品种，但产区与法规体系需要分别学习。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81aeb4c0dbc72a52e737",
+      "sourceEditedAt": "2026-10-28T20:13:00.640Z"
+    },
+    {
+      "id": "foundation-d3-13",
+      "number": 13,
+      "title": "其他欧洲：先让希腊与匈牙利不再陌生",
+      "learningObjective": "能把 Assyrtiko 与 希腊 联系起来。",
+      "preparation": "先回看课前地理框架与相关葡萄品种，列出已经认识的名称；本节用于课堂后复习，不代表已安排当期课堂日期。",
+      "sections": [
+        {
+          "heading": "少量关系先学清楚",
+          "text": "第一轮把希腊的 Santorini 与 Assyrtiko、匈牙利的 Tokaj 与 Furmint 放回地图。先认识代表性关系，不把它们当作两国全部葡萄酒的总结。"
+        },
+        {
+          "heading": "控制学习范围",
+          "text": "Tokaj 的甜酒传统很重要，但不能据此推断匈牙利或 Furmint 全是甜酒。其他国家是否加入当期课堂仍需课表确认，先把已有关系解释清楚。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-13-check-1",
+          "text": "我能把 Assyrtiko 与 希腊 联系起来。"
+        },
+        {
+          "id": "foundation-d3-13-check-2",
+          "text": "我能把 Santorini 与 希腊 联系起来。"
+        },
+        {
+          "id": "foundation-d3-13-check-3",
+          "text": "我能把 Tokaj 与 匈牙利 联系起来。"
+        },
+        {
+          "id": "foundation-d3-13-check-4",
+          "text": "我知道 Furmint 是 匈牙利 的重要品种之一。"
+        },
+        {
+          "id": "foundation-d3-13-check-5",
+          "text": "我知道 匈牙利 不只有甜酒。"
+        },
+        {
+          "id": "foundation-d3-13-check-6",
+          "text": "我知道其他欧洲国家的正式范围仍需按现行课堂材料确认。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-13-q1",
+          "prompt": "Assyrtiko 最经典的国家联系是？",
+          "options": [
+            "阿根廷",
+            "希腊",
+            "澳大利亚",
+            "智利"
+          ],
+          "answer": 1,
+          "explanation": "复习要点：希腊。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-13-q2",
+          "prompt": "Tokaj 最经典的国家联系是？",
+          "options": [
+            "葡萄牙",
+            "德国",
+            "匈牙利",
+            "南非"
+          ],
+          "answer": 2,
+          "explanation": "复习要点：匈牙利。请回到本节正文，说明这个关系为什么成立。"
+        },
+        {
+          "id": "foundation-d3-13-q3",
+          "prompt": "SOMM100 这一阶段学习“其他欧洲”最合理的方式是？",
+          "options": [
+            "背完所有欧洲法规",
+            "背完所有酒庄",
+            "把所有国家做到 CMS 深度",
+            "先认识少数重要国家、品种、产区，再按正式课程逐步扩展"
+          ],
+          "answer": 3,
+          "explanation": "复习要点：先认识少数重要国家、品种、产区，再按正式课程逐步扩展。请回到本节正文，说明这个关系为什么成立。"
+        }
+      ],
+      "source": "https://app.notion.com/p/40717d16de4c81e38fcadf0fca5a0cf7",
+      "sourceEditedAt": "2026-10-28T20:13:02.495Z"
+    }
+  ]
+}
