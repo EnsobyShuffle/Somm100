@@ -1,3 +1,44 @@
+# Foundation checkpoint — 2026-11-05 (UTC+8): label practice and real React verification
+
+Base: 413359df23db68c8410c736b987a63179d826afd on migration/tencent-somm100.
+Verification window: 2026-11-04 16:30–16:36 UTC / 2026-11-05 00:30–00:36 UTC+8.
+
+## Delivered increment
+- Restored current Foundation components, data, helpers and tests from the authoritative GitHub head. Read LearningApp imports/mounts and previous checkpoints; no intervening head update at preparation.
+- Added app/FoundationLabelPractice.js in D1 unit 10 only: two explicitly fictional information cards, three open questions with expandable answers, and a six-field task using the learner's own bottle/notes. No image upload, purchase, extra score, state key, question ID or schema change.
+- Content follows the existing verified D1-10 fact/inference distinction. Read legacy Notion label source 3fe17d16de4c81aeadbfe12703b59cf0; its restricted audience/no-republication notice means private article text and 14 image attachments were not copied. Fictional cards are original teaching examples, not substitutes for verified real-label illustrations.
+- Added reusable tests/foundation-ui entry/config/README using actual React components; QA output ignored and separate from cloudbase/public. Existing package.json/lockfile unchanged.
+- Six previous diagrams, Rhône guide, cohort dates, instructor/images and unrelated modules retained.
+
+## Verification
+- Node 24.22.1; real React/ReactDOM 19.2.6 and Vite 8.0.13 restored via normal npm registry access. The old blanket missing-dependency block is no longer accurate for this focused component checkout.
+- Existing 24 Node tests pass; rerun after the content and UI changes, all pass.
+- Actual five-component React production bundle built successfully: 32 modules, JS 294.91 kB / gzip 92.60 kB. This is a focused Foundation bundle, NOT the complete CloudBase application.
+- Browser: all five components mounted. Changed pace 8→4, D1 to unit10 and France to unit5. Expanded label answer guide. Checked D1 item, answered wrong then corrected first question. Reload retained pace, active units, check and both first/latest answer text.
+- Narrow iframe: 390px outer /375px content. scrollWidth=clientWidth=375. Two label cards stack at x49, width277; no horizontal overflow. Desktop and narrow screenshots inspected; physical mobile not tested.
+- Browser log sample contained extension metadata errors only; no app failure observed. This is not a clean-log assertion for the entire app.
+- Screenshot: docs/qa/foundation-label-react-20261104.jpg (focused component QA, not live product).
+
+## Course state
+- Pre-course: 8 learning weeks /4-week pace, 30 checks,31 MCQs.
+- D1:10 units,71 checks,30 MCQs,4 existing diagrams; NEW unit10 label practice.
+- D2:9 units,64 checks,27 MCQs,1 diagram.
+- France:6 units,38 checks,18 MCQs,Rhône comparison and map tasks.
+- D3:pre-course preview only; formal daily materials pending.
+- D4:pre-course preview only; formal daily materials pending.
+- D5:cohort dates verified; material/assessment allocation pending.
+- D6:not in current cohort22 source (5 classroom days/3 stages); do not invent a sixth day.
+All day-content allocation still needs authoritative confirmation.
+
+## Status / next breakpoint
+Saved locally; atomic GitHub commit/readback follow. Tencent deployment and live acceptance NOT verified.
+No new verified live URL. Existing temporary domain remains only historical test evidence.
+Full LearningApp/CloudBase build, production integration, physical phone/mainland-network QA remain outstanding.
+Next: restore remaining full build dependencies/source, then run build:cloudbase; continue current D3/D4 source discovery and approved real-label/France-map assets. Do not let private image permissions block original teaching work.
+Preserve [skip netlify] / ignore="exit 0"; no Netlify, ICP/domain, billing or paused automation actions.
+
+---
+
 # Foundation checkpoint — 2026-11-04 Rhône comparison and map guide
 
 Base: 10d540769d95edd5c812fa080236222ec98b7ccf on migration/tencent-somm100.
@@ -273,4 +314,5 @@ Source Notion pages have unverified metadata. Read/extraction is not final factu
 2. Read resource-gap matrix 40717d16de4c81c2910decdcecc94d7d. Import verified images/videos and grape original links without removing existing course images.
 3. Read Library latest course/lecturer document before introducing any enrollment facts. Do not invent D3–D6 timetable, fees or dates.
 4. Obtain complete supported build workspace, run build:cloudbase and browser/mobile QA; then verify actual Tencent deployment independently. Do not call this commit live.
+
 

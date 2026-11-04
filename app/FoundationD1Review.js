@@ -4,6 +4,7 @@ import data from '../data/foundation-d1.json';
 import {emptyD1Progress, readD1Progress, writeD1Progress, d1UnitResult} from '../lib/foundation-d1.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
 import FoundationDiagram from './FoundationDiagram.js';
+import FoundationLabelPractice from './FoundationLabelPractice.js';
 import './foundation-study.css';
 
 const h = React.createElement;
@@ -44,6 +45,7 @@ export default function FoundationD1Review() {
       h('h3', null, unit.title),
       unit.sections.map((section, i) => h('section', {key: i}, h('h4', null, section.heading), h('p', null, section.text))),
       h(FoundationDiagram, {unitId: unit.id}),
+      unit.id === 'foundation-d1-10' ? h(FoundationLabelPractice) : null,
       h('fieldset', null, h('legend', null, '知识点自查 · 理解后勾选'),
         unit.checks.map(c => h('label', {key: c.id, className: 'foundation-check'},
           h('input', {type: 'checkbox', checked: progress.checks[c.id] === true, disabled: !loaded, onChange: e => {
@@ -69,4 +71,5 @@ export default function FoundationD1Review() {
         h('button', {type: 'button', className: 'button secondary', disabled: !loaded || unit.number === 1, onClick: () => chooseUnit(unit.number - 1)}, '上一节'),
         h('button', {type: 'button', className: 'button secondary', disabled: !loaded || unit.number === data.units.length, onClick: () => chooseUnit(unit.number + 1)}, '下一节'))));
 }
+
 

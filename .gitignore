@@ -51,3 +51,7 @@ yarn-error.log*
 /dist-cloudbase/
 /cloudbase-artifacts/
 /.cloudbase/
+
+# Isolated Foundation UI verification output
+/.foundation-ui-dist/
+

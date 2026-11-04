@@ -519,5 +519,16 @@
       "exercises": 3
     },
     "status": "code-integrated-build-and-live-qa-pending"
+  },
+  "labelPractice": {
+    "unitId": "foundation-d1-10",
+    "component": "app/FoundationLabelPractice.js",
+    "basis": "Existing verified D1-10 learning text and six-field label-reading checklist",
+    "legacySourceInspected": "https://app.notion.com/p/3fe17d16de4c81aeadbfe12703b59cf0",
+    "legacyUseDecision": "Restricted audience/no-republication notice: no private text or attached image copied. Attachment pixels not inspected this round.",
+    "studentMaterial": "Two original explicitly fictional label-information cards, three open questions and own-bottle six-field exercise",
+    "assessment": "Unscored; existing checks/questions/IDs and local progress unchanged",
+    "verification": "Real React component bundle + desktop/narrow iframe interaction checked; not full CloudBase or production acceptance",
+    "verifiedAt": "2026-11-04T16:35:00Z"
   }
 }

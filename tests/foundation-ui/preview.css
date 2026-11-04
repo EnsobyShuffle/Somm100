@@ -1,0 +1,8 @@
+* { box-sizing:border-box; }
+body { margin:0; color:#292d28; background:#f4f2ec; font:16px/1.7 system-ui,sans-serif; }
+main { width:min(100%,1100px); margin:auto; padding:16px; }
+.white-panel { padding:clamp(16px,3vw,32px); background:white; border-radius:12px; margin:24px 0; }
+.fine-print { color:#59594f; font-size:.9rem; }
+.button-row { display:flex; flex-wrap:wrap; gap:12px; }
+button { font:inherit; padding:8px 16px; cursor:pointer; }
+a { color:#584822; }
