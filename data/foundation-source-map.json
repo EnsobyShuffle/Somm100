@@ -170,7 +170,7 @@
     },
     {
       "day": 3,
-      "status": "13-source-units-72-checks-39-unit-questions-30-quiz-questions-read-not-integrated-current-day-unconfirmed"
+      "status": "first-five-of-thirteen-review-units-integrated-local-only"
     },
     {
       "day": 4,
@@ -569,5 +569,25 @@
     ],
     "status": "integrated-local-build-and-narrow-browser-verified",
     "scope": "Two original sample records. Session-only feedback; no grading/storage or confirmed cohort day."
+  },
+  "d3Release": {
+    "file": "data/foundation-d3.json",
+    "units": 5,
+    "checks": 24,
+    "questions": 15,
+    "sourceDraft": "docs/staging/foundation-d3-review.json",
+    "storage": "somm100.foundation.d3-review.v1",
+    "cohortDayConfirmed": false,
+    "status": "student-ui-local-build-and-narrow-browser-verified",
+    "remainingUnitNumbers": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
   }
 }

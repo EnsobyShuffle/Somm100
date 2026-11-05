@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "stage": "post-class-review",
+  "units": [
+    {
+      "id": "foundation-d3-01",
+      "number": 1,
+      "title": "学一个欧洲国家，先别从法规开始",
+      "sections": [
+        {
+          "heading": "先把名字放回地图",
+          "text": "沿用法国专题的学习方法，把一个国家拆成位置、主要产区、核心品种和风格。遇到陌生酒名，先确认它是品种、产区还是生产者，再讨论标签和法规。"
+        },
+        {
+          "heading": "关系比名单重要",
+          "text": "同一个品种在不同地方可能有不同表达。先画出两三条“国家—产区—品种”关系，再用风格解释这些关系；暂不背整套等级和陈年数字。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-01-check-1",
+          "text": "我知道 D3 学国家仍然使用“地图 → 品种 → 产区 → 风格 → 酒标 / 法规”的顺序。"
+        },
+        {
+          "id": "foundation-d3-01-check-2",
+          "text": "我不会一开始就背完整法规等级。"
+        },
+        {
+          "id": "foundation-d3-01-check-3",
+          "text": "我知道同一个品种在不同国家和产区会有不同风格。"
+        },
+        {
+          "id": "foundation-d3-01-check-4",
+          "text": "我知道学习国家的目标是建立关系，而不是收集孤立名词。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-01-q1",
+          "prompt": "学一个新葡萄酒国家，最合理的第一步是什么？",
+          "options": [
+            "背完整法规",
+            "先建立地图与核心品种关系",
+            "背全部酒庄",
+            "背所有年份"
+          ],
+          "answer": 1,
+          "explanation": "先定位，再把品种与当地常见酒款连起来，酒标上的新名字就有了参照。"
+        },
+        {
+          "id": "foundation-d3-01-q2",
+          "prompt": "为什么不建议一开始背 DOC / DOCG / DO 等全部等级？",
+          "options": [
+            "因为法规完全没用",
+            "因为法规必须先放回具体国家、产区和酒款里理解",
+            "因为这些词都是葡萄品种",
+            "因为所有国家法规都一样"
+          ],
+          "answer": 1,
+          "explanation": "产区规则描述一个地方怎样生产酒。有了地图和酒款例子，等级词才有具体对象。"
+        },
+        {
+          "id": "foundation-d3-01-q3",
+          "prompt": "D3 最重要的学习能力是什么？",
+          "options": [
+            "背最多酒庄",
+            "记住最多数字",
+            "把新名字放回地图、品种和风格关系里",
+            "只会认酒标颜色"
+          ],
+          "answer": 2,
+          "explanation": "试着把一个陌生名字放回国家、地区与品种三栏，空着的一栏就是下一条查证线索。"
+        }
+      ],
+      "practice": "拿一张酒标，把地名、品种和生产者分别圈出来。"
+    },
+    {
+      "id": "foundation-d3-02",
+      "number": 2,
+      "title": "意大利：先把北部、中部、南部放进脑子",
+      "sections": [
+        {
+          "heading": "先建立三个地理方向",
+          "text": "把意大利先分为北部、中部、南部与岛屿，作为定位工具，而非法规或品质分类。先在北部找到 Piedmont 和 Veneto，在中部找到 Tuscany。"
+        },
+        {
+          "heading": "用酒名连接品种",
+          "text": "Piedmont 可由 Nebbiolo 与 Barolo、Barbaresco 入手；Veneto 比较 Corvina 相关红酒与 Glera 相关起泡酒；Tuscany 从 Sangiovese 进入。不要据此把每一区域限定为一种酒。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-02-check-1",
+          "text": "我知道 Italy 可以先按北部、中部、南部建立地图。"
+        },
+        {
+          "id": "foundation-d3-02-check-2",
+          "text": "我能把 Piedmont、Veneto 放在北部。"
+        },
+        {
+          "id": "foundation-d3-02-check-3",
+          "text": "我能把 Tuscany 放在中部。"
+        },
+        {
+          "id": "foundation-d3-02-check-4",
+          "text": "我知道 Italy 本土品种很多，不能只靠国际品种理解。"
+        },
+        {
+          "id": "foundation-d3-02-check-5",
+          "text": "我现在不需要背完整 DOC / DOCG 体系。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-02-q1",
+          "prompt": "Piedmont 位于 Italy 哪一部分？",
+          "options": [
+            "南部",
+            "北部",
+            "中部",
+            "岛屿"
+          ],
+          "answer": 1,
+          "explanation": "在意大利西北部找到皮埃蒙特。向东看威尼托，向南再找托斯卡纳。"
+        },
+        {
+          "id": "foundation-d3-02-q2",
+          "prompt": "Tuscany 最重要的核心红葡萄品种是？",
+          "options": [
+            "Riesling",
+            "Tempranillo",
+            "Sangiovese",
+            "Pinotage"
+          ],
+          "answer": 2,
+          "explanation": "Chianti Classico 和 Brunello di Montalcino 都让我们认识 Sangiovese。"
+        },
+        {
+          "id": "foundation-d3-02-q3",
+          "prompt": "以下哪个学习方法最适合刚进入 Italy？",
+          "options": [
+            "先背所有 DOCG",
+            "先背全部酒庄",
+            "只学国际葡萄品种",
+            "先建立北部、中部、南部和核心产区地图"
+          ],
+          "answer": 3,
+          "explanation": "先分北、中、南，再把具体酒名标回产区，有助于区分地理分类和酒标等级。"
+        }
+      ],
+      "practice": "在地图上找到皮埃蒙特、威尼托和托斯卡纳，把三个地名分别放回北部或中部。"
+    },
+    {
+      "id": "foundation-d3-03",
+      "number": 3,
+      "title": "Piedmont：颜色浅，不代表结构轻",
+      "sections": [
+        {
+          "heading": "颜色与结构分开观察",
+          "text": "学习 Nebbiolo 时，把颜色、酸度和单宁分别记录。颜色较浅仍可能伴随高酸和明显单宁；颜色深浅不能直接替代结构判断或品质判断。"
+        },
+        {
+          "heading": "从两个产区建立联系",
+          "text": "Barolo 和 Barbaresco 都用 Nebbiolo 酿造。两杯酒可以分别比较颜色、酸度和单宁；同在皮埃蒙特，以 Moscato Bianco 酿制的 Moscato d’Asti 则提供另一种品种和风格的例子。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-03-check-1",
+          "text": "我能把 Nebbiolo 与 Barolo / Barbaresco 联系起来。"
+        },
+        {
+          "id": "foundation-d3-03-check-2",
+          "text": "我知道 Nebbiolo 颜色未必很深，但酸度和单宁可以很高。"
+        },
+        {
+          "id": "foundation-d3-03-check-3",
+          "text": "我知道 Piedmont 不只有红葡萄酒。"
+        },
+        {
+          "id": "foundation-d3-03-check-4",
+          "text": "我认识 Moscato d'Asti 这个名字。"
+        },
+        {
+          "id": "foundation-d3-03-check-5",
+          "text": "我现在不需要背 Barolo 全部村庄与法规。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-03-q1",
+          "prompt": "Barolo 最重要的葡萄品种是？",
+          "options": [
+            "Sangiovese",
+            "Nebbiolo",
+            "Syrah",
+            "Cabernet Sauvignon"
+          ],
+          "answer": 1,
+          "explanation": "Barolo 和 Barbaresco 都用 Nebbiolo。酒标上看到的往往是产区名。"
+        },
+        {
+          "id": "foundation-d3-03-q2",
+          "prompt": "关于 Nebbiolo，哪项最合理？",
+          "options": [
+            "颜色浅，所以一定低单宁",
+            "一定低酸",
+            "可以颜色较浅，但酸度和单宁都很高",
+            "只能酿甜酒"
+          ],
+          "answer": 2,
+          "explanation": "颜色看起来浅时，仍要分别品尝酸度和单宁。观察酒色无法替代这两个判断。"
+        },
+        {
+          "id": "foundation-d3-03-q3",
+          "prompt": "Moscato d'Asti 最重要的葡萄品种是？",
+          "options": [
+            "Chardonnay",
+            "Pinot Noir",
+            "Riesling",
+            "Moscato Bianco（白麝香）"
+          ],
+          "answer": 3,
+          "explanation": "更具体地说是 Moscato Bianco。它与本节另外两个 Nebbiolo 红酒案例形成对照。"
+        }
+      ],
+      "practice": "设想两杯颜色接近的红酒。你会分别记录哪些口感特征，再比较它们的结构？"
+    },
+    {
+      "id": "foundation-d3-04",
+      "number": 4,
+      "title": "Veneto：Amarone 和 Prosecco 为什么像两个世界？",
+      "sections": [
+        {
+          "heading": "先理解风干的作用",
+          "text": "Amarone 的学习入口是 Corvina 等品种与 Appassimento：葡萄在发酵前失去部分水分，影响后续浓缩程度和发酵条件。风干不等于成酒一定甜，最终甜度还要看发酵结果。"
+        },
+        {
+          "heading": "对照另一种风格",
+          "text": "比较常见的 Prosecco 起泡酒与 Amarone 时，分别记录品种、葡萄处理和气泡。Prosecco DOC 以 Glera 为主要品种，产区横跨 Veneto 与 Friuli-Venezia Giulia。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-04-check-1",
+          "text": "我能把 Amarone 与 Corvina 联系起来。"
+        },
+        {
+          "id": "foundation-d3-04-check-2",
+          "text": "我知道 Appassimento 是葡萄风干过程。"
+        },
+        {
+          "id": "foundation-d3-04-check-3",
+          "text": "我知道风干会让葡萄更浓缩。"
+        },
+        {
+          "id": "foundation-d3-04-check-4",
+          "text": "我能把 Prosecco 与 Glera 联系起来。"
+        },
+        {
+          "id": "foundation-d3-04-check-5",
+          "text": "我知道 Amarone 与 Prosecco 是完全不同的风格体系。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-04-q1",
+          "prompt": "Amarone 最重要的核心葡萄品种之一是？",
+          "options": [
+            "Riesling",
+            "Corvina",
+            "Pinotage",
+            "Malbec"
+          ],
+          "answer": 1,
+          "explanation": "Corvina 是 Amarone 的重要品种之一。读生产者资料时还要查具体混酿。"
+        },
+        {
+          "id": "foundation-d3-04-q2",
+          "prompt": "Appassimento 最接近哪种做法？",
+          "options": [
+            "加入二氧化碳",
+            "加入烈酒",
+            "发酵前风干葡萄",
+            "冷冻葡萄酒"
+          ],
+          "answer": 2,
+          "explanation": "先损失水分，随后才进入发酵。葡萄变得浓缩，最终甜度还取决于发酵结果。"
+        },
+        {
+          "id": "foundation-d3-04-q3",
+          "prompt": "Prosecco 最重要的葡萄品种是？",
+          "options": [
+            "Chardonnay",
+            "Moscato",
+            "Nebbiolo",
+            "Glera"
+          ],
+          "answer": 3,
+          "explanation": "Glera 是 Prosecco 的主要品种。Prosecco DOC 的范围也延伸到 Friuli-Venezia Giulia。"
+        }
+      ],
+      "practice": "沿着采收、风干、发酵和装瓶的顺序，指出 Amarone 的葡萄从哪一步开始失去水分。"
+    },
+    {
+      "id": "foundation-d3-05",
+      "number": 5,
+      "title": "Tuscany：为什么 Sangiovese 会出现这么多名字？",
+      "sections": [
+        {
+          "heading": "先抓住 Sangiovese",
+          "text": "把 Chianti、Chianti Classico、Brunello di Montalcino 与 Sangiovese 建立联系。相同品种并不意味着相同成酒：产地、成熟条件和酿造熟成选择都值得比较。"
+        },
+        {
+          "heading": "名称不等于另一个品种",
+          "text": "不要因为酒名不同就把 Brunello 当作与 Sangiovese 无关的葡萄。Super Tuscan 先作为生产者探索和法规历史的讨论入口，不用它直接推断某瓶酒的配比或品质。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d3-05-check-1",
+          "text": "我能把 Sangiovese 与 Tuscany 联系起来。"
+        },
+        {
+          "id": "foundation-d3-05-check-2",
+          "text": "我知道 Chianti 以 Sangiovese 为核心。"
+        },
+        {
+          "id": "foundation-d3-05-check-3",
+          "text": "我知道 Brunello di Montalcino 不是一个独立葡萄品种。"
+        },
+        {
+          "id": "foundation-d3-05-check-4",
+          "text": "我知道同一个 Sangiovese 可以因产区和酿造形成不同风格。"
+        },
+        {
+          "id": "foundation-d3-05-check-5",
+          "text": "我只需要先认识 Super Tuscan 概念，不背酒庄名单。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d3-05-q1",
+          "prompt": "Tuscany 最重要的核心红葡萄品种是？",
+          "options": [
+            "Nebbiolo",
+            "Sangiovese",
+            "Tempranillo",
+            "Syrah"
+          ],
+          "answer": 1,
+          "explanation": "从 Sangiovese 出发，把 Chianti Classico 和 Brunello 放回各自的产地。"
+        },
+        {
+          "id": "foundation-d3-05-q2",
+          "prompt": "Brunello di Montalcino 最核心的葡萄品种本质上属于？",
+          "options": [
+            "Cabernet Sauvignon",
+            "Merlot",
+            "Sangiovese",
+            "Riesling"
+          ],
+          "answer": 2,
+          "explanation": "在 Montalcino，当地所说的 Brunello 与 Sangiovese 是同一品种。"
+        },
+        {
+          "id": "foundation-d3-05-q3",
+          "prompt": "Super Tuscan 第一层最适合怎样理解？",
+          "options": [
+            "一种白葡萄品种",
+            "一种起泡酒方法",
+            "一个 Germany 等级",
+            "Tuscany 中突破传统法规框架的重要历史风格 / 酒款概念"
+          ],
+          "answer": 3,
+          "explanation": "这个历史称呼不能单独说明一瓶酒用了哪些品种。查生产者资料才能知道具体配比。"
+        }
+      ],
+      "practice": "把 Chianti Classico、Brunello di Montalcino 和 Sangiovese 分成产地酒名与品种名。"
+    }
+  ]
+}

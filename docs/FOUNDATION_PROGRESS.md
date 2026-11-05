@@ -1,3 +1,17 @@
+# Foundation — 2026-11-05 09:34 CST · Europe review, units 1–5
+
+Based on 9742f53ae06f6601db743ed65b174d9571cdec00 on migration/tencent-somm100. Read current migration checkpoint, course checkpoint, source map and school draft. Netlify stop-build guard confirmed.
+
+- Added the D3 Europe review entry to the existing Foundation route. Five units cover map/label reading, geographic orientation, Piedmont, Veneto and Tuscany. The student dataset has 24 self-checks, 15 questions, activity prompts and specific feedback. Reviewed facts include Moscato Bianco, Barolo/Barbaresco with Nebbiolo, Amarone drying before fermentation, Glera and the cross-regional scope of Prosecco DOC, and Sangiovese in Chianti Classico/Brunello. Stable draft IDs retained. The private editorial source URLs are excluded from the student dataset. These are topical review units; no cohort timetable assignment has been made.
+- Content sources checked on 2026-11-05: [Barolo](https://www.langhevini.it/en/le-denominazioni-tutelate-dal-consorzio/barolo-docg/), [Barbaresco](https://www.langhevini.it/en/le-denominazioni-tutelate-dal-consorzio/barbaresco-docg/), [Asti DOCG](https://astidocg.it/asti-docg-denominazione/), [Amarone](https://www.consorziovalpolicella.it/en/types-of-wines/amarone-della-valpolicella-docg/), [Prosecco DOC](https://www.prosecco.wine/tutto-il-vitigno-glera-minuto-per-minuto/), [Chianti Classico](https://www.chianticlassico.com/en/wine/characteristics/), [Brunello](https://consorziobrunellodimontalcino.it/en/583/vini).
+- D2 and D3 share the regional review presentation and validated progress functions. D2 retains the original key/default API. D3 uses its own key and retains first/latest answers and self-checks. Added tests for D2/D3 isolation, future records and release-to-draft ID alignment.
+- All 33 Foundation tests passed. Full CloudBase production build passed (454 public files, entry index-CW7y9b2g.js, SHA256 314625c16f31a2e003c91f98e4955c7f715dfb013689f171d022b25520505e27). Reused prior fixed build dependencies; full frozen-lockfile install still unverified.
+- Browser checked the actual built app in a 390px iframe: effective width 375px, scroll width 375px. Used D3 navigation, selected Piedmont, checked an item, answered wrong then corrected the Barolo question. After refresh, unit 3, 1/5 checks, 1/3 questions and first Cabernet Sauvignon/latest Nebbiolo were restored. Browser-only records. No physical-phone or Tencent deployment/online verification this round.
+
+Next: review units 6–9 (Spain/Portugal) and continue unit-level integration. D1 ten, D2 nine, shared France six remain integrated. D3 five integrated/eight staged. D4 fifteen staged plus independent sparkling exercise. D5 material placement pending. Current cohort22 has five face-to-face days; D6 is not scheduled. Retain current PPT verification requirement, do not publish private materials, and leave other paused work alone.
+
+---
+
 # Foundation — 2026-11-05 07:31 CST · D4 draft and sparkling practice
 
 Base b56f419111dced1593481db7b3b96c75014ede15, migration/tencent-somm100. Confirmed current migration/progress/source map, inventory, Foundation mount and Netlify stop-build guard.
