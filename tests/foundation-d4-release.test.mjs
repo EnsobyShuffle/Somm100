@@ -9,9 +9,9 @@ const draft = JSON.parse(readFileSync(new URL('../docs/staging/foundation-d4-rev
 const key = 'somm100.foundation.d4-review.v1';
 
 test('D4 release preserves source IDs and answers and excludes private provenance', () => {
-  assert.equal(data.units.length, 12);
-  assert.equal(data.units.flatMap(u => u.checks).length, 75);
-  assert.equal(data.units.flatMap(u => u.questions).length, 36);
+  assert.equal(data.units.length, 15);
+  assert.equal(data.units.flatMap(u => u.checks).length, 93);
+  assert.equal(data.units.flatMap(u => u.questions).length, 45);
   assert.doesNotMatch(JSON.stringify(data), /app\.notion\.com|sourceEditedAt|publicationReady/);
   for (const [i, unit] of data.units.entries()) {
     assert.equal(unit.id, draft.units[i].id);
@@ -92,4 +92,24 @@ test('eight-unit progress survives adding country reviews and a South America at
   assert.equal(writeD2Progress(storage, updated, key), '');
   assert.deepEqual(readD2Progress(storage, data, key).progress, updated);
   assert.deepEqual(updated.answers[oldQuestion.id], progress.answers[oldQuestion.id]);
+});
+
+test('twelve-unit progress survives the final release and a China benchmark attempt', () => {
+  const previous = {units: data.units.slice(0, 12)};
+  const records = new Map();
+  const storage = {getItem: k => records.get(k) ?? null, setItem: (k,v) => records.set(k,v)};
+  const old = previous.units[10];
+  let {progress} = readD2Progress(storage, previous, key);
+  progress.unit = old.number;
+  progress.checks[old.checks[0].id] = true;
+  progress = recordFoundationAnswer(progress, old.questions[0], 0);
+  progress = recordFoundationAnswer(progress, old.questions[0], old.questions[0].answer);
+  assert.equal(writeD2Progress(storage, progress, key), '');
+  const restored = readD2Progress(storage, data, key).progress;
+  assert.deepEqual(restored, progress);
+  restored.unit = 15;
+  const updated = recordFoundationAnswer(restored, data.units[14].questions[1], data.units[14].questions[1].answer);
+  assert.equal(writeD2Progress(storage, updated, key), '');
+  assert.deepEqual(readD2Progress(storage, data, key).progress, updated);
+  assert.deepEqual(updated.answers[old.questions[0].id], progress.answers[old.questions[0].id]);
 });

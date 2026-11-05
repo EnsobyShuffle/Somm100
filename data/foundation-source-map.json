@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-11-05",
-  "status": "precourse-d1-d2-france-d3-and-d4-first-twelve-integrated-local-build-tested-not-live",
+  "status": "precourse-d1-d2-france-d3-and-d4-review-integrated-local-build-tested-not-live",
   "frameworkSource": "https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e",
   "guidedSource": "https://app.notion.com/p/40717d16de4c812fa096fb12992546e3",
   "supersedes": "Chapter 00 is an early prototype, not the current Pre-Course standard.",
@@ -174,7 +174,7 @@
     },
     {
       "day": 4,
-      "status": "12-review-units-75-checks-36-questions-integrated-local-build-tested-3-units-staged-cohort-day-unconfirmed"
+      "status": "all-15-review-units-93-checks-45-questions-integrated-local-build-tested-cohort-day-and-live-unconfirmed"
     },
     {
       "day": 5,
@@ -558,7 +558,7 @@
     "units": 15,
     "checks": 93,
     "unitQuestions": 45,
-    "status": "editorial-draft-first-twelve-reviewed-in-runtime-release-three-pending",
+    "status": "all-fifteen-unit-condensed-reviews-in-runtime-release-classroom-alignment-pending",
     "publicationReady": false
   },
   "sparklingPractice": {
@@ -584,18 +584,14 @@
   "d4Release": {
     "file": "data/foundation-d4.json",
     "component": "app/FoundationD4Review.js",
-    "units": 12,
-    "checks": 75,
-    "questions": 36,
+    "units": 15,
+    "checks": 93,
+    "questions": 45,
     "sourceDraft": "docs/staging/foundation-d4-review.json",
     "storage": "somm100.foundation.d4-review.v1",
     "cohortDayConfirmed": false,
-    "status": "first-twelve-units-integrated-node-tests-and-local-build-passed-browser-and-live-pending",
-    "remainingUnitNumbers": [
-      13,
-      14,
-      15
-    ],
+    "status": "all-fifteen-condensed-review-units-integrated-node-tests-and-local-build-passed-browser-and-live-pending",
+    "remainingUnitNumbers": [],
     "sources": [
       {
         "id": "foundation-d4-01",
@@ -680,6 +676,27 @@
         "sourceEditedAt": "2026-10-28T20:12:31.971Z",
         "sourceVerification": "unverified",
         "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-13",
+        "url": "https://app.notion.com/p/40717d16de4c81459d06c16cfd370b38",
+        "sourceEditedAt": "2026-10-28T20:12:34.192Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-14",
+        "url": "https://app.notion.com/p/40717d16de4c814ab561dcaf2ffb89b2",
+        "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-15",
+        "url": "https://app.notion.com/p/40717d16de4c8137896bd236453a996e",
+        "sourceEditedAt": "2026-10-28T20:13:04.657Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
       }
     ],
     "factSources": [
@@ -711,7 +728,16 @@
       "https://www.nzwine.com/en/regions/centralotago/",
       "https://www.nzwine.com/en/regions/hawkesbay/",
       "https://www.winesofchile.org/wine-regions-map/",
-      "https://winesofargentina.org/en/provinces/mendoza"
+      "https://winesofargentina.org/en/provinces/mendoza",
+      "https://wine.wosa.co.za/sa/origin_cultivar.php",
+      "https://www.wosa.co.za/The-Industry/Varieties-and-Styles/Introduction",
+      "https://www.wosa.co.za/The-Industry/Terroir/Climate/",
+      "https://www.wosa.co.za/The-Industry/Winegrowing-Areas/Winelands-of-South-Africa",
+      "https://www.nx.gov.cn/zwgk/qzfwj/202202/t20220208_3316559_wap.html",
+      "https://www.xinjiang.gov.cn/xinjiang/zfgbml/202110/29b5efb4e8fe4161ac925216805e9e94.shtml",
+      "https://ptjj.yantai.gov.cn/art/2020/12/17/art_1595_2879839.html",
+      "https://www.lvmh.com/en/our-maisons/wines-spirits/ao-yun",
+      "https://ptjj.yantai.gov.cn/art/2017/10/19/art_1610_836370.html"
     ]
   }
 }

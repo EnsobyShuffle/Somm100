@@ -1029,6 +1029,264 @@
         }
       ],
       "practice": "画出太平洋、智利、安第斯山和阿根廷的相对位置，再标 Maipo、Casablanca 与 Mendoza。为每一处写一个品种联系，以及一项还需查证的种植条件。"
+    },
+    {
+      "id": "foundation-d4-13",
+      "number": 13,
+      "title": "南非：为什么 Chenin Blanc 和 Pinotage 都很重要？",
+      "learningObjective": "把开普产区与两种代表葡萄联系起来",
+      "preparation": "分别写下 Chenin Blanc 的品种类型和 Pinotage 的亲本。",
+      "sections": [
+        {
+          "heading": "从开普地区进入地图",
+          "text": "南非葡萄酒的主要学习入口集中在西南部开普地区。海洋、山地、坡向与内陆距离共同影响种植条件。先认识 Stellenbosch，再查具体葡萄园的位置，能避免把全国归成一种炎热风格。"
+        },
+        {
+          "heading": "把两种代表葡萄分开认识",
+          "text": "Chenin Blanc 是重要白葡萄品种，既能联系南非，也能联系此前学过的卢瓦尔河谷。Pinotage 则是南非培育的红葡萄品种，来自 Pinot Noir 与 Cinsault（也写作 Cinsaut）的种内杂交。记住亲本关系，并不意味着可以直接推断成酒的香气与品质。"
+        },
+        {
+          "heading": "用酒款验证品种与地方",
+          "text": "比较两款南非 Chenin Blanc 时，记录产区、葡萄园条件、采收与熟成资料，再描述酒体和酸度。认识 Stellenbosch 时也要留意 Cabernet Sauvignon 等品种，不能把一个国家缩减成 Chenin Blanc 与 Pinotage 两个名字。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-13-check-1",
+          "text": "我知道 南非 核心葡萄酒区域集中在 Cape 一带。"
+        },
+        {
+          "id": "foundation-d4-13-check-2",
+          "text": "我能把 Chenin Blanc 与 南非 联系起来。"
+        },
+        {
+          "id": "foundation-d4-13-check-3",
+          "text": "我能把 Pinotage 与 南非 联系起来。"
+        },
+        {
+          "id": "foundation-d4-13-check-4",
+          "text": "我知道 Pinotage 来自 Pinot Noir 与 Cinsault 的杂交。"
+        },
+        {
+          "id": "foundation-d4-13-check-5",
+          "text": "我认识 Stellenbosch。"
+        },
+        {
+          "id": "foundation-d4-13-check-6",
+          "text": "我不会把 南非 简单理解成一个炎热风格国家。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-13-q1",
+          "prompt": "南非 非常重要的白葡萄品种之一是？",
+          "options": [
+            "Nebbiolo",
+            "Chenin Blanc",
+            "Tempranillo",
+            "Sangiovese"
+          ],
+          "answer": 1,
+          "explanation": "Chenin Blanc 是南非重要白葡萄品种，也与卢瓦尔河谷相连。其他选项是红葡萄品种。"
+        },
+        {
+          "id": "foundation-d4-13-q2",
+          "prompt": "Pinotage 与哪个国家的代表性联系最强？",
+          "options": [
+            "葡萄牙",
+            "德国",
+            "南非",
+            "奥地利"
+          ],
+          "answer": 2,
+          "explanation": "Pinotage 与南非有鲜明联系，是当地培育的代表红葡萄品种。国家联系并不能代替具体酒款资料。"
+        },
+        {
+          "id": "foundation-d4-13-q3",
+          "prompt": "Pinotage 来自哪两个品种的杂交？",
+          "options": [
+            "Cabernet Sauvignon × Merlot",
+            "Syrah × Grenache",
+            "Riesling × Chardonnay",
+            "Pinot Noir × Cinsault"
+          ],
+          "answer": 3,
+          "explanation": "Pinotage 的亲本是 Pinot Noir 与 Cinsault。二者均属欧亚种葡萄，不能把这项亲缘关系当成固定风味公式。"
+        }
+      ],
+      "practice": "将一款南非 Chenin Blanc 与一款 Pinotage 分别记入“品种类型、产地、已查到的种植或熟成资料”三栏。写出 Pinotage 的两个亲本，并注明仍需查证的酒款信息。"
+    },
+    {
+      "id": "foundation-d4-14",
+      "number": 14,
+      "title": "中国葡萄酒：先建立自己的产区地图",
+      "learningObjective": "用气候差异比较中国葡萄酒产区",
+      "preparation": "把宁夏、新疆、山东、云南、河北和山西标到地图上。",
+      "sections": [
+        {
+          "heading": "先放六个区域，再提出问题",
+          "text": "先把宁夏、新疆、山东、云南、河北和山西放到中国地图上。本节用不同区域建立地理方向，具体葡萄园仍需查更细的位置。降雨、冬季低温、海拔与生长季长度会影响种植者面对的问题，不能从“中国葡萄酒”直接推断统一风格。"
+        },
+        {
+          "heading": "干燥内陆与沿海的比较",
+          "text": "宁夏贺兰山东麓与新疆多个产区的学习线索包括干燥环境、日照与水源管理。新疆内部差异很大，仍需继续定位。山东沿海如烟台则更适合讨论海洋影响、湿度与降雨，进而追问排水、病害压力和采收时机。"
+        },
+        {
+          "heading": "云南山地与其他区域",
+          "text": "云南西北部的高海拔山地葡萄园，可用来复习海拔、温度与成熟的关系；这并不代表云南所有葡萄园条件相同。河北和山西也应纳入地图，再以具体生产者资料继续学习。省份名称是入口，葡萄园和年份资料才能支持具体酒款的风格判断。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-14-check-1",
+          "text": "我知道中国葡萄酒必须按区域学习。"
+        },
+        {
+          "id": "foundation-d4-14-check-2",
+          "text": "我能把宁夏、新疆与干燥大陆性环境联系起来。"
+        },
+        {
+          "id": "foundation-d4-14-check-3",
+          "text": "我知道山东受海洋、湿度与降雨影响更明显。"
+        },
+        {
+          "id": "foundation-d4-14-check-4",
+          "text": "我知道云南高海拔是重要特征。"
+        },
+        {
+          "id": "foundation-d4-14-check-5",
+          "text": "我认识河北、山西也是重要葡萄酒区域。"
+        },
+        {
+          "id": "foundation-d4-14-check-6",
+          "text": "我不会把中国葡萄酒概括成一种风格。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-14-q1",
+          "prompt": "哪个中国葡萄酒区域最适合先与高海拔山地葡萄园联系？",
+          "options": [
+            "山东",
+            "云南",
+            "宁夏",
+            "河北"
+          ],
+          "answer": 1,
+          "explanation": "云南西北部山地葡萄园是本节的高海拔案例。具体葡萄园的温度和成熟条件仍需查证，不能推广为全省统一条件。"
+        },
+        {
+          "id": "foundation-d4-14-q2",
+          "prompt": "哪个区域受沿海湿度与降雨影响更明显？",
+          "options": [
+            "新疆",
+            "宁夏",
+            "山东",
+            "云南西北部"
+          ],
+          "answer": 2,
+          "explanation": "山东沿海如烟台更适合用于认识海洋影响、湿度和降雨。省内也存在差异，不能把所有地点视为相同。"
+        },
+        {
+          "id": "foundation-d4-14-q3",
+          "prompt": "关于中国葡萄酒，哪项最合理？",
+          "options": [
+            "所有区域气候相同",
+            "只需要学 Cabernet Sauvignon",
+            "只需要背酒庄",
+            "不同区域差异很大，必须从地理与气候开始学习"
+          ],
+          "answer": 3,
+          "explanation": "中国各区域的种植条件差异很大，应从地理和气候入手，再联系品种、生产者和具体酒款。"
+        }
+      ],
+      "practice": "在地图上标出本节六个区域，再选宁夏贺兰山东麓、山东沿海和云南西北山地，各写一项种植条件与一项需要查证的问题。不要直接把气候关键词改写成确定风味。"
+    },
+    {
+      "id": "foundation-d4-15",
+      "number": 15,
+      "title": "中国葡萄酒：从品种走向酒庄与基准酒款",
+      "learningObjective": "选择能解释产区的代表酒款",
+      "preparation": "为一瓶中国葡萄酒准备产区、品种、生产者和风格四栏笔记。",
+      "sections": [
+        {
+          "heading": "从品种名继续追问",
+          "text": "从赤霞珠（Cabernet Sauvignon）出发，还要认识霞多丽（Chardonnay）、马瑟兰（Marselan）和蛇龙珠（Cabernet Gernischt）等名称。不同品种和产区能提供不同案例，不能把一种红葡萄的表现当作中国葡萄酒的全部。"
+        },
+        {
+          "heading": "遇到蛇龙珠先记录证据",
+          "text": "看到蛇龙珠时，先抄录酒标名称、生产者、年份和产地，再查询该生产者或可靠品种资料。名称使用和具体材料的品种身份需要证据，本节先建立查证习惯，详细品种学问题留到后续核实。"
+        },
+        {
+          "heading": "怎样选择基准酒款",
+          "text": "先写清这次要解释的产区、品种或风格，再选择资料完整、能支持比较的代表酒款。记录具体年份、品种组成、葡萄园与熟成信息，品鉴后区分已知事实和个人观察。基准酒款不是昂贵酒名单；后续可把核实记录与酒庄、酒款档案连接，本节尚未指定正式课堂用酒。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-15-check-1",
+          "text": "我知道 Cabernet Sauvignon 在中国很重要，但不是全部。"
+        },
+        {
+          "id": "foundation-d4-15-check-2",
+          "text": "我认识 Chardonnay、Marselan、Cabernet Gernischt / 蛇龙珠。"
+        },
+        {
+          "id": "foundation-d4-15-check-3",
+          "text": "我知道蛇龙珠的品种身份与命名问题比较复杂，不应简单化。"
+        },
+        {
+          "id": "foundation-d4-15-check-4",
+          "text": "我知道学习 Producer 应该建立在区域、气候、品种理解之后。"
+        },
+        {
+          "id": "foundation-d4-15-check-5",
+          "text": "我知道 Benchmark Wine 的作用是帮助理解产区 / 品种 / 风格，而不是简单列昂贵酒。"
+        },
+        {
+          "id": "foundation-d4-15-check-6",
+          "text": "我知道中国葡萄酒后续要连接 Wine Library 的酒庄与酒款档案。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-15-q1",
+          "prompt": "关于中国葡萄品种，哪项最合理？",
+          "options": [
+            "中国只有 Cabernet Sauvignon",
+            "除 Cabernet Sauvignon 外，还应认识 Marselan、Chardonnay、蛇龙珠等",
+            "中国只适合红葡萄品种",
+            "本土 / 地方品种没有学习价值"
+          ],
+          "answer": 1,
+          "explanation": "除赤霞珠外，霞多丽、马瑟兰和蛇龙珠等名称也属于学习入口。品种与产区需结合，不能只认识一种葡萄。"
+        },
+        {
+          "id": "foundation-d4-15-q2",
+          "prompt": "学一个中国 Producer 前，最合理的基础是什么？",
+          "options": [
+            "先知道它所在区域、气候、品种与大概风格",
+            "先背售价",
+            "先背获奖数量",
+            "先看包装设计"
+          ],
+          "answer": 0,
+          "explanation": "先理解所在区域、气候、品种与风格线索，才能继续追问生产者的种植和酿造选择。价格与奖项不能替代这些背景。"
+        },
+        {
+          "id": "foundation-d4-15-q3",
+          "prompt": "Benchmark Wine 在课程里的主要作用是什么？",
+          "options": [
+            "只展示最贵的酒",
+            "只给学生投资参考",
+            "用代表性酒款帮助理解一个产区、品种或风格能达到怎样的表达",
+            "取代所有理论知识"
+          ],
+          "answer": 2,
+          "explanation": "基准酒款帮助具体呈现一个产区、品种或风格。选择需要资料和教学目的，也需要品鉴验证，不能取代理论或等同于最贵名单。"
+        }
+      ],
+      "practice": "为一款中国葡萄酒建立教学笔记，依次记录产区、年份、品种、生产者、酿造资料和来源日期。说明它能帮助解释什么，并把未知信息留空；不要以价格或获奖数代替理由。"
     }
   ]
 }

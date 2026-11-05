@@ -1,3 +1,28 @@
+# Foundation · 2026-11-05 afternoon · D4 final three review units
+
+Base 6d05899272b38fda77b2d519e946f83c52bb608b on migration/tencent-somm100. Read current branch, migration/progress checkpoints, source map, runtime component/data and draft before editing. Re-fetched all three canonical Notion pages; timestamps agree with staging, verification metadata remains unverified.
+
+- Integrated units13–15 covering South Africa and two China topics. Added18 checks and9 questions with individual explanations. Complete condensed D4 review set is now15 units/93 checks/45 questions. Three new units each include objective, preparation, three original Chinese explanatory sections and a practical task. Previous12 units are identical. Source IDs and answer indices retained.
+- South Africa includes Cape/Stellenbosch, Chenin Blanc and Pinotage's Pinot Noir × Cinsault parentage. China review distinguishes dry inland conditions, Shandong coast and northwestern Yunnan mountain sites, places Hebei/Shanxi on the learning map, and teaches a source-based benchmark selection method. Does not appoint classroom wines, publish private textbook text or infer a uniform national style. Cabernet Gernischt naming/identity is left for evidence-based follow-up rather than making unsupported synonym claims.
+- Fact checks use WOSA, Ningxia/Xinjiang government material, Yantai wine bureau and LVMH's Ao Yun estate description. Extracted only relevant geographic/variety facts, not promotional claims, statistics or source maps. Exact source records are in docs/qa/foundation-d4-complete-20261105.json.
+- Added12-to-15 release migration regression. Saves old wrong/correct first/latest answers and self-check state, restores with final dataset, then answers final Chinese benchmark unit and reloads. Same D4 storage key; browser-local only.
+- Actual Node Foundation suite40/40 passed. Clean CloudBase build passed455 public files, entry ./assets/index-DA2bof9x.js, SHA256 86ce194dc53decac5d03d4c3afb9b5e8817ced821b689493e5f3cf76e6ebfffe. Root and /somm100/ PWA/assets plus15 Foundation markers passed. Pinned build dependency subset reused; full frozen-lockfile install remains untested. Existing main entry still about12MB.
+- Browser checks remain pending after the previous supported Chromium launch failed with socket() failed: Operation not permitted (1). Did not repeat the blocked launch, install browsers or bypass policy. No Tencent deployment or current live verification; no new verified public URL.
+- Saved for atomic source commit/readback. Preserve [skip netlify] and netlify.toml ignore="exit 0". Other paused projects and cloud configuration not acted on.
+
+| Area | Content implemented |
+| --- | --- |
+| D1 | 10 review units/71 checks/30 questions |
+| D2 | 9/64/27, shared France6/38/18 |
+| D3 | 13/72/39 |
+| D4 | All15 condensed reviews/93 checks/45 questions |
+| D5 | Teaching/assessment placement pending |
+| D6 | Current cohort22 has five classroom days; no sixth-day schedule |
+
+Next: D3 standalone30/D4 standalone45 quizzes are still mapped, not student UI. Read their canonical inventory/source before integrating an actual assessment workflow and preserve unit-level records. Continue identifying actual current five-day PPT allocation and permitted map/media; condensed reviews are not the full classroom curriculum. Use supported browser access to finish phone/desktop navigation and refresh tests, then verify Tencent deployment SHA and pages. Do not stop the overall Foundation task merely because D4 condensed reviews are complete.
+
+---
+
 # Foundation · 2026-11-05 13:35 CST run · D4 country review units 9–12
 
 Base 35c9909de3b027517336b8eb47449d73fa666ac6, migration/tencent-somm100. Read latest branch, migration/progress checkpoints, source map and runtime D4 UI/data. Re-fetched the four canonical Notion pages; timestamps match staging, source verification remains unverified. No confirmed cohort day allocation inferred.

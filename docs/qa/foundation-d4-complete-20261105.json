@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-05",
+  "base": "6d05899272b38fda77b2d519e946f83c52bb608b",
+  "scope": "D4 units13–15, all condensed review units integrated",
+  "sourcePages": [
+    {
+      "id": "foundation-d4-13",
+      "url": "https://app.notion.com/p/40717d16de4c81459d06c16cfd370b38",
+      "sourceEditedAt": "2026-10-28T20:12:34.192Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-14",
+      "url": "https://app.notion.com/p/40717d16de4c814ab561dcaf2ffb89b2",
+      "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-15",
+      "url": "https://app.notion.com/p/40717d16de4c8137896bd236453a996e",
+      "sourceEditedAt": "2026-10-28T20:13:04.657Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    }
+  ],
+  "factSources": [
+    "https://wine.wosa.co.za/sa/origin_cultivar.php",
+    "https://www.wosa.co.za/The-Industry/Varieties-and-Styles/Introduction",
+    "https://www.wosa.co.za/The-Industry/Terroir/Climate/",
+    "https://www.wosa.co.za/The-Industry/Winegrowing-Areas/Winelands-of-South-Africa",
+    "https://www.nx.gov.cn/zwgk/qzfwj/202202/t20220208_3316559_wap.html",
+    "https://www.xinjiang.gov.cn/xinjiang/zfgbml/202110/29b5efb4e8fe4161ac925216805e9e94.shtml",
+    "https://ptjj.yantai.gov.cn/art/2020/12/17/art_1595_2879839.html",
+    "https://www.lvmh.com/en/our-maisons/wines-spirits/ao-yun",
+    "https://ptjj.yantai.gov.cn/art/2017/10/19/art_1610_836370.html"
+  ],
+  "previousTwelveUnchanged": true,
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 40,
+    "failed": 0,
+    "includes": "12-to-15-unit record expansion, previous first/latest answers, final unit restore"
+  },
+  "build": {
+    "command": "npm run build:cloudbase",
+    "cleanOutput": true,
+    "files": 455,
+    "entry": "./assets/index-DA2bof9x.js",
+    "entrySha256": "86ce194dc53decac5d03d4c3afb9b5e8817ced821b689493e5f3cf76e6ebfffe",
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "dependencyLimit": "Reused pinned build-only subset, not full frozen-lockfile install"
+  },
+  "browser": {
+    "status": "pending",
+    "lastObservedBlock": "/usr/bin/chromium launch rejected by socket() failed: Operation not permitted (1)",
+    "repeatedLaunchThisRun": false
+  },
+  "deployed": false,
+  "onlineVerified": false,
+  "cohortDayConfirmed": false,
+  "remaining": [
+    "D4 standalone45 quiz",
+    "D3 standalone30 quiz",
+    "Current cohort daily PPT allocation",
+    "Permitted maps/media",
+    "Narrow and desktop UI restore checks",
+    "Tencent deployment/version acceptance"
+  ]
+}
