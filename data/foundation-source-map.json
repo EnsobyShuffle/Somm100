@@ -150,10 +150,9 @@
   "courseDays": [
     {
       "day": 1,
-      "status": "10-review-digests-71-checks-30-questions-integrated-not-live",
+      "status": "10-review-units-71-checks-30-inline-and-25-standalone-questions-integrated-local-build-tested-live-pending",
       "remaining": [
         "Current five-day cohort PPT/day allocation",
-        "25-question standalone D1 Course Quiz",
         "Visual/video resources",
         "Current deployment and live/mobile QA (prior local build/desktop QA passed)"
       ]
@@ -174,7 +173,7 @@
     },
     {
       "day": 4,
-      "status": "all-15-review-units-93-checks-45-questions-integrated-local-build-tested-cohort-day-and-live-unconfirmed"
+      "status": "15-review-units-93-checks-45-inline-and-45-standalone-questions-integrated-local-build-tested-live-and-cohort-allocation-pending"
     },
     {
       "day": 5,
@@ -186,10 +185,10 @@
     }
   ],
   "nextActions": [
-    "Use the D3/D4 inventory and quiz-to-unit mappings; do not repeat source discovery.",
-    "Fact-check and condense D3/D4 lessons; confirm current cohort PPT before assigning classroom dates/order.",
-    "Restore execution environment for mobile full-app tests and further UI integration; last successful build/desktop QA is recorded in docs/qa/foundation-full-app-20261105.json.",
-    "Keep student reading destinations separate from private Notion source references; verify live Tencent deployment independently."
+    "Read canonical D2 standalone42 quiz source 40717d16de4c81d69c3ad85f6456e618; map grape and shared-France reviews without inferring current classroom day allocation.",
+    "Align current five-day cohort PPT, teaching sequence and permitted media.",
+    "When supported browser execution is available, check phone layout, refreshed quiz records and mapped review selection.",
+    "Verify Tencent deployed SHA and actual live pages independently."
   ],
   "pathSource": "https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746",
   "inventorySource": "https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd",
@@ -769,5 +768,20 @@
     "status": "student-ui-integrated-node-tests-local-build-passed-browser-and-live-pending",
     "cohortDayConfirmed": false,
     "scope": "45 standalone self-checks across 15 existing reviews; first/latest browser-local answers, mapped review navigation; no pass threshold"
+  },
+  "d1QuizRelease": {
+    "file": "data/foundation-d1-quiz.json",
+    "component": "app/FoundationD1Quiz.js",
+    "sharedComponent": "app/FoundationQuiz.js",
+    "questions": 25,
+    "source": "https://app.notion.com/p/40717d16de4c81c1960fc82fab19f045?pvs=204",
+    "sourceEditedAt": "2026-10-28T19:59:40.081Z",
+    "sourceVerification": "unverified",
+    "readAt": "2026-11-05T19:41:35.085317+08:00",
+    "storage": "somm100.foundation.d1-quiz.v1",
+    "status": "student-ui-integrated-node-tests-local-build-passed-browser-and-live-pending",
+    "cohortDayConfirmed": false,
+    "mapping": "docs/qa/foundation-d1-quiz-source-20261105.json",
+    "mappingBasis": "Editorial mapping of source core-detection labels to existing D1 unit IDs; source has no unit-ID mapping column"
   }
 }

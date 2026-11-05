@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-11-05T19:41:35.085317+08:00",
+  "base": "31ca66b02d640cc7cdf99f53063975eac9fadc67",
+  "source": {
+    "url": "https://app.notion.com/p/40717d16de4c81c1960fc82fab19f045?pvs=204",
+    "editedAt": "2026-10-28T19:59:40.081Z",
+    "verification": "unverified",
+    "questionRows": 25,
+    "answerRows": 25,
+    "originalPromptsOptionsAndAnswersPreserved": true,
+    "mapping": "Editorial mapping to all10 existing D1 units; see source inventory",
+    "explanations": "25 original Chinese explanations grounded in the existing D1 reviews; no private textbook excerpts"
+  },
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 54,
+    "failed": 0,
+    "coverage": [
+      "25 source IDs/answers/mapped review validity",
+      "Question25 restore and first/latest retry history",
+      "Wrong-answer queue correction",
+      "Corrupt/future record preservation",
+      "D1/D3/D4 isolated quiz keys and lesson storage",
+      "Scoped review destination validation and actual D1 saved-state round trip"
+    ]
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 464,
+    "entry": "./assets/index-C3K5zK45.js",
+    "entryBytes": 12026044,
+    "entrySha256": "b9b5016a115c2a564df7e7da288dfa6bb99ec5ee711fb88bf864343f70ff17c9",
+    "foundationMarkers": 22,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "dependencies": "Pinned build subset reused; full frozen-lockfile install not run",
+  "browser": {
+    "status": "pending",
+    "previousBlock": "Chromium launch denied socket() failed: Operation not permitted (1)",
+    "newLaunchAttempt": false,
+    "untested": [
+      "D1 quiz mounted rendering",
+      "quiz-to-review UI event/scroll",
+      "phone layout",
+      "UI refresh"
+    ]
+  },
+  "deployed": false,
+  "onlineVerified": false
+}

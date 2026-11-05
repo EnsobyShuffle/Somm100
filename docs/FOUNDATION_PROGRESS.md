@@ -1,3 +1,28 @@
+# Foundation · 2026-11-05 · D1 standalone 25-question self-check
+
+Checked 2026-11-05T19:41:35.085317+08:00. Base 31ca66b02d640cc7cdf99f53063975eac9fadc67, migration/tencent-somm100. Fresh branch head matched the previous D4 release;11 key local source blobs matched the authoritative GitHub tree before editing. Read migration/progress checkpoints, source map, current D1/quiz code, canonical D1–D2 inventory and the full linked D1 quiz source.
+
+- Full D1 quiz 40717d16de4c81c1960fc82fab19f045 (edited2026-10-28T19:59:40.081Z, unverified) contains25 questions and25 answer rows. Preserved prompts/options/answer indices; added25 original Chinese explanations grounded in existing D1 reviews. No private historical textbook excerpts. Source core-detection labels were editorially mapped to the ten existing D1 unit IDs; the source itself does not supply unit-ID mappings. Exact inventory in docs/qa/foundation-d1-quiz-source-20261105.json.
+- Added data/foundation-d1-quiz.json and app/FoundationD1Quiz.js; reused existing FoundationQuiz component. New D1 menu and section support three topic groups, question selection, previous/next, wrong-answer queue, first/latest answers, explanations and mapped lesson navigation. Independent key somm100.foundation.d1-quiz.v1. Existing D1 lesson, pre-course, D3/D4 progress retained. Local browser only; no passing-grade, attendance or account-sync claim.
+- D1 review now handles scoped foundation-open-review events, validates the exact prefix and known unit before selecting it, then scrolls to its heading. New mappedReviewUnit helper is tested for foreign prefix, unknown unit and missing detail. Listener cleaned up. D1 existing body, diagram/label activities and answer data preserved.
+- Actual Node Foundation suite54/54 passed. Tests cover D1 final-question25 restore, first/latest correction, wrong-answer queue, corrupt/future record protection, all three standalone key isolation and D1 lesson save/reload preserving existing checks/answers during mapped unit changes. D1 wrapper/review syntax checks passed.
+- Clean production build:cloudbase passed 464 public files,22 Foundation markers and root plus /somm100/ asset/PWA checks. Entry ./assets/index-C3K5zK45.js, SHA256 b9b5016a115c2a564df7e7da288dfa6bb99ec5ee711fb88bf864343f70ff17c9. Build-only pinned dependency subset reused, full frozen-lockfile install still unverified. Existing about12MB main entry remains a performance limitation.
+- Browser event/scroll, phone layout and UI refresh remain unverified after prior supported Chromium launch denied socket() failed: Operation not permitted (1). No repeated launch/download or bypass attempted. No Tencent deployment or fresh public URL verified. Existing migration access blocker remains; code work continues independently.
+- Source/checkpoint saved for atomic commit and changed-file readback. Preserve [skip netlify] and netlify.toml ignore="exit 0". No unrelated paused modules, cloud/billing/DNS/ICP actions.
+
+| Area | Content in source |
+| --- | --- |
+| D1 | 10 reviews/71 checks/30 inline plus NEW25 standalone self-check questions |
+| D2 | 9 reviews/64 checks/27 inline, shared France6/38/18; standalone42 pending |
+| D3 | 13 reviews/72 checks/39 inline plus30 standalone self-check questions |
+| D4 | 15 reviews/93 checks/45 inline plus45 standalone self-check questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 has five classroom days; no sixth schedule invented |
+
+Next: read D2 standalone42 canonical source 40717d16de4c81d69c3ad85f6456e618; map grape and shared-France targets carefully because they use different review components/prefixes. Preserve progress and use verified topic mapping rather than assume classroom allocation. Continue current five-day PPT alignment/permitted media, supported browser tests and independent Tencent release verification. Overall Foundation is still in progress; no task pause/completion claim.
+
+---
+
 # Foundation · 2026-11-05 · D4 standalone 45-question self-check
 
 Checked 2026-11-05T18:29:39.212984+08:00. Base f03df8e913b2dd2883a2b4d4b8e1eedc1ec5814f, migration/tencent-somm100. Fresh branch head and local source blobs matched for nine key files. Read latest Foundation/CloudBase checkpoints, source map, quiz inventory and full canonical D4 quiz. No concurrent branch change observed at start; use expected-head update at publication.

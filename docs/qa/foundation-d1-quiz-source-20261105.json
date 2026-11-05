@@ -1,0 +1,211 @@
+{
+  "source": "https://app.notion.com/p/40717d16de4c81c1960fc82fab19f045?pvs=204",
+  "sourceEditedAt": "2026-10-28T19:59:40.081Z",
+  "verification": "unverified",
+  "day": 1,
+  "questionCount": 25,
+  "mapping": [
+    {
+      "id": "foundation-d1-quiz-01",
+      "number": 1,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d1-01"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-02",
+      "number": 2,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d1-01"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-03",
+      "number": 3,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d1-01"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-04",
+      "number": 4,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d1-02"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-05",
+      "number": 5,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d1-02"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-06",
+      "number": 6,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d1-03"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-07",
+      "number": 7,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d1-03"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-08",
+      "number": 8,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d1-04"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-09",
+      "number": 9,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d1-04"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-10",
+      "number": 10,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d1-05"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-11",
+      "number": 11,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d1-06"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-12",
+      "number": 12,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d1-06"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-13",
+      "number": 13,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d1-06"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-14",
+      "number": 14,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d1-07"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-15",
+      "number": 15,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d1-07"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-16",
+      "number": 16,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d1-07"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-17",
+      "number": 17,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d1-08"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-18",
+      "number": 18,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d1-08"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-19",
+      "number": 19,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d1-08"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-20",
+      "number": 20,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d1-09"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-21",
+      "number": 21,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d1-09"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-22",
+      "number": 22,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d1-09"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-23",
+      "number": 23,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d1-10"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-24",
+      "number": 24,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d1-10"
+      ]
+    },
+    {
+      "id": "foundation-d1-quiz-25",
+      "number": 25,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d1-10"
+      ]
+    }
+  ],
+  "mappingBasis": "Editorial mapping to existing D1 units using source core-detection labels; source itself has no unit-ID column",
+  "explanationBasis": "25 original Chinese explanations grounded in the existing D1 reviews; original question/option order and answer indices retained"
+}

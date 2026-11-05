@@ -1,14 +1,15 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFileSync} from 'node:fs';
-import {D3_QUIZ_STORAGE_KEY, D4_QUIZ_STORAGE_KEY, quizProgressData, quizResult} from '../lib/foundation-quiz.mjs';
+import {D1_QUIZ_STORAGE_KEY, D3_QUIZ_STORAGE_KEY, D4_QUIZ_STORAGE_KEY, mappedReviewUnit, quizProgressData, quizResult} from '../lib/foundation-quiz.mjs';
+import {readD1Progress,writeD1Progress} from '../lib/foundation-d1.mjs';
 import {readD2Progress,writeD2Progress} from '../lib/foundation-d2.mjs';
 import {recordFoundationAnswer} from '../lib/foundation-study.mjs';
 const json = p => JSON.parse(readFileSync(new URL(p,import.meta.url)));
-for (const [day,count,storageKey] of [[3,30,D3_QUIZ_STORAGE_KEY],[4,45,D4_QUIZ_STORAGE_KEY]]) {
+for (const [day,count,storageKey] of [[1,25,D1_QUIZ_STORAGE_KEY],[3,30,D3_QUIZ_STORAGE_KEY],[4,45,D4_QUIZ_STORAGE_KEY]]) {
 const data = json(`../data/foundation-d${day}-quiz.json`);
 const reviews = json(`../data/foundation-d${day}.json`);
-const inventory = json('../docs/qa/foundation-d34-source-inventory-20261105.json').quizzes.find(q=>q.day===day);
+const inventory = day===1 ? json('../docs/qa/foundation-d1-quiz-source-20261105.json') : json('../docs/qa/foundation-d34-source-inventory-20261105.json').quizzes.find(q=>q.day===day);
 const progressData = quizProgressData(data);
 
 test(`D${day} standalone quiz preserves all ${count} source IDs, answers and review mappings`,()=>{
@@ -65,22 +66,42 @@ test(`D${day} corrupt/future quiz records stay intact and unknown ids cannot fab
 
 }
 
-test("D3 and D4 standalone quizzes save and reload independently",()=>{
+test("D1, D3 and D4 standalone quizzes save and reload independently",()=>{
   const records=new Map();
   const storage={getItem:k=>records.get(k)??null,setItem:(k,v)=>records.set(k,v)};
-  for (const [day,key] of [[3,D3_QUIZ_STORAGE_KEY],[4,D4_QUIZ_STORAGE_KEY]]) {
+  for (const [day,key] of [[1,D1_QUIZ_STORAGE_KEY],[3,D3_QUIZ_STORAGE_KEY],[4,D4_QUIZ_STORAGE_KEY]]) {
     const data=json(`../data/foundation-d${day}-quiz.json`);
     let {progress}=readD2Progress(storage,quizProgressData(data),key);
     progress.unit=data.questions.length;
     progress=recordFoundationAnswer(progress,data.questions.at(-1),data.questions.at(-1).answer);
     assert.equal(writeD2Progress(storage,progress,key),'');
   }
-  assert.equal(records.size,2);
-  for (const [day,key] of [[3,D3_QUIZ_STORAGE_KEY],[4,D4_QUIZ_STORAGE_KEY]]) {
+  assert.equal(records.size,3);
+  for (const [day,key] of [[1,D1_QUIZ_STORAGE_KEY],[3,D3_QUIZ_STORAGE_KEY],[4,D4_QUIZ_STORAGE_KEY]]) {
     const data=json(`../data/foundation-d${day}-quiz.json`);
     const {progress}=readD2Progress(storage,quizProgressData(data),key);
     assert.equal(progress.unit,data.questions.length);
     assert.equal(quizResult(data,progress).correct,1);
     assert.deepEqual(Object.keys(progress.answers),[data.questions.at(-1).id]);
   }
+});
+
+
+test('D1 review navigation accepts only its own known unit and retains restored lesson records',()=>{
+  const data=json('../data/foundation-d1.json');
+  assert.equal(mappedReviewUnit(data,'foundation-d1',null),null);
+  assert.equal(mappedReviewUnit(data,'foundation-d1',{prefix:'foundation-d3',unitId:'foundation-d1-10'}),null);
+  assert.equal(mappedReviewUnit(data,'foundation-d1',{prefix:'foundation-d1',unitId:'fake'}),null);
+  const unit=mappedReviewUnit(data,'foundation-d1',{prefix:'foundation-d1',unitId:'foundation-d1-10'});
+  assert.equal(unit.number,10);
+  const prior={version:1,unit:1,checks:{[data.units[0].checks[0].id]:true},answers:{[data.units[0].questions[0].id]:{first:0,latest:1}}};
+  let raw=JSON.stringify(prior);
+  const storage={getItem:()=>raw,setItem:(_,v)=>{raw=v}};
+  const restored=readD1Progress(storage,data).progress;
+  const next={...restored,unit:unit.number};
+  assert.equal(writeD1Progress(storage,next),'');
+  const again=readD1Progress(storage,data).progress;
+  assert.equal(again.unit,10);
+  assert.deepEqual(again.answers,prior.answers);
+  assert.deepEqual(again.checks,prior.checks);
 });
