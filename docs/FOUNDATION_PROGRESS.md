@@ -1,3 +1,29 @@
+# Foundation · 2026-11-05 evening · D3 standalone self-check integration
+
+Base 0762804c2b86d4dc198622409ba6a9726be8d8ab on migration/tencent-somm100. Fresh branch, migration/progress checkpoint, source inventory/map and current Foundation review/navigation/helper read. Netlify stop-build guard preserved.
+
+- Fetched full canonical D3 standalone30 quiz page 40717d16de4c819bac12f69bbba8442c, edited2026-10-28T20:11:46.220Z, still unverified. Extracted30 prompts/options,30 actual answer-table rows and compared all with saved mapping. No private linked historical textbook reproduced. Cava option now says uses traditional method, retaining same answer index. Added30 original explanations grounded in existing reviewed D3 content.
+- Added data/foundation-d3-quiz.json, app/FoundationD3Quiz.js and lib/foundation-quiz.mjs. Existing Foundation has lazy-loaded D3 self-check menu and section. One question at a time, grouped selection, previous/next and next-needs-review navigation, feedback, first/latest answer display and counts. No failing label, grading cutoff or cohort attendance claim.
+- Separate browser key somm100.foundation.d3-quiz.v1, reused versioned record parsing/write protection through question-to-navigation-unit adapter. Old pre-course and lesson review keys untouched. Corrupt/future records are not overwritten. Local browser records only.
+- Related-review buttons dispatch a scoped event carrying the mapped D3 unit ID. FoundationRegionalReview selects that unit and scrolls to the review heading rather than assuming a hidden unit is already rendered. Only matching prefix/known IDs handled; listeners cleaned up. The dual-mapped Rioja question retains both review targets. Existing teaching datasets are unchanged.
+- Added4 meaningful tests. Actual complete Node Foundation suite44/44 passed, syntax checks passed. Tests cover source ID/answer/mapping integrity and valid review targets, question30 restore and first/latest attempts, separate review storage, corrected-answer review list and corrupt/future/unknown data.
+- Clean production build passed458 public files. Entry ./assets/index-CZKbz8B3.js, SHA256 0779b0eea7ad158e0fa0bdca216214bf473651c228bd1a051bf74f5d4da708f2. Root and /somm100/ PWA/asset checks and18 Foundation markers passed. Pinned dependency subset reused, not full frozen-lockfile install. Existing about12MB main entry warning remains.
+- Browser UI including quiz-to-review selection, 375px layout and refresh has NOT been verified. Prior Chromium launch was denied with socket() failed: Operation not permitted (1); did not repeat blocked launch or bypass policy. No Tencent redeployment, live version or new public URL verified.
+- Saved for atomic commit and changed-file readback. Keep [skip netlify] and ignore="exit 0"; no other paused modules or cloud account actions.
+
+| Area | Implemented content |
+| --- | --- |
+| D1 | 10 reviews/71 checks/30 inline questions; standalone25 pending |
+| D2 | 9 reviews/64 checks/27 inline, shared France6/38/18 |
+| D3 | 13 reviews/72 checks/39 inline plus NEW30 standalone self-check questions |
+| D4 | 15 reviews/93 checks/45 inline, separate45-question quiz mapped only |
+| D5 | Current teaching/assessment placement pending |
+| D6 | Current cohort22 has five classroom days; no sixth schedule |
+
+Next: integrate D4 standalone45 after fetching its full actual source and reviewing answer/mapping/explanation scope. Reuse the quiz workflow with isolated keys while preserving D3 progress. Add explicit browser checks for mapped review selection and return navigation when supported UI execution is available. Continue current cohort PPT alignment and permitted media, then verify Tencent deployment. No overall completion/pause claim.
+
+---
+
 # Foundation · 2026-11-05 afternoon · D4 final three review units
 
 Base 6d05899272b38fda77b2d519e946f83c52bb608b on migration/tencent-somm100. Read current branch, migration/progress checkpoints, source map, runtime component/data and draft before editing. Re-fetched all three canonical Notion pages; timestamps agree with staging, verification metadata remains unverified.

@@ -170,7 +170,7 @@
     },
     {
       "day": 3,
-      "status": "13-review-units-72-checks-39-questions-integrated-current-build-passed-cohort-day-and-live-unconfirmed"
+      "status": "13-review-units-and-30-question-standalone-self-check-integrated-local-build-tested-live-and-cohort-allocation-pending"
     },
     {
       "day": 4,
@@ -739,5 +739,19 @@
       "https://www.lvmh.com/en/our-maisons/wines-spirits/ao-yun",
       "https://ptjj.yantai.gov.cn/art/2017/10/19/art_1610_836370.html"
     ]
+  },
+  "d3QuizRelease": {
+    "file": "data/foundation-d3-quiz.json",
+    "component": "app/FoundationD3Quiz.js",
+    "helper": "lib/foundation-quiz.mjs",
+    "questions": 30,
+    "source": "https://app.notion.com/p/40717d16de4c819bac12f69bbba8442c?pvs=204",
+    "sourceEditedAt": "2026-10-28T20:11:46.220Z",
+    "sourceVerification": "unverified",
+    "readOn": "2026-11-05",
+    "storage": "somm100.foundation.d3-quiz.v1",
+    "status": "student-ui-integrated-node-tests-local-build-passed-browser-and-live-pending",
+    "cohortDayConfirmed": false,
+    "scope": "30 standalone practice questions; first/latest local answers, feedback and links selecting mapped D3 review units; no pass threshold"
   }
 }

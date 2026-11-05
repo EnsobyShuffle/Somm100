@@ -12,6 +12,17 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
   useEffect(() => {
+    function openReview(event) {
+      if (event.detail?.prefix !== prefix) return;
+      const target = data.units.find(u => u.id === event.detail.unitId);
+      if (!target) return;
+      setProgress(p => ({...p, unit:target.number}));
+      window.requestAnimationFrame(() => document.getElementById(prefix+'-title')?.scrollIntoView({behavior:'smooth',block:'start'}));
+    }
+    window.addEventListener('foundation-open-review', openReview);
+    return () => window.removeEventListener('foundation-open-review', openReview);
+  }, [data, prefix]);
+  useEffect(() => {
     // Accessing window.localStorage itself can throw in restricted browsers.
     let result;
     try { result = readD2Progress(window.localStorage, data, storageKey); }

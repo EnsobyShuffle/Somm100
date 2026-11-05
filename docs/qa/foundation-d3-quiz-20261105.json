@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-05",
+  "base": "0762804c2b86d4dc198622409ba6a9726be8d8ab",
+  "source": {
+    "url": "https://app.notion.com/p/40717d16de4c819bac12f69bbba8442c?pvs=204",
+    "editedAt": "2026-10-28T20:11:46.220Z",
+    "verification": "unverified",
+    "questionRows": 30,
+    "answerRows": 30,
+    "mappingRows": 30,
+    "changes": [
+      "Cava correct option says uses traditional method instead of usually",
+      "30 original explanations added; source IDs/answer positions preserved"
+    ]
+  },
+  "files": [
+    "data/foundation-d3-quiz.json",
+    "app/FoundationD3Quiz.js",
+    "lib/foundation-quiz.mjs"
+  ],
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 44,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build:cloudbase",
+    "clean": true,
+    "files": 458,
+    "entry": "./assets/index-CZKbz8B3.js",
+    "entrySha256": "0779b0eea7ad158e0fa0bdca216214bf473651c228bd1a051bf74f5d4da708f2",
+    "markers": 18,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "dependencies": "Pinned build subset reused, full frozen-lockfile install unverified"
+  },
+  "browser": {
+    "status": "pending",
+    "previousBlock": "Chromium launch denied socket() failed: Operation not permitted (1)",
+    "newLaunchAttempt": false,
+    "untested": [
+      "375px layout",
+      "quiz wrong/correct/refresh UI",
+      "mapped review selection/scroll",
+      "menu navigation"
+    ]
+  },
+  "deployed": false,
+  "onlineVerified": false,
+  "cohortDayConfirmed": false
+}
