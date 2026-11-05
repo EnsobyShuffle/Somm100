@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-05",
+  "base": "3b46ecc27c67be1f4b87ad58343263373fe8f232",
+  "scope": "D4 units 5–8 fortified wines",
+  "sourcePages": [
+    {
+      "id": "foundation-d4-05",
+      "url": "https://app.notion.com/p/40717d16de4c81c0aee5ed55c07ee9bc",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-06",
+      "url": "https://app.notion.com/p/40717d16de4c81a4a01ef2e9c543b3ae",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-07",
+      "url": "https://app.notion.com/p/40717d16de4c81ff8503f56b42a11ad1",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-08",
+      "url": "https://app.notion.com/p/40717d16de4c81b59baed7a52c76df94",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    }
+  ],
+  "factSources": [
+    "https://www.ivdp.pt/pt/vinhos/vinhos-do-porto/vinificacao/",
+    "https://www.ivdp.pt/en/wines/port-wines/introduction",
+    "https://www.ivdp.pt/en/wines/port-wines/special-categories",
+    "https://cdn.sherry.wine/sherry-wine/dry-sherry-wines",
+    "https://cdn.sherry.wine/sherry-wine/dry-sherry-wines/fino",
+    "https://cdn.sherry.wine/sherry-wine/dry-sherry-wines/amontillado",
+    "https://wwv.sherry.wine/sherry-wine/production",
+    "https://vinhomadeira.com/o-vinho-madeira/vinificacao-e-envelhecimento",
+    "https://vinhomadeira.com/o-vinho-madeira/castas"
+  ],
+  "firstFourUnitsUnchanged": true,
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 38,
+    "failed": 0,
+    "includes": "four-unit-to-eight-unit progress migration, old/new answer round-trip and storage isolation"
+  },
+  "build": {
+    "command": "npm run build:cloudbase",
+    "cleanOutput": true,
+    "files": 455,
+    "entry": "./assets/index-ChFexjWH.js",
+    "entrySha256": "ef7e942b1b5faf0001308587e8f5c37721939686b6f11a78cd172857396145c7",
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "dependencyLimit": "Same pinned subset as previous run; no full frozen-lockfile install"
+  },
+  "browser": {
+    "status": "pending",
+    "reason": "No Chromium executable in cache. Prior standard installation failed with truncated/non-ZIP archive. No repeated download this run."
+  },
+  "deployed": false,
+  "onlineVerified": false,
+  "cohortDayConfirmed": false
+}

@@ -325,6 +325,362 @@
         }
       ],
       "practice": "制作四行笔记，分别填入 Champagne、Prosecco、Cava、Franciacorta 的国家与二次发酵容器。选两款方法相同的酒，再查它们品种和熟成信息的差别。"
+    },
+    {
+      "id": "foundation-d4-05",
+      "number": 5,
+      "title": "加强型葡萄酒：真正关键不是“加了烈酒”，而是什么时候加",
+      "learningObjective": "用加强时机解释成酒的甜度",
+      "preparation": "分别画出糖尚未耗尽、糖已基本耗尽的两条发酵时间线。",
+      "sections": [
+        {
+          "heading": "加强改变了什么",
+          "text": "加强是通过加入蒸馏酒提高酒精度。本组的 Port、经典加强雪莉和 Madeira 通常使用葡萄来源的蒸馏酒或酒精。若在糖尚未耗尽时充分提高酒精度，可以中止发酵，保留一部分葡萄本身的糖。"
+        },
+        {
+          "heading": "加强时机与甜度",
+          "text": "若先发酵至干，再加强，酒可以保持干型。加强本身并不等于加糖；最终甜度还要结合原料、发酵中止时点及后续调配来看。用一条时间线标出糖何时被消耗，比只记酒精度更有帮助。"
+        },
+        {
+          "heading": "之后怎样熟成",
+          "text": "酒精度提高之后，酒仍可能经历瓶中发展、木桶中的氧化熟成，或酵母膜参与的生物熟成。熟成容器与氧气接触是另一组信息，要和加强时机分别记录。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-05-check-1",
+          "text": "我能解释什么叫加强型葡萄酒。"
+        },
+        {
+          "id": "foundation-d4-05-check-2",
+          "text": "我知道加强通常使用葡萄蒸馏酒。"
+        },
+        {
+          "id": "foundation-d4-05-check-3",
+          "text": "我知道发酵中加强可以保留糖分。"
+        },
+        {
+          "id": "foundation-d4-05-check-4",
+          "text": "我知道发酵后加强可以形成干型风格。"
+        },
+        {
+          "id": "foundation-d4-05-check-5",
+          "text": "我不会把所有加强型葡萄酒都理解成甜酒。"
+        },
+        {
+          "id": "foundation-d4-05-check-6",
+          "text": "我知道加强以后还有不同熟成方式。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-05-q1",
+          "prompt": "加强型葡萄酒最核心的定义是什么？",
+          "options": [
+            "加入二氧化碳",
+            "加入葡萄蒸馏酒提高酒精度",
+            "一定加入糖",
+            "一定使用新橡木桶"
+          ],
+          "answer": 1,
+          "explanation": "加强通过添加蒸馏酒提高酒精度。本组所学实例使用葡萄来源的蒸馏酒或酒精，不能把起泡、加糖或过桶当成加强的定义。"
+        },
+        {
+          "id": "foundation-d4-05-q2",
+          "prompt": "如果在发酵尚未结束时加强，最可能发生什么？",
+          "options": [
+            "葡萄重新成熟",
+            "酸度自动消失",
+            "发酵停止并保留部分糖分",
+            "单宁全部消失"
+          ],
+          "answer": 2,
+          "explanation": "酒精度升高到能抑制酵母的程度，发酵停止，尚未转化的糖得以保留。这里保留的是葡萄原有糖分。"
+        },
+        {
+          "id": "foundation-d4-05-q3",
+          "prompt": "关于加强型葡萄酒，哪项最合理？",
+          "options": [
+            "全部是甜酒",
+            "全部来自 Portugal",
+            "全部使用同一种熟成方式",
+            "可以有干型，也可以有甜型"
+          ],
+          "answer": 3,
+          "explanation": "Port 常用发酵中加强来保留糖分，经典干型雪莉则说明先发酵至干后加强可以得到干型酒。甜度与熟成还要分别判断。"
+        }
+      ],
+      "practice": "画两条发酵时间线，分别标出“糖未耗尽时加强”和“先发酵至干再加强”。每条线写出可能的甜度结果，再补一栏熟成方式。"
+    },
+    {
+      "id": "foundation-d4-06",
+      "number": 6,
+      "title": "Port：为什么甜度和“中途加强”密切相关？",
+      "learningObjective": "从 Douro 解释波特酒的甜度和熟成",
+      "preparation": "先定位 Douro，再回顾发酵中止时葡萄汁里还剩下什么。",
+      "sections": [
+        {
+          "heading": "从杜罗河谷到发酵中止",
+          "text": "波特酒（Port）来自葡萄牙杜罗（Douro）法定产区。在典型工艺中，发酵尚未耗尽糖时加入葡萄蒸馏酒，中止发酵并保留糖分。酒款甜度仍有差异，不能把所有 Port 都说成一样甜。"
+        },
+        {
+          "heading": "先认识四个名称",
+          "text": "Ruby 风格着重保留年轻红色果实与结构，Tawny 风格则让木桶熟成与氧化发展更明显。Vintage 指向单一年份并可在瓶中长期发展；LBV 是 Late Bottled Vintage，同样来自单一年份，但装瓶前熟成安排不同。详细年限留到进阶学习。"
+        },
+        {
+          "heading": "把沉淀当作检查线索",
+          "text": "陈年 Vintage Port 可能形成沉淀，部分未过滤 LBV 也会在瓶中发展。先查酒标、装瓶说明与酒瓶状况，之后再进入滗酒服务练习。仅凭“加强酒”三个字，无法推断开瓶后的表现。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-06-check-1",
+          "text": "我能把 Port 与 Portugal / Douro 联系起来。"
+        },
+        {
+          "id": "foundation-d4-06-check-2",
+          "text": "我能解释 Port 为什么通常保留甜度。"
+        },
+        {
+          "id": "foundation-d4-06-check-3",
+          "text": "我知道 Port 的加强通常发生在发酵尚未完全结束时。"
+        },
+        {
+          "id": "foundation-d4-06-check-4",
+          "text": "我认识 Ruby、Tawny、Vintage、LBV。"
+        },
+        {
+          "id": "foundation-d4-06-check-5",
+          "text": "我知道这些类别的详细要求后面再学。"
+        },
+        {
+          "id": "foundation-d4-06-check-6",
+          "text": "我知道部分老 Port 可能会有明显沉淀。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-06-q1",
+          "prompt": "Port 最重要的葡萄种植区域是？",
+          "options": [
+            "Mosel",
+            "Douro",
+            "Burgundy",
+            "Napa Valley"
+          ],
+          "answer": 1,
+          "explanation": "Port 的葡萄来自葡萄牙杜罗法定产区。Porto 与 Vila Nova de Gaia 的贸易和熟成历史，也不能代替葡萄种植产地。"
+        },
+        {
+          "id": "foundation-d4-06-q2",
+          "prompt": "Port 通常为什么会保留明显甜度？",
+          "options": [
+            "一定在装瓶后加糖",
+            "葡萄完全不发酵",
+            "发酵尚未结束时加强，使部分糖分保留",
+            "因为使用甜橡木桶"
+          ],
+          "answer": 2,
+          "explanation": "在糖尚未耗尽时加入蒸馏酒，中止发酵，是典型 Port 保留甜度的关键。不能把甜度直接归因于橡木桶。"
+        },
+        {
+          "id": "foundation-d4-06-q3",
+          "prompt": "以下哪个不是 Port 常见类别名称？",
+          "options": [
+            "Ruby",
+            "Tawny",
+            "Vintage",
+            "Kabinett"
+          ],
+          "answer": 3,
+          "explanation": "Ruby、Tawny 和 Vintage 都是 Port 的常见类别名称。Kabinett 属于德国酒标的另一套术语。"
+        }
+      ],
+      "practice": "找一张 Vintage 或 LBV 酒标，分别圈出类别、采收年份和装瓶信息。解释保留甜度的步骤，并列出检查沉淀前还需确认的一项资料。"
+    },
+    {
+      "id": "foundation-d4-07",
+      "number": 7,
+      "title": "Sherry：为什么很多人误以为它都是甜酒？",
+      "learningObjective": "区分酵母膜、氧化熟成与动态调配",
+      "preparation": "给 Flor 和 Solera 各留一栏，分别记录它们描述的对象。",
+      "sections": [
+        {
+          "heading": "先认识干型雪莉",
+          "text": "雪莉酒（Sherry）的核心产区在西班牙南部赫雷斯（Jerez）区域。Palomino 是重要白葡萄品种，经典干型酒先将基酒发酵至干，再按风格安排加强与熟成。另有甜型雪莉，因此要读具体类型，而非把 Sherry 一概理解为甜酒。"
+        },
+        {
+          "heading": "Flor 与两条熟成路径",
+          "text": "Flor 是酒液表面的活酵母膜，参与生物熟成，也减少酒液直接接触氧气。Fino、Manzanilla 是认识这一方式的重要例子，其中 Manzanilla 与 Sanlúcar de Barrameda 的熟成环境相连。Oloroso 走氧化熟成路径；Amontillado 先经历生物熟成，再转为氧化熟成。"
+        },
+        {
+          "heading": "Solera 回答另一个问题",
+          "text": "Criaderas y Solera 是持续分级补充与调配的动态熟成系统。从较老一级取出部分酒液，再以较年轻一级补充，依次衔接。Flor 描述酵母与熟成环境，Solera 描述酒液怎样流转调配，两者不能互相替代。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-07-check-1",
+          "text": "我能把 Sherry 与 Spain / Jerez 联系起来。"
+        },
+        {
+          "id": "foundation-d4-07-check-2",
+          "text": "我知道 Palomino 是重要核心葡萄品种。"
+        },
+        {
+          "id": "foundation-d4-07-check-3",
+          "text": "我知道很多经典 Sherry 是干型。"
+        },
+        {
+          "id": "foundation-d4-07-check-4",
+          "text": "我知道 Flor 是酒液表面的酵母膜。"
+        },
+        {
+          "id": "foundation-d4-07-check-5",
+          "text": "我能区分生物熟成与氧化熟成的基本方向。"
+        },
+        {
+          "id": "foundation-d4-07-check-6",
+          "text": "我知道 Fino / Manzanilla 与 Flor 有重要关系。"
+        },
+        {
+          "id": "foundation-d4-07-check-7",
+          "text": "我认识 Oloroso、Amontillado。"
+        },
+        {
+          "id": "foundation-d4-07-check-8",
+          "text": "我能用一句话解释 Solera 是动态熟成 / 调配系统。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-07-q1",
+          "prompt": "Sherry 最经典的产区是？",
+          "options": [
+            "Douro",
+            "Jerez",
+            "Mosel",
+            "Barolo"
+          ],
+          "answer": 1,
+          "explanation": "Sherry 与西班牙南部 Jerez 区域相连。Douro 是 Port 的重要产地，不能因两者都常被放进加强酒课程就混淆。"
+        },
+        {
+          "id": "foundation-d4-07-q2",
+          "prompt": "Flor 最接近什么？",
+          "options": [
+            "葡萄园土壤",
+            "橡木桶类型",
+            "酒液表面的酵母膜",
+            "葡萄品种"
+          ],
+          "answer": 2,
+          "explanation": "Flor 是酒液表面参与生物熟成的活酵母膜，不是土壤、橡木桶或葡萄品种。"
+        },
+        {
+          "id": "foundation-d4-07-q3",
+          "prompt": "关于 Sherry，哪项最合理？",
+          "options": [
+            "全部是甜酒",
+            "全部使用红葡萄",
+            "全部只做氧化熟成",
+            "很多经典风格是干型，并可通过不同熟成方式形成明显差异"
+          ],
+          "answer": 3,
+          "explanation": "Fino、Manzanilla、Oloroso 和 Amontillado 可帮助认识干型雪莉与不同熟成路径。Flor 与 Solera 也不能当作同一个概念。"
+        }
+      ],
+      "practice": "把 Fino／Manzanilla、Oloroso、Amontillado 放进三行，标明生物、氧化或先后两阶段。再用一句话解释 Flor 与 Solera 各描述什么。"
+    },
+    {
+      "id": "foundation-d4-08",
+      "number": 8,
+      "title": "Madeira：为什么氧气和热反而成为它的风格？",
+      "learningObjective": "解释马德拉酒熟成中的热与氧",
+      "preparation": "在地图上找到 Madeira 岛，列出一项希望从熟成资料中确认的信息。",
+      "sections": [
+        {
+          "heading": "葡萄牙的大西洋岛屿",
+          "text": "马德拉（Madeira）是葡萄牙大西洋岛屿上的葡萄酒产区，著名的 Madeira 酒为加强型葡萄酒。加强时机可以随目标甜度调整，因此既要看产地，也要看具体酒款的甜度说明。"
+        },
+        {
+          "heading": "热与氧怎样参与风格",
+          "text": "Estufagem 利用受控加热，Canteiro 则让酒在较温暖的酒窖中于木桶里熟成。热与氧化影响是这类酒发展风格的生产环节，可带来坚果、干果与烘烤线索。这里的受控处理不能直接等同于把普通葡萄酒放在高温中储藏。"
+        },
+        {
+          "heading": "从品种名读出下一步问题",
+          "text": "先认识 Sercial、Verdelho、Bual／Boal、Malvasia／Malmsey，以及重要品种 Tinta Negra。品种名可作为读酒款的入口，最终甜度仍需核对酒标和生产者资料。Madeira 经历热与氧化熟成后通常较稳定，但“稳定”不等于无需妥善储藏，也不代表开瓶后永远不变。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-08-check-1",
+          "text": "我能把 Madeira 与 Portugal 联系起来。"
+        },
+        {
+          "id": "foundation-d4-08-check-2",
+          "text": "我知道 Madeira 是加强型葡萄酒。"
+        },
+        {
+          "id": "foundation-d4-08-check-3",
+          "text": "我知道加热与氧化是 Madeira 风格形成的重要部分。"
+        },
+        {
+          "id": "foundation-d4-08-check-4",
+          "text": "我认识 Sercial、Verdelho、Bual、Malvasia 这些名字。"
+        },
+        {
+          "id": "foundation-d4-08-check-5",
+          "text": "我知道 Tinta Negra 也很重要。"
+        },
+        {
+          "id": "foundation-d4-08-check-6",
+          "text": "我知道 Madeira 通常具有很强稳定性。"
+        },
+        {
+          "id": "foundation-d4-08-check-7",
+          "text": "我现在不需要背完整甜度与陈年法规。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-08-q1",
+          "prompt": "Madeira 属于哪个国家？",
+          "options": [
+            "Spain",
+            "Portugal",
+            "Germany",
+            "Argentina"
+          ],
+          "answer": 1,
+          "explanation": "Madeira 属于葡萄牙，位于大西洋。国家与岛屿产区应分别记录。"
+        },
+        {
+          "id": "foundation-d4-08-q2",
+          "prompt": "Madeira 风格形成的重要特点之一是什么？",
+          "options": [
+            "完全避免氧气与热",
+            "一定冷冻葡萄",
+            "受控的加热与氧化影响",
+            "只使用罐式二次发酵"
+          ],
+          "answer": 2,
+          "explanation": "Madeira 的受控加热或温暖环境中的氧化熟成，是形成风格的重要部分。它不是起泡酒的二次发酵工艺。"
+        },
+        {
+          "id": "foundation-d4-08-q3",
+          "prompt": "以下哪个不是 Madeira 常见的重要品种 / 风格名称？",
+          "options": [
+            "Sercial",
+            "Verdelho",
+            "Malvasia",
+            "Nebbiolo"
+          ],
+          "answer": 3,
+          "explanation": "Sercial、Verdelho、Malvasia 都是进入 Madeira 品种与风格学习的常见名称。Nebbiolo 是另一个产区学习中认识的红葡萄品种。"
+        }
+      ],
+      "practice": "查一款 Madeira 的酒标或生产者说明，记录品种、甜度和熟成方法。解释受控熟成的热为什么不能成为普通葡萄酒高温存放的理由。"
     }
   ]
 }

@@ -1,3 +1,28 @@
+# Foundation · 2026-11-05 · D4 fortified wines, units 5–8
+
+Base 3b46ecc27c67be1f4b87ad58343263373fe8f232 on migration/tencent-somm100. Fresh branch, current migration/progress/source-map and D4 draft read. Re-fetched all four Notion unit pages; source timestamps match the editorial draft and metadata remains unverified.
+
+- Added four original review units to data/foundation-d4.json covering fortification timing, Port, Sherry and Madeira. Added 27 self-checks and 12 MCQs with specific explanations. Total student release now eight units, 50 checks, 24 questions. Every added unit has goal, preparation, three explanatory sections and a practical task. First four unit objects are unchanged. Stable IDs and answer indices retained.
+- Filled missing teaching links including Port category/ageing orientation, Palomino and Flor, biological versus oxidative ageing, Solera circulation, Madeira Estufagem/Canteiro and grape names. Avoided numerical regulatory requirements and fixed storage duration claims. Did not reproduce private historical textbooks. Topic labels do not confirm current cohort classroom allocation.
+- Cross-checked with IVDP, Sherry Regulatory Council and Madeira official sources listed in docs/qa/foundation-d4-fortified-20261105.json. Source wording that treats Port sweetness as uniform was qualified. The distinction between fortification timing, final sweetness and later ageing is explicit.
+- Existing D4 entry now says sparkling and fortified wines. Same browser key somm100.foundation.d4-review.v1. Added a migration test that saves a four-unit record with wrong/correct first/latest answers, expands to eight units and saves/restores a Madeira answer while preserving prior records. Browser-local only.
+- Actual Node suite 38/38 passed. CloudBase production build passed. Cleaned only generated dist-cloudbase before final build after observing stale assets from repeated builds. Clean result 455 public files, entry ./assets/index-ChFexjWH.js, SHA256 ef7e942b1b5faf0001308587e8f5c37721939686b6f11a78cd172857396145c7. Root and /somm100/ references/PWA and 15 Foundation markers checked. Reused prior pinned dependency subset, not a full frozen-lockfile install.
+- Chromium cache still lacks executable; prior download failure remains. Did not repeat installation. No new visual/mobile/browser acceptance, Tencent deployment or live-version verification. Existing two-record sparkling exercise retained.
+- Saved for atomic commit and full readback. Keep [skip netlify] and ignore="exit 0". Other paused tasks, cloud fees, auth and ICP untouched.
+
+| Area | Current content |
+| --- | --- |
+| D1 | 10 units / 71 checks / 30 questions integrated |
+| D2 | 9 / 64 / 27; shared France 6 / 38 / 18 integrated |
+| D3 | 13 / 72 / 39 integrated |
+| D4 | 8 / 50 / 24 integrated; units 9–15 staged; standalone45 quiz mapped only |
+| D5 | Teaching/assessment placement pending |
+| D6 | Current cohort22 has five classroom days; no sixth day scheduled |
+
+Next: continue D4 country-learning units 9–15 with original Chinese reviews and primary-source checks. Restore supported browser for D3 units6/9/11/13 and D4 menu/all eight-unit navigation, mobile width, wrong/correct attempts and refresh persistence. Current cohort PPT alignment and Tencent deployed version remain unresolved. Do not report this source commit as online.
+
+---
+
 # Foundation · 2026-11-05 · D4 sparkling review first four units
 
 Base ea1ef505879771a721a34c93bc30afca7c6f32a0 on migration/tencent-somm100. Read the current branch, CloudBase migration checkpoint, Foundation progress, source map, D4 draft and existing UI before editing. Current cohort22 remains five classroom days; D3/D4 source labels are topic IDs, not a confirmed daily timetable.

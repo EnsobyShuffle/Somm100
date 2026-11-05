@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-11-05",
-  "status": "precourse-d1-d2-france-d3-and-d4-first-four-integrated-local-build-tested-not-live",
+  "status": "precourse-d1-d2-france-d3-and-d4-first-eight-integrated-local-build-tested-not-live",
   "frameworkSource": "https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e",
   "guidedSource": "https://app.notion.com/p/40717d16de4c812fa096fb12992546e3",
   "supersedes": "Chapter 00 is an early prototype, not the current Pre-Course standard.",
@@ -174,7 +174,7 @@
     },
     {
       "day": 4,
-      "status": "4-sparkling-review-units-23-checks-12-questions-integrated-local-build-tested-11-units-staged-cohort-day-unconfirmed"
+      "status": "8-review-units-50-checks-24-questions-integrated-local-build-tested-7-units-staged-cohort-day-unconfirmed"
     },
     {
       "day": 5,
@@ -558,7 +558,7 @@
     "units": 15,
     "checks": 93,
     "unitQuestions": 45,
-    "status": "editorial-draft-first-four-reviewed-in-separate-runtime-release-eleven-pending",
+    "status": "editorial-draft-first-eight-reviewed-in-runtime-release-seven-pending",
     "publicationReady": false
   },
   "sparklingPractice": {
@@ -584,18 +584,14 @@
   "d4Release": {
     "file": "data/foundation-d4.json",
     "component": "app/FoundationD4Review.js",
-    "units": 4,
-    "checks": 23,
-    "questions": 12,
+    "units": 8,
+    "checks": 50,
+    "questions": 24,
     "sourceDraft": "docs/staging/foundation-d4-review.json",
     "storage": "somm100.foundation.d4-review.v1",
     "cohortDayConfirmed": false,
-    "status": "first-four-sparkling-units-integrated-node-tests-and-local-build-passed-browser-and-live-pending",
+    "status": "first-eight-units-integrated-node-tests-and-clean-local-build-passed-browser-and-live-pending",
     "remainingUnitNumbers": [
-      5,
-      6,
-      7,
-      8,
       9,
       10,
       11,
@@ -632,6 +628,34 @@
         "sourceEditedAt": "2026-10-28T20:12:24.562Z",
         "sourceVerification": "unverified",
         "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-05",
+        "url": "https://app.notion.com/p/40717d16de4c81c0aee5ed55c07ee9bc",
+        "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-06",
+        "url": "https://app.notion.com/p/40717d16de4c81a4a01ef2e9c543b3ae",
+        "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-07",
+        "url": "https://app.notion.com/p/40717d16de4c81ff8503f56b42a11ad1",
+        "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-08",
+        "url": "https://app.notion.com/p/40717d16de4c81b59baed7a52c76df94",
+        "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
       }
     ],
     "factSources": [
@@ -643,7 +667,16 @@
       "https://www.prosecco.wine/en/whole-glera-grape-variety-minute-minute/",
       "https://www.cava.wine/en/origin-cava/traditional-method-champenoise/",
       "https://www.cava.wine/en/news-articles/cava-grapes-types-and-varieties-of-cava-grapes/",
-      "https://franciacorta.wine/en/wine/method/"
+      "https://franciacorta.wine/en/wine/method/",
+      "https://www.ivdp.pt/pt/vinhos/vinhos-do-porto/vinificacao/",
+      "https://www.ivdp.pt/en/wines/port-wines/introduction",
+      "https://www.ivdp.pt/en/wines/port-wines/special-categories",
+      "https://cdn.sherry.wine/sherry-wine/dry-sherry-wines",
+      "https://cdn.sherry.wine/sherry-wine/dry-sherry-wines/fino",
+      "https://cdn.sherry.wine/sherry-wine/dry-sherry-wines/amontillado",
+      "https://wwv.sherry.wine/sherry-wine/production",
+      "https://vinhomadeira.com/o-vinho-madeira/vinificacao-e-envelhecimento",
+      "https://vinhomadeira.com/o-vinho-madeira/castas"
     ]
   }
 }
