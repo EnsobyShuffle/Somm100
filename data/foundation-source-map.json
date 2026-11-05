@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-11-05",
-  "status": "precourse-d1-d2-france-integrated-local-build-verified-d34-source-inventoried-not-live",
+  "status": "precourse-d1-d2-france-d3-and-d4-first-four-integrated-local-build-tested-not-live",
   "frameworkSource": "https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e",
   "guidedSource": "https://app.notion.com/p/40717d16de4c812fa096fb12992546e3",
   "supersedes": "Chapter 00 is an early prototype, not the current Pre-Course standard.",
@@ -170,11 +170,11 @@
     },
     {
       "day": 3,
-      "status": "all-thirteen-review-units-integrated-current-build-and-live-pending"
+      "status": "13-review-units-72-checks-39-questions-integrated-current-build-passed-cohort-day-and-live-unconfirmed"
     },
     {
       "day": 4,
-      "status": "15-source-units-93-checks-45-unit-questions-45-quiz-questions-read-not-integrated-current-day-unconfirmed"
+      "status": "4-sparkling-review-units-23-checks-12-questions-integrated-local-build-tested-11-units-staged-cohort-day-unconfirmed"
     },
     {
       "day": 5,
@@ -558,7 +558,7 @@
     "units": 15,
     "checks": 93,
     "unitQuestions": 45,
-    "status": "editorial-draft-tested-not-imported",
+    "status": "editorial-draft-first-four-reviewed-in-separate-runtime-release-eleven-pending",
     "publicationReady": false
   },
   "sparklingPractice": {
@@ -578,7 +578,72 @@
     "sourceDraft": "docs/staging/foundation-d3-review.json",
     "storage": "somm100.foundation.d3-review.v1",
     "cohortDayConfirmed": false,
-    "status": "all-review-units-integrated-source-and-progress-checked-current-build-and-browser-pending",
+    "status": "all-thirteen-units-integrated-node-tests-and-current-cloudbase-build-passed-browser-and-live-pending",
     "remainingUnitNumbers": []
+  },
+  "d4Release": {
+    "file": "data/foundation-d4.json",
+    "component": "app/FoundationD4Review.js",
+    "units": 4,
+    "checks": 23,
+    "questions": 12,
+    "sourceDraft": "docs/staging/foundation-d4-review.json",
+    "storage": "somm100.foundation.d4-review.v1",
+    "cohortDayConfirmed": false,
+    "status": "first-four-sparkling-units-integrated-node-tests-and-local-build-passed-browser-and-live-pending",
+    "remainingUnitNumbers": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sources": [
+      {
+        "id": "foundation-d4-01",
+        "url": "https://app.notion.com/p/40717d16de4c8132b4a3cc775baffc08",
+        "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-02",
+        "url": "https://app.notion.com/p/40717d16de4c8154ba99f2c3911a2370",
+        "sourceEditedAt": "2026-10-28T20:12:22.397Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-03",
+        "url": "https://app.notion.com/p/40717d16de4c81e0b72be94950521689",
+        "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-04",
+        "url": "https://app.notion.com/p/40717d16de4c8180bb3ed067f5e4373a",
+        "sourceEditedAt": "2026-10-28T20:12:24.562Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      }
+    ],
+    "factSources": [
+      "https://www.champagne.fr/en/about-champagne/the-champagne-terroir/champagne-and-its-climate",
+      "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+      "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/bottling-and-second-fermentation",
+      "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/maturation",
+      "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/disgorgement",
+      "https://www.prosecco.wine/en/whole-glera-grape-variety-minute-minute/",
+      "https://www.cava.wine/en/origin-cava/traditional-method-champenoise/",
+      "https://www.cava.wine/en/news-articles/cava-grapes-types-and-varieties-of-cava-grapes/",
+      "https://franciacorta.wine/en/wine/method/"
+    ]
   }
 }

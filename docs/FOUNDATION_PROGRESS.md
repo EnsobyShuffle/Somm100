@@ -1,3 +1,28 @@
+# Foundation · 2026-11-05 · D4 sparkling review first four units
+
+Base ea1ef505879771a721a34c93bc30afca7c6f32a0 on migration/tencent-somm100. Read the current branch, CloudBase migration checkpoint, Foundation progress, source map, D4 draft and existing UI before editing. Current cohort22 remains five classroom days; D3/D4 source labels are topic IDs, not a confirmed daily timetable.
+
+- Integrated D4 units 01–04 into the existing Foundation page through lazy-loaded FoundationD4Review and shared FoundationRegionalReview. New runtime data has four original condensed lessons, four objectives/preparation/practice activities, 23 checks and 12 MCQs with specific feedback. Subjects are CO2 retention, Champagne climate/grapes, traditional-method stages, and Prosecco/Cava/Franciacorta comparison.
+- Re-fetched all four canonical Notion pages. Edit timestamps match the staged draft. Source pages remain marked unverified; no linked private textbook was reproduced. Independent fact checks use Comité Champagne and the Prosecco, Cava and Franciacorta consortia, recorded in docs/qa/foundation-d4-release-20261105.json. Corrected Cava “usually traditional method” to “uses traditional method”; limited the second-fermentation comparison question to this lesson's examples. Added the vocabulary required by the checklists and distinguished Tirage from Dosage. Stable question IDs and answer indices retained.
+- D4 has its own browser key somm100.foundation.d4-review.v1. First/latest answers, checklist state and selected unit round-trip through existing validated helpers. Prior course records remain isolated. The existing two-record sparkling exercise remains unchanged and session-only.
+- LearningApp changes are one lazy import, one menu button and one mount. Shared review adds optional objective/preparation display; earlier datasets do not have these fields. Existing brand, instructors, course images, other modules and learning IDs retained.
+- Runtime restored. Downloaded exact GitHub head archive. Ran actual Node suite, 37 tests passed (including all D3 13-unit tests and three new D4 checks). Production build:cloudbase passed, 455 public files, entry ./assets/index-Cn3iKxrw.js, SHA256 7d9731d06cfe09529354ff107c858cba81e2dfeae409dd54cedb36347a2b56f2. Build checker now requires both D3/D4 route markers and storage keys. Root and /somm100/ asset/PWA checks passed. Reused pinned build dependencies from prior run, not a full frozen-lockfile install. Existing main entry remains about 12 MB.
+- Browser launch failed because Chromium executable is absent. One standard Playwright installer invocation failed with “End of central directory record signature not found. Either not a zip file, or file is truncated.” Do not report new browser/375px/physical-phone results. No browser bypass or cloud network/auth changes.
+- Saved code/data/source evidence and this continuation checkpoint for atomic commit/readback. No Tencent deployment, current live-version acceptance or new verified URL. Netlify ignore = "exit 0" retained; commit uses [skip netlify].
+
+| Course area | Current code state |
+| --- | --- |
+| D1 | 10 units / 71 checks / 30 questions integrated |
+| D2 | 9 units / 64 checks / 27 questions integrated; shared France 6 / 38 / 18 |
+| D3 | All 13 / 72 / 39 integrated, current Node/build checks now passed |
+| D4 | First four / 23 / 12 integrated; units 5–15 still staged; independent two-record exercise retained |
+| D5 | Dates recorded, teaching/assessment placement pending |
+| D6 | Absent from current five-day cohort; not invented |
+
+Next breakpoint: restore supported browser and test D3 units 6,9,11,13 plus D4 all four at phone width, check navigation/wrong-to-correct attempts/refresh/isolation. Continue a coherent D4 remaining batch from the staged source, recheck facts and keep existing IDs. D3 standalone30 and D4 standalone45 quizzes are mapped only. Current cohort PPT/day alignment, permitted media and Tencent online verification remain outstanding. Continue Foundation only.
+
+---
+
 # Foundation · 2026-11-05 · D3 European regions, units 6–13
 
 Base 69cf0fff4919b9556c16ac604203df8e7a712563 on migration/tencent-somm100. Continued from the five-unit student release and the 13-unit D3 editorial draft. Verified the current Foundation route and existing browser storage key. No schedule assigned to these review units.

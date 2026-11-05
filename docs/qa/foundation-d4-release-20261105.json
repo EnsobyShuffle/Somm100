@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "base": "ea1ef505879771a721a34c93bc30afca7c6f32a0",
+  "scope": "Foundation D4 units 1–4; D3 full 13-unit regression/build",
+  "sourceChecks": [
+    {
+      "id": "foundation-d4-01",
+      "url": "https://app.notion.com/p/40717d16de4c8132b4a3cc775baffc08",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-02",
+      "url": "https://app.notion.com/p/40717d16de4c8154ba99f2c3911a2370",
+      "sourceEditedAt": "2026-10-28T20:12:22.397Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-03",
+      "url": "https://app.notion.com/p/40717d16de4c81e0b72be94950521689",
+      "sourceEditedAt": "2026-10-28T20:09:56.780Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-04",
+      "url": "https://app.notion.com/p/40717d16de4c8180bb3ed067f5e4373a",
+      "sourceEditedAt": "2026-10-28T20:12:24.562Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    }
+  ],
+  "factSources": [
+    "https://www.champagne.fr/en/about-champagne/the-champagne-terroir/champagne-and-its-climate",
+    "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+    "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/bottling-and-second-fermentation",
+    "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/maturation",
+    "https://www.champagne.fr/en/about-champagne/how-champagne-is-made/disgorgement",
+    "https://www.prosecco.wine/en/whole-glera-grape-variety-minute-minute/",
+    "https://www.cava.wine/en/origin-cava/traditional-method-champenoise/",
+    "https://www.cava.wine/en/news-articles/cava-grapes-types-and-varieties-of-cava-grapes/",
+    "https://franciacorta.wine/en/wine/method/"
+  ],
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 37,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build:cloudbase",
+    "status": "passed",
+    "files": 455,
+    "entry": "./assets/index-Cn3iKxrw.js",
+    "entryBytes": 12024744,
+    "entrySha256": "7d9731d06cfe09529354ff107c858cba81e2dfeae409dd54cedb36347a2b56f2",
+    "foundationMarkers": 15,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "dependencies": "Reused pinned build subset from prior checkpoint; full frozen-lockfile installation not performed"
+  },
+  "browser": {
+    "status": "blocked-not-verified",
+    "launchError": "Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell",
+    "installAttempt": "Standard playwright install chromium --only-shell, bounded to 65 seconds",
+    "installError": "End of central directory record signature not found. Either not a zip file, or file is truncated.",
+    "followup": "Restore supported browser. Test D3 units 6,9,11,13 and all D4 units at 375px, wrong/correct answers, refresh, navigation, separate local storage; desktop check too."
+  },
+  "deployed": false,
+  "onlineVerified": false,
+  "cohortDayConfirmed": false
+}

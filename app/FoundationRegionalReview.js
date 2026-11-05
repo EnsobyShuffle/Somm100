@@ -41,6 +41,8 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
     h('p', {role: 'status'}, `已复习 ${reviewed} / ${data.units.length} 节；本节自查 ${result.checked} / ${unit.checks.length}，选择题作答 ${result.answered} / ${unit.questions.length}。`),
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
+      unit.learningObjective && h('p', null, h('strong', null, '学习目标　'), unit.learningObjective),
+      unit.preparation && h('p', null, h('strong', null, '学习准备　'), unit.preparation),
       unit.sections.map((section, i) => h('section', {key: i}, h('h4', null, section.heading), h('p', null, section.text))),
       h(FoundationDiagram, {unitId: unit.id}),
       unit.practice && h("p", null, h("strong", null, "动手练习　"), unit.practice),
