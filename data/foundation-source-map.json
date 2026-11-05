@@ -440,7 +440,7 @@
     "status": "integrated-local-build-tested-browser-and-live-pending",
     "renderer": "lib/foundation-diagrams.mjs",
     "component": "app/FoundationDiagram.js",
-    "count": 10,
+    "count": 11,
     "type": "original-semantic-html-diagrams",
     "sources": [
       {
@@ -512,6 +512,13 @@
         "sourceEditedAt": "2026-10-28T19:47:40.969Z",
         "verification": "unverified",
         "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
+      },
+      {
+        "id": "foundation-france-03",
+        "source": "https://app.notion.com/p/40717d16de4c81558f88ddcb1d61593e",
+        "sourceEditedAt": "2026-10-28T19:48:24.645Z",
+        "verification": "unverified",
+        "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
       }
     ],
     "scope": "Visual adaptation of existing condensed lesson summaries. No third-party image or private textbook reproduced. No new day allocation or learning-record IDs.",
@@ -860,5 +867,14 @@
     "recordSchemaChanged": false,
     "qaFile": "docs/qa/foundation-d2-comparisons-20261106.json",
     "status": "saved-local-tested-not-deployed"
+  },
+  "burgundyMapRelease": {
+    "date": "2026-11-06",
+    "component": "app/FoundationBurgundyMapGuide.js",
+    "unitId": "foundation-france-03",
+    "tasks": 3,
+    "diagram": "original-north-south-sequence-not-scale-map",
+    "status": "integrated-local-tests-passed-not-live",
+    "qaFile": "docs/qa/foundation-burgundy-map-20261106.json"
   }
 }

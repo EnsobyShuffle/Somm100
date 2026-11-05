@@ -1,0 +1,56 @@
+{
+  "baseCommit": "cda0bbc9972e812162bc80919a69638c4adfa563",
+  "checkedAt": "2026-11-06T05:39:43.322520+08:00",
+  "notionSources": [
+    {
+      "id": "40717d16de4c812a91a9e646c9e10af3",
+      "editedAt": "2026-10-28T19:48:03.553Z"
+    },
+    {
+      "id": "40717d16de4c81558f88ddcb1d61593e",
+      "editedAt": "2026-10-28T19:48:24.645Z"
+    }
+  ],
+  "notionRead": "Full content returned through closing content tag; verification unverified; truncation/unknown-block fields not supplied. No private linked textbook copied.",
+  "officialSources": [
+    {
+      "url": "https://www.bourgogne-wines.com/our-resources/media,3181,14293.html?args=Y29tcF9pZD0yMzA5JmFjdGlvbj1maWNoZV9tZWRpYSZpZD0zMDMmfA%3D%3D",
+      "finding": "BIVB five-region map resource page opened. North-south region order described. Resource added2018-12-05; not used for current regulations."
+    },
+    {
+      "url": "https://www.bourgogne-wines.com/our-resources/bourgogne-maps,3181,15261.html",
+      "finding": "BIVB interactive atlas introduction opened. Commune/appellation/level search and official atlas link present. Maps have commercial-use restrictions; external resource links only, no original maps copied."
+    }
+  ],
+  "change": "One original five-anchor sequence and three original map-reading tasks integrated in France03, with expandable guidance and two official external links. Existing learning IDs, storage and assessment unchanged.",
+  "gaps": [
+    "France overview map F01 still missing",
+    "Current cohort22 five-day PPT allocation remains unconfirmed",
+    "Official atlas interaction/mobile/mainland rendering not tested",
+    "Prior browser socket permission denial unresolved",
+    "Tencent deployment/version unverified"
+  ],
+  "tests": {
+    "foundation": {
+      "passed": 69,
+      "failed": 0
+    },
+    "ssr": "Guide rendered3 tasks and2 safe external links, diagram rendered5 anchors, accessible heading present"
+  },
+  "deployed": false,
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 472,
+    "entry": "./assets/index-B1lysuAl.js",
+    "entryBytes": 12027123,
+    "entrySha256": "6c8e40d0d26201267d1a7614bd9b81cbd45f320572f09ed3719661e43c00c7a9",
+    "foundationMarkers": 34,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  }
+}

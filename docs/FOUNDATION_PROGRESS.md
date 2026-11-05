@@ -1,3 +1,26 @@
+# Foundation · 2026-11-06 · Burgundy map-reading guide
+
+Checked 2026-11-06T05:40:07.138447+08:00. Base cda0bbc9972e812162bc80919a69638c4adfa563 on migration/tencent-somm100. Read current migration/progress checkpoints and France curriculum. Five key local files exactly matched remote before editing.
+
+- Added app/FoundationBurgundyMapGuide.js to existing France03. Three original tasks cover five north-south anchors, relative location of the Côtes, and reading commune/appellation/vineyard names in the official atlas. Two BIVB official resource links, expandable check guidance and offline fallback explanation. External resources open in a new window. No map asset rehosted.
+- Added an original five-anchor semantic sequence to existing diagram renderer. Eleven course diagrams total. Explicitly not to scale or a complete geographical boundary map. Existing narrow-screen semantic layout reused, actual browser layout unverified. Existing France checks, questions, IDs, storage, instructors and images unchanged. Map tasks do not capture responses or imply completed map skills.
+- Refetched full Notion France01 and France03 teaching pages. Opened BIVB five-region map resource and interactive-map introduction. Source and rights observations recorded in docs/qa/foundation-burgundy-map-20261106.json. Official map-use text excludes commercial use, so only links plus original summaries used. Map resource dated2018; no current regulatory or numeric appellation claims added. Official atlas interaction not tested.
+- Foundation tests69/69 passed. SSR verified three tasks, two safe external links, accessible heading and five diagram anchors. Clean CloudBase build passed472 public files and34 markers, mounts / and /somm100/. Entry ./assets/index-B1lysuAl.js, SHA256 6c8e40d0d26201267d1a7614bd9b81cbd45f320572f09ed3719661e43c00c7a9. Pinned build-only dependency subset reused; full frozen-lockfile installation remains unverified. Existing12MB main entry remains a performance concern.
+- Saved for guarded source commit/readback. No deployment/live verification this run. Prior Chromium socket permission rejection remains unresolved, no repeat/bypass. No billing, DNS, ICP, legacy Netlify or paused-task actions.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews,25 independent questions |
+| D2/France | 9+6 reviews,42 independent questions; NEW Burgundy sequence and3 map tasks |
+| D3 | 13 reviews,30 independent questions |
+| D4 | 15 reviews,45 independent questions |
+| D5 | Current classroom teaching/assessment placement pending |
+| D6 | Cohort22 five classroom days, no sixth schedule |
+
+Next: France overview map F01 and remaining regional map gaps. Actual cohort22 five-day PPT/day allocation still missing. Complete supported browser phone/bridge/backup checks and independent Tencent version verification when available. No overall completion claim.
+
+---
+
 # Foundation · 2026-11-06 · D2 comparison diagrams and written observation activities
 
 Checked 2026-11-06T03:39:57.183843+08:00. Authoritative base e6747e3ad76d56d30bab13f071961bd2f5fb46cd, migration/tencent-somm100. Six key local blobs matched remote tree before edits. Read migration and Foundation checkpoints. Preserved instructors, images, brands, all other course modules and Netlify stop-build protection.
