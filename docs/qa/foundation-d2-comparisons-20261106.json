@@ -1,0 +1,86 @@
+{
+  "readAt": "2026-11-05T19:38:44.935Z",
+  "baseCommit": "e6747e3ad76d56d30bab13f071961bd2f5fb46cd",
+  "sources": [
+    {
+      "id": "40717d16de4c81dfa152f98ad58b5f82",
+      "title": "🍏 D2-02｜Chardonnay：为什么它可以从清瘦做到饱满？",
+      "url": "https://app.notion.com/p/40717d16de4c81dfa152f98ad58b5f82?pvs=204",
+      "editedAt": "2026-10-28T19:47:25.941Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "contentRead": true,
+      "truncationMetadata": "not supplied",
+      "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
+    },
+    {
+      "id": "40717d16de4c81e49368f5d2e7ad11b9",
+      "title": "🍒 D2-05｜Pinot Noir：为什么它看起来轻，却一点也不简单？",
+      "url": "https://app.notion.com/p/40717d16de4c81e49368f5d2e7ad11b9?pvs=204",
+      "editedAt": "2026-10-28T19:47:32.065Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "contentRead": true,
+      "truncationMetadata": "not supplied",
+      "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
+    },
+    {
+      "id": "40717d16de4c81b1b1b8c74bc88080be",
+      "title": "🫐 D2-06｜Cabernet Sauvignon：为什么它那么适合做结构强的红酒？",
+      "url": "https://app.notion.com/p/40717d16de4c81b1b1b8c74bc88080be?pvs=204",
+      "editedAt": "2026-10-28T19:47:39.031Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "contentRead": true,
+      "truncationMetadata": "not supplied",
+      "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
+    },
+    {
+      "id": "40717d16de4c81e48d88e3435e9a6a2b",
+      "title": "🌶️ D2-07｜Syrah：同一个品种，为什么可以既强劲又优雅？",
+      "url": "https://app.notion.com/p/40717d16de4c81e48d88e3435e9a6a2b?pvs=204",
+      "editedAt": "2026-10-28T19:47:40.969Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "contentRead": true,
+      "truncationMetadata": "not supplied",
+      "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
+    }
+  ],
+  "classroomSearch": {
+    "notionQuery": "SOMM100 第22期",
+    "libraryQueries": [
+      "SOMM100 课件 PPT 22期",
+      "SOMM100 运营框架与实施建议"
+    ],
+    "readDocument": "libfile_075fac1511208191a68dd62a5caeb3b5",
+    "finding": "Operations proposal leaves complete timetable and commitments for team confirmation. No current cohort PPT/day allocation. Suggested pre-course service tasks do not override user exclusions.",
+    "readNotion": "40e17d16de4c81bfbac8c221323ff0e3",
+    "notionFinding": "App page links Wine Library and existing blueprint, no current cohort PPT."
+  },
+  "validation": {
+    "foundationTests": 69,
+    "passed": 69,
+    "ssr": "Four figures server-rendered with unique accessible headings and two comparison groups",
+    "browser": "Not performed. Prior Chromium launch denied socket() failed: Operation not permitted (1).",
+    "deployed": false,
+    "checkedAt": "2026-11-06T03:39:57.183843+08:00",
+    "existingD2Data": "All 9 units, original sections, checks, questions and answers exactly match base after excluding three new optional teaching fields. Storage modules unchanged.",
+    "build": {
+      "files": 472,
+      "markers": 32,
+      "mounts": [
+        "/",
+        "/somm100/"
+      ],
+      "entry": "./assets/index-BE-0yv4G.js",
+      "entryBytes": 12027123,
+      "entrySha256": "a26006633da0e3f18c531c88bf33a2228d4ae07a44559f3786b72f95deaf2fc9",
+      "dependencies": "Existing pinned build-only subset. Full frozen-lockfile installation unverified."
+    }
+  }
+}

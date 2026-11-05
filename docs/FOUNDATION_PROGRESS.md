@@ -1,3 +1,28 @@
+# Foundation · 2026-11-06 · D2 comparison diagrams and written observation activities
+
+Checked 2026-11-06T03:39:57.183843+08:00. Authoritative base e6747e3ad76d56d30bab13f071961bd2f5fb46cd, migration/tencent-somm100. Six key local blobs matched remote tree before edits. Read migration and Foundation checkpoints. Preserved instructors, images, brands, all other course modules and Netlify stop-build protection.
+
+- Added four original semantic HTML comparison figures to existing D2 units02,05,06,07. Topics are Chardonnay climate versus winemaking, Pinot Noir versus Cabernet Sauvignon structure, left-bank Bordeaux versus Napa Cabernet, northern Rhône versus Barossa Syrah. Reused existing diagram renderer. Ten diagrams in total. Two columns become one below700px via CSS; layout not browser-verified.
+- Added a learning objective, preparation and written observation exercise to each of those four units. Existing regional-review component already renders those fields, so all are integrated. Students can work with existing producer descriptions or course notes, without buying wine. Exercises separate observations, hypotheses and unknown production information; no new graded examination or submission endpoint. Written responses are not captured in the app.
+- Refetched full four canonical Notion D2 pages. Metadata remains unverified and content was available through closing content tag, with no reported truncation metadata. Scope and read evidence in docs/qa/foundation-d2-comparisons-20261106.json. Original condensed teaching only, no linked historical textbook copied and no backend Notion links exposed in student figures.
+- Searched Library and Notion for current cohort22 PPT/day allocation. Actually read operations proposal libfile_075fac1511208191a68dd62a5caeb3b5 and Notion SOMM100 App40e17d16de4c81bfbac8c221323ff0e3. Proposal leaves complete timetable and commitments for team confirmation. App page points to existing knowledge library/blueprint. Neither resolves current five-day classroom placement. Proposal pre-course service suggestions do not override Henry's explicit pre-course exclusions.
+- Verified all existing D2 fields, including all checks/questions/answers/stable IDs, match base exactly after removing three new optional fields. Storage code unchanged. Four figures SSR-rendered with accessible labelled headings and two groups. Existing Foundation suite69/69 passed. No redundant tests added for static prose.
+- Clean CloudBase build passed472 public files,32 feature markers including all four new figure titles, mounts/ and /somm100/. Entry ./assets/index-BE-0yv4G.js SHA256 a26006633da0e3f18c531c88bf33a2228d4ae07a44559f3786b72f95deaf2fc9. Build-only pinned subset reused, full frozen-lockfile install not verified. Existing12MB main entry remains a performance concern.
+- Saved for guarded commit/readback. No deployment or live URL verified. Browser phone layout/interaction remains pending after prior Chromium socket() failed: Operation not permitted (1). No repeated blocked launch or network bypass. No billing, DNS, ICP, other paused tasks or old Netlify actions.
+
+| Area | Current source implementation |
+| --- | --- |
+| D1 | 10 reviews,25 standalone questions |
+| D2/France | 9+6 reviews,42 standalone questions; NEW4 diagrams and4 written activities |
+| D3 | 13 reviews,30 standalone questions |
+| D4 | 15 reviews,45 standalone questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 has five classroom days, no sixth schedule |
+
+Next: current five-day PPT/day mapping still unresolved. Continue with France location/reading aids from verified and permitted resources, and supported browser acceptance for phone layout, bridge navigation and backup/restore. Verify Tencent deployed version independently when supported. Do not turn the operations proposal or old six-day metadata into an official timetable.
+
+---
+
 # Foundation · 2026-11-06 · 21-day study path and preview cards
 
 Checked 2026-11-06T01:42:33.187068+08:00. Base 755c26b47cc707c34cae61425426984fb44bee24, migration/tencent-somm100. Nine key local blobs matched the authoritative tree. Read current migration and Foundation checkpoints, V0.2 reconciliation, current Foundation navigation and backup code. Read full midterm and preview pack plus all eight linked preview pages.

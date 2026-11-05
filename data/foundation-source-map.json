@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "status": "precourse-d1-d2-france-d3-and-d4-review-integrated-local-build-tested-not-live",
   "frameworkSource": "https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e",
   "guidedSource": "https://app.notion.com/p/40717d16de4c812fa096fb12992546e3",
@@ -437,10 +437,10 @@
     ]
   },
   "teachingDiagrams": {
-    "status": "integrated-production-build-and-live-qa-pending",
+    "status": "integrated-local-build-tested-browser-and-live-pending",
     "renderer": "lib/foundation-diagrams.mjs",
     "component": "app/FoundationDiagram.js",
-    "count": 6,
+    "count": 10,
     "type": "original-semantic-html-diagrams",
     "sources": [
       {
@@ -484,6 +484,34 @@
         "sourceEditedAt": "2026-10-28T19:48:28.705Z",
         "verification": "unverified",
         "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced"
+      },
+      {
+        "id": "foundation-d2-02",
+        "source": "https://app.notion.com/p/40717d16de4c81dfa152f98ad58b5f82?pvs=204",
+        "sourceEditedAt": "2026-10-28T19:47:25.941Z",
+        "verification": "unverified",
+        "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
+      },
+      {
+        "id": "foundation-d2-05",
+        "source": "https://app.notion.com/p/40717d16de4c81e49368f5d2e7ad11b9?pvs=204",
+        "sourceEditedAt": "2026-10-28T19:47:32.065Z",
+        "verification": "unverified",
+        "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
+      },
+      {
+        "id": "foundation-d2-06",
+        "source": "https://app.notion.com/p/40717d16de4c81b1b1b8c74bc88080be?pvs=204",
+        "sourceEditedAt": "2026-10-28T19:47:39.031Z",
+        "verification": "unverified",
+        "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
+      },
+      {
+        "id": "foundation-d2-07",
+        "source": "https://app.notion.com/p/40717d16de4c81e48d88e3435e9a6a2b?pvs=204",
+        "sourceEditedAt": "2026-10-28T19:47:40.969Z",
+        "verification": "unverified",
+        "scope": "Original comparisons and written observation activities based on retrieved teaching page and existing D2 units. No linked private textbook copied."
       }
     ],
     "scope": "Visual adaptation of existing condensed lesson summaries. No third-party image or private textbook reproduced. No new day allocation or learning-record IDs.",
@@ -818,5 +846,19 @@
     "midtermIntegrated": false,
     "status": "student-ui-integrated-local-build-tested-browser-and-live-pending",
     "cohortDayConfirmed": false
+  },
+  "d2ComparisonRelease": {
+    "date": "2026-11-06",
+    "units": [
+      "foundation-d2-02",
+      "foundation-d2-05",
+      "foundation-d2-06",
+      "foundation-d2-07"
+    ],
+    "diagrams": 4,
+    "writtenActivities": 4,
+    "recordSchemaChanged": false,
+    "qaFile": "docs/qa/foundation-d2-comparisons-20261106.json",
+    "status": "saved-local-tested-not-deployed"
   }
 }
