@@ -159,7 +159,7 @@
     },
     {
       "day": 2,
-      "status": "9-grape-review-digests-64-checks-27-questions-integrated-not-live",
+      "status": "9-grape-and-6-shared-france-reviews-plus-42-standalone-questions-integrated-local-build-tested-live-and-cohort-allocation-pending",
       "remaining": [
         "Exact placement of six integrated shared France units",
         "Current five-day cohort PPT/day allocation",
@@ -185,10 +185,10 @@
     }
   ],
   "nextActions": [
-    "Read canonical D2 standalone42 quiz source 40717d16de4c81d69c3ad85f6456e618; map grape and shared-France reviews without inferring current classroom day allocation.",
-    "Align current five-day cohort PPT, teaching sequence and permitted media.",
-    "When supported browser execution is available, check phone layout, refreshed quiz records and mapped review selection.",
-    "Verify Tencent deployed SHA and actual live pages independently."
+    "Read current three-week bridge source 40717d16de4c810cbdc9d2aca7262900 and resource-gap matrix 40717d16de4c81c2910decdcecc94d7d; reconcile existing content with source-guided progression rather than invent more quizzes.",
+    "Align current five-day cohort PPT and permitted media; course-day numbers remain source topic labels until confirmed.",
+    "Verify Foundation browser-local export/import includes new quiz keys without touching unrelated modules; inspect actual existing backup implementation first.",
+    "Use supported browser execution for phone layout, refresh and quiz-to-review navigation, then independently verify Tencent deployed SHA and live pages."
   ],
   "pathSource": "https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746",
   "inventorySource": "https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd",
@@ -783,5 +783,21 @@
     "cohortDayConfirmed": false,
     "mapping": "docs/qa/foundation-d1-quiz-source-20261105.json",
     "mappingBasis": "Editorial mapping of source core-detection labels to existing D1 unit IDs; source has no unit-ID mapping column"
+  },
+  "d2QuizRelease": {
+    "file": "data/foundation-d2-quiz.json",
+    "component": "app/FoundationD2Quiz.js",
+    "sharedComponent": "app/FoundationQuiz.js",
+    "questions": 42,
+    "source": "https://app.notion.com/p/40717d16de4c81d69c3ad85f6456e618?pvs=204",
+    "sourceEditedAt": "2026-10-28T19:59:41.843Z",
+    "sourceVerification": "unverified",
+    "readAt": "2026-11-05T21:37:41.614011+08:00",
+    "storage": "somm100.foundation.d2-quiz.v1",
+    "status": "student-ui-integrated-node-tests-local-build-passed-browser-and-live-pending",
+    "cohortDayConfirmed": false,
+    "mapping": "docs/qa/foundation-d2-quiz-source-20261105.json",
+    "mappingBasis": "Editorial source-topic mapping to9 D2 grape and6 shared-France units; source has no unit-ID column",
+    "routing": "Per-review prefix chooses grape or France component; existing D1/D3/D4 default preserved"
   }
 }

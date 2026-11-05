@@ -1,0 +1,721 @@
+{
+  "schemaVersion": 1,
+  "id": "foundation-d2-quiz",
+  "title": "D2｜葡萄品种与法国专题综合自测",
+  "questions": [
+    {
+      "id": "foundation-d2-quiz-01",
+      "number": 1,
+      "group": "品种学习方法",
+      "prompt": "学习一个葡萄品种时，最合理的第一步是什么？",
+      "options": [
+        "先背十种香气",
+        "先理解酸度、单宁、酒体、酒精度等结构",
+        "先背所有酒庄",
+        "先背所有年份"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d2-01"
+      ],
+      "explanation": "先看酸度、单宁、酒体和酒精度，再把香气与具体产区、酿造联系起来，避免只背孤立词语。"
+    },
+    {
+      "id": "foundation-d2-quiz-02",
+      "number": 2,
+      "group": "品种学习方法",
+      "prompt": "为什么同一个葡萄品种不能只用一种固定风格描述？",
+      "options": [
+        "因为葡萄品种对风格没有影响",
+        "因为所有葡萄酒都必须混酿",
+        "因为气候、成熟度、产区和酿造都会改变表现",
+        "因为葡萄品种名称每天都会变化"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d2-01"
+      ],
+      "explanation": "同一品种会受气候、成熟度和酿造影响。品种提供入口，具体酒款仍需结合产地与生产者资料。"
+    },
+    {
+      "id": "foundation-d2-quiz-03",
+      "number": 3,
+      "group": "品种学习方法",
+      "prompt": "以下哪种学习方式更接近 SOMM100？",
+      "options": [
+        "只记“Chardonnay = 苹果”",
+        "先背全部克隆编号",
+        "先背最贵酒庄名单",
+        "理解 Chardonnay 在不同气候和酿造下如何变化"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d2-01"
+      ],
+      "explanation": "把 Chardonnay 放进不同气候和酿造条件中比较，比固定的香气公式更能帮助理解风格。"
+    },
+    {
+      "id": "foundation-d2-quiz-04",
+      "number": 4,
+      "group": "核心白葡萄品种",
+      "prompt": "Chardonnay 最适合帮助学习什么？",
+      "options": [
+        "气候与酿造选择如何改变同一个品种",
+        "所有白葡萄酒都必须甜",
+        "所有高品质白酒都必须过新桶",
+        "所有白葡萄酒都来自冷凉产区"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d2-02"
+      ],
+      "explanation": "Chardonnay 的风格跨度较大，适合观察成熟度、苹果酸乳酸转化、酒泥和橡木等选择的影响。"
+    },
+    {
+      "id": "foundation-d2-quiz-05",
+      "number": 5,
+      "group": "核心白葡萄品种",
+      "prompt": "哪个产区最适合作为清爽、高酸 Chardonnay 的经典学习案例？",
+      "options": [
+        "Barossa Valley",
+        "Chablis",
+        "Mendoza",
+        "Rioja"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d2-02"
+      ],
+      "explanation": "Chablis 是理解较鲜明酸度与清爽 Chardonnay 的经典案例；具体年份和酒款仍有差异。"
+    },
+    {
+      "id": "foundation-d2-quiz-06",
+      "number": 6,
+      "group": "核心白葡萄品种",
+      "prompt": "哪个组合最可能让 Chardonnay 质地更圆润、风味更复杂？",
+      "options": [
+        "只提高产量",
+        "只降低酒精度",
+        "苹果酸乳酸转化 + 酒泥陈酿 + 橡木影响",
+        "完全不熟成直接装瓶"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d2-02"
+      ],
+      "explanation": "这些酿造选择都可能影响 Chardonnay 的质地和复杂度，但并不是每款酒都必须采用，也不自动代表更高品质。"
+    },
+    {
+      "id": "foundation-d2-quiz-07",
+      "number": 7,
+      "group": "核心白葡萄品种",
+      "prompt": "Sauvignon Blanc 最典型的结构特点之一是什么？",
+      "options": [
+        "单宁通常很高",
+        "颜色通常很深",
+        "一定高酒精",
+        "酸度通常较鲜明"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d2-03"
+      ],
+      "explanation": "Sauvignon Blanc 通常以鲜明酸度作为结构线索。香气成熟度与酒体还需结合生长和酿造条件。"
+    },
+    {
+      "id": "foundation-d2-quiz-08",
+      "number": 8,
+      "group": "核心白葡萄品种",
+      "prompt": "哪个产区最常与 Sauvignon Blanc 的经典 Loire 风格联系？",
+      "options": [
+        "Sancerre",
+        "Barolo",
+        "Rioja",
+        "Napa Valley"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d2-03"
+      ],
+      "explanation": "Sancerre 是卢瓦尔河谷学习 Sauvignon Blanc 的经典产区，不能把熟悉的地名任意替换。"
+    },
+    {
+      "id": "foundation-d2-quiz-09",
+      "number": 9,
+      "group": "核心白葡萄品种",
+      "prompt": "Bordeaux 的 Sauvignon Blanc 常与哪个葡萄品种共同出现？",
+      "options": [
+        "Syrah",
+        "Sémillon",
+        "Pinot Noir",
+        "Nebbiolo"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d2-03"
+      ],
+      "explanation": "Sauvignon Blanc 与 Sémillon 是 Bordeaux 白葡萄酒的重要组合，混酿比例和风格会因酒款而异。"
+    },
+    {
+      "id": "foundation-d2-quiz-10",
+      "number": 10,
+      "group": "核心白葡萄品种",
+      "prompt": "Riesling 最重要的结构特点之一是什么？",
+      "options": [
+        "单宁极高",
+        "颜色很深",
+        "酸度通常较高",
+        "必须使用新橡木桶"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d2-04"
+      ],
+      "explanation": "Riesling 通常酸度较高，这个结构特点可以出现在不同甜度的酒款中。"
+    },
+    {
+      "id": "foundation-d2-quiz-11",
+      "number": 11,
+      "group": "核心白葡萄品种",
+      "prompt": "为什么 Riesling 可以做成甜型又保持平衡？",
+      "options": [
+        "甜酒没有酸度",
+        "甜型 Riesling 一定酒精度高",
+        "甜型 Riesling 必须过桶",
+        "高酸可以帮助平衡甜度"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d2-04"
+      ],
+      "explanation": "较高酸度可平衡甜感，但最终平衡还要结合残糖、酒精度和整体表现，不是有酸就必然平衡。"
+    },
+    {
+      "id": "foundation-d2-quiz-12",
+      "number": 12,
+      "group": "核心白葡萄品种",
+      "prompt": "哪个国家与 Riesling 的经典联系最强？",
+      "options": [
+        "德国",
+        "阿根廷",
+        "智利",
+        "葡萄牙"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d2-04"
+      ],
+      "explanation": "德国是学习 Riesling 的经典国家之一；这不意味着其他国家不生产该品种。"
+    },
+    {
+      "id": "foundation-d2-quiz-13",
+      "number": 13,
+      "group": "核心红葡萄品种",
+      "prompt": "Pinot Noir 通常具有怎样的结构？",
+      "options": [
+        "颜色最深、单宁最高",
+        "颜色较浅、酸度较高、单宁较低",
+        "低酸、高单宁",
+        "一定高酒精、重酒体"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d2-05"
+      ],
+      "explanation": "Pinot Noir 常用较浅颜色、较高酸度和较低单宁建立初步结构印象，具体酒款仍会变化。"
+    },
+    {
+      "id": "foundation-d2-quiz-14",
+      "number": 14,
+      "group": "核心红葡萄品种",
+      "prompt": "哪个产区与 Pinot Noir 的经典联系最重要？",
+      "options": [
+        "Rioja",
+        "Douro",
+        "Burgundy",
+        "Mosel"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d2-05"
+      ],
+      "explanation": "Burgundy 是学习 Pinot Noir 的经典产区。品种也种植于其他国家，不能只凭品种断定产地。"
+    },
+    {
+      "id": "foundation-d2-quiz-15",
+      "number": 15,
+      "group": "核心红葡萄品种",
+      "prompt": "为什么 Pinot Noir 很适合帮助理解风土？",
+      "options": [
+        "因为它永远只有一个风格",
+        "因为它不受气候影响",
+        "因为它只种在一个村庄",
+        "因为它在不同地方可以表现出明显差异"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d2-05"
+      ],
+      "explanation": "比较不同地方的 Pinot Noir，可以观察环境与生产者选择带来的变化，而不是认定它只有一种风格。"
+    },
+    {
+      "id": "foundation-d2-quiz-16",
+      "number": 16,
+      "group": "核心红葡萄品种",
+      "prompt": "Cabernet Sauvignon 为什么通常有较强陈年能力？",
+      "options": [
+        "单宁和酸度通常较高",
+        "它一定很甜",
+        "颜色深就一定能陈年",
+        "它一定全部使用新橡木桶"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d2-06"
+      ],
+      "explanation": "单宁和酸度是陈年潜力的重要结构因素，但实际陈年还取决于平衡、酿造、年份和保存条件。"
+    },
+    {
+      "id": "foundation-d2-quiz-17",
+      "number": 17,
+      "group": "核心红葡萄品种",
+      "prompt": "Cabernet Sauvignon 属于怎样的成熟类型？",
+      "options": [
+        "极早熟",
+        "相对晚熟",
+        "与成熟度无关",
+        "一定比 Merlot 更早熟"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d2-06"
+      ],
+      "explanation": "Cabernet Sauvignon 相对晚熟，通常需要足够的生长季条件来达到目标成熟度。"
+    },
+    {
+      "id": "foundation-d2-quiz-18",
+      "number": 18,
+      "group": "核心红葡萄品种",
+      "prompt": "哪个组合最适合比较 Cabernet Sauvignon 的成熟度与风格差异？",
+      "options": [
+        "Chablis 与 Sancerre",
+        "Barolo 与 Mosel",
+        "Bordeaux 左岸 与 Napa Valley",
+        "Champagne 与 Porto"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d2-06"
+      ],
+      "explanation": "Bordeaux 左岸与 Napa Valley 提供同一品种的比较入口；气候、年份和具体生产者差异仍需分别查证。"
+    },
+    {
+      "id": "foundation-d2-quiz-19",
+      "number": 19,
+      "group": "核心红葡萄品种",
+      "prompt": "Syrah 与 Shiraz 是什么关系？",
+      "options": [
+        "两个完全不同品种",
+        "一个是产区，一个是品种",
+        "一个是酒庄，一个是品种",
+        "同一个葡萄品种的不同常见名称"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d2-07"
+      ],
+      "explanation": "Syrah 与 Shiraz 是同一葡萄品种的常见名称；名称本身不能保证固定风格。"
+    },
+    {
+      "id": "foundation-d2-quiz-20",
+      "number": 20,
+      "group": "核心红葡萄品种",
+      "prompt": "哪个产区最能代表温暖、成熟、饱满的 Shiraz 风格？",
+      "options": [
+        "Barossa Valley",
+        "Chablis",
+        "Sancerre",
+        "Mosel"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d2-07"
+      ],
+      "explanation": "Barossa Valley 可作为成熟、饱满 Shiraz 的经典学习案例，但不能把产区内所有酒款都当作同一种表达。"
+    },
+    {
+      "id": "foundation-d2-quiz-21",
+      "number": 21,
+      "group": "核心红葡萄品种",
+      "prompt": "GSM 中的 “M” 指哪个品种？",
+      "options": [
+        "Merlot",
+        "Mourvèdre",
+        "Malbec",
+        "Muscat"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d2-07"
+      ],
+      "explanation": "GSM 指 Grenache、Syrah、Mourvèdre，M 并不代表 Merlot 或 Malbec。"
+    },
+    {
+      "id": "foundation-d2-quiz-22",
+      "number": 22,
+      "group": "其他重要品种",
+      "prompt": "Chenin Blanc 最经典的产区联系之一是？",
+      "options": [
+        "Barolo",
+        "Rioja",
+        "Loire Valley",
+        "Napa Valley"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d2-08"
+      ],
+      "explanation": "Chenin Blanc 与 Loire Valley 有重要经典联系，也可在其他产区表现出不同风格。"
+    },
+    {
+      "id": "foundation-d2-quiz-23",
+      "number": 23,
+      "group": "其他重要品种",
+      "prompt": "Grüner Veltliner 最经典的国家联系是？",
+      "options": [
+        "智利",
+        "葡萄牙",
+        "南非",
+        "奥地利"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d2-08"
+      ],
+      "explanation": "Grüner Veltliner 与奥地利有重要联系。先建立品种与国家的关系，再继续学习具体产区。"
+    },
+    {
+      "id": "foundation-d2-quiz-24",
+      "number": 24,
+      "group": "其他重要品种",
+      "prompt": "Viognier 最经典的产区联系之一是？",
+      "options": [
+        "Condrieu",
+        "Chablis",
+        "Pomerol",
+        "Mendoza"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d2-08"
+      ],
+      "explanation": "Condrieu 是认识 Viognier 的经典产区，也是把白葡萄品种与北罗讷河联系起来的入口。"
+    },
+    {
+      "id": "foundation-d2-quiz-25",
+      "number": 25,
+      "group": "其他重要品种",
+      "prompt": "哪个品种与 Mendoza 的经典联系最强？",
+      "options": [
+        "Gamay",
+        "Malbec",
+        "Nebbiolo",
+        "Sangiovese"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d2-09"
+      ],
+      "explanation": "Malbec 与 Mendoza 有重要经典联系；品种并不等于单一产区，仍要同时记录地理背景。"
+    },
+    {
+      "id": "foundation-d2-quiz-26",
+      "number": 26,
+      "group": "其他重要品种",
+      "prompt": "哪个品种与 Barolo / Barbaresco 的经典联系最强？",
+      "options": [
+        "Merlot",
+        "Grenache",
+        "Nebbiolo",
+        "Pinotage"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d2-09"
+      ],
+      "explanation": "Barolo 与 Barbaresco 是学习 Nebbiolo 的经典产区，不能把品种名与产区名混作一类信息。"
+    },
+    {
+      "id": "foundation-d2-quiz-27",
+      "number": 27,
+      "group": "其他重要品种",
+      "prompt": "哪个品种与 南非 的代表性联系最强？",
+      "options": [
+        "Carmenère",
+        "Tempranillo",
+        "Cabernet Franc",
+        "Pinotage"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d2-09"
+      ],
+      "explanation": "Pinotage 与南非具有鲜明代表性联系，具体风格仍应看产区、生产者和酒款。"
+    },
+    {
+      "id": "foundation-d2-quiz-28",
+      "number": 28,
+      "group": "法国专题",
+      "prompt": "哪个产区位于 法国 东部、靠近 德国？",
+      "options": [
+        "Alsace",
+        "Bordeaux",
+        "Loire Valley",
+        "Provence"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-france-01"
+      ],
+      "explanation": "Alsace 位于法国东部，靠近德国。地理接近有助于理解背景，但两国制度不能混为一谈。"
+    },
+    {
+      "id": "foundation-d2-quiz-29",
+      "number": 29,
+      "group": "法国专题",
+      "prompt": "Bordeaux 左岸通常哪个品种更重要？",
+      "options": [
+        "Gamay",
+        "Cabernet Sauvignon",
+        "Nebbiolo",
+        "Pinotage"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-france-02"
+      ],
+      "explanation": "Bordeaux 左岸通常更强调 Cabernet Sauvignon；这只是认识混酿侧重的起点，不是每瓶酒的固定比例。"
+    },
+    {
+      "id": "foundation-d2-quiz-30",
+      "number": 30,
+      "group": "法国专题",
+      "prompt": "Bordeaux 右岸通常哪个品种更重要？",
+      "options": [
+        "Syrah",
+        "Riesling",
+        "Merlot",
+        "Tempranillo"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-france-02"
+      ],
+      "explanation": "Bordeaux 右岸通常更强调 Merlot；实际组成仍应查看具体酒款资料。"
+    },
+    {
+      "id": "foundation-d2-quiz-31",
+      "number": 31,
+      "group": "法国专题",
+      "prompt": "Bordeaux 红葡萄酒为什么经常使用混酿？",
+      "options": [
+        "因为单一品种全部被禁止",
+        "因为混酿一定比单一品种贵",
+        "因为混酿可以忽略年份差异",
+        "不同品种可以互相补充结构、成熟度和风格"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-france-02"
+      ],
+      "explanation": "不同品种可在结构、成熟期和风格上形成互补，但混酿并不能消除年份或种植条件的影响。"
+    },
+    {
+      "id": "foundation-d2-quiz-32",
+      "number": 32,
+      "group": "法国专题",
+      "prompt": "Burgundy 最重要的红葡萄品种是？",
+      "options": [
+        "Pinot Noir",
+        "Cabernet Sauvignon",
+        "Syrah",
+        "Merlot"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-france-03"
+      ],
+      "explanation": "Pinot Noir 是 Burgundy 最重要的红葡萄品种，产区知识能补充酒标未直接写出的品种信息。"
+    },
+    {
+      "id": "foundation-d2-quiz-33",
+      "number": 33,
+      "group": "法国专题",
+      "prompt": "Burgundy 最重要的白葡萄品种是？",
+      "options": [
+        "Sauvignon Blanc",
+        "Chardonnay",
+        "Riesling",
+        "Sémillon"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-france-03"
+      ],
+      "explanation": "Chardonnay 是 Burgundy 最重要的白葡萄品种，仍应继续辨认具体产区和酒款。"
+    },
+    {
+      "id": "foundation-d2-quiz-34",
+      "number": 34,
+      "group": "法国专题",
+      "prompt": "关于 Burgundy 的 Grand Cru，哪项最合理？",
+      "options": [
+        "它表示所有酒庄都属于一级酒庄",
+        "它等于任何国家的最高酒庄等级",
+        "它主要是地理等级概念，不能和 Bordeaux 酒庄分级直接混为一谈",
+        "它表示必须使用 Cabernet Sauvignon"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-france-03"
+      ],
+      "explanation": "Burgundy 的 Grand Cru 主要涉及葡萄园和地理等级；不能与 Bordeaux 的酒庄分级直接等同。"
+    },
+    {
+      "id": "foundation-d2-quiz-35",
+      "number": 35,
+      "group": "法国专题",
+      "prompt": "Sancerre 最重要的白葡萄品种是？",
+      "options": [
+        "Chardonnay",
+        "Riesling",
+        "Sémillon",
+        "Sauvignon Blanc"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-france-04"
+      ],
+      "explanation": "Sancerre 的经典白葡萄品种是 Sauvignon Blanc，注意题目问的是白葡萄酒。"
+    },
+    {
+      "id": "foundation-d2-quiz-36",
+      "number": 36,
+      "group": "法国专题",
+      "prompt": "Chinon 最重要的红葡萄品种之一是？",
+      "options": [
+        "Cabernet Franc",
+        "Syrah",
+        "Nebbiolo",
+        "Pinotage"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-france-04"
+      ],
+      "explanation": "Cabernet Franc 是 Chinon 重要的红葡萄品种，也说明同一品种在不同产区会有不同角色。"
+    },
+    {
+      "id": "foundation-d2-quiz-37",
+      "number": 37,
+      "group": "法国专题",
+      "prompt": "关于 Muscadet，哪项正确？",
+      "options": [
+        "它就是 Muscat 的另一种拼写",
+        "它不是 Muscat，核心葡萄品种是 Melon de Bourgogne",
+        "它是 Bordeaux 的红葡萄品种",
+        "它是 Champagne 的等级名称"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-france-04"
+      ],
+      "explanation": "Muscadet 是产区名称，核心葡萄是 Melon de Bourgogne；它不是 Muscat 的另一种拼写。"
+    },
+    {
+      "id": "foundation-d2-quiz-38",
+      "number": 38,
+      "group": "法国专题",
+      "prompt": "Northern Rhône 红葡萄酒最核心的品种是？",
+      "options": [
+        "Merlot",
+        "Gamay",
+        "Syrah",
+        "Tempranillo"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-france-05"
+      ],
+      "explanation": "Syrah 是北罗讷河红葡萄酒的核心品种；南部更常见的混酿思路应分开学习。"
+    },
+    {
+      "id": "foundation-d2-quiz-39",
+      "number": 39,
+      "group": "法国专题",
+      "prompt": "GSM 中不包括哪个品种？",
+      "options": [
+        "Grenache",
+        "Syrah",
+        "Mourvèdre",
+        "Cabernet Sauvignon"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-france-05"
+      ],
+      "explanation": "GSM 的三个字母分别对应 Grenache、Syrah、Mourvèdre，因此不包含 Cabernet Sauvignon。"
+    },
+    {
+      "id": "foundation-d2-quiz-40",
+      "number": 40,
+      "group": "法国专题",
+      "prompt": "Condrieu 最重要的白葡萄品种是？",
+      "options": [
+        "Viognier",
+        "Chardonnay",
+        "Riesling",
+        "Sémillon"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-france-05"
+      ],
+      "explanation": "Condrieu 的经典白葡萄品种是 Viognier，不要把罗讷河的白葡萄酒都归为 Chardonnay。"
+    },
+    {
+      "id": "foundation-d2-quiz-41",
+      "number": 41,
+      "group": "法国专题",
+      "prompt": "以下哪个品种不是 Alsace 最典型的核心白品种之一？",
+      "options": [
+        "Riesling",
+        "Cabernet Sauvignon",
+        "Gewürztraminer",
+        "Pinot Gris"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-france-06"
+      ],
+      "explanation": "Riesling、Gewürztraminer、Pinot Gris 是 Alsace 重要白葡萄品种；Cabernet Sauvignon 是红葡萄品种。"
+    },
+    {
+      "id": "foundation-d2-quiz-42",
+      "number": 42,
+      "group": "法国专题",
+      "prompt": "关于 Alsace 酒标，哪项最合理？",
+      "options": [
+        "所有酒都禁止写品种",
+        "所有酒都必须是甜型",
+        "很多酒会直接标注葡萄品种",
+        "所有酒都必须使用 Chardonnay"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-france-06"
+      ],
+      "explanation": "Alsace 很多酒会直接标注葡萄品种。看见品种名后，仍需结合产地和具体酒款判断甜度与风格。"
+    }
+  ]
+}

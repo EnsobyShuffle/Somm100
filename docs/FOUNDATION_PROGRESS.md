@@ -1,3 +1,28 @@
+# Foundation · 2026-11-05 · D2 standalone42 quiz and cross-section review navigation
+
+Checked 2026-11-05T21:37:41.614011+08:00. Base 96638136fa73798adc24f7b30f7753dec76f32d3, migration/tencent-somm100. Fresh head and12 key local blobs matched authoritative GitHub tree. Read current Foundation/CloudBase checkpoints, source map, current D2/France/shared quiz components and full canonical D2 quiz.
+
+- Source 40717d16de4c81d69c3ad85f6456e618, edited2026-10-28T19:59:41.843Z, verification unverified. Parsed42 questions and42 actual answer rows. Preserved all answer indices and option meanings/order; translated country names into Chinese. Added42 original explanations grounded in existing D2/France review content. Explicitly avoid automatic aging/quality guarantees or uniform regional style claims. No private historical textbook copied.
+- New data/foundation-d2-quiz.json and app/FoundationD2Quiz.js integrated in existing Foundation menu/page. Question1–27 target9 grape units;28–42 target6 shared-France units. Mapping is editorial from source detection labels; the source has no stable unit-ID column. Exact record in docs/qa/foundation-d2-quiz-source-20261105.json. Shared-France inclusion does not establish current classroom-day placement.
+- Separate local key somm100.foundation.d2-quiz.v1. First/latest answers, explanations, review queue and navigation reuse existing quiz component. The wrapper combines review metadata with explicit per-unit prefixes. quizReviewTargets resolves the correct title/unit/prefix; shared component dispatches that target. D1/D3/D4 retain their default destinations. France review now accepts scoped known-unit events and scrolls to its heading; listener cleaned up, existing lesson data/state/diagram/map activity retained.
+- Actual Foundation Node suite59/59 passed. Tests cover question42 restore, source answers/mappings, correct-after-wrong history, corrupt/future safety, isolation of all four quiz keys, all42 routed targets and existing quiz target defaults. Shared quiz, D2 wrapper and France review syntax checks passed.
+- Clean build:cloudbase passed 467 public files,24 Foundation markers and root plus /somm100/ resource/PWA checks. Entry ./assets/index-D2IGxsiS.js; SHA256 0e945fecfb2d70419caf32d9773e95e2b6611d5e32c04fc96f58eabf9320c04a. Pinned build-only subset reused; full frozen-lockfile install not verified. Existing about12MB main entry remains a performance limitation.
+- Browser UI event/scroll, phone layout and refresh are still unverified. Previous Chromium launch denied socket() failed: Operation not permitted (1); no repeated launch/download/bypass attempted. Tencent release access remains unresolved; no deployment or newly verified live URL this run. Node routing tests are not browser acceptance.
+- Saved source/provenance/checkpoint for atomic commit and readback. Keep [skip netlify] and netlify.toml ignore="exit 0". Foundation only; no billing/DNS/ICP/Netlify or unrelated paused-task actions.
+
+| Area | Content in source |
+| --- | --- |
+| D1 | 10 reviews/71 checks/30 inline plus25 standalone self-check questions |
+| D2 | 9 reviews/64 checks/27 inline, shared France6/38/18, NEW42 standalone questions |
+| D3 | 13 reviews/72 checks/39 inline plus30 standalone questions |
+| D4 | 15 reviews/93 checks/45 inline plus45 standalone questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 has five classroom days; no sixth day invented |
+
+Next: standalone quiz integration for D1–D4 is now complete in source, but full course is not. Read current bridge source 40717d16de4c810cbdc9d2aca7262900 and resource-gap matrix 40717d16de4c81c2910decdcecc94d7d, reconcile source-guided progression and current five-day PPT/media gaps. Inspect existing export/import implementation for Foundation quiz key coverage before claiming backup protection. Finish supported browser phone/reload/navigation checks and Tencent version verification. Continue task; no overall completion/pause claim.
+
+---
+
 # Foundation · 2026-11-05 · D1 standalone 25-question self-check
 
 Checked 2026-11-05T19:41:35.085317+08:00. Base 31ca66b02d640cc7cdf99f53063975eac9fadc67, migration/tencent-somm100. Fresh branch head matched the previous D4 release;11 key local source blobs matched the authoritative GitHub tree before editing. Read migration/progress checkpoints, source map, current D1/quiz code, canonical D1–D2 inventory and the full linked D1 quiz source.

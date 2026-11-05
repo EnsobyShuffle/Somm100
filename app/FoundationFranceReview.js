@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react';
 import data from '../data/foundation-france.json';
 import {emptyFranceProgress, readFranceProgress, writeFranceProgress, franceUnitResult} from '../lib/foundation-france.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
+import {mappedReviewUnit} from '../lib/foundation-quiz.mjs';
 import FoundationDiagram from './FoundationDiagram.js';
 import FoundationRhoneMapGuide from './FoundationRhoneMapGuide.js';
 import './foundation-study.css';
@@ -13,6 +14,16 @@ export default function FoundationFranceReview() {
   const [loaded, setLoaded] = useState(false);
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
+  useEffect(() => {
+    function openReview(event) {
+      const target = mappedReviewUnit(data, 'foundation-france', event.detail);
+      if (!target) return;
+      setProgress(p => ({...p, unit:target.number}));
+      window.requestAnimationFrame(() => document.getElementById('foundation-france-title')?.scrollIntoView({behavior:'smooth',block:'start'}));
+    }
+    window.addEventListener('foundation-open-review', openReview);
+    return () => window.removeEventListener('foundation-open-review', openReview);
+  }, []);
   useEffect(() => {
     // Accessing window.localStorage itself can throw in restricted browsers.
     let result;

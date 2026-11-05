@@ -1,0 +1,389 @@
+{
+  "source": "https://app.notion.com/p/40717d16de4c81d69c3ad85f6456e618?pvs=204",
+  "sourceEditedAt": "2026-10-28T19:59:41.843Z",
+  "verification": "unverified",
+  "day": 2,
+  "questionCount": 42,
+  "mapping": [
+    {
+      "id": "foundation-d2-quiz-01",
+      "number": 1,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d2-01"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-02",
+      "number": 2,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d2-01"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-03",
+      "number": 3,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d2-01"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-04",
+      "number": 4,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d2-02"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-05",
+      "number": 5,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d2-02"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-06",
+      "number": 6,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d2-02"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-07",
+      "number": 7,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d2-03"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-08",
+      "number": 8,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d2-03"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-09",
+      "number": 9,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d2-03"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-10",
+      "number": 10,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d2-04"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-11",
+      "number": 11,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d2-04"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-12",
+      "number": 12,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d2-04"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-13",
+      "number": 13,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d2-05"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-14",
+      "number": 14,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d2-05"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-15",
+      "number": 15,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d2-05"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-16",
+      "number": 16,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d2-06"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-17",
+      "number": 17,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d2-06"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-18",
+      "number": 18,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d2-06"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-19",
+      "number": 19,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d2-07"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-20",
+      "number": 20,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d2-07"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-21",
+      "number": 21,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d2-07"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-22",
+      "number": 22,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d2-08"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-23",
+      "number": 23,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d2-08"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-24",
+      "number": 24,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-d2-08"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-25",
+      "number": 25,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-d2-09"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-26",
+      "number": 26,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-d2-09"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-27",
+      "number": 27,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-d2-09"
+      ],
+      "reviewPrefix": "foundation-d2"
+    },
+    {
+      "id": "foundation-d2-quiz-28",
+      "number": 28,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-france-01"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-29",
+      "number": 29,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-france-02"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-30",
+      "number": 30,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-france-02"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-31",
+      "number": 31,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-france-02"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-32",
+      "number": 32,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-france-03"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-33",
+      "number": 33,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-france-03"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-34",
+      "number": 34,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-france-03"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-35",
+      "number": 35,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-france-04"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-36",
+      "number": 36,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-france-04"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-37",
+      "number": 37,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-france-04"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-38",
+      "number": 38,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-france-05"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-39",
+      "number": 39,
+      "sourceAnswer": "D",
+      "unitIds": [
+        "foundation-france-05"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-40",
+      "number": 40,
+      "sourceAnswer": "A",
+      "unitIds": [
+        "foundation-france-05"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-41",
+      "number": 41,
+      "sourceAnswer": "B",
+      "unitIds": [
+        "foundation-france-06"
+      ],
+      "reviewPrefix": "foundation-france"
+    },
+    {
+      "id": "foundation-d2-quiz-42",
+      "number": 42,
+      "sourceAnswer": "C",
+      "unitIds": [
+        "foundation-france-06"
+      ],
+      "reviewPrefix": "foundation-france"
+    }
+  ],
+  "mappingBasis": "Editorial mapping from source detection labels into existing nine D2 and six shared-France units; source has no unit-ID column",
+  "wordingChanges": "Country names translated to Chinese; source prompt/option meaning, order and answer indices retained"
+}

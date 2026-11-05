@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-05T21:37:41.614011+08:00",
+  "base": "96638136fa73798adc24f7b30f7753dec76f32d3",
+  "source": {
+    "url": "https://app.notion.com/p/40717d16de4c81d69c3ad85f6456e618?pvs=204",
+    "editedAt": "2026-10-28T19:59:41.843Z",
+    "verification": "unverified",
+    "questionRows": 42,
+    "answerRows": 42,
+    "mapping": "Editorial mapping of source detection labels to existing nine D2 and six France units; not an explicit source unit-ID table",
+    "wordingChanges": "Country names translated; prompt/option meaning and all answer positions retained",
+    "explanations": "42 original Chinese explanations grounded in existing D2 and France reviews; no private textbook excerpts"
+  },
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 59,
+    "failed": 0,
+    "coverage": [
+      "All42 source answer positions and target validity",
+      "Question42 restore and first/latest correction",
+      "Wrong-answer queue",
+      "Corrupt/future protection",
+      "All four quiz keys isolated",
+      "All42 targets resolve to correct D2/France prefix",
+      "Existing D1/D3/D4 default target prefixes preserved"
+    ]
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 467,
+    "entry": "./assets/index-D2IGxsiS.js",
+    "entryBytes": 12026483,
+    "entrySha256": "0e945fecfb2d70419caf32d9773e95e2b6611d5e32c04fc96f58eabf9320c04a",
+    "foundationMarkers": 24,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "dependencies": "Pinned build subset reused; full frozen-lockfile install not run",
+  "browser": {
+    "status": "pending",
+    "previousBlock": "Chromium launch denied socket() failed: Operation not permitted (1)",
+    "newLaunchAttempt": false,
+    "untested": [
+      "Shared quiz rendering",
+      "D2-to-France event and scroll",
+      "phone layout",
+      "UI refresh"
+    ]
+  },
+  "deployed": false,
+  "onlineVerified": false
+}

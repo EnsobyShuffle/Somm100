@@ -1,6 +1,6 @@
 'use client';
 import React, {useEffect, useState} from 'react';
-import {quizProgressData, quizResult} from '../lib/foundation-quiz.mjs';
+import {quizProgressData, quizResult, quizReviewTargets} from '../lib/foundation-quiz.mjs';
 import {emptyD2Progress, readD2Progress, writeD2Progress} from '../lib/foundation-d2.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
 import './foundation-study.css';
@@ -47,11 +47,10 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
         h('p', null, entry.latest===question.answer?'理解正确。':'需要复习。正确理解为 '+question.options[question.answer]+'。'),
         h('p', null, question.explanation),
         h('p', {className:'fine-print'}, `首次选择：${question.options[entry.first]}；最近选择：${question.options[entry.latest]}`))),
-    h('div', {className:'button-row'}, question.unitIds.map(id=>{
-      const unit = reviews.units.find(u=>u.id===id);
-      return h('button', {key:id,type:'button',className:'button secondary',disabled:!loaded,onClick:()=>{
-        window.dispatchEvent(new CustomEvent('foundation-open-review',{detail:{prefix,unitId:id}}));
-      }}, '复习｜'+unit.title);
+    h('div', {className:'button-row'}, quizReviewTargets(question, reviews, prefix).map(target=>{
+      return h('button', {key:target.unitId,type:'button',className:'button secondary',disabled:!loaded,onClick:()=>{
+        window.dispatchEvent(new CustomEvent('foundation-open-review',{detail:{prefix:target.prefix,unitId:target.unitId}}));
+      }}, '复习｜'+target.title);
     })),
     h('div', {className:'button-row'},
       h('button',{type:'button',className:'button secondary',disabled:!loaded||question.number===1,onClick:()=>choose(question.number-1)},'上一题'),
