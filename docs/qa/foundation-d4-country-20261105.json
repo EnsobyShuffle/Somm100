@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-05",
+  "base": "35c9909de3b027517336b8eb47449d73fa666ac6",
+  "scope": "D4 units 9–12 country study",
+  "sourcePages": [
+    {
+      "id": "foundation-d4-09",
+      "url": "https://app.notion.com/p/40717d16de4c81d4aaa0f7e7522eb3c8",
+      "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-10",
+      "url": "https://app.notion.com/p/40717d16de4c81988e3ec639a461cb1b",
+      "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-11",
+      "url": "https://app.notion.com/p/40717d16de4c81bfb56bd2567d84b3ad",
+      "sourceEditedAt": "2026-10-28T20:12:30.244Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    },
+    {
+      "id": "foundation-d4-12",
+      "url": "https://app.notion.com/p/40717d16de4c812e8595e90956d6121f",
+      "sourceEditedAt": "2026-10-28T20:12:31.971Z",
+      "sourceVerification": "unverified",
+      "readOn": "2026-11-05"
+    }
+  ],
+  "factSources": [
+    "https://wine.napavintners.com/wine/cabernet-sauvignon",
+    "https://www.oregonwine.org/regions/willamette-valley/",
+    "https://winecountryontario.ca/icewine/",
+    "https://www.wineaustralia.com/market-insights/regions-and-varieties/riesling",
+    "https://www.wineaustralia.com/market-insights/regions-and-varieties/shiraz",
+    "https://www.wineaustralia.com/getmedia/783a2aa2-c799-4ef8-9f9d-7ebe49dcc8f4/Margaret-River-Wine-Media-Kit-2022-LR.pdf",
+    "https://www.nzwine.com/en/regions/marlborough/",
+    "https://www.nzwine.com/en/regions/centralotago/",
+    "https://www.nzwine.com/en/regions/hawkesbay/",
+    "https://www.winesofchile.org/wine-regions-map/",
+    "https://winesofargentina.org/en/provinces/mendoza"
+  ],
+  "previousEightUnchanged": true,
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 39,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build:cloudbase",
+    "files": 455,
+    "entry": "./assets/index-C6YpM8iT.js",
+    "entrySha256": "aeaf9ee3e6cf5e0e1bbf906d1a8340e5e7fe174284ded04711307d61a26ce799",
+    "rootAndSubpath": true,
+    "dependencies": "Pinned build-only subset restored; not a full frozen-lockfile install"
+  },
+  "browser": {
+    "status": "blocked",
+    "method": "Playwright with installed /usr/bin/chromium",
+    "actualError": "FATAL:chrome/browser/process_singleton_posix.cc:297 Check failed: . socket() failed: Operation not permitted (1)",
+    "mobileVerified": false,
+    "refreshUiVerified": false
+  },
+  "deployed": false,
+  "onlineVerified": false,
+  "cohortDayConfirmed": false
+}

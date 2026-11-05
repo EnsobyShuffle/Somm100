@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-11-05",
-  "status": "precourse-d1-d2-france-d3-and-d4-first-eight-integrated-local-build-tested-not-live",
+  "status": "precourse-d1-d2-france-d3-and-d4-first-twelve-integrated-local-build-tested-not-live",
   "frameworkSource": "https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e",
   "guidedSource": "https://app.notion.com/p/40717d16de4c812fa096fb12992546e3",
   "supersedes": "Chapter 00 is an early prototype, not the current Pre-Course standard.",
@@ -174,7 +174,7 @@
     },
     {
       "day": 4,
-      "status": "8-review-units-50-checks-24-questions-integrated-local-build-tested-7-units-staged-cohort-day-unconfirmed"
+      "status": "12-review-units-75-checks-36-questions-integrated-local-build-tested-3-units-staged-cohort-day-unconfirmed"
     },
     {
       "day": 5,
@@ -558,7 +558,7 @@
     "units": 15,
     "checks": 93,
     "unitQuestions": 45,
-    "status": "editorial-draft-first-eight-reviewed-in-runtime-release-seven-pending",
+    "status": "editorial-draft-first-twelve-reviewed-in-runtime-release-three-pending",
     "publicationReady": false
   },
   "sparklingPractice": {
@@ -584,18 +584,14 @@
   "d4Release": {
     "file": "data/foundation-d4.json",
     "component": "app/FoundationD4Review.js",
-    "units": 8,
-    "checks": 50,
-    "questions": 24,
+    "units": 12,
+    "checks": 75,
+    "questions": 36,
     "sourceDraft": "docs/staging/foundation-d4-review.json",
     "storage": "somm100.foundation.d4-review.v1",
     "cohortDayConfirmed": false,
-    "status": "first-eight-units-integrated-node-tests-and-clean-local-build-passed-browser-and-live-pending",
+    "status": "first-twelve-units-integrated-node-tests-and-local-build-passed-browser-and-live-pending",
     "remainingUnitNumbers": [
-      9,
-      10,
-      11,
-      12,
       13,
       14,
       15
@@ -656,6 +652,34 @@
         "sourceEditedAt": "2026-10-28T20:09:56.780Z",
         "sourceVerification": "unverified",
         "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-09",
+        "url": "https://app.notion.com/p/40717d16de4c81d4aaa0f7e7522eb3c8",
+        "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-10",
+        "url": "https://app.notion.com/p/40717d16de4c81988e3ec639a461cb1b",
+        "sourceEditedAt": "2026-10-28T20:10:50.751Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-11",
+        "url": "https://app.notion.com/p/40717d16de4c81bfb56bd2567d84b3ad",
+        "sourceEditedAt": "2026-10-28T20:12:30.244Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
+      },
+      {
+        "id": "foundation-d4-12",
+        "url": "https://app.notion.com/p/40717d16de4c812e8595e90956d6121f",
+        "sourceEditedAt": "2026-10-28T20:12:31.971Z",
+        "sourceVerification": "unverified",
+        "readOn": "2026-11-05"
       }
     ],
     "factSources": [
@@ -676,7 +700,18 @@
       "https://cdn.sherry.wine/sherry-wine/dry-sherry-wines/amontillado",
       "https://wwv.sherry.wine/sherry-wine/production",
       "https://vinhomadeira.com/o-vinho-madeira/vinificacao-e-envelhecimento",
-      "https://vinhomadeira.com/o-vinho-madeira/castas"
+      "https://vinhomadeira.com/o-vinho-madeira/castas",
+      "https://wine.napavintners.com/wine/cabernet-sauvignon",
+      "https://www.oregonwine.org/regions/willamette-valley/",
+      "https://winecountryontario.ca/icewine/",
+      "https://www.wineaustralia.com/market-insights/regions-and-varieties/riesling",
+      "https://www.wineaustralia.com/market-insights/regions-and-varieties/shiraz",
+      "https://www.wineaustralia.com/getmedia/783a2aa2-c799-4ef8-9f9d-7ebe49dcc8f4/Margaret-River-Wine-Media-Kit-2022-LR.pdf",
+      "https://www.nzwine.com/en/regions/marlborough/",
+      "https://www.nzwine.com/en/regions/centralotago/",
+      "https://www.nzwine.com/en/regions/hawkesbay/",
+      "https://www.winesofchile.org/wine-regions-map/",
+      "https://winesofargentina.org/en/provinces/mendoza"
     ]
   }
 }

@@ -1,3 +1,28 @@
+# Foundation · 2026-11-05 13:35 CST run · D4 country review units 9–12
+
+Base 35c9909de3b027517336b8eb47449d73fa666ac6, migration/tencent-somm100. Read latest branch, migration/progress checkpoints, source map and runtime D4 UI/data. Re-fetched the four canonical Notion pages; timestamps match staging, source verification remains unverified. No confirmed cohort day allocation inferred.
+
+- Integrated units09–12, the regional-learning framework, North America, Australia/New Zealand and Chile/Argentina. Added25 self-checks and12 MCQs. Runtime D4 now12 units/75 checks/36 questions. Each new unit has an objective, preparation activity, three original explanatory sections, practice and specific answer explanations. Earlier eight objects are identical; stable IDs/answers/storage key retained.
+- Added the geographic vocabulary required by checks, including California/Oregon, Ontario/British Columbia, Hawke's Bay and Carmenère. Avoided sweeping Napa-vs-Bordeaux ripeness claims. Central Otago now explicitly describes internal climatic differences rather than treating the whole region as uniformly cool. Icewine describes naturally frozen-on-vine grapes pressed frozen without copying regulatory thresholds. No private textbook text/maps reproduced.
+- Checked against Napa Valley Vintners, Oregon Wine Board, Ontario wine association, Wine Australia, New Zealand Winegrowers, Wines of Chile and Wines of Argentina. Exact source URLs and actual checks in docs/qa/foundation-d4-country-20261105.json.
+- Recovered exact source archive and installed pinned build-only dependency subset. Actual Node Foundation suite39/39 passed. New regression saves eight-unit Sherry first/latest answers and checks, restores with12 units, records Mendoza answer, then verifies old and new state together. Full frozen-lockfile installation remains untested.
+- Clean production build passed455 public files. Entry ./assets/index-C6YpM8iT.js, SHA256 aeaf9ee3e6cf5e0e1bbf906d1a8340e5e7fe174284ded04711307d61a26ce799. Root and /somm100/ asset/PWA checks and15 Foundation feature/key markers passed. Main entry remains about12MB, existing unresolved size warning.
+- Browser executable is now present at /usr/bin/chromium, but actual Playwright launch failed with socket() failed: Operation not permitted (1) in process_singleton_posix.cc:297. This replaces the earlier missing-executable diagnosis for this environment. No policy bypass or repeated browser installs attempted. Current narrow/desktop layout and UI refresh remain unverified.
+- Saved for atomic commit/readback. No Tencent deployment, online acceptance or newly verified URL. Brand/instructors/images preserved. Keep [skip netlify] and netlify.toml ignore="exit 0". Foundation only.
+
+| Area | Source implementation state |
+| --- | --- |
+| D1 | 10 units/71 checks/30 questions |
+| D2 | 9/64/27, shared France6/38/18 |
+| D3 | 13/72/39 |
+| D4 | 12/75/36, units13–15 remain staged; standalone45 quiz mapped only |
+| D5 | Teaching/assessment placement pending |
+| D6 | Current cohort22 is five classroom days, no sixth day scheduled |
+
+Next: read and fact-check remaining D4 units13–15 (South Africa and China), then integrate a coherent final batch preserving prior12 records. Use a supported browser environment for phone/desktop layout, selected-unit navigation and first/latest answer refresh, then independently verify Tencent deployment version. Current classroom PPT allocation, permitted media and standalone quizzes remain pending.
+
+---
+
 # Foundation · 2026-11-05 · D4 fortified wines, units 5–8
 
 Base 3b46ecc27c67be1f4b87ad58343263373fe8f232 on migration/tencent-somm100. Fresh branch, current migration/progress/source-map and D4 draft read. Re-fetched all four Notion unit pages; source timestamps match the editorial draft and metadata remains unverified.

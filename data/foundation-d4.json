@@ -681,6 +681,354 @@
         }
       ],
       "practice": "查一款 Madeira 的酒标或生产者说明，记录品种、甜度和熟成方法。解释受控熟成的热为什么不能成为普通葡萄酒高温存放的理由。"
+    },
+    {
+      "id": "foundation-d4-09",
+      "number": 9,
+      "title": "新世界：不是一种风格，而是一张新的世界地图",
+      "learningObjective": "用产区解释同一品种的差异",
+      "preparation": "从两张酒标各抄下一个产区和一个品种名。",
+      "sections": [
+        {
+          "heading": "把宽泛分类落到具体地方",
+          "text": "本组用“新世界”串起美国、加拿大、澳大利亚、新西兰、智利、阿根廷和南非等国家。这个学习分类无法单独告诉我们一瓶酒的酸度、酒精度或复杂度；同一国家内也有不同纬度、海拔和海洋影响。"
+        },
+        {
+          "heading": "读酒标的三个入口",
+          "text": "很多酒标直接写出品种，例如 Napa Valley Cabernet Sauvignon、Marlborough Sauvignon Blanc、Mendoza Malbec。把产区名、品种名与生产者分别记录，再查年份和酿造资料。品种名称给了入口，却没有替我们完成风格判断。"
+        },
+        {
+          "heading": "继续使用已经学过的框架",
+          "text": "比较同一品种时，先定位国家和产区，再找地形、气候与成熟条件，最后用酒款资料或实际品鉴支持结论。先提出“哪些信息还不知道”，比把国家名称直接翻译成一套风味更可靠。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-09-check-1",
+          "text": "我知道“新世界”不是一种固定葡萄酒风格。"
+        },
+        {
+          "id": "foundation-d4-09-check-2",
+          "text": "我能说出美国、澳大利亚、新西兰、智利、阿根廷、南非等主要国家。"
+        },
+        {
+          "id": "foundation-d4-09-check-3",
+          "text": "我知道很多新世界酒标更常直接标注葡萄品种。"
+        },
+        {
+          "id": "foundation-d4-09-check-4",
+          "text": "我知道同一个品种在不同新世界国家仍然会有很大差异。"
+        },
+        {
+          "id": "foundation-d4-09-check-5",
+          "text": "我会继续使用“国家 → 地理 → 品种 → 产区 → 风格”的框架学习。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-09-q1",
+          "prompt": "关于“新世界风格”，哪项最合理？",
+          "options": [
+            "所有新世界酒都是高酒精、浓果味",
+            "“新世界”包含很多不同国家，不能用一个固定风格概括",
+            "新世界没有法定产区制度",
+            "新世界只种国际葡萄品种"
+          ],
+          "answer": 1,
+          "explanation": "“新世界”涵盖不同国家和产区，不能规定统一的酒精度、果味或品质，也不意味着缺少产区制度。"
+        },
+        {
+          "id": "foundation-d4-09-q2",
+          "prompt": "新世界酒标对初学者常比较友好的原因之一是什么？",
+          "options": [
+            "通常不写任何产区",
+            "全部用同一种瓶型",
+            "很多酒会直接标注葡萄品种",
+            "所有酒都写中文"
+          ],
+          "answer": 2,
+          "explanation": "直接标出的葡萄品种有助于建立入口。接下来仍要看产区、年份与生产者，而不是只读品种名。"
+        },
+        {
+          "id": "foundation-d4-09-q3",
+          "prompt": "学习新世界国家最合理的方法是什么？",
+          "options": [
+            "只背品牌",
+            "只背酒精度",
+            "只看品种",
+            "继续用国家、地理、品种、产区、风格的框架"
+          ],
+          "answer": 3,
+          "explanation": "国家、地理、品种、产区和风格要连接起来，并用具体资料支持判断；只看品牌或酒精度会丢失背景。"
+        }
+      ],
+      "practice": "各找一张来自不同国家的同品种酒标，抄下产区、品种、年份和生产者。列两项已知信息与两项仍需查证的信息，暂不凭国家名写风味结论。"
+    },
+    {
+      "id": "foundation-d4-10",
+      "number": 10,
+      "title": "美国与加拿大：Napa、Oregon、Icewine 先放进地图",
+      "learningObjective": "建立北美三个典型地理联系",
+      "preparation": "在地图上标出 California、Oregon，以及加拿大的 Ontario 与 British Columbia。",
+      "sections": [
+        {
+          "heading": "先在美国地图上放两点",
+          "text": "Napa Valley 位于加利福尼亚州，Cabernet Sauvignon 是重要代表品种。俄勒冈州的 Willamette Valley 则以 Pinot Noir 闻名。这是开始认识两地的联系，不代表当地只种一种葡萄。"
+        },
+        {
+          "heading": "怎样比较 Napa 与 Bordeaux",
+          "text": "可选择资料完整的 Cabernet Sauvignon 酒款或以它为主的混酿作比较，分别记录具体产地、年份、品种组成、采收成熟度与橡木使用。两地内部都有差异，不能预先认定每一瓶 Napa 都比每一瓶 Bordeaux 更浓郁或酒精更高。"
+        },
+        {
+          "heading": "加拿大与 Icewine",
+          "text": "先认识安大略省（Ontario）和不列颠哥伦比亚省（British Columbia）。Icewine 是加拿大的重要代表风格之一，以留在藤上自然冻结的葡萄采收后仍在冻结状态压榨，取得浓缩葡萄汁。加拿大也生产多种干型酒，不能用冰酒概括全国。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-10-check-1",
+          "text": "我能把 Napa Valley 与 Cabernet Sauvignon 联系起来。"
+        },
+        {
+          "id": "foundation-d4-10-check-2",
+          "text": "我知道 Napa Valley 与 Bordeaux 可以作为 Cabernet Sauvignon 风格比较。"
+        },
+        {
+          "id": "foundation-d4-10-check-3",
+          "text": "我能把 Willamette Valley 与 Pinot Noir 联系起来。"
+        },
+        {
+          "id": "foundation-d4-10-check-4",
+          "text": "我认识 Ontario、British Columbia。"
+        },
+        {
+          "id": "foundation-d4-10-check-5",
+          "text": "我知道 Icewine 是加拿大重要代表性风格之一。"
+        },
+        {
+          "id": "foundation-d4-10-check-6",
+          "text": "我现在不需要背美国全部 AVA。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-10-q1",
+          "prompt": "Napa Valley 最经典的葡萄品种联系之一是？",
+          "options": [
+            "Nebbiolo",
+            "Cabernet Sauvignon",
+            "Riesling",
+            "Pinotage"
+          ],
+          "answer": 1,
+          "explanation": "Cabernet Sauvignon 是 Napa Valley 的重要代表红葡萄品种。这个联系并不排除当地生产其他品种。"
+        },
+        {
+          "id": "foundation-d4-10-q2",
+          "prompt": "Willamette Valley 最经典的红葡萄品种联系之一是？",
+          "options": [
+            "Syrah",
+            "Tempranillo",
+            "Pinot Noir",
+            "Malbec"
+          ],
+          "answer": 2,
+          "explanation": "Willamette Valley 与 Pinot Noir 有重要联系。Icewine 是本节加拿大工艺案例，不能用来解释俄勒冈的品种问题。"
+        },
+        {
+          "id": "foundation-d4-10-q3",
+          "prompt": "加拿大最有代表性的特殊葡萄酒风格之一是？",
+          "options": [
+            "Amarone",
+            "Sherry",
+            "Cava",
+            "Icewine"
+          ],
+          "answer": 3,
+          "explanation": "Icewine 以自然冻结的葡萄压榨取得浓缩汁，是加拿大的重要代表风格之一，也不能代表其全部葡萄酒。"
+        }
+      ],
+      "practice": "在地图上标出 California、Oregon、Ontario、British Columbia。再写两句话，分别解释“品种与产区联系”和“Icewine 的浓缩方式”。"
+    },
+    {
+      "id": "foundation-d4-11",
+      "number": 11,
+      "title": "澳大利亚与新西兰：别只记 Shiraz 和 Sauvignon Blanc",
+      "learningObjective": "把澳大利亚和新西兰拆成具体产区",
+      "preparation": "按国家分组，给每个代表产区配一个品种。",
+      "sections": [
+        {
+          "heading": "澳大利亚先建立四组联系",
+          "text": "从 Barossa Valley 的 Shiraz、Margaret River 的 Cabernet Sauvignon 与 Chardonnay 入手，再认识 Clare Valley 和 Eden Valley 的 Riesling。澳大利亚地域很大，纬度、海拔和海洋影响共同作用，不能将所有产区归成炎热、低酸的一类。"
+        },
+        {
+          "heading": "新西兰南岛的两个入口",
+          "text": "Marlborough 与 Sauvignon Blanc 是重要联系；Central Otago 则以 Pinot Noir 为代表。Central Otago 的内陆山地环境有明显季节与昼夜变化，各子产区也有冷暖差异。判断成熟度和酸度时，要继续查具体葡萄园条件。"
+        },
+        {
+          "heading": "把 Hawke's Bay 放进地图",
+          "text": "Hawke's Bay 位于新西兰北岛，可从 Syrah 和波尔多品种混酿继续认识。先把国家、岛屿、产区与代表品种分别记清楚，再用资料验证风格，不把一组代表联系误认为当地全部酒款。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-11-check-1",
+          "text": "我能把 Barossa Valley 与 Shiraz 联系起来。"
+        },
+        {
+          "id": "foundation-d4-11-check-2",
+          "text": "我能把 Margaret River 与 Cabernet Sauvignon / Chardonnay 联系起来。"
+        },
+        {
+          "id": "foundation-d4-11-check-3",
+          "text": "我知道 Clare Valley / Eden Valley 是重要 Riesling 产区。"
+        },
+        {
+          "id": "foundation-d4-11-check-4",
+          "text": "我能把 Marlborough 与 Sauvignon Blanc 联系起来。"
+        },
+        {
+          "id": "foundation-d4-11-check-5",
+          "text": "我能把 Central Otago 与 Pinot Noir 联系起来。"
+        },
+        {
+          "id": "foundation-d4-11-check-6",
+          "text": "我认识 Hawke's Bay。"
+        },
+        {
+          "id": "foundation-d4-11-check-7",
+          "text": "我不会把 澳大利亚 全部理解成炎热产区。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-11-q1",
+          "prompt": "Barossa Valley 最经典的红葡萄品种联系之一是？",
+          "options": [
+            "Pinot Noir",
+            "Shiraz",
+            "Gamay",
+            "Nebbiolo"
+          ],
+          "answer": 1,
+          "explanation": "Barossa Valley 与 Shiraz 是重要联系。澳大利亚其他产区也生产 Shiraz，品种不能代替具体产地。"
+        },
+        {
+          "id": "foundation-d4-11-q2",
+          "prompt": "Marlborough 最经典的葡萄品种联系是？",
+          "options": [
+            "Cabernet Franc",
+            "Tempranillo",
+            "Sauvignon Blanc",
+            "Sangiovese"
+          ],
+          "answer": 2,
+          "explanation": "Marlborough 因 Sauvignon Blanc 闻名，学习时仍应继续查子产区与酒款资料。"
+        },
+        {
+          "id": "foundation-d4-11-q3",
+          "prompt": "Central Otago 最经典的红葡萄品种之一是？",
+          "options": [
+            "Cabernet Sauvignon",
+            "Grenache",
+            "Malbec",
+            "Pinot Noir"
+          ],
+          "answer": 3,
+          "explanation": "Pinot Noir 是 Central Otago 的代表红葡萄品种。内陆地形与子产区差异有助于解释不同酒款的表现。"
+        }
+      ],
+      "practice": "做两栏笔记，将本节澳大利亚、新西兰产区分别归国，每个产区配一个代表品种。挑出两处，查一项海拔或海洋影响的资料。"
+    },
+    {
+      "id": "foundation-d4-12",
+      "number": 12,
+      "title": "智利与阿根廷：一边是太平洋，一边是安第斯山",
+      "learningObjective": "用安第斯山和太平洋定位南美产区",
+      "preparation": "画出太平洋、智利、安第斯山与阿根廷的大致相对位置。",
+      "sections": [
+        {
+          "heading": "智利的海岸与山地",
+          "text": "智利西侧面对太平洋，东侧靠近安第斯山。Maipo Valley 可从 Cabernet Sauvignon 入手；Casablanca Valley 则适合认识冷凉海洋影响下的 Sauvignon Blanc、Chardonnay 和 Pinot Noir。与海岸和山地的相对位置，是继续查阅温度条件的起点。"
+        },
+        {
+          "heading": "认识 Carmenère",
+          "text": "Carmenère 是认识智利红葡萄酒的重要品种之一，但不能把整个智利等同于单一品种或单一风味。比较 Maipo 与 Casablanca 时，应记录各自具体地点和品种，避免把国家层面的信息当成每个葡萄园的条件。"
+        },
+        {
+          "heading": "阿根廷从 Mendoza 开始",
+          "text": "Mendoza 位于安第斯山东侧，Malbec 是重要代表品种。海拔、干燥环境与灌溉水源是学习当地葡萄种植的关键线索。海拔会影响温度和光照，但它不单独保证高酸或某种风味，仍需结合纬度、坡向与年份判断。"
+        }
+      ],
+      "checks": [
+        {
+          "id": "foundation-d4-12-check-1",
+          "text": "我知道 智利 西靠 Pacific Ocean、东临 Andes。"
+        },
+        {
+          "id": "foundation-d4-12-check-2",
+          "text": "我能把 Cabernet Sauvignon 与 Maipo Valley 联系起来。"
+        },
+        {
+          "id": "foundation-d4-12-check-3",
+          "text": "我知道 Casablanca Valley 受到冷凉海洋影响。"
+        },
+        {
+          "id": "foundation-d4-12-check-4",
+          "text": "我能把 Carmenère 与 智利 联系起来。"
+        },
+        {
+          "id": "foundation-d4-12-check-5",
+          "text": "我能把 Malbec 与 Mendoza 联系起来。"
+        },
+        {
+          "id": "foundation-d4-12-check-6",
+          "text": "我知道高海拔是 阿根廷 葡萄酒的重要学习关键词。"
+        },
+        {
+          "id": "foundation-d4-12-check-7",
+          "text": "我知道 智利 与 阿根廷 不能被概括成同一种 South America 风格。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "foundation-d4-12-q1",
+          "prompt": "Maipo Valley 最经典的红葡萄品种联系之一是？",
+          "options": [
+            "Nebbiolo",
+            "Cabernet Sauvignon",
+            "Riesling",
+            "Pinotage"
+          ],
+          "answer": 1,
+          "explanation": "Maipo Valley 的重要代表品种是 Cabernet Sauvignon。学习时将它与海洋影响较明显的 Casablanca 区分。"
+        },
+        {
+          "id": "foundation-d4-12-q2",
+          "prompt": "Mendoza 最经典的红葡萄品种联系是？",
+          "options": [
+            "Gamay",
+            "Sangiovese",
+            "Malbec",
+            "Pinot Gris"
+          ],
+          "answer": 2,
+          "explanation": "Malbec 是 Mendoza 的重要代表品种。它也生长在其他地方，因此品种与产区要同时记录。"
+        },
+        {
+          "id": "foundation-d4-12-q3",
+          "prompt": "阿根廷 葡萄酒学习中非常重要的地理关键词是什么？",
+          "options": [
+            "低海拔热带雨林",
+            "北海沿岸",
+            "平坦海岛",
+            "Andes 与高海拔"
+          ],
+          "answer": 3,
+          "explanation": "安第斯山与高海拔是重要地理线索。还要查温度、水源和具体葡萄园条件，不能只靠海拔直接断定风味。"
+        }
+      ],
+      "practice": "画出太平洋、智利、安第斯山和阿根廷的相对位置，再标 Maipo、Casablanca 与 Mendoza。为每一处写一个品种联系，以及一项还需查证的种植条件。"
     }
   ]
 }
