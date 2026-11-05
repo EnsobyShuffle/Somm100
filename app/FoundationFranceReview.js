@@ -7,6 +7,7 @@ import {mappedReviewUnit} from '../lib/foundation-quiz.mjs';
 import FoundationDiagram from './FoundationDiagram.js';
 import FoundationRhoneMapGuide from './FoundationRhoneMapGuide.js';
 import FoundationBurgundyMapGuide from './FoundationBurgundyMapGuide.js';
+import FoundationFranceMapGuide from './FoundationFranceMapGuide.js';
 import './foundation-study.css';
 
 const h = React.createElement;
@@ -46,7 +47,7 @@ export default function FoundationFranceReview() {
   }
   return h('section', {className: 'white-panel foundation-study', id: 'foundation-france-review', 'aria-labelledby': 'foundation-france-title'},
     h('h2', {id: 'foundation-france-title'}, '法国专题｜连接品种与产区'),
-    h('p', null, '六个专题帮助你把地名、气候、品种与风格连起来。它们是共享复习材料，暂不指定为某一天的完整课堂安排；勃艮第与罗讷河单元附官方地图入口与读图练习，其余地图仍待补充。'),
+    h('p', null, '六个专题帮助你把地名、气候、品种与风格连起来。它们是共享复习材料，暂不指定为某一天的完整课堂安排；总览单元附第三方地图入口，勃艮第与罗讷河单元附官方地图入口；均配有读图练习，其他专题地图仍待补充。'),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，独立于课前、D1 和 D2 记录，不同步到账号或讲师端。'),
     error ? h('p', {role: 'alert'}, error) : null,
     h('div', {className: 'foundation-study-controls'},
@@ -57,6 +58,7 @@ export default function FoundationFranceReview() {
       h('h3', null, unit.title),
       unit.sections.map((section, i) => h('section', {key: i}, h('h4', null, section.heading), h('p', null, section.text))),
       h(FoundationDiagram, {unitId: unit.id}),
+      unit.id === 'foundation-france-01' ? h(FoundationFranceMapGuide) : null,
       unit.id === 'foundation-france-03' ? h(FoundationBurgundyMapGuide) : null,
       unit.id === 'foundation-france-05' ? h(FoundationRhoneMapGuide) : null,
       h('fieldset', null, h('legend', null, '知识点自查 · 理解后勾选'),

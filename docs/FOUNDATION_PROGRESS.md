@@ -1,3 +1,25 @@
+# Foundation · 2026-11-06 · France overview location guide
+
+Checked 2026-11-06T07:40:51.193880+08:00. Authoritative base aeb7cff5e3be12c897e685a7e04d1c9d1798f54e on migration/tencent-somm100. Read current migration/progress checkpoints and France curriculum; five existing target files exactly matched remote before edits. Remote head rechecked unchanged before commit preparation.
+
+- Added app/FoundationFranceMapGuide.js to France01: eight bilingual place-name anchors, three original location tasks and expandable checking guidance. Explicitly distinguishes spelling cards from a geographical map. Uses an external independent Vinatlas introduction/map entry; no map asset copied or rehosted. Existing review checks/questions/IDs/storage, instructors and images preserved. Tasks do not capture responses or auto-credit skills.
+- Refetched full canonical Notion France01 (40717d16de4c812a91a9e646c9e10af3; source metadata unverified). Actually opened Vinatlas introduction and data.gouv.fr reuse listing. The reuse listing does not make the atlas official or endorsed. No current regulatory totals published. Exact source evidence and two rejected candidate fetch errors recorded in docs/qa/foundation-france-map-20261106.json.
+- Foundation tests69/69 passed. SSR checked8 anchors,3 tasks, labelled heading and safe external link. Clean CloudBase build PASS:472 public files,35 markers, mounts / and /somm100/. Entry ./assets/index-CnikZC3D.js, SHA256 8385664acefc6a2d2f02ebbf21d3527d6daaaf7375b0070004b6c92381c8d8c1. Pinned build-only dependency subset used; full frozen-lockfile install remains unverified. Existing approximately12MB main entry remains a performance limitation.
+- Saved for guarded source commit/readback. Not deployed or live-verified. Actual atlas interaction and mainland/mobile access untested. Prior Chromium socket permission error unresolved; no repeat or bypass. No billing, DNS, ICP, legacy Netlify or paused-task action.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews,25 independent questions |
+| D2/France | 9+6 reviews,42 independent questions; NEW France overview8 anchors and3 map tasks |
+| D3 | 13 reviews,30 independent questions |
+| D4 | 15 reviews,45 independent questions |
+| D5 | Current classroom teaching/assessment placement pending |
+| D6 | Cohort22 five classroom days; no sixth schedule |
+
+D1–D4 are knowledge-library labels, not verified current cohort daily allocations. Next: obtain actual cohort22 five-day PPT/day mapping, address remaining regional location aids, and complete supported browser phone/bridge/backup checks plus independent Tencent version acceptance. Do not describe the course or launch as complete.
+
+---
+
 # Foundation · 2026-11-06 · Burgundy map-reading guide
 
 Checked 2026-11-06T05:40:07.138447+08:00. Base cda0bbc9972e812162bc80919a69638c4adfa563 on migration/tencent-somm100. Read current migration/progress checkpoints and France curriculum. Five key local files exactly matched remote before editing.

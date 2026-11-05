@@ -1,0 +1,63 @@
+{
+  "baseCommit": "aeb7cff5e3be12c897e685a7e04d1c9d1798f54e",
+  "checkedAt": "2026-11-06T07:39:12.024982+08:00",
+  "source": {
+    "notion": "https://app.notion.com/p/40717d16de4c812a91a9e646c9e10af3",
+    "editedAt": "2026-10-28T19:48:03.553Z",
+    "verification": "unverified",
+    "read": "Full content through closing tag; no truncation or unknown-block metadata supplied."
+  },
+  "webSources": [
+    {
+      "url": "https://vinatlas.fr/fr/decouvrir/",
+      "finding": "Actually opened introductory page with map entry and public source attribution. Independent resource, not an official INAO website. No image rehosted and no regulatory totals used."
+    },
+    {
+      "url": "https://www.data.gouv.fr/reuses/vinatlas",
+      "finding": "Actually opened reuse listing attributed to Eric Foucault, describes INAO public-data reuse; listing is not a government endorsement or atlas interaction test."
+    }
+  ],
+  "failedCandidates": [
+    {
+      "url": "https://agreste.agriculture.gouv.fr/agreste-web/download/publication/publie/Infographie-2024-1-en/infographie_congres_mondial_vigne_vin_2024_EN.pdf",
+      "error": "Failed to fetch restricted URL",
+      "used": false
+    },
+    {
+      "url": "https://pre-webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2022-08/03-wine-route-france.pdf?VersionId=p_KcfeBCDmKKTmRIwy.aA.dRIFZkbZcw",
+      "error": "(400) Content length is too large: 22347796",
+      "used": false
+    }
+  ],
+  "implementation": "8 original bilingual place-name anchors,3 original tasks and expandable guidance integrated in France01. Third-party status explicit. Existing storage and checks/questions unchanged. One obsolete no-map paragraph updated. No copied map assets.",
+  "validation": {
+    "foundationPassed": 69,
+    "foundationFailed": 0,
+    "ssr": "8 anchors and3 tasks, accessible heading and safe link rendered",
+    "browser": false,
+    "mainlandExternalAccess": false,
+    "deployed": false,
+    "build": {
+      "status": "PASS",
+      "scope": "offline-build-only",
+      "files": 472,
+      "entry": "./assets/index-CnikZC3D.js",
+      "entryBytes": 12027123,
+      "entrySha256": "8385664acefc6a2d2f02ebbf21d3527d6daaaf7375b0070004b6c92381c8d8c1",
+      "foundationMarkers": 35,
+      "mounts": [
+        "/",
+        "/somm100/"
+      ],
+      "deployed": false,
+      "browserVerified": false
+    },
+    "buildDependencyScope": "Pinned build-only dependency subset; full frozen-lockfile install not verified"
+  },
+  "remaining": [
+    "Current five-day cohort PPT/day mapping missing",
+    "Actual atlas map interaction and mobile checks unverified",
+    "Prior Chromium socket permission error unresolved",
+    "Tencent deployed version unverified"
+  ]
+}

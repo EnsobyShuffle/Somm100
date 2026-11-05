@@ -876,5 +876,15 @@
     "diagram": "original-north-south-sequence-not-scale-map",
     "status": "integrated-local-tests-passed-not-live",
     "qaFile": "docs/qa/foundation-burgundy-map-20261106.json"
+  },
+  "franceOverviewRelease": {
+    "date": "2026-11-06",
+    "component": "app/FoundationFranceMapGuide.js",
+    "unitId": "foundation-france-01",
+    "anchors": 8,
+    "tasks": 3,
+    "mapType": "third-party-external-resource-not-official-or-embedded",
+    "qaFile": "docs/qa/foundation-france-map-20261106.json",
+    "status": "integrated-local-tested-not-live"
   }
 }
