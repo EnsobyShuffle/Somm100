@@ -170,7 +170,7 @@
     },
     {
       "day": 3,
-      "status": "first-five-of-thirteen-review-units-integrated-local-only"
+      "status": "all-thirteen-review-units-integrated-current-build-and-live-pending"
     },
     {
       "day": 4,
@@ -551,7 +551,7 @@
     "status": "editorial-draft-tested-not-imported",
     "publicationReady": false,
     "sourceInventory": "docs/qa/foundation-d34-source-inventory-20261105.json",
-    "next": "Fact QA, current cohort alignment, then student UI and full build/mobile tests"
+    "next": "See d3Release for the reviewed student version. Standalone quiz and current cohort assignment pending."
   },
   "d4Draft": {
     "file": "docs/staging/foundation-d4-review.json",
@@ -572,22 +572,13 @@
   },
   "d3Release": {
     "file": "data/foundation-d3.json",
-    "units": 5,
-    "checks": 24,
-    "questions": 15,
+    "units": 13,
+    "checks": 72,
+    "questions": 39,
     "sourceDraft": "docs/staging/foundation-d3-review.json",
     "storage": "somm100.foundation.d3-review.v1",
     "cohortDayConfirmed": false,
-    "status": "student-ui-local-build-and-narrow-browser-verified",
-    "remainingUnitNumbers": [
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13
-    ]
+    "status": "all-review-units-integrated-source-and-progress-checked-current-build-and-browser-pending",
+    "remainingUnitNumbers": []
   }
 }

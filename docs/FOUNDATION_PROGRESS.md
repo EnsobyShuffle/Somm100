@@ -1,3 +1,24 @@
+# Foundation · 2026-11-05 · D3 European regions, units 6–13
+
+Base 69cf0fff4919b9556c16ac604203df8e7a712563 on migration/tencent-somm100. Continued from the five-unit student release and the 13-unit D3 editorial draft. Verified the current Foundation route and existing browser storage key. No schedule assigned to these review units.
+
+- Added eight units in data/foundation-d3.json with individual practice tasks, 48 additional self-checks and 24 questions with feedback. Public total is 13 units, 72 checks and 39 questions. Kept the first five units identical and preserved question/check IDs, source answer positions and the local progress schema. Updated the existing D3 introduction and release tests. The separate 30-question course quiz remains in the source inventory.
+- Specific edits include Tinto Fino as a regional name for Tempranillo, Garnatxa/Carinyena in Priorat, Albariño/Alvarinho in cross-border label reading, Cava's bottle secondary fermentation, dry versus fortified wines of the Douro, Spätlese and trocken as separate clues on German still-wine labels, Wachau on the Danube, and examples from Santorini and Tokaj. Kept detailed regulatory thresholds outside the material.
+
+## Sources checked for the added units
+
+- D3 06–08: [Rioja](https://riojawine.com/es/doca-rioja/variedades-de-uva/tempranillo/), [Ribera del Duero](https://www.riberadelduero.es/la-do-ribera-del-duero/variedades-de-uva), [Priorat](https://www.doqpriorat.org/en/varietals/), [Galician Wine Museum](https://museovinogalicia.xunta.gal/es/el-vino/uvas-y-vinos-de-galicia/albarino), [Cava Regulatory Board](https://www.cava.wine/en/news-articles/types-and-varieties-of-cava-differences-between-the-various-types-of-cava/).
+- D3 09: [Vinho Verde](https://www.winesofportugal.com/pt/descobrir/regioes-vitivinicolas/vinho-verde/), [Alvarinho](https://winesofportugal.com/en/portuguese-wines/grape-varieties/alvarinho/), [IVDP wine guide](https://digital.ivdp.pt/en/consumer-e-protection/choose-and-enjoy/).
+- D3 10–13: [German Wine Institute, Prädikate](https://www.winesofgermany.com/our-wine/quality-standards/quality-standard/449/pr%C3%A4dikate), [sweetness indications](https://www.winesofgermany.com/our-wine/wine-tasting/wine-tasting/195/geschmacksrichtungen), [Austrian Wine, Wachau section](https://www.austrianwine.com/fileadmin/user_upload/PDF/Broschueren/7_Elemente_DE_202405_web.pdf), [Wines of Greece](https://winesofgreece.org/pdo/pdo-santorini/), [Tokaj dry Furmint example](https://osakaexpo.winesofhungary.hu/wines/chateau-dereszla-furmint-dry-2023/).
+
+## Verification and continuation
+
+Ran the three release-test assertion bodies with the repository's actual progress and answer functions in V8 using equivalent assertions, including saving a record against the previous five-unit set, restoring it against the 13-unit set, saving a Portuguese-unit answer and restoring old and new answers together. Confirmed the first five unit objects are identical, every current question has four distinct choices and the runtime dataset excludes private source metadata. Node, CloudBase build and browser checks were not available this run. Exact executor message: “No usable execution environment is available. Wait for an environment to become available before using this tool.” The earlier 33 tests, full build and 375px browser check apply to the previous five-unit release only. Tencent deployment and public acceptance pending.
+
+Next: run the Node Foundation suite and CloudBase production build, then reach units 6, 9, 11 and 13 from the menu at phone width and verify stored answers after reload. Review and integrate a coherent D4 batch using the same regional UI where suitable. D1/D2 existing review and shared France integrated; D3 complete review set in branch; D4 15 editorial units plus separate interactive sparkling exercise; D5 assignment pending; current cohort22 has five classroom days. No old Netlify actions or cloud configuration changes.
+
+---
+
 # Foundation — 2026-11-05 09:34 CST · Europe review, units 1–5
 
 Based on 9742f53ae06f6601db743ed65b174d9571cdec00 on migration/tencent-somm100. Read current migration checkpoint, course checkpoint, source map and school draft. Netlify stop-build guard confirmed.
