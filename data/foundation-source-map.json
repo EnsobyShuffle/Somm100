@@ -752,6 +752,22 @@
     "storage": "somm100.foundation.d3-quiz.v1",
     "status": "student-ui-integrated-node-tests-local-build-passed-browser-and-live-pending",
     "cohortDayConfirmed": false,
-    "scope": "30 standalone practice questions; first/latest local answers, feedback and links selecting mapped D3 review units; no pass threshold"
+    "scope": "30 standalone practice questions; first/latest local answers, feedback and links selecting mapped D3 review units; no pass threshold",
+    "sharedComponent": "app/FoundationQuiz.js"
+  },
+  "d4QuizRelease": {
+    "file": "data/foundation-d4-quiz.json",
+    "component": "app/FoundationD4Quiz.js",
+    "sharedComponent": "app/FoundationQuiz.js",
+    "helper": "lib/foundation-quiz.mjs",
+    "questions": 45,
+    "source": "https://app.notion.com/p/40717d16de4c81d49a25ccf54a780b3c?pvs=204",
+    "sourceEditedAt": "2026-10-28T20:11:46.220Z",
+    "sourceVerification": "unverified",
+    "readAt": "2026-11-05T18:29:39.212984+08:00",
+    "storage": "somm100.foundation.d4-quiz.v1",
+    "status": "student-ui-integrated-node-tests-local-build-passed-browser-and-live-pending",
+    "cohortDayConfirmed": false,
+    "scope": "45 standalone self-checks across 15 existing reviews; first/latest browser-local answers, mapped review navigation; no pass threshold"
   }
 }

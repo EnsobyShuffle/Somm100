@@ -1,0 +1,772 @@
+{
+  "schemaVersion": 1,
+  "id": "foundation-d4-quiz",
+  "title": "D4｜工艺与世界产区综合自测",
+  "questions": [
+    {
+      "id": "foundation-d4-quiz-01",
+      "number": 1,
+      "group": "起泡酒与香槟",
+      "prompt": "起泡酒中的气泡最常与哪一个过程直接相关？",
+      "options": [
+        "橡木桶烘烤",
+        "发酵产生二氧化碳",
+        "葡萄园灌溉",
+        "酒标印刷"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-01"
+      ],
+      "explanation": "二氧化碳是酒精发酵的产物。这里关注的是气体如何被保留，不是橡木或葡萄园操作。"
+    },
+    {
+      "id": "foundation-d4-quiz-02",
+      "number": 2,
+      "group": "起泡酒与香槟",
+      "prompt": "为什么密闭环境有助于形成起泡酒？",
+      "options": [
+        "让葡萄变甜",
+        "降低葡萄园温度",
+        "让发酵产生的二氧化碳保留在酒中",
+        "自动增加单宁"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-01"
+      ],
+      "explanation": "密闭耐压容器使二氧化碳不易逸散，并在压力下溶解于酒中；开瓶降压后才逐渐释放。"
+    },
+    {
+      "id": "foundation-d4-quiz-03",
+      "number": 3,
+      "group": "起泡酒与香槟",
+      "prompt": "比较本组瓶中与罐中二次发酵的起泡酒时，应先问什么？",
+      "options": [
+        "酒瓶颜色是什么",
+        "酒庄 logo 是什么",
+        "谁先上市",
+        "第二次发酵在哪里发生"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-01"
+      ],
+      "explanation": "先确定二次发酵容器，再看品种、酒泥接触和熟成，才能有依据地比较风格。"
+    },
+    {
+      "id": "foundation-d4-quiz-04",
+      "number": 4,
+      "group": "起泡酒与香槟",
+      "prompt": "关于 Champagne，哪项最准确？",
+      "options": [
+        "Champagne 首先是 法国 的特定葡萄酒产区名称",
+        "所有起泡酒都可叫 Champagne",
+        "Champagne 是葡萄品种",
+        "Champagne 是橡木桶类型"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-02"
+      ],
+      "explanation": "Champagne 指向法国特定产区，不是葡萄品种，也不是所有起泡酒的通称。"
+    },
+    {
+      "id": "foundation-d4-quiz-05",
+      "number": 5,
+      "group": "起泡酒与香槟",
+      "prompt": "Champagne 冷凉气候的重要优势之一是什么？",
+      "options": [
+        "一定让酒更甜",
+        "帮助葡萄保留较高酸度",
+        "一定增加单宁",
+        "让葡萄不需要成熟"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-02"
+      ],
+      "explanation": "较冷凉条件有助于成熟葡萄保留酸度。酸度与糖的平衡比单纯追求更高酸度更有意义。"
+    },
+    {
+      "id": "foundation-d4-quiz-06",
+      "number": 6,
+      "group": "起泡酒与香槟",
+      "prompt": "以下哪个不是 Champagne 三个核心传统葡萄品种之一？",
+      "options": [
+        "Chardonnay",
+        "Pinot Noir",
+        "Cabernet Sauvignon",
+        "Meunier"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-02"
+      ],
+      "explanation": "最常见的三个品种是 Chardonnay、Pinot Noir 和 Meunier。Cabernet Sauvignon 不在这三个之中。"
+    },
+    {
+      "id": "foundation-d4-quiz-07",
+      "number": 7,
+      "group": "起泡酒与香槟",
+      "prompt": "传统法第二次发酵发生在哪里？",
+      "options": [
+        "葡萄园",
+        "酒杯中",
+        "土壤中",
+        "瓶中"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-03"
+      ],
+      "explanation": "传统法把第二次发酵放在瓶内，二氧化碳在密闭条件下保留下来。"
+    },
+    {
+      "id": "foundation-d4-quiz-08",
+      "number": 8,
+      "group": "起泡酒与香槟",
+      "prompt": "传统法酒泥陈年最容易带来哪类影响？",
+      "options": [
+        "增加面包、酵母类复杂香气和质地",
+        "让葡萄园海拔升高",
+        "让酒标年份变化",
+        "改变葡萄品种"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-03"
+      ],
+      "explanation": "酒泥接触和酵母自溶可以影响香气与质地；不是改变葡萄品种，也不保证每瓶酒都有同样香气。"
+    },
+    {
+      "id": "foundation-d4-quiz-09",
+      "number": 9,
+      "group": "起泡酒与香槟",
+      "prompt": "Disgorgement 最接近哪一步？",
+      "options": [
+        "采收",
+        "除去瓶中沉淀",
+        "压榨",
+        "第二次发酵"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-03"
+      ],
+      "explanation": "除渣负责移走已集中到瓶颈的沉淀。转瓶负责集中沉淀，二次发酵负责产生气体，三步目的不同。"
+    },
+    {
+      "id": "foundation-d4-quiz-10",
+      "number": 10,
+      "group": "起泡酒与香槟",
+      "prompt": "Prosecco 最重要的核心葡萄品种是？",
+      "options": [
+        "Chardonnay",
+        "Riesling",
+        "Glera",
+        "Nebbiolo"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-04"
+      ],
+      "explanation": "Glera 是 Prosecco 的核心葡萄品种。Chardonnay 和 Pinot Noir 与其他起泡酒有关，不能仅凭“起泡酒”推断品种。"
+    },
+    {
+      "id": "foundation-d4-quiz-11",
+      "number": 11,
+      "group": "起泡酒与香槟",
+      "prompt": "Cava 采用哪种起泡酒酿造方法？",
+      "options": [
+        "直接充气法",
+        "完全不发酵",
+        "蒸馏法",
+        "传统法"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-04"
+      ],
+      "explanation": "Cava 采用传统法，第二次发酵发生在瓶内。罐式法是本组常见 Prosecco 酒款的比较对象。"
+    },
+    {
+      "id": "foundation-d4-quiz-12",
+      "number": 12,
+      "group": "起泡酒与香槟",
+      "prompt": "哪个组合最合理？",
+      "options": [
+        "Prosecco → 意大利 → Glera",
+        "Prosecco → 法国 → Pinot Noir",
+        "Cava → 葡萄牙 → Touriga Nacional",
+        "Franciacorta → 德国 → Riesling"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-04"
+      ],
+      "explanation": "Prosecco 来自意大利，以 Glera 为核心品种。把国家、产区、品种分列，能避免用熟悉的名词随意组合。"
+    },
+    {
+      "id": "foundation-d4-quiz-13",
+      "number": 13,
+      "group": "加强型葡萄酒",
+      "prompt": "本组所学加强型葡萄酒的核心工艺是什么？",
+      "options": [
+        "加入二氧化碳",
+        "加入葡萄蒸馏酒提高酒精度",
+        "一定加入糖",
+        "一定使用新橡木桶"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-05"
+      ],
+      "explanation": "加强通过添加蒸馏酒提高酒精度。本组所学实例使用葡萄来源的蒸馏酒或酒精，不能把起泡、加糖或过桶当成加强的定义。"
+    },
+    {
+      "id": "foundation-d4-quiz-14",
+      "number": 14,
+      "group": "加强型葡萄酒",
+      "prompt": "如果在发酵尚未结束时加强，最可能发生什么？",
+      "options": [
+        "葡萄重新成熟",
+        "酸度自动消失",
+        "发酵停止并保留部分糖分",
+        "单宁全部消失"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-05"
+      ],
+      "explanation": "酒精度升高到能抑制酵母的程度，发酵停止，尚未转化的糖得以保留。这里保留的是葡萄原有糖分。"
+    },
+    {
+      "id": "foundation-d4-quiz-15",
+      "number": 15,
+      "group": "加强型葡萄酒",
+      "prompt": "关于加强型葡萄酒，哪项最合理？",
+      "options": [
+        "全部是甜酒",
+        "全部来自 葡萄牙",
+        "全部使用同一种熟成方式",
+        "可以有干型，也可以有甜型"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-05"
+      ],
+      "explanation": "Port 常用发酵中加强来保留糖分，经典干型雪莉则说明先发酵至干后加强可以得到干型酒。甜度与熟成还要分别判断。"
+    },
+    {
+      "id": "foundation-d4-quiz-16",
+      "number": 16,
+      "group": "加强型葡萄酒",
+      "prompt": "Port 最重要的葡萄种植区域是？",
+      "options": [
+        "Douro",
+        "Mosel",
+        "Burgundy",
+        "Napa Valley"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-06"
+      ],
+      "explanation": "Port 的葡萄来自葡萄牙杜罗法定产区。Porto 与 Vila Nova de Gaia 的贸易和熟成历史，也不能代替葡萄种植产地。"
+    },
+    {
+      "id": "foundation-d4-quiz-17",
+      "number": 17,
+      "group": "加强型葡萄酒",
+      "prompt": "Port 通常为什么会保留明显甜度？",
+      "options": [
+        "一定在装瓶后加糖",
+        "发酵尚未结束时加强，使部分糖分保留",
+        "葡萄完全不发酵",
+        "使用甜橡木桶"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-06"
+      ],
+      "explanation": "在糖尚未耗尽时加入蒸馏酒，中止发酵，是典型 Port 保留甜度的关键。不能把甜度直接归因于橡木桶。"
+    },
+    {
+      "id": "foundation-d4-quiz-18",
+      "number": 18,
+      "group": "加强型葡萄酒",
+      "prompt": "以下哪个不是 Port 常见类别名称？",
+      "options": [
+        "Ruby",
+        "Tawny",
+        "Kabinett",
+        "Vintage"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-06"
+      ],
+      "explanation": "Ruby、Tawny 和 Vintage 都是 Port 的常见类别名称。Kabinett 属于德国酒标的另一套术语。"
+    },
+    {
+      "id": "foundation-d4-quiz-19",
+      "number": 19,
+      "group": "加强型葡萄酒",
+      "prompt": "Sherry 最经典的产区是？",
+      "options": [
+        "Douro",
+        "Mosel",
+        "Barolo",
+        "Jerez"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-07"
+      ],
+      "explanation": "Sherry 与西班牙南部 Jerez 区域相连。Douro 是 Port 的重要产地，不能因两者都常被放进加强酒课程就混淆。"
+    },
+    {
+      "id": "foundation-d4-quiz-20",
+      "number": 20,
+      "group": "加强型葡萄酒",
+      "prompt": "Flor 最接近什么？",
+      "options": [
+        "酒液表面的酵母膜",
+        "葡萄园土壤",
+        "橡木桶类型",
+        "葡萄品种"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-07"
+      ],
+      "explanation": "Flor 是酒液表面参与生物熟成的活酵母膜，不是土壤、橡木桶或葡萄品种。"
+    },
+    {
+      "id": "foundation-d4-quiz-21",
+      "number": 21,
+      "group": "加强型葡萄酒",
+      "prompt": "关于 Sherry，哪项最合理？",
+      "options": [
+        "全部是甜酒",
+        "很多经典风格是干型，并可通过不同熟成方式形成明显差异",
+        "全部使用红葡萄",
+        "全部只做氧化熟成"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-07"
+      ],
+      "explanation": "Fino、Manzanilla、Oloroso 和 Amontillado 可帮助认识干型雪莉与不同熟成路径。Flor 与 Solera 也不能当作同一个概念。"
+    },
+    {
+      "id": "foundation-d4-quiz-22",
+      "number": 22,
+      "group": "加强型葡萄酒",
+      "prompt": "Madeira 属于哪个国家？",
+      "options": [
+        "西班牙",
+        "德国",
+        "葡萄牙",
+        "阿根廷"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-08"
+      ],
+      "explanation": "Madeira 属于葡萄牙，位于大西洋。国家与岛屿产区应分别记录。"
+    },
+    {
+      "id": "foundation-d4-quiz-23",
+      "number": 23,
+      "group": "加强型葡萄酒",
+      "prompt": "Madeira 风格形成的重要特点之一是什么？",
+      "options": [
+        "完全避免氧气与热",
+        "一定冷冻葡萄",
+        "只使用罐式二次发酵",
+        "受控的加热与氧化影响"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-08"
+      ],
+      "explanation": "Madeira 的受控加热或温暖环境中的氧化熟成，是形成风格的重要部分。它不是起泡酒的二次发酵工艺。"
+    },
+    {
+      "id": "foundation-d4-quiz-24",
+      "number": 24,
+      "group": "加强型葡萄酒",
+      "prompt": "以下哪个不是 Madeira 常见的重要品种 / 风格名称？",
+      "options": [
+        "Nebbiolo",
+        "Sercial",
+        "Verdelho",
+        "Malvasia"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-08"
+      ],
+      "explanation": "Sercial、Verdelho、Malvasia 都是进入 Madeira 品种与风格学习的常见名称。Nebbiolo 是另一个产区学习中认识的红葡萄品种。"
+    },
+    {
+      "id": "foundation-d4-quiz-25",
+      "number": 25,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "关于“新世界风格”，哪项最合理？",
+      "options": [
+        "所有新世界酒都高酒精浓果味",
+        "“新世界”包含很多不同国家，不能用一个固定风格概括",
+        "新世界没有产区制度",
+        "新世界只种国际品种"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-09"
+      ],
+      "explanation": "“新世界”涵盖不同国家和产区，不能规定统一的酒精度、果味或品质，也不意味着缺少产区制度。"
+    },
+    {
+      "id": "foundation-d4-quiz-26",
+      "number": 26,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "很多新世界酒标对初学者比较直接的原因之一是什么？",
+      "options": [
+        "通常不写产区",
+        "全部用同一种瓶型",
+        "很多酒会直接标注葡萄品种",
+        "所有酒都写中文"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-09"
+      ],
+      "explanation": "直接标出的葡萄品种有助于建立入口。接下来仍要看产区、年份与生产者，而不是只读品种名。"
+    },
+    {
+      "id": "foundation-d4-quiz-27",
+      "number": 27,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "学习新世界国家最合理的方法是什么？",
+      "options": [
+        "只背品牌",
+        "只背酒精度",
+        "只看品种",
+        "继续用国家、地理、品种、产区、风格的框架"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-09"
+      ],
+      "explanation": "国家、地理、品种、产区和风格要连接起来，并用具体资料支持判断；只看品牌或酒精度会丢失背景。"
+    },
+    {
+      "id": "foundation-d4-quiz-28",
+      "number": 28,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Napa Valley 最经典的葡萄品种联系之一是？",
+      "options": [
+        "Cabernet Sauvignon",
+        "Nebbiolo",
+        "Riesling",
+        "Pinotage"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-10"
+      ],
+      "explanation": "Cabernet Sauvignon 是 Napa Valley 的重要代表红葡萄品种。这个联系并不排除当地生产其他品种。"
+    },
+    {
+      "id": "foundation-d4-quiz-29",
+      "number": 29,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Willamette Valley 最经典的红葡萄品种联系之一是？",
+      "options": [
+        "Syrah",
+        "Pinot Noir",
+        "Tempranillo",
+        "Malbec"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-10"
+      ],
+      "explanation": "Willamette Valley 与 Pinot Noir 有重要联系。Icewine 是本节加拿大工艺案例，不能用来解释俄勒冈的品种问题。"
+    },
+    {
+      "id": "foundation-d4-quiz-30",
+      "number": 30,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "加拿大最有代表性的特殊葡萄酒风格之一是？",
+      "options": [
+        "Amarone",
+        "Sherry",
+        "Icewine",
+        "Cava"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-10"
+      ],
+      "explanation": "Icewine 以自然冻结的葡萄压榨取得浓缩汁，是加拿大的重要代表风格之一，也不能代表其全部葡萄酒。"
+    },
+    {
+      "id": "foundation-d4-quiz-31",
+      "number": 31,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Barossa Valley 最经典的红葡萄品种联系之一是？",
+      "options": [
+        "Pinot Noir",
+        "Gamay",
+        "Nebbiolo",
+        "Shiraz"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-11"
+      ],
+      "explanation": "Barossa Valley 与 Shiraz 是重要联系。澳大利亚其他产区也生产 Shiraz，品种不能代替具体产地。"
+    },
+    {
+      "id": "foundation-d4-quiz-32",
+      "number": 32,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Marlborough 最经典的葡萄品种联系是？",
+      "options": [
+        "Sauvignon Blanc",
+        "Cabernet Franc",
+        "Tempranillo",
+        "Sangiovese"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-11"
+      ],
+      "explanation": "Marlborough 因 Sauvignon Blanc 闻名，学习时仍应继续查子产区与酒款资料。"
+    },
+    {
+      "id": "foundation-d4-quiz-33",
+      "number": 33,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Central Otago 最经典的红葡萄品种之一是？",
+      "options": [
+        "Cabernet Sauvignon",
+        "Pinot Noir",
+        "Grenache",
+        "Malbec"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-11"
+      ],
+      "explanation": "Pinot Noir 是 Central Otago 的代表红葡萄品种。内陆地形与子产区差异有助于解释不同酒款的表现。"
+    },
+    {
+      "id": "foundation-d4-quiz-34",
+      "number": 34,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Maipo Valley 最经典的红葡萄品种联系之一是？",
+      "options": [
+        "Nebbiolo",
+        "Riesling",
+        "Cabernet Sauvignon",
+        "Pinotage"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-12"
+      ],
+      "explanation": "Maipo Valley 的重要代表品种是 Cabernet Sauvignon。学习时将它与海洋影响较明显的 Casablanca 区分。"
+    },
+    {
+      "id": "foundation-d4-quiz-35",
+      "number": 35,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Mendoza 最经典的红葡萄品种联系是？",
+      "options": [
+        "Gamay",
+        "Sangiovese",
+        "Pinot Gris",
+        "Malbec"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-12"
+      ],
+      "explanation": "Malbec 是 Mendoza 的重要代表品种。它也生长在其他地方，因此品种与产区要同时记录。"
+    },
+    {
+      "id": "foundation-d4-quiz-36",
+      "number": 36,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "阿根廷 葡萄酒学习中非常重要的地理关键词是什么？",
+      "options": [
+        "安第斯山 与高海拔",
+        "低海拔热带雨林",
+        "北海沿岸",
+        "平坦海岛"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-12"
+      ],
+      "explanation": "安第斯山与高海拔是重要地理线索。还要查温度、水源和具体葡萄园条件，不能只靠海拔直接断定风味。"
+    },
+    {
+      "id": "foundation-d4-quiz-37",
+      "number": 37,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "南非 非常重要的白葡萄品种之一是？",
+      "options": [
+        "Nebbiolo",
+        "Chenin Blanc",
+        "Tempranillo",
+        "Sangiovese"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-13"
+      ],
+      "explanation": "Chenin Blanc 是南非重要白葡萄品种，也与卢瓦尔河谷相连。其他选项是红葡萄品种。"
+    },
+    {
+      "id": "foundation-d4-quiz-38",
+      "number": 38,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Pinotage 与哪个国家的代表性联系最强？",
+      "options": [
+        "葡萄牙",
+        "德国",
+        "南非",
+        "奥地利"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-13"
+      ],
+      "explanation": "Pinotage 与南非有鲜明联系，是当地培育的代表红葡萄品种。国家联系并不能代替具体酒款资料。"
+    },
+    {
+      "id": "foundation-d4-quiz-39",
+      "number": 39,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "Pinotage 来自哪两个品种的杂交？",
+      "options": [
+        "Cabernet Sauvignon × Merlot",
+        "Syrah × Grenache",
+        "Riesling × Chardonnay",
+        "Pinot Noir × Cinsault"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-13"
+      ],
+      "explanation": "Pinotage 的亲本是 Pinot Noir 与 Cinsault。二者均属欧亚种葡萄，不能把这项亲缘关系当成固定风味公式。"
+    },
+    {
+      "id": "foundation-d4-quiz-40",
+      "number": 40,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "哪个中国葡萄酒区域最适合先与高海拔山地葡萄园联系？",
+      "options": [
+        "云南",
+        "山东",
+        "宁夏",
+        "河北"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-14"
+      ],
+      "explanation": "云南西北部山地葡萄园是本节的高海拔案例。具体葡萄园的温度和成熟条件仍需查证，不能推广为全省统一条件。"
+    },
+    {
+      "id": "foundation-d4-quiz-41",
+      "number": 41,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "哪个中国葡萄酒区域受沿海湿度与降雨影响更明显？",
+      "options": [
+        "新疆",
+        "山东",
+        "宁夏",
+        "云南西北部"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-14"
+      ],
+      "explanation": "山东沿海如烟台更适合用于认识海洋影响、湿度和降雨。省内也存在差异，不能把所有地点视为相同。"
+    },
+    {
+      "id": "foundation-d4-quiz-42",
+      "number": 42,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "关于中国葡萄酒，哪项最合理？",
+      "options": [
+        "所有区域气候相同",
+        "只需要学 Cabernet Sauvignon",
+        "不同区域差异很大，必须从地理与气候开始学习",
+        "只需要背酒庄"
+      ],
+      "answer": 2,
+      "unitIds": [
+        "foundation-d4-14"
+      ],
+      "explanation": "中国各区域的种植条件差异很大，应从地理和气候入手，再联系品种、生产者和具体酒款。"
+    },
+    {
+      "id": "foundation-d4-quiz-43",
+      "number": 43,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "关于中国葡萄品种，哪项最合理？",
+      "options": [
+        "中国只有 Cabernet Sauvignon",
+        "中国只适合红葡萄品种",
+        "地方品种没有学习价值",
+        "除 Cabernet Sauvignon 外，还应认识 Marselan、Chardonnay、蛇龙珠等"
+      ],
+      "answer": 3,
+      "unitIds": [
+        "foundation-d4-15"
+      ],
+      "explanation": "除赤霞珠外，霞多丽、马瑟兰和蛇龙珠等名称也属于学习入口。品种与产区需结合，不能只认识一种葡萄。"
+    },
+    {
+      "id": "foundation-d4-quiz-44",
+      "number": 44,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "学一个中国 生产者 前，最合理的基础是什么？",
+      "options": [
+        "先知道它所在区域、气候、品种与大概风格",
+        "先背售价",
+        "先背获奖数量",
+        "先看包装设计"
+      ],
+      "answer": 0,
+      "unitIds": [
+        "foundation-d4-15"
+      ],
+      "explanation": "先理解所在区域、气候、品种与风格线索，才能继续追问生产者的种植和酿造选择。价格与奖项不能替代这些背景。"
+    },
+    {
+      "id": "foundation-d4-quiz-45",
+      "number": 45,
+      "group": "世界产区与中国葡萄酒",
+      "prompt": "基准酒款在课程里的主要作用是什么？",
+      "options": [
+        "只展示最贵的酒",
+        "用代表性酒款帮助理解一个产区、品种或风格能达到怎样的表达",
+        "只给投资参考",
+        "取代所有理论知识"
+      ],
+      "answer": 1,
+      "unitIds": [
+        "foundation-d4-15"
+      ],
+      "explanation": "基准酒款帮助具体呈现一个产区、品种或风格。选择需要资料和教学目的，也需要品鉴验证，不能取代理论或等同于最贵名单。"
+    }
+  ]
+}

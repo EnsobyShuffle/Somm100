@@ -1,3 +1,28 @@
+# Foundation · 2026-11-05 · D4 standalone 45-question self-check
+
+Checked 2026-11-05T18:29:39.212984+08:00. Base f03df8e913b2dd2883a2b4d4b8e1eedc1ec5814f, migration/tencent-somm100. Fresh branch head and local source blobs matched for nine key files. Read latest Foundation/CloudBase checkpoints, source map, quiz inventory and full canonical D4 quiz. No concurrent branch change observed at start; use expected-head update at publication.
+
+- Read all45 questions/options and45 answer rows from Notion 40717d16de4c81d49a25ccf54a780b3c (edited2026-10-28T20:11:46.220Z; unverified source metadata). All45 answer indices/IDs/unit mappings match prior inventory. Correct-option wording matches previously reviewed inline content after country translation/whitespace normalization. Reused45 original, previously fact-checked D4 explanations. Historical inventory remains historical; current delivery flags live in foundation-source-map.json.
+- Added data/foundation-d4-quiz.json and app/FoundationD4Quiz.js; integrated D4 self-check menu and section into existing Foundation. Three groups, one question at a time, first/latest answer feedback, previous/next, next-needs-review and15 mapped review destinations. Question3 explicitly scopes the bottle/tank comparison, Cava question11 uses definite method wording, question13 scopes the fortification definition to this group. Country names/Producer use Chinese; variety/region terms retained.
+- Extracted existing D3 workflow to app/FoundationQuiz.js. Both wrappers pass separate fixed data, prefix and storage keys. D3 data and old key unchanged. D4 uses somm100.foundation.d4-quiz.v1; existing review/pre-course records untouched. No account sync, passing grade or attendance completion claim. Brand, instructors and images preserved.
+- Actual Node suite49/49 passed; syntax checks for shared/D3/D4 components passed. Tests include final-question45 restore, wrong-to-correct first/latest history, review queue, corrupt/future protection and D3/D4 saved-state isolation. IDs/answers checked against source inventory for both sets.
+- Clean build:cloudbase passed: 461 public files,20 Foundation markers, root and /somm100/ asset/PWA checks. Entry ./assets/index-2G_FbFlg.js, SHA256 58a027b1618299394895f944324c7c47374329f3209e660d0c54a3476527c5b8. Pinned build-only dependency subset reused; not a full frozen-lockfile install. Existing main entry about12MB remains a performance issue.
+- Browser/mobile rendering, UI reload and mapped selection/scroll remain unverified. Prior supported Chromium launch denied socket() failed: Operation not permitted (1); no repeat or bypass this run. Environment status tool not exposed; /etc/codex/network-policy.json absent. These facts do not establish Tencent API availability. No Tencent deployment or current live URL verified.
+- Prepared atomic commit and all changed-file readback. Preserve [skip netlify] and netlify.toml ignore="exit 0". No unrelated tasks, paid services, DNS, ICP or Netlify actions.
+
+| Area | Content in source |
+| --- | --- |
+| D1 | 10 reviews/71 checks/30 inline questions; independent25-question quiz pending |
+| D2 | 9 reviews/64 checks/27 inline; shared France6/38/18 |
+| D3 | 13 reviews/72 checks/39 inline plus30 independent self-check questions |
+| D4 | 15 reviews/93 checks/45 inline plus NEW45 independent self-check questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 has five classroom days; no invented sixth day |
+
+Next: read canonical D1 standalone25 quiz source from inventory before integrating with isolated storage and review mapping; do not infer source from filename. Continue current five-day PPT/day alignment and permitted media. When supported browser execution is available, verify both quizzes at phone width, saved answers after reload and quiz-to-review navigation. Then independently verify Tencent deployment SHA and live pages. Foundation work is not fully complete; no pause/completion claim.
+
+---
+
 # Foundation · 2026-11-05 evening · D3 standalone self-check integration
 
 Base 0762804c2b86d4dc198622409ba6a9726be8d8ab on migration/tencent-somm100. Fresh branch, migration/progress checkpoint, source inventory/map and current Foundation review/navigation/helper read. Netlify stop-build guard preserved.

@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-11-05T18:29:39.212984+08:00",
+  "base": "f03df8e913b2dd2883a2b4d4b8e1eedc1ec5814f",
+  "source": {
+    "url": "https://app.notion.com/p/40717d16de4c81d49a25ccf54a780b3c?pvs=204",
+    "editedAt": "2026-10-28T20:11:46.220Z",
+    "verification": "unverified",
+    "questionRows": 45,
+    "answerRows": 45,
+    "mappingRows": 45,
+    "correctOptionsMatchExistingReviewedContent": 45,
+    "changes": [
+      "Country names and Producer translated into Chinese",
+      "Question 3 scoped to bottle/tank second-fermentation examples",
+      "Question 11 states Cava uses traditional method",
+      "Question 13 scoped to fortified wines covered in this group",
+      "45 explanations reused from previously fact-checked original D4 reviews; stable quiz answer indices and unit mappings preserved"
+    ]
+  },
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 49,
+    "failed": 0,
+    "coverage": [
+      "Both D3/D4 source IDs and mappings",
+      "Final question restore, first/latest retry history",
+      "Wrong-answer review queue updates",
+      "Corrupt/future records protected",
+      "D3/D4 quiz and lesson storage isolation"
+    ]
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 461,
+    "entry": "./assets/index-2G_FbFlg.js",
+    "entryBytes": 12025607,
+    "entrySha256": "58a027b1618299394895f944324c7c47374329f3209e660d0c54a3476527c5b8",
+    "foundationMarkers": 20,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "dependencies": "Pinned build subset reused; full frozen-lockfile install remains unverified",
+  "browser": {
+    "status": "pending",
+    "previousBlock": "Chromium launch denied: socket() failed: Operation not permitted (1)",
+    "newLaunchAttempt": false,
+    "untested": [
+      "375px layout",
+      "quiz answer/refresh UI",
+      "mapped review selection and scroll",
+      "D3/D4 shared component rendering"
+    ]
+  },
+  "deployed": false,
+  "onlineVerified": false,
+  "cohortDayConfirmed": false
+}
