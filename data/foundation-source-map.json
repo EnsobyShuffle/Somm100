@@ -185,10 +185,10 @@
     }
   ],
   "nextActions": [
-    "Read current three-week bridge source 40717d16de4c810cbdc9d2aca7262900 and resource-gap matrix 40717d16de4c81c2910decdcecc94d7d; reconcile existing content with source-guided progression rather than invent more quizzes.",
-    "Align current five-day cohort PPT and permitted media; course-day numbers remain source topic labels until confirmed.",
-    "Verify Foundation browser-local export/import includes new quiz keys without touching unrelated modules; inspect actual existing backup implementation first.",
-    "Use supported browser execution for phone layout, refresh and quiz-to-review navigation, then independently verify Tencent deployed SHA and live pages."
+    "Use detailed bridge V0.2 source 40717d16de4c8121aabad53088101cef; parent overview differs. Do not invent confirmed cohort dates.",
+    "Read midterm source 40717d16de4c81ea88ece1f3a91ee34c and preview pack40717d16de4c815689a3c95154f6f16b before assembly.",
+    "Verify browser backup download, preview, restore and refresh; Node tests do not establish cross-domain browser transfer.",
+    "Confirm five-day PPT allocation and permitted real labels/maps/video; independently verify Tencent release."
   ],
   "pathSource": "https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746",
   "inventorySource": "https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd",
@@ -799,5 +799,15 @@
     "mapping": "docs/qa/foundation-d2-quiz-source-20261105.json",
     "mappingBasis": "Editorial source-topic mapping to9 D2 grape and6 shared-France units; source has no unit-ID column",
     "routing": "Per-review prefix chooses grape or France component; existing D1/D3/D4 default preserved"
-  }
+  },
+  "backupRelease": {
+    "component": "app/FoundationBackup.js",
+    "helper": "lib/foundation-backup.mjs",
+    "keys": 10,
+    "scope": "Pre-course, five review stores and four standalone quizzes only",
+    "status": "student-ui-integrated-node-tests-local-build-passed-browser-and-live-pending",
+    "readAt": "2026-11-05T23:42:52.200406+08:00",
+    "qa": "docs/qa/foundation-backup-20261105.json"
+  },
+  "bridgeAudit": "docs/qa/foundation-bridge-audit-20261105.json"
 }

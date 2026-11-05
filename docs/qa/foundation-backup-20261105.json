@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-05T23:42:52.200406+08:00",
+  "base": "e594d60380e7ee0efdfc3abb55aca6eaf31b4b54",
+  "finding": "Existing main progress export only spreads state and omits all10 separate Foundation storage keys; no existing restore workflow found",
+  "scope": "Dedicated Foundation backup on the current Foundation page; no unrelated storage migration",
+  "keys": 10,
+  "behaviour": [
+    "Version1 format with exact stored JSON strings preserves checks, first/latest answers and current unit/pace",
+    "Preview and default fill-empty-only restore; explicit opt-in to replacement",
+    "Records absent from file are left intact",
+    "Before-restore download offered before writes",
+    "Validate allowlisted keys, structure, versions and2MiB size before writing",
+    "Rollback attempted changes on storage failure; explicit report if rollback itself fails",
+    "Old global exports rejected clearly; partial valid Foundation v1 backups accepted"
+  ],
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 67,
+    "failed": 0
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 470,
+    "entry": "./assets/index-K3-VuG86.js",
+    "entryBytes": 12026725,
+    "entrySha256": "2983df3a3fc07b1af9225b293fd080bd2d4d09e5fbcd7f1c238cce2166087b3c",
+    "foundationMarkers": 26,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "browser": {
+    "verified": false,
+    "previousBlock": "Chromium socket() failed: Operation not permitted (1)",
+    "untested": [
+      "File picker and download completion",
+      "Preview/replacement checkbox",
+      "Restore then reload across origins",
+      "Phone layout"
+    ]
+  },
+  "deployed": false,
+  "liveVerified": false,
+  "dependencies": "Pinned build-only subset; full frozen-lockfile install unverified"
+}

@@ -1,0 +1,58 @@
+{
+  "readOn": "2026-11-05",
+  "sources": [
+    {
+      "url": "https://app.notion.com/p/40717d16de4c810cbdc9d2aca7262900?pvs=204",
+      "title": "🛤️ SOMM100｜学习路径与三周桥接计划 V0.1",
+      "editedAt": "2026-10-28T19:59:11.423Z",
+      "verification": "unverified"
+    },
+    {
+      "url": "https://app.notion.com/p/40717d16de4c8121aabad53088101cef?pvs=204",
+      "title": "🗓️ SOMM100｜21天学习桥接计划 V0.2",
+      "editedAt": "2026-10-28T19:59:07.610Z",
+      "verification": "unverified"
+    },
+    {
+      "url": "https://app.notion.com/p/40717d16de4c81c2910decdcecc94d7d?pvs=204",
+      "title": "🧩 SOMM100｜D1–D2 资源缺口矩阵 V0.1",
+      "editedAt": "2026-10-28T20:02:10.684Z",
+      "verification": "unverified"
+    }
+  ],
+  "conflict": {
+    "parentOverview": "Day14 midterm check; Day15–17 D3 preview",
+    "detailedV2": "Day10 D1 quiz; Day15 D2 quiz; Day16 midterm; Day17–20 preview",
+    "resolution": "Use detailed V0.2 for future per-day assembly; do not treat source product journey as confirmed cohort dates or six-day timetable"
+  },
+  "bridgeUiIntegrated": false,
+  "midtermUiIntegrated": false,
+  "remaining": [
+    "Read actual midterm source before adopting exam items or mapping",
+    "Read all preview-pack child pages before using them for days17–20; D3/D4 review lessons are not automatically equivalent to previews",
+    "Confirm current five-day PPT/day allocation",
+    "Reconcile day load and source suggestions with learner testing"
+  ],
+  "resourceAudit": [
+    {
+      "unit": "D1-05/06/07/09 and D2-01",
+      "actual": "Original teaching diagrams present in lib/foundation-diagrams.mjs; previously integrated, not new assets this run"
+    },
+    {
+      "unit": "D1-10",
+      "actual": "Fictional interactive label exercise exists; two or three real authorized labels still pending"
+    },
+    {
+      "unit": "F-01",
+      "actual": "Student France region map still pending"
+    },
+    {
+      "unit": "F-05",
+      "actual": "Comparison diagram and external Inter Rhône 2025 PDF link integrated previously; external mobile/mainland access unverified"
+    },
+    {
+      "unit": "Video candidates",
+      "actual": "Source matrix lists candidates; none newly validated for student playback or added this run"
+    }
+  ]
+}

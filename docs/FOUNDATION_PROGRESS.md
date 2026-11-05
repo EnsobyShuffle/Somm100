@@ -1,3 +1,30 @@
+# Foundation · 2026-11-05 · Dedicated progress backup/restore and source reconciliation
+
+Checked 2026-11-05T23:42:52.200406+08:00. Base e594d60380e7ee0efdfc3abb55aca6eaf31b4b54, migration/tencent-somm100. Fresh branch and6 key blobs matched GitHub tree. Read current migration/Foundation checkpoints, source map, main export implementation and all Foundation storage helpers.
+
+- Actual gap: LearningApp's existing “导出我的记录” only downloads the main learning state; separate Foundation pre-course/review/quiz stores are absent. No matching restore UI found. Added an independent Foundation backup block within the existing Foundation page; main exporter and unrelated module records are unchanged.
+- app/FoundationBackup.js + lib/foundation-backup.mjs cover10 allowlisted stores: precourse, D1/D2/France/D3/D4 reviews, D1–D4 standalone quizzes. Version1 format retains exact stored strings including first/latest answers and unit/pace. Preview does not write. Default restores only missing stores; checkbox explicitly enables replacement of differing stores. Absent file keys never delete local data; identical stores are skipped.
+- Validate format/version, exact allowlist, basic record structure and2MiB size before mutations. Future/corrupt local records block creation/restore rather than being overwritten. Before restoring, UI initiates a separate current-state backup download; restored UI requires a refresh. Storage failure triggers reverse rollback; failure of rollback is reported separately. Download completion and cross-origin restore are not proven by these code paths. Existing whole-app export format is rejected clearly because it lacks Foundation records; partial valid Foundation v1 backups are accepted.
+- Added8 integration tests: all10 stores transfer with exact final units and first/latest answers; partial/backfill keeps conflicts/absent/unrelated data; explicit replacement snapshot; corrupt/future/foreign/legacy formats cause zero changes; blocked reads; quota second-write rollback; rollback-failure reporting; size limit and identical-data no-write. Actual Foundation suite67/67 passed, new component syntax passed.
+- Clean build:cloudbase passed 470 public files,26 markers, root and /somm100/ asset/PWA checks. Entry ./assets/index-K3-VuG86.js, SHA256 2983df3a3fc07b1af9225b293fd080bd2d4d09e5fbcd7f1c238cce2166087b3c. Pinned subset dependencies reused; full frozen-lockfile install unverified. Existing about12MB entry remains a performance concern.
+- Read actual bridge parent40717d16de4c810cbdc9d2aca7262900, linked detailed V0.2 40717d16de4c8121aabad53088101cef and resource matrix40717d16de4c81c2910decdcecc94d7d. Detailed V0.2 differs from parent overview: D1 quiz day10, D2 quiz15, midterm16, previews17–20. Prefer detailed V0.2 for future assembly, never treat it as confirmed current five-day cohort calendar. Sources remain unverified. Full source/reconciliation audit saved in docs/qa/foundation-bridge-audit-20261105.json. No21-day UI or midterm claimed.
+- Existing original diagrams already cover D1-05/06/07/09,D2-01; fictional label practice does not close the real-label gap. France map remains pending. F05 has comparison plus external Inter Rhône PDF, not verified phone/mainland playback. No new images/video, private originals or unknown-license assets published.
+- Browser file-picker/download/reload, phone layout and cross-origin migration remain unverified. Prior supported Chromium launch denied socket() failed: Operation not permitted (1); no repeat/bypass. No Tencent deployment/version/live checks performed. Saved for atomic commit/readback; [skip netlify] and ignore="exit 0" preserved. No other paused tasks or cloud/billing/DNS/ICP actions.
+
+| Area | Source implementation |
+| --- | --- |
+| Pre-course | Existing4/8week path; NEW backup coverage |
+| D1 | 10 reviews,25 standalone questions; NEW backup coverage |
+| D2/France | 9+6 reviews,42 standalone questions; NEW backup coverage |
+| D3 | 13 reviews,30 standalone questions; NEW backup coverage |
+| D4 | 15 reviews,45 standalone questions; NEW backup coverage |
+| D5 | Teaching/assessment placement pending |
+| D6 | Current cohort22 has five classroom days; no sixth schedule |
+
+Next: assemble source-guided bridge V0.2 after reading actual midterm40717d16de4c81ea88ece1f3a91ee34c and preview pack40717d16de4c815689a3c95154f6f16b plus linked children. Reuse existing review/quiz data without inventing official day placement; focus on a clear next action rather than more question volume. Finish browser backup/refresh and phone checks when supported, current five-day PPT/media audit and independent Tencent release verification. Overall Foundation remains in progress; no pause/completion claim.
+
+---
+
 # Foundation · 2026-11-05 · D2 standalone42 quiz and cross-section review navigation
 
 Checked 2026-11-05T21:37:41.614011+08:00. Base 96638136fa73798adc24f7b30f7753dec76f32d3, migration/tencent-somm100. Fresh head and12 key local blobs matched authoritative GitHub tree. Read current Foundation/CloudBase checkpoints, source map, current D2/France/shared quiz components and full canonical D2 quiz.
