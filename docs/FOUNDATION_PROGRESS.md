@@ -1,3 +1,28 @@
+# Foundation · 2026-11-06 · 21-day study path and preview cards
+
+Checked 2026-11-06T01:42:33.187068+08:00. Base 755c26b47cc707c34cae61425426984fb44bee24, migration/tencent-somm100. Nine key local blobs matched the authoritative tree. Read current migration and Foundation checkpoints, V0.2 reconciliation, current Foundation navigation and backup code. Read full midterm and preview pack plus all eight linked preview pages.
+
+- Added data/foundation-bridge.json and app/FoundationBridge.js to the existing Foundation page. Twenty-one numbered study days follow the detailed V0.2, with a week-grouped selector, previous/next, daily goals, and direct links to existing review or quiz sections. D1 quiz day10, D2 quiz day15. The sequence is a study guide. Current cohort dates and classroom placement remain to be confirmed.
+- Day16 offers D1/D2 error review while midterm is pending. Source midterm V0.1 actually has35 questions,35 answers,22 mapping ranges covering all35. The source calls for difficulty balancing and student trials before final rules. Assessment questions and answer keys were not added to the student bundle. Evidence and precise gaps are in docs/qa/foundation-bridge-release-20261106.json.
+- Days17–20 contain eight original concise preview cards from the eight retrieved source pages, each with a self-check prompt and an existing extended review destination. Covered Italy, Spain/Portugal, Germany/Austria, Greece/Hungary, sparkling, fortified, world regions and China. Used introductory relationships supported by existing reviews. Day21 asks students to identify uncertain topics and bring three questions to class. No full preview quiz or notes capture added.
+- Reused scoped review navigation, existing quiz headings, and the version1 local record parser. Selected day stored at somm100.foundation.bridge.v1, included in Foundation backup allowlist as record11. Older backup files with no bridge key preserve current day. The saved day represents position only. Existing lesson and quiz schemas preserved.
+- Actual Foundation suite69/69 passed. Tests cover all day and review targets, V0.2 milestone ordering, persistence of day21 through older backup restore and all11 record round-trip. New component syntax passed.
+- Clean CloudBase build passed 472 public files,28 markers, root and /somm100/ asset/PWA checks. Entry ./assets/index-C42GQtzd.js, SHA256 f7a0250e50e8a717b8911dd102fdc6cd756d2f739249ab0c51f5702268d1a1d0. Pinned build-only subset reused. Full frozen-lockfile install and main entry size optimization remain pending.
+- Browser phone layout, file dialogs, refresh and scroll/navigation remain unverified. Prior Chromium launch denied socket() failed: Operation not permitted (1). No repeated blocked launch or bypass. No Tencent deployment or newly verified live URL. Saved for source commit/readback. Preserve [skip netlify] and ignore="exit 0".
+
+| Area | Source implementation |
+| --- | --- |
+| D1 | 10 reviews and25-question self-check, linked by bridge days1–10 |
+| D2/France | 9+6 reviews and42-question self-check, linked by days11–16 |
+| D3 | 13 reviews and30-question self-check, four new guide cards on days17–18 |
+| D4 | 15 reviews and45-question self-check, four new guide cards on days19–20 |
+| D5 | Current teaching and assessment placement pending |
+| D6 | Cohort22 has five classroom days. No sixth-day schedule |
+
+Next: confirm actual five-day course PPT/day placement and authorized label/map/video assets. Validate midterm release rules and difficulty before integrating formal assessment. Use supported browser access to test phone layout, target navigation, day reload and backup. Independently verify Tencent version and live pages. Foundation development continues.
+
+---
+
 # Foundation · 2026-11-05 · Dedicated progress backup/restore and source reconciliation
 
 Checked 2026-11-05T23:42:52.200406+08:00. Base e594d60380e7ee0efdfc3abb55aca6eaf31b4b54, migration/tencent-somm100. Fresh branch and6 key blobs matched GitHub tree. Read current migration/Foundation checkpoints, source map, main export implementation and all Foundation storage helpers.

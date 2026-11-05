@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-11-06T01:42:33.187068+08:00",
+  "base": "755c26b47cc707c34cae61425426984fb44bee24",
+  "planSource": "https://app.notion.com/p/40717d16de4c8121aabad53088101cef",
+  "priorSourceAudit": "docs/qa/foundation-bridge-audit-20261105.json",
+  "sources": {
+    "previewPack": {
+      "title": "👀 SOMM100｜D3–D4 课前预习包 V0.1",
+      "url": "https://app.notion.com/p/40717d16de4c815689a3c95154f6f16b?pvs=204",
+      "editedAt": "2026-10-28T19:56:35.781Z",
+      "verification": "unverified"
+    },
+    "previewChildren": [
+      {
+        "title": "🇮🇹 D3 预习 01｜意大利：先抓北部、中部、南部",
+        "url": "https://app.notion.com/p/40717d16de4c81c68ed5cb920f6d4739?pvs=204",
+        "editedAt": "2026-10-28T19:59:43.463Z",
+        "verification": "unverified"
+      },
+      {
+        "title": "🇪🇸 D3 预习 02｜西班牙与葡萄牙：先把几个名字放回地图",
+        "url": "https://app.notion.com/p/40717d16de4c8173a797facf617822f6?pvs=204",
+        "editedAt": "2026-10-28T19:59:47.422Z",
+        "verification": "unverified"
+      },
+      {
+        "title": "🇩🇪 D3 预习 03｜德国与奥地利：先从 Riesling 和 Grüner Veltliner 进入",
+        "url": "https://app.notion.com/p/40717d16de4c815b8ecac52efc94a13a?pvs=204",
+        "editedAt": "2026-10-28T19:59:52.319Z",
+        "verification": "unverified"
+      },
+      {
+        "title": "🌍 D3 预习 04｜其他欧洲国家：先认识国家，不急着背体系",
+        "url": "https://app.notion.com/p/40717d16de4c81548394ecc2a789f5d5?pvs=204",
+        "editedAt": "2026-10-28T19:57:50.193Z",
+        "verification": "unverified"
+      },
+      {
+        "title": "🥂 D4 预习 01｜Champagne 香槟与起泡酒：气泡到底从哪里来？",
+        "url": "https://app.notion.com/p/40717d16de4c815c8dbaf6f671d52230?pvs=204",
+        "editedAt": "2026-10-28T19:57:53.850Z",
+        "verification": "unverified"
+      },
+      {
+        "title": "🥃 D4 预习 02｜加强型葡萄酒：为什么要往葡萄酒里加烈酒？",
+        "url": "https://app.notion.com/p/40717d16de4c812b83e0c2e40ac3a120?pvs=204",
+        "editedAt": "2026-10-28T19:57:57.368Z",
+        "verification": "unverified"
+      },
+      {
+        "title": "🌎 D4 预习 03｜新世界：先建立国家与经典风格的第一张地图",
+        "url": "https://app.notion.com/p/40717d16de4c8127b014d7211d0967a2?pvs=204",
+        "editedAt": "2026-10-28T19:58:00.590Z",
+        "verification": "unverified"
+      },
+      {
+        "title": "🇨🇳 D4 预习 04｜中国葡萄酒：不是“新世界”后面的一页",
+        "url": "https://app.notion.com/p/40717d16de4c8120ae0eda3c47c7223f?pvs=204",
+        "editedAt": "2026-10-28T19:58:05.008Z",
+        "verification": "unverified"
+      }
+    ],
+    "midterm": {
+      "title": "📝 SOMM100｜中期考试 V0.1",
+      "url": "https://app.notion.com/p/40717d16de4c81ea88ece1f3a91ee34c?pvs=204",
+      "editedAt": "2026-10-28T20:00:17.742Z",
+      "verification": "unverified",
+      "questions": 35,
+      "answerRows": 35,
+      "mappedQuestions": 35,
+      "mappingRanges": 22,
+      "studentUiIntegrated": false,
+      "remaining": [
+        "source difficulty balance and student trial",
+        "confirm release/assessment rules",
+        "no class analytics implemented"
+      ]
+    }
+  },
+  "days": 21,
+  "previewCards": 8,
+  "progress": "Selected study day only, browser-local and covered by version1 Foundation backup. No completion, grade or attendance calculation.",
+  "contentScope": "Short original preview cards and self-check prompts, not a copy of the preview source questions or full classroom materials",
+  "tests": {
+    "command": "node --test tests/foundation*.test.mjs",
+    "passed": 69,
+    "failed": 0,
+    "coverage": [
+      "V0.2 milestones and all review targets resolve",
+      "Day21 persists when restoring older backup without bridge key",
+      "11 Foundation stores transfer without changing original schemas"
+    ]
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 472,
+    "entry": "./assets/index-C42GQtzd.js",
+    "entryBytes": 12027123,
+    "entrySha256": "f7a0250e50e8a717b8911dd102fdc6cd756d2f739249ab0c51f5702268d1a1d0",
+    "foundationMarkers": 28,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "browserVerified": false,
+  "browserBlock": "Prior Chromium launch denied socket() failed: Operation not permitted (1)",
+  "deployed": false,
+  "liveVerified": false
+}

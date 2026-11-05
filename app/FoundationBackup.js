@@ -20,7 +20,7 @@ export default function FoundationBackup(){
   }
   return h('details',{className:'white-panel foundation-study',id:'foundation-backup'},
     h('summary',null,'备份／恢复本机课程进度'),
-    h('p',null,'包含课前预习、D1–D4 与法国专题复习、四套课程自测。只处理本浏览器的课程记录；下载后可在另一浏览器或新域名的同一功能中恢复。'),
+    h('p',null,'包含课前预习、D1–D4 与法国专题复习、四套课程自测和桥接学习日。只处理本浏览器的课程记录；下载后可在另一浏览器或新域名的同一功能中恢复。'),
     h('p',{className:'fine-print'},'这份备份不含其他课程、品鉴、笔记和自由题库记录。旧版“导出我的记录”文件不含这里的课程进度，不能在此恢复。'),
     h('div',{className:'button-row'},h('button',{type:'button',className:'button secondary',disabled:restored||reading,onClick:()=>{
       try{const backup=createFoundationBackup(window.localStorage);downloadBackup(backup);setMessage(`已发起下载，包含 ${Object.keys(backup.records).length} 组记录，请确认文件已保存。`)}catch(e){setMessage(e.message||'下载未完成。')}

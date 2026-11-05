@@ -185,10 +185,9 @@
     }
   ],
   "nextActions": [
-    "Use detailed bridge V0.2 source 40717d16de4c8121aabad53088101cef; parent overview differs. Do not invent confirmed cohort dates.",
-    "Read midterm source 40717d16de4c81ea88ece1f3a91ee34c and preview pack40717d16de4c815689a3c95154f6f16b before assembly.",
-    "Verify browser backup download, preview, restore and refresh; Node tests do not establish cross-domain browser transfer.",
-    "Confirm five-day PPT allocation and permitted real labels/maps/video; independently verify Tencent release."
+    "Use the new 21-day path for student study guidance. Confirm current cohort five-day PPT allocation and lesson media before asserting classroom dates or materials.",
+    "Review 35-question midterm draft with verified source mapping, difficulty and release rules before assessment integration. Current day16 links to D1/D2 review.",
+    "Check phone rendering, day restore, backup UI and review jumps in a supported browser, then independently verify Tencent release."
   ],
   "pathSource": "https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746",
   "inventorySource": "https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd",
@@ -803,11 +802,21 @@
   "backupRelease": {
     "component": "app/FoundationBackup.js",
     "helper": "lib/foundation-backup.mjs",
-    "keys": 10,
-    "scope": "Pre-course, five review stores and four standalone quizzes only",
+    "keys": 11,
+    "scope": "Pre-course, five review stores, four standalone quizzes and selected bridge study day",
     "status": "student-ui-integrated-node-tests-local-build-passed-browser-and-live-pending",
     "readAt": "2026-11-05T23:42:52.200406+08:00",
     "qa": "docs/qa/foundation-backup-20261105.json"
   },
-  "bridgeAudit": "docs/qa/foundation-bridge-audit-20261105.json"
+  "bridgeAudit": "docs/qa/foundation-bridge-audit-20261105.json",
+  "bridgeRelease": {
+    "component": "app/FoundationBridge.js",
+    "file": "data/foundation-bridge.json",
+    "qa": "docs/qa/foundation-bridge-release-20261106.json",
+    "days": 21,
+    "previewCards": 8,
+    "midtermIntegrated": false,
+    "status": "student-ui-integrated-local-build-tested-browser-and-live-pending",
+    "cohortDayConfirmed": false
+  }
 }

@@ -1,0 +1,401 @@
+{
+  "days": [
+    {
+      "id": "foundation-bridge-01",
+      "number": 1,
+      "title": "葡萄本身",
+      "focus": "先读葡萄结构，勾选理解的内容，再做本节三道题。",
+      "targets": [
+        {
+          "label": "葡萄结构",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-01"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-02",
+      "number": 2,
+      "title": "生长周期",
+      "focus": "顺着休眠到采收的顺序阅读，回看春霜和转色，再完成本节检查。",
+      "targets": [
+        {
+          "label": "葡萄树一年",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-02"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-03",
+      "number": 3,
+      "title": "气候、成熟与年份",
+      "focus": "比较温度、水分、光照如何影响成熟，再用本节题目检查。",
+      "targets": [
+        {
+          "label": "气候与成熟",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-03"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-04",
+      "number": 4,
+      "title": "葡萄园管理",
+      "focus": "分别看种植管理和嫁接。用各自的清单和小题区分两个单元的目的。",
+      "targets": [
+        {
+          "label": "葡萄园管理",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-04"
+        },
+        {
+          "label": "嫁接与砧木",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-05"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-05",
+      "number": 5,
+      "title": "发酵",
+      "focus": "对照发酵图，分清原料与产物，再完成本节三道题。",
+      "targets": [
+        {
+          "label": "酒精发酵",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-06"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-06",
+      "number": 6,
+      "title": "红白葡萄酒酿造",
+      "focus": "比较红、白、桃红的果皮接触和压榨顺序，再做本节检查。",
+      "targets": [
+        {
+          "label": "红白与桃红",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-07"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-07",
+      "number": 7,
+      "title": "轻复习",
+      "focus": "用 D1 的单元菜单回看前六天的清单。只复习还不确定的项。",
+      "targets": [
+        {
+          "label": "回到 D1 复习",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-01"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-08",
+      "number": 8,
+      "title": "发酵之后",
+      "focus": "读苹果酸乳酸转化、酒泥和橡木桶，比较它们怎样影响质地，再做三道题。",
+      "targets": [
+        {
+          "label": "发酵后的选择",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-08"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-09",
+      "number": 9,
+      "title": "法规与酒标",
+      "focus": "先区分地理来源与名称规则，再用酒标练习找出实际标注的信息。",
+      "targets": [
+        {
+          "label": "法定产区",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-09"
+        },
+        {
+          "label": "酒标练习",
+          "prefix": "foundation-d1",
+          "unitId": "foundation-d1-10"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-10",
+      "number": 10,
+      "title": "D1 课程自测",
+      "focus": "分段完成 25 题，答错时回到题目对应的知识点。",
+      "targets": [
+        {
+          "label": "开始 D1 自测",
+          "headingId": "foundation-d1-quiz-title"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-11",
+      "number": 11,
+      "title": "核心白葡萄品种",
+      "focus": "先按结构、环境和酿造建立比较框架，再依次看三个核心白品种。",
+      "targets": [
+        {
+          "label": "学习框架",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-01"
+        },
+        {
+          "label": "Chardonnay",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-02"
+        },
+        {
+          "label": "Sauvignon Blanc",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-03"
+        },
+        {
+          "label": "Riesling",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-04"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-12",
+      "number": 12,
+      "title": "核心红葡萄品种",
+      "focus": "比较酸度、单宁与酒体，结合三个品种的典型产区完成检查。",
+      "targets": [
+        {
+          "label": "Pinot Noir",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-05"
+        },
+        {
+          "label": "Cabernet Sauvignon",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-06"
+        },
+        {
+          "label": "Syrah",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-07"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-13",
+      "number": 13,
+      "title": "其他品种与法国地理",
+      "focus": "先把品种和产区连起来，再用法国专题建立方位感。",
+      "targets": [
+        {
+          "label": "其他白品种",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-08"
+        },
+        {
+          "label": "其他红品种",
+          "prefix": "foundation-d2",
+          "unitId": "foundation-d2-09"
+        },
+        {
+          "label": "法国地理",
+          "prefix": "foundation-france",
+          "unitId": "foundation-france-01"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-14",
+      "number": 14,
+      "title": "法国核心产区",
+      "focus": "按地区找关键品种与风格，逐节用自查确认理解。",
+      "targets": [
+        {
+          "label": "Bordeaux",
+          "prefix": "foundation-france",
+          "unitId": "foundation-france-02"
+        },
+        {
+          "label": "Burgundy",
+          "prefix": "foundation-france",
+          "unitId": "foundation-france-03"
+        },
+        {
+          "label": "Loire Valley",
+          "prefix": "foundation-france",
+          "unitId": "foundation-france-04"
+        },
+        {
+          "label": "Rhône Valley",
+          "prefix": "foundation-france",
+          "unitId": "foundation-france-05"
+        },
+        {
+          "label": "Alsace",
+          "prefix": "foundation-france",
+          "unitId": "foundation-france-06"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-15",
+      "number": 15,
+      "title": "D2 课程自测",
+      "focus": "分段完成 42 题。错题可返回品种或法国专题。",
+      "targets": [
+        {
+          "label": "开始 D2 自测",
+          "headingId": "foundation-d2-quiz-title"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-16",
+      "number": 16,
+      "title": "中期复习",
+      "focus": "中期检测待开放。先回看 D1、D2 自测里尚需复习的题目，集中补上这些知识点。",
+      "targets": [
+        {
+          "label": "查看 D1 自测",
+          "headingId": "foundation-d1-quiz-title"
+        },
+        {
+          "label": "查看 D2 自测",
+          "headingId": "foundation-d2-quiz-title"
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-17",
+      "number": 17,
+      "title": "预习意大利、西班牙与葡萄牙",
+      "focus": "先从地理位置和代表品种建立联系，再决定需要展开的主题。",
+      "targets": [],
+      "previews": [
+        {
+          "title": "意大利",
+          "summary": "先分北部、中部与南部。用 Piedmont 的 Nebbiolo、Veneto 的 Amarone 和 Tuscany 的 Sangiovese 建立坐标。",
+          "check": "试着把 Barolo、Chianti 与各自的核心品种连起来。",
+          "review": {
+            "label": "意大利复习",
+            "prefix": "foundation-d3",
+            "unitId": "foundation-d3-02"
+          }
+        },
+        {
+          "title": "西班牙与葡萄牙",
+          "summary": "西班牙先抓 Rioja、Ribera del Duero 与 Tempranillo，另记 Priorat 的 Garnacha 和 Rías Baixas 的 Albariño。过境后把 Alvarinho 连到 Vinho Verde，把 Touriga Nacional 连到 Douro。",
+          "check": "找一组跨境使用不同名称的同一品种。",
+          "review": {
+            "label": "西班牙复习",
+            "prefix": "foundation-d3",
+            "unitId": "foundation-d3-06"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-18",
+      "number": 18,
+      "title": "预习德国、奥地利与其他欧洲",
+      "focus": "把国家、产区和品种分开记。希腊与匈牙利只做入门辨认。",
+      "targets": [],
+      "previews": [
+        {
+          "title": "德国与奥地利",
+          "summary": "德国以 Riesling 建立入口，先认 Mosel、Rheingau、Pfalz。奥地利用 Grüner Veltliner 和 Wachau 作为起点。德国也有重要的干型酒。",
+          "check": "列出一个德国地名和一个奥地利地名。",
+          "review": {
+            "label": "德国复习",
+            "prefix": "foundation-d3",
+            "unitId": "foundation-d3-10"
+          }
+        },
+        {
+          "title": "希腊与匈牙利",
+          "summary": "希腊先记 Santorini 与 Assyrtiko，匈牙利先记 Tokaj 与 Furmint。课堂涉及的其他国家与深度待课件确认。",
+          "check": "把这两组地名和品种分别放回对应国家。",
+          "review": {
+            "label": "其他欧洲复习",
+            "prefix": "foundation-d3",
+            "unitId": "foundation-d3-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-19",
+      "number": 19,
+      "title": "预习香槟与加强酒",
+      "focus": "分别说清气泡如何形成，以及加强的时机会怎样影响甜度。",
+      "targets": [],
+      "previews": [
+        {
+          "title": "香槟与起泡酒",
+          "summary": "发酵产生二氧化碳，密闭环境能保留气体。香槟传统法的第二次发酵在瓶内。先认识 Chardonnay、Pinot Noir、Meunier 三个常见品种。",
+          "check": "说出香槟传统法第二次发酵的容器。",
+          "review": {
+            "label": "传统法复习",
+            "prefix": "foundation-d4",
+            "unitId": "foundation-d4-03"
+          }
+        },
+        {
+          "title": "加强型葡萄酒",
+          "summary": "加入蒸馏酒提高酒精度。典型 Port 会在发酵中途加强以保留糖分，经典干型 Sherry 可先发酵至干。把 Port 连到 Douro，Sherry 连到 Jerez，再认 Madeira。",
+          "check": "用加强时机解释为什么加强酒可以有不同甜度。",
+          "review": {
+            "label": "加强原理复习",
+            "prefix": "foundation-d4",
+            "unitId": "foundation-d4-05"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-20",
+      "number": 20,
+      "title": "预习世界产区与中国",
+      "focus": "用产区和品种记下几组坐标，再单独比较中国各地的种植条件。",
+      "targets": [],
+      "previews": [
+        {
+          "title": "世界产区",
+          "summary": "从六组联系开始：Napa Valley 与 Cabernet Sauvignon，Barossa Valley 与 Shiraz，Marlborough 与 Sauvignon Blanc，智利与 Carmenère，Mendoza 与 Malbec，南非与 Pinotage。",
+          "check": "任选两组，说明具体产区或国家与品种的关系。",
+          "review": {
+            "label": "世界产区学习框架",
+            "prefix": "foundation-d4",
+            "unitId": "foundation-d4-09"
+          }
+        },
+        {
+          "title": "中国葡萄酒",
+          "summary": "对比宁夏、新疆的干燥内陆条件，山东沿海的湿度，以及云南西北的山地环境。按地区认识品种，再追问种植与酿造选择。",
+          "check": "说出一个沿海案例和一个高海拔山地案例。",
+          "review": {
+            "label": "中国产区复习",
+            "prefix": "foundation-d4",
+            "unitId": "foundation-d4-14"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foundation-bridge-21",
+      "number": 21,
+      "title": "带着问题进课堂",
+      "focus": "回看第 17–20 天导读卡，标记仍不确定的名词，记下三个想带到课堂的问题。",
+      "targets": []
+    }
+  ]
+}

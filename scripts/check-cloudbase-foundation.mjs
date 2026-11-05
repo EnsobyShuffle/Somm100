@@ -39,7 +39,7 @@ for (const file of files) {
 }
 const scripts=files.filter(p=>p.endsWith('.js')&&p.includes('/assets/'));
 const bundle=scripts.map(p=>readFileSync(p,'utf8')).join('\n');
-const markers=['foundation-backup','somm100-foundation-backup','foundation-study-title','foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-cohort-title','foundation-label-title','foundation-rhone-map-title',
+const markers=['foundation-bridge-title','somm100.foundation.bridge.v1','foundation-backup','somm100-foundation-backup','foundation-study-title','foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-cohort-title','foundation-label-title','foundation-rhone-map-title',
   'foundation-d2-quiz-title','somm100.foundation.d2-quiz.v1','foundation-d1-quiz-title','somm100.foundation.d1-quiz.v1','foundation-d4-quiz-title','somm100.foundation.d4-quiz.v1','foundation-d3-quiz-title','somm100.foundation.d3-quiz.v1','foundation-open-review',
   'foundation-d3-title','foundation-d4-title','somm100.foundation.d3-review.v1','somm100.foundation.d4-review.v1',
   'somm100.foundation.study.v1','somm100.foundation.d1-review.v1','somm100.foundation.d2-review.v1','somm100.foundation.france-review.v1'];

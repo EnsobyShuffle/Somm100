@@ -9,6 +9,7 @@ function fixture(){
  const records={};
  for(const key of keys){
   const module=key.split('.')[2],quiz=module.endsWith('-quiz');
+  if (module==='bridge') {records[key]=raw(21);continue;}
   const data=json(module==='study'?'foundation-study':'foundation-'+module.replace('-review',''));
   const q=quiz?data.questions.at(-1):module==='study'?data.questions.at(-1):data.units.at(-1).questions.at(-1);
   const value=module==='study'?{version:1,pace:4,period:4,checks:{},answers:{}}:{version:1,unit:quiz?data.questions.length:data.units.at(-1).number,checks:{},answers:{}};
@@ -16,11 +17,11 @@ function fixture(){
  }
  return {format:'somm100-foundation-backup',version:1,exportedAt:'2026-11-05T15:40:00.000Z',records};
 }
-test('all ten Foundation records round-trip exact first/latest answers and selected final units',()=>{
+test('all eleven Foundation records round-trip exact first/latest answers and selected final units',()=>{
  const backup=fixture(),from=storage(Object.entries(backup.records)),out=createFoundationBackup(from,new Date(backup.exportedAt));
- assert.deepEqual(out,backup);assert.equal(Object.keys(out.records).length,10);
+ assert.deepEqual(out,backup);assert.equal(Object.keys(out.records).length,11);
  const to=storage([['other-course','do not touch']]);
- assert.equal(restoreFoundationBackup(to,JSON.stringify(out)).written,10);
+ assert.equal(restoreFoundationBackup(to,JSON.stringify(out)).written,11);
  for(const key of keys)assert.equal(to.getItem(key),from.getItem(key));
  assert.equal(to.getItem('other-course'),'do not touch');
 });
