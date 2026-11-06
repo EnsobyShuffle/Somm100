@@ -1,3 +1,27 @@
+# Foundation · 2026-11-07 · Actual quiz/review round trips
+
+Checked 2026-11-07T03:38:10+08:00. Base dad29bb70d58de4ec120694e768ae1ce9bb37ce4 on migration/tencent-somm100, fresh head unchanged. Read migration/latest progress/source map; compared quiz, loader and source-map files with remote before edits.
+
+- Improved FoundationQuiz question navigation: selecting a question, previous/next or next pending question requests focus only after the new question is committed. Initial load does not steal focus; current-question selection is a no-op. Existing reduced-motion helper reused. No answers, storage IDs, source content, instructor/image or question mapping changes.
+- Added scripts/check-foundation-quiz-flow.mjs: mounts actual quiz wrappers and review components, including France for D2; exercises142 questions and all143 mapped round trips (D3 question10 has two review destinations). Each question receives two different choices; first/latest answers survive moving away and returning to the original question. Opening review does not complete checks or answer questions. Invalid return IDs ignored. Previous/next/pending-question focus verified.
+- Real React hooks and DOM events; no replacement of app logic. Test-only Node loader now resolves extensionless local JS imports. RAF callbacks drained explicitly after commit, scrolling stubbed: no real scroll geometry, browser/phone layout, screen-reader or lazy-network timing claim.
+- Initial harness failure on D3 q10's second target came from a detached button reference after changing questions; querying live DOM fixed the harness. All143 routes then passed; no mapping change was needed.
+- PASS: 77 Foundation unit tests,53 review-unit DOM interactions,142-question/143-route integration check,CloudBase build and159 built guidance fields/37 markers. Output473 files,entry ./assets/index-C3mqF0cd.js,12027203 bytes,SHA256 bd3908d1fef0a443a445dd06f8ea7dd719565f101c29e729d0a9bf9fce28ba3e. Main entry loading concern remains; no performance improvement claimed.
+- Evidence docs/qa/foundation-quiz-flow-20261107.json; reproduction docs/qa/FOUNDATION_RENDER_CHECK.md. No new teaching-source or cohort claims this code-only round. Runtime skill read, environment_status tool not exposed; no cloud network/auth changes attempted. Netlify guard preserved. Saved for guarded commit/readback; not deployed or online accepted.
+
+| Area | Content status |
+| --- | --- |
+| D1 | 10 review units +25 independent questions |
+| D2 / France | 9+6 review units +42 independent questions |
+| D3 | 13 review units +30 independent questions |
+| D4 | 15 review units +45 independent questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 five classroom days; no invented sixth day |
+
+All53 units have objectives/preparation/practice; D1–D4 remain knowledge labels, not a confirmed daily schedule. Next: investigate Foundation lazy-loading readiness and reduce initial loading cost while preserving other modules. Exact blockers remain current five-day PPT/day mapping; authorized Tencent deployment and deployed source SHA; actual mobile/browser acceptance. This integration check covers already-mounted components, not delayed chunk loading.
+
+---
+
 # Foundation · 2026-11-07 · D3 objectives and preparation completed
 
 Checked 2026-11-07T01:41:08+08:00. Base 56b8b7eff1050b21184af77af2b52250b38478b4 on migration/tencent-somm100, fresh head unchanged. Read latest checkpoint, migration document and source map. Four implementation/data files matched remote byte-for-byte before editing.

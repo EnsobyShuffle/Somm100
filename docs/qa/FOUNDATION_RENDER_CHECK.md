@@ -4,6 +4,7 @@ Run from the repository root:
 
 ```sh
 node scripts/check-foundation-rendering.mjs
+node scripts/check-foundation-quiz-flow.mjs
 node --test tests/foundation*.test.mjs
 npm run build:cloudbase
 ```
@@ -34,3 +35,9 @@ This is not a browser screenshot, responsive-layout, accessibility audit, cloud-
 ## 2026-11-06 environment
 
 Node 24.22.1; React/react-dom 19.2.6; jsdom 26.1.0. The CloudBase-only build environment restored Vite 8.0.13, @vitejs/plugin-react 6.0.2, lucide-react 1.31.0, @tailwindcss/postcss and tailwindcss 4.2.1 outside the repository, linked as node_modules. This was a focused dependency restoration, not a frozen pnpm-lockfile install of the entire Next/Vinext stack. Repository package versions and lockfiles were not changed.
+
+## Quiz/review round-trip integration (2026-11-07)
+
+`check-foundation-quiz-flow.mjs` mounts the actual D1–D4 quiz wrappers together with their actual review components (including France for D2). It changes selections, makes two distinct answers, clicks every mapped review button, changes away from the original question and returns through the actual return button. It asserts stable first/latest answers, correct destination, actual DOM focus and no automatic review completion. Coverage: 142 questions, 143 mapped round trips (D3 question10 has two destinations). Invalid question IDs are ignored. Previous/next/pending-question navigation also returns focus to the quiz title. React errors/warnings fail the check.
+
+The Node loader resolves local extensionless JS imports like the bundler. requestAnimationFrame callbacks are explicitly drained after React commits; scrollIntoView is stubbed because jsdom has no layout. These checks do not establish browser scroll geometry, screen-reader output, mobile layout, lazy-chunk network timing or online deployment. Test storage is disposable, never a user's records.

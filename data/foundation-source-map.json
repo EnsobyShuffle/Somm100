@@ -981,5 +981,13 @@
     "evidenceFile": "docs/qa/foundation-d3-learning-20261107.json",
     "storageChanged": false,
     "dayAssignment": "knowledge-label-not-confirmed-current-cohort-day"
+  },
+  "quizFlowValidation": {
+    "checkedAt": "2026-11-07T03:38:10+08:00",
+    "evidenceFile": "docs/qa/foundation-quiz-flow-20261107.json",
+    "questions": 142,
+    "mappedRoundTrips": 143,
+    "status": "real-react-dom-integration-pass-not-deployed",
+    "browserVisualVerified": false
   }
 }

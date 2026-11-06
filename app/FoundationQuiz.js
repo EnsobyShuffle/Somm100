@@ -1,6 +1,6 @@
 'use client';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {quizProgressData, quizResult, quizReviewTargets, quizReturnQuestion} from '../lib/foundation-quiz.mjs';
 import {emptyD2Progress, readD2Progress, writeD2Progress} from '../lib/foundation-d2.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
@@ -10,6 +10,7 @@ const h = React.createElement;
 export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
   const progressData = React.useMemo(() => quizProgressData(data), [data]);
   const [progress, setProgress] = useState(emptyD2Progress);
+  const navigationRequested = useRef(false);
   const [loaded, setLoaded] = useState(false);
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
@@ -41,7 +42,16 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
   const entry = progress.answers[question.id];
   const result = quizResult(data, progress);
   const groups = [...new Set(data.questions.map(q => q.group))];
-  function choose(number) { setProgress(p => ({...p,unit:number})); }
+  useEffect(() => {
+    if (!navigationRequested.current) return;
+    navigationRequested.current = false;
+    focusFoundationTarget(prefix+'-quiz-title');
+  }, [question.id, prefix]);
+  function choose(number) {
+    if (number === question.number) return;
+    navigationRequested.current = true;
+    setProgress(p => ({...p,unit:number}));
+  }
   return h('section', {id:prefix+'-quiz',className:'white-panel foundation-study','aria-labelledby':prefix+'-quiz-title'},
     h('h2', {id:prefix+'-quiz-title',tabIndex:-1}, data.title),
     h('p', null, '可分段完成，用来发现还需复习的知识点。可随时重答，不设及格线；课堂安排以本期课程为准。'),

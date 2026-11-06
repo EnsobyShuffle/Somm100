@@ -9,3 +9,11 @@ export async function load(url, context, nextLoad) {
   }
   return nextLoad(url, context);
 }
+
+// Match the bundler's extensionless local JavaScript imports in quiz wrappers.
+export async function resolve(specifier, context, nextResolve) {
+  if (specifier.startsWith('./') && !specifier.split('/').at(-1).includes('.')) {
+    return nextResolve(specifier + '.js', context);
+  }
+  return nextResolve(specifier, context);
+}

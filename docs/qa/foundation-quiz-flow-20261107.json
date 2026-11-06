@@ -1,0 +1,158 @@
+{
+  "checkedAt": "2026-11-07T03:38:10+08:00",
+  "baseCommit": "dad29bb70d58de4ec120694e768ae1ce9bb37ce4",
+  "sources": [
+    "app/FoundationQuiz.js",
+    "app/FoundationQuizReturn.js",
+    "lib/foundation-quiz.mjs",
+    "data/foundation-source-map.json",
+    "docs/CLOUDBASE_MIGRATION.md",
+    "docs/FOUNDATION_PROGRESS.md"
+  ],
+  "change": "Focus new question after user-requested select/previous/next/pending navigation; no focus on initial mount.",
+  "quizFlow": {
+    "status": "PASS",
+    "scope": "real React/jsdom events; scroll stubbed; not phone or online acceptance",
+    "results": [
+      {
+        "day": 1,
+        "questions": 25,
+        "reviewRoundTrips": 25,
+        "answersPreserved": true,
+        "noAutomaticReviewCompletion": true,
+        "invalidReturnIgnored": true,
+        "questionNavigationFocus": true
+      },
+      {
+        "day": 2,
+        "questions": 42,
+        "reviewRoundTrips": 42,
+        "answersPreserved": true,
+        "noAutomaticReviewCompletion": true,
+        "invalidReturnIgnored": true,
+        "questionNavigationFocus": true
+      },
+      {
+        "day": 3,
+        "questions": 30,
+        "reviewRoundTrips": 31,
+        "answersPreserved": true,
+        "noAutomaticReviewCompletion": true,
+        "invalidReturnIgnored": true,
+        "questionNavigationFocus": true
+      },
+      {
+        "day": 4,
+        "questions": 45,
+        "reviewRoundTrips": 45,
+        "answersPreserved": true,
+        "noAutomaticReviewCompletion": true,
+        "invalidReturnIgnored": true,
+        "questionNavigationFocus": true
+      }
+    ],
+    "totalQuestions": 142,
+    "totalRoundTrips": 143
+  },
+  "reviewRendering": {
+    "status": "PASS",
+    "scope": "React SSR and jsdom; no browser layout or online acceptance",
+    "results": [
+      {
+        "area": "d1",
+        "units": 10,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d2",
+        "units": 9,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "france",
+        "units": 6,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d3",
+        "units": 13,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d4",
+        "units": 15,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      }
+    ],
+    "totalUnits": 53
+  },
+  "unitTests": {
+    "passed": 77,
+    "failed": 0
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 473,
+    "entry": "./assets/index-C3mqF0cd.js",
+    "entryBytes": 12027203,
+    "entrySha256": "bd3908d1fef0a443a445dd06f8ea7dd719565f101c29e729d0a9bf9fce28ba3e",
+    "foundationMarkers": 37,
+    "learningGuidanceFields": 159,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "unchanged": [
+    "All teaching data and question mappings",
+    "Answer IDs and local record schema",
+    "Instructors, images and other paused modules",
+    "Netlify ignore guard"
+  ],
+  "testHarnessCorrection": "First integration attempt kept a detached review button reference after changing question (D3 q10 second destination). Corrected harness to query current DOM; rerun all143 routes passed. This was not an application mapping defect.",
+  "limits": [
+    "No new source teaching text read this code-only round",
+    "jsdom requestAnimationFrame drained manually; scrollIntoView stubbed; browser geometry unverified",
+    "Lazy-loading network races not covered by simultaneously mounted component test",
+    "Not deployed; not online or phone accepted; no account cloud sync",
+    "Environment status tool not exposed; no cloud authorization or networking changes attempted"
+  ]
+}
