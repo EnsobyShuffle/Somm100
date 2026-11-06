@@ -1,0 +1,147 @@
+{
+  "recordedAt": "2026-11-06T17:44:00+08:00",
+  "repository": "EnsobyShuffle/Somm100",
+  "branch": "migration/tencent-somm100",
+  "baseCommit": "2f90c392c6f83753bd8e69e62abd722925eee683",
+  "sources": [
+    {
+      "id": "foundation-d1-01",
+      "url": "https://app.notion.com/p/40717d16de4c81d7bbd8fba68936ecab",
+      "editedAt": "2026-10-28T19:45:44.658Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-02",
+      "url": "https://app.notion.com/p/40717d16de4c81cb9b72c529baeec3b4",
+      "editedAt": "2026-10-28T19:45:47.716Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-03",
+      "url": "https://app.notion.com/p/40717d16de4c81b581a8d85b7ff77709",
+      "editedAt": "2026-10-28T19:45:51.079Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-04",
+      "url": "https://app.notion.com/p/40717d16de4c8143b199fb57a899a5f5",
+      "editedAt": "2026-10-28T19:45:58.157Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-05",
+      "url": "https://app.notion.com/p/40717d16de4c8129ae41fc99ca760455",
+      "editedAt": "2026-10-28T19:46:04.722Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-06",
+      "url": "https://app.notion.com/p/40717d16de4c814c93b7c56d250d1aea",
+      "editedAt": "2026-10-28T19:46:38.638Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-07",
+      "url": "https://app.notion.com/p/40717d16de4c81a089b3d25c9e5e74a0",
+      "editedAt": "2026-10-28T19:46:41.893Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-08",
+      "url": "https://app.notion.com/p/40717d16de4c81bca48fff8dbdb56587",
+      "editedAt": "2026-10-28T19:46:44.360Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-09",
+      "url": "https://app.notion.com/p/40717d16de4c81a790eec02320cffcb1",
+      "editedAt": "2026-10-28T19:46:46.426Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    },
+    {
+      "id": "foundation-d1-10",
+      "url": "https://app.notion.com/p/40717d16de4c81108c65e16da8465979",
+      "editedAt": "2026-10-28T19:46:48.485Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before knowledge checklist; existing questions not changed",
+      "truncationMetadata": "not provided",
+      "unknownBlockCount": "not provided"
+    }
+  ],
+  "changes": {
+    "objectives": 10,
+    "preparationPrompts": 10,
+    "writtenPractices": 10,
+    "existingChecksPreserved": 71,
+    "existingQuestionsPreserved": 30,
+    "storageChanged": false,
+    "authorship": "Original exercises based on current teaching topics, no private textbook text copied",
+    "studentNotionLinksAdded": false
+  },
+  "validation": {
+    "legacyDataUnchanged": true,
+    "unitElementTreeChecks": 10,
+    "syntaxCompile": true,
+    "method": "V8 Function syntax compilation and mocked React element-tree execution, not React SSR or browser",
+    "testsRun": false,
+    "buildRun": false
+  },
+  "executionError": "exec_command failed: CreateProcess { message: \"Rejected(\\\"Failed to create unified exec process: exec-server rejected request (-32603): No such file or directory (os error 2)\\\")\" }",
+  "savedToRepository": true,
+  "deployed": false,
+  "onlineVerified": false,
+  "limitations": [
+    "Cannot execute local test runner, React SSR, build or browser this run. Prior 77-test/build pass belongs to parent commit only.",
+    "Mocked React tree checks validate inclusion and syntax only, not hooks, effects, DOM layout or interaction.",
+    "Current five-day cohort22 PPT and daily mapping remain missing.",
+    "Written exercises use student's own notes and are neither saved nor graded in app."
+  ],
+  "next": "When executor returns, run all Foundation tests, real SSR for ten D1 units and build:cloudbase before deployment; meanwhile complete remaining D2 learning guidance."
+}

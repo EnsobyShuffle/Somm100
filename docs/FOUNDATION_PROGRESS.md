@@ -1,3 +1,26 @@
+# Foundation · 2026-11-06 · D1 learning objectives and written practice
+
+Base 2f90c392c6f83753bd8e69e62abd722925eee683 on migration/tencent-somm100. Read current source, migration/progress/source-map checkpoints and Netlify ignore guard. Ten Notion teaching bodies re-read; same October28 edit times, metadata unverified. No day allocation inferred.
+
+- Added ten learning objectives, ten preparation prompts and ten original written exercises to data/foundation-d1.json; rendered via app/FoundationD1Review.js. Covers grape anatomy, annual cycle, environment, vineyard management, grafting, fermentation, skin contact, maturation, appellation concepts and label reading.
+- Existing data deep-equal after removing three new fields:71 checks,30 in-unit questions, all answers/IDs/text retained. Independent25-question D1 quiz unchanged. No storage/instructor/image changes. Written exercises use student's own notes; not saved, scored or automatically completed.
+- V8 syntax compilation and10 mocked React element-tree checks passed; each checks added content inclusion and absence of student Notion links. This is NOT real React SSR, hook/effect validation, DOM/browser testing or production build.
+- Local executor could not create any process: exec-server rejected request (-32603): No such file or directory (os error 2). No attempt to bypass. Consequently this commit's77-test suite, real SSR and CloudBase build remain UNRUN. Parent commit's successful checks cannot be attributed to this code.
+- Evidence docs/qa/foundation-d1-learning-20261106.json. Source prepared for guarded commit/readback. Not deployed or online-verified. Tencent deployment SHA unavailable; no billing/DNS/ICP/auth or paused-task changes.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews,25 independent questions; ten learning/practice packages added, build pending |
+| D2/France | 9+6 reviews,42 independent questions |
+| D3 | 13 reviews,30 independent questions |
+| D4 | 15 reviews,45 independent questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 has five classroom days; no sixth schedule |
+
+D1–D4 are knowledge labels, not confirmed current daily allocations. Next: restore normal executor and run Foundation suite, ten-unit real React SSR and build:cloudbase before deployment; complete remaining D2 guidance independently; obtain actual five-day PPT/day mapping and authorized real phone/browser/Tencent acceptance.
+
+---
+
 # Foundation · 2026-11-06 · France learning objectives and written practice
 
 Checked 2026-11-06T15:40:04+08:00. Base 7e945b3a169a4003afc8bf7caaca4bd252cf5715 on migration/tencent-somm100. Four target files matched remote before edits; read current migration/progress/source map.
