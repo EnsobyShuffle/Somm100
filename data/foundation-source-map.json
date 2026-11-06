@@ -913,6 +913,27 @@
     ],
     "evidenceFile": "docs/qa/foundation-d1-learning-20261106.json",
     "storageChanged": false,
-    "dayAssignment": "knowledge-label-not-confirmed-current-cohort-day"
+    "dayAssignment": "knowledge-label-not-confirmed-current-cohort-day",
+    "regressionValidation": {
+      "checkedAt": "2026-11-06T19:36:34+08:00",
+      "foundationTestsPassed": 77,
+      "productionBuild": "pending",
+      "reactSSR": "pending",
+      "evidenceFile": "docs/qa/foundation-d2-learning-20261106.json"
+    }
+  },
+  "d2LearningRelease": {
+    "checkedAt": "2026-11-06T19:36:34+08:00",
+    "status": "implemented-unit-tests-pass-build-pending",
+    "units": 9,
+    "newUnits": [
+      "foundation-d2-01",
+      "foundation-d2-03",
+      "foundation-d2-04",
+      "foundation-d2-08",
+      "foundation-d2-09"
+    ],
+    "evidenceFile": "docs/qa/foundation-d2-learning-20261106.json",
+    "storageChanged": false
   }
 }

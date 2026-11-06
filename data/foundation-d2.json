@@ -79,7 +79,10 @@
           "answer": 1,
           "explanation": "SOMM100 强调理解品种如何在不同条件下变化。"
         }
-      ]
+      ],
+      "learningObjective": "能用结构、环境和酿造三个角度学习品种，避免把香气表当成固定答案。",
+      "preparation": "回想 D1 中成熟度与发酵的关系，在笔记上先列出酸度、单宁、酒体、酒精度四项观察维度。",
+      "practice": "选本页提到的一个品种，做一张「结构／气候与成熟度／酿造／代表产区」四栏卡。对照正文，把无法仅凭品种确定的内容标为待核实；再说明为什么只背一种水果香气不足以解释一瓶酒。"
     },
     {
       "id": "foundation-d2-02",
@@ -240,7 +243,10 @@
           "answer": 0,
           "explanation": "Sauvignon Blanc 与 Sémillon 是 Bordeaux 白葡萄酒的重要组合。"
         }
-      ]
+      ],
+      "learningObjective": "能连接 Sauvignon Blanc 的酸度与三组经典产区，并区分常见表达和每瓶酒的实际表现。",
+      "preparation": "先写出 Sancerre、Bordeaux、Marlborough 三个名字，尝试标出国家或区域，不确定处留白。",
+      "practice": "做三行产区卡，分别记录本节的产区关系、混酿或香气线索。用正文核对，并把「所有长相思都只有青草味」改写成保留气候与成熟度差异的说法；没有实物时不编造品尝记录。"
     },
     {
       "id": "foundation-d2-04",
@@ -323,7 +329,10 @@
           "answer": 0,
           "explanation": "Germany 是 Riesling 最核心的经典学习国家之一。"
         }
-      ]
+      ],
+      "learningObjective": "能解释 Riesling 的酸度与残糖如何共同影响平衡，并避免只凭品种名称判断甜度。",
+      "preparation": "回想 D1 的残糖概念，先回答「酸」和「甜」能不能同时存在，再读本节。",
+      "practice": "画两个独立维度，分别记录酸度与甜度，而不是把它们画成一条互相排斥的线。根据正文写出 Riesling 的三组产区联系，再解释：一张只写 Riesling 的酒标，为什么还不足以确定甜度？"
     },
     {
       "id": "foundation-d2-05",
@@ -668,7 +677,10 @@
           "answer": 0,
           "explanation": "关键理解：Condrieu。"
         }
-      ]
+      ],
+      "learningObjective": "能为第二层白葡萄建立品种与经典产区的双向联系，识别不同拼写和品种家族。",
+      "preparation": "把本节品种名称列成卡片，先标出熟悉与不熟悉的名字；不要求背全部香气或法规。",
+      "practice": "遮住正文，为每张卡写一个经典地区，再反向用地区找品种。核对后，单独圈出 Albariño／Alvarinho 的拼写关系与 Muscat 的家族身份；用 Chenin Blanc 举例说明同一品种不只一种酒款风格。"
     },
     {
       "id": "foundation-d2-09",
@@ -763,7 +775,10 @@
           "answer": 0,
           "explanation": "关键理解：Pinotage。"
         }
-      ]
+      ],
+      "learningObjective": "能串起第二层红葡萄与经典产区，并区分颜色、单宁和地理线索。",
+      "preparation": "准备两列笔记，左列写品种，右列留给国家或产区；先从自己认识的名字开始。",
+      "practice": "按正文为每个品种补一个地理联系，再遮住品种列反向回忆。挑出 Merlot、Cabernet Franc、Gamay、Nebbiolo 各写一条本节线索；最后说明为什么不能仅凭颜色深浅判断单宁或品质。"
     }
   ]
 }

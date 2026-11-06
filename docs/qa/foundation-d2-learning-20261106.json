@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-11-06T19:36:34+08:00",
+  "baseCommit": "2263b49816d9c595339e92082c47669f7b47ac0a",
+  "branch": "migration/tencent-somm100",
+  "sources": [
+    {
+      "id": "foundation-d2-01",
+      "url": "https://app.notion.com/p/40717d16de4c813ab93fcb3566d7c9e2",
+      "editedAt": "2026-10-28T19:47:23.667Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before checklist",
+      "truncationMetadata": "not supplied",
+      "unknownBlockCount": "not supplied"
+    },
+    {
+      "id": "foundation-d2-03",
+      "url": "https://app.notion.com/p/40717d16de4c8184af60d7e196274050",
+      "editedAt": "2026-10-28T19:47:27.708Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before checklist",
+      "truncationMetadata": "not supplied",
+      "unknownBlockCount": "not supplied"
+    },
+    {
+      "id": "foundation-d2-04",
+      "url": "https://app.notion.com/p/40717d16de4c81adb621f27bf23fbf7e",
+      "editedAt": "2026-10-28T19:47:29.686Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before checklist",
+      "truncationMetadata": "not supplied",
+      "unknownBlockCount": "not supplied"
+    },
+    {
+      "id": "foundation-d2-08",
+      "url": "https://app.notion.com/p/40717d16de4c818f8996f928d2485e4e",
+      "editedAt": "2026-10-28T19:47:59.417Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before checklist",
+      "truncationMetadata": "not supplied",
+      "unknownBlockCount": "not supplied"
+    },
+    {
+      "id": "foundation-d2-09",
+      "url": "https://app.notion.com/p/40717d16de4c81c8afd3e10a2584fed4",
+      "editedAt": "2026-10-28T19:48:01.329Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "readScope": "Teaching body before checklist",
+      "truncationMetadata": "not supplied",
+      "unknownBlockCount": "not supplied"
+    }
+  ],
+  "changes": {
+    "addedUnits": [
+      "foundation-d2-01",
+      "foundation-d2-03",
+      "foundation-d2-04",
+      "foundation-d2-08",
+      "foundation-d2-09"
+    ],
+    "objectives": 5,
+    "preparationPrompts": 5,
+    "writtenPractices": 5,
+    "totalD2UnitsWithLearningGuidance": 9,
+    "oldDataDeepEqualAfterRemovingNewFields": true,
+    "preservedChecks": 64,
+    "preservedInUnitQuestions": 27,
+    "preservedIndependentQuizQuestions": 42,
+    "componentChanged": false,
+    "storageChanged": false,
+    "authorship": "Original prompts derived from existing teaching topics; no private textbook reproduction."
+  },
+  "validation": {
+    "foundationTests": {
+      "pass": 77,
+      "fail": 0,
+      "includesPriorD1Change": true
+    },
+    "nodeSyntaxChecks": [
+      "app/FoundationD1Review.js",
+      "app/FoundationRegionalReview.js"
+    ],
+    "mockedD2ElementTrees": {
+      "pass": 9,
+      "scope": "V8 mock React element-tree only; not actual React SSR or DOM"
+    },
+    "recovery": "Executor available again; former scratch checkout/dependencies absent. Restored current Foundation subset through GitHub. Initial suite failed for missing docs/staging and QA fixtures; restored all five referenced fixtures, reran full Foundation suite successfully.",
+    "reactSSR": "not run; react/react-dom absent at runtime dependency path",
+    "productionBuild": "not run; full repository and build dependencies not restored",
+    "browserVerified": false
+  },
+  "saved": true,
+  "deployed": false,
+  "onlineVerified": false,
+  "next": "Restore complete authoritative branch checkout/build dependencies; run real React SSR for D1 and D2 plus build:cloudbase. Actual five-day teaching PPT/allocation and authorized Tencent deployment/phone acceptance still missing."
+}

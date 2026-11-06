@@ -1,3 +1,28 @@
+# Foundation · 2026-11-06 · Complete D2 learning guidance and recover regression tests
+
+Checked 2026-11-06T19:36:34+08:00; base 2263b49816d9c595339e92082c47669f7b47ac0a on migration/tencent-somm100. Read remote source, current progress/migration/source map and Netlify ignore guard; branch unchanged at start.
+
+- Re-read five canonical Notion teaching bodies for D2 units01/03/04/08/09. Metadata unverified, unchanged October28 edits; connector did not supply truncation/unknown-block counts. Existing sources are topic guides, not proof of current daily classroom placement.
+- Added five objectives, five preparation prompts and five original written practices: learning grape structure, Sauvignon Blanc, Riesling, secondary white grapes, secondary red grapes. All nine D2 units now have learning guidance through the existing FoundationRegionalReview renderer; no component modification needed.
+- Removing only15 added fields leaves complete old D2 data identical, including64 checks,27 in-unit questions/answers and earlier four comparison packages. Independent42-question quiz, all storage IDs, instructors and images unchanged.
+- Executor recovered, but old scratch checkout/dependencies had been cleared. Restored current Foundation source/test subset via GitHub. Initial test attempt reported missing staging and source-inventory fixtures; restored five required files and reran:77/77 Foundation tests PASS. This covers previous D1 content changes as well as current D2 data.
+- Node syntax checks pass for D1Review and RegionalReview. Nine mocked React element-tree checks pass, covering learning guidance inclusion. These are NOT actual React SSR or browser/phone checks.
+- Real React SSR and production build remain UNRUN: react/react-dom not present in runtime dependency path; full source/build dependencies not restored. Prior15:40 build evidence applies to2f90c39 only, not current changes.
+- Evidence docs/qa/foundation-d2-learning-20261106.json. Saved for guarded commit/readback. No deployment, online acceptance, cloud billing/DNS/ICP/auth or paused-task changes.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews,25 independent questions; previous learning guidance now covered by77 regression tests; build/SSR pending |
+| D2/France | 9+6 reviews,42 independent questions; all nine D2 units and six France units have learning guidance |
+| D3 | 13 reviews,30 independent questions |
+| D4 | 15 reviews,45 independent questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 five classroom days; no sixth schedule |
+
+D1–D4 are knowledge labels, not confirmed current day assignments. Next: restore full authoritative checkout/build dependencies and run actual D1/D2 React SSR plus build:cloudbase; obtain five-day source PPT/day mapping; authorized Tencent source-version and phone acceptance. Existing main bundle ~12MB remains an earlier measured performance concern, not remeasured this run.
+
+---
+
 # Foundation · 2026-11-06 · D1 learning objectives and written practice
 
 Base 2f90c392c6f83753bd8e69e62abd722925eee683 on migration/tencent-somm100. Read current source, migration/progress/source-map checkpoints and Netlify ignore guard. Ten Notion teaching bodies re-read; same October28 edit times, metadata unverified. No day allocation inferred.
