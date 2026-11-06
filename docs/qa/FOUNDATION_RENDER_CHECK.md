@@ -19,12 +19,14 @@ The repository's own React dependencies must already be installed. The test-only
 
 ## Coverage
 
-- Actual React server rendering of the first unit of D1, D2 and France.
-- Actual React DOM rendering and effects in jsdom for all 10 + 9 + 6 units, selected through their real change handlers.
-- Learning objective, preparation and written practice text; written exercise save/scoring boundary.
+- Actual React server rendering of the first unit of D1, D2, France, D3 and D4.
+- Actual React DOM rendering and effects in jsdom for all 10 + 9 + 6 + 13 + 15 units, selected through their real change handlers.
+- Learning objective, preparation and written practice text; written exercise save/scoring boundary. D3 currently has only written practice: its 13 missing objectives/preparation pairs are explicitly reported, not asserted as complete.
 - Original check/question input counts and absence of internal Notion links in the rendered student view.
 - Seeded first/latest answers and checks survive unit navigation without completion being fabricated.
 - Actual checkbox/radio clicks save to isolated test localStorage; unmount/remount restores the selected unit and answers.
+- Unit selection and previous/next buttons move actual DOM focus to the new article; initial load does not steal focus. Scroll requests are recorded with a jsdom stub, including reduced-motion behavior. Real scroll geometry remains untested.
+- Corrupt stored records show an alert and are not overwritten by temporary interactions.
 - React console errors/warnings fail the check.
 
 This is not a browser screenshot, responsive-layout, accessibility audit, cloud-sync or online-deployment check. CSS is deliberately not rendered. The test writes only to jsdom's disposable localStorage. The 77-test data/progress suite and offline CloudBase artifact checker remain separate gates.

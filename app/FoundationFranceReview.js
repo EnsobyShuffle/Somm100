@@ -1,6 +1,6 @@
 'use client';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import data from '../data/foundation-france.json';
 import {emptyFranceProgress, readFranceProgress, writeFranceProgress, franceUnitResult} from '../lib/foundation-france.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
@@ -15,6 +15,7 @@ import './foundation-study.css';
 const h = React.createElement;
 export default function FoundationFranceReview() {
   const [progress, setProgress] = useState(emptyFranceProgress);
+  const navigationRequested = useRef(false);
   const [loaded, setLoaded] = useState(false);
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
@@ -44,7 +45,14 @@ export default function FoundationFranceReview() {
   const unit = data.units.find(u => u.number === progress.unit) || data.units[0];
   const result = franceUnitResult(unit, progress);
   const reviewed = data.units.filter(u => franceUnitResult(u, progress).reviewed).length;
+  useEffect(() => {
+    if (!navigationRequested.current) return;
+    navigationRequested.current = false;
+    focusFoundationTarget(unit.id);
+  }, [unit.id]);
   function chooseUnit(number) {
+    if (number === unit.number) return;
+    navigationRequested.current = true;
     setProgress(p => ({...p, unit: number}));
   }
   return h('section', {className: 'white-panel foundation-study', id: 'foundation-france-review', 'aria-labelledby': 'foundation-france-title'},

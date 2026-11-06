@@ -955,5 +955,22 @@
       "browserVisual": "unverified",
       "evidenceFile": "docs/qa/foundation-react-rendering-20261106.json"
     }
+  },
+  "allReviewInteractionValidation": {
+    "checkedAt": "2026-11-06T23:41:33+08:00",
+    "evidenceFile": "docs/qa/foundation-all-review-interactions-20261106.json",
+    "units": 53,
+    "foundationTestsPassed": 77,
+    "builtGuidanceFields": 133,
+    "status": "react-dom-and-build-verified-not-deployed",
+    "d3GuidanceGap": {
+      "units": 13,
+      "missingFields": [
+        "learningObjective",
+        "preparation"
+      ]
+    },
+    "currentCohortDayAssignment": "unconfirmed",
+    "browserVisualVerified": false
   }
 }

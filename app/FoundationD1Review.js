@@ -1,6 +1,6 @@
 'use client';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import data from '../data/foundation-d1.json';
 import {emptyD1Progress, readD1Progress, writeD1Progress, d1UnitResult} from '../lib/foundation-d1.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
@@ -13,6 +13,7 @@ import './foundation-study.css';
 const h = React.createElement;
 export default function FoundationD1Review() {
   const [progress, setProgress] = useState(emptyD1Progress);
+  const navigationRequested = useRef(false);
   const [loaded, setLoaded] = useState(false);
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
@@ -42,7 +43,14 @@ export default function FoundationD1Review() {
   const unit = data.units.find(u => u.number === progress.unit) || data.units[0];
   const result = d1UnitResult(unit, progress);
   const reviewed = data.units.filter(u => d1UnitResult(u, progress).reviewed).length;
+  useEffect(() => {
+    if (!navigationRequested.current) return;
+    navigationRequested.current = false;
+    focusFoundationTarget(unit.id);
+  }, [unit.id]);
   function chooseUnit(number) {
+    if (number === unit.number) return;
+    navigationRequested.current = true;
     setProgress(p => ({...p, unit: number}));
   }
   return h('section', {className: 'white-panel foundation-study', id: 'foundation-d1-review', 'aria-labelledby': 'foundation-d1-title'},

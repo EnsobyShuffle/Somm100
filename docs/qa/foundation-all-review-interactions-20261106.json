@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-11-06T23:41:33+08:00",
+  "baseCommit": "4bb891076c5c98fe75dfdc70d75c4e9aa8921788",
+  "branch": "migration/tencent-somm100",
+  "changes": [
+    "Previous/next and select navigation now focus new article after React commits it; initial loading does not request focus",
+    "Extended real React DOM validation to all 53 review units including D3/D4 and corrupt local records",
+    "Built guidance checks extended to 133 existing fields including D3 practice and D4 full guidance"
+  ],
+  "sources": [
+    "Current branch source matched against GitHub before editing",
+    "data/foundation-source-map.json",
+    "docs/FOUNDATION_PROGRESS.md",
+    "docs/CLOUDBASE_MIGRATION.md"
+  ],
+  "newTeachingClaims": false,
+  "curriculumGap": "D3 has practice but lacks learningObjective/preparation in all 13 units. Current five-day classroom allocation remains unknown.",
+  "rendering": {
+    "status": "PASS",
+    "scope": "React SSR and jsdom; no browser layout or online acceptance",
+    "results": [
+      {
+        "area": "d1",
+        "units": 10,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d2",
+        "units": 9,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "france",
+        "units": 6,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d3",
+        "units": 13,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": [
+          "learningObjective",
+          "preparation"
+        ]
+      },
+      {
+        "area": "d4",
+        "units": 15,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      }
+    ],
+    "totalUnits": 53
+  },
+  "unitTests": {
+    "passed": 77,
+    "failed": 0
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 473,
+    "entry": "./assets/index-B8TTZico.js",
+    "entryBytes": 12027203,
+    "entrySha256": "1dd3f55f20d4794a21a47f306b32b42b6d87eea2b2df992390a53ae1619f21a9",
+    "foundationMarkers": 37,
+    "learningGuidanceFields": 133,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "unchanged": [
+    "Teaching data, questions, answers and stable IDs",
+    "Local storage formats",
+    "Instructors and course images",
+    "Netlify ignore guard",
+    "Other paused tasks"
+  ],
+  "limits": [
+    "jsdom scrollIntoView is a recording stub; actual DOM focus checked, real scroll geometry not checked",
+    "No phone/browser visual or online acceptance",
+    "No deployment; no cloud sync",
+    "Focused restored dependencies, not full frozen-lockfile pnpm installation",
+    "Main entry remains 12027203 bytes"
+  ]
+}

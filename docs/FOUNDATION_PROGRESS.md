@@ -1,3 +1,27 @@
+# Foundation · 2026-11-06 · All review interactions and unit navigation
+
+Checked 2026-11-06T23:41:33+08:00. Base 4bb891076c5c98fe75dfdc70d75c4e9aa8921788 on migration/tencent-somm100; fresh head unchanged. Compared six source/map files byte-for-byte with remote, read migration and latest checkpoint. No AGENTS.md in checkout. Existing Netlify ignore guard retained.
+
+- Fixed previous/next and select navigation in D1Review, FranceReview and RegionalReview: a user-request ref triggers focusFoundationTarget only after the new article is committed. Initial record loading does not steal focus; selecting the current unit is a no-op. Existing reduced-motion handling and scroll margin are reused. Covers all five review areas, no storage-format or teaching-data changes.
+- Extended reusable actual React DOM check from 25 to 53 units: D3's 13 and D4's 15 now included. Checks render content, preserve original checks/first/latest answers during navigation, click actual checkbox/radio controls, remount persisted state, and leave malformed original records untouched while displaying an alert.
+- Verified actual DOM focus after select/previous/next, with no React warnings/errors. jsdom does not provide layout: scrollIntoView is a recording stub, reduced-motion auto-scroll request verified; this does not prove phone scroll position, real browser layout or screen-reader behavior.
+- Found and explicitly recorded D3 gap: all 13 units contain written practice but no learningObjective/preparation fields. Test reports this known gap rather than pretending completeness or inventing course material. D4 has all three guidance fields.
+- Extended offline artifact verification to 133 existing guidance/practice fields and 37 feature markers. 77/77 Foundation unit tests PASS; 53-unit DOM check PASS; five initial-unit SSR renders PASS; CloudBase build PASS, 473 files, entry ./assets/index-B8TTZico.js, SHA256 1dd3f55f20d4794a21a47f306b32b42b6d87eea2b2df992390a53ae1619f21a9. Main entry remains 12027203 bytes; mobile performance unresolved.
+- Evidence: docs/qa/foundation-all-review-interactions-20261106.json; reproduction docs/qa/FOUNDATION_RENDER_CHECK.md. No new Notion/Library content retrieved this code-validation round; canonical content sources unchanged. No deployment, online acceptance, purchases/auth/DNS/ICP or paused-task work. Saved for guarded commit/readback.
+
+| Area | Content / validation status |
+| --- | --- |
+| D1 | 10 reviews + 25 independent questions; DOM interaction verified |
+| D2 / France | 9 + 6 reviews + 42 independent questions; DOM interaction verified |
+| D3 | 13 reviews + 30 independent questions; DOM interaction verified, 13 objectives/preparation pairs missing |
+| D4 | 15 reviews + 45 independent questions; DOM interaction verified |
+| D5 | Current classroom teaching/assessment allocation pending |
+| D6 | Cohort22 five classroom days; no invented sixth day |
+
+D1–D4 are knowledge labels, not confirmed daily placements. Next: read canonical D3 sources and add original objectives/preparation coherently; continue Foundation mobile loading work. Exact external blockers: current five-day source PPT/day mapping and authorized Tencent deployed-version/real-phone acceptance. Existing 12 MB main entry remains a measured loading concern. Not deployed or Henry-accepted.
+
+---
+
 # Foundation · 2026-11-06 · Real React rendering and CloudBase validation recovered
 
 Checked 2026-11-06T21:44:40+08:00. Base dbda8c116cfd108bd7269efdab896ea691772291 on migration/tencent-somm100. Fresh head unchanged; restored full archive at that exact commit, read migration/source-map/progress checkpoints. Netlify ignore guard retained.
