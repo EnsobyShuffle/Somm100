@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-11-06T13:37:10.763555+08:00",
+  "baseCommit": "1587fd6de33737570cb526c9c5d83e01aba53a8c",
+  "implementation": "Shared focusFoundationTarget used by six Foundation components: programmatic focus before scroll, preserve existing tabindex, reduced-motion auto scrolling, missing-target no-op. Heading/article scroll-margin expanded. No storage or course data changes.",
+  "sourceReads": [
+    {
+      "id": "40e17d16de4c810a83a2fca38728b70f",
+      "editedAt": "2026-11-04T16:43:00.042Z",
+      "verification": "unverified",
+      "finding": "Index page only; no current timetable."
+    },
+    {
+      "id": "40717d16de4c81ef9be0e1d6579a9592",
+      "editedAt": "2026-11-04T16:42:42.160Z",
+      "verification": "unverified",
+      "finding": "Internal operational draft retains old six-day references and explicitly lists source PPT as pending; does not override cohort22 five-day evidence. Tool display output truncated, relied only on visible sections, no claim of complete audit."
+    }
+  ],
+  "tests": {
+    "passed": 77,
+    "failed": 0,
+    "new": 3,
+    "scope": "Mock DOM contract tests: focus/scroll ordering, reduced motion, existing tab order, missing targets; not real browser accessibility acceptance"
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 473,
+    "entry": "./assets/index-BRdLBMZS.js",
+    "entryBytes": 12027203,
+    "entrySha256": "4fc56aaa75cf26b491cd5a848ef1b22d259cc05e5984e39f288c646b6bd82779",
+    "foundationMarkers": 37,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "limitations": [
+    "Prior Chromium socket permission denial unresolved; browser/mobile/screen-reader checks not performed.",
+    "Full frozen-lockfile install unverified; pinned build-only subset used.",
+    "Approximately12MB entry bundle remains.",
+    "No deployment or online acceptance; current Tencent SHA unknown.",
+    "Current five-day source PPT/day mapping still missing."
+  ]
+}

@@ -11,7 +11,7 @@
 .foundation-study summary { padding: .8rem 0; cursor: pointer; font-weight: 600; }
 .foundation-study button { white-space: normal; min-height: 44px; }
 .foundation-study :focus-visible { outline: 3px solid #725832; outline-offset: 3px; }
-.foundation-study h4, .foundation-chapter { scroll-margin-top: 5rem; }
+.foundation-study h2, .foundation-study h3, .foundation-study h4, .foundation-study article, .foundation-chapter { scroll-margin-top: 5rem; }
 @media (max-width: 600px) { .foundation-study fieldset { padding: .75rem; } .foundation-study .button-row { display: flex; flex-direction: column; align-items: stretch; } }
 
 .foundation-cohort-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr)); gap:1rem; }

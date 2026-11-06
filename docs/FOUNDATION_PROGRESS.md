@@ -1,3 +1,25 @@
+# Foundation · 2026-11-06 · Accessible learning navigation
+
+Checked 2026-11-06T13:37:10.763555+08:00. Base1587fd6de33737570cb526c9c5d83e01aba53a8c on migration/tencent-somm100. Read current migration/progress/source map. Eight target files matched remote before edits.
+
+- Rechecked Notion search for current cohort22 timetable, opened Somm100.cn index and operational center. Index has no timetable; visible operations draft explicitly lists source PPT pending and retains historical six-day framing. Neither establishes current five-day allocation. Metadata unverified, edited2026-11-04; operations tool display truncated, no full-audit claim. No private source text published.
+- Fixed scroll-only navigation across six Foundation components: requested navigation now transfers keyboard focus to target heading/article without adding it to normal Tab order. Shared helper respects reduced motion, preserves existing tabindex, and safely ignores missing targets. Expanded heading/article scroll margin to5rem. No answer, check, storage ID, instructor, image or curriculum changes.
+- Foundation77/77 tests pass, including3 new mock-DOM behavioral tests. Build PASS473 files,37 markers, mounts / and /somm100/. Entry ./assets/index-BRdLBMZS.js, SHA256 4fc56aaa75cf26b491cd5a848ef1b22d259cc05e5984e39f288c646b6bd82779. Full frozen-lockfile install not verified; existing approximately12MB entry remains a performance concern.
+- Evidence docs/qa/foundation-navigation-focus-20261106.json. Saved for guarded commit/readback. Not deployed or online-verified. Real keyboard, screen-reader, mobile scroll/visibility and backup/download behavior remain untested after prior Chromium socket permission denial. No retry/bypass, billing, DNS, ICP or paused-task actions.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews,25 independent questions |
+| D2/France | 9+6 reviews,42 independent questions |
+| D3 | 13 reviews,30 independent questions |
+| D4 | 15 reviews,45 independent questions |
+| D5 | Current teaching/assessment placement pending |
+| D6 | Cohort22 five classroom days; no sixth schedule |
+
+D1–D4 are knowledge labels, not current daily allocation. Next: obtain actual five-day source PPT/day mapping; supported browser phone/focus/navigation/backup checks; independently verify Tencent source version. Neither curriculum nor deployment complete.
+
+---
+
 # Foundation · 2026-11-06 · Return from review to originating quiz
 
 Checked 2026-11-06T11:37:20.153277+08:00. Base2db62dfc62c41da3ac8d6156e91badb8d4e4478d on migration/tencent-somm100. Read migration/progress/source-map checkpoints and existing quiz/review navigation;8 existing files matched GitHub exactly before changes. This work uses current source and introduces no new lesson facts or schedule claims.

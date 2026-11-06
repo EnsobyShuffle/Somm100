@@ -1,4 +1,5 @@
 'use client';
+import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import React, {useEffect, useState} from 'react';
 import {quizProgressData, quizResult, quizReviewTargets, quizReturnQuestion} from '../lib/foundation-quiz.mjs';
 import {emptyD2Progress, readD2Progress, writeD2Progress} from '../lib/foundation-d2.mjs';
@@ -30,10 +31,7 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
       if(!target)return;
       setProgress(p=>({...p,unit:target.number}));
       window.requestAnimationFrame(()=>{
-        const heading=document.getElementById(prefix+'-quiz-title');
-        heading?.focus({preventScroll:true});
-        const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-        heading?.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'});
+        focusFoundationTarget(prefix+'-quiz-title');
       });
     }
     window.addEventListener('foundation-return-quiz',returnToQuiz);

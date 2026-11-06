@@ -1,4 +1,5 @@
 'use client';
+import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import React, {useEffect, useState} from 'react';
 import data from '../data/foundation-france.json';
 import {emptyFranceProgress, readFranceProgress, writeFranceProgress, franceUnitResult} from '../lib/foundation-france.mjs';
@@ -22,7 +23,7 @@ export default function FoundationFranceReview() {
       const target = mappedReviewUnit(data, 'foundation-france', event.detail);
       if (!target) return;
       setProgress(p => ({...p, unit:target.number}));
-      window.requestAnimationFrame(() => document.getElementById('foundation-france-title')?.scrollIntoView({behavior:'smooth',block:'start'}));
+      window.requestAnimationFrame(() => focusFoundationTarget('foundation-france-title'));
     }
     window.addEventListener('foundation-open-review', openReview);
     return () => window.removeEventListener('foundation-open-review', openReview);
@@ -81,7 +82,7 @@ export default function FoundationFranceReview() {
             entry ? h('div', {'aria-live': 'polite'},
               h('p', null, `${entry.latest === q.answer ? '理解正确。' : '建议回看本节。正确理解：' + q.options[q.answer] + '。'}${q.explanation}`),
               h('p', {className: 'fine-print'}, `首次选择：${q.options[entry.first]}；最近选择：${q.options[entry.latest]}`),
-              entry.latest !== q.answer ? h('button', {type: 'button', className: 'button secondary', onClick: () => document.getElementById(unit.id)?.scrollIntoView({behavior: 'smooth', block: 'start'})}, '返回本节正文') : null) : null);
+              entry.latest !== q.answer ? h('button', {type: 'button', className: 'button secondary', onClick: () => focusFoundationTarget(unit.id)}, '返回本节正文') : null) : null);
         })),
       h('p', {role: 'status'}, result.reviewed ? '本节自查与理解检查已完成，可继续下一节。' : '自查未确认或题目仍有疑问时，可继续阅读和重答，不设淘汰线。'),
       h('div', {className: 'button-row'},

@@ -1,4 +1,5 @@
 'use client';
+import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import React, {useEffect, useState} from 'react';
 import data from '../data/foundation-bridge.json';
 import {FOUNDATION_BRIDGE_KEY} from '../lib/foundation-backup.mjs';
@@ -14,7 +15,7 @@ const weekOptions = [0, 1, 2].map(week => h('optgroup', {key: week, label: `第 
 
 function openTarget(target) {
   if (target.headingId) {
-    document.getElementById(target.headingId)?.scrollIntoView({behavior: 'smooth', block: 'start'});
+    focusFoundationTarget(target.headingId);
     return;
   }
   window.dispatchEvent(new CustomEvent('foundation-open-review', {

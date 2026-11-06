@@ -1,4 +1,5 @@
 'use client';
+import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import React, {useEffect, useState} from 'react';
 import data from '../data/foundation-study.json';
 import {FOUNDATION_STORAGE_KEY, emptyFoundationProgress, normalizeFoundationProgress, recordFoundationAnswer, foundationWeekResult, foundationOptions} from '../lib/foundation-study.mjs';
@@ -6,7 +7,7 @@ import './foundation-study.css';
 
 const h = React.createElement;
 function scrollToConcept(id) {
-  document.getElementById(id)?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  focusFoundationTarget(id);
 }
 
 export default function FoundationStudy() {
