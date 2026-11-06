@@ -1,3 +1,32 @@
+# Foundation · 2026-11-07 · Entry clarity and bundle diagnosis
+
+Base 4d8c0a1544afe2f200477f37fae10326015cf27c on migration/tencent-somm100. Read current migration/checkpoint/source map/cohort data and compared modified source/checkpoint with remote; no concurrent head change at start.
+
+- Updated the live Programs Foundation card in app/Platform.tsx: names the available Chinese precourse path, topic review and quizzes; explicitly states cohort22 five classroom days and pending daily teaching allocation. Existing route ID/click action retained; CMS cards unchanged.
+- Removed stale six-day and Chapter00 claims from retained BrandHome/CourseLibrary/PlatformHome components. Important correction: these exports are NOT currently rendered by LearningApp (home uses Discover, courses uses Programs); their initial copy corrections alone did not change the build. Do not report them as a reproduced live homepage defect. Images and all other content retained.
+- Added scripts/audit-cloudbase-entry.mjs: offline Vite build with write:false, emits entry hash/bytes, direct imports and largest module renderedLength metadata. No upload, deployment or build config change. A first broad Foundation filter also matched the external dependency directory name; narrowed to repository app/lib/data paths and reran.
+- Diagnosis: largest entry modules include data/curriculum.json (renderedLength8391074),producers.json(1596980),knowledge-dictionary.json(618158),cms-learning.json(600793),grape-wine-index.json(476150). These are bundler metadata lengths, NOT minified byte shares or network transfer sizes. Shared static imports outside Foundation dominate; no paused course/data edits or unsafe mass splitting undertaken. FoundationLoadBoundary is1496 in this metric; other Foundation components remain dynamic chunks and are not part of this entry-only list.
+- PASS:77 Foundation unit tests; CloudBase production build;159 guidance fields/37 markers. Report entry hash exactly matched separately written build. Live card text verified present in built entry; stale six-day/Chapter00 promotional phrases absent. No new DOM/browser/mobile tests claimed this copy/diagnostic round; prior integration results are not relabeled as this run.
+- Build473files,entry ./assets/index-Bts6gIkj.js,12028433bytes,SHA256 4be67ff20b5ccd9553c3f55d162a3597f02d708aeb5fc2012125c38f3b3de355. No size reduction/performance improvement claimed. Evidence docs/qa/foundation-entry-audit-20261107.json.
+- Source basis: existing foundation-cohort22.json (teachingDays5, sourceLabel2026-11-04, sourceUrl https://mp.weixin.qq.com/s/ry29Vvs8tSHyR3xgekgySg), latest source map and actual code. No new source-body retrieval/publication, no changes to dates/fees/registration. Runtime environment_status still not exposed; no auth/network/billing actions. Netlify ignore exit0 retained.
+
+| Area | Current status |
+| --- | --- |
+| D1 | 10 review units +25 independent questions |
+| D2 / France | 9+6 units +42 independent questions |
+| D3 | 13 units +30 independent questions |
+| D4 | 15 units +45 independent questions |
+| D5 | Teaching/assessment allocation pending |
+| D6 | Cohort22 has five classroom days; no invented sixth day |
+
+D1–D4 remain topic labels, not confirmed daily assignments. Saved for guarded commit/readback; not deployed or online/mobile accepted. Records remain browser-local.
+
+Next breakpoint: evaluate a Foundation-specific entry boundary that avoids shared curriculum/library preload, with preserved navigation/account/record behavior and rollback evidence before changing shared routing. Continue source reconciliation if current five-day source PPT becomes available. Exact outstanding blockers: official day-to-material mapping, real browser/mobile validation (last socket Operation not permitted), usable Tencent deployment/auth route (last console login required, CLI policy-denied). Not all work is blocked; no automation change.
+
+Reproduce diagnostic: `node scripts/audit-cloudbase-entry.mjs > /tmp/entry-audit.json`, then `npm run build:cloudbase`; compare entrySha256 against the emitted asset. Existing focused dependency environment applies; not a full frozen pnpm install. Audit uses write:false and does not replace dist-cloudbase.
+
+---
+
 # Foundation · 2026-11-07 · Loading failure recovery
 
 Checked 2026-11-07T05:36:44+08:00. Base 39489d7618cac495957a4c3f773f4b9a515ab136 on migration/tencent-somm100; fresh branch head unchanged. Read migration/latest checkpoint/source map; app and checkpoint/QA/Netlify originals compared with remote before edits.

@@ -1,0 +1,80 @@
+{
+  "scope": "offline-build-entry-audit",
+  "entry": "assets/index-Bts6gIkj.js",
+  "entryBytes": 12028433,
+  "entrySha256": "4be67ff20b5ccd9553c3f55d162a3597f02d708aeb5fc2012125c38f3b3de355",
+  "directImports": [],
+  "topModules": [
+    {
+      "path": "data/curriculum.json",
+      "renderedLength": 8391074
+    },
+    {
+      "path": "data/producers.json",
+      "renderedLength": 1596980
+    },
+    {
+      "path": "data/knowledge-dictionary.json",
+      "renderedLength": 618158
+    },
+    {
+      "path": "data/cms-learning.json",
+      "renderedLength": 600793
+    },
+    {
+      "path": "data/grape-wine-index.json",
+      "renderedLength": 476150
+    },
+    {
+      "path": "../foundation-validation-deps/node_modules/react-dom/cjs/react-dom-client.production.js",
+      "renderedLength": 452088
+    },
+    {
+      "path": "data/wine-library.json",
+      "renderedLength": 296184
+    },
+    {
+      "path": "data/grape-index.json",
+      "renderedLength": 294744
+    },
+    {
+      "path": "data/rully-reference.json",
+      "renderedLength": 197499
+    },
+    {
+      "path": "data/wine-profiles.json",
+      "renderedLength": 97090
+    },
+    {
+      "path": "app/LearningApp.tsx",
+      "renderedLength": 96528
+    },
+    {
+      "path": "data/region-index.json",
+      "renderedLength": 95086
+    },
+    {
+      "path": "data/china-index.json",
+      "renderedLength": 91459
+    },
+    {
+      "path": "data/spain-index.json",
+      "renderedLength": 67563
+    },
+    {
+      "path": "data/wine-channel.json",
+      "renderedLength": 58933
+    }
+  ],
+  "foundationModules": [
+    {
+      "path": "app/FoundationLoadBoundary.js",
+      "renderedLength": 1496
+    }
+  ],
+  "limitations": [
+    "renderedLength is bundler module metadata, not compressed transferred bytes",
+    "entry size excludes other imported chunks, CSS, images and runtime requests",
+    "not a browser timing, mobile performance or deployment measurement"
+  ]
+}
