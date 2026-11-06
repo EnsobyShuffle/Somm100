@@ -59,7 +59,10 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
       unit.preparation && h('p', null, h('strong', null, '学习准备　'), unit.preparation),
       unit.sections.map((section, i) => h('section', {key: i}, h('h4', null, section.heading), h('p', null, section.text))),
       h(FoundationDiagram, {unitId: unit.id}),
-      unit.practice && h("p", null, h("strong", null, "动手练习　"), unit.practice),
+      unit.practice && h('section', null,
+        h('h4', null, '动手练习'),
+        h('p', null, unit.practice),
+        h('p', {className: 'fine-print'}, '请在自己的笔记中完成，再按提示核对。这项书面练习不在页面保存或自动评分，也不会自动标记本节完成。')),
       h('fieldset', null, h('legend', null, '知识点自查 · 理解后勾选'),
         unit.checks.map(c => h('label', {key: c.id, className: 'foundation-check'},
           h('input', {type: 'checkbox', checked: progress.checks[c.id] === true, disabled: !loaded, onChange: e => {

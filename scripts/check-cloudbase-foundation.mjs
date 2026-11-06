@@ -44,8 +44,22 @@ const markers=['foundation-return-quiz','FOUNDATION_PREVIEW_CHANGED','foundation
   'foundation-d3-title','foundation-d4-title','somm100.foundation.d3-review.v1','somm100.foundation.d4-review.v1',
   'somm100.foundation.study.v1','somm100.foundation.d1-review.v1','somm100.foundation.d2-review.v1','somm100.foundation.france-review.v1'];
 markers.forEach(marker=>assert(bundle.includes(marker),`Missing Foundation feature/key: ${marker}`));
+// Guard against shipping a stale lazy chunk after editing the teaching guidance.
+let learningGuidanceFields = 0;
+for (const area of ['d1', 'd2', 'france']) {
+  const data = JSON.parse(readFileSync(new URL(`../data/foundation-${area}.json`, import.meta.url), 'utf8'));
+  for (const unit of data.units) {
+    for (const field of ['learningObjective', 'preparation', 'practice']) {
+      const value = unit[field];
+      assert(typeof value === 'string' && value.length > 0, `Missing ${unit.id}.${field}`);
+      assert(bundle.includes(value) || bundle.includes(JSON.stringify(value).slice(1, -1)),
+        `Stale/missing built guidance: ${unit.id}.${field}`);
+      learningGuidanceFields++;
+    }
+  }
+}
 const entry=refs.find(p=>p.endsWith('.js'));
 const bytes=readFileSync(resolve(root,entry));
 console.log(JSON.stringify({status:'PASS',scope:'offline-build-only',files:files.length,entry,entryBytes:bytes.length,
-  entrySha256:createHash('sha256').update(bytes).digest('hex'),foundationMarkers:markers.length,
+  entrySha256:createHash('sha256').update(bytes).digest('hex'),foundationMarkers:markers.length,learningGuidanceFields,
   mounts:['/','/somm100/'],deployed:false,browserVerified:false},null,2));

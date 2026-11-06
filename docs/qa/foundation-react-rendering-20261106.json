@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-11-06T21:44:40+08:00",
+  "baseCommit": "dbda8c116cfd108bd7269efdab896ea691772291",
+  "branch": "migration/tencent-somm100",
+  "changes": [
+    "Reusable real React SSR/jsdom rendering and interaction check for D1/D2/France; app source and hooks unmodified by test loader",
+    "Regional written-practice clarification matches D1/France; no storage changes",
+    "CloudBase artifact checker verifies all 75 learning guidance fields from 25 units"
+  ],
+  "rendering": {
+    "status": "PASS",
+    "scope": "React SSR and jsdom; no browser layout or online acceptance",
+    "results": [
+      {
+        "area": "d1",
+        "units": 10,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "recordPreservation": true,
+        "remount": true
+      },
+      {
+        "area": "d2",
+        "units": 9,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "recordPreservation": true,
+        "remount": true
+      },
+      {
+        "area": "france",
+        "units": 6,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "recordPreservation": true,
+        "remount": true
+      }
+    ],
+    "totalUnits": 25
+  },
+  "foundationUnitTests": {
+    "passed": 77,
+    "failed": 0
+  },
+  "cloudbaseBuild": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 473,
+    "entry": "./assets/index-Rp-3fJty.js",
+    "entryBytes": 12027203,
+    "entrySha256": "6ea42d2a8ef11a98e621f6fe69d9b6a6907c15a1baf5af7e5ace70c0b63056ac",
+    "foundationMarkers": 37,
+    "learningGuidanceFields": 75,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "reviewChunks": [
+    {
+      "file": "assets/FoundationD1Review-RE7B_1d7.js",
+      "bytes": 7177,
+      "sha256": "69b1e14cf1fba7d81b6d42b8c1590c15e721ed0bfb033df8ad64097dc593cbbe"
+    },
+    {
+      "file": "assets/FoundationD2Review-BqHDRASB.js",
+      "bytes": 540,
+      "sha256": "3837403c9f0bf5903aa9317876e43255b6f07ea8b8c10855b4c26315b48d5a33"
+    },
+    {
+      "file": "assets/FoundationD3Review-DJzSS8UY.js",
+      "bytes": 581,
+      "sha256": "d48d8ef8950fdfe41ab57b1193d85f9e195826680d86ddb024ee5f47368f24d5"
+    },
+    {
+      "file": "assets/FoundationD4Review-BIEJZn1s.js",
+      "bytes": 587,
+      "sha256": "901b9b1302b0a6e8f2f2af2c0931a38325aa6291e6664abebccf7362526c6503"
+    },
+    {
+      "file": "assets/FoundationFranceReview-DdB_Oa4W.js",
+      "bytes": 12013,
+      "sha256": "870ff9ce500be1a723ce44cb826927738a30efaa0383e5160350a30b6fe409b8"
+    },
+    {
+      "file": "assets/FoundationRegionalReview-c75CS1Fh.js",
+      "bytes": 4255,
+      "sha256": "667d1f409ef7c5bc3b1a0050f6192522dbd97ef90f115ca918dd9823023e269e"
+    }
+  ],
+  "dependencyRestoration": "Focused pinned CloudBase and jsdom test dependencies outside repository; not full frozen pnpm install. See FOUNDATION_RENDER_CHECK.md.",
+  "recoveredFailure": "First build failed: Loading PostCSS Plugin failed: Cannot find module '@tailwindcss/postcss'. Installed declared 4.2.1 in external validation environment; rerun passed.",
+  "boundaries": {
+    "deployed": false,
+    "browserVisualVerified": false,
+    "phoneVerified": false,
+    "cloudSync": false,
+    "sourceTextUpdated": false,
+    "studentDataMigrated": false
+  },
+  "sources": [
+    "Current authoritative source and existing foundation-d1/d2/france.json on baseCommit",
+    "docs/CLOUDBASE_MIGRATION.md",
+    "docs/FOUNDATION_PROGRESS.md",
+    "data/foundation-source-map.json"
+  ],
+  "remaining": [
+    "Current five-day PPT and per-day assignment unconfirmed",
+    "Tencent deployed source SHA / online and phone acceptance unavailable",
+    "Main entry 12027203 bytes; performance work remains"
+  ]
+}

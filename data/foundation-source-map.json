@@ -2,7 +2,7 @@
   "franceLearningRelease": {
     "checkedAt": "2026-11-06T15:40:04+08:00",
     "baseCommit": "7e945b3a169a4003afc8bf7caaca4bd252cf5715",
-    "status": "implemented-build-verified-not-deployed",
+    "status": "implemented-render-and-build-verified-not-deployed",
     "units": 6,
     "addedFields": [
       "learningObjective",
@@ -12,7 +12,16 @@
     "authorship": "Original teaching prompts derived from six existing source topics; no private textbook reproduction.",
     "evidenceFile": "docs/qa/foundation-france-learning-20261106.json",
     "storageChanged": false,
-    "dayAssignment": "unconfirmed"
+    "dayAssignment": "unconfirmed",
+    "regressionValidation": {
+      "checkedAt": "2026-11-06T21:44:40+08:00",
+      "foundationTestsPassed": 77,
+      "productionBuild": "passed",
+      "reactSSR": "first-unit-per-area-passed",
+      "reactDOM": "all-units-jsdom-passed",
+      "browserVisual": "unverified",
+      "evidenceFile": "docs/qa/foundation-react-rendering-20261106.json"
+    }
   },
   "schemaVersion": 2,
   "updatedAt": "2026-11-06",
@@ -904,7 +913,7 @@
   },
   "d1LearningRelease": {
     "recordedAt": "2026-11-06T17:44:00+08:00",
-    "status": "implemented-static-checks-only-build-pending",
+    "status": "implemented-render-and-build-verified-not-deployed",
     "units": 10,
     "addedFields": [
       "learningObjective",
@@ -915,16 +924,18 @@
     "storageChanged": false,
     "dayAssignment": "knowledge-label-not-confirmed-current-cohort-day",
     "regressionValidation": {
-      "checkedAt": "2026-11-06T19:36:34+08:00",
+      "checkedAt": "2026-11-06T21:44:40+08:00",
       "foundationTestsPassed": 77,
-      "productionBuild": "pending",
-      "reactSSR": "pending",
-      "evidenceFile": "docs/qa/foundation-d2-learning-20261106.json"
+      "productionBuild": "passed",
+      "reactSSR": "first-unit-per-area-passed",
+      "reactDOM": "all-units-jsdom-passed",
+      "browserVisual": "unverified",
+      "evidenceFile": "docs/qa/foundation-react-rendering-20261106.json"
     }
   },
   "d2LearningRelease": {
     "checkedAt": "2026-11-06T19:36:34+08:00",
-    "status": "implemented-unit-tests-pass-build-pending",
+    "status": "implemented-render-and-build-verified-not-deployed",
     "units": 9,
     "newUnits": [
       "foundation-d2-01",
@@ -934,6 +945,15 @@
       "foundation-d2-09"
     ],
     "evidenceFile": "docs/qa/foundation-d2-learning-20261106.json",
-    "storageChanged": false
+    "storageChanged": false,
+    "regressionValidation": {
+      "checkedAt": "2026-11-06T21:44:40+08:00",
+      "foundationTestsPassed": 77,
+      "productionBuild": "passed",
+      "reactSSR": "first-unit-per-area-passed",
+      "reactDOM": "all-units-jsdom-passed",
+      "browserVisual": "unverified",
+      "evidenceFile": "docs/qa/foundation-react-rendering-20261106.json"
+    }
   }
 }

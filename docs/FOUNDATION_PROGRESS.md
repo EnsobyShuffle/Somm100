@@ -1,3 +1,28 @@
+# Foundation · 2026-11-06 · Real React rendering and CloudBase validation recovered
+
+Checked 2026-11-06T21:44:40+08:00. Base dbda8c116cfd108bd7269efdab896ea691772291 on migration/tencent-somm100. Fresh head unchanged; restored full archive at that exact commit, read migration/source-map/progress checkpoints. Netlify ignore guard retained.
+
+- Added scripts/check-foundation-rendering.mjs and a CSS/JSON-only Node loader. Real React SSR covers each area's initial unit; actual React DOM/effects in jsdom cover all 25 D1/D2/France units via real select events. No application source rewriting or mocked React hooks.
+- All 75 objective/preparation/practice fields render. Seeded original checks and first/latest answers survive navigation. Actual checkbox/radio interactions persist in isolated localStorage; unmount/remount restores them. No React warnings/errors. This is not CSS/phone/browser visual validation or cloud synchronization.
+- Fixed a student-facing omission: FoundationRegionalReview now explicitly says written exercises use personal notes and are not saved, automatically graded or marked complete, matching D1 and France. Stable IDs, existing records, instructors, images and course data untouched.
+- Strengthened check-cloudbase-foundation.mjs to verify all 75 source guidance fields in built lazy chunks, in addition to 37 existing Foundation markers. This detects stale teaching chunks that the earlier marker-only check could miss.
+- 77/77 Foundation tests PASS. CloudBase production build PASS: 473 files; entry ./assets/index-Rp-3fJty.js, 12027203 bytes, SHA256 6ea42d2a8ef11a98e621f6fe69d9b6a6907c15a1baf5af7e5ace70c0b63056ac. Root and /somm100/ mount checks PASS. Entry ~12 MB remains a measured performance concern.
+- Initial build failed with missing @tailwindcss/postcss; restored declared 4.2.1 externally and reran successfully. Focused dependency restoration is not a complete frozen-lockfile pnpm install. No package/lockfile edits. Reproduction instructions in docs/qa/FOUNDATION_RENDER_CHECK.md; evidence in docs/qa/foundation-react-rendering-20261106.json.
+- No new Notion/Library text read or curriculum claims this verification round. Previously recorded canonical source mapping retained. No deployment, online acceptance, billing/DNS/ICP/auth changes or paused-task work.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews + 25 independent questions; all 10 guidance units now real-DOM/build verified |
+| D2 / France | 9 + 6 reviews + 42 independent questions; all 15 guidance units now real-DOM/build verified |
+| D3 | 13 reviews + 30 independent questions; regression suite/build covered, not included in this new DOM interaction check |
+| D4 | 15 reviews + 45 independent questions; regression suite/build covered, not included in this new DOM interaction check |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort 22 has five classroom days; no sixth schedule |
+
+D1–D4 remain knowledge labels, not confirmed day assignments. Next: extend real-DOM verification to D3/D4 and review mobile loading within Foundation; obtain current five-day teaching PPT/day mapping and authorized Tencent source-version/real-phone acceptance. Saved for guarded commit and exact readback. Not deployed or Henry-accepted.
+
+---
+
 # Foundation · 2026-11-06 · Complete D2 learning guidance and recover regression tests
 
 Checked 2026-11-06T19:36:34+08:00; base 2263b49816d9c595339e92082c47669f7b47ac0a on migration/tencent-somm100. Read remote source, current progress/migration/source map and Netlify ignore guard; branch unchanged at start.
