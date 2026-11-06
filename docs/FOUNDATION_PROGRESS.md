@@ -1,3 +1,25 @@
+# Foundation · 2026-11-06 · Stale backup preview protection
+
+Checked 2026-11-06T09:40:01.200612+08:00. Authoritative base e1393055bfbbb8bc21f1b9fdb3fac7b9503ef015 on migration/tencent-somm100. Read migration/progress/source-map checkpoints and current backup implementation. Four editable existing files matched remote exactly; release-check script also read at base. No new curriculum source or public teaching claims introduced.
+
+- Found that restore preview could become stale while another tab saves new progress, yet the previous replacement selection remained active. Added a raw snapshot of all11 Foundation stores to preview, checked before recovery download and again at restore entry. Changes stop restore before writes, refresh the preview and reset replacement consent. Default preservation, stable storage IDs, partial backup semantics and rollback remain unchanged.
+- Three regression tests added: changed progress with zero writes; new/deleted course records versus unrelated records; unchanged/incomplete snapshots. Foundation72/72 tests pass. Build passes472 public files,36 markers, mounts / and /somm100/. Artifact entry ./assets/index-C3dO1ZVz.js, SHA256 8170099e8c690d4a84448bca12749754df0718d7e7ea58b44852ba34ae1d5646. New error marker verified in emitted chunks. Existing approximately12MB main entry still needs performance work; full frozen-lockfile installation not verified.
+- This is stale-preview protection, not an atomic cross-tab transaction. Writers during/after restore and actual browser download/reload acceptance remain pending. Prior Chromium socket permission denial unchanged; no blocked launch repeated or bypassed. Source saved for guarded commit/readback; not deployed, not online-verified. Netlify stop-build setting retained. No fees, DNS, ICP or paused-task actions.
+- Evidence: docs/qa/foundation-backup-preview-20261106.json. No course data, questions, teacher profiles or images modified.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews,25 independent questions |
+| D2/France | 9+6 reviews,42 independent questions |
+| D3 | 13 reviews,30 independent questions |
+| D4 | 15 reviews,45 independent questions |
+| D5 | Current classroom teaching/assessment placement pending |
+| D6 | Cohort22 five classroom days; no sixth schedule |
+
+D1–D4 remain knowledge-library labels, not verified current classroom allocations. Next: actual five-day PPT/day mapping; supported browser restoration/navigation/mobile acceptance and independent Tencent deployment verification. Course is not complete.
+
+---
+
 # Foundation · 2026-11-06 · France overview location guide
 
 Checked 2026-11-06T07:40:51.193880+08:00. Authoritative base aeb7cff5e3be12c897e685a7e04d1c9d1798f54e on migration/tencent-somm100. Read current migration/progress checkpoints and France curriculum; five existing target files exactly matched remote before edits. Remote head rechecked unchanged before commit preparation.

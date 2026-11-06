@@ -1,6 +1,6 @@
 'use client';
 import React,{useState} from 'react';
-import {FOUNDATION_BACKUP_LIMIT,createFoundationBackup,inspectFoundationBackup,restoreFoundationBackup} from '../lib/foundation-backup.mjs';
+import {FOUNDATION_BACKUP_LIMIT,assertFoundationBackupSnapshot,createFoundationBackup,inspectFoundationBackup,restoreFoundationBackup} from '../lib/foundation-backup.mjs';
 const h=React.createElement;
 function downloadBackup(backup,suffix=''){
   const url=URL.createObjectURL(new Blob([JSON.stringify(backup,null,2)],{type:'application/json'}));
@@ -32,10 +32,18 @@ export default function FoundationBackup(){
       h('p',{className:'fine-print'},'恢复时先下载本机现状备份，再写入所选记录；文件未包含的记录保持原样。'),
       h('div',{className:'button-row'},h('button',{type:'button',className:'button',disabled:!preview.items.length,onClick:()=>{
         try{
+          assertFoundationBackupSnapshot(window.localStorage,preview.snapshot);
           const before=createFoundationBackup(window.localStorage);downloadBackup(before,'-before-restore');
-          const result=restoreFoundationBackup(window.localStorage,preview.backup,{replaceExisting:replace});
+          const result=restoreFoundationBackup(window.localStorage,preview.backup,{replaceExisting:replace,expectedSnapshot:preview.snapshot});
           setMessage(`已恢复 ${result.written} 组，保留／跳过 ${result.skipped} 组。请确认恢复前备份已下载，然后刷新读取课程进度。`);setRestored(true);
-        }catch(e){setMessage(e.message||'恢复未完成。')}
+        }catch(e){
+          if(e.code==='FOUNDATION_PREVIEW_CHANGED'){
+            setReplace(false);
+            try{setPreview(inspectFoundationBackup(window.localStorage,preview.backup))}
+            catch{setPreview(null)}
+          }
+          setMessage(e.message||'恢复未完成。')
+        }
       }},'恢复所选记录'),h('button',{type:'button',className:'button secondary',onClick:()=>{setPreview(null);setReplace(false)}},'取消'))),
     message&&h('p',{role:'status'},message),
     restored&&h('button',{type:'button',className:'button',onClick:()=>window.location.reload()},'刷新并读取恢复记录'));

@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-06T09:40:01.200612+08:00",
+  "baseCommit": "e1393055bfbbb8bc21f1b9fdb3fac7b9503ef015",
+  "source": "Current repository backup implementation and prior Foundation checkpoints; no new curriculum claims or textbook imports.",
+  "change": "Capture all eleven raw Foundation records in preview; compare before download and again before restore. Stale preview causes zero restore writes, refreshes preview and resets replacement selection. Unrelated storage ignored.",
+  "tests": {
+    "passed": 72,
+    "failed": 0,
+    "newCases": [
+      "Changed progress after preview rejects replacement with zero writes",
+      "Added or removed Foundation records invalidate preview, unrelated record does not",
+      "Unchanged snapshot allows restore and incomplete snapshot is rejected"
+    ]
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 472,
+    "entry": "./assets/index-C3dO1ZVz.js",
+    "entryBytes": 12027123,
+    "entrySha256": "8170099e8c690d4a84448bca12749754df0718d7e7ea58b44852ba34ae1d5646",
+    "foundationMarkers": 36,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "limitations": [
+    "Not an atomic cross-tab transaction; another writer during or after restore still requires coordination.",
+    "Actual browser interaction, download and reload not tested; prior Chromium socket permission denial unresolved.",
+    "Pinned build-only dependency subset used, full frozen-lockfile install not verified.",
+    "No Tencent deployment or online acceptance."
+  ],
+  "courseStatus": {
+    "D1": "10 reviews,25 independent questions",
+    "D2France": "9+6 reviews,42 independent questions",
+    "D3": "13 reviews,30 independent questions",
+    "D4": "15 reviews,45 independent questions",
+    "D5": "Current classroom allocation pending",
+    "D6": "Cohort22 has five classroom days; no D6"
+  }
+}

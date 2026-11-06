@@ -63,3 +63,31 @@ test('oversized backup is rejected and identical records are not rewritten',()=>
  const s=storage([[keys[0],raw(2)]]);s.setItem=()=>{throw Error('must not write')};
  assert.equal(restoreFoundationBackup(s,{...fixture(),records:{[keys[0]]:raw(2)}}).written,0);
 });
+
+
+test('changed progress after preview rejects replacement with zero restore writes',()=>{
+ const s=storage([[keys[0],raw(1)]]),backup={...fixture(),records:{[keys[0]]:raw(2)}};
+ const preview=inspectFoundationBackup(s,backup);
+ s.setItem(keys[0],raw(3));let writes=0;s.setItem=()=>{writes++;};
+ assert.throws(()=>restoreFoundationBackup(s,backup,{replaceExisting:true,expectedSnapshot:preview.snapshot}),e=>e.code==='FOUNDATION_PREVIEW_CHANGED');
+ assert.equal(writes,0);assert.equal(s.getItem(keys[0]),raw(3));
+ const refreshed=inspectFoundationBackup(s,backup);assert.equal(refreshed.conflicts,1);assert.equal(refreshed.snapshot[keys[0]],raw(3));
+});
+test('new or removed records anywhere in Foundation invalidate a preview; unrelated records do not',()=>{
+ const backup={...fixture(),records:{[keys[0]]:raw(2)}};
+ for(const mutation of [s=>s.setItem(keys[1],raw(4)),s=>s.removeItem(keys[0])]){
+  const s=storage([[keys[0],raw(1)]]),preview=inspectFoundationBackup(s,backup);mutation(s);
+  const before=Array.from(s.records);assert.throws(()=>restoreFoundationBackup(s,backup,{expectedSnapshot:preview.snapshot}),e=>e.code==='FOUNDATION_PREVIEW_CHANGED');
+  assert.deepEqual(Array.from(s.records),before);
+ }
+ const s=storage(),preview=inspectFoundationBackup(s,backup);s.setItem('unrelated','new');
+ assert.equal(restoreFoundationBackup(s,backup,{expectedSnapshot:preview.snapshot}).written,1);assert.equal(s.getItem('unrelated'),'new');
+});
+test('unchanged preview allows explicit restore and malformed snapshot cannot authorize writes',()=>{
+ const backup={...fixture(),records:{[keys[0]]:raw(2)}},s=storage([[keys[0],raw(1)]]);
+ const preview=inspectFoundationBackup(s,backup);
+ assert.throws(()=>restoreFoundationBackup(s,backup,{replaceExisting:true,expectedSnapshot:{}}),e=>e.code==='FOUNDATION_PREVIEW_CHANGED');
+ assert.equal(s.getItem(keys[0]),raw(1));
+ assert.equal(restoreFoundationBackup(s,backup,{replaceExisting:true,expectedSnapshot:preview.snapshot}).written,1);
+ assert.equal(s.getItem(keys[0]),raw(2));
+});
