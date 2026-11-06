@@ -4,6 +4,7 @@ import data from '../data/foundation-d1.json';
 import {emptyD1Progress, readD1Progress, writeD1Progress, d1UnitResult} from '../lib/foundation-d1.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
 import {mappedReviewUnit} from '../lib/foundation-quiz.mjs';
+import FoundationQuizReturn from './FoundationQuizReturn.js';
 import FoundationDiagram from './FoundationDiagram.js';
 import FoundationLabelPractice from './FoundationLabelPractice.js';
 import './foundation-study.css';
@@ -45,6 +46,7 @@ export default function FoundationD1Review() {
   }
   return h('section', {className: 'white-panel foundation-study', id: 'foundation-d1-review', 'aria-labelledby': 'foundation-d1-title'},
     h('h2', {id: 'foundation-d1-title'}, 'D1｜课堂后复习'),
+    h(FoundationQuizReturn,{prefix:'foundation-d1'}),
     h('p', null, '先重建课堂知识，再检查理解。本区供 D1 后复习使用，与上方课前预习分开；不是完整课堂课表，也不代表已完成课堂出勤或课程考核。'),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，独立于课前记录，不同步到账号或讲师端。'),
     error ? h('p', {role: 'alert'}, error) : null,

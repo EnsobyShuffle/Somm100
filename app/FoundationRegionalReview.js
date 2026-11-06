@@ -2,6 +2,7 @@
 import React, {useEffect, useState} from 'react';
 import {emptyD2Progress, readD2Progress, writeD2Progress, d2UnitResult} from '../lib/foundation-d2.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
+import FoundationQuizReturn from './FoundationQuizReturn.js';
 import FoundationDiagram from './FoundationDiagram.js';
 import './foundation-study.css';
 
@@ -43,6 +44,7 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
   }
   return h('section', {className: 'white-panel foundation-study', id: prefix + "-review", 'aria-labelledby': prefix + "-title"},
     h('h2', {id: prefix + "-title"}, title),
+    h(FoundationQuizReturn,{prefix:prefix}),
     h('p', null, intro),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，各专题分别保存，不同步到账号或讲师端。'),
     error ? h('p', {role: 'alert'}, error) : null,

@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-11-06T11:37:20.153277+08:00",
+  "baseCommit": "2db62dfc62c41da3ac8d6156e91badb8d4e4478d",
+  "source": "Current authoritative quiz/review code, data/foundation-source-map.json and migration/progress checkpoints. No new curriculum assertions.",
+  "implementation": [
+    "Shared return-to-quiz button in D1, France and regional D2/D3/D4 reviews",
+    "Review event carries originating quiz prefix and stable question ID",
+    "Return event resolves question from current quiz data, preserves answers and checks, focuses quiz heading",
+    "Reduced-motion preference respected on return; return state transient, not additional storage",
+    "Bridge review event without quiz origin clears return target for that review"
+  ],
+  "validation": {
+    "testsPassed": 74,
+    "testsFailed": 0,
+    "all142QuestionReturnMappings": true,
+    "build": {
+      "status": "PASS",
+      "scope": "offline-build-only",
+      "files": 472,
+      "entry": "./assets/index-BROgl5Gu.js",
+      "entryBytes": 12027132,
+      "entrySha256": "ae7cc8a5d41089a41e779db0c36f932ba12298e58a67e6f24af871711549d77f",
+      "foundationMarkers": 37,
+      "mounts": [
+        "/",
+        "/somm100/"
+      ],
+      "deployed": false,
+      "browserVerified": false
+    },
+    "browserVerified": false
+  },
+  "limits": [
+    "Browser focus, scroll, return buttons and phone layout not interactively tested; prior Chromium socket permission denial remains unresolved.",
+    "Return target is in-memory only and clears on reload. Existing selected-question and answers remain in versioned browser stores.",
+    "Pinned build-only dependency subset; full frozen-lockfile install not verified.",
+    "No deployment; current Tencent build SHA unverified.",
+    "Current cohort five-day source PPT/day mapping still missing."
+  ]
+}

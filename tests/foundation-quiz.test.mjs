@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {readFileSync} from 'node:fs';
-import {D1_QUIZ_STORAGE_KEY, D2_QUIZ_STORAGE_KEY, D3_QUIZ_STORAGE_KEY, D4_QUIZ_STORAGE_KEY, mappedReviewUnit, quizReviewTargets, quizProgressData, quizResult} from '../lib/foundation-quiz.mjs';
+import {D1_QUIZ_STORAGE_KEY, D2_QUIZ_STORAGE_KEY, D3_QUIZ_STORAGE_KEY, D4_QUIZ_STORAGE_KEY, mappedReviewUnit, quizReviewTargets, quizProgressData, quizResult, quizReturnTarget, quizReturnQuestion} from '../lib/foundation-quiz.mjs';
 import {readD1Progress,writeD1Progress} from '../lib/foundation-d1.mjs';
 import {readD2Progress,writeD2Progress} from '../lib/foundation-d2.mjs';
 import {recordFoundationAnswer} from '../lib/foundation-study.mjs';
@@ -127,4 +127,25 @@ test('D2 quiz routes all42 questions to the right D2 or France review and preser
     const rev=json(`../data/foundation-d${day}.json`);
     assert.equal(quizReviewTargets(q,rev,`foundation-d${day}`)[0].prefix,`foundation-d${day}`);
   }
+});
+
+
+test('quiz return resolves every source question ID and never selects another quiz',()=>{
+ for(let day=1;day<=4;day++){
+  const data=json(`../data/foundation-d${day}-quiz.json`),prefix=`foundation-d${day}`;
+  for(const q of data.questions){
+   const target={prefix,questionId:q.id,number:q.number};
+   assert.equal(quizReturnQuestion(data,prefix,target),q);
+   assert.equal(quizReturnQuestion(data,'foundation-france',target),null);
+  }
+  assert.equal(quizReturnQuestion(data,prefix,{prefix,questionId:'missing',number:1}),null);
+ }
+});
+test('return target rejects malformed events and resolves current number from ID',()=>{
+ for(const value of [null,{}, {prefix:'foundation-d9',questionId:'x',number:1}, {prefix:'foundation-d1',questionId:'x',number:0}])assert.equal(quizReturnTarget(value),null);
+ const data=json('../data/foundation-d1-quiz.json'),q=data.questions[3];
+ assert.equal(quizReturnQuestion(data,'foundation-d1',{prefix:'foundation-d1',questionId:q.id,number:1}).number,q.number);
+ const p={unit:1,checks:{keep:true},answers:{[q.id]:{first:0,latest:1}}};
+ const next={...p,unit:quizReturnQuestion(data,'foundation-d1',{prefix:'foundation-d1',questionId:q.id,number:4}).number};
+ assert.deepEqual(next.answers,p.answers);assert.deepEqual(next.checks,p.checks);
 });

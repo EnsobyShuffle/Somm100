@@ -1,3 +1,25 @@
+# Foundation · 2026-11-06 · Return from review to originating quiz
+
+Checked 2026-11-06T11:37:20.153277+08:00. Base2db62dfc62c41da3ac8d6156e91badb8d4e4478d on migration/tencent-somm100. Read migration/progress/source-map checkpoints and existing quiz/review navigation;8 existing files matched GitHub exactly before changes. This work uses current source and introduces no new lesson facts or schedule claims.
+
+- Added shared FoundationQuizReturn component to D1, France and regional D2/D3/D4 reviews. Opening a review from a quiz carries its stable question ID and source quiz; the return button selects that question again, focuses the quiz heading and scrolls with reduced-motion support. All142 question IDs covered. Existing answers/checks/storage IDs unchanged, and opening review never grants completion.
+- Return navigation is transient. Refresh discards return button state while existing selected-question and answers retain existing browser persistence. Opening a review from the bridge without quiz origin clears that review's old return target. Unknown question IDs or other quiz prefixes cannot select a question.
+- Foundation74/74 tests pass;2 new regression cases cover all142 question mappings, wrong prefix, unknown IDs, invalid payload and current-number resolution. Build PASS472 files,37 markers; mounts / and /somm100/. Entry ./assets/index-BROgl5Gu.js, SHA256 ae7cc8a5d41089a41e779db0c36f932ba12298e58a67e6f24af871711549d77f. Pinned build-only dependencies; full frozen-lockfile install unverified. Existing approximately12MB main bundle remains a performance limitation.
+- Evidence docs/qa/foundation-quiz-return-20261106.json. Saved for guarded source commit/readback, not deployed or online-verified. Browser focus/scroll/phone interactions remain untested after earlier socket permission denial; no blocked retries or bypass. No billing, DNS, ICP, old Netlify or paused-task actions.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews,25 independent questions; return navigation added |
+| D2/France | 9+6 reviews,42 independent questions; return navigation added |
+| D3 | 13 reviews,30 independent questions; return navigation added |
+| D4 | 15 reviews,45 independent questions; return navigation added |
+| D5 | Current teaching/assessment placement pending |
+| D6 | Cohort22 five classroom days; no sixth schedule |
+
+D1–D4 remain knowledge labels, not verified current daily teaching allocations. Next: actual five-day source PPT/day mapping; supported browser phone/return-navigation/backup acceptance and independent Tencent deployment verification. Course and deployment not complete.
+
+---
+
 # Foundation · 2026-11-06 · Stale backup preview protection
 
 Checked 2026-11-06T09:40:01.200612+08:00. Authoritative base e1393055bfbbb8bc21f1b9fdb3fac7b9503ef015 on migration/tencent-somm100. Read migration/progress/source-map checkpoints and current backup implementation. Four editable existing files matched remote exactly; release-check script also read at base. No new curriculum source or public teaching claims introduced.

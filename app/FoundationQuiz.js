@@ -1,6 +1,6 @@
 'use client';
 import React, {useEffect, useState} from 'react';
-import {quizProgressData, quizResult, quizReviewTargets} from '../lib/foundation-quiz.mjs';
+import {quizProgressData, quizResult, quizReviewTargets, quizReturnQuestion} from '../lib/foundation-quiz.mjs';
 import {emptyD2Progress, readD2Progress, writeD2Progress} from '../lib/foundation-d2.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
 import './foundation-study.css';
@@ -23,13 +23,29 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
     try { setError(writeD2Progress(window.localStorage, progress, storageKey)); }
     catch { setError('本机保存失败，请勿关闭当前页面。'); }
   }, [progress, loaded, canSave, storageKey]);
+  useEffect(() => {
+    function returnToQuiz(event) {
+      if(!loaded)return;
+      const target=quizReturnQuestion(data,prefix,event.detail);
+      if(!target)return;
+      setProgress(p=>({...p,unit:target.number}));
+      window.requestAnimationFrame(()=>{
+        const heading=document.getElementById(prefix+'-quiz-title');
+        heading?.focus({preventScroll:true});
+        const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+        heading?.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'});
+      });
+    }
+    window.addEventListener('foundation-return-quiz',returnToQuiz);
+    return ()=>window.removeEventListener('foundation-return-quiz',returnToQuiz);
+  },[data,prefix,loaded]);
   const question = data.questions.find(q => q.number === progress.unit) || data.questions[0];
   const entry = progress.answers[question.id];
   const result = quizResult(data, progress);
   const groups = [...new Set(data.questions.map(q => q.group))];
   function choose(number) { setProgress(p => ({...p,unit:number})); }
   return h('section', {id:prefix+'-quiz',className:'white-panel foundation-study','aria-labelledby':prefix+'-quiz-title'},
-    h('h2', {id:prefix+'-quiz-title'}, data.title),
+    h('h2', {id:prefix+'-quiz-title',tabIndex:-1}, data.title),
     h('p', null, '可分段完成，用来发现还需复习的知识点。可随时重答，不设及格线；课堂安排以本期课程为准。'),
     h('p', {className:'fine-print'}, '当前题目与首次／最近答案仅保存在本浏览器，与逐节自查分别保存，不同步到账号或讲师端。'),
     error && h('p', {role:'alert'}, error),
@@ -49,7 +65,7 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
         h('p', {className:'fine-print'}, `首次选择：${question.options[entry.first]}；最近选择：${question.options[entry.latest]}`))),
     h('div', {className:'button-row'}, quizReviewTargets(question, reviews, prefix).map(target=>{
       return h('button', {key:target.unitId,type:'button',className:'button secondary',disabled:!loaded,onClick:()=>{
-        window.dispatchEvent(new CustomEvent('foundation-open-review',{detail:{prefix:target.prefix,unitId:target.unitId}}));
+        window.dispatchEvent(new CustomEvent('foundation-open-review',{detail:{prefix:target.prefix,unitId:target.unitId,returnTo:{prefix,questionId:question.id,number:question.number}}}));
       }}, '复习｜'+target.title);
     })),
     h('div', {className:'button-row'},
