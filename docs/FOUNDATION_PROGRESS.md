@@ -1,3 +1,26 @@
+# Foundation · 2026-11-07 · Loading failure recovery
+
+Checked 2026-11-07T05:36:44+08:00. Base 39489d7618cac495957a4c3f773f4b9a515ab136 on migration/tencent-somm100; fresh branch head unchanged. Read migration/latest checkpoint/source map; app and checkpoint/QA/Netlify originals compared with remote before edits.
+
+- Added FoundationLoadBoundary around the existing whole-course Suspense boundary. Pending state now offers return to courses. A rendering/import failure presents Chinese recovery feedback, focused error heading, explicit page reload and return controls. React.lazy caches rejected imports, so resetting only the boundary is not represented as retrying the download. No automatic reload loop or storage clearing.
+- Preserved all course children, instructor/images, original content, questions, stable IDs and record keys. No new curriculum-source claims. This code-only increment does not reread or republish private teaching bodies.
+- New actual React/jsdom integration passes deferred success, lazy rejection, pending/error return controls, heading focus, explicit reload action, unchanged stored record and healthy remount. Reload is stubbed; no actual browser/network/mobile/online acceptance claimed.
+- PASS: 77 unit tests,53 review units,142 questions/143 review round trips,CloudBase build,159 guidance fields and37 markers. Build473 files; entry ./assets/index-C2uMa4Rg.js;12028285 bytes;SHA256 52eb61ec3215758edf5ef736668acb450e74fd046381d33c73e18fa5121f7ec2. Large-chunk warning remains: this improves failure handling, not loading size/speed.
+- Evidence: docs/qa/foundation-loading-20261107.json; reproduction: docs/qa/FOUNDATION_RENDER_CHECK.md. Netlify ignore guard retained. Saved for guarded commit/readback; not deployed or online accepted.
+
+| Area | Content status |
+| --- | --- |
+| D1 | 10 review units +25 independent questions; day placement unverified |
+| D2 / France | 9+6 review units +42 independent questions; day placement unverified |
+| D3 | 13 review units +30 independent questions; day placement unverified |
+| D4 | 15 review units +45 independent questions; day placement unverified |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 five classroom days; no invented sixth day |
+
+Next breakpoint: inspect large-entry import graph and isolate Foundation-safe loading improvements, preserving other paused modules. Still blocked: verified day-by-day five-day teaching allocation/source PPT; real phone/browser validation; currently usable Tencent deployment/auth route. Existing browser environment had socket Operation not permitted; Tencent console last required login and CLI was policy-denied. No auth, network bypass or deployment attempted this round.
+
+---
+
 # Foundation · 2026-11-07 · Actual quiz/review round trips
 
 Checked 2026-11-07T03:38:10+08:00. Base dad29bb70d58de4ec120694e768ae1ce9bb37ce4 on migration/tencent-somm100, fresh head unchanged. Read migration/latest progress/source map; compared quiz, loader and source-map files with remote before edits.

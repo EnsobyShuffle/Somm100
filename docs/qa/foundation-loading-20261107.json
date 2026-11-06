@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    "pending status and back action",
+    "deferred lazy resolution",
+    "rejected lazy recovery and focus",
+    "explicit reload only",
+    "no cached import retry loop",
+    "local record unchanged",
+    "boundary remount recovery"
+  ],
+  "limitations": [
+    "jsdom; no real network or page reload",
+    "no browser layout or online deployment"
+  ],
+  "checkedAt": "2026-11-07T05:36:44+08:00",
+  "baseCommit": "39489d7618cac495957a4c3f773f4b9a515ab136",
+  "unitTests": 77,
+  "reviewUnits": 53,
+  "quizQuestions": 142,
+  "quizReviewRoundTrips": 143,
+  "build": {
+    "status": "PASS",
+    "files": 473,
+    "entry": "./assets/index-C2uMa4Rg.js",
+    "entryBytes": 12028285,
+    "entrySha256": "52eb61ec3215758edf5ef736668acb450e74fd046381d33c73e18fa5121f7ec2",
+    "learningGuidanceFields": 159,
+    "foundationMarkers": 37
+  },
+  "deployed": false,
+  "browserVerified": false
+}
