@@ -957,20 +957,29 @@
     }
   },
   "allReviewInteractionValidation": {
-    "checkedAt": "2026-11-06T23:41:33+08:00",
-    "evidenceFile": "docs/qa/foundation-all-review-interactions-20261106.json",
+    "checkedAt": "2026-11-07T01:41:08+08:00",
+    "evidenceFile": "docs/qa/foundation-d3-learning-20261107.json",
     "units": 53,
     "foundationTestsPassed": 77,
-    "builtGuidanceFields": 133,
+    "builtGuidanceFields": 159,
     "status": "react-dom-and-build-verified-not-deployed",
     "d3GuidanceGap": {
-      "units": 13,
-      "missingFields": [
-        "learningObjective",
-        "preparation"
-      ]
+      "units": 0,
+      "missingFields": []
     },
     "currentCohortDayAssignment": "unconfirmed",
     "browserVisualVerified": false
+  },
+  "d3LearningRelease": {
+    "checkedAt": "2026-11-07T01:41:08+08:00",
+    "status": "implemented-react-dom-and-build-verified-not-deployed",
+    "units": 13,
+    "addedFields": [
+      "learningObjective",
+      "preparation"
+    ],
+    "evidenceFile": "docs/qa/foundation-d3-learning-20261107.json",
+    "storageChanged": false,
+    "dayAssignment": "knowledge-label-not-confirmed-current-cohort-day"
   }
 }

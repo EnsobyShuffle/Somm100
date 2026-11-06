@@ -21,7 +21,7 @@ The repository's own React dependencies must already be installed. The test-only
 
 - Actual React server rendering of the first unit of D1, D2, France, D3 and D4.
 - Actual React DOM rendering and effects in jsdom for all 10 + 9 + 6 + 13 + 15 units, selected through their real change handlers.
-- Learning objective, preparation and written practice text; written exercise save/scoring boundary. D3 currently has only written practice: its 13 missing objectives/preparation pairs are explicitly reported, not asserted as complete.
+- Learning objective, preparation and written practice text; written exercise save/scoring boundary. All 53 units must provide all three fields; the former D3 exception was removed after its learning guidance was added.
 - Original check/question input counts and absence of internal Notion links in the rendered student view.
 - Seeded first/latest answers and checks survive unit navigation without completion being fabricated.
 - Actual checkbox/radio clicks save to isolated test localStorage; unmount/remount restores the selected unit and answers.

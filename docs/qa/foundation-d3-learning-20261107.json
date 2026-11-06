@@ -1,0 +1,275 @@
+{
+  "checkedAt": "2026-11-07T01:41:08+08:00",
+  "baseCommit": "56b8b7eff1050b21184af77af2b52250b38478b4",
+  "branch": "migration/tencent-somm100",
+  "units": 13,
+  "addedFields": [
+    "learningObjective",
+    "preparation"
+  ],
+  "addedFieldCount": 26,
+  "authorship": "Original Chinese learning objectives and preparation activities based on the existing canonical topics; no copied private textbook text.",
+  "sources": [
+    {
+      "unitId": "foundation-d3-01",
+      "url": "https://app.notion.com/p/40717d16de4c81f18261c37a8af8baea?pvs=204",
+      "title": "🧭 D3-01｜学一个欧洲国家，先别从法规开始",
+      "lastEditedAt": "2026-10-28T20:06:34.144Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-02",
+      "url": "https://app.notion.com/p/40717d16de4c818f881ff54d69f2e2c9?pvs=204",
+      "title": "🇮🇹 D3-02｜意大利：先把北部、中部、南部放进脑子",
+      "lastEditedAt": "2026-10-28T20:06:34.144Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-03",
+      "url": "https://app.notion.com/p/40717d16de4c81ad8293cb31b5750566?pvs=204",
+      "title": "🍷 D3-03｜Piedmont：颜色浅，不代表结构轻",
+      "lastEditedAt": "2026-10-28T20:06:34.144Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-04",
+      "url": "https://app.notion.com/p/40717d16de4c8185b523dc664e1cd618?pvs=204",
+      "title": "🍇 D3-04｜Veneto：Amarone 和 Prosecco 为什么像两个世界？",
+      "lastEditedAt": "2026-10-28T20:06:34.144Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-05",
+      "url": "https://app.notion.com/p/40717d16de4c81b089c0d6b8912a13ff?pvs=204",
+      "title": "🌄 D3-05｜Tuscany：为什么 Sangiovese 会出现这么多名字？",
+      "lastEditedAt": "2026-10-28T20:06:34.144Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-06",
+      "url": "https://app.notion.com/p/40717d16de4c81459859df24fcb5d8ec?pvs=204",
+      "title": "🇪🇸 D3-06｜西班牙：别只记 Rioja，先看完整地图",
+      "lastEditedAt": "2026-10-28T20:12:04.163Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-07",
+      "url": "https://app.notion.com/p/40717d16de4c81de84f2c8a98135343f?pvs=204",
+      "title": "🍷 D3-07｜Rioja、Ribera del Duero、Priorat：同一个国家，三种红酒逻辑",
+      "lastEditedAt": "2026-10-28T20:12:07.258Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-08",
+      "url": "https://app.notion.com/p/40717d16de4c81ef9e21ed6540e07908?pvs=204",
+      "title": "🥂 D3-08｜Rías Baixas 与 Cava：西班牙不只有红葡萄酒",
+      "lastEditedAt": "2026-10-28T20:12:52.465Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-09",
+      "url": "https://app.notion.com/p/40717d16de4c81d8b274fef925c61e78?pvs=204",
+      "title": "🇵🇹 D3-09｜葡萄牙：先从 Vinho Verde 与 Douro 看懂两个方向",
+      "lastEditedAt": "2026-10-28T20:12:54.402Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-10",
+      "url": "https://app.notion.com/p/40717d16de4c812eb094ee8743a00acc?pvs=204",
+      "title": "🇩🇪 D3-10｜德国：先用 Riesling、河流与坡地建立地图",
+      "lastEditedAt": "2026-10-28T20:12:56.314Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-11",
+      "url": "https://app.notion.com/p/40717d16de4c815985c2ca3ef6f63160?pvs=204",
+      "title": "🏷️ D3-11｜德国酒标：先学会找线索，不先背整套德语",
+      "lastEditedAt": "2026-10-28T20:12:58.123Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-12",
+      "url": "https://app.notion.com/p/40717d16de4c81aeb4c0dbc72a52e737?pvs=204",
+      "title": "🇦🇹 D3-12｜奥地利：先抓 Grüner Veltliner，再看 Wachau",
+      "lastEditedAt": "2026-10-28T20:13:00.640Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    },
+    {
+      "unitId": "foundation-d3-13",
+      "url": "https://app.notion.com/p/40717d16de4c81e38fcadf0fca5a0cf7?pvs=204",
+      "title": "🌍 D3-13｜其他欧洲：先让希腊与匈牙利不再陌生",
+      "lastEditedAt": "2026-10-28T20:13:02.495Z",
+      "verification": {
+        "state": "unverified"
+      },
+      "truncated": null,
+      "unknownBlockCount": null,
+      "bodyRead": true
+    }
+  ],
+  "sourceCaution": "All pages remain unverified with unchanged 2026-10-28 edit times. Connector did not expose truncation/unknown-block metadata. Teaching topic pages do not establish current cohort day allocation.",
+  "preservation": {
+    "deepEqualAfterRemovingAddedFields": true,
+    "checks": 72,
+    "inUnitQuestions": 39,
+    "originalPractices": 13,
+    "standaloneQuizQuestions": 30,
+    "storageChanged": false
+  },
+  "rendering": {
+    "status": "PASS",
+    "scope": "React SSR and jsdom; no browser layout or online acceptance",
+    "results": [
+      {
+        "area": "d1",
+        "units": 10,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d2",
+        "units": 9,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "france",
+        "units": 6,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d3",
+        "units": 13,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d4",
+        "units": 15,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      }
+    ],
+    "totalUnits": 53
+  },
+  "unitTests": {
+    "passed": 77,
+    "failed": 0
+  },
+  "build": {
+    "status": "PASS",
+    "scope": "offline-build-only",
+    "files": 473,
+    "entry": "./assets/index-BnE9Xa95.js",
+    "entryBytes": 12027203,
+    "entrySha256": "4989e97af5e7114f274eca19473e1b0b8e367003a70cd6d54acfb4c06b6fd069",
+    "foundationMarkers": 37,
+    "learningGuidanceFields": 159,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "deployed": false,
+    "browserVerified": false
+  },
+  "deployed": false,
+  "onlineAccepted": false,
+  "phoneVerified": false,
+  "nextBlockers": [
+    "Current five-day teaching PPT/day mapping unavailable",
+    "Tencent deployed source SHA and authorized deployment path unavailable",
+    "Real mobile layout/scroll/reading acceptance unverified",
+    "Main entry remains 12027203 bytes"
+  ]
+}

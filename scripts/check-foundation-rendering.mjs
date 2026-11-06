@@ -60,7 +60,6 @@ try {
         assert.deepEqual(scrollRequests.at(-1), {id:unit.id,behavior:'auto',block:'start'});
       }
       for (const field of ['learningObjective', 'preparation', 'practice']) {
-        if (area === 'd3' && field !== 'practice') continue; // Recorded content gap, not silently fabricated.
         assert.ok(unit[field] && article.textContent.includes(unit[field]), `${unit.id}: ${field}`);
       }
       assert.ok(article.textContent.includes('不在页面保存或自动评分'), `${unit.id}: written exercise boundary`);
@@ -102,7 +101,7 @@ try {
     await act(async () => container.querySelector('article input[type=checkbox]').click());
     assert.equal(window.localStorage.getItem(key), '{invalid-json', `${area}: never overwrite unreadable records`);
     await act(async () => root.unmount());
-    results.push({area,units:expectedCount,ssr:true,dom:true,navigation:true,focus:true,recordPreservation:true,remount:true,corruptRecordProtection:true,missingGuidance:area==='d3'?['learningObjective','preparation']:[]});
+    results.push({area,units:expectedCount,ssr:true,dom:true,navigation:true,focus:true,recordPreservation:true,remount:true,corruptRecordProtection:true,missingGuidance:[]});
   }
   assert.deepEqual(diagnostics, [], 'No React warnings or errors');
   console.log(JSON.stringify({status:'PASS',scope:'React SSR and jsdom; no browser layout or online acceptance',

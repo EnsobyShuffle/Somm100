@@ -1,3 +1,27 @@
+# Foundation · 2026-11-07 · D3 objectives and preparation completed
+
+Checked 2026-11-07T01:41:08+08:00. Base 56b8b7eff1050b21184af77af2b52250b38478b4 on migration/tencent-somm100, fresh head unchanged. Read latest checkpoint, migration document and source map. Four implementation/data files matched remote byte-for-byte before editing.
+
+- Re-read all 13 canonical D3 Notion teaching bodies, not only their inventory titles. All remain unverified, with unchanged October28 edit times; truncation and unknown-block metadata not supplied. These are knowledge-topic sources, not confirmed current classroom-day assignments.
+- Added 13 original Chinese learning objectives and 13 preparation activities in data/foundation-d3.json. Topics: country-learning method; Italy geography; Piedmont structure; Veneto wine styles; Tuscany grape/place relationships; Spain overview and reds; Rías Baixas/Cava; Portugal; Germany geography and label reading; Austria; Greece/Hungary. Existing FoundationRegionalReview automatically renders the fields; no new student Notion entry, service/sales/pairing mainline, or legal thresholds added.
+- Removing only the 26 added fields leaves the entire original D3 dataset deep-equal: 72 checks,39 in-unit questions/answers,13 written practices and all IDs retained. Independent30-question quiz unchanged. No instructor/image/storage changes.
+- Removed the D3 missing-field exception from the real React DOM and built-content validators. All 53 review units must now render objective/preparation/practice. Five initial-unit SSR renders,53-unit DOM interactions and77/77 unit tests PASS. CloudBase build PASS;159 guidance fields +37 feature markers verified,473 files. Entry ./assets/index-BnE9Xa95.js,12027203 bytes,SHA256 4989e97af5e7114f274eca19473e1b0b8e367003a70cd6d54acfb4c06b6fd069.
+- Evidence docs/qa/foundation-d3-learning-20261107.json; all13 source URLs and metadata recorded there. No private source-body dump committed. Dependency setup remains the previously documented focused build environment, not a full frozen-lockfile install.
+- Saved for guarded commit/readback. Not deployed, not phone/browser visual tested, not online accepted; local progress is not account cloud sync. No Netlify service access, billing/auth/DNS/ICP actions or paused-task work.
+
+| Area | Current status |
+| --- | --- |
+| D1 | 10 review units +25 independent questions; full learning guidance |
+| D2 / France | 9+6 review units +42 independent questions; full learning guidance |
+| D3 | 13 review units +30 independent questions; this round closes all13 objective/preparation gaps |
+| D4 | 15 review units +45 independent questions; full learning guidance |
+| D5 | Current classroom teaching/assessment allocation pending |
+| D6 | Cohort22 five classroom days; no invented sixth schedule |
+
+D1–D4 remain knowledge labels, not current daily placement. Next: address Foundation mobile loading and actual quiz-to-review return integration checks, without touching paused course content. Exact blockers: current five-day source PPT/day mapping; Tencent deployed SHA and authorized deployment path; real mobile layout/scroll acceptance. Main entry remains ~12 MB. No claim that Foundation is the complete current classroom course.
+
+---
+
 # Foundation · 2026-11-06 · All review interactions and unit navigation
 
 Checked 2026-11-06T23:41:33+08:00. Base 4bb891076c5c98fe75dfdc70d75c4e9aa8921788 on migration/tencent-somm100; fresh head unchanged. Compared six source/map files byte-for-byte with remote, read migration and latest checkpoint. No AGENTS.md in checkout. Existing Netlify ignore guard retained.

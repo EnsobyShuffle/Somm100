@@ -49,7 +49,7 @@ let learningGuidanceFields = 0;
 for (const area of ['d1', 'd2', 'france', 'd3', 'd4']) {
   const data = JSON.parse(readFileSync(new URL(`../data/foundation-${area}.json`, import.meta.url), 'utf8'));
   for (const unit of data.units) {
-    for (const field of (area === 'd3' ? ['practice'] : ['learningObjective', 'preparation', 'practice'])) {
+    for (const field of ['learningObjective', 'preparation', 'practice']) {
       const value = unit[field];
       assert(typeof value === 'string' && value.length > 0, `Missing ${unit.id}.${field}`);
       assert(bundle.includes(value) || bundle.includes(JSON.stringify(value).slice(1, -1)),

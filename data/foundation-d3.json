@@ -72,7 +72,9 @@
           "explanation": "试着把一个陌生名字放回国家、地区与品种三栏，空着的一栏就是下一条查证线索。"
         }
       ],
-      "practice": "拿一张酒标，把地名、品种和生产者分别圈出来。"
+      "practice": "拿一张酒标，把地名、品种和生产者分别圈出来。",
+      "learningObjective": "能把陌生酒名分成地名、品种和生产者，并用地图、品种与风格关系提出下一步查证问题。",
+      "preparation": "准备纸笔，画出国家、产区、品种、风格四栏。先用自己熟悉的一款法国酒试填；不知道的信息留空，不凭酒名猜。"
     },
     {
       "id": "foundation-d3-02",
@@ -148,7 +150,9 @@
           "explanation": "先分北、中、南，再把具体酒名标回产区，有助于区分地理分类和酒标等级。"
         }
       ],
-      "practice": "在地图上找到皮埃蒙特、威尼托和托斯卡纳，把三个地名分别放回北部或中部。"
+      "practice": "在地图上找到皮埃蒙特、威尼托和托斯卡纳，把三个地名分别放回北部或中部。",
+      "learningObjective": "能在意大利北部和中部定位皮埃蒙特、威尼托、托斯卡纳，并为每个区域连接一个代表品种或酒名。",
+      "preparation": "先在欧洲地图上找到意大利，画一个只标北、中、南与岛屿的轮廓。把 Piedmont、Veneto、Tuscany 写成三张词卡，阅读时逐一放回位置。"
     },
     {
       "id": "foundation-d3-03",
@@ -224,7 +228,9 @@
           "explanation": "更具体地说是 Moscato Bianco。它与本节另外两个 Nebbiolo 红酒案例形成对照。"
         }
       ],
-      "practice": "设想两杯颜色接近的红酒。你会分别记录哪些口感特征，再比较它们的结构？"
+      "practice": "设想两杯颜色接近的红酒。你会分别记录哪些口感特征，再比较它们的结构？",
+      "learningObjective": "能分别描述颜色、酸度和单宁，解释为什么不能用颜色浅推断结构轻，并连接 Nebbiolo、Barolo 与 Barbaresco。",
+      "preparation": "回看 D2 对酸度、单宁和颜色的区分。画三条独立记录线，先写下自己对浅色红酒的预期，读完本节再检查哪些预期没有依据。"
     },
     {
       "id": "foundation-d3-04",
@@ -300,7 +306,9 @@
           "explanation": "Glera 是 Prosecco 的主要品种。Prosecco DOC 的范围也延伸到 Friuli-Venezia Giulia。"
         }
       ],
-      "practice": "沿着采收、风干、发酵和装瓶的顺序，指出 Amarone 的葡萄从哪一步开始失去水分。"
+      "practice": "沿着采收、风干、发酵和装瓶的顺序，指出 Amarone 的葡萄从哪一步开始失去水分。",
+      "learningObjective": "能从葡萄品种、葡萄处理和酒类三个角度比较 Amarone 与 Prosecco，说明同一区域可以出现不同风格。",
+      "preparation": "画两列，分别写 Amarone 和 Prosecco；每列留出品种、工艺、是否起泡三行。回想发酵前的葡萄处理与发酵产生气泡分别发生在哪个阶段。"
     },
     {
       "id": "foundation-d3-05",
@@ -376,7 +384,9 @@
           "explanation": "这个历史称呼不能单独说明一瓶酒用了哪些品种。查生产者资料才能知道具体配比。"
         }
       ],
-      "practice": "把 Chianti Classico、Brunello di Montalcino 和 Sangiovese 分成产地酒名与品种名。"
+      "practice": "把 Chianti Classico、Brunello di Montalcino 和 Sangiovese 分成产地酒名与品种名。",
+      "learningObjective": "能把 Sangiovese 与 Chianti、Brunello di Montalcino 连起来，并区分品种名称和酒的产地名称。",
+      "preparation": "先在意大利地图上找到 Tuscany。把 Sangiovese、Chianti、Brunello di Montalcino 分别写下，标出自己认为是品种的词；读完再修正分类。"
     },
     {
       "id": "foundation-d3-06",
@@ -456,7 +466,9 @@
           "answer": 3,
           "explanation": "Jerez 与雪莉酒的产地相连。Port 则要回到葡萄牙的 Douro 查找。"
         }
-      ]
+      ],
+      "learningObjective": "能为西班牙建立红酒、白酒、起泡酒和雪莉酒的初步产地线索，不把整个国家归为一种风格。",
+      "preparation": "在笔记中列出 Rioja、Ribera del Duero、Priorat、Rías Baixas、Jerez。分别预留品种与酒类两栏，暂不填陈年等级或年限。"
     },
     {
       "id": "foundation-d3-07",
@@ -532,7 +544,9 @@
           "answer": 3,
           "explanation": "Priorat 的产区协会把 Garnatxa 和 Carinyena 列为重要本地品种。两者都值得在酒款资料里找。"
         }
-      ]
+      ],
+      "learningObjective": "能用同一组问题比较 Rioja、Ribera del Duero 与 Priorat，区分品种线索和需要另查的成熟、熟成条件。",
+      "preparation": "回看 Tempranillo 与 Garnacha 的品种笔记，画出产区、葡萄组成、环境、熟成四栏。先填确定的内容，把推测标成待查。"
     },
     {
       "id": "foundation-d3-08",
@@ -612,7 +626,9 @@
           "answer": 0,
           "explanation": "传统法的关键是第二次发酵发生在瓶中，酵母产生的二氧化碳在密闭条件下保留在酒里。"
         }
-      ]
+      ],
+      "learningObjective": "能区分 Rías Baixas 的产地与品种线索，以及 Cava 的品种与起泡工艺线索，用它们解释西班牙酒类的多样性。",
+      "preparation": "回看 D1 的海洋影响和发酵知识。把 Albariño、Rías Baixas、Cava、传统法写成词卡，分别尝试归入品种、产地、酒名或工艺。"
     },
     {
       "id": "foundation-d3-09",
@@ -696,7 +712,9 @@
           "answer": 1,
           "explanation": "Douro 是地理起点。仅知道葡萄来自这里，还不能判断成酒是否是波特酒。"
         }
-      ]
+      ],
+      "learningObjective": "能连接 Vinho Verde、Alvarinho 与 Douro、Touriga Nacional，并说明为什么仅看 Douro 不能判断是否为 Port。",
+      "preparation": "先在地图上找到葡萄牙与西班牙的边界。列出 Albariño／Alvarinho 两种写法，再给 Douro、Port、Touriga Nacional 留出各自的信息类别。"
     },
     {
       "id": "foundation-d3-10",
@@ -776,7 +794,9 @@
           "answer": 3,
           "explanation": "Riesling 可以酿出干型和带有残糖的酒，品种名称本身无法区分它们。"
         }
-      ]
+      ],
+      "learningObjective": "能把 Riesling 放回 Mosel、Rheingau 与 Pfalz 的产区背景，并用坡地和成熟条件提出风格问题，而不直接推断甜度。",
+      "preparation": "回看 D1 的坡向、光照与成熟笔记。准备一张德国葡萄酒产区图，先找 Mosel，再找 Rheingau 和 Pfalz；把地理观察与干甜信息分栏记录。"
     },
     {
       "id": "foundation-d3-11",
@@ -856,7 +876,9 @@
           "answer": 3,
           "explanation": "先逐项记下酒标确实写了什么，再把没有写出的信息列为待查项。"
         }
-      ]
+      ],
+      "learningObjective": "能在教学标签中区分产区、品种、成熟度相关词与干甜提示，指出判断成酒甜度还需要哪些信息。",
+      "preparation": "在纸上抄下本节的教学标签 Mosel · Riesling · Spätlese trocken。先圈出熟悉的词，给其余词留出解释栏；暂不查背整套法规数字。"
     },
     {
       "id": "foundation-d3-12",
@@ -936,7 +958,9 @@
           "answer": 3,
           "explanation": "品种可以跨越国界。读产地和分级词时，需要使用标签所属国家的资料。"
         }
-      ]
+      ],
+      "learningObjective": "能把 Wachau、Grüner Veltliner 与 Riesling 放回奥地利，并说明跨国比较同品种时仍需分别查产地体系。",
+      "preparation": "回看上一节德国酒标的分类方法。在笔记里分出德国和奥地利两列，把共同品种与各自产区分开，不把德国术语直接套到奥地利。"
     },
     {
       "id": "foundation-d3-13",
@@ -1016,7 +1040,9 @@
           "answer": 3,
           "explanation": "先建立两组有出处的产区与品种关系，之后读到具体酒款才有地方放入新信息。"
         }
-      ]
+      ],
+      "learningObjective": "能建立希腊—Santorini—Assyrtiko与匈牙利—Tokaj—Furmint两组关系，并为每组提出一个环境或风格问题。",
+      "preparation": "在欧洲地图上先找到希腊和匈牙利。各画一行国家、产区、品种、待查信息；本次只整理这两组关系，不扩展成全部欧洲国家清单。"
     }
   ]
 }
