@@ -1,3 +1,27 @@
+# Foundation · 2026-11-06 · France learning objectives and written practice
+
+Checked 2026-11-06T15:40:04+08:00. Base 7e945b3a169a4003afc8bf7caaca4bd252cf5715 on migration/tencent-somm100. Four target files matched remote before edits; read current migration/progress/source map.
+
+- Re-read all six canonical Notion France topic pages (source map franceReview.sources); all remain unverified with unchanged October28 edit times. Connector did not supply truncation/unknown-block metadata. Combined tool display truncated; F-01 displayed separately. No current day allocation inferred.
+- Added six learning objectives, six preparation prompts and six original written practices to data/foundation-france.json and rendered them in app/FoundationFranceReview.js. Topics: French geography, Bordeaux banks/blending, Burgundy geography/classification, Loire grape/place pairs, north/south Rhône, Alsace label inference. Each practice includes a check against the existing lesson; students use their own notes. No save/grade/completion claims for written tasks.
+- Entire old data remains deep-equal after removing the three new fields: existing summaries,38 checks,18 questions/answers/IDs unchanged. No new storage or unrelated course/instructor/image modifications.
+- 77/77 Foundation tests PASS; six isolated server-render checks PASS using temporary Node loader to select each unit. Initial esbuild helper was unavailable (ERR_MODULE_NOT_FOUND), resolved using existing Node/React without installation. SSR is not browser/phone acceptance.
+- CloudBase build PASS473 files,37 markers, mounts / and /somm100/. Entry ./assets/index-Ca1aNNck.js SHA256 b0184547446b3575153fa847f908567630ea721da527ad366b7eab2237eb9774. Pinned build-only dependencies; full frozen-lockfile install unverified; existing ~12MB entry still a performance limitation.
+- Evidence docs/qa/foundation-france-learning-20261106.json. Saved for guarded commit and readback. Not deployed, no online/mobile acceptance. Prior Chromium socket permission blocker remains; no retry/bypass. No cloud resource, DNS, ICP, billing or paused-task changes.
+
+| Area | Current code status |
+| --- | --- |
+| D1 | 10 reviews,25 independent questions |
+| D2/France | 9+6 reviews,42 independent questions; six France learning/practice packages added |
+| D3 | 13 reviews,30 independent questions |
+| D4 | 15 reviews,45 independent questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 has five classroom days; no sixth schedule |
+
+D1–D4 are knowledge labels, not current daily allocations. Next: add supported learning guidance to D1/remaining D2; obtain actual five-day source PPT/day mapping; complete phone/focus/backup acceptance using an authorized browser and verify Tencent source version.
+
+---
+
 # Foundation · 2026-11-06 · Accessible learning navigation
 
 Checked 2026-11-06T13:37:10.763555+08:00. Base1587fd6de33737570cb526c9c5d83e01aba53a8c on migration/tencent-somm100. Read current migration/progress/source map. Eight target files matched remote before edits.

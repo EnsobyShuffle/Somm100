@@ -6,6 +6,9 @@
       "id": "foundation-france-01",
       "number": 1,
       "title": "先看地图：法国葡萄酒不是一个风格",
+      "learningObjective": "能把六个核心产区放回法国的大致方位，并用位置、气候、品种、风格四个问题解释一个地名。",
+      "preparation": "先不看正文，写下你认识的三个法国产区及大致方向；再打开本节总览图核对。地图打不开时，可先用下方八个地名提示完成方位整理。",
+      "practice": "选 Bordeaux 与 Southern Rhône，各写一行「位置 → 气候影响 → 需要继续确认的品种与风格」。先独立写，再对照正文和读图说明；检查自己是否把整个法国写成了一种风格。",
       "sections": [
         {
           "heading": "先建立位置与气候的关系",
@@ -81,6 +84,9 @@
       "id": "foundation-france-02",
       "number": 2,
       "title": "Bordeaux：为什么要分左岸和右岸？",
+      "learningObjective": "能区分左岸、右岸的常见品种组合，说明混酿如何互补，并记住 Bordeaux 也有干白和甜白。",
+      "preparation": "先回想 Cabernet Sauvignon、Merlot、Cabernet Franc 的成熟与结构特点。不记得时先读本节正文，不必背酒庄名单，也不需要购买样酒。",
+      "practice": "画两栏写出左岸与右岸各自更重要的品种，再用两句话解释为什么酒庄可能随年份调整混酿。核对时检查：有没有把常见组合写成固定比例？有没有误认为混酿能消除年份差异？最后补写两个白葡萄品种。",
       "sections": [
         {
           "heading": "左右岸先连接品种",
@@ -164,6 +170,9 @@
       "id": "foundation-france-03",
       "number": 3,
       "title": "Burgundy：为什么一个地名能比葡萄品种更重要？",
+      "learningObjective": "能按南北顺序串起五个区域，并解释地理来源越来越具体与品质绝对排名的区别。",
+      "preparation": "先写下 Pinot Noir 与 Chardonnay 分别对应的主要酒色，再浏览本节南北顺序示意。暂不背全部村庄和葡萄园。",
+      "practice": "遮住示意图，按北到南重排 Chablis、Côte de Nuits、Côte de Beaune、Côte Chalonnaise、Mâconnais，然后展开核对。再改写「Grand Cru 一定比 Premier Cru 好喝」这句话，写出至少两个仍需考虑的因素，并说明为何不能直接套用 Bordeaux 酒庄分级。",
       "sections": [
         {
           "heading": "先把品种放回地理",
@@ -247,6 +256,9 @@
       "id": "foundation-france-04",
       "number": 4,
       "title": "Loire Valley：一条河，为什么能出现这么多不同风格？",
+      "learningObjective": "能用代表地名连接 Loire 的主要品种，区分 Muscadet 与 Muscat，并说明一个品种可以有多种酒款风格。",
+      "preparation": "准备四张纸卡或四行笔记，分别写 Sauvignon Blanc、Chenin Blanc、Cabernet Franc、Melon de Bourgogne，先尝试配上一个本节地名或风格。",
+      "practice": "为 Sancerre／Pouilly-Fumé、Chinon、Muscadet 配上品种；为 Chenin Blanc 写出三种可能风格。对照正文逐项订正，最后用一句话向同学解释 Muscadet 和 Muscat 的区别，不把所有 Loire 酒都归为同一种白葡萄酒。",
       "sections": [
         {
           "heading": "用四组关系串起卢瓦尔",
@@ -326,6 +338,9 @@
       "id": "foundation-france-05",
       "number": 5,
       "title": "Rhône Valley：为什么北边讲 Syrah，南边讲 GSM？",
+      "learningObjective": "能用气候与成熟的关系比较南北 Rhône，连接代表红白品种，并说明 GSM 是品种组合而非固定配方。",
+      "preparation": "先回想 Syrah 与 Grenache，再看本节南北示意和地图入口。地图不能打开时，使用页面内的文字与示意完成比较。",
+      "practice": "写一张「北部／南部」两栏表，每栏填写相对气候、重要红葡萄品种和一个代表产区；另补 Condrieu 对应的白葡萄品种。用正文核对，再写出 GSM 的三个全名，并解释为何不能据此推断一瓶酒的具体比例。",
       "sections": [
         {
           "heading": "北罗讷以 Syrah 为线索",
@@ -409,6 +424,9 @@
       "id": "foundation-france-06",
       "number": 6,
       "title": "Alsace：为什么这里的酒标看起来和法国其他地方不太一样？",
+      "learningObjective": "能把 Alsace 的位置、山脉影响与白葡萄品种联系起来，读出品种信息，同时保留对甜度的判断边界。",
+      "preparation": "先在法国总览中找到东部的 Alsace，再写出自己见过的两个白葡萄品种。无需准备实物酒标，可直接使用本节出现的品种名称。",
+      "practice": "假设一张练习卡只写「Alsace／Riesling」，分两栏列出「已经知道」与「还需确认」。对照正文检查：有没有仅凭品种推断甜度？再写出三种本节其他重要白葡萄品种，并用一句话说明为什么偏北不等于葡萄一定不成熟。",
       "sections": [
         {
           "heading": "地理条件与品种",

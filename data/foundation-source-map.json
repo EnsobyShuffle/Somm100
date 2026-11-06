@@ -1,4 +1,5 @@
 {
+  "franceLearningRelease": {"checkedAt":"2026-11-06T15:40:04+08:00","baseCommit":"7e945b3a169a4003afc8bf7caaca4bd252cf5715","status":"implemented-build-verified-not-deployed","units":6,"addedFields":["learningObjective","preparation","practice"],"authorship":"Original teaching prompts derived from six existing source topics; no private textbook reproduction.","evidenceFile":"docs/qa/foundation-france-learning-20261106.json","storageChanged":false,"dayAssignment":"unconfirmed"},
   "schemaVersion": 2,
   "updatedAt": "2026-11-06",
   "status": "precourse-d1-d2-france-d3-and-d4-review-integrated-local-build-tested-not-live",

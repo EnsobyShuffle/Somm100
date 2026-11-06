@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-11-06T15:40:04+08:00",
+  "baseCommit": "7e945b3a169a4003afc8bf7caaca4bd252cf5715",
+  "repository": "EnsobyShuffle/Somm100",
+  "branch": "migration/tencent-somm100",
+  "sources": [
+    {
+      "id": "foundation-france-01",
+      "source": "https://app.notion.com/p/40717d16de4c812a91a9e646c9e10af3",
+      "sourceEditedAt": "2026-10-28T19:48:03.553Z",
+      "verification": "unverified",
+      "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced",
+      "retrievedAt": "2026-11-06T15:40:04+08:00",
+      "truncationMetadata": "Not supplied by connector. All six page text content/end tags read; first combined output truncated, F-01 displayed separately."
+    },
+    {
+      "id": "foundation-france-02",
+      "source": "https://app.notion.com/p/40717d16de4c81df9eabe257fe06ffb5",
+      "sourceEditedAt": "2026-10-28T19:48:05.664Z",
+      "verification": "unverified",
+      "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced",
+      "retrievedAt": "2026-11-06T15:40:04+08:00",
+      "truncationMetadata": "Not supplied by connector. All six page text content/end tags read; first combined output truncated, F-01 displayed separately."
+    },
+    {
+      "id": "foundation-france-03",
+      "source": "https://app.notion.com/p/40717d16de4c81558f88ddcb1d61593e",
+      "sourceEditedAt": "2026-10-28T19:48:24.645Z",
+      "verification": "unverified",
+      "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced",
+      "retrievedAt": "2026-11-06T15:40:04+08:00",
+      "truncationMetadata": "Not supplied by connector. All six page text content/end tags read; first combined output truncated, F-01 displayed separately."
+    },
+    {
+      "id": "foundation-france-04",
+      "source": "https://app.notion.com/p/40717d16de4c8178ab75e37868eb8ee3",
+      "sourceEditedAt": "2026-10-28T19:48:26.781Z",
+      "verification": "unverified",
+      "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced",
+      "retrievedAt": "2026-11-06T15:40:04+08:00",
+      "truncationMetadata": "Not supplied by connector. All six page text content/end tags read; first combined output truncated, F-01 displayed separately."
+    },
+    {
+      "id": "foundation-france-05",
+      "source": "https://app.notion.com/p/40717d16de4c8172833dcff7d2cd3fca",
+      "sourceEditedAt": "2026-10-28T19:48:28.705Z",
+      "verification": "unverified",
+      "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced",
+      "retrievedAt": "2026-11-06T15:40:04+08:00",
+      "truncationMetadata": "Not supplied by connector. All six page text content/end tags read; first combined output truncated, F-01 displayed separately."
+    },
+    {
+      "id": "foundation-france-06",
+      "source": "https://app.notion.com/p/40717d16de4c817cba87daed923a5a5d",
+      "sourceEditedAt": "2026-10-28T19:49:22.884Z",
+      "verification": "unverified",
+      "scope": "Original summaries, source checklists and questions; linked private textbooks not reproduced",
+      "retrievedAt": "2026-11-06T15:40:04+08:00",
+      "truncationMetadata": "Not supplied by connector. All six page text content/end tags read; first combined output truncated, F-01 displayed separately."
+    }
+  ],
+  "changes": {
+    "units": 6,
+    "learningObjectives": 6,
+    "preparationPrompts": 6,
+    "writtenPractices": 6,
+    "existingDataDeepEqualAfterRemovingNewFields": true,
+    "checksUnchanged": 38,
+    "questionsUnchanged": 18,
+    "studentNotionLinksAdded": false,
+    "storageChanges": false
+  },
+  "validation": {
+    "foundationTests": {
+      "pass": 77,
+      "fail": 0
+    },
+    "ssr": {
+      "pass": 6,
+      "method": "Temporary Node ESM loader handles existing JSON/CSS imports and substitutes selected unit solely for rendering validation. Asserts objective/preparation/practice and unsaved/ungraded notice on every rendered unit; no student Notion URL.",
+      "limitation": "Not a browser interaction or viewport test.",
+      "initialAttempt": "esbuild import failed ERR_MODULE_NOT_FOUND; no install attempted; used Node loader with existing React renderer."
+    },
+    "build": {
+      "status": "PASS",
+      "files": 473,
+      "entry": "./assets/index-Ca1aNNck.js",
+      "entrySha256": "b0184547446b3575153fa847f908567630ea721da527ad366b7eab2237eb9774",
+      "entryBytes": 12027203,
+      "foundationMarkers": 37,
+      "mounts": [
+        "/",
+        "/somm100/"
+      ],
+      "dependencies": "Existing pinned build-only dependencies; full frozen-lockfile install not verified."
+    }
+  },
+  "deployed": false,
+  "onlineVerified": false,
+  "browserVerified": false,
+  "limits": [
+    "Previously observed Chromium socket permission denial; no repeated launch/bypass.",
+    "Five-day cohort22 source PPT and actual day allocation still missing; D1-D4 remain knowledge labels.",
+    "Written practices completed in students own notes, not saved, graded or counted toward completion.",
+    "Tencent deployed SHA not obtained; no publication or domain/ICP/billing changes.",
+    "Approximately 12MB main entry remains existing performance concern."
+  ],
+  "next": "Complete analogous learning guidance for D1 and remaining D2 topics where sources support it; obtain five-day original classroom mapping; use available authorized browser/deployment pathway for real acceptance."
+}
