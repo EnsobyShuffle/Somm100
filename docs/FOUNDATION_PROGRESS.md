@@ -1,3 +1,17 @@
+# Foundation · 2026-11-07 · D1-10 公开酒标对照练习
+
+基线 `ca346a227039fbdf61f4fa6d0aca1f21435a1288`，分支 `migration/tencent-somm100`。
+
+- `app/FoundationLabelPractice.js` 在 D1-10 加入夏布利官方读标图与 Cloudy Bay Sauvignon Blanc 2025 酒庄产品页。原有两张虚构卡保留。新练习让学员区分正背标直接可读信息、官方资料确认的信息和仍不确定的字段。折叠答案单独注明 13.5% 来自酒庄产品页，不能把网页字段当作已经从瓶图读到的文字。原单元、题目、进度键与讲师及课程照片保留。
+- 重读 Notion D1-10（40717d16de4c81108c65e16da8465979）、D1–D2 清单（40717d16de4c810c811dd8a1324066cd）、资源矩阵（40717d16de4c81c2910decdcecc94d7d）、课前路径（40717d16de4c814ba288fa4ab63f2746）和产品蓝图。旧 Chapter 00 仍明确过时。D1-10 引用的有道历史文章（Notion 3fe17d16de4c81aeadbfe12703b59cf0）正文注明分组可见。保留内部来源记录，学生页使用公开官方链接，图片由原站展示。
+- 公开原站本轮已读取：<https://www.chablis-wines.com/tasting/the-art-of-tasting/how-to-read-a-label/how-to-read-a-label,1838,7685.html>、<https://www.chablis-wines.com/discover/a-unique-territory-and-terroir/four-appellations-and-one-varietal/four-appellations-and-one-varietal,1807,7644.html>、<https://www.cloudybay.com/en-us/our-wines/sauvignon-blanc-2025>。酒庄旧 2023 URL 实际重定向至 2025，因此使用已读回的 2025 地址及对应事实。学生端手机跳转与图片加载仍待实测。
+- 重读第22期 Yichel 报名资料 DOCX 全7页（libfile_cd46e6582a888191b7565100f9e61611，版本1）。现有五城日期、09:00–16:30、2＋2＋1 天面授及四天游学与文档一致。文档列有师资、费用和报名入口，未给出逐日课件对应或退款条款。本轮未变更招生信息。
+- 验证：84/84 Foundation 回归，53单元 React/jsdom 渲染通过。D1-10 核对两例、3个官方链接、展开答案、进度保持。CloudBase 全量构建与专注入口依赖检查通过，共450文件，159个学习指引字段。主入口 `./assets/app-BCUF2n7r.js`，SHA256 `dbac290c9ec2c2ba2f6413c824a3fcd1191796b196385dd9aa38642ca6ffb4fd`。专注页 JS 504164 字节。独立 HTML 本地加载、D1 导航及新酒标练习通过 jsdom。腾讯部署和手机真机验收待完成。
+- 课程状态：D1 10单元／25题，9张图解及新读标对照。D2 9品种＋6法国专题／42题。D3 13单元／30题。D4 15单元／45题。D5 教学与考核日分配待确认。D6 当期无第六天面授。D1–D4 知识分类仍待对应当期课表。
+- 下一断点：从源 PPT 核对课堂日分配，继续筛选可直接外链的课内视频并做手机实测。腾讯上次访问仍见旧 Chapter 00，当前版本待已授权部署通路。保留 `netlify.toml` 的 `ignore = "exit 0"` 和提交标签 `[skip netlify]`。
+
+---
+
 # Foundation · 2026-11-07 · 葡萄园管理与酒泥图解、全站验证恢复
 
 基线 e510f8aadf3a4d45379e4c60e13c3dac074f959d；分支 migration/tencent-somm100。先读迁移说明、最新检查点和来源映射，提交前复核远端并发更新。

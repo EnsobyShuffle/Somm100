@@ -56,6 +56,24 @@ try {
       });
       const article = document.getElementById(unit.id);
       assert.ok(article, `${unit.id}: active article`);
+      if (unit.id === 'foundation-d1-10') {
+        const examples = article.querySelector('[aria-labelledby="foundation-label-examples-title"]');
+        assert.ok(examples, 'D1-10: public label examples appear in the review');
+        assert.equal(examples.querySelectorAll('article').length, 2);
+        const links = [...examples.querySelectorAll('a')];
+        assert.deepEqual(links.map(link => new URL(link.href).hostname),
+          ['www.chablis-wines.com', 'www.cloudybay.com', 'www.chablis-wines.com']);
+        assert.ok(links.every(link => link.target === '_blank' && link.relList.contains('noopener')));
+        assert.equal(examples.querySelectorAll('img,iframe').length, 0);
+        const answers = examples.querySelector('details');
+        assert.equal(answers.open, false);
+        const before = window.localStorage.getItem(key);
+        await act(async () => answers.querySelector('summary').click());
+        assert.equal(answers.open, true);
+        assert.match(answers.textContent, /查資料確認|查资料确认/);
+        assert.match(answers.textContent, /13\.5% 酒精度/);
+        assert.equal(window.localStorage.getItem(key), before, 'Reading answers does not change progress');
+      }
       const diagram=foundationDiagrams[unit.id];
       if(diagram){
         const figure=article.querySelector('figure.foundation-diagram');
