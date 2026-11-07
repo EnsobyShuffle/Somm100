@@ -1,0 +1,7 @@
+.foundation-focus{max-width:1180px;margin:0 auto;padding:0 24px 48px}
+.foundation-focus-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0;border-bottom:1px solid var(--line)}
+.foundation-focus-brand{display:block;width:170px;max-width:45%}
+.foundation-focus-brand svg{display:block;width:100%;height:auto}
+.foundation-focus-main{min-width:0;padding-top:20px}
+.foundation-focus-main .button-row{flex-wrap:wrap}
+@media(max-width:600px){.foundation-focus{padding:0 16px 32px}.foundation-focus-header{font-size:13px;gap:12px}.foundation-focus-main .button{min-height:44px}}

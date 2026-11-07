@@ -1,0 +1,261 @@
+{
+  "baseCommit": "326fb969db1f2600df8b5e8f8cbb876d7be79dd1",
+  "entryAudit": {
+    "status": "PASS",
+    "entry": "assets/foundation-CKIU1fBj.js",
+    "assets": [
+      {
+        "name": "assets/foundation-CKIU1fBj.js",
+        "bytes": 1357,
+        "sha256": "c93d611ccf67a025045ba13782c3251b3ea8621f7f258f63cbaf417fc5a50b08"
+      },
+      {
+        "name": "assets/globals-B01PBgbQ.js",
+        "bytes": 193471,
+        "sha256": "d566e4c918b09fc5bdc4f544bc03e02ab02b1a456fa7769c95d44ca45a76a338"
+      },
+      {
+        "name": "assets/FoundationPage-jURx7dhL.js",
+        "bytes": 302724,
+        "sha256": "fcf6315d89448924beb70f514a85f1440930f10e2e62d5ab86e4523abd8b1b68"
+      }
+    ],
+    "totalJavaScriptBytes": 497552,
+    "sharedFullAppDataExcluded": true,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "limits": "Uncompressed JS bytes; excludes CSS/images. Not network timing, phone or deployment acceptance."
+  },
+  "fullAppAudit": {
+    "scope": "offline-build-entry-audit",
+    "entry": "assets/app-uUyr3K4k.js",
+    "entryBytes": 11818853,
+    "entrySha256": "9e3b23e270df895a395926b4949b01a852415665296304534342c87b913617d0",
+    "directImports": [
+      "assets/globals-B01PBgbQ.js"
+    ],
+    "topModules": [
+      {
+        "path": "data/curriculum.json",
+        "renderedLength": 8391074
+      },
+      {
+        "path": "data/producers.json",
+        "renderedLength": 1596980
+      },
+      {
+        "path": "data/knowledge-dictionary.json",
+        "renderedLength": 618158
+      },
+      {
+        "path": "data/cms-learning.json",
+        "renderedLength": 600793
+      },
+      {
+        "path": "data/grape-wine-index.json",
+        "renderedLength": 476150
+      },
+      {
+        "path": "data/wine-library.json",
+        "renderedLength": 296184
+      },
+      {
+        "path": "data/grape-index.json",
+        "renderedLength": 294744
+      },
+      {
+        "path": "data/rully-reference.json",
+        "renderedLength": 197499
+      },
+      {
+        "path": "data/wine-profiles.json",
+        "renderedLength": 97090
+      },
+      {
+        "path": "data/region-index.json",
+        "renderedLength": 95038
+      },
+      {
+        "path": "data/china-index.json",
+        "renderedLength": 91459
+      },
+      {
+        "path": "app/LearningApp.tsx",
+        "renderedLength": 73294
+      },
+      {
+        "path": "data/spain-index.json",
+        "renderedLength": 67563
+      },
+      {
+        "path": "data/wine-channel.json",
+        "renderedLength": 58933
+      },
+      {
+        "path": "app/EnglishStudy.tsx",
+        "renderedLength": 58259
+      }
+    ],
+    "foundationModules": [],
+    "limitations": [
+      "renderedLength is bundler module metadata, not compressed transferred bytes",
+      "entry size excludes other imported chunks, CSS, images and runtime requests",
+      "not a browser timing, mobile performance or deployment measurement"
+    ]
+  },
+  "unitTests": 79,
+  "checks": {
+    "render": {
+      "status": "PASS",
+      "scope": "React SSR and jsdom; no browser layout or online acceptance",
+      "results": [
+        {
+          "area": "d1",
+          "units": 10,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        },
+        {
+          "area": "d2",
+          "units": 9,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        },
+        {
+          "area": "france",
+          "units": 6,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        },
+        {
+          "area": "d3",
+          "units": 13,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        },
+        {
+          "area": "d4",
+          "units": 15,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        }
+      ],
+      "totalUnits": 53
+    },
+    "quiz": {
+      "status": "PASS",
+      "scope": "real React/jsdom events; scroll stubbed; not phone or online acceptance",
+      "results": [
+        {
+          "day": 1,
+          "questions": 25,
+          "reviewRoundTrips": 25,
+          "answersPreserved": true,
+          "noAutomaticReviewCompletion": true,
+          "invalidReturnIgnored": true,
+          "questionNavigationFocus": true
+        },
+        {
+          "day": 2,
+          "questions": 42,
+          "reviewRoundTrips": 42,
+          "answersPreserved": true,
+          "noAutomaticReviewCompletion": true,
+          "invalidReturnIgnored": true,
+          "questionNavigationFocus": true
+        },
+        {
+          "day": 3,
+          "questions": 30,
+          "reviewRoundTrips": 31,
+          "answersPreserved": true,
+          "noAutomaticReviewCompletion": true,
+          "invalidReturnIgnored": true,
+          "questionNavigationFocus": true
+        },
+        {
+          "day": 4,
+          "questions": 45,
+          "reviewRoundTrips": 45,
+          "answersPreserved": true,
+          "noAutomaticReviewCompletion": true,
+          "invalidReturnIgnored": true,
+          "questionNavigationFocus": true
+        }
+      ],
+      "totalQuestions": 142,
+      "totalRoundTrips": 143
+    },
+    "page": {
+      "status": "PASS",
+      "concepts": 8,
+      "originalArticleLinks": 10,
+      "sectionDestinations": 12,
+      "routeCallbacks": [
+        "courses",
+        "service",
+        "practice"
+      ],
+      "quizRecordsRestored": 4,
+      "limits": "jsdom only; no browser layout/network/deployment claim"
+    },
+    "loading": {
+      "status": "PASS",
+      "checks": [
+        "pending status and back action",
+        "deferred lazy resolution",
+        "rejected lazy recovery and focus",
+        "explicit reload only",
+        "no cached import retry loop",
+        "local record unchanged",
+        "boundary remount recovery"
+      ],
+      "limitations": [
+        "jsdom; no real network or page reload",
+        "no browser layout or online deployment"
+      ]
+    },
+    "shell": {
+      "status": "PASS",
+      "sameOriginRecordRoundTrip": true,
+      "brandPreserved": true,
+      "fullAppLink": true,
+      "scope": "React/jsdom only; no real cross-page navigation or phone test"
+    }
+  },
+  "fullAppFocusLinkVerified": true,
+  "deployed": false,
+  "browserVerified": false
+}

@@ -10,7 +10,7 @@ const results=await build({
   logLevel:'silent',build:{write:false},
 });
 const outputs=(Array.isArray(results)?results:[results]).flatMap(r=>r.output);
-const entries=outputs.filter(o=>o.type==='chunk'&&o.isEntry);
+const entries=outputs.filter(o=>o.type==='chunk'&&o.isEntry&&o.facadeModuleId?.endsWith('/index.html'));
 if(entries.length!==1)throw Error('Expected one CloudBase entry');
 const entry=entries[0];
 const modules=Object.entries(entry.modules).map(([id,m])=>({

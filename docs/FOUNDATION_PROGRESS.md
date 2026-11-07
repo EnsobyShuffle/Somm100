@@ -1,3 +1,30 @@
+# Foundation · 2026-11-07 · Same-origin focus entry
+
+Base326fb969db1f2600df8b5e8f8cbb876d7be79dd1 on migration/tencent-somm100. Read current migration/checkpoint/source map; verified remote originals before changes and concurrency before commit.
+
+- Added cloudbase/foundation.html and foundation-main.tsx, reusing unchanged FoundationPage and existing load boundary in FoundationFocus. Approved BrandMark retained. Chinese local-record notice; full-app return link; same-origin/mount navigation helper for courses/service/practice/home/account. No account/cloud-sync claims, no duplicate data or keys, no content/instructor/image changes.
+- CloudBase-only multi-page build retains index.html and adds foundation.html; bundler extracts common runtime rather than Foundation importing the giant app chunk. All static and dynamic Foundation JS dependencies total497552bytes (uncompressed): entry1357,shared runtime193471,course302724. Excludes CSS/images; not a speed measurement. Dependency checker excludes LearningApp/curriculum/producers/CMS/wine-library and enforces <1MB JS budget.
+- Full App Foundation page now offers 打开课程专注阅读 link only in CloudBase/local-only build. Built-link verification initially caught boolean true versus string 'true' mismatch in environment guard; normalized via String and rebuilt. Final artifact contains link; checker now guards it. No student content was changed to fix this.
+- Root / and /somm100/ relative paths checked. Same-origin local-record behavior tested by rendering existing page, saving D1 answer, switching to focus shell, and returning to existing page. This is React/jsdom, not actual browser navigation or remote hosting acceptance. Full page tests also cover four quiz records. Existing deployment config remains unchanged and target origin determines whether existing local records are available.
+- PASS79unit tests,53review units,142questions/143round trips,full-page8concepts/10links/12targets,loading-error checks,focus shell tests,production build159guidance fields/37markers,all focus dependency file hashes read back from written dist.450build files. Full app entry assets/app-uUyr3K4k.js,bytes11818853,SHA2569e3b23e270df895a395926b4949b01a852415665296304534342c87b913617d0; full App remains large. Audit script updated to select index.html entry explicitly in multi-entry builds.
+- Evidence docs/qa/foundation-focus-entry-20261107.json. Reproduce npm run build:cloudbase then node scripts/check-foundation-entry.mjs; node scripts/check-foundation-focus.mjs; existing page/render/quiz/loading scripts; node --test tests/foundation*.test.mjs. Focused Node24/React19/jsdom/Vite8 dependencies, not full frozen-lockfile install.
+- Runtime skill refresh returned exact error: skill package is not available. Prior read instructions retained; no network policy or auth readiness inferred. No deployment/network/billing/auth actions attempted. Netlify ignore exit0 preserved. No new curriculum-source retrieval/claims; current source map and cohort data retained.
+
+| Area | Current content status |
+| --- | --- |
+| D1 | 10review units +25independent questions |
+| D2 / France | 9+6units +42independent questions |
+| D3 | 13units +30independent questions |
+| D4 | 15units +45independent questions |
+| D5 | Teaching/assessment allocation pending |
+| D6 | Cohort22 five classroom days; no invented sixth day |
+
+D1–D4 remain topic labels, not official daily assignments. Saved for guarded commit/readback; not deployed or browser/mobile accepted. Focus page is a prepared build path, not a claimed live URL. Does not register a new service worker or promise offline availability.
+
+Next breakpoint: real browser/mobile checks for focus entry and same-origin page transitions; verify actual host serving foundation.html when deployment route becomes available. Continue course-source reconciliation. Exact blockers: current five-day source PPT/day mapping, browser environment last socket Operation not permitted, usable Tencent session/deploy route last login-required/CLI policy denial. Do not bypass or reauthorize. A future separate-origin deployment would NOT share records automatically; retain backup/restore.
+
+---
+
 # Foundation · 2026-11-07 · Extracted page and consolidated lazy module
 
 Base cb56f6260584d1f630874ec0aecc44894665bd2a on migration/tencent-somm100. Read migration,latest checkpoint,source map; fetched and compared LearningApp/checkpoint/test-loader originals with remote before edits. No new curriculum-source claim this engineering round.

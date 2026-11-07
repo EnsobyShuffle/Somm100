@@ -27,6 +27,10 @@ export default defineConfig({
   resolve: { alias: { '@': fileURLToPath(new URL('.', import.meta.url)) } },
   define: { 'import.meta.env.VITE_SOMM100_LOCAL_ONLY': 'true' },
   build: {
+    rolldownOptions: {input: {
+      app: fileURLToPath(new URL('./cloudbase/index.html',import.meta.url)),
+      foundation: fileURLToPath(new URL('./cloudbase/foundation.html',import.meta.url)),
+    }},
     outDir: fileURLToPath(new URL('./dist-cloudbase', import.meta.url)),
     emptyOutDir: true,
     sourcemap: false,
