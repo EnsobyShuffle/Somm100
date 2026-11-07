@@ -1,3 +1,24 @@
+# Foundation · 2026-11-08 · D3/D4 产区与工艺对照
+
+基线 `14974dace0309f91f16209b67bb92eb8b2bc95f3`，分支 `migration/tencent-somm100`。本轮为四个既有复习单元接入原创图解与公开来源。
+
+| 单元 | 图解和复习任务 | 教学定位与公开来源 |
+| --- | --- | --- |
+| D3-04 威尼托 | 比较 Tommasi Amarone 与 Albino Armani Recioto Classico 的风干、压榨和发酵，指出两种酒的甜度分歧在发酵结果。 | [Notion](https://app.notion.com/p/40717d16de4c8185b523dc664e1cd618)、[Tommasi](https://tommasiwine.it/amarone-appassimento/?lang=en)、[Albino Armani 技术资料](https://www.albinoarmani.com/wp-content/uploads/2022/11/Recioto-della-Valpolicella-DOCG-Classico_en.pdf) |
+| D3-05 托斯卡纳 | 从 Chianti Classico 三种类型和 Brunello di Montalcino 的名称分别追溯产地与桑娇维塞要求，区分法定比例下限和实际配比。 | [Notion](https://app.notion.com/p/40717d16de4c81b089c0d6b8912a13ff)、[Chianti Classico 协会](https://www.chianticlassico.com/en/wine/types/)、[Brunello 协会](https://www.consorziobrunellodimontalcino.it/en/583/wines) |
+| D4-04 起泡酒 | 对比 Prosecco DOC Spumante、Cava、Franciacorta 的装瓶顺序、二次发酵容器与对应类别的熟成要求。 | [Notion](https://app.notion.com/p/40717d16de4c8180bb3ed067f5e4373a)、[Prosecco DOC](https://www.prosecco.wine/en/prosecco/discover/winemaking/)、[Cava](https://www.cava.wine/en/news-articles/cava-aging-the-cava-production-process/)、[Franciacorta](https://franciacorta.wine/en/consortium/regulations/) |
+| D4-07 雪莉 | 对照 Fino、Amontillado、Oloroso 的熟成路径，再追踪 Solera 取酒和逐级补酒。 | [Notion](https://app.notion.com/p/40717d16de4c81ff8503f56b42a11ad1)、[Fino](https://cdn.sherry.wine/sherry-wine/dry-sherry-wines/fino)、[Oloroso 与 Amontillado](https://wwv.sherry.wine/news/oloroso-vs-amontillado-whats-the-difference)、[熟成与 Solera](https://www.sherry.wine/sherry-wine/production/ageing) |
+
+- `lib/foundation-diagrams.mjs` 由现有复习组件按稳定 ID 加载四张图。学员页只显示 10 条公开链接，后台 Notion 教学页在此记录。现有课程图片、师资、自测、练习记录键保留。两列、三列内容复用现有窄屏单栏规则。
+- 本轮重读产品蓝图、旧 Chapter 00、当前课前框架与 Guided Learning、D1–D2 清单和课前路径。旧 Chapter 00 继续作为历史原型。两条 Valpolicella 产区协会产品页返回 `TimeoutError`，风干图改用已读取的两家生产者技术资料。
+- 重新读取第22期 Yichel 报名文档（Library `libfile_cd46e6582a888191b7565100f9e61611` 版本1，共7页）。每城五天面授，另列四天游学。未获得逐日课件。Notion [单期开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60) 仍为草稿，待原 WPS PPT 核对教学与考核日分配。报名页沿用已核实资料。
+- 84/84 Foundation 回归、53 单元 React/jsdom 渲染、24 张图解验证通过。检查原浏览器记录、图解文字、键盘焦点和 10 条公开来源的挂载。独立预览在文件地址及模拟 HTTPS 可切换全部四节。390 像素视口 Chromium 尝试在启动时报 `socket() failed: Operation not permitted`，手机布局和真机验收待补。
+- CloudBase 生产构建与专注入口检查通过，共 450 文件、159 个指引字段。主入口 `./assets/app-CmG4akgO.js`，SHA256 `f8dac5b689fefd9d581f9b9d5476fb9c94e115fff10175047b03e917c946365e`。专注入口 JS 未压缩 520279 字节。腾讯本轮未部署，线上验收待做。保留 `netlify.toml` 的 `ignore = "exit 0"` 和提交标签 `[skip netlify]`。
+- 内容状态 D1 10 单元／25 题，D2 9 品种＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题。D1–D4 为知识模块。D5 教学与考核分配待核实，第22期无第六天面授。
+- 下一断点可从 D3-11 德国静止酒酒标、D4-06 Port 工艺与类型继续。确认逐日安排仍需原 WPS PPT 和当期确认版本，发布仍需可用的已授权腾讯部署通路。
+
+---
+
 # Foundation · 2026-11-08 · 补齐 D2 品种对照图
 
 基线 `80a6aca6f2ef36748f5b3fdfef9a91addda3efad`，分支 `migration/tencent-somm100`。

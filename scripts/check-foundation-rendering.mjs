@@ -25,6 +25,14 @@ const specs = [
   ['d3', 'FoundationD3Review', 13],
   ['d4', 'FoundationD4Review', 15],
 ];
+const expectedDiagramSources = {
+  'foundation-d2-03': 2,
+  'foundation-d2-04': 2,
+  'foundation-d3-04': 2,
+  'foundation-d3-05': 2,
+  'foundation-d4-04': 3,
+  'foundation-d4-07': 3,
+};
 const container = document.getElementById('root');
 const results = [];
 const diagnostics = [];
@@ -107,7 +115,8 @@ try {
         assert.equal(window.localStorage.getItem(key), before, 'Reading answers does not change progress');
       }
       const diagram=foundationDiagrams[unit.id];
-      if (area === 'd2') assert.ok(diagram, `${unit.id}: D2 unit has a comparison diagram`);
+      const expectedSources = expectedDiagramSources[unit.id];
+      if (area === 'd2' || expectedSources) assert.ok(diagram, `${unit.id}: comparison diagram exists`);
       if(diagram){
         const figure=article.querySelector('figure.foundation-diagram');
         assert.ok(figure, `${unit.id}: diagram mounted in real React DOM`);
@@ -115,11 +124,12 @@ try {
         for(const text of [diagram.title,diagram.intro,diagram.takeaway,diagram.note,...diagram.groups.flatMap(g=>[g.title,...g.nodes.flat()])]){
           assert.ok(figure.textContent.includes(text), `${unit.id}: diagram text ${text}`);
         }
-        if (['foundation-d2-03', 'foundation-d2-04'].includes(unit.id)) {
+        if (expectedSources) {
           const links = [...figure.querySelectorAll('.foundation-diagram-sources a')];
-          assert.equal(links.length, 2);
+          assert.equal(links.length, expectedSources, `${unit.id}: comparison source count`);
           assert.ok(links.every(link =>
-            link.protocol === 'https:' && link.target === '_blank' && link.relList.contains('noopener')));
+            link.protocol === 'https:' && link.hostname !== 'app.notion.com' &&
+            link.target === '_blank' && link.relList.contains('noopener')));
           assert.deepEqual(links.map(link => [link.textContent, link.getAttribute('href')]), diagram.sources);
         }
       }
