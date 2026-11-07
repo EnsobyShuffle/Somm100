@@ -1,0 +1,193 @@
+{
+  "baseCommit": "a8394a4329d1e0a656ae853f51053c37bf596886",
+  "unitTests": 79,
+  "checks": {
+    "page": {
+      "status": "PASS",
+      "concepts": 8,
+      "originalArticleLinks": 10,
+      "sectionDestinations": 12,
+      "focusedDestinations": 20,
+      "reducedMotion": "instant",
+      "routeCallbacks": [
+        "courses",
+        "service",
+        "practice"
+      ],
+      "quizRecordsRestored": 4,
+      "limits": "jsdom only; no browser layout/network/deployment claim"
+    },
+    "render": {
+      "status": "PASS",
+      "scope": "React SSR and jsdom; no browser layout or online acceptance",
+      "results": [
+        {
+          "area": "d1",
+          "units": 10,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        },
+        {
+          "area": "d2",
+          "units": 9,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        },
+        {
+          "area": "france",
+          "units": 6,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        },
+        {
+          "area": "d3",
+          "units": 13,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        },
+        {
+          "area": "d4",
+          "units": 15,
+          "ssr": true,
+          "dom": true,
+          "navigation": true,
+          "focus": true,
+          "recordPreservation": true,
+          "remount": true,
+          "corruptRecordProtection": true,
+          "missingGuidance": []
+        }
+      ],
+      "totalUnits": 53
+    },
+    "quiz": {
+      "status": "PASS",
+      "scope": "real React/jsdom events; scroll stubbed; not phone or online acceptance",
+      "results": [
+        {
+          "day": 1,
+          "questions": 25,
+          "reviewRoundTrips": 25,
+          "answersPreserved": true,
+          "noAutomaticReviewCompletion": true,
+          "invalidReturnIgnored": true,
+          "questionNavigationFocus": true
+        },
+        {
+          "day": 2,
+          "questions": 42,
+          "reviewRoundTrips": 42,
+          "answersPreserved": true,
+          "noAutomaticReviewCompletion": true,
+          "invalidReturnIgnored": true,
+          "questionNavigationFocus": true
+        },
+        {
+          "day": 3,
+          "questions": 30,
+          "reviewRoundTrips": 31,
+          "answersPreserved": true,
+          "noAutomaticReviewCompletion": true,
+          "invalidReturnIgnored": true,
+          "questionNavigationFocus": true
+        },
+        {
+          "day": 4,
+          "questions": 45,
+          "reviewRoundTrips": 45,
+          "answersPreserved": true,
+          "noAutomaticReviewCompletion": true,
+          "invalidReturnIgnored": true,
+          "questionNavigationFocus": true
+        }
+      ],
+      "totalQuestions": 142,
+      "totalRoundTrips": 143
+    },
+    "focus": {
+      "status": "PASS",
+      "sameOriginRecordRoundTrip": true,
+      "brandPreserved": true,
+      "fullAppLink": true,
+      "scope": "React/jsdom only; no real cross-page navigation or phone test"
+    },
+    "loading": {
+      "status": "PASS",
+      "checks": [
+        "pending status and back action",
+        "deferred lazy resolution",
+        "rejected lazy recovery and focus",
+        "explicit reload only",
+        "no cached import retry loop",
+        "local record unchanged",
+        "boundary remount recovery"
+      ],
+      "limitations": [
+        "jsdom; no real network or page reload",
+        "no browser layout or online deployment"
+      ]
+    },
+    "entry": {
+      "status": "PASS",
+      "entry": "assets/foundation-C7iHJL3h.js",
+      "assets": [
+        {
+          "name": "assets/foundation-C7iHJL3h.js",
+          "bytes": 1357,
+          "sha256": "2b0ae7fb7798b493c6739fabaaaf87e081aea15d9de76c6d43eebadd2f5adc0e"
+        },
+        {
+          "name": "assets/globals-B01PBgbQ.js",
+          "bytes": 193471,
+          "sha256": "d566e4c918b09fc5bdc4f544bc03e02ab02b1a456fa7769c95d44ca45a76a338"
+        },
+        {
+          "name": "assets/FoundationPage-C6lw5feO.js",
+          "bytes": 301267,
+          "sha256": "8b18bfc66e7ce354c08a7c4910249725b11ef0f99798bd9a4372f5bb4f3dfe14"
+        }
+      ],
+      "totalJavaScriptBytes": 496095,
+      "sharedFullAppDataExcluded": true,
+      "mounts": [
+        "/",
+        "/somm100/"
+      ],
+      "limits": "Uncompressed JS bytes; excludes CSS/images. Not network timing, phone or deployment acceptance."
+    }
+  },
+  "browserAttempt": {
+    "status": "blocked-before-page-open",
+    "executable": "/usr/bin/chromium",
+    "runner": "Playwright",
+    "error": "FATAL:chrome/browser/process_singleton_posix.cc:297 Check failed: . socket() failed: Operation not permitted (1)",
+    "secondaryError": "ptrace: Operation not permitted (1)",
+    "networkOrSandboxBypassAttempted": false
+  },
+  "deployed": false,
+  "browserVerified": false
+}

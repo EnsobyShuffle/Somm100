@@ -57,7 +57,7 @@ try {
       assert.ok(article, `${unit.id}: active article`);
       if (unit.number !== 1) {
         assert.equal(document.activeElement, article, `${unit.id}: navigation moves focus to content`);
-        assert.deepEqual(scrollRequests.at(-1), {id:unit.id,behavior:'auto',block:'start'});
+        assert.deepEqual(scrollRequests.at(-1), {id:unit.id,behavior:'instant',block:'start'});
       }
       for (const field of ['learningObjective', 'preparation', 'practice']) {
         assert.ok(unit[field] && article.textContent.includes(unit[field]), `${unit.id}: ${field}`);

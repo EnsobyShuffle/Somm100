@@ -1,3 +1,29 @@
+# Foundation · 2026-11-07 · Complete page navigation and motion preference
+
+Base a8394a4329d1e0a656ae853f51053c37bf596886 on migration/tencent-somm100. Read migration/latest checkpoint/source map and current code; compared changed files against remote before commit. No new teaching-source or daily-schedule claims.
+
+- Replaced20 remaining direct scrollIntoView handlers in FoundationPage:12 section buttons and8 concept-directory links now reuse focusFoundationTarget. Destination focus moves with the requested scroll; concept links still preserve #foundation routing. Stable target IDs, article links, text, images, question data and records unchanged.
+- Corrected shared Foundation reduced-motion behavior from auto to instant. Global html CSS uses scroll-behavior:smooth; auto inherits that style and does not reliably mean immediate scrolling. Normal preference retains smooth. Tests assert instant explicitly and preserve tab order. This helper is only Foundation navigation; no paused course implementation altered.
+- Extended full-page integration assertions:all20 destinations receive actual DOM focus and explicit instant/start scroll requests under reduced motion. Existing53-unit integration now checks instant. Four quiz records still restore after complete-page remount.
+- Browser attempt: installed Playwright resolved through CommonJS (ESM bare-package resolution initially returned ERR_MODULE_NOT_FOUND). Chromium launch with default Playwright options failed before any page opened: process_singleton_posix.cc:297 socket() failed: Operation not permitted (1), secondary ptrace Operation not permitted. No environment permission escalation, profile/network bypass or repeat launch attempted. Real phone layout/scroll and cross-page browser acceptance remain blocked; jsdom is not browser acceptance.
+- PASS79 unit tests,53review units,142questions/143round trips,full-page8concepts/10links/20focus destinations,loading and focus-shell tests,CloudBase build159guidance fields/37markers,focus-entry dependency/hash checks.450files; full app entry ./assets/app-DSR1W_pk.js11818853bytes,SHA256758d61edb0bf2f849d827821af6c7be60d49b0a2ea40e564a3751ff3d8ea5e61. Focus complete JS closure496095bytes uncompressed,excludes CSS/images; no speed claim.
+- Evidence docs/qa/foundation-navigation-20261107.json. Runtime0.2 skill successfully read this round; environment_status tool not exposed. Netlify ignore exit0 preserved. No network/auth/billing/deploy action. Saved for guarded commit/readback; not deployed or browser/mobile accepted.
+
+| Area | Current content status |
+| --- | --- |
+| D1 | 10review units +25independent questions |
+| D2 / France | 9+6units +42independent questions |
+| D3 | 13units +30independent questions |
+| D4 | 15units +45independent questions |
+| D5 | Teaching/assessment allocation pending |
+| D6 | Cohort22 five classroom days; no invented sixth day |
+
+D1–D4 remain topic labels, not official daily assignments. Next: continue independently testable keyboard/record recovery work or refresh course-source gaps; retry browser only when environment capability changes. Exact blockers: current five-day source PPT/day mapping, current Chromium socket permission failure, usable Tencent session/deploy route (last login-required/CLI policy denial). This round made substantive code progress, so not fully blocked.
+
+Reproduce node --test tests/foundation*.test.mjs; node scripts/check-foundation-page.mjs; node scripts/check-foundation-rendering.mjs; node scripts/check-foundation-quiz-flow.mjs; node scripts/check-foundation-focus.mjs; node scripts/check-foundation-loading.mjs; npm run build:cloudbase; node scripts/check-foundation-entry.mjs. Focused dependency environment retained, not full frozen pnpm install.
+
+---
+
 # Foundation · 2026-11-07 · Same-origin focus entry
 
 Base326fb969db1f2600df8b5e8f8cbb876d7be79dd1 on migration/tencent-somm100. Read current migration/checkpoint/source map; verified remote originals before changes and concurrency before commit.

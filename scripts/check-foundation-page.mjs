@@ -7,7 +7,7 @@ const dom=new JSDOM('<!doctype html><div id="root"></div>',{url:'https://foundat
 globalThis.window=dom.window;globalThis.document=dom.window.document;
 globalThis.CustomEvent=dom.window.CustomEvent;globalThis.IS_REACT_ACT_ENVIRONMENT=true;
 const scrolls=[];
-window.HTMLElement.prototype.scrollIntoView=function(){scrolls.push(this.id);};
+window.HTMLElement.prototype.scrollIntoView=function(options){scrolls.push({id:this.id,...options});};
 window.matchMedia=()=>({matches:true});
 const {default:React,act}=await import('react');
 const {createRoot}=await import('react-dom/client');
@@ -27,10 +27,10 @@ try{
  assert.equal(top.querySelectorAll('button').length,targets.length);
  for(const [i,button] of [...top.querySelectorAll('button')].entries()){
    assert(document.getElementById(targets[i]));
-   await act(async()=>button.click());assert.equal(scrolls.at(-1),targets[i]);
+   await act(async()=>button.click());assert.deepEqual(scrolls.at(-1),{id:targets[i],behavior:'instant',block:'start'});assert.equal(document.activeElement.id,targets[i]);
  }
  for(const a of document.querySelectorAll('a[href^="#foundation-"]')){
-   await act(async()=>a.click());assert.equal(scrolls.at(-1),a.hash.slice(1));
+   await act(async()=>a.click());assert.deepEqual(scrolls.at(-1),{id:a.hash.slice(1),behavior:'instant',block:'start'});assert.equal(document.activeElement.id,a.hash.slice(1));
    assert.equal(window.location.hash,'#foundation','Concept navigation must not replace app route');
  }
  for(const label of ['← 选择课程','服务情境练习','葡萄酒练习']){
@@ -53,5 +53,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,originalArticleLinks:10,sectionDestinations:12,routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,originalArticleLinks:10,sectionDestinations:12,focusedDestinations:20,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

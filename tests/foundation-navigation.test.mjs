@@ -10,7 +10,7 @@ test('requested navigation focuses without an extra scroll and respects reduced 
  const f=fixture();
  assert.equal(focusFoundationTarget('target',f.doc,{matchMedia:q=>{assert.equal(q,'(prefers-reduced-motion: reduce)');return {matches:true}}}),true);
  assert.equal(f.attributes.get('tabindex'),'-1');
- assert.deepEqual(f.events,[['focus',{preventScroll:true}],['scroll',{behavior:'auto',block:'start'}]]);
+ assert.deepEqual(f.events,[['focus',{preventScroll:true}],['scroll',{behavior:'instant',block:'start'}]]);
 });
 test('normal navigation preserves existing tab order and works without matchMedia',()=>{
  const f=fixture('0');focusFoundationTarget('target',f.doc,{});
