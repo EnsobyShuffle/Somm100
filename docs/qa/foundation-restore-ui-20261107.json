@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-11-07T15:45:00+08:00",
+  "baseCommit": "c5476da612e55868132b872514529e3602610020",
+  "implementation": "FoundationBackup reports successful restore to its owning FoundationPage. Keyed FoundationContent remount rereads all local progress hooks; outer live status receives focus. Failure/stale preview does not invoke callback. Manual reload fallback remains for standalone backup component.",
+  "reproduction": {
+    "baseline": "Explicit restore wrote localStorage but d1 visible radio still selected old answer; actual assertion failed before implementation.",
+    "initialHarness": "Old Backup disables another upload after default restore; reproduction skipped that first restore to reach stale-answer assertion."
+  },
+  "sourceReads": [
+    {
+      "id": "40717d16de4c810c811dd8a1324066cd",
+      "title": "📋 SOMM100｜D1–D2 知识提要清单 V0.1",
+      "url": "https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd?pvs=204",
+      "pageLastEditedAt": "2026-10-28T19:59:13.165Z",
+      "verification": {
+        "state": "unverified"
+      }
+    },
+    {
+      "id": "40717d16de4c814ba288fa4ab63f2746",
+      "title": "🌱 SOMM100｜课前基础预习路径 V0.1",
+      "url": "https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746?pvs=204",
+      "pageLastEditedAt": "2026-10-28T20:04:42.242Z",
+      "verification": {
+        "state": "unverified"
+      }
+    },
+    {
+      "id": "40717d16de4c81ef9be0e1d6579a9592",
+      "title": "🎓 SOMM100｜全流程运营总控中心 V0.1",
+      "url": "https://app.notion.com/p/40717d16de4c81ef9be0e1d6579a9592?pvs=204",
+      "pageLastEditedAt": "2026-11-04T16:42:42.160Z",
+      "verification": {
+        "state": "unverified"
+      }
+    }
+  ],
+  "sourceFinding": "D1-D2 digest still leaves France classroom day unassigned. Pre-course remains 4/8-week routes and 31 readiness choices. Operations draft retains six-day placeholders and explicitly requires source PPT/current scheduling calibration; does not supersede cohort22 five-day evidence. No private source body copied or new official dates/day placement asserted.",
+  "validation": {
+    "unitTests": 79,
+    "reviewUnits": 53,
+    "quizQuestions": 142,
+    "quizReviewRoundTrips": 143,
+    "fullPage": {
+      "concepts": 8,
+      "links": 10,
+      "focusDestinations": 20
+    },
+    "focusAndLoading": "passed",
+    "restore": {
+      "invalidFileNoMutation": true,
+      "previewNoWrites": true,
+      "defaultConflictsKept": true,
+      "fourQuizAnswersRefreshed": true,
+      "sixChecklistAreasRefreshed": true,
+      "bridgeDayRefreshed": true,
+      "elevenImportedRecordsExact": true,
+      "postRestoreNavigationPreservesAnswers": true,
+      "stalePreviewNoWriteDownloadOrRemount": true,
+      "writeFailureRollbackNoRemount": true,
+      "liveStatusFocused": true
+    },
+    "normalization": "Existing progress readers omit false checklist entries when mounted; unchecked semantic state is preserved. Imported fixture with true checks compared exactly across all11 records."
+  },
+  "build": {
+    "files": 450,
+    "entry": "./assets/app-cZkE6yVP.js",
+    "entryBytes": 11818853,
+    "entrySha256": "a21eaa0a6fc6cb03da935a23a325285251feaf4443bb3c6aa38d32d1a5eed97e",
+    "guidanceFields": 159,
+    "markers": 37,
+    "focusJavaScriptBytes": 496637,
+    "relativeMountChecks": [
+      "/",
+      "/somm100/"
+    ]
+  },
+  "limits": [
+    "React/jsdom only; no real browser/mobile or actual download verification",
+    "Focused dependency environment; not full frozen pnpm install",
+    "No Tencent deployment or online acceptance; no cloud sync",
+    "Browser not retried: last current-environment Chromium socket() Operation not permitted; no capability change",
+    "No Netlify connections/check/deployment; ignore exit0 retained"
+  ],
+  "next": "Source PPT/day allocation; independently verify restore in a usable real browser, file downloads, focus/mobile layout and Tencent deployed commit when authorized route becomes available."
+}

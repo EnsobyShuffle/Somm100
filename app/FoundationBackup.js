@@ -7,7 +7,7 @@ function downloadBackup(backup,suffix=''){
   const a=document.createElement('a');a.href=url;a.download=`somm100-foundation${suffix}-${new Date().toISOString().slice(0,10)}.json`;
   document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
-export default function FoundationBackup(){
+export default function FoundationBackup({onRestored}={}){
   const [preview,setPreview]=useState(null),[replace,setReplace]=useState(false),[message,setMessage]=useState(''),[restored,setRestored]=useState(false),[reading,setReading]=useState(false);
   async function readFile(event){
     const file=event.target.files?.[0];event.target.value='';setPreview(null);setReplace(false);setMessage('');if(!file)return;
@@ -35,7 +35,8 @@ export default function FoundationBackup(){
           assertFoundationBackupSnapshot(window.localStorage,preview.snapshot);
           const before=createFoundationBackup(window.localStorage);downloadBackup(before,'-before-restore');
           const result=restoreFoundationBackup(window.localStorage,preview.backup,{replaceExisting:replace,expectedSnapshot:preview.snapshot});
-          setMessage(`已恢复 ${result.written} 组，保留／跳过 ${result.skipped} 组。请确认恢复前备份已下载，然后刷新读取课程进度。`);setRestored(true);
+          setMessage(`已恢复 ${result.written} 组，保留／跳过 ${result.skipped} 组。请确认恢复前备份已下载。`);setRestored(true);
+          onRestored?.(result);
         }catch(e){
           if(e.code==='FOUNDATION_PREVIEW_CHANGED'){
             setReplace(false);

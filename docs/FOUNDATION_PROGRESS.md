@@ -1,3 +1,30 @@
+# Foundation · 2026-11-07 · 恢复备份后立即重读课程记录
+
+基线 c5476da612e55868132b872514529e3602610020，分支 migration/tencent-somm100。先读 migration、上轮检查点与 source map，修改前逐字比较远端 FoundationPage、FoundationBackup、检查点，三者一致。本轮只改 Foundation 恢复流程。
+
+- 实际复现：显式替换备份已写入 localStorage，但已挂载 D1 自测仍显示旧选项；断言“restored answer must be visible immediately”失败。旧状态继续切题存在写回覆盖风险。最初测试先做默认恢复后无法再次上传，是旧 Backup 成功后锁定上传导致；改为先测显式替换后，复现上述独立问题。
+- 修复：FoundationBackup 仅成功恢复后回调父页面；FoundationPage 用新 key 重新挂载完整课程内容，让11组本机记录重新读取。成功提示留在外层并获得焦点。失败、旧预览冲突不重新挂载；独立使用 Backup 时保留手动刷新入口。未改记录键、题目ID、教材正文、讲师、图片或其他课程。
+- 新增 scripts/check-foundation-restore.mjs，真实 React/jsdom 上传事件覆盖：无效JSON不写入；预览不写入；默认保留冲突；显式替换后四套自测、六处自查和桥接学习日立即更新；继续切题不写回旧答案；预览后答题需重新确认；模拟第二组写入失败后回滚且不重新挂载；成功提示焦点。全部11组导入样本读回一致。原读取器挂载时会省略 false 自查项，未勾选含义不变；测试不把这种既有规范化误称记录丢失。
+- 本轮重新读取 Notion D1–D2清单40717d16de4c810c811dd8a1324066cd、预习路径40717d16de4c814ba288fa4ab63f2746及运营总控40717d16de4c81ef9be0e1d6579a9592。法国专题仍未精确归属课堂日；预习保留4/8周与31题。运营草稿仍有旧六天占位并明确要求原PPT/正式排期核实，不覆盖已记录第22期五天面授资料。未复制私有教材正文，也未新增未经核实的班期/费用/报名承诺。
+- 验证通过：79项单元测试、53复习单元渲染、142题/143复习往返、完整页面8概念/10原文链接/20焦点入口、专注页及加载失败恢复、新增备份UI测试、CloudBase生产构建及独立入口依赖/哈希检查。450文件；主入口 ./assets/app-cZkE6yVP.js，11818853字节，SHA256 a21eaa0a6fc6cb03da935a23a325285251feaf4443bb3c6aa38d32d1a5eed97e。专注页完整JS依赖496637字节（未压缩、不含CSS/图片，不代表实测速度）；159学习指导字段、37标记通过。
+- 证据 docs/qa/foundation-restore-ui-20261107.json。下载发起被测试桩替代，不能称真实文件已下载；jsdom不等于手机/真实浏览器验收。沿用本地聚焦依赖环境，不是完整冻结锁文件安装。
+- 已保存，准备受保护提交并读回；未部署，未获Henry验收。netlify.toml ignore = "exit 0"保留；无Netlify、收费、授权、域名或备案操作。当前学习记录仍只在本浏览器。
+
+| 范围 | 当前内容状态 |
+| --- | --- |
+| D1 | 10复习单元、25道独立自测 |
+| D2 | 9品种单元、42道独立自测；另6法国专题单元 |
+| D3 | 13复习单元、30道独立自测 |
+| D4 | 15复习单元、45道独立自测 |
+| D5 | 当前班期教学/考核分配待核 |
+| D6 | 第22期已有资料为五天面授，不虚构第六天 |
+
+D1–D4是知识分类，不是已核实的逐日安排。下一断点：结合来源缺口继续素材/课程阅读体验；有可用环境后实测恢复文件下载、手机焦点/布局及腾讯部署版本。精确外部阻塞：本期源PPT与逐日模块分配；上轮Chromium socket() failed: Operation not permitted (1)且无能力变化，本轮不重复启动；腾讯通路最后为控制台需登录/CLI策略拒绝，未重新授权或绕过。本轮有实质代码进展，不满足“连续两轮完全无进展”的暂停条件。
+
+复跑：node scripts/check-foundation-restore.mjs；node --test tests/foundation*.test.mjs；现有page/rendering/quiz-flow/focus/loading脚本；npm run build:cloudbase；node scripts/check-foundation-entry.mjs。
+
+---
+
 # Foundation · 2026-11-07 · Complete page navigation and motion preference
 
 Base a8394a4329d1e0a656ae853f51053c37bf596886 on migration/tencent-somm100. Read migration/latest checkpoint/source map and current code; compared changed files against remote before commit. No new teaching-source or daily-schedule claims.
