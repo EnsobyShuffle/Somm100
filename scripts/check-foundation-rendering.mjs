@@ -30,7 +30,9 @@ const expectedDiagramSources = {
   'foundation-d2-04': 2,
   'foundation-d3-04': 2,
   'foundation-d3-05': 2,
+  'foundation-d3-11': 3,
   'foundation-d4-04': 3,
+  'foundation-d4-06': 3,
   'foundation-d4-07': 3,
 };
 const container = document.getElementById('root');
@@ -131,6 +133,17 @@ try {
             link.protocol === 'https:' && link.hostname !== 'app.notion.com' &&
             link.target === '_blank' && link.relList.contains('noopener')));
           assert.deepEqual(links.map(link => [link.textContent, link.getAttribute('href')]), diagram.sources);
+        }
+        if (['foundation-d3-11', 'foundation-d4-06'].includes(unit.id)) {
+          const exercise = figure.querySelector('.foundation-diagram-exercise');
+          assert.ok(exercise.textContent.includes(diagram.exercise.prompt));
+          const details = exercise.querySelector('details');
+          assert.equal(details.open, false);
+          assert.ok(details.textContent.includes(diagram.exercise.answer));
+          const before = window.localStorage.getItem(key);
+          await act(async () => details.querySelector('summary').click());
+          assert.equal(details.open, true);
+          assert.equal(window.localStorage.getItem(key), before, 'Opening the diagram answer preserves progress');
         }
       }
       if (unit.number !== 1) {

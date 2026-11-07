@@ -1,3 +1,21 @@
+# Foundation · 2026-11-08 · 德国酒标与波特酒工艺练习
+
+基线 `c98571aff8554936d1ae4bf8eb2baf19b56599d0`，分支 `migration/tencent-somm100`。两个既有课堂复习单元新增真实酒款对照与可折叠答案。
+
+| 单元 | 新增教学 | 来源 |
+| --- | --- | --- |
+| D3-11 德国静止酒酒标 | Gauer 2024 Spätlese trocken 与 Schloss Johannisberg 2023 Grünlack Spätlese 分别提供干型标示和残糖证据。遮住两种证据后练习区分 Prädikat 和成酒甜度。Gauer 产品页未列残糖，Grünlack 技术表列 76.2 克／升。 | [Notion 单元](https://app.notion.com/p/40717d16de4c815985c2ca3ef6f63160)、[Gauer](https://www.weingut-gauer.de/shop/riesling-sp%C3%A4tlese-trocken)、[Grünlack 技术表](https://schloss-johannisberg.de/app/uploads/Gruenlack-Spaetlese-2023-de.pdf)、[DWI](https://www.winesofgermany.com/our-wine/quality-standards/quality-standard/449/pr%C3%A4dikate) |
+| D4-06 Port | 拆开加强时点和熟成路线。对照 Vintage、LBV 与 Taylor’s 10 Year Old Tawny，练习辨认采收年份和酒龄标示。 | [Notion 单元](https://app.notion.com/p/40717d16de4c81a4a01ef2e9c543b3ae)、[IVDP 工艺与风格](https://ivdp.pt/en/wines/port-wines/introduction/)、[IVDP 分类](https://www.ivdp.pt/en/wines/port-wines/special-categories)、[Taylor’s](https://www.taylor.pt/en/port-wine/10-year-old/10-year-old-tawny) |
+
+- `lib/foundation-diagrams.mjs` 通过原单元 ID 接入两张原创图。复用既有窄屏单列样式，增加可选的原生折叠练习。前端展示 6 条公开来源，Notion 作为后台追溯。稳定 ID、既有自测与浏览器学习记录键保留。
+- 重新读取产品蓝图、旧 Chapter 00、两节 Notion 教学来源及开班模板。Chapter 00 仍按历史原型处理，学员课前沿用 4 周／8 周导学。重读 Yichel 第 22 期报名文档的课程与报名页，确认每城五天面授。Notion 开班模板仍为草稿，缺原 WPS PPT 与当期确认课表。报名页继续采用既有资料。
+- 84/84 Foundation 回归、53 单元 React/jsdom、26 张图解及两个折叠答案通过。展开答案不改变本机进度。独立 HTML 预览在文件地址和模拟 HTTPS 下通过新单元切换、焦点、来源链接和折叠交互。上轮 Chromium 环境错误为 `socket() failed: Operation not permitted`，手机真机与线上验收待完成。
+- CloudBase 构建和专注入口检查通过，共 450 文件、159 个指引字段。主入口 `./assets/app-DHCKFNe0.js`，SHA256 `0360d0af6fc52c49a7c32d1341cb77bf088aa6f4c802a1bccfe3b9816eb36e06`。专注入口 JS 未压缩 524400 字节。腾讯本轮未部署。保留 `netlify.toml` 的 `ignore = "exit 0"` 和 `[skip netlify]`。
+- 课程状态为 D1 10 单元／25 题，D2 9 个品种单元＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题。D1–D4 按知识模块呈现。D5 当期教学与考核分配待核实。第 22 期无第六天面授。
+- 下一断点可从 D3-07 西班牙三产区读标及 D4-08 Madeira 熟成路径继续。逐日内容需原 WPS PPT 与确认课表，腾讯测试站更新需可用的已授权部署通路。
+
+---
+
 # Foundation · 2026-11-08 · D3/D4 产区与工艺对照
 
 基线 `14974dace0309f91f16209b67bb92eb8b2bc95f3`，分支 `migration/tencent-somm100`。本轮为四个既有复习单元接入原创图解与公开来源。
