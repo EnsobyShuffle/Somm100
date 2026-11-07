@@ -56,6 +56,24 @@ try {
       });
       const article = document.getElementById(unit.id);
       assert.ok(article, `${unit.id}: active article`);
+      const videoStudy = article.querySelector('.foundation-video-study');
+      const hasVideoStudy = ['foundation-d1-02', 'foundation-d1-07', 'foundation-d4-03'].includes(unit.id);
+      assert.equal(Boolean(videoStudy), hasVideoStudy, `${unit.id}: optional video placement`);
+      if (videoStudy) {
+        const heading = document.getElementById(videoStudy.getAttribute('aria-labelledby'));
+        assert.ok(heading && videoStudy.contains(heading));
+        const links = [...videoStudy.querySelectorAll('a')];
+        assert.equal(links.length, 2);
+        assert.ok(links.every(link => link.protocol === 'https:' && link.target === '_blank' && link.relList.contains('noopener')));
+        assert.match(links[1].textContent, /官方图文/);
+        assert.equal(videoStudy.querySelector('iframe, video, input'), null);
+        const answers = videoStudy.querySelector('details');
+        const before = window.localStorage.getItem(key);
+        assert.equal(answers.open, false);
+        await act(async () => answers.querySelector('summary').click());
+        assert.equal(answers.open, true);
+        assert.equal(window.localStorage.getItem(key), before, 'Opening observation answers does not change progress');
+      }
       if (unit.id === 'foundation-d1-10') {
         const examples = article.querySelector('[aria-labelledby="foundation-label-examples-title"]');
         assert.ok(examples, 'D1-10: public label examples appear in the review');

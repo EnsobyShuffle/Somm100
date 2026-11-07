@@ -1,3 +1,21 @@
+# Foundation · 2026-11-07 · 三节复习接入官方视频观察
+
+基线 `41a1a461093fc778620484d563f9a23e47d97a03`，分支 `migration/tencent-somm100`。
+
+| 单元 | 官方视频页 | 图文备选 |
+| --- | --- | --- |
+| D1-02 葡萄藤生长周期 | [BIVB 冬剪至采收前](https://www.bourgogne-wines.com/our-resources/media,3181,14293.html?args=Y29tcF9pZD0yMzA5JmFjdGlvbj1maWNoZV9tZWRpYSZpZD0zMTEmfA%3D%3D) | [葡萄藤年度周期](https://www.bourgogne-wines.com/winegrowers-and-expertise/bourgogne-vines/a-sup_the-lifecycle-of-the-vine/a-journey-through-time-the-lifecycle-of-the-vine,2525,9395.html) |
+| D1-07 果皮接触 | [香槟委员会采收与压榨](https://www.champagne.fr/en/find-out-more/mediaroom/champagne-multimedia-library/educational-clips-champagne-harvest-and-grape) | [香槟压榨图文](https://www.champagne.fr/en/about-champagne/how-champagne-is-made/pressing) |
+| D4-03 传统法 | [香槟委员会酿造视频](https://www.champagne.fr/en/find-out-more/mediaroom/champagne-multimedia-library/educational-clips-champagne-production) | [装瓶与二次发酵图文](https://www.champagne.fr/en/about-champagne/how-champagne-is-made/bottling-and-second-fermentation) |
+
+- `app/FoundationVideoStudy.js` 按原单元 ID 映射三组外链、原创中文观察任务与折叠答案。已有正文、自查、题目、品牌、讲师和课程照片保留。只加载本地页面文字和链接，媒体在原站播放。打开答案不计分，不更改本机进度。
+- 本轮重读 Notion D1–D2 清单（40717d16de4c810c811dd8a1324066cd）、课前路径（40717d16de4c814ba288fa4ab63f2746）和资源矩阵（40717d16de4c81c2910decdcecc94d7d）。矩阵中的四个历史 B 站短链（ZvypVHl、dInEREY、WRR1Qmp、5jdEnA7）均返回 URL not accessible via this tool。保留为待核来源。BIVB 官方媒体页明确有同株延时视频，直达 YouTube 返回 Error fetching，香槟委员会两页均可读取播放器入口，官方媒体目录有对应 MP4 条目。完整播放、字幕、手机和大陆可达性仍待核验。本轮未复制视频、私有教材或图像。
+- 84/84 Foundation 回归和 53 单元 React/jsdom 渲染通过。验证三个卡片的唯一归属、链接、图文备选、折叠及记录保持。CloudBase 构建和入口检查通过，共 450 文件、159 个学习指引字段。主入口 `./assets/app-DyL5k1BA.js`，SHA256 `bcd5adc48d4e0bbdcb21fbe730f0e6aaf80d4fa98a4be2f19386e52e86810179`。独立 HTML 以文件地址和模拟 HTTPS 启动均通过，核对新三节与已有 D1-10 酒标。原快速预览脚本曾在数据加载结束前选择单元，改为等待选择器可用后复核通过。
+- 课程状态：D1 10 单元／25 题，新增两组视频观察。D2 9 品种＋6 法国专题／42 题。D3 13 单元／30 题。D4 15 单元／45 题，新增一组视频观察。D5 教学与考核日分配待确认。D6 第22期无第六天面授。D1–D4 是知识模块，逐日课件仍需当期源 PPT 对应。
+- 下一断点：查证 D1-08 乳酸发酵与橡木桶的可公开来源，继续做视频手机实测及腾讯版本验收。腾讯上次访问仍见旧 Chapter 00，当前发布待可用部署通路。保留 `netlify.toml` 的 `ignore = "exit 0"` 和提交标签 `[skip netlify]`。
+
+---
+
 # Foundation · 2026-11-07 · D1-10 公开酒标对照练习
 
 基线 `ca346a227039fbdf61f4fa6d0aca1f21435a1288`，分支 `migration/tencent-somm100`。

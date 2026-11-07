@@ -5,6 +5,7 @@ import {emptyD2Progress, readD2Progress, writeD2Progress, d2UnitResult} from '..
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
 import FoundationQuizReturn from './FoundationQuizReturn.js';
 import FoundationDiagram from './FoundationDiagram.js';
+import FoundationVideoStudy from './FoundationVideoStudy.js';
 import './foundation-study.css';
 
 const h = React.createElement;
@@ -67,6 +68,7 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
       unit.preparation && h('p', null, h('strong', null, '学习准备　'), unit.preparation),
       unit.sections.map((section, i) => h('section', {key: i}, h('h4', null, section.heading), h('p', null, section.text))),
       h(FoundationDiagram, {unitId: unit.id}),
+      h(FoundationVideoStudy, {unitId: unit.id}),
       unit.practice && h('section', null,
         h('h4', null, '动手练习'),
         h('p', null, unit.practice),
