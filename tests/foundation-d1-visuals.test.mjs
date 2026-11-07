@@ -3,11 +3,11 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {foundationDiagrams,renderFoundationDiagram} from '../lib/foundation-diagrams.mjs';
 const data=JSON.parse(readFileSync(new URL('../data/foundation-d1.json',import.meta.url)));
-const ids=['foundation-d1-01','foundation-d1-02','foundation-d1-03'];
+const ids=['foundation-d1-01','foundation-d1-02','foundation-d1-03','foundation-d1-04','foundation-d1-08'];
 const h=(tag,props,...children)=>({tag,props:props||{},children:children.flat(Infinity).filter(x=>x!==null)});
 function nodes(tree){return typeof tree==='object'?[tree,...tree.children.flatMap(nodes)]:[]}
 function words(tree){return typeof tree==='object'?tree.children.map(words).join(' '):String(tree)}
-test('three new diagrams resolve existing stable lesson IDs and render labelled figures',()=>{
+test('five new diagrams resolve existing stable lesson IDs and render labelled figures',()=>{
  for(const id of ids){
   assert(data.units.some(unit=>unit.id===id));
   const figure=renderFoundationDiagram(h,id),all=nodes(figure);
@@ -43,3 +43,13 @@ test('every diagram uses the shared semantic renderer; D1 component already wire
  const source=readFileSync(new URL('../app/FoundationD1Review.js',import.meta.url),'utf8');
  assert(source.includes('h(FoundationDiagram, {unitId: unit.id})'));
 });
+
+ test('management and post-fermentation diagrams preserve choices rather than prescribe a universal recipe',()=>{
+ const management=foundationDiagrams['foundation-d1-04'],after=foundationDiagrams['foundation-d1-08'];
+ assert.equal(management.groups.flatMap(g=>g.nodes).length,6);
+ assert.match(management.note,/不是操作规程/);
+ assert.match(after.intro,/不是每瓶酒必须依次/);
+ assert.match(after.note,/酒泥接触不等于必须搅动/);
+ assert.match(after.note,/不等于使用橡木桶/);
+ assert.equal(after.groups.filter(g=>g.ordered).length,1);
+ });

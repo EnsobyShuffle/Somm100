@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-07",
+  "baseCommit": "e510f8aadf3a4d45379e4c60e13c3dac074f959d",
+  "branch": "migration/tencent-somm100",
+  "changes": [
+    "D1-04 vineyard management: six original concept nodes in two comparison groups",
+    "D1-08 MLF, lees/stirring and vessels/time: original diagram; optional processes explicitly distinguished",
+    "Real React DOM diagram captions, aria labels and all text verified across existing review components"
+  ],
+  "sources": [
+    {
+      "unit": "foundation-d1-04",
+      "url": "https://app.notion.com/p/40717d16de4c8143b199fb57a899a5f5",
+      "lastEdited": "2026-10-28T19:45:58.157Z",
+      "readThisRun": true
+    },
+    {
+      "unit": "foundation-d1-08",
+      "url": "https://app.notion.com/p/40717d16de4c81bca48fff8dbdb56587",
+      "lastEdited": "2026-10-28T19:46:44.360Z",
+      "readThisRun": true
+    }
+  ],
+  "rights": "Original condensed teaching diagrams, not copied private prose/images. Source read does not certify final teaching approval.",
+  "preserved": {
+    "priorDiagramObjects": 14,
+    "stableUnitIds": true,
+    "recordKeys": true,
+    "instructors": true,
+    "existingImages": true,
+    "otherCourses": true,
+    "netlifyIgnore": "exit 0"
+  },
+  "restoration": {
+    "archiveCommit": "e510f8aadf3a4d45379e4c60e13c3dac074f959d",
+    "gitBlobHashesVerified": 992,
+    "mismatches": 0,
+    "dependencies": "Focused Node24/React19.2.6/jsdom26.1.0/Vite8.0.13; not full frozen pnpm install"
+  },
+  "tests": {
+    "unitTests": {
+      "passed": 84,
+      "failed": 0
+    },
+    "rendering": {
+      "units": 53,
+      "diagrams": 16,
+      "d1": 9,
+      "d2": 5,
+      "france": 2
+    },
+    "cloudbaseBuild": {
+      "passed": true,
+      "files": 450,
+      "markers": 37,
+      "guidanceFields": 159,
+      "entry": "./assets/app-0yd1pHhc.js",
+      "entryBytes": 11818853,
+      "entrySha256": "33e69c9ab44dd4810031fd8cc0ac00aa61203584aacbe339e3f9ba03e535989f"
+    },
+    "focusEntry": {
+      "passed": true,
+      "totalJavaScriptBytes": 502156,
+      "excludes": "CSS/images; not measured loading speed"
+    },
+    "artifactWarnings": [
+      "Existing full app chunk remains 11.82 MB uncompressed; Vite chunk-size warning."
+    ]
+  },
+  "runErrorsResolved": [
+    "First batched restore exceeded command argument length; restored in smaller chunks.",
+    "Five test evidence fixtures absent from targeted restore; retrieved exact-head originals.",
+    "Test expansion accidentally introduced comma-expression bracket lookup; corrected before final 84 passing tests."
+  ],
+  "status": {
+    "saved": true,
+    "preparedForGuardedCommit": true,
+    "deployed": false,
+    "browserMobileAccepted": false,
+    "henryAccepted": false,
+    "accountCloudSync": false
+  },
+  "courseStatus": {
+    "D1": "10 review units,25 independent quiz questions,9 diagrams plus existing label practice",
+    "D2": "9 grape units +6 shared France units,42 independent questions",
+    "D3": "13 review units,30 independent questions",
+    "D4": "15 review units,45 independent questions",
+    "D5": "Current-cohort teaching/assessment allocation unconfirmed",
+    "D6": "Cohort22 source says five classroom days; no invented sixth day",
+    "qualification": "D1-D4 remain knowledge categories, not confirmed daily timetable"
+  },
+  "blockers": [
+    "Current-cohort source PPT and precise classroom-day allocation",
+    "Previous Chromium socket() failed: Operation not permitted (1); no capability change or retry this run",
+    "Last Tencent route status: console login required / CLI policy denial; no new authorization or bypass"
+  ],
+  "next": [
+    "Verify actual licensed label/media assets against source gap inventory; preserve existing images.",
+    "When browser environment changes, test diagrams at phone widths and real focus/scroll.",
+    "When authorized Tencent deployment route is usable, deploy tested artifact and independently verify served version."
+  ]
+}

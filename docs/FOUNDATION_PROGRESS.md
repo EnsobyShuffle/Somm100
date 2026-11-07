@@ -1,3 +1,29 @@
+# Foundation · 2026-11-07 · 葡萄园管理与酒泥图解、全站验证恢复
+
+基线 e510f8aadf3a4d45379e4c60e13c3dac074f959d；分支 migration/tencent-somm100。先读迁移说明、最新检查点和来源映射，提交前复核远端并发更新。
+
+- 重新读取 D1-04 葡萄园管理（40717d16de4c8143b199fb57a899a5f5）与 D1-08 酿造选择（40717d16de4c81bca48fff8dbdb56587）正文。新增两张原创语义 HTML 教学图解：六项葡萄园管理选择；苹果酸乳酸转化、酒泥接触/选择性搅动、容器/时间分组。明确非必经流水线，避免低产/有机=品质、接触酒泥=必须搅桶等误解。未搬运私有正文或图片。
+- lib/foundation-diagrams.mjs 通过既有 FoundationD1Review 按稳定单元 ID 自动接入。原14张图解逐对象一致，现16张；D1有9张。讲师、图片、教材数据、题目、记录键、其他课程不变。
+- 扩充 tests/foundation-d1-visuals.test.mjs；scripts/check-foundation-rendering.mjs 在真实 React DOM 中逐字检查全部16张图解、图题与 aria 标签，覆盖53个复习单元、导航焦点、原记录保留和重挂载。
+- 成功恢复本提交完整源码，992个文件逐一验证 Git blob SHA，无差异。安装聚焦验证依赖（React19.2.6/jsdom26.1.0/Vite8.0.13等），不是全量冻结锁文件安装。首轮定向恢复缺5个测试证据文件，已补齐；测试扩展的括号替换错误已修复。
+- 本轮通过84/84回归、53单元真实 React/jsdom、全部16图解、CloudBase完整生产构建、专注入口完整依赖与产物哈希检查。450构建文件，159指导字段，37标记。主入口 ./assets/app-0yd1pHhc.js，11818853字节，SHA256 33e69c9ab44dd4810031fd8cc0ac00aa61203584aacbe339e3f9ba03e535989f。专注入口完整JS依赖502156字节（未压缩，不含CSS/图片，不代表实测速度）。全App大包警告仍存在。
+- 证据 docs/qa/foundation-d1-management-lees-20261107.json。代码与检查点已保存，准备受保护提交并读回；未部署、未手机/真实浏览器验收、未获Henry验收。学习记录仍仅在本机浏览器。netlify.toml ignore="exit 0"保留，提交含[skip netlify]；没有旧Netlify、收费、授权、备案或域名操作。
+
+| 分类 | 当前内容 |
+| --- | --- |
+| D1 | 10复习单元、25独立自测、9张图解及原酒标练习 |
+| D2／法国 | 9+6复习单元、42独立自测 |
+| D3 | 13复习单元、30独立自测 |
+| D4 | 15复习单元、45独立自测 |
+| D5 | 本期教学/考核分配待核 |
+| D6 | 第22期五天面授，不增造第六天 |
+
+D1–D4仍是知识分类，逐日课表待正式来源确认。下一断点：核对真实酒标/媒体素材与使用权，继续资源缺口；具备浏览器能力后实测手机排版/焦点，具备腾讯通路后核实部署版本。精确阻塞：本期源PPT与课堂日分配；此前Chromium socket() failed: Operation not permitted (1)，无能力变化，本轮不重试；腾讯最后状态为需登录/CLI策略拒绝。本轮有实质增量，不满足连续两轮完全无进展的暂停条件。
+
+复跑：node --test tests/foundation*.test.mjs；node scripts/check-foundation-rendering.mjs；npm run build:cloudbase；node scripts/check-foundation-entry.mjs。
+
+---
+
 # Foundation · 2026-11-07 · D1前三单元原创图解与资源缺口核对
 
 基线 a5030bc6def15bc58f840cb12215bdd2af82913f；migration/tencent-somm100。已读取当前迁移说明、最新恢复备份检查点和来源映射，核对远端没有并发更新。没有回退旧main或旧Sites。

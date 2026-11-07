@@ -3,6 +3,7 @@
 // FOUNDATION_DOM_MODULE may identify an externally installed jsdom module URL.
 // CSS is ignored: this verifies real React DOM/effects/storage, NOT visual layout.
 import assert from 'node:assert/strict';
+import {foundationDiagrams} from '../lib/foundation-diagrams.mjs';
 import {register} from 'node:module';
 register('./foundation-render-loader.mjs', import.meta.url);
 const {JSDOM} = await import(process.env.FOUNDATION_DOM_MODULE || 'jsdom');
@@ -55,6 +56,15 @@ try {
       });
       const article = document.getElementById(unit.id);
       assert.ok(article, `${unit.id}: active article`);
+      const diagram=foundationDiagrams[unit.id];
+      if(diagram){
+        const figure=article.querySelector('figure.foundation-diagram');
+        assert.ok(figure, `${unit.id}: diagram mounted in real React DOM`);
+        assert.equal(figure.getAttribute('aria-labelledby'), `${unit.id}-diagram-title`);
+        for(const text of [diagram.title,diagram.intro,diagram.takeaway,diagram.note,...diagram.groups.flatMap(g=>[g.title,...g.nodes.flat()])]){
+          assert.ok(figure.textContent.includes(text), `${unit.id}: diagram text ${text}`);
+        }
+      }
       if (unit.number !== 1) {
         assert.equal(document.activeElement, article, `${unit.id}: navigation moves focus to content`);
         assert.deepEqual(scrollRequests.at(-1), {id:unit.id,behavior:'instant',block:'start'});
@@ -101,7 +111,7 @@ try {
     await act(async () => container.querySelector('article input[type=checkbox]').click());
     assert.equal(window.localStorage.getItem(key), '{invalid-json', `${area}: never overwrite unreadable records`);
     await act(async () => root.unmount());
-    results.push({area,units:expectedCount,ssr:true,dom:true,navigation:true,focus:true,recordPreservation:true,remount:true,corruptRecordProtection:true,missingGuidance:[]});
+    results.push({area,units:expectedCount,ssr:true,dom:true,navigation:true,focus:true,recordPreservation:true,remount:true,corruptRecordProtection:true,missingGuidance:[],diagramsVerified:data.units.filter(u=>foundationDiagrams[u.id]).length});
   }
   assert.deepEqual(diagnostics, [], 'No React warnings or errors');
   console.log(JSON.stringify({status:'PASS',scope:'React SSR and jsdom; no browser layout or online acceptance',
