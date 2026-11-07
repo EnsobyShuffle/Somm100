@@ -8,6 +8,7 @@ import {mappedReviewUnit} from '../lib/foundation-quiz.mjs';
 import FoundationQuizReturn from './FoundationQuizReturn.js';
 import FoundationDiagram from './FoundationDiagram.js';
 import FoundationVideoStudy from './FoundationVideoStudy.js';
+import FoundationCellarStudy from './FoundationCellarStudy.js';
 import FoundationLabelPractice from './FoundationLabelPractice.js';
 import './foundation-study.css';
 
@@ -71,6 +72,7 @@ export default function FoundationD1Review() {
       unit.sections.map((section, i) => h('section', {key: i}, h('h4', null, section.heading), h('p', null, section.text))),
       h(FoundationDiagram, {unitId: unit.id}),
       h(FoundationVideoStudy, {unitId: unit.id}),
+      unit.id === 'foundation-d1-08' ? h(FoundationCellarStudy) : null,
       unit.id === 'foundation-d1-10' ? h(FoundationLabelPractice) : null,
       unit.practice && h('section', null,
         h('h4', null, '动手练习'),

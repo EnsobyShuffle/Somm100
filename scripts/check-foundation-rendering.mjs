@@ -56,6 +56,20 @@ try {
       });
       const article = document.getElementById(unit.id);
       assert.ok(article, `${unit.id}: active article`);
+      const cellarStudy = article.querySelector('.foundation-cellar-study');
+      assert.equal(Boolean(cellarStudy), unit.id === 'foundation-d1-08');
+      if (cellarStudy) {
+        const links = [...cellarStudy.querySelectorAll('a')];
+        assert.deepEqual(links.map(link => new URL(link.href).hostname),
+          ['www.louismicheletfils.com', 'www.ridgewine.com', 'www.melkaestates.com']);
+        const before = window.localStorage.getItem(key);
+        const answers = cellarStudy.querySelector('details');
+        assert.equal(answers.open, false);
+        await act(async () => answers.querySelector('summary').click());
+        assert.equal(answers.open, true);
+        assert.match(answers.textContent, /搅动酒泥是另一个操作/);
+        assert.equal(window.localStorage.getItem(key), before, 'Cellar case review must not change progress');
+      }
       const videoStudy = article.querySelector('.foundation-video-study');
       const hasVideoStudy = ['foundation-d1-02', 'foundation-d1-07', 'foundation-d4-03'].includes(unit.id);
       assert.equal(Boolean(videoStudy), hasVideoStudy, `${unit.id}: optional video placement`);

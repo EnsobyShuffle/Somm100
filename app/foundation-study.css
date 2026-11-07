@@ -64,8 +64,9 @@
 @media(max-width:700px) { .foundation-diagram--rhone-comparison .foundation-diagram-groups { grid-template-columns:minmax(0,1fr); } }
 
 
-.foundation-label-practice, .foundation-video-study { margin:1.5rem 0; padding:1rem; border:1px solid #d8d4ca; border-radius:.5rem; }
-.foundation-video-study a { display:inline-block; padding:.35rem 0; text-decoration:underline; }
+.foundation-label-practice, .foundation-video-study, .foundation-cellar-study { margin:1.5rem 0; padding:1rem; border:1px solid #d8d4ca; border-radius:.5rem; }
+.foundation-video-study a, .foundation-cellar-study a { display:inline-block; padding:.35rem 0; text-decoration:underline; }
+.foundation-cellar-study li { margin:.65rem 0; overflow-wrap:anywhere; }
 .foundation-label-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
 .foundation-label-card { min-width:0; padding:1rem; text-align:center; background:#f8f5ee; border:1px solid #d8d4ca; border-radius:.5rem; overflow-wrap:anywhere; }
 .foundation-label-card h5, .foundation-label-practice > h5 { font-size:1rem; margin:.5rem 0; }

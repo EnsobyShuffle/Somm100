@@ -1,3 +1,17 @@
+# Foundation · 2026-11-08 · D1-08 酒庄工艺对照练习
+
+基线 `ceb20f19126c302c1597bad7beea9a02b0ad32d0`，分支 `migration/tencent-somm100`。
+
+- `app/FoundationCellarStudy.js` 在既有 D1-08 单元接入三款霞多丽的工艺资料、三道原创判断题和折叠答案。学员分开记录苹果酸乳酸转化、容器和酒泥接触。资料未写明的字段标「未说明」，尤其不能把带酒泥熟成等同于搅动酒泥。不同酒款的风格差异不能仅归因于一个变量。沿用原单元 ID、学习记录、课程品牌与图片。
+- [Louis Michel & Fils Chablis](https://www.louismicheletfils.com/en/chablis-et-petit-chablis)：自发苹果酸乳酸转化，不锈钢罐熟成 6–10 个月。[Ridge 2023 Estate Chardonnay](https://www.ridgewine.com/wines/2023-estate-chardonnay/)：桶内发酵、完成转化、带酒泥熟成 9 个月。[Melka 2023 Mekerra Chardonnay](https://www.melkaestates.com/wines/10_chardonnay)：桶内发酵、不做转化、中性法国橡木桶熟成 19 个月。Melka 页面同时收录旧年份，本练习仅采用 2023 段落。学生页只使用事实摘要和酒庄原文链接。
+- 重新核对产品蓝图、旧 Chapter 00、D1–D2 知识点清单、课前路径、资源矩阵及 D1-08 Notion 教学页（40717d16de4c81bca48fff8dbdb56587）。Chapter 00 仍标为早期原型。上轮乳酸发酵与橡木桶旧视频短链无法核实，保留为待查来源。未将技术资料标为已核实视频。
+- 第22期逐日教案在可访问 Library 检索中未找到。Notion 候选「单期开班模板与验收清单」40717d16de4c810aae7af56c0cb87a60 明确为草稿，讲师与 D1–D6 仍待确认，且原 WPS PPT 校准未完成。保留既有第22期每城五天面授及招生信息，以已有报名资料版本为依据。
+- 验证：84/84 Foundation 回归、53 单元 React/jsdom、CloudBase 构建与入口检查通过。新案例只出现在 D1-08，三个酒庄链接及折叠答案可用，展开不改进度。独立预览在文件 URL 和模拟 HTTPS 两种模式通过。生产构建 450 文件，159 指引字段，主入口 `./assets/app-Bfj8BZuo.js`，SHA256 `80a9df700b05d362f298d09fd6097ce2fd25e2ce614329320bd9eb5d009d9d17`。专注入口 JS 509258 字节。实际手机及线上验收待做。
+- 当前内容：D1 10 单元／25 题，新增三款案例。D2 9 品种＋6 法国专题／42 题。D3 13 单元／30 题。D4 15 单元／45 题。D5 教学与考核待当期分配。D6 当期无第六天面授。D1–D4 为知识模块，仍需逐日课件对应。
+- 下一断点：梳理 D2 尚未覆盖的葡萄品种图解与对照案例，继续核对第22期原 WPS PPT 和逐日安排。腾讯发布仍需可用的已授权部署通路，原 `netlify.toml` 的 `ignore = "exit 0"` 和提交标签 `[skip netlify]` 保留。
+
+---
+
 # Foundation · 2026-11-07 · 三节复习接入官方视频观察
 
 基线 `41a1a461093fc778620484d563f9a23e47d97a03`，分支 `migration/tencent-somm100`。
