@@ -1,3 +1,29 @@
+# Foundation · 2026-11-07 · D1前三单元原创图解与资源缺口核对
+
+基线 a5030bc6def15bc58f840cb12215bdd2af82913f；migration/tencent-somm100。已读取当前迁移说明、最新恢复备份检查点和来源映射，核对远端没有并发更新。没有回退旧main或旧Sites。
+
+- 重新读取Notion资源矩阵40717d16de4c81c2910decdcecc94d7d及D1-01/02/03三篇正式知识提要。另查八篇历史图文来源，正文有分组可见说明；不搬运其全文或图片，不把Notion归档验证当公开使用权或学生可访问证明。
+- 新增三张原创语义HTML教学示意，自动由现有FoundationD1Review→FoundationDiagram入口显示：葡萄四部分与酿造线索；休眠至采收七阶段；环境与成熟六组因素。沿用现有布局、稳定单元ID、已有正文/题目/图片/记录。所有原11张图解逐对象比对未变，现共14张。功能关系图不冒充植物解剖图；顺序图不指定月份，环境图不采用土壤=固定香气等公式。
+- 新增tests/foundation-d1-visuals.test.mjs：图解ID匹配、语义标签/全部文字可达、生长顺序、限制说明、无外部图像iframe/链接、现有组件接入。连同权威分支原D1记录测试，本轮10/10通过。数据与渲染函数在Node真实执行，但元素树使用注入构造器，不称React DOM或浏览器验收。
+- 证据及逐项D1缺口：docs/qa/foundation-d1-resources-20261107.json。D1-04葡萄园管理、D1-08酒泥/搅桶图解仍缺；酒标练习不等于真实酒标素材验收，视频播放/授权未确认。没有增加或承诺视频与外链可用。
+- 环境变化：原somm100-validation目录已不存在，首次exec返回No such file or directory。从/执行成功，Node24.22.1可用；在foundation-resource-review隔离目录从本轮远端原文件恢复必要依赖，未用旧foundation-source作为权威源码。完整源码与依赖未恢复，本轮未重跑生产构建、79项全量回归或手机测试，不能继承上轮通过状态称本轮已构建。
+- 已保存并准备受保护提交/读回；未部署、未获Henry验收。提交保留[skip netlify]，netlify.toml ignore exit0未改。没有旧Netlify、收费、授权或域名操作。
+
+| 分类 | 当前内容 |
+| --- | --- |
+| D1 | 10单元、25独立自测；本轮补前三节示意 |
+| D2／法国 | 9+6单元、42独立自测 |
+| D3 | 13单元、30独立自测 |
+| D4 | 15单元、45独立自测 |
+| D5 | 当前教学/考核分配待核 |
+| D6 | 第22期五天面授，不增造第六天 |
+
+D1–D4仍是知识分类，逐日课表未经确认。下一断点先恢复完整当前源码/构建依赖并跑图解整页渲染，再补D1-04/08等资源缺口。外部阻塞为当期源PPT与逐日分配、可用真实浏览器/手机、已授权腾讯部署通路。上一轮Chromium socket权限错误，本轮未重试。当前有实质内容与代码增量，不满足完全阻塞暂停条件。
+
+复跑 node --test tests/foundation-d1-visuals.test.mjs tests/foundation-d1.test.mjs；环境恢复后 npm run build:cloudbase 及 scripts/check-foundation-rendering.mjs。
+
+---
+
 # Foundation · 2026-11-07 · 恢复备份后立即重读课程记录
 
 基线 c5476da612e55868132b872514529e3602610020，分支 migration/tencent-somm100。先读 migration、上轮检查点与 source map，修改前逐字比较远端 FoundationPage、FoundationBackup、检查点，三者一致。本轮只改 Foundation 恢复流程。

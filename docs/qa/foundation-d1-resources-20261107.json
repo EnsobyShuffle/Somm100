@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-11-07",
+  "baseCommit": "a5030bc6def15bc58f840cb12215bdd2af82913f",
+  "scope": "D1 resource inventory and three original semantic teaching diagrams",
+  "sourceMatrix": {
+    "id": "40717d16de4c81c2910decdcecc94d7d",
+    "editedAt": "2026-10-28T20:02:10.684Z"
+  },
+  "lessonSources": [
+    {
+      "id": "40717d16de4c81d7bbd8fba68936ecab",
+      "editedAt": "2026-10-28T19:45:44.658Z"
+    },
+    {
+      "id": "40717d16de4c81cb9b72c529baeec3b4",
+      "editedAt": "2026-10-28T19:45:47.716Z"
+    },
+    {
+      "id": "40717d16de4c81b581a8d85b7ff77709",
+      "editedAt": "2026-10-28T19:45:51.079Z"
+    }
+  ],
+  "rightsFinding": "Eight archived article source pages inspected: group-visible notice present. No archived prose/images republished; no student video or original-article access claimed. Existing WeChat URLs unchanged.",
+  "inventory": [
+    {
+      "unitId": "foundation-d1-01",
+      "visual": "original-semantic-diagram-added",
+      "remaining": "Anatomical image/photo not supplied; new diagram only explains functions"
+    },
+    {
+      "unitId": "foundation-d1-02",
+      "visual": "original-semantic-diagram-added",
+      "remaining": "Video/real browser acceptance not established"
+    },
+    {
+      "unitId": "foundation-d1-03",
+      "visual": "original-semantic-diagram-added",
+      "remaining": "Video/real browser acceptance not established"
+    },
+    {
+      "unitId": "foundation-d1-04",
+      "visual": "no-shared-diagram",
+      "remaining": "Vineyard management visual and screened article selection"
+    },
+    {
+      "unitId": "foundation-d1-05",
+      "visual": "existing-semantic-diagram",
+      "remaining": "Video/real browser acceptance not established"
+    },
+    {
+      "unitId": "foundation-d1-06",
+      "visual": "existing-semantic-diagram",
+      "remaining": "Video/real browser acceptance not established"
+    },
+    {
+      "unitId": "foundation-d1-07",
+      "visual": "existing-semantic-diagram",
+      "remaining": "Video/real browser acceptance not established"
+    },
+    {
+      "unitId": "foundation-d1-08",
+      "visual": "no-shared-diagram",
+      "remaining": "Lees/batonnage visual and playable authorized video"
+    },
+    {
+      "unitId": "foundation-d1-09",
+      "visual": "existing-semantic-diagram",
+      "remaining": "Video/real browser acceptance not established"
+    },
+    {
+      "unitId": "foundation-d1-10",
+      "visual": "existing-label-practice-hook",
+      "remaining": "Real-label assets/rights and phone interaction acceptance remain separate"
+    }
+  ],
+  "validation": {
+    "nodeTestsPassed": 10,
+    "nodeTestsFailed": 0,
+    "previousDiagramsUnchanged": 11,
+    "totalDiagrams": 14,
+    "renderer": "Injected element-tree assertions, not React DOM/visual browser testing",
+    "integration": "Existing D1 component calls shared renderer with stable current unit ID; no component or storage changes",
+    "build": "not rerun",
+    "reason": "Prior somm100-validation directory absent; initial exec failed No such file or directory. Executor works from /. Fresh authoritative files retrieved for isolated targeted tests. Partial older foundation-source not used as implementation authority."
+  },
+  "next": "Restore full current checkout/dependencies and run build/rendering tests. Continue D1-04 management and D1-08 lees visual resource gaps; D2 remaining comparison aids. Current classroom allocation/actual downloads/phone/Tencent release still pending."
+}
