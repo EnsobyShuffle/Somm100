@@ -1,3 +1,22 @@
+# Foundation · 2026-11-08 · 补齐 D2 品种对照图
+
+基线 `80a6aca6f2ef36748f5b3fdfef9a91addda3efad`，分支 `migration/tencent-somm100`。
+
+| 单元 | 学员页面新增内容 | 来源 |
+| --- | --- | --- |
+| D2-03 长相思 | 对照 Sancerre 和 Marlborough 两款酒的共同柑橘线索、不同果香描述及工艺资料。Les Baronnes 技术页未指定年份。 | [Notion 教学页](https://app.notion.com/p/40717d16de4c8184af60d7e196274050)、[Henri Bourgeois 技术页](https://famillebourgeois-sancerre.com/wp-content/uploads/2021/06/Les-Baronnes-Sancerre-Blanc-EN.pdf)、[Cloudy Bay 2025](https://www.cloudybay.com/en-ww/our-wines/sauvignon-blanc-2025) |
+| D2-04 雷司令 | 对照 Dr. Loosen 同为 2024 年的两款酒，分别记录甜度和酸度。资料未提供两款可直接比较的残糖或总酸数字。 | [Notion 教学页](https://app.notion.com/p/40717d16de4c81adb621f27bf23fbf7e)、[Graacher trocken](https://drloosen.de/en/products/2024-graacher-riesling-trocken)、[Wehlener Sonnenuhr Kabinett](https://drloosen.de/en/products/dr-loosen-wehlener-sonnenurh-riesling-kabinett) |
+| D2-08 其他白葡萄 | 按品种整理代表产区与酒标别名，区分穆斯卡特品种家族和混酿关系。 | [Notion 教学页](https://app.notion.com/p/40717d16de4c818f8996f928d2485e4e) |
+| D2-09 其他红葡萄 | 按品种整理法国与其他产区的代表例，帮助区分品种、别名和地名。 | [Notion 教学页](https://app.notion.com/p/40717d16de4c81c8afd3e10a2584fed4) |
+
+- `lib/foundation-diagrams.mjs` 按原 ID 接入四张原创中文图解，D2 的 9 个品种单元均有图解。两组酒款案例展示四条公开原文链接。沿用窄屏单栏样式，`app/foundation-study.css` 增加来源链接样式。稳定 ID、练习及其本机记录键、讲师与课程图片保留。
+- 重新读取 [D1–D2 知识点清单](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd) 与 [课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。检索第22期逐日课表仍只有 [待确认的开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)。原 WPS PPT 与确认的教学、考核日分配仍缺。本轮采用已有报名资料核实的五天面授安排。
+- 84/84 Foundation 回归通过。`scripts/check-foundation-rendering.mjs` 核对 53 个 React/jsdom 单元、20 张图解、D2 9/9 及四条来源链接，原浏览器记录通过回归。CloudBase 构建和入口检查通过。450 个文件、159 个指引字段，主入口 `./assets/app-BIkYG57K.js`，SHA256 `9729353e7722ee0363927facf6533d839d99c1547ead5762d30dde75fefd3afb`。专注入口 JS 514674 字节（未压缩）。独立 HTML 在文件地址及模拟 HTTPS 下完成四个新单元切换和链接检查。手机真机及线上验收待做。
+- 当前内容 D1 10 单元／25 题，D2 9 品种＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题。D1–D4 为知识模块，待与当期逐日课件对应。D5 的教学与考核日分配待核实。第22期无 D6 面授。
+- 下一断点为 D3/D4 课堂复习中可公开核验的产区和工艺对照，以及第22期原 WPS PPT 和逐日对应。腾讯部署仍需可用的已授权通路。保留 `netlify.toml` 的 `ignore = "exit 0"` 和提交标签 `[skip netlify]`。
+
+---
+
 # Foundation · 2026-11-08 · D1-08 酒庄工艺对照练习
 
 基线 `ceb20f19126c302c1597bad7beea9a02b0ad32d0`，分支 `migration/tencent-somm100`。

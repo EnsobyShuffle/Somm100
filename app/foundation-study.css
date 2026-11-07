@@ -25,6 +25,8 @@
 .foundation-diagram { margin:1.5rem 0; padding:clamp(.85rem,3vw,1.5rem); background:#f8f5ee; border:1px solid #d8d4ca; border-radius:.75rem; color:#292d28; min-width:0; }
 .foundation-diagram figcaption { font-size:1.15rem; line-height:1.5; font-weight:700; }
 .foundation-diagram-intro { margin:.5rem 0 1.25rem; line-height:1.7; }
+.foundation-diagram-sources { padding-inline-start:1.25rem; }
+.foundation-diagram-sources a { display:inline-block; padding:.35rem 0; text-decoration:underline; overflow-wrap:anywhere; }
 .foundation-diagram-groups { display:grid; gap:1rem; }
 .foundation-diagram--grape-comparison .foundation-diagram-groups { grid-template-columns:repeat(2,minmax(0,1fr)); }
 @media (max-width:700px) {

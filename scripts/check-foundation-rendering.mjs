@@ -107,12 +107,20 @@ try {
         assert.equal(window.localStorage.getItem(key), before, 'Reading answers does not change progress');
       }
       const diagram=foundationDiagrams[unit.id];
+      if (area === 'd2') assert.ok(diagram, `${unit.id}: D2 unit has a comparison diagram`);
       if(diagram){
         const figure=article.querySelector('figure.foundation-diagram');
         assert.ok(figure, `${unit.id}: diagram mounted in real React DOM`);
         assert.equal(figure.getAttribute('aria-labelledby'), `${unit.id}-diagram-title`);
         for(const text of [diagram.title,diagram.intro,diagram.takeaway,diagram.note,...diagram.groups.flatMap(g=>[g.title,...g.nodes.flat()])]){
           assert.ok(figure.textContent.includes(text), `${unit.id}: diagram text ${text}`);
+        }
+        if (['foundation-d2-03', 'foundation-d2-04'].includes(unit.id)) {
+          const links = [...figure.querySelectorAll('.foundation-diagram-sources a')];
+          assert.equal(links.length, 2);
+          assert.ok(links.every(link =>
+            link.protocol === 'https:' && link.target === '_blank' && link.relList.contains('noopener')));
+          assert.deepEqual(links.map(link => [link.textContent, link.getAttribute('href')]), diagram.sources);
         }
       }
       if (unit.number !== 1) {
