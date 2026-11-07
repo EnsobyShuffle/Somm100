@@ -1,3 +1,31 @@
+# Foundation · 2026-11-07 · Extracted page and consolidated lazy module
+
+Base cb56f6260584d1f630874ec0aecc44894665bd2a on migration/tencent-somm100. Read migration,latest checkpoint,source map; fetched and compared LearningApp/checkpoint/test-loader originals with remote before edits. No new curriculum-source claim this engineering round.
+
+- Extracted the exact9678-character Foundation JSX body into app/FoundationPage.tsx; existing14 course children now static imports inside this lazy page. LearningApp keeps its original shell/account/navigation/hooks and FoundationLoadBoundary, with one lazy FoundationPage. No source/body/link/ID/quiz/record/instructor/image deletions or edits; preserved PageTitle markup and go callbacks. All other paused sections unchanged.
+- Full course becomes available together, preserving cross-review event destinations. Boundary still catches page load errors. This is a component isolation step, NOT a new URL, standalone boot, offline course or cloud sync.
+- New scripts/check-foundation-page.mjs mounts the complete page:8 concepts,10 original WeChat links,12 top destinations,concept links keeping #foundation,three parent route callbacks,cohort/backup presence,and four quiz records after page unmount/remount. Actual React/jsdom; scroll requests stubbed; no visual/network acceptance.
+- Test-only loader now uses installed Vite/Oxc for TS/TSX and resolves existing relative js/tsx/ts/mjs files. First full-page check failed because the old loader assumed every component was.js; FoundationSparklingPractice is.tsx. Corrected test loader, reran successfully; no product workaround introduced.
+- PASS77 unit tests,53 review units,142 questions/143 round trips,loading-error tests,new full-page test,CloudBase build,159 guidance fields and37 markers. Original page-body exact-match assertion passed. Evidence docs/qa/foundation-page-split-20261107.json.
+- Build445files,entry assets/index-B59aV_4c.js,12012344bytes,SHA25620562079089215bf4966b59e61fbaa1c55434b4e23d9d1302a9a505fa6cfa57a. Previous12028433bytes: reduction16089bytes (about0.13%). FoundationPage-DhGaHdig.js302722bytes,14 separate child imports consolidated. Fewer emitted files do not establish browser request counts or faster loading.
+- Standalone limitation explicitly verified: generated FoundationPage imports shared React/runtime bindings from the main index chunk. A direct Foundation boot still requires a deliberately separated runtime/shell entry; this commit does not bypass the12MB shared entry. No timing or significant performance gain claimed.
+- Netlify ignore exit0 preserved; no deployment,network/auth/billing actions. Runtime skill read; environment_status unavailable. Saved for guarded commit/readback; not deployed or online/mobile accepted. Node24/React19.2.6/jsdom26.1.0 and focused Vite8 dependency setup, not a frozen full-lockfile install.
+
+| Area | Content status |
+| --- | --- |
+| D1 | 10 review units +25 independent questions |
+| D2 / France | 9+6 units +42 independent questions |
+| D3 | 13 units +30 independent questions |
+| D4 | 15 units +45 independent questions |
+| D5 | Current teaching/assessment allocation pending |
+| D6 | Cohort22 five classroom days; no invented sixth day |
+
+D1–D4 are topic labels, not verified daily assignments. Next: evaluate explicit standalone Foundation bootstrap/shared runtime separation with full-shell return and same-origin records preserved. Do not blindly split paused modules. Blockers: current five-day source PPT/day mapping; browser/mobile validation (last socket Operation not permitted); usable Tencent session/deploy route (last login required/CLI policy denial). No repeated auth or bypass attempted.
+
+Reproduce: node scripts/check-foundation-page.mjs; node --test tests/foundation*.test.mjs; node scripts/check-foundation-rendering.mjs; node scripts/check-foundation-quiz-flow.mjs; node scripts/check-foundation-loading.mjs; npm run build:cloudbase. Optional write:false audit must match written entry hash.
+
+---
+
 # Foundation · 2026-11-07 · Entry clarity and bundle diagnosis
 
 Base 4d8c0a1544afe2f200477f37fae10326015cf27c on migration/tencent-somm100. Read current migration/checkpoint/source map/cohort data and compared modified source/checkpoint with remote; no concurrent head change at start.

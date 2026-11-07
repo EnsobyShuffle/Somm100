@@ -1,0 +1,162 @@
+{
+  "baseCommit": "cb56f6260584d1f630874ec0aecc44894665bd2a",
+  "pageBodyUnchanged": true,
+  "originalComponents": 14,
+  "pageIntegration": {
+    "status": "PASS",
+    "concepts": 8,
+    "originalArticleLinks": 10,
+    "sectionDestinations": 12,
+    "routeCallbacks": [
+      "courses",
+      "service",
+      "practice"
+    ],
+    "quizRecordsRestored": 4,
+    "limits": "jsdom only; no browser layout/network/deployment claim"
+  },
+  "unitTests": 77,
+  "reviewIntegration": {
+    "status": "PASS",
+    "scope": "React SSR and jsdom; no browser layout or online acceptance",
+    "results": [
+      {
+        "area": "d1",
+        "units": 10,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d2",
+        "units": 9,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "france",
+        "units": 6,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d3",
+        "units": 13,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      },
+      {
+        "area": "d4",
+        "units": 15,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": []
+      }
+    ],
+    "totalUnits": 53
+  },
+  "quizIntegration": {
+    "status": "PASS",
+    "scope": "real React/jsdom events; scroll stubbed; not phone or online acceptance",
+    "results": [
+      {
+        "day": 1,
+        "questions": 25,
+        "reviewRoundTrips": 25,
+        "answersPreserved": true,
+        "noAutomaticReviewCompletion": true,
+        "invalidReturnIgnored": true,
+        "questionNavigationFocus": true
+      },
+      {
+        "day": 2,
+        "questions": 42,
+        "reviewRoundTrips": 42,
+        "answersPreserved": true,
+        "noAutomaticReviewCompletion": true,
+        "invalidReturnIgnored": true,
+        "questionNavigationFocus": true
+      },
+      {
+        "day": 3,
+        "questions": 30,
+        "reviewRoundTrips": 31,
+        "answersPreserved": true,
+        "noAutomaticReviewCompletion": true,
+        "invalidReturnIgnored": true,
+        "questionNavigationFocus": true
+      },
+      {
+        "day": 4,
+        "questions": 45,
+        "reviewRoundTrips": 45,
+        "answersPreserved": true,
+        "noAutomaticReviewCompletion": true,
+        "invalidReturnIgnored": true,
+        "questionNavigationFocus": true
+      }
+    ],
+    "totalQuestions": 142,
+    "totalRoundTrips": 143
+  },
+  "loadingIntegration": {
+    "status": "PASS",
+    "checks": [
+      "pending status and back action",
+      "deferred lazy resolution",
+      "rejected lazy recovery and focus",
+      "explicit reload only",
+      "no cached import retry loop",
+      "local record unchanged",
+      "boundary remount recovery"
+    ],
+    "limitations": [
+      "jsdom; no real network or page reload",
+      "no browser layout or online deployment"
+    ]
+  },
+  "build": {
+    "files": 445,
+    "entry": "assets/index-B59aV_4c.js",
+    "entryBytes": 12012344,
+    "entrySha256": "20562079089215bf4966b59e61fbaa1c55434b4e23d9d1302a9a505fa6cfa57a",
+    "previousEntryBytes": 12028433,
+    "entryReductionBytes": 16089,
+    "foundationPage": "FoundationPage-DhGaHdig.js",
+    "foundationPageBytes": 302722,
+    "foundationPageSha256": "95b00708e3c9e56a05bfe9b4d926c42d31ef531bb5a15787bd3dbe43cc8828a0",
+    "guidanceFields": 159,
+    "markers": 37
+  },
+  "deployed": false,
+  "browserVerified": false,
+  "standaloneBootImplemented": false
+}
