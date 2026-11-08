@@ -30,11 +30,14 @@ const expectedDiagramSources = {
   'foundation-d2-04': 2,
   'foundation-d3-04': 2,
   'foundation-d3-05': 2,
+  'foundation-d3-07': 4,
   'foundation-d3-11': 3,
   'foundation-d4-04': 3,
   'foundation-d4-06': 3,
   'foundation-d4-07': 3,
+  'foundation-d4-08': 3,
 };
+const expectedDiagramExercises = new Set(['foundation-d3-07', 'foundation-d3-11', 'foundation-d4-06', 'foundation-d4-08']);
 const container = document.getElementById('root');
 const results = [];
 const diagnostics = [];
@@ -134,7 +137,7 @@ try {
             link.target === '_blank' && link.relList.contains('noopener')));
           assert.deepEqual(links.map(link => [link.textContent, link.getAttribute('href')]), diagram.sources);
         }
-        if (['foundation-d3-11', 'foundation-d4-06'].includes(unit.id)) {
+        if (expectedDiagramExercises.has(unit.id)) {
           const exercise = figure.querySelector('.foundation-diagram-exercise');
           assert.ok(exercise.textContent.includes(diagram.exercise.prompt));
           const details = exercise.querySelector('details');

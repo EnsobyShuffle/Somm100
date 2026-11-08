@@ -1,3 +1,20 @@
+# Foundation · 2026-11-08 · 西班牙读标与 Madeira 熟成
+
+基线 `e41d7038a81137e2937e1c4d7e8bce3ac342ecf8`，分支 `migration/tencent-somm100`。两节既有课堂复习新增真实酒款图解、书面练习与折叠答案。
+
+| 单元 | 新增内容 | 来源 |
+| --- | --- | --- |
+| D3-07 西班牙三产区 | 并列 Rioja 的 Marqués de Riscal Reserva 2020、Ribera del Duero 的 Emilio Moro Malleolus 2021 与 Priorat 的 Mas Martinet Camí Pesseroles，按品种、容器和已知时长读资料。Malleolus 技术表未列桶陈月数。Mas Martinet 的单品 URL 年份与页面标题不同，采用酒庄总目录支持的无年份工艺说明。 | [Notion 教学页](https://app.notion.com/p/40717d16de4c81de84f2c8a98135343f)、[Riscal 技术表](https://www.marquesderiscal.com/public/Attachment/2025/3/marqusderiscalreserva2020_eng.pdf)、[Malleolus 技术表](https://www.emiliomoro.com/wp-content/uploads/2025/02/TASTING_NOTES_BEM_ENG_MALLEOLUS-2021.pdf)、[Emilio Moro 术语](https://www.emiliomoro.com/en/frequently-asked-questions/)、[Mas Martinet](https://www.masmartinet.com/vins/) |
+| D4-08 Madeira | 对照 Blandy’s Duke of Clarence 的 Estufagem 与 5 Year Old Sercial 的 Canteiro。练习区分受控罐加热与温暖酒窖桶陈。两款都使用木桶，甜度各以原厂标示记录。 | [Notion 教学页](https://app.notion.com/p/40717d16de4c81b59baed7a52c76df94)、[Duke of Clarence 技术表](https://blandys.com/wp-content/uploads/2025/02/BLANDYS-3YO_DUKE-OF-CLARENCE.pdf)、[Sercial 技术表](https://blandys.com/wp-content/uploads/2025/02/Blandys-5YO-Sercial.pdf)、[IVBAM 工艺](https://vinhomadeira.com/o-vinho-madeira/vinificacao-e-envelhecimento) |
+
+- `lib/foundation-diagrams.mjs` 按原有单元 ID 接入两张原创图，复用折叠练习与窄屏单列样式。学员端显示 7 条公开来源链接。原课程、自测及本机学习记录键保留。
+- 重读蓝图、历史 Chapter 00、D1–D2 知识点清单、课前路径及两节教学页。重读第 22 期 Yichel 报名资料的第 6、7 页，每城五天面授。Library 检索未找到该期原 WPS PPT 或逐日教案。Notion [开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60) 仍标草稿。D1–D4 继续作为知识模块，D5 具体教学与考核分配待确认，当期无 D6 面授。
+- 84/84 Foundation 测试、53 单元 React/jsdom 渲染、28 张图解通过。`scripts/check-foundation-rendering.mjs` 验证七条公开链接及两题折叠答案，展开时保持进度。独立 HTML 在文件地址和模拟 HTTPS 通过章节切换、焦点与折叠验证。真机和线上未验收。
+- CloudBase 构建及专注入口检查通过。主入口 `./assets/app-DfRo3OMl.js`，SHA256 `9e38f36d00c23a53d2132921a06d7618dc9906a4e5cd63aabebf25862f658a12`，450 文件、159 个学习指引字段，专注入口 JS 未压缩 528457 字节。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+- 内容状态 D1 10 单元／25 题，D2 9 个品种单元＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题。下一断点可补 D3-09 葡萄牙产区读标，并把第 22 期已公布的考核范围单列为复习索引。逐日对应需当期确认课表及原 WPS PPT。腾讯本轮未部署，仍缺可用的已授权通路。
+
+---
+
 # Foundation · 2026-11-08 · 德国酒标与波特酒工艺练习
 
 基线 `c98571aff8554936d1ae4bf8eb2baf19b56599d0`，分支 `migration/tencent-somm100`。两个既有课堂复习单元新增真实酒款对照与可折叠答案。
