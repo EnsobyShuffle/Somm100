@@ -73,6 +73,21 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   </details>
   <p className="fine-print">这是课程复习用的原创练习。展开答案不会计分或改变学习进度。</p>
  </details>
+ <details id="foundation-assessment-blind">
+  <summary>盲品自练｜先记录证据，再给判断</summary>
+  <p>请同伴遮住酒标并编号。可先用一款酒练习，也可以直接做下面的文字题。</p>
+  <ol>
+   <li><strong>记观察</strong>　写下闻到的香气，分别记录甜度、酸度、酒体和适用的单宁感。拿不准的项目标为「待复核」。</li>
+   <li><strong>给判断</strong>　先给一个风格判断，用两条观察支持，再写一种仍说得通的解释。</li>
+   <li><strong>揭标复盘</strong>　把酒标或技术表能确认的内容写在另一栏，再改写一句下次能用的品鉴笔记。</li>
+  </ol>
+  <p><strong>文字练习</strong>　A 杯是浅金色白葡萄酒。甜感明显，酸度高，闻到杏干与蜂蜜。你能先判断什么？要分辨冰酒与贵腐甜酒，还需要查什么？</p>
+  <details>
+   <summary>展开参考分析</summary>
+   <p>可以先判断是甜型白葡萄酒，同时记录高酸和果香。杏干或蜂蜜可出现在不同甜酒中。揭标后查酒款名称及酿造资料，分别寻找藤上自然冻结和贵腐果筛选的证据，再决定哪种解释成立。</p>
+  </details>
+  <p className="fine-print">这是原创自练。正式考核的酒款、题型和评分以课程方通知为准。</p>
+ </details>
  <details id="foundation-assessment-team">
   <summary>团队酒单自练｜从两份草案到组内核对</summary>
   <p>先约定一个餐厅场景，写下菜单方向和客人常见需求。每位组员先提名一款酒，说明它在酒单上解决什么需求。</p>

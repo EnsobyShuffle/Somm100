@@ -39,8 +39,9 @@ const expectedDiagramSources = {
   'foundation-d4-06': 3,
   'foundation-d4-07': 3,
   'foundation-d4-08': 3,
+  'foundation-d4-10': 3,
 };
-const expectedDiagramExercises = new Set(['foundation-d3-07', 'foundation-d3-09', 'foundation-d3-11', 'foundation-d3-12', 'foundation-d3-13', 'foundation-d4-06', 'foundation-d4-08']);
+const expectedDiagramExercises = new Set(['foundation-d3-07', 'foundation-d3-09', 'foundation-d3-11', 'foundation-d3-12', 'foundation-d3-13', 'foundation-d4-06', 'foundation-d4-08', 'foundation-d4-10']);
 const container = document.getElementById('root');
 const results = [];
 const diagnostics = [];

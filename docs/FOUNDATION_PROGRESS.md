@@ -1,3 +1,16 @@
+# Foundation · 2026-11-08 · 北美读标与盲品自练
+
+基线 `5cc3068821dd55206a0594704d6184ab27d42634`，分支 `migration/tencent-somm100`。已读迁移检查点、上轮记录、当前 Foundation 入口及来源映射，并在写入前复查分支头。
+
+- **D4-10 北美读标**。原单元增加三款酒的对照图与折叠自查。纳帕 ARTEMIS 2022 区分酒标品种与技术表混酿比例，俄勒冈 Origine 35 2022 区分酒款名数字、采收年份和嵌套产地，安大略 Vidal Icewine 2023 区分产地、品种与藤上自然冻结的工艺。依据 [Notion 教学定位](https://app.notion.com/p/40717d16de4c81988e3ec639a461cb1b)、[ARTEMIS 原厂 PDF](https://www.stagsleapwinecellars.com/wp-content/uploads/2023/11/Stags_Leap_Factsheet__ARTEMIS_2022_FINAL.pdf)、[Origine 35 原厂 PDF](https://domainedrouhin.com/wp-content/uploads/2024/02/2022-Pinot-Noir-Origine-35.pdf)、[Vidal Icewine 酒庄技术表 PDF（经销商托管）](https://decante-vinhos.pt/wp-content/uploads/2025/10/2023-INN-NIA-NE-Vidal-Icewine.pdf)。Inniskillin 商品页跳转后无可读正文，Great Estates 镜像跳转返回 500，实际采用已读通的对应年份技术表。
+- **盲品自练**。在正式课程考核索引加原生折叠练习，按记观察、给判断、揭标复盘推进，提供可直接做的匿名文字题与折叠参考分析。示例比较冰酒和贵腐甜酒，要求用工艺资料复核判断。第22期招生资料第 7 页确认盲品列入考核，题例和步骤为原创自练。正式酒款、题型与评分待确认。复用原 D4 单元 ID，练习没有学习存储写入。
+- 重读产品蓝图、旧 Chapter 00、现行课前框架及 Guided Learning、D1–D2 知识提要和预习路径、Notion 开班模板与 [第22期招生资料第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)。旧章为历史原型，开班模板为草稿。第22期招生正文确认五天面授。D1 10 单元／25 题，D2 9 品种＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题。D1–D4 是复习模块，D5 教学及考核逐日分配待核实，第22期无 D6 面授。逐日对应仍缺当期确认课表、原 WPS PPT，当前来源未取得可核对的有道原件。
+- 本轮按 GitHub 当前提交恢复 Foundation 相关源码。84/84 Node 回归通过。定向检查通过，覆盖现有单元路由、32 张图解的总数、新图三组和三条 HTTPS 链接、答案默认折叠、盲品区位置及无存储写入。React/jsdom 脚本启动报 `ERR_MODULE_NOT_FOUND`（缺 Vite），整站构建预检报 `ENOENT`（局部检出的 `data/question-source-policy.json` 缺失），Chromium 启动报 `socket() failed: Operation not permitted`。现有独立预览仍为第 10 版。整站构建、手机真机和线上验收待做。
+- 腾讯本轮未部署。上一份迁移记录显示控制台会话未登录、CLI 网络政策限制，待可用的已授权腾讯部署通路。保留 `[skip netlify]` 与 `netlify.toml` 的 `ignore = "exit 0"`。
+- 下一断点为恢复完整分支工作副本与锁定构建依赖，重跑渲染和构建，更新独立预览。内容可继续 D4-11 南美读标，逐日课程按确认课表再落位。
+
+---
+
 # Foundation · 2026-11-08 · 希腊与匈牙利读标及团队酒单自练
 
 基线 `520280489b08ee0b5329add49bae2db68d3090fc`，分支 `migration/tencent-somm100`。核对工作副本与分支的 9 个关键文件，提交前复查分支头。
