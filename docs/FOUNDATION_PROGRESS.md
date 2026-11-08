@@ -1,3 +1,16 @@
+# Foundation · 2026-11-08 · D4 综合复盘入口
+
+基线 `a3ada441743f72640e813bdff9b34ef94f9b2926`，分支 `migration/tencent-somm100`。已读迁移检查点、上轮记录、当前 Foundation 入口、来源映射和 D4 内容，并复查分支头。
+
+- **D4 综合复盘**。在 D4 既有复习区加入 5 道原创书面案例和 8 个回看按钮。分别练习罐内与瓶内二次发酵的先后、甜型波特与冰酒的残糖线索、Fino 与马德拉的熟成条件、同年份同产区白诗南的工艺差异、滇西北多地块与云南／宁夏跨区混酿。案例复用第 4、6、7、8、10、13、14、15 节及其技术表。参考答案默认折叠。打开答案不写学习记录，回看只切换原复习位置。D4 既有 15 单元、45 道选择题、稳定 ID 和存储键保持原样。按钮沿用既有窄屏纵排样式。
+- 复核 [D3–D4 知识提要](https://app.notion.com/p/40717d16de4c817aaad6f3433f55df22)、[Prosecco DOC 协会](https://www.prosecco.wine/en/prosecco/discover/winemaking/)、[Cava 管理委员会](https://www.cava.wine/en/news-articles/cava-aging-the-cava-production-process/)、[IVDP 波特工艺](https://ivdp.pt/en/wines/port-wines/introduction/)、[雪莉委员会熟成说明](https://www.sherry.wine/sherry-wine/production/ageing)、[马德拉协会酿造说明](https://vinhomadeira.com/o-vinho-madeira/vinificacao-e-envelhecimento)及已有酒庄资料。Duke of Clarence 原厂直链本轮抓取失败，采用可读的[同份技术表副本](https://cdn.bottlebooks.me/570fa916b7edb7e055619771/Blandy_s_Duke_of_Clarence_Rich-Blandy_Duke_of_Clarence-1175.pdf)交叉核对，原单元来源仍可回查。
+- 重读产品蓝图、历史 Chapter 00、现行课前框架及 Guided Learning、D1–D2 提要和预习路径。重读[第 22 期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，确认五天面授。D1 10 单元／25 题，D2 9 品种＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题和 5 道书面复盘。D1–D4 是复习模块，D5 教学和考核的逐日安排待核对，当期无 D6 面授。Notion 和 Library 检索未取得当期确认课表、原 WPS PPT 或可核对的有道原件。
+- 84/84 Node 回归及定向组件结构和动作检查通过。定向检查用轻量 React 替身验证 5 道折叠答案、8 个合法回看动作、当前单元聚焦及旧作答保留。已扩展真实 React/jsdom 检查，但本轮运行报 `ERR_MODULE_NOT_FOUND`（Vite）。部分工作副本仍缺 `data/question-source-policy.json`。整站构建、真机与线上未验收，独立预览仍为第 10 版。
+- 腾讯未部署，仍缺可用的已授权部署通路。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+- 下一断点为 D1–D4 错题回看和综合复盘入口的实际手机流程验证。恢复完整检出及锁定依赖后，重跑整站构建和浏览器检查，再更新独立预览。逐日课堂内容仍等确认课表和原 WPS PPT。
+
+---
+
 # Foundation · 2026-11-08 · 南非读标与中国葡萄酒三节复习
 
 基线 `c7cc2d168e46211ab95fe72fd7a173575920cc9d`，分支 `migration/tencent-somm100`。已核对迁移检查点、Foundation 入口、来源映射及 8 个工作副本文件，并复查分支头。

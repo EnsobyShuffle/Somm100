@@ -73,6 +73,27 @@ try {
     let root = createRoot(container);
     await act(async () => root.render(React.createElement(Component)));
     assert.equal(document.activeElement, document.body, `${area}: loading never steals focus`);
+    const recap = container.querySelector('#foundation-d4-recap');
+    assert.equal(Boolean(recap), area === 'd4', 'Only D4 has the integrated recap');
+    if (recap) {
+      assert.equal(recap.open, false);
+      assert.equal(recap.querySelectorAll('ol > li').length, 5);
+      const answers = [...recap.querySelectorAll('details')];
+      assert.equal(answers.length, 5);
+      assert.ok(answers.every(answer => !answer.open));
+      const before = window.localStorage.getItem(key);
+      await act(async () => recap.querySelector('summary').click());
+      await act(async () => answers[0].querySelector('summary').click());
+      assert.equal(answers[0].open, true);
+      assert.equal(window.localStorage.getItem(key), before, 'Reading answers must not change progress');
+      const jump = recap.querySelector('button');
+      await act(async () => jump.click());
+      assert.equal(document.activeElement.id, 'foundation-d4-04');
+      assert.deepEqual(JSON.parse(window.localStorage.getItem(key)), {...JSON.parse(before), unit:4});
+      jump.focus();
+      await act(async () => jump.click());
+      assert.equal(document.activeElement.id, 'foundation-d4-04', 'Reopening the active unit must still focus it');
+    }
     for (const unit of data.units) {
       const select = container.querySelector('select');
       assert.ok(select && !select.disabled, `${unit.id}: effects enabled selection`);

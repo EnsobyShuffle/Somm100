@@ -9,7 +9,7 @@ import FoundationVideoStudy from './FoundationVideoStudy.js';
 import './foundation-study.css';
 
 const h = React.createElement;
-export default function FoundationRegionalReview({data, prefix, title, intro, storageKey}) {
+export default function FoundationRegionalReview({data, prefix, title, intro, storageKey, recap: Recap}) {
   const [progress, setProgress] = useState(emptyD2Progress);
   const navigationRequested = useRef(false);
   const [loaded, setLoaded] = useState(false);
@@ -57,6 +57,10 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
     h(FoundationQuizReturn,{prefix:prefix}),
     h('p', null, intro),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，各专题分别保存，不同步到账号或讲师端。'),
+    Recap && h(Recap, {disabled: !loaded, onReview: number => {
+      if (number === unit.number) focusFoundationTarget(unit.id);
+      else chooseUnit(number);
+    }}),
     error ? h('p', {role: 'alert'}, error) : null,
     h('div', {className: 'foundation-study-controls'},
       h('label', null, '选择复习单元', h('select', {value: unit.number, disabled: !loaded, onChange: e => chooseUnit(Number(e.target.value))},
