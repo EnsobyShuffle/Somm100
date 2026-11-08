@@ -2,7 +2,7 @@
 import assert from 'node:assert/strict';
 import {register} from 'node:module';
 register('./foundation-render-loader.mjs',import.meta.url);
-const {JSDOM}=await import('jsdom');
+const {JSDOM}=await import(process.env.FOUNDATION_DOM_MODULE || 'jsdom');
 const dom=new JSDOM('<!doctype html><div id="root"></div>',{url:'https://foundation-test.invalid/#foundation'});
 globalThis.window=dom.window;globalThis.document=dom.window.document;
 globalThis.CustomEvent=dom.window.CustomEvent;globalThis.IS_REACT_ACT_ENVIRONMENT=true;
@@ -39,6 +39,27 @@ try{
  }
  assert.deepEqual(routes,['courses','service','practice']);
  assert(document.getElementById('foundation-cohort-title'));
+ const cohort=document.querySelector('[aria-labelledby="foundation-cohort-title"]');
+ const cities=[...cohort.querySelectorAll('.foundation-cohort-city')];
+ assert.deepEqual(cities.map(card=>card.querySelector('h3').textContent), ['北京','上海','成都','深圳','广州']);
+ assert.deepEqual(cities.map(card=>card.querySelector('.foundation-cohort-instructor').textContent),
+   ['李晓龙 Xiaolong Li','张聪 Christian Zhang','胡映霞 Cassie Hu','吴耀亨 Henri Wu','薛维隆 Powell Xue']);
+ assert.deepEqual(cities.map(card=>[...card.querySelectorAll('time')].map(date=>date.dateTime)), [
+   ['2026-11-23','2026-11-24','2026-12-07','2026-12-08','2027-01-11'],
+   ['2026-11-26','2026-11-27','2026-12-10','2026-12-11','2027-01-12'],
+   ['2026-11-29','2026-11-30','2026-12-13','2026-12-14','2027-01-14'],
+   ['2026-12-02','2026-12-03','2026-12-16','2026-12-17','2027-01-18'],
+   ['2026-12-04','2026-12-05','2026-12-18','2026-12-19','2027-01-19'],
+ ]);
+ assert.deepEqual([...cohort.querySelectorAll('.foundation-cohort-tuition dd')].map(value=>value.textContent.replace(/[^0-9]/g,'')), ['6800','7800']);
+ const registration=cohort.querySelector('.foundation-cohort-registration');
+ assert.equal(registration.href,'https://forms.cloud.microsoft/r/hR8HQT3gXc?origin=lprLink');
+ assert.equal(registration.target,'_blank');
+ assert(registration.relList.contains('noopener'));
+ assert.equal(cohort.querySelector('form'),null,'Registration uses the verified external form');
+ await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看学费与报名').click());
+ assert.equal(document.activeElement.id,'foundation-registration-title');
+ assert.equal(window.location.hash,'#foundation');
  assert(document.getElementById('foundation-backup'));
  const saved=new Map();
  for(const day of [1,2,3,4]){

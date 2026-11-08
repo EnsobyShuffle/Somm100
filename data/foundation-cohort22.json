@@ -3,6 +3,13 @@
   "cohort": 22,
   "sourceLabel": "第22期课程招生资料（2026年11月4日版本）",
   "sourceUrl": "https://mp.weixin.qq.com/s/ry29Vvs8tSHyR3xgekgySg",
+  "registrationUrl": "https://forms.cloud.microsoft/r/hR8HQT3gXc?origin=lprLink",
+  "tuition": [
+    {"label": "五天面授", "amountCny": 6800},
+    {"label": "五天面授＋四天产区游学", "amountCny": 7800}
+  ],
+  "courseDesigner": "林志帆 Tommy Lam",
+  "courseAdvisor": "Brian Julyan MS",
   "classHours": "09:00–16:30",
   "teachingDays": 5,
   "fieldTrip": {
@@ -13,6 +20,8 @@
   "cities": [
     {
       "city": "北京",
+      "instructor": "李晓龙 Xiaolong Li",
+      "bio": "2024 年中国侍酒师大赛亚军。",
       "stages": [
         [
           "2026-11-23",
@@ -29,6 +38,8 @@
     },
     {
       "city": "上海",
+      "instructor": "张聪 Christian Zhang",
+      "bio": "2015 年中国侍酒师大赛冠军。",
       "stages": [
         [
           "2026-11-26",
@@ -45,6 +56,8 @@
     },
     {
       "city": "成都",
+      "instructor": "胡映霞 Cassie Hu",
+      "bio": "2018 年最佳法国酒侍酒师，2021 年最佳德国酒侍酒师。",
       "stages": [
         [
           "2026-11-29",
@@ -61,6 +74,8 @@
     },
     {
       "city": "深圳",
+      "instructor": "吴耀亨 Henri Wu",
+      "bio": "2023 年中国侍酒师大赛冠军。",
       "stages": [
         [
           "2026-12-02",
@@ -77,6 +92,8 @@
     },
     {
       "city": "广州",
+      "instructor": "薛维隆 Powell Xue",
+      "bio": "2024 年中国侍酒师大赛季军。",
       "stages": [
         [
           "2026-12-04",

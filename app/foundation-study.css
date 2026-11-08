@@ -22,6 +22,9 @@
 .foundation-cohort-city dl > div { margin:.7rem 0; }
 .foundation-cohort-city dt { font-weight:600; }
 .foundation-cohort-city dd { margin:.25rem 0 0; overflow-wrap:anywhere; }
+.foundation-cohort-tuition > div { display:flex; flex-wrap:wrap; justify-content:space-between; gap:.25rem 1rem; max-width:28rem; padding:.6rem 0; }
+.foundation-cohort-tuition dd { margin:0; font-weight:600; }
+.foundation-cohort-registration { display:inline-flex; align-items:center; min-height:44px; }
 
 .foundation-diagram { margin:1.5rem 0; padding:clamp(.85rem,3vw,1.5rem); background:#f8f5ee; border:1px solid #d8d4ca; border-radius:.75rem; color:#292d28; min-width:0; }
 .foundation-diagram figcaption { font-size:1.15rem; line-height:1.5; font-weight:700; }
