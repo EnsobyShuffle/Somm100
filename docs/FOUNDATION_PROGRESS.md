@@ -1,3 +1,16 @@
+# Foundation · 2026-11-08 · 澳新与南美读标
+
+基线 `5987ce975ad94d9242deb26a93b42bfc62fb236a`，分支 `migration/tencent-somm100`。已核对迁移检查点、Foundation 入口、来源映射及 8 个工作副本文件。上轮续跑记录将南美误写为 D4-11，本轮按源码和 Notion 教学页更正。D4-11 为澳大利亚与新西兰，D4-12 为智利与阿根廷。
+
+- **D4-11 澳新读标**。比较 Yalumba Barossa Shiraz 2022 和 Dog Point Sauvignon Blanc 2024，先区分产地、品种、系列，再从技术表查熟成容器及时间。案例同时存在品种、产地和年份差异，不能单独推出容器造成的感官差异。依据 [Notion 教学页](https://app.notion.com/p/40717d16de4c81bfb56bd2567d84b3ad)、[Yalumba 技术表](https://web-assets-prod.yalumba.com/2022-Yalumba-Samuels-Collection-Shiraz.pdf)、[Dog Point 技术表（经销商托管）](https://redwhitecellar.co.nz/wp-content/uploads/2024/12/TN-Dog-Point-Sauvignon-Blanc-2024.pdf)。
+- **D4-12 智利与阿根廷读标**。并列上迈坡谷、卡萨布兰卡谷和优克谷案例。Don Melchor 2022 自查题拆开 95% 成酒赤霞珠与 93% 葡萄园赤霞珠种植面积。Casas del Bosque 采用酒庄系列说明并提示复核年份。Catena 2022 提供 Paraje Altamira 和 100% 马尔贝克的对应。依据 [Notion 教学页](https://app.notion.com/p/40717d16de4c812e8595e90956d6121f)、[Don Melchor 技术表](https://donmelchor.com/wp-content/uploads/2025/01/TS-Don-Melchor-2022-ENG.pdf)、[Casas del Bosque 系列页](https://casasdelbosque.cl/en/content/80-pequenas)、[Catena 技术资料](https://catenazapata.com/appellation-paraje-altamira-2022/)。
+- 重读产品蓝图、历史 Chapter 00、现行课前框架、Guided Learning、D1–D2 提要和预习路径。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)列明五天面授。D1 10 单元／25 题，D2 9 品种＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题，为复习模块。D5 教学及考核逐日分配待核实，当期无 D6 面授。仍未取得当期确认课表、原 WPS PPT 或可核对的有道原件。
+- 复用原单元 ID 与图解组件，未改学习记录键。84/84 Node 回归及定向检查通过，覆盖现有章节对应、34 张图解的总数、两组案例的五条 HTTPS 来源和两个默认折叠答案。部分工作副本可读取远端 question-source-policy.json，完整检出及 Vite、React、jsdom 依赖仍缺，本轮未完成 React 渲染和整站构建。独立预览仍为第 10 版。手机真机与线上待验收。
+- 腾讯本轮未部署，仍缺已授权的部署通路。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+- 下一断点为 D4-13 南非读标。恢复完整分支工作副本和锁定依赖后，重跑整站构建、React 渲染与浏览器检查，再更新预览。
+
+---
+
 # Foundation · 2026-11-08 · 北美读标与盲品自练
 
 基线 `5cc3068821dd55206a0594704d6184ab27d42634`，分支 `migration/tencent-somm100`。已读迁移检查点、上轮记录、当前 Foundation 入口及来源映射，并在写入前复查分支头。
