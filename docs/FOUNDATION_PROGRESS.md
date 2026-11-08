@@ -1,3 +1,16 @@
+# Foundation · 2026-11-08 · 瓦豪读标与德奥雷司令口试自练
+
+基线 `d85e6699aa62fced6c5933e4b6037f2d32b4b919`，分支 `migration/tencent-somm100`。
+
+- **D3-12 瓦豪读标**。在 `lib/foundation-diagrams.mjs` 用 Domäne Wachau 同为 2025 年的 Grüner Veltliner Federspiel Terrassen 和 Riesling Smaragd Terrassen 对照。两款均为干型，均在不锈钢罐中发酵和熟成。练习区分品种、梯田来源、协会风格词与 Wachau DAC 产地制度。两款葡萄不同，不能用这一对案例把香气差异单独归因于风格标示。来源为 [Notion 教学定位](https://app.notion.com/p/40717d16de4c81aeb4c0dbc72a52e737)、[绿维特利纳技术表](https://www.domaene-wachau.at/wp-content/uploads/factsheets/71171/DW-GV-Federspiel-Terrassen-2025-dt.pdf)、[雷司令技术表](https://www.domaene-wachau.at/wp-content/uploads/factsheets/81491/DW-Riesling-Smaragd-Terrassen-2025-dt.pdf)、[Vinea Wachau](https://www.vinea-wachau.at/index.php?L=1&id=26)、[Wachau DAC](https://www.austrianwine.com/fileadmin/user_upload/PDF/PTs/Wachau_now_a_DAC_region.pdf)。
+- **考核复习索引**。`app/FoundationPage.tsx` 在正式课程区接入原创口试自练，结合原有 D3-11 的 Gauer 2024 Spätlese trocken 和本轮 D3-12 的瓦豪 Riesling，练习用约一分钟分别说明品种、产地与干甜线索，再展开参考回答。时间是练习提示，正式题型、时限和评分规则仍待通知。依据 [第22期招生资料](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal) 第 6–7 页确认口试列入范围和每城五天面授。保留课前边界、课程图片、讲师介绍、既有单元 ID 和本机学习记录键。
+- 重读产品蓝图、旧 Chapter 00、D1–D2 清单、课前路径、D3-12 教学页与 Notion [开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)。旧章仍为历史原型，模板为草稿。D1–D4 为知识模块。D5 的逐日教学和考核分配仍缺原 WPS PPT 与当期确认安排。第22期无 D6 面授。
+- 84/84 Foundation 回归、53 个 React/jsdom 单元、30 张图解及 CloudBase 构建通过。独立 HTML 通过文件地址、模拟 HTTPS 下的班期跳转、口试展开、D3-12 四条公开来源、焦点和答案展开检查。模拟 HTTPS 以预置 D3 记录验证查看答案保持进度。初轮烟雾检查误假定文件地址和空白预览都已有存储，按环境与测试数据修正后通过。手机真机与线上未验收。
+- 生产构建 450 文件、159 个学习指引字段，主入口 `./assets/app-CogqXCZd.js`，SHA256 `6ff042dfda28f0e73a14acf142a0649d5e583ccfb65dcf0ef211a539f643fcb1`，专注入口 JS 未压缩 535493 字节。腾讯本轮未部署，待可用已授权通路。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+- D1 10 单元／25 题，D2 9 品种＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题。下一断点可补独立的团队酒单准备练习与 D3-13 希腊及匈牙利读标。正式逐日对应需原 WPS PPT 和当期确认课表。
+
+---
+
 # Foundation · 2026-11-08 · 葡萄牙读标与第22期考核复习索引
 
 基线 `beeafcf11e2be5bcf7c34f0fa2978abdf1a81061`，分支 `migration/tencent-somm100`。

@@ -60,6 +60,19 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-title')}>复习工艺与世界产区</button>
  </div>
  <p className="fine-print">考核范围来自本页的第22期招生资料。复习索引按主题整理，具体日期、评分标准和提交方式以当期课程方通知为准。</p>
+ <details id="foundation-assessment-oral">
+  <summary>口试自练｜同为雷司令，怎样读出两瓶酒的区别？</summary>
+  <p>用约一分钟向同学解释这两款酒。先说共同品种，再分别说明两瓶的产地线索与干甜线索。这个时长供自练参考。</p>
+  <ul>
+   <li>德国案例（D3 第11节）　Gauer 2024 Riesling Spätlese trocken</li>
+   <li>奥地利案例（D3 第12节）　Domäne Wachau 2025 Riesling Smaragd Terrassen</li>
+  </ul>
+  <details>
+   <summary>展开参考回答</summary>
+   <p>两款都是雷司令。德国案例的 Spätlese 是 Prädikat，干型依据是 trocken。奥地利案例来自瓦豪，Smaragd 是 Vinea Wachau 的干型风格标示。想确认具体酒款的原产地标示或残糖数字，继续读酒标及技术表。</p>
+  </details>
+  <p className="fine-print">这是课程复习用的原创练习。展开答案不会计分或改变学习进度。</p>
+ </details>
  <div className="button-row">
   <button className="button secondary" onClick={()=>go('service')}>服务情境练习</button>
   <button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button>
