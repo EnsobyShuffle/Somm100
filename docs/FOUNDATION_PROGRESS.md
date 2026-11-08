@@ -1,3 +1,16 @@
+# Foundation · 2026-11-08 · 葡萄牙读标与第22期考核复习索引
+
+基线 `beeafcf11e2be5bcf7c34f0fa2978abdf1a81061`，分支 `migration/tencent-somm100`。
+
+- **D3-09 葡萄牙读标**。在 `lib/foundation-diagrams.mjs` 接入 Soalheiro Alvarinho Clássico 2024 与 Quinta do Crasto Crasto Tinto 2021 的对照，另用 IVDP 解释 Douro、Porto 两个原产地名称。Crasto 的 85% 与 15% 指熟成容器分配，技术表未给出葡萄比例。复用窄屏单列样式、稳定单元 ID 和折叠答案。来源为 [Notion 教学页](https://app.notion.com/p/40717d16de4c81d8b274fef925c61e78)、[Soalheiro 技术表](https://soalheiro.com/wp-content/uploads/2024/12/Techsheet-Soalheiro-Alvarinho-Classico-2024-1.pdf)、[Crasto 技术表](https://quintadocrasto.pt/wp-content/uploads/2016/02/Crasto_Tinto_2021_PT.pdf)、[IVDP 产地说明](https://www.ivdp.pt/en/wines/the-wines/)。
+- **第22期考核范围与复习索引**。依据重读的 [Yichel 招生资料第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，在 `app/FoundationPage.tsx` 正式课程区列出笔试、盲品、口试、餐酒搭配、侍酒实操及四类其他酒水，并独立列出 12 款杯卖酒与 40 款主酒单酒款的团队作业。四个入口跳至 D1–D4 的已有复习模块。`app/FoundationCohort.js` 提供班期到索引的跳转。索引按主题组织，具体日期、评分和提交方式待课程方通知。保留课程品牌、讲师、图片、自测与本机记录键。
+- 重读产品蓝图、已标为历史原型的 Chapter 00、D1–D2 提要及课前路径。第22期原 WPS PPT 与逐日安排仍未获得。[Notion 开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60) 仍为草稿；招生资料仅确认每城五天面授与考核范围。D1–D4 为知识模块。D5 的具体教学及考核分配待核对，第22期无 D6 面授。
+- 84/84 Foundation 回归、53 个 React/jsdom 单元、29 张图解与 CloudBase 构建通过。独立 HTML 在文件地址、模拟 HTTPS 均通过班期→考核索引→D1–D4 焦点导航和 D3-09 来源／折叠检查。原独立烟雾脚本曾在下拉未启用时提前检查，调整为等待可交互后两种模式均通过。真机、线上验收待做。
+- 生产构建 450 文件、159 个学习指引字段。主入口 `./assets/app-gQGopReO.js`，SHA256 `f1dc90eb90978c2017f1c3ef5cf6fef29b78cc8cc0382dbc6e00efedaff8060c`。专注入口 JS 未压缩 532280 字节。腾讯未部署，仍缺可用的已授权部署通路。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+- 当前 D1 10 单元／25 题、D2 9 品种＋6 法国专题／42 题、D3 13 单元／30 题、D4 15 单元／45 题。下一断点可从 D3-12 奥地利读标补真实酒款，继续按已经确认的考核项目整理练习材料。逐日课堂对应仍需原 WPS PPT 及当期确认课表。
+
+---
+
 # Foundation · 2026-11-08 · 西班牙读标与 Madeira 熟成
 
 基线 `e41d7038a81137e2937e1c4d7e8bce3ac342ecf8`，分支 `migration/tencent-somm100`。两节既有课堂复习新增真实酒款图解、书面练习与折叠答案。

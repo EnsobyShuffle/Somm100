@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import data from '../data/foundation-cohort22.json';
+import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import './foundation-study.css';
 const h = React.createElement;
 const dateLabel = date => date.replaceAll('-', '/');
@@ -9,6 +10,8 @@ export default function FoundationCohort() {
     h('h2', {id:'foundation-cohort-title'}, '第22期｜五城课程安排'),
     h('p', null, '本期为五天线下面授，分三个阶段进行；另有四天产区游学。每日面授时间：' + data.classHours + '。'),
     h('p', {className:'fine-print'}, '以下日期来自第22期招生资料，跨年日期已完整标明。临近开课请向课程方确认；班期日期不等同于逐日教学内容。'),
+    h('button', {type:'button', className:'button secondary', onClick:() => focusFoundationTarget('foundation-assessment-title')},
+      '查看考核范围与复习索引'),
     h('div', {className:'foundation-cohort-grid'}, data.cities.map(city =>
       h('article', {key:city.city, className:'foundation-cohort-city'},
         h('h3', null, city.city),

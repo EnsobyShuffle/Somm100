@@ -43,7 +43,28 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
 <section className="foundation-chapter" id="foundation-5" key="foundation-5"><span className="eyebrow">课前学习 · 6 / 8</span><h2>核心葡萄品种</h2><p>先认识 Chardonnay、Sauvignon Blanc、Riesling、Pinot Noir、Cabernet Sauvignon 和 Syrah；品种给出风格范围，不是固定答案。</p></section>
 <section className="foundation-chapter" id="foundation-6" key="foundation-6"><span className="eyebrow">课前学习 · 7 / 8</span><h2>葡萄酒来自哪里</h2><p>从国家、产区到葡萄园建立地理方向，认识法国主要产区；先理解环境和品种的联系。</p></section>
 <section className="foundation-chapter" id="foundation-7" key="foundation-7"><span className="eyebrow">课前学习 · 8 / 8</span><h2>怎么读懂一瓶酒</h2><p>从酒标寻找生产者、产地、年份、葡萄品种和酒精度。区分标签写明的信息与仍需核实的判断。</p></section>
-<FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/><section className="white-panel"><h2>进入正式课程之后</h2><p>将基础理解用于品鉴、服务、推荐与餐酒搭配。第22期为五天面授；逐日教学安排及对应学习资料仍在核对，尚未完整开放。</p><div className="button-row"><button className="button secondary" onClick={()=>go('service')}>服务情境练习</button><button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button></div></section></>);
+<FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
+<section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
+ <h2 id="foundation-course-title">进入正式课程之后</h2>
+ <p>将基础理解用于品鉴、服务、推荐与餐酒搭配。第22期为五天面授；逐日教学安排及对应学习资料仍在核对，尚未完整开放。</p>
+ <h3 id="foundation-assessment-title">第22期｜考核范围与复习索引</h3>
+ <ul>
+  <li><strong>考核项目</strong>　招生资料列出笔试、盲品、口试、餐酒搭配和侍酒服务实操，范围也包括烈酒、利口酒、清酒与白酒。</li>
+  <li><strong>团队酒单作业</strong>　设计 12 款杯卖酒及 40 款主酒单酒款。可先分开列清单，再与同组学员核对数量和选酒理由。</li>
+ </ul>
+ <p>葡萄酒部分可按主题回看已有复习单元。实操和其他酒类请结合讲师的当期课堂资料。</p>
+ <div className="button-row">
+  <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d1-title')}>复习葡萄酒基础</button>
+  <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d2-title')}>复习葡萄品种</button>
+  <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d3-title')}>复习欧洲产区</button>
+  <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-title')}>复习工艺与世界产区</button>
+ </div>
+ <p className="fine-print">考核范围来自本页的第22期招生资料。复习索引按主题整理，具体日期、评分标准和提交方式以当期课程方通知为准。</p>
+ <div className="button-row">
+  <button className="button secondary" onClick={()=>go('service')}>服务情境练习</button>
+  <button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button>
+ </div>
+</section></>);
 }
 
 function PageTitle({eyebrow,title,desc}:{eyebrow:string,title:string,desc:string}){return <div className="page-title"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{desc}</p></div>}
