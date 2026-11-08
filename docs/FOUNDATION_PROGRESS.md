@@ -1,3 +1,17 @@
+# Foundation · 2026-11-08 · 南非读标与中国葡萄酒三节复习
+
+基线 `c7cc2d168e46211ab95fe72fd7a173575920cc9d`，分支 `migration/tencent-somm100`。已核对迁移检查点、Foundation 入口、来源映射及 8 个工作副本文件，并复查分支头。
+
+- **D4-13 南非读标**。并列 Swartland Winery 与 KWV 的两款 Swartland 白诗南 2023，比较不锈钢罐发酵与桶中发酵，再用 Kanonkop Pinotage 2022 定位 Stellenbosch 的 Simonsberg。依据 [Notion 教学页](https://app.notion.com/p/40717d16de4c81459d06c16cfd370b38)、[Swartland Winery 技术表](https://www.swartlandwinery.co.za/wp-content/uploads/2019/08/Swartland-Winemakers-Collection-Chenin-Blanc-2023.pdf)、[KWV 技术表](https://kwv.co.za/wp-content/uploads/2025/09/DB21023_The-Mentors_Factsheet_Chenin-Blanc_2023_R1.pdf)、[Kanonkop 技术表](https://kanonkop.co.za/wp-content/uploads/2024/11/Pinotage-2022.pdf)。
+- **D4-14 中国产区定位**。加入宁夏贺兰山东麓、山东胶东半岛与滇西北三个定位练习，分别查越冬措施、海洋与降雨、葡萄园海拔。新图聚焦三处，原正文仍覆盖六个区域。依据 [Notion 教学页](https://app.notion.com/p/40717d16de4c814ab561dcaf2ffb89b2)、[CHANDON 宁夏酒庄资料](https://www.chandon.com/en-us/about-chandon-our-wineries.html)、[烟台主管部门胶东资料](https://ptjj.yantai.gov.cn/art/2020/12/17/art_1595_2879839.html)、[LVMH 敖云葡萄园资料](https://www.lvmh.com/en/our-maisons/wines-spirits/ao-yun)。宁夏水利厅备用页读取超时 400，宁夏工信厅备用页返回 405，实际采用可读的酒庄资料。
+- **D4-15 中国酒款查证**。对照敖云 2017 的多地块原料与奔富 CWT 521 2022 的跨区混酿。后者技术表列云南香格里拉赤霞珠 77%、宁夏马瑟兰 23%。选择基准酒款时先明确比较问题。依据 [Notion 教学页](https://app.notion.com/p/40717d16de4c8137896bd236453a996e)、[LVMH 敖云年份资料](https://www.lvmh.com/en/our-maisons/wines-spirits/ao-yun)、[奔富原厂技术表](https://www.penfolds.com/on/demandware.static/-/Sites-twe-master-catalog/default/dw52365610/tasting-notes/Penfolds/Penfolds%202024/2022%20CWT%20521%20Cabernet%20Sauvignon%20Tasting%20Notes.pdf)。
+- 重读产品蓝图、历史 Chapter 00、现行课前框架、Guided Learning、D1–D2 提要和预习路径。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)列明五天面授。D1 10 单元／25 题，D2 9 品种＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 题，均为复习模块。D5 教学及考核逐日分配待核实，当期无 D6 面授。仍缺确认课表、原 WPS PPT 与可核对的有道原件。
+- 复用原单元 ID、学习记录键及图解布局。84/84 Node 回归与定向渲染结构检查通过，覆盖 37 张图解的总数、本轮三道默认折叠答案及 8 个来源入口（7 个不同 HTTPS 链接）。当前部分工作副本仍缺 `data/question-source-policy.json` 与 Vite、React、jsdom。整站构建、真机和线上待验收，独立预览仍为第 10 版。
+- 腾讯未部署，仍缺可用的已授权部署通路。保留 `[skip netlify]` 与 `netlify.toml` 的 `ignore = "exit 0"`。
+- 下一断点为 D4 综合复习串联酒标证据、工艺和产区，优先补可验证的复盘入口。恢复完整检出与锁定依赖后重跑整站构建和浏览器检查，再更新预览。逐日课堂对应等确认课表及原 WPS PPT。
+
+---
+
 # Foundation · 2026-11-08 · 澳新与南美读标
 
 基线 `5987ce975ad94d9242deb26a93b42bfc62fb236a`，分支 `migration/tencent-somm100`。已核对迁移检查点、Foundation 入口、来源映射及 8 个工作副本文件。上轮续跑记录将南美误写为 D4-11，本轮按源码和 Notion 教学页更正。D4-11 为澳大利亚与新西兰，D4-12 为智利与阿根廷。
