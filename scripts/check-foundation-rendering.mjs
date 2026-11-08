@@ -257,8 +257,14 @@ try {
   const recap = document.getElementById('foundation-d4-recap');
   await clickButton(quiz, /^复习｜Prosecco/);
   assert.equal(document.activeElement.id, 'foundation-d4-04');
-  assert.equal(document.activeElement.previousElementSibling.tagName, 'BUTTON', 'Return action is adjacent to the lesson');
-  await act(async () => recap.querySelector('summary').click());
+  const lessonActions = document.activeElement.previousElementSibling;
+  assert.ok(lessonActions.querySelector('button[aria-controls="foundation-d4-recap"]'), 'Recap action is adjacent to the lesson');
+  assert.match(lessonActions.textContent, /返回 D4 自测第/);
+  const beforeRecap = window.localStorage.getItem('somm100.foundation.d4-review.v1');
+  await clickButton(lessonActions, /^回到 D4 综合复盘$/);
+  assert.equal(recap.open, true);
+  assert.equal(document.activeElement.id, 'foundation-d4-recap-title');
+  assert.equal(window.localStorage.getItem('somm100.foundation.d4-review.v1'), beforeRecap);
   await clickButton(recap, /回看第 10 节/);
   assert.equal(document.activeElement.id, 'foundation-d4-10');
   await clickButton(review, /^返回 D4 自测第/);

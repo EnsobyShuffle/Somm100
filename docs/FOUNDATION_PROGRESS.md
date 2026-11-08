@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · 完整构建恢复与 D4 复盘往返
+
+基线 `de1ffd1449f816fcf2cb9432e21183831b0daebb`，分支 `migration/tencent-somm100`。已读迁移检查点、上轮记录、来源映射与现有 Foundation 源码，复查分支头。通过现有网络通路完整检出权威分支，`pnpm 11.25.0 install --frozen-lockfile` 成功。上轮部分工作副本缺少的 Vite 与 `data/question-source-policy.json` 已在完整副本中恢复。
+
+- **D4 正文到复盘的往返**。正文前加入「回到 D4 综合复盘」。按下后打开既有复盘并定位到标题，学习者可选另一节，再返回发起复习的原题。打开复盘不写学习记录。既有题目、单元 ID、存储键、课程图片及品牌继续沿用。
+- **实际验证**。84/84 Node 回归、53 单元 React SSR/jsdom 渲染、D4 原题→章节→复盘→第 10 节→原题通过。断言展开复盘不改变复习记录，题目首次／最近答案保留。CloudBase 整站构建及专注入口检查通过，构建 450 个文件、159 个学习指引字段，入口 `./assets/app-BYJbdHM5.js` 的 SHA256 为 `5b11b1923b3adec03d428d107853356fa1b470570a81eeed8a789686f01d76fa`。更新的独立 HTML 预览已构建并在文件 URL 与模拟 HTTPS 中通过同一路径及内嵌品牌图检查。Chromium 启动报 `socket() failed: Operation not permitted`，物理手机、实际视口与线上验收仍待完成。
+- 重读 [产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、历史 Chapter 00、现行课前框架、Guided Learning、D1–D2 提要与预习路径，以及[第 22 期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)。D1 10 单元／25 题，D2 9 品种＋6 法国专题／42 题，D3 13 单元／30 题，D4 15 单元／45 道选择题＋5 道书面复盘。D1–D4 为复习模块。D5 教学和考核分配待核对。第 22 期五天面授，当期无 D6 面授。逐日课堂内容仍缺确认课表、原 WPS PPT 及可核对的有道原件。
+- 腾讯本轮未部署，待可用的已授权部署通路。保留 `[skip netlify]` 与 `netlify.toml` 的 `ignore = "exit 0"`。
+- 下一断点为在受支持的浏览器和物理手机验证窄屏焦点与原题往返，并在有可用腾讯部署通路后核对远端版本。以当期确认课表为准继续课堂对照。
+
+---
+
 # Foundation · 2026-11-08 · 自测与错题回看精准定位
 
 基线 `ea80ef05b587c13b273e6a514ecd0af4b411905f`，分支 `migration/tencent-somm100`。核对迁移检查点、上轮记录、来源映射、Foundation 入口及自测与复习源码。已复查分支头。手机样式以分支 CSS 为基线，只增加题块滚动间距的选择器。

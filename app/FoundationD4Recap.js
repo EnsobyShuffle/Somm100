@@ -35,9 +35,9 @@ const cases = [
 
 const h = React.createElement;
 
-export default function FoundationD4Recap({onReview, disabled}) {
-  return h('details', {id: 'foundation-d4-recap'},
-    h('summary', null, 'D4 综合复盘 · 5 个案例'),
+export default function FoundationD4Recap({id, onReview, disabled}) {
+  return h('details', {id},
+    h('summary', {id: id + '-title'}, 'D4 综合复盘 · 5 个案例'),
     h('p', null, '每题先写下酒标或资料能确认的信息，再写工艺或产区判断。用原复习单元的技术表核对。'),
     h('p', {className: 'fine-print'}, '书面作答请记在自己的笔记中。展开参考答案不计分。'),
     h('ol', null, cases.map(({title, prompt, answer, reviews}) =>
