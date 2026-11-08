@@ -73,6 +73,16 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   </details>
   <p className="fine-print">这是课程复习用的原创练习。展开答案不会计分或改变学习进度。</p>
  </details>
+ <details id="foundation-assessment-team">
+  <summary>团队酒单自练｜从两份草案到组内核对</summary>
+  <p>先约定一个餐厅场景，写下菜单方向和客人常见需求。每位组员先提名一款酒，说明它在酒单上解决什么需求。</p>
+  <ol>
+   <li><strong>分开起草</strong>　分别准备 12 款杯卖酒和 40 款主酒单酒款。先写清每组希望覆盖的风格，再挑酒款。</li>
+   <li><strong>逐款核实</strong>　记录生产者、酒款名、年份或无年份、产地与风格。每款补一句选酒理由，标出还需要核实的资料。</li>
+   <li><strong>交叉复核</strong>　交换草案，分别清点两份酒单，检查各自的重复项和风格缺口。请同学追问一款酒的选择理由，再据此修改。</li>
+  </ol>
+  <p className="fine-print">数量来自第22期招生资料。上述字段和复核步骤供自练，正式提交要求以课程方通知为准。</p>
+ </details>
  <div className="button-row">
   <button className="button secondary" onClick={()=>go('service')}>服务情境练习</button>
   <button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button>

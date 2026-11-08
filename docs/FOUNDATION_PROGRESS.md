@@ -1,3 +1,16 @@
+# Foundation · 2026-11-08 · 希腊与匈牙利读标及团队酒单自练
+
+基线 `520280489b08ee0b5329add49bae2db68d3090fc`，分支 `migration/tencent-somm100`。核对工作副本与分支的 9 个关键文件，提交前复查分支头。
+
+- **D3-13 希腊与匈牙利读标**。原单元接入三款酒的对照图及折叠答案。SantoWines Santorini Assyrtiko 2025 用于区分圣托里尼产地、阿西尔提科品种与篮式整枝。Disznókő 同庄的 Tokaji Dry Furmint 2025 和 Tokaji Aszú 5 Puttonyos 2019 用于区分产地、干甜与酿造线索。Aszú 技术表区分贵腐果粒和基酒的品种。两份酒庄产品页可能滚动到新年份，练习提示先核对瓶身年份。干型 Furmint 的独立技术表链接经跳转返回读取错误 500，采用可访问的酒庄正文。依据 [Notion 教学定位](https://app.notion.com/p/40717d16de4c81e38fcadf0fca5a0cf7)、[SantoWines 酒庄资料](https://usa.santowines.gr/products/santorini-assyrtiko)、[Disznókő 干型 Furmint](https://www.disznoko.hu/en/vin/34/disznok-tokaji-dry-furmint)、[Disznókő Aszú 技术表](https://www.disznoko.hu/pdf/vin/en/disznok-tokaji-aszu-5-puttonyos-2019-93.pdf)。
+- **团队酒单自练**。在正式课程考核索引增加可折叠练习，分开起草两份清单，逐款核实信息，再交换复核。12 款杯卖酒及 40 款主酒单来自 [第22期招生资料第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)。记录字段和复核步骤为原创练习建议，正式提交与评分要求待课程方确认。沿用既有 ID 和本机记录键。
+- 重读产品蓝图、旧 Chapter 00、D1–D2 提要、课前路径和开班模板。旧章为历史原型，开班模板为草稿。第22期招生正文确认五天面授。D1 为 10 单元／25 题，D2 为 9 品种＋6 法国专题／42 题，D3 为 13 单元／30 题，D4 为 15 单元／45 题，以上为复习模块。D5 的逐日教学及考核分配待核实，第22期无 D6 面授。
+- 84/84 Foundation 回归、53 个 React/jsdom 单元、31 张图解、CloudBase 构建及专注入口检查通过。新增图解已补齐通用图解所需的年份说明。独立 HTML 在文件地址及模拟 HTTPS 通过班期跳转、酒单展开、D3-13 焦点、三条外链及答案展开检查。模拟 HTTPS 使用预置记录验证展开酒单保留本机进度。手机真机和线上验收待做。
+- 构建共 450 文件、159 个学习指引字段。主入口 `./assets/app-C0E4T4VW.js`，SHA256 `32d033060d1b238032caea82b90d1ed966e0be48405f035ee450fce08e0d2a46`，专注入口 JS 未压缩 538844 字节。腾讯未部署，仍缺可用的已授权部署通路。提交保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+- 下一断点为 D4-10 真实酒款读标与正式课程区盲品自练。逐日课程对应仍需当期确认课表和原 WPS PPT。
+
+---
+
 # Foundation · 2026-11-08 · 瓦豪读标与德奥雷司令口试自练
 
 基线 `d85e6699aa62fced6c5933e4b6037f2d32b4b919`，分支 `migration/tencent-somm100`。
