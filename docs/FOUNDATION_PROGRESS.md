@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · 八个课前概念与口头自查
+
+基线 `e3ee75a39ac04ed06cca44f138708aea4fcb0322`，分支 `migration/tencent-somm100`。核对当前源码、腾讯迁移记录、来源映射和上轮检查点，并在提交前复查分支头。
+
+- **课前内容与页面**。八个概念各补一段原创例子、一题口头自查及可展开参考答案。从「本周要完成什么」按概念标题进入，在概念页可直接回到本周预习。目录、概念正文和练习由 `FoundationConcepts.tsx` 读取 `data/foundation-concepts.json`。保留八个既有概念 ID、十条公众号原始链接、现有班期／师资／报名、课前 4 周与 8 周路径以及学习记录。口头自查不写入进度。
+- **来源与链接实测**。重读 [产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、历史 Chapter 00、[现行课前框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[预习路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)及 [D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)。八题为原创课堂前练习，不含服务、销售、餐配或酒单任务。十条文章的 HTTPS 探测均收到 HTTP 200，但实际 HTML 标题为 `Site Unavailable`；不能据此确认原文正文可读或链接失效，保留源链接待微信客户端核验。未使用后台 Notion 归档代替学员外链。
+- **课表核对**。重读[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，确认五天面授。Notion 课表检索命中的[单期开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)及[运营总控](https://app.notion.com/p/40717d16de4c81ef9be0e1d6579a9592)是计划文件，未提供第22期确认版逐日安排。两份文件对课堂间桥接有两周和三周两种口径；现有 21 天页面作为自选学习资源，后续用当期安排核对展示。D1 10 节／25 道综合自测；D2 9 品种＋6 法国专题／42 道；D3 13 节／30 道＋4 个书面案例；D4 15 节／45 道＋5 个书面案例；D5 教学及考核分配待确认；第22期无 D6 面授。
+- **验证与保存**。84 项 Node 回归、53 单元 React 渲染、八节答案折叠与预习往返、链接逐条与来源映射核对、原有进度完整性检查通过。CloudBase 整站与专注入口构建通过，共 450 个文件，入口 `./assets/app-BK0WUGtm.js`，SHA256 `698ae63aec560602e63ae5fc1bd72bad534c899d1766a8d55bec8ee0e16085db`。独立预览第 14 版 721267 字节，在文件 URL 及模拟 HTTPS 的 jsdom 通过内容和导航检查。
+- **下一断点**。本轮未部署。腾讯仍待已授权的可用部署通路，手机实机及新版线上尚待验收；逐日内容待当期确认课表、WPS 原始课件和可核对的有道原件。保留 `[skip netlify]` 与 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · 第22期师资与报名入口
 
 基线 `67078c0f78ec63f47318a664bd7d8c7ba57a62c9`，分支 `migration/tencent-somm100`。读回迁移记录、上轮检查点、现有 Foundation 页面和来源映射，复查分支并发更新。

@@ -2,10 +2,12 @@
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import React, {useEffect, useState} from 'react';
 import data from '../data/foundation-study.json';
+import concepts from '../data/foundation-concepts.json';
 import {FOUNDATION_STORAGE_KEY, emptyFoundationProgress, normalizeFoundationProgress, recordFoundationAnswer, foundationWeekResult, foundationOptions} from '../lib/foundation-study.mjs';
 import './foundation-study.css';
 
 const h = React.createElement;
+const conceptTitles = Object.fromEntries(concepts.map(({id, title}) => [id, title]));
 function scrollToConcept(id) {
   focusFoundationTarget(id);
 }
@@ -60,7 +62,7 @@ export default function FoundationStudy() {
         h('p', null, week.goal),
         h('h4', {id: `${week.id}-digest`}, '先理解'),
         h('p', null, week.digest),
-        h('div', {className: 'button-row'}, week.concepts.map(id => h('button', {type: 'button', className: 'button secondary', key: id, onClick: () => scrollToConcept(id)}, `查看概念 ${Number(id.split('-')[1]) + 1} 与阅读资料`))),
+        h('div', {className: 'button-row'}, week.concepts.map(id => h('button', {type: 'button', className: 'button secondary', key: id, onClick: () => scrollToConcept(id)}, `阅读｜${conceptTitles[id]}`))),
         h('fieldset', null, h('legend', null, '知识点自查 · 理解后再勾选'),
           week.checks.map(check => h('label', {className: 'foundation-check', key: check.id},
             h('input', {type: 'checkbox', disabled: !loaded, checked: progress.checks[check.id] === true, onChange: e => {

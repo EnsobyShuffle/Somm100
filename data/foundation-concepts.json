@@ -1,0 +1,127 @@
+[
+  {
+    "id": "foundation-0",
+    "title": "学习葡萄酒之前",
+    "intro": "先建立关系：品种、产地、年份、种植与酿造共同影响一瓶酒。学习时先问为什么，再记名称。",
+    "example": "比较两瓶同品种的酒时，可以先记下产地、年份，再查酿造信息。酒标和技术资料给你线索。品尝前，先把尚未证实的判断写成问题。",
+    "question": "两瓶都写着 Chardonnay。一瓶有橡木香，另一瓶没有。你下一步会查什么？",
+    "answer": "先查各自的酿造与熟成资料，再记录产地和年份。橡木香可以提示查用桶情况，酒标上的品种名称本身无法说明是否用过桶。",
+    "articles": [
+      {
+        "title": "聊聊葡萄酒的学习",
+        "whyRead": "先调整学习方法，避免把学习变成名词记忆。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247483757&idx=1&sn=3b22e4054ad636522f33e6cb8539f06d&chksm=cf837ca1f8f4f5b78dc99251b4b934f3e9f936010eb82fad4742edd743fa0055b89e3cbfce31&scene=21#wechat_redirect"
+      },
+      {
+        "title": "葡萄酒学习的框架",
+        "whyRead": "把葡萄、地方、年份和酿造连成一张知识框架。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247483757&idx=2&sn=d8d2068a4f09dc9ec23d1c10fad7e16a&chksm=cf837ca1f8f4f5b7391670a7dd9e8adbd3e8ca714795aa9445130758c9fa79f76495694908d2&scene=21#wechat_redirect"
+      }
+    ]
+  },
+  {
+    "id": "foundation-1",
+    "title": "葡萄酒从哪里来",
+    "intro": "从葡萄树、生长环境、成熟、采收，到酿造、熟化和装瓶，先看懂整条路径。",
+    "example": "想象把同一批葡萄分成两份，一份留在果园继续成熟，另一份今天采下。第一份接下来还会受到天气影响，第二份已经进入酿造环节。要理解一瓶酒，可以从这里区分葡萄园与酒窖的作用。",
+    "question": "把成熟、采收、发酵、装瓶排成一条线。哪一步把葡萄园的工作接到酒窖？",
+    "answer": "成熟 → 采收 → 发酵 → 装瓶。采收把葡萄带进后续的酿造流程，采收时葡萄已有的糖、酸和其他成分也随之带进酒窖。",
+    "articles": []
+  },
+  {
+    "id": "foundation-2",
+    "title": "葡萄与葡萄园",
+    "intro": "认识果皮、果肉和籽，理解生长周期，以及温度、阳光、水分和人的管理如何影响成熟。",
+    "example": "切开一颗深色葡萄，观察果皮和果肉。再想象同一园的葡萄遇到不同年份的天气。果皮和果肉各自提供不同的成分，天气则会影响成熟的进程，采收时机要结合葡萄实际状态。",
+    "question": "如果想理解红酒的颜色和葡萄汁里的糖，该先观察葡萄的哪两个部分？",
+    "answer": "先观察果皮与果肉。大多数红葡萄的色素主要在果皮，果肉提供的葡萄汁含水、糖和酸。酿造时果皮接触也会影响颜色萃取。",
+    "articles": [
+      {
+        "title": "影响葡萄种植的因素",
+        "whyRead": "理解环境因素如何共同影响葡萄成熟。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484065&idx=2&sn=3151f02bfdb33b0155170f9fd10304e5&chksm=cf837f6df8f4f67bcf5f0893f37fc0f8b2a47b6b118c14b9d1889cf86c4d45c428411ecc130d&scene=21#wechat_redirect"
+      },
+      {
+        "title": "土壤",
+        "whyRead": "从排水、保水与根系环境理解土壤，不套用风味公式。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484065&idx=3&sn=19f13610cfad0acae1fb53972e487b9d&chksm=cf837f6df8f4f67b084fad3fe08a23f75a588a3c6e1c047b2cf8978fdd153c35c4fd477abe1f&scene=21#wechat_redirect"
+      },
+      {
+        "title": "葡萄的生长季节",
+        "whyRead": "按时间顺序认识葡萄树一年发生的变化。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484065&idx=4&sn=9f337f244ee142b2c973b1b81e0221f4&chksm=cf837f6df8f4f67b48f8edff273b5f7748014a2219d8329fda044091d97ea39fb16c7919d1ea&scene=21#wechat_redirect"
+      },
+      {
+        "title": "老藤、有机种植、生物动力法",
+        "whyRead": "认识种植者的选择，不把种植方式当成品质保证。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484065&idx=5&sn=4d3250cca6b9396704266b50ac5d5c81&chksm=cf837f6df8f4f67bdd6afe5961a6d8cde96b5995bdf4133a981bce0546f2043786a6084d0a62&scene=21#wechat_redirect"
+      },
+      {
+        "title": "解析一个葡萄",
+        "whyRead": "连接果皮、果肉与糖、酸、颜色和单宁。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484357&idx=1&sn=0aa169c8cadd41763f4d6e1224103b9a&chksm=cf837e09f8f4f71fce763e7d190490b260dd5daa330b8bf61f7750938730f03d33d33d2ce8df&scene=21#wechat_redirect"
+      }
+    ]
+  },
+  {
+    "id": "foundation-3",
+    "title": "葡萄怎么变成酒",
+    "intro": "理解酵母把糖转化为酒精，并比较红、白葡萄酒的果皮接触与压榨方式。再认识酒泥、橡木和熟化。",
+    "example": "发酵可以从一个简单问题开始：酵母消耗了什么，生成了什么？再比较两条路线：先把葡萄榨汁并分开果皮，或让果汁和果皮一起发酵。",
+    "question": "一批红葡萄很快被压榨并与果皮分开。和带皮发酵相比，哪一步会让颜色萃取减少？",
+    "answer": "较早把葡萄汁和果皮分开，缩短了接触时间，通常会减少从果皮萃取的颜色。之后的酒精发酵仍由酵母把糖转化为酒精和二氧化碳。",
+    "articles": [
+      {
+        "title": "红葡萄酒的酿造",
+        "whyRead": "看懂果皮接触、发酵和压榨的关系。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484357&idx=2&sn=caed74c69ec3cff5924f067218245675&chksm=cf837e09f8f4f71fea8fc4c616fc825b6f743160992c4c056ac53a6f9b48dfcfd7ac4c7ace9d&scene=21#wechat_redirect"
+      },
+      {
+        "title": "白葡萄酒的酿造",
+        "whyRead": "比较白葡萄酒与红葡萄酒的基本酿造流程。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484357&idx=4&sn=e80cbf08ad786abebbc8ca1463ddf73b&chksm=cf837e09f8f4f71f94375b3423e0f84a1450d1d662f48864025533f2a7ed4130b81f3c3ac200&scene=21#wechat_redirect"
+      },
+      {
+        "title": "橡木桶",
+        "whyRead": "理解橡木如何影响风格，而不是把过桶等同于高级。",
+        "url": "http://mp.weixin.qq.com/s?__biz=Mzg4Nzk3NTA3NQ==&mid=2247484357&idx=3&sn=a39a2911d24d51609cab0bdb4e5253bf&chksm=cf837e09f8f4f71ff813d63d94bb0f85ded75bc99f7e726b38a3af6c89712f05a1ee142ec027&scene=21#wechat_redirect"
+      }
+    ]
+  },
+  {
+    "id": "foundation-4",
+    "title": "为什么葡萄酒喝起来不一样",
+    "intro": "认识甜度、酸度、单宁、酒精、酒体与香气，把风格与前面的种植和酿造联系起来。",
+    "example": "记录风格时，可以把甜度、酸度和口腔里的干涩感分成三行。闻到成熟水果香时，先把它记在香气一栏，再分别观察甜感和酸度。",
+    "question": "一杯酒闻起来像熟桃，入口酸度明显。仅凭这两个线索能判断它是甜酒吗？",
+    "answer": "还需要判断入口的甜感，必要时核对酒款资料。熟桃是香气线索，酸度描述清爽或酸感，两项都无法单独确定甜度。",
+    "articles": []
+  },
+  {
+    "id": "foundation-5",
+    "title": "核心葡萄品种",
+    "intro": "先认识 Chardonnay、Sauvignon Blanc、Riesling、Pinot Noir、Cabernet Sauvignon 和 Syrah；品种给出风格范围，不是固定答案。",
+    "example": "用一张小卡记录品种、产地和喝到的风格。遇到另一瓶同品种的酒，就把它写在旁边比较。先说两款实际有哪些相同与不同，再查气候或酿造线索。",
+    "question": "两瓶 Riesling 一瓶干、一瓶甜。你会在品种卡上保留哪一项，又会分别查哪一项？",
+    "answer": "两瓶的葡萄品种都记作 Riesling。干甜分别从酒标、酒款资料或品尝确认。品种帮助你找到比较对象，具体风格还要看那瓶酒。",
+    "articles": []
+  },
+  {
+    "id": "foundation-6",
+    "title": "葡萄酒来自哪里",
+    "intro": "从国家、产区到葡萄园建立地理方向，认识法国主要产区；先理解环境和品种的联系。",
+    "example": "在地图上先圈出法国，再找到 Bordeaux。读到酒标上的产地时，先问它属于地图的哪一级，再查这个地名所对应的品种与酒款范围。",
+    "question": "酒标写了 Bordeaux。你现在能在地图上填哪两项？还有哪一项要从酒款资料查？",
+    "answer": "可以先填国家法国与产区 Bordeaux。具体葡萄品种、混酿比例或酒款风格，需要结合酒标其他信息和生产者资料。",
+    "articles": []
+  },
+  {
+    "id": "foundation-7",
+    "title": "怎么读懂一瓶酒",
+    "intro": "从酒标寻找生产者、产地、年份、葡萄品种和酒精度。区分标签写明的信息与仍需核实的判断。",
+    "example": "找一张手边的酒标，抄下你能读到的生产者、地名、年份或酒精度。把找不到的项目留空，并写下你会去哪里查。",
+    "question": "假设只看到「2022 · 13% vol.」，哪些信息可以直接记下？还缺哪些？",
+    "answer": "可以记录标出的年份 2022 和酒精度 13% vol.。这两项无法告诉你生产者、产区、品种或甜度，要继续看完整正背标或酒款资料。",
+    "articles": []
+  }
+]

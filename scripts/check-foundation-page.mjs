@@ -12,6 +12,8 @@ window.matchMedia=()=>({matches:true});
 const {default:React,act}=await import('react');
 const {createRoot}=await import('react-dom/client');
 const {default:Page}=await import('../app/FoundationPage.tsx');
+const {default:sourceMap}=await import('../data/foundation-source-map.json');
+const {FOUNDATION_STORAGE_KEY}=await import('../lib/foundation-study.mjs');
 const diagnostics=[],routes=[];const originalError=console.error;
 console.error=(...args)=>diagnostics.push(args.map(String).join(' '));
 const root=createRoot(document.getElementById('root'));
@@ -22,6 +24,31 @@ try{
  assert.deepEqual(chapters.map(x=>x.id),Array.from({length:8},(_,i)=>'foundation-'+i));
  const links=chapters.flatMap(x=>[...x.querySelectorAll('a')]);
  assert.equal(links.length,10);assert(links.every(x=>new URL(x.href).hostname==='mp.weixin.qq.com'));
+ assert.deepEqual(links.map(link=>[link.textContent,link.getAttribute('href'),link.nextElementSibling.textContent]),
+   sourceMap.articles.map(({title,url,whyRead})=>[`${title} ↗`,url,`为什么看：${whyRead}`]));
+ assert(links.every(link=>link.target==='_blank'&&link.relList.contains('noopener')));
+ const study=document.querySelector('[aria-labelledby="foundation-study-title"]');
+ const firstCheck=study.querySelector('input[type="checkbox"]');
+ await act(async()=>firstCheck.click());
+ const prepRecord=window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
+ assert(firstCheck.checked);
+ assert(prepRecord);
+ const firstConceptButton=[...study.querySelectorAll('button')].find(button=>button.textContent==='阅读｜学习葡萄酒之前');
+ assert(firstConceptButton);
+ await act(async()=>firstConceptButton.click());
+ assert.equal(document.activeElement.id,'foundation-0');
+ for(const chapter of chapters){
+   const details=chapter.querySelector('details');
+   assert.match(chapter.textContent,/口头自查/);
+   assert(details.querySelector('p').textContent.trim());
+   assert.equal(details.open,false);
+   await act(async()=>details.querySelector('summary').click());
+   assert.equal(details.open,true);
+   await act(async()=>chapter.querySelector('button').click());
+   assert.equal(document.activeElement.id,'foundation-study-title');
+   assert.equal(window.location.hash,'#foundation');
+   assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
+ }
  const top=document.querySelector('.button-row');
  const targets=['foundation-study-title','foundation-bridge-title','foundation-d1-title','foundation-d1-quiz-title','foundation-d2-title','foundation-d2-quiz-title','foundation-france-title','foundation-d3-title','foundation-d3-quiz-title','foundation-d4-title','foundation-d4-quiz-title','foundation-sparkling-title'];
  assert.equal(top.querySelectorAll('button').length,targets.length);
@@ -74,5 +101,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,originalArticleLinks:10,sectionDestinations:12,focusedDestinations:20,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:12,focusedDestinations:20,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}
