@@ -20,16 +20,6 @@ export default function FoundationD1Review() {
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
   useEffect(() => {
-    function openReview(event) {
-      const target = mappedReviewUnit(data, 'foundation-d1', event.detail);
-      if (!target) return;
-      setProgress(p => ({...p, unit:target.number}));
-      window.requestAnimationFrame(() => focusFoundationTarget('foundation-d1-title'));
-    }
-    window.addEventListener('foundation-open-review', openReview);
-    return () => window.removeEventListener('foundation-open-review', openReview);
-  }, []);
-  useEffect(() => {
     // Accessing window.localStorage itself can throw in restricted browsers.
     let result;
     try { result = readD1Progress(window.localStorage, data); }
@@ -46,6 +36,20 @@ export default function FoundationD1Review() {
   const result = d1UnitResult(unit, progress);
   const reviewed = data.units.filter(u => d1UnitResult(u, progress).reviewed).length;
   useEffect(() => {
+    function openReview(event) {
+      const target = mappedReviewUnit(data, 'foundation-d1', event.detail);
+      if (!target) return;
+      if (target.id === unit.id) {
+        focusFoundationTarget(unit.id);
+        return;
+      }
+      navigationRequested.current = true;
+      setProgress(p => ({...p, unit: target.number}));
+    }
+    window.addEventListener('foundation-open-review', openReview);
+    return () => window.removeEventListener('foundation-open-review', openReview);
+  }, [unit.id]);
+  useEffect(() => {
     if (!navigationRequested.current) return;
     navigationRequested.current = false;
     focusFoundationTarget(unit.id);
@@ -57,7 +61,6 @@ export default function FoundationD1Review() {
   }
   return h('section', {className: 'white-panel foundation-study', id: 'foundation-d1-review', 'aria-labelledby': 'foundation-d1-title'},
     h('h2', {id: 'foundation-d1-title'}, 'D1｜课堂后复习'),
-    h(FoundationQuizReturn,{prefix:'foundation-d1'}),
     h('p', null, '先重建课堂知识，再检查理解。本区供 D1 后复习使用，与上方课前预习分开；不是完整课堂课表，也不代表已完成课堂出勤或课程考核。'),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，独立于课前记录，不同步到账号或讲师端。'),
     error ? h('p', {role: 'alert'}, error) : null,
@@ -65,6 +68,7 @@ export default function FoundationD1Review() {
       h('label', null, '选择复习单元', h('select', {value: unit.number, disabled: !loaded, onChange: e => chooseUnit(Number(e.target.value))},
         data.units.map(u => h('option', {key: u.id, value: u.number}, `${u.number}. ${u.title}`))))),
     h('p', {role: 'status'}, `已复习 ${reviewed} / ${data.units.length} 节；本节自查 ${result.checked} / ${unit.checks.length}，选择题作答 ${result.answered} / ${unit.questions.length}。`),
+    h(FoundationQuizReturn,{prefix:'foundation-d1'}),
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
       unit.learningObjective && h('p', null, h('strong', null, '学习目标　'), unit.learningObjective),

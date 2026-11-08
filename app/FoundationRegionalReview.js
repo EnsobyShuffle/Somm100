@@ -3,6 +3,7 @@ import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import React, {useEffect, useRef, useState} from 'react';
 import {emptyD2Progress, readD2Progress, writeD2Progress, d2UnitResult} from '../lib/foundation-d2.mjs';
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
+import {mappedReviewUnit} from '../lib/foundation-quiz.mjs';
 import FoundationQuizReturn from './FoundationQuizReturn.js';
 import FoundationDiagram from './FoundationDiagram.js';
 import FoundationVideoStudy from './FoundationVideoStudy.js';
@@ -15,17 +16,6 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
   const [loaded, setLoaded] = useState(false);
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
-  useEffect(() => {
-    function openReview(event) {
-      if (event.detail?.prefix !== prefix) return;
-      const target = data.units.find(u => u.id === event.detail.unitId);
-      if (!target) return;
-      setProgress(p => ({...p, unit:target.number}));
-      window.requestAnimationFrame(() => focusFoundationTarget(prefix+'-title'));
-    }
-    window.addEventListener('foundation-open-review', openReview);
-    return () => window.removeEventListener('foundation-open-review', openReview);
-  }, [data, prefix]);
   useEffect(() => {
     // Accessing window.localStorage itself can throw in restricted browsers.
     let result;
@@ -43,6 +33,20 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
   const result = d2UnitResult(unit, progress);
   const reviewed = data.units.filter(u => d2UnitResult(u, progress).reviewed).length;
   useEffect(() => {
+    function openReview(event) {
+      const target = mappedReviewUnit(data, prefix, event.detail);
+      if (!target) return;
+      if (target.id === unit.id) {
+        focusFoundationTarget(unit.id);
+        return;
+      }
+      navigationRequested.current = true;
+      setProgress(p => ({...p, unit: target.number}));
+    }
+    window.addEventListener('foundation-open-review', openReview);
+    return () => window.removeEventListener('foundation-open-review', openReview);
+  }, [data, prefix, unit.id]);
+  useEffect(() => {
     if (!navigationRequested.current) return;
     navigationRequested.current = false;
     focusFoundationTarget(unit.id);
@@ -54,7 +58,6 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
   }
   return h('section', {className: 'white-panel foundation-study', id: prefix + "-review", 'aria-labelledby': prefix + "-title"},
     h('h2', {id: prefix + "-title"}, title),
-    h(FoundationQuizReturn,{prefix:prefix}),
     h('p', null, intro),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，各专题分别保存，不同步到账号或讲师端。'),
     Recap && h(Recap, {disabled: !loaded, onReview: number => {
@@ -66,6 +69,7 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
       h('label', null, '选择复习单元', h('select', {value: unit.number, disabled: !loaded, onChange: e => chooseUnit(Number(e.target.value))},
         data.units.map(u => h('option', {key: u.id, value: u.number}, `${u.number}. ${u.title}`))))),
     h('p', {role: 'status'}, `已复习 ${reviewed} / ${data.units.length} 节；本节自查 ${result.checked} / ${unit.checks.length}，选择题作答 ${result.answered} / ${unit.questions.length}。`),
+    h(FoundationQuizReturn,{prefix:prefix}),
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
       unit.learningObjective && h('p', null, h('strong', null, '学习目标　'), unit.learningObjective),

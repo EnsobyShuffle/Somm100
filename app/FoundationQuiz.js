@@ -25,28 +25,30 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
     try { setError(writeD2Progress(window.localStorage, progress, storageKey)); }
     catch { setError('本机保存失败，请勿关闭当前页面。'); }
   }, [progress, loaded, canSave, storageKey]);
+  const question = data.questions.find(q => q.number === progress.unit) || data.questions[0];
   useEffect(() => {
     function returnToQuiz(event) {
       if(!loaded)return;
       const target=quizReturnQuestion(data,prefix,event.detail);
       if(!target)return;
-      setProgress(p=>({...p,unit:target.number}));
-      window.requestAnimationFrame(()=>{
-        focusFoundationTarget(prefix+'-quiz-title');
-      });
+      if (target.id === question.id) {
+        focusFoundationTarget(question.id);
+        return;
+      }
+      navigationRequested.current = true;
+      setProgress(p => ({...p, unit: target.number}));
     }
     window.addEventListener('foundation-return-quiz',returnToQuiz);
     return ()=>window.removeEventListener('foundation-return-quiz',returnToQuiz);
-  },[data,prefix,loaded]);
-  const question = data.questions.find(q => q.number === progress.unit) || data.questions[0];
+  }, [data, prefix, loaded, question.id]);
   const entry = progress.answers[question.id];
   const result = quizResult(data, progress);
   const groups = [...new Set(data.questions.map(q => q.group))];
   useEffect(() => {
     if (!navigationRequested.current) return;
     navigationRequested.current = false;
-    focusFoundationTarget(prefix+'-quiz-title');
-  }, [question.id, prefix]);
+    focusFoundationTarget(question.id);
+  }, [question.id]);
   function choose(number) {
     if (number === question.number) return;
     navigationRequested.current = true;
@@ -61,7 +63,7 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
       h('select', {value:question.number,disabled:!loaded,onChange:e=>choose(Number(e.target.value))},
         groups.map(group=>h('optgroup', {key:group,label:group}, data.questions.filter(q=>q.group===group).map(q=>h('option', {key:q.id,value:q.number}, `${q.number}. ${q.prompt}`))))))),
     h('p', {role:'status'}, `已答 ${result.answered} / ${result.total} 题，最近答对 ${result.correct} 题，待复习 ${result.needsReview.length} 题。`),
-    h('fieldset', {key:question.id,className:'foundation-question'},
+    h('fieldset', {key:question.id, id:question.id, className:'foundation-question'},
       h('legend', null, `${question.number}. ${question.prompt}`),
       foundationOptions(question).map((index,position)=>h('label', {key:index,className:'foundation-check'},
         h('input', {type:'radio',name:question.id,disabled:!loaded,checked:entry?.latest===index,

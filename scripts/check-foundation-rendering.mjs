@@ -10,6 +10,8 @@ const {JSDOM} = await import(process.env.FOUNDATION_DOM_MODULE || 'jsdom');
 const dom = new JSDOM('<!doctype html><div id="root"></div>', {url:'https://foundation-test.invalid/'});
 globalThis.window = dom.window;
 globalThis.document = dom.window.document;
+const originalCustomEvent = globalThis.CustomEvent;
+globalThis.CustomEvent = dom.window.CustomEvent;
 // jsdom has no layout: record scroll requests, verify actual DOM focus separately.
 const scrollRequests = [];
 dom.window.HTMLElement.prototype.scrollIntoView = function(options) { scrollRequests.push({id:this.id, ...options}); };
@@ -231,6 +233,44 @@ try {
     await act(async () => root.unmount());
     results.push({area,units:expectedCount,ssr:true,dom:true,navigation:true,focus:true,recordPreservation:true,remount:true,corruptRecordProtection:true,missingGuidance:[],diagramsVerified:data.units.filter(u=>foundationDiagrams[u.id]).length});
   }
+  const {default:D4Quiz} = await import('../app/FoundationD4Quiz.js');
+  const {default:D4Review} = await import('../app/FoundationD4Review.js');
+  const {default:d4Quiz} = await import('../data/foundation-d4-quiz.json');
+  const originalQuestion = d4Quiz.questions.find(q => q.unitIds.includes('foundation-d4-04'));
+  const quizKey = 'somm100.foundation.d4-quiz.v1';
+  const wrong = (originalQuestion.answer + 1) % originalQuestion.options.length;
+  const quizSeed = {version:1, unit:originalQuestion.number, checks:{}, answers:{
+    [originalQuestion.id]:{first:wrong, latest:wrong}
+  }};
+  window.localStorage.clear();
+  window.localStorage.setItem(quizKey, JSON.stringify(quizSeed));
+  const roundTripRoot = createRoot(container);
+  await act(async () => roundTripRoot.render(React.createElement(React.Fragment, null,
+    React.createElement(D4Review), React.createElement(D4Quiz))));
+  const clickButton = async (scope, pattern) => {
+    const button = [...scope.querySelectorAll('button')].find(b => pattern.test(b.textContent));
+    assert.ok(button && !button.disabled, String(pattern));
+    await act(async () => button.click());
+  };
+  const quiz = document.getElementById('foundation-d4-quiz');
+  const review = document.getElementById('foundation-d4-review');
+  const recap = document.getElementById('foundation-d4-recap');
+  await clickButton(quiz, /^复习｜Prosecco/);
+  assert.equal(document.activeElement.id, 'foundation-d4-04');
+  assert.equal(document.activeElement.previousElementSibling.tagName, 'BUTTON', 'Return action is adjacent to the lesson');
+  await act(async () => recap.querySelector('summary').click());
+  await clickButton(recap, /回看第 10 节/);
+  assert.equal(document.activeElement.id, 'foundation-d4-10');
+  await clickButton(review, /^返回 D4 自测第/);
+  assert.equal(document.activeElement.id, originalQuestion.id);
+  assert.equal(document.activeElement.tagName, 'FIELDSET');
+  assert.deepEqual(JSON.parse(window.localStorage.getItem(quizKey)), quizSeed);
+  await clickButton(quiz, /^复习｜Prosecco/);
+  await clickButton(quiz, /^下一题$/);
+  await clickButton(review, /^返回 D4 自测第/);
+  assert.equal(document.activeElement.id, originalQuestion.id, 'Return restores the exact question after changing selection');
+  assert.deepEqual(JSON.parse(window.localStorage.getItem(quizKey)), quizSeed);
+  await act(async () => roundTripRoot.unmount());
   assert.deepEqual(diagnostics, [], 'No React warnings or errors');
   console.log(JSON.stringify({status:'PASS',scope:'React SSR and jsdom; no browser layout or online acceptance',
     results,totalUnits:results.reduce((sum,row)=>sum+row.units,0)}, null, 2));
@@ -239,5 +279,6 @@ try {
   dom.window.close();
   delete globalThis.window;
   delete globalThis.document;
+  globalThis.CustomEvent = originalCustomEvent;
   delete globalThis.IS_REACT_ACT_ENVIRONMENT;
 }
