@@ -9,6 +9,7 @@
 .foundation-check input { width: 1.15rem; height: 1.15rem; margin: .15rem 0 0; flex: 0 0 1.15rem; }
 .foundation-check span { overflow-wrap: anywhere; }
 .foundation-study summary { padding: .8rem 0; cursor: pointer; font-weight: 600; }
+.foundation-review-recap > ol { padding-inline-start: 1.4rem; }
 .foundation-study button { white-space: normal; min-height: 44px; }
 .foundation-study :focus-visible { outline: 3px solid #725832; outline-offset: 3px; }
 .foundation-study h2, .foundation-study h3, .foundation-study h4, .foundation-study article, .foundation-study .foundation-question, .foundation-study summary, .foundation-chapter { scroll-margin-top: 5rem; }

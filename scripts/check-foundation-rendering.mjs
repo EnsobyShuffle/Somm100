@@ -75,13 +75,17 @@ try {
     let root = createRoot(container);
     await act(async () => root.render(React.createElement(Component)));
     assert.equal(document.activeElement, document.body, `${area}: loading never steals focus`);
-    const recap = container.querySelector('#foundation-d4-recap');
-    assert.equal(Boolean(recap), area === 'd4', 'Only D4 has the integrated recap');
+    const recap = container.querySelector(`#foundation-${area}-recap`);
+    const recapCounts = {d3:4, d4:5};
+    assert.equal(Boolean(recap), area in recapCounts, 'D3 and D4 have integrated recaps');
     if (recap) {
+      const caseCount = recapCounts[area];
+      const jumpUnit = area === 'd3' ? 3 : 4;
+      const jumpId = `foundation-${area}-0${jumpUnit}`;
       assert.equal(recap.open, false);
-      assert.equal(recap.querySelectorAll('ol > li').length, 5);
+      assert.equal(recap.querySelectorAll('ol > li').length, caseCount);
       const answers = [...recap.querySelectorAll('details')];
-      assert.equal(answers.length, 5);
+      assert.equal(answers.length, caseCount);
       assert.ok(answers.every(answer => !answer.open));
       const before = window.localStorage.getItem(key);
       await act(async () => recap.querySelector('summary').click());
@@ -90,11 +94,24 @@ try {
       assert.equal(window.localStorage.getItem(key), before, 'Reading answers must not change progress');
       const jump = recap.querySelector('button');
       await act(async () => jump.click());
-      assert.equal(document.activeElement.id, 'foundation-d4-04');
-      assert.deepEqual(JSON.parse(window.localStorage.getItem(key)), {...JSON.parse(before), unit:4});
+      assert.equal(document.activeElement.id, jumpId);
+      assert.deepEqual(JSON.parse(window.localStorage.getItem(key)), {...JSON.parse(before), unit:jumpUnit});
       jump.focus();
       await act(async () => jump.click());
-      assert.equal(document.activeElement.id, 'foundation-d4-04', 'Reopening the active unit must still focus it');
+      assert.equal(document.activeElement.id, jumpId, 'Reopening the active unit must still focus it');
+      if (area === 'd3') {
+        recap.open = false;
+        const recapLink = container.querySelector('button[aria-controls="foundation-d3-recap"]');
+        await act(async () => recapLink.click());
+        assert.equal(recap.open, true);
+        assert.equal(document.activeElement.id, 'foundation-d3-recap-title');
+        for (const [index, target] of [3, 5, 4, 8, 8, 9, 9, 13].entries()) {
+          await act(async () => recap.querySelectorAll('button')[index].click());
+          assert.equal(document.activeElement.id, `foundation-d3-${String(target).padStart(2, '0')}`);
+        }
+        const after = JSON.parse(window.localStorage.getItem(key));
+        assert.deepEqual({...after, unit:1}, JSON.parse(before));
+      }
     }
     for (const unit of data.units) {
       const select = container.querySelector('select');
@@ -233,50 +250,58 @@ try {
     await act(async () => root.unmount());
     results.push({area,units:expectedCount,ssr:true,dom:true,navigation:true,focus:true,recordPreservation:true,remount:true,corruptRecordProtection:true,missingGuidance:[],diagramsVerified:data.units.filter(u=>foundationDiagrams[u.id]).length});
   }
-  const {default:D4Quiz} = await import('../app/FoundationD4Quiz.js');
-  const {default:D4Review} = await import('../app/FoundationD4Review.js');
-  const {default:d4Quiz} = await import('../data/foundation-d4-quiz.json');
-  const originalQuestion = d4Quiz.questions.find(q => q.unitIds.includes('foundation-d4-04'));
-  const quizKey = 'somm100.foundation.d4-quiz.v1';
-  const wrong = (originalQuestion.answer + 1) % originalQuestion.options.length;
-  const quizSeed = {version:1, unit:originalQuestion.number, checks:{}, answers:{
-    [originalQuestion.id]:{first:wrong, latest:wrong}
-  }};
-  window.localStorage.clear();
-  window.localStorage.setItem(quizKey, JSON.stringify(quizSeed));
-  const roundTripRoot = createRoot(container);
-  await act(async () => roundTripRoot.render(React.createElement(React.Fragment, null,
-    React.createElement(D4Review), React.createElement(D4Quiz))));
-  const clickButton = async (scope, pattern) => {
-    const button = [...scope.querySelectorAll('button')].find(b => pattern.test(b.textContent));
-    assert.ok(button && !button.disabled, String(pattern));
-    await act(async () => button.click());
-  };
-  const quiz = document.getElementById('foundation-d4-quiz');
-  const review = document.getElementById('foundation-d4-review');
-  const recap = document.getElementById('foundation-d4-recap');
-  await clickButton(quiz, /^复习｜Prosecco/);
-  assert.equal(document.activeElement.id, 'foundation-d4-04');
-  const lessonActions = document.activeElement.previousElementSibling;
-  assert.ok(lessonActions.querySelector('button[aria-controls="foundation-d4-recap"]'), 'Recap action is adjacent to the lesson');
-  assert.match(lessonActions.textContent, /返回 D4 自测第/);
-  const beforeRecap = window.localStorage.getItem('somm100.foundation.d4-review.v1');
-  await clickButton(lessonActions, /^回到 D4 综合复盘$/);
-  assert.equal(recap.open, true);
-  assert.equal(document.activeElement.id, 'foundation-d4-recap-title');
-  assert.equal(window.localStorage.getItem('somm100.foundation.d4-review.v1'), beforeRecap);
-  await clickButton(recap, /回看第 10 节/);
-  assert.equal(document.activeElement.id, 'foundation-d4-10');
-  await clickButton(review, /^返回 D4 自测第/);
-  assert.equal(document.activeElement.id, originalQuestion.id);
-  assert.equal(document.activeElement.tagName, 'FIELDSET');
-  assert.deepEqual(JSON.parse(window.localStorage.getItem(quizKey)), quizSeed);
-  await clickButton(quiz, /^复习｜Prosecco/);
-  await clickButton(quiz, /^下一题$/);
-  await clickButton(review, /^返回 D4 自测第/);
-  assert.equal(document.activeElement.id, originalQuestion.id, 'Return restores the exact question after changing selection');
-  assert.deepEqual(JSON.parse(window.localStorage.getItem(quizKey)), quizSeed);
-  await act(async () => roundTripRoot.unmount());
+  for (const [day, unitId, questionReviewLabel, otherUnit] of [
+    ['D3', '03', /^复习｜Piedmont/, 9],
+    ['D4', '04', /^复习｜Prosecco/, 10],
+  ]) {
+    const prefix = 'foundation-' + day.toLowerCase();
+    const {default:Quiz} = await import(`../app/Foundation${day}Quiz.js`);
+    const {default:Review} = await import(`../app/Foundation${day}Review.js`);
+    const {default:quizData} = await import(`../data/${prefix}-quiz.json`);
+    const originalQuestion = quizData.questions.find(q => q.unitIds.includes(`${prefix}-${unitId}`));
+    const quizKey = `somm100.foundation.${day.toLowerCase()}-quiz.v1`;
+    const wrong = (originalQuestion.answer + 1) % originalQuestion.options.length;
+    const quizSeed = {version:1, unit:originalQuestion.number, checks:{}, answers:{
+      [originalQuestion.id]:{first:wrong, latest:wrong}
+    }};
+    window.localStorage.clear();
+    window.localStorage.setItem(quizKey, JSON.stringify(quizSeed));
+    const roundTripRoot = createRoot(container);
+    await act(async () => roundTripRoot.render(React.createElement(React.Fragment, null,
+      React.createElement(Review), React.createElement(Quiz))));
+    const clickButton = async (scope, pattern) => {
+      const button = [...scope.querySelectorAll('button')].find(b => pattern.test(b.textContent));
+      assert.ok(button && !button.disabled, String(pattern));
+      await act(async () => button.click());
+    };
+    const quiz = document.getElementById(prefix + '-quiz');
+    const review = document.getElementById(prefix + '-review');
+    const recap = document.getElementById(prefix + '-recap');
+    await clickButton(quiz, questionReviewLabel);
+    assert.equal(document.activeElement.id, `${prefix}-${unitId}`);
+    const lessonActions = document.activeElement.previousElementSibling;
+    assert.ok(lessonActions.querySelector(`button[aria-controls="${recap.id}"]`), 'Recap action is adjacent to the lesson');
+    const returnLabel = new RegExp(`^返回 ${day} 自测第`);
+    assert.match(lessonActions.textContent, new RegExp(`返回 ${day} 自测第`));
+    const reviewKey = `somm100.foundation.${day.toLowerCase()}-review.v1`;
+    const beforeRecap = window.localStorage.getItem(reviewKey);
+    await clickButton(lessonActions, new RegExp(`^回到 ${day} 综合复盘$`));
+    assert.equal(recap.open, true);
+    assert.equal(document.activeElement.id, recap.id + '-title');
+    assert.equal(window.localStorage.getItem(reviewKey), beforeRecap);
+    await clickButton(recap, new RegExp(`回看第 ${otherUnit} 节`));
+    assert.equal(document.activeElement.id, `${prefix}-${String(otherUnit).padStart(2, '0')}`);
+    await clickButton(review, returnLabel);
+    assert.equal(document.activeElement.id, originalQuestion.id);
+    assert.equal(document.activeElement.tagName, 'FIELDSET');
+    assert.deepEqual(JSON.parse(window.localStorage.getItem(quizKey)), quizSeed);
+    await clickButton(quiz, questionReviewLabel);
+    await clickButton(quiz, /^下一题$/);
+    await clickButton(review, returnLabel);
+    assert.equal(document.activeElement.id, originalQuestion.id, 'Return restores the exact question after changing selection');
+    assert.deepEqual(JSON.parse(window.localStorage.getItem(quizKey)), quizSeed);
+    await act(async () => roundTripRoot.unmount());
+  }
   assert.deepEqual(diagnostics, [], 'No React warnings or errors');
   console.log(JSON.stringify({status:'PASS',scope:'React SSR and jsdom; no browser layout or online acceptance',
     results,totalUnits:results.reduce((sum,row)=>sum+row.units,0)}, null, 2));

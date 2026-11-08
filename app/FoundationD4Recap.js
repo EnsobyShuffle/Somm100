@@ -1,6 +1,4 @@
-import React from 'react';
-
-const cases = [
+export default [
   {
     title: '起泡酒｜先装瓶，还是先二次发酵？',
     prompt: '对照 Prosecco DOC Spumante 与 Cava。分别说出二次发酵的容器，再排出装瓶和二次发酵的先后顺序。',
@@ -32,22 +30,3 @@ const cases = [
     reviews: [[14, '中国产区定位'], [15, '中国酒款查证']],
   },
 ];
-
-const h = React.createElement;
-
-export default function FoundationD4Recap({id, onReview, disabled}) {
-  return h('details', {id},
-    h('summary', {id: id + '-title'}, 'D4 综合复盘 · 5 个案例'),
-    h('p', null, '每题先写下酒标或资料能确认的信息，再写工艺或产区判断。用原复习单元的技术表核对。'),
-    h('p', {className: 'fine-print'}, '书面作答请记在自己的笔记中。展开参考答案不计分。'),
-    h('ol', null, cases.map(({title, prompt, answer, reviews}) =>
-      h('li', {key: title},
-        h('h3', null, title),
-        h('p', null, prompt),
-        h('details', null, h('summary', null, '展开参考答案'), h('p', null, answer)),
-        h('div', {className: 'button-row'}, reviews.map(([number, label]) =>
-          h('button', {
-            key: number, type: 'button', className: 'button secondary', disabled,
-            onClick: () => onReview(number),
-          }, `回看第 ${number} 节 · ${label}`)))))));
-}

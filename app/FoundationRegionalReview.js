@@ -5,12 +5,13 @@ import {emptyD2Progress, readD2Progress, writeD2Progress, d2UnitResult} from '..
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
 import {mappedReviewUnit} from '../lib/foundation-quiz.mjs';
 import FoundationQuizReturn from './FoundationQuizReturn.js';
+import FoundationReviewRecap from './FoundationReviewRecap.js';
 import FoundationDiagram from './FoundationDiagram.js';
 import FoundationVideoStudy from './FoundationVideoStudy.js';
 import './foundation-study.css';
 
 const h = React.createElement;
-export default function FoundationRegionalReview({data, prefix, title, intro, storageKey, recap: Recap}) {
+export default function FoundationRegionalReview({data, prefix, title, intro, storageKey, recap}) {
   const [progress, setProgress] = useState(emptyD2Progress);
   const navigationRequested = useRef(false);
   const [loaded, setLoaded] = useState(false);
@@ -61,7 +62,7 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
     h('h2', {id: prefix + "-title"}, title),
     h('p', null, intro),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，各专题分别保存，不同步到账号或讲师端。'),
-    Recap && h(Recap, {id: recapId, disabled: !loaded, onReview: number => {
+    recap && h(FoundationReviewRecap, {...recap, id: recapId, disabled: !loaded, onReview: number => {
       if (number === unit.number) focusFoundationTarget(unit.id);
       else chooseUnit(number);
     }}),
@@ -70,7 +71,7 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
       h('label', null, '选择复习单元', h('select', {value: unit.number, disabled: !loaded, onChange: e => chooseUnit(Number(e.target.value))},
         data.units.map(u => h('option', {key: u.id, value: u.number}, `${u.number}. ${u.title}`))))),
     h('p', {role: 'status'}, `已复习 ${reviewed} / ${data.units.length} 节；本节自查 ${result.checked} / ${unit.checks.length}，选择题作答 ${result.answered} / ${unit.questions.length}。`),
-    Recap ? h('div', {className: 'button-row'},
+    recap ? h('div', {className: 'button-row'},
       h(FoundationQuizReturn,{prefix:prefix}),
       h('button', {
         type: 'button', className: 'button secondary', 'aria-controls': recapId, onClick: () => {
@@ -79,7 +80,7 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
           details.open = true;
           focusFoundationTarget(recapId + '-title');
         }
-      }, '回到 D4 综合复盘')) : h(FoundationQuizReturn,{prefix:prefix}),
+      }, `回到 ${recap.title}`)) : h(FoundationQuizReturn,{prefix:prefix}),
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
       unit.learningObjective && h('p', null, h('strong', null, '学习目标　'), unit.learningObjective),

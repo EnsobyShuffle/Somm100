@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · D3 欧洲产区综合复盘
+
+基线 `a5848b62e765e0969f5fb149fa4373b3c69da6ec`，分支 `migration/tencent-somm100`。已检查分支更新，重读迁移检查点、上轮记录、课前来源映射及 Foundation 入口。
+
+- **学生页面**。D3 新增四个原创书面案例，分别用意大利酒标辨认产地和品种、对照 Prosecco 与 Cava 的工艺资料、区分 Albariño 与 Alvarinho 的品种同名和产地证据、从 Douro 与 Tokaji 追查成酒类型或风格。四题各有折叠参考答案，八个回看按钮指向六个已有单元。D3、D4 共用复盘界面和焦点逻辑，保留 D4 五个案例、稳定 ID、题目、答案索引、本机存储键、课程图片与品牌。展开答案和回到复盘均不计分，也不更改作答记录。
+- **内容来源**。重读 [产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、历史 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)、[预习路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)及 [D3–D4 提要](https://app.notion.com/p/40717d16de4c817aaad6f3433f55df22)。D3 练习连接既有章节与公开资料，包括 [Brunello 协会](https://www.consorziobrunellodimontalcino.it/en/583/wines)、[Chianti Classico 协会](https://www.chianticlassico.com/en/wine/characteristics/)、[Prosecco DOC 协会](https://www.prosecco.wine/en/prosecco/discover/winemaking/)、[Cava 管理委员会](https://www.cava.wine/en/origin-cava/winemaking/)、[葡萄牙葡萄酒推广机构](https://winesofportugal.com/documents/141/WOP_BOOK_-_Prowein-2022_web.pdf)、[IVDP](https://www.ivdp.pt/en/wines/the-wines/)与 [Disznókő](https://www.disznoko.hu/en/elaboration/the-aszu-winemaking)。本轮未重刊私有教材。
+- **课程状态**。D1 10 节／25 道综合自测，D2 9 品种＋6 法国专题／42 道综合自测，D3 13 节／30 道综合自测＋4 个书面案例，D4 15 节／45 道综合自测＋5 个书面案例。均为按主题组织的复习模块。重读[第 22 期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，确认五天面授。D5 逐日内容及考核分配待确认，当期无 D6 面授。仍缺课程方确认的逐日课表、可核对的原 WPS PPT 和有道原件。
+- **本地验证**。84/84 Node 回归、53 单元 React SSR/jsdom、D3 八个回看按钮与 D3/D4 自测原题往返通过。CloudBase 整站与专注入口构建检查通过，450 个文件、159 个学习指引字段，入口 `./assets/app-DdBWT9rM.js` SHA256 `b5bc5d944039725502928d5105b81178bdc144a6627941f01f3c565e106b13a3`。独立预览第 12 版 718098 字节，在文件 URL 与模拟 HTTPS 的 jsdom 中通过品牌图、四题、答案、章节定位和返回检查。
+- **线上状态与接续**。Chrome 实测腾讯测试域 `/#foundation` 显示「六天，是开始」旧课程页，入口脚本 `/assets/index-ByL68l2x.js`，没有本轮 D3。未部署本轮构建。云浏览器访问执行器本地预览报 `ERR_CONNECTION_REFUSED`，本地文件协议也被浏览器策略禁止。物理手机、实际窄屏和线上新版本均待验收。下一断点是在已授权的腾讯部署通路上核对远端构建版本后发布并验证，或用独立预览在实机核对窄屏；课程内容等待确认课表和原件。保留 `[skip netlify]` 与 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · 完整构建恢复与 D4 复盘往返
 
 基线 `de1ffd1449f816fcf2cb9432e21183831b0daebb`，分支 `migration/tencent-somm100`。已读迁移检查点、上轮记录、来源映射与现有 Foundation 源码，复查分支头。通过现有网络通路完整检出权威分支，`pnpm 11.25.0 install --frozen-lockfile` 成功。上轮部分工作副本缺少的 Vite 与 `data/question-source-policy.json` 已在完整副本中恢复。
