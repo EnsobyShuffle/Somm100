@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 产区游学与 CloudBase 发布准备
+
+基线 `9396a5e2027a6d4ce3098453b5d57d4d23cd7e77`，分支 `migration/tencent-somm100`。已核对当前 Foundation 源码、来源映射、第 23 版检查点及迁移说明。
+
+- **本轮交付**。`app/FoundationCohort.js` 的班期页新增产区游学直达入口、已核实的食宿和交通说明，以及三步可折叠的现场观察练习。练习由学员分别记录葡萄园、酒庄工艺和杯中证据，区分现场所见与自己的推断。班期、师资、图片、报名入口与本机记录沿用原实现。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认三阶段共五天面授，2027 年 3 月 14–17 日另有四天产区游学。校方提供三晚住宿与餐食，学员承担往返交通。观察练习为原创补充。已检索的 Notion 与历史有道导入仍缺本期批准的逐日课表、WPS／有道原始课件以及 D5 考核分配。
+- **日次状态**。D1 10 节、25 道自测、3 个案例。D2 9 个品种、6 个法国专题、42 道自测、3 个案例。D3 13 节、30 道自测、4 个案例。D4 15 节、45 道自测、5 个案例。D5 五城面授日期已核实，教学和考核分配待确认。第22期无 D6 面授，游学单独安排。
+- **验证与保存**。87 项 Node 回归、53 个复习单元渲染、游学跳转聚焦、三步折叠、练习不写入本机记录、备份恢复通过。CloudBase 整站与专注入口构建通过，450 个公开文件，整站入口 `./assets/app-B9s619t1.js`，SHA256 `799ccf64fc1d77ff3f702a4bc879d48db0f147ce799f55c9404009a8c27c4065`。静态 ZIP 含同一组 450 个文件，解压校验通过。[独立预览第 24 版](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 742664 字节，已用文件 URL 和模拟 HTTPS 验证。
+- **部署与接续**。`docs.cloudbase.net/skill.md` 的读取结果为 `(400) Timeout fetching`。CloudBase 官方文档可读，确认现有应用支持按指定 Git 分支构建。继续沿用 `cloudbaserc.json` 中的上海环境、`/somm100` 路径及 `dist-cloudbase` 产物。当前缺可用的已授权腾讯发布会话，正式域名绑定与证书未取得回执。腾讯发布、线上版本复核与手机实机验收待完成。保留 `[skip netlify]` 与 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-10 · 团队酒单复核与域名核查
 
 基线 `c829611b61901f570bf975459efdd984cc649d30`，分支 `migration/tencent-somm100`。已核对当前源码、上轮检查点、迁移说明及来源映射。

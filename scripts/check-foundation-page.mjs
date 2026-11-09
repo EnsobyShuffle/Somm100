@@ -156,6 +156,19 @@ try{
  const certificate=assessment.querySelector('#foundation-certificate-title');
  assert.match(certificate.nextElementSibling.textContent,/初级侍酒师证书.*见习侍酒师证书/);
  const recordsBeforePractice = Object.entries(window.localStorage);
+ const fieldTrip=cohort.querySelector('[aria-labelledby="foundation-cohort-field-trip-title"]');
+ const fieldTripButton=[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看产区游学');
+ await act(async()=>fieldTripButton.click());
+ assert.equal(document.activeElement.id,'foundation-cohort-field-trip-title');
+ assert.deepEqual([...fieldTrip.querySelectorAll('time')].map(el=>el.dateTime),['2027-03-14','2027-03-17']);
+ assert.match(fieldTrip.textContent,/三晚住宿和餐饮.*自理往返交通费用/);
+ const fieldReview=fieldTrip.querySelector('details');
+ assert.equal(fieldReview.open,false);
+ await act(async()=>fieldReview.querySelector('summary').click());
+ assert(fieldReview.open);
+ assert.equal(fieldReview.querySelectorAll('ol > li').length,3);
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
+
  const team=assessment.querySelector('#foundation-assessment-team');
  const audit=team.querySelector('#foundation-assessment-team-audit');
  const auditAnswer=audit.querySelector('details');
@@ -259,5 +272,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:36,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:37,fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}
