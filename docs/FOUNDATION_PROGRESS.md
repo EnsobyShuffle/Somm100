@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · 按五城开课日期安排预习
+
+基线 `95f5ff40422fa2ee54c4bd5476c38dc2d9e088e4`，分支 `migration/tencent-somm100`。已核对迁移说明、上轮检查点、当前 Foundation 源码和来源映射。
+
+- **本轮交付**。课前页可选第22期五城，按北京时间显示首日面授和剩余日数。按现行预习路径建议 8 周或 4 周。少于 28 天时可跳到葡萄到酒、风格与酒标三个基础概念，开课后可跳到课间复习。三个概念是本轮精简建议。城市选择及导航不改预习节奏、当前周、首次／最近答案或本机进度。保留原有八个概念、公众号链接、品牌、师资、图片与数据。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)及[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。五城首日以[第22期招生正文第 6 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)及现有数据为准。实际读取[2024 年有道导入笔记《侍酒师 100 D1-D2》](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)，其种植酿造、法规酒标、法国产区的书目提示属于历史复习线索，未明确本期逐日安排。Notion 与文件检索仍缺第22期确认版课表及 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道自测、3 个案例。D2 9 个品种、6 个法国专题、42 道自测、3 个案例。D3 13 节、30 道自测、4 个案例。D4 15 节、45 道自测、5 个案例。以上为现有专题复习。D5 教学与考核分配待确认。第22期确认五天面授，无第六天面授。
+- **验证与保存**。86 项 Node 回归、53 个 React 单元、五城切换、北京时间跨日和节奏边界、三条概念跳转、开课当日／已开课分支及本机进度和备份恢复通过。CloudBase 整站与专注入口构建通过，共 450 文件，入口 `./assets/app-Dj4FD0KQ.js`，SHA256 `8782eba912218a5767b8a8b2d99d05a12ff0351d9bbd1f4644910f70758158de`。独立预览第 19 版，734715 字节，文件 URL 和模拟 HTTPS 的 jsdom 检查通过。
+- **部署和接续**。本轮未部署。上轮腾讯测试域公开检查返回 `URL ... is not accessible via this tool`，本轮未获得可用的已授权腾讯发布通路或新的线上验证。手机实机和线上验收待完成。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。取得当期课表和课件后核对 D5 的教学与考核分配。
+
+---
+
 # Foundation · 2026-11-09 · 课程导览与结课说明
 
 基线 `ce6f20a29d78dc7a18cbab65e2eaf6c44dccd1c1`，分支 `migration/tencent-somm100`。先核对远端分支、迁移说明、上轮检查点、Foundation 实际入口及来源映射。

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {emptyFoundationProgress, normalizeFoundationProgress, recordFoundationAnswer, foundationWeekResult, foundationOptions} from '../lib/foundation-study.mjs';
+import {emptyFoundationProgress, normalizeFoundationProgress, recordFoundationAnswer, foundationWeekResult, foundationOptions, foundationPrepWindow} from '../lib/foundation-study.mjs';
 const data = JSON.parse(readFileSync(new URL('../data/foundation-study.json', import.meta.url), 'utf8'));
 
 test('source curriculum has eight weeks, thirty checks and thirty-one uniquely mapped questions', () => {
@@ -71,4 +71,12 @@ test('option display order is stable and never changes answer identity', () => {
     assert.equal(q.options[order[order.indexOf(q.answer)]], q.options[q.answer]);
   }
   assert.ok(new Set(data.questions.map(q => foundationOptions(q).indexOf(q.answer))).size >= 3);
+});
+
+test('city prep uses Beijing calendar dates and the four/eight week boundaries', () => {
+  const now = new Date('2026-11-09T16:30:00Z');
+  for (const [firstClass, days, pace] of [
+    ['2026-11-09', -1, null], ['2026-11-10', 0, null], ['2026-11-23', 13, null],
+    ['2026-12-07', 27, null], ['2026-12-08', 28, 4], ['2027-01-04', 55, 4], ['2027-01-05', 56, 8],
+  ]) assert.deepEqual(foundationPrepWindow(firstClass, now), {days, pace});
 });

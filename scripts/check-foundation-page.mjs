@@ -1,5 +1,6 @@
 // Full extracted page integration, using real React and disposable jsdom storage.
 import assert from 'node:assert/strict';
+import {mock} from 'node:test';
 import {register} from 'node:module';
 register('./foundation-render-loader.mjs',import.meta.url);
 const {JSDOM}=await import(process.env.FOUNDATION_DOM_MODULE || 'jsdom');
@@ -35,6 +36,48 @@ try{
  const prepRecord=window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
  assert(firstCheck.checked);
  assert(prepRecord);
+ const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
+ const prepCity=cityPrep.querySelector('select');
+ const selectPrepCity=async value=>await act(async()=>{
+   prepCity.value=value;
+   prepCity.dispatchEvent(new window.Event('change',{bubbles:true}));
+ });
+ const beforeCityPrep=Object.entries(window.localStorage);
+ mock.timers.enable({apis:['Date'],now:new Date('2026-11-09T16:30:00Z')});
+ try {
+   assert.deepEqual([...prepCity.options].map(option=>option.value),['','北京','上海','成都','深圳','广州']);
+   for(const [city,date,days] of [
+     ['北京','2026-11-23',13], ['上海','2026-11-26',16], ['成都','2026-11-29',19],
+     ['深圳','2026-12-02',22], ['广州','2026-12-04',24],
+   ]){
+     await selectPrepCity(city);
+     assert.equal(cityPrep.querySelector('time').dateTime,date);
+     assert.match(cityPrep.querySelector('[role="status"]').textContent,new RegExp('距开课 '+days+' 天'));
+   }
+   for(const [index,button] of [...cityPrep.querySelectorAll('button')].entries()){
+     await act(async()=>button.click());
+     assert.equal(document.activeElement.id,'foundation-'+[1,4,7][index]);
+     assert.equal(window.location.hash,'#foundation');
+   }
+   assert.equal(cityPrep.querySelectorAll('button').length,3);
+   mock.timers.setTime(Date.parse('2026-10-22T00:00:00Z'));
+   await selectPrepCity('深圳');
+   assert.match(cityPrep.textContent,/4 周节奏/);
+   mock.timers.setTime(Date.parse('2026-09-20T00:00:00Z'));
+   await selectPrepCity('北京');
+   assert.match(cityPrep.textContent,/8 周节奏/);
+   mock.timers.setTime(Date.parse('2026-12-02T00:00:00Z'));
+   await selectPrepCity('深圳');
+   assert.match(cityPrep.textContent,/今天开课/);
+   mock.timers.setTime(Date.parse('2026-12-05T00:00:00Z'));
+   await selectPrepCity('广州');
+   assert.match(cityPrep.textContent,/首日面授已过/);
+   await act(async()=>cityPrep.querySelector('button').click());
+   assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
+   await selectPrepCity('');
+   assert.equal(cityPrep.querySelector('time'),null);
+   assert.deepEqual(Object.entries(window.localStorage),beforeCityPrep);
+ } finally {mock.timers.reset();}
  const firstConceptButton=[...study.querySelectorAll('button')].find(button=>button.textContent==='阅读｜学习葡萄酒之前');
  assert(firstConceptButton);
  await act(async()=>firstConceptButton.click());
@@ -177,5 +220,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:25,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:29,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}
