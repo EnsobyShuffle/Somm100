@@ -76,11 +76,11 @@ try {
     await act(async () => root.render(React.createElement(Component)));
     assert.equal(document.activeElement, document.body, `${area}: loading never steals focus`);
     const recap = container.querySelector(`#foundation-${area}-recap`);
-    const recapCounts = {d3:4, d4:5};
-    assert.equal(Boolean(recap), area in recapCounts, 'D3 and D4 have integrated recaps');
+    const recapCounts = {d1:3, d2:3, d3:4, d4:5};
+    assert.equal(Boolean(recap), area in recapCounts, 'D1–D4 have integrated recaps');
     if (recap) {
       const caseCount = recapCounts[area];
-      const jumpUnit = area === 'd3' ? 3 : 4;
+      const jumpUnit = {d1:3, d2:2, d3:3, d4:4}[area];
       const jumpId = `foundation-${area}-0${jumpUnit}`;
       assert.equal(recap.open, false);
       assert.equal(recap.querySelectorAll('ol > li').length, caseCount);
@@ -99,15 +99,21 @@ try {
       jump.focus();
       await act(async () => jump.click());
       assert.equal(document.activeElement.id, jumpId, 'Reopening the active unit must still focus it');
-      if (area === 'd3') {
+      const reviewTargets = {
+        d1:[3, 1, 7, 6, 10, 8],
+        d2:[2, 3, 5, 6, 4, 7],
+        d3:[3, 5, 4, 8, 8, 9, 9, 13],
+      }[area];
+      if (reviewTargets) {
         recap.open = false;
-        const recapLink = container.querySelector('button[aria-controls="foundation-d3-recap"]');
+        const recapLink = container.querySelector(`button[aria-controls="foundation-${area}-recap"]`);
         await act(async () => recapLink.click());
         assert.equal(recap.open, true);
-        assert.equal(document.activeElement.id, 'foundation-d3-recap-title');
-        for (const [index, target] of [3, 5, 4, 8, 8, 9, 9, 13].entries()) {
+        assert.equal(document.activeElement.id, `foundation-${area}-recap-title`);
+        assert.equal(recap.querySelectorAll('button').length, reviewTargets.length);
+        for (const [index, target] of reviewTargets.entries()) {
           await act(async () => recap.querySelectorAll('button')[index].click());
-          assert.equal(document.activeElement.id, `foundation-d3-${String(target).padStart(2, '0')}`);
+          assert.equal(document.activeElement.id, `foundation-${area}-${String(target).padStart(2, '0')}`);
         }
         const after = JSON.parse(window.localStorage.getItem(key));
         assert.deepEqual({...after, unit:1}, JSON.parse(before));
@@ -251,6 +257,8 @@ try {
     results.push({area,units:expectedCount,ssr:true,dom:true,navigation:true,focus:true,recordPreservation:true,remount:true,corruptRecordProtection:true,missingGuidance:[],diagramsVerified:data.units.filter(u=>foundationDiagrams[u.id]).length});
   }
   for (const [day, unitId, questionReviewLabel, otherUnit] of [
+    ['D1', '01', /^复习｜一颗葡萄/, 8],
+    ['D2', '01', /^复习｜学习葡萄品种/, 7],
     ['D3', '03', /^复习｜Piedmont/, 9],
     ['D4', '04', /^复习｜Prosecco/, 10],
   ]) {

@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · D1 与 D2 跨单元综合复盘
+
+基线 `f77adb92a43366a3a19aec3a9f78fc6d60877d6d`，分支 `migration/tencent-somm100`。核对腾讯迁移说明、上一轮检查点、当前源码及来源映射。
+
+- **本轮内容与页面**。D1 新增分批采收、果皮接触与发酵、酒标与熟成证据三题。D2 新增霞多丽与长相思、黑皮诺与赤霞珠、雷司令干甜和西拉同义名三题。六题附可展开参考答案及 12 个原单元入口。D1–D4 共用复盘交互，可在专题页打开复盘，再回到发起复习的自测原题。查看答案不计分或写入进度。保留原题 ID、各存储键、原有单元、课前、课间与报名资料。
+- **来源与边界**。重读 [产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行课前框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[课前预习路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)、[D1–D2 知识提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)及[D3–D4 知识提要](https://app.notion.com/p/40717d16de4c817aaad6f3433f55df22)。六题是基于现有专题的原创复盘。重读[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，确认五天面授。原有公众号链接保留，微信内可用性沿用检查点所列待验状态。
+- **课程状态**。D1 10 节／25 道综合自测＋3 个书面案例；D2 9 品种＋6 法国专题／42 道＋3 个书面案例；D3 13 节／30 道＋4 个书面案例；D4 15 节／45 道＋5 个书面案例。以上是专题复习。D5 当日教学与考核分配待确认；第22期无 D6 面授。逐日内容仍缺当期确认课表、WPS 原始课件和可核对的有道原件。
+- **验证与保存**。85 项 Node 回归、53 个单元 React 渲染、D1／D2 全部 12 个回看入口、D1–D4 自测原题往返、本机答题与备份恢复通过。CloudBase 整站与专注入口构建通过，共 450 个文件，入口 `./assets/app-BbbCCtUa.js`，SHA256 `56511cc70a875d3e8c3e2c4f3f95436fcf138eefd11393461b8f3c0a31c7cdfc`。独立预览第 16 版 727523 字节，在文件 URL 和模拟 HTTPS 的 jsdom 验证通过。
+- **下一断点**。本轮未部署，仍待可用的已授权腾讯部署通路、线上及手机实机验收。保留 `[skip netlify]` 与 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · 第22期五城课间复习建议
 
 基线 `8266d125e9538d5db684737fa04d3b24f8457119`，分支 `migration/tencent-somm100`。已核对迁移说明、上轮检查点、来源映射和现有课堂间学习路径。

@@ -10,9 +10,12 @@ import FoundationDiagram from './FoundationDiagram.js';
 import FoundationVideoStudy from './FoundationVideoStudy.js';
 import FoundationCellarStudy from './FoundationCellarStudy.js';
 import FoundationLabelPractice from './FoundationLabelPractice.js';
+import FoundationReviewRecap, {openReviewRecap} from './FoundationReviewRecap.js';
+import {d1Recap} from './FoundationD1D2Recaps.js';
 import './foundation-study.css';
 
 const h = React.createElement;
+const recapId = 'foundation-d1-recap';
 export default function FoundationD1Review() {
   const [progress, setProgress] = useState(emptyD1Progress);
   const navigationRequested = useRef(false);
@@ -63,12 +66,19 @@ export default function FoundationD1Review() {
     h('h2', {id: 'foundation-d1-title'}, 'D1｜课堂后复习'),
     h('p', null, '先重建课堂知识，再检查理解。本区供 D1 后复习使用，与上方课前预习分开；不是完整课堂课表，也不代表已完成课堂出勤或课程考核。'),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，独立于课前记录，不同步到账号或讲师端。'),
+    h(FoundationReviewRecap, {...d1Recap, id: recapId, disabled: !loaded, onReview: number => {
+      if (number === unit.number) focusFoundationTarget(unit.id);
+      else chooseUnit(number);
+    }}),
     error ? h('p', {role: 'alert'}, error) : null,
     h('div', {className: 'foundation-study-controls'},
       h('label', null, '选择复习单元', h('select', {value: unit.number, disabled: !loaded, onChange: e => chooseUnit(Number(e.target.value))},
         data.units.map(u => h('option', {key: u.id, value: u.number}, `${u.number}. ${u.title}`))))),
     h('p', {role: 'status'}, `已复习 ${reviewed} / ${data.units.length} 节；本节自查 ${result.checked} / ${unit.checks.length}，选择题作答 ${result.answered} / ${unit.questions.length}。`),
-    h(FoundationQuizReturn,{prefix:'foundation-d1'}),
+    h('div', {className: 'button-row'},
+      h(FoundationQuizReturn,{prefix:'foundation-d1'}),
+      h('button', {type:'button', className:'button secondary', 'aria-controls':recapId,
+        onClick: () => openReviewRecap(recapId)}, '回到 D1 综合复盘')),
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
       unit.learningObjective && h('p', null, h('strong', null, '学习目标　'), unit.learningObjective),

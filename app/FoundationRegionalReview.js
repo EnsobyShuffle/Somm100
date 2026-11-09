@@ -5,7 +5,7 @@ import {emptyD2Progress, readD2Progress, writeD2Progress, d2UnitResult} from '..
 import {recordFoundationAnswer, foundationOptions} from '../lib/foundation-study.mjs';
 import {mappedReviewUnit} from '../lib/foundation-quiz.mjs';
 import FoundationQuizReturn from './FoundationQuizReturn.js';
-import FoundationReviewRecap from './FoundationReviewRecap.js';
+import FoundationReviewRecap, {openReviewRecap} from './FoundationReviewRecap.js';
 import FoundationDiagram from './FoundationDiagram.js';
 import FoundationVideoStudy from './FoundationVideoStudy.js';
 import './foundation-study.css';
@@ -74,12 +74,8 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
     recap ? h('div', {className: 'button-row'},
       h(FoundationQuizReturn,{prefix:prefix}),
       h('button', {
-        type: 'button', className: 'button secondary', 'aria-controls': recapId, onClick: () => {
-          const details = document.getElementById(recapId);
-          if (!details) return;
-          details.open = true;
-          focusFoundationTarget(recapId + '-title');
-        }
+        type: 'button', className: 'button secondary', 'aria-controls': recapId,
+        onClick: () => openReviewRecap(recapId)
       }, `回到 ${recap.title}`)) : h(FoundationQuizReturn,{prefix:prefix}),
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
