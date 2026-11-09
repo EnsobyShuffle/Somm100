@@ -27,6 +27,13 @@ const cases = [
   },
 ];
 
+const drinkCards = [
+  {name: 'A｜威士忌', process: '谷物发酵后蒸馏，并在木桶中熟成', abv: '43% vol.'},
+  {name: 'B｜橙味利口酒', process: '基酒加入橙皮风味和糖', abv: '25% vol.'},
+  {name: 'C｜日本清酒', process: '米、米曲与水酿造', abv: '15% vol.'},
+  {name: 'D｜白酒', process: '高粱经糖化、发酵和蒸馏', abv: '52% vol.'},
+];
+
 export default function FoundationAssessmentPractice() {
   return (
     <section aria-labelledby="foundation-assessment-practice-title">
@@ -44,6 +51,34 @@ export default function FoundationAssessmentPractice() {
           <p><strong>自查　</strong>{check}</p>
         </details>
       ))}
+      <section className="foundation-week" aria-labelledby="foundation-assessment-drink-comparison-title">
+        <h4 id="foundation-assessment-drink-comparison-title">四类酒水辨析</h4>
+        <p>下面是四张虚构的产品资料卡。练习只比较卡片上的酒款。</p>
+        <div className="foundation-cohort-grid">
+          {drinkCards.map(({name, process, abv}) => (
+            <article key={name} className="foundation-cohort-city">
+              <h5>{name}</h5>
+              <dl>
+                <div><dt>工艺线索</dt><dd>{process}</dd></div>
+                <div><dt>标示酒精度</dt><dd>{abv}</dd></div>
+              </dl>
+            </article>
+          ))}
+        </div>
+        <ol>
+          <li>找出两张把蒸馏写作主要生产步骤的资料卡，再指出哪张写明用米和米曲酿造、哪张写明用基酒调配。</li>
+          <li>客人希望选这四款中酒精度较低、喝起来偏干的一款。你现在能确认哪一项？还需要查什么？</li>
+          <li>同伴说「这款白酒度数最高，所以一定属于某种香型」。请用一句话解释为什么还要查背标或厂商资料。</li>
+        </ol>
+        <details id="foundation-assessment-drink-comparison-answer">
+          <summary>展开四款酒水的参考判断</summary>
+          <ol>
+            <li>A 和 D 都写明发酵后蒸馏。C 的线索是用米和米曲酿造。B 的成品线索是以基酒加风味和糖调配。</li>
+            <li>只看标示酒精度，C 在这四款中最低。偏干与否还要查这款酒的风味说明、技术资料，或实际品尝。</li>
+            <li>D 的 52% vol. 说明这瓶酒标示的酒精度。要确认香型，继续查背标或厂商资料。</li>
+          </ol>
+        </details>
+      </section>
       <p className="fine-print">以上为课后自练，展开参考思路不计分。正式考核方式与评分以当期通知为准。</p>
     </section>
   );

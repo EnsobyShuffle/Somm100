@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · 四类酒水辨析
+
+基线 `a24d8e8eb110c2f2bc95b1f1d58724aa7927b05a`，分支 `migration/tencent-somm100`。先核对当前源码、上轮检查点、迁移说明及来源映射。
+
+- **本轮交付**。在 `app/FoundationAssessmentPractice.tsx` 新增威士忌、橙味利口酒、日本清酒和白酒四张虚构资料卡，以及三道原创自查。练习分别比较生产过程、分开酒精度和干甜判断、识别确认白酒香型所需资料。`app/FoundationPage.tsx` 的考核复习区新增直达按钮，卡片在窄屏可换行，答案可展开。保留原有练习、题目 ID、品牌、讲师、图片和浏览器学习记录。此模块作为课后练习，不指定为 D5 教学或考试题。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五天面授和四类酒水在考核范围内。资料卡的工艺线索参考[欧盟蒸馏酒分类附件](https://eur-lex.europa.eu/eli/reg/2019/787/oj/eng)、[日本国税厅清酒技术资料](https://www.nta.go.jp/english/taxes/liquor_administration/02_2.htm)及[中国市场监管总局白酒生产资料](https://www.samr.gov.cn/spscs/tzgg/art/2023/art_c7f0624fa4fe46daa509549b5ba85ab3.html)。[2024 年教师会议提纲](https://app.notion.com/p/3fb17d16de4c8104bc1dec3c935e26e1)是历史会议材料。检索仍未找到第22期正式逐日课表和 WPS／有道原件。
+- **日次状态**。D1 10 节、25 道自测、3 个案例。D2 9 个品种、6 个法国专题、42 道自测、3 个案例。D3 13 节、30 道自测、4 个案例。D4 15 节、45 道自测、5 个案例。D5 各城面授日期已核实，教学与考核分配待确认。第22期无 D6 面授。
+- **验证与保存**。87 项 Node 回归、53 个单元渲染、36 个焦点跳转、四卡三题与答案折叠、课后练习不写入记录及本机备份恢复通过。CloudBase 整站和专注入口构建通过，共 450 文件，入口 `./assets/app-BrWGrD06.js`，SHA256 `f31f5f5080f7ad0e580aeb237b7fd228e03fd99b1707393fcb34e55f5ad34532`。独立预览第 22 版，739633 字节，文件 URL 和模拟 HTTPS 的 jsdom 验证通过。
+- **部署与接续**。本轮未部署，仍缺可用的已授权腾讯发布通路。手机实机和线上验收待完成。下一断点是取得本期正式课表与原始课件，核对 D5 教学和考核分配。保留 `[skip netlify]` 及 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · D1–D4 待复习清单
 
 基线 `c103f5e4bbb6b0dab37367a50dcb3382c88ca250`，分支 `migration/tencent-somm100`。先核对当前源码、上轮检查点、迁移说明及来源映射。
