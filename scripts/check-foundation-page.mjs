@@ -179,15 +179,17 @@ try{
  assert.equal(window.location.hash,'#foundation');
  assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
  const compactBridge=document.querySelector('[aria-labelledby="foundation-cohort-bridge-title"]');
+ const finalBridge=document.querySelector('[aria-labelledby="foundation-cohort-final-bridge-title"]');
  const citySelect=compactBridge.querySelector('select');
  const bridgeDay=document.getElementById('foundation-bridge-day');
  assert.equal(bridgeDay.options.length,21);
  assert.equal(bridgeDay.value,'21');
  assert.equal(compactBridge.querySelectorAll('time').length,0);
+ assert.equal(finalBridge.querySelectorAll('time').length,0);
  const bridgeRecord=window.localStorage.getItem(FOUNDATION_BRIDGE_KEY);
- for(const [city,dates] of [
-   ['深圳',['2026-12-04','2026-12-09','2026-12-10','2026-12-15']],
-   ['北京',['2026-11-25','2026-11-30','2026-12-01','2026-12-06']],
+ for(const [city,dates,finalDays,finalDates] of [
+   ['深圳',['2026-12-04','2026-12-09','2026-12-10','2026-12-15'],31,['2026-12-18','2027-01-02','2027-01-03','2027-01-17']],
+   ['北京',['2026-11-25','2026-11-30','2026-12-01','2026-12-06'],33,['2026-12-09','2026-12-25','2026-12-26','2027-01-10']],
  ]){
    await act(async()=>{
      citySelect.value=city;
@@ -195,6 +197,8 @@ try{
    });
    assert.match(compactBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*12'));
    assert.deepEqual([...compactBridge.querySelectorAll('time')].map(time=>time.dateTime),dates);
+   assert.match(finalBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*'+finalDays));
+   assert.deepEqual([...finalBridge.querySelectorAll('time')].map(time=>time.dateTime),finalDates);
    assert.equal(bridgeDay.value,'21');
  }
  const compactTargets=['foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-d1-quiz-title','foundation-d2-quiz-title','foundation-d3-title','foundation-d4-title'];
@@ -203,6 +207,13 @@ try{
  for(const [i,button] of compactButtons.entries()){
    await act(async()=>button.click());
    assert.equal(document.activeElement.id,compactTargets[i]);
+ }
+ const finalTargets=['foundation-d3-title','foundation-d4-title','foundation-d3-quiz-title','foundation-d4-quiz-title','foundation-assessment-title','foundation-assessment-practice-title'];
+ const finalButtons=[...finalBridge.querySelectorAll('button')];
+ assert.equal(finalButtons.length,finalTargets.length);
+ for(const [i,button] of finalButtons.entries()){
+   await act(async()=>button.click());
+   assert.equal(document.activeElement.id,finalTargets[i]);
  }
  assert.equal(window.location.hash,'#foundation');
  assert.equal(window.localStorage.getItem(FOUNDATION_BRIDGE_KEY),bridgeRecord);
@@ -220,5 +231,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:29,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:35,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

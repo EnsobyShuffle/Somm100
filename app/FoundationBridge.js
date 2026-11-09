@@ -56,30 +56,65 @@ const compactBlocks = [
   },
 ];
 
+const finalReviewBlocks = [
+  {
+    title: '用证据复盘 D3–D4',
+    work: '从欧洲产区选一款静止酒，再从 D4 选一款起泡或加强酒。各写下一个产地线索和一个工艺线索，并说明哪条线索能帮助判断风格。',
+    check: '遮住笔记，复述两款酒的关键区别。圈出一个自己只是在猜的地方，回到对应专题核对。',
+    targets: [
+      {headingId:'foundation-d3-title', label:'D3 欧洲产区'},
+      {headingId:'foundation-d4-title', label:'D4 工艺与世界产区'},
+      {headingId:'foundation-d3-quiz-title', label:'D3 自测'},
+      {headingId:'foundation-d4-quiz-title', label:'D4 自测'},
+    ],
+  },
+  {
+    title: '和同伴走一轮综合自练',
+    work: '先做一题盲品或口头解释，再选一个服务情境。从两份团队酒单草案各挑一条待核对的记录，互相追问选酒理由。',
+    check: '写下一个有观察支持的判断、一句对客解释和一个待核对的酒单字段。把答不清的问题带回课堂。',
+    targets: [
+      {headingId:'foundation-assessment-title', label:'盲品、口试和团队酒单'},
+      {headingId:'foundation-assessment-practice-title', label:'餐厅情境自练'},
+    ],
+  },
+];
+
+function bridgeBlocks(blocks, calendar) {
+  return h('div', {className:'foundation-cohort-grid'}, blocks.map((block, index) => {
+    const range = calendar?.ranges[index];
+    return h('article', {key:block.title, className:'foundation-cohort-city'},
+      h('h4', null, `第 ${index + 1} 段｜${block.title}`),
+      range && h('p', {className:'fine-print'}, '建议日期　',
+        h('time', {dateTime:range[0]}, range[0].replaceAll('-', '/')), ' 至 ',
+        h('time', {dateTime:range[1]}, range[1].replaceAll('-', '/'))),
+      h('p', null, block.work),
+      h('p', null, h('strong', null, '自查　'), block.check),
+      h('div', {className:'button-row'}, block.targets.map(targetButton)));
+  }));
+}
+
 function CohortBridge() {
   const [cityName, setCityName] = useState('');
   const city = cohort.cities.find(item => item.city === cityName);
   const calendar = city && bridgeCalendar(city.stages[0].at(-1), city.stages[1][0]);
+  const finalCalendar = city && bridgeCalendar(city.stages[1].at(-1), city.stages[2][0]);
 
-  return h('section', {'aria-labelledby':'foundation-cohort-bridge-title'},
-    h('h3', {id:'foundation-cohort-bridge-title'}, '第22期｜课间复习建议'),
-    h('p', null, '选上课城市，查看第一、第二阶段之间可用的完整日期，再按下面两个学习段安排复习。练习顺序由学习页面建议，面授、考试和作业以课程方通知为准。'),
-    h('div', {className:'foundation-study-controls'},
-      h('label', null, '上课城市', h('select', {value:cityName, onChange:event=>setCityName(event.target.value)},
-        h('option', {value:''}, '请选择城市'),
-        cohort.cities.map(item=>h('option', {key:item.city, value:item.city}, item.city))))),
-    calendar && h('p', {role:'status'}, `${cityName}｜两段面授之间有 ${calendar.days} 个完整日历日。`),
-    h('div', {className:'foundation-cohort-grid'}, compactBlocks.map((block, index) => {
-      const range = calendar?.ranges[index];
-      return h('article', {key:block.title, className:'foundation-cohort-city'},
-        h('h4', null, `第 ${index + 1} 段｜${block.title}`),
-        range && h('p', {className:'fine-print'}, '建议日期　',
-          h('time', {dateTime:range[0]}, range[0].replaceAll('-', '/')), ' 至 ',
-          h('time', {dateTime:range[1]}, range[1].replaceAll('-', '/'))),
-        h('p', null, block.work),
-        h('p', null, h('strong', null, '自查　'), block.check),
-        h('div', {className:'button-row'}, block.targets.map(targetButton)));
-    })));
+  return h(React.Fragment, null,
+    h('section', {'aria-labelledby':'foundation-cohort-bridge-title'},
+      h('h3', {id:'foundation-cohort-bridge-title'}, '第22期｜课间复习建议'),
+      h('p', null, '选上课城市，下方两次课间都会显示可用于复习的完整日期。练习由学习页面建议，面授、考试和作业以课程方通知为准。'),
+      h('div', {className:'foundation-study-controls'},
+        h('label', null, '上课城市', h('select', {value:cityName, onChange:event=>setCityName(event.target.value)},
+          h('option', {value:''}, '请选择城市'),
+          cohort.cities.map(item=>h('option', {key:item.city, value:item.city}, item.city))))),
+      h('h4', null, '第一阶段后｜复习基础，预习产区与工艺'),
+      calendar && h('p', {role:'status'}, `${cityName}｜两段面授之间有 ${calendar.days} 个完整日历日。`),
+      bridgeBlocks(compactBlocks, calendar)),
+    h('section', {className:'foundation-week', 'aria-labelledby':'foundation-cohort-final-bridge-title'},
+      h('h4', {id:'foundation-cohort-final-bridge-title'}, '第二阶段后｜综合复盘'),
+      h('p', null, '从第二阶段末日之后到第三阶段开始前，按自己的进度复盘葡萄酒知识和餐厅情境。'),
+      finalCalendar && h('p', {role:'status'}, `${cityName}｜两段面授之间有 ${finalCalendar.days} 个完整日历日。`),
+      bridgeBlocks(finalReviewBlocks, finalCalendar)));
 }
 
 export default function FoundationBridge() {

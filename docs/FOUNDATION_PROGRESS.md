@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · 第二阶段后综合复盘
+
+基线 `57c4bc198b2030af9c5f246f6ac906708a90c8c2`，分支 `migration/tencent-somm100`。先核对当前源码、上轮检查点、迁移说明及来源映射。
+
+- **本轮交付**。在 `app/FoundationBridge.js` 用现有五城日期和日历逻辑，增加第二阶段末日后至第三阶段首日前的复盘窗口。北京、上海、成都、深圳、广州分别有 33、31、30、31、30 个完整日历日。一个城市选择同步更新两次课间。新增两段原创练习及六个复习入口。先比较两款酒的产地、工艺与风格证据，再与同伴练盲品或口头表达、服务与团队酒单复核。两段日期为学习建议。保留既有第一段课间、21 天资源、稳定 ID、本机记录与备份兼容。
+- **来源与核对**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行课前框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)及[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五天面授及考核范围。[招生宣传与报名执行包](https://app.notion.com/p/40717d16de4c81b8a82cd16e3fba40a6)提到六天，同时标为未发布内部模板并要求以批准的班期为准。2024 年有道导入笔记只支持历史阅读范围。仍缺第22期批准的逐日课表和 WPS／有道原始课件。
+- **日次状态**。D1 10 节专题、25 道自测、3 个案例。D2 9 个品种、6 个法国专题、42 道自测、3 个案例。D3 13 节、30 道自测、4 个案例。D4 15 节、45 道自测、5 个案例。D5 日期见已核验的各城第三阶段安排，教学内容和考核分配待确认。第22期无 D6 面授。
+- **验证与保存**。87 项 Node 回归、53 个单元 React 渲染、五城跨年日期、新增六个跳转和原 21 天本机进度及备份恢复通过。CloudBase 整站及专注入口构建通过，共 450 文件，整站入口 `./assets/app-D7EFlHbZ.js`，SHA256 `eae71802dc69499d3d3a43cef08cb4244125af089fb9d81742c83a4952ebb1d6`。独立预览第 20 版，736331 字节，文件 URL 和模拟 HTTPS 的 jsdom 验证通过。
+- **部署和接续**。本轮未部署。上一轮记录的腾讯测试域公开检查返回 `URL ... is not accessible via this tool`，当前仍无可用的已授权腾讯发布通路，手机实机和线上验收待完成。下一断点为核对 D5 教学和考核分配。保留 `[skip netlify]` 及 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · 按五城开课日期安排预习
 
 基线 `95f5ff40422fa2ee54c4bd5476c38dc2d9e088e4`，分支 `migration/tencent-somm100`。已核对迁移说明、上轮检查点、当前 Foundation 源码和来源映射。

@@ -51,3 +51,14 @@ test('cohort 22 bridge ranges exclude both class days in each city', () => {
   });
   assert.equal(bridgeCalendar('2026-12-30','2026-12-31'), null);
 });
+
+test('second break dates use the five verified third-stage dates across the year boundary', () => {
+  const {cities} = json('foundation-cohort22');
+  assert.deepEqual(cities.map(({city, stages}) => [city, bridgeCalendar(stages[1].at(-1), stages[2][0])]), [
+    ['北京', {days:33, ranges:[['2026-12-09','2026-12-25'],['2026-12-26','2027-01-10']]}],
+    ['上海', {days:31, ranges:[['2026-12-12','2026-12-27'],['2026-12-28','2027-01-11']]}],
+    ['成都', {days:30, ranges:[['2026-12-15','2026-12-29'],['2026-12-30','2027-01-13']]}],
+    ['深圳', {days:31, ranges:[['2026-12-18','2027-01-02'],['2027-01-03','2027-01-17']]}],
+    ['广州', {days:30, ranges:[['2026-12-20','2027-01-03'],['2027-01-04','2027-01-18']]}],
+  ]);
+});
