@@ -5,6 +5,7 @@ import FoundationBridge from './FoundationBridge';
 import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
 import FoundationConcepts from './FoundationConcepts';
+import FoundationAssessmentPractice from './FoundationAssessmentPractice';
 import FoundationCohort from './FoundationCohort';
 import FoundationD1Review from './FoundationD1Review';
 import FoundationD3Review from './FoundationD3Review';
@@ -45,12 +46,13 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <li><strong>考核项目</strong>　招生资料列出笔试、盲品、口试、餐酒搭配和侍酒服务实操，范围也包括烈酒、利口酒、清酒与白酒。</li>
   <li><strong>团队酒单作业</strong>　设计 12 款杯卖酒及 40 款主酒单酒款。可先分开列清单，再与同组学员核对数量和选酒理由。</li>
  </ul>
- <p>葡萄酒部分可按主题回看已有复习单元。实操和其他酒类请结合讲师的当期课堂资料。</p>
+ <p>葡萄酒部分可按主题回看。服务、餐酒搭配与其他酒水可用下方情境自练，再和讲师的当期课堂资料对照。</p>
  <div className="button-row">
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d1-title')}>复习葡萄酒基础</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d2-title')}>复习葡萄品种</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d3-title')}>复习欧洲产区</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-title')}>复习工艺与世界产区</button>
+  <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-practice-title')}>餐厅情境自练</button>
  </div>
  <p className="fine-print">考核范围来自本页的第22期招生资料。复习索引按主题整理，具体日期、评分标准和提交方式以当期课程方通知为准。</p>
  <details id="foundation-assessment-oral">
@@ -91,6 +93,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   </ol>
   <p className="fine-print">数量来自第22期招生资料。上述字段和复核步骤供自练，正式提交要求以课程方通知为准。</p>
  </details>
+ <FoundationAssessmentPractice/>
  <div className="button-row">
   <button className="button secondary" onClick={()=>go('service')}>服务情境练习</button>
   <button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button>

@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · 第22期餐厅情境自练
+
+基线 `540faf2b5756598908ed92538c21d69069bec5b8`，分支 `migration/tencent-somm100`。读回迁移说明、上一轮检查点、当前 Foundation 源码及来源映射。
+
+- **本轮交付**。从「查看考核范围与复习索引」进入「餐厅情境自练」。三道原创自练分别处理年份不一致时的核对和交接、两种烤鸡酱汁的搭配选择、其他酒水标签的事实与待查字段。每题有任务、折叠参考和复盘问题。新增 `app/FoundationAssessmentPractice.tsx`，稳定 ID 为 `foundation-assessment-practice-title`、`foundation-assessment-service-check`、`foundation-assessment-pairing`、`foundation-assessment-other-drinks`。练习位于正式课后的复习区，不写本机学习记录。
+- **来源和缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、标记过时的旧 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 知识提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)及[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)支持五天面授及服务、餐酒搭配、其他酒水纳入考核范围，未给逐日教学分配或评分方法。三题是补充自练，未分配到具体日次。仍缺当期确认课表、WPS 原始课件与可核对的有道原件。
+- **日次状态**。D1 10 节／25 道综合自测及 3 个书面案例。D2 9 个品种、6 个法国专题／42 道及 3 个书面案例。D3 13 节／30 道及 4 个书面案例。D4 15 节／45 道及 5 个书面案例。以上为专题复习。D5 当日教学及考核分配待确认。第22期五天面授，无 D6 面授。
+- **验证与保存**。85 项 Node 回归、53 个单元 React 渲染、22 个焦点入口、三题独立折叠及本机记录不变、D1–D4 答题恢复和备份恢复通过。CloudBase 整站和专注入口构建通过，共 450 个文件，整站入口 `./assets/app-CSHH9FIZ.js`，SHA256 `22477886e76060deee49f58f04bc40fb363d652c8065ef83d2a185e963f96b2b`。独立预览第 17 版，730931 字节，文件 URL 和模拟 HTTPS 的 jsdom 验证通过。
+- **部署和接续**。本轮构建待通过可用的已授权腾讯发布通路部署，线上和手机实机待验收。下一轮核对确认版课表及原件，并核验测试域实际构建。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · D1 与 D2 跨单元综合复盘
 
 基线 `f77adb92a43366a3a19aec3a9f78fc6d60877d6d`，分支 `migration/tencent-somm100`。核对腾讯迁移说明、上一轮检查点、当前源码及来源映射。
