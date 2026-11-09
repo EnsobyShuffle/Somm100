@@ -14,6 +14,7 @@ const {default:React,act}=await import('react');
 const {createRoot}=await import('react-dom/client');
 const {default:Page}=await import('../app/FoundationPage.tsx');
 const {default:sourceMap}=await import('../data/foundation-source-map.json');
+const {default:studyData}=await import('../data/foundation-study.json');
 const {FOUNDATION_STORAGE_KEY}=await import('../lib/foundation-study.mjs');
 const {FOUNDATION_BRIDGE_KEY}=await import('../lib/foundation-backup.mjs');
 const diagnostics=[],routes=[];const originalError=console.error;
@@ -94,6 +95,48 @@ try{
    assert.equal(window.location.hash,'#foundation');
    assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  }
+ const readiness=study.querySelector('#foundation-readiness-overview');
+ const groups=[...readiness.querySelectorAll('ol > li')];
+ assert.equal(groups.length,8);
+ assert(!readiness.open);
+ await act(async()=>readiness.querySelector('summary').click());
+ assert(readiness.open);
+ assert.deepEqual(groups.map(group=>group.querySelector('p').textContent),
+   [3,3,3,3,3,6,4,6].map(count=>count+' 题未答'));
+ const setStudyPace=async pace=>await act(async()=>{
+   const select=study.querySelector(':scope > .foundation-study-controls select');
+   select.value=String(pace);
+   select.dispatchEvent(new window.Event('change',{bubbles:true}));
+ });
+ async function openReadinessGroup(number) {
+   await act(async()=>groups[number-1].querySelector('button').click());
+   const quiz=study.querySelector(`#foundation-week-${number}-questions`);
+   assert(quiz.open);
+   assert.equal(document.activeElement.id,quiz.id+'-title');
+   return quiz;
+ }
+ await openReadinessGroup(8);
+ assert.equal(JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY)).period,8);
+ await openReadinessGroup(1);
+ await setStudyPace(4);
+ const quiz=await openReadinessGroup(8);
+ assert.equal(JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY)).period,4);
+ assert(study.querySelector('#foundation-week-7'));
+ await openReadinessGroup(7); // Same compact period must still open and focus the selected group.
+ const lastGroup=studyData.questions.filter(q=>q.week===8);
+ const first=lastGroup[0], wrong=(first.answer+1)%first.options.length;
+ const choose=async(q,choice)=>await act(async()=>quiz.querySelector(`input[name="${q.id}"][value="${choice}"]`).click());
+ await choose(first,wrong);
+ assert.equal(groups[7].querySelector('p').textContent,'5 题未答，1 题建议再看');
+ for(const q of lastGroup) await choose(q,q.answer);
+ assert.equal(groups[7].querySelector('p').textContent,'本组已准备好');
+ await act(async()=>[...quiz.querySelectorAll('button')].find(button=>button.textContent==='回到准备度总览').click());
+ assert.equal(document.activeElement.id,'foundation-readiness-overview-title');
+ const record=JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY));
+ assert.deepEqual(record.answers[first.id],{first:wrong,latest:first.answer});
+ assert.deepEqual(record.checks,JSON.parse(prepRecord).checks);
+ assert.equal(window.location.hash,'#foundation');
+
  const directory=document.querySelector('nav[aria-labelledby="foundation-directory-title"]');
  const stageTargets=['foundation-study-title','foundation-cohort-bridge-title','foundation-assessment-title','foundation-cohort-title'];
  const topicTargets=['foundation-bridge-title','foundation-d1-title','foundation-d1-quiz-title','foundation-d2-title','foundation-d2-quiz-title','foundation-france-title','foundation-d3-title','foundation-d3-quiz-title','foundation-d4-title','foundation-d4-quiz-title','foundation-sparkling-title'];
@@ -284,5 +327,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:38,writtenCaseQuestions:3,fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:38,writtenCaseQuestions:3,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

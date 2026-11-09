@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 开课前准备度总览
+
+基线 `2d3bd11c621b454e763385a30cfb756701c77cce`，分支 `migration/tencent-somm100`。已核对当前 Foundation 入口、来源映射、迁移说明及第 25 版检查点。
+
+- **本轮交付**。`app/FoundationStudy.js` 的课前路径新增「开课前准备度总览」。用现有 31 道题显示八组的未答数、待复习数和已准备好的组。点击进入题组时，自动定位对应的 8 周或 4 周进度，展开题目并聚焦。题组可返回总览，答对后实时更新。题目、题号、选项顺序规则、勾选状态、首次与最近答案沿用现有数据。导航沿用本机当前周字段，无新增存储键或计分规则。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。实际读取[准备度方案](https://app.notion.com/p/40717d16de4c81a4bd1df5ceede99a46)，核实八组、31 题、回到相应单元和保留首次答案的要求。沿用原题。再次读回[招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五天面授和单独游学。[单期开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)仍待填。Notion 与文件检索未取得本期确认版课表或 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道独立自测、3 个案例。D2 9 个品种、6 个法国专题、42 道独立自测、3 个案例。D3 13 节、30 道独立自测、4 个案例。D4 15 节、45 道独立自测、5 个案例。D5 五城日期已核实，教学和考核分配待确认。第22期无 D6 面授，游学单独安排。
+- **验证与保存**。87 项 Node 回归、53 个复习单元、两种节奏的题组跳转及同周切换、未答与待复习状态、重答保留首次答案、备份恢复、专注入口均通过。CloudBase 整站构建 450 个公开文件，入口 `./assets/app-B-ia8VO2.js`，SHA256 `820e896209e3033188c66e7375c983931ac4b051ae86943b5fe49453bb3d4ca5`。[独立预览第 26 版](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 746250 字节，文件 URL 和模拟 HTTPS 的 DOM 检查通过。
+- **部署与接续**。当前缺可用的已授权腾讯发布会话，未部署，手机实机与线上验收待完成。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。取得第22期逐日课表及原始课件后核对 D5 教学、考核分配和 D1–D4 对应关系。
+
+---
+
 # Foundation · 2026-11-10 · 笔试案例练习
 
 基线 `9222b85c267cff8796af436fa97d9521cd12912c`，分支 `migration/tencent-somm100`。已核对当前 Foundation 入口、来源映射、迁移说明及第 24 版检查点。

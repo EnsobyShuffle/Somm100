@@ -1,9 +1,10 @@
 'use client';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import data from '../data/foundation-study.json';
 import concepts from '../data/foundation-concepts.json';
 import FoundationPrepByCity from './FoundationPrepByCity';
+import {openReviewRecap} from './FoundationReviewRecap';
 import {FOUNDATION_STORAGE_KEY, emptyFoundationProgress, normalizeFoundationProgress, recordFoundationAnswer, foundationWeekResult, foundationOptions} from '../lib/foundation-study.mjs';
 import './foundation-study.css';
 
@@ -18,6 +19,7 @@ export default function FoundationStudy() {
   const [loaded, setLoaded] = useState(false);
   const [saveError, setSaveError] = useState('');
   const [canSave, setCanSave] = useState(false);
+  const pendingQuestions = useRef(null);
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
@@ -41,6 +43,24 @@ export default function FoundationStudy() {
     }
   }, [progress, loaded, canSave]);
 
+  useEffect(() => {
+    if (pendingQuestions.current) {
+      openReviewRecap(pendingQuestions.current);
+      pendingQuestions.current = null;
+    }
+  }, [progress.period]);
+
+  function showWeekQuestions(week) {
+    const period = progress.pace === 4 ? Math.ceil(week.number / 2) : week.number;
+    const target = `${week.id}-questions`;
+    if (period === progress.period) {
+      openReviewRecap(target);
+      return;
+    }
+    pendingQuestions.current = target;
+    setProgress(p => ({...p, period}));
+  }
+
   const firstWeek = progress.pace === 4 ? progress.period * 2 - 1 : progress.period;
   const visibleWeeks = data.weeks.filter(w => w.number === firstWeek || (progress.pace === 4 && w.number === firstWeek + 1));
   return h('section', {className: 'white-panel foundation-study', 'aria-labelledby': 'foundation-study-title'},
@@ -56,6 +76,22 @@ export default function FoundationStudy() {
         Array.from({length: progress.pace}, (_, i) => h('option', {value: i + 1, key: i}, `第 ${i + 1} 周`))))),
     h('p', {className: 'fine-print'}, '自查不计分；准备度题用于发现需要复习的概念，不设淘汰线。进度及首次／最近答案仅保存在当前浏览器，不会同步到账号或讲师端。'),
     saveError ? h('p', {role: 'alert'}, saveError) : null,
+    h('details', {id: 'foundation-readiness-overview', className: 'foundation-review-recap'},
+      h('summary', {id: 'foundation-readiness-overview-title'}, '开课前准备度总览'),
+      h('p', null, `查看八组共 ${data.questions.length} 道题。建议先回看答错的概念，再补未答题。状态按最近一次作答更新，不影响报名。`),
+      h('ol', null, data.weeks.map(week => {
+        const {total, answered, review, ready} = foundationWeekResult(week, data, progress);
+        const unanswered = total - answered;
+        const status = ready ? '本组已准备好' : [
+          unanswered > 0 && `${unanswered} 题未答`,
+          review > 0 && `${review} 题建议再看`,
+        ].filter(Boolean).join('，');
+        return h('li', {key: week.id},
+          h('strong', null, week.title),
+          h('p', null, loaded ? status : '正在读取本机记录'),
+          h('button', {type: 'button', className: 'button secondary', disabled: !loaded,
+            onClick: () => showWeekQuestions(week)}, `练习第 ${week.number} 组`));
+      }))),
     visibleWeeks.map(week => {
       const result = foundationWeekResult(week, data, progress);
       const questions = data.questions.filter(q => q.week === week.number);
@@ -71,8 +107,8 @@ export default function FoundationStudy() {
               const checked = e.target.checked;
               setProgress(p => ({...p, checks: {...p.checks, [check.id]: checked}}));
             }}), h('span', null, check.text)))),
-        h('details', null,
-          h('summary', null, `准备度选择题 · ${questions.length} 题`),
+        h('details', {id: `${week.id}-questions`},
+          h('summary', {id: `${week.id}-questions-title`}, `准备度选择题 · ${questions.length} 题`),
           h('p', {role: 'status'}, result.ready ? '本组概念检查：已准备好。你仍可返回阅读和自查。' : result.answered < result.total ? `已作答 ${result.answered} / ${result.total}，完成后查看本组准备度。` : '建议再看一遍本周内容，然后重新选择。'),
           week.number === 8 ? h('p', null, '这部分只是第一次预览；没记住也没关系，正式课程和三周桥接还会再次学习。') : null,
           questions.map(q => {
@@ -88,6 +124,8 @@ export default function FoundationStudy() {
                 h('p', null, correct ? `理解正确：${q.topic}。` : `再看一下「${q.topic}」。正确理解是：${q.options[q.answer]}。`),
                 !correct ? h('button', {type: 'button', className: 'button secondary', onClick: () => scrollToConcept(`${week.id}-digest`)}, '返回本周知识提要') : null,
                 h('p', {className: 'fine-print'}, `首次选择：${q.options[entry.first]}；最近选择：${q.options[entry.latest]}`)) : null);
-          })));
+          }),
+          h('button', {type: 'button', className: 'button secondary',
+            onClick: () => openReviewRecap('foundation-readiness-overview')}, '回到准备度总览')));
     }));
 }
