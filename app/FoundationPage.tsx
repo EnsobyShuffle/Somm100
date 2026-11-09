@@ -7,6 +7,7 @@ import FoundationStudy from './FoundationStudy';
 import FoundationConcepts from './FoundationConcepts';
 import FoundationAssessmentPractice from './FoundationAssessmentPractice';
 import FoundationCohort from './FoundationCohort';
+import FoundationDirectory from './FoundationDirectory';
 import FoundationD1Review from './FoundationD1Review';
 import FoundationD3Review from './FoundationD3Review';
 import FoundationD2Quiz from './FoundationD2Quiz';
@@ -36,7 +37,7 @@ export default function FoundationPage({go}:FoundationPageProps){
 
 function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
  return (<><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
-<div className="button-row"><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-study-title')}>课前预习</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-bridge-title')}>课堂间学习路径</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d1-title')}>D1 课堂后复习</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d1-quiz-title')}>D1 综合自测</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d2-title')}>D2 葡萄品种复习</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d2-quiz-title')}>D2 综合自测</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-france-title')}>法国专题复习</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d3-title')}>D3 欧洲产区</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d3-quiz-title')}>D3 综合自测</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-title')}>D4 工艺与世界产区</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-quiz-title')}>D4 综合自测</button><button className="button secondary" onClick={()=>focusFoundationTarget('foundation-sparkling-title')}>起泡酒练习</button></div><FoundationCohort/><FoundationBackup onRestored={onRestored}/><FoundationBridge/><FoundationStudy/><FoundationConcepts/>
+<FoundationDirectory/><FoundationCohort/><FoundationBackup onRestored={onRestored}/><FoundationBridge/><FoundationStudy/><FoundationConcepts/>
 <FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
 <section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
  <h2 id="foundation-course-title">进入正式课程之后</h2>
@@ -94,6 +95,9 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <p className="fine-print">数量来自第22期招生资料。上述字段和复核步骤供自练，正式提交要求以课程方通知为准。</p>
  </details>
  <FoundationAssessmentPractice/>
+ <h3 id="foundation-certificate-title">结课与证书</h3>
+ <p>第22期招生资料列出 SOMM100 初级侍酒师证书和见习侍酒师证书。初级证书涉及符合要求的餐饮行业在职经历。应届实习生适用见习证书规则，达到相关全职工作条件后可申请转换。</p>
+ <p className="fine-print">以上为 SOMM100 项目证书。申请条件、材料和办理方式请向课程方确认。</p>
  <div className="button-row">
   <button className="button secondary" onClick={()=>go('service')}>服务情境练习</button>
   <button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button>

@@ -51,13 +51,31 @@ try{
    assert.equal(window.location.hash,'#foundation');
    assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  }
- const top=document.querySelector('.button-row');
- const targets=['foundation-study-title','foundation-bridge-title','foundation-d1-title','foundation-d1-quiz-title','foundation-d2-title','foundation-d2-quiz-title','foundation-france-title','foundation-d3-title','foundation-d3-quiz-title','foundation-d4-title','foundation-d4-quiz-title','foundation-sparkling-title'];
- assert.equal(top.querySelectorAll('button').length,targets.length);
- for(const [i,button] of [...top.querySelectorAll('button')].entries()){
-   assert(document.getElementById(targets[i]));
-   await act(async()=>button.click());assert.deepEqual(scrolls.at(-1),{id:targets[i],behavior:'instant',block:'start'});assert.equal(document.activeElement.id,targets[i]);
+ const directory=document.querySelector('nav[aria-labelledby="foundation-directory-title"]');
+ const stageTargets=['foundation-study-title','foundation-cohort-bridge-title','foundation-assessment-title','foundation-cohort-title'];
+ const topicTargets=['foundation-bridge-title','foundation-d1-title','foundation-d1-quiz-title','foundation-d2-title','foundation-d2-quiz-title','foundation-france-title','foundation-d3-title','foundation-d3-quiz-title','foundation-d4-title','foundation-d4-quiz-title','foundation-sparkling-title'];
+ const topicDisclosure=directory.querySelector('details');
+ const stages=[...directory.querySelectorAll(':scope > div button')];
+ const topics=[...topicDisclosure.querySelectorAll('button')];
+ assert.deepEqual(stages.map(button=>button.querySelector('strong').textContent),['课前预习','课间复习','考核与结课','五城班期与报名']);
+ assert.equal(topicDisclosure.open,false);
+ const recordsBeforeDirectory=Object.entries(window.localStorage);
+ for(const [buttons,targets] of [[stages,stageTargets],[topics,topicTargets]]){
+   assert.equal(buttons.length,targets.length);
+   if(buttons===topics){
+     await act(async()=>topicDisclosure.querySelector('summary').click());
+     assert.equal(topicDisclosure.open,true);
+   }
+   for(const [i,button] of buttons.entries()){
+     await act(async()=>button.click());
+     assert.deepEqual(scrolls.at(-1),{id:targets[i],behavior:'instant',block:'start'});
+     assert.equal(document.activeElement.id,targets[i]);
+     assert.equal(window.location.hash,'#foundation');
+   }
  }
+ await act(async()=>topicDisclosure.querySelector('summary').click());
+ assert.equal(topicDisclosure.open,false);
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforeDirectory);
  for(const a of document.querySelectorAll('a[href^="#foundation-"]')){
    await act(async()=>a.click());assert.deepEqual(scrolls.at(-1),{id:a.hash.slice(1),behavior:'instant',block:'start'});assert.equal(document.activeElement.id,a.hash.slice(1));
    assert.equal(window.location.hash,'#foundation','Concept navigation must not replace app route');
@@ -92,6 +110,8 @@ try{
  await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看第22期课间复习').click());
  assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
  const assessment = document.querySelector('[aria-labelledby="foundation-course-title"]');
+ const certificate=assessment.querySelector('#foundation-certificate-title');
+ assert.match(certificate.nextElementSibling.textContent,/初级侍酒师证书.*见习侍酒师证书/);
  const recordsBeforePractice = Object.entries(window.localStorage);
  await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看考核范围与复习索引').click());
  assert.equal(document.activeElement.id,'foundation-assessment-title');
@@ -157,5 +177,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:12,focusedDestinations:22,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:25,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

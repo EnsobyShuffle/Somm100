@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · 课程导览与结课说明
+
+基线 `ce6f20a29d78dc7a18cbab65e2eaf6c44dccd1c1`，分支 `migration/tencent-somm100`。先核对远端分支、迁移说明、上轮检查点、Foundation 实际入口及来源映射。
+
+- **页面与内容**。新增 `app/FoundationDirectory.tsx`，页首提供课前预习、五城课间复习、考核与结课、五城班期与报名四个入口。21 天学习路径、D1–D4 复习与自测、法国专题和起泡酒练习共 11 个入口集中在默认收起的专题目录。窄屏网格按容器宽度换列，入口和折叠控件至少 44px。沿用既有目标 ID、路由、品牌、图片及本机进度。正式课程复习区补上初级、见习证书及申请转换的说明，具体条件和办理方式仍由课程方确认。
+- **来源**。重读 [产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已标记过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 知识提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)、[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)及[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)。招生正文明确初级、见习证书适用路径和五天面授。Notion 和文件检索未找到当期确认版逐日课表或原始课件，相关运营模板只可作为线索。
+- **日次状态**。D1 10 节、25 道自测、3 个案例。D2 9 个品种、6 个法国专题、42 道自测、3 个案例。D3 13 节、30 道自测、4 个案例。D4 15 节、45 道自测、5 个案例。以上为已有专题复习。D5 教学和考核分配待确认。第22期无 D6 面授。
+- **验证与保存**。85 项 Node 回归、53 个 React 单元、15 个课程导览入口、25 个焦点定位、本机记录及备份恢复通过。CloudBase 整站及专注入口构建通过，共 450 个文件，入口 `./assets/app-DPpJl0Er.js`，SHA256 `f5189da14614081c2ed908e3d714a9663eff646ea458711ea91841e8b4cf54a0`。独立预览第 18 版，732462 字节，文件 URL 和模拟 HTTPS 的 jsdom 验证通过。
+- **部署和接续**。本轮未部署。读取腾讯测试域的公开网页检查返回 `URL ... is not accessible via this tool`，无法确认远端当前构建。仍缺可用的已授权腾讯发布通路，手机实机及线上待验收。课程内容接续需第22期确认版逐日课表、WPS 或有道原件，重点核对 D5 和证书的具体条件。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · 第22期餐厅情境自练
 
 基线 `540faf2b5756598908ed92538c21d69069bec5b8`，分支 `migration/tencent-somm100`。读回迁移说明、上一轮检查点、当前 Foundation 源码及来源映射。
