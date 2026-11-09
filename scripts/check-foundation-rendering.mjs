@@ -4,6 +4,7 @@
 // CSS is ignored: this verifies real React DOM/effects/storage, NOT visual layout.
 import assert from 'node:assert/strict';
 import {foundationDiagrams} from '../lib/foundation-diagrams.mjs';
+import {foundationOptions} from '../lib/foundation-study.mjs';
 import {register} from 'node:module';
 register('./foundation-render-loader.mjs', import.meta.url);
 const {JSDOM} = await import(process.env.FOUNDATION_DOM_MODULE || 'jsdom');
@@ -269,8 +270,12 @@ try {
     const originalQuestion = quizData.questions.find(q => q.unitIds.includes(`${prefix}-${unitId}`));
     const quizKey = `somm100.foundation.${day.toLowerCase()}-quiz.v1`;
     const wrong = (originalQuestion.answer + 1) % originalQuestion.options.length;
+    const [otherQuestion, correctedQuestion] = quizData.questions.filter(q=>q.id!==originalQuestion.id);
+    const otherWrong = (otherQuestion.answer + 1) % otherQuestion.options.length;
     const quizSeed = {version:1, unit:originalQuestion.number, checks:{}, answers:{
-      [originalQuestion.id]:{first:wrong, latest:wrong}
+      [originalQuestion.id]:{first:wrong, latest:wrong},
+      [otherQuestion.id]:{first:otherWrong, latest:otherWrong},
+      [correctedQuestion.id]:{first:(correctedQuestion.answer+1)%correctedQuestion.options.length, latest:correctedQuestion.answer}
     }};
     window.localStorage.clear();
     window.localStorage.setItem(quizKey, JSON.stringify(quizSeed));
@@ -285,6 +290,22 @@ try {
     const quiz = document.getElementById(prefix + '-quiz');
     const review = document.getElementById(prefix + '-review');
     const recap = document.getElementById(prefix + '-recap');
+    const pending = document.getElementById(prefix + '-quiz-review-list');
+    assert.equal(pending.open, false);
+    assert.equal(pending.querySelector('summary').textContent, '待复习清单（2 题）');
+    const beforeOpen = window.localStorage.getItem(quizKey);
+    await act(async()=>pending.querySelector('summary').click());
+    assert.equal(pending.open, true);
+    assert.equal(window.localStorage.getItem(quizKey), beforeOpen);
+    const pendingNumbers = ()=>[...pending.querySelectorAll('button')].map(b=>Number(b.textContent.match(/^第 (\d+) 题/)[1]));
+    assert.deepEqual(pendingNumbers(),[originalQuestion.number,otherQuestion.number].sort((a,b)=>a-b));
+    const pendingLabel = q=>new RegExp(`^第 ${q.number} 题`);
+    await clickButton(pending, pendingLabel(originalQuestion));
+    assert.equal(document.activeElement.id, originalQuestion.id, 'The current pending question receives focus');
+    await clickButton(pending, pendingLabel(otherQuestion));
+    assert.equal(document.activeElement.id, otherQuestion.id);
+    assert.deepEqual(JSON.parse(window.localStorage.getItem(quizKey)).answers, quizSeed.answers);
+    await clickButton(pending, pendingLabel(originalQuestion));
     await clickButton(quiz, questionReviewLabel);
     assert.equal(document.activeElement.id, `${prefix}-${unitId}`);
     const lessonActions = document.activeElement.previousElementSibling;
@@ -308,11 +329,20 @@ try {
     await clickButton(review, returnLabel);
     assert.equal(document.activeElement.id, originalQuestion.id, 'Return restores the exact question after changing selection');
     assert.deepEqual(JSON.parse(window.localStorage.getItem(quizKey)), quizSeed);
+    for (const q of [originalQuestion, otherQuestion]) {
+      await clickButton(pending, pendingLabel(q));
+      const radios = quiz.querySelectorAll('input[type="radio"]');
+      await act(async()=>radios[foundationOptions(q).indexOf(q.answer)].click());
+      const savedAnswers = JSON.parse(window.localStorage.getItem(quizKey)).answers;
+      assert.deepEqual(savedAnswers[q.id], {first:quizSeed.answers[q.id].first, latest:q.answer});
+      assert.ok(!pendingNumbers().includes(q.number), 'Corrected questions leave the pending list');
+    }
+    assert.match(pending.textContent, /最近一次都答对了/);
     await act(async () => roundTripRoot.unmount());
   }
   assert.deepEqual(diagnostics, [], 'No React warnings or errors');
   console.log(JSON.stringify({status:'PASS',scope:'React SSR and jsdom; no browser layout or online acceptance',
-    results,totalUnits:results.reduce((sum,row)=>sum+row.units,0)}, null, 2));
+    results,pendingQuizListsVerified:4,totalUnits:results.reduce((sum,row)=>sum+row.units,0)}, null, 2));
 } finally {
   console.error = originalError;
   dom.window.close();

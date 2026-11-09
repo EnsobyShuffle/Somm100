@@ -1,3 +1,15 @@
+# Foundation · 2026-11-09 · D1–D4 待复习清单
+
+基线 `c103f5e4bbb6b0dab37367a50dcb3382c88ca250`，分支 `migration/tencent-somm100`。先核对当前源码、上轮检查点、迁移说明及来源映射。
+
+- **本轮交付**。D1–D4 共用的 `app/FoundationQuiz.js` 增加折叠式待复习清单，按题号显示最近一次答错的题，列出原题标题与主题，点击回到原题。学员先回忆自己上次的判断，再读解析、跳到对应章节核对、重答。未作答及最近一次答对的题不会进入清单。重答正确后退出清单，首次答案保留。沿用题目 ID、答案索引、复习往返及本机存储，无新增存储键或改变题库。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行课前框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)及[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。清单使用现有选择题，复习提示为本轮原创。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五天面授和考核范围。[单期开班模板与验收清单](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)的 D5/D6 日期和时段标为待填，未提供批准的逐日课表或原始课件。
+- **日次状态**。D1 10 节、25 道自测、3 个案例。D2 9 个品种、6 个法国专题、42 道自测、3 个案例。D3 13 节、30 道自测、4 个案例。D4 15 节、45 道自测、5 个案例。D1–D4 均新增待复习清单。D5 各城面授日期已确认，教学内容和考核分配待核。第22期无 D6 面授。
+- **验证与保存**。87 项 Node 回归、53 个 React 单元、四份清单的待复习筛选、原题聚焦、章节往返、重答和首次答案保留、备份恢复通过。CloudBase 整站及专注入口构建通过，共 450 文件，整站入口 `./assets/app-DFYAorvN.js`，SHA256 `7b2361186a40649cfd732112afba6f7cd726134a665a945b57b480969955aebe`。独立预览第 21 版，737214 字节，文件 URL 和模拟 HTTPS 的 jsdom 验证通过。
+- **部署与接续**。本轮未部署。沿用迁移检查点所载腾讯控制台会话及网络访问阻塞，当前缺可用的已授权发布通路。手机实机和线上验收待完成。课程下一断点为取得第22期确认版课表和 WPS／有道原始课件后核对 D5 的教学和考核分配。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · 第二阶段后综合复盘
 
 基线 `57c4bc198b2030af9c5f246f6ac906708a90c8c2`，分支 `migration/tencent-somm100`。先核对当前源码、上轮检查点、迁移说明及来源映射。

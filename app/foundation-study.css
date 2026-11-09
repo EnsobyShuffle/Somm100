@@ -96,3 +96,7 @@
 .foundation-directory-grid .button span { font-weight: 400; }
 .foundation-directory > details { border-top: 1px solid var(--line, #d8d4ca); }
 .foundation-directory summary { min-height: 44px; }
+
+.foundation-quiz-review-list ol { padding-inline-start: 1.4rem; }
+.foundation-quiz-review-list li + li { margin-top: .5rem; }
+.foundation-quiz-review-list button { width: 100%; text-align: start; overflow-wrap: anywhere; }

@@ -43,6 +43,7 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
   }, [data, prefix, loaded, question.id]);
   const entry = progress.answers[question.id];
   const result = quizResult(data, progress);
+  const pending = data.questions.filter(q => result.needsReview.includes(q.number));
   const groups = [...new Set(data.questions.map(q => q.group))];
   useEffect(() => {
     if (!navigationRequested.current) return;
@@ -50,7 +51,10 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
     focusFoundationTarget(question.id);
   }, [question.id]);
   function choose(number) {
-    if (number === question.number) return;
+    if (number === question.number) {
+      focusFoundationTarget(question.id);
+      return;
+    }
     navigationRequested.current = true;
     setProgress(p => ({...p,unit:number}));
   }
@@ -63,6 +67,14 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
       h('select', {value:question.number,disabled:!loaded,onChange:e=>choose(Number(e.target.value))},
         groups.map(group=>h('optgroup', {key:group,label:group}, data.questions.filter(q=>q.group===group).map(q=>h('option', {key:q.id,value:q.number}, `${q.number}. ${q.prompt}`))))))),
     h('p', {role:'status'}, `已答 ${result.answered} / ${result.total} 题，最近答对 ${result.correct} 题，待复习 ${result.needsReview.length} 题。`),
+    h('details', {id:prefix+'-quiz-review-list', className:'foundation-quiz-review-list'},
+      h('summary', null, `待复习清单（${pending.length} 题）`),
+      pending.length ? h(React.Fragment, null,
+        h('p', null, '选一题，先说出自己上次为什么这样选。再看解析、回到对应章节核对，最后重答。'),
+        h('ol', null, pending.map(item => h('li', {key:item.id},
+          h('button', {type:'button', className:'button secondary', disabled:!loaded, onClick:()=>choose(item.number)},
+            `第 ${item.number} 题 · ${item.group}｜${item.prompt}`))))) :
+        h('p', null, result.answered ? '已作答的题目最近一次都答对了。' : '作答后，最近一次答错的题目会出现在这里。')),
     h('fieldset', {key:question.id, id:question.id, className:'foundation-question'},
       h('legend', null, `${question.number}. ${question.prompt}`),
       foundationOptions(question).map((index,position)=>h('label', {key:index,className:'foundation-check'},
