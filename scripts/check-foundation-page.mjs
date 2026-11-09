@@ -156,6 +156,19 @@ try{
  const certificate=assessment.querySelector('#foundation-certificate-title');
  assert.match(certificate.nextElementSibling.textContent,/初级侍酒师证书.*见习侍酒师证书/);
  const recordsBeforePractice = Object.entries(window.localStorage);
+ const team=assessment.querySelector('#foundation-assessment-team');
+ const audit=team.querySelector('#foundation-assessment-team-audit');
+ const auditAnswer=audit.querySelector('details');
+ assert(!team.open && !auditAnswer.open);
+ await act(async()=>team.querySelector('summary').click());
+ assert(team.open && !auditAnswer.open);
+ assert.equal(audit.querySelectorAll(':scope > ul > li').length,4);
+ await act(async()=>auditAnswer.querySelector('summary').click());
+ assert(auditAnswer.open);
+ assert.equal(auditAnswer.querySelectorAll('li').length,3);
+ assert.match(auditAnswer.textContent,/9 款已确认可售/);
+ assert.match(auditAnswer.textContent,/主酒单另做一轮核对/);
+
  await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看考核范围与复习索引').click());
  assert.equal(document.activeElement.id,'foundation-assessment-title');
  await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='餐厅情境自练').click());
@@ -246,5 +259,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:36,drinkComparisonCases:3,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:36,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

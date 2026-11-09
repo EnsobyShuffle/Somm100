@@ -93,6 +93,25 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
    <li><strong>逐款核实</strong>　记录生产者、酒款名、年份或无年份、产地与风格。每款补一句选酒理由，标出还需要核实的资料。</li>
    <li><strong>交叉复核</strong>　交换草案，分别清点两份酒单，检查各自的重复项和风格缺口。请同学追问一款酒的选择理由，再据此修改。</li>
   </ol>
+  <div id="foundation-assessment-team-audit">
+   <h4>酒单复核｜12 行里有几款能卖？</h4>
+   <p>这是一份虚构的训练草案。杯卖草案有 12 行，前 8 行已核对，分别对应 8 款可售酒，且与后 4 行的酒款均不重复。余下 4 行如下。</p>
+   <ul>
+    <li><strong>第 9 行</strong>　山谷酒庄「晨雾」干白 2023，库存已确认。</li>
+    <li><strong>第 10 行</strong>　同一生产者、同一酒款和年份，名称用另一种译法，库存记录与第 9 行相同。</li>
+    <li><strong>第 11 行</strong>　海岸酒庄「潮线」干红 2022，库存为零。</li>
+    <li><strong>第 12 行</strong>　丘陵酒庄「微风」起泡酒，年份字段空白，实物未核对。</li>
+   </ul>
+   <p>和同伴各做一遍复核。算出目前已确认可售的不同酒款数，写下每条待处理记录的下一步，再说明这份杯卖核对能否用来确认 40 款主酒单已完成。</p>
+   <details id="foundation-assessment-team-audit-answer">
+    <summary>展开酒单复核参考</summary>
+    <ol>
+     <li>8 款已核对，再加第 9 行，共 9 款已确认可售。第 10 行合并到第 9 行，第 11 行标为缺货，补货确认前安排候选替代。</li>
+     <li>第 12 行待查实物和库存。酒标若明确标注年份就填写，核实为无年份再标注无年份。</li>
+     <li>主酒单另做一轮核对。分别清点两份酒单，按课程方确认的规则处理两份清单之间的重叠。</li>
+    </ol>
+   </details>
+  </div>
   <p className="fine-print">数量来自第22期招生资料。上述字段和复核步骤供自练，正式提交要求以课程方通知为准。</p>
  </details>
  <FoundationAssessmentPractice/>

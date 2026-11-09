@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 团队酒单复核与域名核查
+
+基线 `c829611b61901f570bf975459efdd984cc649d30`，分支 `migration/tencent-somm100`。已核对当前源码、上轮检查点、迁移说明及来源映射。
+
+- **本轮交付**。`app/FoundationPage.tsx` 的「团队酒单自练」新增一份原创虚构复核案例。学员从 12 行杯卖草案中识别同款异译、缺货和年份待查，并得出 9 款已确认可售。参考解答将主酒单单独核对，跨清单重叠规则留待课程方确认。保留原卡片、品牌、稳定 ID、本机记录和已有练习。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五天面授，以及 12 款杯卖、40 款主酒单的作业要求。虚构案例不安排在任何面授日。Notion 与文件检索仍缺当期逐日课表、WPS／有道原始课件及考核细则。
+- **日次状态**。D1 10 节、25 道自测、3 个案例。D2 9 个品种、6 个法国专题、42 道自测、3 个案例。D3 13 节、30 道自测、4 个案例。D4 15 节、45 道自测、5 个案例。D5 五城面授日期已核实，教学及考核分配待确认。第22期无 D6 面授。
+- **验证与保存**。87 项 Node 回归、53 个单元渲染、酒单草案与参考答案折叠、打开后本机记录不变、备份恢复通过。CloudBase 整站和专注入口构建通过，共 450 文件，整站入口 `./assets/app-a-2VZzev.js`，SHA256 `173aa1a28c2c7329935a124b9b97f4e1bc92bc5dc01220f7697b56de136946ce`。独立预览第 23 版，741477 字节，文件 URL 和模拟 HTTPS 的 jsdom 验证通过。
+- **域名与部署**。Henry 于 2026-11-10 提到网站审核通过，未取得该审核的官方类型或关联域名、腾讯绑定、证书及部署回执。公开网页检查对 `somm100.cn`、`www.somm100.cn` 和腾讯临时入口均返回 `URL … is not accessible via this tool`，无法据此判断站点或 DNS 状态。本轮未部署，仍需可用的已授权腾讯通路、线上版本及手机实机验收。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-09 · 四类酒水辨析
 
 基线 `a24d8e8eb110c2f2bc95b1f1d58724aa7927b05a`，分支 `migration/tencent-somm100`。先核对当前源码、上轮检查点、迁移说明及来源映射。
