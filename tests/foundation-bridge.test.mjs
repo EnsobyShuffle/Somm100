@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {FOUNDATION_BRIDGE_KEY,restoreFoundationBackup} from '../lib/foundation-backup.mjs';
 import {readD2Progress,writeD2Progress} from '../lib/foundation-d2.mjs';
+import {bridgeCalendar} from '../lib/foundation-bridge-calendar.mjs';
 
 const json = name => JSON.parse(readFileSync(new URL(`../data/${name}.json`, import.meta.url)));
 const {days} = json('foundation-bridge');
@@ -34,4 +35,19 @@ test('saved day 21 survives an old Foundation backup without a bridge record', (
   const old = {format:'somm100-foundation-backup',version:1,records:{'somm100.foundation.d1-review.v1':JSON.stringify({version:1,unit:2,checks:{},answers:{}})}};
   assert.equal(restoreFoundationBackup(storage, old, {replaceExisting:true}).written, 1);
   assert.equal(readD2Progress(storage, data, FOUNDATION_BRIDGE_KEY).progress.unit, 21);
+});
+
+test('cohort 22 bridge ranges exclude both class days in each city', () => {
+  const {cities} = json('foundation-cohort22');
+  assert.deepEqual(cities.map(({city, stages}) => [city, bridgeCalendar(stages[0].at(-1), stages[1][0])]), [
+    ['北京', {days:12, ranges:[['2026-11-25','2026-11-30'],['2026-12-01','2026-12-06']]}],
+    ['上海', {days:12, ranges:[['2026-11-28','2026-12-03'],['2026-12-04','2026-12-09']]}],
+    ['成都', {days:12, ranges:[['2026-12-01','2026-12-06'],['2026-12-07','2026-12-12']]}],
+    ['深圳', {days:12, ranges:[['2026-12-04','2026-12-09'],['2026-12-10','2026-12-15']]}],
+    ['广州', {days:12, ranges:[['2026-12-06','2026-12-11'],['2026-12-12','2026-12-17']]}],
+  ]);
+  assert.deepEqual(bridgeCalendar('2026-12-30','2027-01-03'), {
+    days:3, ranges:[['2026-12-31','2027-01-01'],['2027-01-02','2027-01-02']],
+  });
+  assert.equal(bridgeCalendar('2026-12-30','2026-12-31'), null);
 });

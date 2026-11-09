@@ -15,6 +15,8 @@ export default function FoundationCohort() {
     h('div', {className:'button-row'},
       h('button', {type:'button', className:'button secondary', onClick:() => focusFoundationTarget('foundation-registration-title')},
         '查看学费与报名'),
+      h('button', {type:'button', className:'button secondary', onClick:() => focusFoundationTarget('foundation-cohort-bridge-title')},
+        '查看第22期课间复习'),
       h('button', {type:'button', className:'button secondary', onClick:() => focusFoundationTarget('foundation-assessment-title')},
         '查看考核范围与复习索引')),
     h('p', null, `课程设计由 ${data.courseDesigner} 负责，课程顾问为 ${data.courseAdvisor}。`),

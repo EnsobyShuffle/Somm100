@@ -14,10 +14,12 @@ const {createRoot}=await import('react-dom/client');
 const {default:Page}=await import('../app/FoundationPage.tsx');
 const {default:sourceMap}=await import('../data/foundation-source-map.json');
 const {FOUNDATION_STORAGE_KEY}=await import('../lib/foundation-study.mjs');
+const {FOUNDATION_BRIDGE_KEY}=await import('../lib/foundation-backup.mjs');
 const diagnostics=[],routes=[];const originalError=console.error;
 console.error=(...args)=>diagnostics.push(args.map(String).join(' '));
 const root=createRoot(document.getElementById('root'));
 try{
+ window.localStorage.setItem(FOUNDATION_BRIDGE_KEY,JSON.stringify({version:1,unit:21,checks:{},answers:{}}));
  await act(async()=>root.render(React.createElement(Page,{go:path=>routes.push(path)})));
  assert.equal(document.querySelector('h1').textContent,'先理解一瓶酒，再走进课堂。');
  const chapters=[...document.querySelectorAll('.foundation-chapter')];
@@ -87,6 +89,36 @@ try{
  await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看学费与报名').click());
  assert.equal(document.activeElement.id,'foundation-registration-title');
  assert.equal(window.location.hash,'#foundation');
+ await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看第22期课间复习').click());
+ assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
+ const compactBridge=document.querySelector('[aria-labelledby="foundation-cohort-bridge-title"]');
+ const citySelect=compactBridge.querySelector('select');
+ const bridgeDay=document.getElementById('foundation-bridge-day');
+ assert.equal(bridgeDay.options.length,21);
+ assert.equal(bridgeDay.value,'21');
+ assert.equal(compactBridge.querySelectorAll('time').length,0);
+ const bridgeRecord=window.localStorage.getItem(FOUNDATION_BRIDGE_KEY);
+ for(const [city,dates] of [
+   ['深圳',['2026-12-04','2026-12-09','2026-12-10','2026-12-15']],
+   ['北京',['2026-11-25','2026-11-30','2026-12-01','2026-12-06']],
+ ]){
+   await act(async()=>{
+     citySelect.value=city;
+     citySelect.dispatchEvent(new window.Event('change',{bubbles:true}));
+   });
+   assert.match(compactBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*12'));
+   assert.deepEqual([...compactBridge.querySelectorAll('time')].map(time=>time.dateTime),dates);
+   assert.equal(bridgeDay.value,'21');
+ }
+ const compactTargets=['foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-d1-quiz-title','foundation-d2-quiz-title','foundation-d3-title','foundation-d4-title'];
+ const compactButtons=[...compactBridge.querySelectorAll('button')];
+ assert.equal(compactButtons.length,compactTargets.length);
+ for(const [i,button] of compactButtons.entries()){
+   await act(async()=>button.click());
+   assert.equal(document.activeElement.id,compactTargets[i]);
+ }
+ assert.equal(window.location.hash,'#foundation');
+ assert.equal(window.localStorage.getItem(FOUNDATION_BRIDGE_KEY),bridgeRecord);
  assert(document.getElementById('foundation-backup'));
  const saved=new Map();
  for(const day of [1,2,3,4]){

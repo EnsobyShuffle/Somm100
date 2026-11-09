@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {register} from 'node:module';
 register('./foundation-render-loader.mjs',import.meta.url);
-const {JSDOM}=await import('jsdom');
+const {JSDOM}=await import(process.env.FOUNDATION_DOM_MODULE || 'jsdom');
 const dom=new JSDOM('<!doctype html><div id="root"></div>',{url:'https://test.invalid/somm100/foundation.html'});
 globalThis.window=dom.window;globalThis.document=dom.window.document;
 globalThis.CustomEvent=dom.window.CustomEvent;globalThis.IS_REACT_ACT_ENVIRONMENT=true;
@@ -21,7 +21,7 @@ URL.createObjectURL=()=> 'blob:test-backup';URL.revokeObjectURL=()=>{};
 const days=['d1','d2','d3','d4'];
 const reviewTitles=['foundation-study-title','foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-d3-title','foundation-d4-title'];
 const check=title=>document.querySelector(`section[aria-labelledby="${title}"] input[type=checkbox]`);
-async function bridgeDay(value){const select=document.querySelector('section[aria-labelledby="foundation-bridge-title"] select');await act(async()=>{select.value=String(value);select.dispatchEvent(new window.Event('change',{bubbles:true}))})}
+async function bridgeDay(value){const select=document.querySelector('#foundation-bridge-day');await act(async()=>{select.value=String(value);select.dispatchEvent(new window.Event('change',{bubbles:true}))})}
 const key=day=>`somm100.foundation.${day}-quiz.v1`;
 const radios=day=>[...document.querySelectorAll(`#foundation-${day}-quiz input[type=radio]`)];
 const backupUI=()=>document.getElementById('foundation-backup');
@@ -66,7 +66,7 @@ try{
  assert.deepEqual(records(),importedRecords);
  assert.deepEqual(snapshot(),imported.records);
  for(const title of reviewTitles)assert(check(title).checked,`${title}: restored check must be visible`);
- assert.equal(document.querySelector('section[aria-labelledby="foundation-bridge-title"] select').value,'2');
+ assert.equal(document.querySelector('#foundation-bridge-day').value,'2');
  assert.match(document.getElementById('foundation-restore-status').textContent,/课程进度已重新读取/);
  assert.equal(document.activeElement.id,'foundation-restore-status');
  // Navigation writes state too: it must retain the restored answer, not the old mounted value.
