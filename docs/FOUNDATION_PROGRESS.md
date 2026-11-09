@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 笔试案例练习
+
+基线 `9222b85c267cff8796af436fa97d9521cd12912c`，分支 `migration/tencent-somm100`。已核对当前 Foundation 入口、来源映射、迁移说明及第 24 版检查点。
+
+- **本轮交付**。在 `app/FoundationPage.tsx` 的第22期考核复习索引新增「笔试案例自练」。同一地块和品种分两次采收的虚构案例，三问分别核对采收糖度和成酒残糖、解释发酵消耗的糖、区分背标酒精度与批次检测。答案折叠，练习不计分。新增稳定锚点 `foundation-assessment-written-title`，沿用既有焦点跳转。未改原题、班期、讲师、报名或本机学习记录。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认三阶段五天面授与笔试范围。案例为原创补充，可结合已有 D1 发酵、酒标单元；未归入任何面授日或正式题库。[单期开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)仍标待填，Notion 与文件检索未取得第22期确认版课表和 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道自测、3 个案例。D2 9 个品种、6 个法国专题、42 道自测、3 个案例。D3 13 节、30 道自测、4 个案例。D4 15 节、45 道自测、5 个案例。D5 五城日期已核实，教学和考核分配待确认。第22期无 D6 面授，游学单独安排。
+- **验证与保存**。87 项 Node 回归、53 个复习单元、38 个焦点跳转、三问答案展开和本机记录不变、备份恢复与专注入口检查通过。CloudBase 整站构建 450 个公开文件，入口 `./assets/app-coG1nMEm.js`，SHA256 `41e0fa1f8b8c74919cbfc2af3ec9ad4965e860ac984389d928650f5c9d9dc7bc`。[独立预览第 25 版](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)经文件 URL 与模拟 HTTPS 的 DOM 验证。Chromium 启动时报 `socket() failed: Operation not permitted (1)`，手机布局及实机待验收。
+- **部署与接续**。当前仍缺已授权腾讯发布会话。沿用既有上海环境与 `/somm100`，未部署、未取得线上版本或正式域名回执。保留 `[skip netlify]` 及 `netlify.toml` 的 `ignore = "exit 0"`。下一断点是用确认版逐日课表及课件核对 D5；现有腾讯通路恢复后验收部署版本和手机交互。
+
+---
+
 # Foundation · 2026-11-10 · 产区游学与 CloudBase 发布准备
 
 基线 `9396a5e2027a6d4ce3098453b5d57d4d23cd7e77`，分支 `migration/tencent-somm100`。已核对当前 Foundation 源码、来源映射、第 23 版检查点及迁移说明。

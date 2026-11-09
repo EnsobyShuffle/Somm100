@@ -53,10 +53,33 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d2-title')}>复习葡萄品种</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d3-title')}>复习欧洲产区</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-title')}>复习工艺与世界产区</button>
+  <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-written-title')}>笔试案例自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-practice-title')}>餐厅情境自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-drink-comparison-title')}>四类酒水辨析</button>
  </div>
  <p className="fine-print">考核范围来自本页的第22期招生资料。复习索引按主题整理，具体日期、评分标准和提交方式以当期课程方通知为准。</p>
+ <section className="foundation-week" aria-labelledby="foundation-assessment-written-title">
+  <h4 id="foundation-assessment-written-title">笔试案例自练｜葡萄更甜，成酒就更甜吗？</h4>
+  <p>同一块地的同一葡萄品种分两次采收。下面是虚构的练习资料。先逐条写下判断和依据，再展开参考答案。</p>
+  <dl>
+   <div><dt>甲批</dt><dd>采收时葡萄汁糖度较低。酒精发酵后，成酒检测结果为残糖 2 克／升，酒精度 11.5% vol.</dd></div>
+   <div><dt>乙批</dt><dd>晚十天采收，采收时葡萄汁糖度较高。酒精发酵后，成酒检测结果为残糖 2 克／升，酒精度 13.0% vol.</dd></div>
+  </dl>
+  <ol>
+   <li>两批谁的葡萄汁糖度更高？哪一批成酒的残糖更多？分别指出依据。</li>
+   <li>用发酵解释，为什么葡萄汁糖度更高的乙批，成酒残糖仍可能和甲批相同？</li>
+   <li>同伴只看到两瓶背标上的酒精度。写出一项他能确认的信息，以及判断成酒残糖还要查的资料。</li>
+  </ol>
+  <details id="foundation-assessment-written-answer">
+   <summary>展开笔试案例参考答案</summary>
+   <ol>
+    <li>采收记录显示乙批葡萄汁糖度较高。成酒检测显示两批的残糖相同，均为 2 克／升。</li>
+    <li>酒精发酵时，酵母消耗可发酵的糖，产生酒精和二氧化碳。起始糖更多，发酵消耗掉的糖也可以更多，因此成酒残糖可以相同。案例没有给出完整工艺记录，无法单独确定酒精度差异的成因。</li>
+    <li>背标可确认两瓶各自标示的酒精度。要核对残糖，查对应酒款和批次的技术表或检测结果。</li>
+   </ol>
+  </details>
+  <p className="fine-print">这套原创案例供课后复习。可回看 D1 的发酵与酒标单元。作答请记在自己的笔记中，页面不计分。</p>
+ </section>
  <details id="foundation-assessment-oral">
   <summary>口试自练｜同为雷司令，怎样读出两瓶酒的区别？</summary>
   <p>用约一分钟向同学解释这两款酒。先说共同品种，再分别说明两瓶的产地线索与干甜线索。这个时长供自练参考。</p>

@@ -184,6 +184,18 @@ try{
 
  await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看考核范围与复习索引').click());
  assert.equal(document.activeElement.id,'foundation-assessment-title');
+ await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='笔试案例自练').click());
+ assert.equal(document.activeElement.id,'foundation-assessment-written-title');
+ const written=assessment.querySelector('[aria-labelledby="foundation-assessment-written-title"]');
+ assert.equal(written.querySelectorAll(':scope > dl dt').length,2);
+ assert.equal(written.querySelectorAll(':scope > ol > li').length,3);
+ const writtenAnswer=written.querySelector('details');
+ assert(!writtenAnswer.open);
+ await act(async()=>writtenAnswer.querySelector('summary').click());
+ assert(writtenAnswer.open);
+ assert.equal(writtenAnswer.querySelectorAll('li').length,3);
+ assert.match(writtenAnswer.textContent,/残糖相同，均为 2 克／升/);
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
  await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='餐厅情境自练').click());
  assert.equal(document.activeElement.id,'foundation-assessment-practice-title');
  const practice = assessment.querySelector('[aria-labelledby="foundation-assessment-practice-title"]');
@@ -272,5 +284,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:37,fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:38,writtenCaseQuestions:3,fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}
