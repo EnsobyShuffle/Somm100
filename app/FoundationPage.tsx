@@ -55,6 +55,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-title')}>复习工艺与世界产区</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-written-title')}>笔试案例自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-practice-title')}>餐厅情境自练</button>
+  <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-pairing-title')}>餐酒搭配对照练习</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-drink-comparison-title')}>四类酒水辨析</button>
  </div>
  <p className="fine-print">考核范围来自本页的第22期招生资料。复习索引按主题整理，具体日期、评分标准和提交方式以当期课程方通知为准。</p>

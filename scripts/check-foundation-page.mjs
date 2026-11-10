@@ -277,6 +277,21 @@ try{
  assert.match(comparisonAnswer.textContent,/52% vol\./);
  assert.match(comparisonAnswer.textContent,/厂商资料/);
 
+ await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='餐酒搭配对照练习').click());
+ assert.equal(document.activeElement.id,'foundation-assessment-pairing-title');
+ const pairing = practice.querySelector('[aria-labelledby="foundation-assessment-pairing-title"]');
+ assert.equal(pairing.querySelectorAll('article').length,2);
+ for(const [id,evidence] of [['mushroom',/涩感/],['dessert',/果味/]]){
+   const observation = pairing.querySelector(`#foundation-pairing-${id}-observation`);
+   const answer = pairing.querySelector(`#foundation-pairing-${id}-answer`);
+   assert.match(observation.textContent,evidence);
+   assert(!observation.open && !answer.open);
+   await act(async()=>observation.querySelector('summary').click());
+   assert(observation.open && !answer.open);
+   await act(async()=>answer.querySelector('summary').click());
+   assert(answer.open);
+ }
+
  const scenarios = [...practice.querySelectorAll(':scope > details')];
  assert.deepEqual(scenarios.map(scenario=>scenario.id),[
    'foundation-assessment-service-check',
@@ -347,5 +362,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:42,directRecapDestinations:4,writtenCaseQuestions:3,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:43,directRecapDestinations:4,writtenCaseQuestions:3,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

@@ -34,6 +34,27 @@ const drinkCards = [
   {name: 'D｜白酒', process: '高粱经糖化、发酵和蒸馏', abv: '52% vol.'},
 ];
 
+const pairingCases = [
+  {
+    id: 'foundation-pairing-mushroom',
+    title: '菌菇酱牛排｜用试配修正初选',
+    dish: '炭烤牛排配浓菌菇酱，酱汁鲜味明显。客人希望搭配一款喝起来柔和的干红。',
+    wines: 'A 酒体较饱满、单宁较强。B 酒体中等、单宁较柔和。两款均为干红。',
+    observation: '试配记录显示，吃带酱汁的一口后，A 的涩感比单喝时明显，B 的果味仍然清晰，涩感变化较小。',
+    task: '先按菜、酒和客人偏好选一款。读完试配记录后再决定推荐哪杯，并用一句话向客人解释。',
+    answer: '可推荐 B。比如「您希望口感柔和，这杯干红和菌菇酱一起尝时，果味仍清晰，收口也更柔和。」若想知道酱汁起了什么作用，用同一杯酒对照尝带酱和不带酱的两口牛排。',
+  },
+  {
+    id: 'foundation-pairing-dessert',
+    title: '柠檬挞｜甜度和酸度都要核对',
+    dish: '柠檬挞酸味鲜明，馅料也有明显甜味。客人希望酒喝起来清爽。',
+    wines: 'A 是酸度较高的干型起泡酒。B 是酸度较高、甜感明显的白葡萄酒。',
+    observation: '试配记录显示，吃过柠檬挞后，A 喝起来比单喝时更尖，果味也变弱。B 仍能尝到果味，收口保持清爽。',
+    task: '先选一杯试配，写下要观察的两项变化。读完记录后说明推荐哪杯。如果换成甜度明显更低的柠檬挞，哪一步要重做？',
+    answer: '根据这次记录推荐 B。可对照酒的酸感和果味，看酸感有没有变尖、果味是否还清晰。换配方后，把两杯都与新版柠檬挞重试，再按新的口感和客人偏好决定。',
+  },
+];
+
 export default function FoundationAssessmentPractice() {
   return (
     <section aria-labelledby="foundation-assessment-practice-title">
@@ -51,6 +72,27 @@ export default function FoundationAssessmentPractice() {
           <p><strong>自查　</strong>{check}</p>
         </details>
       ))}
+      <section className="foundation-week" aria-labelledby="foundation-assessment-pairing-title">
+        <h4 id="foundation-assessment-pairing-title">餐酒搭配对照练习</h4>
+        <p>用两组模拟记录练习餐酒搭配。先读菜品、酒款和客人偏好，写下初选，再展开试配记录。两题都可以只用文字完成。</p>
+        {pairingCases.map(({id, title, dish, wines, observation, task, answer}) => (
+          <article key={id} className="foundation-week" aria-labelledby={`${id}-title`}>
+            <h5 id={`${id}-title`}>{title}</h5>
+            <p><strong>菜品与客人偏好　</strong>{dish}</p>
+            <p><strong>备选酒款　</strong>{wines}</p>
+            <p><strong>练习　</strong>{task}</p>
+            <details id={`${id}-observation`}>
+              <summary>查看模拟试配记录</summary>
+              <p>{observation}</p>
+              <details id={`${id}-answer`}>
+                <summary>展开参考判断</summary>
+                <p>{answer}</p>
+              </details>
+            </details>
+          </article>
+        ))}
+        <p><strong>自查　</strong>能否说清初选的依据、试配时实际出现的变化，以及哪项变化会让你改选？</p>
+      </section>
       <section className="foundation-week" aria-labelledby="foundation-assessment-drink-comparison-title">
         <h4 id="foundation-assessment-drink-comparison-title">四类酒水辨析</h4>
         <p>下面是四张虚构的产品资料卡。练习只比较卡片上的酒款。</p>

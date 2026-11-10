@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 餐酒搭配对照练习
+
+基线 `30e63015c63a76c793d8a9fbb3ad41a28e5ba41e`，分支 `migration/tencent-somm100`。已对照远端分支、当前入口、来源映射、腾讯迁移说明及第 30 版检查点。
+
+- **本轮交付**。`app/FoundationAssessmentPractice.tsx` 增加两道原创文字练习。菌菇酱牛排比较单宁与客人偏好，柠檬挞比较甜度、酸感和果味，并要求换配方后重新试配。两题先给菜品和备选酒款，分别折叠模拟试配记录和参考判断。`app/FoundationPage.tsx` 在考核索引增加直达入口。练习位于正式课后复习区，沿用现有路由和稳定 ID，不计分或写入本机记录。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。复核[第22期招生资料第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，其中列有餐酒搭配考核、五天面授和单独游学。案例的菜品、酒款与试配结果为模拟内容，未分配到任一面授日。[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)仍待填写，[有道迁移笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)为历史资料。文件检索未获得第22期逐日教学课表或 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道独立自测、5 个案例。D2 9 个品种、6 个法国专题、42 道独立自测、5 个案例。D3 13 节、30 道独立自测、6 个案例。D4 15 节、45 道独立自测、7 个案例。D5 五城第五天日期已核实，教学与考核分配待确认。第22期无 D6 面授，2027 年 3 月 14–17 日游学另排。
+- **验证与保存**。87 项 Node 回归、53 个单元渲染、考核索引跳转、两题逐层展开、路由和本机记录保留、备份恢复、专注入口均通过。CloudBase 构建 450 个文件，入口 `./assets/app-BWTRKjhm.js`，SHA256 `e9f24590b109b208b8674d6834a4b45157df099429494749d5664448c1be5a51`。[独立预览第 31 版](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 756099 字节，文件 URL 和模拟 HTTPS 的 DOM 检查通过。品牌、已有图片与师资源数据未改动。
+- **部署与接续**。缺可用的已授权腾讯发布会话，未部署。手机实机和线上验收待完成。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。取得第22期确认版逐日课表及原始课件后，先核对 D5 教学和考核分配，再核对 D1–D4 的专题与面授对应。
+
+---
+
 # Foundation · 2026-11-10 · D1–D4 专题导览
 
 基线 `135ebf5aa74ba92ba685d00ddb6c4f9082abed31`，分支 `migration/tencent-somm100`。已核对入口、来源映射、迁移说明及第 29 版检查点。
