@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · D1／D2 葡萄园与品种证据复盘
+
+基线 `e837754eda0b82e7d316cf379cebf5bc6e55f485`，分支 `migration/tencent-somm100`。已核对当前入口、来源映射、迁移说明及第 28 版检查点。
+
+- **本轮交付**。`app/FoundationD1D2Recaps.js` 为 D1／D2 各新增两个原创案例。D1 根据葡萄园日志判断萌芽、开花和转色阶段，区分嫁接苗的接穗、砧木与园地条件。D2 用模拟白诗南酒标判断干甜还缺哪些证据，再把红葡萄混酿的品种组成、比例及口感分栏。四份可折叠答案与八处回看入口沿用现有复盘界面和单元 ID。展开答案不写入本机记录，跳转沿用当前单元字段并保留作答、勾选。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。案例依据现有 D1 第 2／3／4／5 节及 D2 第 1／7／8／9 节原创编写，供专题复习。实际读取[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，确认五天面授和另行游学。[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)仍待填，[有道迁移笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)为 2024 年资料。检索未取得本期确认版逐日教学课表或 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道独立自测、5 个案例。D2 9 个品种、6 个法国专题、42 道独立自测、5 个案例。D3 13 节、30 道独立自测、6 个案例。D4 15 节、45 道独立自测、7 个案例。D5 五城日期已核实，教学与考核分配待确认。第22期无 D6 面授，2027 年 3 月 14–17 日游学另排。
+- **验证与保存**。87 项 Node 回归、53 个单元渲染、D1–D4 共八个新增案例答案折叠与 16 处对应焦点跳转、本机记录和备份恢复、专注入口均通过。CloudBase 整站构建 450 个文件，入口 `./assets/app-BhjvB5Qd.js`，SHA256 `ceee14ca0585fd6a12423c14606c21d548f5bfefb5ac0da1a3078a082252f486`。[独立预览第 29 版](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 752097 字节，文件 URL 和模拟 HTTPS 的 DOM 检查通过。
+- **部署与接续**。当前缺可用的已授权腾讯发布会话，未部署。腾讯线上和手机实机待验收。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。取得第22期确认版逐日课表及原始课件后核对 D5 教学、考核分配及 D1–D4 的面授对应。
+
+---
+
 # Foundation · 2026-11-10 · 第22期五城面授日期与报名付款节点
 
 基线 `09b55e6a140bb6cd6849034cd1affd9870fd0909`，分支 `migration/tencent-somm100`。已核对当前 Foundation 入口、来源映射、迁移说明及第 27 版检查点。

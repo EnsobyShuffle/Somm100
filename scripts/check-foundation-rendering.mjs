@@ -77,7 +77,7 @@ try {
     await act(async () => root.render(React.createElement(Component)));
     assert.equal(document.activeElement, document.body, `${area}: loading never steals focus`);
     const recap = container.querySelector(`#foundation-${area}-recap`);
-    const recapCounts = {d1:3, d2:3, d3:6, d4:7};
+    const recapCounts = {d1:5, d2:5, d3:6, d4:7};
     assert.equal(Boolean(recap), area in recapCounts, 'D1–D4 have integrated recaps');
     if (recap) {
       const caseCount = recapCounts[area];
@@ -101,8 +101,8 @@ try {
       await act(async () => jump.click());
       assert.equal(document.activeElement.id, jumpId, 'Reopening the active unit must still focus it');
       const reviewTargets = {
-        d1:[3, 1, 7, 6, 10, 8],
-        d2:[2, 3, 5, 6, 4, 7],
+        d1:[3, 1, 7, 6, 10, 8, 2, 4, 5, 3],
+        d2:[2, 3, 5, 6, 4, 7, 8, 1, 9, 7],
         d3:[3, 5, 4, 8, 8, 9, 9, 13, 6, 7, 11, 12],
       }[area];
       if (reviewTargets) {
@@ -320,10 +320,10 @@ try {
     assert.equal(window.localStorage.getItem(reviewKey), beforeRecap);
     await clickButton(recap, new RegExp(`回看第 ${otherUnit} 节`));
     assert.equal(document.activeElement.id, `${prefix}-${String(otherUnit).padStart(2, '0')}`);
-    const newReviewUnits = {D3:[[6,7],[11,12]], D4:[[9,11],[9,12]]}[day];
+    const newReviewUnits = {D1:[[2,4],[5,3]], D2:[[8,1],[9,7]], D3:[[6,7],[11,12]], D4:[[9,11],[9,12]]}[day];
     if (newReviewUnits) {
       const cases = [...recap.querySelectorAll(':scope > ol > li')];
-      assert.equal(cases.length, day === 'D3' ? 6 : 7);
+      assert.equal(cases.length, {D1:5,D2:5,D3:6,D4:7}[day]);
       for (const [index, lessonNumbers] of newReviewUnits.entries()) {
         const card = cases[cases.length - newReviewUnits.length + index];
         const answer = card.querySelector('details');
@@ -363,7 +363,7 @@ try {
   }
   assert.deepEqual(diagnostics, [], 'No React warnings or errors');
   console.log(JSON.stringify({status:'PASS',scope:'React SSR and jsdom; no browser layout or online acceptance',
-    results,pendingQuizListsVerified:4,regionalRecapCasesVerified:4,regionalRecapJumpsVerified:8,totalUnits:results.reduce((sum,row)=>sum+row.units,0)}, null, 2));
+    results,pendingQuizListsVerified:4,recapCasesVerified:8,recapJumpsVerified:16,totalUnits:results.reduce((sum,row)=>sum+row.units,0)}, null, 2));
 } finally {
   console.error = originalError;
   dom.window.close();
