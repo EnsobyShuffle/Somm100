@@ -259,6 +259,19 @@ try{
  assert.equal(writtenAnswer.querySelectorAll('li').length,3);
  assert.match(writtenAnswer.textContent,/残糖相同，均为 2 克／升/);
  assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
+ const blind=assessment.querySelector('#foundation-assessment-blind');
+ const oakRecord=blind.querySelector('#foundation-assessment-blind-oak-record');
+ const oakAnswer=blind.querySelector('#foundation-assessment-blind-oak-answer');
+ assert(!blind.open && !oakRecord.open && !oakAnswer.open);
+ await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='盲品证据复盘').click());
+ assert(blind.open && !oakRecord.open && !oakAnswer.open);
+ assert.equal(document.activeElement.id,'foundation-assessment-blind-title');
+ await act(async()=>oakRecord.querySelector('summary').click());
+ assert(oakRecord.open && !oakAnswer.open);
+ await act(async()=>oakAnswer.querySelector('summary').click());
+ assert(oakAnswer.open);
+ assert.match(oakAnswer.textContent,/30%.*橡木片.*对应批次/);
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
  await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='餐厅情境自练').click());
  assert.equal(document.activeElement.id,'foundation-assessment-practice-title');
  const practice = assessment.querySelector('[aria-labelledby="foundation-assessment-practice-title"]');
@@ -376,5 +389,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:44,directRecapDestinations:4,writtenCaseQuestions:3,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:45,directRecapDestinations:4,writtenCaseQuestions:3,blindEvidenceComparison:true,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

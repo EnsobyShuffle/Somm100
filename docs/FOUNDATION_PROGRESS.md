@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 盲品证据复盘与窄屏考核索引
+
+基线 `ae38e8c5b98ff7cb8dcad0b38f3f736dfe27379f`，分支 `migration/tencent-somm100`。已核对当前入口、来源映射、迁移说明、第 32 版检查点及远端分支。
+
+- **本轮交付**。`app/FoundationPage.tsx` 的考核索引新增「盲品证据复盘」直达入口。保留既有盲品练习，新增两个虚构样本对照，依次记录杯中观察、推测，再展开模拟酿造记录和参考答案，区分新桶熟成与橡木片接触。`app/foundation-study.css` 将考核索引在 600px 及以下排成两列，沿用按钮高度和自然换行。保留稳定 ID、品牌、讲师、既有图片和本机记录。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[第 22 期招生资料第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)列有盲品考核，新增案例为课后原创练习，未指定面授日次。[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)仍待填写，[运营总控](https://app.notion.com/p/40717d16de4c81ef9be0e1d6579a9592)为内部母版，[有道迁移笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)为历史资料。Notion 和文件检索未找到第 22 期确认版逐日课表及 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、6 个案例。D4 15 节、45 道自测、7 个案例。D5 五城第五天日期已核实，教学与考核分配待确认。第 22 期无 D6 面授，2027 年 3 月 14–17 日游学另排。
+- **验证与保存**。87 项回归、53 个单元渲染、盲品直达焦点、记录与答案分层展开、本机记录保留、备份恢复及专注入口均通过。CloudBase 构建 450 个文件，入口 `./assets/app-EL83htUI.js`，SHA256 `96b2d02200d79f006a05c2cb4d0e9dea15e50d1d3e6df827c74ab50dafa296ee`。[第 33 版独立预览](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 760039 字节，文件 URL 和模拟 HTTPS 的 DOM 测试、窄屏 CSS 规则检查通过，手机实机待验收。
+- **部署与接续**。11 月 10 日最新控制台截图可见证书状态正常、CNAME 栏橙色图标。另一张 `www.somm100.cn` 路由弹窗的资源类型是云托管，实例尚未选定。根据[腾讯静态托管官方说明](https://docs.cloudbase.net/service/access-static-hosting)，接续时先在现有 SOMM100 静态托管实例核对自定义域名实际关联及控制台给出的 CNAME，再用公开 HTTPS 对照 Foundation 页面及构建资源。公开检查根域、www 和测试域名均返回 `URL is not accessible via this tool`，未取得线上内容、最新发布回执或可用的已授权发布通路。本轮未部署。保留 `[skip netlify]` 与 `ignore = "exit 0"`。课程接续先取得确认版逐日课表及原始课件，核对 D5 教学与考核分配，再对照 D1–D4 专题。
+
+---
+
 # Foundation · 2026-11-10 · 侍酒服务异常复核
 
 基线 `20385fd9279ae64c6edf6839a75a32b3a193d72c`，分支 `migration/tencent-somm100`。已核对当前入口、来源映射、迁移说明、第 31 版检查点与远端分支。

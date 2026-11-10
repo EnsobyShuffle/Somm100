@@ -6,6 +6,7 @@ import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
 import FoundationConcepts from './FoundationConcepts';
 import FoundationAssessmentPractice from './FoundationAssessmentPractice';
+import {openReviewRecap} from './FoundationReviewRecap';
 import FoundationCohort from './FoundationCohort';
 import FoundationDirectory from './FoundationDirectory';
 import FoundationD1Review from './FoundationD1Review';
@@ -48,12 +49,13 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <li><strong>团队酒单作业</strong>　设计 12 款杯卖酒及 40 款主酒单酒款。可先分开列清单，再与同组学员核对数量和选酒理由。</li>
  </ul>
  <p>葡萄酒部分可按主题回看。服务、餐酒搭配与其他酒水可用下方情境自练，再和讲师的当期课堂资料对照。</p>
- <div className="button-row">
+ <div className="button-row foundation-assessment-links">
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d1-title')}>复习葡萄酒基础</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d2-title')}>复习葡萄品种</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d3-title')}>复习欧洲产区</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-title')}>复习工艺与世界产区</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-written-title')}>笔试案例自练</button>
+  <button className="button secondary" aria-controls="foundation-assessment-blind" onClick={()=>openReviewRecap('foundation-assessment-blind')}>盲品证据复盘</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-practice-title')}>餐厅情境自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-service-roleplay-title')}>服务实操自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-pairing-title')}>餐酒搭配对照练习</button>
@@ -96,7 +98,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <p className="fine-print">这是课程复习用的原创练习。展开答案不会计分或改变学习进度。</p>
  </details>
  <details id="foundation-assessment-blind">
-  <summary>盲品自练｜先记录证据，再给判断</summary>
+  <summary id="foundation-assessment-blind-title">盲品自练｜先记录证据，再给判断</summary>
   <p>请同伴遮住酒标并编号。可先用一款酒练习，也可以直接做下面的文字题。</p>
   <ol>
    <li><strong>记观察</strong>　写下闻到的香气，分别记录甜度、酸度、酒体和适用的单宁感。拿不准的项目标为「待复核」。</li>
@@ -108,6 +110,22 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
    <summary>展开参考分析</summary>
    <p>可以先判断是甜型白葡萄酒，同时记录高酸和果香。杏干或蜂蜜可出现在不同甜酒中。揭标后查酒款名称及酿造资料，分别寻找藤上自然冻结和贵腐果筛选的证据，再决定哪种解释成立。</p>
   </details>
+  <div id="foundation-assessment-blind-oak">
+   <h4>对照练习｜两杯都有香草气息，都用了新桶吗？</h4>
+   <p>这两杯是虚构样本。甲杯闻到香草和烘烤气息，口感饱满。乙杯也闻到香草，果味更鲜明。先各写一句观察、一项关于木材接触的推测，并写下要查的酿造资料。</p>
+   <details id="foundation-assessment-blind-oak-record">
+    <summary>揭晓模拟酿造记录</summary>
+    <ul>
+     <li>甲批中 30% 在新橡木桶熟成，其余在不锈钢罐熟成。</li>
+     <li>乙批在不锈钢罐中熟成，使用了橡木片。</li>
+    </ul>
+    <p>按记录改写你的判断。哪杯确认有一部分酒经过新桶熟成？能否凭香草气息判断新桶用量？</p>
+    <details id="foundation-assessment-blind-oak-answer">
+     <summary>展开参考复盘</summary>
+     <p>甲杯有 30% 的酒经过新桶熟成，比例来自模拟酿造记录。乙杯使用了橡木片。香草气息可以记录为观察，熟成容器和用桶比例需用对应批次的酿造资料核实。</p>
+    </details>
+   </details>
+  </div>
   <p className="fine-print">这是原创自练。正式考核的酒款、题型和评分以课程方通知为准。</p>
  </details>
  <details id="foundation-assessment-team">
