@@ -19,7 +19,7 @@ export default function FoundationStudy() {
   const [loaded, setLoaded] = useState(false);
   const [saveError, setSaveError] = useState('');
   const [canSave, setCanSave] = useState(false);
-  const pendingQuestions = useRef(null);
+  const pendingQuestionFocus = useRef(null);
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
@@ -44,25 +44,28 @@ export default function FoundationStudy() {
   }, [progress, loaded, canSave]);
 
   useEffect(() => {
-    if (pendingQuestions.current) {
-      openReviewRecap(pendingQuestions.current);
-      pendingQuestions.current = null;
+    if (pendingQuestionFocus.current) {
+      const {groupId, questionId} = pendingQuestionFocus.current;
+      openReviewRecap(groupId, questionId);
+      pendingQuestionFocus.current = null;
     }
   }, [progress.period]);
 
-  function showWeekQuestions(week) {
-    const period = progress.pace === 4 ? Math.ceil(week.number / 2) : week.number;
-    const target = `${week.id}-questions`;
+  function showWeekQuestions(weekNumber, questionId) {
+    const week = data.weeks.find(item => item.number === weekNumber);
+    const period = progress.pace === 4 ? Math.ceil(weekNumber / 2) : weekNumber;
+    const groupId = `${week.id}-questions`;
     if (period === progress.period) {
-      openReviewRecap(target);
+      openReviewRecap(groupId, questionId);
       return;
     }
-    pendingQuestions.current = target;
+    pendingQuestionFocus.current = {groupId, questionId};
     setProgress(p => ({...p, period}));
   }
 
   const firstWeek = progress.pace === 4 ? progress.period * 2 - 1 : progress.period;
   const visibleWeeks = data.weeks.filter(w => w.number === firstWeek || (progress.pace === 4 && w.number === firstWeek + 1));
+  const reviewQuestions = data.questions.filter(q => progress.answers[q.id] && progress.answers[q.id].latest !== q.answer);
   return h('section', {className: 'white-panel foundation-study', 'aria-labelledby': 'foundation-study-title'},
     h('h2', {id: 'foundation-study-title'}, '本周要完成什么'),
     h('p', null, '同一套内容，两种节奏。推荐提前 8 周开始，每周 2–3 次、每次 30–45 分钟；4 周版每周约 3–4 次，合并相邻两周。可自行选择当前周，不代表已安排开课日期。'),
@@ -79,6 +82,13 @@ export default function FoundationStudy() {
     h('details', {id: 'foundation-readiness-overview', className: 'foundation-review-recap'},
       h('summary', {id: 'foundation-readiness-overview-title'}, '开课前准备度总览'),
       h('p', null, `查看八组共 ${data.questions.length} 道题。建议先回看答错的概念，再补未答题。状态按最近一次作答更新，不影响报名。`),
+      h('details', {id: 'foundation-readiness-review'},
+        h('summary', null, `待复习题${loaded ? ` · ${reviewQuestions.length} 道` : ''}`),
+        loaded && reviewQuestions.length > 0
+          ? h('ul', null, reviewQuestions.map(q => h('li', {key: q.id},
+            h('button', {type: 'button', className: 'button secondary',
+              onClick: () => showWeekQuestions(q.week, q.id)}, `第 ${q.week} 组｜${q.topic}：${q.prompt}`))))
+          : h('p', null, loaded ? '最近作答有误的题会列在这里。未答题可从下方题组进入。' : '正在读取本机记录')),
       h('ol', null, data.weeks.map(week => {
         const {total, answered, review, ready} = foundationWeekResult(week, data, progress);
         const unanswered = total - answered;
@@ -90,7 +100,7 @@ export default function FoundationStudy() {
           h('strong', null, week.title),
           h('p', null, loaded ? status : '正在读取本机记录'),
           h('button', {type: 'button', className: 'button secondary', disabled: !loaded,
-            onClick: () => showWeekQuestions(week)}, `练习第 ${week.number} 组`));
+            onClick: () => showWeekQuestions(week.number)}, `练习第 ${week.number} 组`));
       }))),
     visibleWeeks.map(week => {
       const result = foundationWeekResult(week, data, progress);
@@ -114,7 +124,7 @@ export default function FoundationStudy() {
           questions.map(q => {
             const entry = progress.answers[q.id];
             const correct = entry?.latest === q.answer;
-            return h('fieldset', {className: 'foundation-question', key: q.id},
+            return h('fieldset', {className: 'foundation-question', id: q.id, key: q.id},
               h('legend', null, q.prompt),
               foundationOptions(q).map((index, position) => h('label', {className: 'foundation-check', key: index},
                 h('input', {type: 'radio', disabled: !loaded, name: q.id, value: index, checked: entry?.latest === index,

@@ -3,11 +3,11 @@ import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
 const h = React.createElement;
 
-export function openReviewRecap(id) {
+export function openReviewRecap(id, focusId = id + '-title') {
   const details = document.getElementById(id);
   if (!details) return;
   details.open = true;
-  focusFoundationTarget(id + '-title');
+  focusFoundationTarget(focusId);
 }
 
 export default function FoundationReviewRecap({id, title, intro, cases, onReview, disabled}) {

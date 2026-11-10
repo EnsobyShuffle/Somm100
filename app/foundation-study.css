@@ -10,6 +10,8 @@
 .foundation-check span { overflow-wrap: anywhere; }
 .foundation-study summary { padding: .8rem 0; cursor: pointer; font-weight: 600; }
 .foundation-review-recap > ol { padding-inline-start: 1.4rem; }
+#foundation-readiness-review ul { display: grid; gap: .5rem; padding-inline-start: 1.4rem; }
+#foundation-readiness-review .button { width: 100%; justify-content: flex-start; text-align: start; }
 .foundation-study button { white-space: normal; min-height: 44px; }
 .foundation-study :focus-visible { outline: 3px solid #725832; outline-offset: 3px; }
 .foundation-study h2, .foundation-study h3, .foundation-study h4, .foundation-study article, .foundation-study .foundation-question, .foundation-study summary, .foundation-chapter { scroll-margin-top: 5rem; }

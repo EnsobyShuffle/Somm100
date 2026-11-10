@@ -101,6 +101,8 @@ try{
  assert(!readiness.open);
  await act(async()=>readiness.querySelector('summary').click());
  assert(readiness.open);
+ const reviewList=readiness.querySelector('#foundation-readiness-review');
+ assert.match(reviewList.querySelector('summary').textContent,/0 道/);
  assert.deepEqual(groups.map(group=>group.querySelector('p').textContent),
    [3,3,3,3,3,6,4,6].map(count=>count+' 题未答'));
  const setStudyPace=async pace=>await act(async()=>{
@@ -117,18 +119,33 @@ try{
  }
  await openReadinessGroup(8);
  assert.equal(JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY)).period,8);
+ const first=studyData.questions.find(q=>q.week===8);
+ const wrong=(first.answer+1)%first.options.length;
+ await act(async()=>study.querySelector(`input[name="${first.id}"][value="${wrong}"]`).click());
+ assert.match(reviewList.querySelector('summary').textContent,/1 道/);
+ await openReadinessGroup(1);
+ await act(async()=>reviewList.querySelector('summary').click());
+ const openReviewQuestion=async()=>{
+   await act(async()=>reviewList.querySelector('button').click());
+   assert.equal(document.activeElement.id,first.id);
+   assert(document.activeElement.closest('details').open);
+ };
+ await openReviewQuestion();
+ assert.equal(JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY)).period,8);
  await openReadinessGroup(1);
  await setStudyPace(4);
- const quiz=await openReadinessGroup(8);
+ await openReviewQuestion();
+ const quiz=study.querySelector('#foundation-week-8-questions');
  assert.equal(JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY)).period,4);
  assert(study.querySelector('#foundation-week-7'));
  await openReadinessGroup(7); // Same compact period must still open and focus the selected group.
+ await openReviewQuestion(); // Same compact period can focus an individual question too.
  const lastGroup=studyData.questions.filter(q=>q.week===8);
- const first=lastGroup[0], wrong=(first.answer+1)%first.options.length;
  const choose=async(q,choice)=>await act(async()=>quiz.querySelector(`input[name="${q.id}"][value="${choice}"]`).click());
- await choose(first,wrong);
  assert.equal(groups[7].querySelector('p').textContent,'5 题未答，1 题建议再看');
  for(const q of lastGroup) await choose(q,q.answer);
+ assert.match(reviewList.querySelector('summary').textContent,/0 道/);
+ assert.equal(reviewList.querySelectorAll('button').length,0);
  assert.equal(groups[7].querySelector('p').textContent,'本组已准备好');
  await act(async()=>[...quiz.querySelectorAll('button')].find(button=>button.textContent==='回到准备度总览').click());
  assert.equal(document.activeElement.id,'foundation-readiness-overview-title');
@@ -405,5 +422,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}
