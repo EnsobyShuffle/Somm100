@@ -185,6 +185,15 @@ try{
    ['2026-12-04','2026-12-05','2026-12-18','2026-12-19','2027-01-19'],
  ]);
  assert.deepEqual([...cohort.querySelectorAll('.foundation-cohort-tuition dd')].map(value=>value.textContent.replace(/[^0-9]/g,'')), ['6800','7800']);
+ for(const city of cities){
+   const stages=[...city.querySelectorAll('.foundation-cohort-days')];
+   assert.deepEqual(stages.map(stage=>stage.children.length),[2,2,1]);
+   assert.deepEqual(stages.flatMap(stage=>[...stage.children].map(day=>day.firstChild.textContent)),
+     ['第 1 天','第 2 天','第 3 天','第 4 天','第 5 天']);
+ }
+ const payment=cohort.querySelector('#foundation-cohort-payment');
+ assert.match(payment.textContent,/报名时先付.*3,000.*余款须在考试日前结清.*游学在结清费用后安排/);
+ assert.match(payment.nextElementSibling.textContent,/收款渠道和退款安排请向课程方确认/);
  const registration=cohort.querySelector('.foundation-cohort-registration');
  assert.equal(registration.href,'https://forms.cloud.microsoft/r/hR8HQT3gXc?origin=lprLink');
  assert.equal(registration.target,'_blank');
@@ -327,5 +336,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:38,writtenCaseQuestions:3,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:38,writtenCaseQuestions:3,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

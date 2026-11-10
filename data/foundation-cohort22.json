@@ -8,6 +8,11 @@
     {"label": "五天面授", "amountCny": 6800},
     {"label": "五天面授＋四天产区游学", "amountCny": 7800}
   ],
+  "payment": {
+    "initialCny": 3000,
+    "balanceDue": "考试日前",
+    "fieldTripCondition": "结清费用后安排"
+  },
   "courseDesigner": "林志帆 Tommy Lam",
   "courseAdvisor": "Brian Julyan MS",
   "classHours": "09:00–16:30",

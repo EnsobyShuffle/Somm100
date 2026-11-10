@@ -11,7 +11,8 @@ export default function FoundationCohort() {
     h('h2', {id:'foundation-cohort-title'}, '第22期｜五城课程安排'),
     h('p', null, '适合准备进入侍酒师行业的学习者，以及希望提升酒水知识和服务能力的餐饮从业者。零基础学员可从课前导学开始。'),
     h('p', null, `本期有 ${data.teachingDays} 天线下面授，分三个阶段，另有 ${data.fieldTrip.days} 天产区游学。面授每天 ${data.classHours}，以中文授课，辅以英语。`),
-    h('p', {className:'fine-print'}, '以下日期来自第22期招生资料，跨年日期已完整标明。临近开课请向课程方确认；班期日期不等同于逐日教学内容。'),
+    h('p', null, '课堂范围包括葡萄种植与酿造、葡萄酒产区和品鉴，也涵盖烈酒、清酒等酒水，以及侍酒服务、餐酒搭配、酒单设计和酒窖管理。'),
+    h('p', {className:'fine-print'}, '以下为第22期招生资料列出的面授日期，按实际先后编号。教学主题、考核日与教室安排以课程方通知为准。'),
     h('div', {className:'button-row'},
       h('button', {type:'button', className:'button secondary', onClick:() => focusFoundationTarget('foundation-registration-title')},
         '查看学费与报名'),
@@ -22,16 +23,21 @@ export default function FoundationCohort() {
       h('button', {type:'button', className:'button secondary', onClick:() => focusFoundationTarget('foundation-assessment-title')},
         '查看考核范围与复习索引')),
     h('p', null, `课程设计由 ${data.courseDesigner} 负责，课程顾问为 ${data.courseAdvisor}。`),
-    h('div', {className:'foundation-cohort-grid'}, data.cities.map(city =>
-      h('article', {key:city.city, className:'foundation-cohort-city'},
+    h('div', {className:'foundation-cohort-grid'}, data.cities.map(city => {
+      const stages = city.stages.map((dates, i) => {
+        const firstDay = city.stages.slice(0, i).flat().length + 1;
+        return h('div', {key:i},
+          h('dt', null, '第' + ['一','二','三'][i] + '阶段'),
+          h('dd', null, h('ul', {className:'foundation-cohort-days'}, dates.map((date, j) =>
+            h('li', {key:date}, `第 ${firstDay + j} 天`, h('time', {dateTime:date}, dateLabel(date)))))));
+      });
+      return h('article', {key:city.city, className:'foundation-cohort-city'},
         h('h3', null, city.city),
         h('p', null, h('strong', null, '主讲老师／班主任'), h('br'),
           h('span', {className:'foundation-cohort-instructor'}, city.instructor), ' · AS (CMS)'),
         h('p', {className:'fine-print'}, city.bio),
-        h('dl', null, city.stages.map((dates, i) =>
-          h('div', {key:i}, h('dt', null, '第' + ['一','二','三'][i] + '阶段'),
-            h('dd', null, dates.map((date, j) => h(React.Fragment, {key:date},
-              j > 0 ? '、' : null, h('time', {dateTime:date}, dateLabel(date))))))))))),
+        h('dl', null, stages));
+    })),
     h('section', {className:'foundation-week', 'aria-labelledby':'foundation-cohort-field-trip-title'},
       h('h3', {id:'foundation-cohort-field-trip-title'}, '产区游学'),
       h('p', null, h('time', {dateTime:data.fieldTrip.start}, dateLabel(data.fieldTrip.start)),
@@ -49,7 +55,8 @@ export default function FoundationCohort() {
     h('dl', {className:'foundation-cohort-tuition'}, data.tuition.map(option =>
       h('div', {key:option.label}, h('dt', null, option.label),
         h('dd', null, yuan.format(option.amountCny), ' 人民币')))),
-    h('p', {className:'fine-print'}, '学费为第22期招生资料所列金额。班级名额、付款和退款安排请向课程方确认。'),
+    h('p', {id:'foundation-cohort-payment'}, `第22期招生资料列明，报名时先付 ${yuan.format(data.payment.initialCny)}，余款须在${data.payment.balanceDue}结清，产区游学在${data.payment.fieldTripCondition}。`),
+    h('p', {className:'fine-print'}, '班级名额、考试日期、收款渠道和退款安排请向课程方确认。'),
     h('a', {className:'foundation-cohort-registration', href:data.registrationUrl, target:'_blank', rel:'noopener noreferrer'},
       '打开第22期报名表（Microsoft Forms） ↗'),
     h('br'),

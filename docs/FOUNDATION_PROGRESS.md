@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 第22期五城面授日期与报名付款节点
+
+基线 `09b55e6a140bb6cd6849034cd1affd9870fd0909`，分支 `migration/tencent-somm100`。已核对当前 Foundation 入口、来源映射、迁移说明及第 27 版检查点。
+
+- **本轮交付**。`app/FoundationCohort.js` 按三个阶段逐行显示五城各五个面授日，保留完整年份和日期。课程介绍补入已核实的葡萄种植、酿造、品鉴、酒水与侍酒服务范围。`data/foundation-cohort22.json` 补入招生正文所列的报名先付人民币 3,000 元、考试日前结清余款和游学在结清费用后安排。已保留原学费、师资、图片、报名入口、稳定 ID 和本机记录。日期编号仅表示面授先后。
+- **来源与缺口**。实际读取[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，逐项核对五城 25 个日期、每日 09:00–16:30、三阶段和付款节点。公众号原文复核返回 `cannot be opened (non-retryable error)`，Microsoft Forms 返回 `is not accessible via this tool`。报名表 URL 与文档一致，表单当前可用性、收款渠道、退款条款、考试及教室安排待课程方确认。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)仍待填，[有道迁移笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)为 2024 年资料。未检索到本期确认版逐日教学课表或 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道独立自测、3 个案例。D2 9 个品种、6 个法国专题、42 道独立自测、3 个案例。D3 13 节、30 道独立自测、6 个案例。D4 15 节、45 道独立自测、7 个案例。D5 五城第五天面授日期已核实，教学与考核分配待确认。第22期无 D6 面授，2027 年 3 月 14–17 日游学另排。
+- **验证与保存**。87 项 Node 回归、53 个复习单元、25 个面授日期与每城 2＋2＋1 结构、付款文案、报名焦点跳转、备份恢复与专注入口均通过。CloudBase 整站构建 450 个公开文件，入口 `./assets/app-WuYtWLpR.js`，SHA256 `150debca31b2703baa5c13940e003f69c2a998ed06a91d0fbb0757fab39545dd`。[独立预览第 28 版](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 749687 字节，文件 URL 和模拟 HTTPS 的 DOM 检查通过。
+- **部署与接续**。仍缺可用的已授权腾讯发布会话，未部署。手机实机、报名表实际可用性和腾讯线上版本待验收。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。取得第22期逐日教学课表及原始课件后核对 D5 与考核分配及 D1–D4 对应关系。
+
+---
+
 # Foundation · 2026-11-10 · D3／D4 产区证据复盘
 
 基线 `2f84f99506de4b74a09980ab18bf1c45b2356d96`，分支 `migration/tencent-somm100`。已核对当前入口、来源映射、迁移说明及第 26 版检查点。
