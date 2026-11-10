@@ -161,13 +161,13 @@ try{
  topicTargets.push('foundation-bridge-title','foundation-france-title','foundation-sparkling-title');
  const topicDisclosure=directory.querySelector('details');
  const stages=[...directory.querySelectorAll(':scope > div button')];
- const topics=[...topicDisclosure.querySelectorAll('button')];
+ const topics=[...topicDisclosure.querySelectorAll('button:not(.foundation-directory-resume)')];
  assert.deepEqual(stages.map(button=>button.querySelector('strong').textContent),['课前预习','课间复习','考核与结课','五城班期与报名']);
  assert.equal(topicDisclosure.open,false);
  const topicCards=[...topicDisclosure.querySelectorAll('.foundation-directory-topic')];
  assert.equal(topicCards.length,4);
  for(const card of topicCards){
-   assert.deepEqual([...card.querySelectorAll('button')].map(button=>button.textContent),['提要','自测','案例']);
+   assert.deepEqual([...card.querySelectorAll('.foundation-directory-actions button')].map(button=>button.textContent),['提要','自测','案例']);
    const recapId=card.querySelector('button[aria-controls]').getAttribute('aria-controls');
    assert.equal(document.getElementById(recapId).open,false);
  }

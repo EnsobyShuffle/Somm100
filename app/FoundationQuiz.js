@@ -44,6 +44,14 @@ export default function FoundationQuiz({data, reviews, storageKey, prefix}) {
   const entry = progress.answers[question.id];
   const result = quizResult(data, progress);
   const pending = data.questions.filter(q => result.needsReview.includes(q.number));
+  useEffect(() => {
+    if (!loaded) return;
+    const next = data.questions.find(q => q.number === result.needsReview[0]) || question;
+    window.dispatchEvent(new CustomEvent('foundation-quiz-status', {detail: {
+      prefix, answered: result.answered, total: result.total, review: result.needsReview.length,
+      error, target: {prefix, questionId: next.id, number: next.number}
+    }}));
+  }, [loaded, progress, data, prefix, error]);
   const groups = [...new Set(data.questions.map(q => q.group))];
   useEffect(() => {
     if (!navigationRequested.current) return;
