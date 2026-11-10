@@ -29,6 +29,18 @@
       .cards a { height: 100%; padding: .55rem .75rem; border: 1px solid #d9e3da; background: #f6f8f5; }
       .cards span { font-size: .875rem; color: #394e45; text-decoration: none; }
       .action { display: inline-flex; padding: .4rem .85rem; color: #fff; background: #153e35; }
+      details { margin-block: .65rem; border: 1px solid #d9e3da; padding: 0 .75rem .2rem; border-radius: .5rem; }
+      summary { cursor: pointer; padding-block: .65rem; min-height: 44px; font-weight: 650; }
+      summary:focus-visible { outline: 2px solid #164c3d; outline-offset: 2px; }
+      .cohort-cards > li { min-width: 0; padding: .75rem; border-radius: .5rem; background: #f6f8f5; }
+      .cohort-cards h3, .cohort-preview h3 { margin: .5rem 0 .25rem; }
+      .cohort-cards dl, .cohort-cards dd { margin: 0; }
+      .cohort-cards dt { font-weight: 600; }
+      .cohort-cards time { white-space: nowrap; }
+      .cohort-tuition, .reading-group ul { padding-inline-start: 1.25rem; }
+      .reading-group li { margin-block: .5rem; }
+      .reading-group li p { margin: 0; }
+      .reading-group a { display: inline-flex; align-items: center; min-height: 44px; }
     </style>
   </head>
   <body>
@@ -45,7 +57,11 @@
       </section>
       <section aria-labelledby="course-home-intro">
         <h2 id="course-home-intro">课程介绍</h2>
-        <p>零基础可先选 4 周或 8 周预习。第22期五天面授分三个阶段，产区游学另行安排。完整班期页列出各城市上课日期、讲师、学费和报名表。</p>
+        <p>零基础可先选 4 周或 8 周预习。第22期五天面授分三个阶段，产区游学另行安排。下方可按城市核对日期和讲师。报名表与付款说明见完整班期页。</p>
+        <details class="cohort-preview">
+          <summary>展开五城上课日期、讲师与学费</summary>
+          <!-- course-home-cohort -->
+        </details>
         <ul class="cards">
           <li><a href="./foundation.html#foundation-course-title"><strong>面授与考核</strong><span>了解课程范围、考核和结课练习。</span></a></li>
           <li><a href="./foundation.html#foundation-cohort-field-trip-title"><strong>产区游学</strong><span>查看日期、费用包含范围和观察练习。</span></a></li>
@@ -54,6 +70,7 @@
       <section aria-labelledby="course-home-reading">
         <h2 id="course-home-reading">文章导读</h2>
         <p>先读概念，再看文章标题和推荐理由。公众号原文可能需要在微信中打开。</p>
+        <!-- course-home-reading -->
         <ul class="cards">
           <li><a href="./foundation.html#foundation-0"><strong>学习葡萄酒之前</strong><span>先把品种、产地、年份和酿造连成框架。</span></a></li>
           <li><a href="./foundation.html#foundation-2"><strong>葡萄与葡萄园</strong><span>从葡萄的结构和生长条件理解成熟。</span></a></li>

@@ -33,6 +33,9 @@ try{
  assert.equal(document.querySelector('header a[href="./course.html"]').href,
    'https://test.invalid/somm100/course.html');
  const courseHomeHtml=readFileSync(new URL('../dist-cloudbase/course.html',import.meta.url),'utf8');
+ const cohort=JSON.parse(readFileSync(new URL('../data/foundation-cohort22.json',import.meta.url),'utf8'));
+ const concepts=JSON.parse(readFileSync(new URL('../data/foundation-concepts.json',import.meta.url),'utf8'));
+ const readingConcepts=concepts.filter(({articles})=>articles.length);
  let shortcutCount=0;
  for(const mount of ['/','/somm100/']){
    const courseHome=new JSDOM(courseHomeHtml,{url:'https://test.invalid'+mount+'course.html'});
@@ -42,6 +45,40 @@ try{
      assert.equal(home.scripts.length,0);
      assert.deepEqual([...home.querySelectorAll('main h2')].map(heading=>heading.textContent),
        ['课程介绍','文章导读','学习入口']);
+     const preview=home.querySelector('.cohort-preview');
+     assert.equal(preview.open,false);
+     preview.querySelector('summary').click();
+     assert.equal(preview.open,true);
+     assert(preview.textContent.includes(cohort.classHours));
+     const cityCards=[...preview.querySelectorAll('.cohort-cards > li')];
+     assert.equal(cityCards.length,5);
+     cityCards.forEach((card,index)=>{
+       const city=cohort.cities[index];
+       assert.equal(card.querySelector('h3').textContent,city.city);
+       assert(card.querySelector('p').textContent.includes(city.instructor));
+       const stages=[...card.querySelectorAll('dl > div')].map(stage=>
+         [...stage.querySelectorAll('time')].map(time=>time.dateTime));
+       assert.deepEqual(stages,city.stages);
+     });
+     const fees=[...preview.querySelectorAll('.cohort-tuition strong')].map(fee=>Number(fee.textContent.replace(/\D/g,'')));
+     assert.deepEqual(fees,cohort.tuition.map(({amountCny})=>amountCny));
+     const readingGroups=[...home.querySelectorAll('.reading-group')];
+     assert.equal(readingGroups.length,3);
+     readingGroups.forEach((group,index)=>{
+       const concept=readingConcepts[index];
+       const summary=group.querySelector('summary');
+       assert(summary.textContent.startsWith(concept.title));
+       assert.equal(group.open,false);
+       summary.click();
+       assert.equal(group.open,true);
+       const entries=[...group.querySelectorAll('li')].map(item=>({
+         title:item.querySelector('strong').textContent,
+         whyRead:item.querySelector('p').textContent,
+         url:item.querySelector('a').getAttribute('href'),
+       }));
+       assert.deepEqual(entries,concept.articles);
+     });
+     assert.equal(home.querySelectorAll('.reading-group a').length,10);
      const links=[...home.querySelectorAll('a[href^="./foundation.html#"]')];
      assert.equal(links.length,10);
      for(const link of links){
@@ -63,5 +100,5 @@ try{
  assert(document.querySelector('#foundation-d1-quiz input[type=radio]').checked);
  assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),saved);
  assert.deepEqual(errors,[]);
- console.log(JSON.stringify({status:'PASS',sameOriginRecordRoundTrip:true,brandPreserved:true,fullAppLink:true,courseHomeScriptFree:true,shortcutsChecked:shortcutCount,scope:'React/jsdom only; no real cross-page navigation or phone test'},null,2));
+ console.log(JSON.stringify({status:'PASS',sameOriginRecordRoundTrip:true,brandPreserved:true,fullAppLink:true,courseHomeScriptFree:true,cohortCities:5,cohortDates:25,articleGuides:10,shortcutsChecked:shortcutCount,scope:'React/jsdom only; no real cross-page navigation or phone test'},null,2));
 }finally{await act(async()=>root.unmount());console.error=oldError;dom.window.close();}

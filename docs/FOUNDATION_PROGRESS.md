@@ -1,3 +1,15 @@
+# Foundation · 2026-11-11 · 静态首页班期与文章导读
+
+基线 `4fefbfb029111f6c195e2306130db58d99c67fe2`，分支 `migration/tencent-somm100`。已核对当前分支、入口、来源映射、迁移说明及上轮检查点。
+
+- **本轮交付**。课程首页的课程介绍新增可展开的五城日期、主讲老师／班主任、每日上课时段与两档学费。文章导读新增三个可展开的概念组，列出 10 篇文章的标题、阅读理由与公众号原文。Vite 构建从 `data/foundation-cohort22.json` 与 `data/foundation-concepts.json` 渲染静态 HTML，首页可直接查看，无需加载 App 或脚本。保留 10 个已有 Foundation 入口，完整讲师介绍、原图片、报名和付款说明沿用 App 班期页。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、旧 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。10 个原文 URL 与 Guided Learning 逐条一致。核读[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)并核对当前源码。复查[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)、[2024 年有道迁移笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)及 Notion、Library 检索，仍缺第22期确认版逐日教学课表与 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、6 个案例。D4 15 节、45 道自测、7 个案例。D1–D4 与第22期面授日次的对应待核。D5 五城日期已核实，教学及考核分配待确认。第22期无 D6 面授，产区游学另排于 2027 年 3 月 14–17 日。
+- **验证**。87 项 Foundation 回归与页面、53 单元、备份恢复、专注入口、CloudBase 构建检查通过。根路径及 `/somm100/` 的 jsdom 检查覆盖原生折叠、25 个日期、5 位讲师、2 档学费、10 条原文及阅读理由、20 次入口定位和本机记录保留。构建 451 个文件，静态首页 14285 字节，SHA256 `3e9f28045f8c74a86334d6ad1568832f4190a91e94d36b132c2665764f4ffaba`。每组抽一条公众号链接公开读取均返回 `cannot be opened (non-retryable error)`，微信内打开和手机布局待验收。
+- **部署与接续**。本轮公开读取正式 `/course.html` 与 `/foundation.html` 均返回 `URL is not accessible via this tool`，最近实测课程首页为 11 月 11 日 03:39 CST 的 `404 NoSuchKey`。没有可用已授权腾讯发布通路，本轮未部署、未线上验收。取得通路后在现有 `somm100` 静态托管应用发布本分支，再核对课程首页、专注页、完整 App、手机和微信原文。保持 `[skip netlify]` 和 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-11 · 课程首页与学习直达
 
 基线 `ea57790bc1fa11a3b285646a296963c04324c46c`，分支 `migration/tencent-somm100`。已读当前入口、来源映射、迁移说明与上一版检查点。

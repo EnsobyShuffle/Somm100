@@ -1,6 +1,11 @@
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import cohort from './data/foundation-cohort22.json';
+import concepts from './data/foundation-concepts.json';
+import { renderCourseHome } from './cloudbase/course-home-content.mjs';
+
+const courseHome = fileURLToPath(new URL('./cloudbase/course.html', import.meta.url));
 
 // The existing Netlify experience is a browser-local React/PWA app.
 // Keep its UI and storage keys while making it deployable to mainland hosting.
@@ -22,6 +27,12 @@ export default defineConfig({
         return code.replace(/(["'`])\/(media\/|brand\/|journal\/|wine-atlas\/|releases\/|sw\.js(?=["'`]))/g, '$1./$2');
       },
     },
+    {
+      name: 'somm100-static-course-home',
+      transformIndexHtml(html, context) {
+        if (context.filename === courseHome) return renderCourseHome(html, cohort, concepts);
+      },
+    },
     react(),
   ],
   resolve: { alias: { '@': fileURLToPath(new URL('.', import.meta.url)) } },
@@ -30,7 +41,7 @@ export default defineConfig({
     rolldownOptions: {input: {
       app: fileURLToPath(new URL('./cloudbase/index.html',import.meta.url)),
       foundation: fileURLToPath(new URL('./cloudbase/foundation.html',import.meta.url)),
-      course: fileURLToPath(new URL('./cloudbase/course.html',import.meta.url)),
+      course: courseHome,
     }},
     outDir: fileURLToPath(new URL('./dist-cloudbase', import.meta.url)),
     emptyOutDir: true,
