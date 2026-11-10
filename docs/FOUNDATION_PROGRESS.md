@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · D3／D4 产区证据复盘
+
+基线 `2f84f99506de4b74a09980ab18bf1c45b2356d96`，分支 `migration/tencent-somm100`。已核对当前入口、来源映射、迁移说明及第 26 版检查点。
+
+- **本轮交付**。`app/FoundationD3Recap.js` 与 `app/FoundationD4Recap.js` 各增两个原创复盘案例。D3 比较西班牙两份技术卡的品种及熟成信息，拆分德国与奥地利酒标的产地、品种和干甜证据。D4 用澳新酒标比较同品种并核对酒精度，用智利海岸和阿根廷山地的对照练习选择种植证据及比较酸度。四份答案可展开，八个回看入口沿用单元稳定 ID。折叠开关不写入本机记录，跳转仅沿用当前单元字段。
+- **来源与缺口**。重读[蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)、[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)及[D3–D4 提要](https://app.notion.com/p/40717d16de4c817aaad6f3433f55df22)。原创案例依据现有 D3 第 6／7／11／12 节及 D4 第 9／11／12 节，不推断面授分配。实际读取[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，确认五天面授和另行游学。[有道迁移笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)创建于 2024 年，仅作历史线索。[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)仍待填。Notion 与文件检索未取得第22期确认版逐日课表或 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道独立自测、3 个案例。D2 9 个品种、6 个法国专题、42 道独立自测、3 个案例。D3 13 节、30 道独立自测、6 个案例。D4 15 节、45 道独立自测、7 个案例。D5 五城面授日期已核实，教学与考核分配待确认。第22期无 D6 面授，游学另排。
+- **验证与保存**。87 项 Node 回归、53 个复习单元、四份答案折叠、八处焦点跳转、作答及勾选保留、备份恢复与专注入口均通过。CloudBase 整站构建 450 个文件，入口 `./assets/app-DVbYUe-W.js`，SHA256 `c8f96954a8dc1a40730da0f16237c1724eda87a2eeb5ec62cabbb967ef0ad828`。[第 27 版独立预览](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 748957 字节，文件 URL 和模拟 HTTPS 均通过 DOM 验证。
+- **部署与接续**。当前缺可用的已授权腾讯发布会话，未部署，手机实机与线上验收待完成。保留 `[skip netlify]` 和 `netlify.toml` 的 `ignore = "exit 0"`。取得第22期正式逐日课表及原始课件后，再核对 D5 教学与考核分配及 D1–D4 的正式面授对应。
+
+---
+
 # Foundation · 2026-11-10 · 开课前准备度总览
 
 基线 `2d3bd11c621b454e763385a30cfb756701c77cce`，分支 `migration/tencent-somm100`。已核对当前 Foundation 入口、来源映射、迁移说明及第 25 版检查点。
