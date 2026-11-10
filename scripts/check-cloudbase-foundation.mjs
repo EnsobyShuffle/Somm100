@@ -20,6 +20,15 @@ function localAsset(ref) {
   }
 }
 refs.forEach(localAsset);
+const courseHome = readFileSync(join(root, 'course.html'), 'utf8');
+assert(!/<script\b/i.test(courseHome), 'Course home must render without JavaScript');
+const courseHomeRefs = [...courseHome.matchAll(/(?:src|href)="([^"]+)"/g)].map(match => match[1]);
+courseHomeRefs.forEach(localAsset);
+const courseHomeTargets = courseHomeRefs.filter(ref => ref.startsWith('./foundation.html#'))
+  .map(ref => ref.split('#')[1]);
+assert(courseHomeTargets.length >= 10, 'Missing course home shortcuts');
+assert.equal(new Set(courseHomeTargets).size, courseHomeTargets.length, 'Repeated course home shortcuts');
+
 const manifest = JSON.parse(readFileSync(join(root, 'manifest.webmanifest'),'utf8'));
 assert.equal(manifest.scope, './'); assert.equal(manifest.start_url, './');
 manifest.icons.forEach(icon=>localAsset(icon.src));
@@ -44,6 +53,7 @@ const markers=['foundation-directory-actions','葡萄园日志｜三条记录各
   'foundation-d3-title','foundation-d4-title','somm100.foundation.d3-review.v1','somm100.foundation.d4-review.v1',
   'somm100.foundation.study.v1','somm100.foundation.d1-review.v1','somm100.foundation.d2-review.v1','somm100.foundation.france-review.v1'];
 markers.forEach(marker=>assert(bundle.includes(marker),`Missing Foundation feature/key: ${marker}`));
+courseHomeTargets.forEach(target => assert(bundle.includes(target), `Missing course home destination: ${target}`));
 // Guard against shipping a stale lazy chunk after editing the teaching guidance.
 let learningGuidanceFields = 0;
 for (const area of ['d1', 'd2', 'france', 'd3', 'd4']) {

@@ -30,6 +30,7 @@ export default defineConfig({
     rolldownOptions: {input: {
       app: fileURLToPath(new URL('./cloudbase/index.html',import.meta.url)),
       foundation: fileURLToPath(new URL('./cloudbase/foundation.html',import.meta.url)),
+      course: fileURLToPath(new URL('./cloudbase/course.html',import.meta.url)),
     }},
     outDir: fileURLToPath(new URL('./dist-cloudbase', import.meta.url)),
     emptyOutDir: true,

@@ -1,5 +1,7 @@
 .foundation-focus{max-width:1180px;margin:0 auto;padding:0 24px 48px}
 .foundation-focus-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0;border-bottom:1px solid var(--line)}
+.foundation-focus-header nav{display:flex;flex-wrap:wrap;justify-content:flex-end;column-gap:1rem}
+.foundation-focus-header nav a{display:inline-flex;align-items:center;min-height:44px}
 .foundation-focus-brand{display:block;width:170px;max-width:45%}
 .foundation-focus-brand svg{display:block;width:100%;height:auto}
 .foundation-focus-main{min-width:0;padding-top:20px}

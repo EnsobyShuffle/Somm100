@@ -1,3 +1,15 @@
+# Foundation · 2026-11-11 · 课程首页与学习直达
+
+基线 `ea57790bc1fa11a3b285646a296963c04324c46c`，分支 `migration/tencent-somm100`。已读当前入口、来源映射、迁移说明与上一版检查点。
+
+- **本轮交付**。新增 `cloudbase/course.html`，沿用课程预告、课程介绍、文章导读、学习入口四段及 SOMM100 品牌。首页为静态 HTML，正文无需 JavaScript。10 个链接分别进入五城班期、面授、游学、三个带公众号导读的概念、概念目录、课前预习、课间复习、考核与结课。完整 App 与专注阅读均可返回课程首页。导读目标、讲师、报名、课程图片和本机存储沿用现有内容及 ID。所有变更进入原 CloudBase 构建。
+- **来源与取舍**。读取[发布增量包](https://chatgpt.com/library?file_id=libfile_e68a53ede6808191a1f3eba6ecc93489&account_id=personal)，校验通过，只有 `course.html` 和未被该 HTML 引用的 11.8 MB 编译脚本。原稿仅列深圳，导读和学习卡片只指向本页标题。保留四段设计，课程详情以部署分支现有五城数据为准，编译脚本不入库。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)、[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)及[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)。旧 Chapter 00 仍标过时，有道记录属历史，Notion 当期课表模板待填，WPS／有道正式课件本轮未取得。
+- **日次状态**。D1 有 10 节、25 道自测、5 个案例。D2 有 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 有 13 节、30 道自测、6 个案例。D4 有 15 节、45 道自测、7 个案例。D1–D4 均已有复习内容，与正式逐日课表的对应待确认。D5 五城日期已核实，教学与考核分配待确认。第22期无 D6 面授，2027 年 3 月 14–17 日游学另排。
+- **验证**。87 项回归及页面、53 个单元渲染、备份恢复、专注入口与本机记录检查通过。jsdom 在根路径和 `/somm100/` 各检查 10 个链接，目标聚焦、滚动调用及记录保留通过。CloudBase 构建 451 个文件。首页 SHA256 `eace9a76a94bf08ea31b83289cbb55872da76b0679652a635539a9ecca4fef30`，App 入口 `./assets/app-BfpjGQl7.js`。本地无头 Chromium 启动报 `socket() failed: Operation not permitted`，共享 Chrome 访问本地预览端口报 `ERR_CONNECTION_REFUSED`，真实布局和手机实机待验收。
+- **部署与接续**。11 月 11 日 03:39 CST 实开[正式课程首页](https://www.somm100.cn/course.html)，返回 `404 NoSuchKey`，腾讯控制台仍停在登录页。尚未部署或线上验收。下次在已授权的现有 `somm100` CloudBase 静态托管应用构建并发布本分支，核对 `/course.html`、`/foundation.html`、完整 App 及手机端跳转。补齐官方逐日课表和 D5 教学及考核分配后再发布逐日课程内容。保留 `[skip netlify]` 与 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-11 · 课前待复习题直达
 
 基线 `b9765c3cf955ced305431a46ac0f2d4c2cc8c5b9`，分支 `migration/tencent-somm100`。已核对当前入口、来源映射、迁移说明、第 34 版检查点和远端分支。

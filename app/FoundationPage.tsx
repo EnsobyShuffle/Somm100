@@ -20,10 +20,13 @@ import FoundationD2Review from './FoundationD2Review';
 import FoundationSparklingPractice from './FoundationSparklingPractice';
 import FoundationFranceReview from './FoundationFranceReview';
 
-type FoundationPageProps = {go:(page:string)=>void};
+type FoundationPageProps = {go:(page:string)=>void; initialTarget?:string};
 type RestoreResult = {written:number;skipped:number};
 
-export default function FoundationPage({go}:FoundationPageProps){
+export default function FoundationPage({go,initialTarget}:FoundationPageProps){
+ useEffect(()=>{
+  if(initialTarget?.startsWith('foundation-'))focusFoundationTarget(initialTarget);
+ },[initialTarget]);
  const [restore,setRestore]=useState({revision:0,message:''});
  useEffect(()=>{
   if(restore.revision)focusFoundationTarget('foundation-restore-status');

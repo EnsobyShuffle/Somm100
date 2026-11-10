@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="侍酒师100课程首页。了解第22期五城班期、课前文章和学习入口。" />
+    <meta name="theme-color" content="#153e35" />
+    <title>SOMM100 · 侍酒师100课程</title>
+    <link rel="icon" href="./favicon.svg?v=4" />
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; color: #193b32; background: #f6f8f5; font: 1rem/1.6 system-ui, sans-serif; }
+      header, main { width: min(100% - 2rem, 64rem); margin-inline: auto; }
+      header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .25rem 1rem; padding: .75rem 0; }
+      header a { display: inline-flex; align-items: center; min-height: 44px; }
+      header img { width: 9rem; display: block; }
+      a { color: #164c3d; text-underline-offset: .2em; }
+      a:focus-visible { outline: 2px solid #164c3d; outline-offset: 3px; }
+      main { padding-bottom: 2rem; }
+      section { padding: clamp(1rem, 4vw, 2rem); margin: 0 0 .75rem; border: 1px solid #d9e3da; border-radius: .75rem; background: #fff; }
+      .hero { background: #e9f2e9; }
+      h1, h2 { margin: 0 0 .4rem; line-height: 1.25; }
+      h1 { font-size: clamp(1.8rem, 5vw, 3rem); }
+      h2 { font-size: clamp(1.25rem, 3vw, 1.65rem); }
+      p { margin: 0 0 .75rem; max-width: 44rem; }
+      .label { font-size: .875rem; font-weight: 650; }
+      .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: .5rem; list-style: none; margin: .75rem 0 0; padding: 0; }
+      .cards a, .action { display: flex; flex-direction: column; justify-content: center; min-height: 44px; border-radius: .5rem; }
+      .cards a { height: 100%; padding: .55rem .75rem; border: 1px solid #d9e3da; background: #f6f8f5; }
+      .cards span { font-size: .875rem; color: #394e45; text-decoration: none; }
+      .action { display: inline-flex; padding: .4rem .85rem; color: #fff; background: #153e35; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html#home"><img src="./brand/somm100-wordmark.svg" alt="SOMM100 首页" /></a>
+      <a href="./index.html#foundation">在完整 App 学习</a>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="course-home-title">
+        <p class="label">课程预告 · 第22期</p>
+        <h1 id="course-home-title">侍酒师100课程</h1>
+        <p>从葡萄园到酒瓶建立知识框架，再把品鉴、服务和餐酒搭配带进课堂。北京、上海、成都、深圳、广州分城开课。</p>
+        <a class="action" href="./foundation.html#foundation-cohort-title">查看五城班期与报名</a>
+      </section>
+      <section aria-labelledby="course-home-intro">
+        <h2 id="course-home-intro">课程介绍</h2>
+        <p>零基础可先选 4 周或 8 周预习。第22期五天面授分三个阶段，产区游学另行安排。完整班期页列出各城市上课日期、讲师、学费和报名表。</p>
+        <ul class="cards">
+          <li><a href="./foundation.html#foundation-course-title"><strong>面授与考核</strong><span>了解课程范围、考核和结课练习。</span></a></li>
+          <li><a href="./foundation.html#foundation-cohort-field-trip-title"><strong>产区游学</strong><span>查看日期、费用包含范围和观察练习。</span></a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="course-home-reading">
+        <h2 id="course-home-reading">文章导读</h2>
+        <p>先读概念，再看文章标题和推荐理由。公众号原文可能需要在微信中打开。</p>
+        <ul class="cards">
+          <li><a href="./foundation.html#foundation-0"><strong>学习葡萄酒之前</strong><span>先把品种、产地、年份和酿造连成框架。</span></a></li>
+          <li><a href="./foundation.html#foundation-2"><strong>葡萄与葡萄园</strong><span>从葡萄的结构和生长条件理解成熟。</span></a></li>
+          <li><a href="./foundation.html#foundation-3"><strong>葡萄怎么变成酒</strong><span>比较红白葡萄酒的发酵与果皮接触。</span></a></li>
+          <li><a href="./foundation.html#foundation-concept-index"><strong>全部课前概念</strong><span>按顺序读八个概念并做口头自查。</span></a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="course-home-study">
+        <h2 id="course-home-study">学习入口</h2>
+        <ul class="cards">
+          <li><a href="./foundation.html#foundation-study-title"><strong>开始课前预习</strong><span>选择 4 周或 8 周节奏，查看准备度和待复习题。</span></a></li>
+          <li><a href="./foundation.html#foundation-cohort-bridge-title"><strong>课间复习</strong><span>按上课城市查两阶段之间的复习安排。</span></a></li>
+          <li><a href="./foundation.html#foundation-assessment-title"><strong>考核与结课</strong><span>打开复习索引、情境自练和证书说明。</span></a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

@@ -10,11 +10,14 @@ export default function FoundationFocus(){
   return <div className="foundation-focus">
     <header className="foundation-focus-header">
       <a className="foundation-focus-brand" href="./index.html#home" aria-label="SOMM100 首页"><BrandMark/></a>
-      <a href="./index.html#foundation">打开完整 App</a>
+      <nav aria-label="课程入口">
+        <a href="./course.html">课程首页</a>
+        <a href="./index.html#foundation">打开完整 App</a>
+      </nav>
     </header>
     <main className="foundation-focus-main">
       <p className="fine-print">课程专注阅读 · 学习记录保存在当前浏览器。其他设备或不同网址不会自动同步。</p>
-      <FoundationLoadBoundary onBack={()=>go('courses')}><FoundationPage go={go}/></FoundationLoadBoundary>
+      <FoundationLoadBoundary onBack={()=>go('courses')}><FoundationPage go={go} initialTarget={window.location.hash.slice(1)}/></FoundationLoadBoundary>
     </main>
   </div>;
 }
