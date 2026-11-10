@@ -96,6 +96,10 @@
   text-align: start;
 }
 .foundation-directory-grid .button span { font-weight: 400; }
+.foundation-directory-topic { border: 1px solid var(--line, #d8d4ca); border-radius: .5rem; padding: .7rem; min-width: 0; }
+.foundation-directory-topic h3 { margin: 0 0 .45rem; font-size: 1rem; }
+.foundation-directory-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .35rem; }
+.foundation-directory-actions .button { justify-items: center; text-align: center; padding-inline: .35rem; }
 .foundation-directory > details { border-top: 1px solid var(--line, #d8d4ca); }
 .foundation-directory summary { min-height: 44px; }
 

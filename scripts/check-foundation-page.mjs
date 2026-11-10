@@ -139,12 +139,21 @@ try{
 
  const directory=document.querySelector('nav[aria-labelledby="foundation-directory-title"]');
  const stageTargets=['foundation-study-title','foundation-cohort-bridge-title','foundation-assessment-title','foundation-cohort-title'];
- const topicTargets=['foundation-bridge-title','foundation-d1-title','foundation-d1-quiz-title','foundation-d2-title','foundation-d2-quiz-title','foundation-france-title','foundation-d3-title','foundation-d3-quiz-title','foundation-d4-title','foundation-d4-quiz-title','foundation-sparkling-title'];
+ const topicTargets=['d1','d2','d3','d4'].flatMap(day=>
+   ['title','quiz-title','recap-title'].map(suffix=>`foundation-${day}-${suffix}`));
+ topicTargets.push('foundation-bridge-title','foundation-france-title','foundation-sparkling-title');
  const topicDisclosure=directory.querySelector('details');
  const stages=[...directory.querySelectorAll(':scope > div button')];
  const topics=[...topicDisclosure.querySelectorAll('button')];
  assert.deepEqual(stages.map(button=>button.querySelector('strong').textContent),['课前预习','课间复习','考核与结课','五城班期与报名']);
  assert.equal(topicDisclosure.open,false);
+ const topicCards=[...topicDisclosure.querySelectorAll('.foundation-directory-topic')];
+ assert.equal(topicCards.length,4);
+ for(const card of topicCards){
+   assert.deepEqual([...card.querySelectorAll('button')].map(button=>button.textContent),['提要','自测','案例']);
+   const recapId=card.querySelector('button[aria-controls]').getAttribute('aria-controls');
+   assert.equal(document.getElementById(recapId).open,false);
+ }
  const recordsBeforeDirectory=Object.entries(window.localStorage);
  for(const [buttons,targets] of [[stages,stageTargets],[topics,topicTargets]]){
    assert.equal(buttons.length,targets.length);
@@ -156,6 +165,8 @@ try{
      await act(async()=>button.click());
      assert.deepEqual(scrolls.at(-1),{id:targets[i],behavior:'instant',block:'start'});
      assert.equal(document.activeElement.id,targets[i]);
+     const recapId=button.getAttribute('aria-controls');
+     if(recapId)assert.equal(document.getElementById(recapId).open,true);
      assert.equal(window.location.hash,'#foundation');
    }
  }
@@ -336,5 +347,5 @@ try{
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:15,focusedDestinations:38,writtenCaseQuestions:3,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:42,directRecapDestinations:4,writtenCaseQuestions:3,readinessGroups:8,readinessNavigationPaces:[4,8],fieldTripReviewSteps:3,drinkComparisonCases:3,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

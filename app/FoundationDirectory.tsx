@@ -1,5 +1,6 @@
 import React from 'react';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
+import {openReviewRecap} from './FoundationReviewRecap';
 import './foundation-study.css';
 
 const stages = [
@@ -10,16 +11,15 @@ const stages = [
 ];
 
 const topics = [
+  {id: 'd1', title: 'D1 · 种植、酿造与酒标'},
+  {id: 'd2', title: 'D2 · 葡萄品种'},
+  {id: 'd3', title: 'D3 · 欧洲产区'},
+  {id: 'd4', title: 'D4 · 工艺与世界产区'},
+];
+
+const resources = [
   {target: 'foundation-bridge-title', title: '21 天课堂间学习路径'},
-  {target: 'foundation-d1-title', title: 'D1 课堂后复习'},
-  {target: 'foundation-d1-quiz-title', title: 'D1 综合自测'},
-  {target: 'foundation-d2-title', title: 'D2 葡萄品种复习'},
-  {target: 'foundation-d2-quiz-title', title: 'D2 综合自测'},
   {target: 'foundation-france-title', title: '法国专题复习'},
-  {target: 'foundation-d3-title', title: 'D3 欧洲产区'},
-  {target: 'foundation-d3-quiz-title', title: 'D3 综合自测'},
-  {target: 'foundation-d4-title', title: 'D4 工艺与世界产区'},
-  {target: 'foundation-d4-quiz-title', title: 'D4 综合自测'},
   {target: 'foundation-sparkling-title', title: '起泡酒练习'},
 ];
 
@@ -37,9 +37,28 @@ export default function FoundationDirectory() {
       </div>
       <details>
         <summary>展开专题复习与自测</summary>
-        <p>按主题选读。第22期逐日教学安排以当期课程方通知为准。</p>
+        <p>每组可直接看提要、做自测或打开案例。第22期逐日教学安排以当期课程方通知为准。</p>
         <div className="foundation-directory-grid">
-          {topics.map(({target, title}) => (
+          {topics.map(({id, title}) => {
+            const prefix = `foundation-${id}`;
+            const recapId = `${prefix}-recap`;
+            return (
+              <section className="foundation-directory-topic" key={id} aria-labelledby={`${prefix}-directory-label`}>
+                <h3 id={`${prefix}-directory-label`}>{title}</h3>
+                <div className="foundation-directory-actions">
+                  <button className="button secondary" type="button" aria-label={`${title} · 复习提要`}
+                    onClick={() => focusFoundationTarget(`${prefix}-title`)}>提要</button>
+                  <button className="button secondary" type="button" aria-label={`${title} · 综合自测`}
+                    onClick={() => focusFoundationTarget(`${prefix}-quiz-title`)}>自测</button>
+                  <button className="button secondary" type="button" aria-label={`${title} · 复盘案例`}
+                    aria-controls={recapId} onClick={() => openReviewRecap(recapId)}>案例</button>
+                </div>
+              </section>
+            );
+          })}
+        </div>
+        <div className="foundation-directory-grid">
+          {resources.map(({target, title}) => (
             <button className="button secondary" key={target} type="button" onClick={() => focusFoundationTarget(target)}>
               {title}
             </button>
