@@ -72,6 +72,27 @@ export default function FoundationAssessmentPractice() {
           <p><strong>自查　</strong>{check}</p>
         </details>
       ))}
+      <section className="foundation-week" aria-labelledby="foundation-assessment-service-roleplay-title">
+        <h4 id="foundation-assessment-service-roleplay-title">服务实操自练｜客人觉得酒不对</h4>
+        <p>一人扮演客人，一人扮演侍酒师。客人刚试过酒，杯中还只有少量试酒，说「这杯闻起来怪怪的」。侍酒师先回应并决定要不要继续倒酒，然后请同伴任选一张情境卡继续演练。</p>
+        <details id="foundation-service-glass-check">
+          <summary>情境 A｜换杯后，异味消失</summary>
+          <p>在客人同意后，用另一只洁净杯倒少量同瓶酒复核。新杯里闻不到刚才的气味，客人也觉得正常。请说一句给客人的说明，再说明何时恢复服务。</p>
+          <details>
+            <summary>展开参考做法</summary>
+            <p>「谢谢您提醒。换杯复核后，刚才的气味没有再出现。您愿意用这只杯继续吗？」撤下原杯，按门店流程检查杯具，等客人确认后再倒酒。</p>
+          </details>
+        </details>
+        <details id="foundation-service-bottle-check">
+          <summary>情境 B｜换杯后，异味仍在</summary>
+          <p>新杯里的同瓶酒仍有潮湿纸板般的气味，客人不愿继续。请说一句给客人的回应，再给值班负责人做一次交接。</p>
+          <details>
+            <summary>展开参考做法</summary>
+            <p>「我先暂停倒酒，请值班负责人一起复核，并确认可以给您的处理选项。」交接时说清桌号、酒款和年份、客人的原话、换杯后的观察及当前倒酒状态。保留原瓶供复核，按门店流程确认后再向客人说明安排。</p>
+          </details>
+        </details>
+        <p><strong>同伴自查　</strong>是否先暂停倒酒、听清客人的描述、征得同意再复核，并说清继续服务的条件？交接时是否把观察和判断分开？</p>
+      </section>
       <section className="foundation-week" aria-labelledby="foundation-assessment-pairing-title">
         <h4 id="foundation-assessment-pairing-title">餐酒搭配对照练习</h4>
         <p>用两组模拟记录练习餐酒搭配。先读菜品、酒款和客人偏好，写下初选，再展开试配记录。两题都可以只用文字完成。</p>

@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 侍酒服务异常复核
+
+基线 `20385fd9279ae64c6edf6839a75a32b3a193d72c`，分支 `migration/tencent-somm100`。已核对当前入口、来源映射、迁移说明、第 31 版检查点与远端分支。
+
+- **本轮交付**。`app/FoundationAssessmentPractice.tsx` 增加「客人觉得酒不对」双情境练习。换杯后异味消失，练习确认客人意愿及恢复服务。换杯后异味仍在，练习保留原瓶、记录观察并交接复核。情境及参考做法可分别展开，另有同伴自查。`app/FoundationPage.tsx` 的考核索引新增直达按钮。原创练习位于正式课后复习区，未分配到任何面授日。保留品牌、讲师、已有图片、原有稳定 ID 与本机学习记录。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[第 22 期招生资料第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认侍酒服务实操属于考核范围，五城为五天面授，另行游学。[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)仍待填写，[有道迁移笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)为历史资料。Notion 与文件检索未获得第 22 期确认版逐日课表及 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道独立自测、5 个案例。D2 9 个品种、6 个法国专题、42 道独立自测、5 个案例。D3 13 节、30 道独立自测、6 个案例。D4 15 节、45 道独立自测、7 个案例。D5 五城第五天日期已核实，教学与考核分配待确认。第 22 期无 D6 面授，2027 年 3 月 14–17 日游学另排。
+- **验证与保存**。87 项回归、53 个单元渲染、新入口焦点、两情境分层展开、本机记录保留、备份恢复和专注入口通过。CloudBase 构建 450 个文件，入口 `./assets/app-C2D39XPA.js`，SHA256 `6b850ac611ac8951d922c56e73cd9f2b9c30026d4ac614c90296be80c197181d`。[第 32 版独立预览](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 758356 字节，文件 URL 与模拟 HTTPS 的 DOM 检查通过。Chromium 窄屏测试启动报 `socket() failed: Operation not permitted`，真机布局仍待验收。
+- **部署与接续**。当前缺已授权的腾讯发布通路，既有 CLI 阻塞为 `tcb-api.cloud.tencent.com:443` 被网络策略拒绝。未部署，腾讯线上验收待完成。保留 `[skip netlify]` 与 `netlify.toml` 的 `ignore = "exit 0"`。取得第 22 期确认版逐日课表与原始课件后，先核对 D5 教学和考核分配，再核对 D1–D4 专题与面授安排。
+
+---
+
 # Foundation · 2026-11-10 · 餐酒搭配对照练习
 
 基线 `30e63015c63a76c793d8a9fbb3ad41a28e5ba41e`，分支 `migration/tencent-somm100`。已对照远端分支、当前入口、来源映射、腾讯迁移说明及第 30 版检查点。
