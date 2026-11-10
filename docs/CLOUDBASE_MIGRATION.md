@@ -1,5 +1,12 @@
 # SOMM100 腾讯云迁移检查点
 
+## 2026-11-10 · 正式域名可达，线上仍为旧 Foundation
+
+- 浏览器已实际打开 [www.somm100.cn](https://www.somm100.cn/)，从主导航进入 [Foundation](https://www.somm100.cn/#foundation)。可见旧标题「六天，是开始」和已过时的 Chapter 00，入口资源为 `/assets/index-ByL68l2x.js`。同域 `/foundation.html` 返回 `404 NoSuchKey`。正式 www 域名已能访问，仍缺最新源码构建上线的凭证。
+- 本地发布候选由 `EnsobyShuffle/Somm100` 的 `migration/tencent-somm100` 构建，共 450 个文件。发布在现有 `somm100` 静态托管应用内继续，核对已绑定的 www 域名指向该应用与现有 `/somm100` 托管目标。沿用 `npm run build:cloudbase` 和 `dist-cloudbase`。当前浏览器内腾讯控制台仍在登录页，未取得发布回执。
+- 部署后对照该次构建的 App 入口和专注阅读入口，确认正式站已显示「先理解一瓶酒，再走进课堂」，专注入口成功打开，并在手机上检查口试证据练习及本机记录。候选 App 入口 `./assets/app-FnK4S59t.js`，专注入口 `./assets/foundation-CdWP8szO.js`，部署若采用更新提交则按新构建结果核对。
+
+
 ## 2026-11-02 10:01 CST · 线上与部署通路复核
 
 - 本轮通过现有云浏览器重新加载腾讯测试应用，学习设置页正常显示，仍明确为游客本机记录；每日目标显示 20 分钟。只读观察，没有修改用户记录。DOM 入口脚本仍是 `/assets/index-ByL68l2x.js`，不能把此前相对路径新构建称为已上线。测试入口仍为 https://somm100-shuffle-platform-d6eoe6y06c6f4ea.webapps.tcloudbase.com/ ，不是正式自有域名或大陆网络验收。

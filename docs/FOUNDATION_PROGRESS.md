@@ -1,3 +1,15 @@
+# Foundation · 2026-11-10 · 口试证据练习与正式域名验收
+
+基线 `be07ab587f2200f39104e1b7611669d2adaa404d`，分支 `migration/tencent-somm100`。已核对入口、来源映射、迁移说明、第 33 版检查点和远端分支。
+
+- **本轮交付**。`app/FoundationPage.tsx` 新增「口试证据练习」直达入口及两道原创同伴追问。练习用虚构资料卡区分标示酒精度和成酒残糖，以及葡萄品种和干甜风格。两道追问均有折叠示范，练习按判断、证据和下一项核实内容作答。放在课后考核区，保留原有 ID、品牌、讲师、图片及本机记录。
+- **来源与缺口**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、已过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)与[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。[第 22 期招生资料第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认口试属于考核范围。Notion 和文件检索仍未取得本期确认版逐日课表；开班模板待填，有道迁移记录为历史资料，WPS／有道原始课件未取得。
+- **日次状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、6 个案例。D4 15 节、45 道自测、7 个案例。D5 五城第五天日期已核实，教学与考核分配待确认。第 22 期无 D6 面授，2027 年 3 月 14–17 日游学另排。
+- **验证与保存**。87 项回归、53 个单元渲染、口试入口焦点、两题答案分层展开、旧学习记录及备份恢复、专注入口均通过。CloudBase 构建 450 个文件，App 入口 `./assets/app-FnK4S59t.js`，SHA256 `417bf5668a9c4049ec35b1354fc5184b59a96dafd04bed1347bcf70c5cd32912`。[第 34 版独立预览](https://chatgpt.com/library?file_id=libfile_6329ce1ee0d4819193ab936d55f879b4&account_id=personal)共 761906 字节，文件 URL 与模拟 HTTPS 的 DOM 通过。预览的完整 App 入口改为已验证能打开的正式站。
+- **部署与接续**。11 月 10 日浏览器实测 [正式站课程入口](https://www.somm100.cn/#foundation) 可用，仍显示旧「六天，是开始」和 Chapter 00，App 加载 `/assets/index-ByL68l2x.js`；同域 `/foundation.html` 返回 `404 NoSuchKey`。当前腾讯控制台浏览器仍停在登录页，无可用的已授权发布会话。未部署，手机实机及最新线上验收待完成。发布接续点见迁移说明；课程接续先取得确认版逐日课表及课件，核对 D5 分配与 D1–D4 对应。保留 `[skip netlify]` 与 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-10 · 盲品证据复盘与窄屏考核索引
 
 基线 `ae38e8c5b98ff7cb8dcad0b38f3f736dfe27379f`，分支 `migration/tencent-somm100`。已核对当前入口、来源映射、迁移说明、第 32 版检查点及远端分支。

@@ -55,6 +55,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d3-title')}>复习欧洲产区</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-d4-title')}>复习工艺与世界产区</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-written-title')}>笔试案例自练</button>
+  <button className="button secondary" aria-controls="foundation-assessment-oral" onClick={()=>openReviewRecap('foundation-assessment-oral')}>口试证据练习</button>
   <button className="button secondary" aria-controls="foundation-assessment-blind" onClick={()=>openReviewRecap('foundation-assessment-blind')}>盲品证据复盘</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-practice-title')}>餐厅情境自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-service-roleplay-title')}>服务实操自练</button>
@@ -85,7 +86,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <p className="fine-print">这套原创案例供课后复习。可回看 D1 的发酵与酒标单元。作答请记在自己的笔记中，页面不计分。</p>
  </section>
  <details id="foundation-assessment-oral">
-  <summary>口试自练｜同为雷司令，怎样读出两瓶酒的区别？</summary>
+  <summary id="foundation-assessment-oral-title">口试自练｜同为雷司令，怎样读出两瓶酒的区别？</summary>
   <p>用约一分钟向同学解释这两款酒。先说共同品种，再分别说明两瓶的产地线索与干甜线索。这个时长供自练参考。</p>
   <ul>
    <li>德国案例（D3 第11节）　Gauer 2024 Riesling Spätlese trocken</li>
@@ -95,6 +96,25 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
    <summary>展开参考回答</summary>
    <p>两款都是雷司令。德国案例的 Spätlese 是 Prädikat，干型依据是 trocken。奥地利案例来自瓦豪，Smaragd 是 Vinea Wachau 的干型风格标示。想确认具体酒款的原产地标示或残糖数字，继续读酒标及技术表。</p>
   </details>
+  <h4>同伴追问｜资料只给了一半</h4>
+  <p>以下是两张虚构资料卡。同伴任选一张提问，学员用三句话作答。先给判断，再说手头证据，最后说明还要核实什么。</p>
+  <details id="foundation-oral-alcohol">
+   <summary>追问一｜13.5% vol. 能说明哪杯更甜吗？</summary>
+   <p>甲酒背标写 13.5% vol.，乙酒写 11.5% vol.。两张卡都没有干甜说明或残糖数据。同伴说「甲度数高，糖肯定更多」。</p>
+   <details>
+    <summary>展开示范回答</summary>
+    <p>现在无法判断哪瓶残糖更多。背标只确认甲的标示酒精度较高，成酒残糖是另一项指标。我会查对应批次的技术表来比较残糖，再用并排品尝比较甜感。</p>
+   </details>
+  </details>
+  <details id="foundation-oral-variety">
+   <summary>追问二｜同是白诗南，风格就一样吗？</summary>
+   <p>两瓶正标都写 Chenin Blanc。甲的技术表注明干型，乙只有葡萄品种名。同伴说「这两瓶应该都是干型」。</p>
+   <details>
+    <summary>展开示范回答</summary>
+    <p>两瓶标示的品种都是白诗南，甲的干型来自技术表。乙的干甜目前未知，同一品种可以做成不同风格。我会查乙的具体酒款和批次资料，核实它的干甜描述或残糖数据。</p>
+   </details>
+  </details>
+  <p><strong>同伴自查　</strong>回答是否把已知事实、尚待核实的信息和核实办法说清楚？</p>
   <p className="fine-print">这是课程复习用的原创练习。展开答案不会计分或改变学习进度。</p>
  </details>
  <details id="foundation-assessment-blind">
