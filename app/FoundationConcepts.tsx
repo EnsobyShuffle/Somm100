@@ -2,6 +2,7 @@
 
 import React from 'react';
 import concepts from '../data/foundation-concepts.json';
+import grapes from '../data/foundation-grapes.json';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
 type ReviewReturn = {conceptId: string; onReturn: () => void};
@@ -26,6 +27,24 @@ export default function FoundationConcepts({reviewReturn}: {reviewReturn?: Revie
         <h2 id={`${id}-title`}>{title}</h2>
         <p>{intro}</p>
         <p>{example}</p>
+        {id === 'foundation-5' && (
+          <section aria-labelledby="foundation-grape-cards-title">
+            <h3 id="foundation-grape-cards-title">六个品种怎么比较</h3>
+            <p>先选两个品种，按结构、气候、酿造和产区各记一条。再试着口头回答卡片里的问题。</p>
+            {grapes.map(({id: grapeId, name, structure, climate, winemaking, regions, check}) => (
+              <details id={`foundation-grape-${grapeId}`} key={grapeId}>
+                <summary>{name}</summary>
+                <dl>
+                  <dt>结构</dt><dd>{structure}</dd>
+                  <dt>气候与成熟度</dt><dd>{climate}</dd>
+                  <dt>酿造选择</dt><dd>{winemaking}</dd>
+                  <dt>经典产区</dt><dd>{regions}</dd>
+                </dl>
+                <p><strong>口头自查　</strong>{check}</p>
+              </details>
+            ))}
+          </section>
+        )}
         {articles.length > 0 && <>
           <h3>继续阅读</h3>
           <ul>

@@ -27,7 +27,7 @@ try{
  const chapters=[...document.querySelectorAll('.foundation-chapter')];
  assert.deepEqual(chapters.map(x=>x.id),Array.from({length:8},(_,i)=>'foundation-'+i));
  const links=chapters.flatMap(x=>[...x.querySelectorAll('a')]);
- assert.equal(links.length,10);assert(links.every(x=>new URL(x.href).hostname==='mp.weixin.qq.com'));
+ assert.equal(links.length,16);assert(links.every(x=>new URL(x.href).hostname==='mp.weixin.qq.com'));
  assert.deepEqual(links.map(link=>[link.textContent,link.getAttribute('href'),link.nextElementSibling.textContent]),
    sourceMap.articles.map(({title,url,whyRead})=>[`${title} ↗`,url,`为什么看：${whyRead}`]));
  assert(links.every(link=>link.target==='_blank'&&link.relList.contains('noopener')));
@@ -37,6 +37,19 @@ try{
  const prepRecord=window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
  assert(firstCheck.checked);
  assert(prepRecord);
+ const grapeCards=[...document.querySelectorAll('#foundation-5 section[aria-labelledby="foundation-grape-cards-title"] details')];
+ assert.deepEqual(grapeCards.map(card=>card.id),
+   ['chardonnay','sauvignon-blanc','riesling','pinot-noir','cabernet-sauvignon','syrah'].map(id=>'foundation-grape-'+id));
+ for (const card of grapeCards) {
+   assert(!card.open);
+   await act(async()=>card.querySelector('summary').click());
+   assert(card.open);
+   assert.deepEqual([...card.querySelectorAll('dt')].map(term=>term.textContent),
+     ['结构','气候与成熟度','酿造选择','经典产区']);
+   assert([...card.querySelectorAll('dd')].every(value=>value.textContent.trim()));
+   assert.match(card.querySelector('p').textContent,/口头自查/);
+ }
+ assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
  const prepCity=cityPrep.querySelector('select');
  const selectPrepCity=async value=>await act(async()=>{
@@ -84,7 +97,7 @@ try{
  await act(async()=>firstConceptButton.click());
  assert.equal(document.activeElement.id,'foundation-0');
  for(const chapter of chapters){
-   const details=chapter.querySelector('details');
+   const details=chapter.querySelector(':scope > details');
    assert.match(chapter.textContent,/口头自查/);
    assert(details.querySelector('p').textContent.trim());
    assert.equal(details.open,false);
@@ -496,5 +509,5 @@ try{
    });
  }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:16,grapeCards:6,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

@@ -104,7 +104,38 @@
     "example": "用一张小卡记录品种、产地和喝到的风格。遇到另一瓶同品种的酒，就把它写在旁边比较。先说两款实际有哪些相同与不同，再查气候或酿造线索。",
     "question": "两瓶 Riesling 一瓶干、一瓶甜。你会在品种卡上保留哪一项，又会分别查哪一项？",
     "answer": "两瓶的葡萄品种都记作 Riesling。干甜分别从酒标、酒款资料或品尝确认。品种帮助你找到比较对象，具体风格还要看那瓶酒。",
-    "articles": []
+    "articles": [
+      {
+        "title": "不知道霞多丽，都不好意思说喝过白葡萄酒！",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjE2MTk0Ng==&mid=2649965742&idx=1&sn=ffc2932a5b1e4b47113f1b3588ed45e5&scene=21#wechat_redirect",
+        "whyRead": "看霞多丽怎样随气候与酿造改变酸度、酒体和香气。"
+      },
+      {
+        "title": "搞懂长相思葡萄酒，有这篇文章就够了！",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjE2MTk0Ng==&mid=2650034047&idx=2&sn=0a405133ef46dca590dcbe57ec215fd5&scene=21#wechat_redirect",
+        "whyRead": "把长相思的酸度与草本或果香分别记录，再比较不同产地。"
+      },
+      {
+        "title": "一文了解德国雷司令",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjE2MTk0Ng==&mid=2650021006&idx=1&sn=fa1fee65860fd4343db4373f1147ecae&scene=21#wechat_redirect",
+        "whyRead": "用德国雷司令的例子观察酸度和干甜如何搭配。"
+      },
+      {
+        "title": "圈内必知：除了勃艮第，世界上还有哪些好喝的黑皮诺？",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjE2MTk0Ng==&mid=2650000795&idx=2&sn=af30c07007b32e09ebde3cbe2cdc73b6&scene=21#wechat_redirect",
+        "whyRead": "先认勃艮第，再找两个其他产地作为黑皮诺的比较对象。"
+      },
+      {
+        "title": "赤霞珠大比拼：波尔多 VS 纳帕谷",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjE2MTk0Ng==&mid=2649975483&idx=1&sn=bc3dcba61b10d0bb69f38936aff2645a&scene=21#wechat_redirect",
+        "whyRead": "用两个经典产地练习比较成熟度、单宁和酒体。"
+      },
+      {
+        "title": "西拉和设拉子到底有什么区别？——问问Decanter",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU3NjU1ODUzMw==&mid=2247497965&idx=1&sn=10be768ce143592f9ecd61815486f7e5&scene=21#wechat_redirect",
+        "whyRead": "认出 Syrah 和 Shiraz 的两种写法，再观察产地如何改变表达。"
+      }
+    ]
   },
   {
     "id": "foundation-6",

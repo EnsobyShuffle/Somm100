@@ -67,7 +67,7 @@ try{
      const fees=[...preview.querySelectorAll('.cohort-tuition strong')].map(fee=>Number(fee.textContent.replace(/\D/g,'')));
      assert.deepEqual(fees,cohort.tuition.map(({amountCny})=>amountCny));
      const readingGroups=[...home.querySelectorAll('.reading-group')];
-     assert.equal(readingGroups.length,3);
+     assert.equal(readingGroups.length,4);
      readingGroups.forEach((group,index)=>{
        const concept=readingConcepts[index];
        const summary=group.querySelector('summary');
@@ -82,7 +82,7 @@ try{
        }));
        assert.deepEqual(entries,concept.articles);
      });
-     assert.equal(home.querySelectorAll('.reading-group a').length,10);
+     assert.equal(home.querySelectorAll('.reading-group a').length,16);
      const links=[...home.querySelectorAll('a[href^="./foundation.html#"]')];
      assert.equal(links.length,10);
      for(const link of links){
@@ -104,5 +104,5 @@ try{
  assert(document.querySelector('#foundation-d1-quiz input[type=radio]').checked);
  assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),saved);
  assert.deepEqual(errors,[]);
- console.log(JSON.stringify({status:'PASS',sameOriginRecordRoundTrip:true,brandPreserved:true,fullAppLink:true,courseHomeScriptFree:true,cohortCities:5,cohortDates:25,articleGuides:10,shortcutsChecked:shortcutCount,scope:'React/jsdom only; no real cross-page navigation or phone test'},null,2));
+ console.log(JSON.stringify({status:'PASS',sameOriginRecordRoundTrip:true,brandPreserved:true,fullAppLink:true,courseHomeScriptFree:true,cohortCities:5,cohortDates:25,articleGuides:16,shortcutsChecked:shortcutCount,scope:'React/jsdom only; no real cross-page navigation or phone test'},null,2));
 }finally{await act(async()=>root.unmount());console.error=oldError;dom.window.close();}
