@@ -100,25 +100,32 @@ try {
       jump.focus();
       await act(async () => jump.click());
       assert.equal(document.activeElement.id, jumpId, 'Reopening the active unit must still focus it');
-      const reviewTargets = {
-        d1:[3, 1, 7, 6, 10, 8, 2, 4, 5, 3],
-        d2:[2, 3, 5, 6, 4, 7, 8, 1, 9, 7],
-        d3:[3, 5, 4, 8, 8, 9, 9, 13, 6, 7, 11, 12, 3, 5, 4, 3],
-        d4:[4, 6, 10, 7, 8, 13, 14, 15, 9, 11, 9, 12, 2, 3, 9, 10],
-      }[area];
-      if (reviewTargets) {
-        recap.open = false;
-        const recapLink = container.querySelector(`button[aria-controls="foundation-${area}-recap"]`);
-        await act(async () => recapLink.click());
-        assert.equal(recap.open, true);
-        assert.equal(document.activeElement.id, `foundation-${area}-recap-title`);
-        assert.equal(recap.querySelectorAll('button').length, reviewTargets.length);
-        for (const [index, target] of reviewTargets.entries()) {
-          await act(async () => recap.querySelectorAll('button')[index].click());
-          assert.equal(document.activeElement.id, `foundation-${area}-${String(target).padStart(2, '0')}`);
+      recap.open = false;
+      const recapLink = container.querySelector(`button[aria-controls="foundation-${area}-recap"]`);
+      await act(async () => recapLink.click());
+      assert.equal(recap.open, true);
+      assert.equal(document.activeElement.id, `foundation-${area}-recap-case-1`);
+      for (const [caseIndex, card] of [...recap.querySelectorAll(':scope > ol > li')].entries()) {
+        const heading = card.querySelector('h3');
+        assert.equal(heading.id, `foundation-${area}-recap-case-${caseIndex + 1}`);
+        const answer = card.querySelector('details');
+        const answerWasOpen = answer.open;
+        for (const button of card.querySelectorAll('button')) {
+          const number = Number(button.textContent.match(/回看第 (\d+) 节/)[1]);
+          await act(async () => button.click());
+          assert.equal(document.activeElement.id, `foundation-${area}-${String(number).padStart(2, '0')}`);
+          assert.equal(recapLink.textContent, '返回刚才案例');
+          // A reader may collapse the list while revisiting a lesson.
+          recap.open = false;
+          await act(async () => recapLink.click());
+          assert.equal(recap.open, true);
+          assert.equal(document.activeElement, heading);
+          assert.equal(scrollRequests.at(-1).id, heading.id);
+          assert.equal(answer.open, answerWasOpen, 'Returning preserves the answer disclosure');
+          const saved = JSON.parse(window.localStorage.getItem(key));
+          assert.deepEqual(saved.checks, seed.checks);
+          assert.deepEqual(saved.answers, seed.answers);
         }
-        const after = JSON.parse(window.localStorage.getItem(key));
-        assert.deepEqual({...after, unit:1}, JSON.parse(before));
       }
     }
     for (const unit of data.units) {
@@ -364,7 +371,7 @@ try {
   }
   assert.deepEqual(diagnostics, [], 'No React warnings or errors');
   console.log(JSON.stringify({status:'PASS',scope:'React SSR and jsdom; no browser layout or online acceptance',
-    results,pendingQuizListsVerified:4,recapCasesVerified:12,recapJumpsVerified:24,totalUnits:results.reduce((sum,row)=>sum+row.units,0)}, null, 2));
+    results,pendingQuizListsVerified:4,recapReturnCasesVerified:27,recapReturnJumpsVerified:54,totalUnits:results.reduce((sum,row)=>sum+row.units,0)}, null, 2));
 } finally {
   console.error = originalError;
   dom.window.close();

@@ -17,6 +17,7 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
   const [loaded, setLoaded] = useState(false);
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
+  const [recapTarget, setRecapTarget] = useState(null);
   useEffect(() => {
     // Accessing window.localStorage itself can throw in restricted browsers.
     let result;
@@ -62,7 +63,8 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
     h('h2', {id: prefix + "-title"}, title),
     h('p', null, intro),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，各专题分别保存，不同步到账号或讲师端。'),
-    recap && h(FoundationReviewRecap, {...recap, id: recapId, disabled: !loaded, onReview: number => {
+    recap && h(FoundationReviewRecap, {...recap, id: recapId, disabled: !loaded, onReview: (number, caseId) => {
+      setRecapTarget(caseId);
       if (number === unit.number) focusFoundationTarget(unit.id);
       else chooseUnit(number);
     }}),
@@ -75,8 +77,8 @@ export default function FoundationRegionalReview({data, prefix, title, intro, st
       h(FoundationQuizReturn,{prefix:prefix}),
       h('button', {
         type: 'button', className: 'button secondary', 'aria-controls': recapId,
-        onClick: () => openReviewRecap(recapId)
-      }, `回到 ${recap.title}`)) : h(FoundationQuizReturn,{prefix:prefix}),
+        onClick: () => openReviewRecap(recapId, recapTarget || recapId + '-title')
+      }, recapTarget ? '返回刚才案例' : `回到 ${recap.title}`)) : h(FoundationQuizReturn,{prefix:prefix}),
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
       unit.learningObjective && h('p', null, h('strong', null, '学习目标　'), unit.learningObjective),

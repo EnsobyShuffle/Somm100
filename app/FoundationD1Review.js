@@ -22,6 +22,7 @@ export default function FoundationD1Review() {
   const [loaded, setLoaded] = useState(false);
   const [canSave, setCanSave] = useState(false);
   const [error, setError] = useState('');
+  const [recapTarget, setRecapTarget] = useState(null);
   useEffect(() => {
     // Accessing window.localStorage itself can throw in restricted browsers.
     let result;
@@ -66,7 +67,8 @@ export default function FoundationD1Review() {
     h('h2', {id: 'foundation-d1-title'}, 'D1｜课堂后复习'),
     h('p', null, '先重建课堂知识，再检查理解。本区供 D1 后复习使用，与上方课前预习分开；不是完整课堂课表，也不代表已完成课堂出勤或课程考核。'),
     h('p', {className: 'fine-print'}, '自查与首次／最近答案仅保存在当前浏览器，独立于课前记录，不同步到账号或讲师端。'),
-    h(FoundationReviewRecap, {...d1Recap, id: recapId, disabled: !loaded, onReview: number => {
+    h(FoundationReviewRecap, {...d1Recap, id: recapId, disabled: !loaded, onReview: (number, caseId) => {
+      setRecapTarget(caseId);
       if (number === unit.number) focusFoundationTarget(unit.id);
       else chooseUnit(number);
     }}),
@@ -78,7 +80,7 @@ export default function FoundationD1Review() {
     h('div', {className: 'button-row'},
       h(FoundationQuizReturn,{prefix:'foundation-d1'}),
       h('button', {type:'button', className:'button secondary', 'aria-controls':recapId,
-        onClick: () => openReviewRecap(recapId)}, '回到 D1 综合复盘')),
+        onClick: () => openReviewRecap(recapId, recapTarget || recapId + '-title')}, recapTarget ? '返回刚才案例' : '回到 D1 综合复盘')),
     h('article', {key: unit.id, id: unit.id},
       h('h3', null, unit.title),
       unit.learningObjective && h('p', null, h('strong', null, '学习目标　'), unit.learningObjective),

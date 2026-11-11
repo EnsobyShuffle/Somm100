@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-11",
+  "baseCommit": "0ec1ebe49a264ee893212622860edbcdcb508dc7",
+  "change": "Return to the originating Foundation recap case after revisiting a lesson",
+  "rendering": {
+    "status": "PASS",
+    "scope": "React SSR and jsdom; no browser layout or online acceptance",
+    "results": [
+      {
+        "area": "d1",
+        "units": 10,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": [],
+        "diagramsVerified": 9
+      },
+      {
+        "area": "d2",
+        "units": 9,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": [],
+        "diagramsVerified": 9
+      },
+      {
+        "area": "france",
+        "units": 6,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": [],
+        "diagramsVerified": 2
+      },
+      {
+        "area": "d3",
+        "units": 13,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": [],
+        "diagramsVerified": 7
+      },
+      {
+        "area": "d4",
+        "units": 15,
+        "ssr": true,
+        "dom": true,
+        "navigation": true,
+        "focus": true,
+        "recordPreservation": true,
+        "remount": true,
+        "corruptRecordProtection": true,
+        "missingGuidance": [],
+        "diagramsVerified": 10
+      }
+    ],
+    "pendingQuizListsVerified": 4,
+    "recapReturnCasesVerified": 27,
+    "recapReturnJumpsVerified": 54,
+    "totalUnits": 53
+  },
+  "regression": {
+    "passed": 87,
+    "failed": 0
+  },
+  "page": {
+    "status": "PASS",
+    "concepts": 8,
+    "oralChecksAndReturns": 8,
+    "originalArticleLinks": 10,
+    "sectionDestinations": 19,
+    "focusedDestinations": 46,
+    "directRecapDestinations": 4,
+    "writtenCaseQuestions": 3,
+    "blindEvidenceComparison": true,
+    "oralEvidenceScenarios": 2,
+    "readinessGroups": 8,
+    "readinessNavigationPaces": [
+      4,
+      8
+    ],
+    "readinessReviewQuestionJumps": 3,
+    "fieldTripReviewSteps": 3,
+    "drinkComparisonCases": 3,
+    "pairingComparisonCases": 2,
+    "serviceRoleplayScenarios": 2,
+    "teamAuditRows": 4,
+    "cityPrepOptions": 5,
+    "cohortScheduledDays": 25,
+    "paymentTermsSourceVerified": true,
+    "assessmentScenarios": 3,
+    "reducedMotion": "instant",
+    "routeCallbacks": [
+      "courses",
+      "service",
+      "practice"
+    ],
+    "quizRecordsRestored": 4,
+    "limits": "jsdom only; no browser layout/network/deployment claim"
+  },
+  "entry": {
+    "status": "PASS",
+    "entry": "assets/foundation-CmZdMCBN.js",
+    "assets": [
+      {
+        "name": "assets/foundation-CmZdMCBN.js",
+        "bytes": 1522,
+        "sha256": "985872d564d488480d705314e7a456bd7a4a164963b51125ab987e26a602a587"
+      },
+      {
+        "name": "assets/globals-oDycGeg_.js",
+        "bytes": 193471,
+        "sha256": "d566e4c918b09fc5bdc4f544bc03e02ab02b1a456fa7769c95d44ca45a76a338"
+      },
+      {
+        "name": "assets/FoundationPage-Bnd77QlH.js",
+        "bytes": 411163,
+        "sha256": "bbcf2d8685cf4d8c57cb35d86c2cc4e676d241473f8f2da794af1b45133df768"
+      }
+    ],
+    "totalJavaScriptBytes": 606156,
+    "sharedFullAppDataExcluded": true,
+    "mounts": [
+      "/",
+      "/somm100/"
+    ],
+    "limits": "Uncompressed JS bytes; excludes CSS/images. Not network timing, phone or deployment acceptance."
+  },
+  "focus": {
+    "status": "PASS",
+    "sameOriginRecordRoundTrip": true,
+    "brandPreserved": true,
+    "fullAppLink": true,
+    "courseHomeScriptFree": true,
+    "cohortCities": 5,
+    "cohortDates": 25,
+    "articleGuides": 10,
+    "shortcutsChecked": 20,
+    "scope": "React/jsdom only; no real cross-page navigation or phone test"
+  },
+  "limits": [
+    "React SSR/jsdom and production build only",
+    "No current online deployment or mobile visual acceptance",
+    "Case return target lasts for the mounted page; learning records retain existing browser-local storage"
+  ]
+}

@@ -15,14 +15,14 @@ export default function FoundationReviewRecap({id, title, intro, cases, onReview
     h('summary', {id: id + '-title'}, `${title} · ${cases.length} 个案例`),
     h('p', null, intro),
     h('p', {className: 'fine-print'}, '先在自己的笔记中作答。展开参考答案不计分。'),
-    h('ol', null, cases.map(({title, prompt, answer, reviews}) =>
+    h('ol', null, cases.map(({title, prompt, answer, reviews}, index) =>
       h('li', {key: title},
-        h('h3', null, title),
+        h('h3', {id: `${id}-case-${index + 1}`}, title),
         h('p', null, prompt),
         h('details', null, h('summary', null, '展开参考答案'), h('p', null, answer)),
         h('div', {className: 'button-row'}, reviews.map(([number, label]) =>
           h('button', {
             key: number, type: 'button', className: 'button secondary', disabled,
-            onClick: () => onReview(number),
+            onClick: () => onReview(number, `${id}-case-${index + 1}`),
           }, `回看第 ${number} 节 · ${label}`)))))));
 }
