@@ -4,6 +4,7 @@ import React, {useEffect, useRef, useState} from 'react';
 import data from '../data/foundation-study.json';
 import concepts from '../data/foundation-concepts.json';
 import FoundationPrepByCity from './FoundationPrepByCity';
+import FoundationConcepts from './FoundationConcepts';
 import {openReviewRecap} from './FoundationReviewRecap';
 import {FOUNDATION_STORAGE_KEY, emptyFoundationProgress, normalizeFoundationProgress, recordFoundationAnswer, foundationWeekResult, foundationOptions} from '../lib/foundation-study.mjs';
 import './foundation-study.css';
@@ -20,6 +21,7 @@ export default function FoundationStudy() {
   const [saveError, setSaveError] = useState('');
   const [canSave, setCanSave] = useState(false);
   const pendingQuestionFocus = useRef(null);
+  const [reviewOrigin, setReviewOrigin] = useState(null);
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
@@ -66,7 +68,16 @@ export default function FoundationStudy() {
   const firstWeek = progress.pace === 4 ? progress.period * 2 - 1 : progress.period;
   const visibleWeeks = data.weeks.filter(w => w.number === firstWeek || (progress.pace === 4 && w.number === firstWeek + 1));
   const reviewQuestions = data.questions.filter(q => progress.answers[q.id] && progress.answers[q.id].latest !== q.answer);
-  return h('section', {className: 'white-panel foundation-study', 'aria-labelledby': 'foundation-study-title'},
+  function reviewQuestion(question, targetId) {
+    setReviewOrigin({targetId, questionId: question.id, week: question.week});
+    focusFoundationTarget(targetId);
+  }
+
+  function returnToQuestion() {
+    showWeekQuestions(reviewOrigin.week, reviewOrigin.questionId);
+  }
+
+  const study = h('section', {className: 'white-panel foundation-study', 'aria-labelledby': 'foundation-study-title'},
     h('h2', {id: 'foundation-study-title'}, '本周要完成什么'),
     h('p', null, '同一套内容，两种节奏。推荐提前 8 周开始，每周 2–3 次、每次 30–45 分钟；4 周版每周约 3–4 次，合并相邻两周。可自行选择当前周，不代表已安排开课日期。'),
     h(FoundationPrepByCity),
@@ -110,6 +121,9 @@ export default function FoundationStudy() {
         h('p', null, week.goal),
         h('h4', {id: `${week.id}-digest`}, '先理解'),
         h('p', null, week.digest),
+        reviewOrigin?.targetId === `${week.id}-digest`
+          ? h('button', {type: 'button', className: 'button secondary', onClick: returnToQuestion}, '回到刚才的准备度题')
+          : null,
         h('div', {className: 'button-row'}, week.concepts.map(id => h('button', {type: 'button', className: 'button secondary', key: id, onClick: () => scrollToConcept(id)}, `阅读｜${conceptTitles[id]}`))),
         h('fieldset', null, h('legend', null, '知识点自查 · 理解后再勾选'),
           week.checks.map(check => h('label', {className: 'foundation-check', key: check.id},
@@ -132,10 +146,20 @@ export default function FoundationStudy() {
                 h('span', null, `${String.fromCharCode(65 + position)}. ${q.options[index]}`))),
               entry ? h('div', {'aria-live': 'polite'},
                 h('p', null, correct ? `理解正确：${q.topic}。` : `再看一下「${q.topic}」。正确理解是：${q.options[q.answer]}。`),
-                !correct ? h('button', {type: 'button', className: 'button secondary', onClick: () => scrollToConcept(`${week.id}-digest`)}, '返回本周知识提要') : null,
+                !correct ? h('div', {className: 'button-row'},
+                  q.reviewConceptId ? h('button', {type: 'button', className: 'button secondary',
+                    onClick: () => reviewQuestion(q, q.reviewConceptId)}, `回看概念｜${conceptTitles[q.reviewConceptId]}`) : null,
+                  h('button', {type: 'button', className: 'button secondary',
+                    onClick: () => reviewQuestion(q, `${week.id}-digest`)}, '返回本周知识提要')) : null,
                 h('p', {className: 'fine-print'}, `首次选择：${q.options[entry.first]}；最近选择：${q.options[entry.latest]}`)) : null);
           }),
           h('button', {type: 'button', className: 'button secondary',
             onClick: () => openReviewRecap('foundation-readiness-overview')}, '回到准备度总览')));
     }));
+
+  return h(React.Fragment, null, study, h(FoundationConcepts, {
+    reviewReturn: reviewOrigin
+      ? {conceptId: reviewOrigin.targetId, onReturn: returnToQuestion}
+      : undefined,
+  }));
 }

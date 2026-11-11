@@ -4,7 +4,6 @@ import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import FoundationBridge from './FoundationBridge';
 import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
-import FoundationConcepts from './FoundationConcepts';
 import FoundationAssessmentPractice from './FoundationAssessmentPractice';
 import FoundationWrittenPractice from './FoundationWrittenPractice';
 import {openReviewRecap} from './FoundationReviewRecap';
@@ -42,7 +41,7 @@ export default function FoundationPage({go,initialTarget}:FoundationPageProps){
 
 function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
  return (<><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
-<FoundationDirectory/><FoundationCohort/><FoundationBackup onRestored={onRestored}/><FoundationBridge/><FoundationStudy/><FoundationConcepts/>
+<FoundationDirectory/><FoundationCohort/><FoundationBackup onRestored={onRestored}/><FoundationBridge/><FoundationStudy/>
 <FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
 <section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
  <h2 id="foundation-course-title">进入正式课程之后</h2>

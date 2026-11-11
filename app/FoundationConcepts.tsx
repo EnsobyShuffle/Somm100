@@ -4,7 +4,9 @@ import React from 'react';
 import concepts from '../data/foundation-concepts.json';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
-export default function FoundationConcepts() {
+type ReviewReturn = {conceptId: string; onReturn: () => void};
+
+export default function FoundationConcepts({reviewReturn}: {reviewReturn?: ReviewReturn}) {
   return <>
     <section className="white-panel" aria-labelledby="foundation-concept-index">
       <h3 id="foundation-concept-index">学习目录</h3>
@@ -42,6 +44,9 @@ export default function FoundationConcepts() {
         </details>
         <div className="button-row">
           <button type="button" className="button secondary" onClick={() => focusFoundationTarget('foundation-study-title')}>回到本周预习</button>
+          {reviewReturn?.conceptId === id && (
+            <button type="button" className="button secondary" onClick={reviewReturn.onReturn}>回到刚才的准备度题</button>
+          )}
         </div>
       </section>
     ))}

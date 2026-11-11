@@ -224,6 +224,7 @@
   "questions": [
     {
       "id": "foundation-readiness-01",
+      "reviewConceptId": "foundation-0",
       "number": 1,
       "prompt": "一瓶葡萄酒的风格最合理的理解是？",
       "options": [
@@ -238,6 +239,7 @@
     },
     {
       "id": "foundation-readiness-02",
+      "reviewConceptId": "foundation-0",
       "number": 2,
       "prompt": "对零基础学生来说，最合理的学习顺序是？",
       "options": [
@@ -252,6 +254,7 @@
     },
     {
       "id": "foundation-readiness-03",
+      "reviewConceptId": "foundation-0",
       "number": 3,
       "prompt": "学习一个陌生葡萄酒概念时，SOMM100 更强调什么？",
       "options": [
@@ -266,6 +269,7 @@
     },
     {
       "id": "foundation-readiness-04",
+      "reviewConceptId": "foundation-2",
       "number": 4,
       "prompt": "红葡萄酒的颜色最主要来自哪里？",
       "options": [
@@ -280,6 +284,7 @@
     },
     {
       "id": "foundation-readiness-05",
+      "reviewConceptId": "foundation-2",
       "number": 5,
       "prompt": "葡萄转色意味着什么？",
       "options": [
@@ -294,6 +299,7 @@
     },
     {
       "id": "foundation-readiness-06",
+      "reviewConceptId": "foundation-2",
       "number": 6,
       "prompt": "为什么采收时间很重要？",
       "options": [
@@ -308,6 +314,7 @@
     },
     {
       "id": "foundation-readiness-07",
+      "reviewConceptId": "foundation-2",
       "number": 7,
       "prompt": "在其他条件相近时，较冷凉环境通常更容易保留什么？",
       "options": [
@@ -322,6 +329,7 @@
     },
     {
       "id": "foundation-readiness-08",
+      "reviewConceptId": "foundation-2",
       "number": 8,
       "prompt": "关于土壤，最合理的理解是？",
       "options": [
@@ -336,6 +344,7 @@
     },
     {
       "id": "foundation-readiness-09",
+      "reviewConceptId": "foundation-2",
       "number": 9,
       "prompt": "现代葡萄园使用嫁接的重要原因之一是什么？",
       "options": [
@@ -350,6 +359,7 @@
     },
     {
       "id": "foundation-readiness-10",
+      "reviewConceptId": "foundation-3",
       "number": 10,
       "prompt": "酒精发酵最核心的变化是？",
       "options": [
@@ -364,6 +374,7 @@
     },
     {
       "id": "foundation-readiness-11",
+      "reviewConceptId": "foundation-3",
       "number": 11,
       "prompt": "红葡萄酒与白葡萄酒最核心的差别之一是？",
       "options": [
@@ -378,6 +389,7 @@
     },
     {
       "id": "foundation-readiness-12",
+      "reviewConceptId": "foundation-3",
       "number": 12,
       "prompt": "桃红葡萄酒颜色通常较浅，主要原因是什么？",
       "options": [
@@ -392,6 +404,7 @@
     },
     {
       "id": "foundation-readiness-13",
+      "reviewConceptId": "foundation-3",
       "number": 13,
       "prompt": "苹果酸乳酸转化通常会怎样影响葡萄酒？",
       "options": [
@@ -406,6 +419,7 @@
     },
     {
       "id": "foundation-readiness-14",
+      "reviewConceptId": "foundation-3",
       "number": 14,
       "prompt": "酒泥陈酿通常更容易影响什么？",
       "options": [
@@ -420,6 +434,7 @@
     },
     {
       "id": "foundation-readiness-15",
+      "reviewConceptId": "foundation-3",
       "number": 15,
       "prompt": "关于橡木桶，哪项最合理？",
       "options": [
@@ -434,6 +449,7 @@
     },
     {
       "id": "foundation-readiness-16",
+      "reviewConceptId": "foundation-5",
       "number": 16,
       "prompt": "哪个品种最适合帮助理解“气候与酿造选择会明显改变风格”？",
       "options": [
@@ -448,6 +464,7 @@
     },
     {
       "id": "foundation-readiness-17",
+      "reviewConceptId": "foundation-5",
       "number": 17,
       "prompt": "Sauvignon Blanc 最典型的结构特点之一是？",
       "options": [
@@ -462,6 +479,7 @@
     },
     {
       "id": "foundation-readiness-18",
+      "reviewConceptId": "foundation-5",
       "number": 18,
       "prompt": "为什么 Riesling 可以酿成甜型又保持平衡？",
       "options": [
@@ -476,6 +494,7 @@
     },
     {
       "id": "foundation-readiness-19",
+      "reviewConceptId": "foundation-5",
       "number": 19,
       "prompt": "Pinot Noir 通常更接近哪种结构？",
       "options": [
@@ -490,6 +509,7 @@
     },
     {
       "id": "foundation-readiness-20",
+      "reviewConceptId": "foundation-5",
       "number": 20,
       "prompt": "Cabernet Sauvignon 通常为什么有较强陈年能力？",
       "options": [
@@ -504,6 +524,7 @@
     },
     {
       "id": "foundation-readiness-21",
+      "reviewConceptId": "foundation-5",
       "number": 21,
       "prompt": "Syrah 与 Shiraz 是什么关系？",
       "options": [
@@ -518,6 +539,7 @@
     },
     {
       "id": "foundation-readiness-22",
+      "reviewConceptId": "foundation-6",
       "number": 22,
       "prompt": "一瓶 Chablis 白葡萄酒没有直接写品种，最合理的判断是？",
       "options": [
@@ -532,6 +554,7 @@
     },
     {
       "id": "foundation-readiness-23",
+      "reviewConceptId": "foundation-6",
       "number": 23,
       "prompt": "Bordeaux 左岸通常哪个品种更重要？",
       "options": [
@@ -546,6 +569,7 @@
     },
     {
       "id": "foundation-readiness-24",
+      "reviewConceptId": "foundation-6",
       "number": 24,
       "prompt": "Burgundy 最重要的红葡萄品种是？",
       "options": [
@@ -560,6 +584,7 @@
     },
     {
       "id": "foundation-readiness-25",
+      "reviewConceptId": "foundation-7",
       "number": 25,
       "prompt": "酒标上的 Vintage 通常指什么？",
       "options": [

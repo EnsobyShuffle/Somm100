@@ -154,6 +154,49 @@ try{
  assert.deepEqual(record.checks,JSON.parse(prepRecord).checks);
  assert.equal(window.location.hash,'#foundation');
 
+ const getStudyProgress=()=>JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY));
+ const returnLabel='回到刚才的准备度题';
+ let readinessReviewRoundTrips=0;
+ for (const pace of [4,8]) {
+   await setStudyPace(pace);
+   for (const q of studyData.questions) {
+     const group=await openReadinessGroup(q.week);
+     const fieldset=group.querySelector(`#${q.id}`);
+     const wrongChoice=(q.answer+1)%q.options.length;
+     await act(async()=>fieldset.querySelector(`input[value="${wrongChoice}"]`).click());
+     const review=Array.from(fieldset.querySelectorAll('button')).find(button=>
+       q.reviewConceptId ? button.textContent.startsWith('回看概念｜') : button.textContent==='返回本周知识提要');
+     assert(review);
+     const reviewId=q.reviewConceptId ?? `foundation-week-${q.week}-digest`;
+     const before=getStudyProgress();
+     await act(async()=>review.click());
+     assert.equal(document.activeElement.id,reviewId);
+     assert.deepEqual(getStudyProgress(),before);
+     const destination=document.getElementById(reviewId);
+     const scope=q.reviewConceptId ? destination : destination.closest('article');
+     const back=Array.from(scope.querySelectorAll('button')).find(button=>button.textContent===returnLabel);
+     assert(back);
+     if (pace===4 && q.week===7 && q===studyData.questions.find(question=>question.week===7)) {
+       await openReadinessGroup(1);
+       await setStudyPace(8);
+     }
+     await act(async()=>back.click());
+     assert.equal(document.activeElement.id,q.id);
+     assert(document.activeElement.closest('details').open);
+     assert.equal(scrolls.at(-1).id,q.id);
+     assert.deepEqual(getStudyProgress().answers,before.answers);
+     assert.deepEqual(getStudyProgress().checks,before.checks);
+     await act(async()=>document.activeElement.querySelector(`input[value="${q.answer}"]`).click());
+     assert.deepEqual(getStudyProgress().answers[q.id],{first:before.answers[q.id].first,latest:q.answer});
+     assert.equal(window.location.hash,'#foundation');
+     if (getStudyProgress().pace!==pace) await setStudyPace(pace);
+     readinessReviewRoundTrips++;
+   }
+ }
+ assert.equal(readinessReviewRoundTrips,62);
+ assert.equal(studyData.questions.filter(q=>q.reviewConceptId).length,25);
+ assert.match(reviewList.querySelector('summary').textContent,/0 道/);
+
  const directory=document.querySelector('nav[aria-labelledby="foundation-directory-title"]');
  const stageTargets=['foundation-study-title','foundation-cohort-bridge-title','foundation-assessment-title','foundation-cohort-title'];
  const topicTargets=['d1','d2','d3','d4'].flatMap(day=>
@@ -453,5 +496,5 @@ try{
    });
  }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}
