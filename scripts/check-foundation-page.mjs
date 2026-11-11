@@ -27,7 +27,7 @@ try{
  const chapters=[...document.querySelectorAll('.foundation-chapter')];
  assert.deepEqual(chapters.map(x=>x.id),Array.from({length:8},(_,i)=>'foundation-'+i));
  const links=chapters.flatMap(x=>[...x.querySelectorAll('a')]);
- assert.equal(links.length,16);assert(links.every(x=>new URL(x.href).hostname==='mp.weixin.qq.com'));
+ assert.equal(links.length,17);assert(links.every(x=>new URL(x.href).hostname==='mp.weixin.qq.com'));
  assert.deepEqual(links.map(link=>[link.textContent,link.getAttribute('href'),link.nextElementSibling.textContent]),
    sourceMap.articles.map(({title,url,whyRead})=>[`${title} ↗`,url,`为什么看：${whyRead}`]));
  assert(links.every(link=>link.target==='_blank'&&link.relList.contains('noopener')));
@@ -64,6 +64,24 @@ try{
    await act(async()=>answer.querySelector('summary').click());
    assert(answer.open);
    assert.match(answer.querySelector('p').textContent,/核实|待查/);
+ }
+ assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
+ const styleChapter=document.getElementById('foundation-4');
+ const styleLink=[...styleChapter.querySelectorAll('a')].find(link=>link.textContent.includes('为什么学习品酒'));
+ assert.deepEqual([...new URL(styleLink.href).searchParams.keys()],['__biz','mid','idx','sn']);
+ const stylePractice=styleChapter.querySelector('[aria-labelledby="foundation-precourse-style-title"]');
+ const styleCases=[...stylePractice.querySelectorAll(':scope > details')];
+ assert.deepEqual(styleCases.map(item=>item.id),[
+   'foundation-style-fruit-sweetness','foundation-style-acidity-tannin','foundation-style-body-alcohol',
+ ]);
+ for (const [index,item] of styleCases.entries()) {
+   const answer=item.querySelector('details');
+   assert(!item.open && !answer.open);
+   await act(async()=>item.querySelector('summary').click());
+   assert(item.open && !answer.open);
+   await act(async()=>answer.querySelector('summary').click());
+   assert(answer.open);
+   assert.match(answer.querySelector('p').textContent,[/香气栏.*甜度栏/,/酸度.*单宁/,/13% vol\..*轻盈.*较饱满/][index]);
  }
  assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
@@ -525,5 +543,5 @@ try{
    });
  }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:16,grapeCards:6,precourseLabelCases:3,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

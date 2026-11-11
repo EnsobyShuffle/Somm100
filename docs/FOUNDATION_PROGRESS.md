@@ -1,3 +1,15 @@
+# Foundation · 2026-11-11 · 品酒导读与三组风格词练习
+
+基线 `ba9317af25b3149571ee4fab04823f9c2dc6dfc6`，分支 `migration/tencent-somm100`。已核对迁移说明、上轮检查点和远端。
+
+- **交付**。「为什么葡萄酒喝起来不一样」新增《为什么学习品酒》的公众号导读，完整 App、专注页和课程首页共用，课前合计 17 篇。完整 App 与专注页新增三组虚构观察，练习把果香与甜度、酸度与单宁、酒体与酒精度分栏记录。答案独立折叠，展开无本机记录写入。
+- **来源**。复读产品蓝图、过时 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、D1–D2 知识点及课前路径。由 Guided Learning 定位[有道归档](https://app.notion.com/p/3fb17d16de4c814991dfe13fe63b4975)，核对文章标题及公众号地址，仅保留文章识别参数。公开网页读取工具返回空内容及错误，微信端待实开。
+- **逐日状态**。D1 10 节、25 道综合自测、5 个复盘。D2 9 个品种、6 个法国专题、42 道综合自测、5 个复盘。D3 13 节、30 道综合自测、8 个复盘。D4 15 节、45 道综合自测、9 个复盘。D1–D4 对应当期日次待核。D5 五城日期已核实，教学及考核分配待核。第 22 期招生正文列五天面授，游学另排。[第 22 期招生正文](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)
+- **验证**。93 项回归通过。真实 React 与 jsdom 验证 17 篇链接、3 组新题及本机记录保留、专注页与课程首页、46 道原题及收藏回读。CloudBase 构建通过，451 个公开文件。主 App 入口 `./assets/app-kvJZjaYo.js`，专注页入口 `./assets/foundation-DIr4wRuK.js`。构建仍提示大于 500 kB 的分包。手机实机及线上待验收。
+- **接续**。保留 `[skip netlify]` 和 `ignore = "exit 0"`。本轮未部署。待取得已授权 CloudBase 发布通路或 WorkBuddy 部署回执，核对三个正式入口实际加载的版本。Notion 搜索第 22 期逐日课表仅找到历史班期和开班模板，模板 D5／D6 待填。仍需第 22 期确认版逐日课表和 WPS／有道原始课件，先核 D5。
+
+---
+
 # Foundation · 2026-11-11 · 口头自练题目列表
 
 基线 `ca8d0515351de28b5d68946d78aceb0a5d60b7f9`，分支 `migration/tencent-somm100`。核对迁移说明、上轮检查点及远端。CloudBase 配置仍指向现有上海 `somm100` 应用、`/somm100`。

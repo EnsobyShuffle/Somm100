@@ -4,6 +4,7 @@ import React from 'react';
 import concepts from '../data/foundation-concepts.json';
 import grapes from '../data/foundation-grapes.json';
 import FoundationPrecourseLabelPractice from './FoundationPrecourseLabelPractice';
+import FoundationPrecourseStylePractice from './FoundationPrecourseStylePractice';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
 type ReviewReturn = {conceptId: string; onReturn: () => void};
@@ -28,6 +29,7 @@ export default function FoundationConcepts({reviewReturn}: {reviewReturn?: Revie
         <h2 id={`${id}-title`}>{title}</h2>
         <p>{intro}</p>
         <p>{example}</p>
+        {id === 'foundation-4' && <FoundationPrecourseStylePractice/>}
         {id === 'foundation-5' && (
           <section aria-labelledby="foundation-grape-cards-title">
             <h3 id="foundation-grape-cards-title">六个品种怎么比较</h3>
