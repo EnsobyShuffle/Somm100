@@ -1,6 +1,7 @@
 'use client';
 import React, {useEffect, useState} from 'react';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
+import {FOUNDATION_RECALL_PAGE} from '../lib/foundation-entry.mjs';
 import FoundationBridge from './FoundationBridge';
 import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
@@ -188,6 +189,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
  <div className="button-row">
   <button className="button secondary" onClick={()=>go('service')}>服务情境练习</button>
   <button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button>
+  <button className="button secondary" onClick={()=>go(FOUNDATION_RECALL_PAGE)}>课程口头自练</button>
  </div>
 </section></>);
 }

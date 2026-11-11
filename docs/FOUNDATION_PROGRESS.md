@@ -1,3 +1,15 @@
+# Foundation · 2026-11-11 · 口头自练题目列表
+
+基线 `ca8d0515351de28b5d68946d78aceb0a5d60b7f9`，分支 `migration/tencent-somm100`。核对迁移说明、上轮检查点及远端。CloudBase 配置仍指向现有上海 `somm100` 应用、`/somm100`。
+
+- **本轮交付**。Foundation 的「课程口头自练」直达完整 App 内的 `#foundation-recall`。已收录的 46 道 SOMM100 原始短答题按酿造、种植连续编号，题干展开答案和来源，☆／★ 单独控制收藏。仅有「全部题目」及「收藏（数量）」两种练习视图。题号在收藏视图保留。刷新后按既有学习记录恢复收藏，答案回到默认折叠。保存失败时星标与计数回退并提示。复用既有题目 ID 与学习保存接口。现有选择题及其他课程入口保持原流程。
+- **来源**。[测验界面交接 v2](https://chatgpt.com/library?file_id=libfile_fde3_f-b274d2c259e4819196f0e82abf1b3653_b2ddb2a4048481919ef2b16c1d3ebd23&account_id=personal)的 Markdown 与文本两版均已读。题目来自当前 `data/curriculum.json` 的 SOMM100 短答原题，题干、答案与来源不改。复读产品蓝图、旧 Chapter 00、现行框架、Guided Learning、D1–D2 清单、课前路径和开班模板。D5/D6 仍待填写。
+- **专题状态**。D1 10 节、25 道综合自测、5 个复盘案例。D2 9 个品种、6 个法国专题、42 道综合自测、5 个复盘案例。D3 13 节、30 道综合自测、8 个复盘案例。D4 15 节、45 道综合自测、9 个复盘案例。D1–D4 对应面授日次待核。D5 五城日期已核实，教学与考核分配待核。第 22 期招生资料未列第六天面授，游学另排。
+- **验证**。93 项 Foundation、题库及学习存储回归通过。真实 React 与 jsdom 验证 46 道现有题、100 道合成题、答案与收藏独立、重挂载恢复、清空收藏视图和写入失败回退。新组件独立类型检查通过。全库类型检查仍在既有的 `FoundationBackup` 属性推断与缺失 `.openai/hosting.json` 处报错。CloudBase 构建 451 个公开文件，主入口 `./assets/app-5PkSUzSD.js`，专注页入口检查通过。Chromium 启动失败并报告 `socket() failed: Operation not permitted (1)`，桌面浏览器、手机尺寸视觉和实机待验收。
+- **接续**。保留 `[skip netlify]` 与 `ignore = "exit 0"`。本轮未部署或线上验收，CloudBase 访客收藏保存在浏览器。发布待已授权通路或 WorkBuddy 回执。逐日课程仍缺第 22 期确认版课表及 WPS／有道原始课件，先核 D5，再核 D1–D4。
+
+---
+
 # Foundation · 2026-11-11 · 课前三组酒标核对练习
 
 基线 `dec65fb29b9d8c91c8d8733d865ebd8b776ca4a8`，分支 `migration/tencent-somm100`。已读迁移说明、上轮检查点和当前代码，开工前核对远端。

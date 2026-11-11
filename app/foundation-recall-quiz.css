@@ -1,0 +1,18 @@
+.foundation-recall { max-width: 64rem; min-width: 0; background: #fff; color: #26302a; }
+.foundation-recall h1 { color: inherit; }
+.foundation-recall-views { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.5rem; }
+.foundation-recall-views button { min-height: 44px; padding: .45rem .8rem; border: 1px solid #b5beb6; border-radius: .4rem; background: #fff; color: inherit; }
+.foundation-recall-views button[aria-pressed="true"] { background: #e8efe8; border-color: #52775e; }
+.foundation-recall-group h2 { margin: 1.5rem 0 .4rem; font-size: 1rem; color: #46594b; }
+.foundation-recall-group ol { padding: 0; margin: 0; list-style: none; }
+.foundation-recall-item { border-block-start: 1px solid #e3e7e2; }
+.foundation-recall-row { display: grid; grid-template-columns: 2.1rem minmax(0, 1fr) 44px; align-items: start; column-gap: .35rem; }
+.foundation-recall-number { padding-block: .85rem; font-variant-numeric: tabular-nums; color: #46594b; }
+.foundation-recall-question, .foundation-recall-star { min-height: 44px; border: 0; background: transparent; color: inherit; font: inherit; }
+.foundation-recall-question { padding: .7rem .1rem; text-align: start; white-space: pre-line; overflow-wrap: anywhere; }
+.foundation-recall-question:hover { text-decoration: underline; }
+.foundation-recall-star { width: 44px; padding: .25rem; font-size: 1.3rem; color: #725832; }
+.foundation-recall-answer { margin: 0 0 .85rem 2.45rem; padding: .55rem .8rem; border-inline-start: 2px solid #a8b9ac; overflow-wrap: anywhere; }
+.foundation-recall-answer p { margin: 0 0 .25rem; color: inherit; white-space: pre-wrap; }
+.foundation-recall-answer a { color: #295335; text-decoration: underline; }
+.foundation-recall button:focus-visible, .foundation-recall a:focus-visible { outline: 2px solid #3e6850; outline-offset: 2px; }

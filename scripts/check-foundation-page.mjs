@@ -266,11 +266,11 @@ try{
    await act(async()=>a.click());assert.deepEqual(scrolls.at(-1),{id:a.hash.slice(1),behavior:'instant',block:'start'});assert.equal(document.activeElement.id,a.hash.slice(1));
    assert.equal(window.location.hash,'#foundation','Concept navigation must not replace app route');
  }
- for(const label of ['← 选择课程','服务情境练习','葡萄酒练习']){
+ for(const label of ['← 选择课程','服务情境练习','葡萄酒练习','课程口头自练']){
    const button=[...document.querySelectorAll('button')].find(b=>b.textContent===label);
    assert(button);await act(async()=>button.click());
  }
- assert.deepEqual(routes,['courses','service','practice']);
+ assert.deepEqual(routes,['courses','service','practice','foundation-recall']);
  assert(document.getElementById('foundation-cohort-title'));
  const cohort=document.querySelector('[aria-labelledby="foundation-cohort-title"]');
  const cities=[...cohort.querySelectorAll('.foundation-cohort-city')];
