@@ -1,3 +1,15 @@
+# Foundation · 2026-11-12 · 法国产地入门自查
+
+基线 `3cfeefe2977161b429f319928db4dc39dbcfd188`，分支 `migration/tencent-somm100`。已核对远端、迁移说明、现行源码与上轮发布记录。
+
+- **交付**。完整 App 与专注页共用的「葡萄酒来自哪里」新增三道原创练习。学生按法国、卢瓦尔河谷、桑塞尔区分地理层级，对照波尔多和南罗讷河谷的成熟季线索，并用虚构标签练习从产地或品种切入阅读。题干和参考判断可分别折叠，复用现有概念锚点与错题返回。展开练习不写入学习记录。
+- **来源**。复读产品蓝图、过时 Chapter 00、现行课前框架、Guided Learning、D1–D2 清单及课前路径。练习据[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)与[F-01 法国入门](https://app.notion.com/p/40717d16de4c812a91a9e646c9e10af3)原创编写。地理与气候交叉核对 [INAO 桑塞尔](https://www.inao.gouv.fr/node/7648)、[波尔多葡萄酒行业协会](https://www.bordeaux.com/en/designations/)及[罗讷河谷葡萄酒行业协会](https://www.vins-rhone.com/en/aoc-cotes-du-rhone-villages)。重读[有道归档《如何学习一个产区》](https://app.notion.com/p/3fb17d16de4c81f4bf93e60f947ec524)，归档的来源链接字段为空，正文未找到本篇公众号地址，学员页导读共 17 篇。
+- **逐日状态**。D1 10 节、25 道综合自测、5 个复盘。D2 9 个品种、6 个法国专题、42 道综合自测、5 个复盘。D3 13 节、30 道综合自测、8 个复盘。D4 15 节、45 道综合自测、9 个复盘。D1–D4 对应当期日次待核。D5 五城日期已核实，教学及考核分配待核。复读[第 22 期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，第 22 期为五天面授，游学另排。课表检索未找到确认版，[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)的教师分配及 D5/D6 时段待填。
+- **验证**。93 项回归通过。React 与 jsdom 验证三道题及其答案独立展开、原预习记录保留、62 次错题往返及 17 篇导读。CloudBase 构建及三个入口检查通过，共 451 个公开文件。主 App `./assets/app-EHGXLWu_.js`，专注页 `./assets/foundation-fY9YrRn0.js`。构建仍有大于 500 kB 的分包提示，手机实机待验。
+- **接续**。保留 `[skip netlify]` 与 `ignore = "exit 0"`。本轮未部署，正式站首页与专注页的公开读取均返回 URL 不可访问。未找到 WorkBuddy 部署回执。上轮 ZIP 对应 `3cfeefe`，本轮三题需从新提交重建后随 CloudBase 发布。取得已授权通路或回执后核对线上脚本。教学先核 D5，仍缺第 22 期确认版课表和 WPS／有道原课件。
+
+---
+
 # Foundation · 2026-11-11 · 品酒导读与三组风格词练习
 
 基线 `ba9317af25b3149571ee4fab04823f9c2dc6dfc6`，分支 `migration/tencent-somm100`。已核对迁移说明、上轮检查点和远端。
