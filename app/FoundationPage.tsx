@@ -6,6 +6,7 @@ import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
 import FoundationConcepts from './FoundationConcepts';
 import FoundationAssessmentPractice from './FoundationAssessmentPractice';
+import FoundationWrittenPractice from './FoundationWrittenPractice';
 import {openReviewRecap} from './FoundationReviewRecap';
 import FoundationCohort from './FoundationCohort';
 import FoundationDirectory from './FoundationDirectory';
@@ -87,6 +88,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
    </ol>
   </details>
   <p className="fine-print">这套原创案例供课后复习。可回看 D1 的发酵与酒标单元。作答请记在自己的笔记中，页面不计分。</p>
+  <FoundationWrittenPractice/>
  </section>
  <details id="foundation-assessment-oral">
   <summary id="foundation-assessment-oral-title">口试自练｜同为雷司令，怎样读出两瓶酒的区别？</summary>

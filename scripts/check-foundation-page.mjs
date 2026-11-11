@@ -275,6 +275,23 @@ try{
  assert(writtenAnswer.open);
  assert.equal(writtenAnswer.querySelectorAll('li').length,3);
  assert.match(writtenAnswer.textContent,/残糖相同，均为 2 克／升/);
+ const writtenCases = [
+   ['foundation-written-chardonnay', 'foundation-d2-02'],
+   ['foundation-written-santorini-tokaj', 'foundation-d3-13'],
+   ['foundation-written-fortification', 'foundation-d4-05'],
+ ];
+ for (const [id] of writtenCases) {
+   const exercise = written.querySelector(`#${id}`);
+   const answer = exercise.querySelector('details');
+   assert(!exercise.open && !answer.open);
+   assert.equal(exercise.querySelectorAll('dt').length, 2);
+   assert.equal(exercise.querySelectorAll(':scope > ol > li').length, 3);
+   await act(async () => exercise.querySelector('summary').click());
+   assert(exercise.open && !answer.open);
+   await act(async () => answer.querySelector('summary').click());
+   assert(answer.open);
+   assert.equal(answer.querySelectorAll('li').length, 3);
+ }
  assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
  const blind=assessment.querySelector('#foundation-assessment-blind');
  const oakRecord=blind.querySelector('#foundation-assessment-blind-oak-record');
@@ -421,6 +438,20 @@ try{
  await act(async()=>root.render(React.createElement(Page,{go:path=>routes.push(path)})));
  for(const [key,value] of saved)assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),value);
  for(const day of [1,2,3,4])assert(document.querySelector(`#foundation-d${day}-quiz input[type=radio]`).checked);
+
+ for (const [id, unitId] of writtenCases) {
+   const exercise = document.getElementById(id);
+   await act(async () => exercise.querySelector('summary').click());
+   const reviewKey = `somm100.foundation.${unitId.split('-')[1]}-review.v1`;
+   const before = JSON.parse(window.localStorage.getItem(reviewKey));
+   await act(async () => exercise.querySelector('button').click());
+   assert.equal(document.activeElement.id, unitId);
+   assert.equal(scrolls.at(-1).id, unitId);
+   assert.equal(window.location.hash, '#foundation');
+   assert.deepEqual(JSON.parse(window.localStorage.getItem(reviewKey)), {
+     ...before, unit: Number(unitId.split('-').at(-1)),
+   });
+ }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:10,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}
