@@ -99,6 +99,24 @@ try{
    assert.match(answer.querySelector('p').textContent,[/法国.*卢瓦尔河谷.*桑塞尔/,/降雨.*高温和水分/,/地名.*霞多丽/][index]);
  }
  assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
+ const evidenceGroups=[...document.querySelectorAll('#foundation-2-evidence-practice, #foundation-3-evidence-practice')];
+ assert.deepEqual(evidenceGroups.map(group=>group.closest('.foundation-chapter').id),['foundation-2','foundation-3']);
+ const evidenceCases=evidenceGroups.flatMap(group=>[...group.parentElement.querySelectorAll(':scope > details')]);
+ assert.deepEqual(evidenceCases.map(item=>item.id),[
+   'foundation-vineyard-drainage','foundation-vineyard-canopy',
+   'foundation-winemaking-fermentation-evidence','foundation-winemaking-vessel-evidence',
+ ]);
+ const evidencePatterns=[/排水.*成熟/,/光照.*通风.*遮阴/,/糖.*酒精/,/桶的新旧.*接触时间/];
+ for (const [index,item] of evidenceCases.entries()) {
+   const answer=item.querySelector('details');
+   assert(!item.open && !answer.open);
+   await act(async()=>item.querySelector('summary').click());
+   assert(item.open && !answer.open);
+   await act(async()=>answer.querySelector('summary').click());
+   assert(answer.open);
+   assert.match(answer.querySelector('p').textContent,evidencePatterns[index]);
+ }
+ assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
  const prepCity=cityPrep.querySelector('select');
  const selectPrepCity=async value=>await act(async()=>{
@@ -558,5 +576,5 @@ try{
    });
  }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,precourseEvidenceCases:4,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

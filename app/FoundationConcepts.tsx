@@ -3,6 +3,7 @@
 import React from 'react';
 import concepts from '../data/foundation-concepts.json';
 import grapes from '../data/foundation-grapes.json';
+import FoundationPrecourseEvidencePractice from './FoundationPrecourseEvidencePractice.js';
 import FoundationPrecourseLabelPractice from './FoundationPrecourseLabelPractice';
 import FoundationPrecoursePlacePractice from './FoundationPrecoursePlacePractice';
 import FoundationPrecourseStylePractice from './FoundationPrecourseStylePractice';
@@ -30,6 +31,7 @@ export default function FoundationConcepts({reviewReturn}: {reviewReturn?: Revie
         <h2 id={`${id}-title`}>{title}</h2>
         <p>{intro}</p>
         <p>{example}</p>
+        {(id === 'foundation-2' || id === 'foundation-3') && <FoundationPrecourseEvidencePractice conceptId={id}/>}
         {id === 'foundation-4' && <FoundationPrecourseStylePractice/>}
         {id === 'foundation-5' && (
           <section aria-labelledby="foundation-grape-cards-title">

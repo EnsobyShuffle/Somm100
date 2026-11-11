@@ -1,3 +1,15 @@
+# Foundation · 2026-11-12 · 葡萄园与酒窖证据自查
+
+基线 `f1de25a09e143147a87b84af82910bef7d7c99c3`，分支 `migration/tencent-somm100`。已读权威分支的迁移说明、上轮检查点、课程入口、课前路径与来源表。
+
+- **交付**。在完整 App 与专注页共用的「葡萄与葡萄园」和「葡萄怎么变成酒」各加两道原创练习，共四道。案例分别核对雨后积水、叶幕遮阴、发酵气泡与检测记录、熟成容器与木香。学生先从虚构记录写出能确认的观察，再展开参考判断。沿用原概念 ID、预习跳转和本机学习记录，既有 17 篇公众号导读继续保留。
+- **来源**。复读产品蓝图、标为过时的 Chapter 00、[现行框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、D1–D2 清单和[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。案例据[D1-03 环境与成熟](https://app.notion.com/p/40717d16de4c81b581a8d85b7ff77709)、[D1-04 葡萄园选择](https://app.notion.com/p/40717d16de4c8143b199fb57a899a5f5)、[D1-06 发酵](https://app.notion.com/p/40717d16de4c814c93b7c56d250d1aea)及[D1-08 发酵之后](https://app.notion.com/p/40717d16de4c81bca48fff8dbdb56587)原创编写。归档台账只提供历史材料，WPS 运营框架链接的公开读取仍返回 URL 不可访问。
+- **逐日状态**。D1 10 节、25 道综合自测、5 个复盘。D2 9 个品种、6 个法国专题、42 道综合自测、5 个复盘。D3 13 节、30 道综合自测、8 个复盘。D4 15 节、45 道综合自测、9 个复盘。D1–D4 主题对应本期面授日次待核。D5 五城日期已核实，教学与考核分配待填。D6 本期招生正文列五天面授，四天游学另排。[招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal) · [开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)
+- **验证**。从同一 GitHub 提交恢复需要的源文件，核对 Git blob。7 项 Foundation 预习回归通过。使用组件函数和模拟 React 元素验证 2 个节点、4 道题的折叠结构及 17 篇导读；完整页面回归脚本已加覆盖并通过语法检查。此前工作副本及依赖已被清理，当前只恢复了范围内文件，本轮未运行完整构建、真实 React 页面及手机验收。
+- **接续**。保留 `[skip netlify]` 及 `ignore = "exit 0"`。本轮未部署，正式站课程首页的公开读取返回 URL 不可访问。上轮可用 WorkBuddy ZIP 对应 `f1de25a`，包括五城日历。要纳入本轮四道题，需从新提交完整构建并重新打包。仍需第22期确认版逐日课表及 WPS／有道原始课件，先核 D5；发布待已授权 CloudBase 通路或 WorkBuddy 回执。
+
+---
+
 # Foundation · 2026-11-12 · 第22期五城面授日历
 
 基线 `4b2061c90cce11776505e91cf141a92d09aadb82`，分支 `migration/tencent-somm100`。已读上轮检查点、迁移说明、课前来源表、当前源码并核对远端。
