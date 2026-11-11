@@ -45,6 +45,9 @@ try{
      assert.equal(home.scripts.length,0);
      assert.deepEqual([...home.querySelectorAll('main h2')].map(heading=>heading.textContent),
        ['课程介绍','文章导读','学习入口']);
+     const enrollment=[...home.querySelectorAll('.course-actions a')];
+     assert.deepEqual(enrollment.slice(0,2).map(link=>link.href),[cohort.registrationUrl,cohort.sourceUrl]);
+     assert.equal(home.querySelectorAll('.course-resources a[href^="./releases/"]').length,6);
      const preview=home.querySelector('.cohort-preview');
      assert.equal(preview.open,false);
      preview.querySelector('summary').click();
@@ -56,6 +59,7 @@ try{
        const city=cohort.cities[index];
        assert.equal(card.querySelector('h3').textContent,city.city);
        assert(card.querySelector('p').textContent.includes(city.instructor));
+       assert(card.querySelector('p').textContent.includes(city.bio));
        const stages=[...card.querySelectorAll('dl > div')].map(stage=>
          [...stage.querySelectorAll('time')].map(time=>time.dateTime));
        assert.deepEqual(stages,city.stages);

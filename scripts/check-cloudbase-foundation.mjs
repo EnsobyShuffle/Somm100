@@ -24,16 +24,19 @@ const courseHome = readFileSync(join(root, 'course.html'), 'utf8');
 assert(!/<script\b/i.test(courseHome), 'Course home must render without JavaScript');
 assert(courseHome.includes('class="cards cohort-cards"') && courseHome.includes('class="reading-group"'),
   'Course home content must be present in static HTML');
+const cohort = JSON.parse(readFileSync(new URL('../data/foundation-cohort22.json', import.meta.url), 'utf8'));
 const courseHomeRefs = [...courseHome.matchAll(/(?:src|href)="([^"]+)"/g)].map(match => match[1]);
 for (const ref of courseHomeRefs) {
   if (ref.startsWith('./')) {
     localAsset(ref);
   } else {
     const url = new URL(ref);
-    assert(['http:', 'https:'].includes(url.protocol) && url.hostname === 'mp.weixin.qq.com',
+    assert(ref === cohort.registrationUrl || (['http:', 'https:'].includes(url.protocol) && url.hostname === 'mp.weixin.qq.com'),
       `Unexpected course home link: ${ref}`);
   }
 }
+assert(courseHomeRefs.includes(cohort.registrationUrl) && courseHomeRefs.includes(cohort.sourceUrl),
+  'Missing direct registration or enrollment source');
 const courseHomeTargets = courseHomeRefs.filter(ref => ref.startsWith('./foundation.html#'))
   .map(ref => ref.split('#')[1]);
 assert(courseHomeTargets.length >= 10, 'Missing course home shortcuts');

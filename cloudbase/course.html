@@ -37,6 +37,7 @@
       .cohort-cards dl, .cohort-cards dd { margin: 0; }
       .cohort-cards dt { font-weight: 600; }
       .cohort-cards time { white-space: nowrap; }
+      .course-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1rem; }
       .cohort-tuition, .reading-group ul { padding-inline-start: 1.25rem; }
       .reading-group li { margin-block: .5rem; }
       .reading-group li p { margin: 0; }
@@ -53,7 +54,10 @@
         <p class="label">课程预告 · 第22期</p>
         <h1 id="course-home-title">侍酒师100课程</h1>
         <p>从葡萄园到酒瓶建立知识框架，再把品鉴、服务和餐酒搭配带进课堂。北京、上海、成都、深圳、广州分城开课。</p>
-        <a class="action" href="./foundation.html#foundation-cohort-title">查看五城班期与报名</a>
+        <div class="course-actions">
+          <!-- course-home-enrollment -->
+          <a href="./foundation.html#foundation-cohort-title">查看五城班期与费用</a>
+        </div>
       </section>
       <section aria-labelledby="course-home-intro">
         <h2 id="course-home-intro">课程介绍</h2>
@@ -85,6 +89,17 @@
           <li><a href="./foundation.html#foundation-cohort-bridge-title"><strong>课间复习</strong><span>按上课城市查两阶段之间的复习安排。</span></a></li>
           <li><a href="./foundation.html#foundation-assessment-title"><strong>考核与结课</strong><span>打开复习索引、情境自练和证书说明。</span></a></li>
         </ul>
+        <details class="course-resources">
+          <summary>现有学习资料</summary>
+          <ul class="cards">
+            <li><a href="./releases/wine-atlas-v2/index.html">世界产区地图 V2</a></li>
+            <li><a href="./releases/tasting-notes-v16/index.html">品鉴笔记 V1.6</a></li>
+            <li><a href="./releases/italy-grapes/index.html">意大利品种</a></li>
+            <li><a href="./releases/italy-ms/index.html">意大利进阶资料</a></li>
+            <li><a href="./releases/south-america-ms/index.html">南美进阶资料</a></li>
+            <li><a href="./releases/resources/Into_Shaoxing_Wine_Study_Guide.pdf">绍兴酒学习指南（PDF）</a></li>
+          </ul>
+        </details>
       </section>
     </main>
   </body>
