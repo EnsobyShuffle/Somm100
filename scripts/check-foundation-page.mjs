@@ -50,6 +50,22 @@ try{
    assert.match(card.querySelector('p').textContent,/口头自查/);
  }
  assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
+ const labelPractice=document.querySelector('#foundation-7 section[aria-labelledby="foundation-precourse-label-title"]');
+ const labelCases=[...labelPractice.querySelectorAll(':scope > details')];
+ assert.deepEqual(labelCases.map(item=>item.id),[
+   'foundation-label-vintage-check','foundation-label-bottler-check','foundation-label-region-check',
+ ]);
+ for (const item of labelCases) {
+   const answer=item.querySelector('details');
+   assert(!item.open && !answer.open);
+   assert.equal(item.querySelectorAll('dt').length,2);
+   await act(async()=>item.querySelector('summary').click());
+   assert(item.open && !answer.open);
+   await act(async()=>answer.querySelector('summary').click());
+   assert(answer.open);
+   assert.match(answer.querySelector('p').textContent,/核实|待查/);
+ }
+ assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
  const prepCity=cityPrep.querySelector('select');
  const selectPrepCity=async value=>await act(async()=>{
@@ -509,5 +525,5 @@ try{
    });
  }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:16,grapeCards:6,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:16,grapeCards:6,precourseLabelCases:3,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

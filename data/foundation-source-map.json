@@ -632,6 +632,17 @@
     "verification": "Real React component bundle + desktop/narrow iframe interaction checked; not full CloudBase or production acceptance",
     "verifiedAt": "2026-11-04T16:35:00Z"
   },
+  "precourseLabelChecks": {
+    "date": "2026-11-11",
+    "conceptId": "foundation-7",
+    "component": "app/FoundationPrecourseLabelPractice.tsx",
+    "basis": "https://app.notion.com/p/40717d16de4c81108c65e16da8465979",
+    "guidedReadingArchive": "https://app.notion.com/p/3fe17d16de4c81aeadbfe12703b59cf0",
+    "guidedReadingStatus": "Archive body inspected; the original WeChat URL for this article was not found. Related article URLs do not identify this article.",
+    "cases": 3,
+    "publication": "Original fictional examples; no private archive text or images reproduced.",
+    "verification": "Local DOM checks and CloudBase build passed; production and phone acceptance pending."
+  },
   "d34Inventory": {
     "file": "docs/qa/foundation-d34-source-inventory-20261105.json",
     "readAt": "2026-11-05",
