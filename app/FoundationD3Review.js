@@ -13,7 +13,7 @@ export default function FoundationD3Review() {
     storageKey: 'somm100.foundation.d3-review.v1',
     recap: {
       title: 'D3 综合复盘',
-      intro: '用已有章节的酒标和酒款资料完成四个对照。每题先写下地名、品种或工艺证据，再记一条还需要查证的信息。',
+      intro: '用酒标、技术资料与模拟品鉴记录做对照。先写下能确认的证据，再记一条需要查证的信息。',
       cases,
     },
   });

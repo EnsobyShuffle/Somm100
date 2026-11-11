@@ -1,3 +1,15 @@
+# Foundation · 2026-11-11 · D3–D4 四个证据复盘案例
+
+基线 `89da5dafb2dda3f043c82667fadc268936fa19ef`，分支 `migration/tencent-somm100`。
+
+- **交付**。`app/FoundationD3Recap.js` 新增浅色红酒的结构观察、发酵前风干与发酵中果皮接触两题。`app/FoundationD4Recap.js` 新增传统法两次加液及北美酒庄地址与葡萄来源两题。四题均用模拟记录，有可展开参考答案和两个章节入口。课程导览的「案例」直接打开综合复盘。修正 D3 复盘导语的旧案例数量，标题继续显示实际数量。
+- **来源**。重读[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、旧 Chapter 00、[现行课前框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)、[D1–D2 提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)与[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。四题依据[皮埃蒙特](https://app.notion.com/p/40717d16de4c81ad8293cb31b5750566)、[威尼托](https://app.notion.com/p/40717d16de4c8185b523dc664e1cd618)、[托斯卡纳](https://app.notion.com/p/40717d16de4c81b089c0d6b8912a13ff)、[香槟基酒](https://app.notion.com/p/40717d16de4c8154ba99f2c3911a2370)、[传统法](https://app.notion.com/p/40717d16de4c81e0b72be94950521689)、[世界产区比较](https://app.notion.com/p/40717d16de4c81d4aaa0f7e7522eb3c8)和[北美](https://app.notion.com/p/40717d16de4c81988e3ec639a461cb1b)知识点原创编写，归入专题复习。
+- **课表缺口**。核读[第 22 期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)、[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)、[历史有道笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)及[运营框架建议](https://chatgpt.com/library?file_id=libfile_075fac1511208191a68dd62a5caeb3b5&account_id=personal)。招生正文列出五天面授日期，开班模板逐日主题待填，运营建议援引现行课表但未附课表。当前仍缺确认版逐日教学课表与 WPS／有道原始课件。
+- **日次状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、8 个案例。D4 15 节、45 道自测、9 个案例。D1–D4 专题与当期面授日次的对应待核对。D5 五城第五天日期已核实，教学与考核分配待确认。第 22 期无 D6 面授，2027 年 3 月 14–17 日产区游学另排。
+- **验证与接续**。87 项 Foundation 回归、53 个单元渲染、四个新答案展开和八个新章节跳转通过，本机勾选及答案保留。CloudBase 构建 451 个文件，App 入口 `./assets/app-DMrAV7Hc.js`，专注入口 `./assets/foundation-p-er6Zj6.js`。本轮正式站 `/course.html` 公开读取返回 `URL is not accessible via this tool`。腾讯发布仍缺可用的已授权通路，线上及手机待验收。保留 `[skip netlify]` 和 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-11 · 导览自测进度与待复习题直达
 
 基线 `6fa6e2db70f5f11c9f61b7f791d1635233d04592`，分支 `migration/tencent-somm100`。已核对当前源码、来源映射、迁移说明、上轮检查点和远端分支。
