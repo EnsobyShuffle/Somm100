@@ -51,7 +51,7 @@ export default function FoundationPrecourseEvidencePractice({conceptId}) {
     h('p', null, '以下为虚构记录。先说出你能确认的一条信息，再写下下一步要查什么。'),
     cases.map(({id, title, observation, question, answer}) =>
       h('details', {key:id, id},
-        h('summary', null, title),
+        h('summary', {id:id + '-title'}, title),
         h('p', null, observation),
         h('p', null, h('strong', null, '自查　'), question),
         h('details', null,

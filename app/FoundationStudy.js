@@ -125,6 +125,11 @@ export default function FoundationStudy() {
           ? h('button', {type: 'button', className: 'button secondary', onClick: returnToQuestion}, '回到刚才的准备度题')
           : null,
         h('div', {className: 'button-row'}, week.concepts.map(id => h('button', {type: 'button', className: 'button secondary', key: id, onClick: () => scrollToConcept(id)}, `阅读｜${conceptTitles[id]}`))),
+        week.practices?.length > 0 && h('div', {className: 'button-row foundation-week-practice'},
+          week.practices.map(({id, title}) => h('button', {
+            key: id, type: 'button', className: 'button secondary', 'aria-controls': id,
+            onClick: () => openReviewRecap(id),
+          }, `案例｜${title}`))),
         h('fieldset', null, h('legend', null, '知识点自查 · 理解后再勾选'),
           week.checks.map(check => h('label', {className: 'foundation-check', key: check.id},
             h('input', {type: 'checkbox', disabled: !loaded, checked: progress.checks[check.id] === true, onChange: e => {

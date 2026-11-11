@@ -90,6 +90,11 @@ const markers=['cohort-calendar-link','下载','面授日历（.ics）','foundat
   'foundation-d3-title','foundation-d4-title','somm100.foundation.d3-review.v1','somm100.foundation.d4-review.v1',
   'somm100.foundation.study.v1','somm100.foundation.d1-review.v1','somm100.foundation.d2-review.v1','somm100.foundation.france-review.v1'];
 markers.forEach(marker=>assert(bundle.includes(marker),`Missing Foundation feature/key: ${marker}`));
+const preCourse = JSON.parse(readFileSync(new URL('../data/foundation-study.json', import.meta.url), 'utf8'));
+const practiceIds = preCourse.weeks.flatMap(week => (week.practices ?? []).map(({id}) => id));
+assert.equal(practiceIds.length, new Set(practiceIds).size, 'Repeated pre-course practice shortcut');
+practiceIds.forEach(id => assert(bundle.includes(id), `Missing pre-course practice: ${id}`));
+
 courseHomeTargets.forEach(target => assert(bundle.includes(target), `Missing course home destination: ${target}`));
 // Guard against shipping a stale lazy chunk after editing the teaching guidance.
 let learningGuidanceFields = 0;

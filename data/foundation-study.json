@@ -76,6 +76,10 @@
       "digest": "温度、阳光、水分、地形和人的管理共同影响成熟。在其他条件相近时，冷凉环境通常更有利于保留酸度。土壤通过排水、保水、温度和根系环境影响生长，不能直接套用“某种土壤等于某种香气”。使用抗根瘤蚜砧木并嫁接欧洲葡萄品种，是应对根系危害的重要方法。",
       "concepts": [
         "foundation-2"
+      ],
+      "practices": [
+        {"id": "foundation-vineyard-drainage", "title": "雨后积水与排水"},
+        {"id": "foundation-vineyard-canopy", "title": "果串暴晒与叶幕"}
       ]
     },
     {
@@ -104,6 +108,9 @@
       "digest": "酒精发酵中，酵母利用糖，产生酒精、二氧化碳和热量。红葡萄酒通常与果皮接触发酵，获得颜色和单宁；白葡萄酒通常先把汁与皮分离，红葡萄也能用于酿白酒。许多桃红通过较短的果皮接触获得浅色，这并非所有桃红唯一的酿法。",
       "concepts": [
         "foundation-3"
+      ],
+      "practices": [
+        {"id": "foundation-winemaking-fermentation-evidence", "title": "用记录核对发酵"}
       ]
     },
     {
@@ -133,6 +140,9 @@
       "concepts": [
         "foundation-3",
         "foundation-4"
+      ],
+      "practices": [
+        {"id": "foundation-winemaking-vessel-evidence", "title": "从熟成容器查木香"}
       ]
     },
     {

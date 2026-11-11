@@ -117,6 +117,36 @@ try{
    assert.match(answer.querySelector('p').textContent,evidencePatterns[index]);
  }
  assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
+ const [paceSelect,weekSelect]=study.querySelectorAll(':scope > .foundation-study-controls > label select');
+ const chooseStudyOption=async (select,value)=>await act(async()=>{
+   select.value=String(value);
+   select.dispatchEvent(new window.Event('change',{bubbles:true}));
+ });
+ let practiceShortcuts=0;
+ for (const pace of [8,4]) {
+   await chooseStudyOption(paceSelect,pace);
+   for (const [week,amount] of [[3,2],[4,1],[5,1]]) {
+     await chooseStudyOption(weekSelect,pace===4?Math.ceil(week/2):week);
+     const shortcuts=[...document.querySelectorAll(`#foundation-week-${week} .foundation-week-practice button`)];
+     assert.equal(shortcuts.length,amount);
+     const saved=window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
+     for (const shortcut of shortcuts) {
+       const id=shortcut.getAttribute('aria-controls');
+       const item=document.getElementById(id);
+       const answer=item.querySelector('details');
+       await act(async()=>{item.open=false;answer.open=false;});
+       await act(async()=>shortcut.click());
+       assert(item.open && !answer.open);
+       assert.equal(document.activeElement.id,`${id}-title`);
+       assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),saved);
+       practiceShortcuts++;
+     }
+   }
+ }
+ assert.equal(practiceShortcuts,8);
+ await chooseStudyOption(paceSelect,8);
+ await chooseStudyOption(weekSelect,1);
+ assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
  const prepCity=cityPrep.querySelector('select');
  const selectPrepCity=async value=>await act(async()=>{
@@ -576,5 +606,5 @@ try{
    });
  }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,precourseEvidenceCases:4,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,precourseEvidenceCases:4,practiceShortcuts,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}
