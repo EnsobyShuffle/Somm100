@@ -1,3 +1,15 @@
+# Foundation · 2026-11-12 · 第22期五城面授日历
+
+基线 `4b2061c90cce11776505e91cf141a92d09aadb82`，分支 `migration/tencent-somm100`。已读上轮检查点、迁移说明、课前来源表、当前源码并核对远端。
+
+- **交付**。第22期五城班期卡在课程首页、完整 App 和 Foundation 专注页增加城市面授日历下载。CloudBase 构建从现有班期资料生成五个 `.ics`，每城五条，共 25 条。日期按阶段先后，时间为 09:00–16:30（北京时间），使用稳定事件 ID。下载包含已核实面授日期和时间。考核、教室和游学行程仍由课程方另行通知。页面保留讲师、既有课程入口、报名和资料，日历无需登录或写入学习记录。
+- **证据**。复读[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，逐城复核三阶段日期及统一时间。复读产品蓝图、过时 Chapter 00、现行框架、Guided Learning、D1–D2 清单和课前路径。Notion 检索、[全流程总控](https://app.notion.com/p/40717d16de4c81ef9be0e1d6579a9592)、[开班模板](https://app.notion.com/p/40717d16de4c810aae7af56c0cb87a60)与[归档台账](https://app.notion.com/p/40717d16de4c81e580cacdad4d6991e3)仍只有历史恢复材料和工作草案。台账中的 WPS《Somm 100 运营框架》原始链接公开读取返回 URL 不可访问，D1–D6 现行 PPT 仍无可读原件。
+- **逐日状态**。D1 10 节、25 道综合自测、5 个复盘。D2 9 个品种、6 个法国专题、42 道综合自测、5 个复盘。D3 13 节、30 道综合自测、8 个复盘。D4 15 节、45 道综合自测、9 个复盘。D1–D4 专题对应当期日次待核。D5 五城日期已核实，教学与考核分配待核。D6：第22期为五天面授，另有四天游学。
+- **验证**。93 项回归和 React／jsdom 页面验证通过。CloudBase 构建含 456 个公开文件。验证五份日历的 25 个不同事件、北京时间到 UTC 转换、根路径及 `/somm100/` 下的下载链接，课程首页保持静态。主入口 `./assets/app-CAQxTGMR.js`，专注页入口 `./assets/foundation-DPQI97Pg.js`。Chromium 启动报告 `socket() failed: Operation not permitted (1)`，手机日历实机导入待验。
+- **接续**。保留 `[skip netlify]` 及 `ignore = "exit 0"`。未部署，正式站课程首页公开读取返回 URL 不可访问，未发现 WorkBuddy 发布回执。现有 WorkBuddy ZIP 对应 `3cfeefe`，发布新增练习及日历应从本轮提交重新构建。继续取得已授权腾讯发布通路或回执，再测线上下载及手机导入；教学仍需第22期确认版逐日课表和 WPS／有道原始课件，先核 D5。
+
+---
+
 # Foundation · 2026-11-12 · 法国产地入门自查
 
 基线 `3cfeefe2977161b429f319928db4dc39dbcfd188`，分支 `migration/tencent-somm100`。已核对远端、迁移说明、现行源码与上轮发布记录。

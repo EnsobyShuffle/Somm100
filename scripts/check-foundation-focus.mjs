@@ -63,6 +63,10 @@ try{
        const stages=[...card.querySelectorAll('dl > div')].map(stage=>
          [...stage.querySelectorAll('time')].map(time=>time.dateTime));
        assert.deepEqual(stages,city.stages);
+       const calendar=card.querySelector('a.cohort-calendar-link');
+       assert(calendar.hasAttribute('download'));
+       assert.equal(new URL(calendar.href).pathname,`${mount}cohort-22-calendar/${city.calendarSlug}.ics`);
+       assert.equal(calendar.textContent,`下载${city.city}面授日历（.ics）`);
      });
      const fees=[...preview.querySelectorAll('.cohort-tuition strong')].map(fee=>Number(fee.textContent.replace(/\D/g,'')));
      assert.deepEqual(fees,cohort.tuition.map(({amountCny})=>amountCny));
@@ -104,5 +108,5 @@ try{
  assert(document.querySelector('#foundation-d1-quiz input[type=radio]').checked);
  assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),saved);
  assert.deepEqual(errors,[]);
- console.log(JSON.stringify({status:'PASS',sameOriginRecordRoundTrip:true,brandPreserved:true,fullAppLink:true,courseHomeScriptFree:true,cohortCities:5,cohortDates:25,articleGuides:17,shortcutsChecked:shortcutCount,scope:'React/jsdom only; no real cross-page navigation or phone test'},null,2));
+ console.log(JSON.stringify({status:'PASS',sameOriginRecordRoundTrip:true,brandPreserved:true,fullAppLink:true,courseHomeScriptFree:true,cohortCities:5,cohortDates:25,calendars:5,articleGuides:17,shortcutsChecked:shortcutCount,scope:'React/jsdom only; no real cross-page navigation or phone test'},null,2));
 }finally{await act(async()=>root.unmount());console.error=oldError;dom.window.close();}

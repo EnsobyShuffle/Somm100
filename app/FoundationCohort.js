@@ -1,16 +1,18 @@
 'use client';
 import React from 'react';
 import data from '../data/foundation-cohort22.json';
+import {foundationCalendarFile} from '../lib/foundation-calendar.mjs';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import './foundation-study.css';
 const h = React.createElement;
+const hasCalendarDownloads = import.meta.env && String(import.meta.env.VITE_SOMM100_LOCAL_ONLY) === 'true';
 const dateLabel = date => date.replaceAll('-', '/');
 const yuan = new Intl.NumberFormat('zh-CN', {style:'currency', currency:'CNY', maximumFractionDigits:0});
 export default function FoundationCohort() {
   return h('section', {className:'white-panel foundation-study', 'aria-labelledby':'foundation-cohort-title'},
     h('h2', {id:'foundation-cohort-title'}, '第22期｜五城课程安排'),
     h('p', null, '适合准备进入侍酒师行业的学习者，以及希望提升酒水知识和服务能力的餐饮从业者。零基础学员可从课前导学开始。'),
-    h('p', null, `本期有 ${data.teachingDays} 天线下面授，分三个阶段，另有 ${data.fieldTrip.days} 天产区游学。面授每天 ${data.classHours}，以中文授课，辅以英语。`),
+    h('p', null, `本期有 ${data.teachingDays} 天线下面授，分三个阶段，另有 ${data.fieldTrip.days} 天产区游学。面授每天 ${data.classHours}（北京时间），以中文授课，辅以英语。`),
     h('p', null, '课堂范围包括葡萄种植与酿造、葡萄酒产区和品鉴，也涵盖烈酒、清酒等酒水，以及侍酒服务、餐酒搭配、酒单设计和酒窖管理。'),
     h('p', {className:'fine-print'}, '以下为第22期招生资料列出的面授日期，按实际先后编号。教学主题、考核日与教室安排以课程方通知为准。'),
     h('div', {className:'button-row'},
@@ -36,7 +38,10 @@ export default function FoundationCohort() {
         h('p', null, h('strong', null, '主讲老师／班主任'), h('br'),
           h('span', {className:'foundation-cohort-instructor'}, city.instructor), ' · AS (CMS)'),
         h('p', {className:'fine-print'}, city.bio),
-        h('dl', null, stages));
+        h('dl', null, stages),
+        hasCalendarDownloads &&
+          h('a', {className:'cohort-calendar-link', href:'./' + foundationCalendarFile(data, city), download:true},
+            '下载' + city.city + '面授日历（.ics）'));
     })),
     h('section', {className:'foundation-week', 'aria-labelledby':'foundation-cohort-field-trip-title'},
       h('h3', {id:'foundation-cohort-field-trip-title'}, '产区游学'),

@@ -23,6 +23,7 @@
 
 .foundation-cohort-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr)); gap:1rem; }
 .foundation-cohort-city { border:1px solid #d8d4ca; padding:1rem; border-radius:.5rem; min-width:0; }
+.foundation-cohort-city .cohort-calendar-link { display:inline-flex; align-items:center; min-height:44px; }
 .foundation-cohort-city h3 { margin:0 0 .8rem; }
 .foundation-cohort-city dl { margin:0; }
 .foundation-cohort-city dl > div { margin:.7rem 0; }

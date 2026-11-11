@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import cohort from './data/foundation-cohort22.json';
 import concepts from './data/foundation-concepts.json';
+import { buildFoundationCalendar, foundationCalendarFile } from './lib/foundation-calendar.mjs';
 import { renderCourseHome } from './cloudbase/course-home-content.mjs';
 
 const courseHome = fileURLToPath(new URL('./cloudbase/course.html', import.meta.url));
@@ -29,6 +30,16 @@ export default defineConfig({
     },
     {
       name: 'somm100-static-course-home',
+      generateBundle() {
+        const generatedAt = new Date();
+        for (const city of cohort.cities) {
+          this.emitFile({
+            type: 'asset',
+            fileName: foundationCalendarFile(cohort, city),
+            source: buildFoundationCalendar(cohort, city, generatedAt),
+          });
+        }
+      },
       transformIndexHtml(html, context) {
         if (context.filename === courseHome) return renderCourseHome(html, cohort, concepts);
       },

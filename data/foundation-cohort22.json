@@ -25,6 +25,7 @@
   "cities": [
     {
       "city": "北京",
+      "calendarSlug": "beijing",
       "instructor": "李晓龙 Xiaolong Li",
       "bio": "2024 年中国侍酒师大赛亚军。",
       "stages": [
@@ -43,6 +44,7 @@
     },
     {
       "city": "上海",
+      "calendarSlug": "shanghai",
       "instructor": "张聪 Christian Zhang",
       "bio": "2015 年中国侍酒师大赛冠军。",
       "stages": [
@@ -61,6 +63,7 @@
     },
     {
       "city": "成都",
+      "calendarSlug": "chengdu",
       "instructor": "胡映霞 Cassie Hu",
       "bio": "2018 年最佳法国酒侍酒师，2021 年最佳德国酒侍酒师。",
       "stages": [
@@ -79,6 +82,7 @@
     },
     {
       "city": "深圳",
+      "calendarSlug": "shenzhen",
       "instructor": "吴耀亨 Henri Wu",
       "bio": "2023 年中国侍酒师大赛冠军。",
       "stages": [
@@ -97,6 +101,7 @@
     },
     {
       "city": "广州",
+      "calendarSlug": "guangzhou",
       "instructor": "薛维隆 Powell Xue",
       "bio": "2024 年中国侍酒师大赛季军。",
       "stages": [
