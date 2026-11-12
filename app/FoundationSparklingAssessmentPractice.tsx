@@ -22,6 +22,11 @@ const steps = [
   },
 ];
 
+const reviewLinks = [
+  {unitId: 'foundation-d4-03', label: '回看瓶中二次发酵与补液'},
+  {unitId: 'foundation-d4-04', label: '回看瓶式与罐式工艺'},
+];
+
 export default function FoundationSparklingAssessmentPractice() {
   return (
     <section className="foundation-week" aria-labelledby="foundation-sparkling-assessment-title">
@@ -43,6 +48,18 @@ export default function FoundationSparklingAssessmentPractice() {
           </li>
         ))}
       </ol>
+      <div className="button-row">
+        {reviewLinks.map(({unitId, label}) => (
+          <button
+            key={unitId}
+            type="button"
+            className="button secondary"
+            onClick={() => window.dispatchEvent(new CustomEvent('foundation-open-review', {
+              detail: {prefix: 'foundation-d4', unitId},
+            }))}
+          >{label}</button>
+        ))}
+      </div>
       <p className="fine-print">本练习用于课间复习。正式题目、考试时段与评分以课程方通知为准。</p>
     </section>
   );

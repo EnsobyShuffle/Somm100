@@ -641,6 +641,27 @@ try{
      ...before, unit: Number(unitId.split('-').at(-1)),
    });
  }
+ const remountedSparkling=document.querySelector('[aria-labelledby="foundation-sparkling-assessment-title"]');
+ const openRecord=remountedSparkling.querySelector('#foundation-sparkling-assessment-written-record');
+ const openAnswer=remountedSparkling.querySelector('#foundation-sparkling-assessment-written');
+ const sparklingLinks=[...remountedSparkling.querySelectorAll('button')];
+ assert.equal(sparklingLinks.length,2);
+ await act(async()=>openRecord.querySelector('summary').click());
+ await act(async()=>openAnswer.querySelector('summary').click());
+ const d4StorageKey='somm100.foundation.d4-review.v1';
+ const beforeSparklingLinks=new Map(Object.entries(window.localStorage));
+ for(const [index,button] of sparklingLinks.entries()){
+   const unit=index+3;
+   const targetId=`foundation-d4-0${unit}`;
+   await act(async()=>button.click());
+   assert.equal(document.activeElement.id,targetId);
+   assert.equal(scrolls.at(-1).id,targetId);
+   assert(openRecord.open && openAnswer.open);
+   assert.equal(window.location.hash,'#foundation');
+   const expected=new Map(beforeSparklingLinks);
+   expected.set(d4StorageKey,JSON.stringify({...JSON.parse(expected.get(d4StorageKey)),unit}));
+   assert.deepEqual(new Map(Object.entries(window.localStorage)),expected);
+ }
  assert.deepEqual(diagnostics,[]);
  console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,precourseEvidenceCases:4,practiceShortcuts,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,sparklingAssessmentSteps:3,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,cohortBridgeWindows:10,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

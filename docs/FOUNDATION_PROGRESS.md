@@ -1,3 +1,15 @@
+# Foundation · 2026-11-12 · 起泡酒自练回看正文与发布包
+
+基线 `e19ba8082f97eaaa86b472c95c016097f2653bc9`，分支 `migration/tencent-somm100`。核对源码、迁移说明、上轮检查点和来源表。
+
+- **交付**。起泡酒综合自练接入两个学习入口，分别定位到 D4-03「瓶中二次发酵与补液」和 D4-04「瓶式与罐式工艺」。点击后键盘焦点到正文，模拟记录和已展开答案保留，已有勾选和作答保留。两个入口均由完整 App 和专注页复用。
+- **来源**。复读产品蓝图、过时 Chapter 00、现行框架、Guided Learning、D1–D2 清单、课前路径与开班模板。新增入口对照[D4-03 传统法](https://app.notion.com/p/40717d16de4c81e0b72be94950521689)和[D4-04 起泡酒风格比较](https://app.notion.com/p/40717d16de4c8180bb3ed067f5e4373a)。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认每城五天面授。Notion 检索只找到相关模板、产品说明及历史班期，仍缺当期逐日教学与考核分配。
+- **逐日状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、8 个案例。D4 15 节、45 道自测、9 个案例。D1–D4 对应当期面授日次待核。D5 五城日期核实，教学及考核分配待核。D6 第22期无第六个面授日，游学另排。
+- **验证**。93 项回归通过；页面交互核对两个 D4 目标、焦点与滚动、已展开内容和本机记录，除复习单元位置外记录一致。CloudBase 构建、主 App 与专注页检查通过，456 个公开文件。主 App `./assets/app-BO81ofqJ.js`，专注页 `./assets/foundation-0cwgIIZ8.js`，共享课程模块 `./assets/FoundationPage-RHWFq_jV.js`。手机实机待验。
+- **发布断点**。保留 `[skip netlify]` 与 `ignore = "exit 0"`。正式站主入口和专注页的公开读取均返回 URL 不可访问。目标仍为现有上海 CloudBase 应用 `somm100` 的 `/somm100`，发布待已授权通路或 WorkBuddy 回执。拿到回执后核对 `/course.html`、`/foundation.html`、`/#foundation` 和上述入口脚本。课程侧继续核对第22期逐日表及 WPS／有道原课件，优先 D5。
+
+---
+
 # Foundation · 2026-11-12 · 起泡酒课间综合自练
 
 基线 `213b0887faf01cd94be02c5194d249646f0e0a8d`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、上轮检查点和来源表。
