@@ -88,7 +88,8 @@ try{
      });
      assert.equal(home.querySelectorAll('.reading-group a').length,17);
      const links=[...home.querySelectorAll('a[href^="./foundation.html#"]')];
-     assert.equal(links.length,10);
+     assert.equal(links.length,11);
+     assert(links.some(link=>link.hash==='#foundation-assessment-team-pours-title'));
      for(const link of links){
        const targetUrl=new URL(link.href);
        assert.equal(targetUrl.pathname,mount+'foundation.html');

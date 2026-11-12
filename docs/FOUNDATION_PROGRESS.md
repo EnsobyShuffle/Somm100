@@ -1,3 +1,16 @@
+# Foundation · 2026-11-12 · 保留正式站划词与杯卖直达
+
+基线 `af6cd3b4339cf000005ded70421645d24ce736a6`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、上轮检查点、来源表与并发分支头。
+
+- **学员页**。课程首页「学习入口」新增「杯卖库存自练」，直达专注页模拟盘点与交接题。既有正式课区段、报名、讲师、图片和本机记录机制继续沿用。
+- **发布候选**。正式 [课程首页](https://www.somm100.cn/course.html) 和 [专注页](https://www.somm100.cn/foundation.html) 均使用同一套已发布的划词 JS 和 CSS。打包脚本新增 `--course-lookup-assets DIR`。目录提供正式站 `/assets/static-word-lookup/` 中的 `static-word-lookup-Cg57t2VV.js` 和 `static-word-lookup-PZF57Ufx.css`，分别按脚本固定 SHA-256 校验。保留字节及既有 `/api/wine-explain` 约定，ZIP 内使用相对资源路径，只增强两页，不改基础构建或主 App。若官方资源版本变化，应重核两页引用与字节后再更新校验值。
+- **来源与课表**。复核产品蓝图、过时 Chapter 00、现行框架、Guided Learning、课前路径、D1–D2 清单、开班模板及有道／WPS 归档台账。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五天面授与团队酒单任务。Notion 与文件检索仍未取得本期逐日教学、考核分配或 WPS／有道原课件。
+- **日次状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、8 个案例。D4 15 节、45 道自测、9 个案例。D1–D4 面授对应待核。D5 五城日期已核，教学与考核分配待核。D6 本期无第六个面授日，游学另排。
+- **验证**。93 项回归、页面交互、课程首页在根路径和 `/somm100/` 下共 22 次入口定位、CloudBase 构建通过。两个正式资源有损改动会被打包校验拒绝，已实测脚本篡改拒绝。候选 ZIP 含 458 个公开文件，两个页面执行包内划词脚本时通过本地模拟 API 收发。未调用正式 API，未完成线上交互或手机实机验收。
+- **发布断点**。保留 `[skip netlify]` 与 `ignore = "exit 0"`。将带划词资源的候选 ZIP 交 WorkBuddy，沿用已授权的上海 CloudBase `somm100` 和 `/somm100`，保留现有 `/api/wine-explain` 路由与相关配置。回收部署回执后验收三入口，核对杯卖直达及两个划词入口。主 App 预期脚本 `app-55XNnkXq.js`，专注页 `foundation-BPWez1Jq.js`，共享 `FoundationPage-Bqq5vqm2.js`。教学优先取得第22期确认版逐日表并核 D5。
+
+---
+
 # Foundation · 2026-11-12 · 杯卖库存自练与正式站对照
 
 基线 `d37a01de3e069ca0f0e4509663e2c7cde7e15ab8`，分支 `migration/tencent-somm100`。已核对当前源码、来源表、迁移说明、上轮检查点和并发分支头。
