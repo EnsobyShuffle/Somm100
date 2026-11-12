@@ -18,7 +18,7 @@ const topics = [
 ];
 
 const resources = [
-  {target: 'foundation-bridge-title', title: '21 天课堂间学习路径'},
+  {target: 'foundation-bridge-title', title: '21 天自选复习资源'},
   {target: 'foundation-france-title', title: '法国专题复习'},
   {target: 'foundation-sparkling-title', title: '起泡酒练习'},
 ];

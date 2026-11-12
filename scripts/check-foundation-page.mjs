@@ -558,18 +558,28 @@ try{
  assert.equal(compactBridge.querySelectorAll('time').length,0);
  assert.equal(finalBridge.querySelectorAll('time').length,0);
  const bridgeRecord=window.localStorage.getItem(FOUNDATION_BRIDGE_KEY);
- for(const [city,dates,finalDays,finalDates] of [
-   ['深圳',['2026-12-04','2026-12-09','2026-12-10','2026-12-15'],31,['2026-12-18','2027-01-02','2027-01-03','2027-01-17']],
-   ['北京',['2026-11-25','2026-11-30','2026-12-01','2026-12-06'],33,['2026-12-09','2026-12-25','2026-12-26','2027-01-10']],
+ assert.match(compactBridge.textContent,/约两周复习与预习/);
+ assert.match(bridgeDay.closest('section').textContent,/21 天自选学习资源/);
+ const datesIn=(section, selector)=>[...section.querySelectorAll(selector)].map(time=>time.dateTime);
+ for(const [city,firstEnd,secondStart,secondEnd,thirdStart,finalDays] of [
+   ['北京','2026-11-24','2026-12-07','2026-12-08','2027-01-11',33],
+   ['上海','2026-11-27','2026-12-10','2026-12-11','2027-01-12',31],
+   ['成都','2026-11-30','2026-12-13','2026-12-14','2027-01-14',30],
+   ['深圳','2026-12-03','2026-12-16','2026-12-17','2027-01-18',31],
+   ['广州','2026-12-05','2026-12-18','2026-12-19','2027-01-19',30],
  ]){
    await act(async()=>{
      citySelect.value=city;
      citySelect.dispatchEvent(new window.Event('change',{bubbles:true}));
    });
-   assert.match(compactBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*12'));
-   assert.deepEqual([...compactBridge.querySelectorAll('time')].map(time=>time.dateTime),dates);
-   assert.match(finalBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*'+finalDays));
-   assert.deepEqual([...finalBridge.querySelectorAll('time')].map(time=>time.dateTime),finalDates);
+   assert.match(compactBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*12 个完整日历日'));
+   assert.deepEqual(datesIn(compactBridge,'[role="status"] time'),[firstEnd,secondStart]);
+   assert.match(finalBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*'+finalDays+' 个完整日历日'));
+   assert.deepEqual(datesIn(finalBridge,'[role="status"] time'),[secondEnd,thirdStart]);
+   if(city==='北京'){
+     assert.deepEqual(datesIn(compactBridge,'article time'),['2026-11-25','2026-11-30','2026-12-01','2026-12-06']);
+     assert.deepEqual(datesIn(finalBridge,'article time'),['2026-12-09','2026-12-25','2026-12-26','2027-01-10']);
+   }
    assert.equal(bridgeDay.value,'21');
  }
  const compactTargets=['foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-d1-quiz-title','foundation-d2-quiz-title','foundation-d3-title','foundation-d4-title'];
@@ -616,5 +626,5 @@ try{
    });
  }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,precourseEvidenceCases:4,practiceShortcuts,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,precourseEvidenceCases:4,practiceShortcuts,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,cohortBridgeWindows:10,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

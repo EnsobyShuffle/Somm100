@@ -147,7 +147,7 @@ export default function FoundationStudy() {
         h('details', {id: `${week.id}-questions`},
           h('summary', {id: `${week.id}-questions-title`}, `准备度选择题 · ${questions.length} 题`),
           h('p', {role: 'status'}, result.ready ? '本组概念检查：已准备好。你仍可返回阅读和自查。' : result.answered < result.total ? `已作答 ${result.answered} / ${result.total}，完成后查看本组准备度。` : '建议再看一遍本周内容，然后重新选择。'),
-          week.number === 8 ? h('p', null, '这部分只是第一次预览；没记住也没关系，正式课程和三周桥接还会再次学习。') : null,
+          week.number === 8 ? h('p', null, '这部分只是第一次预览；没记住也没关系，课间复习和正式课程还会再次学习。') : null,
           questions.map(q => {
             const entry = progress.answers[q.id];
             const correct = entry?.latest === q.answer;

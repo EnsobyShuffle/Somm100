@@ -93,11 +93,21 @@ function bridgeBlocks(blocks, calendar) {
   }));
 }
 
+function bridgeWindow(cityName, calendar, lastClass, nextClass) {
+  return h('p', {role:'status'}, `${cityName}｜两段面授之间有 ${calendar.days} 个完整日历日。`,
+    ' 上一阶段末日 ', h('time', {dateTime:lastClass}, lastClass.replaceAll('-', '/')),
+    '，下一阶段首日 ', h('time', {dateTime:nextClass}, nextClass.replaceAll('-', '/')), '。');
+}
+
 function CohortBridge() {
   const [cityName, setCityName] = useState('');
   const city = cohort.cities.find(item => item.city === cityName);
-  const calendar = city && bridgeCalendar(city.stages[0].at(-1), city.stages[1][0]);
-  const finalCalendar = city && bridgeCalendar(city.stages[1].at(-1), city.stages[2][0]);
+  const firstEnd = city?.stages[0].at(-1);
+  const secondStart = city?.stages[1][0];
+  const secondEnd = city?.stages[1].at(-1);
+  const thirdStart = city?.stages[2][0];
+  const calendar = city && bridgeCalendar(firstEnd, secondStart);
+  const finalCalendar = city && bridgeCalendar(secondEnd, thirdStart);
 
   return h(React.Fragment, null,
     h('section', {'aria-labelledby':'foundation-cohort-bridge-title'},
@@ -107,13 +117,13 @@ function CohortBridge() {
         h('label', null, '上课城市', h('select', {value:cityName, onChange:event=>setCityName(event.target.value)},
           h('option', {value:''}, '请选择城市'),
           cohort.cities.map(item=>h('option', {key:item.city, value:item.city}, item.city))))),
-      h('h4', null, '第一阶段后｜复习基础，预习产区与工艺'),
-      calendar && h('p', {role:'status'}, `${cityName}｜两段面授之间有 ${calendar.days} 个完整日历日。`),
+      h('h4', null, '第一阶段后｜约两周复习与预习'),
+      calendar && bridgeWindow(cityName, calendar, firstEnd, secondStart),
       bridgeBlocks(compactBlocks, calendar)),
     h('section', {className:'foundation-week', 'aria-labelledby':'foundation-cohort-final-bridge-title'},
       h('h4', {id:'foundation-cohort-final-bridge-title'}, '第二阶段后｜综合复盘'),
       h('p', null, '从第二阶段末日之后到第三阶段开始前，按自己的进度复盘葡萄酒知识和餐厅情境。'),
-      finalCalendar && h('p', {role:'status'}, `${cityName}｜两段面授之间有 ${finalCalendar.days} 个完整日历日。`),
+      finalCalendar && bridgeWindow(cityName, finalCalendar, secondEnd, thirdStart),
       bridgeBlocks(finalReviewBlocks, finalCalendar)));
 }
 
@@ -145,7 +155,7 @@ export default function FoundationBridge() {
     h('h2', {id: 'foundation-bridge-title'}, '课堂间学习路径'),
     h(CohortBridge),
     h('h3', null, '21 天自选学习资源'),
-    h('p', null, '从 D1 复习开始，经 D2 与法国专题过渡到下一阶段预习。按自己的进度选读，也可留到后面继续。'),
+    h('p', null, '从 D1 复习开始，经 D2 与法国专题过渡到下一阶段预习。第22期的复习日期请看上方城市安排，这 21 天资源可按需选读。'),
     h('div', {className: 'foundation-study-controls'},
       h('label', null, '当前学习日', h('select', {
         id: 'foundation-bridge-day',
