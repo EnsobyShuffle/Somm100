@@ -22,6 +22,7 @@ export default function FoundationStudy() {
   const [canSave, setCanSave] = useState(false);
   const pendingQuestionFocus = useRef(null);
   const [reviewOrigin, setReviewOrigin] = useState(null);
+  const [practiceOrigin, setPracticeOrigin] = useState(null);
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
@@ -67,6 +68,9 @@ export default function FoundationStudy() {
 
   const firstWeek = progress.pace === 4 ? progress.period * 2 - 1 : progress.period;
   const visibleWeeks = data.weeks.filter(w => w.number === firstWeek || (progress.pace === 4 && w.number === firstWeek + 1));
+  const practiceReturn = visibleWeeks.some(week => week.number === practiceOrigin?.week)
+    ? {caseId: practiceOrigin.caseId, onReturn: () => focusFoundationTarget(`foundation-week-practice-${practiceOrigin.caseId}`)}
+    : undefined;
   const reviewQuestions = data.questions.filter(q => progress.answers[q.id] && progress.answers[q.id].latest !== q.answer);
   function reviewQuestion(question, targetId) {
     setReviewOrigin({targetId, questionId: question.id, week: question.week});
@@ -127,8 +131,12 @@ export default function FoundationStudy() {
         h('div', {className: 'button-row'}, week.concepts.map(id => h('button', {type: 'button', className: 'button secondary', key: id, onClick: () => scrollToConcept(id)}, `阅读｜${conceptTitles[id]}`))),
         week.practices?.length > 0 && h('div', {className: 'button-row foundation-week-practice'},
           week.practices.map(({id, title}) => h('button', {
-            key: id, type: 'button', className: 'button secondary', 'aria-controls': id,
-            onClick: () => openReviewRecap(id),
+            key: id, id: `foundation-week-practice-${id}`, type: 'button', tabIndex: 0,
+            className: 'button secondary', 'aria-controls': id,
+            onClick: () => {
+              setPracticeOrigin({week: week.number, caseId: id});
+              openReviewRecap(id);
+            },
           }, `案例｜${title}`))),
         h('fieldset', null, h('legend', null, '知识点自查 · 理解后再勾选'),
           week.checks.map(check => h('label', {className: 'foundation-check', key: check.id},
@@ -163,6 +171,7 @@ export default function FoundationStudy() {
     }));
 
   return h(React.Fragment, null, study, h(FoundationConcepts, {
+    practiceReturn,
     reviewReturn: reviewOrigin
       ? {conceptId: reviewOrigin.targetId, onReturn: returnToQuestion}
       : undefined,

@@ -10,8 +10,9 @@ import FoundationPrecourseStylePractice from './FoundationPrecourseStylePractice
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
 type ReviewReturn = {conceptId: string; onReturn: () => void};
+type PracticeReturn = {caseId: string; onReturn: () => void};
 
-export default function FoundationConcepts({reviewReturn}: {reviewReturn?: ReviewReturn}) {
+export default function FoundationConcepts({reviewReturn, practiceReturn}: {reviewReturn?: ReviewReturn; practiceReturn?: PracticeReturn}) {
   return <>
     <section className="white-panel" aria-labelledby="foundation-concept-index">
       <h3 id="foundation-concept-index">学习目录</h3>
@@ -31,7 +32,7 @@ export default function FoundationConcepts({reviewReturn}: {reviewReturn?: Revie
         <h2 id={`${id}-title`}>{title}</h2>
         <p>{intro}</p>
         <p>{example}</p>
-        {(id === 'foundation-2' || id === 'foundation-3') && <FoundationPrecourseEvidencePractice conceptId={id}/>}
+        {(id === 'foundation-2' || id === 'foundation-3') && <FoundationPrecourseEvidencePractice conceptId={id} practiceReturn={practiceReturn}/>}
         {id === 'foundation-4' && <FoundationPrecourseStylePractice/>}
         {id === 'foundation-5' && (
           <section aria-labelledby="foundation-grape-cards-title">

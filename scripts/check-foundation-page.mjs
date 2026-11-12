@@ -139,6 +139,15 @@ try{
        assert(item.open && !answer.open);
        assert.equal(document.activeElement.id,`${id}-title`);
        assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),saved);
+       await act(async()=>answer.querySelector('summary').click());
+       const back=[...item.querySelectorAll('button')].find(button=>button.textContent==='返回本周练习入口');
+       assert(back);
+       assert.equal([...document.querySelectorAll('button')].filter(button=>button.textContent==='返回本周练习入口').length,1);
+       await act(async()=>back.click());
+       assert.equal(document.activeElement,shortcut);
+       assert.equal(shortcut.tabIndex,0);
+       assert(item.open && answer.open);
+       assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),saved);
        practiceShortcuts++;
      }
    }
@@ -146,6 +155,7 @@ try{
  assert.equal(practiceShortcuts,8);
  await chooseStudyOption(paceSelect,8);
  await chooseStudyOption(weekSelect,1);
+ assert(![...document.querySelectorAll('button')].some(button=>button.textContent==='返回本周练习入口'));
  assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
  const prepCity=cityPrep.querySelector('select');

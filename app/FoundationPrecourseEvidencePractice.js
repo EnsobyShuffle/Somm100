@@ -43,7 +43,7 @@ const practices = {
   },
 };
 
-export default function FoundationPrecourseEvidencePractice({conceptId}) {
+export default function FoundationPrecourseEvidencePractice({conceptId, practiceReturn}) {
   const {title, cases} = practices[conceptId];
   const heading = `${conceptId}-evidence-practice`;
   return h('section', {'aria-labelledby':heading},
@@ -56,5 +56,8 @@ export default function FoundationPrecourseEvidencePractice({conceptId}) {
         h('p', null, h('strong', null, '自查　'), question),
         h('details', null,
           h('summary', null, '展开参考判断'),
-          h('p', null, answer)))));
+          h('p', null, answer)),
+        practiceReturn?.caseId === id && h('button', {
+          type: 'button', className: 'button secondary', onClick: practiceReturn.onReturn,
+        }, '返回本周练习入口'))));
 }
