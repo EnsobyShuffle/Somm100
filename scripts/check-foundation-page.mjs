@@ -441,6 +441,20 @@ try{
  assert.match(auditAnswer.textContent,/9 款已确认可售/);
  assert.match(auditAnswer.textContent,/主酒单另做一轮核对/);
 
+ const pours=assessment.querySelector('[aria-labelledby="foundation-assessment-team-pours-title"]');
+ const pourCases=[...pours.querySelectorAll(':scope > details')];
+ assert.equal(pourCases.length,2);
+ for(const [index,item] of pourCases.entries()){
+   const answer=item.querySelector('details');
+   assert(!item.open && !answer.open);
+   await act(async()=>item.querySelector('summary').click());
+   assert(item.open && !answer.open);
+   await act(async()=>answer.querySelector('summary').click());
+   assert(answer.open);
+   assert.match(answer.textContent,[/1,000 毫升，还可接 8 杯/,/还可接 2 杯.*请客人确认/][index]);
+ }
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
+
  await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看考核范围与复习索引').click());
  assert.equal(document.activeElement.id,'foundation-assessment-title');
  await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='笔试案例自练').click());
@@ -605,13 +619,14 @@ try{
    await act(async()=>button.click());
    assert.equal(document.activeElement.id,compactTargets[i]);
  }
- const finalTargets=['foundation-d3-title','foundation-d4-title','foundation-d3-quiz-title','foundation-d4-quiz-title','foundation-assessment-title','foundation-assessment-practice-title','foundation-sparkling-assessment-title'];
+ const finalTargets=['foundation-d3-title','foundation-d4-title','foundation-d3-quiz-title','foundation-d4-quiz-title','foundation-assessment-title','foundation-assessment-practice-title','foundation-sparkling-assessment-title','foundation-assessment-team-pours-title'];
  const finalButtons=[...finalBridge.querySelectorAll('button')];
  assert.equal(finalButtons.length,finalTargets.length);
  for(const [i,button] of finalButtons.entries()){
    await act(async()=>button.click());
    assert.equal(document.activeElement.id,finalTargets[i]);
  }
+ assert(pourCases.every(item=>item.open && item.querySelector('details').open));
  assert.equal(window.location.hash,'#foundation');
  assert.equal(window.localStorage.getItem(FOUNDATION_BRIDGE_KEY),bridgeRecord);
  assert(document.getElementById('foundation-backup'));

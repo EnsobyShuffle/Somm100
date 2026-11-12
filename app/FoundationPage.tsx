@@ -184,6 +184,28 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   </div>
   <p className="fine-print">数量来自第22期招生资料。上述字段和复核步骤供自练，正式提交要求以课程方通知为准。</p>
  </details>
+ <section className="foundation-week" aria-labelledby="foundation-assessment-team-pours-title">
+  <h4 id="foundation-assessment-team-pours-title">杯卖酒单自练｜开餐前还能卖几杯？</h4>
+  <p>模拟餐厅正准备开餐。同一款杯卖酒有一瓶已确认可继续供应，剩 375 毫升，另有一瓶未开封的 750 毫升。同伴扮演值班经理，负责复核库存和确认是否继续接单。</p>
+  <details id="foundation-team-pours-opening">
+   <summary>第一步｜核对开餐库存</summary>
+   <p>按本案例的约定，每杯 125 毫升，先从总库存预留 125 毫升供已确认的预订。算出还可以接单的整杯数，并写下一句给同事的交接。</p>
+   <details id="foundation-team-pours-opening-answer">
+    <summary>展开参考计算</summary>
+    <p>总库存 1,125 毫升，扣除预留后剩 1,000 毫升，还可接 8 杯。可交接：「这款杯卖有一杯已预留，另外还有 8 杯可接单。卖出后一起更新剩余杯数。」</p>
+   </details>
+  </details>
+  <details id="foundation-team-pours-update">
+   <summary>第二步｜收到缺货更新</summary>
+   <p>开餐前，值班经理通知那瓶未开封的酒调给了另一场活动。尚未接新单，原来的预留仍有效。重算可接单杯数，说明接到超量订单时要做什么。</p>
+   <details id="foundation-team-pours-update-answer">
+    <summary>展开参考交接</summary>
+    <p>375 毫升扣除已预留的 125 毫升，还可接 2 杯。同步更新可售数量。若有新客人想点 3 杯，先说明这款目前只能供应 2 杯，核实备选酒和价格后请客人确认。</p>
+   </details>
+  </details>
+  <p><strong>同伴自查　</strong>有没有区分已预留和可接单的杯数？库存变化后，前厅和点单记录是否同步更新？</p>
+  <p className="fine-print">酒量与流程为原创练习设定，供团队酒单复习。</p>
+ </section>
  <FoundationAssessmentPractice/>
  <h3 id="foundation-certificate-title">结课与证书</h3>
  <p>第22期招生资料列出 SOMM100 初级侍酒师证书和见习侍酒师证书。初级证书涉及符合要求的餐饮行业在职经历。应届实习生适用见习证书规则，达到相关全职工作条件后可申请转换。</p>

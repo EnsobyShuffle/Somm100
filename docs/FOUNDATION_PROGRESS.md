@@ -1,3 +1,16 @@
+# Foundation · 2026-11-12 · 杯卖库存自练与正式站对照
+
+基线 `d37a01de3e069ca0f0e4509663e2c7cde7e15ab8`，分支 `migration/tencent-somm100`。已核对当前源码、来源表、迁移说明、上轮检查点和并发分支头。
+
+- **交付**。正式课后续考核复习区新增「杯卖酒单自练｜开餐前还能卖几杯？」。同一组模拟数据分成开餐盘点与缺货更新两步，练习扣除预留、重算可售杯数并向同事及客人交接。题面与参考答案分别折叠。课间综合复盘新增直达入口，完整 App 与专注页复用。浏览器学习记录保留。
+- **来源**。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认团队酒单作业为 12 款杯卖酒及 40 款主酒单、五城各五天面授。[运营框架与实施建议](https://chatgpt.com/library?file_id=libfile_075fac1511208191a68dd62a5caeb3b5&account_id=personal)提供酒单服务可行性与小组演练方向，杯量、库存、预留及对话由本项目原创。[资料归档台账](https://app.notion.com/p/40717d16de4c81e580cacdad4d6991e3)仅列 WPS 酒单和学习框架索引，WPS 运营框架公开读取返回 URL 不可访问。已复核产品蓝图、过时 Chapter 00、现行框架、Guided Learning、课前路径、D1–D2 清单和开班模板。仍缺第22期分时教学及考核表与 WPS／有道原课件，优先核 D5。
+- **日次状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、8 个案例。D4 15 节、45 道自测、9 个案例。D1–D4 专题与当期面授日次待核。D5 五城日期已核实，教学及考核分配待核。D6 本期未列第六个面授日，游学另排。
+- **构建验证**。93 项回归、双题折叠、答案为 8／2 杯、课间入口焦点定位及本机记录保留通过。CloudBase 构建、主入口和专注页检查通过，456 个公开文件。候选主入口 `./assets/app-55XNnkXq.js`、专注页 `./assets/foundation-BPWez1Jq.js`、共享模块 `./assets/FoundationPage-Bqq5vqm2.js`。Chromium 启动报 `socket() failed: Operation not permitted`，手机实机待验。
+- **正式站实查（11 月 12 日）**。三个入口 HTTP 200。主 App 加载 `/assets/app-C7ABxmed.js` 和 `/assets/FoundationPage-CiZC60Ci.js`。主 App 模块与专注页内联模块均含课间完整日历日，均未检出起泡酒综合自练、杯卖库存自练、两道口试追问、课前风格与产地练习及本周练习返回入口。专注页已有餐配对照、服务实操和盲品橡木复盘，主 App 模块未检出。上述为实际返回资源检查，未执行线上交互。
+- **发布断点**。课程首页与专注页正式站均加载额外的 `/assets/static-word-lookup/static-word-lookup-Cg57t2VV.js`，权威分支本次构建的两份 HTML 均未引用该脚本。直接覆盖可能移除现有划词入口。部署前需把该功能与获准源实现对齐，再用现有上海 CloudBase `somm100` 的 `/somm100` 发布并回收回执。上轮 ZIP 为 `d37a01d`，本轮保存本地构建，未覆盖正式站，未做线上交互验收。保留 `[skip netlify]` 和 `ignore = "exit 0"`。
+
+---
+
 # Foundation · 2026-11-12 · 起泡酒自练回看正文与发布包
 
 基线 `e19ba8082f97eaaa86b472c95c016097f2653bc9`，分支 `migration/tencent-somm100`。核对源码、迁移说明、上轮检查点和来源表。
