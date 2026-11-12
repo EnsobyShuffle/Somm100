@@ -1,3 +1,15 @@
+# Foundation · 2026-11-13 · D3 摩泽尔坡地与瓦豪酒标复盘
+
+基线 `9973a2908a945c7d9cbc9489479b585a7ad2ab96`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、来源表、上轮检查点及并发分支头。
+
+- **交付**。`app/FoundationD3Recap.js` 追加两道原创案例。摩泽尔题从河流、坡向、高差入手，写出待验证的成熟假设。瓦豪题从葡萄园名称和年份入手，对照两个品种的葡萄来源、酿造条件与品鉴观察。分别连回 D3 第 10、12 节并支持返回原题，既有案例、ID 和本机学习记录保留。
+- **来源**。依据 D3 第 10、12 节、[德国葡萄酒协会的摩泽尔产区资料](https://www.ch.deutscheweine.de/regionen/anbaugebiet/72/mosel)和[瓦豪葡萄园地图](https://www.vinea-wachau.at/en/mywachau/vineyards)。复核产品蓝图、过时 Chapter 00、现行课前框架、Guided Learning、D1–D2 清单、课前路径与开班模板。[第22期招生正文](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)第 6–7 页确认五天面授、五城日期和另排游学。Notion 与文件检索仍未找到当期确认版逐日课表、D5 教学考核分配或原课件。
+- **逐日状态**。D1 10 节、25 道自测、7 个案例。D2 9 个品种、6 个法国专题、42 道自测、7 个案例。D3 13 节、30 道自测、10 个案例。D4 15 节、45 道自测、11 个案例。D1–D4 与本期面授逐日主题的对应待核。D5 五城日期已核，教学与考核分配待核。D6 无第六天面授，2027 年 3 月 14–17 日游学另排。
+- **验证**。93 项回归、53 节 SSR／DOM 渲染、35 个案例共 61 次正文往返、本机记录保留、CloudBase 构建和根路径及 `/somm100/` 入口检查通过。主 App `app-Bb7_2GgZ.js`，专注页 `foundation-uhnXfgcg.js`，共享模块 `FoundationPage-BVlazzvz.js`。
+- **发布断点**。正式课程首页仍有划词入口，未检出杯卖库存自练直达。保留 `[skip netlify]` 与 `ignore = "exit 0"`。未部署或线上手机验收，待现有上海 CloudBase `somm100` 的 `/somm100` 授权发布通路或 WorkBuddy 回执。教学优先核第 5 天。
+
+---
+
 # Foundation · 2026-11-13 · D1 发酵后检测与酒标查证
 
 基线 `fe9c0ff63552fb9fe53cf80614c4f30362d4b55c`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、来源表、上轮检查点及并发分支头。
