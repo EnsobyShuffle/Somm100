@@ -399,6 +399,22 @@ try{
  const certificate=assessment.querySelector('#foundation-certificate-title');
  assert.match(certificate.nextElementSibling.textContent,/初级侍酒师证书.*见习侍酒师证书/);
  const recordsBeforePractice = Object.entries(window.localStorage);
+ const sparklingAssessment=assessment.querySelector('[aria-labelledby="foundation-sparkling-assessment-title"]');
+ const sparklingSteps=[...sparklingAssessment.querySelectorAll('ol > li')];
+ assert.deepEqual(sparklingSteps.map(step=>step.querySelector('h5').textContent.split('｜')[0]),['盲品','笔试','口试']);
+ const sparklingRecord=sparklingAssessment.querySelector('#foundation-sparkling-assessment-written-record');
+ const sparklingWritten=sparklingAssessment.querySelector('#foundation-sparkling-assessment-written');
+ assert(!sparklingRecord.open && !sparklingWritten.open);
+ await act(async()=>sparklingRecord.querySelector('summary').click());
+ assert(sparklingRecord.open && !sparklingWritten.open);
+ assert.match(sparklingRecord.textContent,/装瓶后.*耐压罐/);
+ for(const [step,name] of sparklingSteps.map((step,index)=>[step,['blind','written','oral'][index]])){
+   const answer=step.querySelector(`#foundation-sparkling-assessment-${name}`);
+   assert(!answer.open);
+   await act(async()=>answer.querySelector('summary').click());
+   assert(answer.open);
+ }
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
  const fieldTrip=cohort.querySelector('[aria-labelledby="foundation-cohort-field-trip-title"]');
  const fieldTripButton=[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看产区游学');
  await act(async()=>fieldTripButton.click());
@@ -589,7 +605,7 @@ try{
    await act(async()=>button.click());
    assert.equal(document.activeElement.id,compactTargets[i]);
  }
- const finalTargets=['foundation-d3-title','foundation-d4-title','foundation-d3-quiz-title','foundation-d4-quiz-title','foundation-assessment-title','foundation-assessment-practice-title'];
+ const finalTargets=['foundation-d3-title','foundation-d4-title','foundation-d3-quiz-title','foundation-d4-quiz-title','foundation-assessment-title','foundation-assessment-practice-title','foundation-sparkling-assessment-title'];
  const finalButtons=[...finalBridge.querySelectorAll('button')];
  assert.equal(finalButtons.length,finalTargets.length);
  for(const [i,button] of finalButtons.entries()){
@@ -626,5 +642,5 @@ try{
    });
  }
  assert.deepEqual(diagnostics,[]);
- console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,precourseEvidenceCases:4,practiceShortcuts,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,cohortBridgeWindows:10,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
+ console.log(JSON.stringify({status:'PASS',concepts:8,oralChecksAndReturns:8,originalArticleLinks:17,grapeCards:6,precourseLabelCases:3,precourseStyleCases:3,precoursePlaceCases:3,precourseEvidenceCases:4,practiceShortcuts,sectionDestinations:19,focusedDestinations:46,directRecapDestinations:4,writtenCaseQuestions:12,sparklingAssessmentSteps:3,writtenCaseReviewJumps:3,blindEvidenceComparison:true,oralEvidenceScenarios:2,readinessGroups:8,readinessNavigationPaces:[4,8],readinessReviewQuestionJumps:3,readinessReviewRoundTrips,fieldTripReviewSteps:3,drinkComparisonCases:3,pairingComparisonCases:2,serviceRoleplayScenarios:2,teamAuditRows:4,cityPrepOptions:5,cohortScheduledDays:25,cohortBridgeWindows:10,paymentTermsSourceVerified:true,assessmentScenarios:3,reducedMotion:'instant',routeCallbacks:routes,quizRecordsRestored:4,limits:'jsdom only; no browser layout/network/deployment claim'},null,2));
 }finally{await act(async()=>root.unmount());console.error=originalError;dom.window.close();}

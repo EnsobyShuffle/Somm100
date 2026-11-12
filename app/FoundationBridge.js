@@ -75,6 +75,7 @@ const finalReviewBlocks = [
     targets: [
       {headingId:'foundation-assessment-title', label:'盲品、口试和团队酒单'},
       {headingId:'foundation-assessment-practice-title', label:'餐厅情境自练'},
+      {headingId:'foundation-sparkling-assessment-title', label:'起泡酒综合自练'},
     ],
   },
 ];

@@ -7,6 +7,7 @@ import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
 import FoundationAssessmentPractice from './FoundationAssessmentPractice';
 import FoundationWrittenPractice from './FoundationWrittenPractice';
+import FoundationSparklingAssessmentPractice from './FoundationSparklingAssessmentPractice';
 import {openReviewRecap} from './FoundationReviewRecap';
 import FoundationCohort from './FoundationCohort';
 import FoundationDirectory from './FoundationDirectory';
@@ -67,6 +68,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-drink-comparison-title')}>四类酒水辨析</button>
  </div>
  <p className="fine-print">考核范围来自本页的第22期招生资料。复习索引按主题整理，具体日期、评分标准和提交方式以当期课程方通知为准。</p>
+ <FoundationSparklingAssessmentPractice/>
  <section className="foundation-week" aria-labelledby="foundation-assessment-written-title">
   <h4 id="foundation-assessment-written-title">笔试案例自练｜葡萄更甜，成酒就更甜吗？</h4>
   <p>同一块地的同一葡萄品种分两次采收。下面是虚构的练习资料。先逐条写下判断和依据，再展开参考答案。</p>
