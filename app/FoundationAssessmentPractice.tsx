@@ -93,6 +93,27 @@ export default function FoundationAssessmentPractice() {
         </details>
         <p><strong>同伴自查　</strong>是否先暂停倒酒、听清客人的描述、征得同意再复核，并说清继续服务的条件？交接时是否把观察和判断分开？</p>
       </section>
+      <section className="foundation-week" aria-labelledby="foundation-assessment-recommendation-title">
+        <h4 id="foundation-assessment-recommendation-title">点单实操自练｜客人改变了选择</h4>
+        <p>两人轮流扮演客人和侍酒师。模拟酒单有甲款干白每杯 ¥58、乙款干白每杯 ¥68、丙款微甜白葡萄酒每杯 ¥54。</p>
+        <details id="foundation-recommendation-budget">
+          <summary>第一轮｜确认风格和预算</summary>
+          <p>7 号桌两位客人各想点一杯清爽的干白，每杯最多 ¥60。甲款的模拟试饮记录写着「酸感清晰」。请说一句推荐理由，并复述酒款、杯数和价格，等客人确认。</p>
+          <details id="foundation-recommendation-budget-answer">
+            <summary>展开参考话术</summary>
+            <p>「甲是干白，试饮时酸感清晰，喝起来清爽，每杯 ¥58。两杯共 ¥116，您确认点这款吗？」乙超出每杯预算，丙的微甜风格与要求有出入。</p>
+          </details>
+        </details>
+        <details id="foundation-recommendation-order-change">
+          <summary>第二轮｜确认更改并交接</summary>
+          <p>订单已录入，还没倒酒。其中一位改点气泡水。请向客人复述修改后的订单，再向负责出品的同事交接。菜单资料卡未给出气泡水价格。</p>
+          <details id="foundation-recommendation-order-change-answer">
+            <summary>展开参考话术</summary>
+            <p>先核对气泡水价格，再请客人确认修改。交接可以说：「7 号桌原本是两杯甲款干白，客人已改为一杯甲款干白和一份气泡水。点单记录已更新，请按修改后的单出品。」</p>
+          </details>
+        </details>
+        <p><strong>同伴自查　</strong>能否按每杯预算报价，听清变更，复述确认，并让点单记录与实际出品一致？</p>
+      </section>
       <section className="foundation-week" aria-labelledby="foundation-assessment-pairing-title">
         <h4 id="foundation-assessment-pairing-title">餐酒搭配对照练习</h4>
         <p>用两组模拟记录练习餐酒搭配。先读菜品、酒款和客人偏好，写下初选，再展开试配记录。两题都可以只用文字完成。</p>

@@ -64,6 +64,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <button className="button secondary" aria-controls="foundation-assessment-blind" onClick={()=>openReviewRecap('foundation-assessment-blind')}>盲品证据复盘</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-practice-title')}>餐厅情境自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-service-roleplay-title')}>服务实操自练</button>
+  <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-recommendation-title')}>点单变更自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-pairing-title')}>餐酒搭配对照练习</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-drink-comparison-title')}>四类酒水辨析</button>
  </div>

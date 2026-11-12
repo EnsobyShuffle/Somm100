@@ -545,6 +545,21 @@ try{
    assert(answer.open);
    assert.match(answer.textContent,outcome);
  }
+ await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='点单变更自练').click());
+ assert.equal(document.activeElement.id,'foundation-assessment-recommendation-title');
+ const recommendation=practice.querySelector('[aria-labelledby="foundation-assessment-recommendation-title"]');
+ assert.equal(recommendation.querySelectorAll(':scope > details').length,2);
+ for(const [id,outcome] of [['budget',/每杯 ¥58.*共 ¥116.*确认/],['order-change',/核对气泡水价格.*7 号桌.*一杯甲款干白和一份气泡水.*点单记录已更新/]]){
+   const scenario=recommendation.querySelector(`#foundation-recommendation-${id}`);
+   const answer=scenario.querySelector(`#foundation-recommendation-${id}-answer`);
+   assert(!scenario.open && !answer.open);
+   await act(async()=>scenario.querySelector('summary').click());
+   assert(scenario.open && !answer.open);
+   await act(async()=>answer.querySelector('summary').click());
+   assert(answer.open);
+   assert.match(answer.textContent,outcome);
+ }
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
  await act(async()=>[...assessment.querySelectorAll('button')].find(button=>button.textContent==='四类酒水辨析').click());
  assert.equal(document.activeElement.id,'foundation-assessment-drink-comparison-title');
  const comparison=practice.querySelector('[aria-labelledby="foundation-assessment-drink-comparison-title"]');
