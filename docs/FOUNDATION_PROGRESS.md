@@ -1,3 +1,15 @@
+# Foundation · 2026-11-13 · D2 雷司令与赤霞珠复盘
+
+基线 `e0461477a190073915e2cf9ac28367e1c1352c61`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、来源映射、上轮检查点及并发分支头。
+
+- **交付**。`app/FoundationD1D2Recaps.js` 为 D2 综合复盘追加两道原创模拟案例。雷司令题把残糖、总酸和实际甜感分开记录，并统一复尝条件。赤霞珠题用同批葡萄的两份酒窖记录查浸渍差异及可能混杂的操作。分别链接 D2 第 4、6 节，支持正文回原题。原有案例、答题和勾选记录保留。
+- **来源**。依据现有 D2 第 4、6 节并对照 [Wine Australia 雷司令教学资料](https://www.wineaustralia.com/getmedia/6331b966-f1e6-405f-b404-ff881a603b6b/AWD_Riesling_FacilitatorGuide_1.pdf?ext=.pdf)和[澳大利亚葡萄酒研究所浸渍资料](https://www.awri.com.au/industry_support/winemaking_resources/winemaking-practices/winemaking-treatment-extended-post-fermentation-maceration/)。复读产品蓝图、过时 Chapter 00、现行框架、Guided Learning、D1–D2 清单、课前路径及 WPS／有道台账。[第22期招生正文](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)第 6–7 页确认五天面授、游学和考核范围。检索未取得确认版逐日课表、D5 教学考核分配或原课件。
+- **逐日状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、7 个案例。D3 13 节、30 道自测、8 个案例。D4 15 节、45 道自测、11 个案例。D1–D4 对应面授日次待核。D5 五城日期已核，教学和考核分配待核。D6 无第六个面授日，2027 年 3 月 14–17 日游学另排。
+- **验证**。93 项回归、53 节 SSR／DOM 渲染、31 个案例共 56 次复习往返、本机记录保留及 CloudBase 构建通过。主 App `app-CdP5McU3.js`、专注页 `foundation-C_A1B5_2.js`、共享模块 `FoundationPage-CGVbim2K.js`。
+- **发布断点**。正式课程首页仍有划词入口，未检出杯卖自练直达。两份划词公开资源按固定哈希校验。保留 `[skip netlify]` 与 `ignore = "exit 0"`。未部署、未线上或手机实机验收。待已授权的上海 CloudBase `somm100`、`/somm100` 发布通路或 WorkBuddy 回执。教学优先核 D5。
+
+---
+
 # Foundation · 2026-11-13 · D4 波特与雪莉复盘
 
 基线 `5819a446a64d471a3acf29c52eb6f7e92eb86cb8`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、来源表、上轮检查点及并发分支头。
