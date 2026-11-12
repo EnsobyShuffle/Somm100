@@ -181,18 +181,31 @@ try{
      assert.equal(window.location.hash,'#foundation');
    }
    assert.equal(cityPrep.querySelectorAll('button').length,3);
+   const quickChecks=[...cityPrep.querySelectorAll('details')];
+   assert.deepEqual(quickChecks.map(check=>check.id),[
+     'foundation-prep-quick-process','foundation-prep-quick-style','foundation-prep-quick-label',
+   ]);
+   for(const [index,check] of quickChecks.entries()){
+     assert.equal(check.open,false);
+     await act(async()=>check.querySelector('summary').click());
+     assert.equal(check.open,true);
+     assert.match(check.querySelector('p').textContent,[/在藤上.*采收.*装瓶/,/香气栏.*酸度栏.*酒体栏.*甜度暂留空/,/2022.*13% vol\..*背标/][index]);
+   }
    mock.timers.setTime(Date.parse('2026-10-22T00:00:00Z'));
    await selectPrepCity('深圳');
    assert.match(cityPrep.textContent,/4 周节奏/);
+   assert.equal(cityPrep.querySelectorAll('details').length,0);
    mock.timers.setTime(Date.parse('2026-09-20T00:00:00Z'));
    await selectPrepCity('北京');
    assert.match(cityPrep.textContent,/8 周节奏/);
    mock.timers.setTime(Date.parse('2026-12-02T00:00:00Z'));
    await selectPrepCity('深圳');
    assert.match(cityPrep.textContent,/今天开课/);
+   assert.equal(cityPrep.querySelectorAll('details').length,3);
    mock.timers.setTime(Date.parse('2026-12-05T00:00:00Z'));
    await selectPrepCity('广州');
    assert.match(cityPrep.textContent,/首日面授已过/);
+   assert.equal(cityPrep.querySelectorAll('details').length,0);
    await act(async()=>cityPrep.querySelector('button').click());
    assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
    await selectPrepCity('');

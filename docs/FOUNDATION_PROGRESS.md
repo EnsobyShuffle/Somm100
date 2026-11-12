@@ -1,3 +1,15 @@
+# Foundation · 2026-11-12 · 临近开课三道短自查
+
+基线 `28efc3223db90c53d1b99ad3380432633e8c1c74`，分支 `migration/tencent-somm100`。已核对当前源码、迁移说明、发布检查点及并发分支头。
+
+- **交付**。`app/FoundationPrepByCity.js` 为距离首日不足四周及当天开课的学员提供三道原创短自查，分别核对采收在流程中的位置、风格记录分栏、虚构酒标的产地查证。三题各自展开参考判断，回看按钮定位到现有三个概念，完整 App 和专注页共用。4 周／8 周计划、已过首日的课间入口、浏览器学习记录保持原有行为。
+- **来源**。复核[现行课前框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[课前预习路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)、产品蓝图、已过时 Chapter 00、Guided Learning、D1–D2 清单及 WPS／有道索引。开课日期依据[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)。Notion 与文件搜索未取得第22期分时逐日课表、教学考核分配或原课件。
+- **逐日状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、8 个案例。D4 15 节、45 道自测、9 个案例。D1–D4 对应面授日次待核。D5 五城日期已核，教学与考核分配待核。D6 本期无第六个面授日，2027 年 3 月 14–17 日游学另排。
+- **验证**。93 项回归、三道题独立折叠、三个正文定位、当天及开课前后窗口、本机记录对照与 CloudBase 构建通过。主 App `app-DUVmTImm.js`，专注页 `foundation-BkIMko5V.js`，共享模块 `FoundationPage-CVgXXYSR.js`。
+- **发布断点**。正式课程首页只读复核仍有划词脚本、无杯卖自练直达。两份线上划词资源通过上轮固定校验值，新候选 ZIP 含 458 个公开文件及两页划词接入。保留 `[skip netlify]` 和 `ignore = "exit 0"`。未部署，仍待现有上海 CloudBase `somm100`、`/somm100` 授权发布或 WorkBuddy 回执。线上、手机实机验收待做。教学优先核 D5。
+
+---
+
 # Foundation · 2026-11-12 · 保留正式站划词与杯卖直达
 
 基线 `af6cd3b4339cf000005ded70421645d24ce736a6`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、上轮检查点、来源表与并发分支头。
