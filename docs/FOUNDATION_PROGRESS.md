@@ -1,3 +1,15 @@
+# Foundation · 2026-11-13 · D1 发酵后检测与酒标查证
+
+基线 `fe9c0ff63552fb9fe53cf80614c4f30362d4b55c`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、来源表、上轮检查点及并发分支头。
+
+- **交付**。`app/FoundationD1D2Recaps.js` 在 D1 综合复盘追加两道原创案例。酒窖题对照苹果酸和乳酸的变化，用后续检测核实转化进度。酒标题区分品种与地理标志，按完整产区名查适用规则。新题分别链接 D1 第 8 节和第 9、10 节，可返回原题。既有案例顺序、ID、作答及勾选记录保留。
+- **来源**。依据现有 D1 第 8–10 节，查证[澳大利亚葡萄酒研究所的苹果酸乳酸转化资料](https://www.awri.com.au/wp-content/uploads/2011/06/Malolactic-fermentation.pdf)与[法国原产地与质量管理局的 AOP/AOC 说明](https://www.inao.gouv.fr/aop-appellation-origine-protegee)。本轮还读到[有道迁入的 2024 年 D1–D2 笔记](https://app.notion.com/p/3fb17d16de4c818f8639c5ca169787e7)，其内容是种植酿造、法规酒标和法国的复习页码索引。复核现行框架、Guided Learning、D1–D2 清单及课前路径。[第22期招生正文](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)第 6–7 页能确认五天面授与另排游学。D5 教学考核分配和原课件仍未检出。
+- **逐日状态**。D1 10 节、25 道自测、7 个案例。D2 9 个品种、6 个法国专题、42 道自测、7 个案例。D3 13 节、30 道自测、8 个案例。D4 15 节、45 道自测、11 个案例。D1–D4 对应面授日次待核。D5 五城日期已核，教学与考核待核。D6 无第六天面授，2027 年 3 月 14–17 日游学另排。
+- **验证**。93 项回归、53 节渲染、33 个案例共 59 次正文往返、本机记录保留、CloudBase 构建和两种托管路径入口检查通过。
+- **发布断点**。正式课程首页只读核对仍有划词入口，未检出杯卖自练直达。划词公开资源继续通过固定哈希校验。保留 `[skip netlify]` 与 `ignore = "exit 0"`。未部署或线上实机验收，待现有上海 CloudBase `somm100` 的 `/somm100` 授权通路或 WorkBuddy 回执。教学优先核 D5。
+
+---
+
 # Foundation · 2026-11-13 · D2 雷司令与赤霞珠复盘
 
 基线 `e0461477a190073915e2cf9ac28367e1c1352c61`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、来源映射、上轮检查点及并发分支头。
