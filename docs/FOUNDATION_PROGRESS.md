@@ -1,3 +1,15 @@
+# Foundation · 2026-11-13 · D4 波特与雪莉复盘
+
+基线 `5819a446a64d471a3acf29c52eb6f7e92eb86cb8`，分支 `migration/tencent-somm100`。已核对源码、迁移说明、来源表、上轮检查点及并发分支头。
+
+- **交付**。`app/FoundationD4Recap.js` 追加两道原创模拟案例。波特题用两张 LBV 酒标和过滤资料决定优先检查沉淀的酒瓶。雪莉题区分 Solera 的分级取酒与补充、Amontillado 的两段熟成及 Oloroso 的氧化熟成。两题独立折叠并分别链接第 6、7 节，学完可返回原案例。现有案例顺序和 ID 保留，答题与勾选记录保留。
+- **来源**。对照现有 D4 第 6、7 节及[杜罗和波特酒协会](https://www.ivdp.pt/pt/vinhos/vinhos-do-porto/categorias-especiais/)与[赫雷斯产区委员会](https://www.sherry.wine/news/oloroso-vs-amontillado-whats-the-difference)。复读产品蓝图、过时 Chapter 00、现行框架、Guided Learning、D1–D2 清单、课前路径和 WPS／有道台账。[第22期招生正文](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)第 6–7 页仅能确认五天面授、游学与考核范围。检索仍未取得逐日课表、D5 考核分配或原课件。
+- **逐日状态**。D1 10 节、25 道自测、5 个案例。D2 9 个品种、6 个法国专题、42 道自测、5 个案例。D3 13 节、30 道自测、8 个案例。D4 15 节、45 道自测、11 个案例。D1–D4 对应面授日次待核。D5 五城日期已核，教学和考核分配待核。D6 无第六个面授日，2027 年 3 月 14–17 日游学另排。
+- **验证**。93 项回归，53 节 SSR／DOM 渲染，29 个案例共 54 次复习跳转及返回、本机作答保存、CloudBase 构建和两个托管路径入口通过。主 App `app-g3dlORrA.js`，专注页 `foundation-CxJrpHNN.js`，共享模块 `FoundationPage-YgYlbgfr.js`。
+- **发布断点**。正式课程首页返回现有划词入口，尚未检出杯卖自练直达。候选 ZIP 保留两页的公开划词资源。保留 `[skip netlify]` 和 `ignore = "exit 0"`。未部署、未验收线上和手机实机，待现有上海 CloudBase `somm100`、`/somm100` 的已授权发布通路或 WorkBuddy 回执。教学优先核 D5。
+
+---
+
 # Foundation · 2026-11-12 · 点单变更与交接自练
 
 基线 `95b503e7b948618bf56bec6198de252135dcc77f`，分支 `migration/tencent-somm100`。已核对当前源码、迁移说明、来源表、上轮检查点和并发分支头。
