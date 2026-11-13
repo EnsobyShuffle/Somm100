@@ -208,6 +208,9 @@ try{
    assert.equal(cityPrep.querySelectorAll('details').length,0);
    await act(async()=>cityPrep.querySelector('button').click());
    assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
+   const selectedBridge=document.querySelector('[aria-labelledby="foundation-cohort-bridge-title"]');
+   assert.equal(selectedBridge.querySelector('select').value,'广州');
+   assert.match(selectedBridge.querySelector('[role="status"]').textContent,/广州｜.*12 个完整日历日/);
    await selectPrepCity('');
    assert.equal(cityPrep.querySelector('time'),null);
    assert.deepEqual(Object.entries(window.localStorage),beforeCityPrep);
@@ -624,18 +627,20 @@ try{
  assert.match(compactBridge.textContent,/约两周复习与预习/);
  assert.match(bridgeDay.closest('section').textContent,/21 天自选学习资源/);
  const datesIn=(section, selector)=>[...section.querySelectorAll(selector)].map(time=>time.dateTime);
- for(const [city,firstEnd,secondStart,secondEnd,thirdStart,finalDays] of [
-   ['北京','2026-11-24','2026-12-07','2026-12-08','2027-01-11',33],
-   ['上海','2026-11-27','2026-12-10','2026-12-11','2027-01-12',31],
-   ['成都','2026-11-30','2026-12-13','2026-12-14','2027-01-14',30],
-   ['深圳','2026-12-03','2026-12-16','2026-12-17','2027-01-18',31],
-   ['广州','2026-12-05','2026-12-18','2026-12-19','2027-01-19',30],
+ for(const [city,firstStart,firstEnd,secondStart,secondEnd,thirdStart,finalDays] of [
+   ['北京','2026-11-23','2026-11-24','2026-12-07','2026-12-08','2027-01-11',33],
+   ['上海','2026-11-26','2026-11-27','2026-12-10','2026-12-11','2027-01-12',31],
+   ['成都','2026-11-29','2026-11-30','2026-12-13','2026-12-14','2027-01-14',30],
+   ['深圳','2026-12-02','2026-12-03','2026-12-16','2026-12-17','2027-01-18',31],
+   ['广州','2026-12-04','2026-12-05','2026-12-18','2026-12-19','2027-01-19',30],
  ]){
    const cityButton=[...cohort.querySelectorAll('article button')].find(button=>button.textContent===`查看${city}课间复习`);
    assert(cityButton);
    await act(async()=>cityButton.click());
    assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
    assert.equal(citySelect.value,city);
+   assert.equal(prepCity.value,city);
+   assert.equal(cityPrep.querySelector('time').dateTime,firstStart);
    assert.match(compactBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*12 个完整日历日'));
    assert.deepEqual(datesIn(compactBridge,'[role="status"] time'),[firstEnd,secondStart]);
    assert.match(finalBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*'+finalDays+' 个完整日历日'));
@@ -651,6 +656,7 @@ try{
    citySelect.dispatchEvent(new window.Event('change',{bubbles:true}));
  });
  assert.match(finalBridge.querySelector('[role="status"]').textContent,/深圳｜.*31 个完整日历日/);
+ assert.equal(prepCity.value,'深圳');
  assert.equal(window.localStorage.getItem(FOUNDATION_BRIDGE_KEY),bridgeRecord);
  const compactTargets=['foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-d1-quiz-title','foundation-d2-quiz-title','foundation-d3-title','foundation-d4-title'];
  const compactButtons=[...compactBridge.querySelectorAll('button')];

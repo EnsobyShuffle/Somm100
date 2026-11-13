@@ -42,9 +42,9 @@ export default function FoundationPage({go,initialTarget}:FoundationPageProps){
 }
 
 function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
- const [bridgeCity,setBridgeCity]=useState('');
+ const [cohortCity,setCohortCity]=useState('');
  return (<><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
-<FoundationDirectory/><FoundationCohort onReviewCity={setBridgeCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={bridgeCity} onCityChange={setBridgeCity}/><FoundationStudy/>
+<FoundationDirectory/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/><FoundationStudy cityName={cohortCity} onCityChange={setCohortCity}/>
 <FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
 <section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
  <h2 id="foundation-course-title">进入正式课程之后</h2>

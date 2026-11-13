@@ -1,5 +1,5 @@
 'use client';
-import React, {useState} from 'react';
+import React from 'react';
 import cohort from '../data/foundation-cohort22.json';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import {foundationPrepWindow} from '../lib/foundation-study.mjs';
@@ -29,29 +29,21 @@ const essentials = [
   },
 ];
 
-export default function FoundationPrepByCity() {
-  const [plan, setPlan] = useState(null);
-
-  function selectCity(event) {
-    const city = cohort.cities.find(entry => entry.city === event.target.value);
-    if (!city) {
-      setPlan(null);
-      return;
-    }
-    const firstClass = city.stages[0][0];
-    setPlan({city: city.city, firstClass, ...foundationPrepWindow(firstClass)});
-  }
+export default function FoundationPrepByCity({cityName, onCityChange}) {
+  const city = cohort.cities.find(entry => entry.city === cityName);
+  const firstClass = city?.stages[0][0];
+  const plan = firstClass ? foundationPrepWindow(firstClass) : null;
 
   return h('section', {'aria-labelledby': 'foundation-prep-city-title'},
     h('h3', {id: 'foundation-prep-city-title'}, '按开课城市安排预习'),
     h('div', {className: 'foundation-study-controls'},
       h('label', {htmlFor: 'foundation-prep-city'}, '第22期上课城市',
-        h('select', {id: 'foundation-prep-city', value: plan?.city ?? '', onChange: selectCity},
+        h('select', {id: 'foundation-prep-city', value: cityName, onChange: event => onCityChange(event.target.value)},
           h('option', {value: ''}, '请选择城市'),
           cohort.cities.map(({city}) => h('option', {key: city, value: city}, city))))),
     h('p', {role: 'status'}, plan ?
       h(React.Fragment, null,
-        plan.city, '首日面授为 ', h('time', {dateTime: plan.firstClass}, plan.firstClass), '。 ',
+        cityName, '首日面授为 ', h('time', {dateTime: firstClass}, firstClass), '。 ',
         plan.days < 0 ? '首日面授已过。已开课的学员可从课间复习继续。' :
         plan.days === 0 ? '今天开课。有时间可先做下方短自查。' :
         `按北京时间距开课 ${plan.days} 天。${plan.pace ? `可在下方选用 ${plan.pace} 周节奏。` : '时间不足四周，可以从下方短自查开始。'}`) :
