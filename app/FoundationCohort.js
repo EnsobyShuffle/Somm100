@@ -8,7 +8,7 @@ const h = React.createElement;
 const hasCalendarDownloads = import.meta.env && String(import.meta.env.VITE_SOMM100_LOCAL_ONLY) === 'true';
 const dateLabel = date => date.replaceAll('-', '/');
 const yuan = new Intl.NumberFormat('zh-CN', {style:'currency', currency:'CNY', maximumFractionDigits:0});
-export default function FoundationCohort() {
+export default function FoundationCohort({onReviewCity}) {
   return h('section', {className:'white-panel foundation-study', 'aria-labelledby':'foundation-cohort-title'},
     h('h2', {id:'foundation-cohort-title'}, '第22期｜五城课程安排'),
     h('p', null, '适合准备进入侍酒师行业的学习者，以及希望提升酒水知识和服务能力的餐饮从业者。零基础学员可从课前导学开始。'),
@@ -39,6 +39,14 @@ export default function FoundationCohort() {
           h('span', {className:'foundation-cohort-instructor'}, city.instructor), ' · AS (CMS)'),
         h('p', {className:'fine-print'}, city.bio),
         h('dl', null, stages),
+        h('button', {
+          type:'button',
+          className:'button secondary',
+          onClick:() => {
+            onReviewCity(city.city);
+            focusFoundationTarget('foundation-cohort-bridge-title');
+          },
+        }, '查看' + city.city + '课间复习'),
         hasCalendarDownloads &&
           h('a', {className:'cohort-calendar-link', href:'./' + foundationCalendarFile(data, city), download:true},
             '下载' + city.city + '面授日历（.ics）'));

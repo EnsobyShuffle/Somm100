@@ -631,10 +631,11 @@ try{
    ['深圳','2026-12-03','2026-12-16','2026-12-17','2027-01-18',31],
    ['广州','2026-12-05','2026-12-18','2026-12-19','2027-01-19',30],
  ]){
-   await act(async()=>{
-     citySelect.value=city;
-     citySelect.dispatchEvent(new window.Event('change',{bubbles:true}));
-   });
+   const cityButton=[...cohort.querySelectorAll('article button')].find(button=>button.textContent===`查看${city}课间复习`);
+   assert(cityButton);
+   await act(async()=>cityButton.click());
+   assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
+   assert.equal(citySelect.value,city);
    assert.match(compactBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*12 个完整日历日'));
    assert.deepEqual(datesIn(compactBridge,'[role="status"] time'),[firstEnd,secondStart]);
    assert.match(finalBridge.querySelector('[role="status"]').textContent,new RegExp(city+'｜.*'+finalDays+' 个完整日历日'));
@@ -645,6 +646,12 @@ try{
    }
    assert.equal(bridgeDay.value,'21');
  }
+ await act(async()=>{
+   citySelect.value='深圳';
+   citySelect.dispatchEvent(new window.Event('change',{bubbles:true}));
+ });
+ assert.match(finalBridge.querySelector('[role="status"]').textContent,/深圳｜.*31 个完整日历日/);
+ assert.equal(window.localStorage.getItem(FOUNDATION_BRIDGE_KEY),bridgeRecord);
  const compactTargets=['foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-d1-quiz-title','foundation-d2-quiz-title','foundation-d3-title','foundation-d4-title'];
  const compactButtons=[...compactBridge.querySelectorAll('button')];
  assert.equal(compactButtons.length,compactTargets.length);

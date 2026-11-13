@@ -1,3 +1,14 @@
+# Foundation · 2026-11-13 · 从五城班期直接进入课间复习
+
+基线 `dbe8148ff5109f48a801df0ac113030e370defcb`，分支 `migration/tencent-somm100`。已读当前源码、迁移说明、来源表及上轮检查点，远端未见并发提交。
+
+- **交付**。`app/FoundationCohort.js` 为五城各加课间复习按钮。`app/FoundationPage.tsx` 与 `app/FoundationBridge.js` 共享当前选择，点击后跳到原课间复习标题、预选该城市、同时显示两段日期。复习区仍可手动换城。城市选择仅用于当前页面，原有学习日、勾选、作答和稳定入口 ID 沿用。
+- **来源与逐日状态**。复核产品蓝图、过时 Chapter 00、现行框架、Guided Learning、D1–D2 清单、课前路径及 WPS／有道台账。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五城各五天面授及游学另排。D1 10 节／25 道自测／7 个案例，D2 9 个品种＋6 个法国专题／42 道自测／7 个案例，D3 13 节／30 道自测／10 个案例，D4 15 节／45 道自测／11 个案例。D1–D4 面授主题待核。D5 五城日期已核，逐日授课、考核分配及 WPS／有道原课件未取得。D6 无第六天面授，游学为 2027 年 3 月 14–17 日。
+- **验证**。`scripts/check-foundation-page.mjs` 实测五城按钮的焦点、预选、10 个窗口与手动换城、本机学习记录。93 项回归、53 节渲染、35 个案例 61 次往返、26 次入口检查及 CloudBase 构建通过。候选主 App `app-BZ4m2KNC.js`，专注页 `foundation-DVuXkYT3.js`，共享模块 `FoundationPage-B9IYOJ-v.js`。
+- **发布断点**。11 月 13 日正式站三页哈希与上轮一致。保留 `[skip netlify]` 和 `ignore = "exit 0"`。未部署，待已授权的上海 CloudBase `somm100` 的 `/somm100` 发布通路或 WorkBuddy 回执。收到回执后核三页、划词和手机实机。教学优先核第 5 天。
+
+---
+
 # Foundation · 2026-11-13 · 最后一次面授前复盘
 
 基线 `99a33a83fe918c07777ad0102de5dbe5b37365cd`，分支 `migration/tencent-somm100`。已读当前源码、迁移说明、来源表和上轮检查点，远端未见并发提交。

@@ -101,8 +101,7 @@ function bridgeWindow(cityName, calendar, lastClass, nextClass) {
     '，下一阶段首日 ', h('time', {dateTime:nextClass}, nextClass.replaceAll('-', '/')), '。');
 }
 
-function CohortBridge() {
-  const [cityName, setCityName] = useState('');
+function CohortBridge({cityName, onCityChange}) {
   const city = cohort.cities.find(item => item.city === cityName);
   const firstEnd = city?.stages[0].at(-1);
   const secondStart = city?.stages[1][0];
@@ -116,7 +115,7 @@ function CohortBridge() {
       h('h3', {id:'foundation-cohort-bridge-title'}, '第22期｜课间复习建议'),
       h('p', null, '选上课城市，下方两次课间都会显示可用于复习的完整日期。练习由学习页面建议，面授、考试和作业以课程方通知为准。'),
       h('div', {className:'foundation-study-controls'},
-        h('label', null, '上课城市', h('select', {value:cityName, onChange:event=>setCityName(event.target.value)},
+        h('label', null, '上课城市', h('select', {value:cityName, onChange:event=>onCityChange(event.target.value)},
           h('option', {value:''}, '请选择城市'),
           cohort.cities.map(item=>h('option', {key:item.city, value:item.city}, item.city))))),
       h('h4', null, '第一阶段后｜约两周复习与预习'),
@@ -137,7 +136,7 @@ function CohortBridge() {
         h('p', {className:'fine-print'}, '这一页是自选复盘。当天教学安排、考核时间及作业提交要求以课程方通知为准。'))));
 }
 
-export default function FoundationBridge() {
+export default function FoundationBridge({cityName, onCityChange}) {
   const [progress, setProgress] = useState(emptyD2Progress);
   const [loaded, setLoaded] = useState(false);
   const [canSave, setCanSave] = useState(false);
@@ -163,7 +162,7 @@ export default function FoundationBridge() {
 
   return h('section', {className: 'white-panel foundation-study', 'aria-labelledby': 'foundation-bridge-title'},
     h('h2', {id: 'foundation-bridge-title'}, '课堂间学习路径'),
-    h(CohortBridge),
+    h(CohortBridge, {cityName, onCityChange}),
     h('h3', null, '21 天自选学习资源'),
     h('p', null, '从 D1 复习开始，经 D2 与法国专题过渡到下一阶段预习。第22期的复习日期请看上方城市安排，这 21 天资源可按需选读。'),
     h('div', {className: 'foundation-study-controls'},
