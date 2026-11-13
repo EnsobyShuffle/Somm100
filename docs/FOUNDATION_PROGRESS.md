@@ -1,3 +1,14 @@
+# Foundation · 2026-11-13 · 最后一次面授前复盘
+
+基线 `99a33a83fe918c07777ad0102de5dbe5b37365cd`，分支 `migration/tencent-somm100`。已读当前源码、迁移说明、来源表和上轮检查点，远端未见并发提交。
+
+- **交付**。`app/FoundationBridge.js` 在「第二阶段后｜综合复盘」加入可折叠的最后一次面授前自选练习，按知识、服务、酒单三条记录整理一页笔记。复用五城课间日期和现有自练，不写入本机记录。稳定入口为 `foundation-final-class-prep-title`。
+- **来源与逐日状态**。复核产品蓝图、过时 Chapter 00、现行课前框架、Guided Learning、D1–D2 提要、课前路径、WPS／有道台账。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五城五天面授及知识、服务和团队酒单的考核范围。本轮练习为原创自选复盘。D1 10 节、25 道自测、7 个案例。D2 9 个品种、6 个法国专题、42 道自测、7 个案例。D3 13 节、30 道自测、10 个案例。D4 15 节、45 道自测、11 个案例。D1–D4 与本期面授日次的主题对应待核。D5 五城日期已核，逐日授课、考核分配和 WPS／有道原课件仍待取得。D6 无第六个面授日，2027 年 3 月 14–17 日游学另排。
+- **验证**。93 项回归、53 节渲染、35 个案例共 61 次正文往返、五城 10 个课间窗口、三条复盘的折叠、26 次入口定位、本机记录及 CloudBase 构建通过。候选主 App `app-Ldq24Rji.js`，专注页 `foundation-FrUeXUPt.js`，共享模块 `FoundationPage-Cb4Uvawk.js`。
+- **发布断点**。11 月 13 日重新读取正式站三个入口，三页哈希与上轮一致，主 App 仍为 `app-C7ABxmed.js`。保留 `[skip netlify]` 与 `ignore = "exit 0"`。本轮未部署，待现有上海 CloudBase `somm100` 的 `/somm100` 授权发布通路或 WorkBuddy 回执。收到回执后复核正式站版本、两页划词和手机实机。
+
+---
+
 # Foundation · 2026-11-13 · 正式站差异盘点与两个自练入口
 
 基线 `96a222c85295e6cf47642c3ced3e135689072f92`，分支 `migration/tencent-somm100`。核对源码、迁移说明、现行课前来源表、上轮检查点和并发分支头。

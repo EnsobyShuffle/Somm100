@@ -611,6 +611,11 @@ try{
  const finalBridge=document.querySelector('[aria-labelledby="foundation-cohort-final-bridge-title"]');
  const citySelect=compactBridge.querySelector('select');
  const bridgeDay=document.getElementById('foundation-bridge-day');
+ const finalClassPrep=finalBridge.querySelector('#foundation-final-class-prep');
+ assert.equal(finalClassPrep.querySelector('summary').id,'foundation-final-class-prep-title');
+ assert(!finalClassPrep.open);
+ assert.equal(finalClassPrep.querySelectorAll('ol > li').length,3);
+ assert.match(finalClassPrep.textContent,/自选复盘.*考核时间.*课程方通知/s);
  assert.equal(bridgeDay.options.length,21);
  assert.equal(bridgeDay.value,'21');
  assert.equal(compactBridge.querySelectorAll('time').length,0);
@@ -655,6 +660,8 @@ try{
    assert.equal(document.activeElement.id,finalTargets[i]);
  }
  assert(pourCases.every(item=>item.open && item.querySelector('details').open));
+ await act(async()=>finalClassPrep.querySelector('summary').click());
+ assert(finalClassPrep.open);
  assert.equal(window.location.hash,'#foundation');
  assert.equal(window.localStorage.getItem(FOUNDATION_BRIDGE_KEY),bridgeRecord);
  assert(document.getElementById('foundation-backup'));

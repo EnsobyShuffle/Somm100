@@ -126,7 +126,15 @@ function CohortBridge() {
       h('h4', {id:'foundation-cohort-final-bridge-title'}, '第二阶段后｜综合复盘'),
       h('p', null, '从第二阶段末日之后到第三阶段开始前，按自己的进度复盘葡萄酒知识和餐厅情境。'),
       finalCalendar && bridgeWindow(cityName, finalCalendar, secondEnd, thirdStart),
-      bridgeBlocks(finalReviewBlocks, finalCalendar)));
+      bridgeBlocks(finalReviewBlocks, finalCalendar),
+      h('details', {id:'foundation-final-class-prep', className:'foundation-week'},
+        h('summary', {id:'foundation-final-class-prep-title'}, '最后一次面授前｜整理三条复盘记录'),
+        h('p', null, '从已经完成的自练各选一项，写成一页笔记，带到最后一次面授和同伴核对。'),
+        h('ol', null,
+          h('li', null, '知识：写下一个原判断、支持它的观察，以及还需要查的一份酒标或酒款资料。'),
+          h('li', null, '服务：记下客人的原要求、你会复述确认的一句话，以及需要交接给同事的一项信息。'),
+          h('li', null, '酒单：从杯卖或主酒单草案挑一条，记录选酒理由、待核实的字段及负责查证的组员。')),
+        h('p', {className:'fine-print'}, '这一页是自选复盘。当天教学安排、考核时间及作业提交要求以课程方通知为准。'))));
 }
 
 export default function FoundationBridge() {
