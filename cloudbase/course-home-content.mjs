@@ -30,12 +30,14 @@ export function renderCourseHome(html, cohort, concepts) {
     <a href="${escapeHtml(cohort.sourceUrl)}" target="_blank" rel="noopener noreferrer">招生原文 ↗</a>`;
 
   const readingGroups = concepts.filter(({articles}) => articles.length > 0)
-    .map(({title, intro, articles}) => {
+    .map(({id, title, intro, articles}) => {
       const entries = articles.map(({title, whyRead, url}) =>
         `<li><strong>${escapeHtml(title)}</strong><p>${escapeHtml(whyRead)}</p>
           <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">打开《${escapeHtml(title)}》公众号原文 ↗</a></li>`).join('\n');
       return `<details class="reading-group"><summary>${escapeHtml(title)} · ${articles.length} 篇</summary>
-        <p>${escapeHtml(intro)}</p><ul>${entries}</ul></details>`;
+        <p>${escapeHtml(intro)}</p>
+        <a class="reading-concept-link" href="./foundation.html#${escapeHtml(id)}">阅读站内概念与口头自查</a>
+        <ul>${entries}</ul></details>`;
     }).join('\n');
 
   return html.replace('<!-- course-home-cohort -->', () => cohortPreview)

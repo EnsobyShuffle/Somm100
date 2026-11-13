@@ -79,6 +79,10 @@ try{
        assert.equal(group.open,false);
        summary.click();
        assert.equal(group.open,true);
+       const conceptLink=group.querySelector('a.reading-concept-link');
+       assert.equal(conceptLink.getAttribute('href'),`./foundation.html#${concept.id}`);
+       assert.equal(conceptLink.textContent,'阅读站内概念与口头自查');
+       assert.equal(conceptLink.target,'');
        const entries=[...group.querySelectorAll('li')].map(item=>({
          title:item.querySelector('strong').textContent,
          whyRead:item.querySelector('p').textContent,
@@ -86,10 +90,11 @@ try{
        }));
        assert.deepEqual(entries,concept.articles);
      });
-     assert.equal(home.querySelectorAll('.reading-group a').length,17);
-     assert([...home.querySelectorAll('.reading-group a')].every(link=>new URL(link.href).origin==='https://mp.weixin.qq.com'));
+     const articleLinks=[...home.querySelectorAll('.reading-group ul a')];
+     assert.equal(articleLinks.length,17);
+     assert(articleLinks.every(link=>new URL(link.href).origin==='https://mp.weixin.qq.com'));
      const links=[...home.querySelectorAll('a[href^="./foundation.html#"]')];
-     assert.equal(links.length,14);
+     assert.equal(links.length,14+readingConcepts.length);
      for (const id of ['foundation-sparkling-assessment-title', 'foundation-assessment-recommendation-title', 'foundation-assessment-team-pours-title']) {
        assert(links.some(link => link.hash === `#${id}`), `Missing course home practice link: ${id}`);
      }
@@ -102,6 +107,16 @@ try{
        const id=targetUrl.hash.slice(1);
        assert.equal(document.activeElement.id,id);
        assert.equal(scrolledTo,id);
+       if (link.classList.contains('reading-concept-link')) {
+         const concept=readingConcepts.find(item=>item.id===id);
+         const section=document.getElementById(id);
+         assert.equal(section.querySelector('h2').textContent,concept.title);
+         assert(section.textContent.includes(concept.question));
+         const answer=[...section.querySelectorAll('details')].find(item=>item.querySelector('summary')?.textContent==='查看参考答案');
+         assert.equal(answer.open,false);
+         await act(async()=>answer.querySelector('summary').click());
+         assert(answer.textContent.includes(concept.answer));
+       }
        if (id==='foundation-assessment-main-list-audit-title') {
          assert(document.getElementById('foundation-assessment-team').open);
          assert(document.getElementById('foundation-assessment-main-list-audit').open);

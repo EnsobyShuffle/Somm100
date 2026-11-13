@@ -61,10 +61,15 @@ for (const city of cohort.cities) {
   ids.forEach(id => calendarIds.add(id));
 }
 assert.equal(calendarIds.size, 25, 'Calendars must contain 25 unique events');
-const courseHomeTargets = courseHomeRefs.filter(ref => ref.startsWith('./foundation.html#'))
-  .map(ref => ref.split('#')[1]);
+const courseHomeShortcuts = [...courseHome.matchAll(/<a\b([^>]*?)href="\.\/foundation\.html#([^"]+)"/g)];
+const courseHomeTargets = courseHomeShortcuts.map(([, , target]) => target);
 assert(courseHomeTargets.length >= 10, 'Missing course home shortcuts');
-assert.equal(new Set(courseHomeTargets).size, courseHomeTargets.length, 'Repeated course home shortcuts');
+const readingTargets = courseHomeShortcuts.filter(([, attrs]) => attrs.includes('class="reading-concept-link"'))
+  .map(([, , target]) => target);
+const cardTargets = courseHomeShortcuts.filter(([, attrs]) => !attrs.includes('class="reading-concept-link"'))
+  .map(([, , target]) => target);
+assert.equal(new Set(readingTargets).size, readingTargets.length, 'Repeated concept in reading groups');
+assert.equal(new Set(cardTargets).size, cardTargets.length, 'Repeated course home cards');
 
 const manifest = JSON.parse(readFileSync(join(root, 'manifest.webmanifest'),'utf8'));
 assert.equal(manifest.scope, './'); assert.equal(manifest.start_url, './');
