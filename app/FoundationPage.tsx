@@ -27,7 +27,12 @@ type RestoreResult = {written:number;skipped:number};
 
 export default function FoundationPage({go,initialTarget}:FoundationPageProps){
  useEffect(()=>{
-  if(initialTarget?.startsWith('foundation-'))focusFoundationTarget(initialTarget);
+  if(!initialTarget?.startsWith('foundation-'))return;
+  const target=document.getElementById(initialTarget);
+  for(let details=target?.closest('details');details;details=details.parentElement?.closest('details')){
+   details.open=true;
+  }
+  focusFoundationTarget(initialTarget);
  },[initialTarget]);
  const [restore,setRestore]=useState({revision:0,message:''});
  useEffect(()=>{
@@ -186,7 +191,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
    </details>
   </div>
   <details id="foundation-assessment-main-list-audit">
-   <summary>主酒单复核｜40 行里还有几款待处理？</summary>
+   <summary id="foundation-assessment-main-list-audit-title">主酒单复核｜40 行里还有几款待处理？</summary>
    <p>一份虚构的主酒单草案有 40 行。前 36 行各对应一款已确认可售的酒，与后 4 行均不重复。其余记录如下：</p>
    <ul>
     <li>第 37 行：青丘酒庄「山脊」红葡萄酒 2021，酒标和库存均已核对。</li>

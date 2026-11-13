@@ -88,7 +88,7 @@ try{
      });
      assert.equal(home.querySelectorAll('.reading-group a').length,17);
      const links=[...home.querySelectorAll('a[href^="./foundation.html#"]')];
-     assert.equal(links.length,13);
+     assert.equal(links.length,14);
      for (const id of ['foundation-sparkling-assessment-title', 'foundation-assessment-recommendation-title', 'foundation-assessment-team-pours-title']) {
        assert(links.some(link => link.hash === `#${id}`), `Missing course home practice link: ${id}`);
      }
@@ -101,6 +101,11 @@ try{
        const id=targetUrl.hash.slice(1);
        assert.equal(document.activeElement.id,id);
        assert.equal(scrolledTo,id);
+       if (id==='foundation-assessment-main-list-audit-title') {
+         assert(document.getElementById('foundation-assessment-team').open);
+         assert(document.getElementById('foundation-assessment-main-list-audit').open);
+         assert(!document.getElementById('foundation-assessment-main-list-audit-answer').open);
+       }
        assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),saved);
        shortcutCount++;
      }

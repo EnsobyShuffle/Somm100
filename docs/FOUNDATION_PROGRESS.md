@@ -1,3 +1,14 @@
+# Foundation · 2026-11-13 · 主酒单复核直达
+
+基线 `7bc132d8808f2c6a990756fe5cc35e518bd5dcd0`，分支 `migration/tencent-somm100`。已读源码、迁移说明、来源表与上轮检查点，远端未见并发提交。
+
+- **交付**。`cloudbase/course.html` 在学习入口新增主酒单复核直达。打开专注页时，`app/FoundationPage.tsx` 先展开目标所在的折叠层，再定位到原有练习的新标题 ID。两层题面自动展开，参考答案仍折叠。沿用既有练习、记录和其他入口。
+- **来源与逐日状态**。复核产品蓝图、过时 Chapter 00、现行框架、Guided Learning、D1–D2 清单、课前路径及 WPS／有道台账。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五城各五天面授及 40 款主酒单任务。D1 10 节／25 道自测／7 个案例。D2 9 个品种＋6 个法国专题／42 道自测／7 个案例。D3 13 节／30 道自测／10 个案例。D4 15 节／45 道自测／11 个案例。D1–D4 面授主题待核。D5 五城日期已核，分时课表、考核分配和原课件待取得。D6 无第六天面授，2027 年 3 月 14–17 日游学另排。
+- **验证**。`scripts/check-foundation-focus.mjs` 验证根路径与 `/somm100/` 共 28 次入口定位、两层折叠、答案闭合及本机作答保留。93 项回归、整页 DOM 及 CloudBase 构建通过。候选主 App `app-Bm9iFZ5y.js`，专注页 `foundation-X2StZqwS.js`，共享模块 `FoundationPage-BSmTedQV.js`。
+- **发布断点**。11 月 13 日正式站三个入口的文件哈希与上轮一致。保留 `[skip netlify]` 与 `ignore = "exit 0"`。未部署，待上海 CloudBase `somm100` 的 `/somm100` 已授权发布通路或 WorkBuddy 回执。届时核对正式站入口、划词和手机实机。教学优先核 D5。
+
+---
+
 # Foundation · 2026-11-13 · 40 款主酒单复核练习
 
 基线 `6a035ff39c2b68a8e543a2e3a8a24c2790da5ff8`，分支 `migration/tencent-somm100`。已读源码、迁移说明、来源表与上轮检查点，远端未见并发提交。
