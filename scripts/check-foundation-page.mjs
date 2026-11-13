@@ -27,7 +27,8 @@ try{
  const chapters=[...document.querySelectorAll('.foundation-chapter')];
  assert.deepEqual(chapters.map(x=>x.id),Array.from({length:8},(_,i)=>'foundation-'+i));
  const links=chapters.flatMap(x=>[...x.querySelectorAll('a')]);
- assert.equal(links.length,17);assert(links.every(x=>new URL(x.href).hostname==='mp.weixin.qq.com'));
+ assert.equal(links.length,17);
+ assert(links.every(link=>new URL(link.href).origin==='https://mp.weixin.qq.com'));
  assert.deepEqual(links.map(link=>[link.textContent,link.getAttribute('href'),link.nextElementSibling.textContent]),
    sourceMap.articles.map(({title,url,whyRead})=>[`${title} ↗`,url,`为什么看：${whyRead}`]));
  assert(links.every(link=>link.target==='_blank'&&link.relList.contains('noopener')));

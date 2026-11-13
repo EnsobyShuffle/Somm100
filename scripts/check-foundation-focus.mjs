@@ -87,6 +87,7 @@ try{
        assert.deepEqual(entries,concept.articles);
      });
      assert.equal(home.querySelectorAll('.reading-group a').length,17);
+     assert([...home.querySelectorAll('.reading-group a')].every(link=>new URL(link.href).origin==='https://mp.weixin.qq.com'));
      const links=[...home.querySelectorAll('a[href^="./foundation.html#"]')];
      assert.equal(links.length,14);
      for (const id of ['foundation-sparkling-assessment-title', 'foundation-assessment-recommendation-title', 'foundation-assessment-team-pours-title']) {

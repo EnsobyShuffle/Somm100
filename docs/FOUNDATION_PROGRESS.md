@@ -1,3 +1,14 @@
+# Foundation · 2026-11-14 · 公众号导读链接改用 HTTPS
+
+基线 `b9fc5e55ff937b3b846e98c08d1bc3d0984aaf8d`，分支 `migration/tencent-somm100`。已读源码、迁移说明、来源表和上轮检查点，远端未见并发提交。
+
+- **交付**。`data/foundation-concepts.json` 和 `data/foundation-source-map.json` 中对应的 10 条旧公众号链接改用 HTTPS，原地址的域名、路径、参数和片段保留。学生继续按概念、文章标题及阅读理由打开原文，课程首页和 App 共用相同导读。复核现行课前框架、Guided Learning、旧 Chapter 00 的停用标记及 D1–D2 知识清单。
+- **可访问性**。11 月 14 日逐条请求全部 17 条 HTTPS 原文，均返回 HTTP 200，但正文是执行环境的 `Site Unavailable / Unable to access this site`，未读到文章。保留来源表里的待验证状态，未认定文章失效。整页和专注入口测试验证 17 个原文入口都使用 HTTPS、标题和导读保留。
+- **逐日状态**。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五城各五天面授。D1 10 节／25 道自测／7 个案例。D2 9 个品种＋6 个法国专题／42 道自测／7 个案例。D3 13 节／30 道自测／10 个案例。D4 15 节／45 道自测／13 个案例。D1–D4 与面授对应待核。D5 日期已核，仍缺确认版逐日课表、考核分配及 WPS／有道原课件。D6 无第六天面授，2027 年 3 月 14–17 日游学另排。
+- **验证与发布**。93 项回归、整页 DOM、两种路径 28 次入口定位和 CloudBase 构建通过。候选专注页 `foundation-C6U4-Jpo.js`、共享模块 `FoundationPage-BMA-vSoo.js`。正式站三页文件哈希与上轮一致，未部署。保留 `[skip netlify]` 和 `ignore = "exit 0"`。待上海 CloudBase `somm100` 的 `/somm100` 授权发布通路或 WorkBuddy 回执，再验证正式站、手机及微信内文章正文。
+
+---
+
 # Foundation · 2026-11-14 · 马德拉与加拿大冰酒复盘
 
 基线 `13d2949ef6c6a1732bd0cd5f50cb0480e8c9f0b4`，分支 `migration/tencent-somm100`。已读源码、迁移说明、来源表与上轮检查点。
