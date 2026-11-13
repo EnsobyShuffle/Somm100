@@ -57,7 +57,7 @@ const expectedDiagramExercises = new Set([
 const container = document.getElementById('root');
 const results = [];
 const diagnostics = [];
-const recapCounts = {d1:7, d2:7, d3:10, d4:11};
+const recapCounts = {d1:7, d2:7, d3:10, d4:13};
 let recapReturnCasesVerified = 0;
 let recapReturnJumpsVerified = 0;
 const originalError = console.error;
@@ -332,7 +332,7 @@ try {
     assert.equal(window.localStorage.getItem(reviewKey), beforeRecap);
     await clickButton(recap, new RegExp(`回看第 ${otherUnit} 节`));
     assert.equal(document.activeElement.id, `${prefix}-${String(otherUnit).padStart(2, '0')}`);
-    const newReviewUnits = {D1:[[2,4],[5,3],[8],[9,10]], D2:[[8,1],[9,7],[4],[6]], D3:[[6,7],[11,12],[3,5],[4,3],[10],[12]], D4:[[9,11],[9,12],[2,3],[9,10],[6],[7]]}[day];
+    const newReviewUnits = {D1:[[2,4],[5,3],[8],[9,10]], D2:[[8,1],[9,7],[4],[6]], D3:[[6,7],[11,12],[3,5],[4,3],[10],[12]], D4:[[9,11],[9,12],[2,3],[9,10],[6],[7],[8],[10]]}[day];
     if (newReviewUnits) {
       const cases = [...recap.querySelectorAll(':scope > ol > li')];
       assert.equal(cases.length, recapCounts[day.toLowerCase()]);

@@ -1,3 +1,14 @@
+# Foundation · 2026-11-14 · 马德拉与加拿大冰酒复盘
+
+基线 `13d2949ef6c6a1732bd0cd5f50cb0480e8c9f0b4`，分支 `migration/tencent-somm100`。已读源码、迁移说明、来源表与上轮检查点。
+
+- **交付**。`app/FoundationD4Recap.js` 追加两道原创案例。学员用模拟酒窖记录区分马德拉的两种熟成工艺，并判断加拿大冰酒葡萄的冻结发生在哪里。分别链接 D4 第 8、10 节并可返回原题。既有案例 ID 和本机记录保留。
+- **来源**。现有 D4 第 8、10 节及[马德拉官方酿造与熟成说明](https://vinhomadeira.com/o-vinho-madeira/vinificacao-e-envelhecimento)、[加拿大食品检验局冰酒标准](https://inspection.canada.ca/en/about-cfia/acts-and-regulations/list-acts-and-regulations/documents-incorporated-reference/canadian-standards-identity-volume-8)。复核产品蓝图、旧 Chapter 00、现行框架、Guided Learning、D1–D2 清单及课前路径。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五天面授和另排游学。D1 10 节／25 道自测／7 个案例。D2 9 个品种＋6 个法国专题／42 道自测／7 个案例。D3 13 节／30 道自测／10 个案例。D4 15 节／45 道自测／13 个案例。D1–D4 面授主题待核。D5 五城日期已核，仍缺教学与考核分配及 WPS／有道原课件。D6 无第六天面授，2027 年 3 月 14–17 日游学另排。
+- **验证**。93 项回归、53 节渲染、37 个案例及 63 次正文往返、两种托管路径共 28 次入口定位、本机记录及 CloudBase 构建通过。专注页 `foundation-B3cfV-rH.js`，共享模块 `FoundationPage-C4yPojRO.js`。
+- **发布断点**。11 月 14 日正式站三个入口的文件哈希与上轮一致。保留 `[skip netlify]` 与 `ignore = "exit 0"`。未部署，待上海 CloudBase `somm100` 的 `/somm100` 已授权发布通路或 WorkBuddy 回执。届时核对正式站入口、划词和手机实机。教学优先核 D5。
+
+---
+
 # Foundation · 2026-11-13 · 主酒单复核直达
 
 基线 `7bc132d8808f2c6a990756fe5cc35e518bd5dcd0`，分支 `migration/tencent-somm100`。已读源码、迁移说明、来源表与上轮检查点，远端未见并发提交。
