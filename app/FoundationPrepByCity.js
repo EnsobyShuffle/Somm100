@@ -32,7 +32,33 @@ const essentials = [
 export default function FoundationPrepByCity({cityName, onCityChange}) {
   const city = cohort.cities.find(entry => entry.city === cityName);
   const firstClass = city?.stages[0][0];
-  const plan = firstClass ? foundationPrepWindow(firstClass) : null;
+  const now = new Date();
+  const plan = firstClass ? foundationPrepWindow(firstClass, now) : null;
+  let followUp;
+  if (plan?.days < 0) {
+    const finalClass = city.stages.at(-1).at(-1);
+    const secondStageEnd = city.stages[1].at(-1);
+    const daysToFinalClass = foundationPrepWindow(finalClass, now).days;
+    if (daysToFinalClass < 0) {
+      followUp = {
+        message: '本城公布的面授日期已过。可继续按主题复习。',
+        target: 'foundation-assessment-title',
+        label: '查看考核范围与复习索引',
+      };
+    } else if (foundationPrepWindow(secondStageEnd, now).days < 0) {
+      followUp = {
+        message: daysToFinalClass === 0 ? '今天是本城最后一次面授。' : '本城第二阶段的面授日期已过，可做综合复盘。',
+        target: 'foundation-cohort-final-bridge-title',
+        label: '查看第二阶段后综合复盘',
+      };
+    } else {
+      followUp = {
+        message: '首日面授已过。已开课的学员可从课间复习继续。',
+        target: 'foundation-cohort-bridge-title',
+        label: '查看第22期课间复习',
+      };
+    }
+  }
 
   return h('section', {'aria-labelledby': 'foundation-prep-city-title'},
     h('h3', {id: 'foundation-prep-city-title'}, '按开课城市安排预习'),
@@ -44,7 +70,7 @@ export default function FoundationPrepByCity({cityName, onCityChange}) {
     h('p', {role: 'status'}, plan ?
       h(React.Fragment, null,
         cityName, '首日面授为 ', h('time', {dateTime: firstClass}, firstClass), '。 ',
-        plan.days < 0 ? '首日面授已过。已开课的学员可从课间复习继续。' :
+        followUp ? followUp.message :
         plan.days === 0 ? '今天开课。有时间可先做下方短自查。' :
         `按北京时间距开课 ${plan.days} 天。${plan.pace ? `可在下方选用 ${plan.pace} 周节奏。` : '时间不足四周，可以从下方短自查开始。'}`) :
       '选择城市后查看首日面授日期和建议。'),
@@ -56,6 +82,6 @@ export default function FoundationPrepByCity({cityName, onCityChange}) {
           h('p', null, prompt),
           h('details', {id}, h('summary', null, '展开参考判断'), h('p', null, answer)),
           h('button', {type: 'button', className: 'button secondary', onClick: () => focusFoundationTarget(target)}, `回看｜${title}`))))) :
-      plan && plan.days < 0 ? h('button', {type: 'button', className: 'button secondary', onClick: () => focusFoundationTarget('foundation-cohort-bridge-title')}, '查看第22期课间复习') : null,
+      followUp && h('button', {type: 'button', className: 'button secondary', onClick: () => focusFoundationTarget(followUp.target)}, followUp.label),
     h('p', {className: 'fine-print'}, '日期来自第22期招生资料。查看建议不会调整你的预习节奏、当前周或答题记录。'));
 }

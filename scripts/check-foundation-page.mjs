@@ -211,6 +211,21 @@ try{
    const selectedBridge=document.querySelector('[aria-labelledby="foundation-cohort-bridge-title"]');
    assert.equal(selectedBridge.querySelector('select').value,'广州');
    assert.match(selectedBridge.querySelector('[role="status"]').textContent,/广州｜.*12 个完整日历日/);
+   for (const [now, message, target] of [
+     ['2026-12-19T15:59:00Z', /首日面授已过/, 'foundation-cohort-bridge-title'],
+     ['2026-12-19T16:00:00Z', /第二阶段的面授日期已过/, 'foundation-cohort-final-bridge-title'],
+     ['2027-01-19T15:59:00Z', /今天是本城最后一次面授/, 'foundation-cohort-final-bridge-title'],
+     ['2027-01-19T16:00:00Z', /公布的面授日期已过/, 'foundation-assessment-title'],
+   ]) {
+     mock.timers.setTime(Date.parse(now));
+     await selectPrepCity('');
+     await selectPrepCity('广州');
+     assert.match(cityPrep.querySelector('[role="status"]').textContent,message);
+     assert.equal(cityPrep.querySelectorAll('details').length,0);
+     await act(async()=>cityPrep.querySelector('button').click());
+     assert.equal(document.activeElement.id,target);
+     assert.equal(selectedBridge.querySelector('select').value,'广州');
+   }
    await selectPrepCity('');
    assert.equal(cityPrep.querySelector('time'),null);
    assert.deepEqual(Object.entries(window.localStorage),beforeCityPrep);
