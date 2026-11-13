@@ -133,6 +133,20 @@ function CohortBridge({cityName, onCityChange}) {
           h('li', null, '知识：写下一个原判断、支持它的观察，以及还需要查的一份酒标或酒款资料。'),
           h('li', null, '服务：记下客人的原要求、你会复述确认的一句话，以及需要交接给同事的一项信息。'),
           h('li', null, '酒单：从杯卖或主酒单草案挑一条，记录选酒理由、待核实的字段及负责查证的组员。')),
+        h('div', {className:'button-row'}, [
+          {headingId:'foundation-sparkling-assessment-title', label:'回看起泡酒综合自练'},
+          {headingId:'foundation-assessment-recommendation-title', label:'回看点单变更自练'},
+          {headingId:'foundation-assessment-team-pours-title', label:'回看杯卖库存自练'},
+        ].map(targetButton)),
+        h('details', null,
+          h('summary', null, '看一份三条笔记示例'),
+          h('dl', null,
+            h('dt', null, '知识'),
+            h('dd', null, '我闻到了烤面包香，推测可能有酒泥接触。下一步查酒款技术表，分别核对酒泥接触时长和二次发酵容器。'),
+            h('dt', null, '服务'),
+            h('dd', null, '客人把两杯干白改成一杯干白加一份气泡水。我复述新订单、确认价格，再告诉同事哪一杯干白已取消。'),
+            h('dt', null, '酒单'),
+            h('dd', null, '这款起泡酒暂列杯卖，供客人餐前选择。请负责盘点的组员复核扣除预留后还能接几杯，再更新可售数。'))),
         h('p', {className:'fine-print'}, '这一页是自选复盘。当天教学安排、考核时间及作业提交要求以课程方通知为准。'))));
 }
 

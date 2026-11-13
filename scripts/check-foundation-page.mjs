@@ -666,7 +666,7 @@ try{
    assert.equal(document.activeElement.id,compactTargets[i]);
  }
  const finalTargets=['foundation-d3-title','foundation-d4-title','foundation-d3-quiz-title','foundation-d4-quiz-title','foundation-assessment-title','foundation-assessment-practice-title','foundation-sparkling-assessment-title','foundation-assessment-team-pours-title'];
- const finalButtons=[...finalBridge.querySelectorAll('button')];
+ const finalButtons=[...finalBridge.querySelectorAll('article button')];
  assert.equal(finalButtons.length,finalTargets.length);
  for(const [i,button] of finalButtons.entries()){
    await act(async()=>button.click());
@@ -675,6 +675,21 @@ try{
  assert(pourCases.every(item=>item.open && item.querySelector('details').open));
  await act(async()=>finalClassPrep.querySelector('summary').click());
  assert(finalClassPrep.open);
+ const sample=finalClassPrep.querySelector('details');
+ assert(!sample.open);
+ await act(async()=>sample.querySelector('summary').click());
+ assert(sample.open);
+ assert.deepEqual([...sample.querySelectorAll('dt')].map(item=>item.textContent),['知识','服务','酒单']);
+ const noteTargets=['foundation-sparkling-assessment-title','foundation-assessment-recommendation-title','foundation-assessment-team-pours-title'];
+ const noteLinks=[...finalClassPrep.querySelectorAll('button')];
+ assert.equal(noteLinks.length,noteTargets.length);
+ const noteRecords=Object.entries(window.localStorage);
+ for(const [index,button] of noteLinks.entries()){
+   await act(async()=>button.click());
+   assert.equal(document.activeElement.id,noteTargets[index]);
+   assert(finalClassPrep.open && sample.open);
+ }
+ assert.deepEqual(Object.entries(window.localStorage),noteRecords);
  assert.equal(window.location.hash,'#foundation');
  assert.equal(window.localStorage.getItem(FOUNDATION_BRIDGE_KEY),bridgeRecord);
  assert(document.getElementById('foundation-backup'));

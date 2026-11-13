@@ -1,3 +1,14 @@
+# Foundation · 2026-11-13 · 最后一次面授前的复盘示例
+
+基线 `63514fd2285744304bc1542258645c75f2fe6c78`，分支 `migration/tencent-somm100`。已读源码、迁移说明、来源表与上轮检查点，远端未见并发提交。
+
+- **交付**。`app/FoundationBridge.js` 在末次面授前自选复盘加入可折叠的知识、服务与酒单笔记示例，并连到已有起泡酒综合、点单变更和杯卖库存练习。沿用稳定入口和现有记录。`scripts/check-foundation-page.mjs` 验证示例独立折叠、三个入口焦点及展开状态和本机记录保留。
+- **来源与逐日状态**。已复核产品蓝图、过时 Chapter 00、现行框架、Guided Learning、D1–D2 清单、课前路径及 WPS／有道台账。原创示例取自站内模拟练习，范围对照[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)。D1 10 节、25 道自测、7 个案例。D2 9 个品种、6 个法国专题、42 道自测、7 个案例。D3 13 节、30 道自测、10 个案例。D4 15 节、45 道自测、11 个案例。D1–D4 面授主题待核。D5 五城日期已核，分时课表、考核分配及原课件待取得。D6 无第六天面授，2027 年 3 月 14–17 日游学另排。
+- **验证**。93 项回归、53 节渲染、35 个案例及 61 次正文往返、26 次入口定位、三个复盘跳转及 CloudBase 构建通过。主 App `app-CroKB-gf.js`，专注页 `foundation-Dh6c-qX3.js`，共享模块 `FoundationPage-Cpl7Fnn4.js`。
+- **发布断点**。11 月 13 日直接读取正式站三个页面，哈希与上轮一致。保留 `[skip netlify]` 与 `ignore = "exit 0"`。未部署，待已授权的上海 CloudBase `somm100` 的 `/somm100` 发布通路或 WorkBuddy 回执。随后核对正式站三入口和手机实机。教学优先核 D5。
+
+---
+
 # Foundation · 2026-11-13 · 课前与课间共用上课城市
 
 基线 `b589bbe53be4c1f38bb516bfab356870e1246254`，分支 `migration/tencent-somm100`。已读源码、迁移说明、来源表与上轮检查点，远端未见并发提交。
