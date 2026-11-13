@@ -463,7 +463,10 @@ try{
  const audit=team.querySelector('#foundation-assessment-team-audit');
  const auditAnswer=audit.querySelector('details');
  assert(!team.open && !auditAnswer.open);
- await act(async()=>team.querySelector('summary').click());
+ const teamLink=assessment.querySelector('button[aria-controls="foundation-assessment-team"]');
+ assert(teamLink);
+ await act(async()=>teamLink.click());
+ assert.equal(document.activeElement.id,'foundation-assessment-team-title');
  assert(team.open && !auditAnswer.open);
  assert.equal(audit.querySelectorAll(':scope > ul > li').length,4);
  await act(async()=>auditAnswer.querySelector('summary').click());
@@ -471,6 +474,16 @@ try{
  assert.equal(auditAnswer.querySelectorAll('li').length,3);
  assert.match(auditAnswer.textContent,/9 款已确认可售/);
  assert.match(auditAnswer.textContent,/主酒单另做一轮核对/);
+ const mainList=team.querySelector('#foundation-assessment-main-list-audit');
+ const mainListAnswer=mainList.querySelector('details');
+ assert(!mainList.open && !mainListAnswer.open);
+ await act(async()=>mainList.querySelector('summary').click());
+ assert(mainList.open && !mainListAnswer.open);
+ assert.equal(mainList.querySelectorAll('ul > li').length,4);
+ await act(async()=>mainListAnswer.querySelector('summary').click());
+ assert(mainListAnswer.open && auditAnswer.open);
+ assert.match(mainListAnswer.textContent,/共 37 款.*仍需补足三款/s);
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
 
  const pours=assessment.querySelector('[aria-labelledby="foundation-assessment-team-pours-title"]');
  const pourCases=[...pours.querySelectorAll(':scope > details')];

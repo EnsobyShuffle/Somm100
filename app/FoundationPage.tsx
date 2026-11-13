@@ -68,6 +68,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-recommendation-title')}>点单变更自练</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-pairing-title')}>餐酒搭配对照练习</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-drink-comparison-title')}>四类酒水辨析</button>
+  <button className="button secondary" aria-controls="foundation-assessment-team" onClick={()=>openReviewRecap('foundation-assessment-team')}>团队酒单自练</button>
  </div>
  <p className="fine-print">考核范围来自本页的第22期招生资料。复习索引按主题整理，具体日期、评分标准和提交方式以当期课程方通知为准。</p>
  <FoundationSparklingAssessmentPractice/>
@@ -158,7 +159,7 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
   <p className="fine-print">这是原创自练。正式考核的酒款、题型和评分以课程方通知为准。</p>
  </details>
  <details id="foundation-assessment-team">
-  <summary>团队酒单自练｜从两份草案到组内核对</summary>
+  <summary id="foundation-assessment-team-title">团队酒单自练｜从两份草案到组内核对</summary>
   <p>先约定一个餐厅场景，写下菜单方向和客人常见需求。每位组员先提名一款酒，说明它在酒单上解决什么需求。</p>
   <ol>
    <li><strong>分开起草</strong>　分别准备 12 款杯卖酒和 40 款主酒单酒款。先写清每组希望覆盖的风格，再挑酒款。</li>
@@ -184,6 +185,21 @@ function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(resu
     </ol>
    </details>
   </div>
+  <details id="foundation-assessment-main-list-audit">
+   <summary>主酒单复核｜40 行里还有几款待处理？</summary>
+   <p>一份虚构的主酒单草案有 40 行。前 36 行各对应一款已确认可售的酒，与后 4 行均不重复。其余记录如下：</p>
+   <ul>
+    <li>第 37 行：青丘酒庄「山脊」红葡萄酒 2021，酒标和库存均已核对。</li>
+    <li>第 38 行：酒名用了另一种译法，生产者、酒款及年份与第 37 行相同。</li>
+    <li>第 39 行：酒单写 2020，仓库只有同款 2021，尚未核对新年份的价格和风格。</li>
+    <li>第 40 行：酒款和年份均已核对，库存为零。供应商尚未确认补货。</li>
+   </ul>
+   <p>先算出按当前酒单可确认的不同酒款数。再写下第 38–40 行各需做什么，以及核对完成后要通知谁。</p>
+   <details id="foundation-assessment-main-list-audit-answer">
+    <summary>展开主酒单复核参考</summary>
+    <p>36 款加上第 37 行，共 37 款。第 38 行合并到第 37 行。第 39 行先核对 2021 的价格和风格，再决定是否替换 2020。第 40 行先标缺货，等补货确认或安排替代。仍需补足三款已核实可售的不同酒款。更新草案后，把年份和库存变化同步给组员及前厅。</p>
+   </details>
+  </details>
   <p className="fine-print">数量来自第22期招生资料。上述字段和复核步骤供自练，正式提交要求以课程方通知为准。</p>
  </details>
  <section className="foundation-week" aria-labelledby="foundation-assessment-team-pours-title">
