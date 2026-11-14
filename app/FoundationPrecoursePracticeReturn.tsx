@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type PracticeReturn = {caseId: string; onReturn: () => void};
+export type PracticeReturn = {caseId: string; onReturn: () => void; label?: string};
 
 export default function FoundationPrecoursePracticeReturn({caseId, practiceReturn}: {
   caseId: string;
@@ -8,6 +8,6 @@ export default function FoundationPrecoursePracticeReturn({caseId, practiceRetur
 }) {
   if (practiceReturn?.caseId !== caseId) return null;
   return <button type="button" className="button secondary" onClick={practiceReturn.onReturn}>
-    返回本周练习入口
+    {practiceReturn.label ?? '返回本周练习入口'}
   </button>;
 }

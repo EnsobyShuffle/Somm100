@@ -65,9 +65,11 @@ export default function FoundationStudy({cityName, onCityChange}) {
 
   const firstWeek = progress.pace === 4 ? progress.period * 2 - 1 : progress.period;
   const visibleWeeks = data.weeks.filter(w => w.number === firstWeek || (progress.pace === 4 && w.number === firstWeek + 1));
-  const practiceReturn = visibleWeeks.some(week => week.number === practiceOrigin?.week)
-    ? {caseId: practiceOrigin.caseId, onReturn: () => focusFoundationTarget(`foundation-week-practice-${practiceOrigin.caseId}`)}
-    : undefined;
+  const practiceReturn = reviewOrigin?.caseId
+    ? {caseId: reviewOrigin.caseId, onReturn: returnToQuestion, label: '回到刚才的准备度题'}
+    : visibleWeeks.some(week => week.number === practiceOrigin?.week)
+      ? {caseId: practiceOrigin.caseId, onReturn: () => focusFoundationTarget(`foundation-week-practice-${practiceOrigin.caseId}`)}
+      : undefined;
   const readingReturn = visibleWeeks.some(week => week.id === readingOrigin?.weekId)
     ? {conceptId: readingOrigin.conceptId, onReturn: () => focusFoundationTarget(readingOrigin.buttonId)}
     : undefined;
@@ -75,6 +77,12 @@ export default function FoundationStudy({cityName, onCityChange}) {
   function reviewQuestion(question, targetId) {
     setReviewOrigin({targetId, questionId: question.id, week: question.week});
     focusFoundationTarget(targetId);
+  }
+
+  function reviewPractice(question) {
+    setPracticeOrigin(null);
+    setReviewOrigin({caseId: question.reviewPracticeId, questionId: question.id, week: question.week});
+    openReviewRecap(question.reviewPracticeId);
   }
 
   function returnToQuestion() {
@@ -141,6 +149,7 @@ export default function FoundationStudy({cityName, onCityChange}) {
             key: id, id: `foundation-week-practice-${id}`, type: 'button', tabIndex: 0,
             className: 'button secondary', 'aria-controls': id,
             onClick: () => {
+              if (reviewOrigin?.caseId) setReviewOrigin(null);
               setPracticeOrigin({week: week.number, caseId: id});
               openReviewRecap(id);
             },
@@ -169,6 +178,8 @@ export default function FoundationStudy({cityName, onCityChange}) {
                 !correct ? h('div', {className: 'button-row'},
                   q.reviewConceptId ? h('button', {type: 'button', className: 'button secondary',
                     onClick: () => reviewQuestion(q, q.reviewConceptId)}, `回看概念｜${conceptTitles[q.reviewConceptId]}`) : null,
+                  q.reviewPracticeId ? h('button', {type: 'button', className: 'button secondary',
+                    onClick: () => reviewPractice(q)}, '做一道相关案例') : null,
                   h('button', {type: 'button', className: 'button secondary',
                     onClick: () => reviewQuestion(q, `${week.id}-digest`)}, '返回本周知识提要')) : null,
                 h('p', {className: 'fine-print'}, `首次选择：${q.options[entry.first]}；最近选择：${q.options[entry.latest]}`)) : null);

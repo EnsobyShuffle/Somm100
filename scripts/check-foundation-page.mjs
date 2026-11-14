@@ -336,6 +336,7 @@ try{
  const getStudyProgress=()=>JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY));
  const returnLabel='回到刚才的准备度题';
  let readinessReviewRoundTrips=0;
+ let readinessPracticeRoundTrips=0;
  for (const pace of [4,8]) {
    await setStudyPace(pace);
    for (const q of studyData.questions) {
@@ -343,7 +344,27 @@ try{
      const fieldset=group.querySelector(`#${q.id}`);
      const wrongChoice=(q.answer+1)%q.options.length;
      await act(async()=>fieldset.querySelector(`input[value="${wrongChoice}"]`).click());
-     const review=Array.from(fieldset.querySelectorAll('button')).find(button=>
+     const practice=[...fieldset.querySelectorAll('button')].find(button=>button.textContent==='做一道相关案例');
+     assert.equal(Boolean(practice),Boolean(q.reviewPracticeId));
+     if (practice) {
+       const exercise=document.getElementById(q.reviewPracticeId);
+       const answer=exercise.querySelector('details');
+       const beforePractice=getStudyProgress();
+       await act(async()=>{exercise.open=false;answer.open=false;});
+       await act(async()=>practice.click());
+       assert.equal(document.activeElement.id,`${q.reviewPracticeId}-title`);
+       assert(exercise.open && !answer.open);
+       const back=[...exercise.querySelectorAll('button')].find(button=>button.textContent===returnLabel);
+       assert(back);
+       await openReadinessGroup(q.week===1?8:1);
+       await act(async()=>back.click());
+       assert.equal(document.activeElement.id,q.id);
+       assert(document.activeElement.closest('details').open);
+       assert.deepEqual(getStudyProgress(),beforePractice);
+       readinessPracticeRoundTrips++;
+     }
+     const currentFieldset=document.getElementById(q.id);
+     const review=Array.from(currentFieldset.querySelectorAll('button')).find(button=>
        q.reviewConceptId ? button.textContent.startsWith('回看概念｜') : button.textContent==='返回本周知识提要');
      assert(review);
      const reviewId=q.reviewConceptId ?? `foundation-week-${q.week}-digest`;
@@ -373,6 +394,7 @@ try{
    }
  }
  assert.equal(readinessReviewRoundTrips,62);
+ assert.equal(readinessPracticeRoundTrips,8);
  assert.equal(studyData.questions.filter(q=>q.reviewConceptId).length,25);
  assert.match(reviewList.querySelector('summary').textContent,/0 道/);
 

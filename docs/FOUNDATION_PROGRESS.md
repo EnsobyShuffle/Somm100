@@ -1,3 +1,13 @@
+# Foundation · 2026-11-14 · 从准备度错题进入对应案例
+
+基线 `24602388b98a0dd7f65c5b6e80bec69dfcc977e5`，分支 `migration/tencent-somm100`。已读取源码、部署说明、来源表和上轮检查点，远端基线一致。
+
+- **交付**。`data/foundation-study.json` 将土壤、发酵、橡木桶及年份四道准备度题连到对应案例。`app/FoundationStudy.js` 在答错时提供「做一道相关案例」，展开题面并聚焦标题；通过 `app/FoundationPrecoursePracticeReturn.tsx` 回到刚才的题，换过学习周也可返回。案例和题目原有 ID、准备度首次／最近选择及勾选保留。沿用[现行课前框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)及[预习路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)。
+- **课表**。复核产品蓝图、旧 Chapter 00 停用标记、Guided Learning、D1–D2 清单和 WPS／有道台账。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五城各五天面授、另排游学。D1 10 节／25 题／9 案例，D2 9 个品种＋6 个法国专题／42 题／9 案例，D3 13 节／30 题／10 案例，D4 15 节／45 题／13 案例。D1–D4 与本期面授主题待逐日核对。D5 五城日期已核，分时课表、考核分配与讲师课件待取得。D6 无第六天面授，游学另排 2027 年 3 月 14–17 日。
+- **验证与发布**。CloudBase 构建、93 项回归、两种预习节奏共 8 次错题到案例往返、48 次入口定位通过。正式站三页文件与上轮逐字节一致。候选专注页 `foundation-CNuPoJN_.js`，共享模块 `FoundationPage-Cy86ZWZC.js`。保留 `[skip netlify]` 与 `ignore = "exit 0"`。待上海 CloudBase `somm100` 的 `/somm100` 授权发布或 WorkBuddy 回执。手机、正式站交互及微信原文待验收。
+
+---
+
 # Foundation · 2026-11-14 · 第 5、7 学习单元接入九道课前案例
 
 基线 `782c8edebbdbeb2c1f0d1ed00f7d760bebb4de96`，分支 `migration/tencent-somm100`。已读当前源码、部署说明、来源表和上轮检查点，远端基线一致。

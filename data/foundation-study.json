@@ -350,6 +350,7 @@
     },
     {
       "id": "foundation-readiness-08",
+      "reviewPracticeId": "foundation-vineyard-drainage",
       "reviewConceptId": "foundation-2",
       "number": 8,
       "prompt": "关于土壤，最合理的理解是？",
@@ -380,6 +381,7 @@
     },
     {
       "id": "foundation-readiness-10",
+      "reviewPracticeId": "foundation-winemaking-fermentation-evidence",
       "reviewConceptId": "foundation-3",
       "number": 10,
       "prompt": "酒精发酵最核心的变化是？",
@@ -455,6 +457,7 @@
     },
     {
       "id": "foundation-readiness-15",
+      "reviewPracticeId": "foundation-winemaking-vessel-evidence",
       "reviewConceptId": "foundation-3",
       "number": 15,
       "prompt": "关于橡木桶，哪项最合理？",
@@ -605,6 +608,7 @@
     },
     {
       "id": "foundation-readiness-25",
+      "reviewPracticeId": "foundation-label-vintage-check",
       "reviewConceptId": "foundation-7",
       "number": 25,
       "prompt": "酒标上的 Vintage 通常指什么？",
