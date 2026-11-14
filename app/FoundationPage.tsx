@@ -205,6 +205,15 @@ function FoundationContent({go,onRestored,initialCohortCity=''}:FoundationPagePr
     <p>36 款加上第 37 行，共 37 款。第 38 行合并到第 37 行。第 39 行先核对 2021 的价格和风格，再决定是否替换 2020。第 40 行先标缺货，等补货确认或安排替代。仍需补足三款已核实可售的不同酒款。更新草案后，把年份和库存变化同步给组员及前厅。</p>
    </details>
   </details>
+  <details id="foundation-assessment-team-handoff">
+   <summary>组内交接｜两张酒单能合并计数吗？</summary>
+   <p>模拟复核当天，杯卖清单确认了 12 款不同酒，主酒单也确认了 40 款不同酒，其中 3 款同时出现在两份清单里。一位同学想在汇报里写「共确认 52 款不同酒」。</p>
+   <p>分别写出两张清单的确认数、合并后的不同酒款数和仍需确认的一条提交规则，再用一句话向组员交接。</p>
+   <details>
+    <summary>展开交接参考</summary>
+    <p>杯卖清单 12 款，主酒单 40 款，合并去重后为 49 款。向课程方核实两份清单能否重叠，以及重叠酒款如何计入作业。交接时可说「杯卖 12 款、主酒单 40 款，重叠 3 款，提交规则待确认」。</p>
+   </details>
+  </details>
   <p className="fine-print">数量来自第22期招生资料。上述字段和复核步骤供自练，正式提交要求以课程方通知为准。</p>
  </details>
  <section className="foundation-week" aria-labelledby="foundation-assessment-team-pours-title">

@@ -1,3 +1,13 @@
+# Foundation · 2026-11-14 · 团队酒单合并计数与交接
+
+基线 `ab8f6f49dc81b2baad6ff7b99be87dbb1b52a5bb`，分支 `migration/tencent-somm100`。工作目录清理后从权威分支重新取得源码、迁移说明及上轮检查点，远端基线一致。
+
+- **交付**。`app/FoundationPage.tsx` 的团队酒单自练新增折叠交接题。按模拟清单分别报告 12 款杯卖与 40 款主酒单，发现 3 款重叠后算出 49 款不同酒，再提示向课程方确认重叠规则。数量依据[第22期招生正文第 7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，重叠为原创教学设定。保留既有 ID 和本机学习记录。
+- **课表**。复核产品蓝图、过时 Chapter 00、现行预习框架、Guided Learning、D1–D2 清单、预习路径及有道／WPS 台账。Notion 对第22期 1 月考核及分时课表的检索仅找到内部模板与历史资料等，未取得确认版安排。D1 10 节／25 题／9 案例，D2 9 个品种＋6 个法国专题／42 题／9 案例，D3 13 节／30 题／10 案例，D4 15 节／45 题／13 案例。前四组与本期面授主题待逐日对齐。D5 五城日期已核，缺逐日课表、考核分配与讲师原件。第22期无第六天面授，游学另排在 2027 年 3 月 14–17 日。
+- **验证与发布**。CloudBase 构建、93 项回归及交接题与两份酒单答案独立折叠的 DOM 检查通过。候选专注页 `foundation-Dfi5iUFI.js`，共享模块 `FoundationPage-CJrUOrm1.js`。正式站三个入口哈希与本日早前核对一致。保留 `[skip netlify]` 和 `ignore = "exit 0"`。仍待上海 CloudBase `somm100` 的 `/somm100` 授权发布通路或 WorkBuddy 回执，线上交互、手机实机和微信原文待验收。
+
+---
+
 # Foundation · 2026-11-14 · 从准备度错题进入对应案例
 
 基线 `24602388b98a0dd7f65c5b6e80bec69dfcc977e5`，分支 `migration/tencent-somm100`。已读取源码、部署说明、来源表和上轮检查点，远端基线一致。

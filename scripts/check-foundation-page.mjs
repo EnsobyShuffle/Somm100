@@ -533,6 +533,15 @@ try{
  await act(async()=>mainListAnswer.querySelector('summary').click());
  assert(mainListAnswer.open && auditAnswer.open);
  assert.match(mainListAnswer.textContent,/共 37 款.*仍需补足三款/s);
+ const handoff=team.querySelector('#foundation-assessment-team-handoff');
+ const handoffAnswer=handoff.querySelector('details');
+ assert(!handoff.open && !handoffAnswer.open);
+ await act(async()=>handoff.querySelector('summary').click());
+ assert(handoff.open && !handoffAnswer.open);
+ await act(async()=>handoffAnswer.querySelector('summary').click());
+ assert(handoffAnswer.open && mainListAnswer.open && auditAnswer.open);
+ assert.match(handoffAnswer.textContent,/合并去重后为 49 款/);
+ assert.match(handoffAnswer.textContent,/提交规则待确认/);
  assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
 
  const pours=assessment.querySelector('[aria-labelledby="foundation-assessment-team-pours-title"]');
