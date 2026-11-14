@@ -507,6 +507,14 @@ try{
  await act(async()=>fieldReview.querySelector('summary').click());
  assert(fieldReview.open);
  assert.equal(fieldReview.querySelectorAll('ol > li').length,3);
+ const tripExample=fieldReview.querySelector('#foundation-field-trip-worked-example');
+ assert(!tripExample.open);
+ await act(async()=>tripExample.querySelector('summary').click());
+ assert(tripExample.open && fieldReview.open);
+ assert.deepEqual([...tripExample.querySelectorAll('dt')].map(term=>term.textContent),
+   ['葡萄园证据','酒窖证据','杯中观察']);
+ assert.match(tripExample.textContent,/确认是否使用甲地葡萄/);
+ assert.match(tripExample.textContent,/熟成容器仍待查/);
  assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
 
  const team=assessment.querySelector('#foundation-assessment-team');
