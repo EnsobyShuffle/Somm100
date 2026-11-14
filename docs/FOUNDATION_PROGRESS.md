@@ -1,3 +1,13 @@
+# Foundation · 2026-11-14 · 团队酒单交接直达
+
+基线 `d31413676150a27b2963d278764c62c54da7f71e`，分支 `migration/tencent-somm100`。已读当前源码、迁移说明、来源表和上轮检查点，远端基线一致。
+
+- **交付**。`cloudbase/course.html` 和 `app/FoundationPage.tsx` 为既有团队酒单交接案例新增入口。打开时展开团队酒单和交接题两层，聚焦题目标题，参考答案仍折叠。原案例、复核入口和浏览器本机学习记录均保留。案例两张清单数量依据[第 22 期招生正文第 7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)，重叠规则仍待确认。
+- **课表**。复核产品蓝图、旧 Chapter 00 停用标记、现行课前框架、Guided Learning、D1–D2 清单、预习路径及 WPS／有道台账。D1 10 节／25 题／9 案例，D2 9 个品种＋6 个法国专题／42 题／9 案例，D3 13 节／30 题／10 案例，D4 15 节／45 题／13 案例。对应当期面授主题待逐日核对。D5 五城日期已核，分时课表、考核分配与讲师原课件待取得。第 22 期共五天面授，2027 年 3 月 14–17 日另排游学。
+- **验证与发布**。CloudBase 构建、93 项回归、50 次入口定位、新入口两层展开和答案折叠通过。候选专注页 `foundation-DvHlKFpN.js`，共享模块 `FoundationPage-CkoMTLLt.js`。11 月 14 日正式站三个入口与上轮一致。保留 `[skip netlify]` 和 `ignore = "exit 0"`。仍待现有上海 CloudBase `somm100` 的 `/somm100` 授权通路或 WorkBuddy 回执，再验收正式站交互、手机实机及微信原文。
+
+---
+
 # Foundation · 2026-11-14 · 游学观察笔记示例
 
 基线 `d926a1efa0bfb5cbca202066d4e730d4c25a62f9`，分支 `migration/tencent-somm100`。从权威分支读回源码、迁移说明、来源表和上轮检查点，远端基线一致。

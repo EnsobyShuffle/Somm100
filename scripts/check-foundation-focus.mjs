@@ -98,7 +98,7 @@ try{
      assert.equal(articleLinks.length,17);
      assert(articleLinks.every(link=>new URL(link.href).origin==='https://mp.weixin.qq.com'));
      const links=[...home.querySelectorAll('a[href^="./foundation.html#"], .cohort-review-link')];
-     assert.equal(links.length,14+readingConcepts.length+cohort.cities.length);
+     assert.equal(links.length,15+readingConcepts.length+cohort.cities.length);
      for (const id of ['foundation-sparkling-assessment-title', 'foundation-assessment-recommendation-title', 'foundation-assessment-team-pours-title']) {
        assert(links.some(link => link.hash === `#${id}`), `Missing course home practice link: ${id}`);
      }
@@ -136,6 +136,12 @@ try{
          assert(document.getElementById('foundation-assessment-team').open);
          assert(document.getElementById('foundation-assessment-main-list-audit').open);
          assert(!document.getElementById('foundation-assessment-main-list-audit-answer').open);
+       }
+       if (id==='foundation-assessment-team-handoff-title') {
+         assert(document.getElementById('foundation-assessment-team').open);
+         const handoff=document.getElementById('foundation-assessment-team-handoff');
+         assert(handoff.open && !handoff.querySelector('details').open);
+         assert(!document.getElementById('foundation-assessment-main-list-audit').open);
        }
        assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),saved);
        shortcutCount++;

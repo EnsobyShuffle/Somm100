@@ -544,8 +544,12 @@ try{
  const handoff=team.querySelector('#foundation-assessment-team-handoff');
  const handoffAnswer=handoff.querySelector('details');
  assert(!handoff.open && !handoffAnswer.open);
- await act(async()=>handoff.querySelector('summary').click());
- assert(handoff.open && !handoffAnswer.open);
+ await act(async()=>{team.open=false;});
+ const handoffLink=assessment.querySelector('button[aria-controls="foundation-assessment-team-handoff"]');
+ assert(handoffLink);
+ await act(async()=>handoffLink.click());
+ assert(team.open && handoff.open && !handoffAnswer.open);
+ assert.equal(document.activeElement.id,'foundation-assessment-team-handoff-title');
  await act(async()=>handoffAnswer.querySelector('summary').click());
  assert(handoffAnswer.open && mainListAnswer.open && auditAnswer.open);
  assert.match(handoffAnswer.textContent,/合并去重后为 49 款/);

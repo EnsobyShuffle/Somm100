@@ -74,6 +74,10 @@ function FoundationContent({go,onRestored,initialCohortCity=''}:FoundationPagePr
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-pairing-title')}>餐酒搭配对照练习</button>
   <button className="button secondary" onClick={()=>focusFoundationTarget('foundation-assessment-drink-comparison-title')}>四类酒水辨析</button>
   <button className="button secondary" aria-controls="foundation-assessment-team" onClick={()=>openReviewRecap('foundation-assessment-team')}>团队酒单自练</button>
+  <button className="button secondary" aria-controls="foundation-assessment-team-handoff" onClick={()=>{
+   document.getElementById('foundation-assessment-team')?.setAttribute('open','');
+   openReviewRecap('foundation-assessment-team-handoff');
+  }}>团队酒单交接</button>
  </div>
  <p className="fine-print">考核范围来自本页的第22期招生资料。复习索引按主题整理，具体日期、评分标准和提交方式以当期课程方通知为准。</p>
  <FoundationSparklingAssessmentPractice/>
@@ -206,7 +210,7 @@ function FoundationContent({go,onRestored,initialCohortCity=''}:FoundationPagePr
    </details>
   </details>
   <details id="foundation-assessment-team-handoff">
-   <summary>组内交接｜两张酒单能合并计数吗？</summary>
+   <summary id="foundation-assessment-team-handoff-title">组内交接｜两张酒单能合并计数吗？</summary>
    <p>模拟复核当天，杯卖清单确认了 12 款不同酒，主酒单也确认了 40 款不同酒，其中 3 款同时出现在两份清单里。一位同学想在汇报里写「共确认 52 款不同酒」。</p>
    <p>分别写出两张清单的确认数、合并后的不同酒款数和仍需确认的一条提交规则，再用一句话向组员交接。</p>
    <details>
