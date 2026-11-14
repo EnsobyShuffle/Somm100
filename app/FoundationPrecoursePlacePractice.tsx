@@ -1,4 +1,5 @@
 import React from 'react';
+import FoundationPrecoursePracticeReturn, {type PracticeReturn} from './FoundationPrecoursePracticeReturn';
 
 const exercises = [
   {
@@ -24,20 +25,21 @@ const exercises = [
   },
 ];
 
-export default function FoundationPrecoursePlacePractice() {
+export default function FoundationPrecoursePlacePractice({practiceReturn}: {practiceReturn?: PracticeReturn}) {
   return (
     <section aria-labelledby="foundation-precourse-place-title">
       <h3 id="foundation-precourse-place-title">读到一个地名，先查什么？</h3>
       <p>用法国做第一次练习。先认出地理层级，再把产地线索和酒款资料连起来。</p>
       {exercises.map(({id, title, clues, question, answer}) => (
         <details key={id} id={id}>
-          <summary>{title}</summary>
+          <summary id={id + '-title'}>{title}</summary>
           <p>{clues}</p>
           <p><strong>自查　</strong>{question}</p>
           <details>
             <summary>展开参考判断</summary>
             <p>{answer}</p>
           </details>
+          <FoundationPrecoursePracticeReturn caseId={id} practiceReturn={practiceReturn}/>
         </details>
       ))}
     </section>

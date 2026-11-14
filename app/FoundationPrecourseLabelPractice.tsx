@@ -1,4 +1,5 @@
 import React from 'react';
+import FoundationPrecoursePracticeReturn, {type PracticeReturn} from './FoundationPrecoursePracticeReturn';
 
 const cases = [
   {
@@ -33,14 +34,14 @@ const cases = [
   },
 ];
 
-export default function FoundationPrecourseLabelPractice() {
+export default function FoundationPrecourseLabelPractice({practiceReturn}: {practiceReturn?: PracticeReturn}) {
   return (
     <section aria-labelledby="foundation-precourse-label-title">
       <h3 id="foundation-precourse-label-title">酒标怎么核对</h3>
       <p>以下三组为虚构资料。先把「直接读到」和「还要查」分别记下，再展开核对。</p>
       {cases.map(({id, title, evidence, question, answer}) => (
         <details id={id} key={id}>
-          <summary>{title}</summary>
+          <summary id={id + '-title'}>{title}</summary>
           <dl>
             {evidence.map(([label, value]) => (
               <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
@@ -51,6 +52,7 @@ export default function FoundationPrecourseLabelPractice() {
             <summary>展开参考判断</summary>
             <p>{answer}</p>
           </details>
+          <FoundationPrecoursePracticeReturn caseId={id} practiceReturn={practiceReturn}/>
         </details>
       ))}
     </section>

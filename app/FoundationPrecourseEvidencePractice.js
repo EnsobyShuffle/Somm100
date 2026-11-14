@@ -1,4 +1,5 @@
 import React from 'react';
+import FoundationPrecoursePracticeReturn from './FoundationPrecoursePracticeReturn';
 
 const h = React.createElement;
 
@@ -57,7 +58,5 @@ export default function FoundationPrecourseEvidencePractice({conceptId, practice
         h('details', null,
           h('summary', null, '展开参考判断'),
           h('p', null, answer)),
-        practiceReturn?.caseId === id && h('button', {
-          type: 'button', className: 'button secondary', onClick: practiceReturn.onReturn,
-        }, '返回本周练习入口'))));
+        h(FoundationPrecoursePracticeReturn, {caseId:id, practiceReturn}))));
 }

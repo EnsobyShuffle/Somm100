@@ -7,10 +7,10 @@ import FoundationPrecourseEvidencePractice from './FoundationPrecourseEvidencePr
 import FoundationPrecourseLabelPractice from './FoundationPrecourseLabelPractice';
 import FoundationPrecoursePlacePractice from './FoundationPrecoursePlacePractice';
 import FoundationPrecourseStylePractice from './FoundationPrecourseStylePractice';
+import type {PracticeReturn} from './FoundationPrecoursePracticeReturn';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
 type ReviewReturn = {conceptId: string; onReturn: () => void};
-type PracticeReturn = {caseId: string; onReturn: () => void};
 
 export default function FoundationConcepts({reviewReturn, readingReturn, practiceReturn}: {
   reviewReturn?: ReviewReturn;
@@ -37,7 +37,7 @@ export default function FoundationConcepts({reviewReturn, readingReturn, practic
         <p>{intro}</p>
         <p>{example}</p>
         {(id === 'foundation-2' || id === 'foundation-3') && <FoundationPrecourseEvidencePractice conceptId={id} practiceReturn={practiceReturn}/>}
-        {id === 'foundation-4' && <FoundationPrecourseStylePractice/>}
+        {id === 'foundation-4' && <FoundationPrecourseStylePractice practiceReturn={practiceReturn}/>}
         {id === 'foundation-5' && (
           <section aria-labelledby="foundation-grape-cards-title">
             <h3 id="foundation-grape-cards-title">六个品种怎么比较</h3>
@@ -56,8 +56,8 @@ export default function FoundationConcepts({reviewReturn, readingReturn, practic
             ))}
           </section>
         )}
-        {id === 'foundation-6' && <FoundationPrecoursePlacePractice/>}
-        {id === 'foundation-7' && <FoundationPrecourseLabelPractice/>}
+        {id === 'foundation-6' && <FoundationPrecoursePlacePractice practiceReturn={practiceReturn}/>}
+        {id === 'foundation-7' && <FoundationPrecourseLabelPractice practiceReturn={practiceReturn}/>}
         {articles.length > 0 && <>
           <h3>继续阅读</h3>
           <ul>

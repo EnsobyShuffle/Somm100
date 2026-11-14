@@ -142,7 +142,10 @@
         "foundation-4"
       ],
       "practices": [
-        {"id": "foundation-winemaking-vessel-evidence", "title": "从熟成容器查木香"}
+        {"id": "foundation-winemaking-vessel-evidence", "title": "从熟成容器查木香"},
+        {"id": "foundation-style-fruit-sweetness", "title": "区分果香与甜感"},
+        {"id": "foundation-style-acidity-tannin", "title": "分开记酸感与涩感"},
+        {"id": "foundation-style-body-alcohol", "title": "比较酒体与酒精度"}
       ]
     },
     {
@@ -196,6 +199,14 @@
       "concepts": [
         "foundation-6",
         "foundation-7"
+      ],
+      "practices": [
+        {"id": "foundation-place-scale", "title": "排列法国地名层级"},
+        {"id": "foundation-place-climate", "title": "从产地比较成熟条件"},
+        {"id": "foundation-place-label-conventions", "title": "从地名或品种读标签"},
+        {"id": "foundation-label-vintage-check", "title": "核对酒标与网页年份"},
+        {"id": "foundation-label-bottler-check", "title": "分清品牌与装瓶方"},
+        {"id": "foundation-label-region-check", "title": "记录酒标仍待核对的字段"}
       ]
     },
     {

@@ -126,7 +126,7 @@ try{
  let practiceShortcuts=0;
  for (const pace of [8,4]) {
    await chooseStudyOption(paceSelect,pace);
-   for (const [week,amount] of [[3,2],[4,1],[5,1]]) {
+   for (const [week,amount] of [[3,2],[4,1],[5,4],[7,6]]) {
      await chooseStudyOption(weekSelect,pace===4?Math.ceil(week/2):week);
      const shortcuts=[...document.querySelectorAll(`#foundation-week-${week} .foundation-week-practice button`)];
      assert.equal(shortcuts.length,amount);
@@ -153,7 +153,7 @@ try{
      }
    }
  }
- assert.equal(practiceShortcuts,8);
+ assert.equal(practiceShortcuts,26);
  let readingRoundTrips=0;
  for (const pace of [8,4]) {
    await chooseStudyOption(paceSelect,pace);

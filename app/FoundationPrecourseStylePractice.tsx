@@ -1,4 +1,5 @@
 import React from 'react';
+import FoundationPrecoursePracticeReturn, {type PracticeReturn} from './FoundationPrecoursePracticeReturn';
 
 const contrasts = [
   {
@@ -24,20 +25,21 @@ const contrasts = [
   },
 ];
 
-export default function FoundationPrecourseStylePractice() {
+export default function FoundationPrecourseStylePractice({practiceReturn}: {practiceReturn?: PracticeReturn}) {
   return (
     <section aria-labelledby="foundation-precourse-style-title">
       <h3 id="foundation-precourse-style-title">把三组风格词分开记</h3>
       <p>先用虚构的品尝记录练习描述。每次只写你实际观察到的信息。</p>
       {contrasts.map(({id, title, notes, question, answer}) => (
         <details key={id} id={id}>
-          <summary>{title}</summary>
+          <summary id={id + '-title'}>{title}</summary>
           <p>{notes}</p>
           <p><strong>自查　</strong>{question}</p>
           <details>
             <summary>展开参考描述</summary>
             <p>{answer}</p>
           </details>
+          <FoundationPrecoursePracticeReturn caseId={id} practiceReturn={practiceReturn}/>
         </details>
       ))}
     </section>
