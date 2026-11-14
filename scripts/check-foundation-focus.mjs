@@ -67,6 +67,10 @@ try{
        assert(calendar.hasAttribute('download'));
        assert.equal(new URL(calendar.href).pathname,`${mount}cohort-22-calendar/${city.calendarSlug}.ics`);
        assert.equal(calendar.textContent,`下载${city.city}面授日历（.ics）`);
+       const review=card.querySelector('a.cohort-review-link');
+       assert.equal(review.textContent,`查看${city.city}课间复习`);
+       assert.equal(new URL(review.href).searchParams.get('city'),city.calendarSlug);
+       assert.equal(review.hash,'#foundation-cohort-bridge-title');
      });
      const fees=[...preview.querySelectorAll('.cohort-tuition strong')].map(fee=>Number(fee.textContent.replace(/\D/g,'')));
      assert.deepEqual(fees,cohort.tuition.map(({amountCny})=>amountCny));
@@ -93,8 +97,8 @@ try{
      const articleLinks=[...home.querySelectorAll('.reading-group ul a')];
      assert.equal(articleLinks.length,17);
      assert(articleLinks.every(link=>new URL(link.href).origin==='https://mp.weixin.qq.com'));
-     const links=[...home.querySelectorAll('a[href^="./foundation.html#"]')];
-     assert.equal(links.length,14+readingConcepts.length);
+     const links=[...home.querySelectorAll('a[href^="./foundation.html#"], .cohort-review-link')];
+     assert.equal(links.length,14+readingConcepts.length+cohort.cities.length);
      for (const id of ['foundation-sparkling-assessment-title', 'foundation-assessment-recommendation-title', 'foundation-assessment-team-pours-title']) {
        assert(links.some(link => link.hash === `#${id}`), `Missing course home practice link: ${id}`);
      }
@@ -107,6 +111,17 @@ try{
        const id=targetUrl.hash.slice(1);
        assert.equal(document.activeElement.id,id);
        assert.equal(scrolledTo,id);
+       if (id==='foundation-cohort-bridge-title') {
+         const city=cohort.cities.find(item=>item.calendarSlug===targetUrl.searchParams.get('city'));
+         const first=document.getElementById(id).parentElement;
+         const second=document.getElementById('foundation-cohort-final-bridge-title').parentElement;
+         assert.equal(first.querySelector('select').value,city?.city??'');
+         assert.equal(document.getElementById('foundation-prep-city').value,city?.city??'');
+         for (const [index,window] of [first,second].entries()) {
+           const dates=[...window.querySelectorAll('[role="status"] time')].map(time=>time.dateTime);
+           assert.deepEqual(dates,city?[city.stages[index].at(-1),city.stages[index+1][0]]:[]);
+         }
+       }
        if (link.classList.contains('reading-concept-link')) {
          const concept=readingConcepts.find(item=>item.id===id);
          const section=document.getElementById(id);
@@ -127,6 +142,11 @@ try{
      }
    }finally{courseHome.window.close();}
  }
+ await act(async()=>root.render(null));
+ window.history.replaceState(null,'','?city=unknown#foundation-cohort-bridge-title');
+ await act(async()=>root.render(React.createElement(Focus)));
+ assert.equal(document.getElementById('foundation-prep-city').value,'');
+ assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
  await act(async()=>root.render(null));
  await act(async()=>root.render(React.createElement(Page,{go:()=>{}})));
  assert(document.querySelector('#foundation-d1-quiz input[type=radio]').checked);

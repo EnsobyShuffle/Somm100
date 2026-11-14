@@ -16,7 +16,10 @@ export function renderCourseHome(html, cohort, concepts) {
     }).join('');
     return `<li><h3>${escapeHtml(city.city)}</h3>
       <p>主讲老师／班主任　${escapeHtml(city.instructor)}<br>${escapeHtml(city.bio)}</p><dl>${schedule}</dl>
-      <a class="cohort-calendar-link" href="./${escapeHtml(foundationCalendarFile(cohort, city))}" download>下载${escapeHtml(city.city)}面授日历（.ics）</a></li>`;
+      <div class="cohort-actions">
+        <a class="cohort-review-link" href="./foundation.html?city=${encodeURIComponent(city.calendarSlug)}#foundation-cohort-bridge-title">查看${escapeHtml(city.city)}课间复习</a>
+        <a class="cohort-calendar-link" href="./${escapeHtml(foundationCalendarFile(cohort, city))}" download>下载${escapeHtml(city.city)}面授日历（.ics）</a>
+      </div></li>`;
   }).join('\n');
   const tuition = cohort.tuition.map(({label, amountCny}) =>
     `<li>${escapeHtml(label)} <strong>${yuan.format(amountCny)}</strong></li>`).join('');

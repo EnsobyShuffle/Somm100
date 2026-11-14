@@ -22,10 +22,10 @@ import FoundationD2Review from './FoundationD2Review';
 import FoundationSparklingPractice from './FoundationSparklingPractice';
 import FoundationFranceReview from './FoundationFranceReview';
 
-type FoundationPageProps = {go:(page:string)=>void; initialTarget?:string};
+type FoundationPageProps = {go:(page:string)=>void; initialTarget?:string; initialCohortCity?:string};
 type RestoreResult = {written:number;skipped:number};
 
-export default function FoundationPage({go,initialTarget}:FoundationPageProps){
+export default function FoundationPage({go,initialTarget,initialCohortCity}:FoundationPageProps){
  useEffect(()=>{
   if(!initialTarget?.startsWith('foundation-'))return;
   const target=document.getElementById(initialTarget);
@@ -43,11 +43,11 @@ export default function FoundationPage({go,initialTarget}:FoundationPageProps){
  }
  // Remount only after a successful restore so every local progress hook reads the new records.
  // Keeping old sibling state alive would let the next answer/navigation overwrite restored data.
- return <>{restore.message&&<p id="foundation-restore-status" role="status" tabIndex={-1}>{restore.message}</p>}<FoundationContent key={restore.revision} go={go} onRestored={onRestored}/></>;
+ return <>{restore.message&&<p id="foundation-restore-status" role="status" tabIndex={-1}>{restore.message}</p>}<FoundationContent key={restore.revision} go={go} initialCohortCity={initialCohortCity} onRestored={onRestored}/></>;
 }
 
-function FoundationContent({go,onRestored}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
- const [cohortCity,setCohortCity]=useState('');
+function FoundationContent({go,onRestored,initialCohortCity=''}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
+ const [cohortCity,setCohortCity]=useState(initialCohortCity);
  return (<><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
 <FoundationDirectory/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/><FoundationStudy cityName={cohortCity} onCityChange={setCohortCity}/>
 <FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>

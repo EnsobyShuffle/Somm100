@@ -1,3 +1,13 @@
+# Foundation · 2026-11-14 · 从课程首页进入五城课间复习
+
+基线 `612fe509366117d618ca6bd67eebd9c2e8f180ef`，分支 `migration/tencent-somm100`。已读当前源码、迁移说明、来源表及上轮检查点，远端基线一致。
+
+- **交付**。`cloudbase/course-home-content.mjs` 为五城班期卡新增对应课间复习链接。`app/FoundationFocus.tsx` 依据现有城市标识定位专注页的课间复习，`app/FoundationPage.tsx` 将城市用于已有的两段复习窗口与课前选项。未知城市仍落到可手动选择的复习入口。保留日历下载、讲师、课程图片和本机学习记录。班期卡操作支持窄屏换行和 44px 点按区域。
+- **来源与逐日状态**。已复核产品蓝图、现行课前框架、Guided Learning、D1–D2 清单、预习路径、旧 Chapter 00 停用标记及有道／WPS 台账。[第22期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认五城各五天面授与另排游学。D1 10 节／25 题／9 案例。D2 9 个品种＋6 个法国专题／42 题／9 案例。D3 13 节／30 题／10 案例。D4 15 节／45 题／13 案例。D1–D4 的面授主题对应待核。D5 五城日期已核，本期分时课表、考核分配与讲师原课件仍缺。D6 无第六天面授，游学于 2027 年 3 月 14–17 日另排。
+- **验证与发布**。CloudBase 构建、93 项回归、53 节渲染、41 个案例、71 次正文往返、两种根路径共 48 次入口定位通过。五城两段窗口日期与选择状态、未知城市回退、本机作答均通过 DOM 检查。候选专注页 `foundation-CT6WZqEZ.js`，共享模块 `FoundationPage-D3zyBja6.js`。11 月 14 日正式站三页 HTML 与上轮逐字节一致。保留 `[skip netlify]` 与 `ignore = "exit 0"`。待上海 CloudBase `somm100` 的 `/somm100` 已授权发布通路或 WorkBuddy 回执，再验收正式站、手机与微信原文。
+
+---
+
 # Foundation · 2026-11-14 · D2 霞多丽工艺与红葡萄品种盲品复盘
 
 基线 `88a41a1ce14e5669b028485724b1e821c881df3c`，分支 `migration/tencent-somm100`。已读当前源码、迁移说明、来源表及前轮检查点，远端基线一致。

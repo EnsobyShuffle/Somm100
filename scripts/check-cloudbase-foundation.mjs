@@ -42,6 +42,7 @@ const calendarIds = new Set();
 for (const city of cohort.cities) {
   const calendarPath = foundationCalendarFile(cohort, city);
   assert(courseHomeRefs.includes('./' + calendarPath));
+  assert(courseHomeRefs.includes(`./foundation.html?city=${encodeURIComponent(city.calendarSlug)}#foundation-cohort-bridge-title`));
   const lines = readFileSync(join(root, calendarPath), 'utf8').split('\r\n');
   assert.equal(lines[0], 'BEGIN:VCALENDAR');
   assert.deepEqual(lines.slice(-2), ['END:VCALENDAR', '']);
