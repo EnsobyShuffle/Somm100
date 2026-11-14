@@ -1,3 +1,14 @@
+# Foundation · 2026-11-14 · D2 霞多丽工艺与红葡萄品种盲品复盘
+
+基线 `88a41a1ce14e5669b028485724b1e821c881df3c`，分支 `migration/tencent-somm100`。已读当前源码、迁移说明、来源表及前轮检查点，远端基线一致。
+
+- **交付**。`app/FoundationD1D2Recaps.js` 在 D2 综合复盘末尾添加两道原创案例。霞多丽案例用同批葡萄对照苹果酸乳酸转化，红葡萄案例用颜色、单宁与酒体检查黑皮诺和西拉的盲品推测。两题均有折叠答案、两条正文回看与回原题入口。沿用已有案例 ID、作答和勾选。来源为[现行 D1–D2 知识提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)和站内 D2 第 1、2、5、7 节。
+- **课表与缺口**。复核产品蓝图、现行课前框架和 Guided Learning、旧 Chapter 00 停用标记、预习路径、WPS／有道台账及有道迁移线索。[课程研发 Brief](https://app.notion.com/p/40617d16de4c8119996fdc9fa87bd657)将 D5 品鉴、餐配等及 D6 服务、销售、酒单等标为待原件校准的草案。[第 22 期招生正文第 6–7 页](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)确认各城五天面授，游学于 2027 年 3 月 14–17 日另排。仍缺本期分时课表、讲师课件与逐日考核分配。
+- **逐日状态**。D1 10 节／25 题／9 案例。D2 9 个品种＋6 个法国专题／42 题／9 案例。D3 13 节／30 题／10 案例。D4 15 节／45 题／13 案例。D1–D4 的面授主题对应待核。D5 五城日期已核，细分时段待核。D6 无第六天面授。
+- **验证与发布**。93 项回归、53 节渲染、41 个案例、71 次正文往返、38 次入口定位及 CloudBase 构建通过。构建专注页 `foundation-T5yz8WhK.js`，共享模块 `FoundationPage-BswEXnan.js`。11 月 14 日正式站三页 HTML 与上一轮逐字节一致。保留 `[skip netlify]` 和 `ignore = "exit 0"`。待上海 CloudBase `somm100` 的 `/somm100` 授权发布通路或 WorkBuddy 回执，再核对三入口、手机实机与微信原文。
+
+---
+
 # Foundation · 2026-11-14 · D1 冠层与发酵记录复盘
 
 基线 `b4bcc3e356b388338bc5d561c02138e86cf88241`，分支 `migration/tencent-somm100`。已读现有 Foundation 入口、迁移说明、来源表、前轮检查点并检查远端基线。
