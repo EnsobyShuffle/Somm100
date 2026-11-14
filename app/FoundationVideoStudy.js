@@ -32,11 +32,11 @@ function externalLink(href, label) {
   return h('a', {href, target: '_blank', rel: 'noopener noreferrer'}, label);
 }
 
-export default function FoundationVideoStudy({unitId}) {
+export default function FoundationVideoStudy({unitId, idPrefix = ''}) {
   const resource = videos[unitId];
   if (!resource) return null;
 
-  const titleId = `${unitId}-video-study`;
+  const titleId = `${idPrefix}${unitId}-video-study`;
   return h('section', {className: 'foundation-video-study', 'aria-labelledby': titleId},
     h('h4', {id: titleId}, `视频观察｜${resource.title}`),
     h('p', null, resource.task),

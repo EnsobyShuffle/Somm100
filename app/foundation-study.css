@@ -113,3 +113,15 @@
 .foundation-quiz-review-list ol { padding-inline-start: 1.4rem; }
 .foundation-quiz-review-list li + li { margin-top: .5rem; }
 .foundation-quiz-review-list button { width: 100%; text-align: start; overflow-wrap: anywhere; }
+
+#foundation-study-title { scroll-margin-top: 5rem; }
+.foundation-day-one-list {
+  margin: .75rem 0 0;
+  padding-inline-start: 1.7rem;
+}
+.foundation-day-one-list > li { border-top: 1px solid var(--line, #d8d4ca); padding-inline-start: .3rem; }
+.foundation-day-one-list > li:last-child { border-bottom: 1px solid var(--line, #d8d4ca); }
+.foundation-day-one-list > li > details[open] { padding-bottom: .75rem; }
+.foundation-day-one-answer { margin-block: .5rem; }
+.foundation-day-one-readings { padding-inline-start: 1.15rem; }
+.foundation-day-one-readings a { display: inline-flex; align-items: center; min-height: 44px; }

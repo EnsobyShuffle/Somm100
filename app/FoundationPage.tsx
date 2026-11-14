@@ -1,10 +1,11 @@
 'use client';
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import {FOUNDATION_RECALL_PAGE} from '../lib/foundation-entry.mjs';
 import FoundationBridge from './FoundationBridge';
 import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
+import FoundationDayOneGuide from './FoundationDayOneGuide';
 import FoundationAssessmentPractice from './FoundationAssessmentPractice';
 import FoundationWrittenPractice from './FoundationWrittenPractice';
 import FoundationSparklingAssessmentPractice from './FoundationSparklingAssessmentPractice';
@@ -43,13 +44,32 @@ export default function FoundationPage({go,initialTarget,initialCohortCity}:Foun
  }
  // Remount only after a successful restore so every local progress hook reads the new records.
  // Keeping old sibling state alive would let the next answer/navigation overwrite restored data.
- return <>{restore.message&&<p id="foundation-restore-status" role="status" tabIndex={-1}>{restore.message}</p>}<FoundationContent key={restore.revision} go={go} initialCohortCity={initialCohortCity} onRestored={onRestored}/></>;
+ return <>{restore.message&&<p id="foundation-restore-status" role="status" tabIndex={-1}>{restore.message}</p>}<FoundationContent key={restore.revision} go={go} initialTarget={initialTarget} initialCohortCity={initialCohortCity} onRestored={onRestored}/></>;
 }
 
-function FoundationContent({go,onRestored,initialCohortCity=''}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
+function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
  const [cohortCity,setCohortCity]=useState(initialCohortCity);
- return (<><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
-<FoundationDirectory/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/><FoundationStudy cityName={cohortCity} onCityChange={setCohortCity}/>
+ const [precourse,setPrecourse]=useState(initialTarget==='foundation-study-title'||initialTarget==='foundation-day-one-title');
+ const navigationTarget=useRef('');
+ useEffect(()=>{
+  if(!navigationTarget.current)return;
+  focusFoundationTarget(navigationTarget.current);
+  navigationTarget.current='';
+ },[precourse]);
+ function changePrecourse(open:boolean){
+  navigationTarget.current=open?'foundation-study-title':'foundation-directory-title';
+  setPrecourse(open);
+ }
+ return (<>
+<section id="foundation-precourse" hidden={!precourse}>
+ <button className="back-link" id="foundation-precourse-back" onClick={()=>changePrecourse(false)}>← 返回课程</button>
+ <h1 id="foundation-study-title" tabIndex={-1} className="foundation-precourse-heading">课前预习</h1>
+ <FoundationDayOneGuide/>
+</section>
+<div hidden={precourse}><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
+<FoundationDirectory onPrecourse={()=>changePrecourse(true)}/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/></div>
+<FoundationStudy cityName={cohortCity} onCityChange={setCohortCity} precourse={precourse}/>
+<div hidden={precourse}>
 <FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
 <section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
  <h2 id="foundation-course-title">进入正式课程之后</h2>
@@ -251,7 +271,7 @@ function FoundationContent({go,onRestored,initialCohortCity=''}:FoundationPagePr
   <button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button>
   <button className="button secondary" onClick={()=>go(FOUNDATION_RECALL_PAGE)}>课程口头自练</button>
  </div>
-</section></>);
+</section></div></>);
 }
 
 function PageTitle({eyebrow,title,desc}:{eyebrow:string,title:string,desc:string}){return <div className="page-title"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{desc}</p></div>}

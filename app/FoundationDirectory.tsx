@@ -4,7 +4,7 @@ import {openReviewRecap} from './FoundationReviewRecap';
 import './foundation-study.css';
 
 const stages = [
-  {target: 'foundation-study-title', title: '课前预习', description: '选 4 周或 8 周，从基础概念读起。'},
+  {target: 'foundation-study-title', title: '课前预习', description: '先看 Day 1 的知识清单。'},
   {target: 'foundation-cohort-bridge-title', title: '课间复习', description: '选第22期上课城市，查看两阶段之间的复习建议。'},
   {target: 'foundation-assessment-title', title: '考核与结课', description: '查看复习索引、情境自练和证书说明。'},
   {target: 'foundation-cohort-title', title: '五城班期与报名', description: '查面授日期、老师、学费和报名表。'},
@@ -28,7 +28,7 @@ type QuizStatus = {
   target:{prefix:string; questionId:string; number:number};
 };
 
-export default function FoundationDirectory() {
+export default function FoundationDirectory({onPrecourse}: {onPrecourse: () => void}) {
   const [quizStatuses,setQuizStatuses]=useState<Record<string,QuizStatus>>({});
   useEffect(()=>{
     function updateQuizStatus(event:Event){
@@ -44,7 +44,7 @@ export default function FoundationDirectory() {
       <h2 id="foundation-directory-title">课程导览</h2>
       <div className="foundation-directory-grid">
         {stages.map(({target, title, description}) => (
-          <button className="button secondary" key={target} type="button" onClick={() => focusFoundationTarget(target)}>
+          <button className="button secondary" key={target} type="button" onClick={target === 'foundation-study-title' ? onPrecourse : () => focusFoundationTarget(target)}>
             <strong>{title}</strong>
             <span>{description}</span>
           </button>

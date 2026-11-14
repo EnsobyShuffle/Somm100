@@ -77,7 +77,7 @@ export default function FoundationConcepts({reviewReturn, readingReturn, practic
         <div className="button-row">
           <button type="button" className="button secondary" onClick={readingReturn?.conceptId === id
             ? readingReturn.onReturn
-            : () => focusFoundationTarget('foundation-study-title')}>
+            : () => focusFoundationTarget('foundation-weekly-study-title')}>
             {readingReturn?.conceptId === id ? '返回本周阅读入口' : '回到本周预习'}
           </button>
           {reviewReturn?.conceptId === id && (

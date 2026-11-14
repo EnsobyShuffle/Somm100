@@ -19,7 +19,7 @@ window.HTMLAnchorElement.prototype.click=function(){downloads.push(this.download
 const oldCreate=URL.createObjectURL,oldRevoke=URL.revokeObjectURL;
 URL.createObjectURL=()=> 'blob:test-backup';URL.revokeObjectURL=()=>{};
 const days=['d1','d2','d3','d4'];
-const reviewTitles=['foundation-study-title','foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-d3-title','foundation-d4-title'];
+const reviewTitles=['foundation-weekly-study-title','foundation-d1-title','foundation-d2-title','foundation-france-title','foundation-d3-title','foundation-d4-title'];
 const check=title=>document.querySelector(`section[aria-labelledby="${title}"] input[type=checkbox]`);
 async function bridgeDay(value){const select=document.querySelector('#foundation-bridge-day');await act(async()=>{select.value=String(value);select.dispatchEvent(new window.Event('change',{bubbles:true}))})}
 const key=day=>`somm100.foundation.${day}-quiz.v1`;

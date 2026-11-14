@@ -23,7 +23,7 @@ const root=createRoot(document.getElementById('root'));
 try{
  window.localStorage.setItem(FOUNDATION_BRIDGE_KEY,JSON.stringify({version:1,unit:21,checks:{},answers:{}}));
  await act(async()=>root.render(React.createElement(Page,{go:path=>routes.push(path)})));
- assert.equal(document.querySelector('h1').textContent,'先理解一瓶酒，再走进课堂。');
+ assert.equal(document.querySelector('h1:not([hidden] h1)').textContent,'先理解一瓶酒，再走进课堂。');
  const chapters=[...document.querySelectorAll('.foundation-chapter')];
  assert.deepEqual(chapters.map(x=>x.id),Array.from({length:8},(_,i)=>'foundation-'+i));
  const links=chapters.flatMap(x=>[...x.querySelectorAll('a')]);
@@ -32,7 +32,7 @@ try{
  assert.deepEqual(links.map(link=>[link.textContent,link.getAttribute('href'),link.nextElementSibling.textContent]),
    sourceMap.articles.map(({title,url,whyRead})=>[`${title} ↗`,url,`为什么看：${whyRead}`]));
  assert(links.every(link=>link.target==='_blank'&&link.relList.contains('noopener')));
- const study=document.querySelector('[aria-labelledby="foundation-study-title"]');
+ const study=document.querySelector('[aria-labelledby="foundation-weekly-study-title"]');
  const firstCheck=study.querySelector('input[type="checkbox"]');
  await act(async()=>firstCheck.click());
  const prepRecord=window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
@@ -183,7 +183,7 @@ try{
    .find(button=>button.textContent==='回到本周预习');
  assert(genericBack);
  await act(async()=>genericBack.click());
- assert.equal(document.activeElement.id,'foundation-study-title');
+ assert.equal(document.activeElement.id,'foundation-weekly-study-title');
  assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
  const prepCity=cityPrep.querySelector('select');
@@ -270,7 +270,7 @@ try{
    await act(async()=>details.querySelector('summary').click());
    assert.equal(details.open,true);
    await act(async()=>chapter.querySelector('button').click());
-   assert.equal(document.activeElement.id,chapter.id==='foundation-0'?firstConceptButton.id:'foundation-study-title');
+   assert.equal(document.activeElement.id,chapter.id==='foundation-0'?firstConceptButton.id:'foundation-weekly-study-title');
    assert.equal(window.location.hash,'#foundation');
    assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  }
@@ -416,6 +416,33 @@ try{
    assert.equal(document.getElementById(recapId).open,false);
  }
  const recordsBeforeDirectory=Object.entries(window.localStorage);
+ await act(async()=>stages[0].click());
+ const guide=document.querySelector('.foundation-day-one');
+ assert(!guide.closest('[hidden]'));
+ assert.equal(document.activeElement.id,'foundation-study-title');
+ assert.equal(guide.querySelectorAll('.foundation-day-one-list > li').length,10);
+ for (const id of ['foundation-cohort-title','foundation-cohort-bridge-title','foundation-prep-city-title','foundation-assessment-title']){
+   assert(document.getElementById(id).closest('[hidden]'),id+' must stay outside precourse');
+ }
+ const topic=guide.querySelector('details');
+ await act(async()=>topic.querySelector('summary').click());
+ assert(topic.open);
+ assert.match(topic.textContent,/果肉提供水、糖和酸/);
+ assert.match(topic.querySelector('a').href,/^https:\/\/mp.weixin.qq.com\//);
+ assert.equal(topic.querySelector('details').open,false);
+ const resources=guide.querySelectorAll('.foundation-video-study');
+ assert.equal(resources.length,2);
+ assert.equal(resources[0].querySelector('a').hostname,'www.bourgogne-wines.com');
+ assert.equal(resources[1].querySelector('a').hostname,'www.champagne.fr');
+ for(const id of [...guide.querySelectorAll('[id]')].map(node=>node.id)){
+   assert.equal(document.querySelectorAll(`[id="${id}"]`).length,1);
+ }
+ await act(async()=>topic.querySelector('button').click());
+ assert.equal(document.activeElement.id,'foundation-2');
+ await act(async()=>document.getElementById('foundation-precourse-back').click());
+ assert(guide.closest('[hidden]'));
+ assert.equal(document.activeElement.id,'foundation-directory-title');
+ assert.deepEqual(Object.entries(window.localStorage),recordsBeforeDirectory);
  for(const [buttons,targets] of [[stages,stageTargets],[topics,topicTargets]]){
    assert.equal(buttons.length,targets.length);
    if(buttons===topics){
@@ -426,6 +453,7 @@ try{
      await act(async()=>button.click());
      assert.deepEqual(scrolls.at(-1),{id:targets[i],behavior:'instant',block:'start'});
      assert.equal(document.activeElement.id,targets[i]);
+     if(targets[i]==='foundation-study-title')await act(async()=>document.getElementById('foundation-precourse-back').click());
      const recapId=button.getAttribute('aria-controls');
      if(recapId)assert.equal(document.getElementById(recapId).open,true);
      assert.equal(window.location.hash,'#foundation');

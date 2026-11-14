@@ -111,6 +111,14 @@ try{
        const id=targetUrl.hash.slice(1);
        assert.equal(document.activeElement.id,id);
        assert.equal(scrolledTo,id);
+       if (id==='foundation-study-title') {
+         const guide=document.querySelector('.foundation-day-one');
+         assert(!guide.closest('[hidden]'));
+         assert.equal(guide.querySelectorAll('.foundation-day-one-list > li').length,10);
+         assert(document.querySelector('#foundation-cohort-title').closest('[hidden]'));
+         assert(document.querySelector('#foundation-assessment-title').closest('[hidden]'));
+         assert(document.querySelector('#foundation-weekly-study-title'));
+       }
        if (id==='foundation-cohort-bridge-title') {
          const city=cohort.cities.find(item=>item.calendarSlug===targetUrl.searchParams.get('city'));
          const first=document.getElementById(id).parentElement;
