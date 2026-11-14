@@ -154,9 +154,36 @@ try{
    }
  }
  assert.equal(practiceShortcuts,8);
+ let readingRoundTrips=0;
+ for (const pace of [8,4]) {
+   await chooseStudyOption(paceSelect,pace);
+   for (const week of studyData.weeks) {
+     await chooseStudyOption(weekSelect,pace===4?Math.ceil(week.number/2):week.number);
+     const saved=window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
+     for (const conceptId of week.concepts) {
+       const start=document.getElementById(`${week.id}-read-${conceptId}`);
+       await act(async()=>start.click());
+       assert.equal(document.activeElement.id,conceptId);
+       const back=[...document.getElementById(conceptId).querySelectorAll('button')]
+         .find(button=>button.textContent==='返回本周阅读入口');
+       assert(back);
+       await act(async()=>back.click());
+       assert.equal(document.activeElement,start);
+       assert.equal(start.tabIndex,0);
+       assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),saved);
+       readingRoundTrips++;
+     }
+   }
+ }
+ assert.equal(readingRoundTrips,2*studyData.weeks.reduce((total,week)=>total+week.concepts.length,0));
  await chooseStudyOption(paceSelect,8);
  await chooseStudyOption(weekSelect,1);
  assert(![...document.querySelectorAll('button')].some(button=>button.textContent==='返回本周练习入口'));
+ const genericBack=[...document.getElementById('foundation-6').querySelectorAll('button')]
+   .find(button=>button.textContent==='回到本周预习');
+ assert(genericBack);
+ await act(async()=>genericBack.click());
+ assert.equal(document.activeElement.id,'foundation-study-title');
  assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  const cityPrep=document.querySelector('[aria-labelledby="foundation-prep-city-title"]');
  const prepCity=cityPrep.querySelector('select');
@@ -243,7 +270,7 @@ try{
    await act(async()=>details.querySelector('summary').click());
    assert.equal(details.open,true);
    await act(async()=>chapter.querySelector('button').click());
-   assert.equal(document.activeElement.id,'foundation-study-title');
+   assert.equal(document.activeElement.id,chapter.id==='foundation-0'?firstConceptButton.id:'foundation-study-title');
    assert.equal(window.location.hash,'#foundation');
    assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  }

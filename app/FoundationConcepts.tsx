@@ -12,7 +12,11 @@ import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 type ReviewReturn = {conceptId: string; onReturn: () => void};
 type PracticeReturn = {caseId: string; onReturn: () => void};
 
-export default function FoundationConcepts({reviewReturn, practiceReturn}: {reviewReturn?: ReviewReturn; practiceReturn?: PracticeReturn}) {
+export default function FoundationConcepts({reviewReturn, readingReturn, practiceReturn}: {
+  reviewReturn?: ReviewReturn;
+  readingReturn?: ReviewReturn;
+  practiceReturn?: PracticeReturn;
+}) {
   return <>
     <section className="white-panel" aria-labelledby="foundation-concept-index">
       <h3 id="foundation-concept-index">学习目录</h3>
@@ -71,7 +75,11 @@ export default function FoundationConcepts({reviewReturn, practiceReturn}: {revi
           <p>{answer}</p>
         </details>
         <div className="button-row">
-          <button type="button" className="button secondary" onClick={() => focusFoundationTarget('foundation-study-title')}>回到本周预习</button>
+          <button type="button" className="button secondary" onClick={readingReturn?.conceptId === id
+            ? readingReturn.onReturn
+            : () => focusFoundationTarget('foundation-study-title')}>
+            {readingReturn?.conceptId === id ? '返回本周阅读入口' : '回到本周预习'}
+          </button>
           {reviewReturn?.conceptId === id && (
             <button type="button" className="button secondary" onClick={reviewReturn.onReturn}>回到刚才的准备度题</button>
           )}

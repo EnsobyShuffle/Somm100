@@ -11,10 +11,6 @@ import './foundation-study.css';
 
 const h = React.createElement;
 const conceptTitles = Object.fromEntries(concepts.map(({id, title}) => [id, title]));
-function scrollToConcept(id) {
-  focusFoundationTarget(id);
-}
-
 export default function FoundationStudy({cityName, onCityChange}) {
   const [progress, setProgress] = useState(emptyFoundationProgress);
   const [loaded, setLoaded] = useState(false);
@@ -23,6 +19,7 @@ export default function FoundationStudy({cityName, onCityChange}) {
   const pendingQuestionFocus = useRef(null);
   const [reviewOrigin, setReviewOrigin] = useState(null);
   const [practiceOrigin, setPracticeOrigin] = useState(null);
+  const [readingOrigin, setReadingOrigin] = useState(null);
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(FOUNDATION_STORAGE_KEY);
@@ -70,6 +67,9 @@ export default function FoundationStudy({cityName, onCityChange}) {
   const visibleWeeks = data.weeks.filter(w => w.number === firstWeek || (progress.pace === 4 && w.number === firstWeek + 1));
   const practiceReturn = visibleWeeks.some(week => week.number === practiceOrigin?.week)
     ? {caseId: practiceOrigin.caseId, onReturn: () => focusFoundationTarget(`foundation-week-practice-${practiceOrigin.caseId}`)}
+    : undefined;
+  const readingReturn = visibleWeeks.some(week => week.id === readingOrigin?.weekId)
+    ? {conceptId: readingOrigin.conceptId, onReturn: () => focusFoundationTarget(readingOrigin.buttonId)}
     : undefined;
   const reviewQuestions = data.questions.filter(q => progress.answers[q.id] && progress.answers[q.id].latest !== q.answer);
   function reviewQuestion(question, targetId) {
@@ -128,7 +128,14 @@ export default function FoundationStudy({cityName, onCityChange}) {
         reviewOrigin?.targetId === `${week.id}-digest`
           ? h('button', {type: 'button', className: 'button secondary', onClick: returnToQuestion}, '回到刚才的准备度题')
           : null,
-        h('div', {className: 'button-row'}, week.concepts.map(id => h('button', {type: 'button', className: 'button secondary', key: id, onClick: () => scrollToConcept(id)}, `阅读｜${conceptTitles[id]}`))),
+        h('div', {className: 'button-row'}, week.concepts.map(id => {
+          const buttonId = `${week.id}-read-${id}`;
+          return h('button', {type: 'button', className: 'button secondary', id: buttonId, key: id, tabIndex: 0,
+            onClick: () => {
+              setReadingOrigin({weekId: week.id, conceptId: id, buttonId});
+              focusFoundationTarget(id);
+            }}, `阅读｜${conceptTitles[id]}`);
+        })),
         week.practices?.length > 0 && h('div', {className: 'button-row foundation-week-practice'},
           week.practices.map(({id, title}) => h('button', {
             key: id, id: `foundation-week-practice-${id}`, type: 'button', tabIndex: 0,
@@ -172,6 +179,7 @@ export default function FoundationStudy({cityName, onCityChange}) {
 
   return h(React.Fragment, null, study, h(FoundationConcepts, {
     practiceReturn,
+    readingReturn,
     reviewReturn: reviewOrigin
       ? {conceptId: reviewOrigin.targetId, onReturn: returnToQuestion}
       : undefined,
