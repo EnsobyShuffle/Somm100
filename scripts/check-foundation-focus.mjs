@@ -114,7 +114,7 @@ try{
        if (id==='foundation-study-title') {
          const guide=document.querySelector('.foundation-day-one');
          assert(!guide.closest('[hidden]'));
-         assert.equal(guide.querySelectorAll('.foundation-day-one-list > li').length,10);
+         assert.equal(guide.querySelectorAll('.foundation-day-one-list > li').length,11);
          assert(document.querySelector('#foundation-cohort-title').closest('[hidden]'));
          assert(document.querySelector('#foundation-assessment-title').closest('[hidden]'));
          assert(document.querySelector('#foundation-weekly-study-title'));
@@ -155,6 +155,15 @@ try{
        shortcutCount++;
      }
    }finally{courseHome.window.close();}
+ }
+ for(const mount of ['/','/somm100/']){
+   await act(async()=>root.render(null));
+   window.history.replaceState(null,'',mount+'foundation.html#foundation-prep-grape-types');
+   await act(async()=>root.render(React.createElement(Focus)));
+   const topic=document.getElementById('foundation-prep-grape-types');
+   assert(topic.open && !topic.closest('[hidden]'));
+   assert.equal(document.activeElement,topic);
+   assert.equal(topic.querySelector('details').open,false);
  }
  await act(async()=>root.render(null));
  window.history.replaceState(null,'','?city=unknown#foundation-cohort-bridge-title');

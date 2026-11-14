@@ -420,11 +420,23 @@ try{
  const guide=document.querySelector('.foundation-day-one');
  assert(!guide.closest('[hidden]'));
  assert.equal(document.activeElement.id,'foundation-study-title');
- assert.equal(guide.querySelectorAll('.foundation-day-one-list > li').length,10);
+ const guideTopics=[...guide.querySelectorAll('.foundation-day-one-list > li > details')];
+ assert.equal(guideTopics.length,11);
+ const [types,topic]=guideTopics;
+ assert.equal(types.querySelector('summary').textContent,'葡萄的种类');
+ assert.equal(topic.querySelector('summary').textContent,'葡萄的结构');
+ assert.equal(types.open,false);
+ await act(async()=>types.querySelector('summary').click());
+ assert(types.open);
+ assert.match(types.querySelector('p').textContent,/Vitis vinifera/);
+ const typeAnswer=types.querySelector('details');
+ assert.equal(typeAnswer.open,false);
+ await act(async()=>typeAnswer.querySelector('summary').click());
+ assert(typeAnswer.open);
+ assert.equal(types.querySelectorAll('a[href^="https://mp.weixin.qq.com/"]').length,2);
  for (const id of ['foundation-cohort-title','foundation-cohort-bridge-title','foundation-prep-city-title','foundation-assessment-title']){
    assert(document.getElementById(id).closest('[hidden]'),id+' must stay outside precourse');
  }
- const topic=guide.querySelector('details');
  await act(async()=>topic.querySelector('summary').click());
  assert(topic.open);
  assert.match(topic.textContent,/果肉提供水、糖和酸/);

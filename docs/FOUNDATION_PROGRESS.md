@@ -1,3 +1,15 @@
+# Foundation · 2026-11-15 · Day 1 从葡萄的种类开始
+
+基线 `9223f4b1c34001fff9f6666ecdae61724095c952`，分支 `migration/tencent-somm100`。核对当前源码、迁移说明、前轮检查点与 Henry 对预习开头的修正。
+
+- `app/FoundationDayOneGuide.tsx` 把「葡萄的种类」放到 Day 1 清单首位，原「葡萄的结构」接在第二项。以欧洲葡萄种、霞多丽、黑皮诺解释种与栽培品种，再用鲜食／酿酒、浅色／深色说明其他分类角度。首项有可展开自查和两篇既有公众号导读，复用原链接和推荐理由。直接进入 `#foundation-prep-grape-types` 会打开预习视图和首项，答案保持折叠。原 10 个知识点、课堂复习单元 ID、4／8 周和本机记录继续沿用。
+- 依据 [D1–D2 清单](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd) 的 D1-01、[课前框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[Guided Learning](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)，用 [勃艮第葡萄酒行业协会](https://www.bourgogne-wines.com/wine-and-terroir/our-grape-varietals-our-colors/pinot-noir-and-chardonnay-the-bourgogne-region-s-two-noble-grape-varietals,2475,9265.html) 核对霞多丽和黑皮诺示例。旧 Chapter 00 仍为已停用原型。招生信息沿用已核字段，未修改。
+- D1 现有 11 个预习主题、10 节复习、25 题、9 案例。D2 现有 9 个品种、6 个法国专题、42 题、9 案例。D3 现有 13 节、30 题、10 案例。D4 现有 15 节、45 题、13 案例。D1–D4 是授课阶段，逐日分时和原课件仍待取得。D5 为考核，已核五城日期，分配与细则待确认。第22期无 D6 面授，游学另排。
+- 457 文件的 CloudBase 构建及 87 项 Foundation 单测通过。整页检查覆盖首两项顺序、折叠自查、原文链接、本机记录；两个部署路径下的首项直达与原有 50 次入口检查、备份恢复通过。11 月 15 日正式专注页 HTML 哈希仍为 `331577fa5f9d657838c9360f36416098f6bc574eba2d7325ee45898e720641c1`，未取得上海 CloudBase 现有应用的授权发布通路或本版回执。手机实机、公众号内阅读和线上验收仍待。保留 `[skip netlify]` 与 `ignore = "exit 0"`。
+- 下一断点：沿 Day 1 清单检查概念到自查和延伸阅读的连贯性及手机体验。取得正式课件后再核对具体面授时段。
+
+---
+
 # Foundation · 2026-11-15 · Day 1 知识清单与独立预习视图
 
 基线 `cb92c25204c7aa9a8997ac10d098e2a5330cb209`，分支 `migration/tencent-somm100`。读取了当前源码、来源表、迁移说明及前轮检查点。最新要求为先显示 Day 1 知识清单，逐项带学员阅读和练习，预习页仅显示课前内容。

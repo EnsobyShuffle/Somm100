@@ -17,11 +17,29 @@ const topics = {
   'foundation-d1-10': {title:'酒标上的线索', concept:'foundation-7', articles:[], check:'拿到一张酒标，哪些信息能直接读出，哪些需要另查？'},
 };
 
+const varietyExamples = concepts.find(({id})=>id==='foundation-5')!.articles
+  .filter(({title})=>title.startsWith('不知道霞多丽') || title.startsWith('圈内必知：除了勃艮第'));
+
 export default function FoundationDayOneGuide(){
   return <section className="white-panel foundation-study foundation-day-one" aria-labelledby="foundation-day-one-title">
     <h2 id="foundation-day-one-title">Day 1｜知识清单</h2>
-    <p>从一颗葡萄开始，学到看懂一张酒标。</p>
+    <p>先认识葡萄的种类，再看它的结构、生长和酿造，最后练习读酒标。</p>
     <ol className="foundation-day-one-list">
+      <li>
+        <details id="foundation-prep-grape-types">
+          <summary>葡萄的种类</summary>
+          <p>先分清两个词。<strong>葡萄种</strong>是植物分类，例如欧洲葡萄种（<i>Vitis vinifera</i>），是酿酒葡萄的主要来源。<strong>葡萄品种</strong>是葡萄栽培中使用的具体名称，例如霞多丽和黑皮诺，两者都属于欧洲葡萄种。</p>
+          <p>日常也会按用途区分鲜食葡萄和酿酒葡萄，按果皮颜色区分浅色和深色葡萄。读到「霞多丽」或「黑皮诺」时，先知道这是品种名。霞多丽是浅色品种，黑皮诺是深色品种。深色品种也能酿白酒，取汁时减少与果皮的接触即可减少颜色浸出。</p>
+          <p><strong>想一想</strong>　欧洲葡萄种、霞多丽和黑皮诺，哪个是葡萄种，哪两个是品种？</p>
+          <details className="foundation-day-one-answer">
+            <summary>查看答案</summary>
+            <p>欧洲葡萄种是葡萄种。霞多丽和黑皮诺是它下面的两个栽培品种。下一节看果皮、果肉、籽和梗，理解这些部位怎样影响成酒。</p>
+          </details>
+          <ul className="foundation-day-one-readings">
+            {varietyExamples.map(({title,whyRead,url})=><li key={url}><a href={url} target="_blank" rel="noopener noreferrer">{title} ↗</a><p>{whyRead}</p></li>)}
+          </ul>
+        </details>
+      </li>
       {dayOne.units.map(unit=>{
         const topic=topics[unit.id as keyof typeof topics];
         const concept=concepts.find(item=>item.id===topic.concept);

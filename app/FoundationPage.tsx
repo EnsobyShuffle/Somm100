@@ -49,7 +49,7 @@ export default function FoundationPage({go,initialTarget,initialCohortCity}:Foun
 
 function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
  const [cohortCity,setCohortCity]=useState(initialCohortCity);
- const [precourse,setPrecourse]=useState(initialTarget==='foundation-study-title'||initialTarget==='foundation-day-one-title');
+ const [precourse,setPrecourse]=useState(initialTarget==='foundation-study-title'||initialTarget==='foundation-day-one-title'||initialTarget==='foundation-prep-grape-types');
  const navigationTarget=useRef('');
  useEffect(()=>{
   if(!navigationTarget.current)return;
