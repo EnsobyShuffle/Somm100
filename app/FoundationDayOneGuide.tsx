@@ -1,6 +1,7 @@
 import React from 'react';
 import concepts from '../data/foundation-concepts.json';
 import dayOne from '../data/foundation-d1.json';
+import prepResources from '../data/foundation-d1-prep-resources.json';
 import FoundationVideoStudy from './FoundationVideoStudy';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
@@ -43,7 +44,12 @@ export default function FoundationDayOneGuide(){
       {dayOne.units.map(unit=>{
         const topic=topics[unit.id as keyof typeof topics];
         const concept=concepts.find(item=>item.id===topic.concept);
-        const readings=concept?.articles.filter(article=>topic.articles.includes(article.title)) ?? [];
+        const resources=prepResources[unit.id as keyof typeof prepResources];
+        const readings=[
+          ...(concept?.articles.filter(article=>topic.articles.includes(article.title)) ?? []),
+          ...(resources && 'articles' in resources ? resources.articles : []),
+        ];
+        const videos=resources && 'videos' in resources ? resources.videos : [];
         return <li key={unit.id}>
           <details id={`foundation-prep-${unit.id}`}>
             <summary>{topic.title}</summary>
@@ -56,6 +62,13 @@ export default function FoundationDayOneGuide(){
             </details>
             {readings.length>0 && <ul className="foundation-day-one-readings">
               {readings.map(({title,whyRead,url})=><li key={url}><a href={url} target="_blank" rel="noopener noreferrer">{title} ↗</a><p>{whyRead}</p></li>)}
+            </ul>}
+            {videos.length>0 && <ul className="foundation-day-one-readings">
+              {videos.map(({title,url,publisher,seconds,whyWatch})=><li key={url}>
+                <a href={url} target="_blank" rel="noopener noreferrer">{title}</a>
+                <p>B站 · {publisher} · {seconds} 秒</p>
+                <p>{whyWatch}</p>
+              </li>)}
             </ul>}
             <FoundationVideoStudy unitId={unit.id} idPrefix="foundation-prep-"/>
             {concept && <button type="button" className="button secondary" onClick={()=>focusFoundationTarget(concept.id)}>继续读｜{concept.title}</button>}

@@ -1,0 +1,67 @@
+{
+  "foundation-d1-03": {
+    "articles": [
+      {
+        "title": "昼夜温差会对葡萄酒造成哪些影响？",
+        "whyRead": "比较白天和夜间温度可能怎样影响葡萄成熟，读完再回到本节想一想温差以外的因素。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU3NjU1ODUzMw==&mid=2247492337&idx=1&sn=46fc766874cc9069465fba6938943cf3&chksm=fd10a65bca672f4d66bd6c30e9bf13d65cd7aea90462977e491981484a961148ff3c3aaff42b&scene=21#wechat_redirect"
+      }
+    ]
+  },
+  "foundation-d1-04": {
+    "articles": [
+      {
+        "title": "什么是葡萄园里的“绿色采收”？",
+        "whyRead": "了解疏除未成熟果串在什么情况下有用，并想一想它和正式采收有什么区别。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU3NjU1ODUzMw==&mid=2247489894&idx=1&sn=4b80dd5375222a97d2f2c8367d08a887&chksm=fd135dccca64d4da4e13e17a094e8d9814d218157123f43a9d41851969418e5cdf910ff08342&scene=21#wechat_redirect"
+      }
+    ],
+    "videos": [
+      {
+        "title": "【银色高地】这个国产酒庄为了抵御霜冻都做了什么？",
+        "url": "https://www.bilibili.com/video/BV1zg4y1z7JH/",
+        "publisher": "宁夏银色高地葡萄酒庄",
+        "seconds": 24,
+        "whyWatch": "观察酒庄为保护刚萌芽的植株做了什么，再说明为什么春霜对嫩芽是个风险。"
+      }
+    ]
+  },
+  "foundation-d1-05": {
+    "articles": [
+      {
+        "title": "为何大多酿酒葡萄需要进行嫁接（Grafting）？“接穗”、“砧木”都是什么？",
+        "whyRead": "对照文章分清接穗和砧木各负责什么，再试着解释嫁接为什么能应对根瘤蚜。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU3NjU1ODUzMw==&mid=2247495803&idx=1&sn=aa7b93be9b8f02ea0816fe652b7e4842&chksm=fd10b4d1ca673dc773a935cc8a49ff3633ca3148970160c955de58be769445f3ce3d37f34e86&scene=21#wechat_redirect"
+      }
+    ]
+  },
+  "foundation-d1-07": {
+    "articles": [
+      {
+        "title": "什么是整串发酵",
+        "whyRead": "看懂整串发酵中哪些部分进入发酵容器，再与去梗后的带皮发酵比较。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU3NjU1ODUzMw==&mid=2247489055&idx=1&sn=af152dea0ebb8aea9d943450b03a2009&source=41#wechat_redirect"
+      }
+    ]
+  },
+  "foundation-d1-08": {
+    "articles": [
+      {
+        "title": "葡萄酒的“酒泥”是什么？",
+        "whyRead": "了解酒泥是什么，并把酒泥接触、橡木容器和苹果酸乳酸转化区分开。",
+        "url": "https://mp.weixin.qq.com/s/vXN2bzR4Zoe06kgYbiDGQw"
+      }
+    ]
+  },
+  "foundation-d1-02": {
+    "videos": [
+      {
+        "title": "葡萄生长日志",
+        "url": "https://www.bilibili.com/video/BV1Cb4y1Z7R8/",
+        "publisher": "UCW向上中国葡萄酒",
+        "seconds": 33,
+        "whyWatch": "找两个你能辨认的阶段，各记一条画面线索，再对照本节的生长顺序。"
+      }
+    ]
+  }
+}

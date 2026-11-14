@@ -442,6 +442,13 @@ try{
  assert.match(topic.textContent,/果肉提供水、糖和酸/);
  assert.match(topic.querySelector('a').href,/^https:\/\/mp.weixin.qq.com\//);
  assert.equal(topic.querySelector('details').open,false);
+ const topicLinks=(id,host)=>[...document.getElementById(`foundation-prep-foundation-d1-${id}`).querySelectorAll('a')]
+   .filter(link=>link.hostname===host).map(link=>link.href);
+ assert.deepEqual(topicLinks('02','www.bilibili.com'),['https://www.bilibili.com/video/BV1Cb4y1Z7R8/']);
+ assert.deepEqual(topicLinks('04','www.bilibili.com'),['https://www.bilibili.com/video/BV1zg4y1z7JH/']);
+ const readCounts=['03','04','05','07','08'].map(id=>topicLinks(id,'mp.weixin.qq.com').length);
+ assert.deepEqual(readCounts,[3,1,1,3,2]);
+ assert.equal(guide.querySelectorAll('a[href*="youtube.com"]').length,0);
  const resources=guide.querySelectorAll('.foundation-video-study');
  assert.equal(resources.length,2);
  assert.equal(resources[0].querySelector('a').hostname,'www.bourgogne-wines.com');
