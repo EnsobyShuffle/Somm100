@@ -11,7 +11,7 @@ import './foundation-study.css';
 
 const h = React.createElement;
 const conceptTitles = Object.fromEntries(concepts.map(({id, title}) => [id, title]));
-export default function FoundationStudy({cityName, onCityChange, precourse=false}) {
+export default function FoundationStudy({cityName, onCityChange, precourse=false, dayOneReading=null, onReadWeek}) {
   const [progress, setProgress] = useState(emptyFoundationProgress);
   const [loaded, setLoaded] = useState(false);
   const [saveError, setSaveError] = useState('');
@@ -70,9 +70,13 @@ export default function FoundationStudy({cityName, onCityChange, precourse=false
     : visibleWeeks.some(week => week.number === practiceOrigin?.week)
       ? {caseId: practiceOrigin.caseId, onReturn: () => focusFoundationTarget(`foundation-week-practice-${practiceOrigin.caseId}`)}
       : undefined;
-  const readingReturn = visibleWeeks.some(week => week.id === readingOrigin?.weekId)
-    ? {conceptId: readingOrigin.conceptId, onReturn: () => focusFoundationTarget(readingOrigin.buttonId)}
-    : undefined;
+  const weeklyReading = visibleWeeks.some(week => week.id === readingOrigin?.weekId) ? readingOrigin : null;
+  const activeReading = dayOneReading ?? weeklyReading;
+  const readingReturn = activeReading ? {
+    conceptId: activeReading.conceptId,
+    onReturn: () => focusFoundationTarget(activeReading.buttonId),
+    label: dayOneReading ? '回到刚才的 Day 1 知识点' : '返回本周阅读入口',
+  } : undefined;
   const reviewQuestions = data.questions.filter(q => progress.answers[q.id] && progress.answers[q.id].latest !== q.answer);
   function reviewQuestion(question, targetId) {
     setReviewOrigin({targetId, questionId: question.id, week: question.week});
@@ -140,6 +144,7 @@ export default function FoundationStudy({cityName, onCityChange, precourse=false
           const buttonId = `${week.id}-read-${id}`;
           return h('button', {type: 'button', className: 'button secondary', id: buttonId, key: id, tabIndex: 0,
             onClick: () => {
+              onReadWeek?.();
               setReadingOrigin({weekId: week.id, conceptId: id, buttonId});
               focusFoundationTarget(id);
             }}, `阅读｜${conceptTitles[id]}`);

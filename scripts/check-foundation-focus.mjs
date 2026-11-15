@@ -156,14 +156,20 @@ try{
      }
    }finally{courseHome.window.close();}
  }
+ let prepTopicDeepLinks=0;
+ const prepTopicIds=[...document.querySelectorAll('.foundation-day-one-list > li > details')].map(topic=>topic.id);
+ assert.equal(prepTopicIds.length,11);
  for(const mount of ['/','/somm100/']){
-   await act(async()=>root.render(null));
-   window.history.replaceState(null,'',mount+'foundation.html#foundation-prep-grape-types');
-   await act(async()=>root.render(React.createElement(Focus)));
-   const topic=document.getElementById('foundation-prep-grape-types');
-   assert(topic.open && !topic.closest('[hidden]'));
-   assert.equal(document.activeElement,topic);
-   assert.equal(topic.querySelector('details').open,false);
+   for(const id of prepTopicIds){
+     await act(async()=>root.render(null));
+     window.history.replaceState(null,'',`${mount}foundation.html#${id}`);
+     await act(async()=>root.render(React.createElement(Focus)));
+     const topic=document.getElementById(id);
+     assert(topic.open && !topic.closest('[hidden]'));
+     assert.equal(document.activeElement,topic);
+     assert.equal(topic.querySelector('details').open,false);
+     prepTopicDeepLinks++;
+   }
  }
  await act(async()=>root.render(null));
  window.history.replaceState(null,'','?city=unknown#foundation-cohort-bridge-title');
@@ -175,5 +181,5 @@ try{
  assert(document.querySelector('#foundation-d1-quiz input[type=radio]').checked);
  assert.deepEqual(JSON.parse(window.localStorage.getItem(key)),saved);
  assert.deepEqual(errors,[]);
- console.log(JSON.stringify({status:'PASS',sameOriginRecordRoundTrip:true,brandPreserved:true,fullAppLink:true,courseHomeScriptFree:true,cohortCities:5,cohortDates:25,calendars:5,articleGuides:17,shortcutsChecked:shortcutCount,scope:'React/jsdom only; no real cross-page navigation or phone test'},null,2));
+ console.log(JSON.stringify({status:'PASS',sameOriginRecordRoundTrip:true,brandPreserved:true,fullAppLink:true,courseHomeScriptFree:true,cohortCities:5,cohortDates:25,calendars:5,articleGuides:17,shortcutsChecked:shortcutCount,prepTopicDeepLinks,scope:'React/jsdom only; no real cross-page navigation or phone test'},null,2));
 }finally{await act(async()=>root.unmount());console.error=oldError;dom.window.close();}

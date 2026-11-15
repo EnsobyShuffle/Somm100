@@ -459,6 +459,14 @@ try{
    assert(disclosure.open);
    assert.equal(diagram.getAttribute('aria-labelledby'),`foundation-prep-${id}-diagram-title`);
    assert.equal(diagram.querySelector('figcaption').id,diagram.getAttribute('aria-labelledby'));
+   if(id==='foundation-d1-07'){
+     const answer=disclosure.querySelector('details');
+     assert.match(disclosure.textContent,/同一批深色葡萄/);
+     assert(!answer.open);
+     await act(async()=>answer.querySelector('summary').click());
+     assert(answer.open);
+     assert.match(answer.textContent,/乙。.*果皮.*色素/);
+   }
  }
  assert.equal(guide.querySelectorAll('a[href*="youtube.com"]').length,0);
  const resources=guide.querySelectorAll('.foundation-video-study');
@@ -468,11 +476,32 @@ try{
  for(const id of [...guide.querySelectorAll('[id]')].map(node=>node.id)){
    assert.equal(document.querySelectorAll(`[id="${id}"]`).length,1);
  }
- await act(async()=>topic.querySelector('button').click());
- assert.equal(document.activeElement.id,'foundation-2');
+ for(const row of guideTopics.slice(1)){
+   if(!row.open)await act(async()=>row.querySelector('summary').click());
+   const start=row.querySelector('button[id$="-read"]');
+   const destination=document.getElementById(start.getAttribute('aria-controls'));
+   await act(async()=>start.click());
+   assert.equal(document.activeElement,destination);
+   const back=[...destination.querySelectorAll('button')].find(button=>button.textContent==='回到刚才的 Day 1 知识点');
+   assert(back);
+   await act(async()=>back.click());
+   assert.equal(document.activeElement,start);
+   assert.equal(start.tabIndex,0);
+   assert(row.open);
+ }
+ assert.equal(topic.querySelector('details').open,false);
+ const weekReading=study.querySelector('.foundation-week button[id*="-read-"]');
+ assert(weekReading);
+ await act(async()=>weekReading.click());
+ assert(![...document.querySelectorAll('button')].some(button=>button.textContent==='回到刚才的 Day 1 知识点'));
+ const weeklyBack=[...document.activeElement.querySelectorAll('button')].find(button=>button.textContent==='返回本周阅读入口');
+ assert(weeklyBack);
+ await act(async()=>weeklyBack.click());
+ assert.equal(document.activeElement,weekReading);
  await act(async()=>document.getElementById('foundation-precourse-back').click());
  assert(guide.closest('[hidden]'));
  assert.equal(document.activeElement.id,'foundation-directory-title');
+ assert(![...document.querySelectorAll('button')].some(button=>button.textContent==='回到刚才的 Day 1 知识点'));
  assert.deepEqual(Object.entries(window.localStorage),recordsBeforeDirectory);
  for(const [buttons,targets] of [[stages,stageTargets],[topics,topicTargets]]){
    assert.equal(buttons.length,targets.length);

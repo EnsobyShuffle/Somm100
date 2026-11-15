@@ -4,7 +4,6 @@ import dayOne from '../data/foundation-d1.json';
 import prepResources from '../data/foundation-d1-prep-resources.json';
 import FoundationVideoStudy from './FoundationVideoStudy';
 import FoundationDiagram from './FoundationDiagram';
-import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
 const topics = {
   'foundation-d1-01': {title:'葡萄的结构', concept:'foundation-2', articles:['解析一个葡萄'], check:'果肉里的糖、果皮里的色素和单宁，分别可能影响成酒的什么？'},
@@ -27,13 +26,20 @@ const processDiagrams: Record<string, string> = {
 const varietyExamples = concepts.find(({id})=>id==='foundation-5')!.articles
   .filter(({title})=>title.startsWith('不知道霞多丽') || title.startsWith('圈内必知：除了勃艮第'));
 
-export default function FoundationDayOneGuide(){
+const firstTopicId = 'foundation-prep-grape-types';
+const topicIds = new Set([firstTopicId, ...dayOne.units.map(({id})=>`foundation-prep-${id}`)]);
+
+export function isDayOnePrepTarget(target?: string){
+  return typeof target === 'string' && topicIds.has(target);
+}
+
+export default function FoundationDayOneGuide({onRead}: {onRead: (conceptId: string, buttonId: string) => void}){
   return <section className="white-panel foundation-study foundation-day-one" aria-labelledby="foundation-day-one-title">
     <h2 id="foundation-day-one-title">Day 1｜知识清单</h2>
     <p>先认识葡萄的种类，再看它的结构、生长和酿造，最后练习读酒标。</p>
     <ol className="foundation-day-one-list">
       <li>
-        <details id="foundation-prep-grape-types">
+        <details id={firstTopicId}>
           <summary>葡萄的种类</summary>
           <p>先分清两个词。<strong>葡萄种</strong>是植物分类，例如欧洲葡萄种（<i>Vitis vinifera</i>），是酿酒葡萄的主要来源。<strong>葡萄品种</strong>是葡萄栽培中使用的具体名称，例如霞多丽和黑皮诺，两者都属于欧洲葡萄种。</p>
           <p>日常也会按用途区分鲜食葡萄和酿酒葡萄，按果皮颜色区分浅色和深色葡萄。读到「霞多丽」或「黑皮诺」时，先知道这是品种名。霞多丽是浅色品种，黑皮诺是深色品种。深色品种也能酿白酒，取汁时减少与果皮的接触即可减少颜色浸出。</p>
@@ -57,8 +63,10 @@ export default function FoundationDayOneGuide(){
         ];
         const videos=resources && 'videos' in resources ? resources.videos : [];
         const diagramLabel=processDiagrams[unit.id];
+        const itemId=`foundation-prep-${unit.id}`;
+        const buttonId=`${itemId}-read`;
         return <li key={unit.id}>
-          <details id={`foundation-prep-${unit.id}`}>
+          <details id={itemId}>
             <summary>{topic.title}</summary>
             <p>{unit.sections[0].text}</p>
             <p><strong>想一想</strong>　{topic.check}</p>
@@ -70,6 +78,13 @@ export default function FoundationDayOneGuide(){
             {diagramLabel && <details className="foundation-day-one-answer">
               <summary>{diagramLabel}</summary>
               <FoundationDiagram unitId={unit.id} idPrefix="foundation-prep-"/>
+              {unit.id==='foundation-d1-07' && <>
+                <p><strong>看图自查</strong>　同一批深色葡萄分成两份。甲立刻压榨，取澄清的汁发酵。乙连皮发酵，再压榨。哪一份更容易得到较深的酒色？</p>
+                <details>
+                  <summary>查看答案</summary>
+                  <p>乙。酒液和果皮接触的时间较长，更容易浸出色素。甲较早把果汁和果皮分开，可能得到浅色酒。实际酒色还受品种和接触条件影响。</p>
+                </details>
+              </>}
             </details>}
             {readings.length>0 && <ul className="foundation-day-one-readings">
               {readings.map(({title,whyRead,url})=><li key={url}><a href={url} target="_blank" rel="noopener noreferrer">{title} ↗</a><p>{whyRead}</p></li>)}
@@ -82,7 +97,8 @@ export default function FoundationDayOneGuide(){
               </li>)}
             </ul>}
             <FoundationVideoStudy unitId={unit.id} idPrefix="foundation-prep-"/>
-            {concept && <button type="button" className="button secondary" onClick={()=>focusFoundationTarget(concept.id)}>继续读｜{concept.title}</button>}
+            {concept && <button type="button" id={buttonId} className="button secondary" tabIndex={0} aria-controls={concept.id}
+              onClick={()=>onRead(concept.id,buttonId)}>继续读｜{concept.title}</button>}
           </details>
         </li>;
       })}

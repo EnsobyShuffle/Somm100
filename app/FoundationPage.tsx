@@ -5,7 +5,7 @@ import {FOUNDATION_RECALL_PAGE} from '../lib/foundation-entry.mjs';
 import FoundationBridge from './FoundationBridge';
 import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
-import FoundationDayOneGuide from './FoundationDayOneGuide';
+import FoundationDayOneGuide, {isDayOnePrepTarget} from './FoundationDayOneGuide';
 import FoundationAssessmentPractice from './FoundationAssessmentPractice';
 import FoundationWrittenPractice from './FoundationWrittenPractice';
 import FoundationSparklingAssessmentPractice from './FoundationSparklingAssessmentPractice';
@@ -25,6 +25,7 @@ import FoundationFranceReview from './FoundationFranceReview';
 
 type FoundationPageProps = {go:(page:string)=>void; initialTarget?:string; initialCohortCity?:string};
 type RestoreResult = {written:number;skipped:number};
+type DayOneReading = {conceptId:string;buttonId:string};
 
 export default function FoundationPage({go,initialTarget,initialCohortCity}:FoundationPageProps){
  useEffect(()=>{
@@ -49,7 +50,8 @@ export default function FoundationPage({go,initialTarget,initialCohortCity}:Foun
 
 function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
  const [cohortCity,setCohortCity]=useState(initialCohortCity);
- const [precourse,setPrecourse]=useState(initialTarget==='foundation-study-title'||initialTarget==='foundation-day-one-title'||initialTarget==='foundation-prep-grape-types');
+ const [precourse,setPrecourse]=useState(initialTarget==='foundation-study-title'||initialTarget==='foundation-day-one-title'||isDayOnePrepTarget(initialTarget));
+ const [dayOneReading,setDayOneReading]=useState<DayOneReading|null>(null);
  const navigationTarget=useRef('');
  useEffect(()=>{
   if(!navigationTarget.current)return;
@@ -58,17 +60,22 @@ function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:Fo
  },[precourse]);
  function changePrecourse(open:boolean){
   navigationTarget.current=open?'foundation-study-title':'foundation-directory-title';
+  if (!open) setDayOneReading(null);
   setPrecourse(open);
  }
  return (<>
 <section id="foundation-precourse" hidden={!precourse}>
  <button className="back-link" id="foundation-precourse-back" onClick={()=>changePrecourse(false)}>← 返回课程</button>
  <h1 id="foundation-study-title" tabIndex={-1} className="foundation-precourse-heading">课前预习</h1>
- <FoundationDayOneGuide/>
+ <FoundationDayOneGuide onRead={(conceptId,buttonId)=>{
+  setDayOneReading({conceptId,buttonId});
+  focusFoundationTarget(conceptId);
+ }}/>
 </section>
 <div hidden={precourse}><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
 <FoundationDirectory onPrecourse={()=>changePrecourse(true)}/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/></div>
-<FoundationStudy cityName={cohortCity} onCityChange={setCohortCity} precourse={precourse}/>
+<FoundationStudy cityName={cohortCity} onCityChange={setCohortCity} precourse={precourse}
+ dayOneReading={dayOneReading} onReadWeek={()=>setDayOneReading(null)}/>
 <div hidden={precourse}>
 <FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
 <section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
