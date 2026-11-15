@@ -3,6 +3,6 @@ import React from 'react';
 import {renderFoundationDiagram} from '../lib/foundation-diagrams.mjs';
 import './foundation-study.css';
 
-export default function FoundationDiagram({unitId}) {
-  return renderFoundationDiagram(React.createElement, unitId);
+export default function FoundationDiagram({unitId, idPrefix = ''}) {
+  return renderFoundationDiagram(React.createElement, unitId, idPrefix);
 }

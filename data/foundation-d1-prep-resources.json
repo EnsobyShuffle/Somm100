@@ -1,4 +1,15 @@
 {
+  "foundation-d1-02": {
+    "videos": [
+      {
+        "title": "葡萄生长日志",
+        "url": "https://www.bilibili.com/video/BV1Cb4y1Z7R8/",
+        "publisher": "UCW向上中国葡萄酒",
+        "seconds": 33,
+        "whyWatch": "找两个你能辨认的阶段，各记一条画面线索，再对照本节的生长顺序。"
+      }
+    ]
+  },
   "foundation-d1-03": {
     "articles": [
       {
@@ -53,14 +64,14 @@
       }
     ]
   },
-  "foundation-d1-02": {
+  "foundation-d1-10": {
     "videos": [
       {
-        "title": "葡萄生长日志",
-        "url": "https://www.bilibili.com/video/BV1Cb4y1Z7R8/",
-        "publisher": "UCW向上中国葡萄酒",
-        "seconds": 33,
-        "whyWatch": "找两个你能辨认的阶段，各记一条画面线索，再对照本节的生长顺序。"
+        "title": "EP3 Denver酒语 ｜ 读懂葡萄酒酒标（上）",
+        "url": "https://www.bilibili.com/video/BV1q64y1D7e2/",
+        "publisher": "Denver酒语",
+        "seconds": 287,
+        "whyWatch": "用片中的法国或意大利酒标，抄下一个地名和一个年份，再列一项酒标上没直接写、需要另查的信息。"
       }
     ]
   }

@@ -446,8 +446,20 @@ try{
    .filter(link=>link.hostname===host).map(link=>link.href);
  assert.deepEqual(topicLinks('02','www.bilibili.com'),['https://www.bilibili.com/video/BV1Cb4y1Z7R8/']);
  assert.deepEqual(topicLinks('04','www.bilibili.com'),['https://www.bilibili.com/video/BV1zg4y1z7JH/']);
- const readCounts=['03','04','05','07','08'].map(id=>topicLinks(id,'mp.weixin.qq.com').length);
- assert.deepEqual(readCounts,[3,1,1,3,2]);
+ assert.deepEqual(topicLinks('10','www.bilibili.com'),['https://www.bilibili.com/video/BV1q64y1D7e2/']);
+ const readCounts=['03','04','05','06','07','08'].map(id=>topicLinks(id,'mp.weixin.qq.com').length);
+ assert.deepEqual(readCounts,[3,1,1,1,3,2]);
+ for(const id of ['foundation-d1-06','foundation-d1-07']){
+   const row=document.getElementById(`foundation-prep-${id}`);
+   await act(async()=>row.querySelector('summary').click());
+   const diagram=row.querySelector('figure');
+   const disclosure=diagram.closest('details');
+   assert.equal(disclosure.open,false);
+   await act(async()=>disclosure.querySelector('summary').click());
+   assert(disclosure.open);
+   assert.equal(diagram.getAttribute('aria-labelledby'),`foundation-prep-${id}-diagram-title`);
+   assert.equal(diagram.querySelector('figcaption').id,diagram.getAttribute('aria-labelledby'));
+ }
  assert.equal(guide.querySelectorAll('a[href*="youtube.com"]').length,0);
  const resources=guide.querySelectorAll('.foundation-video-study');
  assert.equal(resources.length,2);

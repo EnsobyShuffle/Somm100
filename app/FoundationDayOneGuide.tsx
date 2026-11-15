@@ -3,6 +3,7 @@ import concepts from '../data/foundation-concepts.json';
 import dayOne from '../data/foundation-d1.json';
 import prepResources from '../data/foundation-d1-prep-resources.json';
 import FoundationVideoStudy from './FoundationVideoStudy';
+import FoundationDiagram from './FoundationDiagram';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 
 const topics = {
@@ -11,11 +12,16 @@ const topics = {
   'foundation-d1-03': {title:'环境与葡萄成熟', concept:'foundation-2', articles:['影响葡萄种植的因素','土壤'], check:'同一品种换了地方，哪些条件可能改变成熟速度？'},
   'foundation-d1-04': {title:'葡萄园管理', concept:'foundation-2', articles:[], check:'葡萄园通风不足时，调整枝叶有什么用？'},
   'foundation-d1-05': {title:'根瘤蚜、嫁接与砧木', concept:'foundation-2', articles:[], check:'嫁接时，哪一部分负责扎根，哪一部分负责结果？'},
-  'foundation-d1-06': {title:'酒精发酵', concept:'foundation-3', articles:[], check:'葡萄汁里的糖在发酵中变成了什么？'},
+  'foundation-d1-06': {title:'酒精发酵', concept:'foundation-3', articles:['红葡萄酒的酿造'], check:'葡萄汁里的糖在发酵中变成了什么？'},
   'foundation-d1-07': {title:'红白葡萄酒怎么酿', concept:'foundation-3', articles:['红葡萄酒的酿造','白葡萄酒的酿造'], check:'典型红酒和白酒分别在什么时候把果皮与酒液分开？'},
   'foundation-d1-08': {title:'发酵后的处理与熟成', concept:'foundation-3', articles:['橡木桶'], check:'酸感变柔和与增加橡木气息，分别可能涉及什么处理？'},
   'foundation-d1-09': {title:'地理名称与产区规则', concept:'foundation-6', articles:[], check:'看到一个法定产区名，可以确认什么？'},
   'foundation-d1-10': {title:'酒标上的线索', concept:'foundation-7', articles:[], check:'拿到一张酒标，哪些信息能直接读出，哪些需要另查？'},
+};
+
+const processDiagrams: Record<string, string> = {
+  'foundation-d1-06': '看图｜糖去了哪里',
+  'foundation-d1-07': '看图｜红、白、桃红何时压榨',
 };
 
 const varietyExamples = concepts.find(({id})=>id==='foundation-5')!.articles
@@ -50,6 +56,7 @@ export default function FoundationDayOneGuide(){
           ...(resources && 'articles' in resources ? resources.articles : []),
         ];
         const videos=resources && 'videos' in resources ? resources.videos : [];
+        const diagramLabel=processDiagrams[unit.id];
         return <li key={unit.id}>
           <details id={`foundation-prep-${unit.id}`}>
             <summary>{topic.title}</summary>
@@ -60,13 +67,17 @@ export default function FoundationDayOneGuide(){
               {unit.sections.slice(1).map(({heading,text})=><p key={heading}>{text}</p>)}
               <p>{unit.practice}</p>
             </details>
+            {diagramLabel && <details className="foundation-day-one-answer">
+              <summary>{diagramLabel}</summary>
+              <FoundationDiagram unitId={unit.id} idPrefix="foundation-prep-"/>
+            </details>}
             {readings.length>0 && <ul className="foundation-day-one-readings">
               {readings.map(({title,whyRead,url})=><li key={url}><a href={url} target="_blank" rel="noopener noreferrer">{title} ↗</a><p>{whyRead}</p></li>)}
             </ul>}
             {videos.length>0 && <ul className="foundation-day-one-readings">
               {videos.map(({title,url,publisher,seconds,whyWatch})=><li key={url}>
                 <a href={url} target="_blank" rel="noopener noreferrer">{title}</a>
-                <p>B站 · {publisher} · {seconds} 秒</p>
+                <p>B站 · {publisher} · {seconds < 60 ? `${seconds} 秒` : `${Math.floor(seconds / 60)} 分 ${seconds % 60} 秒`}</p>
                 <p>{whyWatch}</p>
               </li>)}
             </ul>}
