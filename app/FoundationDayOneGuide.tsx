@@ -6,16 +6,56 @@ import FoundationVideoStudy from './FoundationVideoStudy';
 import FoundationDiagram from './FoundationDiagram';
 
 const topics = {
-  'foundation-d1-01': {title:'葡萄的结构', concept:'foundation-2', articles:['解析一个葡萄'], check:'果肉里的糖、果皮里的色素和单宁，分别可能影响成酒的什么？'},
-  'foundation-d1-02': {title:'葡萄树的生长周期', concept:'foundation-2', articles:['葡萄的生长季节'], check:'从萌芽到采收，大致有哪些阶段？'},
-  'foundation-d1-03': {title:'环境与葡萄成熟', concept:'foundation-2', articles:['影响葡萄种植的因素','土壤'], check:'同一品种换了地方，哪些条件可能改变成熟速度？'},
-  'foundation-d1-04': {title:'葡萄园管理', concept:'foundation-2', articles:[], check:'葡萄园通风不足时，调整枝叶有什么用？'},
-  'foundation-d1-05': {title:'根瘤蚜、嫁接与砧木', concept:'foundation-2', articles:[], check:'嫁接时，哪一部分负责扎根，哪一部分负责结果？'},
-  'foundation-d1-06': {title:'酒精发酵', concept:'foundation-3', articles:['红葡萄酒的酿造'], check:'葡萄汁里的糖在发酵中变成了什么？'},
-  'foundation-d1-07': {title:'红白葡萄酒怎么酿', concept:'foundation-3', articles:['红葡萄酒的酿造','白葡萄酒的酿造'], check:'典型红酒和白酒分别在什么时候把果皮与酒液分开？'},
-  'foundation-d1-08': {title:'发酵后的处理与熟成', concept:'foundation-3', articles:['橡木桶'], check:'酸感变柔和与增加橡木气息，分别可能涉及什么处理？'},
-  'foundation-d1-09': {title:'地理名称与产区规则', concept:'foundation-6', articles:[], check:'看到一个法定产区名，可以确认什么？'},
-  'foundation-d1-10': {title:'酒标上的线索', concept:'foundation-7', articles:[], check:'拿到一张酒标，哪些信息能直接读出，哪些需要另查？'},
+  'foundation-d1-01': {
+    title:'葡萄的结构', concept:'foundation-2', articles:['解析一个葡萄'],
+    check:'果肉里的糖、果皮里的色素和单宁，分别可能影响成酒的什么？',
+    answer:'糖为发酵提供原料，影响潜在酒精度。色素影响酒的颜色，单宁会影响涩感。',
+  },
+  'foundation-d1-02': {
+    title:'葡萄树的生长周期', concept:'foundation-2', articles:['葡萄的生长季节'],
+    check:'从萌芽到采收，大致有哪些阶段？',
+    answer:'萌芽 → 开花 → 坐果 → 转色 → 成熟 → 采收。开花之后形成幼果，转色通常出现在成熟过程的早期。',
+  },
+  'foundation-d1-03': {
+    title:'环境与葡萄成熟', concept:'foundation-2', articles:['影响葡萄种植的因素','土壤'],
+    check:'同一品种换了地方，哪些条件可能改变成熟速度？',
+    answer:'温度、日照和水分都会影响成熟。比较两个地块时，可以先看坡向带来的日照差异，再看海拔带来的温度差异和土壤的排水情况。',
+  },
+  'foundation-d1-04': {
+    title:'葡萄园管理', concept:'foundation-2', articles:[],
+    check:'葡萄园通风不足时，调整枝叶有什么用？',
+    answer:'让果串周围的空气更容易流通，潮湿时更容易干。光照太强的地块也要保留适当遮阴。',
+  },
+  'foundation-d1-05': {
+    title:'根瘤蚜、嫁接与砧木', concept:'foundation-2', articles:[],
+    check:'嫁接时，哪一部分负责扎根，哪一部分负责结果？',
+    answer:'下方的砧木提供根系，上方的接穗长出枝叶和果实。葡萄品种由接穗决定。',
+  },
+  'foundation-d1-06': {
+    title:'酒精发酵', concept:'foundation-3', articles:['红葡萄酒的酿造'],
+    check:'葡萄汁里的糖在发酵中变成了什么？',
+    answer:'酵母利用糖产生酒精和二氧化碳，过程会释放热量。没有被利用的糖会留在酒里，成为残糖。',
+  },
+  'foundation-d1-07': {
+    title:'红白葡萄酒怎么酿', concept:'foundation-3', articles:['红葡萄酒的酿造','白葡萄酒的酿造'],
+    check:'典型红酒和白酒分别在什么时候把果皮与酒液分开？',
+    answer:'典型红酒先带皮发酵，再压榨分离果皮。典型白酒先压榨分离果汁，再用果汁发酵。',
+  },
+  'foundation-d1-08': {
+    title:'发酵后的处理与熟成', concept:'foundation-3', articles:['橡木桶'],
+    check:'酸感变柔和与增加橡木气息，分别可能涉及什么处理？',
+    answer:'苹果酸乳酸转化通常会让酸感更柔和。在橡木桶中发酵或熟成可能带来木材气息，效果取决于桶龄和接触时间等条件。',
+  },
+  'foundation-d1-09': {
+    title:'地理名称与产区规则', concept:'foundation-6', articles:[],
+    check:'看到一个法定产区名，可以确认什么？',
+    answer:'先记录酒标声明的产地，再查该名称对应的规则。产地范围、允许的葡萄品种和酿造要求，以该产区的实际规定为准。',
+  },
+  'foundation-d1-10': {
+    title:'酒标上的线索', concept:'foundation-7', articles:[],
+    check:'拿到一张酒标，哪些信息能直接读出，哪些需要另查？',
+    answer:'酒标印出的生产者、产地、年份或酒精度可以直接记录。品种或酿造方法没有写明时，可以查产区规则或酒庄资料。',
+  },
 };
 
 const processDiagrams: Record<string, string> = {
@@ -71,9 +111,10 @@ export default function FoundationDayOneGuide({onRead}: {onRead: (conceptId: str
             <p>{unit.sections[0].text}</p>
             <p><strong>想一想</strong>　{topic.check}</p>
             <details className="foundation-day-one-answer">
-              <summary>展开讲解与练习</summary>
+              <summary>查看答案与练习</summary>
+              <p><strong>参考答案</strong>　{topic.answer}</p>
               {unit.sections.slice(1).map(({heading,text})=><p key={heading}>{text}</p>)}
-              <p>{unit.practice}</p>
+              <p><strong>课前练习</strong>　{unit.practice}</p>
             </details>
             {diagramLabel && <details className="foundation-day-one-answer">
               <summary>{diagramLabel}</summary>

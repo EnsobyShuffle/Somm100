@@ -442,6 +442,25 @@ try{
  assert.match(topic.textContent,/果肉提供水、糖和酸/);
  assert.match(topic.querySelector('a').href,/^https:\/\/mp.weixin.qq.com\//);
  assert.equal(topic.querySelector('details').open,false);
+ const answerClues=[
+   /潜在酒精度.*色素.*涩感/, /萌芽.*开花.*坐果.*转色.*成熟.*采收/,
+   /温度.*日照.*水分/, /空气.*流通.*遮阴/, /砧木.*根系.*接穗.*果实/,
+   /酒精.*二氧化碳.*热量.*残糖/, /红酒.*发酵.*压榨.*白酒.*压榨.*发酵/,
+   /苹果酸乳酸转化.*酸感.*橡木桶/, /产地.*名称对应的规则/, /直接记录.*品种或酿造方法.*查/,
+ ];
+ for(const [index,row] of guideTopics.slice(1).entries()){
+   if(!row.open)await act(async()=>row.querySelector('summary').click());
+   const answer=row.querySelector(':scope > details.foundation-day-one-answer');
+   assert.equal(answer.open,false);
+   const toggle=answer.querySelector('summary');
+   assert.equal(toggle.textContent,'查看答案与练习');
+   await act(async()=>toggle.click());
+   assert(answer.open);
+   assert.match(answer.querySelector('p').textContent,answerClues[index]);
+   assert.equal(answer.querySelector('p:last-child strong').textContent,'课前练习');
+   await act(async()=>toggle.click());
+   if(row!==topic)await act(async()=>row.querySelector('summary').click());
+ }
  const topicLinks=(id,host)=>[...document.getElementById(`foundation-prep-foundation-d1-${id}`).querySelectorAll('a')]
    .filter(link=>link.hostname===host).map(link=>link.href);
  assert.deepEqual(topicLinks('02','www.bilibili.com'),['https://www.bilibili.com/video/BV1Cb4y1Z7R8/']);

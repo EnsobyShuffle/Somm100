@@ -1,5 +1,17 @@
 # Foundation · 2026-11-15 · Day 1 预习往返与看图自查
 
+## 13:39 · 自查后的参考答案
+
+基线 `60aa507f4181361dfd4f460808e8159571e0e9f6`，分支 `migration/tencent-somm100`。在 `app/FoundationDayOneGuide.tsx` 为 10 项原有「想一想」分别补写简短参考答案。答案和课前练习共用各项现有折叠区。葡萄种类首项保留原独立答案，压榨图自查仍独立折叠。预习内容、文章入口、稳定 ID 和本机学习记录沿用现有实现。
+
+- 教学依据为 [D1–D2 知识提要](https://app.notion.com/p/40717d16de4c810c811dd8a1324066cd)、[课前路径](https://app.notion.com/p/40717d16de4c814ba288fa4ab63f2746)与现有 D1 原创复习正文。复核[产品蓝图](https://app.notion.com/p/3ff17d16de4c81e5aef9e194b17f8738)、[现用框架](https://app.notion.com/p/40717d16de4c813b90b7d6a1bb17131e)、[学习引导](https://app.notion.com/p/40717d16de4c812fa096fb12992546e3)及[旧 Chapter 00 的停用标记](https://app.notion.com/p/40017d16de4c810aaa8ccda8ddd5b7a1)。
+- 实读[第 22 期招生资料](https://chatgpt.com/library?file_id=libfile_cd46e6582a888191b7565100f9e61611&account_id=personal)第 6–7 页，确认五城各五天、三阶段、每日 09:00–16:30，游学另排。Notion 与文件检索未取得当期逐日教学分时、D5 项目分配或讲师原课件。WorkBuddy 发布交接为操作说明，当前无本候选版本的部署回执。
+- D1 11 项预习（均有可展开答案）、10 节复习、25 题、9 案例。D2 9 个品种、6 个法国专题、42 题、9 案例。D3 13 节、30 题、10 案例。D4 15 节、45 题、13 案例。D5 考核，五城日期已核，项目分时待确认。第 22 期无 D6 面授，游学另排。
+- CloudBase 构建 457 文件，App 入口 `app-itDlL979.js`、专注页 `foundation-BRDSzb7c.js`、共享模块 `FoundationPage-Hhh-ZxYO.js`。87 项 Foundation 单测、10 项答案与练习折叠检查、整页 DOM、50 次入口和 22 次预习直达通过。[正式专注页](https://www.somm100.cn/foundation.html)回读 SHA-256 为 `331577fa5f9d657838c9360f36416098f6bc574eba2d7325ee45898e720641c1`，本次构建尚未上线。
+- 接续点为核对当期原课表与讲师课件，拿到项目分时再将备课对应到面授。已有上海 CloudBase `somm100` 的 `/somm100` 等待可用授权发布通路或 WorkBuddy 回执，发布后验收正式页、手机、微信原文和视频播放。
+
+## 上轮 · 预习往返与看图自查
+
 基线 `8e5b6653a7e4e7c93e87a100ad6086811077dd48`，分支 `migration/tencent-somm100`。本检查点接续 `docs/FOUNDATION_PROGRESS.md` 最上方的「Day 1 发酵、压榨与酒标」。以 `docs/CLOUDBASE_MIGRATION.md` 中的现有上海 `somm100` 应用和 `/somm100` 托管目标为发布依据。
 
 - 11 个 Day 1 预习知识点支持专注页直达，直接打开指定项，讲解与答案保持折叠。10 个「继续读」在概念页提供返回原按钮，并保留已展开的预习内容。周阅读继续返回所在周，预习区仍只显示学习内容。既有内容 ID、4／8 周与浏览器记录保持兼容。
