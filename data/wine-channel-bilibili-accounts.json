@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-24",
+  "policy": "Only 10 previously retained core Bilibili sources; exclude removed, conditional single-video leads and unverified institutional pages. Preserve existing Nora, Bingke and SOMMHOUSE curated clips.",
+  "accounts": [
+    {
+      "id": "nora",
+      "name": "nora的葡萄酒世界",
+      "url": "https://space.bilibili.com/506969146/",
+      "description": "勃艮第、香槟、风土、酒庄研究",
+      "sourceEntryCount": 40,
+      "existingSiteCount": 24,
+      "platform": "Bilibili",
+      "status": "core-source",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "bingke",
+      "name": "槟客文化",
+      "url": "https://space.bilibili.com/348903504/",
+      "description": "香槟酒庄、酒农与人物访谈",
+      "sourceEntryCount": 73,
+      "existingSiteCount": 34,
+      "platform": "Bilibili",
+      "status": "core-source",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "somehouse",
+      "name": "亨利的逐未旅途",
+      "url": "https://space.bilibili.com/32601116/",
+      "description": "SOMM HOUSE 原创侍酒与葡萄酒教育",
+      "sourceEntryCount": 15,
+      "existingSiteCount": 14,
+      "platform": "Bilibili",
+      "status": "core-source",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "mickey",
+      "name": "Mickey米老师",
+      "url": "https://space.bilibili.com/26124055/",
+      "description": "酒庄访谈、纪录片发现；原出品方待核",
+      "sourceEntryCount": 104,
+      "existingSiteCount": 0,
+      "platform": "Bilibili",
+      "status": "core-source",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "ningxia-science",
+      "name": "宁夏科普作家协会",
+      "url": null,
+      "description": "葡萄园、葡萄酒科学与宁夏技术会议；频道身份待核",
+      "sourceEntryCount": 100,
+      "existingSiteCount": 0,
+      "platform": "Bilibili",
+      "status": "source-identity-review",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "ucw",
+      "name": "UCW 向上中国葡萄酒",
+      "url": "https://space.bilibili.com/384936863/",
+      "description": "中国葡萄酒产区纪录与酒庄采访",
+      "sourceEntryCount": 20,
+      "existingSiteCount": 0,
+      "platform": "Bilibili",
+      "status": "core-source",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "silver-heights",
+      "name": "宁夏银色高地葡萄酒庄",
+      "url": "https://space.bilibili.com/549653723",
+      "description": "宁夏葡萄园、酒庄与防霜主题",
+      "sourceEntryCount": 16,
+      "existingSiteCount": 0,
+      "platform": "Bilibili",
+      "status": "core-source",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "xige",
+      "name": "西鸽酒庄",
+      "url": "https://space.bilibili.com/1620456768/",
+      "description": "宁夏西鸽酒庄、生产与酒窖",
+      "sourceEntryCount": 18,
+      "existingSiteCount": 0,
+      "platform": "Bilibili",
+      "status": "core-source",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "dayu",
+      "name": "大渔大师课 / 吕杨",
+      "url": null,
+      "description": "侍酒师访谈和课程；频道身份及付费许可待核",
+      "sourceEntryCount": 1147,
+      "existingSiteCount": 0,
+      "platform": "Bilibili",
+      "status": "source-identity-review",
+      "publication": "account-link-index-only; unselected videos not republished"
+    },
+    {
+      "id": "cctv",
+      "name": "央视频",
+      "url": "https://space.bilibili.com/433587902/",
+      "description": "产区纪录与专业媒体内容",
+      "sourceEntryCount": null,
+      "existingSiteCount": 0,
+      "platform": "Bilibili",
+      "status": "core-source",
+      "publication": "account-link-index-only; unselected videos not republished"
+    }
+  ]
+}
