@@ -55,3 +55,6 @@ yarn-error.log*
 # Isolated Foundation UI verification output
 /.foundation-ui-dist/
 
+# SOMM100 private teaching exports and generated student data
+/private-course-import/
+/public/course-content/somm100-student.json
