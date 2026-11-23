@@ -3,7 +3,7 @@
 
 /* Wine Channel source platform directory — matches Nora's quiet cream cards. */
 .wc-platform-tabs{display:flex;gap:10px;margin:12px 0 22px;align-items:center;border-bottom:1px solid var(--line,#deded4)}
-.wc-platform{appearance:none;background:transparent;color:var(--muted,#666);border:0;border-bottom:2px solid transparent;padding:13px 18px 15px;min-height:48px;font:500 14px/1.5 inherit;cursor:pointer;text-align:center}
+.wc-platform{appearance:none;background:transparent;color:var(--muted,#666);border:0;border-bottom:2px solid transparent;padding:13px 18px 15px;min-height:48px;font:inherit;font-size:14px;font-weight:500;line-height:1.5;cursor:pointer;text-align:center}
 .wc-platform:hover{color:#364631}
 .wc-platform.active{color:#33462f;border-bottom-color:#526640}
 .wc-directory-filters{display:flex;gap:14px;align-items:end;margin:6px 0 12px;flex-wrap:wrap}
