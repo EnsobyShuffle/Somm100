@@ -1,0 +1,49 @@
+name: Wine Channel - safe build verification
+
+# CI ONLY: builds and tests a candidate. Does NOT access CloudBase or deploy.
+on:
+  push:
+    branches:
+      - feat/wine-channel-youtube-bilibili-20261124
+    paths:
+      - ".github/workflows/wine-channel-check.yml"
+      - "app/WineChannel.tsx"
+      - "app/wine-channel.css"
+      - "data/wine-channel-source-accounts.json"
+      - "data/wine-channel-bilibili-accounts.json"
+      - "data/wine-channel-youtube-featured-01.json"
+      - "tests/wine-channel-source-directory.test.mjs"
+      - "scripts/cloudbase-link-check.sh"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-wine-channel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Activate locked package manager
+        run: |
+          corepack enable
+          corepack prepare pnpm@11.25.0 --activate
+          pnpm --version
+      - name: Install pinned dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Validate CloudBase connection-check script (never deploy)
+        run: bash -n scripts/cloudbase-link-check.sh
+      - name: Check original source IDs and platform separation
+        run: node --test tests/wine-channel.test.mjs tests/wine-channel-source-directory.test.mjs
+      - name: Build SOMM100 CloudBase candidate (no upload)
+        run: pnpm run build:cloudbase
+      - name: Verify generated files (no remote changes)
+        run: |
+          test -s dist-cloudbase/index.html
+          test -s dist-cloudbase/foundation.html
+          test -s dist-cloudbase/course.html
+          echo "CloudBase build generated successfully. No deployment executed."
