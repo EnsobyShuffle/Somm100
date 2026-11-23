@@ -74,11 +74,11 @@ function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:Fo
  }}/>
 </section>
 <div hidden={precourse}><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
-<FoundationDirectory onPrecourse={()=>changePrecourse(true)}/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/></div>
+<FoundationDirectory onPrecourse={()=>changePrecourse(true)}/><FoundationKnowledgeBreakdown/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/></div>
 <FoundationStudy cityName={cohortCity} onCityChange={setCohortCity} precourse={precourse}
  dayOneReading={dayOneReading} onReadWeek={()=>setDayOneReading(null)}/>
 <div hidden={precourse}>
-<FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationKnowledgeBreakdown/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
+<FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
 <section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
  <h2 id="foundation-course-title">进入正式课程之后</h2>
  <p>将基础理解用于品鉴、服务、推荐与餐酒搭配。第22期为五天面授；逐日教学安排及对应学习资料仍在核对，尚未完整开放。</p>

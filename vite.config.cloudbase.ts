@@ -1,3 +1,4 @@
+import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -20,6 +21,10 @@ export default defineConfig({
     {
       name: 'somm100-cloudbase-public-paths',
       enforce: 'pre',
+      buildStart() {
+        const legacyCourse = new URL('./public/course-content/somm100-student.json', import.meta.url);
+        if (existsSync(legacyCourse)) throw new Error('Remove the public course export before building.');
+      },
       transform(code, id) {
         // Scope public URLs in this build; retain APIs, external URLs and phonetics.
         const file = id.split('?')[0];

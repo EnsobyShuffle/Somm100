@@ -1,108 +1,108 @@
 'use client';
 import React, {useEffect, useMemo, useState} from 'react';
-import {validatePublishedCourse} from '../lib/somm100-course-content.mjs';
+import {validatePublishedCourse} from '../cloudfunctions/somm100FoundationRead/contract.mjs';
 import './foundation-kp.css';
 
-// The existing SOMM100 Course page remains the entry point. Private Notion
-// drafts are never fetched by the client or shipped in the public repository.
 const groups = [
-  {day: 'D1', label: 'Day 1 · 葡萄与酿造'},
-  {day: 'D2', label: 'Day 2 · 葡萄品种'},
-  {day: 'D1-D2法国共用', label: '法国产区与酒标'},
-  {day: 'D3', label: 'Day 3 · 欧洲产区'},
-  {day: 'D4', label: 'Day 4 · 起泡酒与世界产区'},
+  {day:'D1', label:'Day 1 · 葡萄与酿造'},
+  {day:'D2', label:'Day 2 · 葡萄品种'},
+  {day:'D1-D2法国共用', label:'Day 1–2 · 法国基础'},
+  {day:'D3', label:'Day 3 · 欧洲产区'},
+  {day:'D4', label:'Day 4 · 起泡、加强酒与世界产区'},
 ];
+type StudentKp = {id:string; title:string; day:string; module:string; text:string; extensions?:{title:string;url:string}[]};
+type Course = {entries:StudentKp[]};
 
-type StudentKp = {
-  id: string;
-  title: string;
-  day: string;
-  module: string;
-  text: string;
-};
-
-type PublishedCourse = {
-  schema: string;
-  approved: true;
-  entries: StudentKp[];
-};
-
-function readableText(raw: string) {
-  // Render text, not HTML. Notion Markdown link targets may point to internal
-  // teacher notes, so don't turn them into public student navigation links.
-  return raw
-    .replace(/<[^>]*>/g, '')
-    .replace(/\[([^\]]+)\]\((?:[^()]|\([^)]*\))*\)/g, '$1')
-    .replace(/\*\*/g, '')
-    .replace(/__(.*?)__/g, '$1')
-    .replace(/^\s*#{1,5}\s+/gm, '')
-    .trim();
+export function CourseReader({course}:{course:Course}) {
+  const [day,setDay] = useState('D1');
+  const [query,setQuery] = useState('');
+  const [chapter,setChapter] = useState('');
+  const dayRows = useMemo(() => course.entries.filter(row => row.day === day), [course,day]);
+  const chapters = [...new Set(dayRows.map(row => row.id.split('-').slice(0,2).join('-')))];
+  const term = query.trim().toLocaleLowerCase('zh-CN');
+  const results = new Map<string,StudentKp[]>();
+  for (const row of dayRows) {
+    const section = row.id.split('-').slice(0,2).join('-');
+    if (chapter && section !== chapter) continue;
+    if (term && ![row.id,row.title,row.module,row.text].join(' ').toLocaleLowerCase('zh-CN').includes(term)) continue;
+    if (!results.has(section)) results.set(section,[]);
+    results.get(section)!.push(row);
+  }
+  return <>
+    <div className="foundation-kp-tabs" role="group" aria-label="课程模块">
+      {groups.map(group => <button key={group.day} type="button" aria-pressed={day === group.day}
+        className={day === group.day ? 'button' : 'button secondary'}
+        onClick={() => {setDay(group.day);setChapter('');setQuery('');}}>{group.label}</button>)}
+    </div>
+    {(day === 'D3' || day === 'D4') && <p>桥接预习 · 完成 Day 1–2 后阅读</p>}
+    <label className="foundation-kp-search"><span>选择章节</span>
+      <select value={chapter} onChange={e => setChapter(e.target.value)}>
+        <option value="">全部章节</option>
+        {chapters.map(code => <option key={code} value={code}>{code} · {dayRows.find(row => row.id.startsWith(code+'-'))?.module}</option>)}
+      </select>
+    </label>
+    <label className="foundation-kp-search"><span>搜索当前模块</span>
+      <input type="search" value={query} placeholder="例如 Chardonnay、波尔多" onChange={e=>setQuery(e.target.value)}/>
+    </label>
+    <p role="status">{results.size ? '共 '+Array.from(results.values()).reduce((n,rows)=>n+rows.length,0)+' 个知识点' : '没有匹配的知识点'}</p>
+    {Array.from(results,([code,rows]) => <section key={code} className="foundation-kp-list">
+      <h3>{code} · {rows[0].module}</h3>
+      {rows.map(row => <details key={row.id}>
+        <summary><span className="foundation-kp-id">{row.id}</span><strong>{row.title.replace(row.id+'｜','')}</strong></summary>
+        <div className="foundation-kp-body">{row.text.split(/\n\s*\n/).map((part,i)=><p key={i}>{part.replace(/^#{1,6}\s+/gm,'')}</p>)}
+          {Boolean(row.extensions?.length) && <><h4>延伸阅读</h4><ul>{row.extensions?.map(link =>
+            <li key={link.url}><a href={link.url} target="_blank" rel="noopener noreferrer">{link.title}</a></li>)}</ul></>}
+        </div>
+      </details>)}
+    </section>)}
+  </>;
 }
 
 export default function FoundationKnowledgeBreakdown() {
-  const [course, setCourse] = useState<PublishedCourse | null>(null);
-  const [day, setDay] = useState('D1');
-  const [query, setQuery] = useState('');
+  const enabled = Boolean(import.meta.env?.VITE_SOMM100_COURSE_ENV && import.meta.env?.VITE_SOMM100_COURSE_PUBLISHABLE_KEY);
+  const [course,setCourse] = useState<Course|null>(null);
+  const [status,setStatus] = useState(0);
+  const [attempt,setAttempt] = useState(0);
   useEffect(() => {
-    const controller = new AbortController();
-    // File exists only after a teacher-approved course import. A missing file
-    // leaves the existing foundation view unchanged, with no blank/error card.
-    fetch('./course-content/somm100-student.json', {signal: controller.signal, cache: 'no-store'})
-      .then(async response => {
-        if (!response.ok || !(response.headers.get('content-type') || '').includes('json')) return null;
-        return response.json();
-      })
-      .then(data => {
-        if (!controller.signal.aborted && validatePublishedCourse(data)) setCourse(data);
-      })
-      .catch(() => { /* No approved student package: keep current course intact. */ });
-    return () => controller.abort();
-  }, []);
-
-  const entries = useMemo(() => {
-    if (!course) return [];
-    const term = query.trim().toLocaleLowerCase('zh-CN');
-    return course.entries.filter(item =>
-      item.day === day &&
-      (!term || (item.id + ' ' + item.title + ' ' + item.module + ' ' + item.text)
-        .toLocaleLowerCase('zh-CN').includes(term)));
-  }, [course, day, query]);
-
-  if (!course) return null;
-  return (
-    <section className="white-panel foundation-study foundation-kp" id="foundation-student-breakdowns"
-      aria-labelledby="foundation-kp-heading">
-      <span className="eyebrow">SOMM100 · KNOWLEDGE BREAKDOWN</span>
-      <h2 id="foundation-kp-heading">课程知识解析</h2>
-      <p>按课程日阅读知识点，把品种、产区和酿造概念变成能向客人解释的语言。</p>
-      <div className="foundation-kp-tabs" role="group" aria-label="选择课程知识点范围">
-        {groups.map(group => (
-          <button key={group.day} type="button" onClick={() => setDay(group.day)}
-            className={day === group.day ? 'button' : 'button secondary'}
-            aria-pressed={day === group.day}>{group.label}</button>
-        ))}
-      </div>
-      <label className="foundation-kp-search">
-        <span>搜索当前课程日的知识点</span>
-        <input type="search" value={query} onChange={event => setQuery(event.target.value)}
-          placeholder="例如：酸度、Chardonnay、波尔多" />
-      </label>
-      <p role="status" className="fine-print">当前显示 {entries.length} 条知识解析。进入其他课程日可切换范围。</p>
-      <div className="foundation-kp-list">
-        {entries.map(item => (
-          <details key={item.id} id={'foundation-kp-' + item.id}>
-            <summary>
-              <span className="foundation-kp-id">{item.id}</span>
-              <strong>{item.title.replace(item.id + '｜', '')}</strong>
-            </summary>
-            <div className="foundation-kp-body">
-              {readableText(item.text).split(/\n\s*\n/).filter(Boolean).map((paragraph, index) =>
-                <p key={index}>{paragraph}</p>)}
-            </div>
-          </details>
-        ))}
-        {entries.length === 0 && <p className="fine-print">当前范围未找到匹配的知识点。</p>}
-      </div>
-    </section>
-  );
+    if (!enabled) return;
+    let generation = 0;
+    let disposed = false;
+    let unsubscribe: (()=>void)|undefined;
+    async function refresh() {
+      const request = ++generation;
+      setCourse(null);
+      setStatus(0);
+      try {
+        const client = await import('../lib/somm100-course-client');
+        if (disposed || request !== generation) return;
+        unsubscribe ??= client.onSessionChange(refresh);
+        const result = await client.loadCourse();
+        if (disposed || request !== generation) return;
+        if (result.status === 200 && validatePublishedCourse(result.course)) {
+          setCourse(result.course as Course);
+          setStatus(200);
+        } else setStatus(result.status === 401 || result.status === 403 ? result.status : 503);
+      } catch {
+        if (!disposed && request === generation) setStatus(503);
+      }
+    }
+    const visibility = () => {
+      if (!document.hidden) void refresh();
+      else {generation++;setCourse(null);setStatus(0);}
+    };
+    void refresh();
+    document.addEventListener('visibilitychange', visibility);
+    return () => {disposed = true;unsubscribe?.();document.removeEventListener('visibilitychange',visibility);};
+  }, [enabled,attempt]);
+  if (!enabled) return null;
+  return <section className="white-panel foundation-study foundation-kp" aria-labelledby="foundation-kp-heading">
+    <h2 id="foundation-kp-heading">课程知识解析 · Knowledge Breakdown</h2>
+    {course ? <CourseReader course={course}/> : <div role="status">
+      {status === 401 ? <button className="button" onClick={async()=>{
+        try {const client = await import('../lib/somm100-course-client'); const res = await client.signIn(); if(res?.error) setStatus(503);}
+        catch {setStatus(503);}
+      }}>学员登录后阅读</button> : status === 403 ? '当前账号尚未获得本课程阅读权限。' :
+        status === 503 ? <><p>暂时无法读取课程。</p><button className="button secondary" onClick={()=>setAttempt(n=>n+1)}>重新加载</button></> : '正在读取课程…'}
+    </div>}
+  </section>;
 }
