@@ -13,6 +13,7 @@ on:
       - "data/wine-channel-bilibili-accounts.json"
       - "data/wine-channel-youtube-featured-01.json"
       - "tests/wine-channel-source-directory.test.mjs"
+      - "scripts/cloudbase-link-check.sh"
   workflow_dispatch:
 
 permissions:
@@ -34,6 +35,8 @@ jobs:
           pnpm --version
       - name: Install pinned dependencies
         run: pnpm install --frozen-lockfile
+      - name: Validate CloudBase connection-check script (never deploy)
+        run: bash -n scripts/cloudbase-link-check.sh
       - name: Check original source IDs and platform separation
         run: node --test tests/wine-channel.test.mjs tests/wine-channel-source-directory.test.mjs
       - name: Build SOMM100 CloudBase candidate (no upload)
