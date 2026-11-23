@@ -22,6 +22,7 @@ import FoundationD4Review from './FoundationD4Review';
 import FoundationD2Review from './FoundationD2Review';
 import FoundationSparklingPractice from './FoundationSparklingPractice';
 import FoundationFranceReview from './FoundationFranceReview';
+import FoundationKnowledgeBreakdown from './FoundationKnowledgeBreakdown';
 
 type FoundationPageProps = {go:(page:string)=>void; initialTarget?:string; initialCohortCity?:string};
 type RestoreResult = {written:number;skipped:number};
@@ -77,7 +78,7 @@ function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:Fo
 <FoundationStudy cityName={cohortCity} onCityChange={setCohortCity} precourse={precourse}
  dayOneReading={dayOneReading} onReadWeek={()=>setDayOneReading(null)}/>
 <div hidden={precourse}>
-<FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
+<FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationKnowledgeBreakdown/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
 <section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
  <h2 id="foundation-course-title">进入正式课程之后</h2>
  <p>将基础理解用于品鉴、服务、推荐与餐酒搭配。第22期为五天面授；逐日教学安排及对应学习资料仍在核对，尚未完整开放。</p>
