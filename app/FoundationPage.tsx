@@ -22,6 +22,7 @@ import FoundationD4Review from './FoundationD4Review';
 import FoundationD2Review from './FoundationD2Review';
 import FoundationSparklingPractice from './FoundationSparklingPractice';
 import FoundationFranceReview from './FoundationFranceReview';
+import FoundationKnowledgeBreakdown from './FoundationKnowledgeBreakdown';
 
 type FoundationPageProps = {go:(page:string)=>void; initialTarget?:string; initialCohortCity?:string};
 type RestoreResult = {written:number;skipped:number};
@@ -73,7 +74,7 @@ function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:Fo
  }}/>
 </section>
 <div hidden={precourse}><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
-<FoundationDirectory onPrecourse={()=>changePrecourse(true)}/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/></div>
+<FoundationDirectory onPrecourse={()=>changePrecourse(true)}/><FoundationKnowledgeBreakdown/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/></div>
 <FoundationStudy cityName={cohortCity} onCityChange={setCohortCity} precourse={precourse}
  dayOneReading={dayOneReading} onReadWeek={()=>setDayOneReading(null)}/>
 <div hidden={precourse}>
