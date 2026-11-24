@@ -18,6 +18,8 @@
       "topicLabel": "葡萄种植",
       "tags": [
         "葡萄藤",
+        "葡萄种植",
+        "葡萄藤结构",
         "Viticulture"
       ],
       "difficulty": "foundation",
@@ -40,7 +42,8 @@
           "turn10search10"
         ],
         "directRead": "not_accessible"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/47ab6189997d78e1d8bea32da5b008624e42c19a.jpg@1200w_630h"
     },
     {
       "id": "bili-red-rose-vinification",
@@ -55,6 +58,7 @@
       "tags": [
         "红葡萄酒",
         "桃红葡萄酒",
+        "酿造",
         "Vinification"
       ],
       "difficulty": "intermediate",
@@ -77,7 +81,8 @@
           "turn10search8"
         ],
         "directRead": "not_accessible"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/47ab6189997d78e1d8bea32da5b008624e42c19a.jpg@1200w_630h"
     },
     {
       "id": "bili-champagne-service",
@@ -91,6 +96,7 @@
       "tags": [
         "香槟",
         "开瓶",
+        "起泡酒服务",
         "Champagne Service"
       ],
       "difficulty": "foundation",
@@ -113,7 +119,8 @@
           "turn9search1"
         ],
         "directRead": "412_precondition_failed"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/38a13891c34c7558ff9b9b15013cf754b40d7b41.jpg@1200w_630h"
     },
     {
       "id": "bili-luyang-tasting-intro",
@@ -126,9 +133,11 @@
       "topic": "tasting",
       "topicLabel": "品鉴训练",
       "tags": [
+        "吕杨",
+        "品鉴方法",
+        "感官分析",
         "品鉴导入",
-        "Tasting",
-        "吕杨"
+        "Tasting"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -150,7 +159,8 @@
           "turn11search10"
         ],
         "directRead": "412_precondition_failed"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/e0011db9c93c7d9997b760aaaa82257151cb1811.jpg@1200w_630h"
     },
     {
       "id": "bili-burgundy-overview",
@@ -163,9 +173,11 @@
       "topic": "regions",
       "topicLabel": "国家与产区",
       "tags": [
-        "法国",
         "勃艮第",
-        "Burgundy"
+        "法国产区",
+        "产区概览",
+        "霞多丽",
+        "法国"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -187,7 +199,8 @@
           "turn10search2"
         ],
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/a5ba82a0cfa50c9a01dd2ccaded66cd73d853892.jpg@1200w_630h"
     },
     {
       "id": "bili-us-regions",
@@ -201,6 +214,10 @@
       "topicLabel": "国家与产区",
       "tags": [
         "美国",
+        "加利福尼亚",
+        "纳帕谷",
+        "索诺玛",
+        "赤霞珠",
         "California",
         "Napa",
         "Sonoma"
@@ -225,7 +242,8 @@
           "turn11search5"
         ],
         "directRead": "412_precondition_failed"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/47ab6189997d78e1d8bea32da5b008624e42c19a.jpg@1200w_630h"
     },
     {
       "id": "bili-riesling",
@@ -240,6 +258,7 @@
       "tags": [
         "雷司令",
         "Riesling",
+        "白葡萄品种",
         "白葡萄酒"
       ],
       "difficulty": "foundation",
@@ -262,7 +281,8 @@
           "turn11search2"
         ],
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/24fba39d79d092e1c7afc9e47f95f5521d167eef.jpg@1200w_630h"
     },
     {
       "id": "bili-chardonnay",
@@ -277,6 +297,7 @@
       "tags": [
         "霞多丽",
         "Chardonnay",
+        "白葡萄品种",
         "白葡萄酒"
       ],
       "difficulty": "foundation",
@@ -299,7 +320,8 @@
           "turn11search1"
         ],
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/24fba39d79d092e1c7afc9e47f95f5521d167eef.jpg@1200w_630h"
     },
     {
       "id": "bili-xiaopi-intro",
@@ -311,8 +333,9 @@
       "topic": "tasting",
       "topicLabel": "品鉴训练",
       "tags": [
-        "品鉴训练",
-        "小皮葡萄酒讲堂"
+        "品鉴入门",
+        "感官分析",
+        "品鉴训练"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -334,7 +357,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1yb41147oQ/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/a04abb9194002afd9fef3c0e4b25d21d8314801c.jpg@1200w_630h"
     },
     {
       "id": "bili-xiaopi-flow",
@@ -346,8 +370,10 @@
       "topic": "service",
       "topicLabel": "侍酒服务",
       "tags": [
-        "侍酒服务",
-        "小皮葡萄酒讲堂"
+        "品鉴步骤",
+        "感官分析",
+        "品鉴训练",
+        "侍酒服务"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -369,7 +395,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1xA411Y769/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/54026e1dd150d6c73d79fa050627f17a5ef2281f.jpg@1200w_630h"
     },
     {
       "id": "bili-xiaopi-myths",
@@ -381,8 +408,10 @@
       "topic": "tasting",
       "topicLabel": "品鉴训练",
       "tags": [
-        "品鉴训练",
-        "小皮葡萄酒讲堂"
+        "品鉴误区",
+        "品鉴技巧",
+        "感官分析",
+        "品鉴训练"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -404,7 +433,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1Bi4y1g7VM/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/54e2861ce92090cbdf0317da4596156e4898c22f.jpg@1200w_630h"
     },
     {
       "id": "bili-xiaopi-faults",
@@ -416,8 +446,11 @@
       "topic": "tasting",
       "topicLabel": "品鉴训练",
       "tags": [
-        "品鉴训练",
-        "小皮葡萄酒讲堂"
+        "异味",
+        "葡萄酒缺陷",
+        "嗅觉",
+        "品鉴",
+        "品鉴训练"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -439,7 +472,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1gy4y1g7ef/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/eb7fd76f36252556b8124f943baa8aa0471d5544.jpg@1200w_630h"
     },
     {
       "id": "bili-xiaopi-scores",
@@ -451,8 +485,10 @@
       "topic": "tasting",
       "topicLabel": "品鉴训练",
       "tags": [
-        "品鉴训练",
-        "小皮葡萄酒讲堂"
+        "葡萄酒评分",
+        "奖项",
+        "品鉴标准",
+        "品鉴训练"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -474,7 +510,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1ut411A7mx/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/fc94baa09f055945b58b632d431c89f49123adab.jpg@1200w_630h"
     },
     {
       "id": "bili-xiaopi-oak",
@@ -486,8 +523,10 @@
       "topic": "vinification",
       "topicLabel": "葡萄酒酿造",
       "tags": [
-        "葡萄酒酿造",
-        "小皮葡萄酒讲堂"
+        "橡木桶",
+        "酿造",
+        "风味",
+        "葡萄酒酿造"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -509,7 +548,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1AJ411u79V/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/a4800316f5d19b20f862f0b9d574ba33831e111c.jpg@1200w_630h"
     },
     {
       "id": "bili-xiaopi-sparkling",
@@ -521,8 +561,10 @@
       "topic": "vinification",
       "topicLabel": "葡萄酒酿造",
       "tags": [
-        "葡萄酒酿造",
-        "小皮葡萄酒讲堂"
+        "起泡酒",
+        "葡萄酒风格",
+        "酿造",
+        "葡萄酒酿造"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -544,7 +586,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1B54y1U7PZ/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/a09c028e427d7f02336442699b60f94888a012f1.jpg@1200w_630h"
     },
     {
       "id": "bili-xiaopi-cabernet",
@@ -556,8 +599,10 @@
       "topic": "grape_varieties",
       "topicLabel": "葡萄品种",
       "tags": [
-        "葡萄品种",
-        "小皮葡萄酒讲堂"
+        "赤霞珠",
+        "Cabernet Sauvignon",
+        "红葡萄品种",
+        "葡萄品种"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -579,7 +624,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1Ab411J7af/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/01c37575749d05349850618880ed769b88cbbf5a.jpg@1200w_630h"
     },
     {
       "id": "bili-julien-paris",
@@ -591,8 +637,10 @@
       "topic": "history",
       "topicLabel": "历史与人物",
       "tags": [
-        "历史与人物",
-        "朱利安的微醺视界"
+        "新世界",
+        "葡萄酒历史",
+        "盲品",
+        "历史与人物"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -614,7 +662,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1Pc3i6BEWu/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/a67da569144eb62f86172896106cae4b3444be35.jpg@1200w_630h"
     },
     {
       "id": "bili-julien-blind-challenge",
@@ -626,8 +675,11 @@
       "topic": "tasting",
       "topicLabel": "品鉴训练",
       "tags": [
-        "品鉴训练",
-        "朱利安的微醺视界"
+        "盲品",
+        "中国",
+        "法国",
+        "品鉴比赛",
+        "品鉴训练"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -649,7 +701,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1HJZjBoELY/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/8e9f2d79870fbd2d1375fcec391da68e75cc9f56.jpg@1200w_630h"
     },
     {
       "id": "bili-julien-scores",
@@ -661,8 +714,10 @@
       "topic": "tasting",
       "topicLabel": "品鉴训练",
       "tags": [
-        "品鉴训练",
-        "朱利安的微醺视界"
+        "葡萄酒评分",
+        "评价体系",
+        "品鉴",
+        "品鉴训练"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -684,7 +739,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1aN4y1n78e/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/89f85053f72fea2fead8d70377287b9bae590a9b.jpg@1200w_630h"
     },
     {
       "id": "bili-julien-fridge",
@@ -696,8 +752,10 @@
       "topic": "service",
       "topicLabel": "侍酒服务",
       "tags": [
-        "侍酒服务",
-        "朱利安的微醺视界"
+        "冰箱",
+        "储存温度",
+        "葡萄酒保存",
+        "侍酒服务"
       ],
       "difficulty": "foundation",
       "difficultyLabel": "基础",
@@ -719,7 +777,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV16K411B7iT/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/c521cd3adf29430e8f20896912922d9a2b781d72.jpg@1200w_630h"
     },
     {
       "id": "bili-julien-quality",
@@ -731,8 +790,10 @@
       "topic": "tasting",
       "topicLabel": "品鉴训练",
       "tags": [
-        "品鉴训练",
-        "朱利安的微醺视界"
+        "品质评估",
+        "品鉴标准",
+        "感官分析",
+        "品鉴训练"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -754,7 +815,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1f7411F7Qd/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/0b5baa20d05627466f0ba7b91108f8d9c68e628e.jpg@1200w_630h"
     },
     {
       "id": "bili-nora-cotes",
@@ -766,7 +828,10 @@
       "topic": "regions",
       "topicLabel": "国家与产区",
       "tags": [
-        "Burgundy"
+        "夜丘",
+        "伯恩丘",
+        "勃艮第",
+        "风土"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -803,7 +868,10 @@
       "topic": "viticulture",
       "topicLabel": "葡萄种植",
       "tags": [
-        "Burgundy"
+        "Hubert Lamy",
+        "种植密度",
+        "葡萄种植",
+        "勃艮第"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -840,8 +908,9 @@
       "topic": "viticulture",
       "topicLabel": "葡萄种植",
       "tags": [
+        "阿德莱德大学",
         "葡萄种植",
-        "Lesicarz"
+        "酿造"
       ],
       "difficulty": "intermediate",
       "difficultyLabel": "进阶",
@@ -877,6 +946,8 @@
       "topicLabel": "品鉴训练",
       "tags": [
         "盲品",
+        "演绎品鉴",
+        "品鉴方法",
         "Deductive Tasting"
       ],
       "difficulty": "intermediate",
@@ -899,7 +970,8 @@
         ],
         "evidenceUrl": "https://www.bilibili.com/video/BV1xoymBREdw/",
         "directRead": "not_attempted"
-      }
+      },
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/d06b9cf0211e9278e56aafc1cb17fcf1f8ddfd66.jpg@1200w_630h"
     }
   ],
   "creators": [

@@ -6,42 +6,68 @@
     {
       "id": "yt-littlewine-littlewine-official-bb421472-ssL6T_EWmSc",
       "youtubeId": "ssL6T_EWmSc",
-      "title": "Cellier Saint Benoit, Harvest 2025 \\| Jura",
+      "title": "Cellier Saint Benoit, Harvest 2025 | Jura 🇫🇷",
       "url": "https://www.youtube.com/watch?v=ssL6T_EWmSc",
       "creatorId": "yt-littlewine-littlewine-official-bb421472",
       "publisher": "LITTLEWINE (@littlewine_official)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "viticulture",
+      "platform": "YouTube",
+      "tags": [
+        "Cellier Saint Benoit",
+        "汝拉",
+        "采收",
+        "2025年份"
+      ]
     },
     {
       "id": "yt-littlewine-littlewine-official-bb421472-tkK0xNBSSfk",
       "youtubeId": "tkK0xNBSSfk",
-      "title": "Domaine Dujac \\| Red Cuvées - Côte de Nuits, Burgundy",
+      "title": "Domaine Dujac | Red Cuvées - Côte de Nuits, Burgundy 🇫🇷",
       "url": "https://www.youtube.com/watch?v=tkK0xNBSSfk",
       "creatorId": "yt-littlewine-littlewine-official-bb421472",
       "publisher": "LITTLEWINE (@littlewine_official)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "Domaine Dujac",
+        "夜丘",
+        "勃艮第",
+        "红葡萄酒",
+        "酒庄"
+      ]
     },
     {
       "id": "yt-littlewine-littlewine-official-bb421472-0R3u9uIJekY",
       "youtubeId": "0R3u9uIJekY",
-      "title": "Domaine Dujac \\| White Cuvées - Côte de Nuits and Côte de Beaune, Burgundy",
+      "title": "Domaine Dujac | White Cuvées - Côte de Nuits and Côte de Beaune, Burgundy 🇫🇷",
       "url": "https://www.youtube.com/watch?v=0R3u9uIJekY",
       "creatorId": "yt-littlewine-littlewine-official-bb421472",
       "publisher": "LITTLEWINE (@littlewine_official)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "Domaine Dujac",
+        "夜丘",
+        "伯恩丘",
+        "勃艮第",
+        "白葡萄酒"
+      ]
     },
     {
       "id": "yt-littlewine-littlewine-official-bb421472-34OPwa6phGs",
       "youtubeId": "34OPwa6phGs",
-      "title": "Domaine de la Côte with Rajat Parr \\| Sta. Rita Hills, California",
+      "title": "Domaine de la Côte with Rajat Parr | Sta. Rita Hills, California 🇺🇸",
       "url": "https://www.youtube.com/watch?v=34OPwa6phGs",
       "creatorId": "yt-littlewine-littlewine-official-bb421472",
       "publisher": "LITTLEWINE (@littlewine_official)",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Domaine de la Côte",
+        "Rajat Parr",
+        "Sta. Rita Hills",
+        "加利福尼亚"
+      ]
     },
     {
       "id": "yt-littlewine-littlewine-official-bb421472-c-xdPAsfrZk",
@@ -50,68 +76,109 @@
       "url": "https://www.youtube.com/watch?v=c-xdPAsfrZk",
       "creatorId": "yt-littlewine-littlewine-official-bb421472",
       "publisher": "LITTLEWINE (@littlewine_official)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "viticulture",
+      "platform": "YouTube",
+      "tags": [
+        "Nicolas Joly",
+        "生物动力法",
+        "葡萄种植"
+      ]
     },
     {
       "id": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5-lrUsyCD4sVU",
       "youtubeId": "lrUsyCD4sVU",
-      "title": "Barolo & Barbaresco: Past & Present",
+      "title": "Barolo & Barbaresco: Past & Present NYC Seminar",
       "url": "https://www.youtube.com/watch?v=lrUsyCD4sVU",
       "creatorId": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5",
       "publisher": "Skurnik Wines & Spirits (@SkurnikWinesNewYork)",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Barolo",
+        "Barbaresco",
+        "内比奥罗",
+        "皮埃蒙特",
+        "意大利"
+      ]
     },
     {
       "id": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5-fI29wEYKKwM",
       "youtubeId": "fI29wEYKKwM",
-      "title": "Making Wine with Pride, Care, and Fairness \\| Pete Stolpman",
+      "title": "Making Wine with Pride, Care, and Fairness | Pete Stolpman",
       "url": "https://www.youtube.com/watch?v=fI29wEYKKwM",
       "creatorId": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5",
       "publisher": "Skurnik Wines & Spirits (@SkurnikWinesNewYork)",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Pete Stolpman",
+        "酿酒师",
+        "酒庄经营",
+        "美国"
+      ]
     },
     {
       "id": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5-pOjg20BdSTU",
       "youtubeId": "pOjg20BdSTU",
-      "title": "Rediscovering Argentina’s Wine Heritage with Matías Riccitelli",
+      "title": "Rediscovering Argentina's wine heritage with Matías Riccitelli",
       "url": "https://www.youtube.com/watch?v=pOjg20BdSTU",
       "creatorId": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5",
       "publisher": "Skurnik Wines & Spirits (@SkurnikWinesNewYork)",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Matías Riccitelli",
+        "阿根廷",
+        "葡萄酒历史",
+        "酿酒师"
+      ]
     },
     {
       "id": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5-vRhNy4BmINk",
       "youtubeId": "vRhNy4BmINk",
-      "title": "A Conversation with Pedro Parra",
+      "title": "A conversation with legendary winemaker Pedro Parra from Chile",
       "url": "https://www.youtube.com/watch?v=vRhNy4BmINk",
       "creatorId": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5",
       "publisher": "Skurnik Wines & Spirits (@SkurnikWinesNewYork)",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Pedro Parra",
+        "智利",
+        "酿酒师访谈"
+      ]
     },
     {
       "id": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5-3N0RnZafwlM",
       "youtubeId": "3N0RnZafwlM",
-      "title": "Original YouTube",
+      "title": "American Winemaker Series: David and Jasmine Hirsch",
       "url": "https://www.youtube.com/watch?v=3N0RnZafwlM",
       "creatorId": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5",
       "publisher": "Skurnik Wines & Spirits (@SkurnikWinesNewYork)",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "David Hirsch",
+        "Jasmine Hirsch",
+        "美国",
+        "酿酒师访谈"
+      ]
     },
     {
       "id": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5-O4G_SzxdJns",
       "youtubeId": "O4G_SzxdJns",
-      "title": "Original YouTube",
+      "title": "Jacky Blot: The Maestro of Montlouis",
       "url": "https://www.youtube.com/watch?v=O4G_SzxdJns",
       "creatorId": "yt-skurnik-wines-spirits-skurnikwinesnewyork-17272aa5",
       "publisher": "Skurnik Wines & Spirits (@SkurnikWinesNewYork)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "Jacky Blot",
+        "Montlouis-sur-Loire",
+        "卢瓦尔河谷",
+        "白诗南"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-mKnescHycpA",
@@ -120,8 +187,14 @@
       "url": "https://www.youtube.com/watch?v=mKnescHycpA",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "加那利群岛",
+        "Malvasía",
+        "火山土壤",
+        "西班牙"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-Z9OsriJ52FU",
@@ -130,18 +203,29 @@
       "url": "https://www.youtube.com/watch?v=Z9OsriJ52FU",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "巴利阿里群岛",
+        "岛屿风土",
+        "西班牙"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-NoKCSU34jkw",
       "youtubeId": "NoKCSU34jkw",
-      "title": "The New Era of Bordeaux Wine Explained with Sophie Blanc",
+      "title": "The new era of Bordeaux Wine Explained with Sophie Blanc",
       "url": "https://www.youtube.com/watch?v=NoKCSU34jkw",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "波尔多",
+        "Sophie Blanc",
+        "产区发展",
+        "法国"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-TbfOVi6xoRE",
@@ -151,37 +235,61 @@
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Rías Baixas",
+        "Albariño",
+        "下海湾",
+        "西班牙"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-7G6MPpo7wMY",
       "youtubeId": "7G6MPpo7wMY",
-      "title": "La Mancha Wine Region Explained — Airén & Tempranillo",
+      "title": "La Mancha Wine Region Explained - Airén & Tempranillo",
       "url": "https://www.youtube.com/watch?v=7G6MPpo7wMY",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "La Mancha",
+        "Airén",
+        "Tempranillo",
+        "西班牙"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-esPaZFaWRXI",
       "youtubeId": "esPaZFaWRXI",
-      "title": "Join Me for a Live Sherry Tasting! — Sherry Week",
+      "title": "Join Me for a Live Sherry Tasting! | Sherry Week, 2 November",
       "url": "https://www.youtube.com/watch?v=esPaZFaWRXI",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "雪莉",
+        "Sherry",
+        "西班牙",
+        "品鉴"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-f1lwXdtFZEA",
       "youtubeId": "f1lwXdtFZEA",
-      "title": "Retsina Explained — How Greece’s Traditional Wine Is Being Reinvented",
+      "title": "Retsina Explained -How Greece's Traditional Wine Is Being Reinvented",
       "url": "https://www.youtube.com/watch?v=f1lwXdtFZEA",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "Retsina",
+        "希腊",
+        "松香酒",
+        "传统酿造"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-kqlzMkLluWM",
@@ -191,17 +299,31 @@
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Rioja Alta",
+        "Rioja Alavesa",
+        "Rioja Oriental",
+        "里奥哈",
+        "西班牙"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-nQeESzHvypo",
       "youtubeId": "nQeESzHvypo",
-      "title": "Mastering Valencia Wine: Climate, Geography and Soils",
+      "title": "Mastering Valencia Wine. Climate, Geography and Soils",
       "url": "https://www.youtube.com/watch?v=nQeESzHvypo",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "Valencia",
+        "气候",
+        "土壤",
+        "风土",
+        "西班牙"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-CHGOdPqGpko",
@@ -211,7 +333,14 @@
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Cava",
+        "卡瓦",
+        "起泡酒",
+        "分级",
+        "西班牙"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-9YpU0Mm2t7U",
@@ -221,7 +350,13 @@
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Chianti Classico",
+        "经典基安蒂",
+        "托斯卡纳",
+        "意大利"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-hJcBytU83e8",
@@ -230,18 +365,31 @@
       "url": "https://www.youtube.com/watch?v=hJcBytU83e8",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "Jim Adelman",
+        "Bien Nacido",
+        "葡萄园",
+        "加利福尼亚"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-I9GtSutqb0U",
       "youtubeId": "I9GtSutqb0U",
-      "title": "Mastering Priorat: Garnacha, Cariñena, Llicorella & Classification",
+      "title": "Mastering Priorat Garnacha, Cariñena, Llicorella & Classification",
       "url": "https://www.youtube.com/watch?v=I9GtSutqb0U",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "Priorat",
+        "Garnacha",
+        "Cariñena",
+        "Llicorella",
+        "风土"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-TXHHA1Om0wg",
@@ -250,8 +398,14 @@
       "url": "https://www.youtube.com/watch?v=TXHHA1Om0wg",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "葡萄牙",
+        "大理石",
+        "葡萄园",
+        "风土"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-gjBPHoUOZ0M",
@@ -260,58 +414,93 @@
       "url": "https://www.youtube.com/watch?v=gjBPHoUOZ0M",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "Vinho de Talha",
+        "葡萄牙",
+        "陶罐",
+        "酿造"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-zkq40BEEbR0",
       "youtubeId": "zkq40BEEbR0",
-      "title": "https://www.youtube.com/watch?v=zkq40BEEbR0",
+      "title": "German Wine Regions & Climate Explained | WSET Level 3 Study Guide",
       "url": "https://www.youtube.com/watch?v=zkq40BEEbR0",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "德国",
+        "气候",
+        "葡萄酒产区",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-ifxu3hdcMRI",
       "youtubeId": "ifxu3hdcMRI",
-      "title": "Taste Along with Jimmy Part 3: WSET Level 3 for USA",
+      "title": "Taste Along with Jimmy Part 3: WSET Level 3 for USA | Expert Wine Exam Preparation",
       "url": "https://www.youtube.com/watch?v=ifxu3hdcMRI",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "WSET三级",
+        "美国",
+        "品鉴练习"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-3QNm-dlKB4o",
       "youtubeId": "3QNm-dlKB4o",
-      "title": "WSET Level 3 (SAT) Tasting Practice — Taste Along",
+      "title": "WSET Level 3 (SAT)Tasting Practice 🍷 Taste along with Jimmy!",
       "url": "https://www.youtube.com/watch?v=3QNm-dlKB4o",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "WSET三级",
+        "SAT",
+        "系统品鉴",
+        "品鉴练习"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-yGCUm8BdMcE",
       "youtubeId": "yGCUm8BdMcE",
-      "title": "WSET Level 3 Wines — Understanding the Growing Environment: Climate, Part 1",
+      "title": "WSET Level 3 Wines - Understanding the Growing Environment - Climate: Part 1",
       "url": "https://www.youtube.com/watch?v=yGCUm8BdMcE",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
       "topic": "viticulture",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "WSET三级",
+        "气候",
+        "生长环境",
+        "葡萄种植"
+      ]
     },
     {
       "id": "yt-wine-with-jimmy-2eeaa766-MVfXJE7gntw",
       "youtubeId": "MVfXJE7gntw",
-      "title": "Understanding Sparkling Wine for WSET L3, Part 3: Champagne",
+      "title": "Understanding Sparkling Wine for WSET L3 Part 3 - Champagne",
       "url": "https://www.youtube.com/watch?v=MVfXJE7gntw",
       "creatorId": "yt-wine-with-jimmy-2eeaa766",
       "publisher": "Wine With Jimmy",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "WSET三级",
+        "香槟",
+        "起泡酒",
+        "酿造"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-CSL7D0gTK0Q",
@@ -321,477 +510,751 @@
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "grape_varieties",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "德国",
+        "雷司令",
+        "葡萄品种"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-drlf2IuRQi4",
       "youtubeId": "drlf2IuRQi4",
-      "title": "Collin Wagner on Falling in Love with German Wine",
+      "title": "SevenFifty Daily Supertasters - Collin Wagner",
       "url": "https://www.youtube.com/watch?v=drlf2IuRQi4",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Collin Wagner",
+        "德国",
+        "盲品",
+        "Supertasters"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-3RO_JB3jUR0",
       "youtubeId": "3RO_JB3jUR0",
-      "title": "Amy Waller on Championing German Wine",
+      "title": "SevenFifty Daily Supertasters - Amy Waller",
       "url": "https://www.youtube.com/watch?v=3RO_JB3jUR0",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Amy Waller",
+        "德国",
+        "盲品",
+        "Supertasters"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-gZG3KUhuPrE",
       "youtubeId": "gZG3KUhuPrE",
-      "title": "Brent Kroll on the Diversity of German Wines",
+      "title": "SevenFifty Daily Supertasters - Brent Kroll",
       "url": "https://www.youtube.com/watch?v=gZG3KUhuPrE",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Brent Kroll",
+        "德国",
+        "盲品",
+        "Supertasters",
+        "白葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-a1VjO1Jl_T4",
       "youtubeId": "a1VjO1Jl_T4",
-      "title": "Marie Cheslik's Approach to German Wine Tasting",
+      "title": "SevenFifty Daily Supertasters - Marie Cheslik",
       "url": "https://www.youtube.com/watch?v=a1VjO1Jl_T4",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Marie Cheslik",
+        "德国",
+        "盲品",
+        "Supertasters"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-9RmNxleQsNc",
       "youtubeId": "9RmNxleQsNc",
-      "title": "5 Top Wine Professionals Share Favorite Rioja Wines",
+      "title": "5 Top Wine Professionals Share Their Favorite Rioja Wines",
       "url": "https://www.youtube.com/watch?v=9RmNxleQsNc",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "service",
+      "platform": "YouTube",
+      "tags": [
+        "里奥哈",
+        "西班牙",
+        "选酒",
+        "侍酒师"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-qDtdFEauLEA",
       "youtubeId": "qDtdFEauLEA",
-      "title": "5 Top Professionals Take the Rioja Supertasters Challenge",
+      "title": "5 Top Wine Professionals Take the Supertasters Challenge with Rioja",
       "url": "https://www.youtube.com/watch?v=qDtdFEauLEA",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "里奥哈",
+        "西班牙",
+        "品鉴挑战"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-RVKxKy3y8rs",
       "youtubeId": "RVKxKy3y8rs",
-      "title": "Luke Boland on Career Change and Restaurants",
+      "title": "SevenFifty Daily Supertasters - Luke Boland",
       "url": "https://www.youtube.com/watch?v=RVKxKy3y8rs",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Luke Boland",
+        "盲品",
+        "Supertasters",
+        "红葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-4dgfJ7wnF2A",
       "youtubeId": "4dgfJ7wnF2A",
-      "title": "Christy Frank on Running Wine Retail",
+      "title": "SevenFifty Daily Supertasters - Christy Frank",
       "url": "https://www.youtube.com/watch?v=4dgfJ7wnF2A",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Christy Frank",
+        "盲品",
+        "Supertasters",
+        "红葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-TzWxYA3QBXI",
       "youtubeId": "TzWxYA3QBXI",
-      "title": "Nicole Hakli on Representing Krug",
+      "title": "SevenFifty Daily Supertasters - Nicole Hakli",
       "url": "https://www.youtube.com/watch?v=TzWxYA3QBXI",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "service",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Nicole Hakli",
+        "盲品",
+        "Supertasters",
+        "白葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-lZPvWDri3m8",
       "youtubeId": "lZPvWDri3m8",
-      "title": "Ryan Totman on Managing Multiple Wine Bars",
+      "title": "SevenFifty Daily Supertasters - Ryan Totman",
       "url": "https://www.youtube.com/watch?v=lZPvWDri3m8",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Ryan Totman",
+        "盲品",
+        "Supertasters",
+        "红葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-P3C30AIy_1s",
       "youtubeId": "P3C30AIy_1s",
-      "title": "Rebecca Flynn on Transitioning from Beer to Wine",
+      "title": "SevenFifty Daily Supertasters - Rebecca Flynn",
       "url": "https://www.youtube.com/watch?v=P3C30AIy_1s",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Rebecca Flynn",
+        "盲品",
+        "Supertasters",
+        "白葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-UsCN2NxphEk",
       "youtubeId": "UsCN2NxphEk",
-      "title": "Paul Grieco on Running a Wine Bar",
+      "title": "SevenFifty Daily Supertasters - Paul Grieco",
       "url": "https://www.youtube.com/watch?v=UsCN2NxphEk",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Paul Grieco",
+        "盲品",
+        "Supertasters",
+        "红葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-j2ZVBtL0GAk",
       "youtubeId": "j2ZVBtL0GAk",
-      "title": "Jordan Salcito on Building a Career Beyond Sommelier Work",
+      "title": "SevenFifty Daily Supertasters - Jordan Salcito",
       "url": "https://www.youtube.com/watch?v=j2ZVBtL0GAk",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "service",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Jordan Salcito",
+        "盲品",
+        "Supertasters"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-SKwEZ7QS1jo",
       "youtubeId": "SKwEZ7QS1jo",
-      "title": "Dustin Wilson on Growing a Bicoastal Retail Business",
+      "title": "SevenFifty Daily Supertasters - Dustin Wilson",
       "url": "https://www.youtube.com/watch?v=SKwEZ7QS1jo",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Dustin Wilson",
+        "盲品",
+        "Supertasters"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-eMuYEAxpcYQ",
       "youtubeId": "eMuYEAxpcYQ",
-      "title": "Lily Peachin on Opening a Brooklyn Wine Shop",
+      "title": "Portraits of People in the Wine World: Lily Peachin of Dandelion Wine and Dandy Wine & Spirits",
       "url": "https://www.youtube.com/watch?v=eMuYEAxpcYQ",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "Lily Peachin",
+        "布鲁克林",
+        "开店",
+        "葡萄酒零售"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-MvfCBU4UOAM",
       "youtubeId": "MvfCBU4UOAM",
-      "title": "Michael Madrigale on a No-Frills Tasting Approach",
+      "title": "SevenFifty Daily Supertasters - Michael Madrigale",
       "url": "https://www.youtube.com/watch?v=MvfCBU4UOAM",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Michael Madrigale",
+        "盲品",
+        "Supertasters"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-e2MZ6sNt7Qk",
       "youtubeId": "e2MZ6sNt7Qk",
-      "title": "Victoria James on Career Growth and New Projects",
+      "title": "SevenFifty Daily Supertasters - Victoria James",
       "url": "https://www.youtube.com/watch?v=e2MZ6sNt7Qk",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Victoria James",
+        "盲品",
+        "Supertasters"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-JeA6PtCTg-o",
       "youtubeId": "JeA6PtCTg-o",
-      "title": "Joe Campanale on Winemaking and Restaurants",
+      "title": "SevenFifty Daily Supertasters - Joe Campanale",
       "url": "https://www.youtube.com/watch?v=JeA6PtCTg-o",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "vinification",
-      "platform": "YouTube"
+      "topic": "tasting",
+      "platform": "YouTube",
+      "tags": [
+        "Joe Campanale",
+        "盲品",
+        "Supertasters"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-t1EGvF9ES0Y",
       "youtubeId": "t1EGvF9ES0Y",
-      "title": "Sabra Lewis — Supertasters Challenge",
+      "title": "Supertasters - Sabra Lewis",
       "url": "https://www.youtube.com/watch?v=t1EGvF9ES0Y",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Sabra Lewis",
+        "品鉴挑战",
+        "盲品",
+        "白葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-oQ4FIpSrbYA",
       "youtubeId": "oQ4FIpSrbYA",
-      "title": "James Sligh — Supertasters Challenge",
+      "title": "Supertasters - James Sligh",
       "url": "https://www.youtube.com/watch?v=oQ4FIpSrbYA",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "James Sligh",
+        "品鉴挑战",
+        "盲品"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-P1GCAGX30Ig",
       "youtubeId": "P1GCAGX30Ig",
-      "title": "Charles Puglia — Supertasters Challenge",
+      "title": "Supertasters - Charles Puglia",
       "url": "https://www.youtube.com/watch?v=P1GCAGX30Ig",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Charles Puglia",
+        "品鉴挑战",
+        "盲品"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-5KQYfy_f61I",
       "youtubeId": "5KQYfy_f61I",
-      "title": "Jhonel Faelnar — Supertasters Challenge",
+      "title": "Supertasters - Jhonel Faelnar",
       "url": "https://www.youtube.com/watch?v=5KQYfy_f61I",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Jhonel Faelnar",
+        "品鉴挑战",
+        "盲品",
+        "白葡萄酒"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-8OWkkoTgddU",
       "youtubeId": "8OWkkoTgddU",
-      "title": "Bobby Stuckey MS — Supertasters Challenge",
+      "title": "Supertasters - Bobby Stuckey MS",
       "url": "https://www.youtube.com/watch?v=8OWkkoTgddU",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Bobby Stuckey MS",
+        "品鉴挑战",
+        "盲品"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-vxypjVerYAM",
       "youtubeId": "vxypjVerYAM",
-      "title": "Jeff Porter on Building Tasting Skills",
+      "title": "SevenFifty Daily Supertasters - Jeff Porter",
       "url": "https://www.youtube.com/watch?v=vxypjVerYAM",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "tasting",
-      "platform": "YouTube"
+      "topic": "service",
+      "platform": "YouTube",
+      "tags": [
+        "Jeff Porter",
+        "品鉴训练",
+        "侍酒师",
+        "盲品"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-mVvhKKnrH9A",
       "youtubeId": "mVvhKKnrH9A",
-      "title": "Pascaline Lepeltier on Mastering Tasting",
+      "title": "SevenFifty Daily Supertasters - Pascaline Lepeltier",
       "url": "https://www.youtube.com/watch?v=mVvhKKnrH9A",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
-      "topic": "tasting",
-      "platform": "YouTube"
+      "topic": "service",
+      "platform": "YouTube",
+      "tags": [
+        "Pascaline Lepeltier",
+        "品鉴训练",
+        "侍酒师",
+        "盲品"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-oS5kRJh71-8",
       "youtubeId": "oS5kRJh71-8",
-      "title": "How to Become a Better Blind Taster",
+      "title": "SevenFifty Daily Supertasters - Thomas Pastuszak Blind Tastes a Red Wine",
       "url": "https://www.youtube.com/watch?v=oS5kRJh71-8",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Thomas Pastuszak",
+        "盲品",
+        "红葡萄酒",
+        "品鉴训练"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-qcM4HroKFyg",
       "youtubeId": "qcM4HroKFyg",
-      "title": "Candace Olsen — Blind Tasting Tips",
+      "title": "SevenFifty Daily Supertasters - Candace Olsen",
       "url": "https://www.youtube.com/watch?v=qcM4HroKFyg",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Candace Olsen",
+        "盲品",
+        "品鉴技巧"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-FsZNYf3zZRA",
       "youtubeId": "FsZNYf3zZRA",
-      "title": "Thomas Pastuszak — Blind Tasting Tips",
+      "title": "SevenFifty Daily Supertasters - Thomas Pastuszak Blind Tastes a White Wine",
       "url": "https://www.youtube.com/watch?v=FsZNYf3zZRA",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Thomas Pastuszak",
+        "盲品",
+        "白葡萄酒",
+        "品鉴训练"
+      ]
     },
     {
       "id": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a-FKqPtUG_Cz4",
       "youtubeId": "FKqPtUG_Cz4",
-      "title": "Mollie Battenhouse MW — Blind Tasting Tips",
+      "title": "SevenFifty Daily Supertasters - Mollie Battenhouse MW",
       "url": "https://www.youtube.com/watch?v=FKqPtUG_Cz4",
       "creatorId": "yt-sevenfifty-daily-sevenfiftydaily-75c7e62a",
       "publisher": "SevenFifty Daily (@sevenfiftydaily)",
       "topic": "tasting",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Mollie Battenhouse MW",
+        "盲品",
+        "品鉴技巧"
+      ]
     },
     {
       "id": "yt-guildsomm-19e60dc0-SGIl5iUF_Xo",
       "youtubeId": "SGIl5iUF_Xo",
-      "title": "摆台、工具准备、开瓶、换瓶",
+      "title": "Service Tutorial: Decanting Service",
       "url": "https://www.youtube.com/watch?v=SGIl5iUF_Xo",
       "creatorId": "yt-guildsomm-19e60dc0",
       "publisher": "GuildSomm",
       "topic": "service",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "侍酒服务",
+        "醒酒",
+        "换瓶"
+      ]
     },
     {
       "id": "yt-guildsomm-19e60dc0-WIdmlv3diGI",
       "youtubeId": "WIdmlv3diGI",
-      "title": "何时使用、如何操作 double decant",
+      "title": "Service Tutorial: How to Double Decant",
       "url": "https://www.youtube.com/watch?v=WIdmlv3diGI",
       "creatorId": "yt-guildsomm-19e60dc0",
       "publisher": "GuildSomm",
       "topic": "service",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "双重醒酒",
+        "Double Decant",
+        "换瓶",
+        "侍酒服务"
+      ]
     },
     {
       "id": "yt-guildsomm-19e60dc0-M_460ohBoJw",
       "youtubeId": "M_460ohBoJw",
-      "title": "Video M_460ohBoJw",
+      "title": "Service Tutorial: How to Use a Durand",
       "url": "https://www.youtube.com/watch?v=M_460ohBoJw",
       "creatorId": "yt-guildsomm-19e60dc0",
       "publisher": "GuildSomm",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "service",
+      "platform": "YouTube",
+      "tags": [
+        "Durand",
+        "老酒",
+        "开瓶器",
+        "侍酒服务"
+      ]
     },
     {
       "id": "yt-guildsomm-19e60dc0-2PIvfUvlBvg",
       "youtubeId": "2PIvfUvlBvg",
-      "title": "Video 2PIvfUvlBvg",
+      "title": "Introduction To Winemaking",
       "url": "https://www.youtube.com/watch?v=2PIvfUvlBvg",
       "creatorId": "yt-guildsomm-19e60dc0",
       "publisher": "GuildSomm",
       "topic": "vinification",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "酿造",
+        "生产工艺",
+        "葡萄酒入门"
+      ]
     },
     {
       "id": "yt-guildsomm-19e60dc0-um10vnGXxw4",
       "youtubeId": "um10vnGXxw4",
-      "title": "产区片；与服务教程分开收录",
+      "title": "The Wines of Champagne",
       "url": "https://www.youtube.com/watch?v=um10vnGXxw4",
       "creatorId": "yt-guildsomm-19e60dc0",
       "publisher": "GuildSomm",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "香槟",
+        "法国",
+        "起泡酒",
+        "产区"
+      ]
     },
     {
       "id": "yt-guildsomm-19e60dc0-l75eD2HHwM8",
       "youtubeId": "l75eD2HHwM8",
-      "title": "Nebbiolo 两个经典产区的比较入口",
+      "title": "The Wines of Barolo and Barbaresco",
       "url": "https://www.youtube.com/watch?v=l75eD2HHwM8",
       "creatorId": "yt-guildsomm-19e60dc0",
       "publisher": "GuildSomm",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Barolo",
+        "Barbaresco",
+        "内比奥罗",
+        "意大利"
+      ]
     },
     {
       "id": "yt-guildsomm-19e60dc0-t_btreA6G7Q",
       "youtubeId": "t_btreA6G7Q",
-      "title": "Video t_btreA6G7Q",
+      "title": "The Wines of Tuscany",
       "url": "https://www.youtube.com/watch?v=t_btreA6G7Q",
       "creatorId": "yt-guildsomm-19e60dc0",
       "publisher": "GuildSomm",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "托斯卡纳",
+        "Tuscany",
+        "意大利",
+        "产区"
+      ]
     },
     {
       "id": "yt-guildsomm-19e60dc0-m6C4cMppZFo",
       "youtubeId": "m6C4cMppZFo",
-      "title": "优先参考另列的 2021 更新版",
+      "title": "The Wines of Germany",
       "url": "https://www.youtube.com/watch?v=m6C4cMppZFo",
       "creatorId": "yt-guildsomm-19e60dc0",
       "publisher": "GuildSomm",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "德国",
+        "Germany",
+        "葡萄酒产区"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-viQdNJMvYi0",
       "youtubeId": "viQdNJMvYi0",
-      "title": "24 集系列说明实例",
+      "title": "Study bites: traditional method sparkling wine (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=viQdNJMvYi0",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "传统法",
+        "瓶中二次发酵",
+        "起泡酒",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-qMZCBC8iFRQ",
       "youtubeId": "qMZCBC8iFRQ",
-      "title": "Five things that influence grape growing",
+      "title": "Study bites: five things that influence grape growing (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=qMZCBC8iFRQ",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "viticulture",
+      "platform": "YouTube",
+      "tags": [
+        "葡萄种植",
+        "生长环境",
+        "葡萄园",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-nq_oTajOo00",
       "youtubeId": "nq_oTajOo00",
-      "title": "Five things to know about growing grapes",
+      "title": "Study bites: five things to know about growing grapes (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=nq_oTajOo00",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "viticulture",
+      "platform": "YouTube",
+      "tags": [
+        "葡萄种植",
+        "生长条件",
+        "葡萄园",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-QbY6U2l2Qls",
       "youtubeId": "QbY6U2l2Qls",
-      "title": "Vineyard training options",
+      "title": "Study bites: vineyard training options (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=QbY6U2l2Qls",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "整形方式",
+        "葡萄藤",
+        "葡萄园管理",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-XJWBwdBHY8Q",
       "youtubeId": "XJWBwdBHY8Q",
-      "title": "Common challenges in the vineyard",
+      "title": "Study bites: common challenges in the vineyard (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=XJWBwdBHY8Q",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "viticulture",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "葡萄园管理",
+        "葡萄种植",
+        "生长挑战",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-Pkq5ggvVrbc",
       "youtubeId": "Pkq5ggvVrbc",
-      "title": "Vineyard pests and diseases",
+      "title": "Study bites: vineyard pests and diseases (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=Pkq5ggvVrbc",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "viticulture",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "病虫害",
+        "葡萄藤",
+        "葡萄园管理",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-aPamrrPD7Co",
       "youtubeId": "aPamrrPD7Co",
-      "title": "Five options for white winemaking",
+      "title": "Study bites: five options for white winemaking (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=aPamrrPD7Co",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "vinification",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "白葡萄酒",
+        "酿造",
+        "工艺选择",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-ubochtQEDGI",
       "youtubeId": "ubochtQEDGI",
-      "title": "Five options for red winemaking",
+      "title": "Study bites: five options for red winemaking (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=ubochtQEDGI",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "vinification",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "红葡萄酒",
+        "酿造",
+        "工艺选择",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-XWRkxjr2Jc8",
       "youtubeId": "XWRkxjr2Jc8",
-      "title": "Five ways to make sweet wines",
+      "title": "Study bites: five ways to make sweet wines (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=XWRkxjr2Jc8",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "甜葡萄酒",
+        "酿造",
+        "甜度",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-8dPpEAkUwYA",
       "youtubeId": "8dPpEAkUwYA",
-      "title": "Five options for making sparkling wine",
+      "title": "Study bites: five options for making sparkling wine (WSET Level 3 wine)",
       "url": "https://www.youtube.com/watch?v=8dPpEAkUwYA",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "起泡酒",
+        "酿造",
+        "生产方法",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-KAtz05C5oA8",
@@ -801,7 +1264,12 @@
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "德国",
+        "葡萄酒产区",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-rpoyyftwm7Y",
@@ -811,7 +1279,13 @@
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "南澳大利亚",
+        "澳大利亚",
+        "产区",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-_jDw7RA7VP4",
@@ -820,8 +1294,13 @@
       "url": "https://www.youtube.com/watch?v=_jDw7RA7VP4",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "grape_varieties",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "新西兰",
+        "葡萄酒产区",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-CKyXr340Tgo",
@@ -831,7 +1310,13 @@
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "西班牙北部",
+        "红葡萄酒",
+        "产区",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-_vZUjuCMU5I",
@@ -840,8 +1325,13 @@
       "url": "https://www.youtube.com/watch?v=_vZUjuCMU5I",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "grape_varieties",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "意大利西北部",
+        "产区",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-wuwLVRho8Do",
@@ -851,7 +1341,13 @@
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "加利福尼亚",
+        "美国",
+        "产区",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-vudx58f5ZOE",
@@ -861,7 +1357,13 @@
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "勃艮第",
+        "白葡萄酒",
+        "法国",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-1UV3yWf3wj0",
@@ -871,7 +1373,14 @@
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "波尔多",
+        "左岸",
+        "红葡萄酒",
+        "法国",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-TdeabehKJiQ",
@@ -881,7 +1390,13 @@
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "北罗讷",
+        "法国",
+        "产区",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-haaqRaJjA9o",
@@ -891,217 +1406,344 @@
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "波特酒",
+        "加强酒",
+        "葡萄牙",
+        "WSET三级"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-W-3Dj3keTX0",
       "youtubeId": "W-3Dj3keTX0",
-      "title": "Rioja",
+      "title": "Discover Rioja with Lauren Denyer DipWSET",
       "url": "https://www.youtube.com/watch?v=W-3Dj3keTX0",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Rioja",
+        "里奥哈",
+        "西班牙",
+        "产区",
+        "Lauren Denyer DipWSET"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-vLq-70jxsGs",
       "youtubeId": "vLq-70jxsGs",
-      "title": "Alsace",
+      "title": "Discover Alsace wine with Nina Cerullo",
       "url": "https://www.youtube.com/watch?v=vLq-70jxsGs",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Alsace",
+        "阿尔萨斯",
+        "法国",
+        "产区",
+        "Nina Cerullo"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-Tc5IzNpmYJU",
       "youtubeId": "Tc5IzNpmYJU",
-      "title": "Biodynamic wine",
+      "title": "Discover Biodynamic wine with Julia Lambeth DipWSET",
       "url": "https://www.youtube.com/watch?v=Tc5IzNpmYJU",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "viticulture",
+      "platform": "YouTube",
+      "tags": [
+        "生物动力法",
+        "葡萄种植",
+        "葡萄园管理",
+        "Julia Lambeth DipWSET"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-NO9bbvWArq4",
       "youtubeId": "NO9bbvWArq4",
-      "title": "Champagne",
+      "title": "Discover Champagne with Lauren Denyer DipWSET",
       "url": "https://www.youtube.com/watch?v=NO9bbvWArq4",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "香槟",
+        "法国",
+        "起泡酒",
+        "Lauren Denyer DipWSET"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-aeemffJ6Ybc",
       "youtubeId": "aeemffJ6Ybc",
-      "title": "Chardonnay",
+      "title": "Learn about Chardonnay with Lydia Harrison MW",
       "url": "https://www.youtube.com/watch?v=aeemffJ6Ybc",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "vinification",
-      "platform": "YouTube"
+      "topic": "grape_varieties",
+      "platform": "YouTube",
+      "tags": [
+        "Chardonnay",
+        "霞多丽",
+        "白葡萄品种",
+        "Lydia Harrison MW"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-99Mh9IYZCa8",
       "youtubeId": "99Mh9IYZCa8",
-      "title": "Riesling",
+      "title": "Learn about Riesling with Julia Lambeth DipWSET",
       "url": "https://www.youtube.com/watch?v=99Mh9IYZCa8",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "grape_varieties",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Riesling",
+        "雷司令",
+        "白葡萄品种",
+        "Julia Lambeth DipWSET"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-A3H2VyQhvMA",
       "youtubeId": "A3H2VyQhvMA",
-      "title": "Cabernet Franc",
+      "title": "Learn about Cabernet Franc with Richard Lane DipWSET",
       "url": "https://www.youtube.com/watch?v=A3H2VyQhvMA",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "grape_varieties",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Cabernet Franc",
+        "品丽珠",
+        "红葡萄品种",
+        "Richard Lane DipWSET"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-leWlAChbmes",
       "youtubeId": "leWlAChbmes",
-      "title": "Grenache/Garnacha",
+      "title": "Learn about Grenache/Garnacha with Lucy Stevenson DipWSET",
       "url": "https://www.youtube.com/watch?v=leWlAChbmes",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "grape_varieties",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Grenache",
+        "Garnacha",
+        "歌海娜",
+        "红葡萄品种",
+        "Lucy Stevenson DipWSET"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-JmjuKVvzqbM",
       "youtubeId": "JmjuKVvzqbM",
-      "title": "Microorganisms and wine fermentation",
+      "title": "A close look at microorganisms and wine fermentation",
       "url": "https://www.youtube.com/watch?v=JmjuKVvzqbM",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "vinification",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "微生物",
+        "发酵",
+        "酿造"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-j7xN_-3io6s",
       "youtubeId": "j7xN_-3io6s",
-      "title": "Winemaker Almudena Alberca MW",
+      "title": "A close look at winemaker Almudena Alberca MW",
       "url": "https://www.youtube.com/watch?v=j7xN_-3io6s",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Almudena Alberca MW",
+        "酿酒师",
+        "西班牙"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-nOL5jnxY8Qg",
       "youtubeId": "nOL5jnxY8Qg",
-      "title": "Viticulture in Burgundy",
+      "title": "A close look at viticulture in Burgundy",
       "url": "https://www.youtube.com/watch?v=nOL5jnxY8Qg",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "viticulture",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "勃艮第",
+        "葡萄种植",
+        "葡萄园",
+        "法国"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-Rd_WxSK7ql8",
       "youtubeId": "Rd_WxSK7ql8",
-      "title": "Napa Valley Cabernet Sauvignon",
+      "title": "A close look at Napa Valley Cabernet Sauvignon",
       "url": "https://www.youtube.com/watch?v=Rd_WxSK7ql8",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "grape_varieties",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "纳帕谷",
+        "赤霞珠",
+        "加利福尼亚",
+        "美国"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-NHdkDtwf93o",
       "youtubeId": "NHdkDtwf93o",
-      "title": "English cheese and wine pairing",
+      "title": "English wine and cheese pairing with Lydia Harrison MW and Patrick McGuigan",
       "url": "https://www.youtube.com/watch?v=NHdkDtwf93o",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "service",
+      "platform": "YouTube",
+      "tags": [
+        "英格兰葡萄酒",
+        "英国奶酪",
+        "餐酒搭配"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-untvnDVAGRA",
       "youtubeId": "untvnDVAGRA",
-      "title": "Sherry and food pairing",
+      "title": "Sherry and food pairing with Lauren Denyer DipWSET",
       "url": "https://www.youtube.com/watch?v=untvnDVAGRA",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "service",
+      "platform": "YouTube",
+      "tags": [
+        "雪莉",
+        "加强酒",
+        "餐酒搭配"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-quy5Oca8TnQ",
       "youtubeId": "quy5Oca8TnQ",
-      "title": "Exploring terroir in cheese and wine",
+      "title": "Exploring terroir in cheese and wine with Lydia Harrison MW and Patrick McGuigan",
       "url": "https://www.youtube.com/watch?v=quy5Oca8TnQ",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "viticulture",
-      "platform": "YouTube"
+      "topic": "service",
+      "platform": "YouTube",
+      "tags": [
+        "风土",
+        "奶酪",
+        "葡萄酒",
+        "餐酒搭配"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-uJ1h5Zk-y8o",
       "youtubeId": "uJ1h5Zk-y8o",
-      "title": "Introduction to the UK industry",
+      "title": "Careers in drinks: introduction to the UK industry",
       "url": "https://www.youtube.com/watch?v=uJ1h5Zk-y8o",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "英国",
+        "酒业",
+        "行业概览"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-isgRh7_E50M",
       "youtubeId": "isgRh7_E50M",
-      "title": "Production and product development",
+      "title": "Careers in drinks: production and product development",
       "url": "https://www.youtube.com/watch?v=isgRh7_E50M",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "生产管理",
+        "产品开发",
+        "酒业"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-GPNgvHpbozw",
       "youtubeId": "GPNgvHpbozw",
-      "title": "Import, distribution and logistics",
+      "title": "Careers in drinks: import, distribution and logistics",
       "url": "https://www.youtube.com/watch?v=GPNgvHpbozw",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "进口",
+        "分销",
+        "物流",
+        "酒业"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-5ZeisTKQqsY",
       "youtubeId": "5ZeisTKQqsY",
-      "title": "Retail in the UK",
+      "title": "Careers in drinks: retail in the UK",
       "url": "https://www.youtube.com/watch?v=5ZeisTKQqsY",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "英国",
+        "葡萄酒零售",
+        "销售渠道"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-l8q4prRXcrE",
       "youtubeId": "l8q4prRXcrE",
-      "title": "Service and hospitality in the UK",
+      "title": "Careers in drinks: service and hospitality in the UK",
       "url": "https://www.youtube.com/watch?v=l8q4prRXcrE",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
       "topic": "service",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "英国",
+        "侍酒服务",
+        "餐饮业"
+      ]
     },
     {
       "id": "yt-wset-school-london-78f6ccc8-2Amia2GflQo",
       "youtubeId": "2Amia2GflQo",
-      "title": "Branding, marketing and communication",
+      "title": "Careers in drinks: branding, marketing and communication",
       "url": "https://www.youtube.com/watch?v=2Amia2GflQo",
       "creatorId": "yt-wset-school-london-78f6ccc8",
       "publisher": "WSET School London",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "品牌管理",
+        "市场营销",
+        "传播",
+        "酒业"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-DTxpLSjtZOk",
@@ -1110,8 +1752,13 @@
       "url": "https://www.youtube.com/watch?v=DTxpLSjtZOk",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "viticulture",
+      "platform": "YouTube",
+      "tags": [
+        "气候",
+        "葡萄种植",
+        "生长环境"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-FKN7SG8RM2w",
@@ -1120,8 +1767,13 @@
       "url": "https://www.youtube.com/watch?v=FKN7SG8RM2w",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "viticulture",
+      "platform": "YouTube",
+      "tags": [
+        "根瘤蚜",
+        "虫害",
+        "葡萄种植"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-yqKkqEn6ZVg",
@@ -1131,7 +1783,12 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "vinification",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "红葡萄酒",
+        "酿造",
+        "生产工艺"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-ijbIS8waYgI",
@@ -1140,8 +1797,13 @@
       "url": "https://www.youtube.com/watch?v=ijbIS8waYgI",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "酸度",
+        "葡萄酒化学",
+        "酒体结构"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-Np-M3qjEg0w",
@@ -1151,7 +1813,12 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "vinification",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "苹果酸-乳酸发酵",
+        "MLF",
+        "酿造"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-mHpOiQuvKxY",
@@ -1160,8 +1827,13 @@
       "url": "https://www.youtube.com/watch?v=mHpOiQuvKxY",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "亚硫酸盐",
+        "二氧化硫",
+        "酿造"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-GwO63a-JHjA",
@@ -1170,8 +1842,13 @@
       "url": "https://www.youtube.com/watch?v=GwO63a-JHjA",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "mixed",
+      "platform": "YouTube",
+      "tags": [
+        "桃红葡萄酒",
+        "Rosé",
+        "葡萄酒风格"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-I_Ezxju-A7I",
@@ -1181,7 +1858,12 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "grape_varieties",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "雷司令",
+        "Riesling",
+        "白葡萄品种"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-aTss7u4RjMs",
@@ -1190,8 +1872,13 @@
       "url": "https://www.youtube.com/watch?v=aTss7u4RjMs",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "grape_varieties",
+      "platform": "YouTube",
+      "tags": [
+        "黑比诺",
+        "Pinot Noir",
+        "红葡萄品种"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-j-oMAg529yQ",
@@ -1200,8 +1887,13 @@
       "url": "https://www.youtube.com/watch?v=j-oMAg529yQ",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "grape_varieties",
+      "platform": "YouTube",
+      "tags": [
+        "歌海娜",
+        "Grenache",
+        "红葡萄品种"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-QAOrGNBWg9s",
@@ -1211,7 +1903,12 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "grape_varieties",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "桑娇维塞",
+        "Sangiovese",
+        "红葡萄品种"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-cEQcM8KNmlE",
@@ -1220,8 +1917,13 @@
       "url": "https://www.youtube.com/watch?v=cEQcM8KNmlE",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "grape_varieties",
+      "platform": "YouTube",
+      "tags": [
+        "丹魄",
+        "Tempranillo",
+        "红葡萄品种"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-HAGeeD84g2Q",
@@ -1231,7 +1933,12 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "grape_varieties",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "马尔贝克",
+        "Malbec",
+        "红葡萄品种"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-5HPvwI6sqy0",
@@ -1241,7 +1948,12 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "grape_varieties",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "佳丽酿",
+        "Carignan",
+        "红葡萄品种"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-w4sHH5tZyy4",
@@ -1251,7 +1963,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "勃艮第",
+        "Burgundy",
+        "法国",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-nePmPnPfUI0",
@@ -1261,7 +1979,14 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "夏布利",
+        "Chablis",
+        "勃艮第",
+        "霞多丽",
+        "法国"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-5akEy16yuEQ",
@@ -1271,7 +1996,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "博若莱",
+        "Beaujolais",
+        "法国",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-VV0Edb2y1iQ",
@@ -1280,8 +2011,14 @@
       "url": "https://www.youtube.com/watch?v=VV0Edb2y1iQ",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "grape_varieties",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "波尔多",
+        "Bordeaux",
+        "法国",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-QCwIqA214lw",
@@ -1291,7 +2028,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "卢瓦尔河谷",
+        "Loire Valley",
+        "法国",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-9e90OgtxByM",
@@ -1301,7 +2044,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "北罗讷",
+        "Northern Rhône",
+        "法国",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-oxWatpbaKM4",
@@ -1311,7 +2060,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "南罗讷",
+        "Southern Rhône",
+        "法国",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-TfPnBqKHtlU",
@@ -1321,7 +2076,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "威尼托",
+        "Veneto",
+        "意大利",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-lcC67N9Z_1k",
@@ -1331,7 +2092,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "里奥哈",
+        "Rioja",
+        "西班牙",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-er7HO8qgtxA",
@@ -1341,7 +2108,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "加利福尼亚",
+        "California",
+        "美国",
+        "产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-jMXUIywuOw4",
@@ -1350,8 +2123,13 @@
       "url": "https://www.youtube.com/watch?v=jMXUIywuOw4",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "grape_varieties",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "澳大利亚",
+        "Australia",
+        "葡萄酒产区"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-eMmerSWSrAc",
@@ -1361,7 +2139,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "帕索罗布尔斯",
+        "Paso Robles",
+        "加利福尼亚",
+        "美国"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-ewI6jP-lP9Q",
@@ -1371,7 +2155,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "瓦拉瓦拉谷",
+        "The Rocks",
+        "美国西北部",
+        "风土"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-Tl9SAj_uBWo",
@@ -1380,8 +2170,14 @@
       "url": "https://www.youtube.com/watch?v=Tl9SAj_uBWo",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "传统法",
+        "瓶中二次发酵",
+        "起泡酒",
+        "酿造"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-DCjEwLYFn-I",
@@ -1391,7 +2187,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "香槟",
+        "Champagne",
+        "法国",
+        "起泡酒"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-oeFL0nlbpi4",
@@ -1401,7 +2203,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "香槟",
+        "Champagne",
+        "法国",
+        "起泡酒"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-pOrtqlRgJdM",
@@ -1410,8 +2218,14 @@
       "url": "https://www.youtube.com/watch?v=pOrtqlRgJdM",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "regions",
-      "platform": "YouTube"
+      "topic": "vinification",
+      "platform": "YouTube",
+      "tags": [
+        "Charmat",
+        "罐式法",
+        "夏玛法",
+        "起泡酒酿造"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-5VHV-KLuFpY",
@@ -1421,7 +2235,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "Prosecco",
+        "普罗塞克",
+        "意大利",
+        "起泡酒"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-j4yA9yBVJrA",
@@ -1431,7 +2251,13 @@
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
       "topic": "regions",
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "tags": [
+        "波特酒",
+        "Port",
+        "葡萄牙",
+        "加强酒"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-Pn04n_i5_9M",
@@ -1440,8 +2266,14 @@
       "url": "https://www.youtube.com/watch?v=Pn04n_i5_9M",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "grape_varieties",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "雪莉",
+        "Sherry",
+        "西班牙",
+        "加强酒"
+      ]
     },
     {
       "id": "yt-the-unknown-winecaster-9171384b-jpcJ1INaknY",
@@ -1450,8 +2282,14 @@
       "url": "https://www.youtube.com/watch?v=jpcJ1INaknY",
       "creatorId": "yt-the-unknown-winecaster-9171384b",
       "publisher": "The Unknown Winecaster",
-      "topic": "vinification",
-      "platform": "YouTube"
+      "topic": "regions",
+      "platform": "YouTube",
+      "tags": [
+        "雪莉",
+        "Sherry",
+        "西班牙",
+        "加强酒"
+      ]
     }
   ]
 }

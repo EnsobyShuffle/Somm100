@@ -1,138 +1,153 @@
 'use client';
 
-import React, {useEffect, useState} from 'react';
-import legacy from '../data/video-library.json';
-import catalog from '../data/wine-channel.json';
-import youtubeAccounts from '../data/wine-channel-source-accounts.json';
+import React, {useEffect, useMemo, useState} from 'react';
+import {Play, Search, X} from 'lucide-react';
 import bilibiliAccounts from '../data/wine-channel-bilibili-accounts.json';
-import youtubeFeatured from '../data/wine-channel-youtube-featured-01.json';
+import youtubeAccounts from '../data/wine-channel-source-accounts.json';
+import bilibili from '../data/wine-channel.json';
+import legacy from '../data/video-library.json';
+import youtube from '../data/wine-channel-youtube-featured-01.json';
+import mickey from '../data/wine-channel-mickey.json';
+import dictionary from '../data/knowledge-dictionary.json';
+import {findTerm, normalizeTerm} from '../lib/term-lookup';
 import './wine-channel.css';
-import {validateVideo} from '../lib/habits';
 
+type Platform = 'Bilibili' | 'YouTube';
 type Video = {
-  id: string; title: string; url: string; publisher?: string; publisherUrl?: string;
-  creator?: string; creatorId?: string; topic?: string; tags?: string[];
-  platform?: string; coverUrl?: string; embedUrl?: string; durationSeconds?: number;
-  publishedAt?: string; learningPrompt?: string; personal?: boolean; ownership?: string;
+  id: string; title: string; url: string; publisher?: string; creatorId?: string; creator?: string;
+  platform?: string; tags?: string[]; coverUrl?: string; durationSeconds?: number; publishedAt?: string;
+  learningPrompt?: string; ownership?: string; topic?: string; personal?: boolean;
 };
-type Creator = {id:string; name:string; url?:string; description:string; initial:string; topics?:string[]; focus?:string; sourceEntries?:number|null; platform?:string; status?:string};
 type Habits = {
   data: {videos: Video[]}; saving: boolean;
   save: (action: Record<string, unknown>, notice: string) => Promise<unknown>;
 };
-const topics: Record<string,string> = {viticulture:'葡萄种植',vinification:'葡萄酒酿造',regions:'国家与产区',grape_varieties:'葡萄品种',tasting:'品鉴',service:'侍酒服务',mixed:'综合'};
-export function videoKey(video: Video) {return video.url.match(/BV[a-zA-Z0-9]{10}/)?.[0] || video.url;}
-export function playerUrl(video: Video) {
-  if (video.platform==='YouTube') {
-    const id=video.url.match(/^https:\/\/www\.youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})$/)?.[1];
-    return id ? 'https://www.youtube-nocookie.com/embed/'+id+'?rel=0&playsinline=1' : null;
-  }
-  if (!video.embedUrl) return null;
+const channels = {
+  Bilibili: bilibiliAccounts.accounts.map(c => ({...c, description: c.description})),
+  YouTube: youtubeAccounts.accounts.map(c => ({...c, description: c.focus})),
+};
+export function videoKey(v: Video) {
+  return v.url.match(/BV[a-zA-Z0-9]{10}/)?.[0] || v.url;
+}
+const bilibiliVideos: Video[] = [...bilibili.videos, ...legacy.videos, ...mickey.videos];
+const catalog: Video[] = [...new Map(bilibiliVideos.map(v => [videoKey(v),v])).values(), ...youtube.videos];
+const platformNames: Platform[] = ['Bilibili', 'YouTube'];
+const topics: Record<string,string> = {viticulture:'葡萄种植',vinification:'葡萄酒酿造',regions:'国家与产区',grape_varieties:'葡萄品种',tasting:'品鉴',service:'侍酒服务',mixed:'葡萄酒文化'};
+const platformIcons: Record<Platform,string> = {Bilibili: 'M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c0-.373.129-.689.386-.947.258-.257.574-.386.947-.386zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c.017-.391.15-.711.4-.96.249-.249.56-.373.933-.373Z', YouTube: 'M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z'};
+
+function mediaId(v: Video) {
   try {
-    const url = new URL(video.embedUrl);
-    const bvid = videoKey(video);
-    if (url.origin !== 'https://player.bilibili.com' || url.pathname !== '/player.html' || url.searchParams.get('bvid') !== bvid || !/^BV[a-zA-Z0-9]{10}$/.test(bvid)) return null;
-    url.searchParams.set('autoplay','0');
-    return url.toString();
-  } catch {return null;}
+    const u = new URL(v.url);
+    if (u.protocol !== 'https:' || u.username || u.password) return;
+    if (u.hostname === 'www.youtube.com' && u.pathname === '/watch') {
+      const id = u.searchParams.get('v') || '';
+      if (/^[\w-]{11}$/.test(id)) return {platform:'YouTube', id};
+    }
+    if (['www.bilibili.com','m.bilibili.com','bilibili.com'].includes(u.hostname)) {
+      const id = u.pathname.match(/\/video\/(BV[A-Za-z0-9]{10})(?:\/|$)/)?.[1];
+      if (id) return {platform:'Bilibili', id};
+    }
+  } catch { return; }
 }
-function duration(seconds?: number) {
-  if (!seconds) return '';
-  const m = Math.floor(seconds / 60), s = String(seconds % 60).padStart(2,'0');
-  return m >= 60 ? `${Math.floor(m / 60)}:${String(m % 60).padStart(2,'0')}:${s}` : `${m}:${s}`;
+export function playerUrl(v: Video) {
+  const media = mediaId(v);
+  if (!media) return null;
+  return media.platform === 'YouTube'
+    ? 'https://www.youtube-nocookie.com/embed/'+media.id+'?rel=0&playsinline=1&autoplay=1'
+    : 'https://player.bilibili.com/player.html?bvid='+media.id+'&autoplay=1&danmaku=0';
 }
-function Cover({video}: {video:Video}) {
+function runtime(seconds: number) {
+  const minutes = Math.floor(seconds / 60);
+  const secs = String(seconds % 60).padStart(2,'0');
+  return minutes < 60 ? minutes+':'+secs : Math.floor(minutes/60)+':'+String(minutes%60).padStart(2,'0')+':'+secs;
+}
+function VideoCard({video:v, playing, onPlay, onTag, onRemove}: {
+  video: Video; playing: boolean; onPlay: (id: string|null) => void; onTag: (tag:string) => void; onRemove?: () => void;
+}) {
   const [failed,setFailed] = useState(false);
-  const youtubeId=video.platform==="YouTube" ? video.url.match(/[?&]v=([a-zA-Z0-9_-]{11})/)?.[1] : null;
-  const coverSrc=video.coverUrl || (youtubeId ? "https://i.ytimg.com/vi/"+youtubeId+"/hqdefault.jpg" : undefined);
-  return <a className="wc-cover" href={video.url} target="_blank" rel="noopener noreferrer" aria-label={`${video.title} · 在原发布平台打开`}>
-    {coverSrc && !failed ? <img src={coverSrc} alt={video.title} loading="lazy" referrerPolicy="no-referrer" onError={()=>setFailed(true)}/> : <span className="wc-cover-fallback">{video.publisher || '我的学习链接'}<small>{failed?'封面暂不可用 · 点击打开原片':'打开原视频'}</small></span>}
-    {duration(video.durationSeconds) && <span className="wc-duration">{duration(video.durationSeconds)}</span>}
-  </a>;
+  const media = mediaId(v), player = playerUrl(v);
+  const image = v.coverUrl || (media?.platform === 'YouTube' ? 'https://i.ytimg.com/vi/'+media.id+'/hqdefault.jpg' : '');
+  const poster = <>
+    {image && !failed ? <img src={image} alt="" loading="lazy" referrerPolicy="no-referrer" onError={()=>setFailed(true)}/> : <span className="wc-cover-type">{v.publisher || v.platform}</span>}
+    <span className="wc-play"><Play size={24} fill="currentColor" aria-hidden="true"/></span>
+    {!!v.durationSeconds && <span className="wc-duration">{runtime(v.durationSeconds)}</span>}
+  </>;
+  return <article className="wc-video">
+    {playing && player ? <div className="wc-player">
+      <iframe title={v.title} src={player} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/>
+      <div><a href={v.url} target="_blank" rel="noreferrer">在 {v.platform} 打开原片</a><button onClick={()=>onPlay(null)}>关闭播放</button></div>
+    </div> : player ? <button className="wc-cover" aria-label={'播放 '+v.title} onClick={()=>onPlay(v.id)}>{poster}</button>
+      : <a className="wc-cover" href={v.url} target="_blank" rel="noreferrer" aria-label={'打开 '+v.title}>{poster}</a>}
+    <div className="wc-video-copy">
+      <div className="wc-byline"><span>{v.publisher || v.creator}{v.platform && ' · '+v.platform}</span>{v.publishedAt && <time dateTime={v.publishedAt}>{v.publishedAt.slice(0,10)}</time>}</div>
+      <h3>{player?<button onClick={()=>onPlay(v.id)}>{v.title}</button>:<a href={v.url} target="_blank" rel="noreferrer">{v.title}</a>}</h3>
+      <div className="wc-tags">{(v.tags?.length?v.tags:[topics[v.topic || '']].filter(Boolean)).map(tag=><button key={tag} onClick={()=>onTag(tag)}>{tag}</button>)}</div>
+      {v.learningPrompt && <details><summary>学习提示</summary><p>{v.learningPrompt}</p></details>}
+      {onRemove && <button className="wc-link" onClick={onRemove}>移除我的链接</button>}
+    </div>
+  </article>;
+}
+function readRoute() {
+  if (typeof window === 'undefined') return {platform: 'Bilibili' as Platform, creator: ''};
+  const p = new URLSearchParams(location.hash.split('?')[1]);
+  return {platform:(p.get('platform') === 'youtube' ? 'YouTube':'Bilibili') as Platform, creator:p.get('creator') || ''};
 }
 export default function WineChannel({h}:{h:Habits}) {
-  const [selected,setSelected] = useState(''), [query,setQuery] = useState(''), [topic,setTopic] = useState('all');
-  const [platformView,setPlatformView] = useState<'Bilibili'|'YouTube'>('Bilibili');
-  const [directorySearch,setDirectorySearch] = useState(''), [directoryFocus,setDirectoryFocus] = useState('all');
-  const [playing,setPlaying] = useState<string|null>(null), [add,setAdd] = useState(false);
-  const [title,setTitle] = useState(''), [url,setUrl] = useState(''), [creator,setCreator] = useState('');
-  const [newTopic,setNewTopic] = useState('regions'), [own,setOwn] = useState(false), [error,setError] = useState('');
+  const [route,setRoute] = useState(readRoute);
+  const [query,setQuery] = useState(''), [playing,setPlaying] = useState<string|null>(null);
+  const {platform,creator} = route;
+  const sources = channels[platform];
+  const current = sources.find(c => c.id === creator);
   useEffect(()=>{
-    const read=()=>{const params=new URLSearchParams(location.hash.split('?')[1]);setSelected(params.get('creator') || '');setPlatformView(params.get('platform')==='youtube'?'YouTube':'Bilibili');setPlaying(null);setTopic('all');setQuery('');setDirectorySearch('');setDirectoryFocus('all');};
-    read();addEventListener('hashchange',read);return()=>removeEventListener('hashchange',read);
+    function read() {setRoute(readRoute());setQuery('');setPlaying(null);}
+    window.addEventListener('hashchange',read);
+    return ()=>window.removeEventListener('hashchange',read);
   },[]);
-  const personal: Video[] = (h.data.videos || []).map(v=>({...v,publisher:v.creator || v.publisher,personal:true}));
-  const additions: Video[] = catalog.videos;
-  const biliCurated: Video[] = [...additions,...legacy.videos.filter(v=>!additions.some(a=>videoKey(a)===videoKey(v)))];
-  const youtubeCurated: Video[] = youtubeFeatured.videos;
-  const platformCurated: Video[] = platformView==='YouTube' ? youtubeCurated : biliCurated;
-  const biliCreators: Creator[] = bilibiliAccounts.accounts.map(a=>({
-    id:a.id,name:a.name,url:a.url || undefined,description:a.description,initial:a.name.slice(0,1).toUpperCase(),
-    topics:catalog.creators.find(c=>c.id===a.id)?.topics || [],focus:'Wine Education',sourceEntries:a.sourceEntryCount,status:a.status,platform:'Bilibili'
-  }));
-  const youtubeCreators: Creator[] = youtubeAccounts.accounts.map(a=>({
-    id:a.id,name:a.name,url:a.url || undefined,description:a.focus+' · 专业视频来源索引',initial:a.name.slice(0,1).toUpperCase(),
-    focus:a.focus,sourceEntries:a.sourceEntries,platform:'YouTube',status:a.hasVerifiedChannel?'indexed-source':'channel-unverified'
-  }));
-  const creators: Creator[] = platformView==='YouTube' ? youtubeCreators : biliCreators;
-  const visibleCreators=creators.filter(c=>
-    (directoryFocus==='all'||c.focus===directoryFocus)&&
-    [c.name,c.description,...(c.topics||[])].join(' ').toLowerCase().includes(directorySearch.trim().toLowerCase())
-  );
-  const focusOptions=Array.from(new Set(creators.map(c=>c.focus).filter((s):s is string=>Boolean(s)))).sort();
-  const current = creators.find(c=>c.id===selected);
-  const scoped = selected==='own' ? personal.filter(v=>v.ownership==='own')
-    : selected==='personal' ? personal
-    : selected==='all' ? [...platformCurated,...(platformView==='Bilibili'?personal:[])]
-    : current ? platformCurated.filter(v=>v.creatorId===current.id || v.publisher===current.name) : [];
-  const filtered = scoped.filter(v=>(topic==='all'||v.topic===topic)&&[v.title,v.publisher,...(v.tags||[])].join(' ').toLowerCase().includes(query.trim().toLowerCase()));
-  const localVideoCount=(c:Creator)=>platformCurated.filter(v=>v.creatorId===c.id||v.publisher===c.name).length;
-  function openCreator(id:string) {const p=platformView==='YouTube'?'youtube':'bilibili';location.hash='videos?platform='+p+(id?'&creator='+encodeURIComponent(id):'');}
-  function switchPlatform(platform:'Bilibili'|'YouTube') {location.hash='videos?platform='+(platform==='YouTube'?'youtube':'bilibili');}
-  function clearFilters() {setQuery('');setTopic('all');setPlaying(null);}
-  async function addVideo(e:React.FormEvent) {
-    e.preventDefault();setError('');
-    let payload;
-    try {payload=validateVideo({title:title.trim(),url:url.trim(),creator:creator.trim(),topic:newTopic,ownership:own?'own':'external'});}
-    catch(e) {setError((e as Error).message);return;}
-    const result=await h.save({type:'video',...payload},'视频链接已加入你的学习库');
-    if(result){setTitle('');setUrl('');setCreator('');setAdd(false);openCreator('personal');}
+  const personal = useMemo(()=>(h.data.videos || []).map(v=>({...v,publisher:v.creator || v.publisher,personal:true})),[h.data.videos]);
+  const collection = useMemo(()=>{
+    if (creator === 'own') return personal.filter(v=>v.ownership==='own');
+    if (creator === 'personal') return personal;
+    if (current) return catalog.filter(v=>v.platform===platform && (v.creatorId===current.id || v.publisher===current.name));
+    if (creator === 'all') return catalog.filter(v=>v.platform===platform);
+    return creator ? [] : [...catalog,...personal];
+  },[creator,current,platform,personal]);
+  const searched = normalizeTerm(query);
+  const results = useMemo(()=>{
+    if (!searched) return collection;
+    const term = findTerm(dictionary,searched);
+    const keys = [...new Set([searched,...(term?[term.zh,term.en,...term.aliases]:[])].filter(Boolean).map(normalizeTerm))];
+    return collection.filter(v=>{
+      const haystack=normalizeTerm([v.title,v.publisher,topics[v.topic || ''],...(v.tags || [])].filter(Boolean).join(' '));
+      return keys.some(key=>haystack.includes(key)) || searched.split(' ').every(word=>haystack.includes(word));
+    });
+  },[collection,searched]);
+  function go(p:Platform, id='') {
+    setQuery('');setPlaying(null);
+    const params = new URLSearchParams({platform:p.toLowerCase()});
+    if (id) params.set('creator',id);
+    location.hash='videos?'+params;
+    window.scrollTo(0,0);
   }
-  return <div className="wc-page">
-    <header className="page-heading"><div><span className="eyebrow">WATCH & LEARN</span><h1>Wine Channel</h1><p>葡萄酒视频</p></div><button className="button secondary" onClick={()=>setAdd(!add)} aria-expanded={add}>{add?'收起添加':'添加视频链接'}</button></header>
-    <nav className="wc-platform-tabs" aria-label="视频来源平台"><button className={platformView==='Bilibili'?'wc-platform active':'wc-platform'} aria-current={platformView==='Bilibili'?'page':undefined} onClick={()=>switchPlatform('Bilibili')}>Bilibili · {biliCreators.length} 个来源</button><button className={platformView==='YouTube'?'wc-platform active':'wc-platform'} aria-current={platformView==='YouTube'?'page':undefined} onClick={()=>switchPlatform('YouTube')}>YouTube · {youtubeCreators.length} 个来源</button></nav>
-    {add && <form className="white-panel add-video wc-form" onSubmit={addVideo}>
-      <h2>我的视频链接</h2><label>标题<input required maxLength={120} value={title} onChange={e=>setTitle(e.target.value)}/></label>
-      <label>原视频链接<input required type="url" value={url} onChange={e=>setUrl(e.target.value)} placeholder="https://www.bilibili.com/video/…"/></label>
-      <label>发布者（选填）<input maxLength={80} value={creator} onChange={e=>setCreator(e.target.value)}/></label>
-      <label>主题<select value={newTopic} onChange={e=>setNewTopic(e.target.value)}>{Object.entries(topics).map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label>
-      <label className="check-row"><input type="checkbox" checked={own} onChange={e=>setOwn(e.target.checked)}/>Somehouse / SOMM100 自有内容</label>
-      <p className="fine-print">保存到你的学习库。微信视频号可能需要在微信打开。</p>{error&&<p role="alert">{error}</p>}
-      <button className="button" disabled={h.saving||!title.trim()||!url.trim()}>{h.saving?'正在保存…':'保存链接'}</button>
-    </form>}
-    {!selected ? <>
-      <div className="wc-section-heading"><h2>{platformView==='YouTube'?'YouTube 来源账号':'Bilibili 创作者'}</h2><div className="wc-actions">{platformView==='Bilibili'&&<><button className="text-button" onClick={()=>openCreator('personal')}>我的链接 · {personal.length}</button><button className="text-button" onClick={()=>openCreator('own')}>Somehouse · 自有内容</button></>}<button className="text-button" onClick={()=>openCreator('all')}>当前平台视频直链 · {platformCurated.length + (platformView==='Bilibili'?personal.length:0)}</button></div></div>
-      <div className="wc-directory-filters"><label>搜索来源<input type="search" value={directorySearch} onChange={e=>setDirectorySearch(e.target.value)} placeholder="账号、主题、产区…"/></label><label>来源分类<select value={directoryFocus} onChange={e=>setDirectoryFocus(e.target.value)}><option value="all">所有分类</option>{focusOptions.map(f=><option key={f} value={f}>{f}</option>)}</select></label><span role="status">{visibleCreators.length} 个来源</span></div>
-      <p className="wc-source-note">账号收录与视频发布分别核算。视频保留原平台链接，未逐片审核的资料索引不等于已发布课程。</p>
-      <div className="wc-creators">{visibleCreators.map(c=><button className="wc-creator" key={c.id} onClick={()=>openCreator(c.id)}>
-        <span className="wc-initial" aria-hidden="true">{c.initial}</span><span className="wc-creator-copy"><strong>{c.name}</strong><span>{c.description}</span><small>{localVideoCount(c)} 条本站原平台视频链接 · {c.sourceEntries??'待核'} 条来源目录索引{c.status==='channel-unverified'?' · 官方频道待核':''}</small></span><span className="wc-dots" aria-hidden="true">…</span>
-      </button>)}</div>
-      {platformView==='Bilibili'&&<details className="wc-pending"><summary>仍待确认的视频来源</summary>{legacy.creators.filter(c=>c.status==='identity_pending'&&!catalog.creators.some(known=>known.id===c.id)).map(c=><p key={c.id}><b>{c.name}</b> · 原发布账号待确认，未作为正式作者发布。</p>)}</details>}
+  function search(value:string) {setQuery(value);setPlaying(null);}
+  function selectTag(tag:string) {search(tag);document.getElementById('wc-video-search')?.scrollIntoView({block:'center'});}
+  const listing = Boolean(searched || creator);
+  return <section className="wc-page" aria-label="Wine Channel">
+    <header className="wc-head"><h1>Wine Channel</h1><p>葡萄酒视频</p></header>
+    <nav className="wc-platforms" aria-label="视频平台">{platformNames.map(name=><button key={name} aria-current={name===platform?'page':undefined} onClick={()=>go(name)}>
+      <svg className={'wc-logo wc-logo-'+name.toLowerCase()} viewBox="0 0 24 24" aria-hidden="true"><path d={platformIcons[name]}/></svg>{name}
+    </button>)}</nav>
+    {creator && <div className="wc-context"><button className="wc-link" onClick={()=>go(platform)}>返回创作者</button><h2>{current?.name || ({personal:'我的链接',own:'SOMM HOUSE',all:'全部视频'}[creator]) || '未找到创作者'}</h2></div>}
+    <label className="wc-search"><Search size={20} aria-hidden="true"/><input id="wc-video-search" type="search" autoComplete="off" value={query} onChange={e=>search(e.target.value)} aria-label={creator?'搜索当前视频列表':'搜索两个平台的视频'} placeholder={creator?'搜索此列表的视频':'搜索视频、产区、酒庄或主题'}/>{query && <button aria-label="清除搜索" onClick={()=>search('')}><X size={16}/></button>}</label>
+    {listing ? <>
+      <div className="wc-result-line"><span role="status">{results.length} 条视频</span>{current?.url && <a className="wc-link" href={current.url} target="_blank" rel="noreferrer">作者主页</a>}</div>
+      {results.length ? <div className="wc-videos">{results.map(v=><VideoCard key={v.id} video={v} playing={playing===v.id} onPlay={setPlaying} onTag={selectTag} onRemove={v.personal?()=>h.save({type:'remove-video',id:v.id},'已移除该学习链接'):undefined}/>)}</div>
+        : <p className="wc-empty">{searched?'没有找到匹配的视频。':current?'暂未收录这位创作者的视频。':'此列表暂无视频。'}</p>}
     </> : <>
-      <button className="back-link" onClick={()=>openCreator('')}>返回创作者</button>
-      <div className="wc-section-heading"><div><h2>{current?.name || (selected==='own'?'Somehouse · 自有内容':selected==='personal'?'我的视频链接':selected==='all'?'全部视频':'未找到此创作者')}</h2>{current && <p>{current.description}</p>}</div>{current?.url&&<a className="text-button" href={current.url} target="_blank" rel="noopener noreferrer">{platformView==='YouTube'?'打开 YouTube 来源频道':'打开 Bilibili 来源账号'}</a>}</div>
-      <div className="wc-filters"><label className="wc-search">搜索视频<input value={query} onChange={e=>{setQuery(e.target.value);setPlaying(null);}} placeholder="片名、主题、产区…"/></label><label>主题<select value={topic} onChange={e=>{setTopic(e.target.value);setPlaying(null);}}><option value="all">全部主题</option>{Object.entries(topics).map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label><span role="status">{filtered.length} 条视频</span></div>
-      <div className="wc-videos">{filtered.map(v=><article className="wc-video" key={v.id}>
-        <Cover video={v}/><div className="wc-video-body"><span className="eyebrow">{v.publisher || '我的学习链接'}</span><h3><a href={v.url} target="_blank" rel="noopener noreferrer">{v.title}</a></h3>
-          <div className="wc-meta"><span>{topics[v.topic || ''] || '葡萄酒视频'}</span>{v.publishedAt&&<time dateTime={v.publishedAt}>{new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'numeric',day:'numeric'}).format(new Date(v.publishedAt))}</time>}</div>
-          <div className="wc-actions"><a className="text-button" href={v.url} target="_blank" rel="noopener noreferrer">{v.platform==='Bilibili'?'在 B 站观看':'在 YouTube 观看'}</a>{playerUrl(v)&&<button className="text-button" aria-expanded={playing===v.id} onClick={()=>setPlaying(playing===v.id?null:v.id)}>{playing===v.id?'关闭播放器':'站内播放'}</button>}</div>
-          {playing===v.id&&playerUrl(v)&&<div className="wc-player"><iframe src={playerUrl(v)!} title={v.title+' · '+(v.platform==='YouTube'?'YouTube':'B站')+'播放器'} allow="fullscreen; picture-in-picture" allowFullScreen/><p>播放器由原发布平台提供。如无法播放，请使用原平台观看链接。</p></div>}
-          {v.learningPrompt&&<details className="wc-study"><summary>学习提示</summary><p>{v.learningPrompt}</p></details>}
-          {v.personal&&<button className="text-button wc-remove" disabled={h.saving} onClick={()=>h.save({type:'remove-video',id:v.id},'已移除该学习链接')}>移除我的链接</button>}
-        </div>
-      </article>)}</div>
-      {!filtered.length&&<div className="empty-state"><p>{query||topic!=='all'?'没有匹配的视频。':selected==='own'?'原发布账号待确认。你可以添加自有视频链接并保存到学习库。':selected==='personal'?'还没有保存个人视频链接。':'此来源已归档，本站尚未选入可展示的视频。可从原频道进入原视频目录。'}</p>{(query||topic!=='all')&&<button className="button secondary" onClick={clearFilters}>清除筛选</button>}</div>}
+
+      <div className="wc-creators" aria-label="创作者">{sources.map(c=><button className="wc-creator" key={c.id} onClick={()=>go(platform,c.id)}>
+        <strong>{c.name}</strong><span>{c.description}</span>
+      </button>)}</div>
     </>}
-    <footer className="wc-footer">Bilibili 与 YouTube 分别归档；视频和封面仅使用原平台链接，不下载、转存或重新发布。只有点击「站内播放」后才加载原平台播放器。来源账号资料与视频审核、使用授权是独立状态；打开链接不自动记为学习完成。</footer>
-  </div>;
+    <footer className="wc-footer">视频由原平台播放，保留作者署名与原片链接。</footer>
+  </section>;
 }
