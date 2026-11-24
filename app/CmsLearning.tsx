@@ -41,14 +41,30 @@ function ReadingProgress({module,state}:{module:any,state:any}){
  const ids=module.resources.core.sections.filter((s:any)=>s.track).map((s:any)=>s.id);const done=ids.filter((id:string)=>(state.readings||[]).includes(id)).length;
  return <div className="cms-reading-progress"><span>{done} / {ids.length} 节核心阅读</span><progress value={done} max={ids.length}/></div>;
 }
+const cmsEntries = [
+ {level:'IC',name:'Introductory / Certified',zh:'入门与认证',image:'/media/grapes/pinot-noir.jpg',tone:'certified'},
+ {level:'AS',name:'Advanced',zh:'高级侍酒师',image:'/media/mosel-vineyard.png',tone:'advanced'},
+ {level:'MS',name:'Master',zh:'侍酒师大师',image:'/media/oak-cellar.jpg',tone:'master'},
+];
+
 export function CmsHome({state,go,challenge,level=''}:{state:any,go:any,challenge:any,level?:string}){
  const chosen=({IC:{title:'IS / CS',en:'Introductory / Certified',description:'沿着核心阅读建立知识框架，再用练习检查理解。'},AS:{title:'AS',en:'Advanced',description:'从理解与延伸出发，练习分析、比较与解释。'},MS:{title:'MS',en:'Master',description:'进入专题练习，结合品鉴与服务训练巩固综合判断。'}} as Record<string,{title:string;en:string;description:string}>)[level];
+ if (!chosen) return <div className="cms-learning">
+  <div className="page-title cms-home-heading"><h1>CMS</h1></div>
+  <nav className="cms-entrances" aria-label="CMS 学习层级">
+   {cmsEntries.map(entry=><button type="button" className={'cms-entrance '+entry.tone} key={entry.level} onClick={()=>go('cms?level='+entry.level)}>
+    <img src={entry.image} alt="" />
+    <span className="cms-entrance-title"><strong>{entry.name}</strong><small>{entry.zh}</small></span>
+    <span className="cms-color-pin" aria-hidden="true">{entry.level==='IC'?'IS / CS':entry.level}</span>
+   </button>)}
+  </nav>
+ </div>;
  const directory=level==='AS'?modules.filter(m=>m.resources.expansion.sections.length>0):modules;
  const entryResource=level==='AS'?'expansion':'core';
- return <div className="cms-learning"><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><div className="page-title cms-home-heading"><span className="eyebrow">COURSES · CMS{chosen?' · '+chosen.en:''}</span><h1>{chosen?.title||'CMS'}</h1><p>{chosen?.description||'选择学习层级，按自己的节奏安排章节。'}</p></div>
- {chosen?<div className="course-level-practice"><div><span className="eyebrow">WINE QUIZ</span><h2>{chosen.title} · 专题练习</h2><p>按本级别进入题库，回忆、收藏并安排复习。</p></div><button className="button" onClick={()=>challenge(level)}>进入 {chosen.title} 练习 →</button></div>:<section className="cms-level-section cms-level-first" aria-label="CMS 学习层级"><div className="cms-level-grid">{[['IC','IS / CS','Introductory / Certified','基础与应用'],['AS','AS','Advanced','分析与比较'],['MS','MS','Master','深入推理']].map(([id,short,name,zh])=><button key={id} onClick={()=>challenge(id)}><span className="eyebrow">{short}</span><h3>{name}</h3><p>{zh}</p><span className="cms-level-action">按此级别练习 · {curriculum.questions.filter(q=>q.track==='CMS'&&(id==='IC'?['Intro','CS'].includes(q.difficulty):q.difficulty===id)).length} 题</span></button>)}</div></section>}
- <section className="cms-chapter-directory" aria-labelledby="cms-directory-title"><h2 id="cms-directory-title">{level==='AS'?'理解与延伸':level==='MS'?'核心阅读参考':'课程目录'}</h2><ol>{directory.map(m=>{const p=chapterProgress(m,state);return <li key={m.id}><a className="cms-chapter-row" href={cmsHref(m.id,entryResource,'',1,level)}><span className="cms-chapter-number" aria-label={'Module '+m.number}>{m.number}</span><div className="cms-chapter-name"><h3>{m.title}</h3><span>{m.zh}</span></div><div className="cms-chapter-progress"><div><span>学习进度</span><strong>{p.percent}%</strong></div><progress aria-label={'Module '+m.number+' 章节完成进度'} value={p.done} max={p.total||1}/></div></a></li>})}</ol></section>
- <div className="cms-source-status">当前章节以 Introductory / Certified 为基础，含 AS 延伸。中英双语学习稿待教师终审；自编题已移除，Wine Quiz 仅接入指定来源原题；Quizlet 学习题不代表 CMS 官方真题。</div>
+ return <div className="cms-learning"><button className="back-link" onClick={()=>go('cms')}>返回 CMS</button><div className="page-title cms-home-heading"><span className="eyebrow">COURSES · CMS{' · '+chosen.en}</span><h1>{chosen.en}</h1><p>{chosen.description}</p></div>
+ <div className="course-level-practice"><div><span className="eyebrow">WINE QUIZ</span><h2>{chosen.title} · 专题练习</h2><p>按本级别进入题库，回忆、收藏并安排复习。</p></div><button className="button" onClick={()=>challenge(level)}>进入 {chosen.title} 练习 →</button></div>
+ {level!=='MS'&&<section className="cms-chapter-directory" aria-labelledby="cms-directory-title"><h2 id="cms-directory-title">{level==='AS'?'理解与延伸':'课程目录'}</h2><ol>{directory.map(m=>{const p=chapterProgress(m,state);return <li key={m.id}><a className="cms-chapter-row" href={cmsHref(m.id,entryResource,'',1,level)}><span className="cms-chapter-number" aria-label={'Module '+m.number}>{m.number}</span><div className="cms-chapter-name"><h3>{m.title}</h3><span>{m.zh}</span></div><div className="cms-chapter-progress"><div><span>学习进度</span><strong>{p.percent}%</strong></div><progress aria-label={'Module '+m.number+' 章节完成进度'} value={p.done} max={p.total||1}/></div></a></li>})}</ol></section>}
+ {level!=='MS'&&<div className="cms-source-status">当前章节以 Introductory / Certified 为基础，含 AS 延伸。中英双语学习稿待教师终审；自编题已移除，Wine Quiz 仅接入指定来源原题；Quizlet 学习题不代表 CMS 官方真题。</div>}
  <div className="cms-training-links"><button className="chip" onClick={()=>go('tasting')}>Deductive Tasting · 品鉴训练</button><button className="chip" onClick={()=>go('service')}>Practical / Service · 服务训练</button></div></div>;
 }
 function Checklist({module,state,save}:{module:any,state:any,save:any}){
