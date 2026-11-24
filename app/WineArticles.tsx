@@ -1,0 +1,122 @@
+'use client';
+
+import React, { useEffect, useMemo, useState } from 'react';
+import archive from '../data/wine-articles.json';
+import './wine-articles.css';
+
+type Article = {
+  account: string;
+  title: string;
+  url: string;
+  topic: string;
+  date?: string;
+  note?: string;
+  edition?: string;
+};
+
+const articles: Article[] = archive.articles;
+const accounts = archive.accounts.map(account => {
+  const posts = articles.filter(article => article.account === account.id);
+  const topics = new Map<string, number>();
+  for (const post of posts) {
+    if (post.topic !== '综合') topics.set(post.topic, (topics.get(post.topic) ?? 0) + 1);
+  }
+  const focus = [...topics].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([name]) => name);
+  return { ...account, posts, focus };
+}).sort((a, b) => b.posts.length - a.posts.length);
+
+const indexed = accounts.filter(account => account.posts.length > 0);
+const pending = accounts.filter(account => account.posts.length === 0);
+const byId = new Map(accounts.map(account => [account.id, account]));
+const pageSize = 30;
+const accountLink = (id: string) => '#articles?account=' + encodeURIComponent(id);
+
+function readAccount() {
+  if (typeof window === 'undefined') return '';
+  return new URLSearchParams(window.location.hash.split('?')[1]).get('account') ?? '';
+}
+
+function ArticleList({ items, showAccount }: { items: Article[]; showAccount: boolean }) {
+  const [query, setQuery] = useState('');
+  const [topic, setTopic] = useState('');
+  const [limit, setLimit] = useState(pageSize);
+  const topics = useMemo(() => [...new Set(items.map(article => article.topic))].sort((a,b) => a.localeCompare(b,'zh-CN')), [items]);
+  const filtered = useMemo(() => {
+    const term = query.trim().toLocaleLowerCase();
+    return items.filter(article => (!topic || article.topic === topic) &&
+      [article.title, byId.get(article.account)?.name, article.topic, article.edition]
+        .join(' ').toLocaleLowerCase().includes(term));
+  }, [items, query, topic]);
+
+  return <>
+    <div className="wa-filters">
+      <label>搜索文章<input type="search" value={query} placeholder="文章标题、公众号或主题"
+        onChange={event => { setQuery(event.target.value); setLimit(pageSize); }} /></label>
+      <label>主题<select value={topic} onChange={event => { setTopic(event.target.value); setLimit(pageSize); }}>
+        <option value="">全部主题</option>
+        {topics.map(value => <option key={value}>{value}</option>)}
+      </select></label>
+    </div>
+    <p className="wa-result-count" role="status">{filtered.length} 条原文链接</p>
+    <ul className="wa-list">
+      {filtered.slice(0, limit).map(article => <li key={article.url}>
+        <a className="wa-title" href={article.url} target="_blank" rel="noopener noreferrer">{article.title}</a>
+        <div className="wa-meta">
+          {showAccount && <a href={accountLink(article.account)}>{byId.get(article.account)?.name}</a>}
+          {article.edition && <span>{article.edition}</span>}
+          {article.date && <time dateTime={article.date}>{article.date}</time>}
+          <span>{article.topic}</span>
+          {article.note && <span className="wa-note">{article.note}</span>}
+        </div>
+      </li>)}
+    </ul>
+    {!filtered.length && <p>没有匹配的文章。</p>}
+    {filtered.length > limit && <button className="wa-button" onClick={() => setLimit(limit + pageSize)}>
+      再显示 {Math.min(pageSize, filtered.length - limit)} 条
+    </button>}
+  </>;
+}
+
+const chronological = [...articles].sort((a,b) => (b.date ?? '').localeCompare(a.date ?? '') || Number(Boolean(a.note)) - Number(Boolean(b.note)));
+export default function WineArticles() {
+  const [selected, setSelected] = useState(readAccount);
+  const [query, setQuery] = useState('');
+  useEffect(() => {
+    const read = () => { setSelected(readAccount()); window.scrollTo(0, 0); };
+    window.addEventListener('hashchange', read);
+    return () => window.removeEventListener('hashchange', read);
+  }, []);
+  const account = byId.get(selected);
+  const visible = indexed.filter(item => item.name.toLowerCase().includes(query.trim().toLowerCase()));
+  return <section className="wa-page" aria-label="Wine Articles">
+    <header className="wa-header">
+      <h1>Wine Articles</h1>
+      <p>葡萄酒文章</p>
+    </header>
+    {!selected ? <>
+      <div className="wa-heading">
+        <div><h2>微信公众号</h2><p>{indexed.length} 个已收录账号 · {articles.length} 条原文链接</p></div>
+        <a className="wa-button" href={accountLink('all')}>浏览全部文章</a>
+      </div>
+      <label className="wa-search">搜索公众号<input type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="输入公众号名称" /></label>
+      <div className="wa-grid">
+        {visible.map(item => <a className="wa-card" href={accountLink(item.id)} key={item.id}>
+          <span className="wa-initial" aria-hidden="true">{Array.from(item.name)[0]}</span>
+          <span className="wa-card-body"><strong>{item.name}</strong><small>{item.posts.length} 条原文链接</small>
+            {item.focus.length > 0 && <span>{item.focus.join(' · ')}</span>}
+          </span>
+        </a>)}
+      </div>
+      {!visible.length && <p role="status">没有匹配的已收录账号。</p>}
+      <details className="wa-pending"><summary>待补原文链接的来源 · {pending.length}</summary>
+        <ul>{pending.map(item => <li key={item.id}>{item.name}</li>)}</ul>
+      </details>
+    </> : <>
+      <a className="wa-back" href="#articles">返回公众号目录</a>
+      <div className="wa-heading"><div><h2>{selected === 'all' ? '全部文章' : account?.name ?? '未找到这个账号'}</h2></div></div>
+      {selected === 'all' || account?.posts.length
+        ? <ArticleList key={selected} items={account?.posts ?? chronological} showAccount={selected === 'all'} />
+        : account && <p>这个来源正在补充微信原文链接。</p>}
+    </>}
+  </section>;
+}
