@@ -1,5 +1,6 @@
 'use client';
 import FoundationLoadBoundary from './FoundationLoadBoundary';
+const WineArticles = React.lazy(() => import('./WineArticles'));
 const FoundationPage=React.lazy(()=>import('./FoundationPage'));
 
 
@@ -38,7 +39,7 @@ const lessons:any[]=data.lessons, questions:any[]=[...data.questions.filter((q:a
 const foundationRecallQuestions=questions.filter(q=>q.track==='SOMM100'&&q.type==='short');
 const figures:Record<string,{file:string,caption:string}[]> = network.figures;
 const emptyState={chapterPlans:{},readings:[] as string[],checks:[] as string[],dismissed:[] as string[],completed:[] as string[],attempts:[] as any[],reviews:[] as any[],bookmarks:[] as string[],training:[] as any[],drafts:[] as any[],user:{name:'学习者',preview:false}};
-const navItems=[{id:'home',zh:'发现',en:'Discover',icon:Home},{id:'foundation',zh:'侍酒师100课程',en:'SOMM100',icon:BookOpen},{id:'cms',zh:'CMS 课程',en:'CMS',icon:GraduationCap},{id:'journal',zh:'品鉴笔记',en:'Tasting Notes',icon:Wine},{id:'practice',zh:'葡萄酒练习',en:'Wine Quizzes',icon:Target},{id:'library',zh:'葡萄酒知识库',en:'Wine Library',icon:Layers},{id:'regions',zh:'葡萄酒产区',en:'Wine Regions',icon:Globe},{id:'grapes',zh:'葡萄品种',en:'Grape Varieties',icon:Grape},{id:'maps',zh:'葡萄酒地图',en:'Wine Maps',icon:MapIcon},{id:'videos',zh:'葡萄酒视频',en:'Wine Channel',icon:Play},{id:'english',zh:'学习英语',en:'English Study',icon:BookOpen},{id:'updates',zh:'近期新增',en:'Recent Releases',icon:Sparkles}];
+const navItems=[{id:'home',zh:'发现',en:'Discover',icon:Home},{id:'foundation',zh:'侍酒师100课程',en:'SOMM100',icon:BookOpen},{id:'cms',zh:'CMS 课程',en:'CMS',icon:GraduationCap},{id:'journal',zh:'品鉴笔记',en:'Tasting Notes',icon:Wine},{id:'practice',zh:'葡萄酒练习',en:'Wine Quizzes',icon:Target},{id:'library',zh:'葡萄酒知识库',en:'Wine Library',icon:Layers},{id:'regions',zh:'葡萄酒产区',en:'Wine Regions',icon:Globe},{id:'grapes',zh:'葡萄品种',en:'Grape Varieties',icon:Grape},{id:'maps',zh:'葡萄酒地图',en:'Wine Maps',icon:MapIcon},{id:'videos',zh:'葡萄酒视频',en:'Wine Channel',icon:Play},{id:'articles',zh:'葡萄酒文章',en:'Wine Articles',icon:BookOpen},{id:'english',zh:'学习英语',en:'English Study',icon:BookOpen},{id:'updates',zh:'近期新增',en:'Recent Releases',icon:Sparkles}];
 const extraNodes:Record<string,any> = network.nodes;
 function Inline({text}:{text:string}){return <>{text.split(/(\*\*.*?\*\*)/g).map((t,i)=>t.startsWith('**')?<strong key={i}>{t.slice(2,-2)}</strong>:t)}</>}
 function Reading({text}:{text:string}){const clean=text.replace(/<b>/g,'**').replace(/<\/b>/g,'**').replace(/<image[\s\S]*?<\/image>/g,'').replace(/<mention[^>]*>/g,'').replace(/<[^>]+>/g,'').replace(/!\[.*?\]\(.*?\)/g,'');return <div className="reading">{clean.split(/\n\n+/).filter(s=>s.trim()&&!/^---$/.test(s.trim())).map((p,i)=>p.startsWith('#')?<h3 key={i}>{p.replace(/^#+\s*/,'')}</h3>:<p key={i}><Inline text={p}/></p>)}</div>}
@@ -89,7 +90,7 @@ export default function LearningApp(){
  <div className="main-shell"><header className="topbar"><div className="breadcrumb"><button className="mobile-menu icon-button" onClick={()=>setMenu(!menu)} aria-label="打开菜单"><Menu size={21}/></button><a className="mobile-brand" href="#home" onClick={()=>go('home')} aria-label="SOMM100 首页"><BrandMark/></a><span>LEARNING PLATFORM</span><span className="slash">/</span><strong>{title}</strong></div><div className="top-actions"><WordLookup showTrigger={false}/><button aria-label="搜索知识与题目" className="search-trigger" onClick={()=>setSearchOpen(!searchOpen)}><Search size={17}/><span>搜索知识、题目</span><kbd>⌕</kbd></button><div className="sync-status"><span className={'status-dot '+(error?'offline':'')}/>{loading?'正在读取':busy?'保存中':error?'待保存':account?.registered?'账号同步':'本机记录'}</div><button className="account-entry" onClick={()=>go('account')}>{account?.registered?'我的账号':'注册 / 登录'}</button></div></header>
  {error&&<div className="error-banner" role="alert">{error}<button onClick={refresh}>重新连接</button></div>}
  {habits.error&&<div className="error-banner" role="alert">{habits.error}<button onClick={habits.refresh}>重试</button></div>}
- <main>{page!=='account'&&<div className="subtle-note account-notice" role="note"><span>{account?.registered?'已登录 · 课程、练习与学习打卡按账号保存。独立日记、英语练习和阅读笔记仍存本机。':(import.meta.env.VITE_SOMM100_LOCAL_ONLY?'游客模式 · 当前学习记录保存在本机，账号登录与跨设备同步暂未开放。':'游客模式 · 当前学习记录保存在本机。注册或登录后，可跨设备保存新的学习进度。')}</span><button onClick={()=>go('account')}>{account?.registered?'管理账号':'注册 / 登录 →'}</button></div>}
+ <main>{page!=='account'&&page!=='articles'&&<div className="subtle-note account-notice" role="note"><span>{account?.registered?'已登录 · 课程、练习与学习打卡按账号保存。独立日记、英语练习和阅读笔记仍存本机。':(import.meta.env.VITE_SOMM100_LOCAL_ONLY?'游客模式 · 当前学习记录保存在本机，账号登录与跨设备同步暂未开放。':'游客模式 · 当前学习记录保存在本机。注册或登录后，可跨设备保存新的学习进度。')}</span><button onClick={()=>go('account')}>{account?.registered?'管理账号':'注册 / 登录 →'}</button></div>}
  {page==='account'&&<Account session={accountSession} go={go}/>}
  <ChapterReminders state={state} save={save} go={go}/>
  {page==='home'&&<Discover go={go}/>}
@@ -101,6 +102,7 @@ export default function LearningApp(){
  {['library','regions','grapes'].includes(page)&&<WineLibrary view={page}/>}
  {page==='maps'&&<WineMaps openNode={(id:string)=>{setNodeId(id);go('explore')}} challenge={(topic:string)=>{setQTopic(topic);setQStage('all');setQFilter('all');setQType('all');go('practice')}}/>}
  {page==='videos'&&<VideoLibrary h={habits}/>}
+ {page==='articles'&&<React.Suspense fallback={<p role="status">正在载入文章目录…</p>}><WineArticles/></React.Suspense>}
  {page==='updates'&&<RecentReleases/>}
  {page==='habits'&&<HabitDashboard h={habits} clock={focus} go={go}/>}
  {page==='settings'&&<LearningSettings h={habits}/>}
