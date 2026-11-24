@@ -45,3 +45,23 @@ test('existing live Nora/Bingke/SOMMHOUSE gallery keeps its original source reco
   assert(existing.videos.some(x=>x.creatorId==='bingke'));
   assert(existing.videos.some(x=>x.creatorId==='somehouse'));
 });
+
+test('every curated film has searchable subjects and a unique original link',()=>{
+  const historical=read('../data/video-library.json');
+  const mickey=read('../data/wine-channel-mickey.json');
+  const all=[...existing.videos,...historical.videos,...featured.videos,...mickey.videos];
+  assert.equal(new Set(all.map(v=>v.url)).size,all.length);
+  for(const video of all) {
+    assert(video.tags.length>=3,video.title);
+    assert.equal(new Set(video.tags).size,video.tags.length,video.title);
+  }
+  for(const v of mickey.videos) {
+    assert.equal(v.publisherUrl,'https://space.bilibili.com/26124055/');
+    assert.equal(v.url,'https://www.bilibili.com/video/'+v.bvid+'/');
+    assert.equal(v.creatorId,'mickey');
+  }
+  const selosse=all.find(v=>v.bvid==='BV1R2ng6VEfs');
+  for(const tag of ['Jacques Selosse','香槟','氧化','酿造']) assert(selosse.tags.includes(tag));
+  assert(all.some(v=>v.platform==='Bilibili' && v.tags.includes('Chablis')));
+  assert(all.some(v=>v.platform==='YouTube' && v.tags.includes('Chablis')));
+});
