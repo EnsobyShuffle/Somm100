@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Anton;
+  src: url('./fonts/anton-latin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 .wa-page {
   --wa-ink: #263d34;
   --wa-muted: #596860;
@@ -11,7 +19,7 @@
 .wa-page *, .wa-page *::before, .wa-page *::after { box-sizing: border-box; }
 .wa-page a { color: inherit; }
 .wa-header { border-bottom: 1px solid var(--wa-line); padding: 6px 0 22px; }
-.wa-header h1 { font: 500 clamp(36px,5vw,57px)/1.1 var(--serif, Georgia, serif); letter-spacing: -.04em; margin: 0; }
+.wa-header h1 { font: 400 clamp(36px,5vw,57px)/1.1 Anton, sans-serif; letter-spacing: normal; margin: 0; }
 .wa-header p, .wa-heading p { margin: 9px 0 0; color: var(--wa-muted); font-size: 14px; }
 .wa-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin: 24px 0 20px; }
 .wa-heading h2 { margin: 0; font: 500 26px/1.5 var(--serif, Georgia, serif); overflow-wrap: anywhere; }
