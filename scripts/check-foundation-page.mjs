@@ -23,7 +23,7 @@ const root=createRoot(document.getElementById('root'));
 try{
  window.localStorage.setItem(FOUNDATION_BRIDGE_KEY,JSON.stringify({version:1,unit:21,checks:{},answers:{}}));
  await act(async()=>root.render(React.createElement(Page,{go:path=>routes.push(path)})));
- assert.equal(document.querySelector('h1:not([hidden] h1)').textContent,'侍酒师100');
+ assert.equal(document.querySelector('h1:not([hidden] h1)').textContent,'SOMM100');
  assert.equal(document.querySelector('[data-foundation-stage="prep"]'),null);
  await act(async()=>document.querySelector('.foundation-stage-card').click());
  const chapters=[...document.querySelectorAll('.foundation-chapter')];
@@ -409,7 +409,9 @@ try{
  const topicDisclosure=document.querySelector('.foundation-review-topics');
  const stages=[...directory.querySelectorAll('button')];
  const topics=[...topicDisclosure.querySelectorAll('button:not(.foundation-directory-resume)')];
- assert.deepEqual(stages.map(button=>button.textContent),['课前预习','课间复习','考核与结课','课程信息与报名']);
+ assert.deepEqual(stages.map(button=>button.querySelector('[lang="zh-CN"]').textContent),['课前预习','课间复习','考核与结课','课程信息与报名']);
+ assert.deepEqual(stages.map(button=>button.querySelector('[lang="en"]').textContent),['Pre-learning','Mid-course study','Review and assessment','Information and registration']);
+ assert.equal(document.querySelector('.foundation-articles a').href,'https://www.tyjzk.com/article/30586.html');
  assert.equal(topicDisclosure.open,false);
  const topicCards=[...topicDisclosure.querySelectorAll('.foundation-directory-topic')];
  assert.equal(topicCards.length,4);

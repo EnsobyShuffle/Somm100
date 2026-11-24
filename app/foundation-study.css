@@ -126,27 +126,21 @@
 .foundation-day-one-readings { padding-inline-start: 1.15rem; }
 .foundation-day-one-readings a { display: inline-flex; align-items: center; min-height: 44px; }
 
-.foundation-directory { max-width: 64rem; margin: 0 auto; padding-block: clamp(1rem, 4vw, 3rem); }
-.foundation-directory h1 { color: #173c32; font-size: clamp(2rem, 5vw, 3.65rem); line-height: 1.15; margin: 0 0 1.6rem; }
-.foundation-stage-list { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1.1rem; }
-.foundation-stage-card, .foundation-registration-entry {
-  color: #173c32; background: #fffefa; border: 1px solid #d5d9cf;
-  border-radius: .7rem; overflow: hidden; text-align: left; cursor: pointer;
-}
-.foundation-stage-card { display: grid; min-width: 0; padding: 0; font: inherit; }
-.foundation-stage-card img { display: block; width: 100%; height: auto; aspect-ratio: 1.65; object-fit: cover; }
-.foundation-stage-card strong { display: block; padding: 1.05rem 1.15rem; font-size: 1.15rem; }
-.foundation-registration-entry { display: block; width: 100%; margin-top: 1.4rem; padding: 1rem 1.15rem; line-height: 1.4; font-family: inherit; font-size: 1rem; font-weight: 600; background: #edf1e9; }
-.foundation-stage-card:hover, .foundation-registration-entry:hover { border-color: #708878; }
-.foundation-directory button:focus-visible { outline: 3px solid #3d705a; outline-offset: 3px; }
+.foundation-directory { box-sizing: border-box; width: min(100%, 47.5rem); margin: 1.5rem auto; padding: clamp(1.25rem, 4vw, 3rem); border: 1px solid #bac2bb; background: white; color: #242d28; }
+.foundation-directory h1 { font: 650 clamp(2.25rem, 5vw, 3rem)/1 system-ui, sans-serif; letter-spacing: -.065em; margin: 0 0 1.8rem; }
+.foundation-stage-list { display: grid; }
+.foundation-stage-card { display: flex; align-items: center; justify-content: space-between; gap: 1rem; width: 100%; min-height: 4.3rem; padding: .6rem 0; text-align: left; cursor: pointer; background: transparent; border: 0; border-top: 1px solid #e1e5e1; color: inherit; font: inherit; }
+.foundation-stage-card [lang="en"] { font-size: 1.35rem; }
+.foundation-stage-card [lang="zh-CN"] { color: #48534a; }
+.foundation-directory .foundation-articles { margin-top: .65rem; padding-top: 1.2rem; border-top: 1px solid #c5cdc5; }
+.foundation-articles h2 { font-size: 1rem; margin: 0; }
+.foundation-articles a { display: inline-flex; align-items: center; min-height: 44px; color: #435848; }
+.foundation-stage-card:hover { background: #f6f8f5; }
+.foundation-directory :focus-visible { outline: 2px solid #396646; outline-offset: 2px; }
 .foundation-section-back { min-height: 44px; }
 [data-foundation-stage][hidden] { display: none !important; }
 @media (max-width: 640px) {
- .foundation-directory { padding: .85rem 0 1rem; }
- .foundation-directory h1 { margin-bottom: 1.1rem; }
- .foundation-stage-list { grid-template-columns: minmax(0,1fr); gap: .75rem; }
- .foundation-stage-card { grid-template-columns: minmax(5rem,32%) 1fr; align-items: center; }
- .foundation-stage-card img { height: 5.65rem; }
- .foundation-stage-card strong { padding: .65rem 1.1rem; }
- .foundation-registration-entry { margin-top: 1.15rem; }
+ .foundation-stage-card { flex-direction: column; align-items: flex-start; justify-content: center; gap: .15rem; min-height: 4.75rem; }
+ .foundation-stage-card [lang="zh-CN"] { font-size: .9rem; }
+
 }

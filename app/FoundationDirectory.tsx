@@ -3,28 +3,28 @@ import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import {openReviewRecap} from './FoundationReviewRecap';
 import './foundation-study.css';
 
-// Tasting photograph: Véronique Pagnier, public domain, commons.wikimedia.org/wiki/File:Verres_dégustations.JPG
 const learningStages = [
-  {target: 'foundation-study-title', title: '课前预习', image: 'cms/180bc48e5a71d269.jpg'},
-  {target: 'foundation-cohort-bridge-title', title: '课间复习', image: 'cms/0fca098d35544dc4.png'},
-  {target: 'foundation-assessment-title', title: '考核与结课', image: 'foundation/tasting-glasses.webp'},
+  {target: 'foundation-study-title', title: '课前预习', english: 'Pre-learning'},
+  {target: 'foundation-cohort-bridge-title', title: '课间复习', english: 'Mid-course study'},
+  {target: 'foundation-assessment-title', title: '考核与结课', english: 'Review and assessment'},
+  {target: 'foundation-cohort-title', title: '课程信息与报名', english: 'Information and registration'},
 ];
 
 export default function FoundationDirectory({onOpen}: {onOpen: (target: string) => void}) {
-  return <nav className="foundation-directory" aria-labelledby="foundation-directory-title">
-    <h1 id="foundation-directory-title" tabIndex={-1}>侍酒师100</h1>
-    <div className="foundation-stage-list">
-      {learningStages.map(({target, title, image}) =>
+  return <div className="foundation-directory">
+    <h1 id="foundation-directory-title" tabIndex={-1}>SOMM100</h1>
+    <nav className="foundation-stage-list" aria-labelledby="foundation-directory-title">
+      {learningStages.map(({target, title, english}) =>
         <button type="button" key={target} className="foundation-stage-card" onClick={() => onOpen(target)}>
-          <img src={`./media/${image}`} alt="" />
-          <strong>{title}</strong>
+          <span lang="en">{english}</span><span lang="zh-CN">{title}</span>
         </button>
       )}
-    </div>
-    <button type="button" className="foundation-registration-entry" onClick={() => onOpen('foundation-cohort-title')}>
-      课程信息与报名
-    </button>
-  </nav>;
+    </nav>
+    <section className="foundation-articles" aria-labelledby="foundation-articles-title">
+      <h2 id="foundation-articles-title">侍酒师100文章</h2>
+      <a href="https://www.tyjzk.com/article/30586.html" target="_blank" rel="noopener noreferrer">从【侍酒师100】毕业的年轻人，后来都怎样了？</a>
+    </section>
+  </div>;
 }
 
 const topics = [
