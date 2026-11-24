@@ -2,6 +2,7 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
 import archive from '../data/wine-articles.json';
+import houseArchive from '../data/wine-articles-house.json';
 import barrelCellar from './article-covers/barrel-cellar.webp';
 import champagneFlutes from './article-covers/champagne-flutes.webp';
 import './wine-articles.css';
@@ -30,7 +31,7 @@ const accounts = archive.accounts.map(account => {
   }
   const focus = [...topics].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([name]) => name);
   return { ...account, posts, focus };
-}).sort((a, b) => b.posts.length - a.posts.length);
+}).sort((a, b) => Number(b.id === 'house') - Number(a.id === 'house') || b.posts.length - a.posts.length);
 
 const indexed = accounts.filter(account => account.posts.length > 0);
 const pending = accounts.filter(account => account.posts.length === 0);
@@ -105,14 +106,10 @@ export default function WineArticles() {
       <p>葡萄酒文章</p>
     </header>
     {!selected ? <>
-      <div className="wa-heading">
-        <div><h2>微信公众号</h2><p>{accounts.length} 个来源 · {indexed.length} 个已有文章 · {articles.length} 条原文链接</p></div>
-        <a className="wa-button" href={accountLink('all')}>浏览全部文章</a>
-      </div>
       <ArticleList items={chronological} showAccount directory={<>
-      <div className="wa-grid">
-        {indexed.map(item => <a className="wa-card" href={accountLink(item.id)} key={item.id}>
-          <span className="wa-card-body"><strong>{item.name}</strong><small>{item.posts.length} 条原文链接</small>
+      <div className="wa-grid" aria-label="公众号目录">
+        {indexed.map(item => <a className={covers[item.id] ? "wa-card wa-photographic" : "wa-card wa-print"} href={accountLink(item.id)} key={item.id}>
+          <span className="wa-card-body"><strong>{item.name}</strong><small>{item.id === 'house' ? houseArchive.length + ' 篇归档 · ' : ''}{item.posts.length} 条原文链接</small>
             {item.focus.length > 0 && <span>{item.focus.join(' · ')}</span>}
           </span>
           {covers[item.id] && <img className="wa-cover" src={covers[item.id]} alt="" decoding="async" />}
@@ -126,6 +123,9 @@ export default function WineArticles() {
       <a className="wa-back" href="#articles">返回公众号目录</a>
       <div className="wa-heading"><div><h2>{selected === 'all' ? '全部文章' : account?.name ?? '未找到这个账号'}</h2></div></div>
       {covers[selected] && <img className="wa-cover wa-detail-cover" src={covers[selected]} alt="" decoding="async" />}
+      {selected === 'house' && <details className="wa-archive"><summary>原稿目录 · {houseArchive.length} 篇</summary>
+        <ul>{houseArchive.map(item => <li key={item.title}>{item.url ? <a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a> : <span>{item.title} <small>微信链接待补</small></span>}</li>)}</ul>
+      </details>}
       {selected === 'all' || account?.posts.length
         ? <ArticleList key={selected} items={account?.posts ?? chronological} showAccount={selected === 'all'} />
         : account && <p>这个来源正在补充微信原文链接。</p>}
