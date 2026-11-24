@@ -7,6 +7,7 @@ function downloadBackup(backup,suffix=''){
   const a=document.createElement('a');a.href=url;a.download=`somm100-foundation${suffix}-${new Date().toISOString().slice(0,10)}.json`;
   document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
+/** @param {{onRestored?: (result: {written: number, skipped: number}) => void}} props */
 export default function FoundationBackup({onRestored}={}){
   const [preview,setPreview]=useState(null),[replace,setReplace]=useState(false),[message,setMessage]=useState(''),[restored,setRestored]=useState(false),[reading,setReading]=useState(false);
   async function readFile(event){

@@ -12,7 +12,7 @@ const chunks=new Map(output.filter(x=>x.type==='chunk').map(x=>[x.fileName,x]));
 const entry=[...chunks.values()].find(x=>x.isEntry&&x.facadeModuleId?.endsWith('/foundation.html'));
 assert(entry,'Foundation HTML entry missing');
 const fullApp=[...chunks.values()].find(x=>x.isEntry&&x.facadeModuleId?.endsWith('/index.html'));
-assert(fullApp?.code.includes('打开课程专注阅读 →')&&fullApp.code.includes('./foundation.html'),'Full-app focus link missing');
+assert(fullApp && !fullApp.code.includes('打开课程专注阅读 →'),'Obsolete course navigation reappeared');
 const seen=new Set();
 function visit(name){if(seen.has(name))return;const chunk=chunks.get(name);assert(chunk,`Missing chunk ${name}`);seen.add(name);[...chunk.imports,...chunk.dynamicImports].forEach(visit);}
 visit(entry.fileName);

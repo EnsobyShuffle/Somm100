@@ -67,11 +67,6 @@ const varietyExamples = concepts.find(({id})=>id==='foundation-5')!.articles
   .filter(({title})=>title.startsWith('不知道霞多丽') || title.startsWith('圈内必知：除了勃艮第'));
 
 const firstTopicId = 'foundation-prep-grape-types';
-const topicIds = new Set([firstTopicId, ...dayOne.units.map(({id})=>`foundation-prep-${id}`)]);
-
-export function isDayOnePrepTarget(target?: string){
-  return typeof target === 'string' && topicIds.has(target);
-}
 
 export default function FoundationDayOneGuide({onRead}: {onRead: (conceptId: string, buttonId: string) => void}){
   return <section className="white-panel foundation-study foundation-day-one" aria-labelledby="foundation-day-one-title">
@@ -98,7 +93,7 @@ export default function FoundationDayOneGuide({onRead}: {onRead: (conceptId: str
         const concept=concepts.find(item=>item.id===topic.concept);
         const resources=prepResources[unit.id as keyof typeof prepResources];
         const readings=[
-          ...(concept?.articles.filter(article=>topic.articles.includes(article.title)) ?? []),
+          ...(concept?.articles.filter(article=>topic.articles.some(title=>title===article.title)) ?? []),
           ...(resources && 'articles' in resources ? resources.articles : []),
         ];
         const videos=resources && 'videos' in resources ? resources.videos : [];
