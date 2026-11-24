@@ -3,12 +3,29 @@ import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import {openReviewRecap} from './FoundationReviewRecap';
 import './foundation-study.css';
 
-const stages = [
-  {target: 'foundation-study-title', title: '课前预习', description: '先看 Day 1 的知识清单。'},
-  {target: 'foundation-cohort-bridge-title', title: '课间复习', description: '选第22期上课城市，查看两阶段之间的复习建议。'},
-  {target: 'foundation-assessment-title', title: '考核与结课', description: '查看复习索引、情境自练和证书说明。'},
-  {target: 'foundation-cohort-title', title: '五城班期与报名', description: '查面授日期、老师、学费和报名表。'},
+const learningStages = [
+  {target: 'foundation-study-title', title: '课前预习', english: 'Pre-learning'},
+  {target: 'foundation-cohort-bridge-title', title: '课间复习', english: 'Mid-course study'},
+  {target: 'foundation-assessment-title', title: '考核与结课', english: 'Review and assessment'},
+  {target: 'foundation-cohort-title', title: '课程信息与报名', english: 'Information and registration'},
 ];
+
+export default function FoundationDirectory({onOpen}: {onOpen: (target: string) => void}) {
+  return <div className="foundation-directory">
+    <h1 id="foundation-directory-title" tabIndex={-1}>SOMM100</h1>
+    <nav className="foundation-stage-list" aria-labelledby="foundation-directory-title">
+      {learningStages.map(({target, title, english}) =>
+        <button type="button" key={target} className="foundation-stage-card" onClick={() => onOpen(target)}>
+          <span lang="en">{english}</span><span lang="zh-CN">{title}</span>
+        </button>
+      )}
+    </nav>
+    <section className="foundation-articles" aria-labelledby="foundation-articles-title">
+      <h2 id="foundation-articles-title">侍酒师100文章</h2>
+      <a href="https://www.tyjzk.com/article/30586.html" target="_blank" rel="noopener noreferrer">从【侍酒师100】毕业的年轻人，后来都怎样了？</a>
+    </section>
+  </div>;
+}
 
 const topics = [
   {id: 'd1', title: 'D1 · 种植、酿造与酒标'},
@@ -28,7 +45,7 @@ type QuizStatus = {
   target:{prefix:string; questionId:string; number:number};
 };
 
-export default function FoundationDirectory({onPrecourse}: {onPrecourse: () => void}) {
+export function FoundationReviewTopics() {
   const [quizStatuses,setQuizStatuses]=useState<Record<string,QuizStatus>>({});
   useEffect(()=>{
     function updateQuizStatus(event:Event){
@@ -40,18 +57,8 @@ export default function FoundationDirectory({onPrecourse}: {onPrecourse: () => v
     return ()=>window.removeEventListener('foundation-quiz-status',updateQuizStatus);
   },[]);
   return (
-    <nav className="white-panel foundation-study foundation-directory" aria-labelledby="foundation-directory-title">
-      <h2 id="foundation-directory-title">课程导览</h2>
-      <div className="foundation-directory-grid">
-        {stages.map(({target, title, description}) => (
-          <button className="button secondary" key={target} type="button" onClick={target === 'foundation-study-title' ? onPrecourse : () => focusFoundationTarget(target)}>
-            <strong>{title}</strong>
-            <span>{description}</span>
-          </button>
-        ))}
-      </div>
-      <details>
-        <summary>展开专题复习与自测</summary>
+    <details className="foundation-review-topics white-panel foundation-study">
+        <summary>专题复习与自测</summary>
         <p>每组可直接看提要、做自测或打开案例。第22期逐日教学安排以当期课程方通知为准。</p>
         <p className="fine-print">下方统计来自当前浏览器的综合自测记录。点「复习」进入第一道待复习题；没有待复习题时，可继续上次停留的题目。</p>
         <div className="foundation-directory-grid">
@@ -89,7 +96,6 @@ export default function FoundationDirectory({onPrecourse}: {onPrecourse: () => v
             </button>
           ))}
         </div>
-      </details>
-    </nav>
+    </details>
   );
 }

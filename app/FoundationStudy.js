@@ -11,7 +11,11 @@ import './foundation-study.css';
 
 const h = React.createElement;
 const conceptTitles = Object.fromEntries(concepts.map(({id, title}) => [id, title]));
-export default function FoundationStudy({cityName, onCityChange, precourse=false, dayOneReading=null, onReadWeek}) {
+/**
+ * @param {{cityName: string, onCityChange: (city: string) => void,
+ *   dayOneReading?: {conceptId: string, buttonId: string} | null, onReadWeek: () => void}} props
+ */
+export default function FoundationStudy({cityName, onCityChange, dayOneReading=null, onReadWeek}) {
   const [progress, setProgress] = useState(emptyFoundationProgress);
   const [loaded, setLoaded] = useState(false);
   const [saveError, setSaveError] = useState('');
@@ -96,7 +100,7 @@ export default function FoundationStudy({cityName, onCityChange, precourse=false
   const study = h('section', {className: 'white-panel foundation-study', 'aria-labelledby': 'foundation-weekly-study-title'},
     h('h2', {id: 'foundation-weekly-study-title'}, '本周要完成什么'),
     h('p', null, '同一套内容，两种节奏。推荐提前 8 周开始，每周 2–3 次、每次 30–45 分钟；4 周版每周约 3–4 次，合并相邻两周。可自行选择当前周，不代表已安排开课日期。'),
-    h('div', {hidden: precourse}, h(FoundationPrepByCity, {cityName, onCityChange})),
+    h(FoundationPrepByCity, {cityName, onCityChange}),
     h('div', {className: 'foundation-study-controls'},
       h('label', null, '预习节奏', h('select', {value: progress.pace, disabled: !loaded, onChange: e => {
         const pace = Number(e.target.value);

@@ -114,7 +114,7 @@
 .foundation-quiz-review-list li + li { margin-top: .5rem; }
 .foundation-quiz-review-list button { width: 100%; text-align: start; overflow-wrap: anywhere; }
 
-#foundation-study-title { scroll-margin-top: 5rem; }
+#foundation-study-title, #foundation-assessment-title, #foundation-directory-title { scroll-margin-top: 5rem; }
 .foundation-day-one-list {
   margin: .75rem 0 0;
   padding-inline-start: 1.7rem;
@@ -125,3 +125,22 @@
 .foundation-day-one-answer { margin-block: .5rem; }
 .foundation-day-one-readings { padding-inline-start: 1.15rem; }
 .foundation-day-one-readings a { display: inline-flex; align-items: center; min-height: 44px; }
+
+.foundation-directory { box-sizing: border-box; width: min(100%, 47.5rem); margin: 1.5rem auto; padding: clamp(1.25rem, 4vw, 3rem); border: 1px solid #bac2bb; background: white; color: #242d28; }
+.foundation-directory h1 { font: 650 clamp(2.25rem, 5vw, 3rem)/1 system-ui, sans-serif; letter-spacing: -.065em; margin: 0 0 1.8rem; }
+.foundation-stage-list { display: grid; }
+.foundation-stage-card { display: flex; align-items: center; justify-content: space-between; gap: 1rem; width: 100%; min-height: 4.3rem; padding: .6rem 0; text-align: left; cursor: pointer; background: transparent; border: 0; border-top: 1px solid #e1e5e1; color: inherit; font: inherit; }
+.foundation-stage-card [lang="en"] { font-size: 1.35rem; }
+.foundation-stage-card [lang="zh-CN"] { color: #48534a; }
+.foundation-directory .foundation-articles { margin-top: .65rem; padding-top: 1.2rem; border-top: 1px solid #c5cdc5; }
+.foundation-articles h2 { font-size: 1rem; margin: 0; }
+.foundation-articles a { display: inline-flex; align-items: center; min-height: 44px; color: #435848; }
+.foundation-stage-card:hover { background: #f6f8f5; }
+.foundation-directory :focus-visible { outline: 2px solid #396646; outline-offset: 2px; }
+.foundation-section-back { min-height: 44px; }
+[data-foundation-stage][hidden] { display: none !important; }
+@media (max-width: 640px) {
+ .foundation-stage-card { flex-direction: column; align-items: flex-start; justify-content: center; gap: .15rem; min-height: 4.75rem; }
+ .foundation-stage-card [lang="zh-CN"] { font-size: .9rem; }
+
+}

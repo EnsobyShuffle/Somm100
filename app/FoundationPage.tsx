@@ -1,17 +1,17 @@
 'use client';
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {focusFoundationTarget} from '../lib/foundation-navigation.mjs';
 import {FOUNDATION_RECALL_PAGE} from '../lib/foundation-entry.mjs';
 import FoundationBridge from './FoundationBridge';
 import FoundationBackup from './FoundationBackup';
 import FoundationStudy from './FoundationStudy';
-import FoundationDayOneGuide, {isDayOnePrepTarget} from './FoundationDayOneGuide';
+import FoundationDayOneGuide from './FoundationDayOneGuide';
 import FoundationAssessmentPractice from './FoundationAssessmentPractice';
 import FoundationWrittenPractice from './FoundationWrittenPractice';
 import FoundationSparklingAssessmentPractice from './FoundationSparklingAssessmentPractice';
 import {openReviewRecap} from './FoundationReviewRecap';
 import FoundationCohort from './FoundationCohort';
-import FoundationDirectory from './FoundationDirectory';
+import FoundationDirectory, {FoundationReviewTopics} from './FoundationDirectory';
 import FoundationD1Review from './FoundationD1Review';
 import FoundationD3Review from './FoundationD3Review';
 import FoundationD2Quiz from './FoundationD2Quiz';
@@ -23,19 +23,13 @@ import FoundationD2Review from './FoundationD2Review';
 import FoundationSparklingPractice from './FoundationSparklingPractice';
 import FoundationFranceReview from './FoundationFranceReview';
 
+const directoryId = 'foundation-directory-title';
+
 type FoundationPageProps = {go:(page:string)=>void; initialTarget?:string; initialCohortCity?:string};
 type RestoreResult = {written:number;skipped:number};
 type DayOneReading = {conceptId:string;buttonId:string};
 
 export default function FoundationPage({go,initialTarget,initialCohortCity}:FoundationPageProps){
- useEffect(()=>{
-  if(!initialTarget?.startsWith('foundation-'))return;
-  const target=document.getElementById(initialTarget);
-  for(let details=target?.closest('details');details;details=details.parentElement?.closest('details')){
-   details.open=true;
-  }
-  focusFoundationTarget(initialTarget);
- },[initialTarget]);
  const [restore,setRestore]=useState({revision:0,message:''});
  useEffect(()=>{
   if(restore.revision)focusFoundationTarget('foundation-restore-status');
@@ -50,38 +44,87 @@ export default function FoundationPage({go,initialTarget,initialCohortCity}:Foun
 
 function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:FoundationPageProps&{onRestored:(result:RestoreResult)=>void}){
  const [cohortCity,setCohortCity]=useState(initialCohortCity);
- const [precourse,setPrecourse]=useState(initialTarget==='foundation-study-title'||initialTarget==='foundation-day-one-title'||isDayOnePrepTarget(initialTarget));
- const [dayOneReading,setDayOneReading]=useState<DayOneReading|null>(null);
- const navigationTarget=useRef('');
- useEffect(()=>{
-  if(!navigationTarget.current)return;
-  focusFoundationTarget(navigationTarget.current);
-  navigationTarget.current='';
- },[precourse]);
- function changePrecourse(open:boolean){
-  navigationTarget.current=open?'foundation-study-title':'foundation-directory-title';
-  if (!open) setDayOneReading(null);
-  setPrecourse(open);
- }
+ const standalone = initialTarget !== undefined;
+ const targetFromUrl = useCallback(() => {
+  if (typeof window === 'undefined') return directoryId;
+  const hash = window.location.hash.slice(1);
+  const target = standalone ? hash : new URLSearchParams(hash.split('?')[1]).get('target');
+  return target?.startsWith('foundation-') ? target : directoryId;
+ },[standalone]);
+ const [target,setTarget] = useState(targetFromUrl);
+ const [visited,setVisited] = useState(target !== directoryId);
+ const [stage,setStage] = useState('home');
+ const [dayOneReading,setDayOneReading] = useState<DayOneReading|null>(null);
+ const interacted = useRef(false);
+
+ const showTarget = useCallback((id:string) => {
+  interacted.current = true;
+  if (id !== directoryId) setVisited(true);
+  setTarget(id);
+ },[]);
+ const navigate = useCallback((id:string) => {
+  if (id !== targetFromUrl()) {
+   const url = new URL(window.location.href);
+   if (standalone) url.hash = id === directoryId ? '' : id;
+   else url.hash = id === directoryId ? 'foundation' : 'foundation?target=' + encodeURIComponent(id);
+   window.history.pushState(null, '', url);
+  }
+  showTarget(id);
+ },[standalone,targetFromUrl,showTarget]);
+
+ useEffect(() => {
+  const onHistory = () => showTarget(targetFromUrl());
+  const onRequest = (e:Event) => navigate((e as CustomEvent<string>).detail);
+  window.addEventListener('popstate',onHistory);
+  window.addEventListener('hashchange',onHistory);
+  window.addEventListener('foundation-navigate',onRequest);
+  return () => {
+   window.removeEventListener('popstate',onHistory);
+   window.removeEventListener('hashchange',onHistory);
+   window.removeEventListener('foundation-navigate',onRequest);
+  };
+ },[navigate,showTarget,targetFromUrl]);
+
+ useLayoutEffect(() => {
+  const element = document.getElementById(target) || document.getElementById(directoryId);
+  const next = element?.closest<HTMLElement>('[data-foundation-stage]')?.dataset.foundationStage || 'home';
+  if (stage !== next) {
+   if (next !== 'prep') setDayOneReading(null);
+   setStage(next);
+   return;
+  }
+  if (!element || (target === directoryId && !interacted.current)) return;
+  for (let details=element.closest('details'); details; details=details.parentElement?.closest('details') ?? null) details.open=true;
+  focusFoundationTarget(element.id);
+ },[target,stage]);
+
  return (<>
-<section id="foundation-precourse" hidden={!precourse}>
- <button className="back-link" id="foundation-precourse-back" onClick={()=>changePrecourse(false)}>← 返回课程</button>
- <h1 id="foundation-study-title" tabIndex={-1} className="foundation-precourse-heading">课前预习</h1>
- <FoundationDayOneGuide onRead={(conceptId,buttonId)=>{
-  setDayOneReading({conceptId,buttonId});
-  focusFoundationTarget(conceptId);
- }}/>
-</section>
-<div hidden={precourse}><button className="back-link" onClick={()=>go('courses')}>← 选择课程</button><PageTitle eyebrow="SOMM100 FOUNDATION" title="先理解一瓶酒，再走进课堂。" desc="从葡萄园到酒瓶，建立自己的知识框架。课前先理解基础概念，服务、推荐与餐酒搭配在正式课程中逐步学习。"/>
-<FoundationDirectory onPrecourse={()=>changePrecourse(true)}/><FoundationCohort onReviewCity={setCohortCity}/><FoundationBackup onRestored={onRestored}/><FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/></div>
-<FoundationStudy cityName={cohortCity} onCityChange={setCohortCity} precourse={precourse}
- dayOneReading={dayOneReading} onReadWeek={()=>setDayOneReading(null)}/>
-<div hidden={precourse}>
-<FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
+ <div data-foundation-stage="home" hidden={stage!=='home'}><FoundationDirectory onOpen={navigate}/></div>
+ {stage!=='home'&&<button className="back-link foundation-section-back" id="foundation-precourse-back" type="button" onClick={()=>navigate(directoryId)}>返回侍酒师100</button>}
+ {visited&&<>
+ <div data-foundation-stage="prep" id="foundation-precourse" hidden={stage!=='prep'}>
+  <h1 id="foundation-study-title" tabIndex={-1} className="foundation-precourse-heading">课前预习</h1>
+  <FoundationDayOneGuide onRead={(conceptId,buttonId)=>{
+   setDayOneReading({conceptId,buttonId});
+   focusFoundationTarget(conceptId);
+  }}/>
+  <FoundationStudy cityName={cohortCity} onCityChange={setCohortCity} dayOneReading={dayOneReading} onReadWeek={()=>setDayOneReading(null)}/>
+ </div>
+ <div data-foundation-stage="info" hidden={stage!=='info'}>
+  <FoundationCohort onReviewCity={setCohortCity}/>
+ </div>
+ <div data-foundation-stage="review" hidden={stage!=='review'}>
+  <FoundationBridge cityName={cohortCity} onCityChange={setCohortCity}/>
+  <FoundationReviewTopics/>
+  <FoundationD1Review/><FoundationD1Quiz/><FoundationD2Review/><FoundationD2Quiz/><FoundationFranceReview/><FoundationD3Review/><FoundationD3Quiz/><FoundationD4Review/><FoundationD4Quiz/><FoundationSparklingPractice/>
+  <FoundationBackup onRestored={onRestored}/>
+ </div>
+ <div data-foundation-stage="assessment" hidden={stage!=='assessment'}>
 <section className="white-panel foundation-study" aria-labelledby="foundation-course-title">
- <h2 id="foundation-course-title">进入正式课程之后</h2>
+ <h1 id="foundation-assessment-title" tabIndex={-1}>考核与结课</h1>
+ <h2 id="foundation-course-title">考核范围</h2>
  <p>将基础理解用于品鉴、服务、推荐与餐酒搭配。第22期为五天面授；逐日教学安排及对应学习资料仍在核对，尚未完整开放。</p>
- <h3 id="foundation-assessment-title">第22期｜考核范围与复习索引</h3>
+ <h3>第22期｜复习索引</h3>
  <ul>
   <li><strong>考核项目</strong>　招生资料列出笔试、盲品、口试、餐酒搭配和侍酒服务实操，范围也包括烈酒、利口酒、清酒与白酒。</li>
   <li><strong>团队酒单作业</strong>　设计 12 款杯卖酒及 40 款主酒单酒款。可先分开列清单，再与同组学员核对数量和选酒理由。</li>
@@ -278,7 +321,5 @@ function FoundationContent({go,onRestored,initialTarget,initialCohortCity=''}:Fo
   <button className="button secondary" onClick={()=>go('practice')}>葡萄酒练习</button>
   <button className="button secondary" onClick={()=>go(FOUNDATION_RECALL_PAGE)}>课程口头自练</button>
  </div>
-</section></div></>);
+</section></div></>}</>);
 }
-
-function PageTitle({eyebrow,title,desc}:{eyebrow:string,title:string,desc:string}){return <div className="page-title"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{desc}</p></div>}

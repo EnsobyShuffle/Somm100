@@ -23,7 +23,9 @@ const root=createRoot(document.getElementById('root'));
 try{
  window.localStorage.setItem(FOUNDATION_BRIDGE_KEY,JSON.stringify({version:1,unit:21,checks:{},answers:{}}));
  await act(async()=>root.render(React.createElement(Page,{go:path=>routes.push(path)})));
- assert.equal(document.querySelector('h1:not([hidden] h1)').textContent,'先理解一瓶酒，再走进课堂。');
+ assert.equal(document.querySelector('h1:not([hidden] h1)').textContent,'SOMM100');
+ assert.equal(document.querySelector('[data-foundation-stage="prep"]'),null);
+ await act(async()=>document.querySelector('.foundation-stage-card').click());
  const chapters=[...document.querySelectorAll('.foundation-chapter')];
  assert.deepEqual(chapters.map(x=>x.id),Array.from({length:8},(_,i)=>'foundation-'+i));
  const links=chapters.flatMap(x=>[...x.querySelectorAll('a')]);
@@ -206,7 +208,7 @@ try{
    for(const [index,button] of [...cityPrep.querySelectorAll('button')].entries()){
      await act(async()=>button.click());
      assert.equal(document.activeElement.id,'foundation-'+[1,4,7][index]);
-     assert.equal(window.location.hash,'#foundation');
+     assert.equal(window.location.hash.split('?')[0],'#foundation');
    }
    assert.equal(cityPrep.querySelectorAll('button').length,3);
    const quickChecks=[...cityPrep.querySelectorAll('details')];
@@ -271,7 +273,7 @@ try{
    assert.equal(details.open,true);
    await act(async()=>chapter.querySelector('button').click());
    assert.equal(document.activeElement.id,chapter.id==='foundation-0'?firstConceptButton.id:'foundation-weekly-study-title');
-   assert.equal(window.location.hash,'#foundation');
+   assert.equal(window.location.hash.split('?')[0],'#foundation');
    assert.equal(window.localStorage.getItem(FOUNDATION_STORAGE_KEY),prepRecord);
  }
  const readiness=study.querySelector('#foundation-readiness-overview');
@@ -331,7 +333,7 @@ try{
  const record=JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY));
  assert.deepEqual(record.answers[first.id],{first:wrong,latest:first.answer});
  assert.deepEqual(record.checks,JSON.parse(prepRecord).checks);
- assert.equal(window.location.hash,'#foundation');
+ assert.equal(window.location.hash.split('?')[0],'#foundation');
 
  const getStudyProgress=()=>JSON.parse(window.localStorage.getItem(FOUNDATION_STORAGE_KEY));
  const returnLabel='回到刚才的准备度题';
@@ -388,7 +390,7 @@ try{
      assert.deepEqual(getStudyProgress().checks,before.checks);
      await act(async()=>document.activeElement.querySelector(`input[value="${q.answer}"]`).click());
      assert.deepEqual(getStudyProgress().answers[q.id],{first:before.answers[q.id].first,latest:q.answer});
-     assert.equal(window.location.hash,'#foundation');
+     assert.equal(window.location.hash.split('?')[0],'#foundation');
      if (getStudyProgress().pace!==pace) await setStudyPace(pace);
      readinessReviewRoundTrips++;
    }
@@ -403,10 +405,13 @@ try{
  const topicTargets=['d1','d2','d3','d4'].flatMap(day=>
    ['title','quiz-title','recap-title'].map(suffix=>`foundation-${day}-${suffix}`));
  topicTargets.push('foundation-bridge-title','foundation-france-title','foundation-sparkling-title');
- const topicDisclosure=directory.querySelector('details');
- const stages=[...directory.querySelectorAll(':scope > div button')];
+ assert.equal(directory.querySelector('details'),null);
+ const topicDisclosure=document.querySelector('.foundation-review-topics');
+ const stages=[...directory.querySelectorAll('button')];
  const topics=[...topicDisclosure.querySelectorAll('button:not(.foundation-directory-resume)')];
- assert.deepEqual(stages.map(button=>button.querySelector('strong').textContent),['课前预习','课间复习','考核与结课','五城班期与报名']);
+ assert.deepEqual(stages.map(button=>button.querySelector('[lang="zh-CN"]').textContent),['课前预习','课间复习','考核与结课','课程信息与报名']);
+ assert.deepEqual(stages.map(button=>button.querySelector('[lang="en"]').textContent),['Pre-learning','Mid-course study','Review and assessment','Information and registration']);
+ assert.equal(document.querySelector('.foundation-articles a').href,'https://www.tyjzk.com/article/30586.html');
  assert.equal(topicDisclosure.open,false);
  const topicCards=[...topicDisclosure.querySelectorAll('.foundation-directory-topic')];
  assert.equal(topicCards.length,4);
@@ -415,6 +420,7 @@ try{
    const recapId=card.querySelector('button[aria-controls]').getAttribute('aria-controls');
    assert.equal(document.getElementById(recapId).open,false);
  }
+ await act(async()=>document.getElementById('foundation-precourse-back').click());
  const recordsBeforeDirectory=Object.entries(window.localStorage);
  await act(async()=>stages[0].click());
  const guide=document.querySelector('.foundation-day-one');
@@ -434,7 +440,7 @@ try{
  await act(async()=>typeAnswer.querySelector('summary').click());
  assert(typeAnswer.open);
  assert.equal(types.querySelectorAll('a[href^="https://mp.weixin.qq.com/"]').length,2);
- for (const id of ['foundation-cohort-title','foundation-cohort-bridge-title','foundation-prep-city-title','foundation-assessment-title']){
+ for (const id of ['foundation-cohort-title','foundation-cohort-bridge-title','foundation-assessment-title']){
    assert(document.getElementById(id).closest('[hidden]'),id+' must stay outside precourse');
  }
  await act(async()=>topic.querySelector('summary').click());
@@ -535,7 +541,7 @@ try{
      if(targets[i]==='foundation-study-title')await act(async()=>document.getElementById('foundation-precourse-back').click());
      const recapId=button.getAttribute('aria-controls');
      if(recapId)assert.equal(document.getElementById(recapId).open,true);
-     assert.equal(window.location.hash,'#foundation');
+     assert.equal(window.location.hash.split('?')[0],'#foundation');
    }
  }
  await act(async()=>topicDisclosure.querySelector('summary').click());
@@ -543,13 +549,13 @@ try{
  assert.deepEqual(Object.entries(window.localStorage),recordsBeforeDirectory);
  for(const a of document.querySelectorAll('a[href^="#foundation-"]')){
    await act(async()=>a.click());assert.deepEqual(scrolls.at(-1),{id:a.hash.slice(1),behavior:'instant',block:'start'});assert.equal(document.activeElement.id,a.hash.slice(1));
-   assert.equal(window.location.hash,'#foundation','Concept navigation must not replace app route');
+   assert.equal(window.location.hash.split('?')[0],'#foundation','Concept navigation must not replace app route');
  }
- for(const label of ['← 选择课程','服务情境练习','葡萄酒练习','课程口头自练']){
+ for(const label of ['服务情境练习','葡萄酒练习','课程口头自练']){
    const button=[...document.querySelectorAll('button')].find(b=>b.textContent===label);
    assert(button);await act(async()=>button.click());
  }
- assert.deepEqual(routes,['courses','service','practice','foundation-recall']);
+ assert.deepEqual(routes,['service','practice','foundation-recall']);
  assert(document.getElementById('foundation-cohort-title'));
  const cohort=document.querySelector('[aria-labelledby="foundation-cohort-title"]');
  const cities=[...cohort.querySelectorAll('.foundation-cohort-city')];
@@ -580,7 +586,7 @@ try{
  assert.equal(cohort.querySelector('form'),null,'Registration uses the verified external form');
  await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看学费与报名').click());
  assert.equal(document.activeElement.id,'foundation-registration-title');
- assert.equal(window.location.hash,'#foundation');
+ assert.equal(window.location.hash.split('?')[0],'#foundation');
  await act(async()=>[...cohort.querySelectorAll('button')].find(button=>button.textContent==='查看第22期课间复习').click());
  assert.equal(document.activeElement.id,'foundation-cohort-bridge-title');
  const assessment = document.querySelector('[aria-labelledby="foundation-course-title"]');
@@ -814,7 +820,7 @@ try{
    await act(async()=>answer.querySelector('summary').click());
    assert(scenario.open && answer.open);
  }
- assert.equal(window.location.hash,'#foundation');
+ assert.equal(window.location.hash.split('?')[0],'#foundation');
  assert.deepEqual(Object.entries(window.localStorage),recordsBeforePractice);
  const compactBridge=document.querySelector('[aria-labelledby="foundation-cohort-bridge-title"]');
  const finalBridge=document.querySelector('[aria-labelledby="foundation-cohort-final-bridge-title"]');
@@ -896,7 +902,7 @@ try{
    assert(finalClassPrep.open && sample.open);
  }
  assert.deepEqual(Object.entries(window.localStorage),noteRecords);
- assert.equal(window.location.hash,'#foundation');
+ assert.equal(window.location.hash.split('?')[0],'#foundation');
  assert.equal(window.localStorage.getItem(FOUNDATION_BRIDGE_KEY),bridgeRecord);
  assert(document.getElementById('foundation-backup'));
  const saved=new Map();
@@ -920,7 +926,7 @@ try{
    await act(async () => exercise.querySelector('button').click());
    assert.equal(document.activeElement.id, unitId);
    assert.equal(scrolls.at(-1).id, unitId);
-   assert.equal(window.location.hash, '#foundation');
+   assert.equal(window.location.hash.split('?')[0], '#foundation');
    assert.deepEqual(JSON.parse(window.localStorage.getItem(reviewKey)), {
      ...before, unit: Number(unitId.split('-').at(-1)),
    });
@@ -941,7 +947,7 @@ try{
    assert.equal(document.activeElement.id,targetId);
    assert.equal(scrolls.at(-1).id,targetId);
    assert(openRecord.open && openAnswer.open);
-   assert.equal(window.location.hash,'#foundation');
+   assert.equal(window.location.hash.split('?')[0],'#foundation');
    const expected=new Map(beforeSparklingLinks);
    expected.set(d4StorageKey,JSON.stringify({...JSON.parse(expected.get(d4StorageKey)),unit}));
    assert.deepEqual(new Map(Object.entries(window.localStorage)),expected);
