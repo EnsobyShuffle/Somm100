@@ -1,0 +1,46 @@
+.main-shell > .topbar { position:sticky; top:0; z-index:42; background:#f8f8f2; }
+.discover-home { --forest:#213d31; --paper:#f6f5ee; color:var(--forest); max-width:1210px; margin-inline:auto; }
+.discover-title h1 { display:flex; align-items:baseline; gap:.42em; font:normal clamp(42px,5.6vw,77px)/1 Georgia,'Times New Roman',serif; letter-spacing:-.06em; margin:0 0 clamp(17px,2.6vw,33px); }
+.discover-title h1 span { color:#687565; font:500 clamp(15px,1.6vw,21px)/1.4 system-ui,sans-serif; letter-spacing:.08em; }
+.discover-covers { display:grid; grid-template-columns:minmax(0,1.7fr) minmax(0,1fr); gap:clamp(12px,1.8vw,24px); }
+.discover-feature,.discover-rotation { position:relative; min-width:0; isolation:isolate; }
+.discover-slide { display:flex; position:relative; align-items:end; overflow:hidden; min-height:clamp(240px,26vw,360px); height:100%; background:#293f32; color:#fff; text-decoration:none; isolation:isolate; }
+.discover-slide img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-2; }
+.discover-slide::after { content:''; position:absolute; inset:0; z-index:-1; background:linear-gradient(10deg,rgba(9,28,19,.82),rgba(16,35,25,.25) 68%,rgba(16,35,25,.03)); }
+.discover-slide-copy { padding:clamp(20px,2.6vw,38px); padding-bottom:47px; }
+.discover-slide-copy h2 { margin:0 0 12px; max-width:12ch; color:inherit; font:400 clamp(32px,4.2vw,62px)/.99 Georgia,'Times New Roman',serif; letter-spacing:-.045em; text-wrap:balance; }
+.discover-slide-copy span { font:550 13px/1.55 system-ui,sans-serif; letter-spacing:.04em; }
+.discover-rotation .discover-slide { background:#e7ebe1; color:#264734; align-items:start; }
+.discover-rotation .discover-slide::after { background:linear-gradient(165deg,#e9ede4 5%,#e9ede4f2 26%,#e9ede440 68%,transparent); }
+.discover-rotation .discover-slide-copy { padding-bottom:0; }
+.discover-rotation .discover-slide-copy h2 { font-size:clamp(30px,3.8vw,56px); }
+.discover-controls { display:flex; align-items:center; position:absolute; left:clamp(15px,2.4vw,34px); bottom:7px; border-radius:20px; color:white; }
+.discover-controls button { display:grid; place-items:center; width:25px; height:32px; border:0; padding:0; color:inherit; background:transparent; cursor:pointer; }
+.discover-controls i { width:6px; height:6px; border-radius:3px; background:currentColor; opacity:.6; }
+.discover-controls [aria-pressed=true] i { width:17px; opacity:1; }
+.discover-rotation .discover-controls { background:#233a2de8; padding-inline:5px; }
+.discover-destinations { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); column-gap:clamp(16px,2vw,30px); margin:clamp(16px,2.7vw,36px) 0 18px; }
+.discover-destinations a { border-bottom:1px solid #cbd2c3; display:flex; align-items:center; gap:13px; padding:17px 2px; color:inherit; text-decoration:none; min-width:0; }
+.discover-destinations a:hover { color:#496a42; background:#edf0e7; }
+.discover-destinations a svg { flex:none; color:#62785e; }
+.discover-destinations strong,.discover-destinations small { display:block; }
+.discover-destinations strong { font-size:15px; font-weight:550; line-height:1.5; }
+.discover-destinations small { color:#657162; font-size:12px; margin-top:2px; }
+.discover-home :is(a,button):focus-visible { outline:3px solid #ac7335; outline-offset:2px; }
+.library-browse-links { display:flex; flex-wrap:wrap; gap:12px 22px; margin:12px 0 22px; }
+@media(max-width:900px) { .discover-destinations { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:640px) {
+ .discover-covers { grid-template-columns:minmax(0,1fr); gap:12px; }
+ .discover-feature .discover-slide { min-height:210px; }
+ .discover-feature .discover-slide-copy { padding:20px 22px 45px; }
+ .discover-rotation .discover-slide { min-height:116px; }
+ .discover-rotation .discover-slide img { width:53%; inset:0 0 0 auto; }
+ .discover-rotation .discover-slide::after { background:linear-gradient(90deg,#e6ebdf 40%,#e6ebdfda 53%,transparent 78%); }
+ .discover-rotation .discover-slide-copy { padding:14px 18px 38px; }
+ .discover-rotation .discover-slide-copy h2 { margin-bottom:3px; font-size:29px; }
+ .discover-rotation .discover-controls { background:transparent; color:#2c4c39; left:11px; bottom:1px; padding:0; }
+ .discover-controls button { height:29px; }
+ .discover-destinations { column-gap:18px; }
+ .discover-destinations a { padding:12px 0; gap:9px; }
+ .discover-destinations strong { font-size:14px; }
+}
