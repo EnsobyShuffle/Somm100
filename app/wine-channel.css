@@ -41,6 +41,7 @@
 .wc-play { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 52px; height: 52px; display: grid; place-items: center; border-radius: 50%; border: 1px solid #ffffffb3; background: #16241fcc; color: #fff; }
 .wc-play svg { margin-left: 3px; }
 .wc-duration { position: absolute; right: 9px; bottom: 9px; border-radius: 3px; background: #14201ce6; color: #fff; padding: 2px 6px; font-size: 11px; }
+.wc-player .wc-player-actions { flex-wrap: wrap; gap: 4px 14px; }
 .wc-player > div { display: flex; align-items: center; justify-content: space-between; padding: 2px 14px; }
 .wc-video-copy { padding: 14px 16px 16px; }
 .wc-byline { align-items: baseline; font-size: 11px; }
