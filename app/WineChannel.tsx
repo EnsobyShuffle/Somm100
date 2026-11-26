@@ -10,6 +10,8 @@ import youtube from '../data/wine-channel-youtube-featured-01.json';
 import mickey from '../data/wine-channel-mickey.json';
 import dictionary from '../data/knowledge-dictionary.json';
 import {findTerm, normalizeTerm} from '../lib/term-lookup';
+import BilibiliPlayer from './BilibiliPlayer';
+import {bilibiliPlayerUrl} from '../lib/bilibili-playback';
 import './wine-channel.css';
 
 type Platform = 'Bilibili' | 'YouTube';
@@ -54,7 +56,7 @@ export function playerUrl(v: Video) {
   if (!media) return null;
   return media.platform === 'YouTube'
     ? 'https://www.youtube-nocookie.com/embed/'+media.id+'?rel=0&playsinline=1&autoplay=1'
-    : 'https://player.bilibili.com/player.html?bvid='+media.id+'&autoplay=1&danmaku=0';
+    : bilibiliPlayerUrl(media.id, v.url);
 }
 function runtime(seconds: number) {
   const minutes = Math.floor(seconds / 60);
@@ -73,7 +75,8 @@ function VideoCard({video:v, playing, onPlay, onTag, onRemove}: {
     {!!v.durationSeconds && <span className="wc-duration">{runtime(v.durationSeconds)}</span>}
   </>;
   return <article className="wc-video">
-    {playing && player ? <div className="wc-player">
+    {playing && media?.platform === 'Bilibili' ? <BilibiliPlayer key={v.id} bvid={media.id} video={v} close={()=>onPlay(null)}/>
+      : playing && player ? <div className="wc-player">
       <iframe title={v.title} src={player} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/>
       <div><a href={v.url} target="_blank" rel="noreferrer">在 {v.platform} 打开原片</a><button onClick={()=>onPlay(null)}>关闭播放</button></div>
     </div> : player ? <button className="wc-cover" aria-label={'播放 '+v.title} onClick={()=>onPlay(v.id)}>{poster}</button>
