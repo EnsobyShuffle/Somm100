@@ -13,6 +13,7 @@ import {findTerm, normalizeTerm} from '../lib/term-lookup';
 import BilibiliPlayer from './BilibiliPlayer';
 import {bilibiliPlayerUrl} from '../lib/bilibili-playback';
 import './wine-channel.css';
+import './wine-channel-player.css';
 
 type Platform = 'Bilibili' | 'YouTube';
 type Video = {

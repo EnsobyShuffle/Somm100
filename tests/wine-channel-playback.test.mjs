@@ -40,3 +40,14 @@ test('a withdrawn source is distinguished from an unindexed personal link', asyn
   assert.equal(wasUnavailable('BV1234567890'), false);
   assert.equal(wasUnavailable(recorded[0][0]), false);
 });
+
+test('the in-frame manual option waits for a tap inside the provider and keeps the same film and part', async () => {
+  const {bilibiliPlayerUrl} = await import('../lib/bilibili-playback.ts');
+  const [bvid, , cid] = recorded[0];
+  const params = new URL(bilibiliPlayerUrl(bvid, 'https://www.bilibili.com/video/' + bvid, false)).searchParams;
+  assert.equal(params.get('cid'), String(cid));
+  assert.equal(params.get('autoplay'), 'false');
+  assert.equal(params.get('callAppMode'), 'false');
+  assert.equal(params.get('webFull'), 'false');
+  assert.equal(params.get('muted'), 'false');
+});

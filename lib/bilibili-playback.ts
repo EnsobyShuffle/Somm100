@@ -6,10 +6,14 @@ export function wasUnavailable(bvid: string) {
   return indexed[bvid] === null;
 }
 
-export function bilibiliPlayerUrl(bvid: string, originalUrl: string) {
+export function bilibiliPlayerUrl(bvid: string, originalUrl: string, autoplay = true) {
   const requestedPart = Number(new URL(originalUrl).searchParams.get('p'));
   const part = Number.isSafeInteger(requestedPart) && requestedPart > 0 ? requestedPart : 1;
-  const params = new URLSearchParams({ bvid, p: String(part), autoplay: 'true', danmaku: 'false', poster: 'true' });
+  const params = new URLSearchParams({
+    bvid, p: String(part), autoplay: String(autoplay), muted: 'false', poster: 'true',
+    danmaku: 'false', danmakuClosed: 'true', callAppMode: 'false', noRecommend: 'true',
+    webFull: 'false', portraitFullScreen: 'false', hasMuteButton: 'true', isOutside: 'true'
+  });
   const record = indexed[bvid];
   if (record) {
     params.set('aid', String(record.aid));
